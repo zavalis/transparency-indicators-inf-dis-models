@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T01:02:37Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6405508" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6405508</identifier>
+        <datestamp>2019-03-19</datestamp>
+        <setSpec>ece</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id>
+              <journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id>
+              <journal-id journal-id-type="publisher-id">ECE3</journal-id>
+              <journal-title-group>
+                <journal-title>Ecology and Evolution</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-7758</issn>
+              <publisher>
+                <publisher-name>John Wiley and Sons Inc.</publisher-name>
+                <publisher-loc>Hoboken</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6405508</article-id>
+              <article-id pub-id-type="pmcid">PMC6405508</article-id>
+              <article-id pub-id-type="pmc-uid">6405508</article-id>
+              <article-id pub-id-type="pmid">30891185</article-id>
+              <article-id pub-id-type="doi">10.1002/ece3.4738</article-id>
+              <article-id pub-id-type="publisher-id">ECE34738</article-id>
+              <article-categories>
+                <subj-group subj-group-type="overline">
+                  <subject>Original Research</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Modeling spatiotemporal abundance of mobile wildlife in highly variable environments using boosted GAMLSS hurdle models</article-title>
+                <alt-title alt-title-type="left-running-head">SMITH et al.</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="ece34738-cr-0001" contrib-type="author">
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>Adam</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="ece34738-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="ece34738-curr-0001">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib id="ece34738-cr-0002" contrib-type="author">
+                  <name>
+                    <surname>Hofner</surname>
+                    <given-names>Benjamin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="ece34738-aff-0002">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="ece34738-curr-0002">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib id="ece34738-cr-0003" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lamb</surname>
+                    <given-names>Juliet S.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0358-3240</contrib-id>
+                  <address>
+                    <email>jslamb@uri.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="ece34738-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib id="ece34738-cr-0004" contrib-type="author">
+                  <name>
+                    <surname>Osenkowski</surname>
+                    <given-names>Jason</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="ece34738-aff-0003">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib id="ece34738-cr-0005" contrib-type="author">
+                  <name>
+                    <surname>Allison</surname>
+                    <given-names>Taber</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="ece34738-aff-0004">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib id="ece34738-cr-0006" contrib-type="author">
+                  <name>
+                    <surname>Sadoti</surname>
+                    <given-names>Giancarlo</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3191-8167</contrib-id>
+                  <xref ref-type="aff" rid="ece34738-aff-0005">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib id="ece34738-cr-0007" contrib-type="author">
+                  <name>
+                    <surname>McWilliams</surname>
+                    <given-names>Scott R.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="ece34738-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib id="ece34738-cr-0008" contrib-type="author">
+                  <name>
+                    <surname>Paton</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="ece34738-aff-0001">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="ece34738-aff-0001">
+                <label>
+                  <sup>1</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Natural Resources Science</named-content>
+                <institution>University of Rhode Island</institution>
+                <named-content content-type="city">Kingston</named-content>
+                <named-content content-type="country-part">Rhode Island</named-content>
+              </aff>
+              <aff id="ece34738-aff-0002">
+                <label>
+                  <sup>2</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Medical Informatics, Biometry and Epidemiology</named-content>
+                <institution>Friedrich‐Alexander‐University Erlangen‐Nuremberg</institution>
+                <named-content content-type="city">Erlangen</named-content>
+                <country country="DE">Germany</country>
+              </aff>
+              <aff id="ece34738-aff-0003">
+                <label>
+                  <sup>3</sup>
+                </label>
+                <institution>Rhode Island Department of Environmental Management</institution>
+                <named-content content-type="city">West Kingston</named-content>
+                <named-content content-type="country-part">Rhode Island</named-content>
+              </aff>
+              <aff id="ece34738-aff-0004">
+                <label>
+                  <sup>4</sup>
+                </label>
+                <institution>American Wind Wildlife Institute</institution>
+                <named-content content-type="city">Washington</named-content>
+                <named-content content-type="country-part">District of Columbia</named-content>
+              </aff>
+              <aff id="ece34738-aff-0005">
+                <label>
+                  <sup>5</sup>
+                </label>
+                <named-content content-type="organisation-division">Department of Geography</named-content>
+                <institution>University of Nevada</institution>
+                <named-content content-type="city">Reno</named-content>
+                <named-content content-type="country-part">Nevada</named-content>
+              </aff>
+              <aff id="ece34738-curr-0001"><label><sup>6</sup></label>Present address:
+<named-content content-type="organisation-division">United States Fish and Wildlife Service, National Wildlife Refuge System</named-content><institution>Inventory and Monitoring Branch</institution><named-content content-type="city">Athens</named-content><named-content content-type="country-part">Georgia</named-content></aff>
+              <aff id="ece34738-curr-0002"><label><sup>7</sup></label>Present address:
+<named-content content-type="organisation-division">Section Biostatistics</named-content><institution>Paul‐Ehrlich‐Institut</institution><named-content content-type="city">Langen</named-content><country country="DE">Germany</country></aff>
+              <author-notes>
+                <corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Juliet S. Lamb, Department of Natural Resources Science, University of Rhode Island, Kingston, RI.<break/>
+Email: <email>jslamb@uri.edu</email><break/></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>14</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>9</volume>
+              <issue>5</issue>
+              <issue-id pub-id-type="doi">10.1002/ece3.2019.9.issue-5</issue-id>
+              <fpage>2346</fpage>
+              <lpage>2364</lpage>
+              <history>
+                <date date-type="received">
+                  <day>31</day>
+                  <month>5</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>11</day>
+                  <month>10</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>10</month>
+                  <year>2018</year>
+                </date>
+              </history>
+              <permissions>
+                <!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Published by John Wiley & Sons Ltd. <copyright-statement>-->
+                <copyright-statement content-type="article-copyright">© 2018 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement>
+                <license license-type="creativeCommonsBy">
+                  <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-9-2346.pdf"/>
+              <abstract id="ece34738-abs-0001">
+                <title>Abstract</title>
+                <p>Modeling organism distributions from survey data involves numerous statistical challenges, including accounting for zero‐inflation, overdispersion, and selection and incorporation of environmental covariates. In environments with high spatial and temporal variability, addressing these challenges often requires numerous assumptions regarding organism distributions and their relationships to biophysical features. These assumptions may limit the resolution or accuracy of predictions resulting from survey‐based distribution models. We propose an iterative modeling approach that incorporates a negative binomial hurdle, followed by modeling of the relationship of organism distribution and abundance to environmental covariates using generalized additive models (GAM) and generalized additive models for location, scale, and shape (GAMLSS). Our approach accounts for key features of survey data by separating binary (presence‐absence) from count (abundance) data, separately modeling the mean and dispersion of count data, and incorporating selection of appropriate covariates and response functions from a suite of potential covariates while avoiding overfitting. We apply our modeling approach to surveys of sea duck abundance and distribution in Nantucket Sound (Massachusetts, USA), which has been proposed as a location for offshore wind energy development. Our model results highlight the importance of spatiotemporal variation in this system, as well as identifying key habitat features including distance to shore, sediment grain size, and seafloor topographic variation. Our work provides a powerful, flexible, and highly repeatable modeling framework with minimal assumptions that can be broadly applied to the modeling of survey data with high spatiotemporal variability. Applying GAMLSS models to the count portion of survey data allows us to incorporate potential overdispersion, which can dramatically affect model results in highly dynamic systems. Our approach is particularly relevant to systems in which little a priori knowledge is available regarding relationships between organism distributions and biophysical features, since it incorporates simultaneous selection of covariates and their functional relationships with organism responses.</p>
+              </abstract>
+              <kwd-group kwd-group-type="author-generated">
+                <kwd id="ece34738-kwd-0001">distribution</kwd>
+                <kwd id="ece34738-kwd-0002">GAM</kwd>
+                <kwd id="ece34738-kwd-0003">gradient descent boosting</kwd>
+                <kwd id="ece34738-kwd-0004">hurdle models</kwd>
+                <kwd id="ece34738-kwd-0005">Nantucket Sound</kwd>
+                <kwd id="ece34738-kwd-0006">sea ducks</kwd>
+                <kwd id="ece34738-kwd-0007">surveys</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>Massachusetts Environmental Trust</funding-source>
+                </award-group>
+                <award-group>
+                  <funding-source>Sea Duck Joint Venture</funding-source>
+                </award-group>
+                <award-group>
+                  <funding-source>Rhode Island Department of Environmental Management</funding-source>
+                </award-group>
+                <award-group>
+                  <funding-source>Foundation M</funding-source>
+                </award-group>
+                <award-group>
+                  <funding-source>Island Foundation</funding-source>
+                </award-group>
+                <award-group>
+                  <funding-source>Mass Audubon</funding-source>
+                </award-group>
+                <award-group>
+                  <funding-source>Mass Technology Collaborative</funding-source>
+                </award-group>
+                <award-group>
+                  <funding-source>University of Rhode Island</funding-source>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="8"/>
+                <table-count count="1"/>
+                <page-count count="19"/>
+                <word-count count="31131"/>
+              </counts>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>source-schema-version-number</meta-name>
+                  <meta-value>2.0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>component-id</meta-name>
+                  <meta-value>ece34738</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>March 2019</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>details-of-publishers-convertor</meta-name>
+                  <meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.6.1 mode:remove_FC converted:07.03.2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+            <notes>
+              <p content-type="self-citation">
+                <mixed-citation publication-type="journal" id="ece34738-cit-1001"><string-name><surname>Smith</surname><given-names>A</given-names></string-name>, <string-name><surname>Hofner</surname><given-names>B</given-names></string-name>, <string-name><surname>Lamb</surname><given-names>JS</given-names></string-name>, et al. <article-title>Modeling spatiotemporal abundance of mobile wildlife in highly variable environments using boosted GAMLSS hurdle models</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2019</year>;<volume>9</volume>:<fpage>2346</fpage>–<lpage>2364</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.4738</pub-id>
+</mixed-citation>
+              </p>
+            </notes>
+          </front>
+          <body>
+            <sec id="ece34738-sec-0001">
+              <label>1</label>
+              <title>INTRODUCTION</title>
+              <p>Understanding how the spatial distribution and abundance of an organism responds to biophysical features is fundamental to many aspects of ecology and conservation (Schröder &amp; Seppelt, <xref rid="ece34738-bib-0093" ref-type="ref">2006</xref>). Since continuous sampling of the entire range or population of a species is usually impossible, distribution mapping typically involves a series of steps that include surveying a representative subset of the area or population of interest at various time periods, fitting models to represent the relationships of observed data to environmental covariates, using these models to predict utilization of un‐sampled areas or time periods based on biophysical habitat features, and finally validating predictions with on‐the‐ground observations (Borchers, Buckland, &amp; Zucchini, <xref rid="ece34738-bib-0005" ref-type="ref">2002</xref>; Certain &amp; Bretagnolle, <xref rid="ece34738-bib-0010" ref-type="ref">2008</xref>; Kinlan, Menza, &amp; Huettmann, <xref rid="ece34738-bib-0055" ref-type="ref">2012</xref>; Nur et al., <xref rid="ece34738-bib-0082" ref-type="ref">2011</xref>). Although such model‐based approaches are widely used, their implementation requires addressing complex statistical challenges (Guisan &amp; Thuiller, <xref rid="ece34738-bib-0031" ref-type="ref">2005</xref>), particularly for mobile organisms whose distributions and habitat requirements may vary in space and time (Runge, Martin, Possingham, Willis, &amp; Fuller, <xref rid="ece34738-bib-0090" ref-type="ref">2014</xref>).</p>
+              <p>Spatiotemporal variability and uncertainty surrounding both the distribution of a species and key environmental covariates represent frequent challenges to the development of predictive models. Landscape‐ or population‐scale occupancy models may lack sufficient resolution to accurately address small‐scale spatial variation in habitat use; conversely, small‐scale models may be too precise to apply across landscapes (Johnson, <xref rid="ece34738-bib-0052" ref-type="ref">1980</xref>; Johnson, Nielsen, Merrill, McDonald, &amp; Boyce, <xref rid="ece34738-bib-0050" ref-type="ref">2006</xref>; Johnson, Seip, &amp; Boyce, <xref rid="ece34738-bib-0051" ref-type="ref">2004</xref>). Error can be introduced by spatial or temporal mismatches between occurrence estimates, environmental variables, and questions of interest (Austin &amp; Van Niel, <xref rid="ece34738-bib-0002" ref-type="ref">2011</xref>; Guisan &amp; Thuiller, <xref rid="ece34738-bib-0031" ref-type="ref">2005</xref>; Mainali et al., <xref rid="ece34738-bib-0067" ref-type="ref">2015</xref>). In addition to variability, uncertainty surrounding the biotic and abiotic factors determining the distribution of a species can also limit the development and implementation of model‐based distribution estimates (Thuiller, <xref rid="ece34738-bib-0101" ref-type="ref">2004</xref>). Because a priori knowledge of how occupancy and abundance relate to biophysical features is often lacking, survey data themselves can be used to select key environmental covariates (Guisan &amp; Thuiller, <xref rid="ece34738-bib-0031" ref-type="ref">2005</xref>). This selection process requires choosing appropriate habitat variables from among a suite of intercorrelated covariates while avoiding overfitting (Hoeting, <xref rid="ece34738-bib-0035" ref-type="ref">2009</xref>; Merow et al., <xref rid="ece34738-bib-0076" ref-type="ref">2014</xref>). Most predictive models involve assumptions about the form of the response function between the occurrence or abundance of an organism and individual biophysical features. However, the information needed to inform these assumptions is typically unknown prior to analysis, which may lead to poor model performance (Austin, <xref rid="ece34738-bib-0001" ref-type="ref">2007</xref>; Mainali et al., <xref rid="ece34738-bib-0067" ref-type="ref">2015</xref>). Temporal variation in both the distribution and habitat preferences of a species can introduce further uncertainty, because organisms’ responses to changes in habitat conditions may not be instantaneous and may vary across the annual cycle (Selonen, Varjonen, &amp; Korpimäki, <xref rid="ece34738-bib-0095" ref-type="ref">2015</xref>; Yamanaka, Akasaka, Yamaura, Kaneko, &amp; Nakamura, <xref rid="ece34738-bib-0109" ref-type="ref">2015</xref>). Furthermore, both occupancy and abundance may respond not only to biophysical habitat features, but also to the distribution of other organisms such as conspecifics, competitors, predators, or prey (Blackburn, Cassey, &amp; Gaston, <xref rid="ece34738-bib-0004" ref-type="ref">2006</xref>; Guisan &amp; Thuiller, <xref rid="ece34738-bib-0031" ref-type="ref">2005</xref>).</p>
+              <p>Aside from their ecological complexity, survey data can present several statistical challenges to modeling and interpretation. Surveys can be modeled using occupancy (presence/absence) or abundance (numerical) approaches, which measure different aspects of habitat use and have different distributions and response functions. Given the additional statistical complexity involved in interpreting count data, abundance estimates are often overlooked when mapping the distribution of organisms (He &amp; Gaston, <xref rid="ece34738-bib-0034" ref-type="ref">2000</xref>); however, occupancy estimates alone may provide incomplete or misleading information about habitat quality (Pulliam, <xref rid="ece34738-bib-0085" ref-type="ref">2000</xref>). Variation in abundance is often a key component of a species’ response to habitat quality and is crucial for accurately predicting species distributions (Howard, Stephens, Pearce‐Higgins, Gregory, &amp; Willis, <xref rid="ece34738-bib-0045" ref-type="ref">2014</xref>; Johnston et al., <xref rid="ece34738-bib-0053" ref-type="ref">2015</xref>). The statistically challenging features of count data—particularly overdispersion, in which the variance of the data exceeds the mean—may in fact represent important biological responses to environmental features and conditions (McMahon, Purvis, Sheridan, Siriwardena, &amp; Parnell, <xref rid="ece34738-bib-0075" ref-type="ref">2017</xref>; Richards, <xref rid="ece34738-bib-0088" ref-type="ref">2008</xref>). Modeling count data also often requires accounting for zero‐inflation (Martin et al., <xref rid="ece34738-bib-0072" ref-type="ref">2005</xref>), non‐linear responses to covariates (Cunningham &amp; Lindenmayer, <xref rid="ece34738-bib-0017" ref-type="ref">2005</xref>), and spatial and temporal autocorrelation (Hoeting, <xref rid="ece34738-bib-0035" ref-type="ref">2009</xref>), which require a highly flexible modeling approach with few assumptions about either underlying distribution or response functions.</p>
+              <p>Generalized additive models (GAMs: Hastie &amp; Tibshirani, <xref rid="ece34738-bib-0033" ref-type="ref">1990</xref>) and their extension, GAMs for location, scale, and shape (GAMLSS: Rigby &amp; Stasinopoulos, <xref rid="ece34738-bib-0089" ref-type="ref">2005</xref>) offer several features that make them well‐suited for modelling complex, uncertain, or variable relationships between survey data and environmental covariates. GAMs do not assume linear effects on the response but flexibly adapt to the observed data, which makes them especially applicable to systems in which the form of the relationship between species occupancy, abundance, and underlying environmental conditions is often non‐linear and unknown (Guisan &amp; Zimmermann, <xref rid="ece34738-bib-0032" ref-type="ref">2000</xref>). Moreover, unlike other generalized modeling approaches, GAMLSS allow both the mean and dispersion of the response to be modeled as a function of environmental covariates (Rigby &amp; Stasinopoulos, <xref rid="ece34738-bib-0089" ref-type="ref">2005</xref>), which incorporates additional information about count data not reflected by mean values alone (McMahon et al., <xref rid="ece34738-bib-0075" ref-type="ref">2017</xref>). Despite these promising features, although GAM has recently gained popularity as a predictive distribution modeling approach (Miller, Burt, Rexstad, &amp; Thomas, <xref rid="ece34738-bib-0077" ref-type="ref">2013</xref>), GAMLSS have yet to be widely adopted for modeling the spatial distribution of species based on biophysical features.</p>
+              <p>We propose a powerful, iterative modeling approach that combines GAM and GAMLSS in a gradient descent boosting framework (Hofner, Mayr, &amp; Schmid, <xref rid="ece34738-bib-0041" ref-type="ref">2016</xref>; Hothorn, Bühlmann, Kneib, Schmid, &amp; Hofner, <xref rid="ece34738-bib-0044" ref-type="ref">2010</xref>; Mayr, Fenske, Hofner, Kneib, &amp; Schmid, <xref rid="ece34738-bib-0073" ref-type="ref">2012</xref>) to address the challenges of predicting occupancy and abundance from survey data in highly variable environments. Our approach independently evaluates environmental covariates for both occupancy and abundance, while allowing response functions to vary. We generate a single distribution estimate based on both occupancy and abundance that can be applied to environments with high levels of spatiotemporal variation and uncertainty. As a case study, we applied our proposed modeling framework to sea ducks (tribe Mergini) in Nantucket Bay, MA, USA. Understanding the winter habitat use and distribution of sea ducks in southern New England is crucial for the siting of proposed offshore wind farms (Bradbury et al., <xref rid="ece34738-bib-0007" ref-type="ref">2014</xref>; Langston, <xref rid="ece34738-bib-0060" ref-type="ref">2013</xref>); however, the implicitly high spatial and temporal variability of sea duck distributions, as well as poor understanding of habitat factors driving temporal and spatial variation in their distribution, has previously limited fine‐scale prediction of habitat use in the proposed construction area (Bowman, Silverman, Gilliland, &amp; Leirness, <xref rid="ece34738-bib-0006" ref-type="ref">2015</xref>). We demonstrate an application of our modeling framework to informing conservation planning in the face of both high variability and ecological uncertainty by developing models from systematic aerial survey data of sea ducks in this system.</p>
+            </sec>
+            <sec id="ece34738-sec-0002">
+              <label>2</label>
+              <title>MATERIALS AND METHODS</title>
+              <p>Our predictive approach incorporates five distinct methodological steps: (a) survey data collection, (b) separation of presence from abundance, (c) integration of environmental covariates, (d) synthesis of presence and abundance models, and (e) validation, which correspond to numbered sections in the model schematic (Figure <xref rid="ece34738-fig-0001" ref-type="fig">1</xref>). We describe these five steps sequentially below, along with details of how we applied the modeling process to our case study of sea ducks in Nantucket Sound. All analyses were conducted in R (R Core Team, <xref rid="ece34738-bib-0086" ref-type="ref">2018</xref>) with the add‐on packages gamboostLSS (Hofner et al., <xref rid="ece34738-bib-0042" ref-type="ref">2017</xref>), mboost (Hothorn, Buehlmann, Kneib, Schmid, &amp; Hofner, <xref rid="ece34738-bib-0043" ref-type="ref">2017</xref>), and stabs (Hofner &amp; Hothorn, <xref rid="ece34738-bib-0037" ref-type="ref">2017</xref>).</p>
+              <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0001" orientation="portrait" position="float">
+                <label>Figure 1</label>
+                <caption>
+                  <p>Schematic diagram of our modeling approach: (1) conducting initial transect surveys; (2) extrapolating occupancy probability and conditional abundance for each grid cell; (3) modeling relationships between occupancy, abundance, and habitat variables, (4) estimating unconditional abundance based on habitat characteristics, and (5) generating predictive estimates of occupancy and abundance over the full region. Detailed methodology for each step is provided in the corresponding numbered subsections in Section <xref rid="ece34738-sec-0002" ref-type="sec">2</xref>
+</p>
+                </caption>
+                <graphic id="nlm-graphic-3" xlink:href="ECE3-9-2346-g001"/>
+              </fig>
+              <sec id="ece34738-sec-0003">
+                <label>2.1</label>
+                <title>Surveys</title>
+                <sec id="ece34738-sec-0004">
+                  <label>2.1.1</label>
+                  <title>Study system</title>
+                  <p>We conducted fieldwork throughout Nantucket Sound in Massachusetts, USA (Figure <xref rid="ece34738-fig-0002" ref-type="fig">2</xref>). Our study area encompassed ca. 1,500 km<sup>2</sup> of Nantucket Sound, was relatively shallow (generally &lt;20 m deep), and included some of the most important sea duck wintering habitat in the western Atlantic (Silverman, Saalfeld, Leirness, &amp; Koneff, <xref rid="ece34738-bib-0096" ref-type="ref">2013</xref>; White, Veit, &amp; Perry, <xref rid="ece34738-bib-0105" ref-type="ref">2009</xref>). The primary species of sea ducks found in Nantucket Sound were Common Eider (<italic>Somateria mollissima</italic>; hereafter eider), Black Scoter (<italic>Melanitta. americana</italic>), Surf Scoter (<italic>M. perspicillata</italic>), White‐winged Scoter (<italic>M. deglandi</italic>), and Long‐tailed Duck (<italic>Clangula hyemalis</italic>). Approximately 62 km<sup>2</sup> of Horseshoe Shoal in northwestern Nantucket Sound is fully permitted for offshore wind energy development (OWED) (Figure <xref rid="ece34738-fig-0002" ref-type="fig">2</xref>; Santora, Hade, &amp; Odell, <xref rid="ece34738-bib-0091" ref-type="ref">2004</xref>), although the proposed development was recently withdrawn.</p>
+                  <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0002" orientation="portrait" position="float">
+                    <label>Figure 2</label>
+                    <caption>
+                      <p>Aerial strip transect tracks (gray lines) conducted during winter (October–April, 2003–2005) sea duck surveys (<italic>n</italic> = 30) in Nantucket Sound, Massachusetts, USA. The grid indicates the extent of the 1,100 km<sup>2</sup> study area and its division into 504 2.25 km<sup>2</sup> segments. The polygon (thick black line) in northwest Nantucket Sound indicates a 62 km<sup>2</sup> permitted wind energy development on Horseshoe Shoal</p>
+                    </caption>
+                    <graphic id="nlm-graphic-5" xlink:href="ECE3-9-2346-g002"/>
+                  </fig>
+                </sec>
+                <sec id="ece34738-sec-0005">
+                  <label>2.1.2</label>
+                  <title>Survey design</title>
+                  <p>During the boreal winters of 2003–2005, we conducted 30 (2003/2004:13, 2004/2005:10, 2005/2006:7) standardized aerial strip‐transect surveys (Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>) (Figure <xref rid="ece34738-fig-0002" ref-type="fig">2</xref>). Surveys occurred primarily from November–March (<italic>n</italic> = 27), with occasional October (<italic>n</italic> = 1) or April (<italic>n</italic> = 2) surveys. During each survey, we flew along 15 parallel (ca. 2.5 km apart), roughly north‐south transects (Figure <xref rid="ece34738-fig-0002" ref-type="fig">2</xref>) using a high‐wing, twin‐engine Cessna Skymaster 337. We flew at an average altitude of 152 m and speed of 167 km/hr (90 kts), the slowest speed at which the aircraft could safely fly. This altitude allowed us to identify most birds at the sea surface and reduced disturbance (i.e., flushing birds to another part of the study area and potential double counting). We conducted surveys only on days with wind speeds ≤15 kts and good visibility (&gt;15 km). Surveys had an average duration of ~2.5 hr and occurred between 0900 to 1600 hours to ensure that birds had completed any post‐dawn movements (Davis, <xref rid="ece34738-bib-0018" ref-type="ref">1997</xref>) but had yet to initiate pre‐sunset movements from feeding to roosting areas; this time window also reduced glare for observers due to low sun angles.</p>
+                  <p>On each survey flight, two observers used their unaided eyes to continuously detect individuals or flocks, identified sea ducks to species with the aid of binoculars as needed, and communicated the number, species, and behavior (on the water or flying) of observed ducks to a recorder who entered georeferenced locations using dLOG (Ford, <xref rid="ece34738-bib-0027" ref-type="ref">1999</xref>). Observers monitored the sea surface on their side of the plane in a ca. 91 m‐wide transect between ca. 56 and 147 m from the plane. The narrow strip width ensured birds were detectable and identifiable with the naked eye and limited situations in which ducks were too abundant or spread over too wide an area to count accurately. We attempted to limit perception bias (i.e., to miss few individuals present to be counted; Marsh &amp; Sinclair, <xref rid="ece34738-bib-0071" ref-type="ref">1989</xref>) by using low flight altitudes and narrow transect widths (Buckland et al., <xref rid="ece34738-bib-0008" ref-type="ref">2012</xref>; Certain &amp; Bretagnolle, <xref rid="ece34738-bib-0010" ref-type="ref">2008</xref>); however, our survey methods did not address potential undercounting of individuals that were diving during flyovers, and therefore may not have been present to be detected. Transect dimensions resulted in the sampling of ~6% (median; 68.4 km<sup>2</sup>) of the study area during a survey.</p>
+                  <p>Due to the difficulties associated with identifying to species the three species of scoters, we pooled all scoter observations (hereafter, scoters), while we modeled Common Eider and Long‐tailed Duck as separate species. While using pooled data from multiple scoter species reduces our ability to make inferences about species‐specific ecology and habitat use, scoters overlap broadly in shared wintering habitat across the study region and are generally subject to common conservation and management regimes. We subsequently consolidated counts for each species (eider and Long‐tailed Duck) or species group (scoters) into 2.25 km<sup>2</sup> segments (Figure <xref rid="ece34738-fig-0002" ref-type="fig">2</xref>); this resolution (1.5 km × 1.5 km) corresponded approximately to the coarsest level of resolution of biophysical covariates (see below).</p>
+                </sec>
+              </sec>
+              <sec id="ece34738-sec-0006">
+                <label>2.2</label>
+                <title>Presence and abundance</title>
+                <p>We related spatiotemporal variation in sea duck occupancy (i.e., probability of presence) and abundance to potentially relevant biophysical and spatiotemporal covariates. Because we observed a high incidence of zero counts (e.g., no eiders were detected in 75% of segment observations), and we assumed our survey design led to a low incidence of false zeros in study segments (Certain &amp; Bretagnolle, <xref rid="ece34738-bib-0010" ref-type="ref">2008</xref>), we applied a negative binomial hurdle model (Manté, Kidé, Yao‐Lafourcade, &amp; Mérigot, <xref rid="ece34738-bib-0070" ref-type="ref">2016</xref>). This approach allowed us to model presence/absence in all grid cells, and abundance only in cells where at least one individual was detected.</p>
+                <p>We first used a logistic regression model to represent the probability of occurrence of at least one individual (hereafter, the occupancy model) in a given segment (Figure <xref rid="ece34738-fig-0001" ref-type="fig">1</xref>:2). We then used a truncated negative binomial model to represent the abundance of sea ducks in that segment conditional on their presence (hereafter, the count model) (Figure <xref rid="ece34738-fig-0001" ref-type="fig">1</xref>:2). Occupancy and abundance values correspond to the probability of sea duck presence (occupancy) or sea duck abundance in a 1.5 km × ca. 180 m transect through a given segment during a single survey. We generated separate hurdle models for two sea duck species (Common Eider and Long‐tailed Duck) and one species group (scoters; Zipkin et al., <xref rid="ece34738-bib-0111" ref-type="ref">2010</xref>).</p>
+              </sec>
+              <sec id="ece34738-sec-0007">
+                <label>2.3</label>
+                <title>Environmental covariates</title>
+                <sec id="ece34738-sec-0008">
+                  <label>2.3.1</label>
+                  <title>Covariates</title>
+                  <p>Distribution of large marine vertebrates is primarily a function of the distribution of preferred prey items. Since we did not have direct measurements of the availability of sea duck benthic prey (e.g., mollusks and crustaceans), we evaluated biophysical covariates expected to influence the distribution and abundance of these organisms, including water depth, sediment grain size, and primary productivity (Table <xref rid="ece34738-tbl-0001" ref-type="table">1</xref>). Additionally, we included interactions with time that allowed the effects of two ecological covariates (water depth and relative sea surface temperature) and all spatial covariates to vary over time within a given winter. We standardized (i.e., mean centered and scaled) all continuous covariates.</p>
+                  <table-wrap id="ece34738-tbl-0001" xml:lang="en" orientation="portrait" position="float">
+                    <label>Table 1</label>
+                    <caption>
+                      <p>Biophysical and survey covariates used to evaluate the distribution and abundance of Common Eider, Black, Surf, and White‐winged Scoter, and Long‐tailed Duck in Nantucket Sound during winters 2003–2005</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <col style="border-right:solid 1px #000000" span="1"/>
+                      <col style="border-right:solid 1px #000000" span="1"/>
+                      <col style="border-right:solid 1px #000000" span="1"/>
+                      <col style="border-right:solid 1px #000000" span="1"/>
+                      <col style="border-right:solid 1px #000000" span="1"/>
+                      <col style="border-right:solid 1px #000000" span="1"/>
+                      <thead valign="top">
+                        <tr style="border-bottom:solid 1px #000000">
+                          <th align="left" valign="top" rowspan="1" colspan="1">Variable</th>
+                          <th align="left" valign="top" rowspan="1" colspan="1">Abbreviation</th>
+                          <th align="left" valign="top" rowspan="1" colspan="1">Units</th>
+                          <th align="left" valign="top" rowspan="1" colspan="1">Type<xref ref-type="fn" rid="ece34738-note-0001">[Link]</xref>
+</th>
+                          <th align="left" valign="top" rowspan="1" colspan="1">Description</th>
+                          <th align="left" valign="top" rowspan="1" colspan="1">Previous studies<xref ref-type="fn" rid="ece34738-note-0002">[Link]</xref>
+</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Bathymetry</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>depth</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">m</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Bottom depth relative to mean high water; lower values = deeper water (Eakins et al., <xref rid="ece34738-bib-0020" ref-type="ref">2009</xref>; National Oceanic &amp; Atmospheric Administration, <xref rid="ece34738-bib-0080" ref-type="ref">2017</xref>)</td>
+                          <td align="left" rowspan="1" colspan="1">Guillemette et al. (<xref rid="ece34738-bib-0030" ref-type="ref">1993</xref>), Lewis et al., (<xref rid="ece34738-bib-0063" ref-type="ref">2008</xref>), Winiarski et al. (<xref rid="ece34738-bib-0106" ref-type="ref">2014</xref>), Flanders et al. (<xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Sediment grain size</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>meanphi</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">phi</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Sediment grain size (phi scale; Poti, Kinlan, &amp; Menza, <xref rid="ece34738-bib-0084" ref-type="ref">2012</xref>: larger values =smaller grain sizes)</td>
+                          <td align="left" rowspan="1" colspan="1">Goudie and Ankney (<xref rid="ece34738-bib-0028" ref-type="ref">1988</xref>), Lovvorn et al. (<xref rid="ece34738-bib-0066" ref-type="ref">2009</xref>), Loring et al. (<xref rid="ece34738-bib-0065" ref-type="ref">2013</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Ratio of sea floor surface area to planimetric area</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>SAR</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">N/A</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Topographic variability of the sea floor (calculated from bathymetry; Jenness, <xref rid="ece34738-bib-0049" ref-type="ref">2004</xref>)</td>
+                          <td align="left" rowspan="1" colspan="1">Legendre et al. (<xref rid="ece34738-bib-0062" ref-type="ref">1997</xref>), Knights, Crowe, and Burnell (<xref rid="ece34738-bib-0058" ref-type="ref">2006</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Epibenthic tidal velocity (mean and standard deviation)</td>
+                          <td align="left" rowspan="1" colspan="1">mean:<italic> tidebmean</italic> standard deviation:<italic> tidesd</italic>
+</td>
+                          <td align="left" rowspan="1" colspan="1">m/s</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Epibenthic tidal velocity during 2003–2005 based on monthly Finite‐Volume Community Ocean Model (FVCOM: Marine Ecosystem Dynamic Modeling Lab, <xref rid="ece34738-bib-0059" ref-type="ref">[Link]</xref>; Chen, Liu, &amp; Beardsley, <xref rid="ece34738-bib-0013" ref-type="ref">2003</xref>, Chen et al., <xref rid="ece34738-bib-0014" ref-type="ref">2011</xref>)</td>
+                          <td align="left" rowspan="1" colspan="1">Legendre et al. (<xref rid="ece34738-bib-0062" ref-type="ref">1997</xref>); Knights et al. (<xref rid="ece34738-bib-0058" ref-type="ref">2006</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Water column stratification potential</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>strat</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">s<sup>3</sup>/m<sup>2</sup>
+</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Potential for seasonal thermal stratification of the water column (Simpson &amp; Hunter, <xref rid="ece34738-bib-0097" ref-type="ref">1974</xref>): ratio of depth (from bathymetry) to the third power of monthly surface tidal velocity (Simpson &amp; Sharples, <xref rid="ece34738-bib-0098" ref-type="ref">2012</xref>)</td>
+                          <td align="left" rowspan="1" colspan="1">Tremblay and Sinclair (<xref rid="ece34738-bib-0103" ref-type="ref">1990</xref>), Raby, Lagadeuc, Dodson, and Mingelbier (<xref rid="ece34738-bib-0087" ref-type="ref">1994</xref>), Witbaard and Bergman (<xref rid="ece34738-bib-0107" ref-type="ref">2003</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Chlorophyll‐a</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>chla</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">mg/m<sup>3</sup>
+</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Geometric mean of monthly composite chlorophyll‐a levels from July 2002 (first available) to March 2006; data from the Aqua MODIS satellite (ERDDAP, <xref rid="ece34738-bib-0022" ref-type="ref">2017</xref>)</td>
+                          <td align="left" rowspan="1" colspan="1">Zipkin et al. (<xref rid="ece34738-bib-0111" ref-type="ref">2010</xref>); Flanders et al. (<xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Chromophoric dissolved organic material</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>cdom</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">N/A</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Geometric mean of monthly composite chromophoric dissolved organic material levels (measured based on absorbance values) from July 2002 (first available) to March 2006 (ERDDAP, <xref rid="ece34738-bib-0022" ref-type="ref">2017</xref>)</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Sea bottom temperature</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>SBT</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1"><sup>o</sup>C</td>
+                          <td align="left" rowspan="1" colspan="1">ST</td>
+                          <td align="left" rowspan="1" colspan="1">Epibenthic temperature averaged from May to October (bivalve settling period) in 2003–2005 from monthly FVCOM structured grids</td>
+                          <td align="left" rowspan="1" colspan="1">Fay Neves and Pardue (<xref rid="ece34738-bib-0024" ref-type="ref">1983</xref>); Newell (<xref rid="ece34738-bib-0081" ref-type="ref">1989</xref>) Evans, Ford, Chase, and Sheppard (<xref rid="ece34738-bib-0023" ref-type="ref">2011</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Sea surface temperature</td>
+                          <td align="left" rowspan="1" colspan="1">
+monthly: <italic>SST<sub>m</sub></italic>winter: <italic>SST<sub>w</sub></italic>
+<break/>
+relative: <italic>SST<sub>rel</sub></italic>
+</td>
+                          <td align="left" rowspan="1" colspan="1"><sup>o</sup>C</td>
+                          <td align="left" rowspan="1" colspan="1">ST</td>
+                          <td align="left" rowspan="1" colspan="1">Sea surface temperature from monthly FVCOM structured grids. We included three <italic>SST</italic> values: monthly average, winter average (November through March), and relative (difference between the segment and the overall study area)</td>
+                          <td align="left" rowspan="1" colspan="1">Zipkin et al. (<xref rid="ece34738-bib-0111" ref-type="ref">2010</xref>), Flanders et al. (<xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">North Atlantic Oscillation (Dec–Mar)</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>NAO<sub>w</sub></italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">N/A</td>
+                          <td align="left" rowspan="1" colspan="1">T</td>
+                          <td align="left" rowspan="1" colspan="1">Winter (December through March) North Atlantic Oscillation index based on sea level pressure anomalies over the Atlantic sector (Hurrell, <xref rid="ece34738-bib-0046" ref-type="ref">1995</xref>; Hurrell &amp; Deser, <xref rid="ece34738-bib-0047" ref-type="ref">2010</xref>; National Center for Atmospheric Research, <xref rid="ece34738-bib-0079" ref-type="ref">2017</xref>)</td>
+                          <td align="left" rowspan="1" colspan="1">Zipkin et al. (<xref rid="ece34738-bib-0111" ref-type="ref">2010</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Distance to land</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>d2land</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">km</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Distance to the nearest location of zero depth (from bathymetry)</td>
+                          <td align="left" rowspan="1" colspan="1">Guillemette et al. (<xref rid="ece34738-bib-0030" ref-type="ref">1993</xref>), Lewis et al., (<xref rid="ece34738-bib-0063" ref-type="ref">2008</xref>), Winiarski et al. (<xref rid="ece34738-bib-0106" ref-type="ref">2014</xref>), Flanders et al. (<xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Ferry route within 1 km</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ferry</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">categorical</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Indicator of whether a ferry route (Massachusetts Department of Transportation, Office of Transportation Planning) passed within 1 km a given segment. Ferries traversed this route ~16 times per day during the study period</td>
+                          <td align="left" rowspan="1" colspan="1">Larsen and Laubek (<xref rid="ece34738-bib-0061" ref-type="ref">2005</xref>), De La Cruz et al. (<xref rid="ece34738-bib-0019" ref-type="ref">2014</xref>)</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Day of year</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>time</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">day</td>
+                          <td align="left" rowspan="1" colspan="1">T</td>
+                          <td align="left" rowspan="1" colspan="1">Number of days before (negative) or after (positive) 31 December</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Winter</td>
+                          <td align="left" rowspan="1" colspan="1">
+2004:<italic> y2004</italic>
+<break/>
+2005: <italic>y2005</italic>
+</td>
+                          <td align="left" rowspan="1" colspan="1">categorical</td>
+                          <td align="left" rowspan="1" colspan="1">T</td>
+                          <td align="left" rowspan="1" colspan="1">Study year indicator</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Easting</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>xkm</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">km</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Distance west (negative) or east (positive) from the median longitude of all segments in the study area</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Northing</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ykm</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">km</td>
+                          <td align="left" rowspan="1" colspan="1">S</td>
+                          <td align="left" rowspan="1" colspan="1">Distance south (negative) or north (positive) from the median latitude of all segments in the study area</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Survey effort</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>obs_window</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">km<sup>2</sup>
+</td>
+                          <td align="left" rowspan="1" colspan="1">ST</td>
+                          <td align="left" rowspan="1" colspan="1">Area surveyed in a given segment on a given date; calculated as the product of the length and width of the strip transect</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Spatiotemporal interactions</td>
+                          <td align="left" rowspan="1" colspan="1"><italic>xkm · ykm</italic><break/>
+xkm · time<break/>
+ykm · time<break/>
+<italic>xkm · ykm · time</italic>
+</td>
+                          <td align="left" rowspan="1" colspan="1">N/A</td>
+                          <td align="left" rowspan="1" colspan="1">ST</td>
+                          <td align="left" rowspan="1" colspan="1">Interaction terms representing relationships between day of year and spatial distribution parameters</td>
+                          <td align="left" rowspan="1" colspan="1"/>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table-wrap-foot>
+                      <fn id="ece34738-note-0001">
+                        <p>Variable type: S (spatial; varying only among segments); T (temporal; varying consistently among segments over time); ST (spatiotemporal; varying both among segments and over time).</p>
+                      </fn>
+                      <fn id="ece34738-note-0002">
+                        <p>Studies suggesting a relationship of the variable to distribution of sea ducks and/or benthic prey populations.</p>
+                      </fn>
+                    </table-wrap-foot>
+                    <permissions>
+                      <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+                    </permissions>
+                  </table-wrap>
+                </sec>
+                <sec id="ece34738-sec-0009">
+                  <label>2.3.2</label>
+                  <title>Modeling approach</title>
+                  <p>To relate occupancy and abundance data to environmental covariates, we used additive models (Figure <xref rid="ece34738-fig-0001" ref-type="fig">1</xref>:3). We implemented a GAM for occupancy that flexibly accommodated varying effects of covariates on presence/absence data (Hastie &amp; Tibshirani, <xref rid="ece34738-bib-0033" ref-type="ref">1990</xref>; Wood, <xref rid="ece34738-bib-0108" ref-type="ref">2006</xref>). For abundance data, we used a GAMLSS approach (Rigby &amp; Stasinopoulos, <xref rid="ece34738-bib-0089" ref-type="ref">2005</xref>). Using GAMLSS allowed us to independently model dispersion of count data in relation to biophysical features, as well as account for potential non‐linear or heterogeneous responses of abundance to underlying environmental covariates (Stasinopoulos &amp; Rigby, <xref rid="ece34738-bib-0099" ref-type="ref">2007</xref>).</p>
+                  <p>We fitted GAM and GAMLSS using an iterative machine‐learning approach, component‐wise functional gradient descent boosting (Bühlmann &amp; Hothorn, <xref rid="ece34738-bib-0009" ref-type="ref">2007</xref>; Hothorn et al., <xref rid="ece34738-bib-0044" ref-type="ref">2010</xref>; Mayr et al., <xref rid="ece34738-bib-0073" ref-type="ref">2012</xref>; Hofner, Boccuto, &amp; Göker, <xref rid="ece34738-bib-0036" ref-type="ref">2015</xref>; Mayr &amp; Hofner, <xref rid="ece34738-bib-0074" ref-type="ref">2018</xref>) in a cyclical framework (Thomas et al., <xref rid="ece34738-bib-0100" ref-type="ref">2018</xref>). The first step of this process was to compute the negative gradient of a pre‐selected loss function, which acts as a working residual by giving more weight to observations not properly predicted in previous iterations. We used the binomial log‐likelihood as the loss function for occupancy models and the truncated negative binomial log‐likelihood as the loss function for count models. For GAM, we computed the negative gradient of the mean only. For GAMLSS, we computed the negative gradient separately for mean and overdispersion in each iteration while holding the other parameter as a fixed constant (Mayr et al., <xref rid="ece34738-bib-0073" ref-type="ref">2012</xref>).</p>
+                  <p>In the next step, we fitted various functional forms of each covariate relative to each response, called base‐learners (Hofner, Mayr, Robinzonov, &amp; Schmid, <xref rid="ece34738-bib-0040" ref-type="ref">2014</xref>) to the negative gradients of the models. For each continuous covariate, we specified two possible base‐learners: a linear base‐learner and a base‐learner for the smooth deviation from the linear effect via penalized splines (i.e., P‐splines; Eilers &amp; Marx, <xref rid="ece34738-bib-0021" ref-type="ref">1996</xref>; Schmid &amp; Hothorn, <xref rid="ece34738-bib-0092" ref-type="ref">2008</xref>). This allowed the model to select the best alternative for each covariate between no effect, linear effect, and smooth effect. For categorical covariates, we coded the categories and used a separate linear base‐learner for each category, excepting a reference category (i.e., dummy‐coding). To address potential spatial autocorrelation, we included a smooth surface function of the spatial coordinates of segment centers (Kneib, Müller, &amp; Hothorn, <xref rid="ece34738-bib-0057" ref-type="ref">2008</xref>), which accounted for underlying variance in sampling units similarly to a random effect term in a linear model. This surface comprised four base‐learners—linear base‐learners for the easting and northing, their linear interaction, and a penalized nonlinear tensor product (Kneib et al., <xref rid="ece34738-bib-0057" ref-type="ref">2008</xref>; Kneib, Hothorn, &amp; Tutz, <xref rid="ece34738-bib-0056" ref-type="ref">2009</xref>; Maloney, Schmid, &amp; Weller, <xref rid="ece34738-bib-0068" ref-type="ref">2012</xref>). We also allowed this surface to vary over time within a winter via an interaction. The decomposition of continuous covariates into linear and penalized nonlinear base‐learners reduced bias and overfitting by preventing the preferential selection of smooth base‐learners (Hofner, Hothorn, Kneib, &amp; Schmid, <xref rid="ece34738-bib-0038" ref-type="ref">2011</xref>; Kneib et al., <xref rid="ece34738-bib-0056" ref-type="ref">2009</xref>). Thus, we restricted each base‐learner to a single degree of freedom and omitted the intercept term from each base‐learner (Hofner et al., <xref rid="ece34738-bib-0038" ref-type="ref">2011</xref>; Kneib et al., <xref rid="ece34738-bib-0056" ref-type="ref">2009</xref>) and added a linear base‐learner to the overall model to represent the model intercept. Once all potential base‐learners had been tested, the single best fitting base‐learner was added to the current model fit. As only the single best‐fitting base‐learner was selected in each iteration, the algorithm integrated intrinsic selection of the most relevant covariates and their functional form.</p>
+                  <p>In order to maximize predictive accuracy while avoiding model overfitting, we employed an early stopping mechanism (Maloney et al., <xref rid="ece34738-bib-0068" ref-type="ref">2012</xref>; Mayr et al., <xref rid="ece34738-bib-0073" ref-type="ref">2012</xref>) during variable selection by stopping the algorithm prior to convergence to maximum likelihood estimates. In other words, after adding the best‐fitting base learner to the model, the negative gradient was then reevaluated at the current model fit and the procedure of testing, comparing, and adding base‐learners (Figure <xref rid="ece34738-fig-0001" ref-type="fig">1</xref>:3) was repeated until a pre‐specified number of iterations was reached (Bühlmann &amp; Hothorn, <xref rid="ece34738-bib-0009" ref-type="ref">2007</xref>). We used 25‐fold subsampling to determine the optimal stopping iteration for each model. Specifically, we randomly drew (without replacement) 25 samples of size n/2 from the original data set. We used the selected sample to estimate the model and the balance of the data in each sample to determine the out‐of‐bag prediction accuracy (empirical risk) measured by the negative log‐likelihood of each model; the optimal stopping iteration (<mml:math id="nlm-math-1"><mml:msub><mml:mover accent="true"><mml:mi>m</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mtext>stop</mml:mtext></mml:msub></mml:math>) is the iteration with the lowest average empirical risk. In boosted GAMLSS models we used multi‐dimensional subsampling to determine the stopping iteration for each of the GAMLSS parameters while allowing for potentially different model complexities in the parameters; a detailed explanation of this cross‐validation (subsampling) scheme is given in Hofner, Mayr, et al. (<xref rid="ece34738-bib-0041" ref-type="ref">2016</xref>).</p>
+                  <p>Since boosting methods typically produce "rich" models relying to some extent on many base‐learners (Hofner et al., <xref rid="ece34738-bib-0036" ref-type="ref">2015</xref>), we additionally used stability selection to compare the relative importance of covariates. Briefly, this process involved modeling subsamples of the data and measuring the frequency with which each covariate was included in the final models (Hofner et al., <xref rid="ece34738-bib-0036" ref-type="ref">2015</xref>). The methodology and results of this analysis are included in the Supporting information (Appendix <xref rid="ece34738-sup-0001" ref-type="supplementary-material">S1</xref>).</p>
+                </sec>
+              </sec>
+              <sec id="ece34738-sec-0010">
+                <label>2.4</label>
+                <title>Synthesis</title>
+                <p>Both GAM and GAMLSS models took the following general form:<disp-formula id="ece34738-disp-0001"><mml:math id="nlm-math-2"><mml:mrow><mml:mi>g</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>·</mml:mo><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mtext>int</mml:mtext><mml:mo>+</mml:mo><mml:msub><mml:mtext>covariate</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mtext>covariate</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>⋯</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mtext>covariate</mml:mtext><mml:mi>n</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mtext>covariate</mml:mtext><mml:mi>n</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula>
+</p>
+                <p>For occupancy models (GAM), we modeled the occupancy probability of a given duck species in a segment <italic>g</italic>(<italic>π</italic>
+<sub>sea ducks</sub>) as a function of all environmental covariates (Table <xref rid="ece34738-tbl-0001" ref-type="table">1</xref>), with <italic>g</italic> representing the logit link. Count models (GAMLSS) took two forms: the (conditional) mean count of sea ducks, <italic>g</italic>(<italic>μ</italic>
+<sub>sea ducks</sub>), and the (conditional) overdispersion in sea duck counts, <italic>g</italic>(<italic>σ</italic>
+<sub>sea ducks</sub>); <italic>g</italic> is the log link in both cases. The same environmental covariates were included in both models (Table <xref rid="ece34738-tbl-0001" ref-type="table">1</xref>). <italic>f</italic>(·) indicates the penalized nonlinear deviations from the corresponding linear base‐learners (e.g., <italic>f</italic>(<italic>time</italic>)) and were included for all non‐categorical variables.</p>
+                <p>We included interaction terms between easting (<italic>xkm</italic>), northing (<italic>ykm</italic>), and day of year (<italic>time</italic>) to incorporate spatiotemporal effects. The explicit intercept (<italic>int</italic>) was a necessary byproduct of our decomposition of base‐learners (Hofner et al., <xref rid="ece34738-bib-0038" ref-type="ref">2011</xref>; Kneib et al., <xref rid="ece34738-bib-0056" ref-type="ref">2009</xref>). We included <italic>obs_window</italic>, our measure of survey effort (Table <xref rid="ece34738-tbl-0001" ref-type="table">1</xref>), as a covariate rather than an offset because small values in some segments impaired estimability.</p>
+                <p>Subsequent to their independent fitting, we consolidated occupancy and conditional count models into a single model (see Equation 6 in Zeileis, Kleiber, &amp; Jackman, <xref rid="ece34738-bib-0110" ref-type="ref">2008</xref>) to generate unconditional, spatially‐explicit estimates of sea duck abundance.</p>
+              </sec>
+              <sec id="ece34738-sec-0011">
+                <label>2.5</label>
+                <title>Validation</title>
+                <p>Since additional test data were not available for our study area, we used a pseudo <italic>R</italic>
+<sup>2</sup> measure of the explained variation (Maloney et al., <xref rid="ece34738-bib-0068" ref-type="ref">2012</xref>; Nagelkerke, <xref rid="ece34738-bib-0078" ref-type="ref">1991</xref>) to evaluate the approximate explanatory power of our final models. We obtained the pseudo <italic>R</italic>
+<sup>2</sup> value by comparing the log likelihood values for our model‐generated estimates of unconditional abundance for each species to log likelihood values obtained from null (intercept‐only) models, giving us an estimate of the increase in explanatory power provided by our models.</p>
+              </sec>
+            </sec>
+            <sec id="ece34738-sec-0012">
+              <label>3</label>
+              <title>RESULTS</title>
+              <p>For each species or species group, we fitted independent models for occupancy and conditional count data (mean and overdispersion). Bootstrapped empirical risk suggested that occupancy models for all species converged to the maximum likelihood estimates (i.e., occupancy models failed to stop early; see Supporting information Appendix <xref rid="ece34738-sup-0002" ref-type="supplementary-material">S2</xref>). Conversely, bootstrapped empirical risks prescribed early stopping for both the conditional mean and overdispersion parameter in all count models (see Supporting information Appendix <xref rid="ece34738-sup-0002" ref-type="supplementary-material">S2</xref>). Final occupancy models and models for the conditional mean of count data included only a subset (12% to 38%) of the 48 base‐learners initially specified for selection. Occupancy models generally contained more covariates and their interactions (8–10 of 23) than did count models (3–6 of 23), particularly among stably selected covariates and their interactions (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>, see also Supporting information Appendix <xref rid="ece34738-sup-0003" ref-type="supplementary-material">S3</xref>).</p>
+              <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0003" orientation="portrait" position="float">
+                <label>Figure 3</label>
+                <caption>
+                  <p>Marginal functional plots for stably selected covariates in the occupancy (probability of presence) and conditional abundance (mean and overdispersion) models for Common Eider (COEI), scoters (SCOT), and Long‐tailed Duck (LTDU) in Nantucket Sound during three winters (2003–2004 to 2005–2006). Each plot illustrates the partial contribution of a covariate to the additive predictor (Y‐axis), holding all other covariates at their mean. Within a model, plots share a <italic>Y</italic>‐axis scale, enabling direct comparisons of effect sizes among covariates and species. Bivariate plots reflect the first (<italic>Y</italic>‐axis) and second (<italic>X</italic>‐axis) variables listed in the interaction; colors indicate the direction and magnitude of the partial contribution (blacks = negative, reds = positive; darker colors = larger effect). Northing by easting effects are given only at 31 December. For factor variables, only the general association (positive or negative) with the additive predictor is given. Covariate abbreviations correspond to Table <xref rid="ece34738-tbl-0001" ref-type="table">1</xref>
+</p>
+                </caption>
+                <graphic id="nlm-graphic-7" xlink:href="ECE3-9-2346-g003"/>
+              </fig>
+              <sec id="ece34738-sec-0013">
+                <label>3.1</label>
+                <title>Sea duck occupancy</title>
+                <p>Three covariates—grain size, sea surface temperature, and distance to land—were associated with probability of occurrence for all three sea duck species or species groups (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). Standardized effects of each variable on the response can be compared among species and covariates within a model based on their range on the <italic>Y</italic>‐axis. For example, monthly sea surface temperature (<italic>SST<sub>m</sub></italic>) spanned a larger range of the <italic>Y</italic>‐axis, and thus associated more strongly with eider occupancy, than did distance to land (d2land) (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). In contrast, monthly sea surface temperature (<italic>SST<sub>m</sub></italic>) associated much more strongly with occupancy of Long‐tailed Duck than with eider or scoters (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). Detailed comparisons of univariate, bivariate, and categorical effects for each species are included in the Supporting information (Appendix <xref rid="ece34738-sup-0003" ref-type="supplementary-material">S3</xref>).</p>
+                <p>Spatiotemporal effects (i.e., occupancy associated with the <italic>xkm‐ykm</italic> location of segments and the change over time within winter [<italic>time</italic>]) were the dominant explanatory feature in occupancy models, although these patterns varied considerably among species (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>; see Day of season, Northing x Easting). Occupancy increased, but at a decreasing rate, with survey effort (<italic>obs_window</italic>) in a given segment (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). Occupancy estimates increased at intermediate monthly sea surface temperature (<italic>SST<sub>m</sub></italic>), greater distances from land (<italic>d2land</italic>), and in areas with coarser sediments (i.e., smaller <italic>meanphi</italic>). Eider occupancy was associated negatively with chromomorphic dissolved organic material (<italic>cdom</italic>) and positively with sea floor surface area relative to planimetric area (<italic>SAR;</italic> our measure of the topographic variability of the sea floor; Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>), whereas scoter occupancy likewise related to <italic>SAR</italic> and <italic>cdom</italic>, but in the opposite direction in both cases (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). Scoters occupancy was modestly greater in deeper waters (<italic>depth</italic>), whereas Long‐tailed Duck occupancy was greatest in shallow waters early in the winter but in deeper waters later in the winter (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>; depth × time covariate). Other effects were relatively minor and inconsistent among species.</p>
+                <p>The predominance of spatial effects (<italic>ykm‐xkm</italic>) resulted in distinct spatial patterns of occupancy among species (Figure <xref rid="ece34738-fig-0004" ref-type="fig">4</xref>, top row) despite the relative similarity of occupancy associations with biophysical covariates (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). Occupancy was typically highest for eider in northwest and southwest Nantucket Sound, in interior Nantucket Sound for scoters, and in northeast and south Nantucket Sound for Long‐tailed Duck (Figure <xref rid="ece34738-fig-0004" ref-type="fig">4</xref>, top row). All species tended to avoid the western edge of the Sound northeast of Martha's Vineyard. Generally, the areas of highest occupancy exhibited the lowest relative variability (Figure <xref rid="ece34738-fig-0004" ref-type="fig">4</xref>, bottom row), defined as the median absolute deviation (MAD) of occupancy relative to median occupancy within a segment (a measure analogous to the coefficient of variation, but in this case providing an estimate of temporal variability).</p>
+                <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0004" orientation="portrait" position="float">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Occupancy probability for Common Eider (COEI), scoters (SCOT), and Long‐tailed Duck (LTDU) in Nantucket Sound during three winters, 2003–2005. Occupancy probabilities (top row) represent the median expected probability of sea duck presence in a 1.5 km × ca. 180 m transect through a given segment predicted on 10 evenly‐spaced dates from 15 November through 1 April in each winter. Spatiotemporal variation in occupancy (%; bottom row) is indicated by the median absolute deviation, MAD, of occupancy probability relative to the median. Predicted values are categorized based on their quartiles; segments with the highest occupancy or variability (values ≥98th percentile) are outlined in black</p>
+                  </caption>
+                  <graphic id="nlm-graphic-9" xlink:href="ECE3-9-2346-g004"/>
+                </fig>
+              </sec>
+              <sec id="ece34738-sec-0014">
+                <label>3.2</label>
+                <title>Sea duck conditional abundance and overdispersion</title>
+                <p>Spatial effects (<italic>ykm‐xkm</italic>) were the dominant explanatory feature of conditional abundance estimates for scoters and Long‐tailed Duck, but they were not selected in the eider model (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). In contrast with the corresponding occupancy model, scoter conditional abundance decreased with increasing sediment grain size (<italic>meanphi</italic>). Additionally, the relationships between eider conditional abundance and dissolved organic material (<italic>cdom</italic>) and sea floor topography (<italic>SAR</italic>; Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>) were more complex than with eider occupancy. The conditional abundance of eider and scoter was also associated with relatively warm or cool sea surface temperatures (<italic>SST</italic>
+<sub>rel</sub>; Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). Biophysical covariates associated with Long‐tailed Duck conditional abundance exhibited general agreement with their counterpart in the occupancy models.</p>
+                <p>Spatially‐explicit patterns of occupancy (cf. Figure <xref rid="ece34738-fig-0004" ref-type="fig">4</xref>, top row) did not necessarily reflect patterns of median conditional abundance (Figure <xref rid="ece34738-fig-0005" ref-type="fig">5</xref>, top row). Some areas of Nantucket Sound exhibited mutually high conditional abundance and occupancy for a given species (e.g., eider in the southwest, scoter in the interior, and Long‐tailed Duck in parts of the northeast). However, conditional abundance was low despite relatively high occupancy in some instances (e.g., eider in the northeast and Horseshoe Shoal, scoters in the northeast and southeast, and Long‐tailed Duck along the northern margin). Conversely, other areas of Nantucket Sound exhibited lower occupancy but sea ducks, when present, were more abundant (e.g., eider along the eastern margin, and scoters and Long‐tailed Duck in the southwest). As in occupancy models, sea ducks were relatively absent from the middle‐western margin of Nantucket Sound (i.e., northeast of Martha's Vineyard; see Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>). In contrast to occupancy, which was less variable in areas of high abundance, areas of high conditional sea duck abundance typically also exhibited high relative variability over time (Figure <xref rid="ece34738-fig-0005" ref-type="fig">5</xref>, bottom row).</p>
+                <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0005" orientation="portrait" position="float">
+                  <label>Figure 5</label>
+                  <caption>
+                    <p>Conditional abundance of Common Eider (COEI), scoters (SCOT), and Long‐tailed Duck (LTDU) in Nantucket Sound during three winters, 2003–2005. Conditional abundances (top row) represent the median expected number of sea ducks, assuming their presence, in a 1.5 km × ca. 180 m transect in each segment predicted on 10 evenly‐spaced dates from 15 November through 1 April in each winter. Spatiotemporal variation in conditional abundance (%; bottom row) is indicated by the median absolute deviation, MAD, relative to the median. Predicted values are categorized based on their quartiles; segments with the highest conditional abundance or variability (values ≥98th percentile) are outlined in black</p>
+                  </caption>
+                  <graphic id="nlm-graphic-11" xlink:href="ECE3-9-2346-g005"/>
+                </fig>
+                <p>Overdispersion in conditional sea duck abundance also varied with biophysical covariates, although relationships were less consistent among species (Figure <xref rid="ece34738-fig-0003" ref-type="fig">3</xref>; see also Supporting information Appendix <xref rid="ece34738-sup-0003" ref-type="supplementary-material">S3</xref>). Variability (i.e., overdispersion) in sea duck counts was heterogeneous in space and time in Nantucket Sound (Supporting information Appendix <xref rid="ece34738-sup-0004" ref-type="supplementary-material">S4</xref>), particularly for eider and scoters (as indicated by the magnitude of the overdispersion parameter values).</p>
+              </sec>
+              <sec id="ece34738-sec-0015">
+                <label>3.3</label>
+                <title>Expected sea duck abundance</title>
+                <p>Consolidated occupancy and conditional count models provided estimates of unconditional sea duck abundance in the study area over the survey period. Final models of expected sea duck abundance explained moderate amounts of variation in observed counts of eider, scoters, and Long‐tailed Duck (pseudo <italic>R</italic>
+<sup>2</sup> = 0.31, 0.48, and 0.32, respectively). Conditional abundance (Figure <xref rid="ece34738-fig-0005" ref-type="fig">5</xref>) strongly influenced the spatially‐explicit patterns of expected abundance. Sea duck species exhibited relatively distinct patterns of abundance in Nantucket Sound. Eider were consistently most abundant in southwestern Nantucket Sound. They also were relatively abundant in the northeastern part of the study area but less consistently based on the relatively high MAD/median abundance over time (Figure <xref rid="ece34738-fig-0006" ref-type="fig">6</xref>). Scoters were also most abundant, with occasional extremely large flocks, in southwestern Nantucket Sound. This was also the area of highest relative variation in scoter abundance; relatively high abundances of scoters also occurred in interior Nantucket Sound (Figure <xref rid="ece34738-fig-0006" ref-type="fig">6</xref>). Long‐tailed Ducks were consistently most abundant in northeastern Nantucket Sound, as well as along its southern margin (Figure <xref rid="ece34738-fig-0006" ref-type="fig">6</xref>). No species' highest abundances occurred in the permitted Nantucket Shoal area, although expected eider and scoters abundances were consistently elevated in some parts of the Shoal (west and southeast, respectively; Figure <xref rid="ece34738-fig-0006" ref-type="fig">6</xref>).</p>
+                <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0006" orientation="portrait" position="float">
+                  <label>Figure 6</label>
+                  <caption>
+                    <p>Unconditional abundance of Common Eider (COEI), scoters (SCOT), and Long‐tailed Duck (LTDU) in Nantucket Sound during three winters, 2003–2005. Median abundances (top row) represent the expected number of sea ducks along a 1.5 km × ca. 180 m transect within each segment predicted on 10 evenly‐spaced dates from 15 November through 1 April in each winter. Spatiotemporal variation in abundance (%; bottom row) is estimated from the median absolute deviation, MAD, relative to the median. Predicted values are categorized based on their quartiles; segments with the highest abundance or variability (values ≥98th percentile) are outlined in black</p>
+                  </caption>
+                  <graphic id="nlm-graphic-13" xlink:href="ECE3-9-2346-g006"/>
+                </fig>
+                <p>Summing the spatially‐explicit estimates of unconditional sea duck abundance (i.e., Figure <xref rid="ece34738-fig-0006" ref-type="fig">6</xref>) provides an estimate of total abundance in a 1.5 km × 180 m transect through all segments in the study area. We calculated overall abundance by species throughout the study area by extrapolating these estimates across the full study area (Figure <xref rid="ece34738-fig-0007" ref-type="fig">7</xref>). Although absolute estimates differed between study years, patterns of abundance were similar across years, with scoter and long‐tailed duck abundances highest early in the season, and eider abundance peaking in mid‐winter. We also compared the total count (summed across all segments) of each sea duck species observed in aerial strip transects with the corresponding estimated total abundance in surveyed segments for each of the 30 aerial surveys (Figure <xref rid="ece34738-fig-0008" ref-type="fig">8</xref>). Our models tended to overestimate sea duck abundance when the actual numbers of sea ducks were relatively low, although overestimation was typically less than an order of magnitude. This pattern may have resulted from patterns of seasonal variation: since not all individuals arrive in or depart from the study area at the same time, individuals present in the study area early and late in the winter season likely occurred in lower densities than expected relative to habitat features. Additionally, scoter abundance was occasionally extreme relative to typical counts and somewhat prone to underestimation during these extreme counts, likely because extremely high counts were too infrequent to allow accurate assessment of the factors influencing their occurrence. Nonetheless, the general adherence of observed and predicted abundance to a line of unit slope indicated that it may be reasonable to estimate sea duck abundance for the entire study area based on observed sea duck densities in transects (Figure <xref rid="ece34738-fig-0008" ref-type="fig">8</xref>).</p>
+                <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0007" orientation="portrait" position="float">
+                  <label>Figure 7</label>
+                  <caption>
+                    <p>Estimated weekly total abundance of Common Eider (COEI), scoter (SCOT), and Long‐tailed Duck (LTDU) in the entire study area over three winters, 2003–2005</p>
+                  </caption>
+                  <graphic id="nlm-graphic-15" xlink:href="ECE3-9-2346-g007"/>
+                </fig>
+                <fig fig-type="Figure" xml:lang="en" id="ece34738-fig-0008" orientation="portrait" position="float">
+                  <label>Figure 8</label>
+                  <caption>
+                    <p>Relationship between observed and predicted total abundance of Common Eider (COEI), scoters (SCOT), and Long‐tailed Duck (LTDU) during 30 aerial surveys of Nantucket Sound over three winters, 2003–2005. The dashed line indicates a 1:1 relationship between predicted and observed abundances in surveyed segments; points below and above this line indicate underestimates and overestimates of predicted abundances, respectively</p>
+                  </caption>
+                  <graphic id="nlm-graphic-17" xlink:href="ECE3-9-2346-g008"/>
+                </fig>
+              </sec>
+              <sec id="ece34738-sec-0016">
+                <label>3.4</label>
+                <title>Temporal dynamics in wintering sea ducks</title>
+                <p>The MAD/median estimates (Figures <xref rid="ece34738-fig-0004" ref-type="fig">4</xref>, <xref rid="ece34738-fig-0005" ref-type="fig">5</xref>, <xref rid="ece34738-fig-0006" ref-type="fig">6</xref>, bottom rows; Supporting information Appendix <xref rid="ece34738-sup-0004" ref-type="supplementary-material">S4</xref>) show that our spatially‐explicit estimates of occupancy, abundance, and overdispersion invariably change over time, either explicitly via the selection of a within‐ or among‐winter temporal effect (<italic>time</italic> and <italic>y2004</italic>/<italic>y2005</italic>, respectively) or implicitly via the selection of biophysical covariates that change within or among winters. The temporal dynamics of the wintering sea duck system in Nantucket Sound was one of its most striking attributes, and we illustrate these dynamics with an animation for scoter occupancy and abundance in the Supporting Information (Appendix <xref rid="ece34738-sup-0005" ref-type="supplementary-material">S5</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="ece34738-sec-0017">
+              <label>4</label>
+              <title>DISCUSSION</title>
+              <p>We demonstrated a flexible model‐based approach to evaluate the environmental associations of sea duck distribution and abundance based on multiyear replicated surveys. The boosted GAMLSS framework offered several useful features including (a) the ability to model all parameters of the conditional distribution (e.g., conditional mean and overdispersion) as a function of covariates, (b) integrated variable reduction and selection among many covariates, and (c) integrated model selection via model decomposition of continuous covariates and thus the simultaneous consideration of competing functional forms (e.g., linear vs. non‐linear). Additionally, this framework allowed us to incorporate smooth effects to efficiently account for spatiotemporal trends in the data that were poorly explained by other covariates and to identify those covariates and their functional forms most consistently associated with animal distribution and abundance (via stability selection). Recent advances in the application of gradient boosting (non‐cyclical application: see Thomas et al., <xref rid="ece34738-bib-0100" ref-type="ref">2018</xref>) could allow for even greater power in selecting appropriate variables and responses from among available covariates.</p>
+              <p>Although negative binomial hurdles and boosted GAM/GAMLSS have previously been used to predict organism distributions, to the best of our knowledge, they have not yet been combined into a single modeling framework. In order to effectively model organism distributions in relation to biophysical features from survey data, both modeling components address important characteristics of the data. Applying a negative binomial hurdle allows simultaneous modeling of both presence/absence and abundance data, and subsequently applying GAM and GAMLSS accounts for unique aspects of each data type, particularly overdispersion of the abundance (count) portion of the data. As a final step, the data are recombined to produce predictions that flexibly incorporate a wide range of potential responses to environmental covariates, which is particularly crucial in systems with little a priori knowledge regarding the relationships between organism distributions and environmental covariates. These predictions can be used to generate a variety of information on species abundance and distribution, including overall abundance estimates (this study), as well as estimates of prediction error, which can be generated via bootstrapping by repeated runs of the model (Hofner, Kneib, &amp; Hothorn, <xref rid="ece34738-bib-0039" ref-type="ref">2016</xref>).</p>
+              <p>The useful features of this modeling framework apply especially to mobile species with non‐uniform distributions that vary among and within years, such as the species of sea ducks that we studied. Our estimates of the spatiotemporal abundance of sea ducks in Nantucket Sound were controlled largely by estimates of the conditional abundance and less by spatiotemporal patterns in the occupancy of sea ducks. This suggests that occupancy models alone may be inadequate for assessing risk from anthropogenic disturbances and for describing the fine‐scale distribution of marine species. Previously, the statistically challenging features of count data have restricted their use in distribution models, meaning that most predictions have addressed only occupancy (Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>; Winiarski, Miller, Paton, &amp; McWilliams, <xref rid="ece34738-bib-0106" ref-type="ref">2014</xref>), and may thus have ignored important facets of sea duck distribution and risk exposure, particularly variation in abundance. For species such as sea ducks, which gather in dense social aggregations at preferred habitat locations, flock size is a key component of distributional patterns as it both reflects and enhances habitat suitability (Guillemette, Himmelman, &amp; Barette, <xref rid="ece34738-bib-0030" ref-type="ref">1993</xref>) and may affect the distribution and intensity of risk factors on individuals (e.g., Schwemmer, Mendel, Sonntag, Dierschke, &amp; Garthe, <xref rid="ece34738-bib-0094" ref-type="ref">2011</xref>). Our modeling approach thus allows us to examine key features of sea duck distribution patterns that have been overlooked in previous studies.</p>
+              <sec id="ece34738-sec-0018">
+                <label>4.1</label>
+                <title>Environmental covariates that best explain sea duck distribution and abundance</title>
+                <p>The biophysical associations with sea duck occupancy derived from our models were relatively consistent among species, whereas their associations with sea duck conditional abundance were more species‐specific. Distance to land, which was associated with both occupancy and abundance, tends to be positively associated with bathymetry and often has a strong influence on sea duck occupancy estimates (Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>; Guillemette et al., <xref rid="ece34738-bib-0030" ref-type="ref">1993</xref>; Lewis, Esler, &amp; Boyd, <xref rid="ece34738-bib-0063" ref-type="ref">2008</xref>; Winiarski et al., <xref rid="ece34738-bib-0106" ref-type="ref">2014</xref>). Sediment grain size can also affect prey availability for foraging sea ducks (Goudie &amp; Ankney, <xref rid="ece34738-bib-0028" ref-type="ref">1988</xref>; Loring, Paton, McWilliams, McKinney, &amp; Oviatt, <xref rid="ece34738-bib-0065" ref-type="ref">2013</xref>; Lovvorn, Grebmeier, Cooper, Bump, &amp; Richman, <xref rid="ece34738-bib-0066" ref-type="ref">2009</xref>) and was associated with occupancy and conditional abundance in this study. In addition, topographic variability of the sea floor also influenced occupancy and conditional abundance, although its relationship to prey availability is less understood. We did not find evidence for temporally varying associations of sea duck assemblages with dynamic oceanographic conditions such as sea surface temperature, chlorophyll <italic>a</italic>, or the North Atlantic Oscillation (NAO). These results contrast with several previous studies of sea duck occupancy (Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>; Zipkin et al., <xref rid="ece34738-bib-0111" ref-type="ref">2010</xref>) that have documented effects of dynamic oceanographic conditions on sea duck distributions. Certain covariates may associate with marine bird abundance or behavior at specific scales and not at others (Logerwell &amp; Hargreaves, <xref rid="ece34738-bib-0064" ref-type="ref">1996</xref>; Mannocci et al., <xref rid="ece34738-bib-0069" ref-type="ref">2017</xref>); thus, the smaller spatial scale of our analysis compared to previous studies may explain the apparent discrepancy between studies in the effect of chlorophyll <italic>a</italic> and NAO.</p>
+                <p>The unexplained variation in our models and the predominance of marginal spatiotemporal effects suggest that we likely missed important variable(s) relevant to the distribution of sea ducks in Nantucket Sound. This lack of explanatory power suggests a need for better biophysical proxies for the distribution of prey eaten by sea ducks or concurrent prey distribution information (Cervencl &amp; Fernandez, <xref rid="ece34738-bib-0011" ref-type="ref">2012</xref>; Cervencl et al., <xref rid="ece34738-bib-0012" ref-type="ref">2014</xref>; Kaiser et al., <xref rid="ece34738-bib-0054" ref-type="ref">2006</xref>; Vaitkus &amp; Bubinas, <xref rid="ece34738-bib-0104" ref-type="ref">2001</xref>; Žydelis, Esler, Kirk, &amp; Boyd, <xref rid="ece34738-bib-0112" ref-type="ref">2009</xref>), although such data are challenging to obtain at appropriate resolutions and may not guarantee improved predictive accuracy (Benoit‐Bird et al., <xref rid="ece34738-bib-0003" ref-type="ref">2013</xref>; Grémillet et al., <xref rid="ece34738-bib-0029" ref-type="ref">2008</xref>; Torres, Read, &amp; Halpin, <xref rid="ece34738-bib-0102" ref-type="ref">2008</xref>). Additionally, our survey methods may have resulted in either over‐ or under‐counting, depending on both movement and diving behavior of birds. Given the dominant effects of large flock sizes on our predictions, we expect that the magnitude of detection bias would not have been large enough to substantially affect our results. However, future surveys could benefit from recent developments in survey design (Conn &amp; Alisauskas, <xref rid="ece34738-bib-0016" ref-type="ref">2018</xref>) that have been proposed to address the particular biases associated with aerial counts of waterfowl.</p>
+              </sec>
+              <sec id="ece34738-sec-0019">
+                <label>4.2</label>
+                <title>The importance of spatial scale</title>
+                <p>The process whereby migratory animals such as sea ducks select a given area to inhabit during winter involves decisions at multiple spatial scales and the environmental attributes that determine this habitat selection often vary with spatial scale (Johnson, <xref rid="ece34738-bib-0052" ref-type="ref">1980</xref>; Johnson et al., <xref rid="ece34738-bib-0050" ref-type="ref">2006</xref>, <xref rid="ece34738-bib-0051" ref-type="ref">2004</xref>). The majority of North American sea ducks migrate from high‐latitude arctic and sub‐arctic breeding areas to mid‐latitude temperate wintering areas where they reside for most of the year (Bowman et al., <xref rid="ece34738-bib-0006" ref-type="ref">2015</xref>; Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>; Silverman et al., <xref rid="ece34738-bib-0096" ref-type="ref">2013</xref>). At these large spatial scales, the distribution and abundance of sea ducks during winter may be affected by large‐scale ocean characteristics (Flint, <xref rid="ece34738-bib-0026" ref-type="ref">2013</xref>), climatic conditions (Zipkin et al., <xref rid="ece34738-bib-0111" ref-type="ref">2010</xref>), and static or persistent habitat features (e.g., bathymetry, substrate, current and frontal systems; Hyrenbach, Forney, &amp; Dayton, <xref rid="ece34738-bib-0048" ref-type="ref">2000</xref>; Nur et al., <xref rid="ece34738-bib-0082" ref-type="ref">2011</xref>; Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>). At regional and local scales, however, most species of sea ducks congregate in large flocks (e.g., up to tens of thousands of birds) at sites where prey are abundant and accessible (Flint, <xref rid="ece34738-bib-0026" ref-type="ref">2013</xref>; Loring et al., <xref rid="ece34738-bib-0065" ref-type="ref">2013</xref>) although the abundance and distribution of these prey, and thus predators, can be extremely ephemeral and dynamic (Cisneros, Smit, Laudien, &amp; Schoeman, <xref rid="ece34738-bib-0015" ref-type="ref">2011</xref>; Hyrenbach et al., <xref rid="ece34738-bib-0048" ref-type="ref">2000</xref>).</p>
+                <p>Given that sea duck distribution and abundance is spatially and temporally dynamic, yet expected to be driven by biophysical covariates (Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>; Oppel, Powell, &amp; Dickson, <xref rid="ece34738-bib-0083" ref-type="ref">2009</xref>; Zipkin et al., <xref rid="ece34738-bib-0111" ref-type="ref">2010</xref>) that may differ in importance depending on spatial scale (Johnson, <xref rid="ece34738-bib-0052" ref-type="ref">1980</xref>; Johnson et al., <xref rid="ece34738-bib-0050" ref-type="ref">2006</xref>, <xref rid="ece34738-bib-0051" ref-type="ref">2004</xref>), marine spatial planners must carefully consider the most appropriate information to use when deciding, for example, where to place marine protected areas or offshore wind energy developments to meet conservation and management goals. A larger‐scale occupancy model developed by Flanders et al. (<xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>) suggested that eiders were relatively uniformly distributed across Nantucket Sound, whereas our higher resolution abundance models found that eiders were concentrated in southwestern and central, eastern areas within Nantucket Sound. While large‐scale models (Flanders et al., <xref rid="ece34738-bib-0025" ref-type="ref">2015</xref>; Silverman et al., <xref rid="ece34738-bib-0096" ref-type="ref">2013</xref>) are useful to identify general geographic areas of importance to sea ducks, our models provide more detailed estimates of sea duck distribution and abundance within a specific area of interest. In terms of marine spatial planning, large‐scale models can be used to inform the siting of lease areas or protected areas, followed by detailed modeling approach such as ours to select sites within these larger blocks that can be zoned for specific levels of development or protection.</p>
+              </sec>
+            </sec>
+            <sec sec-type="COI-statement" id="ece34738-sec-0021">
+              <title>CONFLICT OF INTEREST</title>
+              <p>None declared.</p>
+            </sec>
+            <sec id="ece34738-sec-0022">
+              <title>AUTHOR CONTRIBUTIONS</title>
+              <p>TA and GS designed and collected the survey data. AS, BH, SM, and PP conceived the analytical methodology. AS and BH analyzed the data. AS, JL, BH, SM, and PP led the writing and editing of the manuscript. AS and JL designed tables and figures. All authors contributed critically to the drafts and gave final approval for publication.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supporting information</title>
+              <supplementary-material content-type="local-data" id="ece34738-sup-0001">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="ECE3-9-2346-s001.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ece34738-sup-0002">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="ECE3-9-2346-s002.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ece34738-sup-0003">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="ECE3-9-2346-s003.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ece34738-sup-0004">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="ECE3-9-2346-s004.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="ece34738-sup-0005">
+                <caption>
+                  <p> </p>
+                </caption>
+                <media xlink:href="ECE3-9-2346-s005.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="ece34738-sec-0020">
+              <title>ACKNOWLEDGEMENTS</title>
+              <p>We thank Simon Perkins, Liz Brousseau, Ellen Jedrey, and Andrea Jones for help with the design and collection of survey data in the Nantucket Sound study plot and the late Jon Ambroult and Ambroult Aviation for their skill and dedication in flying the planes in Nantucket Sound. The Island Foundation, the Mass Technology Collaborative, Sea Duck Joint Venture, Foundation M, Massachusetts Environmental Trust, and Mass Audubon all contributed financial support for the aerial surveys in Nantucket Sound and we thank these groups. Funding and institutional support for this analysis was provided by the University of Rhode Island and Rhode Island Department of Environmental Management.</p>
+            </ack>
+            <sec sec-type="data-availability" id="ece34738-sec-0023">
+              <title>DATA ACCESSIBILITY</title>
+              <p>Raw survey data, fitted models, and code: Dryad Data Repository ( <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.1vm20t6">https://doi.org/10.5061/dryad.1vm20t6</ext-link>).</p>
+            </sec>
+            <ref-list content-type="cited-references" id="ece34738-bibl-0001">
+              <title>REFERENCES</title>
+              <ref id="ece34738-bib-0001">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0001"><string-name><surname>Austin</surname>, <given-names>M.</given-names></string-name> (<year>2007</year>). <article-title>Species distribution models and ecological theory: A critical assessment and some possible new approaches</article-title>. <source xml:lang="en">Ecological Modelling</source>, <volume>200</volume>, <fpage>1</fpage>–<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2006.07.005</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0002">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0002"><string-name><surname>Austin</surname>, <given-names>M. P.</given-names></string-name>, &amp; <string-name><surname>Van Niel</surname>, <given-names>K. P.</given-names></string-name> (<year>2011</year>). <article-title>Improving species distribution models for climate change studies: Variable selection and scale</article-title>. <source xml:lang="en">Journal of Biogeography</source>, <volume>38</volume>, <fpage>1</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2699.2010.02416.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0003">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0003"><string-name><surname>Benoit‐Bird</surname>, <given-names>K. J.</given-names></string-name>, <string-name><surname>Battaile</surname>, <given-names>B. C.</given-names></string-name>, <string-name><surname>Heppell</surname>, <given-names>S. A.</given-names></string-name>, <string-name><surname>Hoover</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Irons</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Jones</surname>, <given-names>N.</given-names></string-name>, … <string-name><surname>Trites</surname>, <given-names>A. W.</given-names></string-name> (<year>2013</year>). <article-title>Prey patch patterns predict habitat use by top marine predators with diverse foraging strategies</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>8</volume>, <fpage>e53348</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0053348</pub-id>
+<pub-id pub-id-type="pmid">23301063</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0004">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0004"><string-name><surname>Blackburn</surname>, <given-names>T. M.</given-names></string-name>, <string-name><surname>Cassey</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Gaston</surname>, <given-names>K. J.</given-names></string-name> (<year>2006</year>). <article-title>Variations on a theme: Sources of heterogeneity in the form of the interspecific relationship between abundance and distribution</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>75</volume>, <fpage>1426</fpage>–<lpage>1439</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2656.2006.01167.x</pub-id>
+<pub-id pub-id-type="pmid">17032375</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0005">
+                <mixed-citation publication-type="book" id="ece34738-cit-0005"><string-name><surname>Borchers</surname>, <given-names>D. L.</given-names></string-name>, <string-name><surname>Buckland</surname>, <given-names>S. T.</given-names></string-name>, &amp; <string-name><surname>Zucchini</surname>, <given-names>W.</given-names></string-name> (<year>2002</year>). <source xml:lang="en">Estimating animal abundance: Closed populations</source>. <publisher-loc>London, UK</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0006">
+                <mixed-citation publication-type="book" id="ece34738-cit-0006"><string-name><surname>Bowman</surname>, <given-names>T. D.</given-names></string-name>, <string-name><surname>Silverman</surname>, <given-names>E. D.</given-names></string-name>, <string-name><surname>Gilliland</surname>, <given-names>S. G.</given-names></string-name>, &amp; <string-name><surname>Leirness</surname>, <given-names>J. B.</given-names></string-name> (<year>2015</year>). <chapter-title>Status and trends of North American sea ducks: Reinforcing the need for better monitoring</chapter-title> In <person-group person-group-type="editor"><name><surname>Savard</surname><given-names>J.‐P.‐L.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Derksen</surname><given-names>D. V.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Esler</surname><given-names>D.</given-names></name></person-group>, &amp; <person-group person-group-type="editor"><name><surname>Eadie</surname><given-names>J. M.</given-names></name></person-group> (Eds.), <source xml:lang="en">Ecology and conservation of North American Sea Ducks</source> (pp. <fpage>1</fpage>–<lpage>27</lpage>). <publisher-loc>New York, NY</publisher-loc>: <publisher-name>CRC Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0007">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0007"><string-name><surname>Bradbury</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Trinder</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Furness</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Banks</surname>, <given-names>A. N.</given-names></string-name>, <string-name><surname>Caldow</surname>, <given-names>R. W. G.</given-names></string-name>, &amp; <string-name><surname>Hume</surname>, <given-names>D.</given-names></string-name> (<year>2014</year>). <article-title>Mapping seabird sensitivity to offshore wind farms</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>9</volume>, <fpage>e106366</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0106366</pub-id>
+<pub-id pub-id-type="pmid">25210739</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0008">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0008"><string-name><surname>Buckland</surname>, <given-names>S. T.</given-names></string-name>, <string-name><surname>Burt</surname>, <given-names>M. L.</given-names></string-name>, <string-name><surname>Rexstad</surname>, <given-names>E. A.</given-names></string-name>, <string-name><surname>Mellor</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Williams</surname>, <given-names>A. E.</given-names></string-name>, &amp; <string-name><surname>Woodward</surname>, <given-names>R.</given-names></string-name> (<year>2012</year>). <article-title>Aerial surveys of seabirds: The advent of digital methods</article-title>. <source xml:lang="en">Journal of Applied Ecology</source>, <volume>49</volume>, <fpage>960</fpage>–<lpage>967</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2664.2012.02150.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0009">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0009"><string-name><surname>Bühlmann</surname>, <given-names>P.</given-names></string-name>, &amp; <string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name> (<year>2007</year>). <article-title>Boosting algorithms: Regularization, prediction and model fitting</article-title>. <source xml:lang="en">Statistical Science</source>, <volume>22</volume>, <fpage>477</fpage>–<lpage>505</lpage>. <pub-id pub-id-type="doi">10.1214/07-STS242</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0010">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0010"><string-name><surname>Certain</surname>, <given-names>G.</given-names></string-name>, &amp; <string-name><surname>Bretagnolle</surname>, <given-names>V.</given-names></string-name> (<year>2008</year>). <article-title>Monitoring seabird populations in marine ecosystem: The use of strip‐transect aerial surveys</article-title>. <source xml:lang="en">Remote Sensing of Environment</source>, <volume>112</volume>, <fpage>3314</fpage>–<lpage>3322</lpage>. <pub-id pub-id-type="doi">10.1016/j.rse.2008.01.019</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0011">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0011"><string-name><surname>Cervencl</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Fernandez</surname>, <given-names>S. A.</given-names></string-name> (<year>2012</year>). <article-title>Winter distribution of Greater Scaup <italic>Aythya marila</italic> in relation to available food resources</article-title>. <source xml:lang="en">Journal of Sea Research</source>, <volume>73</volume>, <fpage>41</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.1016/j.seares.2012.06.006</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0012">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0012"><string-name><surname>Cervencl</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Troost</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Dijkman</surname>, <given-names>E.</given-names></string-name>, <string-name><surname>de Jong</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Smit</surname>, <given-names>C. J.</given-names></string-name>, <string-name><surname>Leopold</surname>, <given-names>M. F.</given-names></string-name>, &amp; <string-name><surname>Ens</surname>, <given-names>B. J.</given-names></string-name> (<year>2014</year>). <article-title>Distribution of wintering Common Eider <italic>Somateria mollissima</italic> in the Dutch Wadden Sea in relation to available food stocks</article-title>. <source xml:lang="en">Marine Biology</source>, <volume>162</volume>, <fpage>153</fpage>–<lpage>168</lpage>. <pub-id pub-id-type="doi">10.1007/s00227-014-2594-4</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0013">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0013"><string-name><surname>Chen</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Liu</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Beardsley</surname>, <given-names>R. C.</given-names></string-name> (<year>2003</year>). <article-title>An unstructured grid, finite‐volume, three dimensional primitive equations ocean model: Application to coastal ocean and estuaries</article-title>. <source xml:lang="en">Journal of Atmospheric and Oceanic Technology</source>, <volume>20</volume>, <fpage>159</fpage>–<lpage>186</lpage>. <pub-id pub-id-type="doi">10.1175/1520-0426(2003)020&amp;0159:AUGFVT&amp;2.0.CO;2</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0014">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0014"><string-name><surname>Chen</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Huang</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Beardsley</surname>, <given-names>R. C.</given-names></string-name>, <string-name><surname>Xu</surname>, <given-names>Q.</given-names></string-name>, <string-name><surname>Limeburner</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Cowles</surname>, <given-names>G. W.</given-names></string-name>, … <string-name><surname>Lin</surname>, <given-names>H.</given-names></string-name> (<year>2011</year>). <article-title>Tidal dynamics in the Gulf of Maine and New England Shelf: An application of FVCOM</article-title>. <source xml:lang="en">Journal of Geophysical Research: Oceans</source>, <volume>116</volume>, <fpage>1</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1029/2011JC007054</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0015">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0015"><string-name><surname>Cisneros</surname>, <given-names>K. O.</given-names></string-name>, <string-name><surname>Smit</surname>, <given-names>A. J.</given-names></string-name>, <string-name><surname>Laudien</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Schoeman</surname>, <given-names>D. S.</given-names></string-name> (<year>2011</year>). <article-title>Complex, dynamic combination of physical, chemical and nutritional variables controls spatio‐temporal variation of sandy beach community structure</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>6</volume>, <fpage>e23724</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0023724</pub-id>
+<pub-id pub-id-type="pmid">21858213</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0016">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0016"><string-name><surname>Conn</surname>, <given-names>P. B.</given-names></string-name>, &amp; <string-name><surname>Alisauskas</surname>, <given-names>R. T.</given-names></string-name> (<year>2018</year>). <article-title>Simultaneous modelling of movement, measurement error, and observer dependence in mark‐recapture distance sampling: An application to Arctic bird surveys</article-title>. <source xml:lang="en">The Annals of Applied Statistics</source>, <volume>12</volume>, <fpage>96</fpage>–<lpage>122</lpage>. <pub-id pub-id-type="doi">10.1214/17-AOAS1108</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0017">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0017"><string-name><surname>Cunningham</surname>, <given-names>R. B.</given-names></string-name>, &amp; <string-name><surname>Lindenmayer</surname>, <given-names>D. B.</given-names></string-name> (<year>2005</year>). <article-title>Modeling count data of rare species: Some statistical issues</article-title>. <source xml:lang="en">Ecology</source>, <volume>86</volume>, <fpage>1135</fpage>–<lpage>1142</lpage>. <pub-id pub-id-type="doi">10.1890/04-0589</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0018">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0018"><string-name><surname>Davis</surname>, <given-names>W. E.</given-names></string-name> (<year>1997</year>). <article-title>The Nantucket oldsquaw flight: New England’s greatest bird show?</article-title>
+<source xml:lang="en">Bird Observer</source>, <volume>25</volume>, <fpage>16</fpage>–<lpage>22</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0019">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0019"><string-name><surname>De La Cruz</surname>, <given-names>S. E. W.</given-names></string-name>, <string-name><surname>Eadie</surname>, <given-names>J. M.</given-names></string-name>, <string-name><surname>Miles</surname>, <given-names>A. K.</given-names></string-name>, <string-name><surname>Yee</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Spragens</surname>, <given-names>K. A.</given-names></string-name>, <string-name><surname>Palm</surname>, <given-names>E. C.</given-names></string-name>, &amp; <string-name><surname>Takekawa</surname>, <given-names>J. Y.</given-names></string-name> (<year>2014</year>). <article-title>Resource selection and space use by sea ducks during the non‐breeding season: Implications for habitat conservation planning in urbanized estuaries</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>169</volume>, <fpage>68</fpage>–<lpage>78</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2013.10.021</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0020">
+                <mixed-citation publication-type="book" id="ece34738-cit-0020"><string-name><surname>Eakins</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Taylor</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Carignan</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Warnken</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Lim</surname>, <given-names>E.</given-names></string-name>, &amp; <string-name><surname>Medley</surname>, <given-names>P.</given-names></string-name> (<year>2009</year>). <source xml:lang="en">Digital elevation model of Nantucket, Massachusetts: Procedures, data sources and analysis, NOAA Technical Memorandum NESDIS NGDC‐26</source>. <publisher-loc>Boulder, CO</publisher-loc>: <publisher-name>Department of Commerce</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0021">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0021"><string-name><surname>Eilers</surname>, <given-names>P. H. C.</given-names></string-name>, &amp; <string-name><surname>Marx</surname>, <given-names>B. D.</given-names></string-name> (<year>1996</year>). <article-title>Flexible smoothing with B‐splines and penalties (with discussion)</article-title>. <source xml:lang="en">Statistical Science</source>, <volume>11</volume>, <fpage>89</fpage>–<lpage>121</lpage>. <pub-id pub-id-type="doi">10.1214/ss/1038425655</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0022">
+                <mixed-citation publication-type="book" id="ece34738-cit-0022"><collab collab-type="authors">ERDDAP</collab>
+(Environmental Research Division Data Access Program). (<year>2017</year>). <source xml:lang="en">Aqua MODIS gridded satellite data</source>. <publisher-loc>Boulder, CO</publisher-loc>: <publisher-name>National Oceanic and Atmospheric Administration</publisher-name>
+<ext-link ext-link-type="uri" xlink:href="http://upwell.pfeg.noaa.gov/erddap/index.html">http://upwell.pfeg.noaa.gov/erddap/index.html</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0023">
+                <mixed-citation publication-type="book" id="ece34738-cit-0023"><string-name><surname>Evans</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Ford</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>Chase</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Sheppard</surname>, <given-names>J.</given-names></string-name> (<year>2011</year>). <source xml:lang="en">Recommended time of year restrictions (TOYs) for coastal alteration projects to protect marine fisheries resources in Massachusetts</source>. <publisher-loc>New Bedford, MA</publisher-loc>: <publisher-name>Massachusetts Division of Marine Fisheries</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0024">
+                <mixed-citation publication-type="book" id="ece34738-cit-0024"><string-name><surname>Fay</surname>, <given-names>C. W.</given-names></string-name>, <string-name><surname>Neves</surname>, <given-names>R. J.</given-names></string-name>, &amp; <string-name><surname>Pardue</surname>, <given-names>G. B.</given-names></string-name>. (<year>1983</year>). <source xml:lang="en">Species profiles: Life histories and environmental requirements of coastal fishes and invertebrates (Mid‐Atlantic) – surf clam</source>. U.S. Fish. Wildl. Serv. Biol. Rep. 82(11. 13). <publisher-loc>Vicksburg, MS</publisher-loc>: <publisher-name>U.S. Army Corps of Engineers</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0025">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0025"><string-name><surname>Flanders</surname>, <given-names>N. P.</given-names></string-name>, <string-name><surname>Gardner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Winiarski</surname>, <given-names>K. J.</given-names></string-name>, <string-name><surname>Paton</surname>, <given-names>P. W. C.</given-names></string-name>, <string-name><surname>Allison</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>O’Connell</surname>, <given-names>A.</given-names></string-name> (<year>2015</year>). <article-title>Key seabird areas in southern New England identified using a community occupancy model approach</article-title>. <source xml:lang="en">Marine Ecology Progress Series</source>, <volume>533</volume>, <fpage>277</fpage>–<lpage>290</lpage>. <pub-id pub-id-type="doi">10.3354/meps11316</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0026">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0026"><string-name><surname>Flint</surname>, <given-names>P. L.</given-names></string-name> (<year>2013</year>). <article-title>Changes in size and trends of North American sea duck populations associated with North Pacific oceanic regime shifts</article-title>. <source xml:lang="en">Marine Biology</source>, <volume>160</volume>, <fpage>59</fpage>–<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1007/s00227-012-2062-y</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0027">
+                <mixed-citation publication-type="book" id="ece34738-cit-0027"><string-name><surname>Ford</surname>, <given-names>R. G.</given-names></string-name> (<year>1999</year>). <source xml:lang="en">dLOG: Data entry and real‐time mapping program. Software and documentation for integration of GPS location and observer data</source>. <publisher-loc>Portland, OR</publisher-loc>: <publisher-name>RG Ford Consulting Company</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0028">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0028"><string-name><surname>Goudie</surname>, <given-names>R. I.</given-names></string-name>, &amp; <string-name><surname>Ankney</surname>, <given-names>C. D.</given-names></string-name> (<year>1988</year>). <article-title>Patterns of habitat use by sea ducks wintering in southeastern Newfoundland</article-title>. <source xml:lang="en">Ornis Scandinavica</source>, <volume>19</volume>, <fpage>249</fpage>–<lpage>256</lpage>. <pub-id pub-id-type="doi">10.2307/3676718</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0029">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0029"><string-name><surname>Grémillet</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Goudie</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Drapeau</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Van Der Lingen</surname>, <given-names>C. D.</given-names></string-name>, <string-name><surname>Huggett</surname>, <given-names>J. A.</given-names></string-name>, <string-name><surname>Coetzee</surname>, <given-names>J. C.</given-names></string-name>, … <string-name><surname>Ryan</surname>, <given-names>P. G.</given-names></string-name> (<year>2008</year>). <article-title>Spatial match–mismatch in the Benguela upwelling zone: Should we expect chlorophyll and sea‐surface temperature to predict marine predator distributions?</article-title>
+<source xml:lang="en">Journal of Applied Ecology</source>, <volume>45</volume>, <fpage>610</fpage>–<lpage>621</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2664.2007.01447.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0030">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0030"><string-name><surname>Guillemette</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Himmelman</surname>, <given-names>J. H.</given-names></string-name>, &amp; <string-name><surname>Barette</surname>, <given-names>C.</given-names></string-name> (<year>1993</year>). <article-title>Habitat selection by Common Eiders in winter and its interaction with flock size</article-title>. <source xml:lang="en">Canadian Journal of Zoology</source>, <volume>71</volume>, <fpage>1259</fpage>–<lpage>1266</lpage>. <pub-id pub-id-type="doi">10.1139/z93-172</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0031">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0031"><string-name><surname>Guisan</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Thuiller</surname>, <given-names>W.</given-names></string-name> (<year>2005</year>). <article-title>Predicting species distribution: Offering more than simple habitat models</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>8</volume>, <fpage>993</fpage>–<lpage>1009</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2005.00792.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0032">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0032"><string-name><surname>Guisan</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Zimmermann</surname>, <given-names>N. E.</given-names></string-name> (<year>2000</year>). <article-title>Predictive habitat distribution models in ecology</article-title>. <source xml:lang="en">Ecological Modelling</source>, <volume>135</volume>, <fpage>147</fpage>–<lpage>186</lpage>. <pub-id pub-id-type="doi">10.1016/S0304-3800(00)00354-9</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0033">
+                <mixed-citation publication-type="book" id="ece34738-cit-0033"><string-name><surname>Hastie</surname>, <given-names>T. J.</given-names></string-name>, &amp; <string-name><surname>Tibshirani</surname>, <given-names>R. J.</given-names></string-name> (<year>1990</year>). <source xml:lang="en">Generalized additive models</source>. <publisher-loc>Boca Raton, FL</publisher-loc>: <publisher-name>CRC Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0034">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0034"><string-name><surname>He</surname>, <given-names>F.</given-names></string-name>, &amp; <string-name><surname>Gaston</surname>, <given-names>K. J.</given-names></string-name> (<year>2000</year>). <article-title>Estimating species abundance from occurrence</article-title>. <source xml:lang="en">The American Naturalist</source>, <volume>156</volume>, <fpage>553</fpage>–<lpage>559</lpage>. <pub-id pub-id-type="doi">10.1086/303403</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0035">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0035"><string-name><surname>Hoeting</surname>, <given-names>J. A.</given-names></string-name> (<year>2009</year>). <article-title>The importance of accounting for spatial and temporal correlation in analyses of ecological data</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>19</volume>, <fpage>574</fpage>–<lpage>577</lpage>. <pub-id pub-id-type="doi">10.1890/08-0836.1</pub-id>
+<pub-id pub-id-type="pmid">19425418</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0036">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0036"><string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Boccuto</surname>, <given-names>L.</given-names></string-name>, &amp; <string-name><surname>Göker</surname>, <given-names>M.</given-names></string-name> (<year>2015</year>). <article-title>Controlling false discoveries in high‐dimensional situations: Boosting with stability selection</article-title>. <source xml:lang="en">BMC Bioinformatics</source>, <volume>16</volume>, <fpage>144</fpage>
+<pub-id pub-id-type="doi">10.1186/s12859-015-0575-3</pub-id>
+<pub-id pub-id-type="pmid">25943565</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0037">
+                <mixed-citation publication-type="miscellaneous" id="ece34738-cit-0037"><string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name> (<year>2017</year>). <article-title>stabs: Stability selection with error control</article-title>, R package version 0.6‐3. <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/package=stabs">https://cran.r-project.org/package=stabs</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0038">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0038"><string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Kneib</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name> (<year>2011</year>). <article-title>A framework for unbiased model selection based on boosting</article-title>. <source xml:lang="en">Journal of Computational and Graphical Statistics</source>, <volume>20</volume>, <fpage>956</fpage>–<lpage>971</lpage>. <pub-id pub-id-type="doi">10.1198/jcgs.2011.09220</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0039">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0039"><string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Kneib</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name> (<year>2016</year>). <article-title>A unified framework of constrained regression</article-title>. <source xml:lang="en">Statistics and Computing</source>, <volume>26</volume>, <fpage>1</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1198/jcgs.2011.09220</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0040">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0040"><string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Mayr</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Robinzonov</surname>, <given-names>N.</given-names></string-name>, &amp; <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name> (<year>2014</year>). <article-title>Model‐based boosting in R: A hands‐on tutorial using the R package mboost</article-title>. <source xml:lang="en">Computational Statistics</source>, <volume>29</volume>, <fpage>3</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1007/s00180-012-0382-5</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0041">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0041"><string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Mayr</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name> (<year>2016</year>). <article-title>gamboostLSS: An R package for model building and variable selection in the GAMLSS framework</article-title>. <source xml:lang="en">Journal of Statistical Software</source>, <volume>74</volume>, <fpage>1</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v074.i01</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0042">
+                <mixed-citation publication-type="miscellaneous" id="ece34738-cit-0042"><string-name><surname>Hofner</surname></string-name>, <string-name><given-names>B.</given-names></string-name>, <string-name><surname>Mayr</surname></string-name>, <string-name><given-names>A.</given-names></string-name>, <string-name><surname>Fenske</surname></string-name>, <string-name><given-names>N.</given-names></string-name>, &amp; …<string-name><given-names>M.</given-names></string-name> (<year>2017</year>). <article-title>gamboostLSS: Boosting methods for GAMLSS models</article-title>, R package version 2.0‐1. <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/package=gamboostLSS">https://cran.r-project.org/package=gamboostLSS</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0043">
+                <mixed-citation publication-type="miscellaneous" id="ece34738-cit-0043"><string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Buehlmann</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Kneib</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name> (<year>2017</year>). <article-title>mboost: Model‐based boosting, </article-title>R package version 2.48‐1. <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/package=mboost">https://cran.r-project.org/package=mboost</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0044">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0044"><string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Bühlmann</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Kneib</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name> (<year>2010</year>). <article-title>Model‐based boosting 2.0</article-title>. <source xml:lang="en">Journal of Machine Learning Research</source>, <volume>11</volume>, <fpage>2109</fpage>–<lpage>2113</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0045">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0045"><string-name><surname>Howard</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Stephens</surname>, <given-names>P. A.</given-names></string-name>, <string-name><surname>Pearce‐Higgins</surname>, <given-names>J. W.</given-names></string-name>, <string-name><surname>Gregory</surname>, <given-names>R. D.</given-names></string-name>, &amp; <string-name><surname>Willis</surname>, <given-names>S. G.</given-names></string-name> (<year>2014</year>). <article-title>Improving species distribution models: The value of data on abundance</article-title>. <source xml:lang="en">Methods in Ecology and Evolution</source>, <volume>5</volume>, <fpage>506</fpage>–<lpage>513</lpage>. <pub-id pub-id-type="doi">10.1111/2041-210X.12184</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0046">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0046"><string-name><surname>Hurrell</surname>, <given-names>J. W.</given-names></string-name> (<year>1995</year>). <article-title>Decadal trends in the North Atlantic Oscillation: Regional temperatures and precipitation</article-title>. <source xml:lang="en">Science</source>, <volume>269</volume>, <fpage>676</fpage>–<lpage>679</lpage>. <pub-id pub-id-type="doi">10.1126/science.269.5224.676</pub-id>
+<pub-id pub-id-type="pmid">17758812</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0047">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0047"><string-name><surname>Hurrell</surname>, <given-names>J. W.</given-names></string-name>, &amp; <string-name><surname>Deser</surname>, <given-names>C.</given-names></string-name> (<year>2010</year>). <article-title>North Atlantic climate variability: The role of the North Atlantic Oscillation</article-title>. <source xml:lang="en">Journal of Marine Systems</source>, <volume>79</volume>, <fpage>231</fpage>–<lpage>244</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmarsys.2009.11.002</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0048">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0048"><string-name><surname>Hyrenbach</surname>, <given-names>K. D.</given-names></string-name>, <string-name><surname>Forney</surname>, <given-names>K. A.</given-names></string-name>, &amp; <string-name><surname>Dayton</surname>, <given-names>P. K.</given-names></string-name> (<year>2000</year>). <article-title>Marine protected areas and ocean basin management</article-title>. <source xml:lang="en">Aquatic Conservation: Marine and Freshwater Ecosystems</source>, <volume>10</volume>, <fpage>437</fpage>–<lpage>458</lpage>. <pub-id pub-id-type="doi">10.1002/1099-0755(200011/12)10:6&amp;437:AID-AQC425&amp;3.0.CO;2-Q</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0049">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0049"><string-name><surname>Jenness</surname>, <given-names>J. S.</given-names></string-name> (<year>2004</year>). <article-title>Calculating landscape surface area from digital elevation models</article-title>. <source xml:lang="en">Wildlife Society Bulletin</source>, <volume>32</volume>, <fpage>829</fpage>–<lpage>839</lpage>. <pub-id pub-id-type="doi">10.2193/0091-7648(2004)032[0829:CLSAFD]2.0.CO;2</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0050">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0050"><string-name><surname>Johnson</surname>, <given-names>C. J.</given-names></string-name>, <string-name><surname>Nielsen</surname>, <given-names>S. E.</given-names></string-name>, <string-name><surname>Merrill</surname>, <given-names>E. H.</given-names></string-name>, <string-name><surname>McDonald</surname>, <given-names>T. L.</given-names></string-name>, &amp; <string-name><surname>Boyce</surname>, <given-names>M. S.</given-names></string-name> (<year>2006</year>). <article-title>Resource selection functions based on use‐availability data: Theoretical motivation and evaluation methods</article-title>. <source xml:lang="en">Journal of Wildlife Management</source>, <volume>70</volume>, <fpage>347</fpage>–<lpage>357</lpage>. <pub-id pub-id-type="doi">10.2193/0022-541X(2006)70[347:RSFBOU]2.0.CO;2</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0051">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0051"><string-name><surname>Johnson</surname>, <given-names>C. J.</given-names></string-name>, <string-name><surname>Seip</surname>, <given-names>D. R.</given-names></string-name>, &amp; <string-name><surname>Boyce</surname>, <given-names>M. S.</given-names></string-name> (<year>2004</year>). <article-title>A quantitative approach to conservation planning: Using resource selection functions to map the distribution of mountain caribou at multiple spatial scales</article-title>. <source xml:lang="en">Journal of Applied Ecology</source>, <volume>41</volume>, <fpage>238</fpage>–<lpage>251</lpage>. <pub-id pub-id-type="doi">10.1111/j.0021-8901.2004.00899.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0052">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0052"><string-name><surname>Johnson</surname>, <given-names>D. H.</given-names></string-name> (<year>1980</year>). <article-title>The comparison of usage and availability measurements for evaluating resource preference</article-title>. <source xml:lang="en">Ecology</source>, <volume>61</volume>, <fpage>65</fpage>–<lpage>71</lpage>. <pub-id pub-id-type="doi">10.2307/1937156</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0053">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0053"><string-name><surname>Johnston</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Fink</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Reynolds</surname>, <given-names>M. D.</given-names></string-name>, <string-name><surname>Hochachka</surname>, <given-names>W. M.</given-names></string-name>, <string-name><surname>Sullivan</surname>, <given-names>B. L.</given-names></string-name>, <string-name><surname>Bruns</surname>, <given-names>N. E.</given-names></string-name>, … <string-name><surname>Kelling</surname>, <given-names>S.</given-names></string-name> (<year>2015</year>). <article-title>Abundance models improve spatial and temporal prioritization of conservation resources</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>25</volume>, <fpage>1749</fpage>–<lpage>1756</lpage>. <pub-id pub-id-type="doi">10.1890/14-1826.1</pub-id>
+<pub-id pub-id-type="pmid">26591443</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0054">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0054"><string-name><surname>Kaiser</surname>, <given-names>M. J.</given-names></string-name>, <string-name><surname>Galanidi</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Showler</surname>, <given-names>D. A.</given-names></string-name>, <string-name><surname>Elliott</surname>, <given-names>A. J.</given-names></string-name>, <string-name><surname>Caldow</surname>, <given-names>R. W. G.</given-names></string-name>, <string-name><surname>Rees</surname>, <given-names>E. I. S.</given-names></string-name>, … <string-name><surname>Sutherland</surname>, <given-names>W. J.</given-names></string-name> (<year>2006</year>). <article-title>Distribution and behaviour of Common Scoter <italic>Melanitta nigra</italic> relative to prey resources and environmental parameters</article-title>. <source xml:lang="en">Ibis</source>, <volume>148</volume>, <fpage>110</fpage>–<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1111/j.1474-919X.2006.00517.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0055">
+                <mixed-citation publication-type="book" id="ece34738-cit-0055"><string-name><surname>Kinlan</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Menza</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Huettmann</surname>, <given-names>F.</given-names></string-name> (<year>2012</year>). <chapter-title>Chapter 6: Predictive modeling of seabird distribution patterns in the New York Bight</chapter-title> In <person-group person-group-type="editor"><name><surname>Menza</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Kinlan</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Dorfman</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Poti</surname><given-names>M.</given-names></name></person-group>, &amp; <person-group person-group-type="editor"><name><surname>Caldow</surname><given-names>C.</given-names></name></person-group> (Eds.), <source xml:lang="en">A biogeographic assessment of seabirds, deep sea corals and ocean habitats of the New York Bight: Science to support offshore spatial planning</source> (pp. <fpage>87</fpage>–<lpage>224</lpage>). NOAA Technical Memorandum NOS NCCOS 141. <publisher-loc>Silver Spring, MD</publisher-loc>: <publisher-name>NOAA</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0056">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0056"><string-name><surname>Kneib</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Tutz</surname>, <given-names>G.</given-names></string-name> (<year>2009</year>). <article-title>Variable selection and model choice in geoadditive regression models</article-title>. <source xml:lang="en">Biometrics</source>, <volume>65</volume>, <fpage>626</fpage>–<lpage>634</lpage>. <pub-id pub-id-type="doi">10.1111/j.1541-0420.2008.01112.x</pub-id>.<pub-id pub-id-type="pmid">18759832</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0057">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0057"><string-name><surname>Kneib</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Müller</surname>, <given-names>J.</given-names></string-name>, &amp; <string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name> (<year>2008</year>). <article-title>Spatial smoothing techniques for the assessment of habitat suitability</article-title>. <source xml:lang="en">Environmental &amp; Ecological Statistics</source>, <volume>15</volume>, <fpage>343</fpage>–<lpage>364</lpage>. <pub-id pub-id-type="doi">10.1007/s10651-008-0092-x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0058">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0058"><string-name><surname>Knights</surname>, <given-names>A. M.</given-names></string-name>, <string-name><surname>Crowe</surname>, <given-names>T. P.</given-names></string-name>, &amp; <string-name><surname>Burnell</surname>, <given-names>G.</given-names></string-name> (<year>2006</year>). <article-title>Mechanisms of larval transport: Vertical distribution of bivalve larvae varies with tidal conditions</article-title>. <source xml:lang="en">Marine Ecology Progress Series</source>, <volume>326</volume>, <fpage>167</fpage>–<lpage>174</lpage>. <pub-id pub-id-type="doi">10.3354/meps326167</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0059">
+                <mixed-citation publication-type="miscellaneous" id="ece34738-cit-0059">Marine Ecosystem Dynamic Modeling Lab. (2006). Finite Volume Community Ocean Model (FVCOM). Marine Ecosystem Dynamic Modeling Lab, Dartmouth, MA. <ext-link ext-link-type="uri" xlink:href="http://fvcom.smast.umassd.edu/Data/FVCOM/NECOFS/Archive/">http://fvcom.smast.umassd.edu/Data/FVCOM/NECOFS/Archive/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0060">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0060"><string-name><surname>Langston</surname>, <given-names>R. H. W.</given-names></string-name> (<year>2013</year>). <article-title>Birds and wind projects across the pond: A UK perspective</article-title>. <source xml:lang="en">Wildlife Society Bulletin</source>, <volume>37</volume>, <fpage>5</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1002/wsb.262</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0061">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0061"><string-name><surname>Larsen</surname>, <given-names>J. K.</given-names></string-name>, &amp; <string-name><surname>Laubek</surname>, <given-names>B.</given-names></string-name> (<year>2005</year>). <article-title>Impacts of high‐speed ferry disturbance on wintering sea ducks</article-title>. <source xml:lang="en">Wildfowl</source>, <volume>55</volume>, <fpage>99</fpage>–<lpage>116</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0062">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0062"><string-name><surname>Legendre</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Thrush</surname>, <given-names>S. F.</given-names></string-name>, <string-name><surname>Cummings</surname>, <given-names>V. J.</given-names></string-name>, <string-name><surname>Dayton</surname>, <given-names>P. K.</given-names></string-name>, <string-name><surname>Grant</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Hewitt</surname>, <given-names>J. E.</given-names></string-name>, &amp; <string-name><surname>Turner</surname>, <given-names>S. J.</given-names></string-name> (<year>1997</year>). <article-title>Spatial structure of bivalves in a sandflat: Scale and generating processes</article-title>. <source xml:lang="en">Journal of Experimental Marine Biology and Ecology</source>, <volume>216</volume>, <fpage>99</fpage>–<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-0981(97)00092-0</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0063">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0063"><string-name><surname>Lewis</surname>, <given-names>T. L.</given-names></string-name>, <string-name><surname>Esler</surname>, <given-names>D.</given-names></string-name>, &amp; <string-name><surname>Boyd</surname>, <given-names>W. S.</given-names></string-name> (<year>2008</year>). <article-title>Foraging behavior of Surf Scoters and White‐winged Scoters in relation to clam density: Inferring food availability and habitat quality</article-title>. <source xml:lang="en">The Auk</source>, <volume>125</volume>, <fpage>149</fpage>–<lpage>157</lpage>. <pub-id pub-id-type="doi">10.1650/0010-5422(2007)109[216:FBOSSA]2.0.CO;2</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0064">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0064"><string-name><surname>Logerwell</surname>, <given-names>E. A.</given-names></string-name>, &amp; <string-name><surname>Hargreaves</surname>, <given-names>N. B.</given-names></string-name> (<year>1996</year>). <article-title>The distribution of sea birds relative to their fish prey off Vancouver Island: Opposing results at large and small spatial scales</article-title>. <source xml:lang="en">Fisheries Oceanography</source>, <volume>5</volume>, <fpage>163</fpage>–<lpage>175</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2419.1996.tb00115.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0065">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0065"><string-name><surname>Loring</surname>, <given-names>P. H.</given-names></string-name>, <string-name><surname>Paton</surname>, <given-names>P. W. C.</given-names></string-name>, <string-name><surname>McWilliams</surname>, <given-names>S. R.</given-names></string-name>, <string-name><surname>McKinney</surname>, <given-names>R. A.</given-names></string-name>, &amp; <string-name><surname>Oviatt</surname>, <given-names>C. A.</given-names></string-name> (<year>2013</year>). <article-title>Densities of wintering scoters in relation to benthic prey assemblages in a North Atlantic estuary</article-title>. <source xml:lang="en">Waterbirds</source>, <volume>36</volume>, <fpage>144</fpage>–<lpage>155</lpage>. <pub-id pub-id-type="doi">10.1675/063.036.0204</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0066">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0066"><string-name><surname>Lovvorn</surname>, <given-names>J. R.</given-names></string-name>, <string-name><surname>Grebmeier</surname>, <given-names>J. M.</given-names></string-name>, <string-name><surname>Cooper</surname>, <given-names>L. W.</given-names></string-name>, <string-name><surname>Bump</surname>, <given-names>J. K.</given-names></string-name>, &amp; <string-name><surname>Richman</surname>, <given-names>S. E.</given-names></string-name> (<year>2009</year>). <article-title>Modeling marine protected areas for threatened eiders in a climatically changing Bering Sea</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>19</volume>, <fpage>1596</fpage>–<lpage>1613</lpage>. <pub-id pub-id-type="doi">10.1890/08-1193.1</pub-id>
+<pub-id pub-id-type="pmid">19769106</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0067">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0067"><string-name><surname>Mainali</surname>, <given-names>K. P.</given-names></string-name>, <string-name><surname>Warren</surname>, <given-names>D. L.</given-names></string-name>, <string-name><surname>Dhileepan</surname>, <given-names>K.</given-names></string-name>, <string-name><surname>McConnachie</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Strathie</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Hassan</surname>, <given-names>G.</given-names></string-name>, … <string-name><surname>Parmesan</surname>, <given-names>C.</given-names></string-name> (<year>2015</year>). <article-title>Projecting future expansion of invasive species: Comparing and improving methodologies for species distribution modeling</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>21</volume>, <fpage>4464</fpage>–<lpage>4480</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.13038</pub-id>
+<pub-id pub-id-type="pmid">26185104</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0068">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0068"><string-name><surname>Maloney</surname>, <given-names>K. O.</given-names></string-name>, <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Weller</surname>, <given-names>D. E.</given-names></string-name> (<year>2012</year>). <article-title>Applying additive modelling and gradient boosting to assess the effects of watershed and reach characteristics on riverine assemblages</article-title>. <source xml:lang="en">Methods in Ecology and Evolution</source>, <volume>3</volume>, <fpage>116</fpage>–<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1111/j.2041-210X.2011.00124.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0069">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0069"><string-name><surname>Mannocci</surname>, <given-names>L.</given-names></string-name>, <string-name><surname>Boustany</surname>, <given-names>A. M.</given-names></string-name>, <string-name><surname>Roberts</surname>, <given-names>J. J.</given-names></string-name>, <string-name><surname>Palacios</surname>, <given-names>D. M.</given-names></string-name>, <string-name><surname>Dunn</surname>, <given-names>D. C.</given-names></string-name>, <string-name><surname>Halpin</surname>, <given-names>P. N.</given-names></string-name>, … <string-name><surname>Bograd</surname>, <given-names>S. J.</given-names></string-name> (<year>2017</year>). <article-title>Temporal resolutions in species distribution models of highly mobile marine animals: Recommendations for ecologists and managers</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>23</volume>, <fpage>1098</fpage>–<lpage>1109</lpage>. <pub-id pub-id-type="doi">10.1111/ddi.12609</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0070">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0070"><string-name><surname>Manté</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Kidé</surname>, <given-names>S. O.</given-names></string-name>, <string-name><surname>Yao‐Lafourcade</surname>, <given-names>A. F.</given-names></string-name>, &amp; <string-name><surname>Mérigot</surname>, <given-names>B.</given-names></string-name> (<year>2016</year>). <article-title>Fitting the truncated negative binomial distribution to count data</article-title>. <source xml:lang="en">Environmental and Ecological Statistics</source>, <volume>23</volume>, <fpage>359</fpage>–<lpage>385</lpage>. <pub-id pub-id-type="doi">10.1007/s10651-016-0343-1</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0071">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0071"><string-name><surname>Marsh</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Sinclair</surname>, <given-names>D. F.</given-names></string-name> (<year>1989</year>). <article-title>Correcting for visibility bias in strip transect aerial surveys of aquatic fauna</article-title>. <source xml:lang="en">Journal of Wildlife Management</source>, <volume>53</volume>, <fpage>1017</fpage>–<lpage>1024</lpage>. <pub-id pub-id-type="doi">10.2307/3809604</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0072">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0072"><string-name><surname>Martin</surname>, <given-names>T. G.</given-names></string-name>, <string-name><surname>Wintle</surname>, <given-names>B. A.</given-names></string-name>, <string-name><surname>Rhodes</surname>, <given-names>J. R.</given-names></string-name>, <string-name><surname>Kuhnert</surname>, <given-names>P. M.</given-names></string-name>, <string-name><surname>Field</surname>, <given-names>S. A.</given-names></string-name>, <string-name><surname>Low‐Choy</surname>, <given-names>S. J.</given-names></string-name>, … <string-name><surname>Possingham</surname>, <given-names>H. P.</given-names></string-name> (<year>2005</year>). <article-title>Zero tolerance ecology: Improving ecological inference by modelling the source of zero observations</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>8</volume>, <fpage>1235</fpage>–<lpage>1246</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2005.00826.x</pub-id>
+<pub-id pub-id-type="pmid">21352447</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0073">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0073"><string-name><surname>Mayr</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Fenske</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Kneib</surname>, <given-names>T.</given-names></string-name>, &amp; <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name> (<year>2012</year>). <article-title>Generalized additive models for location, scale and shape for high‐dimensional data ‐ a flexible approach based on boosting</article-title>. <source xml:lang="en">Journal of the Royal Statistical Society: Series C (Applied Statistics)</source>, <volume>61</volume>, <fpage>403</fpage>–<lpage>427</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-9876.2011.01033.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0074">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0074"><string-name><surname>Mayr</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name> (<year>2018</year>). <article-title>Boosting for statistical modelling ‐ a non‐technical introduction</article-title>. <source xml:lang="en">Statistical Modelling: an International Journal</source>. Online First, <pub-id pub-id-type="doi">10.1177/1471082X17748086</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0075">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0075"><string-name><surname>Mcmahon</surname>, <given-names>B. J.</given-names></string-name>, <string-name><surname>Purvis</surname>, <given-names>G.</given-names></string-name>, <string-name><surname>Sheridan</surname>, <given-names>H.</given-names></string-name>, <string-name><surname>Siriwardena</surname>, <given-names>G. M.</given-names></string-name>, &amp; <string-name><surname>Parnell</surname>, <given-names>A. C.</given-names></string-name> (<year>2017</year>). <article-title>A novel method for quantifying overdispersion in count data and its application to farmland birds</article-title>. <source xml:lang="en">Ibis</source>, <volume>159</volume>, <fpage>406</fpage>–<lpage>414</lpage>. <pub-id pub-id-type="doi">10.1111/ibi.12450</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0076">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0076"><string-name><surname>Merow</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Smith</surname>, <given-names>M. J.</given-names></string-name>, <string-name><surname>Edwards</surname>, <given-names>T. C.</given-names></string-name>, <string-name><surname>Guisan</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>McMahon</surname>, <given-names>S. M.</given-names></string-name>, <string-name><surname>Normand</surname>, <given-names>S.</given-names></string-name>, … <string-name><surname>Elith</surname>, <given-names>J.</given-names></string-name> (<year>2014</year>). <article-title>What do we gain from simplicity versus complexity in species distribution models?</article-title>
+<source xml:lang="en">Ecography</source>, <volume>37</volume>, <fpage>1267</fpage>–<lpage>1281</lpage>. <pub-id pub-id-type="doi">10.1111/ecog.00845</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0077">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0077"><string-name><surname>Miller</surname>, <given-names>D. L.</given-names></string-name>, <string-name><surname>Burt</surname>, <given-names>M. L.</given-names></string-name>, <string-name><surname>Rexstad</surname>, <given-names>E. A.</given-names></string-name>, &amp; <string-name><surname>Thomas</surname>, <given-names>L.</given-names></string-name> (<year>2013</year>). <article-title>Spatial models for distance sampling data: Recent developments and future directions</article-title>. <source xml:lang="en">Methods in Ecology and Evolution</source>, <volume>4</volume>, <fpage>1001</fpage>–<lpage>1010</lpage>. <pub-id pub-id-type="doi">10.1111/2041-210X.12105</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0078">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0078"><string-name><surname>Nagelkerke</surname>, <given-names>N. J. D.</given-names></string-name> (<year>1991</year>). <article-title>A note on a general definition of the coefficient of determination</article-title>. <source xml:lang="en">Biometrika</source>, <volume>78</volume>, <fpage>691</fpage>–<lpage>692</lpage>. <pub-id pub-id-type="doi">10.1093/biomet/78.3.691</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0079">
+                <mixed-citation publication-type="book" id="ece34738-cit-0079"><collab collab-type="authors">National Center for Atmospheric Research</collab>
+. (<year>2017</year>). <source xml:lang="en">The Climate Data Guide: Hurrell North Atlantic Oscillation (NAO) Index (PC‐based)</source>. <publisher-loc>Boulder, CO</publisher-loc>: <publisher-name>National Center for Atmospheric Research</publisher-name>
+<ext-link ext-link-type="uri" xlink:href="https://climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic-oscillation-nao-index-pc-based">https://climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic-oscillation-nao-index-pc-based</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0080">
+                <mixed-citation publication-type="book" id="ece34738-cit-0080"><collab collab-type="authors">National Oceanic and Atmospheric Administration</collab>
+. (<year>2017</year>). <source xml:lang="en">Digital Elevation Model</source>. <publisher-loc>Boulder, CO</publisher-loc>: <publisher-name>National Center for Environmental Information</publisher-name>
+<ext-link ext-link-type="uri" xlink:href="https://www.ngdc.noaa.gov/mgg/coastal/coastal.html">https://www.ngdc.noaa.gov/mgg/coastal/coastal.html</ext-link>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0081">
+                <mixed-citation publication-type="book" id="ece34738-cit-0081"><string-name><surname>Newell</surname>, <given-names>R. I.</given-names></string-name> (<year>1989</year>). <source xml:lang="en">Species profiles: Life histories and environmental requirements of coastal fishes and invertebrates (North and Mid‐Atlantic): blue mussel</source>. U.S. Fish and Wildlife Service Biological Report 82 (11. 102). <publisher-loc>Washington, D.C.</publisher-loc>: <publisher-name>U.S. Department of the Interior</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0082">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0082"><string-name><surname>Nur</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Jahncke</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Herzog</surname>, <given-names>M. P.</given-names></string-name>, <string-name><surname>Howar</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Hyrenbach</surname>, <given-names>K. D.</given-names></string-name>, <string-name><surname>Zamon</surname>, <given-names>J. E.</given-names></string-name>, … <string-name><surname>Stralberg</surname>, <given-names>D.</given-names></string-name> (<year>2011</year>). <article-title>Where the wild things are: Predicting hotspots of seabird aggregations in the California Current System</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>21</volume>, <fpage>2241</fpage>–<lpage>2257</lpage>. <pub-id pub-id-type="doi">10.1890/10-1460.1</pub-id>.<pub-id pub-id-type="pmid">21939058</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0083">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0083"><string-name><surname>Oppel</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Powell</surname>, <given-names>A. N.</given-names></string-name>, &amp; <string-name><surname>Dickson</surname>, <given-names>D. L.</given-names></string-name> (<year>2009</year>). <article-title>Using an algorithmic model to reveal individually variable movement decisions in a wintering sea duck</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>78</volume>, <fpage>524</fpage>–<lpage>531</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2656.2008.01513.x</pub-id>
+<pub-id pub-id-type="pmid">19191943</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0084">
+                <mixed-citation publication-type="book" id="ece34738-cit-0084"><string-name><surname>Poti</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Kinlan</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Menza</surname>, <given-names>C.</given-names></string-name> (<year>2012</year>). <chapter-title>Chapter 3: Surficial sediments</chapter-title> In <person-group person-group-type="editor"><name><surname>Menza</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Kinlan</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Dorfman</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Poti</surname><given-names>M.</given-names></name></person-group>, &amp; <person-group person-group-type="editor"><name><surname>Caldow</surname><given-names>C.</given-names></name></person-group> (Eds.), <source xml:lang="en">A biogeographic assessment of seabirds, deep sea corals and ocean habitats of the New York Bight: Science to support offshore spatial planning</source> (pp. <fpage>33</fpage>–<lpage>58</lpage>). NOAA Technical Memorandum NOS NCCOS 141. <publisher-loc>Silver Spring, MD</publisher-loc>: <publisher-name>NOAA.</publisher-name>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0085">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0085"><string-name><surname>Pulliam</surname>, <given-names>H. R.</given-names></string-name> (<year>2000</year>). <article-title>On the relationship between niche and distribution</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>3</volume>(<issue>4</issue>), <fpage>349</fpage>–<lpage>361</lpage>. <pub-id pub-id-type="doi">10.1046/j.1461-0248.2000.00143.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0086">
+                <mixed-citation publication-type="book" id="ece34738-cit-0086"><collab collab-type="authors">R Core Team</collab>
+. (<year>2018</year>). <source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0087">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0087"><string-name><surname>Raby</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Lagadeuc</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Dodson</surname>, <given-names>J. J.</given-names></string-name>, &amp; <string-name><surname>Mingelbier</surname>, <given-names>M.</given-names></string-name> (<year>1994</year>). <article-title>Relationship between feeding and vertical distribution of bivalve larvae in stratified and mixed waters</article-title>. <source xml:lang="en">Marine Ecology Progress Series</source>, <volume>103</volume>, <fpage>275</fpage>–<lpage>284</lpage>. <pub-id pub-id-type="doi">10.3354/meps104275</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0088">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0088"><string-name><surname>Richards</surname>, <given-names>S. A.</given-names></string-name> (<year>2008</year>). <article-title>Dealing with overdispersed count data in applied ecology</article-title>. <source xml:lang="en">Journal of Applied Ecology</source>, <volume>45</volume>, <fpage>218</fpage>–<lpage>227</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2664.2007.01377.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0089">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0089"><string-name><surname>Rigby</surname>, <given-names>R. A.</given-names></string-name>, &amp; <string-name><surname>Stasinopoulos</surname>, <given-names>D. M.</given-names></string-name> (<year>2005</year>). <article-title>Generalized additive models for location, scale and shape (with discussion)</article-title>. <source xml:lang="en">Journal of the Royal Statistical Society: Series C (Applied Statistics)</source>, <volume>54</volume>, <fpage>507</fpage>–<lpage>554</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-9876.2005.00510.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0090">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0090"><string-name><surname>Runge</surname>, <given-names>C. A.</given-names></string-name>, <string-name><surname>Martin</surname>, <given-names>T. G.</given-names></string-name>, <string-name><surname>Possingham</surname>, <given-names>H. P.</given-names></string-name>, <string-name><surname>Willis</surname>, <given-names>S. G.</given-names></string-name>, &amp; <string-name><surname>Fuller</surname>, <given-names>R. A.</given-names></string-name> (<year>2014</year>). <article-title>Conserving mobile species</article-title>. <source xml:lang="en">Frontiers in Ecology and the Environment</source>, <volume>12</volume>, <fpage>395</fpage>–<lpage>402</lpage>. <pub-id pub-id-type="doi">10.1890/130237</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0091">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0091"><string-name><surname>Santora</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Hade</surname>, <given-names>H.</given-names></string-name>, &amp; <string-name><surname>Odell</surname>, <given-names>J.</given-names></string-name> (<year>2004</year>). <article-title>Managing offshore wind developments in the United States: Legal, environmental, and social considerations using a case study in Nantucket Sound</article-title>. <source xml:lang="en">Ocean and Coastal Management</source>, <volume>47</volume>, <fpage>141</fpage>–<lpage>164</lpage>. <pub-id pub-id-type="doi">10.1016/j.ocecoaman.2004.03.006</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0092">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0092"><string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Hothorn</surname>, <given-names>T.</given-names></string-name> (<year>2008</year>). <article-title>Boosting additive models using component‐wise P‐splines</article-title>. <source xml:lang="en">Computational Statistics &amp; Data Analysis</source>, <volume>53</volume>, <fpage>298</fpage>–<lpage>311</lpage>. <pub-id pub-id-type="doi">10.1016/j.csda.2008.09.009</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0093">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0093"><string-name><surname>Schröder</surname>, <given-names>B.</given-names></string-name>, &amp; <string-name><surname>Seppelt</surname>, <given-names>R.</given-names></string-name> (<year>2006</year>). <article-title>Analysis of pattern–process interactions based on landscape models—overview, general concepts, and methodological issues</article-title>. <source xml:lang="en">Ecological Modelling</source>, <volume>199</volume>, <fpage>505</fpage>–<lpage>516</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2006.05.036</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0094">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0094"><string-name><surname>Schwemmer</surname>, <given-names>P.</given-names></string-name>, <string-name><surname>Mendel</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Sonntag</surname>, <given-names>N.</given-names></string-name>, <string-name><surname>Dierschke</surname>, <given-names>V.</given-names></string-name>, &amp; <string-name><surname>Garthe</surname>, <given-names>S.</given-names></string-name> (<year>2011</year>). <article-title>Effects of ship traffic on seabirds in offshore waters: Implications for marine conservation and spatial planning</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>21</volume>, <fpage>1851</fpage>–<lpage>1860</lpage>. <pub-id pub-id-type="doi">10.1890/10-0615.1</pub-id>
+<pub-id pub-id-type="pmid">21830723</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0095">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0095"><string-name><surname>Selonen</surname>, <given-names>V.</given-names></string-name>, <string-name><surname>Varjonen</surname>, <given-names>R.</given-names></string-name>, &amp; <string-name><surname>Korpimäki</surname>, <given-names>E.</given-names></string-name> (<year>2015</year>). <article-title>Immediate or lagged responses of a red squirrel population to pulsed resources</article-title>. <source xml:lang="en">Oecologia</source>, <volume>177</volume>, <fpage>401</fpage>–<lpage>411</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-014-3148-7</pub-id>
+<pub-id pub-id-type="pmid">25413865</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0096">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0096"><string-name><surname>Silverman</surname>, <given-names>E. D.</given-names></string-name>, <string-name><surname>Saalfeld</surname>, <given-names>D. T.</given-names></string-name>, <string-name><surname>Leirness</surname>, <given-names>J. B.</given-names></string-name>, &amp; <string-name><surname>Koneff</surname>, <given-names>M. D.</given-names></string-name> (<year>2013</year>). <article-title>Wintering sea duck distribution along the Atlantic Coast of the United States</article-title>. <source xml:lang="en">Journal of Fish and Wildlife Management</source>, <volume>4</volume>, <fpage>178</fpage>–<lpage>198</lpage>. <pub-id pub-id-type="doi">10.3996/122012-JFWM-107</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0097">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0097"><string-name><surname>Simpson</surname>, <given-names>J. H.</given-names></string-name>, &amp; <string-name><surname>Hunter</surname>, <given-names>J. R.</given-names></string-name> (<year>1974</year>). <article-title>Fronts in the Irish Sea</article-title>. <source xml:lang="en">Nature</source>, <volume>250</volume>, <fpage>404</fpage>–<lpage>406</lpage>. <pub-id pub-id-type="doi">10.1038/250404a0</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0098">
+                <mixed-citation publication-type="book" id="ece34738-cit-0098"><string-name><surname>Simpson</surname>, <given-names>J. H.</given-names></string-name>, &amp; <string-name><surname>Sharples</surname>, <given-names>J.</given-names></string-name> (<year>2012</year>). <source xml:lang="en">Introduction to the physical and biological oceanography of shelf seas</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0099">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0099"><string-name><surname>Stasinopoulos</surname>, <given-names>D. M.</given-names></string-name>, &amp; <string-name><surname>Rigby</surname>, <given-names>R. A.</given-names></string-name> (<year>2007</year>). <article-title>Generalized additive models for location scale and shape (GAMLSS) in R</article-title>. <source xml:lang="en">Journal of Statistical Software</source>, <volume>23</volume>, <fpage>1</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v023.i07</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0100">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0100"><string-name><surname>Thomas</surname>, <given-names>J.</given-names></string-name>, <string-name><surname>Mayr</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Bischl</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Schmid</surname>, <given-names>M.</given-names></string-name>, <string-name><surname>Smith</surname>, <given-names>A.</given-names></string-name>, &amp; <string-name><surname>Hofner</surname>, <given-names>B.</given-names></string-name> (<year>2018</year>). <article-title>Gradient boosting for distributional regression ‐ faster tuning and improved variable selection via noncyclical updates</article-title>. <source xml:lang="en">Statistics and Computing.</source>, <volume>28</volume>, <fpage>673</fpage>–<lpage>687</lpage>. <pub-id pub-id-type="doi">10.1007/s11222-017-9754-6</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0101">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0101"><string-name><surname>Thuiller</surname>, <given-names>W.</given-names></string-name> (<year>2004</year>). <article-title>Patterns and uncertainties of species range shifts under climate change</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>10</volume>, <fpage>2020</fpage>–<lpage>2027</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2004.00859.x</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0102">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0102"><string-name><surname>Torres</surname>, <given-names>L. G.</given-names></string-name>, <string-name><surname>Read</surname>, <given-names>A. J.</given-names></string-name>, &amp; <string-name><surname>Halpin</surname>, <given-names>P.</given-names></string-name> (<year>2008</year>). <article-title>Fine‐scale habitat modeling of a top marine predator: Do prey data improve predictive capacity</article-title>. <source xml:lang="en">Ecological Applications</source>, <volume>18</volume>, <fpage>1702</fpage>–<lpage>1717</lpage>. <pub-id pub-id-type="doi">10.1890/07-1455.1</pub-id>
+<pub-id pub-id-type="pmid">18839765</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0103">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0103"><string-name><surname>Tremblay</surname>, <given-names>M. J.</given-names></string-name>, &amp; <string-name><surname>Sinclair</surname>, <given-names>M.</given-names></string-name> (<year>1990</year>). <article-title>Sea scallop larvae <italic>Placopecten magellanicus</italic> on Georges Bank: Vertical distribution in relation to water column stratification and food</article-title>. <source xml:lang="en">Marine Ecology Progress Series</source>, <volume>61</volume>, <fpage>1</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.3354/meps061001</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0104">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0104"><string-name><surname>Vaitkus</surname>, <given-names>G.</given-names></string-name>, &amp; <string-name><surname>Bubinas</surname>, <given-names>A.</given-names></string-name> (<year>2001</year>). <article-title>Modelling of sea duck spatial distribution in relation to food resources in Lithuanian offshore waters under the gradient of winter climatic conditions</article-title>. <source xml:lang="en">Acta Zoologica Lituanica</source>, <volume>11</volume>, <fpage>288</fpage>–<lpage>302</lpage>. <pub-id pub-id-type="doi">10.1080/13921657.2001.10512462</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0105">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0105"><string-name><surname>White</surname>, <given-names>T. P.</given-names></string-name>, <string-name><surname>Veit</surname>, <given-names>R. R.</given-names></string-name>, &amp; <string-name><surname>Perry</surname>, <given-names>M. C.</given-names></string-name> (<year>2009</year>). <article-title>Feeding ecology of Long‐tailed Ducks <italic>Clangula hyemalis</italic> wintering on the Nantucket Shoals</article-title>. <source xml:lang="en">Waterbirds</source>, <volume>32</volume>, <fpage>293</fpage>–<lpage>299</lpage>. <pub-id pub-id-type="doi">10.1675/063.032.0209</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0106">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0106"><string-name><surname>Winiarski</surname>, <given-names>K. J.</given-names></string-name>, <string-name><surname>Miller</surname>, <given-names>D. L.</given-names></string-name>, <string-name><surname>Paton</surname>, <given-names>P. W.</given-names></string-name>, &amp; <string-name><surname>McWilliams</surname>, <given-names>S. R.</given-names></string-name> (<year>2014</year>). <article-title>A spatial conservation prioritization approach for protecting marine birds given proposed offshore wind energy development</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>169</volume>, <fpage>79</fpage>–<lpage>88</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2013.11.004</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0107">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0107"><string-name><surname>Witbaard</surname>, <given-names>R.</given-names></string-name>, &amp; <string-name><surname>Bergman</surname>, <given-names>M. J. N.</given-names></string-name> (<year>2003</year>). <article-title>The distribution and population structure of the bivalve <italic>Arctica islandica</italic> L. in the North Sea: What possible factors are involved?</article-title>
+<source xml:lang="en">Journal of Sea Research</source>, <volume>50</volume>, <fpage>11</fpage>–<lpage>25</lpage>. <pub-id pub-id-type="doi">10.1016/S1385-1101(03)00039-X</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0108">
+                <mixed-citation publication-type="book" id="ece34738-cit-0108"><string-name><surname>Wood</surname>, <given-names>S. N.</given-names></string-name> (<year>2006</year>). <source xml:lang="en">Generalized additive models: An introduction with R</source>. <publisher-loc>Boca Raton, FL</publisher-loc>: <publisher-name>Chapman; Hall/CRC</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0109">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0109"><string-name><surname>Yamanaka</surname>, <given-names>S.</given-names></string-name>, <string-name><surname>Akasaka</surname>, <given-names>T.</given-names></string-name>, <string-name><surname>Yamaura</surname>, <given-names>Y.</given-names></string-name>, <string-name><surname>Kaneko</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Nakamura</surname>, <given-names>F.</given-names></string-name> (<year>2015</year>). <article-title>Time‐lagged responses of indicator taxa to temporal landscape changes in agricultural landscapes</article-title>. <source xml:lang="en">Ecological Indicators</source>, <volume>48</volume>, <fpage>593</fpage>–<lpage>598</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2014.08.024</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0110">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0110"><string-name><surname>Zeileis</surname>, <given-names>A.</given-names></string-name>, <string-name><surname>Kleiber</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Jackman</surname>, <given-names>S.</given-names></string-name> (<year>2008</year>). <article-title>Regression models for count data in R</article-title>. <source xml:lang="en">Journal of Statistical Software</source>, <volume>27</volume>, <fpage>1</fpage>–<lpage>25</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v027.i08</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0111">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0111"><string-name><surname>Zipkin</surname>, <given-names>E. F.</given-names></string-name>, <string-name><surname>Gardner</surname>, <given-names>B.</given-names></string-name>, <string-name><surname>Gilbert</surname>, <given-names>A. T.</given-names></string-name>, <string-name><surname>O’Connell</surname>, <given-names>A. F.</given-names></string-name>, <string-name><surname>Royle</surname>, <given-names>J. A.</given-names></string-name>, &amp; <string-name><surname>Silverman</surname>, <given-names>E. D.</given-names></string-name> (<year>2010</year>). <article-title>Distribution patterns of wintering sea ducks in relation to the North Atlantic Oscillation and local environmental characteristics</article-title>. <source xml:lang="en">Oecologia</source>, <volume>163</volume>, <fpage>893</fpage>–<lpage>902</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-010-1622-4</pub-id>
+<pub-id pub-id-type="pmid">20364388</pub-id></mixed-citation>
+              </ref>
+              <ref id="ece34738-bib-0112">
+                <mixed-citation publication-type="journal" id="ece34738-cit-0112"><string-name><surname>Žydelis</surname>, <given-names>R.</given-names></string-name>, <string-name><surname>Esler</surname>, <given-names>D.</given-names></string-name>, <string-name><surname>Kirk</surname>, <given-names>M.</given-names></string-name>, &amp; <string-name><surname>Boyd</surname>, <given-names>W. S.</given-names></string-name> (<year>2009</year>). <article-title>Effects of off‐bottom shellfish aquaculture on winter habitat use by molluscivorous sea ducks</article-title>. <source xml:lang="en">Aquatic Conservation: Marine and Freshwater Ecosystems</source>, <volume>19</volume>, <fpage>34</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1002/aqc.977</pub-id>
+</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

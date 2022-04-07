@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:47:01Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8588587" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8588587</identifier>
+        <datestamp>2021-11-12</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Epidemics</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Epidemics</journal-id>
+              <journal-title-group>
+                <journal-title>Epidemics</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1755-4365</issn>
+              <issn pub-type="epub">1878-0067</issn>
+              <publisher>
+                <publisher-name>The Authors. Published by Elsevier B.V.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8588587</article-id>
+              <article-id pub-id-type="pmcid">PMC8588587</article-id>
+              <article-id pub-id-type="pmc-uid">8588587</article-id>
+              <article-id pub-id-type="pmid">34798545</article-id>
+              <article-id pub-id-type="pii">S1755-4365(21)00069-4</article-id>
+              <article-id pub-id-type="doi">10.1016/j.epidem.2021.100524</article-id>
+              <article-id pub-id-type="publisher-id">100524</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Assessing the efficacy of interventions to control indoor SARS-Cov-2 transmission: An agent-based modeling approach</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au0005">
+                  <name>
+                    <surname>Farthing</surname>
+                    <given-names>Trevor S.</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author" id="au0010">
+                  <name>
+                    <surname>Lanzas</surname>
+                    <given-names>Cristina</given-names>
+                  </name>
+                  <xref rid="cor1" ref-type="corresp">⁎</xref>
+                </contrib>
+                <aff id="aff0005">North Carolina State University, Raleigh, NC, USA</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>⁎</label>Correspondence to: 1051 William Moore Dr., RB410, Raleigh, NC 27606, USA.</corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>12</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>12</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>37</volume>
+              <fpage>100524</fpage>
+              <lpage>100524</lpage>
+              <history>
+                <date date-type="received">
+                  <day>6</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>5</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 The Authors</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="ab0010">
+                <p>Nonpharmaceutical interventions for minimizing indoor SARS-CoV-2 transmission continue to be critical tools for protecting susceptible individuals from infection, even as effective vaccines are produced and distributed globally. We developed a spatially-explicit agent-based model for simulating indoor respiratory pathogen transmission during discrete events taking place in a single room within a sub-day time frame, and used it to compare effects of four interventions on reducing secondary SARS-CoV-2 attack rates during a superspreading event by simulating a well-known case study. We found that preventing people from moving within the simulated room and efficacious mask usage appear to have the greatest effects on reducing infection risk, but multiple concurrent interventions are required to minimize the proportion of susceptible individuals infected. Social distancing had little effect on reducing transmission if individuals were randomly relocated within the room to simulate activity-related movements during the gathering. Furthermore, our results suggest that there is potential for ventilation airflow to expose susceptible people to aerosolized pathogens even if they are relatively far from infectious individuals. Maximizing the vertical aerosol removal rate is paramount to successful transmission-risk reduction when using ventilation systems as intervention tools.</p>
+              </abstract>
+              <kwd-group id="keys0005">
+                <title>Abbreviations</title>
+                <kwd>ABM, Agent-based model</kwd>
+                <kwd>SARS-CoV-2, Severe Acute Respiratory Syndrome Coronavirus 2</kwd>
+                <kwd>COVID-19, Coronavirus Disease 2019</kwd>
+              </kwd-group>
+              <kwd-group id="keys0010">
+                <title>Keywords</title>
+                <kwd>Aerosol</kwd>
+                <kwd>Agent-based model</kwd>
+                <kwd>COVID-19</kwd>
+                <kwd>Droplet</kwd>
+                <kwd>Indoor transmission</kwd>
+                <kwd>SARS-CoV-2</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec0005">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="p0030">Understanding transmission mechanisms is necessary to generate evidence-based guidance for controlling infectious diseases. Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2), the causative agent of Coronavirus Disease 2019 (COVID-19), is primarily spread through infectious respiratory droplets and aerosols of varying size (<xref rid="bib41" ref-type="bibr">CDC, 2021</xref>). These media are expelled when an individual speaks, coughs, sneezes, or otherwise expectorates (<xref rid="bib5" ref-type="bibr">Atkinson et al., 2009</xref>; <xref rid="bib38" ref-type="bibr">Stadnytskyi et al., 2020</xref>). Pathogen transmission can occur when these virion-containing particles are inhaled by, or otherwise come into contact with the mucosae or conjunctiva (i.e., mouth, nasal membranes, or eyes) of a susceptible person (<xref rid="bib45" ref-type="bibr">WHO, 2020</xref>). Aerosol transmission has proven to be an important transmission pathway, particularly for large clusters associated with superspreading events (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>; <xref rid="bib30" ref-type="bibr">Qian et al., 2020</xref>; <xref rid="bib23" ref-type="bibr">Leclerc et al., 2020</xref>; <xref rid="bib28" ref-type="bibr">Park et al., 2020</xref>; <xref rid="bib42" ref-type="bibr">Wang et al., 2021</xref>).</p>
+              <p id="p0035">Transmission of SARS-CoV-2 is more likely in indoor settings than outdoors (<xref rid="bib30" ref-type="bibr">Qian et al., 2020</xref>; <xref rid="bib23" ref-type="bibr">Leclerc et al., 2020</xref>). Households are the most common venue linked to transmission, but healthcare facilities, religious venues, food processing plants or prisons are also likely to be associated with large clusters of COVID-19 cases (<xref rid="bib23" ref-type="bibr">Leclerc et al., 2020</xref>). Recommended nonpharmaceutical interventions to reduce indoor transmission include: social distancing, use of face coverings, increased ventilation, and reduced group sizes (<xref rid="bib41" ref-type="bibr">CDC, 2021</xref>).</p>
+              <p id="p0040">Some mathematical models have been built to support individual-level risk assessment of indoor transmission and analyze aerosol contributions to past outbreaks. <xref rid="bib9" ref-type="bibr">Chande et al. (2020)</xref> created a tool to assess the U.S. County level probability that someone infected with SARS-CoV-2 will attend events of varied sizes. Their tool is useful for estimating the probability that SARS-CoV-2 transmission could occur during any gathering, but provides no direct measure of transmission risk from infectious individuals during events and no way to assess the impact of intervention strategies other than reducing group sizes. Other models have sought to determine the role that aerosolized infectious droplets play in indoor SARS transmission relative to larger droplets that are unlikely to be inhaled, and quantify the transmission risk attributable to aerosols in varied environments (<xref rid="bib6" ref-type="bibr">Bhagat et al., 2020</xref>, <xref rid="bib11" ref-type="bibr">Chen et al., 2020</xref>, <xref rid="bib25" ref-type="bibr">Lelieveld et al., 2020</xref>, <xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>, <xref rid="bib39" ref-type="bibr">Sun and Zhai, 2020</xref>). These models are primarily based on Wells-Riley equations for estimating aerosol-attributable risk, which assume homogenous spatiotemporal mixing of air constituents and exposure to infectious agents (<xref rid="bib34" ref-type="bibr">Riley et al., 1978</xref>). Mathematical indices and parameter values in these models can be adjusted to simulate effects of intervention strategies like social distancing (<xref rid="bib39" ref-type="bibr">Sun and Zhai, 2020</xref>) and increased ventilation rates (<xref rid="bib6" ref-type="bibr">Bhagat et al., 2020</xref>, <xref rid="bib25" ref-type="bibr">Lelieveld et al., 2020</xref>, <xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>, <xref rid="bib39" ref-type="bibr">Sun and Zhai, 2020</xref>), but are insufficient for capturing or accounting for any behavior- or environment-mediated spatiotemporal heterogeneity in transmission risk. <xref rid="bib36" ref-type="bibr">Shao et al. (2021)</xref> used a fluid dynamics model to simulate ventilation effects on SARS-CoV-2 transmission while allowing for heterogenous droplet movement behaviors. Their findings highlight the need to account for within-room spatial heterogeneity when studying indoor transmission risk, as phenomena like ventilation can increase infection risk to individuals in one area of a room or building while simultaneously mitigating risk in another.</p>
+              <p id="p0045">Here, we present a spatially-explicit agent-based model (ABM) for simulating within-room respiratory pathogen transmission to inform policy-making decisions aiming to mitigate indoor transmission and implementing individual-level nonpharmaceutical interventions. By simulating spatiotemporal droplet dynamics (e.g., emission of varying droplet size and subsequent distribution in the environment) as well as allowing for dynamic movement and positioning of infectious and susceptible individuals, our model allows virion exposure rates to vary within indoor settings. We use our model to estimate effects of proposed COVID-19 intervention strategies for indoor environments (i.e., increased airflow, limiting contact durations, wearing masks, and increased interpersonal spacing). For benchmarking purposes, we simulate the outbreak that took place during a choir practice in Skagit County, WA in March 2020 (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>). This event was characterized by the spread of an early SARS-CoV-2 variant from one infectious person to 53 susceptible individuals during the 150-min rehearsal (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>), and is a well-documented case study on SARS-COV-2 superspreading within in a fully susceptible population at an indoor gathering. Additionally, we further investigate potential drivers of superspreading events, like the Skagit County example, by characterizing and comparing how different aspects of indoor gatherings (i.e., population density, duration, quanta production by infectious individuals, and ventilation effects) impact transmission risk. Through these analyses we provide guidance for minimizing SARS-CoV-2 transmission during indoor gatherings.</p>
+            </sec>
+            <sec id="sec0010">
+              <label>2</label>
+              <title>Methods</title>
+              <sec id="sec0015">
+                <label>2.1</label>
+                <title>Model Description</title>
+                <p id="p0050">We developed a spatially-explicit, stochastic ABM to simulate both direct-droplet and airborne respiratory pathogen transmission in indoor settings. This model was created and executed using the open-source modeling software, NetLogo (Ver. 6. 1. 1 – <xref rid="bib43" ref-type="bibr">Wilensky, 1999</xref>) and is available for download at https://github.com/lanzaslab/droplet-ABM. In <xref rid="sec0060" ref-type="sec">Supplemental Materials 1</xref> we provide a detailed description of our model in accordance with standards outlined by (<xref rid="bib19" ref-type="bibr">Grimm et al., 2020</xref>). We present a limited summary of the model design below. When describing infectious media in our model, we use the term “droplet” to refer to respiratory droplets of any size.</p>
+                <p id="p0055">Agents in our model represent people congregating in a fixed space (e.g., students in a classroom, diners in a restaurant, etc.). Patches (i.e., grid cells in the NetLogo model interface) represent 1 × 1 m<sup>2</sup> areas, and the spatial extent can range from 1 to ∞ m<sup>2</sup>. The model time step is 1 min. Droplets ranging from 3 to 750 <inline-formula><mml:math id="M1" altimg="si0002.svg"><mml:mi>μ</mml:mi></mml:math></inline-formula>m in diameter are expelled by infectious agents (
+<xref rid="fig0005" ref-type="fig">Fig. 1</xref>A). Subsequently, droplets can be inhaled, fall out, diffuse to nearby patches, move via directed airflow, and decay at fixed rates over the course of a simulation. Infection in our model is driven by exposure to virions contained in these droplets, and the number of virions per droplet scales with droplet size. The rate at which droplets fall out (i.e., are removed from circulating air flows) of the simulation is based on the calculated terminal velocity falling speed for droplets, and therefore varies with droplet size (<xref rid="fig0005" ref-type="fig">Fig. 1</xref>B). Droplet sizes incapable of settling on the ground within one minute are allowed to move between patches via ventilation- and diffusion-induced airflow (<xref rid="fig0005" ref-type="fig">Fig. 1</xref>C). Thus, risk of exposure and subsequent infection for susceptible individuals varies by space and time during the simulation. We recognize that the ability of forced air ventilation systems to reduce local respiratory pathogen transmission is linked to their ability to move aerosolized droplets away from susceptible individuals in three dimensions (<xref rid="bib6" ref-type="bibr">Bhagat et al., 2020</xref>; <xref rid="bib36" ref-type="bibr">Shao et al., 2021</xref>). Though this effect is not explicitly tied to airflow inputs in our model, which only allows airflow in two dimensions, we can effectively simulate ventilation-induced aerosolized droplet movement to heights outside of individuals’ inhalation ranges by increasing the decay rate when ventilation effects are simulated. In addition to controlling the number of individuals present and the size of the simulated world, users can dictate infectiousness parameters and other scenario-specific variable values (e.g., number of infectious individuals, probability that infectious individuals are asymptomatic, cough frequency, number virions per mL of droplet fluid, risk of infection given exposure to 1 virion, etc.), ventilation parameters (e.g., direction and speed of airflow, droplet filtration probability, etc.), and adherence to transmission-risk-reduction guidelines (e.g., mask usage, local social distancing, etc.).<fig id="fig0005"><label>Fig. 1</label><caption><p>Model droplet dynamics. A) Infectious individuals expel droplets of different sizes. B) Relatively large droplets fall out of the air quickly post expectoration. C) Smaller droplets remain aerosolized for longer time periods and move throughout the simulated room via diffusion and forced airflow effects. D) Distribution of droplet sizes during expectoration events. Distributions of size classes during coughing and speaking events are based on findings of <xref rid="bib10" ref-type="bibr">Chao et al. (2009)</xref>, and represent mean observed droplet-size measurements they recorded 60 mm away from individuals’ mouths immediately following these activities.</p></caption><alt-text id="at0005">Fig. 1</alt-text><graphic xlink:href="gr1_lrg"/></fig></p>
+                <p id="p0060">This ABM is intended to simulate pathogen transmission during events lasting &lt; 1 day. The underlying transmission model is based on a Susceptible-Exposed-Infectious-Recovered (SEIR) framework, but due to the limited duration of simulations we make the assumption that no individuals exist long enough to exceed pathogen latent or infectious periods.</p>
+              </sec>
+              <sec id="sec0020">
+                <label>2.2</label>
+                <title>Testing SARS-CoV-2 transmission reduction strategies</title>
+                <sec id="sec0025">
+                  <label>2.2.1</label>
+                  <title>Case scenario and model inputs</title>
+                  <p id="p0065">In March 2020, there was a probable SARS-CoV-2 superspreading event during a choir practice taking place at a church in Skagit County, Washington, USA (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>). Sixty-one people were in attendance, one attendee was experiencing flu-like symptoms at the time and later tested positive for COVID-19 (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>). This individual likely infected 53 other attendees over the course of the event (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>). We describe our rationale for setting scenario-specific input values to simulate this case in our model below, with additional details given in <xref rid="sec0060" ref-type="sec">Supplemental Materials 2</xref>. <xref rid="sec0060" ref-type="sec">Supplemental Materials 3</xref> describes how sensitive simulated infection risk is to variations in select model parameters.</p>
+                  <p id="p0070">Because this superspreading event is thought to be the result of transmission from a single infectious individual (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>), all simulations contained only one infectious person. The infectious person was assumed to be symptomatic during the choir practice. We assumed all droplets were expelled from this individual at a height of 1.7 m, the approximate mean height of U.S. adults (<xref rid="bib31" ref-type="bibr">Fryar et al., 2018</xref>). We make the assumption that the cough frequency for a symptomatic COVID-19 patient is equal to that of individuals with a chronic cough condition. Therefore, every minute our infectious individual had a 19% probability to expel droplets through coughing (<xref rid="bib24" ref-type="bibr">Lee et al., 2012</xref>), and an 81% chance to expel droplets through an unspecified other activity (e.g., speaking, singing, etc.). Using the procedure described by <xref rid="bib33" ref-type="bibr">Railsback and Grimm (2011)</xref>, droplet travel distances for coughing and non-coughing expectoration events were randomly drawn from log-normal distributions with known means and standard deviations. Travel distances for coughing events were drawn from a distribution with a mean of 5 m and standard deviation of 0.256 m (<xref rid="bib7" ref-type="bibr">Bourouiba et al., 2014</xref>). Travel distances for non-coughing events were drawn from a distribution with a mean of 0.55 m and standard deviation of 0.068 m (<xref rid="bib14" ref-type="bibr">Das et al., 2020</xref>). The angle of droplet spread during coughing and non-coughing expectorations were 35º and 63.5º, respectively, in accordance with median values of mouth-angle ranges described by <xref rid="bib22" ref-type="bibr">Kwon et al. (2012)</xref>. We calibrated the risk of infection for susceptible individuals given exposure droplets expelled by the simulated infectious person, and the number of droplets expelled by this person to reflect the estimated infectiousness of the symptomatic individual in the case study using linear regression methods described in <xref rid="sec0060" ref-type="sec">Appendix S2</xref>. We set the inhalation rate for simulated individuals to 0.023 m<sup>3</sup> air/min, a rate consistent with adults participating in light activity (<xref rid="bib1" ref-type="bibr">Adams, 1993</xref>).</p>
+                  <p id="p0075">We know from the <xref rid="bib20" ref-type="bibr">Hamner et al. (2020)</xref> case report that the choir practice lasted 150 min in total, split into 4 distinct time intervals lasting 40, 50, 15, and 45 min. During the first time interval, all 61 attendees practiced together in the 180 m<sup>2</sup> main hall for 40 min. In the second interval, the group split into two subsets of unspecified sizes. One subset rearranged themselves within the main hall, and the second subset moved into a separate room. The subsets rehearsed separately for 50 min. The third time interval was a 15-min break period when individuals mixed freely. During the final time interval, all attendees returned to the main hall to practice as a single group once more for 45 min. When practicing as single group during intervals 1 and 4, individuals sat in assigned seats (<xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>) with chairs spaced 15.24–25.4 cm apart (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>). In our simulations, we decided to rearrange agents in our model after 40, 90, and 105 min to recreate mixing associated with changing time intervals. At timestep 105, individuals moved back to their initial placements, representing their adherence to assigned seating during interval 4 (i.e., minutes 105–150). The seating chart has not been shared due to privacy concerns (<xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>) however, from the spacing estimate we can assume that a maximum of 2 people could be within 1-m<sup>2</sup> patches in our model scenario. Our ability to simulate mixing rates during specific time intervals was limited to this extent because we do not know specific seating arrangements, subset size or configuration, secondary room size, or interaction rates during the break period.</p>
+                  <p id="p0080">We assume that airborne droplets naturally diffuse throughout the simulated environment at a fixed rate of 1.5e<sup>-3</sup> m<sup>3</sup>/min (<xref rid="bib8" ref-type="bibr">Castillo and Weibel, 2018</xref>) regardless of size, and decay at a rate of 1.05% /min (<xref rid="bib15" ref-type="bibr">van Doremalen et al., 2020</xref>). Additionally, we know that the ventilation system in the main hall of the church consists of three supply vents that push a mixture of outdoor and recirculated air towards a single return vent on the opposite wall, though the true direction of forced airflow (e.g., North to South) is unclear from reports (<xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>). Because it is uncertain whether or not the forced-air system was turned on during the choir practice (<xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>), however, we decided to run our simulations in two sets: ventilation-on (i.e., both forced-air effects and natural diffusion moved droplets between patches) and ventilation-off (i.e., only natural diffusion moved droplets between patches). In the ventilation-on set, we additionally assume that droplets move from supply vents towards the return vent at a fixed rate of 0.043%/min (<xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>), and that 90% of droplets were filtered prior to recirculation (<xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>). Because we do not know the true direction of forced airflow, we simulated both North-to-South and East-to-West forced airflow movement in the ventilation-on set (
+<xref rid="fig0010" ref-type="fig">Fig. 2</xref>).<fig id="fig0010"><label>Fig. 2</label><caption><p>Airborne infectious droplets in North-to-South and East-to-West forced airflow schemas have different maximum travel distances due to the shape of the simulated world.</p></caption><alt-text id="at0010">Fig. 2</alt-text><graphic xlink:href="gr2_lrg"/></fig></p>
+                  <p id="p0085">In addition to modeling the baseline scenario, we modulated values of inputs related to group-level nonpharmaceutical intervention strategies (i.e., limited population, limited contact durations, mask usage, and meter-level social distancing) between simulations in order to assess the efficacy of each strategy on reducing the number of susceptible individuals infected. Regarding mask usage, we assumed face coverings have both source-prevention and wearer-protection effects, and reduced global droplet exposure/exhalation rates by 0%, 25%, 50%, 75% and 90%. The upper range here is intended to simulate the use of N95 and simple surgical masks, which are estimated to reduce aerosol emission rates by approximately 90% and 74%, respectively (<xref rid="bib21" ref-type="bibr">Jefferson et al., 2008</xref>, <xref rid="bib4" ref-type="bibr">Asadi et al., 2020</xref>). Lower values are intended to simulate the use of single- and multi-layered fabric masks, for which a wide range of aerosol-filtration efficacies have been reported (<xref rid="bib27" ref-type="bibr">O’kelly et al., 2020</xref>). When simulating mask usage, we assumed that all individuals were wearing masks and that all masks had the same efficacy.
+<xref rid="tbl0005" ref-type="table">Table 1</xref> outlines the model input values for our superspreading-scenario simulations.<table-wrap position="float" id="tbl0005"><label>Table 1</label><caption><p>Parameter descriptions for simulations of the Skagit County, WA March 2020 SARS-CoV-2 transmission case study. *Simulated worlds were 10 m × 18 m. <sup>†</sup>Standard deviations are given in parentheses. <sup>‡</sup>Zero-percent mask efficacy is equivalent to no mask use. <sup>§</sup><xref rid="bib14" ref-type="bibr">Das et al. (2020)</xref> estimated the average travel distance of a 100-micrometer droplet expelled from a height of 1.7 m at a velocity of 0.5 m/s to be 0.55 m. They also found that the majority of 100-μm droplets will fall 0.55–2.35 m away from the expelling individual, depending on initial velocity, but droplets may settle up to 3.2 m away very rarely. a random draw of 10,000,000 samples from a log-normal distribution parameterized using 1.7-m and 0.2095-m droplet spread distance mean and standard deviation values, respectively, generated a distribution in line with this finding. The standard deviation we use in simulations for non-coughing expectoration is proportionate to the one used in this random draw.</p></caption><alt-text id="at0025">Table 1</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Parameter/Model Input</th><th>Value (s)</th><th>Reference (s)</th></tr></thead><tbody><tr><td><italic>Infectiousness parameters</italic></td><td/><td/></tr><tr><td>Cough frequency (coughs/min)</td><td>0.19</td><td><xref rid="bib24" ref-type="bibr">Lee et al., 2012</xref></td></tr><tr><td>Droplet count (droplets/expectoration)</td><td>9.7e<sup>5</sup> (3.9e<sup>5</sup>)<sup>†</sup></td><td><xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref>, <xref rid="sec0060" ref-type="sec">Appendix S2</xref></td></tr><tr><td>Droplet spread angle – coughing (º)</td><td>35</td><td><xref rid="bib22" ref-type="bibr">Kwon et al., 2012</xref></td></tr><tr><td>Droplet spread angle – not coughing (º)</td><td>63.5</td><td><xref rid="bib22" ref-type="bibr">Kwon et al., 2012</xref></td></tr><tr><td>Droplet travel distance – coughing (m)</td><td>5 (0.256)<sup>†</sup></td><td><xref rid="bib7" ref-type="bibr">Bourouiba et al., 2014</xref></td></tr><tr><td>Droplet travel distance – not coughing (m)</td><td>0.55 (0.068)<sup>†§</sup></td><td><xref rid="bib14" ref-type="bibr">Das et al., 2020</xref></td></tr><tr><td colspan="3">Scenario environment and individual behavior inputs</td></tr><tr><td>Area (m<sup>2</sup>)</td><td>180*</td><td><xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref></td></tr><tr><td>Expectoration height (m)</td><td>1.7</td><td><xref rid="bib31" ref-type="bibr">Fryar et al.m, 2018</xref></td></tr><tr><td>Inhalation rate (m<sup>3</sup> air/min)</td><td>0.023</td><td><xref rid="bib1" ref-type="bibr">Adams, 1993</xref></td></tr><tr><td>Maximum people in a single 1-m<sup>2</sup> patch (people)</td><td>2</td><td><xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref></td></tr><tr><td>Number of symptomatic individuals (people)</td><td>1</td><td><xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref></td></tr><tr><td><italic>Scenario virion behavior inputs</italic></td><td/><td/></tr><tr><td>Virion count (virions/mL fluid)</td><td>2.35e<sup>9</sup></td><td><xref rid="bib44" ref-type="bibr">Wölfel et al., 2020</xref></td></tr><tr><td>Virion decay rate (%/min)</td><td>1.05</td><td><xref rid="bib15" ref-type="bibr">van Doremalen et al., 2020</xref></td></tr><tr><td>Virion infection risk (%/inhaled virion)</td><td>6.24</td><td><xref rid="sec0060" ref-type="sec">Appendix S2</xref></td></tr><tr><td><italic>Scenario airflow inputs</italic></td><td/><td/></tr><tr><td>Diffusion rate (m<sup>3</sup>/min)</td><td>1.5e<sup>-3</sup></td><td><xref rid="bib8" ref-type="bibr">Castillo and Weibel, 2018</xref></td></tr><tr><td>Forced air</td><td>on, off</td><td>–</td></tr><tr><td>Forced air direction</td><td>North-to-South, East-to-West</td><td>–</td></tr><tr><td>Air change rate (%/min)</td><td>4.3</td><td><xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref></td></tr><tr><td>Re-circulated air filtration (%/min)</td><td>90</td><td><xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref></td></tr><tr><td><italic>Scenario intervention inputs</italic></td><td/><td/></tr><tr><td>Attempted social distancing (m)</td><td>0, 1, 2, 3</td><td>–</td></tr><tr><td>Contact duration (min)</td><td>20, 40, 60, 90, 105, 150</td><td>–</td></tr><tr><td>Mask efficacy (%)</td><td>0<sup>‡</sup>, 25, 50, 75, 90</td><td><xref rid="bib21" ref-type="bibr">Jefferson et al., 2008</xref>;<xref rid="bib4" ref-type="bibr">Asadi et al., 2020</xref></td></tr><tr><td>Population (people)</td><td>10, 50, 61</td><td>–</td></tr></tbody></table></table-wrap></p>
+                </sec>
+                <sec id="sec0030">
+                  <label>2.2.2</label>
+                  <title>Running simulations and analyses</title>
+                  <p id="p0090">We set up a factorial simulation run within the NetLogo BehaviorSpace using our specified input levels. We ran 1000 replicates of all input set combinations, ultimately resulting in 1,080,000 simulations. Simulations were aggregated into a single data set prior to analysis.</p>
+                  <p id="p0095">We used a beta regression model with a fixed unknown precision parameter, <inline-formula><mml:math id="M2" altimg="si0001.svg"><mml:mi>ϕ</mml:mi></mml:math></inline-formula>, (<xref rid="bib18" ref-type="bibr">Ferrari and Cribari-Neto, 2004</xref>) to estimate effects of interventions on the mean proportion of susceptible individuals infected in our full simulation set, <inline-formula><mml:math id="M3" altimg="si0002.svg"><mml:mi>μ</mml:mi></mml:math></inline-formula>. Beta regression models are employed to analyze proportion data (<xref rid="bib18" ref-type="bibr">Ferrari and Cribari-Neto, 2004</xref>, <xref rid="bib13" ref-type="bibr">Cribari-Neto and Zeileis, 2010</xref>). We chose to use this method because the potential number of infected individuals in each simulation was limited by the simulated group size, which was a predictor variable of interest, and because preliminary analysis suggested that fitting our data to a beta distribution better explained observed variation than other regression models. We therefore determined it was more appropriate to evaluate effect sizes in terms of the relative proportion of susceptible people infected rather than their total number. We fit our data to the model:<disp-formula id="eqn0005"><mml:math id="M4" altimg="si0003.svg"><mml:mrow><mml:mi>ln</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>μ</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>G</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>u</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>M</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>k</mml:mi><mml:mspace width="0.25em"/><mml:mi>u</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>M</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>k</mml:mi><mml:mspace width="0.25em"/><mml:mi>e</mml:mi><mml:mi>f</mml:mi><mml:mi>f</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>c</mml:mi><mml:mi>y</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>G</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>p</mml:mi><mml:mspace width="0.25em"/><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>z</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>S</mml:mi><mml:mi>o</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>6</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>V</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>7</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>M</mml:mi><mml:mi>o</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>m</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>8</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>M</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>k</mml:mi><mml:mspace width="0.25em"/><mml:mi>u</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mo>*</mml:mo><mml:mi>G</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>p</mml:mi><mml:mspace width="0.25em"/><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>z</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>9</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>M</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>k</mml:mi><mml:mspace width="0.25em"/><mml:mi>u</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mo>*</mml:mo><mml:mi>S</mml:mi><mml:mi>o</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>G</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>p</mml:mi><mml:mspace width="0.25em"/><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>z</mml:mi><mml:mi>e</mml:mi><mml:mo>*</mml:mo><mml:mi>S</mml:mi><mml:mi>o</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>11</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>M</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>k</mml:mi><mml:mspace width="0.25em"/><mml:mi>u</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mo>*</mml:mo><mml:mi>G</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>p</mml:mi><mml:mspace width="0.25em"/><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>z</mml:mi><mml:mi>e</mml:mi><mml:mo>*</mml:mo><mml:mi>S</mml:mi><mml:mi>o</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>where <italic>Gathering duration</italic>, <italic>Mask efficacy</italic>, and <italic>Group size</italic> are intervention-strategy variables relating to: minutes of simulated interaction between individuals, the efficacy of worn face masks for reducing expectoration and inhalation of infectious droplets, the simulated population size, and attempted meter-level social distancing in each realized simulation, respectively. The variables <italic>Mask use</italic>, <italic>Movement</italic>, and <italic>Ventilation</italic> are known confounders related to: reduced droplet spread distance from expectorating infectious individuals wearing masks, the number of times individuals were rearranged within simulations to reflect mixing of event attendees, and movement of infectious aerosols throughout the simulated space due to a forced-air ventilation system, respectively. <italic>Mask use</italic> is a binary variable taking the value of 1 when simulated individuals are masked (i.e., <inline-formula><mml:math id="M5" altimg="si0004.svg"><mml:mrow><mml:mi>M</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>k</mml:mi><mml:mspace width="0.25em"/><mml:mi>e</mml:mi><mml:mi>f</mml:mi><mml:mi>f</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>c</mml:mi><mml:mi>y</mml:mi><mml:mspace width="0.25em"/><mml:mo stretchy="false">&gt;</mml:mo><mml:mspace width="0.25em"/><mml:mn>0</mml:mn></mml:mrow></mml:math></inline-formula>), and 0 when they are not. <italic>Movement</italic> takes any one value within the range of 1-to-4, dependent on <italic>Gathering duration</italic>. <italic>Ventilation</italic> is a binary variable taking the value of 1 for simulations in the “ventilation-on” subset, and 0 for those in the “ventilation-off” subset. Because we used a logit link function to fit this model, <inline-formula><mml:math id="M6" altimg="si0005.svg"><mml:mi>β</mml:mi></mml:math></inline-formula> estimates represent the additive effect of 1-unit increases in associated predictor variables on the log-odds of the susceptible population proportion infected, and the mean proportion of susceptible individuals infected for any given parameter space <inline-formula><mml:math id="M7" altimg="si0006.svg"><mml:mi>i</mml:mi></mml:math></inline-formula> can be calculated using the equation <inline-formula><mml:math id="M8" altimg="si0007.svg"><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:msubsup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">T</mml:mi></mml:mrow></mml:msubsup><mml:mi>β</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:msubsup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">T</mml:mi></mml:mrow></mml:msubsup><mml:mi>β</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:math></inline-formula> (<xref rid="bib18" ref-type="bibr">Ferrari and Cribari-Neto, 2004</xref>).</p>
+                  <p id="p0100">Because beta regression procedures assume all dependent variable values fall between 0 and 1, we used the data transformation procedure described by (<xref rid="bib13" ref-type="bibr">Cribari-Neto and Zeileis, 2010</xref>) to reconstruct our proportion data without these extremities. All analysis and plotting was carried out using functions from the “betareg” R package (<xref rid="bib18" ref-type="bibr">Ferrari and Cribari-Neto, 2004</xref>) in RStudio (v. 1.1.463, RStudio Team, Boston, MA) (<xref rid="bib35" ref-type="bibr">RStudio Team, 2018</xref>) running R (v. 3.6.2, R Foundation for Statistical Computing, Vienna, Austria) (<xref rid="bib32" ref-type="bibr">R Core Team, 2020</xref>). We calculated a pseudo-R<sup>2</sup> (<xref rid="bib18" ref-type="bibr">Ferrari and Cribari-Neto, 2004</xref>) to assess goodness of fit for our regression model.</p>
+                </sec>
+              </sec>
+              <sec id="sec0035">
+                <label>2.3</label>
+                <title>Evaluating drivers of transmission in indoor gatherings</title>
+                <p id="p0105">To assess the relative contribution of environmental conditions to SARS-CoV-2 transmission risk, we conducted a sensitivity analysis to ascertain relative effects of population density, gathering duration, quanta production by infectious individuals, and ventilation on SARS-CoV-2 infection risk beyond the conditions tested in the Skagit County case. In addition, we quantified the ability of different ventilation system aspects (i.e., air-change rate, filtration rate, and effective three-dimensional droplet removal rate) to reduce SARS-CoV-2 transmission risk.
+<xref rid="tbl0010" ref-type="table">Table 2</xref> describes the model input values for these indoor-gathering-risk-assessment simulations.<table-wrap position="float" id="tbl0010"><label>Table 2</label><caption><p>Parameter descriptions for ventilation-system effect evaluations. *All simulated worlds were square-shaped. <sup>†</sup>Based on linear modeling described in <xref rid="sec0060" ref-type="sec">Appendix S2</xref>, these values equate to 1 (SD = 0) and 970 (SD = 390) quanta/hr. <sup>‡</sup>Standard deviations are given in parentheses. <sup>§</sup><xref rid="bib14" ref-type="bibr">Das et al. (2020)</xref> estimated the average travel distance of a 100-micrometer droplet expelled from a height of 1.7 m at a velocity of 0.5 m/s to be 0.55 m. They also found that the majority of 100-μm droplets will fall 0.55–2.35 m away from the expelling individual, depending on initial velocity, but droplets may settle up to 3.2 m away very rarely. a random draw of 10,000,000 samples from a log-normal distribution parameterized using 1.7-m and 0.2095-m droplet spread distance mean and standard deviation values, respectively, generated a distribution in line with this finding. The standard deviation we use in simulations for non-coughing expectoration is proportionate to the one used in this random draw. <sup>¶</sup>These parameter values were only used when the <italic>Forced air</italic> parameter value was set to “on.” <sup>#</sup>These parameter values were only used when the <italic>Forced air</italic> parameter value was set to “off.” **All patches on the east side of the simulated world acted as supply vents. All patches on the west side acted as return vents. <sup>††</sup>Zero-percent mask efficacy is equivalent to no mask use. <sup>‡‡</sup>Instead of specifying a fixed number of individuals in simulations, we scaled the simulated population with world size.</p></caption><alt-text id="at0030">Table 2</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Parameter/Model Input</th><th>Value (s)</th><th>Reference (s)</th></tr></thead><tbody><tr><td><italic>Infectiousness parameters</italic></td><td/><td/></tr><tr><td>Cough frequency (coughs/min)</td><td>0.19</td><td><xref rid="bib24" ref-type="bibr">Lee et al., 2012</xref></td></tr><tr><td>Droplet count (droplets/expectoration)<sup>†</sup></td><td>1000 (0)<sup>‡</sup>, 9.7e<sup>5</sup> (3.9e<sup>5</sup>)<sup>‡</sup></td><td><xref rid="bib26" ref-type="bibr">Miller et al., 2020</xref><italic>,</italic><xref rid="sec0060" ref-type="sec">Appendix S2</xref></td></tr><tr><td>Droplet spread angle – coughing (º)</td><td>35</td><td><xref rid="bib22" ref-type="bibr">Kwon et al., 2012</xref></td></tr><tr><td>Droplet spread angle – not coughing (º)</td><td>63.5</td><td><xref rid="bib22" ref-type="bibr">Kwon et al., 2012</xref></td></tr><tr><td>Droplet travel distance – coughing (m)</td><td>5 (0.256)<sup>‡</sup></td><td><xref rid="bib7" ref-type="bibr">Bourouiba et al., 2014</xref></td></tr><tr><td>Droplet travel distance – not coughing (m)</td><td>0.55 (0.068)<sup>‡§</sup></td><td><xref rid="bib14" ref-type="bibr">Das et al., 2020</xref></td></tr><tr><td colspan="3"><italic>Scenario environment and individual behavior inputs</italic></td></tr><tr><td>Area (m<sup>2</sup>)*</td><td>9, 36, 81</td><td><italic>–</italic></td></tr><tr><td>Expectoration height (m)</td><td>1.7</td><td><xref rid="bib31" ref-type="bibr">Fryar et al., 2018</xref></td></tr><tr><td>Inhalation rate (m<sup>3</sup> air/min)</td><td>0.023</td><td><xref rid="bib1" ref-type="bibr">Adams, 1993</xref></td></tr><tr><td>Maximum people in a single 1-m<sup>2</sup> patch (people)</td><td>2</td><td><xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref></td></tr><tr><td>Number of infectious individuals (people)</td><td>1</td><td><italic>–</italic></td></tr><tr><td>Proportion of infectious individuals that are symptomatic (%)</td><td>0, 100</td><td><italic>–</italic></td></tr><tr><td><italic>Scenario virion behavior inputs</italic></td><td/><td/></tr><tr><td>Virion count (virions/mL fluid)</td><td>2.35e<sup>9</sup></td><td><xref rid="bib44" ref-type="bibr">Wölfel et al., 2020</xref></td></tr><tr><td>Virion decay rate (%/min)</td><td>1.05, 5<sup>¶</sup>, 10<sup>¶</sup>, 25<sup>¶</sup>, 50<sup>¶</sup>, 75<sup>¶</sup>, 90<sup>¶</sup></td><td><xref rid="bib15" ref-type="bibr">van Doremalen et al., 2020</xref></td></tr><tr><td>Virion infection risk (%/inhaled virion)</td><td>6.24</td><td><xref rid="sec0060" ref-type="sec">Appendix S2</xref></td></tr><tr><td><italic>Scenario airflow inputs</italic></td><td/><td/></tr><tr><td>Diffusion rate (m<sup>3</sup>/min)</td><td>1.5e<sup>-3</sup></td><td><xref rid="bib8" ref-type="bibr">Castillo and Weibel, 2018</xref></td></tr><tr><td>Forced air</td><td>on, off</td><td>–</td></tr><tr><td>Forced air direction**</td><td>East-to-West</td><td>–</td></tr><tr><td>Air change rate (%/min)</td><td>0<sup>#</sup>, 1<sup>¶</sup>, 5<sup>¶</sup>, 10<sup>¶</sup>, 25<sup>¶</sup>, 50<sup>¶</sup></td><td>–</td></tr><tr><td>Re-circulated air filtration (%/min)</td><td>0<sup>#</sup>,1<sup>¶</sup>, 5<sup>¶</sup>, 90<sup>¶</sup>, 100<sup>¶</sup></td><td>–</td></tr><tr><td><italic>Scenario intervention inputs</italic></td><td/><td/></tr><tr><td>Attempted social distancing (m)</td><td>0</td><td>–</td></tr><tr><td>Contact duration (min)</td><td>10, 30, 60</td><td>–</td></tr><tr><td>Mask efficacy (%)</td><td>0<sup>††</sup></td><td>–</td></tr><tr><td>Population density (people/m<sup>2</sup>)<sup>‡‡</sup></td><td>0.333, 0.667, 1, 1.667</td><td>–</td></tr></tbody></table></table-wrap></p>
+                <p id="p0110">We set up a factorial simulation run within the NetLogo BehaviorSpace using our specified input levels. We ran 1000 replicates of each parameter set combination when the <italic>Forced air</italic> parameter was set to “on” and when it was “off.” We ran these sets separately in order to save computation time as there were many inputs that only changed when forced airflow was simulated. Ultimately, we produced 144,000 “off” simulations, and 20,160,000 “on” simulations. In both sets, we identified simulations when transmission occurred (i.e., simulations where ≥ 1 susceptible person was infected), and recorded this occurrence as the binary variable <inline-formula><mml:math id="M9" altimg="si0008.svg"><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> so that<disp-formula id="eqn0010"><mml:math id="M10" altimg="si0009.svg"><mml:mrow><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">{</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mn>1</mml:mn><mml:mspace width="0.25em"/><mml:mi>if</mml:mi><mml:mspace width="0.25em"/><mml:mi>transmission</mml:mi><mml:mspace width="0.25em"/><mml:mi>was</mml:mi><mml:mspace width="0.25em"/><mml:mi>observed</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn><mml:mspace width="0.25em"/><mml:mi>if</mml:mi><mml:mspace width="0.25em"/><mml:mi>no</mml:mi><mml:mspace width="0.25em"/><mml:mi>transmission</mml:mi><mml:mspace width="0.25em"/><mml:mo>occurred</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo stretchy="true">}</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula>for each realized simulation, <inline-formula><mml:math id="M11" altimg="si0010.svg"><mml:mi>i</mml:mi></mml:math></inline-formula>.</p>
+                <p id="p0115">We aggregated simulation data into a single data set and carried out a logistic regression analysis to estimate effects of variable inputs on observed differences in the probability of observing ≥ 1 infections. We chose to use a logistic regression here instead of another beta regression to simplify the interpretability of our results. Though we lose the ability to comment on mean attack rates, we can still estimate environmental effects on transmission risk using a logistic regression. We fit our data to the model:<disp-formula id="eqn0015"><mml:math id="M12" altimg="si0011.svg"><mml:mrow><mml:mi>ln</mml:mi><mml:mspace width="0.25em"/><mml:mo>⁢</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mfrac><mml:mrow><mml:mi>Pr</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>Pr</mml:mi><mml:mo>⁡</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>u</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mi>y</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>G</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>u</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>Q</mml:mi><mml:mi>u</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mspace width="0.25em"/><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mspace width="0.25em"/><mml:mi>h</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>r</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>E</mml:mi><mml:mi>x</mml:mi><mml:mi>c</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mi>s</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>l</mml:mi><mml:mi>e</mml:mi><mml:mi>t</mml:mi><mml:mspace width="0.25em"/><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mspace width="0.25em"/><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>A</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi><mml:mspace width="0.25em"/><mml:mi>c</mml:mi><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mspace width="0.25em"/><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mn>6</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>A</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi><mml:mspace width="0.25em"/><mml:mi>f</mml:mi><mml:mi>i</mml:mi><mml:mi>l</mml:mi><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.25em"/><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>where <italic>Population density</italic> is given by <inline-formula><mml:math id="M13" altimg="si0012.svg"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac><mml:mspace width="1em"/></mml:mrow></mml:math></inline-formula>, and the <italic>Excess droplet removal rate</italic> (%/min) represents the increased removal of aerosols due to ventilation-induced 3-dimensional droplet movement. It is given by the equation: <inline-formula><mml:math id="M14" altimg="si0013.svg"><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>V</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.25em"/><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi><mml:mspace width="0.25em"/><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mo>−</mml:mo><mml:mn>1.05</mml:mn></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula>. The 1.05 here represents the general SARS-CoV-2 decay rate (i.e., 1.05%/min) as reported by (<xref rid="bib15" ref-type="bibr">van Doremalen et al., 2020</xref>). Subtracting this baseline value from the simulated Virion decay rate gives us an excess removal rate that we use as a proxy for 3-dimensional droplet removal attributable to forced airflow movement. When no forced airflow is simulated, excess droplet removal, air change, and filtration rates all equal 0. We calculated the <xref rid="bib40" ref-type="bibr">Tjur (2009)</xref> pseudo-R<sup>2</sup> for our logistic regression model to assess goodness of fit.</p>
+              </sec>
+            </sec>
+            <sec id="sec0040">
+              <label>3</label>
+              <title>Results and discussion</title>
+              <p id="p0120">We developed a stochastic and spatially-explicit ABM for studying indoor individual-level respiratory pathogen transmission, and used it to demonstrate the potential effectiveness of multiple intervention strategies for reducing SARS-CoV-2 transmission in an indoor group setting mimicking that of a known superspreading event. We were able to effectively recreate the empirical proportion of susceptible individuals likely infected during the Skagit County superspreading event by simulating the gathering without implementing any intervention strategies (
+<xref rid="fig0015" ref-type="fig">Fig. 3</xref>).<fig id="fig0015"><label>Fig. 3</label><caption><p>In the absence of interventions to reduce transmission risk, the proportion of susceptible people infected in simulations can reflect the case study value (i.e., 0.88) and is more likely to do so when forced airflow is included.</p></caption><alt-text id="at0015">Fig. 3</alt-text><graphic xlink:href="gr3_lrg"/></fig></p>
+              <p id="p0125">Our beta regression model for estimating intervention efficacy had a pseudo-R<sup>2</sup> of ≈ 0.43. Given the number of stochastic processes in our ABM, the explanatory power of the model is acceptable. As shown in
+<xref rid="fig0020" ref-type="fig">Fig. 4</xref>, duration limits and efficacious mask usage appear to have the greatest effects on reducing the proportion of susceptible individuals infected, but multiple concurrent interventions are required to minimize the proportion of susceptible individuals infected (
+<xref rid="tbl0015" ref-type="table">Table 3</xref>, <xref rid="fig0020" ref-type="fig">Fig. 4</xref>). However, it is important to note that observed proportional differences are more meaningful for relatively large groups than for smaller ones, as demonstrated by the positive <italic>β</italic> estimates for interaction terms including the <italic>Group size</italic> variable (<xref rid="tbl0015" ref-type="table">Table 3</xref>). The effectiveness of limiting the duration of gatherings for reducing the proportion of infected individuals appears to largely result from reducing the confounding movement effect that increases over time, thereby reducing the probability that susceptible individuals will move from uncontaminated space to areas with greater concentrations of infectious aerosols or nearby to infectious individuals where they may be exposed to large virion-containing droplets (<xref rid="tbl0015" ref-type="table">Table 3</xref>). The regression model suggests that the effect of each random relocation event on the log-odds of the susceptible population proportion infected is ≈ 41 times that of each passing minute in the simulation (<xref rid="tbl0015" ref-type="table">Table 3</xref>). We show that simply by limiting the time spent rehearsing in our simulations to 40 min, minimizing random mixing between attendees by ending the event prior to splitting into disparate groups (<xref rid="bib20" ref-type="bibr">Hamner et al., 2020</xref>), the proportion of people infected could have been reduced by 70 – 88% even without implementing any other intervention strategies (<xref rid="fig0020" ref-type="fig">Fig. 4</xref>). Therefore, imposing movement restrictions could be a more effective intervention than strict duration limits.<fig id="fig0020"><label>Fig. 4</label><caption><p>Predicted mean proportion of susceptible populations infected with SARS-CoV-2 for varied parameter sets suggest that concurrent deployment of multiple interventions is required to achieve near-zero transmission rates.</p></caption><alt-text id="at0020">Fig. 4</alt-text><graphic xlink:href="gr4_lrg"/></fig><table-wrap position="float" id="tbl0015"><label>Table 3</label><caption><p>Logit scale estimates associated with 1-unit increases in covariate values given by our beta-regression model for evaluating intervention effects. Wald 95% confidence intervals are given in parentheses.</p></caption><alt-text id="at0035">Table 3</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Coefficient</th><th><italic>β</italic> Estimate</th><th><italic>p</italic></th></tr></thead><tbody><tr><td>Intercept</td><td>-2.927 (−2.940, −2.914)</td><td>–</td></tr><tr><td><inline-formula><mml:math id="M15" altimg="si0001.svg"><mml:mi>ϕ</mml:mi></mml:math></inline-formula></td><td>5.808 (5.791, 5.824)</td><td>–</td></tr><tr><td>Gathering duration (min)</td><td>0.012 (0.012, 0.012)</td><td>&lt; 0.001</td></tr><tr><td>Mask efficacy (%)</td><td>-0.015 (−0. 015, −0.015)</td><td>&lt; 0.001</td></tr><tr><td>Mask use</td><td>-0.949 (−0.964, −0.935)</td><td>&lt; 0.001</td></tr><tr><td>Movement (No. rearrangements)</td><td>0.491 (0.485, 0.497)</td><td>&lt; 0.001</td></tr><tr><td>Group size (people)</td><td>0.001 (0.001, 0.001)</td><td>&lt; 0.001</td></tr><tr><td>Social distancing (m)</td><td>-0.250 (−0.256, −0.243)</td><td>&lt; 0.001</td></tr><tr><td>Ventilation</td><td>0.898 (0.895, 0.902)</td><td>&lt; 0.001</td></tr><tr><td>Mask use : Group size</td><td>0.014 (0.013, 0.014)</td><td>&lt; 0.001</td></tr><tr><td>Mask use : Social distancing</td><td>-0.018 (−0.025, −0.010)</td><td>&lt; 0.001</td></tr><tr><td>Group size : Social distancing</td><td>0.004 (0.004, 0.004)</td><td>&lt; 0.001</td></tr><tr><td>Mask use : Group size : Social distancing</td><td>1.923e<sup>-4</sup> (3.039e<sup>-5</sup>, 3.542e<sup>-4</sup>)</td><td>0.020</td></tr></tbody></table></table-wrap></p>
+              <p id="p0130">We found that mask usage and social distancing interventions are relatively more effective for reducing proportional infection rates in small groups than in large ones. Our findings suggest that in the Skagit County choral case, duration limits with implied movement restrictions and mask usage would have been the most-effective intervention strategies for reducing SARS-CoV-2 infection rates, but multiple interventions would have needed to be deployed simultaneously to reach near-zero rates (i.e., mean rate &lt; 0.5 people / gathering duration) (<xref rid="fig0020" ref-type="fig">Fig. 4</xref>). Infection rates generally increased with group size and decreased with mask efficacy, and we found that when movement rates were minimized (i.e., gathering durations ≤ 40) we could minimize infection rates with relatively-low mask efficacy or even no mask usage in some cases. Our results support recent evidence suggesting that even wearing masks with relatively low droplet-filtering abilities around others can help to reduce exposure to infectious agents (<xref rid="bib2" ref-type="bibr">Agrawal and Bhardwaj, 2020</xref>; <xref rid="bib27" ref-type="bibr">O’kelly et al., 2020</xref>). Attempted social distancing up to 3 m had little effect on transmission rates relative to other intervention strategies (<xref rid="fig0020" ref-type="fig">Fig. 4</xref>). That said, because social distancing generally had a greater effect on proportional infection rates when group size was limited to 10 people, and 2-m social distances reduced the mean number of infections in larger groups, we can intuit that the relatively small overall effect of social distancing was likely due to the presence of physical barriers (e.g., edges of the simulated world) or the physical arrangement of nearby individuals impeding agents’ attempts to social distance, rather than due to far-reaching droplet spread that makes social distancing irrelevant. This is supported by the significant interactions between the <italic>Group size</italic> and <italic>Social distancing</italic> variables, which indicate that social distancing becomes less effective at preventing secondary infections as the number of attendees increases (<xref rid="tbl0015" ref-type="table">Table 3</xref>).</p>
+              <p id="p0135">Conclusions regarding social distancing effects are further supported by our logistic regression model results that describe the relative effects of population density, gathering duration, quanta production, and ventilation on the probability of indoor SARS-CoV-2 transmission from a single infectious individual (
+<xref rid="tbl0020" ref-type="table">Table 4</xref>). This model had a pseudo-R<sup>2</sup> value of 0.25 and demonstrated that among the considered variables, population density was the most-important contributor to SARS-CoV-2 transmission risk. Additionally, increases in gathering duration, infectious aerosol production, and horizontal air movement all escalate the probability that transmission will occur during gatherings, though the effect is much lesser than that of increasing population density. The relatively small effects of quanta production and duration on transmission risk suggest that once individuals are exposed to infectious agents, they are likely to become infected quickly. Thus, minimizing susceptible people’s exposure to infectious media is of paramount importance for controlling COVID-19 incidence.<table-wrap position="float" id="tbl0020"><label>Table 4</label><caption><p>Logit scale estimates associated with 1-unit increases in covariate values given by our logistic-regression model for evaluating effect on SARS-CoV-2 transmission risk during an indoor gathering. Wald 95% confidence intervals are given in parentheses.</p></caption><alt-text id="at0040">Table 4</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Coefficient</th><th><italic>β</italic> Estimate</th><th>Odds ratio</th><th><italic>p</italic></th></tr></thead><tbody><tr><td>Intercept</td><td>-0.146 (−0.151, −0.140)</td><td>–</td><td>–</td></tr><tr><td>Population density (people/m<sup>2</sup>)</td><td>2.766 (2.761, 2.771)</td><td>15.891 (15.813, 15.968)</td><td>&lt; 0.001</td></tr><tr><td>Gathering duration (min)</td><td>0.015 (0.015, 0.015)</td><td>1.015 (1.015, 1.015)</td><td>&lt; 0.001</td></tr><tr><td>Quanta (quanta/hr)</td><td>0.002 (0.002, 0.002)</td><td>1.002 (1.002, 1.002)</td><td>&lt; 0.001</td></tr><tr><td>Excess droplet removal rate (%/min)</td><td>-0.024 (−0.024, −0.024)</td><td>0.976 (0.976, 0.976)</td><td>&lt; 0.001</td></tr><tr><td>Air change rate (%/min)</td><td>0.017 (0.017, 0.017)</td><td>1.02 (1.02, 1.02)</td><td>&lt; 0.001</td></tr><tr><td>Air filtration rate (%/min)</td><td>-0.005 (−0.005, −0.005)</td><td>0.995 (0.995, 0.995)</td><td>&lt; 0.001</td></tr></tbody></table></table-wrap></p>
+              <p id="p0140">Regarding observed effects of ventilation in our beta and logistic regression models, our results suggest that in spite of some evidence that forced-air ventilation systems can reduce risk of respiratory pathogen infection from indoor aerosols (<xref rid="bib16" ref-type="bibr">Escombe et al., 2007</xref>, <xref rid="bib37" ref-type="bibr">Smieszek et al., 2019</xref>), there is potential for forced airflow to expose susceptible people to aerosolized pathogens even if they are relatively far from infectious individuals, and therefore increase transmission risk. We show that, though filtering re-circulated air can lower transmission risk (<xref rid="tbl0020" ref-type="table">Table 4</xref>), increasing this effect is unlikely to compensate for the elevated risk attributable to increased horizontal air-change rates (<xref rid="tbl0015" ref-type="table">Table 3</xref> &amp; <xref rid="tbl0020" ref-type="table">4</xref>). It appears that maximizing rates of three-dimensional aerosol removal is the key to successful transmission-risk reduction when using forced-air ventilation systems as intervention tools. Our results are therefore consistent with the findings of (<xref rid="bib6" ref-type="bibr">Bhagat et al., 2020</xref>), who advise that “displacement” ventilation systems, those designed to vertically stratify indoor air by temperature and remove warmer air, are likely able to reduce local SARS-CoV-2 transmission risk. “Mixing” ventilation systems, designed to distribute temperature and aerosols equally throughout the space, are likely insufficient for preventing transmission and may even facilitate it (<xref rid="bib6" ref-type="bibr">Bhagat et al., 2020</xref>). Providing additional indoor airflow by opening doors/windows may reduce SARS-COV-2 exposure risk by expediting the removal of aerosolized virions and altering the movement trajectory of these particles within the room (<xref rid="bib3" ref-type="bibr">Ahmadzadeh et al., 2021</xref>; <xref rid="bib29" ref-type="bibr">Pirouz et al., 2021</xref>). However, <xref rid="bib3" ref-type="bibr">Ahmadzadeh et al. (2021)</xref> advise that individuals nearby to ventilation outlets will likely be at increased risk for exposure to aerosolized virions due to the concentration of these particles in these spaces.</p>
+              <p id="p0145">Given our findings, we maintain that in areas where COVID-19 prevalence remains high, holding events associated with relatively-increased mixing rates between individuals (e.g., social gatherings, sporting events, etc.) should be avoided even if attendance rates are presumed to be low. Such events are likely to be associated with SARS-CoV-2 transmission if ≥ 1 infectious individual(s) were to attend, the probability of which increases linearly with group size (<xref rid="bib9" ref-type="bibr">Chande et al., 2020</xref>). It is important to note however, that though our results provide insight into mechanisms for reducing SARS-COV-2 transmission rates, given the effect that model parameters can have on simulation outcomes (<italic>see</italic>
+<xref rid="sec0060" ref-type="sec">Appendix S3</xref>), our findings may not be reasonably extrapolated to accurately predict transmission in scenarios dissimilar from those we modeled here (e.g., ≥ 2 infectious individuals, fewer aerosolized virions produced during expectorations, etc.). Regardless, we can still conclude that imposing mask usage requirements, group size restrictions, duration limits, and social distancing policies have additive, and in some cases multiplicative protective effects on individual-level SARS-CoV-2 infection risk during gatherings, and can be particularly efficacious interventions when deployed simultaneously.</p>
+              <p id="p0150">A detailed list of assumptions of limitations of our ABM design can be found in the <italic>Design Concepts</italic> section of <xref rid="sec0060" ref-type="sec">Appendix S1</xref>. It is worth noting that the temporal and spatial scale of our ABM (i.e., &lt; 1 day, and within a single room) limits the applicability of our model for simultaneously simulating transmission in large populations, across separate-but-connected spaces (e.g., rooms in a house or healthcare facility, classrooms in school, etc.), and on larger time scales. However, with some modifications our ABM may be used as a base framework for models seeking to evaluate indoor pathogen transmission in these cases.</p>
+              <p id="p0155">In addition to model-specific limitations, there are some simulation-related assumptions that we must acknowledge. First and foremost, all of our simulations only included a single infectious individual, and all other individuals were completely susceptible to SARS-CoV-2 infection. Given the ongoing worldwide COVID-19 vaccine rollout it is likely that at least some people attending indoor gatherings will have a level of protection from infection, and we address this further in <xref rid="bib17" ref-type="bibr">Farthing and Lanzas (2021)</xref>. The findings presented herein are still important though, because transmission to and within unvaccinated groups remains a prominent issue (<xref rid="bib12" ref-type="bibr">Christie et al., 2021</xref>). Secondly, we simulate only limited activity-specific behaviors related to movement within indoor gatherings. For the most part, simulated individuals were unmoving and they never engaged in specific direct contact-related activities with others (e.g., hugging, close-talking, etc.) during which SARS-CoV-2 transmission risk may be elevated. This means that our simulations may oversimplify transmission mechanisms, and limits our ability to generalize our findings to specific real-world events. Nevertheless, we feel that our model is sufficiently accurate to highlight general trends in indoor SARS-CoV-2 transmission risk to susceptible populations.</p>
+            </sec>
+            <sec id="sec0045">
+              <label>4</label>
+              <title>Conclusions</title>
+              <p id="p0160">Our results suggest SARS-CoV-2 infections can occur quickly following exposure to infectious respiratory droplets. To maximize nonpharmaceutical intervention efficacy, we must understand and account for drivers of indoor exposure to infectious droplets and aerosols (e.g., people moving from virion-free space into contaminated areas within the room, ventilation systems pushing infectious aerosols towards susceptible individuals, etc.), so that individuals may actively take steps to avoid high-risk behaviors and environments. The ability to study these drivers is what differentiates our ABM from other models designed to study indoor SARS-CoV-2 transmission, but that do not incorporate spatiotemporal heterogeneity in agent behavior and environmental conditions.</p>
+            </sec>
+            <sec id="sec0050">
+              <title>Author contributions</title>
+              <p id="p0165">Trevor Farthing led the model creation, data analysis, and manuscript writing. Cristina Lanzas secured the funding. Both authors conceived the ideas presented herein, contributed to model development and writing efforts, and gave final approval for publication.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declarations of interest</title>
+              <p id="p0170">None.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="bibliog0005">
+              <title>References</title>
+              <ref id="bib1">
+                <element-citation publication-type="book" id="sbref1">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adams</surname>
+                      <given-names>W.C.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Measurement of Breathing Rate and Volume in Routinely Performed Daily Activities</part-title>
+                  <year>1993</year>
+                  <publisher-name>California Air Resources Board</publisher-name>
+                  <publisher-loc>Sacramento, CA, USA</publisher-loc>
+                  <comment>Final Report, Contract No. A033-205</comment>
+                  <ext-link ext-link-type="uri" xlink:href="https://ww2.arb.ca.gov/sites/default/files/classic//research/apr/past/a033-205.pdf" id="ir0010">〈https://ww2.arb.ca.gov/sites/default/files/classic//research/apr/past/a033-205.pdf〉</ext-link>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <element-citation publication-type="journal" id="sbref2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Agrawal</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhardwaj</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reducing chances of COVID-19 infection by a cough cloud in a closed space</article-title>
+                  <source>Phys. Fluids</source>
+                  <volume>32</volume>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">101704</object-id>
+                  <pub-id pub-id-type="doi">10.1063/5.0029186</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <element-citation publication-type="journal" id="sbref3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmadzadeh</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Farokhi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shams</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Investigating the effect of air conditioning on the distribution and transmission of COVID-19 virus particles</article-title>
+                  <source>J. Clean Prod.</source>
+                  <volume>316</volume>
+                  <year>2021</year>
+                  <object-id pub-id-type="publisher-id">128147</object-id>
+                  <pub-id pub-id-type="doi">10.1016/j.jclepro.2021.128147</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib4">
+                <element-citation publication-type="journal" id="sbref4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Asadi</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cappa</surname>
+                      <given-names>C.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barreda</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wexler</surname>
+                      <given-names>A.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bouvier</surname>
+                      <given-names>N.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ristenpart</surname>
+                      <given-names>W.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficacy of masks and face coverings in controlling outward aerosol particle emission from expiratory activities</article-title>
+                  <source>Sci. Rep.</source>
+                  <volume>10</volume>
+                  <year>2020</year>
+                  <fpage>15665</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-72798-7</pub-id>
+                  <pub-id pub-id-type="pmid">32973285</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <element-citation publication-type="book" id="sbref5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Atkinson</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chartier</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pessoa-Silva</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jensen</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Seto</surname>
+                      <given-names>W.-H.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Natural Ventilation for Infection Control in Health-Care Settings</part-title>
+                  <year>2009</year>
+                  <publisher-name>World Health Organization</publisher-name>
+                  <publisher-loc>Geneva, Switzerland</publisher-loc>
+                  <comment>[cited 2021 Oct 03]</comment>
+                  <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/44167/9789241547857_eng.pdf;jsessionid=1A17F4B41AC402C2746778937A854E27?sequence=1" id="ir0015">〈https://apps.who.int/iris/bitstream/handle/10665/44167/9789241547857_eng.pdf;jsessionid=1A17F4B41AC402C2746778937A854E27?sequence=1〉</ext-link>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <element-citation publication-type="journal" id="sbref6">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bhagat</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Davies Wykes</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dalziel</surname>
+                      <given-names>S.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Linden</surname>
+                      <given-names>P.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of ventilation on the indoor spread of COVID-19</article-title>
+                  <source>J. Fluid Dyn.</source>
+                  <volume>903</volume>
+                  <year>2020</year>
+                  <fpage>F1</fpage>
+                  <pub-id pub-id-type="doi">10.1017/jfm.2020.720</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib7">
+                <element-citation publication-type="journal" id="sbref7">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bourouiba</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dehandschoewercker</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bush</surname>
+                      <given-names>J.W.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Violent expiratory events: on coughing and sneezing</article-title>
+                  <source>J. Fluid Mech.</source>
+                  <volume>745</volume>
+                  <issue>2014</issue>
+                  <year>2014</year>
+                  <fpage>537</fpage>
+                  <lpage>563</lpage>
+                  <pub-id pub-id-type="doi">10.1017/jfm.2014.88</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib8">
+                <element-citation publication-type="journal" id="sbref8">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Castillo</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weibel</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A point sink superposition method for predicting droplet interaction effects during vapor-diffusion-driven dropwise condensation in humid air</article-title>
+                  <source>Int. J. Heat Mass Trans.</source>
+                  <volume>118</volume>
+                  <issue>2018</issue>
+                  <year>2018</year>
+                  <fpage>708</fpage>
+                  <lpage>719</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijheatmasstransfer.2017.11.045</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib9">
+                <element-citation publication-type="journal" id="sbref9">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chande</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beckett</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hilley</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Andris</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weitz</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-time, interactive website for US-county-level COVID-19 event risk assessment</article-title>
+                  <source>Nat. Hum. Behav..</source>
+                  <volume>4</volume>
+                  <year>2020</year>
+                  <fpage>1313</fpage>
+                  <lpage>1319</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41562-020-01000-9</pub-id>
+                  <pub-id pub-id-type="pmid">33168955</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib10">
+                <element-citation publication-type="journal" id="sbref10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chao</surname>
+                      <given-names>C.Y.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wan</surname>
+                      <given-names>M.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morawska</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>G.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ristovski</surname>
+                      <given-names>Z.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hargreaves</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mengersen</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Corbett</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katoshevski</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Characterization of expiration air jets and droplet size distributions immediately at the mouth opening</article-title>
+                  <source>J. Aerosol Sci.</source>
+                  <volume>40</volume>
+                  <issue>2</issue>
+                  <year>2009</year>
+                  <fpage>122</fpage>
+                  <lpage>133</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jaerosci.2008.10.003</pub-id>
+                  <pub-id pub-id-type="pmid">32287373</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib11">
+                <element-citation publication-type="journal" id="sbref11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yen</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short-range airborne route dominates exposure of respiratory infection during close contact</article-title>
+                  <source>Build. Environ.</source>
+                  <volume>176</volume>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">106859</object-id>
+                  <pub-id pub-id-type="doi">10.1016/j.buildenv.2020.106859</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib12">
+                <element-citation publication-type="journal" id="sbref12">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Christie</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hicks</surname>
+                      <given-names>L.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sauber-Schatz</surname>
+                      <given-names>E.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoder</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Honein</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gauidance for implementing COVID-19 prevention strategies in the context of varying community transmission levels and vaccination coverage</article-title>
+                  <source>Morb. Mortal Wkly. Rep.</source>
+                  <volume>70</volume>
+                  <issue>30</issue>
+                  <year>2021</year>
+                  <fpage>1044</fpage>
+                  <lpage>1047</lpage>
+                  <pub-id pub-id-type="doi">10.15585/mmwr.mm7030e2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib13">
+                <element-citation publication-type="journal" id="sbref13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cribari-Neto</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeileis</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beta regression in R</article-title>
+                  <source>J. Stat. Soft.</source>
+                  <volume>34</volume>
+                  <issue>2</issue>
+                  <year>2010</year>
+                  <fpage>1</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v034.i02</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib14">
+                <element-citation publication-type="journal" id="sbref14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Das</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alam</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Plumari</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greco</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Transmission of airborne virus through sneezed and coughed droplets</article-title>
+                  <source>Phys. Fluids</source>
+                  <volume>32</volume>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">097102</object-id>
+                  <pub-id pub-id-type="doi">10.1063/5.0022859</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib15">
+                <element-citation publication-type="journal" id="sbref15">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Doremalen</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bushmaker</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>D.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holbrook</surname>
+                      <given-names>M.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gamble</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williamson</surname>
+                      <given-names>B.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harcourt</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thornburg</surname>
+                      <given-names>N.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerber</surname>
+                      <given-names>S.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lloyd-Smith</surname>
+                      <given-names>J.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>de Wit</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Munster</surname>
+                      <given-names>V.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Aerosol and surface stability of SARS-CoV-2 as compared with SARS-CoV-1</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <volume>2020</volume>
+                  <issue>382</issue>
+                  <year>2020</year>
+                  <fpage>1564</fpage>
+                  <lpage>1567</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMc2004973</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib16">
+                <element-citation publication-type="journal" id="sbref16">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Escombe</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oeser</surname>
+                      <given-names>C.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilman</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Navincopa</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ticona</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martínez</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chacaltana</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodríguez</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedland</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Natural ventilation for the prevention of airborne contagion</article-title>
+                  <source>PLoS Med.</source>
+                  <volume>4</volume>
+                  <issue>2</issue>
+                  <year>2007</year>
+                  <object-id pub-id-type="publisher-id">e68</object-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pmed.0040068</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib17">
+                <mixed-citation publication-type="other" id="othref0005">Farthing T., Lanzas C. When can we stop wearing masks? Agent-based modeling to identify when vaccine coverage makes nonpharmaceutical interventions for reducing SARS-CoV-2 infections redundant in indoor gatherings. Preprint. 2021. doi: 10.1101/2021.04.19.21255737.</mixed-citation>
+              </ref>
+              <ref id="bib18">
+                <element-citation publication-type="journal" id="sbref17">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ferrari</surname>
+                      <given-names>S.L.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cribari-Neto</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beta regression for modelling rates and proportions</article-title>
+                  <source>J. Appl. Stat.</source>
+                  <volume>31</volume>
+                  <issue>7</issue>
+                  <year>2004</year>
+                  <fpage>799</fpage>
+                  <lpage>815</lpage>
+                  <pub-id pub-id-type="doi">10.1080/0266476042000214501</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib19">
+                <element-citation publication-type="journal" id="sbref18">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Railsback</surname>
+                      <given-names>S.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vincenot</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallagher</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>DeAngelis</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Edmonds</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ge</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Giske</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Groeneveld</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnston</surname>
+                      <given-names>A.S.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milles</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nabe-Nielsen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Polhill</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Radchuk</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rohwäder</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stillman</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thiele</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ayllón</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The ODD protocol for describing agent-based and other simulation models: a second update to improve clarity, replication, and structural realism</article-title>
+                  <source>J. Artif. Soc. Soc. Simul.</source>
+                  <volume>23</volume>
+                  <issue>2</issue>
+                  <year>2020</year>
+                  <fpage>7</fpage>
+                  <pub-id pub-id-type="doi">10.18564/jasss.4259</pub-id>
+                  <pub-id pub-id-type="pmid">33204215</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib20">
+                <element-citation publication-type="journal" id="sbref19">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hamner</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dubbel</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Capron</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jordan</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lynn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ball</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Narwal</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Russell</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patrick</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leibrand</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>High SARS-CoV-2 attack rate following exposure at a choir practice – Skagit County, Washington, March 2020</article-title>
+                  <source>Morb. Mortal Wkly. Rep.</source>
+                  <volume>69</volume>
+                  <year>2020</year>
+                  <fpage>606</fpage>
+                  <lpage>610</lpage>
+                  <pub-id pub-id-type="doi">10.15585/mmwr.mm6919e6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib21">
+                <element-citation publication-type="journal" id="sbref20">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jefferson</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Foxlee</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Del Mar</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dooley</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferroni</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hewak</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prabhala</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nair</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rivetti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Physical interventions to interrupt or reduce the spread of respiratory viruses: systematic review</article-title>
+                  <source>Br. Med. J.</source>
+                  <volume>2008</volume>
+                  <issue>336</issue>
+                  <year>2008</year>
+                  <fpage>77</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.39393.510347.BE</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib22">
+                <element-citation publication-type="journal" id="sbref21">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kwon</surname>
+                      <given-names>S.-B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>D.-S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bae</surname>
+                      <given-names>G.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jang</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Study on the initial velocity distribution of exhaled air from coughing and speaking</article-title>
+                  <source>Chemosphere</source>
+                  <volume>87</volume>
+                  <issue>11</issue>
+                  <year>2012</year>
+                  <fpage>1260</fpage>
+                  <lpage>1264</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chemosphere.2012.01.032</pub-id>
+                  <pub-id pub-id-type="pmid">22342283</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib23">
+                <element-citation publication-type="journal" id="sbref22">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leclerc</surname>
+                      <given-names>Q.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuller</surname>
+                      <given-names>N.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Knight</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Funk</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Knight</surname>
+                      <given-names>G.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>What settings have been linked to SARS-CoV-2 transmission clusters?</article-title>
+                  <source>Wellcome Open Res.</source>
+                  <volume>5</volume>
+                  <year>2020</year>
+                  <fpage>83</fpage>
+                  <pub-id pub-id-type="doi">10.12688/wellcomeopenres.15889.2</pub-id>
+                  <pub-id pub-id-type="pmid">32656368</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib24">
+                <element-citation publication-type="journal" id="sbref23">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>K.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Savani</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matos</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>D.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pavord</surname>
+                      <given-names>I.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Birring</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Four-hour cough frequency monitoring in chronic cough</article-title>
+                  <source>Chest</source>
+                  <volume>142</volume>
+                  <issue>5</issue>
+                  <year>2012</year>
+                  <fpage>1237</fpage>
+                  <lpage>1243</lpage>
+                  <pub-id pub-id-type="doi">10.1378/chest.11-3309</pub-id>
+                  <pub-id pub-id-type="pmid">22797468</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib25">
+                <element-citation publication-type="journal" id="sbref24">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lelieveld</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Helleis</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Borrmann</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drewnick</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haug</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klimach</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sciare</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pöschl</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Model calculations of aerosol transmission and infection risk of COVID-19 in indoor environments</article-title>
+                  <source>Int. J. Environ. Res. Publ. Health</source>
+                  <volume>17</volume>
+                  <year>2020</year>
+                  <fpage>8114</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph17218114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib26">
+                <element-citation publication-type="journal" id="sbref25">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nazaroff</surname>
+                      <given-names>W.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jimenez</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boerstra</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buonanno</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dancer</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kurnitski</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marr</surname>
+                      <given-names>L.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morawska</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Noakes</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Transmission of SARS‐CoV‐2 by inhalation of respiratory aerosol in the Skagit Valley Chorale superspreading event</article-title>
+                  <source>Indoor Air</source>
+                  <volume>00</volume>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <pub-id pub-id-type="doi">10.1111/ina.12751</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib27">
+                <element-citation publication-type="journal" id="sbref26">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>O’kelly</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pirog</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clarkson</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ability of fabric face mask materials to filter ultrafine particles at coughing velocity</article-title>
+                  <source>BMJ Open</source>
+                  <volume>10</volume>
+                  <issue>9</issue>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">e039424</object-id>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2020-039424</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib28">
+                <element-citation publication-type="journal" id="sbref27">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>S.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>Y.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yi</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Na</surname>
+                      <given-names>B.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>C.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>J.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>H.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>Y.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huh</surname>
+                      <given-names>I.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>H.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoon</surname>
+                      <given-names>H.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gwack</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kweon</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choe</surname>
+                      <given-names>Y.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>Y.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeong</surname>
+                      <given-names>E.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Coronavirus disease outbreak in call center, South Korea</article-title>
+                  <source>Emerg. Infect Dis.</source>
+                  <volume>26</volume>
+                  <issue>8</issue>
+                  <year>2020</year>
+                  <fpage>1666</fpage>
+                  <lpage>1670</lpage>
+                  <pub-id pub-id-type="doi">10.3201/eid2608.201274</pub-id>
+                  <pub-id pub-id-type="pmid">32324530</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib29">
+                <element-citation publication-type="journal" id="sbref28">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pirouz</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palermo</surname>
+                      <given-names>S.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Naghib</surname>
+                      <given-names>S.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mazzeo</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turco</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Piro</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of HVAC design and windows on the indoor airflow pattern and ACH</article-title>
+                  <source>Sustainability</source>
+                  <volume>13</volume>
+                  <issue>14</issue>
+                  <year>2021</year>
+                  <fpage>7931</fpage>
+                  <pub-id pub-id-type="doi">10.3390/su13147931</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib30">
+                <element-citation publication-type="journal" id="sbref29">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qian</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miao</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Indoor transmission of SARS-CoV-2</article-title>
+                  <source>Indoor Air</source>
+                  <volume>00</volume>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1111/ina.12766</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib31">
+                <element-citation publication-type="book" id="sbref30">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fryar</surname>
+                      <given-names>C.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruszon-Moran</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ogden</surname>
+                      <given-names>CL.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Mean body weight, height, waist circumference, and body mass index among adults: United States, 1999–2000 through 2015–2016. National Health Statistics Reports</part-title>
+                  <source>No</source>
+                  <volume>122</volume>
+                  <year>2018</year>
+                  <publisher-name>United States National Center for Health Statistics</publisher-name>
+                  <publisher-loc>Hyattsville, MD, USA</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib32">
+                <mixed-citation publication-type="other" id="othref0010">R Core Team. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. <ext-link ext-link-type="uri" xlink:href="https://www.R_project.org" id="ir0020">〈https://www.R_project.org〉</ext-link>. 2020 [cited 2021 Oct 03].</mixed-citation>
+              </ref>
+              <ref id="bib33">
+                <element-citation publication-type="book" id="sbref31">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Railsback</surname>
+                      <given-names>S.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Agent-Based and Individual-Based Modeling: A Practical Introduction</source>
+                  <edition>1st edition</edition>
+                  <year>2011</year>
+                  <publisher-name>Princeton University Press</publisher-name>
+                  <publisher-loc>Princeton, New Jersey, U.S.A</publisher-loc>
+                  <fpage>195</fpage>
+                  <lpage>208</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib34">
+                <element-citation publication-type="journal" id="sbref32">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>E.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>R.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Airborne spread of measles in a suburban elementary school</article-title>
+                  <source>Am. J. Epidemiol.</source>
+                  <volume>107</volume>
+                  <issue>5</issue>
+                  <year>1978</year>
+                  <fpage>421</fpage>
+                  <lpage>432</lpage>
+                  <pub-id pub-id-type="doi">10.1093/oxfordjournals.aje.a112560</pub-id>
+                  <pub-id pub-id-type="pmid">665658</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib35">
+                <mixed-citation publication-type="other" id="othref0015">RStudio Team. RStudio: integrated development Environment for r. RStudio Team, Boston, Massachusetts, USA. <ext-link ext-link-type="uri" xlink:href="http://www.rstudio.com" id="ir0025">〈http://www.rstudio.com〉</ext-link>. 2018 [cited 2021 Jan 21].</mixed-citation>
+              </ref>
+              <ref id="bib36">
+                <element-citation publication-type="journal" id="sbref33">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shao</surname>
+                      <given-names>Siyao</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Dezhi</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruichen</surname>
+                      <given-names>He</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Jiaqi</given-names>
+                    </name>
+                    <name>
+                      <surname>Zou</surname>
+                      <given-names>Shufan</given-names>
+                    </name>
+                    <name>
+                      <surname>Mallery</surname>
+                      <given-names>Kevin</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>Santosh</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Suo</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>Jiarong</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Risk assessment of airborne transmission of COVID-19 by asymptomatic individuals under different practical settings</article-title>
+                  <source>J. Aerosol. Sci.</source>
+                  <volume>151</volume>
+                  <year>2021</year>
+                  <object-id pub-id-type="publisher-id">105661</object-id>
+                  <pub-id pub-id-type="doi">10.1016/j.jaerosci.2020.105661</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib37">
+                <element-citation publication-type="journal" id="sbref34">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smieszek</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lazzari</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salathé</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing the dynamics and control of droplet- and aerosol-transmitted influenza using an indoor positioning system</article-title>
+                  <source>Sci. Rep.</source>
+                  <volume>9</volume>
+                  <year>2019</year>
+                  <fpage>2185</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-38825-y</pub-id>
+                  <pub-id pub-id-type="pmid">30778136</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib38">
+                <element-citation publication-type="journal" id="sbref35">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stadnytskyi</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bax</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bax</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anfinrud</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The airborne lifetime of small speech droplets and their potential importance to SARS-CoV-2 transmission</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <volume>117</volume>
+                  <issue>22</issue>
+                  <year>2020</year>
+                  <fpage>11875</fpage>
+                  <lpage>11877</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.2006874117</pub-id>
+                  <pub-id pub-id-type="pmid">32404416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib39">
+                <element-citation publication-type="journal" id="sbref36">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhai</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The efficacy of social distance and ventilation effectiveness in preventing COVID-19 transmission</article-title>
+                  <source>Sustain. Cities Soc.</source>
+                  <volume>62</volume>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">102390</object-id>
+                  <pub-id pub-id-type="doi">10.1016/j.scs.2020.102390</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib40">
+                <element-citation publication-type="journal" id="sbref37">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tjur</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Coefficients of determination in logistic regression models – A new proposal: the coefficient of discrimination</article-title>
+                  <source>Am. Stat.</source>
+                  <volume>63</volume>
+                  <issue>4</issue>
+                  <year>2009</year>
+                  <fpage>366</fpage>
+                  <lpage>372</lpage>
+                  <pub-id pub-id-type="doi">10.1198/tast.2009.08210</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib41">
+                <mixed-citation publication-type="other" id="othref0020">United States Center for Disease Control and Prevention [CDC], 2021. Scientific brief: SARS-CoV-2 and potential airborne transmission. 2020 [cited 2021 Oct 03]. <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/more/scientific-brief-sars-cov-2.html" id="ir0030">〈https://www.cdc.gov/coronavirus/2019-ncov/more/scientific-brief-sars-cov-2.html〉</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="bib42">
+                <element-citation publication-type="journal" id="sbref38">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prather</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sznitman</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jimenes</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lakdawala</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tufecki</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marr</surname>
+                      <given-names>L.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Airborne transmission of respiratory viruses</article-title>
+                  <source>Science</source>
+                  <volume>373</volume>
+                  <issue>6558</issue>
+                  <year>2021</year>
+                  <pub-id pub-id-type="doi">10.1126/science.abd9149</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib43">
+                <mixed-citation publication-type="other" id="othref0025">Wilensky U. NetLogo. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL. <ext-link ext-link-type="uri" xlink:href="http://ccl.northwestern.edu/netlogo/" id="ir0035">〈http://ccl.northwestern.edu/netlogo/〉</ext-link>. 1999 [cited 2021 Oct 03].</mixed-citation>
+              </ref>
+              <ref id="bib44">
+                <element-citation publication-type="journal" id="sbref39">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wölfel</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Corman</surname>
+                      <given-names>V.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guggemos</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Seilmaier</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zange</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Müller</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Niemeyer</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>T.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vollmar</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rothe</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoelscher</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bleicker</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brünink</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ehmann</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zwirglmaier</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drosten</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wendtner</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Virological assessment hospitalized patients with COVID-2019</article-title>
+                  <source>Nature</source>
+                  <volume>581</volume>
+                  <issue>2020</issue>
+                  <year>2020</year>
+                  <fpage>465</fpage>
+                  <lpage>469</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2196-x</pub-id>
+                  <pub-id pub-id-type="pmid">32235945</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib45">
+                <mixed-citation publication-type="other" id="othref0030">World Health Organization [WHO]. ‎2020‎. Modes of transmission of virus causing COVID-19: implications for IPC precaution recommendations: scientific brief, 29 March 2020. https://apps.who.int/iris/handle/10665/331616. [accessed 12 Nov 2021].</mixed-citation>
+              </ref>
+            </ref-list>
+            <sec id="sec0060" sec-type="supplementary-material">
+              <label>Appendix A</label>
+              <title>Supplementary material</title>
+              <p id="p0185"><supplementary-material content-type="local-data" id="ec0005"><caption><p>Supplementary material</p></caption><media xlink:href="mmc1.pdf"/></supplementary-material>.</p>
+              <p id="p0190"><supplementary-material content-type="local-data" id="ec0010"><caption><p>Supplementary material</p></caption><media xlink:href="mmc2.pdf"/></supplementary-material>.</p>
+              <p id="p0195"><supplementary-material content-type="local-data" id="ec0015"><caption><p>Supplementary material</p></caption><media xlink:href="mmc3.pdf"/></supplementary-material>.</p>
+            </sec>
+            <ack id="ack0005">
+              <title>Acknowledgments</title>
+              <p id="p0175">This work was partially supported by the <funding-source id="gs1"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000030</institution-id><institution>Centers for Disease Control and Prevention</institution></institution-wrap></funding-source> (CDC), USA (U01CK000587-01M001) and the <funding-source id="gs2"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000057</institution-id><institution>National Institute of General Medical Sciences</institution></institution-wrap></funding-source>, USA (R35GM134934). The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript. We thank Savannah Bates for providing feedback on early versions of the model. Her comments helped to improve the realism of our simulations.</p>
+            </ack>
+            <fn-group>
+              <fn id="sec0055" fn-type="supplementary-material">
+                <label>Appendix A</label>
+                <p id="p0180">Supplementary data associated with this article can be found in the online version at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.epidem.2021.100524" id="ir0005">doi:10.1016/j.epidem.2021.100524</ext-link>.</p>
+              </fn>
+            </fn-group>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

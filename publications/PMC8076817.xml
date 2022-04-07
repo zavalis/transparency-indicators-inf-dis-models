@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:54:33Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8076817" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8076817</identifier>
+        <datestamp>2021-04-27</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Procedia Comput Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Procedia Comput Sci</journal-id>
+              <journal-title-group>
+                <journal-title>Procedia Computer Science</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1877-0509</issn>
+              <publisher>
+                <publisher-name>The Author(s). Published by Elsevier B.V.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8076817</article-id>
+              <article-id pub-id-type="pmcid">PMC8076817</article-id>
+              <article-id pub-id-type="pmc-uid">8076817</article-id>
+              <article-id pub-id-type="pmid">33936325</article-id>
+              <article-id pub-id-type="pii">S1877-0509(21)00293-3</article-id>
+              <article-id pub-id-type="doi">10.1016/j.procs.2021.01.250</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A COVID-19 time series forecasting model based on MLP ANN</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au3970">
+                  <name>
+                    <surname>Borghi</surname>
+                    <given-names>Pedro Henrique</given-names>
+                  </name>
+                  <xref rid="aff0001" ref-type="aff">a</xref>
+                  <xref rid="aff0002" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au3980">
+                  <name>
+                    <surname>Zakordonets</surname>
+                    <given-names>Oleksandr</given-names>
+                  </name>
+                  <xref rid="aff0001" ref-type="aff">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au3990">
+                  <name>
+                    <surname>Teixeira</surname>
+                    <given-names>João Paulo</given-names>
+                  </name>
+                  <xref rid="aff0001" ref-type="aff">a</xref>
+                </contrib>
+                <aff id="aff0001"><label>a</label>Research Centre in Digitalization and Intelligent Robotics (CEDRI), Instituto Politecnico de Bragança, Braganca, Portugal</aff>
+                <aff id="aff0002"><label>b</label>Federal University of Technology - Paraná (UTFPR), Cornélio Procópio, 86300-000, Brazil</aff>
+              </contrib-group>
+              <pub-date pub-type="pmc-release">
+                <day>22</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>181</volume>
+              <fpage>940</fpage>
+              <lpage>947</lpage>
+              <permissions>
+                <copyright-statement>© 2021 The Author(s). Published by Elsevier B.V.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder/>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0001">
+                <p>With the accelerated spread of COVID-19 worldwide and its potentially fatal effects on human health, the development of a tool that effectively describes and predicts the number of infected cases and deaths over time becomes relevant. This makes it possible for administrative sectors and the population itself to become aware and act more precisely. In this work, a machine learning model based on the multilayer Perceptron artificial neural network structure was used, which effectively predicts the behavior of the series mentioned in up to six days. The model, which is trained with data from 30 countries together in a 20-day context, is assessed using global and local MSE and MAE measures. For the construction of training and test sets, four time series (number of: accumulated infected cases, new cases, accumulated deaths and new deaths) from each country are used, which are started on the day of the first confirmed infection case. In order to soften the sudden transitions between samples, a moving average filter with a window size 3 and a normalization by maximum value were used. It is intended to make the model’s predictions available online, collaborating with the fight against the pandemic.</p>
+              </abstract>
+              <kwd-group id="keys0001">
+                <title>Keywords</title>
+                <kwd>COVID-19 Brazil forecast</kwd>
+                <kwd>COVID-19 Italy forecast</kwd>
+                <kwd>COVID-19 worldwide forecast</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <back>
+            <ref-list id="bibl1150">
+              <title>References</title>
+              <ref id="bib1">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sbref23670">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang et al</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China,”</article-title>
+                  <source>Lancet</source>
+                  <volume>395</volume>
+                  <issue>10223</issue>
+                  <year>2020</year>
+                  <fpage>497</fpage>
+                  <lpage>506</lpage>
+                  <comment>doi: 10.1016/S0140-6736(20)30183-5.</comment>
+                  <pub-id pub-id-type="pmid">31986264</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sbref23680">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>McGoogan</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“Characteristics of and Important Lessons from the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72314 Cases from the Chinese Center for Disease Control and Prevention,”</article-title>
+                  <source>JAMA - Journal of the American Medical Association</source>
+                  <volume>323</volume>
+                  <issue>13</issue>
+                  <year>2020</year>
+                  <fpage>1239</fpage>
+                  <lpage>1242</lpage>
+                  <comment>American Medical Association, doi: 10.1001/jama.2020.2648.</comment>
+                  <pub-id pub-id-type="pmid">32091533</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <label>3</label>
+                <mixed-citation publication-type="other" id="oref8470">WHO, 2020. [Online]. Available: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" id="interrefs3930">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</ext-link></mixed-citation>
+              </ref>
+              <ref id="bib4">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sbref23690">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Horby</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hayden</surname>
+                      <given-names>F.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>G.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“A novel coronavirus outbreak of global health concern,”</article-title>
+                  <source>The Lancet</source>
+                  <volume>395</volume>
+                  <issue>10223</issue>
+                  <year>2020</year>
+                  <fpage>470</fpage>
+                  <lpage>473</lpage>
+                  <comment>Lancet Publishing Group, doi: 10.1016/S0140-6736(20)30185-9.</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sbref23700">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rajgor</surname>
+                      <given-names>D.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>M.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Archuleta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bagdasarian</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Quek</surname>
+                      <given-names>S.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“The many estimates of the COVID-19 case fatality rate,”</article-title>
+                  <source>The Lancet. Infectious diseases</source>
+                  <year>2020</year>
+                  <comment>NLM (Medline), doi: 10.1016/S1473-3099(20)30244-9</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sbref23710">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Heymann</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“Data sharing and outbreaks: best practice exemplified,”</article-title>
+                  <source>The Lancet</source>
+                  <volume>395</volume>
+                  <issue>10223</issue>
+                  <year>2020</year>
+                  <fpage>469</fpage>
+                  <lpage>470</lpage>
+                  <comment>Lancet Publishing Group, doi: 10.1016/S0140-6736(20)30184-7.</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib7">
+                <label>7</label>
+                <mixed-citation publication-type="other" id="oref8480">“Coronavirus COVID19 API.” [Online]. Available: <ext-link ext-link-type="uri" xlink:href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#43e467ac-2cb0-4409-84e8-e18794e47271" id="interrefs3940">https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#43e467ac-2cb0-4409-84e8-e18794e47271</ext-link>. [Accessed: 11-May-2020].</mixed-citation>
+              </ref>
+              <ref id="bib8">
+                <label>8</label>
+                <mixed-citation publication-type="other" id="oref8490">“Relatório de Situação - COVID-19.” [Online]. Available: <ext-link ext-link-type="uri" xlink:href="https://covid19.min-saude.pt/relatorio-de-situacao/" id="interrefs3950">https://covid19.min-saude.pt/relatorio-de-situacao/</ext-link>. [Accessed: 11-May-2020].</mixed-citation>
+              </ref>
+              <ref id="bib9">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref23720">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haykin</surname>
+                      <given-names>Simon</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Redes neurais: princípios e prática</article-title>
+                  <source>Bookman Editora</source>
+                  <year>2007</year>
+                  <comment>2007</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib10">
+                <label>10</label>
+                <mixed-citation publication-type="other" id="oref8500">“GitHub - CSSEGISandData/COVID-19: Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE.” [Online]. Available: <ext-link ext-link-type="uri" xlink:href="https://github.com/CSSEGISandData/COVID-19" id="interrefs3960">https://github.com/CSSEGISandData/COVID-19</ext-link>. [Accessed: 20-Jul-2020].</mixed-citation>
+              </ref>
+              <ref id="bib11">
+                <label>11</label>
+                <mixed-citation publication-type="other" id="oref8510">“COVID-19 situation update worldwide, as of 20 July 2020.” [Online]. Available: <ext-link ext-link-type="uri" xlink:href="https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases" id="interrefs3970">https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases</ext-link>. [Accessed: 20-Jul-2020].</mixed-citation>
+              </ref>
+              <ref id="bib12">
+                <label>12</label>
+                <mixed-citation publication-type="other" id="oref8520">“Tracking coronavirus: Map, data and timeline - BNO News.” [Online]. Available: <ext-link ext-link-type="uri" xlink:href="https://bnonews.com/index.php/2020/04/the-latest-coronavirus-cases/" id="interrefs3980">https://bnonews.com/index.php/2020/04/the-latest-coronavirus-cases/</ext-link>. [Accessed: 20-Jul-2020].</mixed-citation>
+              </ref>
+              <ref id="bib13">
+                <label>13</label>
+                <mixed-citation publication-type="other" id="oref8530">Rodrigues, P. M.; Teixeira, João Paulo. (2010) “Classification of Electroencephalogram Signals Using Artificial Neural Networks”. Proceedings of 3rd International Conference on BioMedical Engineering and Informatics (BMEI’10).</mixed-citation>
+              </ref>
+              <ref id="bib14">
+                <label>14</label>
+                <mixed-citation publication-type="other" id="oref8540">Teixeira, J. P. and Freitas D. (2003). “Segmental Durations Predicted With a Neural Network", Proceedings of Eurospeech’03 – International Conference on Spoken Language Processing, Geneva. Pages 169-172.</mixed-citation>
+              </ref>
+              <ref id="bib15">
+                <label>15</label>
+                <mixed-citation publication-type="other" id="oref8550">Rodrigues, Pedro M. and Teixeira, João Paulo, (2013). “Alzheimer’s Disease Recognition with Artificial Neural Networks” - chapter 7 (pag. 102-119) of the book “Information Systems and Technologies for Enhancing Health and Social Care”, by Ricardo Martinho, Rui Rijo, Maria Manuela Cunha and João Varajão. IGI Global. DOI: 10.4018/978-1-4666-3667-5.</mixed-citation>
+              </ref>
+              <ref id="bib16">
+                <label>16</label>
+                <mixed-citation publication-type="other" id="oref8560">Silva, I.N. da, Spatti, D.H., Flauzino, R.A. (2010). “Redes Neurais Artificiais para Engenharia e Ciências Aplicadas”, Editora Artliber.</mixed-citation>
+              </ref>
+              <ref id="bib17">
+                <label>17</label>
+                <element-citation publication-type="book" id="sbref23730">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Webster</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Medical instrumentation : application and design</source>
+                  <edition>4th ed.</edition>
+                  <year>2010</year>
+                  <publisher-name>J. Wiley &amp; Sons</publisher-name>
+                  <comment>[s. l.], ISBN 9780471676003</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib18">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref23740">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dong, H. Du</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>“An interactive web-based dashboard to track COVID-19 in real time,”</article-title>
+                  <source>Lancet Infect. Dis.</source>
+                  <volume>20</volume>
+                  <year>2020</year>
+                  <fpage>533</fpage>
+                  <lpage>534</lpage>
+                  <comment>doi: 10.1016/S1473-3099(20)30120-1.</comment>
+                  <pub-id pub-id-type="pmid">32087114</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

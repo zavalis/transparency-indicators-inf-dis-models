@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:54:23Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8105357" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8105357</identifier>
+        <datestamp>2021-05-10</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8105357</article-id>
+              <article-id pub-id-type="pmcid">PMC8105357</article-id>
+              <article-id pub-id-type="pmc-uid">8105357</article-id>
+              <article-id pub-id-type="pmid">33963259</article-id>
+              <article-id pub-id-type="pmid">33963259</article-id>
+              <article-id pub-id-type="publisher-id">89127</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-021-89127-1</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Incorporating false negative tests in epidemiological models for SARS-CoV-2 transmission and reconciling with seroprevalence estimates</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bhattacharyya</surname>
+                    <given-names>Rupam</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kundu</surname>
+                    <given-names>Ritoban</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bhaduri</surname>
+                    <given-names>Ritwik</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ray</surname>
+                    <given-names>Debashree</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Beesley</surname>
+                    <given-names>Lauren J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Salvatore</surname>
+                    <given-names>Maxwell</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Mukherjee</surname>
+                    <given-names>Bhramar</given-names>
+                  </name>
+                  <address>
+                    <email>bhramar@umich.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.214458.e</institution-id><institution-id institution-id-type="ISNI">0000000086837370</institution-id><institution>Department of Biostatistics, School of Public Health, </institution><institution>University of Michigan, </institution></institution-wrap>1420 Washington Heights, Ann Arbor, MI 48109-2029 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.39953.35</institution-id><institution-id institution-id-type="ISNI">0000 0001 2157 0617</institution-id><institution>Indian Statistical Institute, </institution></institution-wrap>Kolkata, West Bengal 700108 India </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution>Department of Epidemiology, </institution><institution>Johns Hopkins University, </institution></institution-wrap>Baltimore, MD 21205 USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.21107.35</institution-id><institution-id institution-id-type="ISNI">0000 0001 2171 9311</institution-id><institution>Department of Biostatistics, </institution><institution>Johns Hopkins University, </institution></institution-wrap>Baltimore, MD 21205 USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.214458.e</institution-id><institution-id institution-id-type="ISNI">0000000086837370</institution-id><institution>Center for Precision Health Data Science, </institution><institution>University of Michigan, </institution></institution-wrap>Ann Arbor, MI 48109 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>7</day>
+                <month>5</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>7</day>
+                <month>5</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>9748</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>8</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>21</day>
+                  <month>4</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021, corrected publication 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Susceptible-Exposed-Infected-Removed (SEIR)-type epidemiologic models, modeling unascertained infections latently, can predict unreported cases and deaths assuming perfect testing. We apply a method we developed to account for the high false negative rates of diagnostic RT-PCR tests for detecting an active SARS-CoV-2 infection in a classic SEIR model. The number of unascertained cases and false negatives being unobservable in a real study, population-based serosurveys can help validate model projections. Applying our method to training data from Delhi, India, during March 15–June 30, 2020, we estimate the underreporting factor for cases at 34–53 (deaths: 8–13) on July 10, 2020, largely consistent with the findings of the first round of serosurveys for Delhi (done during June 27–July 10, 2020) with an estimated 22.86% IgG antibody prevalence, yielding estimated underreporting factors of 30–42 for cases. Together, these imply approximately 96–98% cases in Delhi remained unreported (July 10, 2020). Updated calculations using training data during March 15-December 31, 2020 yield estimated underreporting factor for cases at 13–22 (deaths: 3–7) on January 23, 2021, which are again consistent with the latest (fifth) round of serosurveys for Delhi (done during January 15–23, 2021) with an estimated 56.13% IgG antibody prevalence, yielding an estimated range for the underreporting factor for cases at 17–21. Together, these updated estimates imply approximately 92–96% cases in Delhi remained unreported (January 23, 2021). Such model-based estimates, updated with latest data, provide a viable alternative to repeated resource-intensive serosurveys for tracking unreported cases and deaths and gauging the true extent of the pandemic.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Viral infection</kwd>
+                <kwd>Diagnostic markers</kwd>
+                <kwd>Viral infection</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000121</institution-id>
+                      <institution>Division of Mathematical Sciences</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1712933</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Mukherjee</surname>
+                      <given-names>Bhramar</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Center for Precision Health Data Sciences</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>The University of Michigan Rogel Cancer Center</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Michigan Institute of Data Science</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">COVID-19 was first diagnosed in Wuhan, China in December 2019 and was quickly declared a pandemic by the World Health Organization on March 11, 2020<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. The first case in India was declared on January 30, and as of April 4, 2021, there have been 12,587,921 cases and 165,132 deaths reported<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. India responded quickly, instituting a nationwide lockdown on March 25, when there were only 657 cases and 11 deaths<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. Epidemiologic models can be used to monitor disease rates and inform public health interventions, but data quality will impact the ability of models to make accurate predictions. Underreporting of cases and deaths attributable to SARS-CoV-2 infection has hindered modeling efforts. This underreporting is primarily due to limited testing, deficiencies in the reporting infrastructure and a large number of asymptomatic infections.</p>
+              <p id="Par3">Classical epidemiologic models, such as the Susceptible-Exposed-Infected-Removed (SEIR) compartmental model, have been used to predict the trajectory of the COVID-19 pandemic. For example, a modification of the standard SEIR model applied to Wuhan data and accounting for pre-symptomatic infectiousness, time-varying ascertainment rates, transmission rates and population identified that the outbreak had high covertness and high transmissibility<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. This work estimated that 87% (with a lower bound of 53%) of the infections in Wuhan before March 8 were unascertained<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. However, traditional SEIR models do not account for imperfect testing<sup><xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup>. Individuals with a false negative diagnostic test will also remain unascertained and contribute to the compartment of latent unreported cases in a SEIR model.</p>
+              <p id="Par4">It is important to clarify that there are two classes of tests that are being discussed in the literature and are relevant to this paper: diagnostic tests and antibody tests. A diagnostic test (typically an RT-PCR test) is used to identify the presence of SARS-CoV-2, indicating an <italic>active</italic> infection<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. An antibody test (i.e., a serology test) looks for the presence of antibodies, the body’s immune response to fight off SARS-CoV-2, indicating a <italic>past</italic> infection<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Figure <xref rid="Fig1" ref-type="fig">1</xref> presents a timeline in terms of when these tests are administered during the course of an infection. Due to a large number of asymptomatic cases and limited number of tests, many infections do not get detected. Population-based seroprevalence surveys, therefore, give us an idea about the “true” number of infections including reported and unreported cases, and consequently, the ascertainment rate<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. Thus, adjusted estimates of total number of cases and ascertainment rates based on serological surveys, when available, provide an option to validate model-based estimates of unreported cases and ascertainment rates. These estimates would usually be impossible to validate (except for in a simulation study) since these numbers are not observable in the real data.<fig id="Fig1"><label>Figure 1</label><caption><p>Timeline of COVID-19 diagnostic and antibody testing with respect to the infection and immune response time frame.</p></caption><graphic xlink:href="41598_2021_89127_Fig1_HTML" id="MO1"/></fig></p>
+              <p id="Par5">Both diagnostic and antibody tests suffer from the issue of false negatives and false positives. For the RT-PCR test, a false negative is more worrisome since that means allowing an infected person a false safety assurance. In contrast, a false positive from an antibody test is of greater concern, since it gives the false impression that the person has been infected in the past, has gained some protection from the virus, and is unlikely to be infected again. The RT-PCR test is quoted to have a high false negative rate, ranging from 15 to 30% (i.e., low sensitivity, 85–70%), and a low false positive rate around 1–4% (i.e., high specificity, 99–96%)<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. The antibody test assays are more precise—the commercial assays have sensitivity around 97.6% and specificity of 99.3% (DiaSorin) at about 15 days after infection<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>.</p>
+              <p id="Par6">To address these data quality issues and the high rate of asymptomatic COVID-19 cases, we develop an extension to a standard SEIR model incorporating false negative rates in diagnostic testing to predict both the numbers of unreported cases and deaths and to estimate the rate at which COVID-19 cases and deaths are being underreported (unascertained). Our method segregates the traditional infected compartment into tested/untested and true positive/false negative compartments, thus accounting directly for misclassifications due to imperfections in the RT-PCR diagnostic tests. We apply this false negative-adjusted SEIR model to predict the transmission dynamics of SARS-CoV-2 in Delhi, the national capital region of India and one of the hotspots of COVID-19 in the country, using data from March 15 to June 30, 2020 for our original set of calculations and an updated range from March 15 to December 31, 2020 for another updated set of calculations. We make predictions across a range of possible sensitivities for the diagnostic test, all assuming perfect specificity.</p>
+              <p id="Par7">To understand the true extent of spread of the novel coronavirus, the National Centre for Disease Control (NCDC) in India have performed five rounds of serological surveys in Delhi, among several such studies conducted across the world (Table <xref rid="Tab1" ref-type="table">1</xref>)<sup><xref ref-type="bibr" rid="CR12">12</xref>–<xref ref-type="bibr" rid="CR44">44</xref></sup>. While limited on reported details, the first round of the Delhi Serology Study collected 21,387 random samples across 11 districts in Delhi between June 27 and July 10, 2020 and found COVID-19 antibodies present in 22.86% of samples<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. This seroprevalence is the highest among the studies till July 2020 summarized in Table <xref rid="Tab1" ref-type="table">1</xref> but is similar to that found in New York City (22.70%), another large, densely populated area<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>. This indicates that Delhi, during July 2020, had high seroprevalence, even compared to worldwide epicenters and hotspots of COVID-19. The fifth and latest round of the Delhi serology study which collected 28,000 random samples across all the 272 municipal wards of Delhi between January 15–23, 2021 found an even higher seroprevalence, estimated at 56.13%<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. This seroprevalence is the third highest among those summarized in Table <xref rid="Tab1" ref-type="table">1</xref>, falling only behind the serosurvey in UK and that in Paris, France (among the working population)<sup><xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>. These numbers show that Delhi continued to have high seroprevalence among all the COVID-19 hotspots worldwide even in very recent times.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Summary of COVID-19 seroprevalence studies across the world.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Location</th><th align="left">Study design</th><th align="left">Sample size</th><th align="left">Estimated seroprevalence % (95% CI)</th><th align="left">Reference</th></tr></thead><tbody><tr><td align="left">India</td><td align="left">Pilot survey (April 2020) in 83 districts across 21 states</td><td align="left">Unknown</td><td align="left"><p>0.73 overall</p><p>1.09 urban</p></td><td align="left"><p><italic>The Indian Express</italic> (2020)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://indianexpress.com/article/explained/delhi-serological-survey-shows-antibodies-in-23-participants-what-does-this-mean-6516512/">https://indianexpress.com/article/explained/delhi-serological-survey-shows-antibodies-in-23-participants-what-does-this-mean-6516512/</ext-link></p></td></tr><tr><td align="left">India</td><td align="left">1st national serosurvey (May–June 2020)—population-based survey of adults in representative samples from 700 villages/wards in 70 districts across 21 states conducted by ICMR</td><td align="left">28,000</td><td align="left">0.73 (0.34, 1.13)</td><td align="left"><p>Murhekar et al. (2020)</p><p><italic>Indian Journal of Medical Research</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4103/ijmr.IJMR_3290_20">https://doi.org/10.4103/ijmr.IJMR_3290_20</ext-link></p></td></tr><tr><td align="left">India</td><td align="left">2nd national serosurvey (August–September 2020) of persons aged ≥ 10 years covering the same villages/wards/districts/states as previous serosurvey conducted by ICMR</td><td align="left">29,082</td><td align="left"><p>6.6 (5.8, 7.4) overall</p><p>7.1 (6.2, 8.2) adults</p></td><td align="left"><p>Indian Council of Medical Research (2021)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://static.pib.gov.in/WriteReadData/userfiles/Modified%20ICMR_SecondSerosurvey_MMSP%20(1).pdf">https://static.pib.gov.in/WriteReadData/userfiles/Modified%20ICMR_SecondSerosurvey_MMSP%20(1).pdf</ext-link></p></td></tr><tr><td align="left">India</td><td align="left">3rd national serosurvey (December 2020-January 2021) of persons aged ≥ 10 years covering the same villages/wards/ districts/states as previous serosurveys conducted by ICMR; 100 healthcare workers per district</td><td align="left"><p>28,589 (general population)</p><p>7171 (healthcare workers)</p></td><td align="left"><p>21.4 adults</p><p>25.3 children aged 10–17 years</p><p>31.7 (28.1, 35.5) urban slum</p><p>26.2 (23.6, 28.8) urban non-slum</p><p>19.1 (18.0, 20.3) rural</p><p>25.7 (23.6, 27.8) healthcare workers</p></td><td align="left"><p><italic>BBC</italic> (2021)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/news/world-asia-india-55945382">https://www.bbc.com/news/world-asia-india-55945382</ext-link></p></td></tr><tr><td align="left"><p>Chennai</p><p>India</p></td><td align="left">Household-based cross-sectional survey; participants selected from 51 wards from the city using multistage cluster sampling method</td><td align="left">12,405</td><td align="left"><p>18.4 (14.8, 22.6) overall</p><p>16.3 (12.9, 20.3) male</p><p>20.3 (16.4, 25.0) female</p></td><td align="left"><p>Selvaraju et al. (2021)</p><p><italic>Emerging Infectious Diseases</italic></p><p>doi:10.3201/eid2702.203938</p></td></tr><tr><td align="left"><p>Delhi</p><p>India</p></td><td align="left">Prospective cross-sectional survey of healthcare workers in AIIMS hospital in the city</td><td align="left">3739</td><td align="left"><p>13.0 <italic>overall</italic></p><p>13.9 <italic>male</italic></p><p>11.7 <italic>female</italic></p></td><td align="left"><p>Gupta et al. (2020)</p><p><italic>Indian Journal of Medical Research</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4103/ijmr.IJMR_3911_20">https://doi.org/10.4103/ijmr.IJMR_3911_20</ext-link></p></td></tr><tr><td align="left"><p>Delhi</p><p>India</p></td><td align="left">1st Delhi serosurvey (June–July 2020): randomly sampled individuals</td><td align="left">21,387</td><td align="left">22.9</td><td align="left"><p><italic>The Hindu</italic> (2020)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://www.thehindu.com/news/cities/Delhi/percentage-of-people-with-antibodies-high/article32156162.ece">https://www.thehindu.com/news/cities/Delhi/percentage-of-people-with-antibodies-high/article32156162.ece</ext-link></p></td></tr><tr><td align="left"><p>Delhi</p><p>India</p></td><td align="left"><p>2nd Delhi serosurvey (August 2020)</p><p>3rd Delhi serosurvey (September 2020)</p><p>4th Delhi serosurvey (October 2020)</p><p>Repeated, cross-sectional, multi-stage sampling design from all the 11 districts and 280 wards of the city-state, with two-stage allocation proportional to population size</p></td><td align="left"><p>15,046</p><p>17,049</p><p>15,015</p></td><td align="left"><p>28.4 (27.7, 29.1)</p><p>24.1 (23.4, 24.7)</p><p>24.7 (24.0, 25.4)</p></td><td align="left"><p>Sharma et al. (2020)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.12.13.20248123">https://doi.org/10.1101/2020.12.13.20248123</ext-link></p></td></tr><tr><td align="left"><p>Delhi</p><p>India</p></td><td align="left"><p>5th Delhi serosurvey (January 2021):</p><p>at least 100 participants from each of the 272 municipal wards of Delhi</p></td><td align="left">28,000</td><td align="left">56.1</td><td align="left"><p><italic>Hindustan Times</italic> (2021)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://www.hindustantimes.com/cities/delhi-news/delhis-5th-sero-survey-over-56-people-have-antibodies-against-covid19-101612264534349.html">https://www.hindustantimes.com/cities/delhi-news/delhis-5th-sero-survey-over-56-people-have-antibodies-against-covid19-101612264534349.html</ext-link></p></td></tr><tr><td align="left"><p>Karnataka</p><p>India</p></td><td align="left">Population-representative panel survey where households are randomly sampled to represent urban and rural areas of 5 state regions, and household members aged ≥ 12 years are chosen</td><td align="left">1386</td><td align="left"><p>46.7 (43.3, 50.0) overall</p><p>44.1 (40.0, 48.2) rural</p><p>53.8 (48.4, 59.2) urban</p></td><td align="left"><p>Mohanan et al. (2021)</p><p><italic>JAMA</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2021.0332">https://doi.org/10.1001/jama.2021.0332</ext-link></p></td></tr><tr><td align="left"><p>Kerala</p><p>India</p></td><td align="left">Repeated, cross-sectional, population-based survey of adults from 3 districts of this state</td><td align="left"><p>1193 (May 2020)</p><p>1281 (August 2020)</p><p>1246 (December 2020)</p></td><td align="left"><p>0.3 May 18–23</p><p>0.8 August 24–26</p><p>11.6 December 20–30</p></td><td align="left"><p><italic>Department of Health &amp; Family Welfare, Government of Kerala</italic></p><p>url: <ext-link ext-link-type="uri" xlink:href="https://health.kerala.gov.in/pdf/Technical-paper-COVID-19-Sero-Surveillance-Round-3-ICMR.pdf">https://health.kerala.gov.in/pdf/Technical-paper-COVID-19-Sero-Surveillance-Round-3-ICMR.pdf</ext-link></p></td></tr><tr><td align="left"><p>Mumbai</p><p>India</p></td><td align="left">Consent-based survey across three wards of this city with high COVID-19 growth and proximity to hotspots</td><td align="left">6936 (out of 8800 invited)</td><td align="left"><p>40.5 overall</p><p>57.8 slum areas</p><p>16.0 non-slum areas</p></td><td align="left"><p><italic>The Indian Express</italic> (2020)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://indianexpress.com/article/explained/mumbais-serosurvey-what-it-shows-about-gender-differences-in-infection-mortality-and-herd-immunity-6529186/">https://indianexpress.com/article/explained/mumbais-serosurvey-what-it-shows-about-gender-differences-in-infection-mortality-and-herd-immunity-6529186/</ext-link></p></td></tr><tr><td align="left"><p>Pune</p><p>India</p></td><td align="left">Multi-stage cluster random sampling of participants recruited from 5 administrative sub-wards of this city selected randomly from 13 sub-wards classified as high incidence settings for a serosurvey</td><td align="left">1659</td><td align="left"><p>51.3 (39.9, 62.4) overall</p><p>52.7 (41.7, 63.5) male</p><p>49.7 (37.5, 62.0) female</p></td><td align="left"><p>Ghose et al. (2020)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.11.17.20228155">https://doi.org/10.1101/2020.11.17.20228155</ext-link></p></td></tr><tr><td align="left"><p>Tamil Nadu</p><p>India</p></td><td align="left">Population-representative study conducted in all districts of this state with randomly selected participants (aged ≥ 18 years) in 888 clusters (comprising 30 participants in each cluster) during October–November 2020</td><td align="left">26,135</td><td align="left"><p>31.6 (30.4, 32.8) overall</p><p>25.1 (24.2, 26.1) rural</p><p>36.7 (35.7, 37.7) urban</p><p>30.4 (29.6, 31.2) male</p><p>32.1 (31.1, 33.0) female</p></td><td align="left"><p>Malani et al. (2021)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2021.02.03.21250949">https://doi.org/10.1101/2021.02.03.21250949</ext-link></p></td></tr><tr><td align="left">Brazil</td><td align="left"><p>1st national serosurvey (May 2020)</p><p>2nd national serosurvey (June 2020)</p><p>Repeated cross-sectional study of one randomly selected person (≥ 1 year) per randomly selected household from 133 sentinel cities in all states</p></td><td align="left"><p>24,995 (1st )</p><p>31,128 (2nd)</p></td><td align="left"><p>1st: 1.6 (1.4, 1.8)</p><p>2nd: 2.8 (2.5, 3.1)</p></td><td align="left"><p>Hallal et al. (2020)</p><p><italic>Lancet Global Health</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(20)30387-9">https://doi.org/10.1016/S2214-109X(20)30387-9</ext-link></p></td></tr><tr><td align="left"><p>Hubei and Guangdong Provinces</p><p>China</p></td><td align="left">Cohort and location-specific surveys (Healthcare workers and their relatives, hospital outpatients, factory workers, hotel staff)</td><td align="left"><p>6919 (hospital settings)</p><p>10,449 (community settings)</p></td><td align="left"><p>3.8 (2.6, 5.4) healthcare workers, Wuhan</p><p>3.8 (2.2, 6.3) HOTEL staff members, Wuhan</p><p>3.2 (1.6, 6.4) family members, Wuhan</p></td><td align="left"><p>Xu et al. (2020)</p><p><italic>Nature Medicine</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41591-020-0949-6">https://doi.org/10.1038/s41591-020-0949-6</ext-link></p></td></tr><tr><td align="left">England</td><td align="left">Series of consecutive weekly geographically representative sample across England (healthy adult blood donors, supplied by the National Health Service Blood and Transplant)</td><td align="left">7000 (7 regions with 1000 per region)</td><td align="left"><p>14.8 London, week 18</p><p>3.5 North East, week 16</p><p>5.3 North West, week 16</p></td><td align="left"><p>Sero-surveillance of COVID-19 (2020)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/888254/COVID19_Epidemiological_Summary_w22_Final.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/888254/COVID19_Epidemiological_Summary_w22_Final.pdf</ext-link></p></td></tr><tr><td align="left">England</td><td align="left">Personalized invitation-based survey of a random sample of adults from the National Health Service patient list</td><td align="left">105,651</td><td align="left"><p>5.6 (5.4, 5.7) overall, unadjusted</p><p>6.0 (5.8, 6.1) overall, adjusted for test characteristics &amp; weighted by population weights</p></td><td align="left"><p>Ward et al. (2021)</p><p><italic>Nature Communications</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41467-021-21237-w">https://doi.org/10.1038/s41467-021-21237-w</ext-link></p></td></tr><tr><td align="left">France</td><td align="left">Repeated cross-sectional random sample of residual sera between March &amp; May 2020 from two of the largest centralizing laboratories in France covering all regions</td><td align="left">11,021</td><td align="left"><p>0.41 (0.05, 0.88) March 9–15</p><p>4.14 (3.31, 4.99) April 6–12</p><p>4.93 (4.02, 5.89) May 11–17</p></td><td align="left"><p>Le Vu et al. (2020)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.10.20.20213116">https://doi.org/10.1101/2020.10.20.20213116</ext-link></p></td></tr><tr><td align="left"><p>Paris</p><p>France</p></td><td align="left">Cross-sectional study of randomly sampled adults from sites with medical services in the city (food distribution sites, workers’ residences, emergency shelters) selected based on survey feasibility between March &amp; June 2020</td><td align="left">818</td><td align="left"><p>52.0 overall</p><p>28.0 (21.2, 35.5) food distribution site</p><p>89.0 (81.8, 93.2) workers’ residence</p><p>50.0 (46.3, 54.7) emergency shelter</p></td><td align="left"><p>Roederer et al. (2021)</p><p><italic>Lancet Public Health</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2468-2667(21)00001-3">https://doi.org/10.1016/S2468-2667(21)00001-3</ext-link></p></td></tr><tr><td align="left"><p>Essen</p><p>Germany</p></td><td align="left">Prospective cross-sectional monocentric study recruiting healthcare workers from University Hospital Essen</td><td align="left">316</td><td align="left">1.6</td><td align="left"><p>Korth et al. (2020)</p><p><italic>Journal of Clinical Virology</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jcv.2020.104437">https://doi.org/10.1016/j.jcv.2020.104437</ext-link></p></td></tr><tr><td align="left">Iran</td><td align="left">Population-based cross-sectional study with randomly selected participants from the general population and a high-risk population across 18 cities in 17 Iranian provinces</td><td align="left"><p>3530 (general population)</p><p>5372 (high-risk population)</p></td><td align="left"><p>17.1 (14.6, 19.5) general population</p><p>20.0 (18.5, 21.7) high-risk population</p></td><td align="left"><p>Poustchi et al. (2021)</p><p><italic>Lancet Infectious Diseases</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1473-3099(20)30858-6">https://doi.org/10.1016/S1473-3099(20)30858-6</ext-link></p></td></tr><tr><td align="left"><p>Guilan Province</p><p>Iran</p></td><td align="left">Population-based cluster random sampling through phone call invitations</td><td align="left">552 (196 households)</td><td align="left"><p>0.22 (0.19, 0.26) unadjusted</p><p>0.33 (0.28, 0.39) adjusted for imperfect testing</p><p>0.21 (0.14, 0.29) adjusted by population weight<italic>s</italic></p></td><td align="left"><p>Shakiba et al. (2020)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.04.26.20079244">https://doi.org/10.1101/2020.04.26.20079244</ext-link></p></td></tr><tr><td align="left"><p>Kobe City</p><p>Japan</p></td><td align="left">Cross-sectional study on hospital outpatients</td><td align="left">1000</td><td align="left">3.3 (2.3, 4.6)</td><td align="left"><p>Doi et al. (2020)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.04.26.20079822">https://doi.org/10.1101/2020.04.26.20079822</ext-link></p></td></tr><tr><td align="left">Spain</td><td align="left">Two-stage random sampling of households stratified by province and municipality size</td><td align="left"><p>61,075 (point-of-care test)</p><p>51,958 (immunoassay)</p><p>35,883 (households)</p></td><td align="left"><p>5.0 (4.7, 5.4) point-of-care test</p><p>4.6 (4.3, 5.0) immunoassay</p></td><td align="left"><p>Pollán et al. (2020)</p><p><italic>The Lancet</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)31483-5">https://doi.org/10.1016/S0140-6736(20)31483-5</ext-link></p></td></tr><tr><td align="left">Sweden (9 regions)</td><td align="left">Consecutive weekly region-specific surveys</td><td align="left">1200 (per week)</td><td align="left"><p>7.3 Stockholm</p><p>4.2 Skåne</p><p>3.7 Västra Götaland</p></td><td align="left"><p>Public Health Agency Sweden (2020)</p><p>url: <ext-link ext-link-type="uri" xlink:href="https://www.folkhalsomyndigheten.se/nyheter-och-press/nyhetsarkiv/2020/maj/forsta-resultaten-fran-pagaende-undersokning-av-antikroppar-for-covid-19-virus/">https://www.folkhalsomyndigheten.se/nyheter-och-press/nyhetsarkiv/2020/maj/forsta-resultaten-fran-pagaende-undersokning-av-antikroppar-for-covid-19-virus/</ext-link></p></td></tr><tr><td align="left"><p>Geneva</p><p>Switzerland</p></td><td align="left">Series of 5 consecutive weekly serosurveys among randomly selected participants from a previous population-representative survey, and their household members aged 5 years and older</td><td align="left">2766 (1339 households; 341, 469, 577, 604 and 775 samples respectively in weeks 1–5.)</td><td align="left"><p>4.8 (2.4, 8.0) week 1</p><p>8.5 (5.9, 11.4) week 2</p><p>10.9 (7.9, 14.4) week 3</p><p>6.6 (4.3, 9.4) week 4</p><p>10.8 (8.2, 13.9) week 5</p></td><td align="left"><p>Stringhini et al. (2020)</p><p><italic>The Lancet</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)31304-0">https://doi.org/10.1016/S0140-6736(20)31304-0</ext-link></p></td></tr><tr><td align="left">UK</td><td align="left">Cross-sectional study of randomly selected households from strictly-Orthodox Jewish community</td><td align="left">1242 (343 households)</td><td align="left"><p>64.3 (61.6, 67.0) overall</p><p>68.8 (64.9, 72.5) men</p><p>59.7 (55.8, 63.5) women</p></td><td align="left"><p>Gaskell et al. (2021)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2021.02.01.21250839">https://doi.org/10.1101/2021.02.01.21250839</ext-link></p></td></tr><tr><td align="left">USA</td><td align="left">Cross-sectional study of respondents of all ages from 4 regional and 1 nationwide seroprevalence surveys, and community serosurvey data from randomly selected members of the general population</td><td align="left">95,768</td><td align="left">14.3 (IQR: 11.6, 18.5)</td><td align="left"><p>Angulo et al. (2021)</p><p><italic>JAMA Network Open</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2020.33706">https://doi.org/10.1001/jamanetworkopen.2020.33706</ext-link></p></td></tr><tr><td align="left"><p>LA County, California</p><p>USA</p></td><td align="left">Invited enrollment, based on demographic match and geographical proximity to the testing centers</td><td align="left">863 (out of 1952 invited)</td><td align="left"><p>4.06 (2.84, 5.60) unadjusted</p><p>4.34 (2.76, 6.07) adjusted for imperfect testing</p></td><td align="left"><p>Sood et al. (2020)</p><p><italic>JAMA</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2020.8279">https://doi.org/10.1001/jama.2020.8279</ext-link></p></td></tr><tr><td align="left"><p>New York State</p><p>USA</p></td><td align="left">Convenience sampling of New Yorkers attending 99 grocery stores across 26 counties, containing 87.3% of the state's population, located all across the state</td><td align="left">15,101</td><td align="left"><p>14.0 (13.3, 14.7) overall</p><p>22.7 (21.5, 24.0) New York City</p></td><td align="left"><p>Rosenberg et al. (2020)</p><p><italic>Annals of Epidemiology</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.annepidem.2020.06.004">https://doi.org/10.1016/j.annepidem.2020.06.004</ext-link></p></td></tr><tr><td align="left"><p>San Francisco Bay Area</p><p>USA</p></td><td align="left">Cohort-based recruitment of non-COVID patients and blood donors</td><td align="left"><p>387 (non-COVID patients)</p><p>1000 (blood donors)</p></td><td align="left"><p>0.26 (0.00, 0.76) non-COVID patients</p><p>0.10 (0.00, 0.56) blood donors</p></td><td align="left"><p>Ng et al. (2020)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.05.19.20107482">https://doi.org/10.1101/2020.05.19.20107482</ext-link></p></td></tr><tr><td align="left"><p>Santa Clara County, California</p><p>USA</p></td><td align="left">Ad-based recruitment, matched on geographic location and demographics</td><td align="left">3330</td><td align="left"><p>1.5 (1.1, 2.0) unadjusted</p><p>1.2 (0.7, 1.8) adjusted for imperfect testing</p><p>2.8 (1.3, 4.7) adjusted for county demographic<italic>s</italic></p></td><td align="left"><p>Bendavid et al. (2020)</p><p><italic>medRxiv</italic></p><p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.04.14.20062463">https://doi.org/10.1101/2020.04.14.20062463</ext-link></p></td></tr></tbody></table></table-wrap></p>
+              <p id="Par8">A simple proportional estimate based on these reported seroprevalences would tell us that Delhi, with approximately 19.8 million people, had around 4.6 million cumulative cases by July 10, 2020, and around 11.1 million cumulative cases by January 23, 2021. These numbers contrast sharply with the 109,140 cumulative cases (3,300 total deaths) reported in Delhi as of July 10, 2020 and the 633,739 cumulative cases (10,799 total deaths) as of January 23, 2021, which represent, respectively, approximately 0.55% and 3.20% of Delhi’s population. This disparity suggests that only about 2.4% of cases were being detected (underreporting factor of about 42) as of July 10, 2020, and as of January 23, 2021, that percentage has improved to only 5.7% (underreporting factor of about 18). The seroprevalence estimate also implies that the infection fatality rate (IFR) for Delhi was of the order of 0.07% or 717 per million as of July 10, 2020, which updates to 0.10% as of January 23, 2021. This IFR seems low compared to estimates worldwide<sup><xref ref-type="bibr" rid="CR45">45</xref></sup> and as such it may be reasonable to argue that some COVID-related deaths may also be unreported, or the cause of death misclassified. Uncertainty regarding the reporting of death data is further supported by the very small fraction of deaths in India that are medically reported<sup><xref ref-type="bibr" rid="CR46">46</xref></sup> and that the IFR estimates for SARS-CoV-2 from other studies in the world<sup><xref ref-type="bibr" rid="CR45">45</xref></sup> appear to be higher than influenza (as of 2018–19, infection fatality rate of influenza is at 961 per million or around 0.1%)<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>.</p>
+              <p id="Par9">The availability of several rounds of seroprevalence estimates from the Delhi serology study provides a unique opportunity to validate model-predicted rates of latent unreported infections for our proposed false negative-adjusted SEIR model. The ELISA assay used in the Delhi serosurvey is a customized assay, some discussions on the development and imperfections of which are available both in recent literature and public media domain<sup><xref ref-type="bibr" rid="CR48">48</xref>,<xref ref-type="bibr" rid="CR49">49</xref></sup>. Based on these known imperfections, we perform adjustments of the reported case counts/infection estimates under different sensitivity and specificity assumptions for both the diagnostic and antibody (Ab) tests and compare the model-based estimates for the extent of underreporting to those obtained from the seroprevalence-based calculations. Other derived metrics such as case fatality rates and infection fatality rates are also presented. We use reported COVID-19 case and death count data from covid19india.org<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. This framework can be adapted and applied to any set of reported case-counts where imperfect and limited testing exists.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Extended SEIR model adjusted for misclassification</title>
+                <p id="Par10">Figure <xref rid="Fig2" ref-type="fig">2</xref> provides a schematic diagram of the proposed false-negative adjusted SEIR model. Under low (0.7), medium (0.85), meta-analyzed (0.952)<sup><xref ref-type="bibr" rid="CR50">50</xref></sup> and perfect (1) sensitivity, and perfect (1) specificity assumptions for the RT-PCR diagnostic test, we predict the total (reported and unreported) cases and deaths for Delhi using the proposed extended SEIR model.<fig id="Fig2"><label>Figure 2</label><caption><p>Diagram describing model compartments and transmissions for the extended SEIR model. For the detailed descriptions of the compartments and parameters, please refer to Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref> and the “<xref rid="Sec10" ref-type="sec">Methods</xref>” section.</p></caption><graphic xlink:href="41598_2021_89127_Fig2_HTML" id="MO2"/></fig></p>
+                <p id="Par11">Using data through June 30, 2020, this model estimates 4.8 million cases and 33,165 deaths on July 10, 2020 if we assume the RT-PCR test has a sensitivity of 0.85, and those predicted counts become 4.2 million and 28,499, respectively, if the sensitivity is assumed to be 1.0 (Fig. <xref rid="Fig3" ref-type="fig">3</xref>a). In contrast, the observed case and death counts are 109,140 and 3,300 reported in Delhi as of July 10, 2020<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Examining the ratio of predicted total number of cases and the predicted number of reported cases on July 10, 2020, the estimated case underreporting is within the range of 34–53 and the same quantity for underreported deaths is between 8 and 13 (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). According to this model, 97–98% of Delhi’s cases remain undetected as of July 10, 2020. The model predictions under the different scenarios considered and the results relative to daily reported/total case and death counts are summarized in Supplementary Figs. <xref rid="MOESM1" ref-type="media">1</xref>a and <xref rid="MOESM1" ref-type="media">2</xref>a.<fig id="Fig3"><label>Figure 3</label><caption><p>Summary of cumulative total (reported and unreported) cases and deaths for four different assumed values of sensitivity for the diagnostic RT-PCR test: 0.7, 0.85, 0.952, 1. In each subfigure, panels A and B respectively summarize the cases and deaths, along with their reported observed counterparts. The specificity of the diagnostic test is assumed to be 1. <bold>(a)</bold> Projections based on training data during March 15 to June 30, 2020, and testing period between June 1 to July 26, 2020. <bold>(b)</bold> Projections based on training data during March 15 to December 31, 2020, and testing period between January 1 to March 15, 2021.</p></caption><graphic xlink:href="41598_2021_89127_Fig3_HTML" id="MO3"/></fig></p>
+                <p id="Par12">Using data through December 31, 2020, this model estimates 10.2 million cases and 45,004 deaths on January 23, 2021 if we assume the RT-PCR test has a sensitivity of 0.85, and those predicted counts become 8.0 million and 34,949, respectively, if the sensitivity is assumed to be 1.0 (Fig. <xref rid="Fig3" ref-type="fig">3</xref>b). In contrast, the observed case and death counts are 633,739 and 10,799 reported in Delhi as of January 23, 2021<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Examining the ratio of predicted total number of cases and the predicted number of reported cases on January 23, 2021, the estimated case underreporting is within the range of 13–22 and the same quantity for underreported deaths is between 3 and 7 (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). According to this model, 92–96% of Delhi’s cases remain undetected as of January 23, 2021. The model predictions under the different scenarios considered and the results relative to daily reported/total case and death counts are summarized in Supplementary Figs. <xref rid="MOESM1" ref-type="media">1</xref>b and <xref rid="MOESM1" ref-type="media">2</xref>b.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Future projections and variation of the underreporting factor through the course of the pandemic</title>
+                <p id="Par13">We extended our projections of unreported case counts and the underreporting factors prospectively. Our projections for August 15, 2020 predict between 6.5 and 9.6 million cumulative (reported and unreported) cases in Delhi (across low to high false negative rate scenarios for the diagnostic test) (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). This provides us with a range of 35–54 for the underreporting factors for cases and a range of 8–13 for underreporting of deaths on August 15, 2020 (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). The temporal changes in the daily estimated case underreporting factors throughout the course of the pandemic is another crucial feature captured by our projections, as can be seen in Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>a. For the low (0.7) sensitivity scenario, the estimated case underreporting factor is 34 on June 1, 2020, the beginning of the first unlock period. This increases to 49 for June 20, 2020, when the daily number of tests and reported cases both increased.</p>
+                <p id="Par14">The updated set of projections for February 15, 2021 predict between 8.1 and 13.8 million cumulative (reported and unreported) cases in Delhi (across low to high false negative rate scenarios for the diagnostic test) (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). This provides us with a range of 13–22 for the underreporting factors for cases and a range of 3–7 for underreporting of deaths on February 15, 2021 (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). Notably, our projections indicate that the underreporting factor for total cases is approximately constant over the period of January 1 to March 15, 2021, as can be seen in Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>b. For the low (0.7) sensitivity scenario, the estimated case underreporting stays at 22 throughout this period, and for the perfect (1.0) sensitivity scenario, this number decreases to 13.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Naïve corrections to reported test results using known misclassification rates for tests</title>
+                <p id="Par15">Since the total (reported and unreported) number of cases and subsequently, the underreporting factor, are not part of the observed data and therefore our SEIR model estimates cannot directly be validated, we validate these estimates using the estimated number of true infections predicted by the serosurvey data. However, the antibody tests are also imperfect and as such we also correct the seroprevalence estimates for imperfect testing.</p>
+                <p id="Par16">Using varying (low to perfect) sensitivities and specificities for the diagnostic and antibody tests, we estimate that the true case count in Delhi as of July 10, 2020, lies between 4.4 and 4.6 million, which represents 30 to 42 times the number of reported cases (Table <xref rid="Tab2" ref-type="table">2</xref>a). <italic>These estimates strongly agree with model-based findings as reported in the previous subsection</italic>, indicating that 96–97% cases in Delhi were underreported. Our updated estimate for the true case count in Delhi as of January 23, 2021 lies between 11.1 and 11.9 million, representing 17 to 21 times the number of reported cases (Table <xref rid="Tab2" ref-type="table">2</xref>b). <italic>Again, these estimates are in agreement with the model-based estimates from the previous subsection</italic>, indicating that 94–95% cases in Delhi remained unreported even as recently as January 23, 2021.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Summary of corrected number of cases, estimated underreporting factor, case-fatality rate based on reported cases and infection-fatality rate across different testing scenarios. Population size of Delhi is obtained from <ext-link ext-link-type="uri" xlink:href="https://censusindia.gov.in/">https://censusindia.gov.in/</ext-link>, and the testing, infection, recovery and fatality data are extracted from <ext-link ext-link-type="uri" xlink:href="https://covid19india.org/">https://covid19india.org/</ext-link>.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" colspan="9">(a) Calculations based on observed data as of July 10, 2020, and the first round of serological survey in Delhi</th></tr><tr><th align="left" colspan="2"/><th align="left" colspan="6">Antibody test (past infection)</th><th align="left" rowspan="4"/></tr><tr><th align="left" colspan="2">Diagnostic test</th><th align="left" colspan="6">Serology test</th></tr><tr><th align="left" colspan="2">RT-PCR</th><th align="left">Specificity</th><th align="left">Sensitivity</th><th align="left">Specificity</th><th align="left">Sensitivity</th><th align="left">Specificity</th><th align="left">Sensitivity</th></tr><tr><th align="left">Specificity</th><th align="left">Sensitivity</th><th align="left">1</th><th align="left">1</th><th align="left">0.993</th><th align="left">0.976</th><th align="left">0.970</th><th align="left">0.920</th></tr></thead><tbody><tr><td align="left" rowspan="5">1</td><td align="left" rowspan="5">1</td><td align="left" colspan="2">4,526,217</td><td align="left" colspan="2">4,527,984</td><td align="left" colspan="2">4,418,221</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">109,140</td><td align="left" colspan="2">109,140</td><td align="left" colspan="2">109,140</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">41.5x</td><td align="left" colspan="2">41.5x</td><td align="left" colspan="2">40.5x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0302</td><td align="left" colspan="2">0.0302</td><td align="left" colspan="2">0.0302</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0075)</td><td align="left">IFR (10 × adj.)</td></tr><tr><td align="left" rowspan="5">0.990</td><td align="left" rowspan="5">0.952</td><td align="left" colspan="2">4,526,217</td><td align="left" colspan="2">4,527,984</td><td align="left" colspan="2">4,418,221</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">107,929</td><td align="left" colspan="2">107,929</td><td align="left" colspan="2">107,929</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">42.0x</td><td align="left" colspan="2">42.0x</td><td align="left" colspan="2">41.0x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0306</td><td align="left" colspan="2">0.0306</td><td align="left" colspan="2">0.0306</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0075)</td><td align="left">IFR (10 × adj.)</td></tr><tr><td align="left" rowspan="5">0.990</td><td align="left" rowspan="5">0.850</td><td align="left" colspan="2">4,526,217</td><td align="left" colspan="2">4,527,984</td><td align="left" colspan="2">4,418,221</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">121,034</td><td align="left" colspan="2">121,034</td><td align="left" colspan="2">121,034</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">37.4x</td><td align="left" colspan="2">37.4x</td><td align="left" colspan="2">36.5x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0273</td><td align="left" colspan="2">0.0273</td><td align="left" colspan="2">0.0273</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0075)</td><td align="left">IFR (10 × adj.)</td></tr><tr><td align="left" rowspan="5">0.990</td><td align="left" rowspan="5">0.700</td><td align="left" colspan="2">4,526,217</td><td align="left" colspan="2">4,527,984</td><td align="left" colspan="2">4,418,221</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">147,346</td><td align="left" colspan="2">147,346</td><td align="left" colspan="2">147,346</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">30.7x</td><td align="left" colspan="2">30.7x</td><td align="left" colspan="2">30.0x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0224</td><td align="left" colspan="2">0.0224</td><td align="left" colspan="2">0.0224</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0073)</td><td align="left" colspan="2">0.0007 (0.0075)</td><td align="left">IFR (10 × adj.)</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" colspan="9">(b) Calculations based on observed data as of January 23, 2021, and the fifth round of serological survey in Delhi</th></tr><tr><th align="left" colspan="2"/><th align="left" colspan="6">Antibody test (past infection)</th><th align="left" rowspan="4"/></tr><tr><th align="left" colspan="2">Diagnostic test</th><th align="left" colspan="6">Serology test</th></tr><tr><th align="left" colspan="2">RT-PCR</th><th align="left">Specificity</th><th align="left">Sensitivity</th><th align="left">Specificity</th><th align="left">Sensitivity</th><th align="left">Specificity</th><th align="left">Sensitivity</th></tr><tr><th align="left">Specificity</th><th align="left">Sensitivity</th><th align="left">1</th><th align="left">1</th><th align="left">0.993</th><th align="left">0.976</th><th align="left">0.970</th><th align="left">0.920</th></tr></thead><tbody><tr><td align="left" rowspan="5">1</td><td align="left" rowspan="5">1</td><td align="left" colspan="2">11,113,457</td><td align="left" colspan="2">11,325,962</td><td align="left" colspan="2">11,819,615</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">633,739</td><td align="left" colspan="2">633,739</td><td align="left" colspan="2">633,739</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">17.5x</td><td align="left" colspan="2">17.9x</td><td align="left" colspan="2">18.7x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0170</td><td align="left" colspan="2">0.0170</td><td align="left" colspan="2">0.0170</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0010 (0.0049)</td><td align="left" colspan="2">0.0010 (0.0048)</td><td align="left" colspan="2">0.0009 (0.0046)</td><td align="left">IFR (5 × adj.)</td></tr><tr><td align="left" rowspan="5">0.990</td><td align="left" rowspan="5">0.952</td><td align="left" colspan="2">11,113,457</td><td align="left" colspan="2">11,325,962</td><td align="left" colspan="2">11,819,615</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">563,529</td><td align="left" colspan="2">563,529</td><td align="left" colspan="2">563,529</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">19.7x</td><td align="left" colspan="2">20.1x</td><td align="left" colspan="2">21.0x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0191</td><td align="left" colspan="2">0.0191</td><td align="left" colspan="2">0.0191</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0010 (0.0049)</td><td align="left" colspan="2">0.0010 (0.0048)</td><td align="left" colspan="2">0.0009 (0.0046)</td><td align="left">IFR (5 × adj.)</td></tr><tr><td align="left" rowspan="5">0.990</td><td align="left" rowspan="5">0.850</td><td align="left" colspan="2">11,113,457</td><td align="left" colspan="2">11,325,962</td><td align="left" colspan="2">11,819,615</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">631,958</td><td align="left" colspan="2">631,958</td><td align="left" colspan="2">631,958</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">17.6x</td><td align="left" colspan="2">17.9x</td><td align="left" colspan="2">18.7x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0171</td><td align="left" colspan="2">0.0171</td><td align="left" colspan="2">0.0171</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0010 (0.0049)</td><td align="left" colspan="2">0.0010 (0.0048)</td><td align="left" colspan="2">0.0009 (0.0046)</td><td align="left">IFR (5 × adj.)</td></tr><tr><td align="left" rowspan="5">0.990</td><td align="left" rowspan="5">0.700</td><td align="left" colspan="2">11,113,457</td><td align="left" colspan="2">11,325,962</td><td align="left" colspan="2">11,819,615</td><td align="left">Est. # true cases</td></tr><tr><td align="left" colspan="2">769,340</td><td align="left" colspan="2">769,340</td><td align="left" colspan="2">769,340</td><td align="left">Corrected # reported cases</td></tr><tr><td align="left" colspan="2">14.4x</td><td align="left" colspan="2">14.7x</td><td align="left" colspan="2">15.4x</td><td align="left">URF</td></tr><tr><td align="left" colspan="2">0.0140</td><td align="left" colspan="2">0.0140</td><td align="left" colspan="2">0.0140</td><td align="left">CFR</td></tr><tr><td align="left" colspan="2">0.0010 (0.0049)</td><td align="left" colspan="2">0.0010 (0.0048)</td><td align="left" colspan="2">0.0009 (0.0046)</td><td align="left">IFR (5 × adj.)</td></tr></tbody></table><table-wrap-foot><p>(a) The URF is the ratio of the estimated number of true cases and the corrected number of reported cases. For the IFR, we report the estimate if we adjusted for 10 × death underreporting (10 × adj.).</p><p>(b) The URF is the ratio of the estimated number of true cases and the corrected number of reported cases. For the IFR, we report the estimate if we adjusted for 5 × death underreporting (5 × adj.).</p><p><italic>adj.</italic> adjusted, <italic>CFR</italic> case-fatality rate, <italic>est.</italic> estimated, <italic>IFR</italic> infection-fatality rate, <italic>URF</italic> underreporting factor.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Case fatality rate (CFR) and infection fatality rate (IFR)</title>
+                <p id="Par17">The sensitivity and specificity of the diagnostic test impact our estimate of the case-fatality rate (<inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\#deaths}{\#reported cases}$$\end{document}</tex-math><mml:math id="M2"><mml:mfrac><mml:mrow><mml:mo>#</mml:mo><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>#</mml:mo><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq1.gif"/></alternatives></inline-formula>), but not the infection-fatality rate (<inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\#deaths}{\#true infections}$$\end{document}</tex-math><mml:math id="M4"><mml:mfrac><mml:mrow><mml:mo>#</mml:mo><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>#</mml:mo><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>f</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq2.gif"/></alternatives></inline-formula>). We estimate that the CFR lies between 2.24–3.06% as of July 10, 2020 (Table <xref rid="Tab2" ref-type="table">2</xref>a), and between 1.40 and 1.91% as of January 23, 2021 (Table <xref rid="Tab2" ref-type="table">2</xref>b). On the other hand, the sensitivity and specificity of the antibody test impact our estimates of the IFR. We estimate that the IFR lies between 0.07 and 0.08% based on the reported death counts as of July 10, 2020, and between 0.09 and 0.10% based on that as of January 23, 2021 (Table <xref rid="Tab2" ref-type="table">2</xref>).</p>
+                <p id="Par18">If we consider the hypothetical scenario of tenfold underreporting of deaths, as suggested by the SEIR model outputs (a range of 8–13), the infection-fatality rate estimate increases to 0.7–0.8% for July 10, 2020 (Table <xref rid="Tab2" ref-type="table">2</xref>a). The updated SEIR model outputs indicate a range of 3–7 for the underreporting factor for deaths, and assuming fivefold underreporting of deaths, the adjusted infection-fatality rate estimate lies between 0.4 and 0.5% for January 23, 2021 (Table <xref rid="Tab2" ref-type="table">2</xref>b). We are not able to perform any validation for the estimated underreporting factor for deaths as we do not have estimates of true death rates or excess deaths.</p>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>Discussion</title>
+              <p id="Par19">We developed an extension of the standard SEIR compartmental model to adjust for imperfect diagnostic testing. Applying our model on publicly available case and death count data for Delhi, we estimated the underreporting factor for cases to be somewhere between 34 and 53 and that for deaths to be somewhere between 8 and 13 on July 10, 2020 (with updated estimated ranges of 13–22 and 3–7 respectively on January 23, 2021). We obtained adjusted estimates of the underreporting factor for cases using the seroprevalence study (30–42 on July 10, 2020 and 17–21 on January 23, 2021), which largely agreed with those estimated from the model. Further, the estimated underreporting factors were seen to be more stable over an extended period of time with the new set of training data and testing period compared to the original calculations. Having an accurate idea about the underreporting factor and the extent of spread is extremely helpful in terms of tracking the growth of the pandemic and determining intervention policies. Since repeated serological surveys to track the ever-evolving seroconversion scenario are rarely viable options due to high expense in terms of cost, resources, and time, model estimates updated regularly with new incoming data provide an opportunity to monitor the underreporting factor and unreported cases and deaths.</p>
+              <sec id="Sec8">
+                <title>Limitations</title>
+                <p id="Par20">(1) Our SEIR model incorporates only false negatives of the diagnostic tests but not false positives. We are more concerned about false negatives as this gives a false sense of safety to a patient and may increase the likelihood the person will engage in activities that will spread the disease. In addition, the false positive rates are quite low for PCR tests<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. (2) We have refrained from incorporating a time-varying recovery rate in our model for several reasons. First, recovery data from India is not quite accurate and there is often a “catch up” period. The definition of recovery (e.g., negative COVID test, no symptoms) is also variable. As such, this may induce more noise. Second, modeling recoveries better change our estimate for “active” cases but does not affect what we consider in this paper, cumulative cases reported up to a give date. Third, including more time-varying parameters in the model will complicate the model further, and depending on the availability and quality of the recovery data, it may yield unstable/questionable fits. Finally, without directly considering the recovery rate to be time-varying, it is possible to effectively capture changes in the recovery rate by modifying one of the other parameters affecting recovery rate, like the mortality rate on which we have more data. For instance, one further generalized version of our model offers an option for time-varying mortality rate which has the potential to capture time-varying recovery<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. (3) We used the seroprevalence estimate as a parallel, independent way of validating our model findings. An alternative approach for using serosurvey data is to introduce quarantine and immune compartments in the model structure and assume that symptomatic individuals are identified and successfully isolated with a given average delay from the onset of symptoms and that recovered individuals are never susceptible to an infection again<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. We have not compared our method with this approach. (4) The implications of any such model-based adjustments depend heavily upon the reliability of the reported seroprevalence information. To that end, it is important to mention that many pertinent details were not released publicly in the first and fifth (latest) phases of the Delhi NCDC serology survey, such as the response and positivity rates stratified by age, sex, job type, district; sampling design and so on. A single reported number for the seroprevalence (22.86% and 53.16% respectively for the 1st and the 5th Delhi serosurveys) without sufficient detail on the survey design and assay used has limited use. (5) We do not know if individuals with antibodies are protected from re-infection, how long this protection lasts, the antibody levels needed to protect us from re-infections<sup><xref ref-type="bibr" rid="CR53">53</xref></sup>, or whether a person with the antibody can still be contagious or show severe symptoms. The positive news from our estimates is that a large number of people in Delhi had the infection without feeling severe symptoms or needing clinical care.</p>
+              </sec>
+            </sec>
+            <sec id="Sec9">
+              <title>Conclusion</title>
+              <p id="Par21">There have been debates about the path towards achieving herd immunity in India. The estimated range for the herd immunity threshold lies within 44–73% (based on worldwide estimated basic reproduction number of 1.8–3.8)<sup><xref ref-type="bibr" rid="CR54">54</xref>,<xref ref-type="bibr" rid="CR55">55</xref></sup>. For Delhi, and possibly even more so for other parts of India, herd immunity seems to be attainable as of recent dates but is certainly not a panacea we can rely on. Even based on the IFR obtained without adjusting for potential death underreporting and trusting the reported death counts as of January 23, 2021 (Table <xref rid="Tab2" ref-type="table">2</xref>), if 50% of the 1.38 billion people in India get infected (a concept that many proponents of herd immunity have suggested), this would imply an estimated 690,000 deaths. This estimate skyrockets to a staggering 3.0–3.5 million deaths if we believe the current estimated underreporting factor for death from our proposed model. Although we could not validate the estimated underreporting factor for death, the quality of the reported death data is questionable. For example, a mid-2020 study attempting to model COVID-19 fatalities stratified by age-groups indicates that at least 1500–2500 deaths in Delhi in the 60 + age group have not been reported<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. The high estimate of fatalities when adjusted for underreporting, along with these evidence for underreporting of deaths in India, calls for cautious actions, as India is beginning to see a second wave of the pandemic as recently as the beginning of April 2021<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. Strong policy decisions directed towards containment of the new surge in infections and logistically efficient vaccination strategies are the need of the hour in this regard.</p>
+              <p id="Par22">The appearance and spread of COVID-19 have taken the entire world by a storm, but a large number of examples from all across the world clearly depict that we can change the narrative and course of this virus through extensive testing, contact tracing, use of masks, hand hygiene and social distancing. For example, Delhi has seen tremendous success in turning the corner of the virus curve, with the time-varying reproduction number staying below unity for the larger part of the period between September 2020 and February 2021 (Supplementary Figs. <xref rid="MOESM1" ref-type="media">4–5</xref>). This trend of improved containment, however, seems to have reversed in the recent times, with the estimated time-varying reproduction number undergoing an alarming increase above unity during March–April 2021 (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5</xref>). Several factors including public complacency, waning immunity that was acquired from past infections and the emergence of new variances may have contributed to this surge<sup><xref ref-type="bibr" rid="CR58">58</xref></sup>. The appearance of these escalated numbers also calls for closer inspections of the serosurvey-based estimates, since a <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt;50\%$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>50</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq3.gif"/></alternatives></inline-formula> seroprevalence and a spike in the number of new infections are theoretical antipodes in the context of a pandemic. Multiple potential reasons behind emerging biases in serosurvey estimates including non-representative sampling and assay characteristics have been discussed in recent literature, alongside possible ways of adjusting for such bias<sup><xref ref-type="bibr" rid="CR59">59</xref>,<xref ref-type="bibr" rid="CR60">60</xref></sup>.</p>
+              <p id="Par23">Rapid and significant scientific advancements in both clinical and public health interventions have been made over the past year<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>. Data-driven policy decisions are crucial at this juncture. Our analytical framework for integrating diagnostic testing imperfections in the context of estimating unreported cases provides an alternative to conducting frequent serosurveys in Delhi. Validation of epidemiological model outputs against seroprevalence estimates inspires confidence in our inference and will hopefully prove to be a useful strategy for other case-studies.</p>
+            </sec>
+            <sec id="Sec10">
+              <title>Methods</title>
+              <sec id="Sec11">
+                <title>Extended SEIR model adjusted for misclassification</title>
+                <p id="Par24">We developed an extension of a standard SEIR model. In this model, the susceptible individuals (S) become exposed (E) when they are infected. After a latency period, exposed individuals are able to infect other susceptible individuals and are either untested (U) with probability <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$r$$\end{document}</tex-math><mml:math id="M8"><mml:mi>r</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq4.gif"/></alternatives></inline-formula> or tested (T) with probability <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1-r$$\end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>r</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq5.gif"/></alternatives></inline-formula>. Tested individuals enter either the false negative compartment (F) with probability <inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$f$$\end{document}</tex-math><mml:math id="M12"><mml:mi>f</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq6.gif"/></alternatives></inline-formula> or the (true) positive compartment (P) with probability <inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1-f$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>f</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq7.gif"/></alternatives></inline-formula>. Individuals who are in the untested and the false negative compartments are considered unreported COVID-19 cases and enter either the recovered unreported (RU) or death unreported (DU) compartments. Similarly, those who tested positive move to either a recovered reported (RR) or death reported (DR) compartment. Figure <xref rid="Fig2" ref-type="fig">2</xref> represents the SEIR model schematic, with arrows representing the possible transitions individuals in each compartment can undergo. The corresponding system of differential equations is presented below. The parameters and their initialization values used are described in Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>.<list list-type="bullet"><list-item><p id="Par25"><inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial S}{\partial t}=-\beta \frac{S\left(t\right)}{N}\left({\alpha }_{P}P\left(t\right)+{\alpha }_{U}U\left(t\right)+ F\left(t\right)\right)+\lambda -\mu S\left(t\right).$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mi>β</mml:mi><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:mi>N</mml:mi></mml:mfrac><mml:mfenced close=")" open="("><mml:msub><mml:mi>α</mml:mi><mml:mi>P</mml:mi></mml:msub><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>U</mml:mi></mml:msub><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mfenced><mml:mo>+</mml:mo><mml:mi>λ</mml:mi><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>S</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq8.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par26"><inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial E}{\partial t}=\beta \frac{S\left(t\right)}{N}\left({\alpha }_{P}P\left(t\right)+{\alpha }_{U}U\left(t\right)+F\left(t\right)\right)-\frac{E\left(t\right)}{{D}_{e}}-\mu E\left(t\right).$$\end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:mi>N</mml:mi></mml:mfrac><mml:mfenced close=")" open="("><mml:msub><mml:mi>α</mml:mi><mml:mi>P</mml:mi></mml:msub><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>U</mml:mi></mml:msub><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mfenced><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq9.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par27"><inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial U}{\partial t}=\frac{(1-r)E(t)}{{D}_{e}}-\frac{U\left(t\right)}{{\beta }_{1}{D}_{r}}-{\delta }_{1}{\mu }_{c} U\left(t\right)-\mu U\left(t\right).$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>r</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>-</mml:mo><mml:msub><mml:mi>δ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq10.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par28"><inline-formula id="IEq11"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial P}{\partial t}=\frac{r(1-f)E(t)}{{D}_{e}}-\frac{P\left(t\right)}{{D}_{r}}-{\mu }_{c}P\left(t\right)-\mu P\left(t\right).$$\end{document}</tex-math><mml:math id="M22"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>r</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq11.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par29"><inline-formula id="IEq12"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial F}{\partial t}=\frac{rfE(t)}{{D}_{e}}-\frac{{\beta }_{2}F\left(t\right)}{{D}_{r}}-\frac{{\mu }_{c} F\left(t\right)}{{\delta }_{2}}-\mu F\left(t\right).$$\end{document}</tex-math><mml:math id="M24"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>F</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq12.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par30"><inline-formula id="IEq13"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial RU}{\partial t}=\frac{U(t)}{{\beta }_{1}{D}_{r}}+\frac{{\beta }_{2}F(t)}{{D}_{r}}-\mu RU\left(t\right).$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>R</mml:mi><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>U</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>R</mml:mi><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq13.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par31"><inline-formula id="IEq14"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial RR}{\partial t}=\frac{P\left(t\right)}{{D}_{r}}-\mu RR\left(t\right).$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>R</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>R</mml:mi><mml:mi>R</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq14.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par32"><inline-formula id="IEq15"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial DU}{\partial t}={\delta }_{1}{\mu }_{c}U\left(t\right)+\frac{{\mu }_{c}F\left(t\right)}{{\delta }_{2}}.$$\end{document}</tex-math><mml:math id="M30"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>D</mml:mi><mml:mi>U</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msub><mml:mi>δ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq15.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par33"><inline-formula id="IEq16"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial DR}{\partial t}={\mu }_{c}P\left(t\right).$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>D</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq16.gif"/></alternatives></inline-formula></p></list-item></list></p>
+                <p id="Par34">Here, <inline-formula id="IEq17"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X(t)$$\end{document}</tex-math><mml:math id="M34"><mml:mrow><mml:mi>X</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq17.gif"/></alternatives></inline-formula> denotes the number of individuals in the compartment of interest <inline-formula id="IEq18"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M36"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq18.gif"/></alternatives></inline-formula> at time <inline-formula id="IEq19"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t$$\end{document}</tex-math><mml:math id="M38"><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq19.gif"/></alternatives></inline-formula>. Based on this set of differential equations, we calculate the basic reproduction number of the proposed model using the Next Generation Matrix Method<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>. The expression for <inline-formula id="IEq20"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${R}_{0}$$\end{document}</tex-math><mml:math id="M40"><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq20.gif"/></alternatives></inline-formula> turns out to be the following:<disp-formula id="Equa"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${R}_{0}=\frac{\beta {S}_{0}}{\mu {D}_{e}+1}\left(\frac{{\alpha }_{u}\left(1-r\right)}{\frac{1}{{\beta }_{1}{D}_{r}}+{\delta }_{1}{\mu }_{c}+\mu }+\frac{{\alpha }_{p}r\left(1-f\right)}{\frac{1}{{D}_{r}}+{\mu }_{c}+\mu }+\frac{rf}{\frac{{\beta }_{2}}{{D}_{r}}+\frac{{\mu }_{c}}{{\delta }_{2}}+\mu } \right).$$\end{document}</tex-math><mml:math id="M42" display="block"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>β</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mi>μ</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mi>u</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>r</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:msub><mml:mi>δ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>μ</mml:mi></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mi>r</mml:mi><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>f</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>+</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>μ</mml:mi></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">rf</mml:mi></mml:mrow><mml:mrow><mml:mfrac><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:msub><mml:mi>δ</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mfrac><mml:mo>+</mml:mo><mml:mi>μ</mml:mi></mml:mrow></mml:mfrac></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2021_89127_Article_Equa.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par35">Here, <inline-formula id="IEq21"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${S}_{0}=\frac{\lambda }{\mu }=1$$\end{document}</tex-math><mml:math id="M44"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mi>λ</mml:mi><mml:mi>μ</mml:mi></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq21.gif"/></alternatives></inline-formula>, since we have assumed natural birth and death rate to be equal within this short period of time. In this setting, both <inline-formula id="IEq22"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M46"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq22.gif"/></alternatives></inline-formula> and <inline-formula id="IEq23"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$r$$\end{document}</tex-math><mml:math id="M48"><mml:mi>r</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq23.gif"/></alternatives></inline-formula> are time-varying parameters which are estimated using the Metropolis–Hastings MCMC method<sup><xref ref-type="bibr" rid="CR63">63</xref></sup>. To estimate the parameters, we first need to be able to solve the differential equations, which is difficult to perform in this continuous-time setting. It is also worth noting that we do not require the values of the variables for each time point. Instead, we only need their values at discrete time steps, i.e., for each day. Thus, we approximate the above set of differential equations by a set of recurrence relations. For any compartment <inline-formula id="IEq24"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M50"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq24.gif"/></alternatives></inline-formula>, the instantaneous rate of change with respect to time <inline-formula id="IEq25"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t$$\end{document}</tex-math><mml:math id="M52"><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq25.gif"/></alternatives></inline-formula> (given by <inline-formula id="IEq26"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\partial X}{\partial t}$$\end{document}</tex-math><mml:math id="M54"><mml:mfrac><mml:mrow><mml:mi>∂</mml:mi><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>∂</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq26.gif"/></alternatives></inline-formula>) is approximated by the difference between the counts of that compartment on the <inline-formula id="IEq27"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\left(t+1\right)}^{th}$$\end{document}</tex-math><mml:math id="M56"><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="italic">th</mml:mi></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq27.gif"/></alternatives></inline-formula> day and the <inline-formula id="IEq28"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${t}^{th}$$\end{document}</tex-math><mml:math id="M58"><mml:msup><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">th</mml:mi></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq28.gif"/></alternatives></inline-formula> day, that is <inline-formula id="IEq29"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X\left(t+1\right)-X(t)$$\end{document}</tex-math><mml:math id="M60"><mml:mrow><mml:mi>X</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mfenced><mml:mo>-</mml:mo><mml:mi>X</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq29.gif"/></alternatives></inline-formula>. Starting with an initial value for each of the compartments on the Day 1 and using the discrete-time recurrence relations, we can then obtain the solutions of interest. Some examples of these discrete-time recurrence relations are presented below.<list list-type="bullet"><list-item><p id="Par36"><inline-formula id="IEq30"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$E\left(t+1\right)-E\left(t\right)=\beta \frac{S\left(t\right)}{N}\left({\alpha }_{P}P\left(t\right)+{\alpha }_{U}U\left(t\right)+F\left(t\right)\right)-\frac{E\left(t\right)}{{D}_{e}}-\mu E\left(t\right),$$\end{document}</tex-math><mml:math id="M62"><mml:mrow><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mfenced><mml:mo>-</mml:mo><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:mi>N</mml:mi></mml:mfrac><mml:mfenced close=")" open="("><mml:msub><mml:mi>α</mml:mi><mml:mi>P</mml:mi></mml:msub><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>U</mml:mi></mml:msub><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mfenced><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq30.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par37"><inline-formula id="IEq31"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$U\left(t+1\right)-U\left(t\right)=\frac{\left(1-r\right)E\left(t\right)}{{D}_{e}}-\frac{U\left(t\right)}{{\beta }_{1}{D}_{r}}-{\delta }_{1}{\mu }_{c} U\left(t\right)-\mu U\left(t\right),$$\end{document}</tex-math><mml:math id="M64"><mml:mrow><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mfenced><mml:mo>-</mml:mo><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>r</mml:mi></mml:mfenced><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>-</mml:mo><mml:msub><mml:mi>δ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>U</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq31.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par38"><inline-formula id="IEq32"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P\left(t+1\right)-P\left(t\right)=\frac{r\left(1-f\right)E\left(t\right)}{{D}_{e}}-\frac{P\left(t\right)}{{D}_{r}}-{\mu }_{c}P\left(t\right)-\mu P\left(t\right),$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mfenced><mml:mo>-</mml:mo><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>r</mml:mi><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>f</mml:mi></mml:mfenced><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>P</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq32.gif"/></alternatives></inline-formula></p></list-item><list-item><p id="Par39"><inline-formula id="IEq33"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$F\left(t+1\right)-F\left(t\right)=\frac{rfE\left(t\right)}{{D}_{e}}-\frac{{\beta }_{2}F\left(t\right)}{{D}_{r}}-\frac{{\mu }_{c} F\left(t\right)}{{\delta }_{2}}-\mu F\left(t\right).$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mfenced><mml:mo>-</mml:mo><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi><mml:mi>E</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow><mml:msub><mml:mi>δ</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mfrac><mml:mo>-</mml:mo><mml:mi>μ</mml:mi><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq33.gif"/></alternatives></inline-formula></p></list-item></list></p>
+                <p id="Par40">The rest of the differential equations can each be similarly approximated by a discrete-time recurrence relation. These parameters are estimated using training data from Delhi from March 15 to June 30, 2020 for our first set of analyses, and from March 15 to December 31, 2020 for our updated set of analyses. The training data were divided into multiple periods, in accordance with the lockdown and unlock procedures employed by the government of India, as described in Supplementary Table <xref rid="MOESM1" ref-type="media">3</xref>. Using these, we obtained predictions for dates ranging from June 1 through August 15, 2020, for the first set of analyses, and between January 1 to March 15, 2021 for the updated set of analyses. Since we used an MCMC algorithm to estimate the parameters and the posterior means of the compartment sizes, it is easy to obtain empirical posterior credible intervals based on the full set of MCMC draws to quantify the uncertainty associated with these estimates and projections. However, we deliberately refrained from reporting the uncertainty estimates in this paper to avoid intricacies in presentation of the results that may hinder the central message. Further, we assumed the RT-PCR test specificity to be 1 and did not incorporate false positives arising from the diagnostic test to avoid additional assumptions for model identifiability.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Naïve corrections to reported test results using known misclassification rates</title>
+                <p id="Par41">Notations: Let <italic>N</italic> = population size, <italic>X</italic> = number of true cases in the population (hence <italic>N – X</italic> = number of non-cases in the population), <italic>T</italic> = number of people tested, <italic>S</italic> = number of true cases tested (hence <italic>T – S</italic> = number of non-cases tested, X – <italic>S</italic> = number of true cases not tested, <italic>N – X – T</italic> + <italic>S</italic> = number of non-cases not tested), <italic>P</italic> = number of positive tests (also, therefore, cumulative number of reported cases, hence <italic>T – P</italic> = number of negative tests). Note that <italic>X</italic> and <italic>S</italic> are the only two unknowns in this setting. Also, let us assume that the sensitivity of the test of interest is <inline-formula id="IEq34"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\boldsymbol{\alpha }$$\end{document}</tex-math><mml:math id="M70"><mml:mrow><mml:mi mathvariant="bold-italic">α</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq34.gif"/></alternatives></inline-formula> and the specificity of the same is <inline-formula id="IEq35"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M72"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq35.gif"/></alternatives></inline-formula>. With that, we can set up the following equation, because there are two ways a test can be positive, as can be seen in Supplementary Fig. <xref rid="MOESM1" ref-type="media">6</xref>.<disp-formula id="Equb"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P=S\times \alpha +\left(T-S\right)\times \left(1-\beta \right)\Rightarrow \frac{P}{T}=\frac{S}{T}\times \alpha +\left(1-\frac{S}{T}\right)\times \left(1-\beta \right).$$\end{document}</tex-math><mml:math id="M74" display="block"><mml:mrow><mml:mi>P</mml:mi><mml:mo>=</mml:mo><mml:mi>S</mml:mi><mml:mo>×</mml:mo><mml:mi>α</mml:mi><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mi>T</mml:mi><mml:mo>-</mml:mo><mml:mi>S</mml:mi></mml:mfenced><mml:mo>×</mml:mo><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>β</mml:mi></mml:mfenced><mml:mo stretchy="false">⇒</mml:mo><mml:mfrac><mml:mi>P</mml:mi><mml:mi>T</mml:mi></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mi>S</mml:mi><mml:mi>T</mml:mi></mml:mfrac><mml:mo>×</mml:mo><mml:mi>α</mml:mi><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mfrac><mml:mi>S</mml:mi><mml:mi>T</mml:mi></mml:mfrac></mml:mfenced><mml:mo>×</mml:mo><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>β</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2021_89127_Article_Equb.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par42">Adjusting the terms, we get the following expression for <inline-formula id="IEq36"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S$$\end{document}</tex-math><mml:math id="M76"><mml:mi>S</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq36.gif"/></alternatives></inline-formula>.<disp-formula id="Equc"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S=T\times \frac{\frac{P}{T}+\beta -1}{\alpha +\beta -1}.$$\end{document}</tex-math><mml:math id="M78" display="block"><mml:mrow><mml:mi>S</mml:mi><mml:mo>=</mml:mo><mml:mi>T</mml:mi><mml:mo>×</mml:mo><mml:mfrac><mml:mrow><mml:mfrac><mml:mi>P</mml:mi><mml:mi>T</mml:mi></mml:mfrac><mml:mo>+</mml:mo><mml:mi>β</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>α</mml:mi><mml:mo>+</mml:mo><mml:mi>β</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2021_89127_Article_Equc.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par43">Assuming that the proportion of cases among those tested stays the same as the original population (random and hence homogenous testing), we can replace <inline-formula id="IEq37"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S$$\end{document}</tex-math><mml:math id="M80"><mml:mi>S</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq37.gif"/></alternatives></inline-formula> by <inline-formula id="IEq38"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{TX}{N}$$\end{document}</tex-math><mml:math id="M82"><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">TX</mml:mi></mml:mrow><mml:mi>N</mml:mi></mml:mfrac></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq38.gif"/></alternatives></inline-formula>, which will lead to the following updated equation.<disp-formula id="Equd"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{P}{T}=\frac{X}{N}\times \alpha +\left(1-\frac{X}{N}\right)\times \left(1-\beta \right).$$\end{document}</tex-math><mml:math id="M84" display="block"><mml:mrow><mml:mfrac><mml:mi>P</mml:mi><mml:mi>T</mml:mi></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mi>X</mml:mi><mml:mi>N</mml:mi></mml:mfrac><mml:mo>×</mml:mo><mml:mi>α</mml:mi><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mfrac><mml:mi>X</mml:mi><mml:mi>N</mml:mi></mml:mfrac></mml:mfenced><mml:mo>×</mml:mo><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>β</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2021_89127_Article_Equd.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par44">Solving this, we get the following expression for <inline-formula id="IEq39"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M86"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq39.gif"/></alternatives></inline-formula>.<disp-formula id="Eque"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X=N\times \frac{\frac{P}{T}+\beta -1}{\alpha +\beta -1}.$$\end{document}</tex-math><mml:math id="M88" display="block"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mi>N</mml:mi><mml:mo>×</mml:mo><mml:mfrac><mml:mrow><mml:mfrac><mml:mi>P</mml:mi><mml:mi>T</mml:mi></mml:mfrac><mml:mo>+</mml:mo><mml:mi>β</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>α</mml:mi><mml:mo>+</mml:mo><mml:mi>β</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2021_89127_Article_Eque.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par45">Thus, these two expressions give us, for a given set of <inline-formula id="IEq40"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha$$\end{document}</tex-math><mml:math id="M90"><mml:mi>α</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq40.gif"/></alternatives></inline-formula> and <inline-formula id="IEq41"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M92"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq41.gif"/></alternatives></inline-formula>, the corrected number of reported cases (<inline-formula id="IEq42"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S$$\end{document}</tex-math><mml:math id="M94"><mml:mi>S</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq42.gif"/></alternatives></inline-formula>), and also the estimated number of true (reported and unreported) cases (<inline-formula id="IEq43"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M96"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq43.gif"/></alternatives></inline-formula>). For the computation of <inline-formula id="IEq44"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S$$\end{document}</tex-math><mml:math id="M98"><mml:mi>S</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq44.gif"/></alternatives></inline-formula>, we use <inline-formula id="IEq45"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{P}{T}=\frac{\mathrm{109,140}}{\mathrm{747,109}}\approx 0.146$$\end{document}</tex-math><mml:math id="M100"><mml:mrow><mml:mfrac><mml:mi>P</mml:mi><mml:mi>T</mml:mi></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>109</mml:mn><mml:mo>,</mml:mo><mml:mn>140</mml:mn></mml:mrow><mml:mrow><mml:mn>747</mml:mn><mml:mo>,</mml:mo><mml:mn>109</mml:mn></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.146</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq45.gif"/></alternatives></inline-formula>, the test positive rate of the RT-PCR tests in Delhi as of July 10<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. For the computation of <inline-formula id="IEq46"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M102"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq46.gif"/></alternatives></inline-formula>, we use <inline-formula id="IEq47"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{P}{T}=\frac{\mathrm{4,889}}{\mathrm{21,387}}\approx 0.229$$\end{document}</tex-math><mml:math id="M104"><mml:mrow><mml:mfrac><mml:mi>P</mml:mi><mml:mi>T</mml:mi></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>889</mml:mn></mml:mrow><mml:mrow><mml:mn>21</mml:mn><mml:mo>,</mml:mo><mml:mn>387</mml:mn></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.229</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq47.gif"/></alternatives></inline-formula>, the positive rate reported by the first round of the Delhi serological survey<sup><xref ref-type="bibr" rid="CR12">12</xref>–<xref ref-type="bibr" rid="CR14">14</xref></sup>. For the updated analysis based on more recent data, these numbers are updated to <inline-formula id="IEq48"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\mathrm{644,064}}{\mathrm{10,289,461}}\approx 0.062$$\end{document}</tex-math><mml:math id="M106"><mml:mrow><mml:mfrac><mml:mrow><mml:mn>644</mml:mn><mml:mo>,</mml:mo><mml:mn>064</mml:mn></mml:mrow><mml:mrow><mml:mn>10</mml:mn><mml:mo>,</mml:mo><mml:mn>289</mml:mn><mml:mo>,</mml:mo><mml:mn>461</mml:mn></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.062</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq48.gif"/></alternatives></inline-formula> and <inline-formula id="IEq49"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\mathrm{15,716}}{\mathrm{28,000}}\approx 0.561$$\end{document}</tex-math><mml:math id="M108"><mml:mrow><mml:mfrac><mml:mrow><mml:mn>15</mml:mn><mml:mo>,</mml:mo><mml:mn>716</mml:mn></mml:mrow><mml:mrow><mml:mn>28</mml:mn><mml:mo>,</mml:mo><mml:mn>000</mml:mn></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.561</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq49.gif"/></alternatives></inline-formula> respectively. Once we get these estimates, we can compute the adjusted underreporting factor as <inline-formula id="IEq50"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$URF=\frac{X}{S}$$\end{document}</tex-math><mml:math id="M110"><mml:mrow><mml:mi>U</mml:mi><mml:mi>R</mml:mi><mml:mi>F</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>X</mml:mi><mml:mi>S</mml:mi></mml:mfrac></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq50.gif"/></alternatives></inline-formula>. Also, assuming that <inline-formula id="IEq51"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D$$\end{document}</tex-math><mml:math id="M112"><mml:mi>D</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq51.gif"/></alternatives></inline-formula> denotes the cumulative number of deaths till a date of interest, we can compute the corrected versions of case fatality rate and infection fatality rate as <inline-formula id="IEq52"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$CFR=\frac{D}{S}$$\end{document}</tex-math><mml:math id="M114"><mml:mrow><mml:mi>C</mml:mi><mml:mi>F</mml:mi><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>D</mml:mi><mml:mi>S</mml:mi></mml:mfrac></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq52.gif"/></alternatives></inline-formula> and <inline-formula id="IEq53"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$IFR=\frac{D}{X}$$\end{document}</tex-math><mml:math id="M116"><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>D</mml:mi><mml:mi>X</mml:mi></mml:mfrac></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq53.gif"/></alternatives></inline-formula>, respectively. Further, if we want to adjust for a potential scenario where for every M death due to COVID-19, we observe 1 death (M-fold underreporting for deaths), we can update the IFR estimate as <inline-formula id="IEq54"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$IFR=\frac{MD}{X}$$\end{document}</tex-math><mml:math id="M118"><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">MD</mml:mi></mml:mrow><mml:mi>X</mml:mi></mml:mfrac></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq54.gif"/></alternatives></inline-formula>. We calculate our adjusted IFR estimates for <inline-formula id="IEq55"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M=10$$\end{document}</tex-math><mml:math id="M120"><mml:mrow><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq55.gif"/></alternatives></inline-formula> for the July 10, 2020 computations, and for <inline-formula id="IEq56"><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M=5$$\end{document}</tex-math><mml:math id="M122"><mml:mrow><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq56.gif"/></alternatives></inline-formula> for the January 23, 2021 computations. Based on the data from Delhi, we use <inline-formula id="IEq57"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D=3300$$\end{document}</tex-math><mml:math id="M124"><mml:mrow><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>3300</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq57.gif"/></alternatives></inline-formula> for July 10, 2020, and <inline-formula id="IEq58"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D=\mathrm{10,994}$$\end{document}</tex-math><mml:math id="M126"><mml:mrow><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mn>10</mml:mn><mml:mo>,</mml:mo><mml:mn>994</mml:mn></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq58.gif"/></alternatives></inline-formula> for January 23, 2021<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. We also use a population size of <inline-formula id="IEq59"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$N=1.98\times {10}^{7}$$\end{document}</tex-math><mml:math id="M128"><mml:mrow><mml:mi>N</mml:mi><mml:mo>=</mml:mo><mml:mn>1.98</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mn>7</mml:mn></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq59.gif"/></alternatives></inline-formula> based on recent population data<sup><xref ref-type="bibr" rid="CR64">64</xref></sup>, since the last official census in India was performed in 2011, and the number reported there may not be representative of the current scenario.</p>
+                <p id="Par46">A critical question here is the choice of <inline-formula id="IEq60"><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha$$\end{document}</tex-math><mml:math id="M130"><mml:mi>α</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq60.gif"/></alternatives></inline-formula> and <inline-formula id="IEq61"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M132"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq61.gif"/></alternatives></inline-formula> for the two tests to ensure our computations reflect adjustments made based on sensible and realistic scenarios. Based on previously reported sensitivity and specificity levels for the diagnostic test<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR49">49</xref></sup>, we used the combinations <inline-formula id="IEq62"><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha =\beta =1 \left(\text{perfect test}\right), \alpha =0.952 {\text{and}} \beta =0.99$$\end{document}</tex-math><mml:math id="M134"><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mfenced close=")" open="("><mml:mtext>perfect test</mml:mtext></mml:mfenced><mml:mo>,</mml:mo><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mn>0.952</mml:mn><mml:mtext>and</mml:mtext><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>0.99</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq62.gif"/></alternatives></inline-formula>, <inline-formula id="IEq63"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha =0.85 {\text{and}} \beta =0.99$$\end{document}</tex-math><mml:math id="M136"><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mn>0.85</mml:mn><mml:mtext>and</mml:mtext><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>0.99</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq63.gif"/></alternatives></inline-formula>, <inline-formula id="IEq64"><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{and}} \alpha =0.7 {\text{and}} \beta =0.99$$\end{document}</tex-math><mml:math id="M138"><mml:mrow><mml:mtext>and</mml:mtext><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mn>0.7</mml:mn><mml:mtext>and</mml:mtext><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>0.99</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq64.gif"/></alternatives></inline-formula>. The serological assay used by NCDC is a customized assay, and we referred to existing literature on and publicly available discussions on this particular assay, alongside literature on serological assays in general<sup><xref ref-type="bibr" rid="CR48">48</xref>,<xref ref-type="bibr" rid="CR49">49</xref></sup>, and decided to use the combinations of <inline-formula id="IEq65"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha =\beta =1 \left(\text{perfect test}\right)$$\end{document}</tex-math><mml:math id="M140"><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mfenced close=")" open="("><mml:mtext>perfect test</mml:mtext></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq65.gif"/></alternatives></inline-formula>, <inline-formula id="IEq66"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha =0.976 {\text{and}} \beta =0.993$$\end{document}</tex-math><mml:math id="M142"><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mn>0.976</mml:mn><mml:mtext>and</mml:mtext><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>0.993</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq66.gif"/></alternatives></inline-formula>, <inline-formula id="IEq67"><alternatives><tex-math id="M143">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{and}} \alpha =0.92 {\text{and}} \beta =0.97$$\end{document}</tex-math><mml:math id="M144"><mml:mrow><mml:mtext>and</mml:mtext><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mn>0.92</mml:mn><mml:mtext>and</mml:mtext><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>0.97</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_89127_Article_IEq67.gif"/></alternatives></inline-formula>.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec13">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2021_89127_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>The original online version of this Article was revised: The original version of this Article contained errors in Figure 2, where the colours within each circle and dashed line arrows were omitted.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Change history</bold>
+                </p>
+                <p>8/20/2021</p>
+                <p>A Correction to this paper has been published: 10.1038/s41598-021-96603-1</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary Information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41598-021-89127-1.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors would like to thank the Center for Precision Health Data Sciences at the University of Michigan School of Public Health, The University of Michigan Rogel Cancer Center and the Michigan Institute of Data Science for internal funding that supported this research. The authors are grateful to Professors Eric Fearon, Aubree Gordon and Parikshit Ghosh for useful conversations that helped formulating the ideas in this manuscript. The research was supported by NSF DMS 1712933.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>Ru.B. prepared the initial draft and carried out the naïve misclassification correction to case counts and took leadership of composing the final draft. Ri.B., R.K., L.J.B. and B.M. developed the extended SEIR model with misclassification. Ri.B. and R.K. implemented the extended SEIR model. D.R. carried out the literature review pertaining to the national and worldwide serosurveys and constructed the corresponding tables and summaries. M.S carried out extensive literature search and visualization and participated in writing of the manuscript. B.M. conceptualized the project and oversaw the research. All authors read and approved the final version of the draft.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>All data used in our analyses are available at <ext-link ext-link-type="uri" xlink:href="http://covind19.org">http://covind19.org</ext-link>.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Code availability</title>
+              <p>All our computational codes are available at <ext-link ext-link-type="uri" xlink:href="http://covind19.org">http://covind19.org</ext-link>.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par47">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hui</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health—The latest 2019 novel coronavirus outbreak in Wuhan, China</article-title>
+                  <source>Int. J. Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>91</volume>
+                  <fpage>264</fpage>
+                  <lpage>266</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijid.2020.01.009</pub-id>
+                  <pub-id pub-id-type="pmid">31953166</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other"><italic>Coronavirus in India: Latest Map and Case Count. Covid19india.org. </italic><ext-link ext-link-type="uri" xlink:href="https://covid19india.org/">https://covid19india.org/</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Chauhan, N. After Covid-19 lockdown, plan to unlock India in phases. In <italic>Hindustan Times. </italic><ext-link ext-link-type="uri" xlink:href="https://www.hindustantimes.com/india-news/after-lockdown-plan-to-unlock-india-in-phases/story-vsK1wGQ7moLTMjlKkUelHP.html">https://www.hindustantimes.com/india-news/after-lockdown-plan-to-unlock-india-in-phases/story-vsK1wGQ7moLTMjlKkUelHP.html</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Reconstruction of the full transmission dynamics of COVID-19 in Wuhan</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2554-8</pub-id>
+                  <?supplied-pmid 33116290?>
+                  <pub-id pub-id-type="pmid">33116290</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Godio</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Pace</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Vergnano</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SEIR modeling of the Italian epidemic of SARS-CoV-2 using computational swarm intelligence</article-title>
+                  <source>Int. J. Environ. Res. Public Health</source>
+                  <year>2020</year>
+                  <volume>17</volume>
+                  <fpage>3535</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph17103535</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Cui</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamic analysis of an SEIR model with distinct incidence for exposed and infectives</article-title>
+                  <source>Sci. World J.</source>
+                  <year>2013</year>
+                  <volume>2013</volume>
+                  <fpage>1</fpage>
+                  <lpage>5</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Global dynamics of an SEIR epidemic model with immigration of different compartments</article-title>
+                  <source>Acta Math. Sci.</source>
+                  <year>2006</year>
+                  <volume>26</volume>
+                  <fpage>551</fpage>
+                  <lpage>567</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0252-9602(06)60081-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Udugama</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Diagnosing COVID-19: The disease and tools for detection</article-title>
+                  <source>ACS Nano</source>
+                  <year>2020</year>
+                  <volume>14</volume>
+                  <fpage>3822</fpage>
+                  <lpage>3835</lpage>
+                  <pub-id pub-id-type="doi">10.1021/acsnano.0c02624</pub-id>
+                  <pub-id pub-id-type="pmid">32223179</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peeling</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Serology testing in the COVID-19 pandemic response</article-title>
+                  <source>Lancet. Infect. Dis</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/s1473-3099(20)30517-x</pub-id>
+                  <?supplied-pmid 33212066?>
+                  <pub-id pub-id-type="pmid">33212066</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Tran, N., Cohen, S., Waldman, S. &amp; May, L. Review of COVID-19 testing methods. In <italic>Laboratory Best Practice Blog. </italic><ext-link ext-link-type="uri" xlink:href="https://blog.ucdmc.ucdavis.edu/labbestpractice/index.php/2020/06/16/review-of-covid-19-testing-methods/">https://blog.ucdmc.ucdavis.edu/labbestpractice/index.php/2020/06/16/review-of-covid-19-testing-methods/</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Woloshin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kesselheim</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>False negative tests for SARS-CoV-2 infection—Challenges and implications</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1056/nejmp2015897</pub-id>
+                  <?supplied-pmid 32502334?>
+                  <pub-id pub-id-type="pmid">32502334</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <mixed-citation publication-type="other">Saxena, A. Explained: Here are the key takeaways from Delhi’s serological survey. In <italic>The Indian Express. </italic><ext-link ext-link-type="uri" xlink:href="https://indianexpress.com/article/explained/delhi-serological-survey-shows-antibodies-in-23-participants-what-does-this-mean-6516512/">https://indianexpress.com/article/explained/delhi-serological-survey-shows-antibodies-in-23-participants-what-does-this-mean-6516512/</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Murhekar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prevalence of SARS-CoV-2 infection in India: Findings from the national serosurvey, May-June 2020</article-title>
+                  <source>Indian J. Med. Res.</source>
+                  <year>2020</year>
+                  <volume>152</volume>
+                  <fpage>48</fpage>
+                  <pub-id pub-id-type="doi">10.4103/ijmr.IJMR_3290_20</pub-id>
+                  <pub-id pub-id-type="pmid">32952144</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Indian Council for Medical Research. ICMR second sero-survey for SARS-CoV-2 infection. In <italic>Static.pib.gov.in. </italic><ext-link ext-link-type="uri" xlink:href="https://static.pib.gov.in/WriteReadData/userfiles/Modified%20ICMR_SecondSerosurvey_MMSP%20(1).pdf">https://static.pib.gov.in/WriteReadData/userfiles/Modified%20ICMR_SecondSerosurvey_MMSP%20(1).pdf</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">ICMR sero survey: One in five Indians exposed to Covid-19. In <italic>BBC News. </italic><ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/news/world-asia-india-55945382">https://www.bbc.com/news/world-asia-india-55945382</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Selvaraju</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Population-based serosurvey for severe acute respiratory syndrome coronavirus 2 transmission, Chennai, India</article-title>
+                  <source>Emerg. Infect. Dis.</source>
+                  <year>2021</year>
+                  <volume>27</volume>
+                  <fpage>586</fpage>
+                  <lpage>589</lpage>
+                  <pub-id pub-id-type="doi">10.3201/eid2702.203938</pub-id>
+                  <pub-id pub-id-type="pmid">33496222</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Seroprevalence of antibodies to SARS-CoV-2 in healthcare workers &amp; implications of infection control practice in India</article-title>
+                  <source>Indian J. Med. Res.</source>
+                  <year>2021</year>
+                  <volume>153</volume>
+                  <fpage>207</fpage>
+                  <?supplied-pmid 8184075?>
+                  <pub-id pub-id-type="pmid">33642348</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <mixed-citation publication-type="other">Babu, N. Percentage of people with antibodies high, shows Delhi serological survey. In <italic>The Hindu. </italic><ext-link ext-link-type="uri" xlink:href="https://www.thehindu.com/news/cities/Delhi/percentage-of-people-with-antibodies-high/article32156162.ece">https://www.thehindu.com/news/cities/Delhi/percentage-of-people-with-antibodies-high/article32156162.ece</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Sharma, N. <italic>et al</italic>. The seroprevalence and trends of SARS-CoV-2 in Delhi, India: A repeated population-based seroepidemiological study. <italic>medRxiv. </italic>10.1101/2020.12.13.20248123 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Goswami, S. Delhi’s 5th sero survey: Over 56% people have antibodies against Covid-19. In <italic>Hindustan Times. </italic><ext-link ext-link-type="uri" xlink:href="https://www.hindustantimes.com/cities/delhi-news/delhis-5th-sero-survey-over-56-people-have-antibodies-against-covid19-101612264534349.html">https://www.hindustantimes.com/cities/delhi-news/delhis-5th-sero-survey-over-56-people-have-antibodies-against-covid19-101612264534349.html</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mohanan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Malani</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Krishnan</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Acharya</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prevalence of SARS-CoV-2 in Karnataka, India</article-title>
+                  <source>JAMA</source>
+                  <year>2021</year>
+                  <volume>325</volume>
+                  <fpage>1001</fpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2021.0332</pub-id>
+                  <pub-id pub-id-type="pmid">33538774</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Department of Health &amp; Family Welfare, Government of Kerala. Technical paper COVID 19: ICMR—Serological surveillance report round 3. In <italic>Health.kerala.gov.in. </italic><ext-link ext-link-type="uri" xlink:href="https://health.kerala.gov.in/pdf/Technical-paper-COVID-19-Sero-Surveillance-Round-3-ICMR.pdf">https://health.kerala.gov.in/pdf/Technical-paper-COVID-19-Sero-Surveillance-Round-3-ICMR.pdf</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <mixed-citation publication-type="other">Barnagarwala, T. Coronavirus: What Mumbai serosurvey shows about gender differences in infection, mortality and herd immunity. In <italic>The Indian Express. </italic><ext-link ext-link-type="uri" xlink:href="https://indianexpress.com/article/explained/mumbais-serosurvey-what-it-shows-about-gender-differences-in-infection-mortality-and-herd-immunity-6529186/">https://indianexpress.com/article/explained/mumbais-serosurvey-what-it-shows-about-gender-differences-in-infection-mortality-and-herd-immunity-6529186/</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Ghose, A. <italic>et al</italic>. Community prevalence of antibodies to SARS-CoV-2 and correlates of protective immunity in an Indian metropolitan city. <italic>medRxiv. </italic>10.1101/2020.11.17.20228155 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <mixed-citation publication-type="other">Malani, A. <italic>et al</italic>. SARS-CoV-2 seroprevalence in Tamil Nadu in October-November 2020. <italic>medRxiv. </italic>10.1101/2021.02.03.21250949 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hallal</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SARS-CoV-2 antibody prevalence in Brazil: Results from two successive nationwide serological household surveys</article-title>
+                  <source>Lancet Glob. Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>e1390</fpage>
+                  <lpage>e1398</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2214-109X(20)30387-9</pub-id>
+                  <pub-id pub-id-type="pmid">32979314</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Seroprevalence of immunoglobulin M and G antibodies against SARS-CoV-2 in China</article-title>
+                  <source>Nat. Med.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1038/s41591-020-0949-6</pub-id>
+                  <?supplied-pmid 33046868?>
+                  <pub-id pub-id-type="pmid">33046868</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <mixed-citation publication-type="other">Public Health England. Weekly coronavirus disease 2019 (COVID-19) surveillance report—Summary of COVID-19 surveillance systems. In <italic>Assets.publishing.service.gov.uk. </italic><ext-link ext-link-type="uri" xlink:href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/888254/COVID19_Epidemiological_Summary_w22_Final.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/888254/COVID19_Epidemiological_Summary_w22_Final.pdf</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Ward, H. <italic>et al</italic>. SARS-CoV-2 antibody prevalence in England following the first peak of the pandemic. <italic>Nat. Commun.</italic> <bold>12</bold> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">Vu, S. et al. Prevalence of SARS-CoV-2 antibodies in France: Results from nationwide serological surveillance. <italic>medRxiv. </italic>10.1101/2020.10.20.20213116 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roederer</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Seroprevalence and risk factors of exposure to COVID-19 in homeless people in Paris, France: A cross-sectional study</article-title>
+                  <source>Lancet Public Health</source>
+                  <year>2021</year>
+                  <volume>6</volume>
+                  <fpage>e202</fpage>
+                  <lpage>e209</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2468-2667(21)00001-3</pub-id>
+                  <pub-id pub-id-type="pmid">33556328</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Korth</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SARS-CoV-2-specific antibody detection in healthcare workers in Germany with direct contact to COVID-19 patients</article-title>
+                  <source>J. Clin. Virol.</source>
+                  <year>2020</year>
+                  <volume>128</volume>
+                  <fpage>104437</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jcv.2020.104437</pub-id>
+                  <pub-id pub-id-type="pmid">32434708</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poustchi</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SARS-CoV-2 antibody seroprevalence in the general population and high-risk occupational groups across 18 cities in Iran: A population-based cross-sectional study</article-title>
+                  <source>Lancet. Infect. Dis</source>
+                  <year>2021</year>
+                  <volume>21</volume>
+                  <fpage>473</fpage>
+                  <lpage>481</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30858-6</pub-id>
+                  <pub-id pub-id-type="pmid">33338441</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shakiba</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Seroprevalence of COVID-19 virus infection in Guilan province</article-title>
+                  <source>Iran</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.04.26.20079244</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <mixed-citation publication-type="other">Doi, A. <italic>et al</italic>. Estimation of seroprevalence of novel coronavirus disease (COVID-19) using preserved serum at an outpatient setting in Kobe, Japan: A cross-sectional study. 10.1101/2020.04.26.20079822 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pollán</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prevalence of SARS-CoV-2 in Spain (ENE-COVID): A nationwide, population-based seroepidemiological study</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/s0140-6736(20)31483-5</pub-id>
+                  <?supplied-pmid 33160561?>
+                  <pub-id pub-id-type="pmid">33160561</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Public Health Agency Sweden. <italic>Första Resultaten Från Pågående Undersökning av Antikroppar för Covid-19-Virus</italic>. (2020).</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stringhini</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Seroprevalence of anti-SARS-CoV-2 IgG antibodies in Geneva, Switzerland (SEROCoV-POP): A population-based study</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/s0140-6736(20)31304-0</pub-id>
+                  <?supplied-pmid 32534626?>
+                  <pub-id pub-id-type="pmid">32534626</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <mixed-citation publication-type="other">Gaskell, K. et al. Extremely high SARS-CoV-2 seroprevalence in a strictly-Orthodox Jewish community in the UK. <italic>medRxiv. </italic>10.1101/2021.02.01.21250839 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Angulo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Finelli</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Swerdlow</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation of US SARS-CoV-2 infections, symptomatic infections, hospitalizations, and deaths using seroprevalence surveys</article-title>
+                  <source>JAMA Netw. Open</source>
+                  <year>2021</year>
+                  <volume>4</volume>
+                  <fpage>e2033706</fpage>
+                  <pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.33706</pub-id>
+                  <pub-id pub-id-type="pmid">33399860</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sood</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Seroprevalence of SARS-CoV-2-specific antibodies among adults in Los Angeles County, California, on April 10–11, 2020</article-title>
+                  <source>JAMA</source>
+                  <year>2020</year>
+                  <volume>323</volume>
+                  <fpage>2425</fpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2020.8279</pub-id>
+                  <pub-id pub-id-type="pmid">32421144</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosenberg</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cumulative incidence and diagnosis of SARS-CoV-2 infection in New York</article-title>
+                  <source>Ann. Epidemiol.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.annepidem.2020.06.004</pub-id>
+                  <?supplied-pmid 32723697?>
+                  <pub-id pub-id-type="pmid">32723697</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Ng, D. <italic>et al</italic>. SARS-CoV-2 seroprevalence and neutralizing activity in donor and patient blood from the San Francisco Bay Area. 10.1101/2020.05.19.20107482 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bendavid</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>COVID-19 antibody seroprevalence in Santa Clara County</article-title>
+                  <source>California.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.04.14.20062463</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Ioannidis, J. The infection fatality rate of COVID-19 inferred from seroprevalence data. 10.1101/2020.05.13.20101253 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <mixed-citation publication-type="other">Roy, L. Infected India: The true toll of coronavirus in the world’s 2nd-most populated country. In <italic>Forbes. </italic><ext-link ext-link-type="uri" xlink:href="https://www.forbes.com/sites/lipiroy/2020/06/25/infected-india-the-true-toll-of-coronavirus-in-the-worlds-2nd-most-populated-country/#4cf904c850fb">https://www.forbes.com/sites/lipiroy/2020/06/25/infected-india-the-true-toll-of-coronavirus-in-the-worlds-2nd-most-populated-country/#4cf904c850fb</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <mixed-citation publication-type="other">Burden of Influenza. <italic>Centers for Disease Control and Prevention</italic> . <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/flu/about/burden/index.html">https://www.cdc.gov/flu/about/burden/index.html</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sapkal</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Development of indigenous IgG ELISA for the detection of anti-SARS-CoV-2 IgG</article-title>
+                  <source>Indian J. Med. Res.</source>
+                  <year>2020</year>
+                  <volume>151</volume>
+                  <fpage>444</fpage>
+                  <pub-id pub-id-type="doi">10.4103/ijmr.IJMR_2232_20</pub-id>
+                  <pub-id pub-id-type="pmid">32611915</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">The Print India. <italic>Serosurveys—Pure Science</italic>. <ext-link ext-link-type="uri" xlink:href="https://www.facebook.com/1733495223546925/posts/3183938748502558/">https://www.facebook.com/1733495223546925/posts/3183938748502558/</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dinnes</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Rapid, point-of-care antigen and molecular-based tests for diagnosis of SARS-CoV-2 infection</article-title>
+                  <source>Cochrane Database Syst. Rev.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1002/14651858.cd013705</pub-id>
+                  <?supplied-pmid 33242342?>
+                  <pub-id pub-id-type="pmid">33242342</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <mixed-citation publication-type="other">Bhaduri, R. <italic>et al</italic>. Extending the susceptible-exposed-infected-removed (SEIR) model to handle the high false negative rate and symptom-based administration of Covid-19 diagnostic tests: SEIR-fansy. <italic>medRxiv</italic>. 10.1101/2020.09.24.20200238 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <mixed-citation publication-type="other">Mandal, S., Das, H., Deo, S. &amp; Arinaminpathy, N. When to relax a lockdown? A modelling-based study of testing-led strategies coupled with sero-surveillance against SARS-CoV-2 infection in India. 10.1101/2020.05.29.20117010 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kirkcaldy</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 and postinfection immunity</article-title>
+                  <source>JAMA</source>
+                  <year>2020</year>
+                  <volume>323</volume>
+                  <fpage>2245</fpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2020.7869</pub-id>
+                  <pub-id pub-id-type="pmid">32391855</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Britton</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ball</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Trapman</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A mathematical model reveals the influence of population heterogeneity on herd immunity to SARS-CoV-2</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1126/science.abc6810</pub-id>
+                  <?supplied-pmid 33214249?>
+                  <pub-id pub-id-type="pmid">33214249</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Randolph</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Barreiro</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Herd immunity: Understanding COVID-19</article-title>
+                  <source>Immunity</source>
+                  <year>2020</year>
+                  <volume>52</volume>
+                  <fpage>737</fpage>
+                  <lpage>741</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.immuni.2020.04.012</pub-id>
+                  <pub-id pub-id-type="pmid">32433946</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <mixed-citation publication-type="other">Chakravarty, S. Estimating missing deaths in Delhi's COVID-19 data. 10.1101/2020.07.29.20164392 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <mixed-citation publication-type="other">Zargar, A. India sees record daily number of COVID infections as 2nd wave prompts tougher restrictions. In <italic>Cbsnews.com</italic>. <ext-link ext-link-type="uri" xlink:href="https://www.cbsnews.com/news/india-covid-19-record-coronavirus-cases-2nd-wave-new-restrictions/">https://www.cbsnews.com/news/india-covid-19-record-coronavirus-cases-2nd-wave-new-restrictions/</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <mixed-citation publication-type="other">Kuchay, B. Why is India staring at a ‘second peak’ of COVID cases? In <italic>Aljazeera.com. </italic><ext-link ext-link-type="uri" xlink:href="https://www.aljazeera.com/news/2021/3/19/why-is-india-staring-at-a-second-peak-of-covid-cases">https://www.aljazeera.com/news/2021/3/19/why-is-india-staring-at-a-second-peak-of-covid-cases</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Accorsi</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>How to detect and reduce potential sources of biases in studies of SARS-CoV-2 and COVID-19</article-title>
+                  <source>Eur. J. Epidemiol.</source>
+                  <year>2021</year>
+                  <volume>36</volume>
+                  <fpage>179</fpage>
+                  <lpage>196</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10654-021-00727-7</pub-id>
+                  <pub-id pub-id-type="pmid">33634345</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Takahashi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Greenhouse</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodríguez-Barraquer</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Are seroprevalence estimates for severe acute respiratory syndrome coronavirus 2 biased?</article-title>
+                  <source>J. Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>222</volume>
+                  <fpage>1772</fpage>
+                  <lpage>1775</lpage>
+                  <pub-id pub-id-type="doi">10.1093/infdis/jiaa523</pub-id>
+                  <pub-id pub-id-type="pmid">32856712</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <mixed-citation publication-type="other">COVID-19 Vaccine and Therapeutic Drugs Tracker. In <italic>COVID-19 Vaccine and Therapeutic Drugs Tracker. </italic><ext-link ext-link-type="uri" xlink:href="https://biorender.com/covid-vaccine-tracker">https://biorender.com/covid-vaccine-tracker</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Diekmann</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Heesterbeek</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The construction of next-generation matrices for compartmental epidemic models</article-title>
+                  <source>J. R. Soc. Interface</source>
+                  <year>2009</year>
+                  <volume>7</volume>
+                  <fpage>873</fpage>
+                  <lpage>885</lpage>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2009.0386</pub-id>
+                  <pub-id pub-id-type="pmid">19892718</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hastings</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monte Carlo sampling methods using Markov chains and their applications</article-title>
+                  <source>Biometrika</source>
+                  <year>1970</year>
+                  <volume>57</volume>
+                  <fpage>97</fpage>
+                  <lpage>109</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biomet/57.1.97</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <mixed-citation publication-type="other">BBC India. India coronavirus: Nearly one in four in Delhi had Covid-19, study says. In <italic>BBC News. </italic><ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/news/world-asia-india-53485039">https://www.bbc.com/news/world-asia-india-53485039</ext-link> (2021).</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

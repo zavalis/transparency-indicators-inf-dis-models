@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:51:46Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8275764" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8275764</identifier>
+        <datestamp>2021-07-13</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8275764</article-id>
+              <article-id pub-id-type="pmcid">PMC8275764</article-id>
+              <article-id pub-id-type="pmc-uid">8275764</article-id>
+              <article-id pub-id-type="pmid">34253768</article-id>
+              <article-id pub-id-type="publisher-id">93545</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-021-93545-6</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>COUnty aggRegation mixup AuGmEntation (COURAGE) COVID-19 prediction</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Er</surname>
+                    <given-names>Siawpeng</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Yang</surname>
+                    <given-names>Shihao</given-names>
+                  </name>
+                  <address>
+                    <email>shihao.yang@isye.gatech.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Zhao</surname>
+                    <given-names>Tuo</given-names>
+                  </name>
+                  <address>
+                    <email>tourzhao@gatech.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <aff id="Aff1"><institution-wrap><institution-id institution-id-type="GRID">grid.213917.f</institution-id><institution-id institution-id-type="ISNI">0000 0001 2097 4943</institution-id><institution>H. Milton Stewart School of Industrial and Systems Engineering, </institution><institution>Georgia Institute of Technology, </institution></institution-wrap>Atlanta, GA 30332 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>12</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>12</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>14262</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>5</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>25</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The global spread of COVID-19, the disease caused by the novel coronavirus SARS-CoV-2, has casted a significant threat to mankind. As the COVID-19 situation continues to evolve, predicting localized disease severity is crucial for advanced resource allocation. This paper proposes a method named COURAGE (COUnty aggRegation mixup AuGmEntation) to generate a short-term prediction of 2-week-ahead COVID-19 related deaths for each county in the United States, leveraging modern deep learning techniques. Specifically, our method adopts a self-attention model from Natural Language Processing, known as the transformer model, to capture both short-term and long-term dependencies within the time series while enjoying computational efficiency. Our model solely utilizes publicly available information for COVID-19 related confirmed cases, deaths, community mobility trends and demographic information, and can produce state-level predictions as an aggregation of the corresponding county-level predictions. Our numerical experiments demonstrate that our model achieves the state-of-the-art performance among the publicly available benchmark models.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Statistics</kwd>
+                <kwd>Infectious diseases</kwd>
+                <kwd>Computer science</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">COVID-19 has been spreading globally and affected almost every country since 2020. In the United States (US), the COVID-19 pandemic started spreading in January 2020, and in March, the daily number of confirmed cases and number of deaths rose to an alarming stage<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. To control the rapid spread of COVID-19, policymakers in many states imposed movement restrictions and partial confinement to everyone. For example, companies, educational institutes and public places were forced to close or work in remote settings. This has significantly affected the nationwide economy<sup><xref ref-type="bibr" rid="CR2">2</xref></sup> and posed challenges to our daily life. More importantly, the severity of COVID-19 resulted in the loss of lives and might have caused serious long-term complications<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. With nearly 31 million cases and 0.56 million deaths<sup><xref ref-type="bibr" rid="CR4">4</xref></sup> in the US alone, COVID-19 has become a serious threat to mankind.</p>
+              <p id="Par3">Since the beginning of the pandemic, different parties<sup><xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR8">8</xref></sup> have made concerted efforts to collecting and publishing COVID-19 related data, including confirmed cases, deaths, hospitalization information, demographics, and community mobility. Based on the publicly available data, researchers have built predictive models to study the disease dynamics. These efforts include compartmental models such as variants of Susceptible-Infectious-Recovered (SIR) models<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>, statistical models using regression<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> or time series analysis<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Besides, researchers have also applied agent-based simulation modeling<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup> and deep learning models<sup><xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref></sup> for predicting COVID-19 dynamics. Moreover, the Centers for Disease Control and Prevention (CDC) has been leading a collaborative effort to produce an ensemble model from different research groups<sup><xref ref-type="bibr" rid="CR18">18</xref></sup> (see more detailed discussions of the related work in COVID-19 dynamics prediction in a later section).</p>
+              <p id="Par4">Two key measurements used by various research groups in the study of the spread of COVID-19 are the number of confirmed cases and the number of deaths. Both measurements serve to measure the disease dynamics of COVID-19. It should be noted that both the number of confirmed cases and the number of deaths are subject to similar biases that may affect the accuracy of the data, primarily due to reporting criteria<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> or administration delay<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. However, the number of confirmed cases is often subject to additional measurement error due to the number of people tested and the testing procedure. For example, some datasets<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> only present confirmed cases as the number of people having positive results for a completed polymerase chain reaction test. Such coarse-grained testing numbers may undercount the true spread of the COVID-19, while introducing a significant bias to predictive models. Despite the caveat, the number of deaths is still a relatively better indicator of the intensity of COVID-19 for policymakers to make decisions. As such, we will focus on predicting COVID-19﻿ related deaths in this study.</p>
+              <p id="Par5">Furthermore, due to different disease spread severity in different geographical areas, policymakers need to tailor policies based on the particular local situation for the state or the county. Hence, accurate prediction at the state and county level is crucial for informed decisions. Indeed, the county-level analysis could provide insightful information at finer granularity for policymakers<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR22">22</xref></sup>. Policymakers can maximize resource allocation efficiency and react promptly in the legislative areas that require urgent attention. Therefore, we aim to build a model which can make short-term predictions for the number of deaths at the county level. We can also produce predictions for the number of deaths at the state level by a simple aggregation of our county-level predictions. Such a model could help both the state and local governments to make an informed decision based on the predictions at the corresponding state and county levels.</p>
+              <p id="Par6">The short-term prediction of COVID-19 dynamics is essentially a classical time series modeling problem. For each day, we collect COVID-19 related data as the input, and the desired output would be the predicted number of deaths for the next 2 weeks. On the next day, we obtain the new data from one additional day, and update our predictions for the next 2 weeks starting from the new date. This paper develops a fully data-driven approach to model COVID-19 dynamics. Specifically, we build a self-attention deep learning model, which takes the input data from multiple sources and predicts the number of COVID-19-related deaths for the future 2 weeks at the county level in the United States. The state-level prediction is then obtained by summing up all county-level predictions of the corresponding state. Moreover, we propose a sequence mix-up augmentation approach to further improve the training of our transformer model<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>. We carefully evaluate our proposed methods under different training for different periods. We further compare our best model with other benchmark models to show its strength and usability.</p>
+              <p id="Par7">Unlike most existing deep learning approaches based on recurrent neural networks (RNN) such as LSTM-RNN<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>, our proposed approach is based on a current state-of-art self-attention model in Natural Language Processing, also known as the transformer model, which is able to capture both short-term and long-term dependencies within the time series and enjoys computational efficiency. In particular, the basic building blocks of the transformer model are the self-attention modules, which directly model dependencies on previous time steps by assigning attention scores. A large score between two events implies a strong dependency, while a small score implies a weak one. In this way, the modules are able to adaptively select time steps that are at any temporal distance from the current time step. Therefore, the transformer model has the ability to capture both short-term and long-term dependencies. Moreover, the non-recurrent structure of the transformer facilitates efficient training of multi-layer models. Practical transformer models can be as deep as dozens of layers, where deeper layers capture higher order dependencies. The ability to capture such dependencies creates models that are more powerful than RNNs, which are often shallow. Also, the transformer models allow full parallelism when calculating dependencies across all time steps, i.e., the computation between any two time steps is independent of each other. This yields a model presenting strong computational efficiency.</p>
+              <sec id="Sec2">
+                <title>Related work</title>
+                <p id="Par8">Epidemic prediction is a time series prediction problem. Given a sequence of time with corresponding data, a model needs to predict the target incidence in the future time. There are four main classes of predictive models for epidemic prediction: the compartmental model, simulation modeling, statistical model, and deep learning model. Moreover, for the same class of models, the final prediction may be an ensemble of several other models. In fact, on the CDC website, the final CDC prediction is obtained by ensembling all the submitted models<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>.<list list-type="bullet"><list-item><p id="Par9"><italic>Compartmental model</italic> is one of the most widely used model types for modeling epidemic diseases. It characterizes the disease spread dynamics using systems of ordinary differential equations. One of the most successful compartmental models is the SIR model, which is used to predict disease progression within the population in one area. In the SIR<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup> model, the population is assigned to Susceptible (S), Infectious (I), or Recovered (R) mode. One variant of SIR model is SEIR model<sup><xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR30">30</xref></sup>, which introduces additionally Exposed (E) mode. Other variants of the SIR model include the SIRD<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> model, with additional Deceased (D) mode. Any transitions from one mode to another mode (i.e., the disease spreading dynamics) are modeled as differential equations, often in the form of a transition matrix. Compartmental models are hard to be widely used due to the difficulties to determine the hyperparameters in every differential equation used<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. One highly successful compartmental model for COVID-19 predictions is from Karlen’s group<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Karlen’s model uses discrete-time difference instead of ordinary differential equations to model the transition matrix.</p></list-item><list-item><p id="Par10"><italic>Simulation modeling</italic> uses computer simulation to model different components in the studied environment and observe their interactions. Cellular automata and agent-based simulation are two simulation modeling techniques used to model complex systems<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. In COVID-19 prediction, several groups<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup> use agent-based simulation due to its flexibility to simulate dynamic behaviours of systems with large number of entities. While highly flexible, agent-based simulation requires access to extensive computational resources. Besides, multiple simulations are needed for statistically sound observations, resulting in longer inference time. This limitation is noticeable when the simulated systems involve a large number of individual entities.</p></list-item><list-item><p id="Par11"><italic>Conventional statistical models</italic> use regression methods to fit the data directly. Such models include ARIMA, Gaussian process regression, and linear regression, which are more flexible than compartmental models. However, most of the time, statistical model usage is limited by the need for more sophisticated hand-crafted features, which often requires knowledge from the domain experts. For example, CLEP model<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> uses an ensemble model of an exponential predictor and a linear predictor. Model from Zhu et al.<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> uses spatio-temporal information among counties to make predictions. Model from Lampos et al.<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> applies statistical model (Autoregressive model and Gaussian Process regression) to predict the disease’s dynamics across countries in Europe and the United Kingdom based on online search data.</p></list-item><list-item><p id="Par12"><italic>Deep Learning models</italic> are deep neural networks that learn directly from input data. Such models are more flexible than both compartmental models and conventional statistical models. Due to their representation capability, such models need a less sophisticated handcrafting preprocessing of the input data. In time series prediction problems, some common deep learning models include Long short-term memory (LSTM)<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>, Gated Recurrent Unit (GRU)<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>, and transformer<sup><xref ref-type="bibr" rid="CR36">36</xref>,<xref ref-type="bibr" rid="CR37">37</xref></sup>. All the above models can capture intrinsic information from sequential data for accurate prediction. One limitation of such models is the need for large training data. Concurrently with our work, there are other deep learning models including models from Refs.<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup> that utilize attention mechanism from transformer architecture.</p></list-item></list></p>
+                <p id="Par13">Different models have their merits in their performance for different date ranges. During the beginning of the COVID-19 outbreak, due to the limitations of the available data, we see predictions from the compartmental models or statistical models. With more data available, deep learning models are showing their advantages in the model flexibility and prediction accuracy. It is also more challenging for a model to make accurate predictions as the prediction granularity becomes finer. Intuitively, errors are more likely to be accumulated if a model is tasked to predict more targets than only a few targets. However, finer prediction granularity, such as prediction at the county level, is highly desired since local predictions help policymakers make tailored policies based on individual counties.</p>
+              </sec>
+              <sec id="Sec3">
+                <title>Our contribution</title>
+                <p id="Par14">In this paper, our goal is to predict the weekly total number of deaths at both county level and state level for the next 2 weeks, given the current week data. Each single-day data include the number of confirmed cases, the number of deaths, community mobility, and population. Our novelty is to connect established Natural Language Processing techniques with the COVID-19 time series prediction. In particular, we build a self-attention model, also known as the transformer model in Natural Language Processing, that is able to capture both the short and long term dependencies within the time series input data. Our model is build upon two main ideas. First, by aggregating the accurate predictions from county level to state level, our model shows strong performance for the state-level prediction task in all prediction periods. Then, we further improve our model, by experimenting with the feasibility of using data augmentation method. We implement mixup<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> as our data augmentation method at the input layer. To the best of our knowledge, this is the first application of mixup data augmentation in COVID-19 data. Data augmentation further improves our model performance, and is particularly helpful when new trends emerge. Using these two core ideas, our proposed method, named COURAGE (COUnty aggRegation mixup AuGmEntation), is able to generate a short-term prediction of 2-week-ahead COVID-19 related deaths for each county and state in the United States. When compared with other benchmark models, COURAGE shows strong performance across different periods, showing its strength and usability for the prediction of the COVID-19 related number of deaths.</p>
+              </sec>
+            </sec>
+            <sec id="Sec4">
+              <title>Results</title>
+              <p id="Par15">To evaluate our proposed method, we compare county-level and state-level predictions using both the county-level and state-level testing sets with mean absolute error (MAE) as our comparison metrics. For county-level predictions, we compare the predictions from our COURAGE model with its two member models—the County model and the Mixup model. We also compare our model with the baseline Naive model, which simply uses the previous week’s reported total number of deaths as the prediction. In the state-level predictions, besides the previous mentioned models, we have an additional baseline State model, which is COURAGE prediction generated solely on the state-level input data without any county-level information or the mixup data augmentation. We compare the predictions according to the training period used, corresponding to 0.5, 0.6, 0.7, and 0.8 of the total dataset. We also present the performance of each model across multiple non-overlapping periods. Finally, we compare our models with the available models contributed to the CDC forecast website.</p>
+              <sec id="Sec5">
+                <title>Comparison among models</title>
+                <p id="Par16">We summarize our comparison among our models in Table <xref rid="Tab1" ref-type="table">1</xref>. We emphasize that our COURAGE model is an ensemble model that consists of two separate models: the County and the Mixup model. Those two can also serve as standalone models. We have the Naive model (a.k.a. persistence forecast model, which uses the previous week’s reported number of deaths as the forecast) as a baseline model in the county-level prediction task. We use both the Naive model and the State model (prediction using only state-level inputs) as baseline models for the state-level prediction task.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Prediction of county-level and state-level weekly total number of deaths.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Training size</th><th align="left" rowspan="2">Method</th><th align="left" colspan="2">County level</th><th align="left" colspan="2">State level</th></tr><tr><th align="left">Week 1</th><th align="left">Week 2</th><th align="left">Week 1</th><th align="left">Week 2</th></tr></thead><tbody><tr><td align="left" rowspan="5"> 0.5 (2020-03-07 to 2020-08-22)</td><td align="left">Naive</td><td align="left">2.0000</td><td align="left">2.2765</td><td char="." align="char">51.5932</td><td char="." align="char">71.8391</td></tr><tr><td align="left">State</td><td align="left">–</td><td align="left">–</td><td char="." align="char">64.1419</td><td char="." align="char">81.9421</td></tr><tr><td align="left">County</td><td align="left">1.9205</td><td align="left">2.2808</td><td char="." align="char">48.0625</td><td char="." align="char">67.1583</td></tr><tr><td align="left">Mixup</td><td align="left">1.9227</td><td align="left">2.2442</td><td char="." align="char">51.4493</td><td char="." align="char">63.4738</td></tr><tr><td align="left">COURAGE</td><td align="left">1.8691</td><td align="left">2.1602</td><td char="." align="char">47.7390</td><td char="." align="char">60.8701</td></tr><tr><td align="left" rowspan="5">0.6 (2020-03-07 to 2020-09-24)</td><td align="left">Naive</td><td align="left">2.2302</td><td align="left">2.5698</td><td char="." align="char">58.7599</td><td char="." align="char">84.1373</td></tr><tr><td align="left">State</td><td align="left">–</td><td align="left">–</td><td char="." align="char">64.1419</td><td char="." align="char">81.9421</td></tr><tr><td align="left">County</td><td align="left">2.1805</td><td align="left">2.5331</td><td char="." align="char">53.0127</td><td char="." align="char">73.8226</td></tr><tr><td align="left">Mixup</td><td align="left">2.0932</td><td align="left">2.3526</td><td char="." align="char">52.5268</td><td char="." align="char">70.6528</td></tr><tr><td align="left">COURAGE</td><td align="left">2.0984</td><td align="left">2.3633</td><td char="." align="char">51.1680</td><td char="." align="char">68.7564</td></tr><tr><td align="left" rowspan="5">0.7 (2020-03-07 to 2020-10-28)</td><td align="left">Naive</td><td align="left">2.6275</td><td align="left">3.0295</td><td char="." align="char">71.8298</td><td char="." align="char">102.1820</td></tr><tr><td align="left">State</td><td align="left">–</td><td align="left">–</td><td char="." align="char">101.2264</td><td char="." align="char">123.0914</td></tr><tr><td align="left">County</td><td align="left">2.4912</td><td align="left">2.8654</td><td char="." align="char">65.3611</td><td char="." align="char">85.1719</td></tr><tr><td align="left">Mixup</td><td align="left">2.5054</td><td align="left">2.8034</td><td char="." align="char">66.9685</td><td char="." align="char">83.6469</td></tr><tr><td align="left">COURAGE</td><td align="left">2.4583</td><td align="left">2.7547</td><td char="." align="char">64.9884</td><td char="." align="char">81.9787</td></tr><tr><td align="left" rowspan="5">0.8 (2020-03-07 to 2020-12-01)</td><td align="left">Naive</td><td align="left">3.0036</td><td align="left">3.3499</td><td char="." align="char">80.5957</td><td char="." align="char">106.7175</td></tr><tr><td align="left">State</td><td align="left">–</td><td align="left">–</td><td char="." align="char">118.9543</td><td char="." align="char">147.5468</td></tr><tr><td align="left">County</td><td align="left">2.8240</td><td align="left">3.1477</td><td char="." align="char">74.7763</td><td char="." align="char">98.2125</td></tr><tr><td align="left">Mixup</td><td align="left">2.8258</td><td align="left">3.0506</td><td char="." align="char">71.6854</td><td char="." align="char">84.4188</td></tr><tr><td align="left">COURAGE</td><td align="left">2.7670</td><td align="left">2.9753</td><td char="." align="char">70.8481</td><td char="." align="char">86.3737</td></tr></tbody></table><table-wrap-foot><p>The comparison metrics used is MAE, and the testing dataset starts from the 2020-08-23, 2020-09-25, 2020-10-29 and 2020-12-02 to 2021-02-07 for each corresponding training dataset.</p></table-wrap-foot></table-wrap></p>
+                <p id="Par17">The County model and the Mixup model produce more accurate predictions than the Naive model in the county-level prediction task. By combining these two models, we improve our COURAGE model’s prediction accuracy. We also get accurate predictions from the County model and the Mixup model in the state-level prediction task. They outperform both the Naive model and the State model. When combining both models, COURAGE has the best accuracy under different prediction periods, shy from the Week 2 predictions when using the training dataset dated from March 7, 2020, to December 1, 2020. We observe that the County model and the Mixup model have their strengths for different periods. Our COURAGE model often obtains the best of both models and produces the most accurate predictions.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Predictions for different periods</title>
+                <p id="Par18">We show the number of deaths prediction for different periods in Table <xref rid="Tab2" ref-type="table">2</xref>. Since we use different amount of datapoints as our training set, our training data consists of information across different periods. We take the non-overlapping period from each testing set as a separate out of the sample prediction period. In all the periods, the County and Mixup models produce better predictions than the Naive model. The result shows the feasibility of both models. For the Mixup model, its strength is visible in the last two periods of prediction. In the last prediction period, we use our trained model (using training set with data from 2020-03-07 to 2020-12-01) to predict the latest data with a prediction period from 2021-01-18 to 2021-03-14. Our model is able to predict accurately for the new data, as illustrated by plot of prediction for New York in Fig. <xref rid="Fig1" ref-type="fig">1</xref> and additional plots for other major states (Illinois, California, Texas, Arizona) in <xref rid="MOESM1" ref-type="media">Supplementary Information</xref>. We mark in Fig. <xref rid="Fig1" ref-type="fig">1</xref> with light grey lines for different prediction date ranges as that of Table <xref rid="Tab2" ref-type="table">2</xref>. In the first two periods, the number of deaths is relatively low and stable. There is an increase in the number of deaths in the third period. Finally, we can see a huge increase or decrease in the number of deaths in the last two prediction periods. In scenarios with relatively stable trends, the County model provides better predictions than that of the Naive model. With a more drastic change in the trend, a model trained with mixup data augmentation generalizes better, hence outperforming both Naive and County models. When combining predictions from the County and Mixup models, COURAGE model provides a balanced and more accurate prediction across different periods.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Different prediction periods for the weekly total number of deaths.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Prediction period</th><th align="left">Model</th><th align="left">Week 1</th><th align="left">Week 2</th></tr></thead><tbody><tr><td align="left" rowspan="4">2020-08-23 to 2020-09-24</td><td align="left">Naive</td><td char="." align="char">26.6183</td><td char="." align="char">28.9819</td></tr><tr><td align="left">County</td><td char="." align="char">23.2328</td><td char="." align="char">25.2783</td></tr><tr><td align="left">Mixup</td><td char="." align="char">25.3481</td><td char="." align="char">26.5330</td></tr><tr><td align="left">COURAGE</td><td char="." align="char">23.5522</td><td char="." align="char">25.3955</td></tr><tr><td align="left" rowspan="4">2020-09-25 to 2020-10-28</td><td align="left">Naive</td><td char="." align="char">27.6227</td><td char="." align="char">41.1483</td></tr><tr><td align="left">County</td><td char="." align="char">24.0228</td><td char="." align="char">31.3968</td></tr><tr><td align="left">Mixup</td><td char="." align="char">27.0248</td><td char="." align="char">37.3008</td></tr><tr><td align="left">COURAGE</td><td char="." align="char">24.1806</td><td char="." align="char">32.2430</td></tr><tr><td align="left" rowspan="4">2020-10-29 to 2020-12-01</td><td align="left">Naive</td><td char="." align="char">59.7121</td><td char="." align="char">95.9124</td></tr><tr><td align="left">County</td><td char="." align="char">48.3641</td><td char="." align="char">62.4764</td></tr><tr><td align="left">Mixup</td><td char="." align="char">51.0948</td><td char="." align="char">64.5994</td></tr><tr><td align="left">COURAGE</td><td char="." align="char">49.1359</td><td char="." align="char">61.9947</td></tr><tr><td align="left" rowspan="4">2020-12-02 to 2021-01-17</td><td align="left">Naive</td><td char="." align="char">80.5957</td><td char="." align="char">106.7175</td></tr><tr><td align="left">County</td><td char="." align="char">74.7763</td><td char="." align="char">98.2125</td></tr><tr><td align="left">Mixup</td><td char="." align="char">71.6854</td><td char="." align="char">84.4188</td></tr><tr><td align="left">COURAGE</td><td char="." align="char">70.8481</td><td char="." align="char">86.3737</td></tr><tr><td align="left" rowspan="4">2021-01-18 to 2021-03-14 (use last trained model)</td><td align="left">Naive</td><td char="." align="char">84.5587</td><td char="." align="char">122.9295</td></tr><tr><td align="left">County</td><td char="." align="char">75.8700</td><td char="." align="char">82.0913</td></tr><tr><td align="left">Mixup</td><td char="." align="char">76.3645</td><td char="." align="char">80.7036</td></tr><tr><td align="left">COURAGE</td><td char="." align="char">75.0621</td><td char="." align="char">79.7467</td></tr></tbody></table><table-wrap-foot><p>The prediction metrics reported is MAE.</p></table-wrap-foot></table-wrap></p>
+                <p id="Par19">
+                  <fig id="Fig1">
+                    <label>Figure 1</label>
+                    <caption>
+                      <p>New York’s weekly total number of deaths for Week 1 (left) predictions and Week 2 (right) predictions. Vertical lines separate different prediction periods as in Table <xref rid="Tab2" ref-type="table">2</xref>. The last dashed vertical line marks the prediction period of recent data using our last trained model. “Target” is the true reported number of deaths of New York. More plots for other major states are presented in <xref rid="MOESM1" ref-type="media">Supplementary Information</xref>.</p>
+                    </caption>
+                    <graphic xlink:href="41598_2021_93545_Fig1_HTML" id="MO1"/>
+                  </fig>
+                </p>
+              </sec>
+              <sec id="Sec7">
+                <title>Comparison with benchmark models</title>
+                <p id="Par20">We obtain all publicly available predictions from the CDC website for comparison<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR38">38</xref>–<xref ref-type="bibr" rid="CR51">51</xref></sup>. Different research groups or individuals contribute towards these predictions. CDC compiles predictions from every model that submits their weekly predictions and uploads them to the CDC website. Note that all prediction models have their strengths in different date ranges. Moreover, they outperform most of the simple methods. We compare our models’ predictions with those who send predictions to the CDC official website. The comparison is done for predictions from November 11, 2020 to February 6, 2021. For each model, we calculate MAE for Week 1 and Week 2 predictions, and we calculate the average MAE. We summarize the result in Table <xref rid="Tab3" ref-type="table">3</xref>. Then we rank each model using the average MAE obtained for both Week 1 predictions and Week 2 predictions. Due to the extensively long list of models, we only show results from the top 10 models in both tables. From Table <xref rid="Tab3" ref-type="table">3</xref>, we can observe that our County model produces competitive accuracy for the number of deaths prediction. Our County model is a top 10 model in terms of prediction accuracy. When we augment our dataset, our Mixup model further improves the prediction accuracy. We wish to examine which period mixup data augmentation contributes the most to model accuracy. Mixup data augmentation improves our model when a new trend emerges and helps our model to achieve better prediction in the last period, as illustrated in Table <xref rid="MOESM1" ref-type="media">S1</xref> of Supplementary Information. By combining strengths from the County and Mixup models, our COURAGE provides a good balance across different prediction periods.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Comparison among different models for average MAE (from 2020-11-07 to 2021-02-06).</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Model</th><th align="left">Week 1</th><th align="left">Week 2</th><th align="left">Average</th></tr></thead><tbody><tr><td align="left">Karlen<sup><xref ref-type="bibr" rid="CR33">33</xref></sup></td><td char="." align="char">56.2163</td><td char="." align="char">77.3440</td><td char="." align="char">66.7801</td></tr><tr><td align="left">Ensemble<sup><xref ref-type="bibr" rid="CR18">18</xref></sup></td><td char="." align="char">57.3227</td><td char="." align="char">79.1330</td><td char="." align="char">68.2278</td></tr><tr><td align="left"><bold>COURAGE</bold></td><td char="." align="char">61.1206</td><td char="." align="char">76.9096</td><td char="." align="char">69.0151</td></tr><tr><td align="left">Mixup</td><td char="." align="char">61.7890</td><td char="." align="char">77.1330</td><td char="." align="char">69.4610</td></tr><tr><td align="left">UMass-MB<sup><xref ref-type="bibr" rid="CR43">43</xref></sup></td><td char="." align="char">57.1578</td><td char="." align="char">84.5514</td><td char="." align="char">70.8546</td></tr><tr><td align="left">Oliver Wyman<sup><xref ref-type="bibr" rid="CR40">40</xref></sup></td><td char="." align="char">58.9645</td><td char="." align="char">85.6277</td><td char="." align="char">72.2961</td></tr><tr><td align="left">MOBS<sup><xref ref-type="bibr" rid="CR45">45</xref></sup></td><td char="." align="char">60.4486</td><td char="." align="char">84.9539</td><td char="." align="char">72.7012</td></tr><tr><td align="left">County</td><td char="." align="char">62.7057</td><td char="." align="char">83.5585</td><td char="." align="char">73.1321</td></tr><tr><td align="left">GT-DeepCOVID<sup><xref ref-type="bibr" rid="CR15">15</xref></sup></td><td char="." align="char">67.1962</td><td char="." align="char">90.1549</td><td char="." align="char">78.6756</td></tr><tr><td align="left">USC<sup><xref ref-type="bibr" rid="CR46">46</xref></sup></td><td char="." align="char">68.1082</td><td char="." align="char">93.3954</td><td char="." align="char">80.7518</td></tr></tbody></table></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec8">
+              <title>Discussion</title>
+              <p id="Par21">From our results, we see that our COURAGE model gains its strengths from both member models, which are the County model and the Mixup model. The two core ideas associated with these member models are the aggregation of the high-quality county predictions (County model) and data augmentation (Mixup model).</p>
+              <p id="Par22">The aggregation of high-quality county predictions results in high-quality state predictions. We could see high-quality county-level predictions from County and Mixup methods from Table <xref rid="Tab1" ref-type="table">1</xref>. This result shows our model and training are effective in extracting and utilizing the information from the input data. When we aggregate these accurate county-level predictions, our models can produce state-level predictions that outperform baseline models. As an illustrative comparison, the State model (baseline model) uses only state-level data as input. Such input is limited and of coarser grain, making it harder for the State model to produce accurate predictions. As a result, the State model’s performance pales when compared with our model, as well as the Naive model. One way to refine state-level prediction is through the use of county-level data. By training our models using the larger county-level dataset, we obtain accurate county-level predictions. When we sum these high-quality county-level predictions, we obtain accurate state-level predictions. We justify our intuition from state-level predictions of Table <xref rid="Tab1" ref-type="table">1</xref>, by showing a strong result from our model.</p>
+              <p id="Par23">The data augmentation from Mixup method also played a significant role in improving the accuracy of our predictions. Due to the fast-evolving dynamics of COVID-19, most models that submit their predictions to the CDC have high accuracy only for a certain period. Existing trends are much easier to fit than emerging trends, and any changes of an existing trend are hard to predict due to the scarcity of data available at the onset of changes. The fundamental reason for prediction deterioration is the lack of visibility of the new trend given the limited data available. If we could increase the amount of available data by incorporating new data, predictive models could be improved when a new trend emerges. However, data generation is hard for any new trend. One way to improve the model’s prediction on emerging trends is to improve its generalization with augmented input data. Our Mixup model uses a well-proven data augmentation technique to create new input data. Such training helps our model achieve accurate predictions in the emergence of unseen data.</p>
+              <p id="Par24">By combining the strength of each member model (the County model and the Mixup model), we obtain the COURAGE model. Our COURAGE model obtains its prediction by averaging County prediction and Mixup prediction. This simple ensemble method allows our COURAGE model to decrease the variance in different models and achieve a balanced model.</p>
+              <p id="Par25">While our COURAGE model shows strong results, one limitation of our current model is that the self-attention matrix from the encoder is not easily translated to an explainable pattern. Our model’s predictions use information from the confirmed cases, deaths, population, and mobility data. Their interaction is encoded by the encoder, with self attention as a key mechanism. Hence, it will be beneficial to the research community if we could see any important relationship among these inputs through the attention matrix. Besides, our model is a relatively concise model that leverages temporal data. In our future work, we plan to extend our work to include spatial information such as interaction among counties or major cities. We expect that the inclusion of such geographical information would further improving our model’s predictions. Currently, our model predicts 2 weeks ahead predictions. We plan to include predictions of a longer horizon up to 4 weeks ahead predictions, and also generate a probabilistic forecast that explicitly accounts for forecast confidence.</p>
+            </sec>
+            <sec id="Sec9">
+              <title>Methods</title>
+              <p id="Par26">In this section, we present our data sources and data processing used in this paper. We also present details of our transformer-based model, mixup data augmentation technique, and training procedure.</p>
+              <sec id="Sec10">
+                <title>Data sources</title>
+                <p id="Par27">We use three comprehensive datasets in this study, including confirmed cases, deaths, population, and community mobility from two sources. We only focus on states in the mainland of the United States and do not consider Hawaii, Alaska, and other unincorporated territories in this paper. We use data from 47 states and 3206 counties.</p>
+                <p id="Par28"><italic>Confirmed cases and deaths of Covid-19</italic>    We use data from the JHU CSSE Covid-19 dataset<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. This publicly available data is a curated dataset from different sources. The data used is collected from January 22, 2020, to February 7, 2021. We use confirmed cases and deaths from the dataset for every county from 47 targeted states.</p>
+                <p id="Par29"><italic>Community mobility</italic>    Mobility data have been shown to help the risk analysis of COVID-19 and enhance the predictions of the COVID-19 related deaths and cases<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR52">52</xref>–<xref ref-type="bibr" rid="CR56">56</xref></sup>. In current article, we use Google mobility data<sup><xref ref-type="bibr" rid="CR8">8</xref></sup> to incorporate mobility information in our model. These reports record a community’s daily movement by county for different areas such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential. There is a baseline day’s value for every day of a week, which represents the usual community mobility value. The baseline day’s value is the median of the data from January 3, 2020, to February 6, 2020. Google mobility data reports the movement pattern of the US community. Each day’s data is in the percentage of changes from the baseline day’s value. A negative value for a particular day indicates a decrease in time spent at the area from the baseline day, while a positive value indicates an increase in mobility from the baseline day.</p>
+                <p id="Par30"><italic>Demographic information</italic>    We use population information from the JHU CSSE Covid-19 dataset<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> which includes population data for each corresponding county.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Data preparation</title>
+                <p id="Par31">We retrieve features required for our model training, including the number of confirmed cases, the number of deaths, population, and mobility information from our datasets. We consolidate all input data into state-level and county-level datasets. We also include smoothed (average over past 7 days) confirmed cases and deaths as our input features. We separate total data into training and testing datasets for each corresponding level. To test our method for a different period, we try different amounts (50%, 60% and 70%, and 80%) of the total data as our training dataset, leaving the remaining data as our testing dataset. Since we use multiple features as inputs, we apply standardization to the inputs to accommodate differences in scale for each input. We also use additional data from February 8, 2021, to March 14, 2021, to test the model trained using 80% of the data in order to examine whether our trained model can continue to perform well for a new period without additional training.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Transformer-based model</title>
+                <p id="Par33">The prediction of COVID-19 related number of deaths given a sequence of input is a time series modeling problem. In a typical time series prediction setting, given a sequence of previous days’ number of deaths, the aim is to predict the number of deaths for the next future day. For our current article, our prediction problem is different from this typical time series problem. In the current article, our input consists of the current week’s number of deaths, number of confirmed cases, smoothed (average over 7 days) number of confirmed cases, smoothed number of deaths, community mobility data, and population of the area. More importantly, instead of predicting the daily number of deaths, our model predicts the weekly total number of deaths for the next 2 weeks (Week 1 and Week 2), given the current week (Week 0) input data. We join the current week input information together to form a data vector of dimension <italic>K</italic>. The input for our COVID-19 prediction problem can be viewed as a sequence of <italic>K</italic>-dimensional vectors. Suppose we are given a sequence <inline-formula id="IEq5"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathcal {S}} = \{k_j\}_{j=1}^L$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mi mathvariant="script">S</mml:mi><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">}</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>L</mml:mi></mml:msubsup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq5.gif"/></alternatives></inline-formula> of <italic>L</italic> days data, where each single-day data <inline-formula id="IEq6"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_j \in {\mathbf {R}}^K$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mi>K</mml:mi></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq6.gif"/></alternatives></inline-formula>, occurs at time <italic>j</italic>.</p>
+                <p id="Par34">The key ingredient of our transformer-based model is the self-attention module. Different from RNNs, the attention mechanism does not have recurrent structure. In order to incorporate the temporal information into the inputs, we use the original positional encoding method<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> to our data vector. Alternatively, we could also use other positional encoding methods such as relative position<sup><xref ref-type="bibr" rid="CR57">57</xref></sup> to provide the temporal information for each of single-day data vector in our input sequence.</p>
+                <p id="Par35">Before passing to the attention module, we first transform our sequence of single-day data vectors using a matrix <inline-formula id="IEq7"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {U}} \in {\mathbf {R}}^{M \times K}$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mi mathvariant="bold">U</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>×</mml:mo><mml:mi>K</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq7.gif"/></alternatives></inline-formula>. After the transformation, for any single-day data <inline-formula id="IEq8"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x_j$$\end{document}</tex-math><mml:math id="M8"><mml:msub><mml:mi>x</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq8.gif"/></alternatives></inline-formula> and its corresponding time stamp <italic>j</italic>, the temporal vector <inline-formula id="IEq9"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$z_j$$\end{document}</tex-math><mml:math id="M10"><mml:msub><mml:mi>z</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq9.gif"/></alternatives></inline-formula> and the single-day data vector <inline-formula id="IEq10"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {U}}k_j$$\end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mi mathvariant="bold">U</mml:mi><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq10.gif"/></alternatives></inline-formula> both reside in <inline-formula id="IEq11"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {R}}^M$$\end{document}</tex-math><mml:math id="M14"><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mi>M</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq11.gif"/></alternatives></inline-formula>. Given a sequence of <italic>L</italic> days data <inline-formula id="IEq12"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathcal {S}} = \{k_j\}^L_{j=1}$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mi mathvariant="script">S</mml:mi><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">}</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>L</mml:mi></mml:msubsup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq12.gif"/></alternatives></inline-formula>, we get<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\mathbf {X}} = (\mathbf {UE} + {\mathbf {Z}})^T, \end{aligned}$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi mathvariant="bold">X</mml:mi><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="bold">UE</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="bold">Z</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>T</mml:mi></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_93545_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq13"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {E}} = [k_1,k_2,\dots ,k_L] \in {\mathbf {R}}^{K \times L}$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mi mathvariant="bold">E</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>K</mml:mi><mml:mo>×</mml:mo><mml:mi>L</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq13.gif"/></alternatives></inline-formula> is the sequence of single-day data vectors, <inline-formula id="IEq14"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {Z}} = [z_1, z_2,\dots , z_j] \in \mathbf {M \times L}$$\end{document}</tex-math><mml:math id="M22"><mml:mrow><mml:mi mathvariant="bold">Z</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false">[</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">]</mml:mo><mml:mo>∈</mml:mo><mml:mrow><mml:mi mathvariant="bold">M</mml:mi><mml:mo>×</mml:mo><mml:mi mathvariant="bold">L</mml:mi></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq14.gif"/></alternatives></inline-formula> is the concatenation of the temporal vectors.</p>
+                <p id="Par36">We pass <inline-formula id="IEq15"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {X}}$$\end{document}</tex-math><mml:math id="M24"><mml:mi mathvariant="bold">X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq15.gif"/></alternatives></inline-formula> through the self-attention module. Specifically, we compute the attention output <inline-formula id="IEq16"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {S}}$$\end{document}</tex-math><mml:math id="M26"><mml:mi mathvariant="bold">S</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq16.gif"/></alternatives></inline-formula> by<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\mathbf {S}} = \text {Softmax }\left( \dfrac{\mathbf {QK}^{T}}{\sqrt{M_K}}\right) {\mathbf {V}},\text { where }{\mathbf {Q}} = \mathbf {XW}^Q, {\mathbf {K}} = \mathbf {XW}^K, {\mathbf {V}} = \mathbf {XW}^V. \end{aligned}$$\end{document}</tex-math><mml:math id="M28" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi mathvariant="bold">S</mml:mi><mml:mo>=</mml:mo><mml:mtext>Softmax</mml:mtext><mml:mspace width="0.333333em"/><mml:mfenced close=")" open="("><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:msup><mml:mrow><mml:mi mathvariant="bold">QK</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msup><mml:msqrt><mml:msub><mml:mi>M</mml:mi><mml:mi>K</mml:mi></mml:msub></mml:msqrt></mml:mfrac></mml:mstyle></mml:mfenced><mml:mi mathvariant="bold">V</mml:mi><mml:mo>,</mml:mo><mml:mspace width="0.333333em"/><mml:mtext>where</mml:mtext><mml:mspace width="0.333333em"/><mml:mi mathvariant="bold">Q</mml:mi><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">XW</mml:mi></mml:mrow><mml:mi>Q</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:mi mathvariant="bold">K</mml:mi><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">XW</mml:mi></mml:mrow><mml:mi>K</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:mi mathvariant="bold">V</mml:mi><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">XW</mml:mi></mml:mrow><mml:mi>V</mml:mi></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_93545_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>Here, <inline-formula id="IEq17"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {Q}}$$\end{document}</tex-math><mml:math id="M30"><mml:mi mathvariant="bold">Q</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq17.gif"/></alternatives></inline-formula>, <inline-formula id="IEq18"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {K}}$$\end{document}</tex-math><mml:math id="M32"><mml:mi mathvariant="bold">K</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq18.gif"/></alternatives></inline-formula>, <inline-formula id="IEq19"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {V}}$$\end{document}</tex-math><mml:math id="M34"><mml:mi mathvariant="bold">V</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq19.gif"/></alternatives></inline-formula> are the query, key and value matrices obtained by different linear transformations of <inline-formula id="IEq20"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {X}}$$\end{document}</tex-math><mml:math id="M36"><mml:mi mathvariant="bold">X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq20.gif"/></alternatives></inline-formula>, and <inline-formula id="IEq21"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {W}}^Q$$\end{document}</tex-math><mml:math id="M38"><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>Q</mml:mi></mml:msup></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq21.gif"/></alternatives></inline-formula>, <inline-formula id="IEq22"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {W}}^K \in {\mathbf {R}}^{M \times M_K}$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>K</mml:mi></mml:msup><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>×</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>K</mml:mi></mml:msub></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq22.gif"/></alternatives></inline-formula>, <inline-formula id="IEq23"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {W}}^V \in {\mathbf {R}}^{M \times M_V}$$\end{document}</tex-math><mml:math id="M42"><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>V</mml:mi></mml:msup><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>×</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>V</mml:mi></mml:msub></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq23.gif"/></alternatives></inline-formula> are weights for the respective linear transformations. In practice, multi-head self-attention increases model flexibility and is beneficial for data fitting. In multi-head self-attention, different sets of weights <inline-formula id="IEq24"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\{{\mathbf {W}}^Q_h,{\mathbf {W}}^K_h,{\mathbf {W}}^V_h\}^H_{h=1}$$\end{document}</tex-math><mml:math id="M44"><mml:msubsup><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>h</mml:mi><mml:mi>Q</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>h</mml:mi><mml:mi>K</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>h</mml:mi><mml:mi>V</mml:mi></mml:msubsup><mml:mo stretchy="false">}</mml:mo></mml:mrow><mml:mrow><mml:mi>h</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>H</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq24.gif"/></alternatives></inline-formula> are used to compute different attention outputs <inline-formula id="IEq25"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {S}}_1,{\mathbf {S}}_2,\dots ,{\mathbf {S}}_H$$\end{document}</tex-math><mml:math id="M46"><mml:mrow><mml:msub><mml:mi mathvariant="bold">S</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">S</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">S</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq25.gif"/></alternatives></inline-formula>. The final attention output for the sequence is then obtained by concatenating all the attention outputs and passing through the final linear transformation.<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\mathbf {S}} = \left[ \mathbf {S_1},\mathbf {S_2},\dots ,\mathbf {S_H} \right] {\mathbf {W}}^O \end{aligned}$$\end{document}</tex-math><mml:math id="M48" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi mathvariant="bold">S</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:msub><mml:mi mathvariant="bold">S</mml:mi><mml:mn mathvariant="bold">1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">S</mml:mi><mml:mn mathvariant="bold">2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">S</mml:mi><mml:mi mathvariant="bold">H</mml:mi></mml:msub></mml:mfenced><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>O</mml:mi></mml:msup></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_93545_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq26"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {W}}^O \in {\mathbf {R}}^{HM_V \times M}$$\end{document}</tex-math><mml:math id="M50"><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mi>O</mml:mi></mml:msup><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi><mml:msub><mml:mi>M</mml:mi><mml:mi>V</mml:mi></mml:msub><mml:mo>×</mml:mo><mml:mi>M</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq26.gif"/></alternatives></inline-formula> is an aggregation matrix.</p>
+                <p id="Par37">We highlight that the self-attention mechanism allows the selection of any single-day data whose occurrence time is at any distance from the current time. The <italic>j</italic>-th column of the attention score from the Softmax <inline-formula id="IEq27"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(\mathbf {QK}^T/\sqrt{M_K})$$\end{document}</tex-math><mml:math id="M52"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">QK</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msup><mml:mo stretchy="false">/</mml:mo><mml:msqrt><mml:msub><mml:mi>M</mml:mi><mml:mi>K</mml:mi></mml:msub></mml:msqrt><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq27.gif"/></alternatives></inline-formula> indicates the extent of dependency of <italic>j</italic>-th single-day data (<inline-formula id="IEq28"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_j$$\end{document}</tex-math><mml:math id="M54"><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq28.gif"/></alternatives></inline-formula>) on its history. Hence, attention mechanism allows the capturing of short and long term dependencies of the sequence data. On the other hand, RNN-based models encode the data’s history sequentially via hidden representations of events, where the state of <italic>j</italic> depends on that of <inline-formula id="IEq29"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j-1$$\end{document}</tex-math><mml:math id="M56"><mml:mrow><mml:mi>j</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq29.gif"/></alternatives></inline-formula>, which in turn depends on <inline-formula id="IEq30"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j-2$$\end{document}</tex-math><mml:math id="M58"><mml:mrow><mml:mi>j</mml:mi><mml:mo>-</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq30.gif"/></alternatives></inline-formula>, etc. If the RNN fails to learn sufficient information for single-day data at <italic>j</italic>, subsequent hidden representation of any other single-day data at <italic>t</italic> where <inline-formula id="IEq31"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t \ge j$$\end{document}</tex-math><mml:math id="M60"><mml:mrow><mml:mi>t</mml:mi><mml:mo>≥</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq31.gif"/></alternatives></inline-formula> will be adversely impacted.</p>
+                <p id="Par38">The attention output <inline-formula id="IEq32"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {S}}$$\end{document}</tex-math><mml:math id="M62"><mml:mi mathvariant="bold">S</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq32.gif"/></alternatives></inline-formula> is then fed through a position-wise feed forward neural network, generating a hidden representation <inline-formula id="IEq33"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {h}}(j)$$\end{document}</tex-math><mml:math id="M64"><mml:mrow><mml:mi mathvariant="bold">h</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>j</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq33.gif"/></alternatives></inline-formula> of the input data sequence:<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\mathbf {H}} = \text {ReLU}(\mathbf {SW_1^{FF}} +{\mathbf {b}}_1)\mathbf {W_2^{FF}} +{\mathbf {b}}_2, \; {\mathbf {h}}(j) = {\mathbf {H}}(j,:). \end{aligned}$$\end{document}</tex-math><mml:math id="M66" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi mathvariant="bold">H</mml:mi><mml:mo>=</mml:mo><mml:mtext>ReLU</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi mathvariant="bold">SW</mml:mi><mml:mn mathvariant="bold">1</mml:mn><mml:mi mathvariant="bold">FF</mml:mi></mml:msubsup><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="bold">b</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msubsup><mml:mi mathvariant="bold">W</mml:mi><mml:mn mathvariant="bold">2</mml:mn><mml:mi mathvariant="bold">FF</mml:mi></mml:msubsup><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="bold">b</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mspace width="0.277778em"/><mml:mi mathvariant="bold">h</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>j</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="bold">H</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mo>:</mml:mo><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_93545_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>Here <inline-formula id="IEq34"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathbf {SW_1^{FF}} \in {\mathbf {R}}^{M \times M_H}$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:msubsup><mml:mi mathvariant="bold">SW</mml:mi><mml:mn mathvariant="bold">1</mml:mn><mml:mi mathvariant="bold">FF</mml:mi></mml:msubsup><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>×</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq34.gif"/></alternatives></inline-formula> , <inline-formula id="IEq35"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathbf {SW_2^{FF}} \in {\mathbf {R}}^{M_H \times M}$$\end{document}</tex-math><mml:math id="M70"><mml:mrow><mml:msubsup><mml:mi mathvariant="bold">SW</mml:mi><mml:mn mathvariant="bold">2</mml:mn><mml:mi mathvariant="bold">FF</mml:mi></mml:msubsup><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mi>M</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>×</mml:mo><mml:mi>M</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq35.gif"/></alternatives></inline-formula>, <inline-formula id="IEq36"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {b}}_1 \in {\mathbf {R}}^{M_H}$$\end{document}</tex-math><mml:math id="M72"><mml:mrow><mml:msub><mml:mi mathvariant="bold">b</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:msub><mml:mi>M</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq36.gif"/></alternatives></inline-formula>,<inline-formula id="IEq37"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {b}}_2 \in {\mathbf {R}}^{M}$$\end{document}</tex-math><mml:math id="M74"><mml:mrow><mml:msub><mml:mi mathvariant="bold">b</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mi>M</mml:mi></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq37.gif"/></alternatives></inline-formula> are the corresponding weights and biases of the feed forward neural networks. The resulting matrix <inline-formula id="IEq38"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {H}} \in {\mathbf {R}}^{L \times M}$$\end{document}</tex-math><mml:math id="M76"><mml:mrow><mml:mi mathvariant="bold">H</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>L</mml:mi><mml:mo>×</mml:mo><mml:mi>M</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq38.gif"/></alternatives></inline-formula> contains hidden representations of all the information in the input sequence, where each row corresponds to a particular information. We use this final representation as an input to our linear decoder layer and obtain our predictions of the weekly total number of deaths for next 2 weeks.</p>
+                <p id="Par39">In a typical time series prediction setting, the number of deaths prediction only forcasts the next day given the current week data. In such typical time series prediction, we need to implement masking for the attention mechanism to prevent “peeking into the future” issue. The masking allows any <italic>j</italic>-th data to attend only to any <italic>t</italic>-th data where <inline-formula id="IEq39"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t \le j$$\end{document}</tex-math><mml:math id="M78"><mml:mrow><mml:mi>t</mml:mi><mml:mo>≤</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq39.gif"/></alternatives></inline-formula>. In the current article, our model is predicting the weekly total number of deaths for the next 2 weeks (Week 1 and Week 2), given the current week (Week 0) input data. This setting frees us from such masking requirement since the model is implicitly masked from accessing the future total number of deaths from the current week data.</p>
+                <p id="Par40">A transformer based model allows us to stack multiple self-attention modules together, and inputs are passed through each of these modules sequentially. In this way our model is able to capture high level dependencies. We remark that stacking RNN/LSTM are susceptible to gradient explosion and gradient vanishing, rendering the stacked model more difficult to train. Figure <xref rid="Fig2" ref-type="fig">2</xref> illustrates the architecture of our transformer-based model used in this project.<fig id="Fig2"><label>Figure 2</label><caption><p>Transformer based model architecture.</p></caption><graphic xlink:href="41598_2021_93545_Fig2_HTML" id="MO2"/></fig></p>
+              </sec>
+              <sec id="Sec13">
+                <title>Mixup data augmentation</title>
+                <p id="Par41">Data augmentation is a commonly used technique to improve the deep learning models’ generalization. One recent augmentation method is mixup<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR58">58</xref>,<xref ref-type="bibr" rid="CR59">59</xref></sup> data augmentation. In mixup data augmentation, given <inline-formula id="IEq40"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {X}}$$\end{document}</tex-math><mml:math id="M80"><mml:mi mathvariant="bold">X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq40.gif"/></alternatives></inline-formula> as the input space of total training data and <inline-formula id="IEq41"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {Y}}$$\end{document}</tex-math><mml:math id="M82"><mml:mi mathvariant="bold">Y</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq41.gif"/></alternatives></inline-formula> as the corresponding output values space, each training set is a pair of <inline-formula id="IEq42"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(x_i, y_i)$$\end{document}</tex-math><mml:math id="M84"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq42.gif"/></alternatives></inline-formula>. Mixup data augmentation constructs new data by interpolating it from existing data.<disp-formula id="Equ5"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \tilde{x}&amp;= \lambda x_i + (1 - \lambda )x_j\\ \tilde{y}&amp;= \lambda y_i + (1 - \lambda )y_j \end{aligned}$$\end{document}</tex-math><mml:math id="M86" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mover accent="true"><mml:mi>x</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:mi>λ</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>λ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mrow/><mml:mover accent="true"><mml:mi>y</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:mi>λ</mml:mi><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>λ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_93545_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq43"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(x_i, y_i)$$\end{document}</tex-math><mml:math id="M88"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq43.gif"/></alternatives></inline-formula> and <inline-formula id="IEq44"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(x_j, y_j)$$\end{document}</tex-math><mml:math id="M90"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq44.gif"/></alternatives></inline-formula> are two examples drawn at random and <inline-formula id="IEq45"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda \in [0, 1]$$\end{document}</tex-math><mml:math id="M92"><mml:mrow><mml:mi>λ</mml:mi><mml:mo>∈</mml:mo><mml:mo stretchy="false">[</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq45.gif"/></alternatives></inline-formula>. In our model, we use mixup data augmentation at input layer.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>Training objective</title>
+                <p id="Par42">We train the transformer model using the Huber loss function. Specifically, the training objective is defined as<disp-formula id="Equ6"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \underset{\theta }{\text {min}}\;\ell \left( f_{\theta }({\mathbf {X}}),{\mathbf {Y}} \right)&amp;= \dfrac{1}{n}\sum _{i=1}^{n} z_{i},\quad \text {where }z_{i} = {\left\{ \begin{array}{ll} \dfrac{1}{2} (f_\theta (x_i) - y_i)^2 , &amp;{} \text {if } |f_\theta (x_i) - y_i| \le \delta \\ \delta \; \left( |f_\theta (x_i) - y_i| - \dfrac{1}{2} \delta \right) , &amp;{} \text {otherwise,} \end{array}\right. } \end{aligned}$$\end{document}</tex-math><mml:math id="M94" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:munder><mml:mtext>min</mml:mtext><mml:mi>θ</mml:mi></mml:munder><mml:mspace width="0.277778em"/><mml:mi>ℓ</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>f</mml:mi><mml:mi>θ</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="bold">X</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi mathvariant="bold">Y</mml:mi></mml:mfenced></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mn>1</mml:mn><mml:mi>n</mml:mi></mml:mfrac></mml:mstyle><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:msub><mml:mi>z</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mspace width="1em"/><mml:mtext>where</mml:mtext><mml:mspace width="0.333333em"/><mml:msub><mml:mi>z</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac></mml:mstyle><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>θ</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>-</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow><mml:mrow/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>θ</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>-</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mo>≤</mml:mo><mml:mi>δ</mml:mi></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi>δ</mml:mi><mml:mspace width="0.277778em"/><mml:mfenced close=")" open="("><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>θ</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>-</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mo>-</mml:mo></mml:mrow><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac></mml:mstyle><mml:mi>δ</mml:mi></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mtext>otherwise,</mml:mtext></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_93545_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula><inline-formula id="IEq46"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {X}}$$\end{document}</tex-math><mml:math id="M96"><mml:mi mathvariant="bold">X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq46.gif"/></alternatives></inline-formula> and <inline-formula id="IEq47"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbf {Y}}$$\end{document}</tex-math><mml:math id="M98"><mml:mi mathvariant="bold">Y</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq47.gif"/></alternatives></inline-formula> are the input space and the target space, with a pair of testing sample as <inline-formula id="IEq48"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(x_i, y_i)$$\end{document}</tex-math><mml:math id="M100"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq48.gif"/></alternatives></inline-formula>. We have <italic>n</italic> samples, and <inline-formula id="IEq49"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\delta$$\end{document}</tex-math><mml:math id="M102"><mml:mi>δ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq49.gif"/></alternatives></inline-formula> is a tuning hyperparameter.</p>
+              </sec>
+              <sec id="Sec15">
+                <title>Training details</title>
+                <p id="Par43">We use the transformer-based model (refer to “<xref rid="Sec12" ref-type="sec">Transformer-based model</xref>” section) for predicting both county-level and state-level number of deaths. Specifically, we use a transformer encoder of 32 model dimensions, 1 encoder layer with 8 attention heads and 64 feedforward dimensions. The output of the encoder layer connects to a single linear layer decoder for predicting both weekly total number of deaths for next 2 weeks (Week 1 and Week 2) using the current week input data. We use Adam<sup><xref ref-type="bibr" rid="CR60">60</xref></sup> optimizer for its superior empirical performance in training a neural network and set 0.001 as our initial learning rate. For every 100 epochs, we decay the learning rate by half for a total of 500 epochs of training. Figure <xref rid="Fig3" ref-type="fig">3</xref> illustrates our training process.<fig id="Fig3"><label>Figure 3</label><caption><p>Overview of prediction flow. The county-level and state-level predictions for weekly total number of deaths are for the next week (Week 1) and the second week (Week 2) from the current week (Week 0) input data.</p></caption><graphic xlink:href="41598_2021_93545_Fig3_HTML" id="MO9"/></fig></p>
+                <p id="Par44">We use both the state-level and county-level training sets to train our models. We use the smoothed number of deaths as our prediction target during training. Upon completion, all the models are used to predict weekly total number of deaths for the next 2 weeks (Week 1 and Week 2) using county-level dataset. We sum all the county predictions of the corresponding state as the predictions of that state. We denote the model trained as the County model. For the Mixup model, there is an additional mixup data augmentation applied to the input layer during the training phase. Our COURAGE model is an ensemble model of two member models, the County model and the Mixup model. COURAGE takes the average of both predictions from the County model and the Mixup model as its prediction. Our baseline model is a Naive model that takes the current week total number of deaths as both Week 1 and Week 2 total number of deaths predictions. For the state-level prediction task, we have another baseline model—a State model that uses only state-level data as input when making the predictions.</p>
+              </sec>
+            </sec>
+            <sec id="Sec16">
+              <title>Conclusion</title>
+              <p id="Par45">In summary, this article presents the new model COURAGE for COVID-19 predictions at county level and state level for the United States. We use county-level data to train COURAGE and obtain state-level predictions through aggregating high quality county-level predictions. We improve our model using mixup augmentation and ensemble predictions from both the County and Mixup models as our final output. To the best of our knowledge, our model is the first model that use mixup data augmentation to improve the accuracy of COVID-19 related number of deaths prediction. Our experiment shows that this new application of mixup data augmentation helps improve the model’s prediction accuracy when new trends occur. COURAGE is a flexible model, that each member model (the County model and the Mixup model) can be used as a standalone model to produce accurate predictions in different periods. When both member models are ensembled together, COURAGE achieves accurate predictions across all periods. COVID-19 is a serious crisis affecting our daily life and economy. Accurate predictions of disease dynamics is a challenging task, especially when new trends emerge. We hope that through our new training method, we can improve COVID-19 number of deaths predictions and provide insight for resource allocation and disease control planning.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec17">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2021_93545_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary Information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41598-021-93545-6.</p>
+            </sec>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>S.E., S.Y., and T.Z. designed the research; S.E., S.Y., and T.Z. performed the research; S.E. analyzed data; and S.E., S.Y., and T.Z. wrote the paper. S.Y. and T.Z. contributed equally to this work.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par48">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">CDC data tracking. <ext-link ext-link-type="uri" xlink:href="https://covid.cdc.gov/covid-data-tracker">https://covid.cdc.gov/covid-data-tracker</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">COVID-19 Economic Crisis. <ext-link ext-link-type="uri" xlink:href="https://carsey.unh.edu/COVID-19-Economic-Impact-By-State">https://carsey.unh.edu/COVID-19-Economic-Impact-By-State</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Long-Term Effects of COVID-19. <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects.html">https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects.html</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Coronavirus in U.S.:Latest Map and Case Count. <ext-link ext-link-type="uri" xlink:href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html">https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html</ext-link> (Accessed 7 Apr 2021).</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Times, The New York. Coronavirus (Covid-19) Data in the United States (2021).</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An interactive web-based dashboard to track COVID-19 in real time</article-title>
+                  <source>Lancet Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <fpage>533</fpage>
+                  <lpage>534</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30120-1</pub-id>
+                  <pub-id pub-id-type="pmid">32087114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">COVID Tracking Project. <ext-link ext-link-type="uri" xlink:href="https://covidtracking.com/">https://covidtracking.com/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Google LLC. Google COVID-19 Community Mobility Reports. <ext-link ext-link-type="uri" xlink:href="https://www.google.com/covid19/mobility/">https://www.google.com/covid19/mobility/</ext-link> (Accessed 16 Mar 2021).</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">COVID-19 Simulator. <ext-link ext-link-type="uri" xlink:href="https://covid19sim.org/documents/policy-methods/">https://covid19sim.org/documents/policy-methods/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Interpretable sequence learning for COVID-19 forecasting. <ext-link ext-link-type="uri" xlink:href="https://cloud.google.com/solutions/interpretable-sequence-learning-for-covid-19-forecasting">https://cloud.google.com/solutions/interpretable-sequence-learning-for-covid-19-forecasting</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Altieri</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Curating a COVID-19 data repository and forecasting county-level death counts in the United States</article-title>
+                  <source>Harvard Data Sci. Rev.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1162/99608f92.1d4e0dae</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lampos</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tracking COVID-19 using online search</article-title>
+                  <source>npj Digit. Med.</source>
+                  <year>2021</year>
+                  <pub-id pub-id-type="doi">10.1038/s41746-021-00384-w</pub-id>
+                  <?supplied-pmid 33558607?>
+                  <pub-id pub-id-type="pmid">33558607</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kerr</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Covasim: An agent-based model of COVID-19 dynamics and interventions</article-title>
+                  <source>medRxiv</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.05.10.20097469</pub-id>
+                  <?supplied-pmid 33173914?>
+                  <pub-id pub-id-type="pmid">33173914</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Germann</surname>
+                      <given-names>TC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Using an agent-based model to assess K-12 school reopenings under different COVID-19 spread scenarios—United States, school year 2020/21</article-title>
+                  <source>medRxiv</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.10.09.20208876</pub-id>
+                  <?supplied-pmid 33173914?>
+                  <pub-id pub-id-type="pmid">33173914</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rodríguez</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>DeepCOVID: An operational deep learning-driven framework for explainable real-time COVID-19 forecasting</article-title>
+                  <source>medRxiv</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.09.28.20203109</pub-id>
+                  <?supplied-pmid 32908992?>
+                  <pub-id pub-id-type="pmid">32908992</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>STAN: Spatio-temporal attention network for pandemic prediction using real-world evidence</article-title>
+                  <source>J. Am. Med. Inform. Assoc.</source>
+                  <year>2021</year>
+                  <volume>28</volume>
+                  <fpage>733</fpage>
+                  <lpage>743</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jamia/ocaa322</pub-id>
+                  <?supplied-pmid 33486527?>
+                  <pub-id pub-id-type="pmid">33486527</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Jin, X., Wang, Y.-X. &amp; Yan, X. Inter-series attention model for COVID-19 forecasting. In <italic>Proceedings of the 2021 SIAM International Conference on Data Mining (SDM)</italic>, 495–503, 10.1137/1.9781611976700.56 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ray</surname>
+                      <given-names>EL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ensemble forecasts of coronavirus disease 2019 (COVID-19) in the U.S</article-title>
+                  <source>medRxiv</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.08.19.20177493</pub-id>
+                  <?supplied-pmid 33140070?>
+                  <pub-id pub-id-type="pmid">33140070</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Jessi, M. &amp; Luis, F. New York Severely Undercounted Virus Deaths in Nursing Homes, Report Says, Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.nytimes.com/2021/01/28/nyregion/nursing-home-deaths-cuomo.html">https://www.nytimes.com/2021/01/28/nyregion/nursing-home-deaths-cuomo.html</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Identifying US countries with high cumulative COVID-19 burden and their characteristics</article-title>
+                  <source>medRxiv</source>
+                  <year>2021</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.12.02.20234989</pub-id>
+                  <?supplied-pmid 34189540?>
+                  <pub-id pub-id-type="pmid">34189540</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Zhu, S. <italic>et al.</italic> High-resolution Spatio-temporal Model for County-level COVID-19 Activity in the U.S. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2009.07356">arXiv:2009.07356</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chande</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Real-time, interactive website for US-county-level COVID-19 event risk assessment</article-title>
+                  <source>Nat. Hum. Behav.</source>
+                  <year>2020</year>
+                  <volume>4</volume>
+                  <fpage>1313</fpage>
+                  <lpage>1319</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41562-020-01000-9</pub-id>
+                  <?supplied-pmid 33168955?>
+                  <pub-id pub-id-type="pmid">33168955</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <mixed-citation publication-type="other">Zhang, H., Cissé, M., Dauphin, Y. N. &amp; Lopez-Paz, D. mixup: beyond empirical risk minimization. In <italic>6th International Conference on Learning Representations, ICLR 2018, Vancouver, BC, Canada, April 30–May 3, 2018, Conference Track Proceedings</italic> (OpenReview.net, 2018).</mixed-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hochreiter</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidhuber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long short-term memory</article-title>
+                  <source>Neural Comput.</source>
+                  <year>1997</year>
+                  <volume>9</volume>
+                  <fpage>1735</fpage>
+                  <lpage>1780</lpage>
+                  <pub-id pub-id-type="doi">10.1162/neco.1997.9.8.1735</pub-id>
+                  <pub-id pub-id-type="pmid">9377276</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harko</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lobo</surname>
+                      <given-names>FS</given-names>
+                    </name>
+                    <name>
+                      <surname>Mak</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Exact analytical solutions of the Susceptible-Infected-Recovered (SIR) epidemic model and of the SIR model with equal death and birth rates</article-title>
+                  <source>Appl. Math. Comput.</source>
+                  <year>2014</year>
+                  <volume>236</volume>
+                  <fpage>184</fpage>
+                  <lpage>194</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.amc.2014.03.030</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y-C</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>P-E</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>C-S</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>T-H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A time-dependent SIR model for COVID-19 with undetectable infected persons</article-title>
+                  <source>IEEE Trans. Netw. Sci. Eng.</source>
+                  <year>2020</year>
+                  <volume>7</volume>
+                  <fpage>3279</fpage>
+                  <lpage>3294</lpage>
+                  <pub-id pub-id-type="doi">10.1109/tnse.2020.3024723</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hethcote</surname>
+                      <given-names>HW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The mathematics of infectious diseases</article-title>
+                  <source>SIAM Rev.</source>
+                  <year>2000</year>
+                  <volume>42</volume>
+                  <fpage>599</fpage>
+                  <lpage>653</lpage>
+                  <pub-id pub-id-type="doi">10.1137/S0036144500371907</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions</article-title>
+                  <source>J. Thorac. Dis.</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <fpage>165</fpage>
+                  <pub-id pub-id-type="doi">10.21037/jtd.2020.02.64</pub-id>
+                  <pub-id pub-id-type="pmid">32274081</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecast analysis of the epidemics trend of COVID-19 in the USA by a generalized fractional-order SEIR model</article-title>
+                  <source>Nonlinear Dyn.</source>
+                  <year>2020</year>
+                  <volume>101</volume>
+                  <fpage>1621</fpage>
+                  <lpage>1634</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11071-020-05946-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Management strategies and prediction of COVID-19 by a fractional order generalized SEIR model</article-title>
+                  <source>medRxiv</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.06.18.20134916</pub-id>
+                  <?supplied-pmid 33200150?>
+                  <pub-id pub-id-type="pmid">33200150</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Caccavo</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Chinese and Italian COVID-19 outbreaks can be correctly described by a modified SIRD model</article-title>
+                  <source>medRxiv</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.03.19.20039388</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <mixed-citation publication-type="other">Baek, J. <italic>et al.</italic> The Limits to Learning a Diffusion Model. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2006.06373">arXiv:2006.06373</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">Karlen, D. Characterizing the spread of CoViD-19. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2007.07156">arXiv:2007.07156</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sayama</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <source>Introduction to the Modeling and Analysis of Complex Systems</source>
+                  <year>2015</year>
+                  <publisher-name>Open SUNY Textbooks</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <mixed-citation publication-type="other">Cho, K. <italic>et al.</italic> Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation. In <italic>Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</italic>, 1724–1734, 10.3115/v1/D14-1179 (Association for Computational Linguistics, 2014).</mixed-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Vaswani, A. <italic>et al.</italic> Attention is all you need. In <italic>Advances in Neural Information Processing Systems</italic>, Vol. 30 (eds Guyon, I. <italic>et al.</italic>) (Curran Associates, Inc., 2017).</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Zuo, S., Jiang, H., Li, Z., Zhao, T. &amp; Zha, H. Transformer Hawkes Process. In <italic>Proceedings of the 37th International Conference on Machine Learning</italic>, Vol. 119 of <italic>Proceedings of Machine Learning Research</italic> (eds D. III, H. &amp; Singh, A.) 11692–11702 (PMLR, 2020).</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <mixed-citation publication-type="other">COVID-19 Modeling. <ext-link ext-link-type="uri" xlink:href="https://bobpagano.com">https://bobpagano.com</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <mixed-citation publication-type="other">Microsoft. <ext-link ext-link-type="uri" xlink:href="https://www.microsoft.com/en-us/ai/ai-for-health">https://www.microsoft.com/en-us/ai/ai-for-health</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <mixed-citation publication-type="other">Oliver Wyman Pandemic Navigator. <ext-link ext-link-type="uri" xlink:href="https://pandemicnavigator.oliverwyman.com/">https://pandemicnavigator.oliverwyman.com/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">CMU Delphi Group. <ext-link ext-link-type="uri" xlink:href="https://delphi.cmu.edu/">https://delphi.cmu.edu/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">Los Alamos National Laboratory. <ext-link ext-link-type="uri" xlink:href="https://covid-19.bsvgateway.org/">https://covid-19.bsvgateway.org/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">University of Massachusetts–Mechanistic Bayesian model. <ext-link ext-link-type="uri" xlink:href="https://github.com/dsheldon/covid">https://github.com/dsheldon/covid</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">Wang, L. <italic>et al.</italic> Spatiotemporal Dynamics, Nowcasting and Forecasting of COVID-19 in the United States. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2004.14103">arXiv:2004.14103</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">MOBS lab Analysis of the COVID-19 Epidemic. <ext-link ext-link-type="uri" xlink:href="https://www.mobs-lab.org/2019ncov.html">https://www.mobs-lab.org/2019ncov.html</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <mixed-citation publication-type="other">Srivastava, A., Xu, T. &amp; Prasanna, V. K. Fast and Accurate Forecasting of COVID-19 Deaths Using the SIkJ<inline-formula id="IEq51"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha$$\end{document}</tex-math><mml:math id="M104"><mml:mi>α</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_93545_Article_IEq51.gif"/></alternatives></inline-formula> Model <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/22007.05180">arXiv:22007.05180</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lega</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Parameter estimation from ICC curves</article-title>
+                  <source>J. Biol. Dyn.</source>
+                  <year>2021</year>
+                  <volume>15</volume>
+                  <fpage>195</fpage>
+                  <lpage>212</lpage>
+                  <pub-id pub-id-type="doi">10.1080/17513758.2021.1912419</pub-id>
+                  <pub-id pub-id-type="pmid">33827379</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <mixed-citation publication-type="other">Wu, D. <italic>et al.</italic> DeepGLEAM: a hybrid mechanistic and deep learning model for COVID-19 forecasting. <italic>CoRR</italic><ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2102.06684">arXiv:2102.06684</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">UGA-CEID. <ext-link ext-link-type="uri" xlink:href="https://github.com/CEIDatUGA/COVID-stochastic-fitting">https://github.com/CEIDatUGA/COVID-stochastic-fitting</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <mixed-citation publication-type="other">London School of Hygiene and Tropical Medicine. <ext-link ext-link-type="uri" xlink:href="https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases/covid-19">https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases/covid-19</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <mixed-citation publication-type="other">Steve McConnell CovidComplete. <ext-link ext-link-type="uri" xlink:href="https://stevemcconnell.com/covidcomplete/">https://stevemcconnell.com/covidcomplete/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zachreson</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Risk mapping for COVID-19 outbreaks in Australia using mobility data</article-title>
+                  <source>J. R. Soc. Interface</source>
+                  <year>2021</year>
+                  <volume>18</volume>
+                  <fpage>20200657</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2020.0657</pub-id>
+                  <pub-id pub-id-type="pmid">33404371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <mixed-citation publication-type="other">James, N. &amp; Menzies, M. Efficiency of communities and financial markets during the 2020 pandemic. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2104.02318">arXiv:2104.02318</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <mixed-citation publication-type="other">Chicchi, L., Giambagli, L., Buffoni, L. &amp; Fanelli, D. Mobility-based prediction of SARS-CoV-2 spreading. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2102.08253">arXiv:2102.08253</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gösgens</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Trade-offs between mobility restrictions and transmission of SARS-CoV-2</article-title>
+                  <source>J. R. Soc. Interface</source>
+                  <year>2021</year>
+                  <volume>18</volume>
+                  <fpage>20200936</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2020.0936</pub-id>
+                  <pub-id pub-id-type="pmid">33622148</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carroll</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Time dynamics of COVID-19</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>21040</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-77709-4</pub-id>
+                  <?supplied-pmid 33273598?>
+                  <pub-id pub-id-type="pmid">33273598</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <mixed-citation publication-type="other">Shaw, P., Uszkoreit, J. &amp; Vaswani, A. Self-attention with relative position representations. In <italic>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Vol. 2 (Short Papers)</italic>, 464–468, 10.18653/v1/N18-2074 (Association for Computational Linguistics, 2018).</mixed-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <mixed-citation publication-type="other">Guo, H., Mao, Y. &amp; Zhang, R. Augmenting Data with Mixup for Sentence Classification: An Empirical Study. <italic>CoRR</italic><ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/1905.08941">arXiv:1905.08941</ext-link> (2019).</mixed-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <mixed-citation publication-type="other">Verma, V. <italic>et al.</italic> Manifold mixup: Better representations by interpolating hidden states. In <italic>Proceedings of the 36th International Conference on Machine Learning</italic>, Vol. 97 of <italic>Proceedings of Machine Learning Research</italic>, (eds Chaudhuri, K. &amp; Salakhutdinov, R.) 6438–6447 (PMLR, 2019).</mixed-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <mixed-citation publication-type="other">Kingma, D. P. &amp; Ba, J. Adam: a method for stochastic optimization. In <italic>3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings</italic> (eds Bengio, Y. &amp; LeCun, Y.) (2015).</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

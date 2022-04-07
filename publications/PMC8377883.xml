@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:50:23Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8377883" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8377883</identifier>
+        <datestamp>2021-08-23</datestamp>
+        <setSpec>bmcid</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Infect Dis</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Infect Dis</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Infectious Diseases</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2334</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8377883</article-id>
+              <article-id pub-id-type="pmcid">PMC8377883</article-id>
+              <article-id pub-id-type="pmc-uid">8377883</article-id>
+              <article-id pub-id-type="pmid">34412581</article-id>
+              <article-id pub-id-type="publisher-id">6503</article-id>
+              <article-id pub-id-type="doi">10.1186/s12879-021-06503-y</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Time series analysis of hemorrhagic fever with renal syndrome in mainland China by using an XGBoost forecasting model</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lv</surname>
+                    <given-names>Cai-Xia</given-names>
+                  </name>
+                  <address>
+                    <email>cxlv@cmu.edu.cn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>An</surname>
+                    <given-names>Shu-Yi</given-names>
+                  </name>
+                  <address>
+                    <email>shuyian_cdc@163.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Qiao</surname>
+                    <given-names>Bao-Jun</given-names>
+                  </name>
+                  <address>
+                    <email>baojunqiao@yeah.net</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>Wei</given-names>
+                  </name>
+                  <address>
+                    <email>wuwei@cmu.edu.cn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.412449.e</institution-id><institution-id institution-id-type="ISNI">0000 0000 9678 1884</institution-id><institution>Department of Epidemiology, School of Public Health, </institution><institution>China Medical University, </institution></institution-wrap>Shenyang, Liaoning China </aff>
+                <aff id="Aff2"><label>2</label>Liaoning Provincial Center for Disease Control and Prevention, Shenyang, Liaoning China </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>19</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>19</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <elocation-id>839</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>28</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Hemorrhagic fever with renal syndrome (HFRS) is still attracting public attention because of its outbreak in various cities in China. Predicting future outbreaks or epidemics disease based on past incidence data can help health departments take targeted measures to prevent diseases in advance. In this study, we propose a multistep prediction strategy based on extreme gradient boosting (XGBoost) for HFRS as an extension of the one-step prediction model. Moreover, the fitting and prediction accuracy of the XGBoost model will be compared with the autoregressive integrated moving average (ARIMA) model by different evaluation indicators.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">We collected HFRS incidence data from 2004 to 2018 of mainland China. The data from 2004 to 2017 were divided into training sets to establish the seasonal ARIMA model and XGBoost model, while the 2018 data were used to test the prediction performance. In the multistep XGBoost forecasting model, one-hot encoding was used to handle seasonal features. Furthermore, a series of evaluation indices were performed to evaluate the accuracy of the multistep forecast XGBoost model.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">There were 200,237 HFRS cases in China from 2004 to 2018. A long-term downward trend and bimodal seasonality were identified in the original time series. According to the minimum corrected akaike information criterion (CAIC) value, the optimal ARIMA (3, 1, 0) × (1, 1, 0)<sub>12</sub> model is selected. The index ME, RMSE, MAE, MPE, MAPE, and MASE indices of the XGBoost model were higher than those of the ARIMA model in the fitting part, whereas the RMSE of the XGBoost model was lower. The prediction performance evaluation indicators (MAE, MPE, MAPE, RMSE and MASE) of the one-step prediction and multistep prediction XGBoost model were all notably lower than those of the ARIMA model.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">The multistep XGBoost prediction model showed a much better prediction accuracy and model stability than the multistep ARIMA prediction model. The XGBoost model performed better in predicting complicated and nonlinear data like HFRS. Additionally, Multistep prediction models are more practical than one-step prediction models in forecasting infectious diseases.</p>
+                </sec>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1186/s12879-021-06503-y.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Time series analysis</kwd>
+                <kwd>Hemorrhagic fever with renal syndrome (HFRS)</kwd>
+                <kwd>XGBoost model</kwd>
+                <kwd>Multistep prediction</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id>
+                      <institution>National Natural Science Foundation of China</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>81202254</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Wei</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100007620</institution-id>
+                      <institution>Department of Education of Liaoning Province</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>LK201644</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Wei</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par22">Hemorrhagic fever with renal syndrome (HFRS) is a zoonotic disease caused by hantaviruses that cause a high degree of harm to humans. To date, more than 28 hantaviruses resulting in human diseases have been identified worldwide. Most HFRS cases occur in Asian and European countries, such as China, South Korea and Russia. More than 100,000 cases of HFRS occur every year worldwide, and China accounts for more than 90 % of them [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. In recent years, the number of HFRS cases in mainland China has shown an overall downward trend [<xref ref-type="bibr" rid="CR3">3</xref>], but it is still prevalent in some regions, such as Heilongjiang, Liaoning, Jilin, Shandong, Shanxi and Hebei provinces [<xref ref-type="bibr" rid="CR4">4</xref>]. It should be pointed out that epidemic areas for rodent have a tendency to spread towards cities, as hantavirus is carried and spread by rodents. The main transmission routes from rodents to humans are aerosolized excreta inhalation and contact infection. Person-to-person spread may occur but is extremely rare [<xref ref-type="bibr" rid="CR3">3</xref>–<xref ref-type="bibr" rid="CR5">5</xref>]. The clinical symptoms of HFRS are mainly characterized by fever, hemorrhaging and kidney damage with a 4 to 46 day incubation period [<xref ref-type="bibr" rid="CR5">5</xref>]. HFRS can lead to death if the patient is not treated in time. The Chinese Center for Disease Control (CDC) established a surveillance system for HFRS in 2004 and classified it as a class II infectious disease. The surveillance system requires newly confirmed cases of HFRS to be reported within 12 h, which ensures the accuracy and timeliness of the data [<xref ref-type="bibr" rid="CR6">6</xref>]. Although the government and health departments have taken on many control measures, such as active rodents control, vaccination implementation, health education implementation, environmental management of the epidemic areas, and disease surveillance strengthening, HFRS still severely affects people’s health with approximately 9,000–30,000 cases annually in China [<xref ref-type="bibr" rid="CR7">7</xref>].</p>
+              <p id="Par23">To delineate the changing trend in the incidence of infectious diseases, domestic and foreign researchers have applied various statistical and mathematical models to the prediction of infectious diseases, such as random forest [<xref ref-type="bibr" rid="CR8">8</xref>], gradient boosting machine (GBM) [<xref ref-type="bibr" rid="CR9">9</xref>] and support vector machine models [<xref ref-type="bibr" rid="CR10">10</xref>]. At present, some models have been used in predicting HFRS, including neural networks [<xref ref-type="bibr" rid="CR11">11</xref>] and generalized additive models (GAMs) [<xref ref-type="bibr" rid="CR12">12</xref>]. Most of these methods are based on one-step forecasting. The autoregressive integrated moving average (ARIMA) model, as a fundamental method in time series analysis that regresses the lag value of the time series and random items to build a model, has been applied in many fields [<xref ref-type="bibr" rid="CR13">13</xref>]. Although an ARIMA model can capture the linear characteristics of infectious disease series well, such as the autoregressive (AR) term and moving average(MA) term, some information may be lost when it analyzes the residuals consisting of non-linear information [<xref ref-type="bibr" rid="CR14">14</xref>]. XGBoost is a boosting algorithm based on the evolution of gradient boosting decision tree (GBDT) algorithm, which has achieved remarkable results in practical applications due to its high accuracy, fast speed and unique information processing scheme. Compared with traditional statistical models, it has advantages in predicting nonlinear data [<xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR19">19</xref>]. Previous studies usually applied one-step predictive statistical models to characterize and predict epidemic trends in infectious diseases. Currently, a multistep XGBoost model has not been used to forecast infectious diseases such as HFRS.</p>
+              <p id="Par24">In this study, we aim to develop a prediction model for HFRS in mainland China by using one-step and multistep XGBoost models and comparing them with an ARIMA model.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Data collection</title>
+                <p id="Par25">We collected HFRS incidence data from 2004 to 2018 from the official website of the National Health Commission of the People’s Republic of China (<ext-link ext-link-type="uri" xlink:href="http://www.nhc.gov.cn">http://www.nhc.gov.cn</ext-link>). Based on the requirements of China’s Infectious Disease Control Law, hospital physicians must report every HFRS case within 12 h to the local health authority. Once the patient is diagnosed with a suspected case based on clinical symptoms, patient blood samples are collected and sent to local CDC laboratories for serological confirmation; if the result is positive, it is considered as a confirmed case. Local health authorities later report monthly HFRS cases to the national health department for surveillance purposes. However, the monitoring system relies on hospitals passively monitoring the occurrence of infectious diseases, and there will be a certain time delay in information collection. If the patient’s symptoms are mild and not require hospitalization, underreporting may occur [<xref ref-type="bibr" rid="CR20">20</xref>]. The dataset analyzed during the study is included in Supplementary Material 1. The HFRS data from 2004 to 2017 were adopted to establish the seasonal ARIMA model and XGBoost model, while the 2018 data were used for model verification.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>ARIMA model</title>
+                <p id="Par26">An ARIMA model is a time series forecasting method that was first proposed by Box and Jenkins in 1976 [<xref ref-type="bibr" rid="CR21">21</xref>]. The principle of the ARIMA model is to adopt appropriate data conversion to transform nonstationary time series into stationary time series and then adjust the parameters to find the optimal model. Finally, the changes in past trends are quantitatively described and simulated to predict future outcomes [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR22">22</xref>]. The specific procedures for establishing the seasonal ARIMA model were as follows: first, we performed a Box-Cox transformation to smooth the variance of the original HFRS time series. Simultaneously, long-term trends and seasonal differences were stabilized through first-order differences and seasonal differences. Then, we preliminarily judge the possible parameter values of the ARIMA model based on the truncation and tailing properties of the autocorrelation function (ACF) and partial autocorrelation function (PACF) diagrams. The advantages and disadvantages of the model fit were evaluated by the corrected Akaike information criterion (CAIC) value, and the model with the smallest CAIC value was considered the optimal model. After the order of the specific parameters was determined, a parameter test was performed through maximum likelihood estimation (MLE). Finally, the Ljung-Box test judges whether the residual sequence is white noise.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Building the XGBoost model</title>
+                <p id="Par27">XGBoost, a kind of boosting algorithm, which assembles multiple learning algorithms to achieve a better predictive performance than any of the constituent learning algorithms alone, has excelled in many fields. Compared with the traditional GBDT algorithm, XGBoost applies a second-order Taylor expansion to the loss function and simultaneously implements the first derivative and the second derivative. In addition, a regularization term is added to the objective function, which improves the generalizability of a single tree and reduces the complexity of the objective function. In short, XGBoost has attracted the attention of researchers due to its fast speed, excellent classification effect, and ability to allow custom loss functions.</p>
+                <p id="Par28">The classification and regression tree (CART) algorithm, first proposed by Breiman et al., refers to the general term of a classification tree and regression tree. The CART classification tree introduces the Gini coefficient to replace the information gain or information gain rate. The regression tree adopts different methods to evaluate the effect, including the prediction error (mean squared error, log error, etc.). Therefore, the node is no longer a category but a numerical value. In a CART model, for any feature j, there is a corresponding segment point s. If j is less than s, it is divided into the left-hand subtree. Otherwise, it is divided into the right-hand tree, as in formula (<xref rid="Equ1" ref-type="">1</xref>).<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${R}_{1}\left(j,s\right)=\left\{x|{x}^{\left(j\right)}\le s\right\} \,and \,{R}_{2}\left(j,s\right)=\left\{x|{x}^{\left(j\right)}&gt;s\right\}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mfenced close=")" open="("><mml:mi>j</mml:mi></mml:mfenced></mml:msup><mml:mo>≤</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mspace width="0.166667em"/><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mspace width="0.166667em"/><mml:msub><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mfenced close=")" open="("><mml:mi>j</mml:mi></mml:mfenced></mml:msup><mml:mo>&gt;</mml:mo><mml:mi>s</mml:mi></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par29">The objective function of a typical CART regression tree is defined in formula (<xref rid="Equ2" ref-type="">2</xref>):<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sum _{xi\in Rm}({yi-f\left(xi\right))}^{2}$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:mi>R</mml:mi><mml:mi>m</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:mo stretchy="false">(</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mi>y</mml:mi><mml:mi>i</mml:mi><mml:mo>-</mml:mo><mml:mi>f</mml:mi><mml:mfenced close=")" open="("><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:mfenced><mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par30">As shown in formula (<xref rid="Equ3" ref-type="">3</xref>), find the corresponding j and s that minimize the MSE of c1 and c2, respectively, and minimize the sum of the MSE between the two parts of c1 and c2. When we traverse all the segment points s of all features j, we can find the optimal j and s, and finally obtain a regression tree.<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\underset{\text{j},\text{s}}{\text{min}}\left[\underset{{\text{x}}_{\text{i}}\in {\text{R}}_{1}(\text{j},\text{s})}{\text{min}}{(\text{y}\text{i}-\text{c}1)}^{2}+\underset{{\text{x}}_{\text{i}}\in {\text{R}}_{1} (\text{j},\text{s})}{\text{min}}{(\text{y}\text{i}-\text{c}2)}^{2}\right]$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:munder><mml:mtext>min</mml:mtext><mml:mrow><mml:mtext>j</mml:mtext><mml:mo>,</mml:mo><mml:mtext>s</mml:mtext></mml:mrow></mml:munder><mml:mfenced close="]" open="["><mml:munder><mml:mtext>min</mml:mtext><mml:mrow><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>∈</mml:mo><mml:msub><mml:mtext>R</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>j</mml:mtext><mml:mo>,</mml:mo><mml:mtext>s</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:munder><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>yi</mml:mtext><mml:mo>-</mml:mo><mml:mtext>c</mml:mtext><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:munder><mml:mtext>min</mml:mtext><mml:mrow><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>∈</mml:mo><mml:msub><mml:mtext>R</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>j</mml:mtext><mml:mo>,</mml:mo><mml:mtext>s</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:munder><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>yi</mml:mtext><mml:mo>-</mml:mo><mml:mtext>c</mml:mtext><mml:mn>2</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equa"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\widehat{ \text{c}}}_{1}=\text{a}\text{v}\text{e}\left({\text{y}}_{\text{i}}\mid {\text{x}}_{\text{i}}\in {\text{R}}_{1}(\text{j},\text{s})\right)$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mtext>c</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mtext>ave</mml:mtext><mml:mfenced close=")" open="("><mml:msub><mml:mtext>y</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>∣</mml:mo><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>∈</mml:mo><mml:msub><mml:mtext>R</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>j</mml:mtext><mml:mo>,</mml:mo><mml:mtext>s</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equa.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\widehat{\text{c}}}_{2}=\text{a}\text{v}\text{e}\left({\text{y}}_{\text{i}}\mid {\text{x}}_{\text{i}}\in {\text{R}}_{2}(\text{j},\text{s})\right)$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mtext>c</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mtext>ave</mml:mtext><mml:mfenced close=")" open="("><mml:msub><mml:mtext>y</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>∣</mml:mo><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>∈</mml:mo><mml:msub><mml:mtext>R</mml:mtext><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>j</mml:mtext><mml:mo>,</mml:mo><mml:mtext>s</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par31">The CART regression tree applies the mean or median of the final leaves to predict the output. To avoid overfitting, cost complexity pruning (CCP) is used to prune the non-leaf node with the smallest error gain and delete the child nodes with the non-leaf node.</p>
+                <p id="Par32">The XGBoost algorithm is mainly composed of two parts: the decision tree algorithm and gradient boosting algorithm. Gradient boosting is an excellent technique for constructing prediction models and a representative algorithm for boosting. The theory of boosting is to establish weak evaluators individually and iteratively integrate multiple weak evaluators. The gradient boosting tree uses the CART algorithm as the main structure. Therefore, the steps of the XGBoost algorithm can be expressed as follows (formular (<xref rid="Equ5" ref-type="">5</xref>)):<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widehat{{\text{y}}} = \phi \left( {{\text{x}}_{{\text{i}}} } \right) = \sum\limits_{{{\text{k}} = 1}}^{{\text{K}}} {{\text{f}}_{{\text{k}}} } \left( {{\text{x}}_{{\text{i}}} } \right)$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:mover accent="true"><mml:mtext>y</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi>ϕ</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub></mml:mfenced><mml:mo>=</mml:mo><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mrow><mml:mtext>k</mml:mtext><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mtext>K</mml:mtext></mml:munderover><mml:msub><mml:mtext>f</mml:mtext><mml:mtext>k</mml:mtext></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par33">In the XGBoost model, every leaf node has a forecasting score, called the leaf weight. <inline-formula id="IEq1"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${f}_{k}\left({x}_{i}\right)$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12879_2021_6503_Article_IEq1.gif"/></alternatives></inline-formula> is the value of all samples on this leaf node, where represents the th decision tree and represents the feature vector of sample. Each tree was added iteratively to keep the predicted value <inline-formula id="IEq2"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat {{y}}_{i}$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mover accent="true"><mml:mi>y</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12879_2021_6503_Article_IEq2.gif"/></alternatives></inline-formula> as close as possible to the actual value y<sub>i</sub>. Therefore, the following function reaches the minimum after t iterations:<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O\text{b}{\text{j}}^{\left(\text{t}\right)}=\sum _{\text{i}=1}^{\text{n}} \text{l}\left({\text{y}}_{\text{i}},{\widehat{\text{y}}}_{\text{i}}^{(\text{t}-1)}+{\text{f}}_{\text{t}}\left({\text{x}}_{\text{i}}\right)\right)+{\Omega }\left({\text{f}}_{\text{t}}\right)+\text{ constant }$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:mrow><mml:mi>O</mml:mi><mml:msup><mml:mtext>bj</mml:mtext><mml:mfenced close=")" open="("><mml:mtext>t</mml:mtext></mml:mfenced></mml:msup><mml:mo>=</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mtext>i</mml:mtext><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mtext>n</mml:mtext></mml:munderover><mml:mtext>l</mml:mtext><mml:mfenced close=")" open="("><mml:msub><mml:mtext>y</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>,</mml:mo><mml:msubsup><mml:mover accent="true"><mml:mtext>y</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mtext>i</mml:mtext></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msub><mml:mtext>f</mml:mtext><mml:mtext>t</mml:mtext></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub></mml:mfenced></mml:mfenced><mml:mo>+</mml:mo><mml:mi mathvariant="normal">Ω</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mtext>f</mml:mtext><mml:mtext>t</mml:mtext></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:mspace width="0.333333em"/><mml:mtext>constant</mml:mtext><mml:mspace width="0.333333em"/></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par34">As shown in formula (<xref rid="Equ6" ref-type="">6</xref>), the objective function consists of two parts: a loss function and a regularization term. The loss function assesses the forecasting function of the XGBoost model on the training data, and the regularization term <inline-formula id="IEq3"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Omega }\left({f}_{t}\right)$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mi mathvariant="normal">Ω</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12879_2021_6503_Article_IEq3.gif"/></alternatives></inline-formula> prevents the model from being too complicated. <inline-formula id="IEq4"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat {{\mathbf{y}}}^{(t-1)}$$\end{document}</tex-math><mml:math id="M22"><mml:msup><mml:mover accent="true"><mml:mi mathvariant="bold">y</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="12879_2021_6503_Article_IEq4.gif"/></alternatives></inline-formula> is the predicted value of the last iteration and <inline-formula id="IEq5"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{f} }_{t}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mtext>f</mml:mtext><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12879_2021_6503_Article_IEq5.gif"/></alternatives></inline-formula>is a new function that the model learns. Next, a second-order Taylor development of the error term was performed on the objective function. Then the first derivative and the second derivative are defined as follows:<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{Obj}}^{({\rm t})}\simeq \sum _{{\text{i}}=1}^{{\text{n}}} \left[{\text{l}} \left({\text{y}}_{\text{i}}, {\widehat{\text{y}}}_{\text{i}}^{({\text{t}}-1)}\right)+{{\text{g}}_{\text{i}}}{{\text{f}}_{\text{t}}}\left({\text{x}}_{\text{i}}\right)+\frac{1}{2}{{\text{h}}_{\text{i}}}{{\text{f}}_{\text{t}}^{2}}\left({\text{x}}_{\text{i}}\right)\right]+{\Omega }\left({\text{f}}_{\text{t}}\right)+{\text{constant}}$$\end{document}</tex-math><mml:math id="M26" display="block"><mml:mrow><mml:msup><mml:mrow><mml:mtext>Obj</mml:mtext></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup><mml:mo>≃</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mtext>i</mml:mtext><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mtext>n</mml:mtext></mml:munderover><mml:mfenced close="]" open="["><mml:mtext>l</mml:mtext><mml:mfenced close=")" open="("><mml:msub><mml:mtext>y</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>,</mml:mo><mml:msubsup><mml:mover accent="true"><mml:mtext>y</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mtext>i</mml:mtext></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msubsup></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mtext>g</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:msub><mml:mtext>f</mml:mtext><mml:mtext>t</mml:mtext></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:msub><mml:mtext>h</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:msubsup><mml:mtext>f</mml:mtext><mml:mrow><mml:mtext>t</mml:mtext></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mfenced close=")" open="("><mml:msub><mml:mtext>x</mml:mtext><mml:mtext>i</mml:mtext></mml:msub></mml:mfenced></mml:mfenced><mml:mo>+</mml:mo><mml:mi mathvariant="normal">Ω</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mtext>f</mml:mtext><mml:mtext>t</mml:mtext></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:mtext>constant</mml:mtext></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{g}}_{\text{i}}={\partial }_{{\widehat{\text{y}}}^{(\text{t}-1)}}\text{l}\left({\text{y}}_{\text{i}},{\widehat{\text{y}}}^{(\text{t}-1)}\right), {\text{h}}_{\text{i}}={\partial }_{{\widehat{\text{y}}}^{(\text{t}-1)}}^{2}\text{l}\left({\text{y}}_{\text{i}},{\widehat{\text{y}}}^{(\text{t}-1)}\right)$$\end{document}</tex-math><mml:math id="M28" display="block"><mml:mrow><mml:msub><mml:mtext>g</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>∂</mml:mi><mml:msup><mml:mrow><mml:mover accent="true"><mml:mtext>y</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:msub><mml:mtext>l</mml:mtext><mml:mfenced close=")" open="("><mml:msub><mml:mtext>y</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mover accent="true"><mml:mtext>y</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:mfenced><mml:mo>,</mml:mo><mml:msub><mml:mtext>h</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mi>∂</mml:mi><mml:mrow><mml:msup><mml:mrow><mml:mover accent="true"><mml:mtext>y</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mtext>l</mml:mtext><mml:mfenced close=")" open="("><mml:msub><mml:mtext>y</mml:mtext><mml:mtext>i</mml:mtext></mml:msub><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mover accent="true"><mml:mtext>y</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par35">First, we define the mapping function of the decision tree: q indicates the structure of the tree, and w is the leaf node weight vector (the value of the sample predicted by the model).<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${f}_{t}\left(x\right)={w}_{q\left(x\right)},w\in {\text{R}}^{T},q:{\text{R}}^{d}\to \{\text{1,2},\cdots ,T\}$$\end{document}</tex-math><mml:math id="M30" display="block"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>x</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>q</mml:mi><mml:mfenced close=")" open="("><mml:mi>x</mml:mi></mml:mfenced></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo>∈</mml:mo><mml:msup><mml:mrow><mml:mtext>R</mml:mtext></mml:mrow><mml:mi>T</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:mi>q</mml:mi><mml:mo>:</mml:mo><mml:msup><mml:mrow><mml:mtext>R</mml:mtext></mml:mrow><mml:mi>d</mml:mi></mml:msup><mml:mo stretchy="false">→</mml:mo><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:mtext>1,2</mml:mtext><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">}</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par36">The complexity of the XGBoost tree is shown in formula (<xref rid="Equ10" ref-type="">10</xref>). T is the quantitative complexity of leaf nodes in the tree, and the sum of squares term represents the L2 regularization term of the leaf node.<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Omega }\left({f}_{t}\right)=\gamma T+\frac{1}{2}\lambda \sum _{j=1}^{T} {w}_{j}^{2}$$\end{document}</tex-math><mml:math id="M32" display="block"><mml:mrow><mml:mi mathvariant="normal">Ω</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced><mml:mo>=</mml:mo><mml:mi>γ</mml:mi><mml:mi>T</mml:mi><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mi>λ</mml:mi><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:munderover><mml:msubsup><mml:mi>w</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par37">After combining the defined loss function and complexity of the tree, the objective function can be expressed by formula (<xref rid="Equ13" ref-type="">13</xref>).<disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Ob{j}^{\left(t\right)}=\sum _{j=1}^{T} \left[\left(\sum _{i\in {I}_{j}} {g}_{i}\right){w}_{j}+\frac{1}{2}\left(\sum _{i\in {I}_{j}} {h}_{i}+\lambda \right){w}_{j}^{2}\right]+\gamma T$$\end{document}</tex-math><mml:math id="M34" display="block"><mml:mrow><mml:mi>O</mml:mi><mml:mi>b</mml:mi><mml:msup><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:msup><mml:mo>=</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:munderover><mml:mfenced close="]" open="["><mml:mfenced close=")" open="("><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:munder><mml:msub><mml:mi>g</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced><mml:msub><mml:mi>w</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mfenced close=")" open="("><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:munder><mml:msub><mml:mi>h</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>λ</mml:mi></mml:mfenced><mml:msubsup><mml:mi>w</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mfenced><mml:mo>+</mml:mo><mml:mi>γ</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${G}_{j}=\sum _{i\in {I}_{j}} {g}_{i}, {H}_{j}=\sum _{i\in {I}_{j}} {h}_{i}$$\end{document}</tex-math><mml:math id="M36" display="block"><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:munder><mml:msub><mml:mi>g</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:munder><mml:msub><mml:mi>h</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Obj=-\frac{1}{2}\sum _{j=1}^{T} \frac{{G}_{j}^{2}}{{H}_{j}+\lambda }+\gamma T$$\end{document}</tex-math><mml:math id="M38" display="block"><mml:mrow><mml:mi>O</mml:mi><mml:mi>b</mml:mi><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:munderover><mml:mfrac><mml:msubsup><mml:mi>G</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>λ</mml:mi></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mi>γ</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par38">Because it is not possible to traverse all the tree structures, constructing a decision tree based on space division is an NP problem. XGBoost uses a greedy algorithm to traverse the segmentation points of all features in the CART regression tree and calculates the gain before and after the segmentation point to determine whether a node continues to grow. The node will split when the value of the objective function after splitting is higher than the gain of the single-leaf node. At the same time, the maximum depth of the tree and a threshold should be set to limit its growth. The gain formula is shown in formula (<xref rid="Equ14" ref-type="">14</xref>):<disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\text{Gain }=\frac{1}{2}\left[\frac{{G}_{L}^{2}}{{H}_{L}+\lambda }+\frac{{G}_{R}^{2}}{{H}_{R}+\lambda }-\frac{{\left({G}_{L}+{G}_{R}\right)}^{2}}{{H}_{L}+{H}_{R}+\lambda }\right]-\gamma$$\end{document}</tex-math><mml:math id="M40" display="block"><mml:mrow><mml:mtext>Gain</mml:mtext><mml:mspace width="0.333333em"/><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mfenced close="]" open="["><mml:mfrac><mml:msubsup><mml:mi>G</mml:mi><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>λ</mml:mi></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:msubsup><mml:mi>G</mml:mi><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>R</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>λ</mml:mi></mml:mrow></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:msub><mml:mi>G</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>G</mml:mi><mml:mi>R</mml:mi></mml:msub></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi>R</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>λ</mml:mi></mml:mrow></mml:mfrac></mml:mfenced><mml:mo>-</mml:mo><mml:mi>γ</mml:mi></mml:mrow></mml:math><graphic xlink:href="12879_2021_6503_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par39">One-hot encoding was used to address the seasonality. Three types parameters should be set when building the XGBoost model: general parameters, booster parameters and task parameters. The XGBoost model also draws on the idea of random forest, introducing row sampling and column sampling that can reduce the amount of calculation and prevent overfitting. Moreover, it introduces the early-stopping mechanism to prevent overfitting. In this study, the booster parameter is gbtree; early_stopping_round was set to 5; subsample and colsample_bytree were set from 0.3 to 0.7; max_depth was set to 2 and 3; min_child set to 1 and 2, the learning rates of XGBoost were set to 0.04, 0.05 and 0.06; and eval_metric was set to ‘rmse’. A grid search was conducted to exhaustively search for specified parameter values when the potential parameter values were ordered and combined. Notably, the performance of the XGBoost was evaluated by tenfold cross-validation and the RMSE. Additionally, XGBoost can rank the importance of variables by the frequency functions used to split the feature. After the XGBoost model was built, the accuracies of the one-step forecast and multistep forecast were compared by the RMSE, MAE and MAPE.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>One-step forecasting and multistep forecasting</title>
+                <p id="Par40">Generally, a one-step time series uses actual historical data, such as data at time t-n, time t-(n-1), time t to predict the value at time t + 1 in the next step. In contrast, when performing multistep prediction, single-step prediction is performed and the predicted value is used (instead of the actual value) as an input variable for the second step of prediction. Then, the process was repeated until all the predicted values were obtained [<xref ref-type="bibr" rid="CR2">23</xref>, <xref ref-type="bibr" rid="CR24">24</xref>]. There are four multistep forecasting strategies: direct forecasting, recursive forecasting, direct recursive hybrid forecasting and multioutput forecasting. One-step forecasting is more accurate, but it will prevent the model from simulating the trends in the next month. When the forecast cycle is long, a multistep forecast is prone to face larger error accumulation. When the forecasted value is used as input, the error will inevitably accumulate with the input value in the next step. In this study, one-step forecasting and multistep forecasting were carried out.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Model comparison and data analysis</title>
+                <p id="Par41">Model evaluation and comparison are mainly judged by the accuracy of the model. The accuracy refers to the degree to which the predicted result matches with the actual result, so the error can be used to evaluate the accuracy of the prediction model. The smaller the error is, the better the fitting effect. Model evaluation generally includes two parts: training sample evaluation and prediction sample evaluation. To better compare the accuracy of the ARIMA and XGBoost models, a series of evaluation indices were applied in this study. mean error (ME), root mean squared error (RMSE), mean absolute error (MAE), mean percentage error (MPE), mean absolute percentage error (MAPE), mean absolute scaled error (MASE) and autocorrelation of errors at lag 1 (ACF1). Generally, the larger the criteria are, the greater the error size is. Theil’s U statistic measures the accuracy by comparing the predicted results with the prediction results using minimal historical data. It tends to place more weight on large errors by squaring the deviations and overstating errors, which can help eliminate methods with large errors. Theil’s U &lt; 1 indicates that the predicted results are better than the expected results.</p>
+                <p id="Par42">The HFRS data analysis process was completed in R version 3.6.2. Packages like TSstudio, forecast, xgboost were included to achieve different functions. In addition, we set the statistical significance level at 0.05.</p>
+              </sec>
+            </sec>
+            <sec id="Sec8" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec9">
+                <title>ARIMA model</title>
+                <p id="Par43">As shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>, the original time series graph showed a slight downward trend and seasonal variation. The number of HFRS cases had a bimodal seasonal distribution throughout the year (Fig. <xref rid="Fig2" ref-type="fig">2</xref>), one from October to January of the following year and the other from March to June, which means that the time series was not stationary. Therefore, logarithmic or square root conversion was used to transform the time series variance. The time series diagram after applying a Box-Cox transformation is shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>. The small gray blocks of different sizes show the proportion of each component. The additive time series decompositions subjected to Box-Cox transformation were arranged in order of magnitude, including the original data, season, trend and noise element. The seasonal component showed obvious periodicity, while the trend showed an overall decrease from 2004 to 2010 but increased briefly in 2010–2013. In addition, there was no noticeable form of noise.
+<fig id="Fig1"><label>Fig. 1</label><caption><p>Time series plot for cases of HFRS in mainland China from January 2004 to December 2018</p></caption><graphic xlink:href="12879_2021_6503_Fig1_HTML" id="d32e1859"/></fig><fig id="Fig2"><label>Fig. 2</label><caption><p>Monthly chart of HFRS cases from 2004 to 2017</p></caption><graphic xlink:href="12879_2021_6503_Fig2_HTML" id="d32e1868"/></fig><fig id="Fig3"><label>Fig. 3</label><caption><p>Seasonal decomposition of the Box-Cox-transformed HFRS cases</p></caption><graphic xlink:href="12879_2021_6503_Fig3_HTML" id="d32e1877"/></fig></p>
+                <p id="Par44">To eliminate seasonal characteristics and long-term trends in the time series, the first difference (d = 1) and seasonal difference (D = 1) were used (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). The ADF test demonstrated that the time series after the difference was stable (t =− 6.4674, p &lt; 0.01). Consequently, from d = 1 and s = 12, the seasonal ARIMA model can be preliminarily denoted by ARIMA (p, 1, q) × (P, 1, Q)<sub>12</sub>.
+<fig id="Fig4"><label>Fig. 4</label><caption><p>Plot of the Box-Cox-transformed HFRS cases</p></caption><graphic xlink:href="12879_2021_6503_Fig4_HTML" id="d32e1894"/></fig></p>
+                <p id="Par45">As seen in the graphs of the ACF and PACF (Fig. <xref rid="Fig5" ref-type="fig">5</xref>). The ACF had obvious peaks at lags 3 and 12, indicating respectively nonseasonal MA (3) components and seasonal MA (1) components respectively. In addition, in the PACF graph, the obvious lag peaks at 3 and 12 indicate a nonseasonal AR (3) element and a seasonal AR (1) element. Therefore, the parameters were set as follows: p from 0 to 3, q from 0 to 3, P from 0 to 1 and Q from 0 to 1. By assembling all possible values of each parameter, multiple candidate models are generated. Nine models remained after the residual and parameter test was implemented, and the ARIMA (3, 1, 0) × (1, 1, 0)<sub>12</sub> model had the smallest CAIC (427.1528) (Table <xref rid="Tab1" ref-type="table">1</xref>). The Ljung–Box test (Q = 7.5588, p = 0.9944) indicated that the sequence residual was white noise, which means that the final fitted data sequence was stationary. The estimated parameters of the ARIMA (3, 1, 0) × (1, 1, 0)<sub>12</sub> model are listed in Table <xref rid="Tab2" ref-type="table">2</xref>. The curves of training, forecasting and the actual HFRS incidence by ARIMA model are pictured in Fig. <xref rid="Fig6" ref-type="fig">6</xref>.
+<fig id="Fig5"><label>Fig. 5</label><caption><p>Autocorrelation and partial autocorrelation plots of the differenced HFRS incidence series</p></caption><graphic xlink:href="12879_2021_6503_Fig5_HTML" id="d32e1924"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>CAIC value and Ljung-Box Q value of the candidate seasonal ARIMA models</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Model</th><th align="left">CAIC</th><th align="left">Ljung-Box Q</th><th align="left">P value</th></tr></thead><tbody><tr><td align="left">ARIMA (0,1,3) × (1,1,1)<sub>12</sub></td><td char="." align="char">429.244</td><td char="." align="char">7.091</td><td char="." align="char">0.994</td></tr><tr><td align="left">ARIMA (0,1,3) × (1,1,0)<sub>12</sub></td><td char="." align="char">427.345</td><td char="." align="char">7.429</td><td char="." align="char">0.995</td></tr><tr><td align="left">ARIMA (0,1,3) × (0,1,1)<sub>12</sub></td><td char="." align="char">428.220</td><td char="." align="char">12.07</td><td char="." align="char">0.914</td></tr><tr><td align="left">ARIMA (3,1,0) × (1,1,1)<sub>12</sub></td><td char="." align="char">429.108</td><td char="." align="char">7.347</td><td char="." align="char">0.992</td></tr><tr><td align="left">ARIMA (3,1,0) × (1,1,0)<sub>12</sub></td><td char="." align="char">427.154</td><td char="." align="char">7.559</td><td char="." align="char">0.994</td></tr><tr><td align="left">ARIMA (3,1,0) × (0,1,1)<sub>12</sub></td><td char="." align="char">427.666</td><td char="." align="char">12.552</td><td char="." align="char">0.896</td></tr><tr><td align="left">ARIMA (3,1,3) × (1,1,1)<sub>12</sub></td><td char="." align="char">430.864</td><td char="." align="char">7.068</td><td char="." align="char">0.972</td></tr><tr><td align="left">ARIMA (3,1,3) × (1,1,0)<sub>12</sub></td><td char="." align="char">428.906</td><td char="." align="char">7.333</td><td char="." align="char">0.979</td></tr><tr><td align="left">ARIMA (3,1,3) × (0,1,1)<sub>12</sub></td><td char="." align="char">429.528</td><td char="." align="char">12.340</td><td char="." align="char">0.779</td></tr></tbody></table></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>Estimated parameters of the seasonal ARIMA <bold>(</bold>3,1,0) × (1,1,0)<sub>12</sub> model</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Model parameter</th><th align="left">Estimate</th><th align="left">Standard error</th><th align="left">95 % CI of the estimate</th></tr></thead><tbody><tr><td align="left">AR3</td><td char="." align="char">− 0.311</td><td char="." align="char">0.087</td><td char="−" align="char">(− 0.481, − 0.142)</td></tr><tr><td align="left">Seasonal AR1</td><td char="." align="char">− 0.405</td><td char="." align="char">0.082</td><td char="−" align="char">(− 0.565, − 0.245)</td></tr></tbody></table></table-wrap><fig id="Fig6"><label>Fig. 6</label><caption><p>The curves of the fitted ARIMA model, forecasted ARIMA model and actual HFRS incidence series</p></caption><graphic xlink:href="12879_2021_6503_Fig6_HTML" id="d32e2154"/></fig></p>
+              </sec>
+              <sec id="Sec10">
+                <title>XGBoost model</title>
+                <p id="Par46">The grid search algorithm was used in the XGBoost model to realize the automatic optimization of the parameters. In this research, we realized automatic optimization of max_depth, n_estimators and min_child_weight. According to the grid search and tenfold cross-validation, the possible parameters are shown in Table <xref rid="Tab3" ref-type="table">3</xref>. Among all six combined parameters, the first had the lowest test RMSE (238.3084). The optimal parameters of the XGBoost model were listed in Table <xref rid="Tab4" ref-type="table">4</xref>. The importance of a feature is determined by whether the forecasting capability changes significantly when the feature is replaced by random noise. In the XGBoost algorithm, we input several features to calculate the feature importance and determine how each feature contributes to the prediction performance in the training step (Fig. <xref rid="Fig7" ref-type="fig">7</xref>). Characteristic variables such as x_lag12 and x_lag1 had a significant impact on the prediction of the number of HFRS cases. Finally, based on the hyperparameter optimization results, the final one-step forecasting model was built. The curves of training, forecasting and the actual HFRS incidence by the XGBoost model are showed in Fig. <xref rid="Fig8" ref-type="fig">8</xref>.
+<table-wrap id="Tab3"><label>Table 3</label><caption><p>Possible parameters of the XGBoost model</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Model<break/>Parameters</th><th align="left">Best<break/>Rounds</th><th align="left">Test<break/>RMSE</th><th align="left">Train<break/>RMSE</th><th align="left">SubSamp<break/>Rate</th><th align="left">ColSamp<break/>Rate</th><th align="left">Depth</th><th align="left">Eta</th><th align="left">MinChild</th></tr></thead><tbody><tr><td align="left">1</td><td char="." align="char">105</td><td char="." align="char">238.308</td><td char="." align="char">161.126</td><td char="." align="char">0.400</td><td char="." align="char">0.600</td><td char="." align="char">2</td><td char="." align="char">0.050</td><td char="." align="char">2</td></tr><tr><td align="left">2</td><td char="." align="char">113</td><td char="." align="char">238.591</td><td char="." align="char">160.885</td><td char="." align="char">0.400</td><td char="." align="char">0.400</td><td char="." align="char">2</td><td char="." align="char">0.050</td><td char="." align="char">2</td></tr><tr><td align="left">3</td><td char="." align="char">96</td><td char="." align="char">239.072</td><td char="." align="char">155.984</td><td char="." align="char">0.400</td><td char="." align="char">0.500</td><td char="." align="char">2</td><td char="." align="char">0.060</td><td char="." align="char">2</td></tr><tr><td align="left">4</td><td char="." align="char">95</td><td char="." align="char">239.153</td><td char="." align="char">154.751</td><td char="." align="char">0.400</td><td char="." align="char">0.600</td><td char="." align="char">2</td><td char="." align="char">0.060</td><td char="." align="char">2</td></tr><tr><td align="left">5</td><td char="." align="char">133</td><td char="." align="char">239.843</td><td char="." align="char">138.405</td><td char="." align="char">0.600</td><td char="." align="char">0.300</td><td char="." align="char">2</td><td char="." align="char">0.050</td><td char="." align="char">1</td></tr><tr><td align="left">6</td><td char="." align="char">179</td><td char="." align="char">239.886</td><td char="." align="char">136.431</td><td char="." align="char">0.600</td><td char="." align="char">0.300</td><td char="." align="char">2</td><td char="." align="char">0.040</td><td char="." align="char">2</td></tr></tbody></table></table-wrap><table-wrap id="Tab4"><label>Table 4</label><caption><p>List of the optimal parameters and description of the XGBoost model</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Parameters</th><th align="left">Value</th></tr></thead><tbody><tr><td align="left">Booster</td><td align="left">‘gbtree’</td></tr><tr><td align="left">Objective</td><td align="left">‘reg: squared error’</td></tr><tr><td align="left">Early_stopping_rounds</td><td align="left">5</td></tr><tr><td align="left">Eval_metric</td><td align="left">‘rmse’</td></tr><tr><td align="left">Min_child_weight</td><td align="left">2</td></tr><tr><td align="left">Subsample</td><td align="left">0.4</td></tr><tr><td align="left">Colsample_bytree</td><td align="left">0.6</td></tr><tr><td align="left">Eta</td><td align="left">0.05</td></tr><tr><td align="left">Nrounds</td><td align="left">200</td></tr><tr><td align="left">Depth</td><td align="left">2</td></tr></tbody></table></table-wrap><fig id="Fig7"><label>Fig. 7</label><caption><p>Importance of the XGBoost characteristic variables</p></caption><graphic xlink:href="12879_2021_6503_Fig7_HTML" id="d32e2497"/></fig><fig id="Fig8"><label>Fig. 8</label><caption><p>The curves of the fitted XGBoost model, forecasted XGBoost model and actual HFRS incidence series</p></caption><graphic xlink:href="12879_2021_6503_Fig8_HTML" id="d32e2506"/></fig></p>
+                <sec id="Sec11">
+                  <title>Comparison of the models</title>
+                  <p id="Par47">Table <xref rid="Tab5" ref-type="table">5</xref> shows the one-step and multistep forecasting accuracies of the two models. In the training sample, the ME, MAE, MAPE, MPE and MASE of XGBoost were higher than those of the ARIMA model, whereas the RMSE of XGBoost was lower than that of the ARIMA model. In the test sample, the ME, RMSE, MAE, MPE, MAPE and MASE of XGBoost model were obviously lower than those of the ARIMA model in both one-step forecasting and multistep forecasting. Therefore, the XGBoost model had a better forecasting performance in the prediction of the number of HFRS cases.</p>
+                  <p id="Par48">
+                    <table-wrap id="Tab5">
+                      <label>Table 5</label>
+                      <caption>
+                        <p>The one-step and multistep forecasting accuracy of the ARIMA and XGBoost models</p>
+                      </caption>
+                      <table frame="hsides" rules="groups">
+                        <thead>
+                          <tr>
+                            <th align="left" rowspan="3">Model<break/>Strategy<break/>Index</th>
+                            <th align="left" colspan="4">ARIMA</th>
+                            <th align="left" colspan="4">XGBoost</th>
+                          </tr>
+                          <tr>
+                            <th align="left" colspan="2">One-step</th>
+                            <th align="left" colspan="2">Multistep</th>
+                            <th align="left" colspan="2">One-step</th>
+                            <th align="left" colspan="2">Multistep</th>
+                          </tr>
+                          <tr>
+                            <th align="left">Training set</th>
+                            <th align="left">Test set</th>
+                            <th align="left">Training set</th>
+                            <th align="left">Test set</th>
+                            <th align="left">Training set</th>
+                            <th align="left">Test set</th>
+                            <th align="left">Training set</th>
+                            <th align="left">Test set</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="left">ME</td>
+                            <td align="left">− 7.149</td>
+                            <td char="." align="char">− 61.448</td>
+                            <td align="left">− 7.149</td>
+                            <td char="." align="char">− 259.878</td>
+                            <td align="left">8.111</td>
+                            <td char="." align="char">33.622</td>
+                            <td align="left">8.111</td>
+                            <td char="." align="char">97.931</td>
+                          </tr>
+                          <tr>
+                            <td align="left">RMSE</td>
+                            <td align="left">181.977</td>
+                            <td char="." align="char">249.276</td>
+                            <td align="left">181.977</td>
+                            <td char="." align="char">302.781</td>
+                            <td align="left">166.311</td>
+                            <td char="." align="char">178.547</td>
+                            <td align="left">166.311</td>
+                            <td char="." align="char">223.187</td>
+                          </tr>
+                          <tr>
+                            <td align="left">MAE</td>
+                            <td align="left">108.160</td>
+                            <td char="." align="char">185.367</td>
+                            <td align="left">108.160</td>
+                            <td char="." align="char">259.878</td>
+                            <td align="left">113.219</td>
+                            <td char="." align="char">132.055</td>
+                            <td align="left">113.219</td>
+                            <td char="." align="char">173.403</td>
+                          </tr>
+                          <tr>
+                            <td align="left">MPE</td>
+                            <td align="left">− 0.937</td>
+                            <td char="." align="char">− 6.575</td>
+                            <td align="left">− 0.937</td>
+                            <td char="." align="char">− 30.121</td>
+                            <td align="left">− 2.403</td>
+                            <td char="." align="char">2.383</td>
+                            <td align="left">− 2.403</td>
+                            <td char="." align="char">6.348</td>
+                          </tr>
+                          <tr>
+                            <td align="left">MAPE</td>
+                            <td align="left">10.293</td>
+                            <td char="." align="char">18.561</td>
+                            <td align="left">10.293</td>
+                            <td char="." align="char">30.121</td>
+                            <td align="left">11.596</td>
+                            <td char="." align="char">12.353</td>
+                            <td align="left">11.596</td>
+                            <td char="." align="char">15.615</td>
+                          </tr>
+                          <tr>
+                            <td align="left">MASE</td>
+                            <td align="left">0.442</td>
+                            <td char="." align="char">0.757</td>
+                            <td align="left">0.442</td>
+                            <td char="." align="char">1.062</td>
+                            <td align="left">0.462</td>
+                            <td char="." align="char">0.526</td>
+                            <td align="left">0.462</td>
+                            <td char="." align="char">0.691</td>
+                          </tr>
+                          <tr>
+                            <td align="left">ACF1</td>
+                            <td align="left">0.016</td>
+                            <td char="." align="char">− 0.169</td>
+                            <td align="left">0.016</td>
+                            <td char="." align="char">− 0.159</td>
+                            <td align="left">0.424</td>
+                            <td char="." align="char">− 0.232</td>
+                            <td align="left">0.424</td>
+                            <td char="." align="char">− 0.047</td>
+                          </tr>
+                          <tr>
+                            <td align="left">Theil’s U</td>
+                            <td align="left">NA</td>
+                            <td char="." align="char">0.375</td>
+                            <td align="left">NA</td>
+                            <td char="." align="char">0.441</td>
+                            <td align="left">NA</td>
+                            <td char="." align="char">0.273</td>
+                            <td align="left">NA</td>
+                            <td char="." align="char">0.398</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </table-wrap>
+                  </p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec12" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par49">This study showed the seasonal distribution of HFRS cases. The main incidence peaks were concentrated from October to January, especially in November of the following year. The second incidence peak occurred from March to June. The overall shape was bimodal, which was consistent with the literatures reported in the South Korean army and different regions of China [<xref ref-type="bibr" rid="CR4">4</xref>, <xref ref-type="bibr" rid="CR25">25</xref>]. In addition, the incidence of HFRS in mainland China from 2004 to 2018 showed an overall downward trend, but there was a clear upward trend in 2010 that continued until 2013. The periodicity of HFRS incidence may be related to climate factors, the number of rodents in the wild, and the accumulation speed of susceptible people. As an important climate factor, the monsoon phenomenon may affect periodic trends in HFRS, which can change annually. Since the data collected in this study were not from a sufficiently long period, the periodicity was not obvious in this study. The influence of meteorological factors and monsoon phenomena on HFRS can be considered in the future.</p>
+              <p id="Par50">Therefore, understanding the changing trend in HFRS is particularly important for exploring the influencing factors. It is also crucial for predicting epidemics and formulating corresponding preventive and early-warning measures. The accuracy of infectious disease forecasting has drawn the attention of a number of scholars [<xref ref-type="bibr" rid="CR9">9</xref>, <xref ref-type="bibr" rid="CR26">26</xref>, <xref ref-type="bibr" rid="CR27">27</xref>]. Many mathematical methods and statistical models have been applied to predict HFRS incidence. The ARIMA model is developed based on a linear regression model, combining the advantages of autoregressive and moving average models, which can explain the data well. We can obtain the coefficient of each variable and know whether each coefficient is statistically significant. Stationary data are a prerequisite for establishing an ARIMA model; thus, the seasonal ARIMA model needs to transform nonlinear data into linear data after differencing and transformation. According to the characteristics of HFRS, we decomposed the infectious disease time series into trend components, seasonal components and random fluctuation components. The more differences use, the more data are lost. In this study, the first-order and 12th-order differences were used, so 13 months of data were lost. When forecasting, the ARIMA model considers only historical data to understand the disease trend and obtain a more accurate prediction effect instead of requiring specific influencing factors. Therefore, the ARIMA method is easy to master and widely used. However, the nonlinear mapping performance of ARIMA models is weak, and its accuracy is unsatisfactory when it tries to fit and predict nonlinear and complex infectious disease time series. For example, in this study, the fitting effect was not perfect when the disease trend changed suddenly, and the error between the fitted value and the actual value in May 2010 and 2013 was relatively large (Fig. <xref rid="Fig6" ref-type="fig">6</xref>). Many factors can affect HFRS, including meteorological factors and human-made control measures, most of which have a nonlinear relationship with the number of cases, so when the number of HFRS suddenly increases or decreases, these nonlinear factors may affect the fitting accuracy of the ARIMA model. In addition, the ARIMA method is more suitable to predict a short-term time series. Thus, it is necessary to constantly collect data and obtain the longest time series possible. Based on the characteristic of the ARIMA model and HFRS, this study used the monthly incidence data of HFRS from 2004 to 2017 to establish a seasonal ARIMA model. The results showed that the ARIMA (3, 1, 0) × (1, 1, 0)<sub>12</sub> model can better fit and predict the monthly incidence than other forms.</p>
+              <p id="Par51">The XGBoost model is a powerful machine learning algorithm, especially in terms of the speed and accuracy are concerned. It is good at dealing with nonlinear data but has poor interpretability. From studies in other fields, the XGBoost model performed well in predicting nonlinear time series [<xref ref-type="bibr" rid="CR28">28</xref>–<xref ref-type="bibr" rid="CR31">31</xref>]. By integrating multiple CART models, XGBoost model can achieve a better generalizability than a single model, which means that the XGBoost has a larger postpruning penalty than a GBDT model and makes the learned model less prone to overfitting. Moreover, a regularization term is added to control the complexity reduce the variance of the model. Moreover, XGBoost model is a hyperparameter model [<xref ref-type="bibr" rid="CR32">32</xref>], that can control more parameters than other models and is flexible to tune parameters. Compared with the complexity of the conditions that the ARIMA model needs to meet, the modeling process of the XGBoost is very simple. In this study, a grid search was conducted to exhaustively search for specified parameters, and tenfold cross-validation was used to evaluate the performance of the XGBoost. The grid search made XGBoost achieve a good generalizability but also consumed more calculation resources and storage space. In addition, XGBoost model fit the range of normal values more stably, but the ARIMA model was slightly better than the XGBoost model when fitting outliers (Fig. <xref rid="Fig8" ref-type="fig">8</xref>). This finding is mainly due to the following reasons: during ARIMA modeling, the best parameters were determined by the minimum CAIC and residual white noise of the training set, and the problem of overfitting was not considered. For the XGBoost model, to prevent overfitting, tenfold cross-validation and an early-stopping mechanism were used to select the best parameters. These factors increased the prediction performance of the XGBoost model but reduced the fitting effect of outliers. With these characteristics, our study applied it in prediction of the incidence of HFRS. We tried one-step forecasting and multistep XGBoost forecasting models to predict HFRS cases in mainland China. The results showed that the MAEs of the one-step and multistep XGBoost models were 132.055 and 173.403 respectively, which were 28.76 and 33.27 % lower than that of ARIMA model. The MAPE values were 12.353 and 15.615, which were 33.45 and 48.16 % lower than that of the ARIMA model. The RMSEs were 178.547 and 223.187, which were 28.37 and 26.29 % lower than that of ARIMA model.</p>
+              <p id="Par52">As predicted, the one-step prediction accuracy of the two models was better than the multistep prediction accuracy. From the perspective of predicting infectious diseases, each predicted value of one-step prediction is obtained from the actual value, and it is unrealistic to predict diseases that have not occurred. Multistep prediction uses the previous prediction value as input to predict the next value, which will produce cumulative errors, but it has practical significance for predicting infectious diseases that have not occurred. The results indicated that the proposed one-step and multistep XGBoost model can significantly improve the accuracy of the overall prediction. The value of Theil’s U also proved this finding. From the perspective of the prediction accuracy and prediction stability, the XGBoost model is suitable for HFRS prediction tasks. In other words, by integrating the prediction results of multiple regression trees, the XGBoost model can achieve better prediction results than the ARIMA model in the one-step forecasting and multistep forecasting.</p>
+            </sec>
+            <sec id="Sec13" sec-type="conclusion">
+              <title>Conclusions</title>
+              <p id="Par53">In this paper, we built a seasonal ARIMA model and XGBoost model to conduct one-step and multistep prediction of the number of HFRS cases in mainland China for 2004 to 2018. The multistep XGBoost prediction model showed a much better prediction accuracy and model stability than the multistep ARIMA prediction model. The XGBoost model performed better in predicting complicated and nonlinear HFRS data. Additionally, a multistep prediction model has more practical significance than one-step prediction for forecasting infectious diseases.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec14">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="12879_2021_6503_MOESM1_ESM.xlsx">
+                      <caption>
+                        <p><bold>Additional file 1.</bold> Monthly cases of hemorrhagic fever with renal syndrome in Mainland China from 2004 to 2018.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>HFRS</term>
+                  <def>
+                    <p id="Par5">Hemorrhagic fever with renal syndrome</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CDC</term>
+                  <def>
+                    <p id="Par6">Center for Disease Control and Prevention</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ARIMA</term>
+                  <def>
+                    <p id="Par7">Autoregressive integrated moving average</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>XGBoost</term>
+                  <def>
+                    <p id="Par8">Extreme gradient boosting</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CART</term>
+                  <def>
+                    <p id="Par9">Classification and regression tree</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ADF</term>
+                  <def>
+                    <p id="Par10">Augmented Dickey-Fuller</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ACF</term>
+                  <def>
+                    <p id="Par11">Autocorrelation function</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PACF</term>
+                  <def>
+                    <p id="Par12">Partial autocorrelation function</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CSS</term>
+                  <def>
+                    <p id="Par13">Conditional sum of squares</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CAIC</term>
+                  <def>
+                    <p id="Par14">Corrected Akaike Information Criteria</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ME</term>
+                  <def>
+                    <p id="Par15">Mean error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RMSE</term>
+                  <def>
+                    <p id="Par16">Root mean squared error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MAE</term>
+                  <def>
+                    <p id="Par17">Mean absolute error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MPE</term>
+                  <def>
+                    <p id="Par18">Mean percentage error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MAPE</term>
+                  <def>
+                    <p id="Par19">Mean absolute percentage error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MASE</term>
+                  <def>
+                    <p id="Par20">Mean absolute scaled error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ACF1</term>
+                  <def>
+                    <p id="Par21">Autocorrelation of errors at lag 1</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We would especially like to thank the reviewers for critically reading the manuscript and providing comments for improving the presentation.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>CXL designed and wrote the manuscript. SYA and BJQ analyzed and collected the data. WW proposed the original idea and modified and refined the manuscript. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This study was supported by the National Natural Science Foundation of China (Grant No. 81202254) and the Science Foundation of Liaoning Provincial Department of Education (LK201644). They have not participated in the design of the study, the collection, analysis, interpretation of data nor in writing the manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The datasets generated and/or analysed during the current study are available in Additional file 1 (<ext-link ext-link-type="uri" xlink:href="http://www.nhc.gov.cn">http://www.nhc.gov.cn</ext-link>). The datasets used and/or analysed during the current study are also available from the corresponding author on reasonable request.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1">
+                <title>Ethics approval and consent to participate</title>
+                <p id="Par54">Not applicable.</p>
+              </notes>
+              <notes id="FPar2">
+                <title>Consent for publication</title>
+                <p id="Par55">Not applicable.</p>
+              </notes>
+              <notes id="FPar3" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par56">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>PZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bai</surname>
+                      <given-names>XF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hemorrhagic fever with renal syndrome: pathogenesis and clinical picture</article-title>
+                  <source>Front Cell Infect Microbiol</source>
+                  <year>2016</year>
+                  <volume>6</volume>
+                  <fpage>1</fpage>
+                  <?supplied-pmid 26870699?>
+                  <pub-id pub-id-type="pmid">26870699</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Avšič-Županc</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Saksida</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Korva</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hantavirus infections</article-title>
+                  <source>Clin Microbiol Infect</source>
+                  <year>2019</year>
+                  <volume>21</volume>
+                  <fpage>e6</fpage>
+                  <lpage>e16</lpage>
+                  <pub-id pub-id-type="doi">10.1111/1469-0691.12291</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Ge</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new Seasonal Difference Space-Time Autoregressive Integrated Moving Average (SD-STARIMA) model and spatiotemporal trend prediction analysis for Hemorrhagic Fever with Renal Syndrome (HFRS)</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2018</year>
+                  <volume>13</volume>
+                  <issue>11</issue>
+                  <fpage>e0207518</fpage>
+                  <lpage>e0207518</lpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0207518</pub-id>
+                  <pub-id pub-id-type="pmid">30475830</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zou</surname>
+                      <given-names>L-X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatiotemporal analysis and forecasting model of hemorrhagic fever with renal syndrome in mainland China</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2018</year>
+                  <volume>146</volume>
+                  <issue>13</issue>
+                  <fpage>1680</fpage>
+                  <lpage>1688</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268818002030</pub-id>
+                  <pub-id pub-id-type="pmid">30078384</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>PZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bai</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>HT</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Bai</surname>
+                      <given-names>XF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical characteristics and outcomes in critical patients with hemorrhagic fever with renal syndrome</article-title>
+                  <source>BMC Infect Dis</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <fpage>191</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2334-14-191</pub-id>
+                  <pub-id pub-id-type="pmid">24712579</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Bi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prevalence of haemorrhagic fever with renal syndrome in mainland China: analysis of National Surveillance Data, 2004–2009</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2012</year>
+                  <volume>140</volume>
+                  <issue>5</issue>
+                  <fpage>851</fpage>
+                  <lpage>857</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268811001063</pub-id>
+                  <pub-id pub-id-type="pmid">21791148</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>de Vlas</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Bian</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Spatial analysis of hemorrhagic fever with renal syndrome in China</article-title>
+                  <source>BMC Infect Dis</source>
+                  <year>2006</year>
+                  <volume>6</volume>
+                  <fpage>77</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2334-6-77</pub-id>
+                  <pub-id pub-id-type="pmid">16638156</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>HY</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>YC</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>YL</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsai</surname>
+                      <given-names>YY</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>KH</given-names>
+                    </name>
+                    <name>
+                      <surname>Ke</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Applying machine learning models with an ensemble approach for accurate real-time influenza forecasting in taiwan: development and validation study</article-title>
+                  <source>J Med Intern Res</source>
+                  <year>2020</year>
+                  <volume>22</volume>
+                  <issue>8</issue>
+                  <fpage>e15394</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Developing a dengue forecast model using machine learning: A case study in China</article-title>
+                  <source>PLoS Negl Trop Dis</source>
+                  <year>2017</year>
+                  <volume>11</volume>
+                  <issue>10</issue>
+                  <fpage>e0005973</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pntd.0005973</pub-id>
+                  <pub-id pub-id-type="pmid">29036169</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Kong</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A method for hand-foot-mouth disease prediction using GeoDetector and LSTM model in Guangxi, China</article-title>
+                  <source>Sci Rep</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <fpage>17928</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-54495-2</pub-id>
+                  <pub-id pub-id-type="pmid">31784625</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>YW</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>ZZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of autoregressive integrated moving average model and generalised regression neural network model for prediction of haemorrhagic fever with renal syndrome in China: a time-series study</article-title>
+                  <source>BMJ Open</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <issue>6</issue>
+                  <fpage>e025773</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2018-025773</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Nie</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Yi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemiological and time series analysis of haemorrhagic fever with renal syndrome from 2004 to 2017 in Shandong Province, China</article-title>
+                  <source>Sci Rep</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <fpage>14644</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-50878-7</pub-id>
+                  <pub-id pub-id-type="pmid">31601887</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Giraka</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Selvaraj</surname>
+                      <given-names>VK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short-term prediction of intersection turning volume using seasonal ARIMA model</article-title>
+                  <source>Transport Lett</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <issue>7</issue>
+                  <fpage>483</fpage>
+                  <lpage>490</lpage>
+                  <pub-id pub-id-type="doi">10.1080/19427867.2019.1645476</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tian</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>XM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time-series modelling and forecasting of hand, foot and mouth disease cases in China from 2008 to 2018</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2019</year>
+                  <volume>147</volume>
+                  <fpage>e82</fpage>
+                  <pub-id pub-id-type="doi">10.1017/S095026881800362X</pub-id>
+                  <pub-id pub-id-type="pmid">30868999</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Application of XGBoost ensemble method on nurse turnover prediction</article-title>
+                  <source>Basic Clin Pharmacol Toxicol</source>
+                  <year>2019</year>
+                  <volume>125</volume>
+                  <fpage>134</fpage>
+                  <lpage>134</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ji</surname>
+                      <given-names>XJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>WD</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>ZC</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Five-Feature Model for Developing the Classifier for Synergistic vs. Antagonistic Drug Combinations Built by XGBoost</article-title>
+                  <source>Fron Genet</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>1</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fgene.2019.00001</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Yin</surname>
+                      <given-names>YB</given-names>
+                    </name>
+                    <name>
+                      <surname>Quan</surname>
+                      <given-names>XW</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gene expression value prediction based on XGBoost algorithm</article-title>
+                  <source>Front Genet</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>1</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fgene.2019.00001</pub-id>
+                  <pub-id pub-id-type="pmid">30804975</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>XL</given-names>
+                    </name>
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Bui</surname>
+                      <given-names>XN</given-names>
+                    </name>
+                    <name>
+                      <surname>Tran</surname>
+                      <given-names>QH</given-names>
+                    </name>
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bui</surname>
+                      <given-names>DT</given-names>
+                    </name>
+                    <name>
+                      <surname>Moayedi</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Novel soft computing model for predicting blast-induced ground vibration in open-pit mines based on particle swarm optimization and XGBoost</article-title>
+                  <source>Nat Resour Res</source>
+                  <year>2020</year>
+                  <volume>29</volume>
+                  <issue>2</issue>
+                  <fpage>711</fpage>
+                  <lpage>721</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11053-019-09492-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>YH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A XGBoost model with weather similarity analysis and feature engineering for short-term wind power forecasting</article-title>
+                  <source>Appl Sci -Basel</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>15</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting incidence of hemorrhagic fever with renal syndrome in China using ARIMA model</article-title>
+                  <source>BMC Infect Dis</source>
+                  <year>2011</year>
+                  <volume>11</volume>
+                  <fpage>218</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2334-11-218</pub-id>
+                  <pub-id pub-id-type="pmid">21838933</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Helfenstein</surname>
+                      <given-names>U</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Box-Jenkins modelling in medical research</article-title>
+                  <source>Stat Methods Med Res.</source>
+                  <year>1996</year>
+                  <volume>5</volume>
+                  <issue>1</issue>
+                  <fpage>3</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.1177/096228029600500102</pub-id>
+                  <?supplied-pmid 8743076?>
+                  <pub-id pub-id-type="pmid">8743076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Duan</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Shu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Miao</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Nie</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Application of a hybrid model for predicting the incidence of tuberculosis in Hubei, China</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <issue>11</issue>
+                  <fpage>e80969</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0080969</pub-id>
+                  <pub-id pub-id-type="pmid">24223232</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sorjamaa</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Reyhani</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Ji</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lendasse</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Methodology for long-term prediction of time series</article-title>
+                  <source>Neurocomputing</source>
+                  <year>2007</year>
+                  <volume>70</volume>
+                  <issue>16</issue>
+                  <fpage>2861</fpage>
+                  <lpage>2869</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neucom.2006.06.015</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Nawata</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multistep prediction for influenza outbreak by an adjusted long short-term memory</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2018</year>
+                  <volume>146</volume>
+                  <issue>7</issue>
+                  <fpage>809</fpage>
+                  <lpage>816</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268818000705</pub-id>
+                  <pub-id pub-id-type="pmid">29606177</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gauld</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Craig</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemiological pattern of localized outbreaks of epidemic Hemorr-hagic Fever</article-title>
+                  <source>Am J Hyg</source>
+                  <year>1954</year>
+                  <volume>59</volume>
+                  <issue>1</issue>
+                  <fpage>32</fpage>
+                  <lpage>38</lpage>
+                  <?supplied-pmid 13124322?>
+                  <pub-id pub-id-type="pmid">13124322</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liao</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Seasonality and Trend Forecasting of Tuberculosis Incidence in Chongqing, China</article-title>
+                  <source>Interdiscipl Sci Comput Life Sci</source>
+                  <year>2019</year>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>77</fpage>
+                  <lpage>85</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12539-019-00318-x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <name>
+                      <surname>Rani</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhagavathula</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Sah</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez-Morales</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalita</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Nanda</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>YD</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabaan</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction of the COVID-19 Pandemic for the Top 15 Affected Countries: Advanced Autoregressive Integrated Moving Average (ARIMA) Model</article-title>
+                  <source>JMIR Public Health Surveill</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <issue>2</issue>
+                  <fpage>e19115</fpage>
+                  <pub-id pub-id-type="doi">10.2196/19115</pub-id>
+                  <pub-id pub-id-type="pmid">32391801</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Qian</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A CEEMDAN and XGBOOST-based approach to forecast crude oil prices</article-title>
+                  <source>Complexity</source>
+                  <year>2019</year>
+                  <volume>2019</volume>
+                  <fpage>1</fpage>
+                  <lpage>15</lpage>
+                  <pub-id pub-id-type="doi">10.1155/2019/2875676</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ding</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>JCP</given-names>
+                    </name>
+                    <name>
+                      <surname>Tan</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Gan</surname>
+                      <given-names>VJL</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analyzing the leading causes of traffic fatalities using XGBoost and grid-based analysis: a city management perspective</article-title>
+                  <source>IEEE Access</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <fpage>148059</fpage>
+                  <lpage>148072</lpage>
+                  <pub-id pub-id-type="doi">10.1109/ACCESS.2019.2946401</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short-term load forecasting using EMD-LSTM neural networks with a Xgboost algorithm for feature importance evaluation</article-title>
+                  <source>Energies</source>
+                  <year>2017</year>
+                  <volume>10</volume>
+                  <fpage>8</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alim</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>GH</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>BS</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of ARIMA model and XGBoost model for prediction of human brucellosis in mainland China: a time-series study</article-title>
+                  <source>BMJ Open.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <issue>12</issue>
+                  <fpage>e039676</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2020-039676</pub-id>
+                  <?supplied-pmid 33293308?>
+                  <pub-id pub-id-type="pmid">33293308</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Putatunda</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rama</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A modified bayesian optimization based hyper-parameter tuning approach for extreme gradient boosting</article-title>
+                  <source>Fifteenth Int Conf Inform Process</source>
+                  <year>2019</year>
+                  <volume>2019</volume>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

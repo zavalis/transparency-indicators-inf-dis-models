@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T01:02:58Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6389963" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6389963</identifier>
+        <datestamp>2019-02-28</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6389963</article-id>
+              <article-id pub-id-type="pmcid">PMC6389963</article-id>
+              <article-id pub-id-type="pmc-uid">6389963</article-id>
+              <article-id pub-id-type="pmid">30804467</article-id>
+              <article-id pub-id-type="publisher-id">38930</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-019-38930-y</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Real-Time Forecasting of Hand-Foot-and-Mouth Disease Outbreaks using the Integrating Compartment Model and Assimilation Filtering</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zhan</surname>
+                    <given-names>Zhicheng</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Dong</surname>
+                    <given-names>Weihua</given-names>
+                  </name>
+                  <address>
+                    <email>dongweihua@bnu.edu.cn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lu</surname>
+                    <given-names>Yongmei</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Yang</surname>
+                    <given-names>Peng</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Quanyi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jia</surname>
+                    <given-names>Peng</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1789 9964</institution-id><institution-id institution-id-type="GRID">grid.20513.35</institution-id><institution>State Key Laboratory of Remote Sensing Science, </institution><institution>Beijing Key Laboratory for Remote Sensing of Environment and Digital Cities, Research Centre of Geospatial Cognition and Visual Analytics, and Faculty of Geographical Science, Beijing Normal University, </institution></institution-wrap>Beijing, 100875 China </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 0682 245X</institution-id><institution-id institution-id-type="GRID">grid.264772.2</institution-id><institution>Department of Geography, </institution><institution>Texas State University, </institution></institution-wrap>San Marcos, TX 78666-4684 USA </aff>
+                <aff id="Aff3"><label>3</label>Institute for Infectious Disease and Endemic Disease Control, Beijing Centre for Disease Prevention and Control, Beijing, 100013 China </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0399 8953</institution-id><institution-id institution-id-type="GRID">grid.6214.1</institution-id><institution>Faculty of Geo-Information Science and Earth Observation (ITC), </institution><institution>University of Twente, </institution></institution-wrap>Enschede, 7500 The Netherlands </aff>
+                <aff id="Aff5"><label>5</label>International Initiative on Spatial Lifecourse Epidemiology (ISLE), Enschede, The Netherlands </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>25</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>25</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <volume>9</volume>
+              <elocation-id>2661</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>16</day>
+                  <month>7</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>15</day>
+                  <month>1</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2019</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Hand-foot-and-mouth disease (HFMD) is a highly contagious viral infection, and real-time predicting of HFMD outbreaks will facilitate the timely implementation of appropriate control measures. By integrating a susceptible-exposed-infectious-recovered (SEIR) model and an ensemble Kalman filter (EnKF) assimilation method, we developed an integrated compartment model and assimilation filtering forecast model for real-time forecasting of HFMD. When applied to HFMD outbreak data collected for 2008–11 in Beijing, China, our model successfully predicted the peak week of an outbreak three weeks before the actual arrival of the peak, with a predicted maximum infection rate of 85% or greater than the observed rate. Moreover, dominant virus types enterovirus 71 (EV-71) and coxsackievirus A16 (CV-A16) may account for the different patterns of HFMD transmission and recovery observed. The results of this study can be used to inform agencies responsible for public health management of tailored strategies for disease control efforts during HFMD outbreak seasons.</p>
+              </abstract>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>The National Key Research and Development Program of China (Grant No. 2017YFB0503602)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Hand-foot-and-mouth disease (HFMD) is an infectious disease caused by enteroviruses. Coxsackievirus A16 (CV-A16) and enterovirus 71 (EV-71) are the two viruses responsible for most HFMD cases<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>; EV-71 tends to cause more severe and fatal cases, whereas CV-A16 has a milder outcome. HFMD mostly affects young children under the age of 10 and is characterized by symptoms of fever and vesicular sores with blisters on palms of the hands, soles of the feet, and buttocks. Moreover, HFMD has caused death in some serious cases<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. HFMD is transmitted from person to person through direct contact with the saliva, faeces, or vesicular fluid of an infected person; it can also be transmitted indirectly through contact with contaminated items<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. HFMD is commonly detected in areas along the west of the Pacific Ocean during spring, summer and fall. For example, multiple outbreaks have occurred in countries such as China<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>, Singapore<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>, and Japan<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> since the 1990s but have also occurred in western countries such as Germany<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> and Spain<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. During 2008–2014, more than 1 million HFMD cases each year were reported in China<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. An effective treatment for HFMD is not available<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. Therefore, a good understanding of the distribution and transmission of HFMD and an accurate real-time forecasting model of HFMD outbreaks are critically needed for the timely control and prevention of HFMD.</p>
+              <p id="Par3">Although previous studies have examined the factors influencing HFMD<sup><xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR16">16</xref></sup>, the characteristics and transmission patterns of HFMD vary across different regions and seasons, and thus the prediction of HFMD outbreaks remains a daunting task. Compartment models such as susceptible-infected-recovered (SIR) model and susceptible-exposed-infectious-recovered (SEIR) are two typical dynamic models that attempt to reflect changes in real world or simulation environment and take into account that the model components are constantly changing as a result of previous conditions and current influences<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. These models are commonly used to predict infectious diseases<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup> and have been used to simulate the dynamics of the HFMD outbreak<sup><xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR24">24</xref></sup>. However, the traditional compartment model relies on a set of static conditions and model parameters that are difficult to estimate for forecasting the HFMD outbreak due to the interactions of many uncertain factors, such as weather conditions and measures to control for social interaction. Moreover, conditions contributing to an HFMD outbreak are usually dynamic, which rarely meets the presumption of a traditional compartment model. Adding to the complexity, although one virus may predominate, multiple viruses can co-contribute to HFMD outbreaks. Furthermore, previous HFMD outbreaks in China have shown two peaks during a single year<sup><xref ref-type="bibr" rid="CR25">25</xref>–<xref ref-type="bibr" rid="CR27">27</xref></sup>, and predicting the timing and magnitude of the second peak tends to be more complex.</p>
+              <p id="Par4">Recent literature has described a new approach for forecasting infectious diseases by integrating dynamic models and the assimilation technology, which has been used for performing dynamic and real-time adjustments of a forecasting model<sup><xref ref-type="bibr" rid="CR28">28</xref>,<xref ref-type="bibr" rid="CR29">29</xref></sup>. In this case, preliminary predictions from a compartment model are dynamically adjusted by incorporating real-time observations through the assimilation filter to improve model prediction. This Integrated Compartment Model Assimilation Filtering approach has been used in recent years to forecast outbreaks of several infectious diseases, such as influenza<sup><xref ref-type="bibr" rid="CR30">30</xref>–<xref ref-type="bibr" rid="CR32">32</xref></sup>, Ebola<sup><xref ref-type="bibr" rid="CR33">33</xref></sup> and West Nile virus<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. However, the prediction of HFMD outbreaks has not been yet benefited from this innovative approach.</p>
+              <p id="Par5">This study used the Integrated Compartment Model and Assimilation Filtering model for real-time forecasting of HFMD outbreaks in Beijing using reported HFMD cases during 2008–2011. In particular, we (1) simulated disease occurrences over time, (2) estimated model parameters by incorporating real-time observation data, and (3) evaluated the model by comparing the weekly forecasts of HFMD to the reported data. Moreover, we examined potential associations between the dominant virus type responsible for the outbreak and the transmission pattern of HFMD, which are used as additional information for forecasting HFMD outbreaks. This approach of real-time HFMD forecasting will potentially help researchers design effective interventions for the control and prevention of HFMD.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Descriptive Statistics</title>
+                <p id="Par6">The weekly rate of HFMD infections in Beijing between January 1, 2008 and December 31, 2011 is shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. HFMD cases occurred throughout the year, but the rate was very low in the first 10 weeks, corresponding to the period from January to March. The high-incidence period occurred from May to July. The peak week in 2010 and 2011 was week 26, and the peak weeks in 2008 and 2009 were more than one month earlier than in 2010 and 2011, week 20 in 2008 and week 21 in 2009. The peak magnitude of infection varied from year to year. The highest peak magnitude occurred in 2010, followed by 2008 and 2011. A clear second peak of infection appeared in 2008 and 2011, and the time for the second peak differed across different years. The second peak week in 2008 occurred at almost the same time as the peak in 2010 and the first peak in 2011.<fig id="Fig1"><label>Figure 1</label><caption><p>The weekly rate of HFMD infections in Beijing from 2008–11.</p></caption><graphic xlink:href="41598_2019_38930_Fig1_HTML" id="d29e400"/></fig></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Prior Forecast and Posterior Analysis</title>
+                <p id="Par7">Prior forecasting employs the SEIR model and the current week’s variable measurements to forecast the infection rate of the next week, while the posterior analysis produces assimilation results by adjusting prior forecasts for observed data. The graphs in Fig. <xref rid="Fig2" ref-type="fig">2</xref> show the observation data, prior forecast, and posterior analysis for the study period using our model. The posterior analysis successfully captured the trend of infection rates in all four years, including the second peak during the 2008 HFMD outbreak. Moreover, the results of the posterior analysis appeared to be less impacted by the outliers in the observation data. We conducted regression analyses between the observed data and the data predicted from both the prior forecast and the posterior analysis to further evaluate the difference between the results obtained from the posterior analysis and the prior forecast (see Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>); the results of this analysis also showed a better fit between the observed data and posterior analyses.<fig id="Fig2"><label>Figure 2</label><caption><p>The relationships among the observed data, prior forecast outcomes, and posterior analysis outcomes in 2008 (<bold>a</bold>), 2009 (<bold>b</bold>), 2010 (<bold>c</bold>), and 2011 (<bold>d</bold>). Light green dots are the observed data for the weekly infection rate. Blue dots represent the prior forecast from the SEIR model. Red dots represent the posterior infection rate predicted using EnKF.</p></caption><graphic xlink:href="41598_2019_38930_Fig2_HTML" id="d29e432"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Accuracy Assessment</title>
+                <p id="Par8">We performed real-time forecasting of HFMD for 2008–2011 (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref>) and assessed the accuracy of the forecast of the peak magnitude by comparing the forecast peak magnitude and the observed peak magnitude (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). HFMD data were available for this study 12 weeks before the peak week in 2010 and 11 weeks before the peaks in 2009 and 2011, but only 5 weeks before the peak in 2008. Correspondingly, the peak week magnitude forecast was the most accurate for 2010 and least accurate for 2008. Without sufficient observation data, the predicted peak magnitude deviated far from its observed counterpart for the early weeks of each of the four years. As more observed data were fed into the model, the ensemble of variables and parameters were updated, and the peak magnitude accuracy continued to improve and approached 100% (i.e., zero offset). However, for 2008, as only five weeks of observation data were available for training the model, the forecast of the peak magnitude prediction was not comparable to the other three years. Notably, since the initial states for the ensembles and variables were set to establish the model, the forecast accuracy for the first week is not interpretable. Nevertheless, the time required for the peak magnitude prediction to converge is related to the initial states. Compared with 2009, the forecast accuracy of 2010 was high in the initial week, and the model only required five weeks to achieve a very accurate and stable prediction; conversely, nine weeks were required to achieve a similar level of accuracy for the forecasting of 2009.<fig id="Fig3"><label>Figure 3</label><caption><p>The forecast accuracy of the HFMD peak magnitudes from 2008–2011. Negative numbers on the horizontal axis represent numbers of weeks before the arrival of a peak week. The vertical axis measures the proximity of a forecasted peak infection rate is to the observed peak infection rate. A magnitude of 1 indicates a perfect forecast of the peak infection rate. The offset of the peak magnitude is defined as 1 − (<italic>M</italic><sub><italic>pre</italic></sub> − <italic>M</italic><sub><italic>obs</italic></sub>)/<italic>M</italic><sub><italic>obs</italic></sub>, where <italic>M</italic><sub><italic>obs</italic></sub> is the observed peak magnitude and <italic>M</italic><sub><italic>pre</italic></sub> is the predicted peak magnitude.</p></caption><graphic xlink:href="41598_2019_38930_Fig3_HTML" id="d29e483"/></fig></p>
+                <p id="Par9">When evaluating the prediction accuracy of the peak week time, we excluded the year 2008 due to its shorter pre-peak data period. The accuracy of peak week forecasting was evaluated using the number of weeks of offset between the predicted peak week and the observed peak week (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). As more observation data are used for peak week forecasting, the offset becomes smaller, showing a monotonic decreasing trend. For 2009, the offset was narrowed to one week as early as five weeks prior to the actual peak week. For 2011, the offset was narrowed to two weeks as early as six weeks before the actual peak week; additionally, no offset between the predicted peak week and the observed peak week was observed up to three weeks before the peak week. For 2010, the prediction offset was three weeks when forecast six weeks before the actual peak week, and it was within two weeks of offset when forecast two weeks before the actual peak.<fig id="Fig4"><label>Figure 4</label><caption><p>The forecast accuracy of the peak week arrival times for 2009, 2010, and 2011. The forecast result for 2008 is not included because of the lack of available training data before the peak week.</p></caption><graphic xlink:href="41598_2019_38930_Fig4_HTML" id="d29e497"/></fig></p>
+                <p id="Par10">The root-mean-square error (RMSE) between forecast data and observed data for the early weeks of forecasting appeared to be large and differed substantially across the four years (Fig. <xref rid="Fig5" ref-type="fig">5</xref>). These errors do not actually reflect the forecast quality because the forecast of the initial week was calculated using a randomly set initial state to run the SEIR- ensemble Kalman filter (EnKF) system. As the forecast was extended further into an outbreak season, more observation data were entered into the model, and the RMSE decreased sharply. Notably, the RMSE tended to remain low and relatively stable for all four years after a few weeks, suggesting that the performance of the model improves as more observation data are applied, thereby becoming more stable and reliable. This pattern also indicates that SEIR-EnKF forecasting is not very sensitive to the initial state, suggesting a minimum requirement of our forecasting model for additional or excessive data. Instead, as continuous observation data are entered into the forecasting system, the output converges to a reliable result. For 2009 and 2010, approximately 10 to 12 observation data points were needed before the RMSE decreased to a low and stable level. Importantly, 10–12 weeks is approximately the time frame for which data were available during these two years from the beginning of an outbreak to the peak week.<fig id="Fig5"><label>Figure 5</label><caption><p>RMSE calculated for the forecast data and the observed data for 2008–2011.</p></caption><graphic xlink:href="41598_2019_38930_Fig5_HTML" id="d29e511"/></fig></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Estimation of Transmission and Recovery Rates</title>
+                <p id="Par11">Estimates of the transmission and recovery rates for selected weeks using SEIR-EnKF are illustrated in Fig. <xref rid="Fig6" ref-type="fig">6</xref>. The transmission rate showed different trends across the four years. The transmission rates for 2009 and 2011 showed a monotonic increasing trend. However, in 2008 and 2010, the transmission rates first decreased until they reached their lowest point at approximately week 35, after which the rates increased. The recovery rates remained at the same level between the 15<sup>th</sup> and 20<sup>th</sup> weeks, after which they showed slight increasing trends in 2008 and 2010 and clear decreasing trends in 2009 and 2011. In summary, the HFMD transmission and recovery rates in 2008 and 2010 shared similar patterns that were clearly different from the patterns observed in 2009 and 2011.<fig id="Fig6"><label>Figure 6</label><caption><p>Estimation of the HFMD transmission and recovery rates during the indicated weeks in each of the four years using the SEIR-EnKF model. The thick horizontal line is the median, the edges of the boxes are the 25<sup>th</sup> and 75<sup>th</sup> percentiles, and the whiskers span the full range.</p></caption><graphic xlink:href="41598_2019_38930_Fig6_HTML" id="d29e540"/></fig></p>
+                <p id="Par12">The two distinct patterns of the HFMD transmission and recovery rates during 2008–11 may be related to multiple factors. First, the estimates of the transmission and recovery rates are related to the initial settings of the variables. Second, disease transmission and recovery rates are closely related to the social and environmental context of an outbreak, including factors such as weather conditions and the implementation of disease control measures. For HFMD outbreaks in Beijing, the dominant virus shifts between EV-71 and CV-A16. As shown in Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>, EV-71 was the dominant virus in 2008 and 2010, whereas in 2009 and 2011, it was CV-A16. Viruses may respond differently to changes in climatic factors, leading to the different patterns in the transmission and recovery rates observed across the four outbreak seasons investigated in this study.</p>
+              </sec>
+            </sec>
+            <sec id="Sec7" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par13">HFMD is a high-risk childhood disease for East Asian countries, but its prediction is difficult due to complex influencing factors. In this study, we developed a real-time forecasting model for HFMD outbreaks by integrating SEIR and EnKF. The integrated SEIR-EnKF forecasting system assimilated real-time observation data into forecasts in a dynamic manner and exhibited good performance for the real-time forecasting of HFMD by predicting the peak time and magnitude with acceptable accuracy.</p>
+              <p id="Par14">Based on empirical testing, the SEIR-EnKF system is reliable for real-time forecasting of HFMD. In 2008, the lack of pre-peak observation data for assimilation resulted in a relatively weak forecast. The forecasts of the magnitude of the infection rate and the time of the first peak were unclear. From 2009 to 2011, the system performed well in forecasting both the peak week timing and peak magnitude. The forecast accuracy was also assessed using RMSE, which showed a decreasing trend over time. Therefore, the integrated SEIR-EnKF system delivered real-time forecasts with short time intervals (e.g., weekly), and the forecast continuously improved as more observation data became available for assimilation. Our SEIR-EnKF forecasting system is a promising tool that may serve as an essential component in a warning system to assist public health agencies and the public in disease management and control measures in response to an HFMD epidemic.</p>
+              <p id="Par15">Transmission and recovery rates are essential parameters for understanding an infectious disease. To a large extent, their values determine the status of an on-going epidemic. The size of the population infected with HFMD is largely decided by the transmission rate<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. Compared with incubation and recovery rates, transmission dynamics are affected by many factors, such as geolocation, climate, the activities of susceptible populations, and government control measures. Therefore, it has the greatest uncertainty in the model, and the basic reproductive number<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>, which is defined as the transmission rate divided by the recovery rate, reflects whether an outbreak is spreading or controlled. However, a few previous studies have discussed transmission dynamics in detail. In 2008 and 2010, the transmission rate initially decreased and then increased throughout the year, whereas the transmission rate exhibited relatively small change during the seasons in 2009 and 2011. The recovery rates for 2008 and 2010 increased, whereas the recovery rate exhibited a continuous decrease throughout 2009 and 2011. The four-year estimated parameters provide a model-level explanation for the dynamic changes in the infection rate. It is showed that the combination of changes in the transmission rate and recovery rate contribute to the trend in the infection rate. According to the available four-year data analysed in our study, the different patterns in the years investigated might be associated with the virus type and corresponding features. Thus, the discovered patterns may be helpful for preparing a more accurate forecast. However, the changes in parameters at each step are difficult to explain due to the contributions of multiple, complex factors mentioned by other studies, such as control strategies 22 and cultural practices 33. In fact, these factors are uncertain and not easy to study quantitatively. Continuous monitoring of the parameters and the use of observed data will help establish a more accurate forecast in the future.</p>
+              <p id="Par16">Our study has several limitations. First, the speed of forecast error convergence is not sufficient, as it decreased to a low level after the peak time in our study. This parameter might be improved by employing other assimilation technologies, such as the Particle filter. Second, we did not accurately predict the second peak in this study. Although the second peak in 2008 was forecast, its accuracy was not satisfying. In addition, we only used limited observation data to assimilate all parameters in the model, which may increase model uncertainty. Although we adjusted for this uncertainty by discussing the initial parameters and prior information of model parameters, more types of observed data would be better. These data directly related to HFMD, such as search engine data and weather data, would be helpful for the forecast and improve the speed of forecast error convergence.</p>
+              <p id="Par17">In our study, we simplified the discussion of the possible association between virus types and transmission patterns. Further research is warranted to obtain a better understanding of this association. Long-term data for virus types and infection rates will be obtained and analysed using the SEIR-EnKF to discover and quantitatively describe the deterministic association. Once the connections are clearly identified, virus types will be incorporated into the SEIR-EnKF system for more accurate predictions. In addition, other factors, such as population structure, public health literacy, and weather conditions, may also impact the outbreak patterns. Future investigations should seek to determine the quantitative descriptive relationships with HFMD and incorporate these factors into the SEIR-EnKF system as well for more accurate forecasting of HFMD outbreaks.</p>
+            </sec>
+            <sec id="Sec8">
+              <title>Methods</title>
+              <p id="Par18">Ethics statement. This study was based on HFMD data in Beijing. All records were anonymized and no individual information can be identified. The research study protocol was approved by the Institutional Review Board at the Beijing CDC. All methods were performed in accordance with the principles of the Declaration of Helsinki.</p>
+              <sec id="Sec9">
+                <title>SEIR Model</title>
+                <p id="Par19">The SEIR model is a dynamic model that considers the incubation period of a disease. It considers four groups of people: the susceptible (S), the exposed (E), the infected (I) and the recovered (R). The model is expressed using the following equations:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dS(t)}{dt}=-\beta (t)\frac{S(t)I(t)}{N}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>S</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>N</mml:mi></mml:mfrac></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dE(t)}{dt}=\beta (t)\frac{S(t)I(t)}{N}-\sigma (t)E(t)$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>N</mml:mi></mml:mfrac><mml:mo>−</mml:mo><mml:mi>σ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dI(t)}{dt}=\sigma (t)E(t)-\gamma (t)I(t)$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>−</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dR(t)}{dt}=\gamma (t)I(t)$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>R</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$N(t)=S(t)+E(t)+I(t)+R(t)$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mi>N</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>S</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>R</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where t denotes time, <italic>S(t)</italic> is the number of susceptible people in the overall population at time t, <italic>E(t)</italic> is the number of exposed people, <italic>I(t)</italic> is the number of infected people, and <italic>R(t)</italic> is the number of recovered people who are no longer included in the transmission cycle. <italic>β</italic>(t) is the transmission rate from infectious people at time <italic>t</italic>, σ(t) is the incubation rate at time <italic>t</italic>, which is the inverse of the incubation period, <italic>γ</italic>(<italic>t</italic>) is the case recovery rate at time <italic>t</italic>, and <italic>N</italic> is the population size. The model does not consider deceased people because the death rate in the data used in this study was extremely low compared with the infection rate.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>EnKF Method</title>
+                <p id="Par20">EnKF uses an ensemble to calculate error covariance based on stochastic theories. The median of ensemble states is assumed to be an optimal estimate of the true state. The forecast generates the prediction at time <italic>k</italic> + 1 based on data analysed at time <italic>k</italic> using a mechanical model, SEIR in this study. This step is often performed using a dynamic model. The following formula is used:<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${X}_{k+1}^{f}={M}_{k}{X}_{k}^{a}$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msubsup></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq1"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${X}_{k}^{a}$$\end{document}</tex-math><mml:math id="M14"><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq1.gif"/></alternatives></inline-formula> is the status at time <italic>k</italic> and <inline-formula id="IEq2"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${X}_{k+1}^{f}$$\end{document}</tex-math><mml:math id="M16"><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq2.gif"/></alternatives></inline-formula> is the forecast at time <italic>k</italic> + 1. <italic>M</italic><sub><italic>k</italic></sub> is the model system (SEIR model in this study) at time <italic>k</italic>.</p>
+                <p id="Par21">A set of forecasts are generated, and the error terms of the forecasts are analysed as follows:<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${P}_{k+1}^{f}=\frac{1}{N-1}\sum _{i=1}^{N}\,({X}_{i,k+1}^{f}-\overline{{X}_{k+1}^{f}}){({X}_{i,k+1}^{f}-\overline{{X}_{k+1}^{f}})}^{T}$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>N</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mspace width=".25em"/><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mrow><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mrow></mml:mover><mml:mo stretchy="false">)</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mrow><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mrow></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>T</mml:mi></mml:msup></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${P}_{k+1}^{f}{H}^{T}=\frac{1}{N-1}\sum _{i=1}^{N}({X}_{i,k+1}^{f}-\overline{{X}_{k+1}^{f}}){(H{X}_{i,k+1}^{f}-H\overline{{X}_{k+1}^{f}})}^{T}$$\end{document}</tex-math><mml:math id="M20" display="block"><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:msup><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>N</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mrow><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mrow></mml:mover><mml:mo stretchy="false">)</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>H</mml:mi><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo>−</mml:mo><mml:mi>H</mml:mi><mml:mover accent="true"><mml:mrow><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mrow></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>T</mml:mi></mml:msup></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula>where <italic>H</italic> is the observation operator. The observation operator is a matrix which plays a role in linking the model variable vector and observations in the assimilation system (EnKF in this study). After converting the model variable vector to the form of observations by the observation operator, the variable vector and observed data could be in the same form for further analysis. N is the size of ensemble, <inline-formula id="IEq3"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${X}_{i,k+1}^{f}$$\end{document}</tex-math><mml:math id="M22"><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq3.gif"/></alternatives></inline-formula> is the variable vector at time <italic>k</italic> + 1, <inline-formula id="IEq4"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\overline{{X}_{k+1}^{f}}$$\end{document}</tex-math><mml:math id="M24"><mml:mover accent="true"><mml:mrow><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mrow></mml:mover></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq4.gif"/></alternatives></inline-formula> is the mean of the variables vectors at time <italic>k</italic> + 1, and <inline-formula id="IEq5"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${P}_{k+1}^{f}\,$$\end{document}</tex-math><mml:math id="M26"><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mspace width=".25em"/></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq5.gif"/></alternatives></inline-formula>is state error. The results obtained from Eqs (<xref rid="Equ7" ref-type="">7</xref>) and (<xref rid="Equ8" ref-type="">8</xref>) are used to calculate the Kalman gain matrix, as denoted by K<sub>k+1</sub> (see Eq. <xref rid="Equ9" ref-type="">9</xref> below), which is further used for balancing observation data and modelling results.<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${K}_{k+1}={P}_{k+1}^{f}{H}^{T}{(H{P}_{k+1}^{f}{H}^{T}+R)}^{-1}$$\end{document}</tex-math><mml:math id="M28" display="block"><mml:msub><mml:mrow><mml:mi>K</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:msup><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msup><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>H</mml:mi><mml:msubsup><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:msup><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msup><mml:mo>+</mml:mo><mml:mi>R</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>where <italic>R</italic> is the error covariance of the observation. Finally, <italic>K</italic> is used to forecast the variables at the next time point:<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${X}_{i,k+1}^{a}={X}_{i,k+1}^{f}+{K}_{k+1}({z}_{k+1}-H{X}_{i,k+1}^{f})$$\end{document}</tex-math><mml:math id="M30" display="block"><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>K</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>z</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi>H</mml:mi><mml:msubsup><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_38930_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula>where <italic>z</italic><sub><italic>k</italic>+1</sub> is the observation data at time <italic>k</italic> + 1. We used the results of this analysis as the updated variable to forecast the model parameters and variables at the next time point.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Initiation of the SEIR-EnKF Framework</title>
+                <p id="Par22">The beginning week of an outbreak season is defined as the first week when the HFMD weekly infection rate reaches 2e-06, and it increases at a rate of 50% or more per week. The incubation period is generally 3–7 days<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. The incubation period of HFMD among schoolchildren increases as they age<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, and the mean incubation period for kindergarten students who are approximately 2–5 years of age is 4.4 days. In our data, the majority of the infected population was children younger than 5 years, corresponding to an incubation rate of (0.2, 0.3). Approximately 7 days are generally required to recover from HFMD<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. The recovery period of HFMD caused by EV-71 is 4–6 days<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> and 5–7 days for HFMD caused by a CV-A16 infection<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. Therefore, we concluded that (0.1, 0.4) is a meaningful range for the recovery rate from HFMD compared with the incubation and recovery rates.</p>
+                <p id="Par23">In addition, we defined the initial susceptible population <italic>S(0)</italic> to range from (0.8 N, N), where N is the proportion of the susceptible population, and the initial exposed population <italic>E(0)</italic> was in the range (5e-4N ± 10%). The range of the initial infected population <italic>I(0)</italic> was calculated by adding a 10% disturbance based on the observed infected population.</p>
+                <p id="Par24">We conducted a series of parameter sensitivity analyses to assist in the selection of the initial parameters for the transmission and recovery rates in the HFMD forecast (Fig. <xref rid="Fig7" ref-type="fig">7</xref>). We calculated the model error by running the SEIR-EnKF framework with different combinations of transmission and recovery rates. The transmission and recovery rates ranged between 0.1 and 2.0, and each parameter value was divided into 19 equal-length segments. As shown in Fig. <xref rid="Fig7" ref-type="fig">7(a)</xref>, the cumulative error of the infection rate was high when the recovery rate was (0.1, 0.2); the error decreased as the recovery rate increased to 0.5, beyond which the error and recovery rate showed a positive relationship. However, model errors are generally not sensitive to changes in the transmission rate. Overall, when the recovery rate was (0.2, 0.6), and the transmission rate was (0.1, 1.5), the lowest error of the infection rate was observed. The error of the peak magnitude forecast was low when the recovery rate ranged from 0.2 to 0.8, and the error was not sensitive to the transmission rate (Fig. <xref rid="Fig7" ref-type="fig">7(b)</xref>). In Fig. <xref rid="Fig7" ref-type="fig">7(c)</xref>, when the recovery rate was (0.1, 0.3), the cumulative error of the peak time was relatively low; but as the recovery rate increased from 0.3 to 0.8 and the transmission rate was less than 1.5, the error generally remained high. Therefore, we set the initial transmission rate to (1.0, 1.2) and the initial recovery rate to (0.2, 0.3) to keep the three aforementioned types of error low in our forecasting model.<fig id="Fig7"><label>Figure 7</label><caption><p>The cumulative error of (<bold>a</bold>) the infection forecasting, (<bold>b</bold>) the peak magnitude forecasting, and (<bold>c</bold>) the peak time (week) forecasting. These errors are defined as <inline-formula id="IEq6"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sum _{i=1}^{n}\sum _{j=1}^{m}{e}_{ij}$$\end{document}</tex-math><mml:math id="M32"><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:munderover><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq6.gif"/></alternatives></inline-formula>, <inline-formula id="IEq7"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sum _{i=1}^{n}\sum _{j=1}^{m}|FP{T}_{ij}-TP{T}_{i}|$$\end{document}</tex-math><mml:math id="M34"><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:munderover><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:mi>F</mml:mi><mml:mi>P</mml:mi><mml:msub><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:msub><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq7.gif"/></alternatives></inline-formula> and <inline-formula id="IEq8"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sum _{i=1}^{n}\sum _{j=1}^{m}|FP{M}_{ij}-TP{M}_{i}|$$\end{document}</tex-math><mml:math id="M36"><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:munderover><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:mi>F</mml:mi><mml:mi>P</mml:mi><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2019_38930_Article_IEq8.gif"/></alternatives></inline-formula> respectively. In these equations, n is the number of years and m is the number of steps in the forecast. <italic>e</italic><sub><italic>ij</italic></sub> is the RMSE between forecast infection rate of <italic>j</italic><sub><italic>th</italic></sub> step in <italic>i</italic><sub><italic>th</italic></sub> year and the observed data; <italic>FPT</italic><sub><italic>ij</italic></sub> is the forecast peak time of <italic>j</italic><sub><italic>th</italic></sub> step in <italic>i</italic><sub><italic>th</italic></sub> year; <italic>TPT</italic><sub><italic>i</italic></sub> is the true peak time in <italic>i</italic><sub><italic>th</italic></sub> year, <italic>FPM</italic><sub><italic>ij</italic></sub> is the forecast peak magnitude of <italic>j</italic><sub><italic>th</italic></sub> step in <italic>i</italic><sub><italic>th</italic></sub> year, and <italic>TPM</italic><sub><italic>i</italic></sub> is the true peak magnitude in <italic>i</italic><sub><italic>th</italic></sub> year.</p></caption><graphic xlink:href="41598_2019_38930_Fig7_HTML" id="d29e1922"/></fig></p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec12">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2019_38930_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Real-Time Forecasting of Hand-Foot-and-Mouth Disease Outbreak through Integrating Compartment Model and Assimilation Filtering</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Electronic supplementary material</title>
+              <p><bold>Supplementary information</bold> accompanies this paper at 10.1038/s41598-019-38930-y.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This research was supported by a grant from the National Key Research and Development Program of China (Grant No. 2017YFB0503602).</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author Contributions</title>
+              <p>Weihua Dong and Zhicheng Zhan designed the study, Zhicheng Zhan developed and programmed the model, Zhicheng Zhan, Weihua Dong and Yongmei Lu analysed the results and wrote the manuscript, and Peng Jia provided advice on the analysis and edited the manuscript. Quanyi Wang and Peng Yang provided the data for the HFMD cases.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability</title>
+              <p>We obtained data from 72,266 HFMD cases reported in Beijing during 2008–2011 from the Beijing Center for Disease Control and Prevention. For each case, the incidence date and diagnosis date were recorded. The number of individuals in the overall population and children in Beijing were obtained from the Beijing Bureau of Statistics.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar1">
+                <title>Competing Interests</title>
+                <p>The authors declare no competing interests.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The largest outbreak of hand; foot and mouth disease in Singapore in 2008: the role of enterovirus 71 and coxsackievirus A strains</article-title>
+                  <source>International Journal of Infectious Diseases</source>
+                  <year>2010</year>
+                  <volume>14</volume>
+                  <fpage>e1076</fpage>
+                  <lpage>e1081</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijid.2010.07.006</pub-id>
+                  <pub-id pub-id-type="pmid">20952237</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemiological characteristics of hand, foot, and mouth disease in Shandong, China, 2009–2016</article-title>
+                  <source>Scientific reports</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>8900</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-017-09196-z</pub-id>
+                  <pub-id pub-id-type="pmid">28827733</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ang</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemiology and control of hand, foot and mouth disease in Singapore</article-title>
+                  <source>Ann Acad Med Singapore</source>
+                  <year>2009</year>
+                  <volume>38</volume>
+                  <fpage>106</fpage>
+                  <lpage>112</lpage>
+                  <?supplied-pmid 19271036?>
+                  <pub-id pub-id-type="pmid">19271036</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Characterization of hand, foot, and mouth disease in China between 2008 and 2009</article-title>
+                  <source>Biomedical and Environmental Sciences</source>
+                  <year>2011</year>
+                  <volume>24</volume>
+                  <fpage>214</fpage>
+                  <lpage>221</lpage>
+                  <?supplied-pmid 21784305?>
+                  <pub-id pub-id-type="pmid">21784305</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>KP</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemic hand, foot and mouth disease caused by human enterovirus 71, Singapore</article-title>
+                  <source>Emerging infectious diseases</source>
+                  <year>2003</year>
+                  <volume>9</volume>
+                  <fpage>78</fpage>
+                  <pub-id pub-id-type="doi">10.3201/eid1301.020112</pub-id>
+                  <pub-id pub-id-type="pmid">12533285</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Onozuka</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hashizume</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The influence of temperature and humidity on the incidence of hand, foot, and mouth disease in Japan</article-title>
+                  <source>Science of the Total Environment</source>
+                  <year>2011</year>
+                  <volume>410</volume>
+                  <fpage>119</fpage>
+                  <lpage>125</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2011.09.055</pub-id>
+                  <pub-id pub-id-type="pmid">22014509</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rabenau</surname>
+                      <given-names>HF</given-names>
+                    </name>
+                    <name>
+                      <surname>Richter</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Doerr</surname>
+                      <given-names>HW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hand, foot and mouth disease: seroprevalence of Coxsackie A16 and Enterovirus 71 in Germany</article-title>
+                  <source>Medical microbiology and immunology</source>
+                  <year>2010</year>
+                  <volume>199</volume>
+                  <fpage>45</fpage>
+                  <lpage>51</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00430-009-0133-6</pub-id>
+                  <pub-id pub-id-type="pmid">19941005</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Montes</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Hand, foot, and mouth disease outbreak and coxsackievirus A6, northern Spain, 2011</article-title>
+                  <source>Emerging infectious diseases</source>
+                  <year>2013</year>
+                  <volume>19</volume>
+                  <fpage>676</fpage>
+                  <pub-id pub-id-type="doi">10.3201/eid1904.121589</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lei</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Cui</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Etiology, pathogenesis, antivirals and vaccines of hand, foot, and mouth disease</article-title>
+                  <source>National Science Review</source>
+                  <year>2015</year>
+                  <volume>2</volume>
+                  <fpage>268</fpage>
+                  <lpage>284</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nsr/nwv038</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aswathyraj</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Arunkumar</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Alidjinou</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Hober</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hand, foot and mouth disease (HFMD): emerging epidemiology and the need for a vaccine strategy</article-title>
+                  <source>Medical microbiology and immunology</source>
+                  <year>2016</year>
+                  <volume>205</volume>
+                  <fpage>397</fpage>
+                  <lpage>407</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00430-016-0465-y</pub-id>
+                  <pub-id pub-id-type="pmid">27406374</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hii</surname>
+                      <given-names>YL</given-names>
+                    </name>
+                    <name>
+                      <surname>Rocklöv</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short term effects of weather on hand, foot and mouth disease</article-title>
+                  <source>PloS one</source>
+                  <year>2011</year>
+                  <volume>6</volume>
+                  <fpage>e16796</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0016796</pub-id>
+                  <pub-id pub-id-type="pmid">21347303</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of meteorological variables on the incidence of hand, foot, and mouth disease in children: a time-series analysis in Guangzhou, China</article-title>
+                  <source>BMC infectious diseases</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>134</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2334-13-134</pub-id>
+                  <pub-id pub-id-type="pmid">23497074</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Xin</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of meteorological factors on adolescent hand, foot, and mouth disease and associated effect modifiers</article-title>
+                  <source>Global health action</source>
+                  <year>2014</year>
+                  <volume>7</volume>
+                  <fpage>24664</fpage>
+                  <pub-id pub-id-type="doi">10.3402/gha.v7.24664</pub-id>
+                  <pub-id pub-id-type="pmid">25098727</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Lam</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Chuang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is hand, foot and mouth disease associated with meteorological parameters?</article-title>
+                  <source>Epidemiology &amp; Infection</source>
+                  <year>2010</year>
+                  <volume>138</volume>
+                  <fpage>1779</fpage>
+                  <lpage>1788</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268810002256</pub-id>
+                  <pub-id pub-id-type="pmid">20875200</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Hand, foot and mouth disease in China: Patterns of spread and transmissibility during 2008–2009</article-title>
+                  <source>Epidemiology (Cambridge, Mass.)</source>
+                  <year>2011</year>
+                  <volume>22</volume>
+                  <fpage>781</fpage>
+                  <pub-id pub-id-type="doi">10.1097/EDE.0b013e318231d67a</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Determinants of the incidence of hand, foot and mouth disease in China using geographically weighted regression models</article-title>
+                  <source>PloS one</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <fpage>e38978</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0038978</pub-id>
+                  <pub-id pub-id-type="pmid">22723913</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Hannon, B. &amp; Ruth, M. <italic>Dynamic modeling of diseases and pests</italic>. Vol. 15 (Springer Science &amp; Business Media, 2008).</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lekone</surname>
+                      <given-names>PE</given-names>
+                    </name>
+                    <name>
+                      <surname>Finkenstädt</surname>
+                      <given-names>BF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistical inference in a stochastic epidemic SEIR model with control intervention: Ebola as a case study</article-title>
+                  <source>Biometrics</source>
+                  <year>2006</year>
+                  <volume>62</volume>
+                  <fpage>1170</fpage>
+                  <lpage>1177</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1541-0420.2006.00609.x</pub-id>
+                  <pub-id pub-id-type="pmid">17156292</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McCluskey</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Complete global stability for an SIR epidemic model with delay—distributed or discrete</article-title>
+                  <source>Nonlinear Analysis: Real World Applications</source>
+                  <year>2010</year>
+                  <volume>11</volume>
+                  <fpage>55</fpage>
+                  <lpage>59</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nonrwa.2008.10.014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Tiing, F. C. S. &amp; Labadin, J. A Simple Deterministic Model for the Spread of Hand, Foot and Mouth Disease (HFMD) in Sarawak. 947–952, 10.1109/ams.2008.139 (2008).</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roy</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Halder</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Compartmental modeling of hand, foot and mouth infectious disease (HFMD)</article-title>
+                  <source>Research Journal of Applied Sciences</source>
+                  <year>2010</year>
+                  <volume>5</volume>
+                  <fpage>177</fpage>
+                  <lpage>182</lpage>
+                  <pub-id pub-id-type="doi">10.3923/rjasci.2010.177.182</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Threshold dynamics for a HFMD epidemic model with periodic transmission rate</article-title>
+                  <source>Nonlinear Dynamics</source>
+                  <year>2011</year>
+                  <volume>64</volume>
+                  <fpage>89</fpage>
+                  <lpage>95</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11071-010-9848-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling seasonal HFMD with the recessive infection in Shandong, China</article-title>
+                  <source>Mathematical Biosciences and Engineering</source>
+                  <year>2013</year>
+                  <volume>10</volume>
+                  <fpage>1159</fpage>
+                  <lpage>1171</lpage>
+                  <pub-id pub-id-type="doi">10.3934/mbe.2013.10.1159</pub-id>
+                  <pub-id pub-id-type="pmid">23906206</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling and preventive measures of hand, foot and mouth disease (HFMD) in China</article-title>
+                  <source>International journal of environmental research and public health</source>
+                  <year>2014</year>
+                  <volume>11</volume>
+                  <fpage>3108</fpage>
+                  <lpage>3117</lpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph110303108</pub-id>
+                  <pub-id pub-id-type="pmid">24633146</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The effects of weather factors on hand, foot and mouth disease in Beijing</article-title>
+                  <source>Scientific reports</source>
+                  <year>2016</year>
+                  <volume>6</volume>
+                  <fpage>19247</fpage>
+                  <pub-id pub-id-type="doi">10.1038/srep19247</pub-id>
+                  <pub-id pub-id-type="pmid">26755102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An epidemiological analysis of the Beijing 2008 Hand-Foot-Mouth epidemic</article-title>
+                  <source>Chinese Science Bulletin</source>
+                  <year>2010</year>
+                  <volume>55</volume>
+                  <fpage>1142</fpage>
+                  <lpage>1149</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11434-010-0144-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xing</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Hand, foot, and mouth disease in China, 2008–12: an epidemiological study</article-title>
+                  <source>The Lancet infectious diseases</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <fpage>308</fpage>
+                  <lpage>318</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(13)70342-6</pub-id>
+                  <pub-id pub-id-type="pmid">24485991</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shaman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Karspeck</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting seasonal outbreaks of influenza</article-title>
+                  <source>Proceedings of the National Academy of Sciences</source>
+                  <year>2012</year>
+                  <volume>109</volume>
+                  <fpage>20425</fpage>
+                  <lpage>20430</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1208772109</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Karspeck</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of filtering methods for the modeling and retrospective forecasting of influenza epidemics</article-title>
+                  <source>PLoS computational biology</source>
+                  <year>2014</year>
+                  <volume>10</volume>
+                  <fpage>e1003583</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1003583</pub-id>
+                  <pub-id pub-id-type="pmid">24762780</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">Li, R. <italic>et al</italic>. Inference and forecast of H7N9 Influenza in China, 2013 to 2015. <italic>Eurosurveillance</italic><bold>22</bold> (2017).</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shaman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Karspeck</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamerius</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipsitch</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-time influenza forecasts during the 2012–2013 season</article-title>
+                  <source>Nature communications</source>
+                  <year>2013</year>
+                  <volume>4</volume>
+                  <fpage>2837</fpage>
+                  <pub-id pub-id-type="doi">10.1038/ncomms3837</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hickmann</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Forecasting the 2013–2014 influenza season using Wikipedia</article-title>
+                  <source>PLoS computational biology</source>
+                  <year>2015</year>
+                  <volume>11</volume>
+                  <fpage>e1004239</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1004239</pub-id>
+                  <pub-id pub-id-type="pmid">25974758</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">Shaman, J., Yang, W. &amp; Kandula, S. Inference and forecast of the current West African Ebola outbreak in Guinea, Sierra Leone and Liberia. <italic>PLoS currents</italic><bold>6</bold> (2014).</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <mixed-citation publication-type="other">DeFelice, N. B., Little, E., Campbell, S. R. &amp; Shaman, J. Ensemble forecast of human West Nile virus cases and mosquito infection rates. <italic>Nature Communications</italic><bold>8</bold> (2017).</mixed-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>X-Q</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Threshold dynamics for compartmental epidemic models in periodic environments</article-title>
+                  <source>Journal of Dynamics and Differential Equations</source>
+                  <year>2008</year>
+                  <volume>20</volume>
+                  <fpage>699</fpage>
+                  <lpage>717</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10884-008-9111-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koh</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The epidemiology of hand, foot and mouth disease in Asia: a systematic review and analysis</article-title>
+                  <source>The Pediatric infectious disease journal</source>
+                  <year>2016</year>
+                  <volume>35</volume>
+                  <fpage>e285</fpage>
+                  <pub-id pub-id-type="doi">10.1097/INF.0000000000001242</pub-id>
+                  <pub-id pub-id-type="pmid">27273688</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Cowling</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lau</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the incubation period of hand, foot and mouth disease for children in different age groups</article-title>
+                  <source>Scientific reports</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>16464</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-017-16705-7</pub-id>
+                  <pub-id pub-id-type="pmid">29184105</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Malani</surname>
+                      <given-names>PN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Harrison’s principles of internal medicine</article-title>
+                  <source>JAMA</source>
+                  <year>2012</year>
+                  <volume>308</volume>
+                  <fpage>1813</fpage>
+                  <lpage>1814</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.308.17.1813-b</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hamaguchi</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Acute encephalitis caused by intrafamilial transmission of enterovirus 71 in adult</article-title>
+                  <source>Emerging infectious diseases</source>
+                  <year>2008</year>
+                  <volume>14</volume>
+                  <fpage>828</fpage>
+                  <pub-id pub-id-type="doi">10.3201/eid1405.071121</pub-id>
+                  <pub-id pub-id-type="pmid">18439374</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saoji</surname>
+                      <given-names>VA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hand, foot and mouth disease in Nagpur</article-title>
+                  <source>Indian Journal of Dermatology, Venereology, and Leprology</source>
+                  <year>2008</year>
+                  <volume>74</volume>
+                  <fpage>133</fpage>
+                  <pub-id pub-id-type="doi">10.4103/0378-6323.39697</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

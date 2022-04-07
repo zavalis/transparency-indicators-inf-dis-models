@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:56:15Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8025915" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8025915</identifier>
+        <datestamp>2021-05-07</datestamp>
+        <setSpec>medinform</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JMIR Med Inform</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JMIR Med Inform</journal-id>
+              <journal-id journal-id-type="publisher-id">JMI</journal-id>
+              <journal-title-group>
+                <journal-title>JMIR Medical Informatics</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2291-9694</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8025915</article-id>
+              <article-id pub-id-type="pmcid">PMC8025915</article-id>
+              <article-id pub-id-type="pmc-uid">8025915</article-id>
+              <article-id pub-id-type="pmid">33750735</article-id>
+              <article-id pub-id-type="publisher-id">v9i4e24192</article-id>
+              <article-id pub-id-type="pmid">33750735</article-id>
+              <article-id pub-id-type="doi">10.2196/24192</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>An Agent-Based Model of the Local Spread of SARS-CoV-2: Modeling Study</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Lovis</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Chang</surname>
+                    <given-names>Angela</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Giabbanelli</surname>
+                    <given-names>Philippe</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes" equal-contrib="yes">
+                  <name>
+                    <surname>Staffini</surname>
+                    <given-names>Alessio</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5001-349X</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <address>
+                    <institution>Precision Health, Department of Bioengineering</institution>
+                    <institution>Graduate School of Engineering</institution>
+                    <institution>The University of Tokyo</institution>
+                    <addr-line>7-3-1 Hongo, Bunkyo-ku</addr-line>
+                    <addr-line>Tokyo, 113-8655</addr-line>
+                    <country>Japan</country>
+                    <phone>81 080 7058 1309</phone>
+                    <email>alessio.staffini@bocconialumni.it</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Svensson</surname>
+                    <given-names>Akiko Kishi</given-names>
+                  </name>
+                  <degrees>MD, PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-2464-1932</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Chung</surname>
+                    <given-names>Ung-Il</given-names>
+                  </name>
+                  <degrees>MD, PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                  <xref ref-type="aff" rid="aff7">7</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4691-6394</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Svensson</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <degrees>MD, PhD</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-1283-358X</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>Department of Economics and Finance</institution>
+                <institution>Catholic University of Milan</institution>
+                <addr-line>Milan</addr-line>
+                <country>Italy</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Project Promotion Department</institution>
+                <institution>ALBERT Inc</institution>
+                <addr-line>Tokyo</addr-line>
+                <country>Japan</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>Precision Health, Department of Bioengineering</institution>
+                <institution>Graduate School of Engineering</institution>
+                <institution>The University of Tokyo</institution>
+                <addr-line>Tokyo</addr-line>
+                <country>Japan</country>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <institution>Department of Clinical Sciences</institution>
+                <institution>Lund University</institution>
+                <addr-line>Malmö</addr-line>
+                <country>Sweden</country>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <institution>Department of Diabetes and Metabolic Diseases</institution>
+                <institution>Graduate School of Medicine</institution>
+                <institution>The University of Tokyo</institution>
+                <addr-line>Tokyo</addr-line>
+                <country>Japan</country>
+              </aff>
+              <aff id="aff6">
+                <label>6</label>
+                <institution>School of Health Innovation</institution>
+                <institution>Kanagawa University of Human Services</institution>
+                <addr-line>Tonomachi</addr-line>
+                <country>Japan</country>
+              </aff>
+              <aff id="aff7">
+                <label>7</label>
+                <institution>Clinical Biotechnology, Center for Disease Biology and Integrative Medicine</institution>
+                <institution>Graduate School of Medicine</institution>
+                <institution>The University of Tokyo</institution>
+                <addr-line>Tokyo</addr-line>
+                <country>Japan</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Alessio Staffini <email>alessio.staffini@bocconialumni.it</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>6</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>6</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>9</volume>
+              <issue>4</issue>
+              <elocation-id>e24192</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>8</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>18</day>
+                  <month>10</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>6</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>21</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Alessio Staffini, Akiko Kishi Svensson, Ung-Il Chung, Thomas Svensson. Originally published in JMIR Medical Informatics (http://medinform.jmir.org), 06.04.2021.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in JMIR Medical Informatics, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://medinform.jmir.org/">http://medinform.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="https://medinform.jmir.org/2021/4/e24192"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>The spread of SARS-CoV-2, originating in Wuhan, China, was classified as a pandemic by the World Health Organization on March 11, 2020. The governments of affected countries have implemented various measures to limit the spread of the virus. The starting point of this paper is the different government approaches, in terms of promulgating new legislative regulations to limit the virus diffusion and to contain negative effects on the populations.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>This paper aims to study how the spread of SARS-CoV-2 is linked to government policies and to analyze how different policies have produced different results on public health.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>Considering the official data provided by 4 countries (Italy, Germany, Sweden, and Brazil) and from the measures implemented by each government, we built an agent-based model to study the effects that these measures will have over time on different variables such as the total number of COVID-19 cases, intensive care unit (ICU) bed occupancy rates, and recovery and case-fatality rates. The model we implemented provides the possibility of modifying some starting variables, and it was thus possible to study the effects that some policies (eg, keeping the national borders closed or increasing the ICU beds) would have had on the spread of the infection.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The 4 considered countries have adopted different containment measures for COVID-19, and the forecasts provided by the model for the considered variables have given different results. Italy and Germany seem to be able to limit the spread of the infection and any eventual second wave, while Sweden and Brazil do not seem to have the situation under control. This situation is also reflected in the forecasts of pressure on the National Health Services, which see Sweden and Brazil with a high occupancy rate of ICU beds in the coming months, with a consequent high number of deaths.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>In line with what we expected, the obtained results showed that the countries that have taken restrictive measures in terms of limiting the population mobility have managed more successfully than others to contain the spread of COVID-19. Moreover, the model demonstrated that herd immunity cannot be reached even in countries that have relied on a strategy without strict containment measures.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>computational epidemiology</kwd>
+                <kwd>COVID-19</kwd>
+                <kwd>SARS-CoV-2</kwd>
+                <kwd>agent-based modeling</kwd>
+                <kwd>public health</kwd>
+                <kwd>computational models</kwd>
+                <kwd>modeling</kwd>
+                <kwd>agent</kwd>
+                <kwd>spread</kwd>
+                <kwd>computation</kwd>
+                <kwd>epidemiology</kwd>
+                <kwd>policy</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <p>The spread of communicable diseases across a population is a spatial and temporal process, and the study of the transmission dynamics is becoming increasingly important for tackling the spread appropriately.</p>
+              <p>Agent-based models (ABMs) are a class of computational models based on computer simulations of actions and interactions of autonomous agents, aimed at evaluating how these actions affect the system as a whole. The agent-based approach emphasizes the importance of learning through the agent-environment interaction. This approach is part of a recent trend in the computational models of learning toward developing new ways of studying autonomous organisms in virtual or real environments.</p>
+              <p>ABMs have proven particularly useful for answering public health–related questions that are typically unanswerable with the traditional epidemiological toolkit [<xref rid="ref1" ref-type="bibr">1</xref>]. The use of ABMs for studying phenomena related to public health is not recent and has been used to study the spread of alcohol consumption [<xref rid="ref2" ref-type="bibr">2</xref>] and eating disorders [<xref rid="ref3" ref-type="bibr">3</xref>].</p>
+              <p>Agent-based simulation modeling has been used primarily in epidemiological studies of infectious diseases, including the study of the reactions of the immune system during an infection [<xref rid="ref4" ref-type="bibr">4</xref>], the spread of malaria following the movement of mosquitoes in a village in Niger [<xref rid="ref5" ref-type="bibr">5</xref>], and following the trend of the influenza virus [<xref rid="ref6" ref-type="bibr">6</xref>]. Additionally, ABMs have been used to study the trend of chronic diseases [<xref rid="ref7" ref-type="bibr">7</xref>] and to analyze the public health impact of influenza vaccinations in the United States and their cost-effectiveness, simulating scenarios where different age groups of the population were vaccinated [<xref rid="ref8" ref-type="bibr">8</xref>].</p>
+              <p>More recently, ABMs have been used in population-based studies of COVID-19, in particular to analyze the effects of population characteristics [<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref10" ref-type="bibr">10</xref>] and of public health measures on the spread of SARS-CoV-2 [<xref rid="ref11" ref-type="bibr">11</xref>,<xref rid="ref12" ref-type="bibr">12</xref>]. The importance of ABMs in the face of a global pandemic is their ability to reproduce situations, starting from real data, otherwise not reproducible in reality.</p>
+              <p>In this study, we propose an epidemiological ABM for analyzing the propagation of an infectious disease in a network of human contacts; in particular, our model studies the effects of political decisions on the spread of SARS-CoV-2. Other works have been done studying this aspect [<xref rid="ref13" ref-type="bibr">13</xref>-<xref rid="ref15" ref-type="bibr">15</xref>], but the approach was to simulate different pre-established situations (eg, implementing containment measures or performing many diagnostic tests), evaluating their impacts. A work similar to our study [<xref rid="ref16" ref-type="bibr">16</xref>] starts from the same research questions and arrives at similar conclusions but uses a completely different methodology. Our study differs from the previous ones in that it analyzes the effects of the measures adopted by the governments in <italic>real time</italic> as they are implemented. An increasingly used ABM for modeling COVID-19 is Covasim [<xref rid="ref17" ref-type="bibr">17</xref>]; although we propose a similar model that includes demographic information and nonpharmaceutical interventions, we considered a simplified network structure (specifically, a dynamic random network, where the edges are created and destroyed at each period <italic>t</italic>) with a focus on capturing only the stylized facts for an immediate evaluation of the effects of changes in model parameters and in policies.</p>
+              <p>The time stamp (in days) of the model accurately reflects the timing of the political decisions taken from the end of January to July 1, 2020, and the model studies the evolution of the virus from its appearance up to a year later. The parameters we defined were derived from government policies, from real data provided by the government bodies, and from medical knowledge about the virus up to July 1, 2020; beyond this date, the model makes predictions of how the virus would have spread if all the considered variables would have followed the same evolution (for example, maintaining the containment measures as of July 1 in the 4 countries). There was no knowledge at the time about virus variants nor data about the vaccination campaign, so these have not been included.</p>
+              <p>The hypothesis from which we start is that the spread of a virus depends, in addition to epidemiological factors and the nature of the virus itself, on individual behavior or, more precisely, on political decisions that induce appropriate behavioral criteria. Our goal is to show how, through targeted measures, the damage caused by the spread of a pandemic can be limited, both in terms of the case-fatality rate and pressure on hospitals.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Overview of the Model</title>
+                <p>We implemented the model using NetLogo (free and open-source software, released under a GNU General Public License; Rel. 6.1.0), a multi-agent programmable modeling environment (source code available on GitHub [<xref rid="ref18" ref-type="bibr">18</xref>]). The simulation was performed using the data of 4 countries (Italy, Germany, Sweden, and Brazil) that have had different policy approaches for the containment of SARS-CoV-2.</p>
+                <p>Italy was chosen in our analysis as it was the first country (after China) to report an important diffusion of the virus in its territory and had to make new decisions and implement measures without having the possibility to compare their effectiveness with those of other similar countries. Germany followed the example of Italy but with a much higher execution speed, relying also on a greater number of intensive care unit (ICU) beds (the highest in Europe; Source: National Center for Biotechnology Information [<xref rid="ref19" ref-type="bibr">19</xref>]). Sweden took a different approach from other European countries: it did not deny the presence and the potential consequences of the virus spread in its territory but decided not to impose any limitation to individual freedoms, essentially aiming at obtaining herd immunity. Like Sweden, Brazil did not adopt national measures to contain the spread of the virus, despite the high number of deaths that this has caused. A more detailed description of the differences and the reasons that led us to choose these 4 countries can be found in <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>.</p>
+                <p>The model studied, through the interactions between healthy individuals and infected individuals, how the virus spread over time and how the actions implemented by governments influenced its propagation. Starting from objective data provided by government bodies (<xref rid="table1" ref-type="table">Table 1</xref>), key variables related to the country, population, virus, and implemented policies were taken into consideration. We provide a complete list of the measured variables (<xref rid="table2" ref-type="table">Table 2</xref>; several indexes are the proportional transformation of the values obtained from <xref rid="table1" ref-type="table">Table 1</xref>, defined in the calibration phase of the model). We measured and demonstrated the results of how these variables evolved over time.</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Reference data used for constructing the model.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="30" span="1"/>
+                    <col width="370" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="500" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td colspan="2" rowspan="1">Demographics</td>
+                        <td rowspan="1" colspan="1">Data (%)</td>
+                        <td rowspan="1" colspan="1">Notes</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="4" rowspan="1">
+                          <bold>Italy</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Older than 65 years</td>
+                        <td rowspan="1" colspan="1">22.60</td>
+                        <td rowspan="1" colspan="1">Source: Eurostat [<xref rid="ref20" ref-type="bibr">20</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Beds for seriously ill patients</td>
+                        <td rowspan="1" colspan="1">0.26</td>
+                        <td rowspan="1" colspan="1">Source: OECD<sup>a</sup> [<xref rid="ref21" ref-type="bibr">21</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Recovery rate</td>
+                        <td rowspan="1" colspan="1">76.89</td>
+                        <td rowspan="1" colspan="1">Source: World Health Organization [<xref rid="ref22" ref-type="bibr">22</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Case-fatality rate</td>
+                        <td rowspan="1" colspan="1">14.55</td>
+                        <td rowspan="1" colspan="1">Source: World Health Organization [<xref rid="ref22" ref-type="bibr">22</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Seriously ill</td>
+                        <td rowspan="1" colspan="1">2.40</td>
+                        <td rowspan="1" colspan="1">Source: Ministero della Salute [<xref rid="ref23" ref-type="bibr">23</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Hospitalization rate</td>
+                        <td rowspan="1" colspan="1">25.40</td>
+                        <td rowspan="1" colspan="1">Source: Ministero della Salute [<xref rid="ref23" ref-type="bibr">23</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Not seriously ill</td>
+                        <td rowspan="1" colspan="1">74.60</td>
+                        <td rowspan="1" colspan="1">Source: Ministero della Salute [<xref rid="ref23" ref-type="bibr">23</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="4" rowspan="1">
+                          <bold>Germany</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Older than 65 years</td>
+                        <td rowspan="1" colspan="1">21.40</td>
+                        <td rowspan="1" colspan="1">Source: Eurostat [<xref rid="ref20" ref-type="bibr">20</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Beds for seriously ill patients</td>
+                        <td rowspan="1" colspan="1">0.60</td>
+                        <td rowspan="1" colspan="1">Source: OECD [<xref rid="ref24" ref-type="bibr">24</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Recovery rate</td>
+                        <td rowspan="1" colspan="1">91.15</td>
+                        <td rowspan="1" colspan="1">Source: World Health Organization [<xref rid="ref25" ref-type="bibr">25</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Case-fatality rate</td>
+                        <td rowspan="1" colspan="1">4.67</td>
+                        <td rowspan="1" colspan="1">Source: World Health Organization [<xref rid="ref25" ref-type="bibr">25</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Seriously ill</td>
+                        <td rowspan="1" colspan="1">1.48</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Hospitalization rate</td>
+                        <td rowspan="1" colspan="1">6.20</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Not seriously ill</td>
+                        <td rowspan="1" colspan="1">92.30</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="4" rowspan="1"> <bold>Sweden</bold> </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Older than 65 years</td>
+                        <td rowspan="1" colspan="1">19.80</td>
+                        <td rowspan="1" colspan="1">Source: Eurostat [<xref rid="ref20" ref-type="bibr">20</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Beds for seriously ill patients</td>
+                        <td rowspan="1" colspan="1">0.20</td>
+                        <td rowspan="1" colspan="1">Source: OECD [<xref rid="ref27" ref-type="bibr">27</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Recovery rate</td>
+                        <td rowspan="1" colspan="1">12.74</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Case-fatality rate</td>
+                        <td rowspan="1" colspan="1">9.02</td>
+                        <td rowspan="1" colspan="1">Source: World Health Organization [<xref rid="ref28" ref-type="bibr">28</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Seriously ill</td>
+                        <td rowspan="1" colspan="1">2.55</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Hospitalization rate</td>
+                        <td rowspan="1" colspan="1">25.68</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Not seriously ill</td>
+                        <td rowspan="1" colspan="1">69.30</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="4" rowspan="1"> <bold>Brazil</bold> </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Older than 65 years</td>
+                        <td rowspan="1" colspan="1">8.60</td>
+                        <td rowspan="1" colspan="1">Source: CIA<sup>b</sup> [<xref rid="ref29" ref-type="bibr">29</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Beds for seriously ill patients</td>
+                        <td rowspan="1" colspan="1">0.19</td>
+                        <td rowspan="1" colspan="1">Source: AMIB<sup>c</sup> [<xref rid="ref30" ref-type="bibr">30</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Recovery rate</td>
+                        <td rowspan="1" colspan="1">49.81</td>
+                        <td rowspan="1" colspan="1">Source: World Health Organization [<xref rid="ref31" ref-type="bibr">31</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Case-fatality rate</td>
+                        <td rowspan="1" colspan="1">4.65</td>
+                        <td rowspan="1" colspan="1">Source: World Health Organization [<xref rid="ref31" ref-type="bibr">31</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Seriously ill</td>
+                        <td rowspan="1" colspan="1">2.00</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Hospitalization rate</td>
+                        <td rowspan="1" colspan="1">8.00</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Not seriously ill</td>
+                        <td rowspan="1" colspan="1">90.00</td>
+                        <td rowspan="1" colspan="1">Source: Worldometer [<xref rid="ref26" ref-type="bibr">26</xref>]</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table1fn1">
+                      <p><sup>a</sup>OECD: Organisation for Economic Co-operation and Development.</p>
+                    </fn>
+                    <fn id="table1fn2">
+                      <p><sup>b</sup>CIA: Central Intelligence Agency.</p>
+                    </fn>
+                    <fn id="table1fn3">
+                      <p><sup>c</sup>AMIB: Associação Medicina Intensiva Brasileira.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="table2" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>List of the model variables.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="400" span="1"/>
+                    <col width="150" span="1"/>
+                    <col width="150" span="1"/>
+                    <col width="150" span="1"/>
+                    <col width="150" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Variables</td>
+                        <td rowspan="1" colspan="1">Italy</td>
+                        <td rowspan="1" colspan="1">Germany</td>
+                        <td rowspan="1" colspan="1">Sweden</td>
+                        <td rowspan="1" colspan="1">Brazil</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Total population (units)</td>
+                        <td rowspan="1" colspan="1">1000</td>
+                        <td rowspan="1" colspan="1">1000</td>
+                        <td rowspan="1" colspan="1">1000</td>
+                        <td rowspan="1" colspan="1">1000</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Older than 65 years (units)</td>
+                        <td rowspan="1" colspan="1">230</td>
+                        <td rowspan="1" colspan="1">210</td>
+                        <td rowspan="1" colspan="1">200</td>
+                        <td rowspan="1" colspan="1">90</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Initial infectious people (units)</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">6</td>
+                        <td rowspan="1" colspan="1">6</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Transmissibility rate (%)</td>
+                        <td rowspan="1" colspan="1">0.30</td>
+                        <td rowspan="1" colspan="1">0.30</td>
+                        <td rowspan="1" colspan="1">0.30</td>
+                        <td rowspan="1" colspan="1">0.30</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Immunity duration: mild cases (days)</td>
+                        <td rowspan="1" colspan="1">100</td>
+                        <td rowspan="1" colspan="1">100</td>
+                        <td rowspan="1" colspan="1">100</td>
+                        <td rowspan="1" colspan="1">100</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Immunity duration: severe cases</td>
+                        <td rowspan="1" colspan="1">Lifetime</td>
+                        <td rowspan="1" colspan="1">Lifetime</td>
+                        <td rowspan="1" colspan="1">Lifetime</td>
+                        <td rowspan="1" colspan="1">Lifetime</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Initial productivity index</td>
+                        <td rowspan="1" colspan="1">2.0</td>
+                        <td rowspan="1" colspan="1">2.0</td>
+                        <td rowspan="1" colspan="1">2.0</td>
+                        <td rowspan="1" colspan="1">2.0</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Noncontagion index</td>
+                        <td rowspan="1" colspan="1">0.01</td>
+                        <td rowspan="1" colspan="1">0.01</td>
+                        <td rowspan="1" colspan="1">0.01</td>
+                        <td rowspan="1" colspan="1">0.01</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Virus recognition</td>
+                        <td rowspan="1" colspan="1">After 100 cases</td>
+                        <td rowspan="1" colspan="1">After 60 cases</td>
+                        <td rowspan="1" colspan="1">After 100 cases</td>
+                        <td rowspan="1" colspan="1">After 100 cases</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Beds for seriously ill patients (units)</td>
+                        <td rowspan="1" colspan="1">13</td>
+                        <td rowspan="1" colspan="1">30</td>
+                        <td rowspan="1" colspan="1">20</td>
+                        <td rowspan="1" colspan="1">9</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Recovery index</td>
+                        <td rowspan="1" colspan="1">5.0</td>
+                        <td rowspan="1" colspan="1">6.0</td>
+                        <td rowspan="1" colspan="1">1.5</td>
+                        <td rowspan="1" colspan="1">2.5</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Case-fatality index</td>
+                        <td rowspan="1" colspan="1">0.8</td>
+                        <td rowspan="1" colspan="1">0.3</td>
+                        <td rowspan="1" colspan="1">0.4</td>
+                        <td rowspan="1" colspan="1">0.3</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Seriously ill index</td>
+                        <td rowspan="1" colspan="1">1.5</td>
+                        <td rowspan="1" colspan="1">1.0</td>
+                        <td rowspan="1" colspan="1">1.5</td>
+                        <td rowspan="1" colspan="1">1.3</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Not seriously ill index</td>
+                        <td rowspan="1" colspan="1">5.0</td>
+                        <td rowspan="1" colspan="1">5.0</td>
+                        <td rowspan="1" colspan="1">4.7</td>
+                        <td rowspan="1" colspan="1">6.0</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Mask use (decrease in transmissibility; %)</td>
+                        <td rowspan="1" colspan="1">14.3</td>
+                        <td rowspan="1" colspan="1">14.3</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">7.15</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Physical distancing (decrease in transmissibility; %)</td>
+                        <td rowspan="1" colspan="1">10.2</td>
+                        <td rowspan="1" colspan="1">10.2</td>
+                        <td rowspan="1" colspan="1">10.2</td>
+                        <td rowspan="1" colspan="1">5.1</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Infected tourists (max number; units)</td>
+                        <td rowspan="1" colspan="1">2</td>
+                        <td rowspan="1" colspan="1">2</td>
+                        <td rowspan="1" colspan="1">1</td>
+                        <td rowspan="1" colspan="1">1</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Description of the Model</title>
+                <p>The model examined a sample of the population of each of the 4 countries, fixed at 1000 (<italic>i</italic> ∈ {1,2,...,1000}). It was similar to a small neighborhood of a city where the characteristics of the entire population are reproduced (the data we were interested in are reported in <xref rid="table1" ref-type="table">Tables 1</xref> and <xref rid="table2" ref-type="table">2</xref>). We assumed that an outbreak of COVID-19 has developed in this neighborhood. Naturally, government provisions were applied to this neighborhood as they were issued and with the same timing.</p>
+                <p>To better explain the logic behind our choices, we should imagine the considered space where the agents live as a laboratory where we applied the different policies, compliance to nonpharmaceutical measures, health structures, knowledge about the virus, etc. The <italic>laboratory</italic> space and the number of agents go beyond the geographical context, as they are meant to represent an exportable sample for each of the analyzed countries. Only the different measures and country specifications influence the results obtained from the simulations.</p>
+                <p>The time span of the simulation was 1 year, divided into 365 daily cycles. The first cycle coincided with the first infections in the given country.</p>
+                <p>The initialization of the model (at time <italic>t</italic>=0) requires the loading and setting of the required variables for the simulations and analyses. The variables derived from the national and governmental bodies, as well as institutional sources for each country, were automatically loaded following country selection. In this phase, the model also set the time stamps in which political decisions were made with respect to the containment measures for the spread of SARS-CoV-2. After the initial setting, the model was ready to simulate the evolution of COVID-19 for the selected country.</p>
+                <p>The following shows the (simplified) scheme followed by the model. The total 1000 agents move randomly within the model environment, simulating daily activities (eg, going to work or school); movement speed was set at a lower level (50%) for older adult agents (older than 65 years), as they perform fewer activities (the number of older adults was modeled according to the national statistics, see <xref rid="table2" ref-type="table">Table 2</xref>). Among the agents, some are infected (we denoted them as <italic>I<sub>i</sub></italic>, and we fixed them at 6 at time <italic>t</italic>=0). Moving inside the environment, they come into contact with healthy agents. A healthy agent <italic>H<sub>i</sub></italic> has a certain probability <italic>P</italic>(<italic>I</italic>) ∈ [0,1] to be infected, defined by the following equation:</p>
+                <disp-formula><italic>P</italic>(<italic>I</italic>) = 1 – (1 – <italic>TR</italic>)<italic><sup>n</sup></italic></disp-formula>
+                <p>where <italic>TR</italic> ∈ [0,1] is the transmissibility rate of the virus, and <italic>n</italic> is the number of infected neighbors; in our topology the number of infected agents present in a closed ball was determined by <italic>B</italic><sub>1</sub> = {<italic>x</italic> ∈ <italic>R</italic><sup>2</sup>:‖x-y‖≤1}, with radius 1 and center <italic>y</italic> ∈ <italic>R</italic><sup>2</sup>, where the healthy agent <italic>H<sub>i</sub></italic> is located in time <italic>t</italic>. Notice that <italic>P</italic>(<italic>I</italic>) is monotonically increasing with respect to <italic>TR</italic> and <italic>n</italic>.</p>
+                <p>The propagation of the virus is not immediately recognized as such by the governments, and before this happens, the number of infected agents <italic>I<sub>i</sub></italic> exceeds a certain threshold (see <italic>virus recognition</italic> in <xref rid="table2" ref-type="table">Table 2</xref> for the country-specific threshold values).</p>
+                <p>After the virus is recognized, at each time <italic>t</italic>, we assume that each infected agent and those who have come into contact with them have a probability <italic>P</italic>(<italic>test</italic>)=0.5 to perform a virus recognition test [<xref rid="ref32" ref-type="bibr">32</xref>]. Therefore, half of them do not perform the test and continue to move inside the model space becoming, if infected, a symptomatic infected agent or an asymptomatic infected one. Asymptomatic agents will perform the virus recognition test at the next period <italic>t</italic> + 1 only if they come into contact again with an infected agent, while symptomatic agents will have the same constant probability <italic>P</italic>(<italic>test</italic>) to be tested in each period.</p>
+                <p>Infected agents do not present symptoms immediately, but we considered that there is an incubation period that can vary according to age. For individuals younger than 65 years, we set the incubation period according to a normal distribution with mean 7 (SD 2; <italic>I<sub>Y</sub></italic> ~ <italic>N</italic>(7,4)), while for those who are older than 65 years, the incubation period is defined according to a normal distribution with mean 3 (SD 1; <italic>I<sub>O</sub></italic> ~ <italic>N</italic>(3,1)).</p>
+                <p>The viral load, and therefore the ability to infect other agents, has not been set the same for all of the <italic>I<sub>i</sub></italic> agents. For those who are in the incubation phase, the viral load is lower, and it increases period by period as the development of the infection approaches; for asymptomatic agents, it is lower than for agents with mild symptoms, who in turn, will have it lower than seriously ill agents (that will need to be hospitalized).</p>
+                <p>Infected agents <italic>I<sub>i</sub></italic> can therefore be of four types: in incubation, asymptomatic, mildly ill, and seriously ill (see <xref rid="table1" ref-type="table">Tables 1</xref> and <xref rid="table2" ref-type="table">2</xref>). The mildly ill, when found, are isolated at home; in our model, this translates to their mobility being set to 0 (but they can still spread the virus). The seriously ill, when found, will be hospitalized, and their mobility will also be set to 0. Furthermore, the latter are to be considered in an isolated space, so we also considered that they will not spread the virus anymore.</p>
+                <p>If ICU beds (see <italic>beds for seriously ill patients</italic> in <xref rid="table2" ref-type="table">Table 2</xref>) are saturated, seriously ill patients will be placed in home isolation (with mobility at 0), but their probability of recovery (see <xref rid="table1" ref-type="table">Tables 1</xref> and <xref rid="table2" ref-type="table">2</xref>) decreases.</p>
+                <p>Seriously ill patients can die with a probability equal to that listed in <xref rid="table1" ref-type="table">Table 1</xref> (<italic>case-fatality rate</italic>) and <xref rid="table2" ref-type="table">Table 2</xref> (<italic>case-fatality index</italic>). For older adults, this probability is higher (we consider their greater fragility and the possible presence of other existing pathologies). Dead agents are denoted with <italic>D<sub>i</sub></italic>; we set both their mobility and their transmissibility rate to 0.</p>
+                <p>Ill patients can recover with a probability equal to that listed in <xref rid="table1" ref-type="table">Table 1</xref> (<italic>recovery rate</italic>) and <xref rid="table2" ref-type="table">Table 2</xref> (<italic>recovery index</italic>).</p>
+                <p>Recovered agents develop antibodies to the virus (ie, they become immune). We denoted the immune agents with <italic>IM<sub>i</sub></italic>. For those who were seriously ill, we considered that their antibodies lasted for the whole simulation, while those who were mildly ill will develop an immunity that lasts only for 100 days [<xref rid="ref33" ref-type="bibr">33</xref>] (see <xref rid="table2" ref-type="table">Table 2</xref>). Recent studies [<xref rid="ref34" ref-type="bibr">34</xref>] confirm that there is a difference in the duration of immunity, which depends on the severity of the development of the disease.</p>
+                <p>We also considered noncontagious asymptomatic cases (ie, there is a small proportion of healthy individuals who, following infection, immediately develop antibodies without showing symptoms and never become carriers of the virus). They transition from <italic>H<sub>i</sub></italic> in <italic>t</italic> to <italic>IM<sub>i</sub></italic> in <italic>t</italic> +1 and are not counted as <italic>I<sub>i</sub></italic>. Notice that in each <italic>t</italic>, the sum of all the agents (healthy, infected, immune, and dead) is equal to 1000.</p>
+                <p>The industrial productivity (economic index) is proportional to the mobility of the agents. By setting the prepandemic level to 0, the reduced mobility of the agents will lead to a decrease in productivity.</p>
+                <p><xref rid="figure1" ref-type="fig">Figure 1</xref> shows a simplified flowchart of the mechanisms previously described.</p>
+                <p>Political decisions were then applied to this scheme, according to the times and the ways they have been implemented by the governments of the analyzed countries. Thus, for example, the decision of closing schools will lead to a reduction in the initial mobility of the agents; a lockdown of nonessential activities will further reduce it (with negative repercussions on industrial productivity, but a positive result in terms of limiting the spread of the contagion). The adoption of precautions or medical aids was translated into the model as a decrease in the transmissibility rate (see <xref rid="table2" ref-type="table">Table 2</xref>). We analyzed only a small sample of the population; therefore, in the rest of this study, the political decision of closing the national borders was translated into a further limitation on the mobility of agents, while their reopening was simulated as a partial restoration of the original mobility and the introduction of new infected agents (see <italic>infected tourists</italic> in <xref rid="table2" ref-type="table">Table 2</xref>).</p>
+                <p>A more detailed explanation of the parameters and the variables we used can be found in <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>.</p>
+                <fig id="figure1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Simplified flowchart of interaction mechanisms in the model.</p>
+                  </caption>
+                  <graphic xlink:href="medinform_v9i4e24192_fig1"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <p>It should be remembered that the reported results were obtained considering the government measures in force until July 1, 2020; from this date onward, the forecasts are based on the last known measures being kept in place. In the summer of 2020, individual behavior and governments’ attitudes were not so strict: therefore, despite the model correctly forecasting a second wave, such forecasts were underestimated.</p>
+              <sec>
+                <title>Italy</title>
+                <p>The simulation recorded 309 cases of COVID-19 with 243 recoveries and 48 deaths. The case-fatality rate was 15% (48/309), with an older adult (older than 65 years) case-fatality rate of 65% (31/48).</p>
+                <sec>
+                  <title>Total Number of COVID-19 Cases, Hospitalizations, Isolations, and Asymptomatic Infections</title>
+                  <p>At the end of the simulation, the total number of positives was 17, including 8 asymptomatic, 2 in home isolation, and 0 hospitalizations. The number of COVID-19 cases rose exponentially with a peak at <italic>t</italic>=61 (<xref rid="figure2" ref-type="fig">Figure 2</xref>a). In the second half of the simulation (<italic>t</italic>=279), the number of COVID-19 cases rose but never reached the height of the initial peak.</p>
+                  <p>The total number of hospitalizations and home isolations reached a peak at <italic>t</italic>=64.</p>
+                  <fig id="figure2" position="float">
+                    <label>Figure 2</label>
+                    <caption>
+                      <p>(a) Positive, hospitalized, in isolation, and asymptomatic figures for Italy. (b) Evolution of the contagion for Italy. The graphs consider the sum of the agents belonging to each category shown in the legend for each day of the simulation.</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig2"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Immunity and Case Fatality</title>
+                  <p>The proportion of individuals who acquired immunity reached a peak of 16.5% (165/1000) at <italic>t</italic>=150, albeit with an immunity of 10% (99/1000) at the end of the simulation (<xref rid="figure2" ref-type="fig">Figure 2</xref>b). The case-fatality rates increased throughout the simulation despite a decreasing number of cases. At the end of the simulation, the case-fatality rate was 4.8% (48/1000).</p>
+                </sec>
+                <sec>
+                  <title>R<sub>0</sub> and R<sub>E</sub></title>
+                  <p>The trends of R<sub>0</sub> (range 0-3.5) and R<sub>E</sub> (range 0-3.0) exhibited strong fluctuations during the time span of the simulation (<xref rid="figure3" ref-type="fig">Figure 3</xref>a).</p>
+                  <p>A sensitivity analysis conducted in a simulation that assumed that national borders remained closed (<xref rid="figure3" ref-type="fig">Figure 3</xref>b) showed that no new cases occurred once the <italic>no contagion</italic> value was reached, and the borders remained closed.</p>
+                  <fig id="figure3" position="float">
+                    <label>Figure 3</label>
+                    <caption>
+                      <p>(a) R<sub>0</sub> and R<sub>e</sub> indexes for Italy (with national borders reopening). (b) R<sub>0</sub> and R<sub>e</sub> indexes for Italy (with no national borders reopening).</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig3"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Herd Immunity, ICU Beds, and Productivity</title>
+                  <p>The model showed that immunity was reached in approximately 11% (116/ 1000) of the population.</p>
+                  <p>The simulation indicated that the ICU beds were never saturated; although at <italic>t</italic>=66, the occupancy rate reaches 77% (10/13).</p>
+                  <p>The model showed a sharp drop in productivity following the implementation of containment measures, and the loss in productivity at its maximum reached –18.7% (compared to the prepandemic value of 0).</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Germany</title>
+                <p>The simulation recorded 270 cases of COVID-19 with 233 recoveries and 18 deaths. The case-fatality rate was 6.7% (18/270), with an older adult case-fatality rate of 61% (11/18).</p>
+                <sec>
+                  <title>Total Number of COVID-19 Cases, Hospitalizations, Home Isolations, and Asymptomatic Infections</title>
+                  <p>At the end of the simulation, the total number of positive cases was 19, including 10 asymptomatic, 2 in home isolation, and 1 hospitalized. The number of COVID-19 cases rose rapidly with a peak at <italic>t</italic>=117 (<xref rid="figure4" ref-type="fig">Figure 4</xref>a). After the peak and following the adopted containment measures, the number of COVID-19 cases gradually decreased.</p>
+                  <p>The total number of hospitalizations and home isolations reached a peak around <italic>t</italic>=110.</p>
+                  <fig id="figure4" position="float">
+                    <label>Figure 4</label>
+                    <caption>
+                      <p>(a) Positive, hospitalized, in isolation, and asymptomatic figures for Germany. (b) Evolution of the contagion for Germany. The graphs consider the sum of the agents belonging to each category shown in the legend for each day of the simulation.</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig4"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Immunity and Case Fatality</title>
+                  <p>The proportion of individuals who acquired immunity reached a peak of 17.1% (171/ 1000) at <italic>t</italic>=175, albeit with an immunity below 8% (77/1000) at the end of the simulation (<xref rid="figure4" ref-type="fig">Figure 4</xref>b). The case-fatality rate increased throughout the simulation. In the last part of the simulation, despite new cases of COVID-19, the case-fatality rate did not increase. At the end of the simulation, the case-fatality rate was 1.8% (18/1000).</p>
+                </sec>
+                <sec>
+                  <title>R<sub>0</sub> and R<sub>E</sub></title>
+                  <p>The trends of R<sub>0</sub> (range 0-3.8) and R<sub>E</sub> (range 0-3.0) exhibited strong fluctuations during the time span of the simulation.</p>
+                  <p>The sensitivity analysis showed that no new cases occurred once the <italic>no contagion</italic> value was reached (same as the analysis for Italy; <xref rid="figure3" ref-type="fig">Figure 3</xref>b), and the borders remained closed. Conversely, in a situation with open national borders, COVID-19 was not completely eradicated despite the implemented measures.</p>
+                </sec>
+                <sec>
+                  <title>Herd Immunity, ICU Beds, and Productivity</title>
+                  <p>The model showed that immunity was reached in approximately 10% (96/1000) of the population.</p>
+                  <p>The simulation indicated that the ICU beds were far from being saturated, with the highest rate being 17% (5/30) at <italic>t</italic>=131.</p>
+                  <p>The model showed a sharp drop in productivity following the implementation of containment measures, with a maximum loss of productivity of –18.2% (compared to the prepandemic value of 0).</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Sweden</title>
+                <p>The simulation recorded 765 cases of COVID-19 with 533 recoveries and 141 deaths. The case-fatality rate was 18.4% (141/765), with an older adult case-fatality rate of 43% (61/141).</p>
+                <sec>
+                  <title>Total Number of COVID-19 Cases, Hospitalizations, Home Isolations, and Asymptomatic Infections</title>
+                  <p>At the end of the simulation, the total number of positive cases was 91, including 38 asymptomatic, 29 in home isolation, and 9 hospitalized.</p>
+                  <p>The number of COVID-19 cases reached a peak at <italic>t</italic>=116 (<xref rid="figure5" ref-type="fig">Figure 5</xref>a) with the number of cases decreasing slowly, remaining at high values until the end of the simulation. Despite a descending trend in the second half of the simulation, there were situations where the number of cases increased again. Given the high number of positive cases, the infection was not considered under control.</p>
+                  <p>The total number of hospitalizations and home isolations reached a peak around <italic>t</italic>=129.</p>
+                  <p>A sensitivity analysis that did not place a limit on the number of ICU beds showed that in the second part of the simulation there was a sharper decrease, with an overall lower number of COVID-19 cases.</p>
+                  <fig id="figure5" position="float">
+                    <label>Figure 5</label>
+                    <caption>
+                      <p>(a) Positive, hospitalized, in isolation, and asymptomatic figures for Sweden. (b) Evolution of the contagion for Sweden. The graphs consider the sum of the agents belonging to each category shown in the legend for each day of the simulation.</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig5"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Immunity and Case Fatality</title>
+                  <p>Immunity was reached in 29% (290/1000) of the population, with a COVID-19 mortality rate of 14% (141/1000) at the end of the simulation (<xref rid="figure5" ref-type="fig">Figure 5</xref>b). The recovery rate was 60% (443/733; we did not count the number of positive agents at the end of the simulation).</p>
+                  <p>The sensitivity analysis showed that an increase in the number of ICU beds would lead to a decrease in the total number of positive cases and would result in an increased recovery rate (447/588, 76%; we did not count the number of positive agents at the end of the simulation) and a decreased case-fatality rate (80/693, 11.5%).</p>
+                </sec>
+                <sec>
+                  <title>R<sub>0</sub>, R<sub>E</sub>, and Herd Immunity</title>
+                  <p>The trends of R<sub>0</sub> (range 1.1-2.3) and R<sub>E</sub> (range 0.5-2.2) presented less fluctuations during the time span of this simulation (<xref rid="figure6" ref-type="fig">Figure 6</xref>a).</p>
+                  <p>The model showed that immunity was reached in approximately 39% (388/1000; we counted the immune plus the currently positive cases) of the population (<xref rid="figure6" ref-type="fig">Figure 6</xref>b).</p>
+                  <fig id="figure6" position="float">
+                    <label>Figure 6</label>
+                    <caption>
+                      <p>(a) R<sub>0</sub> and R<sub>e</sub> indexes for Sweden. (b) Herd immunity rate for Sweden.</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig6"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>ICU Beds</title>
+                  <p>In the first part of the simulation, full saturation of ICU beds was reached on a number of occasions (<xref rid="figure7" ref-type="fig">Figure 7</xref>a). In the second part of the simulation, the bed saturation rate remained above 50%.</p>
+                  <p>The sensitivity analysis showed that approximately an additional 40% (an increase of 8 out of the current 20) of the available ICU beds would have been necessary to cope with the peak of a maximum emergency (at <italic>t</italic>=116; <xref rid="figure7" ref-type="fig">Figure 7</xref>b). An additional 10% of available beds would have met the needs of the population throughout most of the simulation period.</p>
+                  <fig id="figure7" position="float">
+                    <label>Figure 7</label>
+                    <caption>
+                      <p>(a) Hospital saturation rate for Sweden. (b) Hospital saturation rate for Sweden (with no limit on the number of ICU beds). ICU: intensive care unit.</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig7"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Productivity</title>
+                  <p>The loss in productivity at its maximum reached –18.8% (compared to the prepandemic value of 0). The government measures have generated a decrease in productivity, and as these measures were still in place as of July 1, 2020, we could not see a rise due to the restoration of normality. The loss of productivity was mainly affected by the high number of infected individuals in hospital and in home isolation, and the high case-fatality rate.</p>
+                  <p>In the sensitivity analysis without a limit on ICU beds, the productivity was higher than in the main analysis.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Brazil</title>
+                <p>The simulation recorded 883 cases of COVID-19 with 658 recoveries and 90 deaths. The case-fatality rate was just over 10% (90/883), with an older adult case-fatality rate of 34% (31/90) out of total deaths.</p>
+                <sec>
+                  <title>Total Number of COVID-19 Cases, Hospitalizations, Home Isolations, and Asymptomatic Infections</title>
+                  <p>At the end of the simulation, the total number of positive cases was 137, including 63 asymptomatic, 47 in home isolation, and 3 hospitalized.</p>
+                  <p>The number of COVID-19 cases gradually rose throughout most of the simulation period without reaching a clear peak. The final part of the simulation showed that there was a decrease in the number of cases due to the large number of immune individuals. Given the high number of people still positive at the end of the simulation, the infection was not to be considered under control (<xref rid="figure8" ref-type="fig">Figure 8</xref>a).</p>
+                  <p>The total number of hospitalizations and home isolations reached a peak around <italic>t</italic>=190.</p>
+                  <p>A sensitivity analysis that did not place a limit on the number of ICU beds resulted in a peak of the number of COVID-19 cases at <italic>t</italic>=75, followed by a gradual decrease in the number of cases.</p>
+                  <fig id="figure8" position="float">
+                    <label>Figure 8</label>
+                    <caption>
+                      <p>(a) Positive, hospitalized, in isolation, and asymptomatic figures for Brazil. (b) Evolution of the contagion for Brazil. The graphs consider the sum of the agents belonging to each category shown in the legend for each day of the simulation.</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig8"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Immunity and Case Fatality</title>
+                  <p>The proportion of immune individuals reached 37% (374/1000) of the population (<xref rid="figure8" ref-type="fig">Figure 8</xref>b). The proportion of recovered cases reached 74% (658/883).</p>
+                  <p>The sensibility analysis showed that an increase in the number of ICU beds would lead to a decrease in the number of cases and would result in a recovery rate of 84% (415/492) and a case-fatality rate of 7% (34/492).</p>
+                </sec>
+                <sec>
+                  <title>R<sub>0</sub> and R<sub>E</sub>, Herd Immunity, ICU Beds, and Productivity</title>
+                  <p>The trends of R<sub>0</sub> (range 0.5-4.1) and R<sub>E</sub> (range 0.2-2.5) exhibited contained fluctuations during the time span of this simulation but always remained higher than 1. </p>
+                  <p>The model showed that immunity was reached in approximately 51% (511/1000) of the population, while a figure of 75% was required to obtain herd immunity for the entire population.</p>
+                  <p>The simulation model showed that the number of ICU beds were insufficient with respect to the needs resulting from the spread of the COVID-19 pandemic (<xref rid="figure9" ref-type="fig">Figure 9</xref>a).</p>
+                  <p>The sensitivity analysis, which removed the limit on the number of ICU beds, showed that, approximately, an additional 75% (an increase of 7 out of the current 9) of the number of available ICU beds would have been necessary to cope with the peak of maximum emergency (at <italic>t</italic>=84; <xref rid="figure9" ref-type="fig">Figure 9</xref>b).</p>
+                  <p>The loss in productivity at most reached –12.4% (compared to the prepandemic value of 0).</p>
+                  <fig id="figure9" position="float">
+                    <label>Figure 9</label>
+                    <caption>
+                      <p>(a) Hospital saturation rate for Brazil. (b) Hospital saturation rate for Brazil (with no limit on the number of ICU beds). ICU: intensive care unit.</p>
+                    </caption>
+                    <graphic xlink:href="medinform_v9i4e24192_fig9"/>
+                  </fig>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Objective</title>
+                <p>The objective of this study was to present a model that simulates the propagation of the COVID-19 pandemic based on real-world containment measures, as they were implemented by the governments of 4 countries: Italy, Germany, Sweden, and Brazil. The model thus allows for a prediction on the evolution of COVID-19 by reporting forecasts on key indexes such as the case-fatality rate, the recovery rate, herd immunity, ICU bed occupancy rates, home isolation rates, and the countries’ productivity rates. The proposed model is highly flexible and allows for the addition or removal of parameters such as requirements and policies. Moreover, the model consequently studies how the contagion evolves over time. This offers the possibility to run additional simulations that predict the course of the pandemic under alternative policies by each government.</p>
+                <p>Previous models of SARS-CoV-2 have assessed the impact of the use of personal protection and early diagnosis [<xref rid="ref11" ref-type="bibr">11</xref>], studied the impact of face masks on the spread of the virus [<xref rid="ref12" ref-type="bibr">12</xref>], and analyzed the impact of the virus according to age [<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref10" ref-type="bibr">10</xref>], family situation, and the presence of comorbidities [<xref rid="ref10" ref-type="bibr">10</xref>]. Meanwhile, other ABMs have considered the impact of home isolation on the saturation of ICU beds [<xref rid="ref35" ref-type="bibr">35</xref>], assessed infection and fatality rates assuming a 20-fold underreported number of cases [<xref rid="ref36" ref-type="bibr">36</xref>], or hypothesized the economic effects in Japan of a Tokyo lockdown [<xref rid="ref37" ref-type="bibr">37</xref>]. Our model thus differs from previous models, as it focuses on the effects of contagion and on its evolution over time, considering both the real data made available by government bodies and the policy measures implemented to stop or limit the propagation of SARS-CoV-2.</p>
+                <p>The model outputs shown in this paper are the results of several simulations for each country. Due to the nature of ABMs, the quantitative results will differ with each simulation. Any conditions that occur within the model will vary over time while maintaining parameter values and keeping initial variables constant. Although each simulation will not yield identical quantitative results for each country, the qualitative behavior always follows the same trend. Consequently, we have been able to draw some considerations about the analyzed parameters. These are presented on a country by country basis.</p>
+              </sec>
+              <sec>
+                <title>Italy</title>
+                <p>The simulations for Italy show a low total number of COVID-19 cases compared to the simulations for Sweden and Brazil, indicating a success of the adopted containment measures. Similarly, the numbers of hospitalized individuals and those in home isolation seemed to remain under control. Overall, this resulted in a large fluctuation of R<sub>0</sub> and R<sub>E</sub>, where a small increase in the number of infections lead to a large growth in the indexes’ values. Additionally, the simulations for Italy indicated a slow reduction in the number of asymptomatic individuals, which highlights an increased possibility of new infections that in turn could be extended to a recommendation not to loosen the implemented containment measures as of July 1, 2020. This is further supported by the trends in immunity, where the proportion of immune individuals were comparatively low. Bearing in mind that our model was implemented at the end of June 2020 and that it used statistical data available at that time, it was able to correctly predict that, with the reopening of the national borders and the free movement of people, there would be a new increase in the number of positive cases (thereby partly invalidating national containment efforts). This was indeed confirmed in our sensitivity analysis where the national borders remain closed. Such a situation is not replicable in reality, but it leads to no new cases.</p>
+                <p>Despite its relatively low number of cases, Italy recorded the second highest case-fatality rate (48/309, 15%; Germany: 18/270, 6.7%; Sweden: 141/765, 18.4%; Brazil: 90/883, 10%). Italy’s proportion of older adults ranks among the highest in the world (Source: Istituto Nazionale di Statistica [<xref rid="ref38" ref-type="bibr">38</xref>]), which could serve to partially explain the exceedingly high case-fatality rate. Indeed, the simulation indicates that COVID-19 affects older adults predominantly, where the case-fatality rate reached 65% (31/48) of total deaths.</p>
+                <p>Herd immunity in Italy would be obtained in a situation where 70% of the population are immune to SARS-CoV-2. The results of the model, however, indicated that only 11% of the Italian population reached immunity, a number that considers both immune individuals and active cases. This low proportion of immune individuals is expected given the policy decisions aimed at limiting the spread of the virus.</p>
+              </sec>
+              <sec>
+                <title>Germany</title>
+                <p>For Germany, our model was able to make a complete analysis of the contagion peak and its gradual descent, as well as predicted possible developments in the coming months.</p>
+                <p>The simulations for Germany showed a situation with a comparatively low number of infected individuals and strong fluctuations in R<sub>0</sub> and R<sub>E</sub> indexes. The low infection rates resulted in a very low case-fatality rate; however, it also resulted in a low proportion of immune individuals. Like the simulations for Italy, the low number of positive cases and the low proportion of immune individuals was a consequence of the policy implementations aimed at containing the spread of SARS-CoV-2. Overall, the results at the end of the simulation for Germany are not too different from the results obtained for Italy, a situation under control with regard to hospitalizations and home isolation cases. Moreover, as for Italy, asymptomatic cases were still recorded (1%), which indicates a situation where SARS-CoV-2 is still present in the population, with the risk of continued virus spread if the containment measures were to be loosened. The model, starting from the data at the end of June 2020, correctly predicted that this percentage of asymptomatic people would have led to the formation of new outbreaks and a relatively new spread of the virus.</p>
+                <p>The simulations for Germany showed two notable differences compared to Italy. First, the proportion of recoveries was higher in Germany (233/251, 93% vs 243/292, 83%). Second, although the German simulations showed an older adult case-fatality rate of 61% (11/18), the overall case-fatality rate was only 6.7% (18/270). Germany’s markedly lower overall case-fatality rate as compared to Italy could be the result of the prompt diagnosis and case management due to the widespread controls carried out by the public health authorities. The same containment measures, however, also result in the low proportion of immune individuals (96/1000, 10%), which are far from the proportion necessary to reach herd immunity as indicated by the model (73%). Consequently, and similar to Italy, the model predicted that Germany would have had a high risk of possible <italic>second waves</italic>, as it indeed happened with the reopening of the national borders.</p>
+                <p>Compared to Italy, Germany also fared better with regard to ICU bed occupancy rates; the simulations indicated that even in the most acute phase of the pandemic, bed occupancy rates never exceeded 20% (6/30) of total capacity. It should be kept in mind that Germany has by far the highest number of ICU beds in the 4 countries considered in our analysis [<xref rid="ref18" ref-type="bibr">18</xref>].</p>
+                <p>Finally, the impact of the pandemic on the German economy is evident, as the containment measures had a strong impact on the productivity, which at one point reached –18.2%. However, contrary to the situation for Italy, the forecasts of major economic institutes such as the OECD and the World Bank considered the German recovery period to reach the precrisis values quicker than Italy.</p>
+              </sec>
+              <sec>
+                <title>Sweden</title>
+                <p>The simulations for Sweden demonstrate a situation that is not under control a year after the first recorded case and are thus in stark contrast to those obtained for Italy and Germany. These discrepancies are most likely due to the comparatively limited containment measures initiated by the Swedish Public Health Authority. First, both R<sub>0</sub> and R<sub>E</sub> remain at higher values through the simulations, with an R<sub>0</sub> that never goes below 1. Second, at the end of the simulation, the total number of COVID-19 cases was much larger than in Italy and Germany; the high number of hospitalized and asymptomatic cases being of particular concern. Third, the proportion of recovered cases (443/733, 60%) was lower than the corresponding proportion in any of the other countries. Fourth, the case-fatality rate (141/765, 18.4%) was higher than the rates obtained for Germany, Italy, and Brazil.</p>
+                <p>A major difference of Sweden from Italy and Germany was the low number of available ICU beds. Despite its high focus on welfare, Sweden has a low number of ICU beds per capita. Although Sweden managed to double the number of ICU beds at the start of the pandemic (Source: Folkhälsomyndigheten [<xref rid="ref39" ref-type="bibr">39</xref>]), the pressure on hospitals remains critical throughout the simulations. Indeed, as the sensitivity analyses showed, Sweden would have required an additional 40% of its ICU capacity at the peak of the pandemic. Moreover, the sensitivity analysis also showed that the case-fatality rate decreased from 18.4% to 11.5% with a higher number of ICU beds. It is therefore fair to conclude that an increase in the ICU capacity would have the potential to save many lives.</p>
+                <p>Despite the adverse outcomes, Sweden does not reach the threshold of herd immunity as determined by the simulations. The herd immunity threshold (57%) was derived based on specific considerations in the model (ie, lifelong immunity for those with serious COVID-19 and temporary immunity to those with milder forms of the disease). To the best of our knowledge, there is no clear data on immunity. Indeed, if the parameters in the model are accurate, herd immunity for COVID-19 would be difficult to reach. It is therefore possible to conclude, based on the simulations, that implementing containment measures and recommending the use of face masks have positive effects in limiting the spread and the consequences of COVID-19, even a year after the first recorded case.</p>
+                <p>The simulated productivity drop for Sweden would, unlike the situations in Italy and Germany, not be influenced by the country’s containment measures but rather be a consequence of its large number of COVID-19 cases.</p>
+              </sec>
+              <sec>
+                <title>Brazil</title>
+                <p>As expected, our model foresees that Brazil has the highest number of COVID-19 cases among the 4 analyzed countries. This is most likely due to Brazil’s implemented policy decisions, which are more in line with those of Sweden than Italy and Germany. Consequently, Brazil and Sweden share many similarities in the analyses. First, the total case numbers in Brazil resemble those of Sweden and are assumed to be a result of the less restrictive containments measures. Moreover, R<sub>0</sub> and R<sub>E</sub> did not exhibit strong fluctuations, with R<sub>0</sub> remaining above 1 for the duration of the simulation. Despite a situation that could be considered out of control, Brazil displayed a notably lower case-fatality rate than Sweden (10.2% vs 18.4%). This is most likely due to the low proportion of older adults (8.6% vs 19.8% in Sweden). Another noteworthy difference between Brazil and Sweden was the encouraging recovery rate of 74% (658/883), again most likely due to the two countries’ demographic differences in age.</p>
+                <p>The proportion of immune individuals in Brazil reached 37% (374/1000) of the population, the highest proportion of all the analyzed countries. Despite this high immunization rate, the model foresees that herd immunity will not be reached due to a calculated threshold of 75%. Indeed, the total proportion of immunized and positive cases at the end of the simulation reached 51% (511/1000).</p>
+                <p>The severity of the situation in Brazil was further highlighted by the sensitivity analyses, identifying a required 75% increase in the number of ICU beds for Brazil to cope with its situation. According to the models, such an increase in capacity would notably reduce not only the number of recorded COVID-19 cases but also the case-fatality rate (from 10.2% to 7%). It is, however, questionable whether an ICU capacity increase of such magnitude is feasible to implement, as Brazil over the past years has progressively decreased the availability of ICU beds (Source: Central Intelligence Agency [<xref rid="ref29" ref-type="bibr">29</xref>]).</p>
+                <p>Brazil has adopted few measures concerning the closure of commercial activities (Source: Conselho Nacional de Secretários de Saúde [<xref rid="ref40" ref-type="bibr">40</xref>]). This led to a lower drop in productivity (in absolute terms) than in European countries, with the difference that the contagion curve in Brazil lowers slowly; the model predicted that the negative effects of the pandemic will last for a long time so that it seems likely that other countries (that implemented stronger containment measures) will be able to reopen all their activities sooner. The productivity trend reflects this, as there is no rise toward pre–COVID-19 values.</p>
+                <p>The effects of reopening national borders cannot be assessed for Brazil, which unlike Germany and Italy, has never implemented closure of national borders as a measure to contain the spread of COVID-19.</p>
+              </sec>
+              <sec>
+                <title>Principal Results</title>
+                <p>By considering 4 countries with different policy approaches in the prevention and containment of the spread of COVID-19, our simulation model is able to highlight the consequences of policy decisions on a number of measures. The results obtained from our models showed the importance of prevention through widespread testing over large areas of territory (Germany) and of lockdown measures for the reduction of virus transmissibility (Italy and Germany). On the other hand, the countries that have not adopted these measures (Sweden and Brazil) are facing a situation that is not under control. From our results, we also highlight how important the mandatory use of face masks and the imposition of physical distancing are in reducing the number of COVID-19 cases. Our study also stresses how important it is to have an adequate number of ICU beds to deal with emergencies. This is evident particularly in the simulations for Sweden and Brazil, where the sensitivity analyses demonstrated an improvement in both recovery rates and case-fatality rates. Finally, the simulations showed that the reopening of national borders will not allow individual countries to maintain a monotonic decreasing curve of infections; indeed, only the simulations with the national borders being kept closed led to a complete stop of the spread of COVID-19.</p>
+                <p>In the context of an increasing number of positive COVID-19 cases, the main priority is the successful containment of the spread of SARS-CoV-2. However, prolonged lockdown measures have devastating effects on the economy of a country. The results of our model point toward a situation where countries that implemented mild policies against the virus at the start of the pandemic may inevitably need to strengthen them in the near future. Consequently, we suggest that the best course of action is to plan and implement aggressive political actions, both in the contagion containment phase (eg, limitations on the personal mobility and closure of nonessential activities) and in the economic recovery phase (eg, strong tax breaks for businesses and robust actions to stimulate consumption, as also indicated by the European Central Bank, even if doing this will result in a large budget deficit), with a long-term perspective from the beginning. According to the simulations, such actions may allow nations to overcome the economic impact of the pandemic sooner. This is important given that the data provided by the international economic organizations (International Monetary Fund, Organisation for Economic Co-operation and Development [OECD], World Bank, and others) leave no room for optimism [<xref rid="ref41" ref-type="bibr">41</xref>-<xref rid="ref43" ref-type="bibr">43</xref>].</p>
+              </sec>
+              <sec>
+                <title>Strengths and Limitations</title>
+                <p>There are a number of limitations that need to be mentioned. The main point concerns the input data for the model. We have retrieved the values from the most reliable sites among those that provide daily information about the spread of the virus, but this information is constantly evolving. Consequently, to keep the model updated, it is necessary to set up the most recent information. In this paper, the model <italic>photographs</italic> the situation at the end of June 2020, and it provides a forecast based on those data. Another limitation is that we considered only a small sample (which can be thought of as an infection outbreak). Even if this sample has the same national characteristics, the obtained results may not perfectly be the same when translated on a larger scale; that said, what we have obtained remains valid when studying a representative outbreak.</p>
+                <p>The economic results obtained from the model measured only the impact resulting from political decisions to contain the spread of COVID-19. The economic ramifications that will occur after a complete reopening of borders, such as a decrease in consumption and tourism, an increase in unemployment, and the shutdown of various economic activities, have not been taken into consideration.</p>
+                <p>The simulations also have a number of strengths. They take into consideration the age distribution of the respective countries. This is crucial given the impact of COVID-19 on the older adult population. The data in all the simulations is based on official statistics, as they are obtained through the national statistical databases of each country. This is a major strength for Sweden, Germany, and Italy, but a limitation for the analyses relating to Brazil. Moreover, the model can be extended to include additional new and relevant variables as they become available or are deemed necessary by researchers and policy makers.</p>
+              </sec>
+              <sec>
+                <title>Future Considerations</title>
+                <p>Further development of the model could allow for comparisons of the outcomes of a number of different policy proposals (eg, obligatory vs voluntary use of face masks, whether or not to increase the number of ICU beds, or whether or not to implement lockdown measures). The model could therefore be used to evaluate the needs and requirements for the considered territory, and the policies with the greatest impact over time. We plan to better explore these points in future research.</p>
+                <p>Additionally, with regard to the economic consequences of the pandemic, further considerations should be made for data concerning productivity and the economy in general. At the time of writing, the return to a situation similar to the one before the pandemic seems likely to occur only after the vaccination campaign ends, covering at least 75% of the population [<xref rid="ref44" ref-type="bibr">44</xref>].</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>This study used real-world data to analyze how different political decisions aiming to deal with the spread of SARS-CoV-2 influence the extent of COVID-19. The results of the simulations lead to three main conclusions. First, strict containment measures, including the mandated use of face masks and the implementation of social distance, lead to a reduction in the number of COVID-19 cases. Second, the number of ICU beds are an important measure to reduce case-fatality rates. Third, herd immunity cannot be reached, and any national strategy aiming to reach herd immunity by loosening containment measures should be avoided.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors did not have any sources of funding to report. This research was supported by the Joint Research and Development Agreement between ALBERT Inc and the Center of Innovation at the University of Tokyo. This research was supported by the Center of Innovation Program of the Japan Science and Technology Agency (grant number JPMJCE1304).</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="con">
+                <p>Authors' Contributions: AS and TS developed and refined the ideas in this paper. AS wrote the first draft. AS and TS discussed it actively and revised the first draft. AKS and UIC critically revised the manuscript for important intellectual content, until the final agreement on the submitted version. All authors read and approved the final submitted version of the manuscript.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app>
+                <title>Appendix</title>
+                <supplementary-material content-type="local-data" id="app1">
+                  <label>Multimedia Appendix 1</label>
+                  <p>Supplementary material.</p>
+                  <media xlink:href="medinform_v9i4e24192_app1.docx" xlink:title="DOCX File , 27 KB" xlink:type="simple" id="d39e2026" position="anchor"/>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">ABM</term>
+                  <def>
+                    <p>agent-based model</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">ICU</term>
+                  <def>
+                    <p>intensive care unit</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Gostoli</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Picascia</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Almagor</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>McCann</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaw</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Angione</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Situating agent-based modelling in population health research</article-title>
+                  <source>arXiv</source>
+                  <year>2021</year>
+                  <comment>Preprint posted online on February 6, 2020<ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2002.02345"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gorman</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Mezic</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Mezic</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Gruenewald</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Agent-based modeling of drinking behavior: a preliminary model and potential applications to theory and practice</article-title>
+                  <source>Am J Public Health</source>
+                  <year>2006</year>
+                  <month>11</month>
+                  <volume>96</volume>
+                  <issue>11</issue>
+                  <fpage>2055</fpage>
+                  <lpage>60</lpage>
+                  <pub-id pub-id-type="doi">10.2105/AJPH.2005.063289</pub-id>
+                  <pub-id pub-id-type="medline">17018835</pub-id>
+                  <!--<pub-id pub-id-type="pii">AJPH.2005.063289</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC1751811</pub-id>-->
+                  <pub-id pub-id-type="pmid">17018835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Giabbanelli</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Arah</surname>
+                      <given-names>OA</given-names>
+                    </name>
+                    <name>
+                      <surname>Zimmerman</surname>
+                      <given-names>FJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of different policies on unhealthy dietary behaviors in an urban adult population: an agent-based simulation model</article-title>
+                  <source>Am J Public Health</source>
+                  <year>2014</year>
+                  <month>7</month>
+                  <volume>104</volume>
+                  <issue>7</issue>
+                  <fpage>1217</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.2105/AJPH.2014.301934</pub-id>
+                  <pub-id pub-id-type="medline">24832414</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC4056222</pub-id>-->
+                  <pub-id pub-id-type="pmid">24832414</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chiacchio</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Pennisi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Russo</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Motta</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Pappalardo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Agent-based modeling of the immune system: NetLogo, a promising framework</article-title>
+                  <source>Biomed Res Int</source>
+                  <year>2014</year>
+                  <volume>2014</volume>
+                  <fpage>907171</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2014/907171</pub-id>
+                  <pub-id pub-id-type="medline">24864263</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC4016927</pub-id>-->
+                  <pub-id pub-id-type="pmid">24864263</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bomblies</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Agent-based modeling of malaria vectors: the importance of spatial simulation</article-title>
+                  <source>Parasit Vectors</source>
+                  <year>2014</year>
+                  <month>7</month>
+                  <day>03</day>
+                  <volume>7</volume>
+                  <fpage>308</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://parasitesandvectors.biomedcentral.com/articles/10.1186/1756-3305-7-308"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/1756-3305-7-308</pub-id>
+                  <pub-id pub-id-type="medline">24992942</pub-id>
+                  <!--<pub-id pub-id-type="pii">1756-3305-7-308</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4088367</pub-id>-->
+                  <pub-id pub-id-type="pmid">24992942</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roche</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Drake</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Rohani</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An agent-based model to study the epidemiological and evolutionary dynamics of Influenza viruses</article-title>
+                  <source>BMC Bioinformatics</source>
+                  <year>2011</year>
+                  <month>3</month>
+                  <day>30</day>
+                  <volume>12</volume>
+                  <fpage>87</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-87"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-12-87</pub-id>
+                  <pub-id pub-id-type="medline">21450071</pub-id>
+                  <!--<pub-id pub-id-type="pii">1471-2105-12-87</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3078862</pub-id>-->
+                  <pub-id pub-id-type="pmid">21450071</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawley</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Siscovick</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Pagán</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Agent-based modeling of chronic diseases: a narrative review and future research directions</article-title>
+                  <source>Prev Chronic Dis</source>
+                  <year>2016</year>
+                  <month>5</month>
+                  <day>26</day>
+                  <volume>13</volume>
+                  <fpage>E69</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/pcd/issues/2016/15_0561.htm"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.5888/pcd13.150561</pub-id>
+                  <pub-id pub-id-type="medline">27236380</pub-id>
+                  <!--<pub-id pub-id-type="pii">E69</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4885681</pub-id>-->
+                  <pub-id pub-id-type="pmid">27236380</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>DePasse</surname>
+                      <given-names>JV</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Raviotta</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Shim</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Nowalk</surname>
+                      <given-names>MP</given-names>
+                    </name>
+                    <name>
+                      <surname>Zimmerman</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>ST</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Does choice of influenza vaccine type change disease burden and cost-effectiveness in the United States? An agent-based modeling study</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2017</year>
+                  <month>5</month>
+                  <day>01</day>
+                  <volume>185</volume>
+                  <issue>9</issue>
+                  <fpage>822</fpage>
+                  <lpage>831</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/28402385"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1093/aje/kww229</pub-id>
+                  <pub-id pub-id-type="medline">28402385</pub-id>
+                  <!--<pub-id pub-id-type="pii">3573394</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5411677</pub-id>-->
+                  <pub-id pub-id-type="pmid">28402385</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Harding</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Zachreson</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Cliff</surname>
+                      <given-names>OM</given-names>
+                    </name>
+                    <name>
+                      <surname>Prokopenko</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling transmission and control of the COVID-19 pandemic in Australia</article-title>
+                  <source>Nat Commun</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>11</day>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>5710</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-19393-6</pub-id>
+                  <pub-id pub-id-type="medline">33177507</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1038/s41467-020-19393-6</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7659014</pub-id>-->
+                  <pub-id pub-id-type="pmid">33177507</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilder</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Charpignon</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Killian</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ou</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Mate</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Jabbari</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Perrault</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Desai</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                    <name>
+                      <surname>Tambe</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Majumder</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling between-population variation in COVID-19 dynamics in Hubei, Lombardy, and New York City</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <year>2020</year>
+                  <month>10</month>
+                  <day>13</day>
+                  <volume>117</volume>
+                  <issue>41</issue>
+                  <fpage>25904</fpage>
+                  <lpage>25910</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/32973089"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1073/pnas.2010651117</pub-id>
+                  <pub-id pub-id-type="medline">32973089</pub-id>
+                  <!--<pub-id pub-id-type="pii">2010651117</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7568285</pub-id>-->
+                  <pub-id pub-id-type="pmid">32973089</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Okyere</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Controlling the transmission dynamics of COVID-19</article-title>
+                  <source>arXiv.</source>
+                  <comment>Preprint posted online on March 31, 2020
+<ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2004.00443"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kai</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldstein</surname>
+                      <given-names>GP</given-names>
+                    </name>
+                    <name>
+                      <surname>Morgunov</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Nangalia</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Rotkirch</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Universal masking is urgent in the COVID-19 pandemic: SEIR and agent based models, empirical validation, policy recommendations</article-title>
+                  <source>arXiv.</source>
+                  <comment>Preprint posted online on April 22, 2020 <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2004.13553"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Louati</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Haddad</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Bedhiafi</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Bellamine</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kebir</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kchaou</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>BenMiled</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ABM model to explore containment and screening policies to control COVID-19 virus spread</article-title>
+                  <source>ResearchGate.</source>
+                  <comment>Preprint posted online on March 1, 2020</comment>
+                  <pub-id pub-id-type="doi">10.13140/RG.2.2.32409.16489</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mahdizadeh Gharakhanlou</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Hooshangi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatio-temporal simulation of the novel coronavirus (COVID-19) outbreak using the agent-based modeling approach (case study: Urmia, Iran)</article-title>
+                  <source>Inform Med Unlocked</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <fpage>100403</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S2352-9148(20)30553-0"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.imu.2020.100403</pub-id>
+                  <pub-id pub-id-type="medline">32835081</pub-id>
+                  <!--<pub-id pub-id-type="pii">S2352-9148(20)30553-0</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7391021</pub-id>-->
+                  <pub-id pub-id-type="pmid">32835081</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Churches</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Jorm</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Flexible, freely available stochastic individual contact model for exploring COVID-19 intervention and control strategies: development and simulation</article-title>
+                  <source>JMIR Public Health Surveill</source>
+                  <year>2020</year>
+                  <month>9</month>
+                  <day>18</day>
+                  <volume>6</volume>
+                  <issue>3</issue>
+                  <fpage>e18965</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://publichealth.jmir.org/2020/3/e18965/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/18965</pub-id>
+                  <pub-id pub-id-type="medline">32568729</pub-id>
+                  <!--<pub-id pub-id-type="pii">v6i3e18965</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7505685</pub-id>-->
+                  <pub-id pub-id-type="pmid">32568729</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaxiras</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Neofotistos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multiple epidemic wave model of the COVID-19 pandemic: modeling study</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2020</year>
+                  <month>7</month>
+                  <day>30</day>
+                  <volume>22</volume>
+                  <issue>7</issue>
+                  <fpage>e20912</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.jmir.org/2020/7/e20912/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/20912</pub-id>
+                  <pub-id pub-id-type="medline">32692690</pub-id>
+                  <!--<pub-id pub-id-type="pii">v22i7e20912</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7394522</pub-id>-->
+                  <pub-id pub-id-type="pmid">32692690</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kerr</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Stuart</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Mistry</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Abeysuriya</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Hart</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosefeld</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Selvaraj</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Núñez</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Hagedorn</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>George</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Izzo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Palmer</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Delport</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Bennette</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Panovska-Griffiths</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Jastrzębski</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Oron</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Wenger</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Famulare</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Klein</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Covasim: an agent-based model of COVID-19 dynamics and interventions</article-title>
+                  <source>medRxiv.</source>
+                  <comment>Preprint posted online on May 15, 2020</comment>
+                  <pub-id pub-id-type="doi">10.1101/2020.05.10.20097469</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="webpage">
+                  <article-title>An Agent-Based Model of the Local Spread of SARS-CoV-2: Modeling Study</article-title>
+                  <source>GitHub</source>
+                  <date-in-citation>2021-03-16</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/staale92/abm-local-pandemic-spread">https://github.com/staale92/abm-local-pandemic-spread</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="webpage">
+                  <source>National Center for Biotechnology Information</source>
+                  <year>2012</year>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/">https://www.ncbi.nlm.nih.gov/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="webpage">
+                  <source>Eurostat</source>
+                  <year>2018</year>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/eurostat">https://ec.europa.eu/eurostat</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Italy</article-title>
+                  <source>OECD</source>
+                  <year>2018</year>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.oecd.org/italy/">http://www.oecd.org/italy/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Italy</article-title>
+                  <source>World Health Organization</source>
+                  <date-in-citation>2020-06-26</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.who.int/countries/ita/">https://www.who.int/countries/ita/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="webpage">
+                  <source>Ministero della Salute</source>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.salute.gov.it/portale/home.html">http://www.salute.gov.it/portale/home.html</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Germany</article-title>
+                  <source>OECD</source>
+                  <year>2018</year>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.oecd.org/germany/">http://www.oecd.org/germany/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Germany</article-title>
+                  <source>World Health Organization</source>
+                  <date-in-citation>2020-06-26</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.who.int/countries/deu/">https://www.who.int/countries/deu/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="webpage">
+                  <source>Worldometer</source>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.worldometers.info">https://www.worldometers.info</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Sweden</article-title>
+                  <source>OECD</source>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.oecd.org/sweden/">http://www.oecd.org/sweden/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Sweden</article-title>
+                  <source>World Health Organization</source>
+                  <date-in-citation>2020-06-26</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.who.int/countries/swe/">https://www.who.int/countries/swe/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Brazil</article-title>
+                  <source>CIA</source>
+                  <year>2018</year>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cia.gov/the-world-factbook/countries/brazil">https://www.cia.gov/the-world-factbook/countries/brazil</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="webpage">
+                  <source>AMIB</source>
+                  <year>2018</year>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.amib.org.br/">https://www.amib.org.br/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Brazil</article-title>
+                  <source>World Health Organization</source>
+                  <date-in-citation>2020-06-26</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.who.int/countries/bra/">https://www.who.int/countries/bra/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Böhning</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rocchetti</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Maruotti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Holling</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the undetected infections in the Covid-19 outbreak by harnessing capture-recapture methods</article-title>
+                  <source>Int J Infect Dis</source>
+                  <year>2020</year>
+                  <month>8</month>
+                  <volume>97</volume>
+                  <fpage>197</fpage>
+                  <lpage>201</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S1201-9712(20)30444-6"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.ijid.2020.06.009</pub-id>
+                  <pub-id pub-id-type="medline">32534143</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1201-9712(20)30444-6</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7286831</pub-id>-->
+                  <pub-id pub-id-type="pmid">32534143</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rodda</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                    <name>
+                      <surname>Netland</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Shehata</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Pruner</surname>
+                      <given-names>KB</given-names>
+                    </name>
+                    <name>
+                      <surname>Morawski</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Thouvenel</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                    <name>
+                      <surname>Takehara</surname>
+                      <given-names>KK</given-names>
+                    </name>
+                    <name>
+                      <surname>Eggenberger</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hemann</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Waterman</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Fahning</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Hale</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathe</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Stokes</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Wrenn</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fiala</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Carter</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamerman</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>NP</given-names>
+                    </name>
+                    <name>
+                      <surname>Gale</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Campbell</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Rawlings</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Pepper</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional SARS-CoV-2-specific immune memory persists aftermMild COVID-19</article-title>
+                  <source>Cell</source>
+                  <year>2021</year>
+                  <month>1</month>
+                  <day>07</day>
+                  <volume>184</volume>
+                  <issue>1</issue>
+                  <fpage>169</fpage>
+                  <lpage>183.e17</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/33296701"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.cell.2020.11.029</pub-id>
+                  <pub-id pub-id-type="medline">33296701</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0092-8674(20)31565-8</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7682481</pub-id>-->
+                  <pub-id pub-id-type="pmid">33296701</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Cooke</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Atchison</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitaker</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Elliott</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Moshe</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Flower</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Daunt</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ainslie</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Ashby</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Donnelly</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Darzi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Barclay</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Elliott</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Declining prevalence of antibody positivity to SARS-CoV-2: a community study of 365,000 adults</article-title>
+                  <source>medRxiv.</source>
+                  <comment>Preprint posted online on October 27, 2020</comment>
+                  <pub-id pub-id-type="doi">10.1101/2020.10.26.20219725</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shoukat</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Wells</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Langley</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Singer</surname>
+                      <given-names>BH</given-names>
+                    </name>
+                    <name>
+                      <surname>Galvani</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Moghadas</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Projecting demand for critical care beds during COVID-19 outbreaks in Canada</article-title>
+                  <source>CMAJ</source>
+                  <year>2020</year>
+                  <month>5</month>
+                  <day>11</day>
+                  <volume>192</volume>
+                  <issue>19</issue>
+                  <fpage>E489</fpage>
+                  <lpage>E496</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.cmaj.ca/cgi/pmidlookup?view=long&amp;pmid=32269020"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1503/cmaj.200457</pub-id>
+                  <pub-id pub-id-type="medline">32269020</pub-id>
+                  <!--<pub-id pub-id-type="pii">cmaj.200457</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7234264</pub-id>-->
+                  <pub-id pub-id-type="pmid">32269020</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anastassopoulou</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Russo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsakris</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Siettos</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Data-based analysis, modelling and forecasting of the COVID-19 outbreak</article-title>
+                  <source>PLoS One</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <issue>3</issue>
+                  <fpage>e0230405</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://dx.plos.org/10.1371/journal.pone.0230405"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0230405</pub-id>
+                  <pub-id pub-id-type="medline">32231374</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-20-04084</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7108749</pub-id>-->
+                  <pub-id pub-id-type="pmid">32231374</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Inoue</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Todo</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The propagation of economic impacts through supply chains: the case of a mega-city lockdown to prevent the spread of COVID-19</article-title>
+                  <source>PLoS One</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <issue>9</issue>
+                  <fpage>e0239251</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://dx.plos.org/10.1371/journal.pone.0239251"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0239251</pub-id>
+                  <pub-id pub-id-type="medline">32931506</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-20-16047</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7491714</pub-id>-->
+                  <pub-id pub-id-type="pmid">32931506</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38</label>
+                <element-citation publication-type="webpage">
+                  <source>Istituto Nazionale di Statistica</source>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.istat.it/">https://www.istat.it/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Our mission – to strengthen and develop public health</article-title>
+                  <source>Folkhälsomyndigheten</source>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/">https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40</label>
+                <element-citation publication-type="webpage">
+                  <source>Conselho Nacional de Secretários de Saúde</source>
+                  <date-in-citation>2020-06-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.conass.org.br">https://www.conass.org.br</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref41">
+                <label>41</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mishra</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The world after COVID-19 and its impact on global economy</article-title>
+                  <source>EconStar</source>
+                  <year>2020</year>
+                  <date-in-citation>2020-06-30</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10419/215931">http://hdl.handle.net/10419/215931</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref42">
+                <label>42</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McKibbin</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Fernando</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Baldwin</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>di Mauro</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The economic impact of COVID-19</article-title>
+                  <source>Economics in the Time of COVID-19</source>
+                  <year>2020</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Centre for Economic Policy Research</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref43">
+                <label>43</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maliszewska</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mattoo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Mensbrugghe</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The potential impact of COVID-19 on GDP and trade: a preliminary assessment</article-title>
+                  <source>World Bank Group</source>
+                  <year>2020</year>
+                  <date-in-citation>2020-06-30</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://openknowledge.worldbank.org/handle/10986/33605">https://openknowledge.worldbank.org/handle/10986/33605</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kwok</surname>
+                      <given-names>KO</given-names>
+                    </name>
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>WI</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>SYS</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>JWT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Herd immunity - estimating the level required to halt the COVID-19 epidemics in affected countries</article-title>
+                  <source>J Infect</source>
+                  <year>2020</year>
+                  <month>6</month>
+                  <volume>80</volume>
+                  <issue>6</issue>
+                  <fpage>e32</fpage>
+                  <lpage>e33</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/32209383"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.jinf.2020.03.027</pub-id>
+                  <pub-id pub-id-type="medline">32209383</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0163-4453(20)30154-7</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7151357</pub-id>-->
+                  <pub-id pub-id-type="pmid">32209383</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

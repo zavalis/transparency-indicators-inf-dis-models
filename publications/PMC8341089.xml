@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:50:57Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8341089" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8341089</identifier>
+        <datestamp>2021-08-25</datestamp>
+        <setSpec>jmirphs</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">JMIR Public Health Surveill</journal-id>
+              <journal-id journal-id-type="iso-abbrev">JMIR Public Health Surveill</journal-id>
+              <journal-id journal-id-type="publisher-id">JPH</journal-id>
+              <journal-title-group>
+                <journal-title>JMIR Public Health and Surveillance</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2369-2960</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8341089</article-id>
+              <article-id pub-id-type="pmcid">PMC8341089</article-id>
+              <article-id pub-id-type="pmc-uid">8341089</article-id>
+              <article-id pub-id-type="pmid">34346897</article-id>
+              <article-id pub-id-type="publisher-id">v7i8e28195</article-id>
+              <article-id pub-id-type="pmid">34346897</article-id>
+              <article-id pub-id-type="doi">10.2196/28195</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Forecasting COVID-19 Hospital Census: A Multivariate Time-Series Model Based on Local Infection Incidence</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Sanchez</surname>
+                    <given-names>Travis</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Mahmoudi</surname>
+                    <given-names>Elham</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Gore</surname>
+                    <given-names>Ross</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes" equal-contrib="yes">
+                  <name>
+                    <surname>Nguyen</surname>
+                    <given-names>Hieu M</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-8030-6058</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Center for Outcomes Research and Evaluation</institution>
+                    <institution>Atrium Health</institution>
+                    <addr-line>1300 Scott Ave</addr-line>
+                    <addr-line>Charlotte, NC, 28204</addr-line>
+                    <country>United States</country>
+                    <phone>1 9706914892</phone>
+                    <email>hieu.nguyen@atriumhealth.org</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Turk</surname>
+                    <given-names>Philip J</given-names>
+                  </name>
+                  <degrees>MSc, PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5717-0439</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>McWilliams</surname>
+                    <given-names>Andrew D</given-names>
+                  </name>
+                  <degrees>MPH, MD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-3406-9201</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>Center for Outcomes Research and Evaluation</institution>
+                <institution>Atrium Health</institution>
+                <addr-line>Charlotte, NC</addr-line>
+                <country>United States</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Hieu M Nguyen <email>hieu.nguyen@atriumhealth.org</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>4</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>4</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>7</volume>
+              <issue>8</issue>
+              <elocation-id>e28195</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>2</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>22</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>29</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Hieu M Nguyen, Philip J Turk, Andrew D McWilliams. Originally published in JMIR Public Health and Surveillance (https://publichealth.jmir.org), 04.08.2021.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in JMIR Public Health and Surveillance, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link xlink:href="https://publichealth.jmir.org" ext-link-type="uri">https://publichealth.jmir.org</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="https://publichealth.jmir.org/2021/8/e28195"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>COVID-19 has been one of the most serious global health crises in world history. During the pandemic, health care systems require accurate forecasts for key resources to guide preparation for patient surges. Forecasting the COVID-19 hospital census is among the most important planning decisions to ensure adequate staffing, number of beds, intensive care units, and vital equipment.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>The goal of this study was to explore the potential utility of local COVID-19 infection incidence data in developing a forecasting model for the COVID-19 hospital census.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>The study data comprised aggregated daily COVID-19 hospital census data across 11 Atrium Health hospitals plus a virtual hospital in the greater Charlotte metropolitan area of North Carolina, as well as the total daily infection incidence across the same region during the May 15 to December 5, 2020, period. Cross-correlations between hospital census and local infection incidence lagging up to 21 days were computed. A multivariate time-series framework, called the vector error correction model (VECM), was used to simultaneously incorporate both time series and account for their possible long-run relationship. Hypothesis tests and model diagnostics were performed to test for the long-run relationship and examine model goodness of fit. The 7-days-ahead forecast performance was measured by mean absolute percentage error (MAPE), with time-series cross-validation. The forecast performance was also compared with an autoregressive integrated moving average (ARIMA) model in the same cross-validation time frame. Based on different scenarios of the pandemic, the fitted model was leveraged to produce 60-days-ahead forecasts.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The cross-correlations were uniformly high, falling between 0.7 and 0.8. There was sufficient evidence that the two time series have a stable long-run relationship at the .01 significance level. The model had very good fit to the data. The out-of-sample MAPE had a median of 5.9% and a 95th percentile of 13.4%. In comparison, the MAPE of the ARIMA had a median of 6.6% and a 95th percentile of 14.3%. Scenario-based 60-days-ahead forecasts exhibited concave trajectories with peaks lagging 2 to 3 weeks later than the peak infection incidence. In the worst-case scenario, the COVID-19 hospital census can reach a peak over 3 times greater than the peak observed during the second wave.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>When used in the VECM framework, the local COVID-19 infection incidence can be an effective leading indicator to predict the COVID-19 hospital census. The VECM model had a very good 7-days-ahead forecast performance and outperformed the traditional ARIMA model. Leveraging the relationship between the two time series, the model can produce realistic 60-days-ahead scenario-based projections, which can inform health care systems about the peak timing and volume of the hospital census for long-term planning purposes.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>COVID-19</kwd>
+                <kwd>forecasting</kwd>
+                <kwd>time-series model</kwd>
+                <kwd>vector error correction model</kwd>
+                <kwd>hospital census</kwd>
+                <kwd>hospital resource utilization</kwd>
+                <kwd>infection incidence</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <p>SARS-CoV-2 is a novel member of the coronavirus family, and infections in humans can result in the disease COVID-19. The virus is transmitted primarily through droplets from coughing and sneezing and is highly infectious. Its basic reproduction rate is estimated to be in the low to mid 2s based on different models [<xref rid="ref1" ref-type="bibr">1</xref>], compared to 2 for severe acute respiratory syndrome (SARS) and 1.3 for the 2009 swine flu [<xref rid="ref2" ref-type="bibr">2</xref>]. Moderate to severe disease typically manifests with acute hypoxemia, and can progress to acute respiratory distress syndrome, multiorgan dysfunction, and death. Furthermore, an estimated 25%-30% of patients admitted to hospitals require intensive care admission [<xref rid="ref2" ref-type="bibr">2</xref>]. In December 2019, the first cases were recorded in Wuhan, China, with subsequent spread across the world. In early 2020, the World Health Organization declared COVID-19 to be a global health emergency [<xref rid="ref3" ref-type="bibr">3</xref>]. At the end of December 2020, SARS-CoV-2 had resulted in over 82 million documented cases and nearly 2 million deaths [<xref rid="ref4" ref-type="bibr">4</xref>].</p>
+              <p>Our work is motivated by the need of hospital leaders to have timely and accurate forecasts to guide planning for surges in hospital demands due to the pandemic. Adequate preparation can help prevent or mitigate strains on hospital resources that result when hospitals exceed their historical capacity. On the contrary, being caught off-guard under a pandemic can devastate the population and health care systems. For example, previous models in India suggested falsely that it had reached herd immunity, encouraging complacency and insufficient preparation; however, on May 4, 2021, there was still a reported rolling average of 378,000 cases a day, which overwhelmed hospitals and health workers and resulted in a national health crisis [<xref rid="ref5" ref-type="bibr">5</xref>]. Thus, to a health care system, an essential tool is a model that provides short- and long-range forecasting of the number of COVID-19–positive patients who will be admitted. This COVID-19 hospital census plays a central role in planning decisions that frequently require considerable lead time, such as increasing staff, creating physical beds and rooms, and procuring vital equipment (eg, ventilators and personal protective equipment).</p>
+              <p>Prior research has demonstrated the utility of forecasting hospital demands (eg, hospital admissions, intensive care unit census, and hospital overall census) using univariate time-series models such as the autoregressive integrated moving average (ARIMA), the seasonal autoregressive integrated moving average (SARIMA), and exponential smoothing [<xref rid="ref6" ref-type="bibr">6</xref>-<xref rid="ref8" ref-type="bibr">8</xref>]. Another approach is to use ensemble-based modeling. For example, a hybrid of a SARIMA model and a nonlinear autoregression artificial neural network model has been used to forecast hospital admissions [<xref rid="ref9" ref-type="bibr">9</xref>]. In another example, two separate models, a time-series model for hospital admission and a patient-level logistic regression model for hospital discharge, were combined to predict the hospital census [<xref rid="ref10" ref-type="bibr">10</xref>]. While these examples demonstrate the powerful potential of univariate time-series and ensemble modeling, neither incorporate factors inherent to the behavior of the pandemic, which may serve as important leading indicators of hospital census, especially at times when infection rates become increasingly dynamic (eg, on the approach or descent of peak infection prevalence). To incorporate pandemic indicators into modeling requires recognition that such indicators are typically nonstationary. Consequently, while a stationary multivariate time-series model, called vector autoregression (VAR), has been successfully employed to forecast emergency department patient census by including other hospital resource indicators [<xref rid="ref11" ref-type="bibr">11</xref>], it cannot be used in this situation. Rather, our problem will require nonstationary multivariate time-series models like the vector error correction model (VECM).</p>
+              <p>Recently, VECM has been used to forecast the demand for intensive care units during the COVID-19 pandemic by including hospital admission as a leading indicator [<xref rid="ref12" ref-type="bibr">12</xref>]. Although hospital admission is a natural choice as a leading indicator, it has a short period of lead time (ie, hours to days) and thus, limited predictive power. A more powerful indicator for planning purposes would lead by days to weeks. We have previously used VECM to forecast COVID-19 hospital census using leading indicators from Google relative search volumes for COVID-19 testing–related terms combined with the number of people flagged as having possible COVID-19 when using an internet-based virtual health screening bot [<xref rid="ref13" ref-type="bibr">13</xref>]. However, these COVID-19 indicators, which are based on symptoms, have limitations. For example, the symptoms of COVID-19 cannot be easily separated from other common conditions, such as the seasonal flu, and search patterns may change due to other external factors over time.</p>
+              <p>During the COVID-19 pandemic, many papers have been devoted to developing predictive models for the volume of new cases (ie, infection incidence) using various methods from time-series analyses [<xref rid="ref14" ref-type="bibr">14</xref>-<xref rid="ref16" ref-type="bibr">16</xref>] to advanced machine learning [<xref rid="ref17" ref-type="bibr">17</xref>,<xref rid="ref18" ref-type="bibr">18</xref>]. However, virtually no effort was focused on developing statistical models linking infection incidence to hospitalization. Because hospital admission typically follows the symptoms or exposure that may provoke a person to be tested by roughly 1 week, we hypothesize that at a local population level, infection incidence rates may have a stable relationship with and serve as a reliable leading indicator for the COVID-19 hospital census. In this paper, our main objective is to explore whether the local COVID-19 infection incidence and the COVID-19 hospital census can be successfully incorporated within a VECM to delivery satisfactory 7-days-ahead forecast performance and examine the application of this model to scenario-based long-term forecasting. From our experience, since there can be systematic changes due to the day of the week in a hospital time series, we will need to account for weekly seasonal effects and examine implications on short-term resource planning.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Time-Series Data</title>
+                <p>Atrium Health is a large, integrated health care system operating in North Carolina, South Carolina, and Georgia. In this paper, the COVID-19 hospital census (census) refers to the daily aggregate number of beds occupied by patients with COVID-19 at midnight across the subset of 11 Atrium Health hospitals in the greater Charlotte metropolitan area of North Carolina, plus a virtual hospital (Atrium Health Hospital at Home). The virtual hospital uses telemedicine to treat patients who require only a minimal level of care. The local COVID-19 infection incidence (incidence) is the aggregate daily count of new COVID-19–positive cases from 11 local counties belonging to the Cities Readiness Initiative (CRI) region, as designated by the North Carolina Department of Health and Human Services. The CRI region roughly approximates the market catchment area of these hospitals.</p>
+                <p>Using STL (seasonal and trend decomposition using Loess) time-series decomposition [<xref rid="ref19" ref-type="bibr">19</xref>], we observed that the two time series had multiplicative weekly seasonality. We transformed both time series to achieve additive seasonality and linearize their relationship. The usual log transformation was applied to incidence. For operational purposes, the health system had previously decided to place an upper bound of 1000 patients with COVID-19 on the hospital time-series range, so we applied the following constrained log transformation so that the back-transformed census forecasts would satisfy the constraint:</p>
+                <disp-formula>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig8.jpg" mimetype="image" position="float"/>
+                </disp-formula>
+                <p>The forecast model described in the following sections was developed for these transformed time series. <xref rid="figure1" ref-type="fig">Figure 1</xref> shows a plot of transformed census and incidence on a standardized scale for the period from May 15 to December 5, 2020. To affirm the association between the two transformed time series, we computed the Pearson cross-correlations between census and values of incidence at lags 0, –1, …, –21.</p>
+                <fig id="figure1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Scaled time series for COVID-19 hospital census and local COVID-19 infection incidence in the Cities Readiness Initiative region for the period from May 15 to December 5, 2020. Transformed census (blue) and incidence (red) are linearly standardized to the 0-100 scale.</p>
+                  </caption>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig1"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>VECM</title>
+                <p>A VECM is a vector autoregressive model used for nonstationary multivariate time series and accounts for stable long-run relationships, that is, cointegration, between the time series. A <italic>k</italic> × 1 time-series vector <bold><italic>y</italic></bold><italic><sub>t</sub></italic> is said to be cointegrated if there is at least one nonzero <italic>k</italic> × 1 vector <bold><italic>β</italic></bold><italic><sub>i</sub></italic>, such that the linear combination <inline-graphic xlink:href="publichealth_v7i8e28195_fig9.jpg" mimetype="image"/> is trend-stationary. If <italic>r</italic> such linearly independent vectors <bold><italic>β</italic></bold><italic><sub>i</sub></italic> (<italic>i</italic>=1,…,<italic>r</italic>) exist, we say <bold><italic>y</italic></bold><italic><sub>t</sub></italic> is cointegrated with cointegration rank <italic>r</italic> [<xref rid="ref20" ref-type="bibr">20</xref>].</p>
+                <p>Following Pfaff [<xref rid="ref20" ref-type="bibr">20</xref>], we first describe the VAR representation of order <italic>p</italic> of the VECM:</p>
+                <disp-formula>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig10.jpg" mimetype="image" position="float"/>
+                </disp-formula>
+                <p>for time <italic>t</italic>=1,…, <italic>T</italic>, where <bold><italic>Π</italic></bold><italic><sub>i</sub></italic> (for <italic>i</italic>=1,…,<italic>p</italic>) are <italic>k</italic> × <italic>k</italic> coefficient matrices of the lagged series at lag <italic>i</italic>, <bold><italic>μ</italic></bold> is a <italic>k</italic> × 1 vector of constants, <bold><italic>D</italic></bold><italic><sub>t</sub></italic> is a 6 × 1 vector of weekly seasonal indicators, <bold><italic>Φ</italic></bold> is a <italic>k</italic> × 6 coefficient matrix for seasonal indicators, and <bold><italic>ε</italic></bold><italic><sub>t</sub></italic> is a <italic>k</italic> × 1 vector of random errors.</p>
+                <p>The VECM specification can be formulated as an algebraic rearrangement of the VAR representation as:</p>
+                <disp-formula>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig11.jpg" mimetype="image" position="float"/>
+                </disp-formula>
+                <p>where <bold>Δ<italic>y</italic></bold><italic><sub>t</sub></italic> is a <italic>k</italic> × 1 vector of the differenced series <inline-graphic xlink:href="publichealth_v7i8e28195_fig12.jpg" mimetype="image"/> and <inline-graphic xlink:href="publichealth_v7i8e28195_fig13.jpg" mimetype="image"/>.</p>
+                <p>The model has the following assumptions:</p>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Assumption 1: The components of <italic><bold>y</bold><sub>t</sub></italic> are at most <italic>I</italic>(1), that is, an integrated of order 1</p>
+                  </list-item>
+                  <list-item>
+                    <p>Assumption 2: 0≤<italic>r</italic>=<italic>rank</italic>(<bold><italic>Π</italic></bold>)≤<italic>k</italic></p>
+                  </list-item>
+                  <list-item>
+                    <p>Assumption 3: <italic><bold>ε</bold><sub>t</sub></italic> are identically and independently distributed <italic>N</italic>(<bold>0,Σ</bold>) random vectors with covariance matrix <bold>Σ</bold>.</p>
+                  </list-item>
+                </list>
+                <p>We now discuss the implications of the assumptions. For assumption 2, if <italic>r</italic>=<italic>k,</italic> then it can be shown that the VECM becomes a standard VAR model. If <italic>r</italic>=0, then <bold><italic>Π</italic></bold> is the zero matrix and there is no cointegration relationship between the series. The VECM then becomes a VAR model for differenced time series. If 0&lt;<italic>r</italic>&lt;<italic>k</italic>, then <bold><italic>Π</italic></bold> can be factored into <bold><italic>Π=</italic></bold>
+<bold><italic>αβ<sup>T</sup>,</italic></bold> where <bold><italic>α</italic></bold> and <bold><italic>β</italic></bold> are both <italic>k</italic> × <italic>r</italic> matrices. From assumption 1, the differenced series <bold>Δ<italic>y</italic></bold><italic><sub>t</sub></italic>, and its lags <bold>Δ<italic>y</italic></bold><italic><sub>t–1,…,</sub></italic>
+<bold>Δ<italic>y</italic></bold><italic><sub>t–p+1</sub></italic> are stationary. It follows that <bold><italic>Πy</italic></bold><italic><sub>t–1</sub></italic>=<bold><italic>αβ</italic></bold><italic><sup>T</sup></italic><bold><italic>y</italic></bold><italic><sub>t–1</sub></italic>, as well as <bold><italic>β</italic></bold><italic><sup>T</sup></italic><bold><italic>y</italic></bold><italic><sub>t–1</sub></italic>, also called the error correction term, is (trend-)stationary, depending on the specification of the deterministic components. The <italic>r</italic> linearly independent columns of <italic><bold>β</bold></italic> are the cointegrating vectors, and the rank <italic>r</italic> is equal to the cointegration rank of the system of time series.</p>
+              </sec>
+              <sec>
+                <title>Estimation and Inference</title>
+                <p>The VECM was specified and fitted with the steps below.</p>
+                <p>First, to choose the order <italic>p</italic> of the VAR representation, we fitted a VAR model to the data and made the decision based on the Akaike information criterion (AIC) [<xref rid="ref21" ref-type="bibr">21</xref>].</p>
+                <p>Second, we determined the number of cointegration relationships (<italic>r</italic>=0 or <italic>r</italic>=1) using the Johansen trace test [<xref rid="ref22" ref-type="bibr">22</xref>].</p>
+                <p>Third, we needed to decide where to place the constant <bold><italic>μ</italic></bold> in the model. One option was to leave <bold><italic>μ</italic></bold> as shown previously to account for linear trend in the data. Another option was to restrict <bold><italic>μ</italic></bold>=<bold><italic>αρ</italic></bold>. The constant would be absorbed into the cointegration relationship as an intercept, and the data would not exhibit linear trend.</p>
+                <p>We made our decision about whether to restrict <bold><italic>μ</italic></bold> based on a likelihood ratio test for linear trend, as described elsewhere [<xref rid="ref23" ref-type="bibr">23</xref>,<xref rid="ref24" ref-type="bibr">24</xref>].</p>
+                <p>Fourth, we used maximum likelihood estimation to fit the model, reported parameter estimates, the corresponding <italic>T</italic> tests, and the omnibus <italic>F</italic> tests with a significance level of .05, following Johansen [<xref rid="ref23" ref-type="bibr">23</xref>].</p>
+                <p>Finally, we computed the 7-days-ahead forecasts and the 80% forecast intervals. Once the forecasts of the transformed census were made with the VECM, they were back-transformed to the original scale of census. We created 80% forecast intervals for the transformed census using a bootstrap procedure [<xref rid="ref25" ref-type="bibr">25</xref>]. Then, the lower and upper bound of the forecast intervals were also back-transformed.</p>
+                <p>The model was fitted to the data between May 15 and December 5, 2020. All the data analysis was done using R statistical software, version 4.0.3 (R Core Team). The implementation of the VECM was done with the <italic>tsDyn</italic>, <italic>vars</italic>, and <italic>urca</italic> R packages. Since there were no packages to make bootstrapped forecast intervals for the VECM, we coded our own implementation. The data and code used in the data analysis are publicly available on GitHub [<xref rid="ref26" ref-type="bibr">26</xref>].</p>
+              </sec>
+              <sec>
+                <title>Model Diagnostics</title>
+                <p>We examined the omnibus <italic>F</italic> tests to look for signs of lack of fit and also performed the multivariate Portmanteau test for the existence of serial correlation in the errors. Autocorrelation function and cross-correlation function plots were also generated for visual inspection. We performed the univariate and multivariate Jarque-Bera normality test on the errors [<xref rid="ref27" ref-type="bibr">27</xref>] and also checked whether the cointegration relationship was stable, that is, stationary, using the Augmented Dickey-Fuller (ADF) test [<xref rid="ref28" ref-type="bibr">28</xref>] and the Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test [<xref rid="ref29" ref-type="bibr">29</xref>]. Finally, we checked the stability of the estimated VAR representation. To do so, we looked at the companion matrix of the VAR representation and checked whether the maximum eigenvalue modulus was strictly smaller than 1, which, if true, would imply the stability of the VAR representation [<xref rid="ref30" ref-type="bibr">30</xref>]. We also generated a trace plot of the maximum eigenvalue modulus, where the model was repeatedly fitted on a daily rolling basis, to check for the consistency of this value over time.</p>
+              </sec>
+              <sec>
+                <title>Forecast Performance</title>
+                <p>We used mean absolute percentage error (MAPE) to evaluate the 7-days-ahead forecasts of census:</p>
+                <disp-formula>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig14.jpg" mimetype="image" position="float"/>
+                </disp-formula>
+                <p>where <italic>F<sub>i</sub></italic> is the forecast value and <italic>A<sub>i</sub></italic> is the actual value.</p>
+                <p>In order to approximate the sampling distribution of MAPE, we performed time-series cross-validation. From June 16 to November 28, 2020, for each day, we iteratively fitted the model, made 7-days-ahead forecasts, and computed the MAPE. Eventually, we obtained 166 values of MAPE, plotted the distribution, and computed the median as well as the 95th percentile. We will consider a median MAPE below 10% to be satisfactory, based on the practical effect of a peak surge on bed capacity at our health care system.</p>
+              </sec>
+              <sec>
+                <title>Scenario-Based Long-Term Forecasting</title>
+                <p>Leading up to and at the peak of infection prevalence, there can be high anxiety and uncertainty about how much more incidence and, in particular, census may increase. Furthermore, traditional univariate time-series models may give linear forecasts for census that do not accurately represent pandemic behavior. However, cointegration allows for census forecasts that leverage subtle, but critical, changes in incidence (eg, concavity). This suggests, if not necessitates, the forecasting of census under different pandemic scenarios. For resource planning, hospital leaders will want to understand the implications associated with a worst-case scenario.</p>
+                <p>For our health care system, besides routine 7-days-ahead census forecasts, we also deployed our model for 60-days-ahead census forecasts, considering 3 different scenarios of what could happen with incidence (ie, best case, base case, and worst case). On January 9, 2021, we expected the winter surge to reach peak infection prevalence around February 5, 2021, based on an extension of an epidemiological model called the susceptible-infected-removed model [<xref rid="ref31" ref-type="bibr">31</xref>]. While peak infection incidence typically leads peak infection prevalence, in the absence of definitively knowing either peak date, we took a conservative approach and linearly extrapolated incidence with a positive trend up to the expected pandemic peak. The severity of a scenario was controlled by a trend-dampening parameter [<xref rid="ref32" ref-type="bibr">32</xref>]. After the peak, the descent path was initially symmetric to its ascent and then eventually became linear (<xref rid="figure2" ref-type="fig">Figure 2</xref>).</p>
+                <p>Using our model refitted on January 9, 2021, with an increased capacity of 1250 patients, we generated forecasts iteratively forward for 60 days using the past census forecasts together with projected incidence under each scenario. To account for uncertainty in future census and incidence, we also simulated 1000 conditional sample paths of the two time series under each scenario using the bootstrap procedure mentioned earlier and computed the 10th and 90th percentile at each horizon to obtain the 80% forecast intervals.</p>
+                <fig id="figure2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>The 60-day projected local COVID-19 infection incidence in the Cities Readiness Initiative region on the log scale, as of January 9, 2021. Past values (black), worst-case scenario (red), base-case scenario (orange), best-case scenario (blue) are shown.</p>
+                  </caption>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig2"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Ethical Review</title>
+                <p>Our research protocol was submitted to the Atrium Health Institutional Review Board (IRB) prior to execution, and the study was deemed exempt from IRB oversight. In compliance with HIPAA (Health Insurance Portability and Accountability Act) regulations, individual patient information was not disclosed, and all data have been deidentified and reported as aggregates. The procedures set out in this protocol, pertaining to the conduct, evaluation, and documentation of this study, were designed to ensure that the investigators abide by Good Clinical Practice guidelines and under the guiding principles detailed in the Declaration of Helsinki.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Estimation and Inference</title>
+                <p>Our model was specified as a VECM with 7 lags in its VAR representation (<italic>p</italic>=7), 1 cointegration relationship (<italic>r</italic>=1), and a restricted constant parameter <bold><italic>μ</italic></bold> so that the series would not have linear trend. The AIC scores of VAR models with a varying number of lags from 2 to 14 were inconclusive. However, we found that 7 lags were sufficient to account for all the correlation in the data, as evidenced by the autocorrelation function and cross-correlation function plots of the residuals (<xref rid="figure3" ref-type="fig">Figure 3</xref>). The Johansen trace test indicated that there was 1 cointegration relationship (significant at 1%, based on tabulated critical values). Finally, the likelihood ratio test for linear trend indicated that there was no linear trend in the data (<italic>P</italic>=.32). Furthermore, the restricted model had a lower AIC score than the unrestricted model (the AIC scores were –1519 and –1516, respectively).</p>
+                <p>The output from the maximum likelihood estimation showed that the cointegration relationship, that is, the error correction term, had a significant negative effect on census change (<italic>P</italic>&lt;.001); no significant effect was observed for incidence change (<italic>P</italic>=.26) (<xref rid="table1" ref-type="table">Table 1</xref>). The long-run cointegration relationship was estimated as:</p>
+                <disp-formula><italic>ect<sub>t</sub></italic><sub>–1</sub> =<italic>census<sub>t</sub></italic><sub>–1</sub> – 0.8013<italic>incidence<sub>t</sub></italic><sub>–1</sub> + 7.8266</disp-formula>
+                <p>where <italic>ect<sub>t</sub></italic><sub>–1</sub> was the (lagged) error correction term. <xref rid="table1" ref-type="table">Table 1</xref> also shows that past changes in census and incidence also had meaningful effects on current census change. Past census changes had significant effect at lag 2 (<italic>P</italic>=.002). Past incidence changes had significant effects at lag 1 (<italic>P</italic>=.005), lag 2 (<italic>P</italic>=.04), lag 4 (<italic>P</italic>=.02), lag 5 (<italic>P</italic>=.03), and lag 6 (<italic>P</italic>=.02).</p>
+                <p>From <xref rid="table2" ref-type="table">Table 2</xref>, there were some significant seasonal effects, that is, differences in both census and incidence changes among days of the week. Compared to Thursday, census change was higher on Monday and incidence change was lower on Sunday, with significant differences (<italic>P</italic>=.01 and <italic>P</italic>=.002, respectively).</p>
+                <fig id="figure3" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Autocorrelation functions and cross-correlation functions of the residuals: (A) census residuals, (B) lagged census residuals and incidence residuals, (C) census residuals and lagged incidence residuals, and (D) incidence residuals.</p>
+                  </caption>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig3"/>
+                </fig>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Parameter estimates and <italic>T</italic> tests for nonseasonal effects.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="200" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="120" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="120" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Predictor</td>
+                        <td colspan="4" rowspan="1">∆<italic>Census</italic><sub><italic>t</italic></sub></td>
+                        <td colspan="3" rowspan="1">∆<italic>Incidence</italic><sub><italic>t</italic></sub></td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Estimate</td>
+                        <td rowspan="1" colspan="1"><italic>T</italic> statistics</td>
+                        <td rowspan="1" colspan="1"><italic>P</italic> value</td>
+                        <td colspan="2" rowspan="1">Estimate</td>
+                        <td rowspan="1" colspan="1"><italic>T</italic> statistics</td>
+                        <td rowspan="1" colspan="1"><italic>P</italic> value</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <italic>ect</italic>
+                          <sub><italic>t</italic>–1</sub>
+                        </td>
+                        <td rowspan="1" colspan="1">–0.1265</td>
+                        <td rowspan="1" colspan="1">–5.6993</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                        <td colspan="2" rowspan="1">–0.1216</td>
+                        <td rowspan="1" colspan="1">–1.1323</td>
+                        <td rowspan="1" colspan="1">.26</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Census</italic><sub><italic>t</italic>–1</sub></td>
+                        <td rowspan="1" colspan="1">–0.0489</td>
+                        <td rowspan="1" colspan="1">–0.7143</td>
+                        <td rowspan="1" colspan="1">.48</td>
+                        <td colspan="2" rowspan="1">0.5487</td>
+                        <td rowspan="1" colspan="1">1.6555</td>
+                        <td rowspan="1" colspan="1">.10</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Incidence</italic><sub><italic>t</italic>–1</sub></td>
+                        <td rowspan="1" colspan="1">–0.0665</td>
+                        <td rowspan="1" colspan="1">–2.8222</td>
+                        <td rowspan="1" colspan="1">.005</td>
+                        <td colspan="2" rowspan="1">–0.9808</td>
+                        <td rowspan="1" colspan="1">–8.6067</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Census</italic><sub><italic>t</italic>–2</sub></td>
+                        <td rowspan="1" colspan="1">–0.2220</td>
+                        <td rowspan="1" colspan="1">–3.2277</td>
+                        <td rowspan="1" colspan="1">.002</td>
+                        <td colspan="2" rowspan="1">–0.0614</td>
+                        <td rowspan="1" colspan="1">–0.1844</td>
+                        <td rowspan="1" colspan="1">.85</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Incidence</italic><sub><italic>t</italic>–2</sub></td>
+                        <td rowspan="1" colspan="1">–0.0532</td>
+                        <td rowspan="1" colspan="1">–2.0881</td>
+                        <td rowspan="1" colspan="1">.04</td>
+                        <td colspan="2" rowspan="1">–0.6955</td>
+                        <td rowspan="1" colspan="1">–5.6431</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Census</italic><sub><italic>t</italic>–3</sub></td>
+                        <td rowspan="1" colspan="1">–0.0700</td>
+                        <td rowspan="1" colspan="1">–0.9949</td>
+                        <td rowspan="1" colspan="1">.32</td>
+                        <td colspan="2" rowspan="1">0.0643</td>
+                        <td rowspan="1" colspan="1">0.1890</td>
+                        <td rowspan="1" colspan="1">.85</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Incidence</italic><sub><italic>t</italic>–3</sub></td>
+                        <td rowspan="1" colspan="1">–0.0472</td>
+                        <td rowspan="1" colspan="1">–1.9094</td>
+                        <td rowspan="1" colspan="1">.06</td>
+                        <td colspan="2" rowspan="1">–0.6428</td>
+                        <td rowspan="1" colspan="1">–5.3755</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Census</italic><sub><italic>t</italic>–4</sub></td>
+                        <td rowspan="1" colspan="1">–0.0785</td>
+                        <td rowspan="1" colspan="1">–1.1224</td>
+                        <td rowspan="1" colspan="1">.26</td>
+                        <td colspan="2" rowspan="1">0.9769</td>
+                        <td rowspan="1" colspan="1">2.8871</td>
+                        <td rowspan="1" colspan="1">.004</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Incidence</italic><sub><italic>t</italic>–4</sub></td>
+                        <td rowspan="1" colspan="1">–0.0567</td>
+                        <td rowspan="1" colspan="1">–2.4165</td>
+                        <td rowspan="1" colspan="1">.02</td>
+                        <td colspan="2" rowspan="1">–0.5564</td>
+                        <td rowspan="1" colspan="1">–4.8999</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Census</italic><sub><italic>t</italic>–5</sub></td>
+                        <td rowspan="1" colspan="1">–0.0499</td>
+                        <td rowspan="1" colspan="1">–0.7140</td>
+                        <td rowspan="1" colspan="1">.48</td>
+                        <td colspan="2" rowspan="1">–0.0792</td>
+                        <td rowspan="1" colspan="1">–0.2341</td>
+                        <td rowspan="1" colspan="1">.82</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Incidence</italic><sub><italic>t</italic>–5</sub></td>
+                        <td rowspan="1" colspan="1">–0.0465</td>
+                        <td rowspan="1" colspan="1">–2.1907</td>
+                        <td rowspan="1" colspan="1">.03</td>
+                        <td colspan="2" rowspan="1">–0.4589</td>
+                        <td rowspan="1" colspan="1">–4.4634</td>
+                        <td rowspan="1" colspan="1">&lt;.001</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Census</italic><sub><italic>t</italic>–6</sub></td>
+                        <td rowspan="1" colspan="1">0.0077</td>
+                        <td rowspan="1" colspan="1">0.1107</td>
+                        <td rowspan="1" colspan="1">.91</td>
+                        <td colspan="2" rowspan="1">0.4533</td>
+                        <td rowspan="1" colspan="1">1.3404</td>
+                        <td rowspan="1" colspan="1">.18</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">∆<italic>Incidence</italic><sub><italic>t</italic>–6</sub></td>
+                        <td rowspan="1" colspan="1">–0.0373</td>
+                        <td rowspan="1" colspan="1">–2.4015</td>
+                        <td rowspan="1" colspan="1">.02</td>
+                        <td colspan="2" rowspan="1">–0.2384</td>
+                        <td rowspan="1" colspan="1">–3.1739</td>
+                        <td rowspan="1" colspan="1">.002</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <table-wrap id="table2" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Parameter estimates and <italic>T</italic> tests for day-of-the-week effects, in comparison with Thursday being the reference.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="200" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="120" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="140" span="1"/>
+                    <col width="120" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Predictor</td>
+                        <td colspan="4" rowspan="1">∆<italic>Census</italic><sub><italic>t</italic></sub></td>
+                        <td colspan="3" rowspan="1">∆<italic>Incidence</italic><sub><italic>t</italic></sub></td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Estimate</td>
+                        <td rowspan="1" colspan="1"><italic>T</italic> statistics</td>
+                        <td rowspan="1" colspan="1"><italic>P</italic> value</td>
+                        <td colspan="2" rowspan="1">Estimate</td>
+                        <td rowspan="1" colspan="1"><italic>T</italic> statistics</td>
+                        <td rowspan="1" colspan="1"><italic>P</italic> value</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Friday</td>
+                        <td rowspan="1" colspan="1">–0.0213</td>
+                        <td rowspan="1" colspan="1">–1.1120</td>
+                        <td rowspan="1" colspan="1">.27</td>
+                        <td colspan="2" rowspan="1">0.0095</td>
+                        <td rowspan="1" colspan="1">0.1024</td>
+                        <td rowspan="1" colspan="1">.92</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Saturday</td>
+                        <td rowspan="1" colspan="1">0.0083</td>
+                        <td rowspan="1" colspan="1">0.3980</td>
+                        <td rowspan="1" colspan="1">.69</td>
+                        <td colspan="2" rowspan="1">–0.1528</td>
+                        <td rowspan="1" colspan="1">–1.5176</td>
+                        <td rowspan="1" colspan="1">.13</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Sunday</td>
+                        <td rowspan="1" colspan="1">0.0030</td>
+                        <td rowspan="1" colspan="1">0.1330</td>
+                        <td rowspan="1" colspan="1">.89</td>
+                        <td colspan="2" rowspan="1">–0.3340</td>
+                        <td rowspan="1" colspan="1">–3.0744</td>
+                        <td rowspan="1" colspan="1">.002</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Monday</td>
+                        <td rowspan="1" colspan="1">0.0585</td>
+                        <td rowspan="1" colspan="1">2.6205</td>
+                        <td rowspan="1" colspan="1">.01</td>
+                        <td colspan="2" rowspan="1">–0.1939</td>
+                        <td rowspan="1" colspan="1">–1.7950</td>
+                        <td rowspan="1" colspan="1">.07</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Tuesday</td>
+                        <td rowspan="1" colspan="1">0.0291</td>
+                        <td rowspan="1" colspan="1">1.3896</td>
+                        <td rowspan="1" colspan="1">.17</td>
+                        <td colspan="2" rowspan="1">–0.1284</td>
+                        <td rowspan="1" colspan="1">–1.2655</td>
+                        <td rowspan="1" colspan="1">.21</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Wednesday</td>
+                        <td rowspan="1" colspan="1">–0.0037</td>
+                        <td rowspan="1" colspan="1">–0.1895</td>
+                        <td rowspan="1" colspan="1">.85</td>
+                        <td colspan="2" rowspan="1">0.0343</td>
+                        <td rowspan="1" colspan="1">0.3672</td>
+                        <td rowspan="1" colspan="1">.71</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Model Diagnostics</title>
+                <p>The omnibus <italic>F</italic> tests were significant for both census (<italic>P</italic>&lt;.001) and incidence <italic>P</italic>&lt;.001) components.</p>
+                <p>The Portmanteau test did not show sufficient evidence that the errors were autocorrelated (<italic>P</italic>=.19). From the residual autocorrelation function and cross-correlation function plots, the correlations were within the 95% confidence band (<xref rid="figure3" ref-type="fig">Figure 3</xref>). The Jarque-Bera normality tests failed to reject the normality null hypothesis for the census errors (<italic>P</italic>=.71) but did for incidence (<italic>P</italic>&lt;.001). Specifically, the incidence residuals were moderately left-skewed. The Jarque-Bera multivariate test also rejected the multivariate normality null hypothesis (<italic>P</italic>&lt;.001).</p>
+                <p>The Augmented Dickey-Fuller test for stationarity of the error correction term rejected the unit root null hypothesis at the 10% significance level but failed to reject the null hypothesis at the 5% significance level (based on tabulated critical values). The KPSS test failed to reject the stationarity null hypothesis (<italic>P</italic>=.10). Examination of the time plot of the predicted error correction term showed no obvious departure from stationarity.</p>
+                <p>The companion matrix of the VAR representation had a maximum eigenvalue modulus of 0.97, strictly less than 1. Although this value was close to 1, the trace plot showed that this value had been slowly declining and below 1 across time when the model was fitted repeatedly in a daily rolling basis from June 16 to November 28 (<xref rid="figure4" ref-type="fig">Figure 4</xref>).</p>
+                <fig id="figure4" position="float">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Trace plot of the maximum eigenvalue modulus for the period from June 16 to November 28, 2020.</p>
+                  </caption>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig4"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Forecast Performance</title>
+                <p>We obtained the approximate sampling distribution of the out-of-sample MAPE from the time-series cross-validation (<xref rid="figure5" ref-type="fig">Figure 5</xref>). The typical value (median) of MAPE was 5.9% and the 95th percentile of MAPE was 13.4%. For the sake of comparison, the corresponding values from an ARIMA model using the COVID-19 hospital census only were 6.6% and 14.3%. Additionally, after fitting the data from May 15 to December 5, we forecasted the census out to 7 days. Subsequently, the actual values were accurately forecasted with a MAPE of 1.9% and were all within the 80% bootstrapped forecast intervals (<xref rid="figure6" ref-type="fig">Figure 6</xref>).</p>
+                <fig id="figure5" position="float">
+                  <label>Figure 5</label>
+                  <caption>
+                    <p>Distribution of the 7-days-ahead mean absolute percentage error from the time-series cross-validation for the period from June 16 to November 28, 2020. Median (blue) and 95th percentile (red) are shown.</p>
+                  </caption>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig5"/>
+                </fig>
+                <fig id="figure6" position="float">
+                  <label>Figure 6</label>
+                  <caption>
+                    <p>One-step-ahead in-sample and 7-days-ahead out-of-sample predictions for COVID-19 hospital census in the Cities Readiness Initiative region. True values (black), in-sample and out-of-sample predictions (red line), 95% prediction intervals (blue band), 80% forecast intervals (red band) are shown. The model is fitted on data from May 15 to December 5, 2020.</p>
+                  </caption>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig6"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Scenario-Based Long-Term Forecasting</title>
+                <p>In all scenarios, due to cointegration, census followed corresponding concave trajectories with peaks occurring approximately 2 to 3 weeks later than incidence depending on the scenario. In the worst-case scenario, census was projected to peak on February 16, 2021 (11 days later than incidence), with approximately 850 patients at the 80% forecast interval upper bound (<xref rid="figure7" ref-type="fig">Figure 7</xref>).</p>
+                <fig id="figure7" position="float">
+                  <label>Figure 7</label>
+                  <caption>
+                    <p>Worst-case-scenario, 60-day forecasts for COVID-19 hospital census in the Cities Readiness Initiative region, as of January 9, 2021. Past values (black), forecasts (red line), and 80% forecast intervals (red band) are shown.</p>
+                  </caption>
+                  <graphic xlink:href="publichealth_v7i8e28195_fig7"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Results</title>
+                <p>Our VECM provides a very good fit to the data and outperforms models with no or other leading indicators. Significant omnibus <italic>F</italic> tests showed that the model fit was better than that of a reduced VECM representation with no predictors (ie, a bivariate random walk model). When we examined model diagnostics, there was no sign of any serious departure from model assumptions. From the Portmanteau test, the errors were not different from white noise (ie, the errors do not exhibit serial correlation). Although the normality assumption (for incidence) was not met, the asymptotic properties of our estimation and hypothesis tests in the VECM would not be affected [<xref rid="ref33" ref-type="bibr">33</xref>]. To address the possible effect of this violation on the forecast intervals, we implemented a bootstrap procedure for the forecast intervals. Both the ADF test and KPSS test showed reasonable evidence that the long-run relationship was stable. With the maximum eigenvalue modulus of the VAR representation consistently below 1 across time, the model itself was quite stable. Examining the day-of-the-week effects, we observed a higher increase in census at the beginning of the week. This agrees with our observations of hospital operations and suggests higher resource allocation when starting the week, as is also reflected in the forecasts (<xref rid="figure7" ref-type="fig">Figure 7</xref>). In terms of forecast performance, the VECM yielded a smaller MAPE, in terms of the median and the 95th percentile, when compared to an ARIMA model using the COVID-19 hospital census only. Our VECM also performed better than another VECM that uses two internet-based leading indicators (median MAPE of 10.5%), albeit on time domains that were partially overlapping [<xref rid="ref13" ref-type="bibr">13</xref>].</p>
+                <p>The long-run relationship plays a crucial role in the model. Our model results show how future census responds to perturbations in the long-run cointegration relationship in the direction that would preserve the stability of the relationship. For instance, if incidence increases significantly and drives the error correction term below 0, the next-day census will tend to increase so that the error correction term will move back toward 0. Compared to short-run relationships between census change and past changes in incidence and census, the long-run relationship effect is also strongly significant and is a major driver in the model.</p>
+                <p>We observed that local infection incidence led the hospital census by about 2 weeks. The cross-correlations between incidence and census were uniformly high, between 0.7 and 0.8 at different lags, but the highest correlation was at lag 14. Clinically, we know that after someone is diagnosed with SARS-CoV-2, it can take several days before they become sick enough to be hospitalized. During the summer 2020 wave of the pandemic, incidence peaked 18 days earlier, on July 10, than when census peaked, on July 28. In the model, we also saw that past incidence changes at multiple lags have statistically significant effects on census. While previous studies have focused on other types of leading indicators [<xref rid="ref12" ref-type="bibr">12</xref>,<xref rid="ref13" ref-type="bibr">13</xref>], our model results and our observations demonstrate that local infection incidence can be a very effective leading indicator for COVID-19 hospital census.</p>
+                <p>Applying the model to scenario-based forecasting in a health care system is an important method for long-term forecasting when approaching an infection prevalence peak and helps determine the potential for resource capacity to be exceeded under a worst-case scenario. There are several advantages to our approach. With a scenario-based and epidemiologically informed approach, the VECM produces realistic, nonlinear, long-range trajectories of census. In contrast, an ARIMA model can have an upward linear trajectory even as we approach and arrive at the infection prevalence peak because it is agnostic to incidence. Hence, the VECM fit with scenario-based incidence will provide better accuracy since it is more reflective of pandemic behavior. Additionally, when the concern is a specific scenario, our approach is particularly useful at minimizing long-range forecast uncertainty, since the bootstrapped sample paths are constrained to fluctuate around the marginalized scenario-based census projection. Without such a constraint, 60-day forecasts can typically have wide forecast intervals that are of no practical utility.</p>
+                <p>Our study has mathematically ascertained the stable long-run relationship, that is, cointegration, between the COVID-19 hospital census and the local infection incidence, and we have developed a statistical incidence-based model to forecast the COVID-19 hospital census. In comparison, prior COVID-19 hospital capacity planning models that make use of infection incidence data rely on simplified assumptions about the incidence-census relationship. For example, in the COVID-19 Hospital Impact Model for Epidemics (CHIME) at the University of Pennsylvania [<xref rid="ref34" ref-type="bibr">34</xref>], the ratio between hospital admissions and infection incidence is a scenario parameter defined by the user and is not time varying.</p>
+              </sec>
+              <sec>
+                <title>Limitations</title>
+                <p>Although our model has been thoroughly developed, it is not free of limitations. First, it is possible that we may lose the stable long-run relationship at some point in the future, either because it has run its course or due to structural changes in the time series. For instance, in the latter case, inadequate community-based testing might suddenly underestimate the actual local infection incidence, and there may be a level shift in the relationship that would have to be accounted for by a modified VECM [<xref rid="ref35" ref-type="bibr">35</xref>,<xref rid="ref36" ref-type="bibr">36</xref>]. In other cases, more complex structural changes may arise and be challenging to model. Second, in the future, other regions may find that the ratio between asymptomatic and symptomatic cases fluctuates considerably over time. Because case severity affects the time to hospitalization, this situation may require model revision. A potential remedy is to include both the number of asymptomatic and symptomatic cases as two leading indicators with census in a VECM in the hopes that some cointegration exists among the three variables. Third, it is relatively more difficult to fit a VECM. For univariate models such as ARIMA and exponential smoothing, well-developed R packages exist for automated model specification and estimation. With the VECM, more deliberate modeling decisions and careful checking of assumptions need to be made to fit a reliable model. Finally, the inclusion of seasonal effects in our model requires that the seasonality is deterministic. However, another health care system may find that their time-series data have stochastic seasonality or multiple deterministic seasonality. If seasonality is not important, we potentially may resolve this by simply deseasonalizing the series. Otherwise, it may be possible to account for this with more advanced parameterization of the seasonal effects.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>The construct presented here provides a framework in the context of a health care system for incorporating other leading indicators that may yield further increases in forecasting performance. For instance, the VECM that uses internet-based leading indicators [<xref rid="ref13" ref-type="bibr">13</xref>] could potentially be improved by including incidence. It is also possible to incorporate other nested hospital-related time series, such as the number of intensive care units and the number of ventilators, into the VECM if there was a need to simultaneously forecast other resources. Additionally, a VECM could be a valuable candidate for a model-averaged ensemble. This can be particularly useful if the ensemble consists only of agnostic univariate time-series models.</p>
+                <p>We have shown that infection incidence can be successfully tethered with hospital census in a multivariate time-series model to achieve accurate forecasting of COVID-19 hospital census. When coupled with scenario-based forecasting, the model helped our leaders evaluate resource capacity against different possible peak resource demands. In hindsight, our analyses correctly assured our leaders of our capability to handle a worst-case scenario, alleviated uncertainty, and effectively guided long-term planning of adequate staffing, bed capacity, and equipment supplies through the pandemic.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn fn-type="con">
+                <p>Authors' Contributions: HMN prepared the original draft. HMN and PJT were involved in study conceptualization, statistical analysis, and review and editing of the manuscript. ADM supervised the study and contributed to the review and editing of the manuscript.</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: ADM is an administrative member of iEnroll LLC.</p>
+              </fn>
+            </fn-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">ADF</term>
+                  <def>
+                    <p>augmented Dickey-Fuller</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">AIC</term>
+                  <def>
+                    <p>Akaike information criterion</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">ARIMA</term>
+                  <def>
+                    <p>autoregressive integrated moving average</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">CRI</term>
+                  <def>
+                    <p>Cities Readiness Initiative</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">HIPAA</term>
+                  <def>
+                    <p>Health Insurance Portability and Accountability Act</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">IRB</term>
+                  <def>
+                    <p>Institutional Review Board</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">KPSS</term>
+                  <def>
+                    <p>Kwiatkowski-Phillips-Schmidt-Shin</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">MAPE</term>
+                  <def>
+                    <p>mean absolute percentage error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">SARIMA</term>
+                  <def>
+                    <p>seasonal autoregressive integrated moving average</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">SARS</term>
+                  <def>
+                    <p>severe acute respiratory syndrome</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb11">STL</term>
+                  <def>
+                    <p>seasonal and trend decomposition using Loess</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb12">VAR</term>
+                  <def>
+                    <p>vector autoregressive</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb13">VECM</term>
+                  <def>
+                    <p>vector error correction model</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>ZJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Shan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>2019 Novel coronavirus: where we are and what we know</article-title>
+                  <source>Infection</source>
+                  <year>2020</year>
+                  <month>4</month>
+                  <volume>48</volume>
+                  <issue>2</issue>
+                  <fpage>155</fpage>
+                  <lpage>163</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/32072569"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1007/s15010-020-01401-y</pub-id>
+                  <pub-id pub-id-type="medline">32072569</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1007/s15010-020-01401-y</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7095345</pub-id>-->
+                  <pub-id pub-id-type="pmid">32072569</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singhal</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Review of Coronavirus Disease-2019 (COVID-19)</article-title>
+                  <source>Indian J Pediatr</source>
+                  <year>2020</year>
+                  <month>4</month>
+                  <day>13</day>
+                  <volume>87</volume>
+                  <issue>4</issue>
+                  <fpage>281</fpage>
+                  <lpage>286</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/32166607"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1007/s12098-020-03263-6</pub-id>
+                  <pub-id pub-id-type="medline">32166607</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1007/s12098-020-03263-6</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7090728</pub-id>-->
+                  <pub-id pub-id-type="pmid">32166607</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="webpage">
+                  <article-title>WHO Director-General's statement on IHR Emergency Committee on Novel Coronavirus (2019-nCoV)</article-title>
+                  <source>World Health Organization</source>
+                  <year>2020</year>
+                  <month>1</month>
+                  <day>30</day>
+                  <date-in-citation>2020-12-29</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.who.int/director-general/speeches/detail/who-director-general-s-statement-on-ihr-emergency-committee-on-novel-coronavirus-(2019-ncov)">https://www.who.int/director-general/speeches/detail/who-director-general-s-statement-on-ihr-emergency-committee-on-novel-coronavirus-(2019-ncov)</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Covid-19 Map</article-title>
+                  <source>Johns Hopkins Coronavirus Resource Center</source>
+                  <date-in-citation>2020-12-29</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://coronavirus.jhu.edu/map.html">https://coronavirus.jhu.edu/map.html</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>The Lancet</collab>
+                  </person-group>
+                  <article-title>India's COVID-19 emergency</article-title>
+                  <source>The Lancet</source>
+                  <year>2021</year>
+                  <month>5</month>
+                  <volume>397</volume>
+                  <issue>10286</issue>
+                  <fpage>1683</fpage>
+                  <pub-id pub-id-type="doi">10.1016/s0140-6736(21)01052-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Earnest</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>MI</given-names>
+                    </name>
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Sin</surname>
+                      <given-names>LY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using autoregressive integrated moving average (ARIMA) models to predict and monitor the number of beds occupied during a SARS outbreak in a tertiary hospital in Singapore</article-title>
+                  <source>BMC Health Serv Res</source>
+                  <year>2005</year>
+                  <month>5</month>
+                  <day>11</day>
+                  <volume>5</volume>
+                  <issue>1</issue>
+                  <fpage>36</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-5-36"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/1472-6963-5-36</pub-id>
+                  <pub-id pub-id-type="medline">15885149</pub-id>
+                  <!--<pub-id pub-id-type="pii">1472-6963-5-36</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC1274243</pub-id>-->
+                  <pub-id pub-id-type="pmid">15885149</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Welch</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Haug</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Snow</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting daily patient volumes in the emergency department</article-title>
+                  <source>Acad Emerg Med</source>
+                  <year>2008</year>
+                  <month>2</month>
+                  <volume>15</volume>
+                  <issue>2</issue>
+                  <fpage>159</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1553-2712.2007.00032.x</pub-id>
+                  <pub-id pub-id-type="doi">10.1111/j.1553-2712.2007.00032.x</pub-id>
+                  <pub-id pub-id-type="medline">18275446</pub-id>
+                  <!--<pub-id pub-id-type="pii">ACEM032</pub-id>-->
+                  <pub-id pub-id-type="pmid">18275446</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Capan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoover</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Paul</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Locke</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time Series Analysis for Forecasting Hospital Census: Application to the Neonatal Intensive Care Unit</article-title>
+                  <source>Appl Clin Inform</source>
+                  <year>2017</year>
+                  <month>12</month>
+                  <day>16</day>
+                  <volume>07</volume>
+                  <issue>02</issue>
+                  <fpage>275</fpage>
+                  <lpage>289</lpage>
+                  <pub-id pub-id-type="doi">10.4338/aci-2015-09-ra-0127</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time series model for forecasting the number of new admission inpatients</article-title>
+                  <source>BMC Med Inform Decis Mak</source>
+                  <year>2018</year>
+                  <month>6</month>
+                  <day>15</day>
+                  <volume>18</volume>
+                  <issue>1</issue>
+                  <fpage>39</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-018-0616-8"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/s12911-018-0616-8</pub-id>
+                  <pub-id pub-id-type="medline">29907102</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1186/s12911-018-0616-8</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6003180</pub-id>-->
+                  <pub-id pub-id-type="pmid">29907102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koestler</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ombao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Bender</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ensemble-based methods for forecasting census in hospital units</article-title>
+                  <source>BMC Med Res Methodol</source>
+                  <year>2013</year>
+                  <month>5</month>
+                  <day>30</day>
+                  <volume>13</volume>
+                  <issue>1</issue>
+                  <fpage>67</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-13-67"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/1471-2288-13-67</pub-id>
+                  <pub-id pub-id-type="medline">23721123</pub-id>
+                  <!--<pub-id pub-id-type="pii">1471-2288-13-67</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3680345</pub-id>-->
+                  <pub-id pub-id-type="pmid">23721123</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Haug</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Welch</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Snow</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A multivariate time series approach to modeling and forecasting demand in the emergency department</article-title>
+                  <source>J Biomed Inform</source>
+                  <year>2009</year>
+                  <month>2</month>
+                  <volume>42</volume>
+                  <issue>1</issue>
+                  <fpage>123</fpage>
+                  <lpage>39</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S1532-0464(08)00063-4"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.jbi.2008.05.003</pub-id>
+                  <pub-id pub-id-type="medline">18571990</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1532-0464(08)00063-4</pub-id>-->
+                  <pub-id pub-id-type="pmid">18571990</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berta</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Paruolo</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Verzillo</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Lovaglio</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A bivariate prediction approach for adapting the health care system response to the spread of COVID-19</article-title>
+                  <source>PLoS One</source>
+                  <year>2020</year>
+                  <month>10</month>
+                  <day>15</day>
+                  <volume>15</volume>
+                  <issue>10</issue>
+                  <fpage>e0240150</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://dx.plos.org/10.1371/journal.pone.0240150"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0240150</pub-id>
+                  <pub-id pub-id-type="medline">33057389</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-20-11870</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7561128</pub-id>-->
+                  <pub-id pub-id-type="pmid">33057389</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Turk</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Tran</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Rose</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>McWilliams</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Predictive Internet-Based Model for COVID-19 Hospitalization Census</article-title>
+                  <source>medRxiv.</source>
+                  <comment>Preprint posted online November 18, 2020.
+<ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.11.15.20231845v1"/></comment>
+                  <pub-id pub-id-type="doi">10.1101/2020.11.15.20231845</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lynch</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Gore</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short-Range Forecasting of COVID-19 During Early Onset at County, Health District, and State Geographic Levels Using Seven Methods: Comparative Forecasting Study</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2021</year>
+                  <month>3</month>
+                  <day>23</day>
+                  <volume>23</volume>
+                  <issue>3</issue>
+                  <fpage>e24925</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.jmir.org/2021/3/e24925/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/24925</pub-id>
+                  <pub-id pub-id-type="medline">33621186</pub-id>
+                  <!--<pub-id pub-id-type="pii">v23i3e24925</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7990039</pub-id>-->
+                  <pub-id pub-id-type="pmid">33621186</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <name>
+                      <surname>Rani</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhagavathula</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Sah</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez-Morales</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalita</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Nanda</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>YD</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabaan</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Rahmani</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction of the COVID-19 Pandemic for the Top 15 Affected Countries: Advanced Autoregressive Integrated Moving Average (ARIMA) Model</article-title>
+                  <source>JMIR Public Health Surveill</source>
+                  <year>2020</year>
+                  <month>5</month>
+                  <day>13</day>
+                  <volume>6</volume>
+                  <issue>2</issue>
+                  <fpage>e19115</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://publichealth.jmir.org/2020/2/e19115/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/19115</pub-id>
+                  <pub-id pub-id-type="medline">32391801</pub-id>
+                  <!--<pub-id pub-id-type="pii">v6i2e19115</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7223426</pub-id>-->
+                  <pub-id pub-id-type="pmid">32391801</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Olatosi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Weissman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatial-Temporal Relationship Between Population Mobility and COVID-19 Outbreaks in South Carolina: Time Series Forecasting Analysis</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2021</year>
+                  <month>4</month>
+                  <day>13</day>
+                  <volume>23</volume>
+                  <issue>4</issue>
+                  <fpage>e27045</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.jmir.org/2021/4/e27045/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/27045</pub-id>
+                  <pub-id pub-id-type="medline">33784239</pub-id>
+                  <!--<pub-id pub-id-type="pii">v23i4e27045</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC8045774</pub-id>-->
+                  <pub-id pub-id-type="pmid">33784239</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yeung</surname>
+                      <given-names>AY</given-names>
+                    </name>
+                    <name>
+                      <surname>Roewer-Despres</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosella</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Rudzicz</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine Learning-Based Prediction of Growth in Confirmed COVID-19 Infection Cases in 114 Countries Using Metrics of Nonpharmaceutical Interventions and Cultural Dimensions: Model Development and Validation</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2021</year>
+                  <month>4</month>
+                  <day>23</day>
+                  <volume>23</volume>
+                  <issue>4</issue>
+                  <fpage>e26628</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.jmir.org/2021/4/e26628/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/26628</pub-id>
+                  <pub-id pub-id-type="medline">33844636</pub-id>
+                  <!--<pub-id pub-id-type="pii">v23i4e26628</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC8074952</pub-id>-->
+                  <pub-id pub-id-type="pmid">33844636</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Julaiti</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Griffin</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumara</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Early Stage Machine Learning-Based Prediction of US County Vulnerability to the COVID-19 Pandemic: Machine Learning Approach</article-title>
+                  <source>JMIR Public Health Surveill</source>
+                  <year>2020</year>
+                  <month>9</month>
+                  <day>11</day>
+                  <volume>6</volume>
+                  <issue>3</issue>
+                  <fpage>e19446</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://publichealth.jmir.org/2020/3/e19446/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/19446</pub-id>
+                  <pub-id pub-id-type="medline">32784193</pub-id>
+                  <!--<pub-id pub-id-type="pii">v6i3e19446</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7490002</pub-id>-->
+                  <pub-id pub-id-type="pmid">32784193</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cleveland</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Cleveland</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>McRae</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Terpenning</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>STL: A Seasonal-Trend Decomposition Procedure Based on Loess</article-title>
+                  <source>Journal of Official Statistics</source>
+                  <year>1990</year>
+                  <volume>6</volume>
+                  <fpage>3</fpage>
+                  <lpage>73</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.proquest.com/openview/cc5001e8a0978a6c029ae9a41af00f21/1?pq-origsite=gscholar%26cbl=105444#:~:text=STL%3A%20A%20Seasonal%2DTrend%20Decomposition%20Procedure%20Based%20on%20Loess,-Abstract&amp;text=STL%20is%20a%20filtering%20procedure,%2C%20seasonal%2C%20and%20remainder%20components"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pfaff</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <source>Analysis of Integrated and Cointegrated Time Series With R, 2nd Ed</source>
+                  <year>2008</year>
+                  <publisher-loc>New York, NY</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Akaike</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new look at the statistical model identification</article-title>
+                  <source>IEEE Trans Automat Contr</source>
+                  <year>1974</year>
+                  <month>12</month>
+                  <volume>19</volume>
+                  <issue>6</issue>
+                  <fpage>716</fpage>
+                  <lpage>723</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TAC.1974.1100705</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johansen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation and Hypothesis Testing of Cointegration Vectors in Gaussian Vector Autoregressive Models</article-title>
+                  <source>Econometrica</source>
+                  <year>1991</year>
+                  <month>11</month>
+                  <volume>59</volume>
+                  <issue>6</issue>
+                  <fpage>1551</fpage>
+                  <pub-id pub-id-type="doi">10.2307/2938278</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johansen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <source>Likelihood-Based Inference in Cointegrated Vector Autoregressive Models</source>
+                  <year>1995</year>
+                  <publisher-loc>Oxford; New York</publisher-loc>
+                  <publisher-name>Oxford University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johansen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Juselius</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Maximum Likelihood Estimation and Inference on Cointegration - With Applications to the Demand for Money</article-title>
+                  <source>Oxford Bulletin of Economics and Statistics</source>
+                  <year>2009</year>
+                  <volume>52</volume>
+                  <fpage>169</fpage>
+                  <lpage>210</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1468-0084.1990.mp52002003.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hyndman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Athanasopoulos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <source>Forecasting: Principles and Practice, 3rd Edition</source>
+                  <year>2021</year>
+                  <date-in-citation>2021-07-27</date-in-citation>
+                  <publisher-loc>Melbourne, Australia</publisher-loc>
+                  <publisher-name>OTexts</publisher-name>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://otexts.com/fpp3/">https://otexts.com/fpp3/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Incidence-Census-Model</article-title>
+                  <source>GitHub</source>
+                  <date-in-citation>2021-07-28</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/hmnguye/Incidence-Census-Model">https://github.com/hmnguye/Incidence-Census-Model</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jarque</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bera</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Test for Normality of Observations and Regression Residuals</article-title>
+                  <source>International Statistical Review / Revue Internationale de Statistique</source>
+                  <year>1987</year>
+                  <month>8</month>
+                  <volume>55</volume>
+                  <issue>2</issue>
+                  <fpage>163</fpage>
+                  <pub-id pub-id-type="doi">10.2307/1403192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Said</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Dickey</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Testing for unit roots in autoregressive-moving average models of unknown order</article-title>
+                  <source>Biometrika</source>
+                  <year>1984</year>
+                  <volume>71</volume>
+                  <issue>3</issue>
+                  <fpage>599</fpage>
+                  <lpage>607</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biomet/71.3.599</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kwiatkowski</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Phillips</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidt</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Testing the null hypothesis of stationarity against the alternative of a unit root</article-title>
+                  <source>Journal of Econometrics</source>
+                  <year>1992</year>
+                  <month>10</month>
+                  <volume>54</volume>
+                  <issue>1-3</issue>
+                  <fpage>159</fpage>
+                  <lpage>178</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0304-4076(92)90104-y</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Time Series Analysis</source>
+                  <year>1994</year>
+                  <publisher-loc>Princeton, NJ</publisher-loc>
+                  <publisher-name>Princeton University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An epidemiological forecast model and software assessing interventions on COVID-19 epidemic in China</article-title>
+                  <source>Journal of Data Science</source>
+                  <year>2020</year>
+                  <volume>18</volume>
+                  <issue>3</issue>
+                  <fpage>409</fpage>
+                  <lpage>432</lpage>
+                  <pub-id pub-id-type="doi">10.6339/jds.202007_18(3).0003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>ES</given-names>
+                    </name>
+                    <name>
+                      <surname>Mckenzie</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting Trends in Time Series</article-title>
+                  <source>Management Science</source>
+                  <year>1985</year>
+                  <month>10</month>
+                  <volume>31</volume>
+                  <issue>10</issue>
+                  <fpage>1237</fpage>
+                  <lpage>1246</lpage>
+                  <pub-id pub-id-type="doi">10.1287/mnsc.31.10.1237</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johansen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Mikosch</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Kreiß</surname>
+                      <given-names>J-P</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersen</surname>
+                      <given-names>TG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cointegration: Overview and Development</article-title>
+                  <source>Handbook of Financial Time Series</source>
+                  <year>2009</year>
+                  <publisher-loc>Berlin, Heidelberg</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                  <fpage>671</fpage>
+                  <lpage>93</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weissman</surname>
+                      <given-names>GE</given-names>
+                    </name>
+                    <name>
+                      <surname>Crane-Droesch</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Chivers</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Luong</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hanish</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Levy</surname>
+                      <given-names>MZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lubken</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Becker</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Draugelis</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Anesi</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Brennan</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Christie</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Hanson</surname>
+                      <given-names>Cw</given-names>
+                    </name>
+                    <name>
+                      <surname>Mikkelsen</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Halpern</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Locally Informed Simulation to Predict Hospital Capacity Needs During the COVID-19 Pandemic</article-title>
+                  <source>Annals of Internal Medicine</source>
+                  <year>2020</year>
+                  <month>7</month>
+                  <day>07</day>
+                  <volume>173</volume>
+                  <issue>1</issue>
+                  <fpage>21</fpage>
+                  <lpage>28</lpage>
+                  <pub-id pub-id-type="doi">10.7326/m20-1260</pub-id>
+                  <pub-id pub-id-type="pmid">32259197</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saikkonen</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lütkepohl</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Lutkepohl</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Testing for the Cointegrating Rank of a VAR Process with Structural Shifts</article-title>
+                  <source>Journal of Business &amp; Economic Statistics</source>
+                  <year>2000</year>
+                  <month>10</month>
+                  <volume>18</volume>
+                  <issue>4</issue>
+                  <fpage>451</fpage>
+                  <pub-id pub-id-type="doi">10.2307/1392226</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lutkepohl</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Saikkonen</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Trenkler</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Testing for the Cointegrating Rank of a VAR Process with Level Shift at Unknown Time</article-title>
+                  <source>Econometrica</source>
+                  <year>2004</year>
+                  <month>3</month>
+                  <volume>72</volume>
+                  <issue>2</issue>
+                  <fpage>647</fpage>
+                  <lpage>662</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1468-0262.2004.00505.x</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

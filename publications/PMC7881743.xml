@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:56:42Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7881743" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7881743</identifier>
+        <datestamp>2021-02-16</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Math Comput Simul</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Math Comput Simul</journal-id>
+              <journal-title-group>
+                <journal-title>Mathematics and Computers in Simulation</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0378-4754</issn>
+              <issn pub-type="epub">0378-4754</issn>
+              <publisher>
+                <publisher-name>International Association for Mathematics and Computers in Simulation (IMACS). Published by Elsevier B.V.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7881743</article-id>
+              <article-id pub-id-type="pmcid">PMC7881743</article-id>
+              <article-id pub-id-type="pmc-uid">7881743</article-id>
+              <article-id pub-id-type="pmid">33612959</article-id>
+              <article-id pub-id-type="pii">S0378-4754(21)00039-2</article-id>
+              <article-id pub-id-type="doi">10.1016/j.matcom.2021.01.022</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Articles</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Using a genetic algorithm to fit parameters of a COVID-19 SEIR model for US states</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au000001">
+                  <name>
+                    <surname>Yarsky</surname>
+                    <given-names>P.</given-names>
+                  </name>
+                  <xref rid="fn1" ref-type="fn">1</xref>
+                </contrib>
+                <aff id="aff1">United States Nuclear Regulatory Commission, United States of America</aff>
+              </contrib-group>
+              <author-notes>
+                <fn id="fn1">
+                  <label>1</label>
+                  <p id="d1e276">The current work embodied in this paper was not conducted under the auspices of the NRC or the US Government, was not funded by the NRC or any other organization and was conducted on the author’s personal time. The views expressed herein are solely those of the author and do not necessarily represent the views of the NRC or the United States government.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>13</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>185</volume>
+              <fpage>687</fpage>
+              <lpage>695</lpage>
+              <history>
+                <date date-type="received">
+                  <day>2</day>
+                  <month>7</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>7</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>31</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 International Association for Mathematics and Computers in Simulation (IMACS). Published by Elsevier B.V. All rights reserved.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>International Association for Mathematics and Computers in Simulation (IMACS)</copyright-holder>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="d1e282">
+                <sec>
+                  <title>Background:</title>
+                  <p>A Susceptible–Exposed–Infected–Removed​ (SEIR) model was developed to forecast the spread of the novel coronavirus (SARS-CoV-2) in the United States and the implications of re-opening and hospital resource utilization. The model relies on the specification of various parameters that characterize the virus and the population being modeled. However, several of these parameters can be expected to vary significantly between states. Therefore, a genetic algorithm was developed that adjusts these population-dependent parameters to fit the SEIR model to data for any given state.</p>
+                </sec>
+                <sec>
+                  <title>Methods:</title>
+                  <p>Publicly available data was collected from each state in terms of the number of positive COVID-19 cases and the number of COVID-19-caused deaths and used as inputs into a SEIR model to predict the spread of COVID infections in a given population. A genetic algorithm was designed where the genes are the state-dependent parameters from the model. The algorithm operates by determining the fitness of a given set of genes, applying selection, using selected agents to reproduce with cross-over, applying random mutation, and simulating several generations.</p>
+                </sec>
+                <sec>
+                  <title>Findings and Conclusions:</title>
+                  <p>Use of the genetic algorithm produces exceptionally good agreement between the model and available data. Deviations in the parameters were examined to see if the trends were reasonable.</p>
+                </sec>
+              </abstract>
+              <kwd-group id="d1e314">
+                <title>Keywords</title>
+                <kwd>SARS-CoV-2</kwd>
+                <kwd>COVID-19</kwd>
+                <kwd>SEIR model</kwd>
+                <kwd>Genetic algorithm</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="d1e336">The COVID-19 pandemic in the US has been modeled for several states using a SEIR model adapted from Tang et al. <xref rid="b10" ref-type="bibr">[10]</xref>, <xref rid="b11" ref-type="bibr">[11]</xref> with modifications. The SEIR model is described in greater detail by Yarsky in another paper <xref rid="b13" ref-type="bibr">[13]</xref> and in the interest of brevity the model is only summarized herein. In developing this model, there are several parameters that are state-dependent and will vary between states in the US. Reliable prediction of the course of the pandemic in any given state is predicated on determining reasonable values for the state-dependent parameters.</p>
+              <p id="d1e346">In the current work a genetic algorithm (see Mitchell et al. <xref rid="b7" ref-type="bibr">[7]</xref> and Qadrouh et al. <xref rid="b9" ref-type="bibr">[9]</xref>) is used to tune the state-dependent parameters such that the model produces good agreement with data for each state. The data in this case are the day-by-day tally of positive cases and the number of COVID-19 deaths, which are available from<ext-link ext-link-type="uri" xlink:href="http://www.covidtracking.com" id="interref1">www.covidtracking.com</ext-link> <xref rid="b12" ref-type="bibr">[12]</xref>. An area of future work will be to study these parameter values in the light of other available data to determine if the suggested parameter values are reasonable and might be useful in forecasting.</p>
+            </sec>
+            <sec id="sec2">
+              <label>2</label>
+              <title>Methods</title>
+              <p id="d1e370">The pandemic is modeled with a Susceptible–Exposed–Infected–Removed​ (SEIR) model. The basic elements are shown in Eqs. <xref rid="fd1" ref-type="disp-formula">(1)</xref>–<xref rid="fd5" ref-type="disp-formula">(5)</xref>. The model tracks the evolution of different subpopulations, here S, E, I and R refer to the standard subpopulations and another population (A) is added to track asymptomatic individuals. In addition, a testing rate (shown in Eq. <xref rid="fd6" ref-type="disp-formula">(6)</xref>) is modeled and the total number of positive cases is tracked according to Eq. <xref rid="fd7" ref-type="disp-formula">(7)</xref>. A novel element of the current work is to use the SEIR results to predict the rate at which diagnostic tests are performed and yield positive results (T’) and this testing rate is then used to compute a number of cases (C) for comparison to tabulated data on the number of cases in each state. <disp-formula-group id="d1e404"><disp-formula id="fd1"><label>(1)</label><mml:math id="d1e408" display="block" altimg="si1.svg"><mml:mrow><mml:msup id="mmlalignd1e417"><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>β</mml:mi><mml:mi>c</mml:mi><mml:mi>S</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>ζ</mml:mi><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>I</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula><disp-formula id="fd2"><label>(2)</label><mml:math id="d1e445" display="block" altimg="si2.svg"><mml:mrow><mml:msup id="mmlalignd1e454"><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>β</mml:mi><mml:mi>c</mml:mi><mml:mi>S</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>ζ</mml:mi><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>I</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>σ</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="fd3"><label>(3)</label><mml:math id="d1e486" display="block" altimg="si3.svg"><mml:mrow><mml:msup id="mmlalignd1e495"><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>σ</mml:mi><mml:mi>ρ</mml:mi><mml:mi>E</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>α</mml:mi><mml:mi>I</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>γ</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="fd4"><label>(4)</label><mml:math id="d1e520" display="block" altimg="si4.svg"><mml:mrow><mml:msup id="mmlalignd1e529"><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>ρ</mml:mi></mml:mrow></mml:mfenced><mml:mi>E</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>γ</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="fd5"><label>(5)</label><mml:math id="d1e553" display="block" altimg="si5.svg"><mml:mrow><mml:msup id="mmlalignd1e562"><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>α</mml:mi><mml:mo>+</mml:mo><mml:mi>γ</mml:mi></mml:mrow></mml:mfenced><mml:mi>I</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>γ</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="fd6"><label>(6)</label><mml:math id="d1e584" display="block" altimg="si6.svg"><mml:mrow><mml:msup id="mmlalignd1e594"><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>χ</mml:mi><mml:mi>σ</mml:mi><mml:mi>ρ</mml:mi><mml:mi>E</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mi>ψ</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula><disp-formula id="fd7"><label>(7)</label><mml:math id="d1e615" display="block" altimg="si7.svg"><mml:mrow><mml:mi id="mmlalignd1e625">C</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>ε</mml:mi></mml:mrow></mml:mfenced><mml:mi>T</mml:mi></mml:mrow></mml:math></disp-formula></disp-formula-group> The model includes many parameters, some of which are virus-dependent (i.e., <inline-formula><mml:math id="d1e634" display="inline" altimg="si8.svg"><mml:mi>ζ</mml:mi></mml:math></inline-formula>: pre-symptomatic transmission effectiveness 5%, <inline-formula><mml:math id="d1e639" display="inline" altimg="si9.svg"><mml:mi>σ</mml:mi></mml:math></inline-formula>: infection rate 0.2 days<sup>−1</sup>, <inline-formula><mml:math id="d1e648" display="inline" altimg="si10.svg"><mml:mi>ρ</mml:mi></mml:math></inline-formula>: probability of developing symptoms 75%, <inline-formula><mml:math id="d1e653" display="inline" altimg="si26.svg"><mml:mi>α</mml:mi></mml:math></inline-formula>: death rate 6.9 × 10<sup>−4</sup> days<sup>−1</sup>, <inline-formula><mml:math id="d1e664" display="inline" altimg="si12.svg"><mml:mi>γ</mml:mi></mml:math></inline-formula>: recovery rate 0.14 days<sup>−1</sup>, <inline-formula><mml:math id="d1e673" display="inline" altimg="si28.svg"><mml:mi>ψ</mml:mi></mml:math></inline-formula>: time between diagnostic test and result 3 days, and <inline-formula><mml:math id="d1e678" display="inline" altimg="si14.svg"><mml:mi>ε</mml:mi></mml:math></inline-formula>: diagnostic test false negative rate 5%). These parameter values were selected based on the available literature <xref rid="b13" ref-type="bibr">[13]</xref> and for additional detailed discussion the reader is referred to Yarsky <xref rid="b13" ref-type="bibr">[13]</xref>. However, some parameters will vary from state-to-state, most importantly the contact rate (c) but also, to a lesser extent, the transmission probability (<inline-formula><mml:math id="d1e693" display="inline" altimg="si23.svg"><mml:mi>β</mml:mi></mml:math></inline-formula>), death rate (<inline-formula><mml:math id="d1e699" display="inline" altimg="si26.svg"><mml:mi>α</mml:mi></mml:math></inline-formula>), the diagnostic test eligibility (<inline-formula><mml:math id="d1e706" display="inline" altimg="si27.svg"><mml:mi>χ</mml:mi></mml:math></inline-formula>) and the test result period (<inline-formula><mml:math id="d1e712" display="inline" altimg="si28.svg"><mml:mi>ψ</mml:mi></mml:math></inline-formula>).</p>
+              <p id="d1e716">Mitigation measures can be simulated in the SEIR model. Social distancing orders have the effect of reducing the contact rate (c). Mask wearing guidelines have the effect of reducing the transmission probability (<inline-formula><mml:math id="d1e720" display="inline" altimg="si23.svg"><mml:mi>β</mml:mi></mml:math></inline-formula>). However, in addition to these effects from mitigation measures, there are differences in these parameters from state to state due to factors such as population density.</p>
+              <p id="d1e724">The contact rate will depend on the relative proportion of urban areas (where the routine contact rate is high) to rural areas in addition to impact of the social distancing measures in that state. The transmission probability may be sensitive to the weather <xref rid="b2" ref-type="bibr">[2]</xref>, <xref rid="b6" ref-type="bibr">[6]</xref>. Furthermore, the death rate will be sensitivity to the number of people in the population with preexisting conditions that can increase the likelihood of a COVID-19 fatal outcome (e.g., diabetes) <xref rid="b8" ref-type="bibr">[8]</xref>. Finally, a state may have more easily assessable diagnostic testing and available lab capacity to process more tests compared to others. Therefore, the test eligibility and test result period may vary from state-to-state.</p>
+              <p id="d1e734">For a genetic algorithm to operate, several elements must be in place. For this discussion, the SEIR models a given state and predicts the cases (C) and deaths (D). It should be noted that the value of C gives the cumulative number of positive diagnostic test results for comparison to the tabulated data. The objective of the algorithm is to tune certain state-dependent parameters to achieve better agreement between the model and data. Each set of parameters for the SEIR model and the results of the run for that set will be referred to as an agent. Each agent has its input set of state-dependent parameters, which is the genome for that agent. For the genetic algorithm to tune these parameters, the agents must be judged based on their “fitness”, which measures how well the agent matches the available data.</p>
+              <p id="d1e736">Based on the fitness, some agents will be selected to reproduce and spawn new agents for the next generation. The new agents will have genomes that are subject to cross-over and random mutation based on the parent agent’s genome.</p>
+              <p id="d1e738">Successive generations are simulated until an agent produces results within an acceptable fitness threshold, or the total number of maximum generations are simulated.</p>
+              <p id="d1e740">Genetic algorithms have been used in various ways to improve modeling related to the novel coronavirus <xref rid="b1" ref-type="bibr">[1]</xref>, <xref rid="b4" ref-type="bibr">[4]</xref>. The work of Ghosh et al. <xref rid="b4" ref-type="bibr">[4]</xref> is similar but that work appears to focus on case data as opposed to casualty data whereas the current work utilizes both case and casualty data in a novel fitness function. Carcione et al. <xref rid="b3" ref-type="bibr">[3]</xref> explain why SEIR model tuning should be performed using the casualty data because there are issues with using case and hospitalization data, and while Carcione was focused on modeling the pandemic in Italy, the observations are also applicable to the current work. The current work attempts to address some of the issues with using case data by including a case number equation and to improve the accuracy by utilizing the casualty data.</p>
+              <sec id="sec2.1">
+                <label>2.1</label>
+                <title>Genome</title>
+                <p id="d1e767">The genome is comprised by a list of the state-dependent parameters: normal contact rate, socially distant contact rate, transmission probability, death rate, test eligibility, mask wearing transmission reduction factor, and test period. Most of these are discussed in the introduction. The socially distant contact rate is the contact rate once a state has fully implemented all the available social distancing measures (e.g., school closures, business closures, stay-at-home order, etc.). The mask wearing transmission reduction factor characterizes the reduction in the transmission probability due to a significant portion of the population wearing face coverings in response to mask-wearing guidelines. It will vary from state-to-state depending on the proportion of people within that state that comply with the guidelines. Each parameter in the genome has an associated value which will be referred to as the gene. The value stored in the genome is the same value as used in the model. When a new genome is created from reproduction (i.e., a child’s genome), the child agent will run a SEIR model with parameters given by the genes in the child agent’s genome.</p>
+                <p id="d1e769">The genome includes the following genes in the following order: (1) normal contact rate, (2) socially distant contact rate (i.e., the contact rate when all social distancing measures are implemented), (3) the transmission probability, (4) the death rate, (5) test eligibility fraction, (6) the mask wearing transmission probability reduction factor, and (7) the test period.</p>
+              </sec>
+              <sec id="sec2.2">
+                <label>2.2</label>
+                <title>Fitness</title>
+                <p id="d1e776">The fitness in the current work is calculated by taking the SEIR results and comparing to the available data in terms of cases and deaths. The fitness is a figure of merit that judges how well the SEIR model fits the available data. Since there are two data sets (cases and deaths) it is not appropriate to just use the root-mean-square difference as this would not necessarily properly take into account the vast difference in the number of cases compared to the number of deaths. Additionally, there might be large discrepancies in the data early in the outbreak due to two potential sources of bias: (1) cases predicted by the model are expected to be low because the SEIR model predicts cases based on diagnostic testing; however early in the outbreak cases were identified based on hospital diagnosis due to the presence of COVID-19 symptoms, so called presumptive cases, and (2) before testing confirmed the prevalence of COVID-19 many deaths may have been mischaracterized as non-COVID-19 deaths, meaning that the model will likely over-predict deaths early in the outbreak. Given these sources of bias, the fitness figure of merit was designed to more heavily weight the more recent data compared to the data from early in the outbreak.</p>
+                <p id="d1e778">The fitness is calculated according to Eq. <xref rid="fd8" ref-type="disp-formula">(8)</xref>. In this equation C(t) and D(t) are the cases and deaths at a given time (t). The subscripts d and m denote the data and the model result, respectively. The term T refers to the final day for which data is available. <disp-formula id="fd8"><label>(8)</label><mml:math id="d1e792" display="block" altimg="si20.svg"><mml:mrow><mml:mi>f</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>T</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:msqrt><mml:mrow><mml:mfrac><mml:mrow><mml:munderover><mml:mrow><mml:mo linebreak="badbreak">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:munderover><mml:mi>l</mml:mi><mml:mi>n</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="badbreak">−</mml:mo><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:mfenced><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt><mml:mo linebreak="goodbreak">+</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>T</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:msqrt><mml:mrow><mml:mfrac><mml:mrow><mml:munderover><mml:mrow><mml:mo linebreak="badbreak">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:munderover><mml:mi>l</mml:mi><mml:mi>n</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="badbreak">−</mml:mo><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:mfenced><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt></mml:mrow></mml:math></disp-formula>The fitness function is similar to the root-mean-square (RMS) difference between the model and data in terms of cases and deaths. The differences are still squared, but are weighted with the ln(t), which slowly increases the importance of later data. The figures for cases and deaths are then divided by the total number of cases and deaths at the latest time (to normalize them). A factor of two is applied to the cases figure to increase the relative weight of the cases compared to the deaths. The normalization accounts for their being many more cases than deaths, but the factor of two restores some heavier weight to the cases-based figure.</p>
+                <p id="d1e971">One will notice that a model that produces very good agreement with the data will produce a low value for the fitness. This is an important note in the specific application of the genetic algorithm in this case. The selection element will select agents that have a low fitness score.</p>
+              </sec>
+              <sec id="sec2.3">
+                <label>2.3</label>
+                <title>Selection</title>
+                <p id="d1e979">At the end of each generation, the agents in that generation are ranked according to their fitness. In the current work, a smaller fitness value means better agreement between the model and the data. A fixed percentage of the agents are selected for reproduction. In the current work, 20 percent are selected based on the suggestion of Mitchell et al. <xref rid="b7" ref-type="bibr">[7]</xref>. A genetic algorithm might weight the selection process using fitness, but instead just a list of the most fit agents were selected at a ratio of 20 percent which appears to yield enough diversity to allow exploration of the parameter space while still culling bad parameter sets. The current work uses 30 agents in each generation, so 6 agents are selected for reproduction after each generation. A number closer to 100 might give more robust performance of the algorithm, but a smaller number of agents reduces the computational expense, so there is a trade-off. Testing the algorithm indicated that 30 agents were sufficient to produce reliably good results.</p>
+              </sec>
+              <sec id="sec2.4">
+                <label>2.4</label>
+                <title>Reproduction</title>
+                <p id="d1e1001">The reproduction process selects two agents at random from the selected agents. These are selected randomly so there is the possibility for asexual reproduction (both parents happen to be the same agent). No special weight is given to higher fitness individuals once selection takes place; this preserves genetic diversity early in the process. Once two parent agents are selected, two children agents are produced. To create the child agents, child genomes are computed. For each pairing a cross-over factor is randomly selected, and the child genomes are calculated as follows in Eq. <xref rid="fd8.a" ref-type="disp-formula">(9)</xref> where x is the cross-over factor and each gene in the genome is calculated in the same manner. Note, the cross-over is the same for every gene in genome for the pairing between two parents. <disp-formula-group id="d1e1012"><disp-formula id="fd8.a"><label>(9.1)</label><mml:math id="d1e1016" display="block" altimg="si21.svg"><mml:mrow><mml:mi>c</mml:mi><mml:mi>h</mml:mi><mml:mi>i</mml:mi><mml:mi>l</mml:mi><mml:msub><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo id="mmlalignd1e1058" linebreak="goodbreak">=</mml:mo><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mfenced open="(" close=")"><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula><disp-formula id="fd8.b"><label>(9.2)</label><mml:math id="d1e1134" display="block" altimg="si22.svg"><mml:mrow><mml:mi>c</mml:mi><mml:mi>h</mml:mi><mml:mi>i</mml:mi><mml:mi>l</mml:mi><mml:msub><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo id="mmlalignd1e1176" linebreak="goodbreak" indentalign="id" indenttarget="mmlalignd1e1058">=</mml:mo><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mfenced open="(" close=")"><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:mfenced><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula></disp-formula-group> The next generation includes the selected agents from the previous generation, this ensures that the most fit agents continue to vie for selection in future generations, and then children are added through random pairings until the number of agents for the next generation is the same. In the current work, 30 agents are simulated in each generation, so the 6 selected agents from the previous generation are randomly paired to create 24 children for the subsequent generation.</p>
+              </sec>
+              <sec id="sec2.5">
+                <label>2.5</label>
+                <title>Mutation</title>
+                <p id="d1e1255">In addition to cross-over, after the children agents are spawned, there is a chance for random mutation. For all agents in the next generation — before any simulations are run, there is a fixed chance that a mutation will occur (in the current work 10 percent). A mutation rate that is too high hinders selection from increasing the allele frequency for favorable (i.e., more fit) genes; but a mutation rate that is too low stifles the genetic algorithm in that it will become more prone to finding localized optima rather than exploring a sufficient swath of parameter phase-space to garner a high likelihood for finding a truly optimum solution. Ten percent was selected in the current work as a decent balance between these competing effects. If a mutation occurs, a random agent is selected and a random gene within that agent’s genome is selected. That gene is then mutated by multiplying by a factor. The factor is randomly selected over a range from 0.75 to 1.25 in the current work. The mutation variability, much like the mutation rate should be selected to be large to ensure that the algorithm explores a wide variety of the parameter phase-space, but small enough that it does not preclude selection from favoring certain allele frequencies. The value of 25 percent was selected rather arbitrarily, but as shown in the results, the performance of the generic algorithm is acceptable with a manageable, tractable number of agents and generations.</p>
+              </sec>
+              <sec id="sec2.6">
+                <label>2.6</label>
+                <title>Coarse-search acceleration</title>
+                <p id="d1e1262">To accelerate the solution using the genetic algorithm, a “coarse-search” is done for the normal and socially distant contact rates upfront. These two values control the value of c during the simulation and are the most important because of their first order effect on the infection rate. It must be noted that the contact rate only appears in Eqs. <xref rid="fd1" ref-type="disp-formula">(1)</xref>, <xref rid="fd2" ref-type="disp-formula">(2)</xref> as a product with the transmission probability. Therefore, as the contact rate is tuned, this compensates any error in the transmission probability because it is the product that affects the progression of the outbreak.</p>
+                <p id="d1e1269">The coarse-search sweeps through a variety of discrete contact rate pairs. The discrete values are selected based on relatively large steps between a minimum and a maximum value; hence being called “coarse”. Several contact rate pairs are established and these are fed into SEIR models with all other genes set to default values. Runs are made for each pair and the fitness of each pair is used to sort the pairs into a “best-guess” pair. This is meant to establish a good initial guess for the contact rates before initializing the genetic algorithm search. Since the steps between the discrete pairs are relatively coarse this can be done at a small computational expense. Values between 1 and roughly 30–100 have been used here with a step size of 5 in the normal contact rate and a step size of 1 in the socially-distant contact rate.</p>
+              </sec>
+              <sec id="sec2.7">
+                <label>2.7</label>
+                <title>Slicing and punctuated equilibria</title>
+                <p id="d1e1280">The basic genetic algorithm operates over 50 generations, but is implemented to operate iteratively over sub-slices of the genome. In the first set of 50 generations, the algorithm operates only on three of the genes (normal contact rate, socially distant contact rate, and transmission probability). Fifty generations are run for this first slice. After completing those 50 generations, the slice is increased so the number of genes in the genome increases to include one more gene (the virus death rate). The process repeats and each slice includes one additional gene until every single gene is in the genome for the final run of the genetic algorithm. Each slice is subject to the genetic algorithm for 50 generations. This iterative approach with genome slicing simulates a kind of punctuated equilibrium <xref rid="b5" ref-type="bibr">[5]</xref> in the optimization process.</p>
+                <p id="d1e1286">After each slice goes through the genetic algorithm, the most fit agent starts the next slice with one additional gene. But, to populate the first generation, agents are created by taking the initial agent and spawning 29 additional agents where every single gene is forced to randomly mutate. This has the effect of creating a new species after each slice is analyzed (by adding another gene to the genome) and then the genetic diversity is forced to increase at the start of the process for each slice. This can lead to a burst in the change in fitness for each slice — which is very much like punctuated equilibrium.</p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <label>3</label>
+              <title>Results and discussion</title>
+              <p id="d1e1293">The genetic algorithm was used to fit the SEIR model to five American states (Georgia, Michigan, New York, Pennsylvania, and Virginia). The genetic algorithm results are provided in <xref rid="tbl1" ref-type="table">Table 1</xref>. In the predecessor work (see Yarsky <xref rid="b13" ref-type="bibr">[13]</xref>), the SEIR model tends to under-predict the number of cases and over-predict the number of casualties early in the outbreak, this tendency was attributed to potential biases in the data themselves and the model can be expected to be biased in this manner. Briefly, the model only considers cases that are identified from a diagnostic test, but state-by-state case data include cases that were identified without such testing, especially early in the outbreak. However, when compared to the results produced with the genetic algorithm, the agreement between the model and data is greatly improved at later times even though similar biases are observed in the earliest phase of the outbreak.</p>
+              <p id="d1e1303">
+New York (NY) has the largest outbreak in the US at the drafting of this paper and <xref rid="fig1" ref-type="fig">Fig. 1</xref> illustrates the model comparison to the data for this state. To compare the data and the SEIR results on a consistent basis the <inline-formula><mml:math id="d1e1312" display="inline" altimg="si29.svg"><mml:mi>x</mml:mi></mml:math></inline-formula>-axis reflects the number of days since the infection is detected, day 1 is thus labeled as the day when the number of cases (C) increases from 0 to 1. This state illustrates the general trend of under-predicting cases and over-predicting casualties during the first month. The model and data come into excellent agreement over the most recent 30 days. This is expected, however, since the fitness function more heavily weights the more recent data by design.<table-wrap position="float" id="tbl1"><label>Table 1</label><caption><p>Genetic algorithm results.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">DC</th><th align="left">GA</th><th align="left">MI</th><th align="left">NY</th><th align="left">PA</th><th align="left">VA</th></tr></thead><tbody><tr><td align="left">c<inline-formula><mml:math id="d1e91" display="inline" altimg="si23.svg"><mml:mi>β</mml:mi></mml:math></inline-formula> initial [day <sup>−1</sup>]</td><td align="left">1.1E−06</td><td align="left">8.6E−08</td><td align="left">2.3E−07</td><td align="left">9.1E−08</td><td align="left">1.2E−07</td><td align="left">1.1E−07</td></tr><tr><td align="left">c<inline-formula><mml:math id="d1e114" display="inline" altimg="si23.svg"><mml:mi>β</mml:mi></mml:math></inline-formula> social distancing [day <sup>−1</sup>]</td><td align="left">5.3E−07</td><td align="left">1.5E−08</td><td align="left">1.8E−08</td><td align="left">1.5E−08</td><td align="left">2.3E−08</td><td align="left">5.4E−08</td></tr><tr><td align="left">c<inline-formula><mml:math id="d1e137" display="inline" altimg="si23.svg"><mml:mi>β</mml:mi></mml:math></inline-formula> social distancing + mask wearing [day <sup>−1</sup>]</td><td align="left">1.6E−07</td><td align="left">4.8E−09</td><td align="left">5.9E−09</td><td align="left">5.2E−09</td><td align="left">7.1E−09</td><td align="left">1.6E−08</td></tr><tr><td align="left"><inline-formula><mml:math id="d1e159" display="inline" altimg="si26.svg"><mml:mi>α</mml:mi></mml:math></inline-formula> [day <sup>−1</sup>]</td><td align="left">1.3E−03</td><td align="left">7.7E−04</td><td align="left">1.2E−03</td><td align="left">8.6E−04</td><td align="left">8.4E−04</td><td align="left">9.9E−04</td></tr><tr><td align="left"><inline-formula><mml:math id="d1e181" display="inline" altimg="si27.svg"><mml:mi>χ</mml:mi></mml:math></inline-formula></td><td align="left">18%</td><td align="left">13%</td><td align="left">10%</td><td align="left">10%</td><td align="left">11%</td><td align="left">20%</td></tr><tr><td align="left"><inline-formula><mml:math id="d1e199" display="inline" altimg="si28.svg"><mml:mi>ψ</mml:mi></mml:math></inline-formula> [days]</td><td align="left">3</td><td align="left">3</td><td align="left">3</td><td align="left">3</td><td align="left">3</td><td align="left">3</td></tr><tr><td align="left">Cases relative RMS difference</td><td align="left">2.5%</td><td align="left">4.0%</td><td align="left">5.1%</td><td align="left">3.0%</td><td align="left">2.6%</td><td align="left">1.7%</td></tr><tr><td align="left">Deaths relative RMS difference</td><td align="left">4.0%</td><td align="left">2.5%</td><td align="left">9.9%</td><td align="left">2.9%</td><td align="left">9.8%</td><td align="left">1.8%</td></tr></tbody></table></table-wrap></p>
+              <p id="d1e1316">
+Georgia (GA) is notable in that the model tends to under-predict the casualties early, as shown in <xref rid="fig2" ref-type="fig">Fig. 2</xref>. Much like NY, however, the model and data come into very good agreement for the most recent 30 days. Virginia (VA) also deviates from the trend in the casualties, but instead of a clear bias the casualties are well predicted over the whole simulation period (see <xref rid="fig3" ref-type="fig">Fig. 3</xref>).<fig id="fig1"><label>Fig. 1</label><caption><p>NY results.</p></caption><graphic xlink:href="gr1_lrg"/></fig><fig id="fig2"><label>Fig. 2</label><caption><p>GA results.</p></caption><graphic xlink:href="gr2_lrg"/></fig><fig id="fig3"><label>Fig. 3</label><caption><p>VA results.</p></caption><graphic xlink:href="gr3_lrg"/></fig></p>
+              <p id="d1e1333">Results are also provided for Michigan (MI) and Pennsylvania (PA) in <xref rid="fig4" ref-type="fig">Fig. 4</xref> and <xref rid="fig5" ref-type="fig">Fig. 5</xref>, respectively. The MI results are interesting in that this represents the current case with the poorest agreement between model and data. As can be seen in <xref rid="tbl1" ref-type="table">Table 1</xref>, the relative root-mean-square (RMS) differences between cases and casualties are highest for MI and then somewhat smaller for PA. These two states show larger deviations than the balance of states analyzed as part of the current work.</p>
+              <p id="d1e1347">
+The MI data are an outlier compared to the data for the other states because of the unusual shift in the case trend around 15 days. There is a sharp change in the slope of the case trend and the SEIR model does not capture this rapid change in the trend well. As a result, it appears that the model will begin to start significantly under-predicting cases and casualties in the future. An area of future work would be to change the fitness function to even more heavily weight the more recent data, by perhaps using a (ln(t)) <xref rid="b11" ref-type="bibr">[11]</xref> weighting or something similar. This would likely improve the long-term predictive efficacy of the MI SEIR model at the expense of creating greater divergence in the earlier results.<fig id="fig4"><label>Fig. 4</label><caption><p>MI results.</p></caption><graphic xlink:href="gr4_lrg"/></fig><fig id="fig5"><label>Fig. 5</label><caption><p>PA results.</p></caption><graphic xlink:href="gr5_lrg"/></fig></p>
+              <p id="d1e1357">The PA results in <xref rid="fig5" ref-type="fig">Fig. 5</xref> show better agreement between model and data than MI, but the results for the casualties are interesting. It appears that the model can capture the trend of the casualties with the longer-term slope of the curve being in excellent agreement, but the SEIR model under-predicts the data by an approximately constant factor in the most recent two weeks. The PA data do include some quirks that may introduce deviations from expected values. Most significantly, there is a decrease in the deaths between 40 and 50 days. It is not clear why the data show this decrease, perhaps it was a recategorization of COVID-19 deaths as non-COVID-19 deaths, but it is not clear. Some irregularities like this in the data may explain the larger variation in the PA casualty data around the average trend (which is in good agreement with the model result).</p>
+              <p id="d1e1363">While this initial study using the genetic algorithm indicates promise that the SEIR model predictions can be improved, there remains more work that must be done to verify the performance of the algorithm. A multitude of parameter combinations may provide results that seem reasonable when comparing to the data in an integral sense, but the individual parameters may be unreasonable. Therefore there is the potential for the proposed technique to produce results that may yield unrealistic predictions. As an area of future work, one might simulate multiple agents to determine a range of different parameter values that produce acceptable results when compared to the data. These parameter ranges must be compared from state-to-state to ensure that deviations are reasonable when considered with other data. As an example, cell phone mobility data may be useful in establishing if differences in contact rate are reasonable. Similar surrogate data could be used for the other parameters as well. Another avenue for independent model validation would be to examine the subpopulation results (i.e., the E and I results) and compare the model predictions with serological survey data to see if the model results are reasonable if such data exists for a given state.</p>
+              <p id="d1e1373">The current work has focused on comparison of the SEIR model to data from early in the pandemic and an area of future work would be to expand the comparisons using data from later in 2020. However, the calculation of the number of cases currently includes an inherent assumption that diagnostic testing is rationed based on symptom severity. Many states have taken steps during 2020 to greatly expand their citizens’ access to diagnostic testing, which would limit the applicability of the current model to accurately calculate the number of cases later in the pandemic. Therefore, future work must also address the testing accessibility before the genetic algorithm can be used to adjust model parameters for data from much later in the pandemic.</p>
+            </sec>
+            <sec id="sec4">
+              <label>4</label>
+              <title>Conclusions</title>
+              <p id="d1e1380">The current work has demonstrated the use of a genetic algorithm to fit SEIR models of US states to available data. The current results are promising even though there are some cases (e.g., MI) where the comparison is not favorable, but some more investigation of the underlying data or refinements to the fitness function may improve the results. One potential avenue for improvement is to include hospitalization data in the fitness function to supplement the case and casualty data. In general, the SEIR model tends to under-predict cases and over-predict deaths early in the outbreak, but these biases can be expected based on assumptions in the model and biases in the underlying data sets. The fitness function proposed and utilized in the current work includes a weighting to focus the selection on more recent data. The results over many states indicate consistent good agreement between the model and data using the current implementation. However, the results require further scrutiny before they can be used for reliable predictions. An area of future work is to study state-by-state variations in the parameters and determine if these variations are reasonable based on surrogate data, such as mobility data in the case of the contact rate.</p>
+              <p id="d1e1382">The current genetic algorithm utilizes two enhancements to improve the calculation performance: (1) an acceleration technique that uses a coarse-search of the contact rate to start the genetic algorithm with a better initial guess of the contact rates, and (2) a slicing method of the genome to evolve the model parameters in stages — the slicing method allows the genetic algorithm to spawn new species and thereby mimic punctuated equilibria during the process, which can lead to bursts of improvement in the fitness.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of Competing Interest</title>
+              <p id="d1e1387">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="bib1">
+              <title>References</title>
+              <ref id="b1">
+                <label>1</label>
+                <element-citation publication-type="book" id="sb1">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ardabili</surname>
+                    </name>
+                  </person-group>
+                  <chapter-title>COVID-19 outbreak prediction with machine learning</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="https://www.medrxiv.org/content/10.1101/2020.04.17.20070094v1" id="interref2">https://www.medrxiv.org/content/10.1101/2020.04.17.20070094v1</ext-link>. (Accessed 20 October 2020)</comment>
+                </element-citation>
+              </ref>
+              <ref id="b2">
+                <label>2</label>
+                <element-citation publication-type="book" id="sb2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bukhari</surname>
+                      <given-names>Qasim</given-names>
+                    </name>
+                    <name>
+                      <surname>Jameel</surname>
+                      <given-names>Yusuf</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Will coronavirus pandemic diminish by summer?</chapter-title>
+                  <year>2020</year>
+                  <comment>Available at SSRN 3556998</comment>
+                </element-citation>
+              </ref>
+              <ref id="b3">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sb3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carcione</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Santos</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bagaini</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ba</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A simulation of a COVID-19 epidemic based on a deterministic SEIR model</article-title>
+                  <source>Front. Public Health</source>
+                  <volume>8</volume>
+                  <year>2020</year>
+                  <fpage>230</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpubh.2020.00230</pub-id>
+                  <pub-id pub-id-type="pmid">32574303</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b4">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sb4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ghosh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhattacharya</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A data-driven understanding of COVID-19 dynamics using sequential genetic algorithm based probabilistic cellular automata</article-title>
+                  <source>Appl. Soft Comput. J.</source>
+                  <volume>96</volume>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b5">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sb5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gould</surname>
+                      <given-names>Stephen Jay</given-names>
+                    </name>
+                    <name>
+                      <surname>Eldredge</surname>
+                      <given-names>Niles</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Punctuated equilibria: an alternative to phyletic gradualism</article-title>
+                  <source>Essent. Read. Evol. Biol.</source>
+                  <year>1972</year>
+                  <fpage>82</fpage>
+                  <lpage>115</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b6">
+                <label>6</label>
+                <element-citation publication-type="book" id="sb6">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lipsitch</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Will COVID-19 go away on its own in warmer weather? Center for Communicable Disease Dynamics (CCDD) at the Harvard T.H. Chan School of Public Health</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="https://ccdd.hsph.harvard.edu/will-covid-19-go-away-on-its-own-in-warmer-weather/" id="interref3">https://ccdd.hsph.harvard.edu/will-covid-19-go-away-on-its-own-in-warmer-weather/</ext-link>. (Accessed 5 March 2020)</comment>
+                </element-citation>
+              </ref>
+              <ref id="b7">
+                <label>7</label>
+                <mixed-citation publication-type="other" id="sb7">Melanie Mitchell, James P. Crutchfield, Rajarshi Das, Evolving cellular automata with genetic algorithms: A review of recent work, in: Proceedings of the First International Conference on Evolutionary Computation and its Applications, EvCA’96, Vol. 8, 1996.</mixed-citation>
+              </ref>
+              <ref id="b8">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sb8">
+                  <article-title>Preliminary estimates of the prevalence of selected underlying health conditions among patients with coronavirus disease 2019 — United States, February 12–March 28, 2020</article-title>
+                  <source>MMWR Morb. Mortal. Wkly. Rep.</source>
+                  <volume>69</volume>
+                  <year>2020</year>
+                  <fpage>382</fpage>
+                  <lpage>386</lpage>
+                  <pub-id pub-id-type="doi">10.15585/mmwr.mm6913e2</pub-id>
+                  <pub-id pub-id-type="pmid">32240123</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b9">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sb9">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qadrouh</surname>
+                      <given-names>A.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Carcione</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alajmi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alyousif</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A tutorial on machine learning with geophysical applications</article-title>
+                  <source>Boll. Geofis. Teor. Appl.</source>
+                  <volume>60</volume>
+                  <issue>3</issue>
+                  <year>2019</year>
+                  <fpage>375</fpage>
+                  <lpage>402</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b10">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sb10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>Biao</given-names>
+                    </name>
+                    <name>
+                      <surname>Bragazzi</surname>
+                      <given-names>Nicola Luigi</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Qian</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>Sanyi</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>Yanni</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Jianhong</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov)</article-title>
+                  <source>Infect. Dis. Modell.</source>
+                  <volume>5</volume>
+                  <year>2019</year>
+                  <fpage>248</fpage>
+                  <lpage>255</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b11">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sb11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>Biao</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Xia</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Qian</given-names>
+                    </name>
+                    <name>
+                      <surname>Bragazzi</surname>
+                      <given-names>Nicola Luigi</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>Sanyi</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>Yanni</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Jianhong</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation of the transmission risk of the 2019-nCoV and its implication for public health interventions</article-title>
+                  <source>J. Clin. Med.</source>
+                  <volume>9</volume>
+                  <issue>2</issue>
+                  <year>2019</year>
+                  <fpage>462</fpage>
+                </element-citation>
+              </ref>
+              <ref id="b12">
+                <label>12</label>
+                <element-citation publication-type="book" id="sb12">
+                  <chapter-title>The COVID Tracking Project</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="http://www.covidtracking.com" id="interref4">www.covidtracking.com</ext-link>. (Accessed 15 May 2020)</comment>
+                </element-citation>
+              </ref>
+              <ref id="b13">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sb13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yarsky</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A simple COVID-19 model applied to American states to simulate mitigation and containment strategies</article-title>
+                  <source>J. Glob. Health Rep.</source>
+                  <volume>4</volume>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">e2020059</object-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

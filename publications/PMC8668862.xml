@@ -1,0 +1,2943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:45:57Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8668862" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8668862</identifier>
+        <datestamp>2021-12-14</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Clin Epidemiol Glob Health</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Clin Epidemiol Glob Health</journal-id>
+              <journal-title-group>
+                <journal-title>Clinical Epidemiology and Global Health</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">2452-0918</issn>
+              <issn pub-type="epub">2213-3984</issn>
+              <publisher>
+                <publisher-name>The Author. Published by Elsevier B.V. on behalf of INDIACLEN.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8668862</article-id>
+              <article-id pub-id-type="pmcid">PMC8668862</article-id>
+              <article-id pub-id-type="pmc-uid">8668862</article-id>
+              <article-id pub-id-type="pmid">34926865</article-id>
+              <article-id pub-id-type="pii">S2213-3984(21)00242-6</article-id>
+              <article-id pub-id-type="doi">10.1016/j.cegh.2021.100934</article-id>
+              <article-id pub-id-type="publisher-id">100934</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>COVID-19 disease spread modeling by QSIR method: The parameter optimal control approach</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au1">
+                  <name>
+                    <surname>Hari Prasad</surname>
+                    <given-names>Peri Subrahmanya</given-names>
+                  </name>
+                </contrib>
+                <aff id="aff1">CORAL, Indian Institute of Technology Kharagpur, Kharagpur, West Bengal, 721302, India</aff>
+              </contrib-group>
+              <pub-date pub-type="pmc-release">
+                <day>14</day>
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub" iso-8601-date="2022-02-01">
+                <season>January-February</season>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>14</day>
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>13</volume>
+              <fpage>100934</fpage>
+              <lpage>100934</lpage>
+              <history>
+                <date date-type="received">
+                  <day>21</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>22</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>7</day>
+                  <month>12</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 The Author</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0010">
+                <sec>
+                  <title>Background</title>
+                  <p>At present, India is in the decreasing phase of the second wave of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). But India as a country is in the second position in a high number of confirmed cases (33,678,786) in the world (after the United States of America) and third position in the number of COVID-19 deaths (after the United States and Brazil) at 465,082 deaths. Almost above numbers are dominantly seen in the second wave only. Thus, future long-term projections are required to mitigate the impact.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>The conventional SIR model was modified so that a new compartment Q(quarantine) is added to the conventional SIR model to analyze the COVID-19 impact. The parameter optimal control technique was used to fit the curve by estimating the infection, susceptible, etc.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>The model predicts the cumulative number of cases of 2.6928E7 with a confidence interval of 95%, CI[2.6921E7,2.6935E7], and an accuracy of 99.3% on May 25, 2020(480th day from 30 to 01–2020). The estimated R<sub>0</sub> is 1.1475. The model's mean absolute error(E<sub><italic>MAE</italic></sub>) is 1.79E4, and the root-mean-square error is (E<sub><italic>RMSE</italic></sub>) is 3.19E4. The future projection are,3.48E7(Lockdown), 3.80E7(periodic-lockdown), 4.52E7(without lockdown). The whole model accuracy is 99%, and projection accuracy is about 94% up to 01-Nov-2021, The goodness of fit value 0.8954.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p>The model is over-estimating corona cases initially and then showed a decreased trend. As the number of days increases, the model accuracy decreases; thus, more control points of the cost function are required to fit the model best.</p>
+                </sec>
+              </abstract>
+              <kwd-group id="kwrds0010">
+                <title>Keywords</title>
+                <kwd>SARS-COV-2</kwd>
+                <kwd>QSIR model</kwd>
+                <kwd>Parameter optimal control</kwd>
+                <kwd>Reproduction number</kwd>
+                <kwd>Next generation matrix</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="p0010">The Novel Coronavirus first emerged on January 27, 2020, in Kerala, India.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref> The COVID-19 evolved gradually and appeared to 171 cases by March 18, 2020. So from March 24, 2020, the country-wide lockdown was implemented. The lockdown that was imposed throughout the country was lifted in stages starting from June 8, 2020, in the name of Unlock 1.0 and then progressed up to Unlock 6.0. The per-day new cases are less in number up to the month of June. Later on the virus showed exponential growth in India and reached approximately 97000/per day new cases in mid-September. Because of mitigation strategies such as restricting the transport, stopping mass gatherings, creating awareness on Covid-19 spread by government and new normal such as face mask<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> and social distancing and sanitizer use decreased and the number of new cases decreased and in control. Still, India imposed face masks mandatory. We can't conclude that the Covid-19 spread was in favor of wearing masks. According to WHO wearing a face mask alone is not sufficient.<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> Though India followed all kinds of restrictions, because of the lifting of the lockdown, India saw the worst spread of the virus than it did in the first wave from February 2021. The second wave was started in Maharashtra, India, from the month of march and progressed up to May 2021 due to several socio-economic and administrative reasons. The second wave dynamics have a massive impact on human health and the economy of the country. In the second wave, new cases reached up to 4 lakhs. To mitigate the effects of the COVID-19 s wave, the government took a lot of preventive measures such as quarantine,<xref rid="bib3" ref-type="bibr"><sup>3</sup></xref>,<xref rid="bib4" ref-type="bibr"><sup>4</sup></xref> social distancing,<xref rid="bib7" ref-type="bibr"><sup>7</sup></xref> vaccination drive along with treatments such as plasma therapy.<xref rid="bib1" ref-type="bibr"><sup>1</sup></xref> As a part of controlling the spread of the virus, vaccines such as Covishield, Covaxin are introduced. With a great effort, the vaccination drive achieved a total number of Figure 100 crore. Along with mitigation strategies, the industrial revolution 5.0<xref rid="bib23" ref-type="bibr"><sup>23</sup></xref> created a huge impact on the health care industry by introducing new technologies such as Covi-19 tracking, digital monitoring, optimizing the supply chain, performing an automatic treatment, etc. The revolutions like IoT,<xref rid="bib21" ref-type="bibr"><sup>21</sup></xref>
+<sup>,</sup>
+<xref rid="bib22" ref-type="bibr"><sup>22</sup></xref> which is very useful in transferring data without any human interface, create a better treatment rapidly. Medical 4.0, IoMT<xref rid="bib24" ref-type="bibr"><sup>24</sup></xref>
+<sup>,</sup>
+<xref rid="bib25" ref-type="bibr"><sup>25</sup></xref> also ease the monitoring of Covid-19 patients by making the bridge between the medical health monitoring things to the network through Artificial intelligence, Machine learning, Big data network, and cloud storage, etc., and reduce the re-admission into hospital post-Covid.</p>
+              <p id="p0015">All these efforts were succeeded in reducing the spread of coronavirus in the second wave. Thus, we are on the verge of ending the second wave and also probably the end of the pandemic. Still, we never know how pandemics may turn endemic. Since the nature of the virus and its mutations are changing rapidly over time, resulting in various strains which are totally different from early-stage dynamics.<xref rid="bib14" ref-type="bibr"><sup>14</sup></xref>
+<sup>,</sup>
+<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> Significant strains like U.S strain L452R and indigenous strain E484Q are dominantly seen in states like Maharashtra, Karnataka in India. The mutated strains like E484Q and L452R had high transmission rates. So there is a need to construct new models to tackle the further waves due to unexpected mutations of the virus. Many attempts have been made on epidemiology models to predict active cases, including simple SIR and logistic growth models<xref rid="bib9" ref-type="bibr"><sup>9</sup></xref> and complex models like MSIR and SEIR models.<xref rid="bib10" ref-type="bibr"><sup>10</sup></xref> The accuracy of these models may differ based on their assumptions and parameters. However, all these attempts are made in the early stage of the spread of COVID- 19. In this paper, the main focus is given to the second wave, and an attempt was made to predict the probable time to end the pandemic. Previous research<xref rid="bib5" ref-type="bibr"><sup>5</sup></xref>
+<sup>,</sup>
+<xref rid="bib6" ref-type="bibr"><sup>6</sup></xref> like SIS, SEIR, exponential growth, logistic growth models did not take into account the quarantine, lockdown, and social distancing strategies<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref>
+<sup>,</sup>
+<xref rid="bib17" ref-type="bibr"><sup>17</sup></xref> and re-infections, vaccination effects to control the pandemic. Thus, by considering all the above assumptions, the nature of the second wave and future projection of cases was done. The approximate end of the pandemic was also predicted.</p>
+            </sec>
+            <sec id="sec2">
+              <label>2</label>
+              <title>Methodology</title>
+              <p id="p0020">In this analysis, a new compartment is added to the SIR model. Q is the newly added compartment named, here Quarantine means only people who are not affected by corona, and the following self-isolation because of lockdown guidelines. Persons with already Covid-19 positive are not considered in chamber Q. Where S to Q won't exchange when there is a lockdown or self-isolation, those people will not be affected by COVID-19 for a brief period. At the same time, some people will go from quarantine compartment to susceptible because of the end of lockdown or violation of lockdown. Thus, here two rates are defined such that the people exchange between Q and S. The below <xref rid="fig1" ref-type="fig">Fig. 1</xref>
+shows the flow between two compartments (see <xref rid="fig2" ref-type="fig">Fig. 2</xref>).<fig id="fig1"><label>Fig. 1</label><caption><p>Exchange of flow between compartments Q(Quarantine) and S(Susceptible) without lockdown and lockdown cases.</p></caption><alt-text id="alttext0015">Fig. 1</alt-text><graphic xlink:href="gr1_lrg"/></fig><fig id="fig2"><label>Fig. 2</label><caption><p>Generalized flow chart of QSIR compartment model.</p></caption><alt-text id="alttext0020">Fig. 2</alt-text><graphic xlink:href="gr2_lrg"/></fig></p>
+              <p id="p0275">Where <italic>α</italic> is the susceptible rate, and <italic>δ</italic> is the quarantine rate.</p>
+              <sec id="sec2.1">
+                <label>2.1</label>
+                <title>Assumptions</title>
+                <p id="p0025">
+                  <list list-type="simple" id="olist0010">
+                    <list-item id="o0010">
+                      <label>1.</label>
+                      <p id="p0030">Birth and death rates are neglected. Simulations are taken from 1st corona case. i.e., January 27, 2020.</p>
+                    </list-item>
+                    <list-item id="o0015">
+                      <label>2.</label>
+                      <p id="p0035">The fraction of people always goes from Q to S with a rate <italic>α</italic> in both with and without lockdown cases. But in lockdown, the fraction of people will go from S to Q with a rate <italic>δ.</italic>
+</p>
+                    </list-item>
+                    <list-item id="o0020">
+                      <label>3.</label>
+                      <p id="p0040">The first lockdown was implemented for 100 days, from 170th to 270th day. i.e., up to unlock 6.o till November 30.</p>
+                    </list-item>
+                    <list-item id="o0025">
+                      <label>4.</label>
+                      <p id="p0045">The vaccination rate is considered from real-time data.</p>
+                    </list-item>
+                    <list-item id="o0030">
+                      <label>5.</label>
+                      <p id="p0050">The second lockdown is taken from the 460th day to the 480th day.</p>
+                    </list-item>
+                    <list-item id="o0035">
+                      <label>6.</label>
+                      <p id="p0055">The future projection was made with three cases. The first one is the Total lockdown and second one is periodic lockdown of 15 days will be implemented for every one month. The last one is no further lockdown will be implemented at all, and it is assumed that only curfew will be implemented(In curfew, <italic>δ</italic>
+<sub>C</sub> is lesser than <italic>δ</italic>).</p>
+                    </list-item>
+                    <list-item id="o0040">
+                      <label>7.</label>
+                      <p id="p0060">Re-infections are considered with a period of 120 days.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <label>3</label>
+              <title>Mathematical equations</title>
+              <p id="p0065">Initially, all the parameters are divided with the population size P0. The rates <italic>δ</italic> and <italic>γ</italic> are chosen from the trial and error method, and <italic>β</italic> and <italic>α</italic> are estimated by parameter optimal control approach.<disp-formula id="fd1"><label>(1)</label><mml:math id="M1" display="block" altimg="si1.svg" alttext="Equation 1."><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>Q</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo linebreak="badbreak">=</mml:mo><mml:mo linebreak="goodbreak">−</mml:mo><mml:mrow><mml:mi mathvariant="normal">α</mml:mi><mml:mtext>Q</mml:mtext></mml:mrow><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi mathvariant="normal">δ</mml:mi><mml:mtext>S</mml:mtext></mml:mrow></mml:math></disp-formula>
+<disp-formula id="fd2"><label>(2)</label><mml:math id="M2" display="block" altimg="si2.svg" alttext="Equation 2."><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo linebreak="badbreak">=</mml:mo><mml:mo linebreak="badbreak">−</mml:mo><mml:mrow><mml:mi mathvariant="normal">β</mml:mi><mml:mtext>SI</mml:mtext></mml:mrow><mml:mo linebreak="badbreak">+</mml:mo><mml:mrow><mml:mi mathvariant="normal">α</mml:mi><mml:mtext>Q</mml:mtext></mml:mrow><mml:mo linebreak="badbreak">+</mml:mo><mml:mrow><mml:mi mathvariant="normal">ρ</mml:mi><mml:mtext>R</mml:mtext></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>T</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi mathvariant="normal">δ</mml:mi><mml:mtext>S</mml:mtext><mml:mo linebreak="goodbreak">−</mml:mo><mml:mtext>C</mml:mtext></mml:mrow></mml:math></disp-formula>
+<disp-formula id="fd3"><label>(3)</label><mml:math id="M3" display="block" altimg="si3.svg" alttext="Equation 3."><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo linebreak="badbreak">=</mml:mo><mml:mrow><mml:mi mathvariant="normal">β</mml:mi><mml:mtext>SI</mml:mtext></mml:mrow><mml:mo linebreak="goodbreak">−</mml:mo><mml:mrow><mml:mi mathvariant="normal">γ</mml:mi><mml:mtext>I</mml:mtext></mml:mrow></mml:mrow></mml:math></disp-formula>
+<disp-formula id="fd4"><label>(4)</label><mml:math id="M4" display="block" altimg="si4.svg" alttext="Equation 4."><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo linebreak="badbreak">=</mml:mo><mml:mrow><mml:mi mathvariant="normal">γ</mml:mi><mml:mtext>I</mml:mtext></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mrow><mml:mi mathvariant="normal">ρ</mml:mi><mml:mtext>R</mml:mtext></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>T</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">+</mml:mo><mml:mtext>C</mml:mtext></mml:mrow></mml:math></disp-formula>
+<disp-formula id="fd5"><label>(5)</label><mml:math id="M5" display="block" altimg="si5.svg" alttext="Equation 5."><mml:mrow><mml:mtext>Q</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">+</mml:mo><mml:mtext>S</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">+</mml:mo><mml:mtext>I</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">+</mml:mo><mml:mtext>R</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mtext>t</mml:mtext><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></disp-formula>
+</p>
+            </sec>
+            <sec id="sec4">
+              <label>4</label>
+              <title>Parameter optimal control</title>
+              <p id="p0070">Here the parameter to optimize is the cumulative number of cases, and control vectors are <italic>β</italic> and <italic>α</italic>. The cost function is defined as<disp-formula id="fd6"><label>(6)</label><italic>F</italic> = (<italic>θ − θ</italic><sub>0</sub>)<sup>2</sup></disp-formula>Where <italic>θ</italic> is the cumulative number of corona cases up to certain period from the start of simulation.<list list-type="simple" id="ulist0010"><list-item id="u0010"><p id="p0075"><italic>θ</italic><sub>0</sub> is the observed cumulative number of cases taken from real-time data.</p></list-item></list>
+</p>
+              <sec id="sec4.1">
+                <label>4.1</label>
+                <title>Steps to parameter optimal control</title>
+                <p id="p0080">
+                  <list list-type="simple" id="olist0015">
+                    <list-item id="o0045">
+                      <label>1.</label>
+                      <p id="p0085">In the first step, choose <italic>β</italic> and <italic>α</italic> as an initial guess.</p>
+                    </list-item>
+                    <list-item id="o0050">
+                      <label>2.</label>
+                      <p id="p0090">Run the differential equation to a required time</p>
+                    </list-item>
+                    <list-item id="o0055">
+                      <label>3.</label>
+                      <p id="p0095">Calculate the cost function F<sub><italic>i</italic></sub>
+</p>
+                    </list-item>
+                    <list-item id="o0060">
+                      <label>4.</label>
+                      <p id="p0100">Run the simulation again by taking <italic>β</italic> = <italic>β</italic> ​+ ​<italic>dβ</italic> and <italic>α</italic> = <italic>α</italic> ​+ ​<italic>dα</italic>
+</p>
+                    </list-item>
+                    <list-item id="o0065">
+                      <label>5.</label>
+                      <p id="p0105">Calculate cost function again F<sub><italic>i</italic>+1</sub> then calculate the gradient <inline-formula><mml:math id="M6" altimg="si6.svg"><mml:mrow><mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>d</mml:mi><mml:mi>F</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">β</mml:mi></mml:msub><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="badbreak">+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="badbreak">−</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi mathvariant="normal">β</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></inline-formula> similarly <inline-formula><mml:math id="M7" altimg="si7.svg"><mml:mrow><mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mtext>dF</mml:mtext><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">α</mml:mi></mml:msub><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mtext>F</mml:mtext><mml:mrow><mml:mtext>i</mml:mtext><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mtext>F</mml:mtext><mml:mtext>i</mml:mtext></mml:msub></mml:mrow><mml:mrow><mml:mtext>d</mml:mtext><mml:mi mathvariant="normal">β</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></inline-formula>
+</p>
+                    </list-item>
+                    <list-item id="o0070">
+                      <label>6.</label>
+                      <p id="p0110">Then the required <italic>β.</italic>and <italic>α</italic> is <italic>β</italic> = <italic>β-C</italic>
+<sub>1</sub>
+<italic> × </italic>(<italic>dF</italic>)<sub><italic>β</italic></sub> and <italic>α</italic> = <italic>α-C</italic>
+<sub>2</sub>
+<italic> × </italic>(<italic>dF</italic>)<sub><italic>α</italic></sub> where C<sub>1</sub> and C<sub>2</sub> are constants.</p>
+                    </list-item>
+                    <list-item id="o0075">
+                      <label>7.</label>
+                      <p id="p0115">Repeat the procedure until the best fit of the curve is achieved.</p>
+                    </list-item>
+                  </list>
+                </p>
+                <p id="p0120">For the detailed method of optimal control, please refer.<xref rid="bib11" ref-type="bibr"><sup>11</sup></xref>,<xref rid="bib13" ref-type="bibr"><sup>13</sup></xref> The estimated <italic>β</italic> and <italic>α</italic> are 0.4590 and 0.0106.</p>
+                <p id="p0125">The below figure shows the values of model parameters in different conditions.</p>
+              </sec>
+            </sec>
+            <sec id="sec5">
+              <label>5</label>
+              <title>Reproduction number</title>
+              <p id="p0130">The basic reproduction number is the same as the SIR model since the infection compartment was not had any intervention of the quarantine compartment. Here basic reproduction number <inline-formula><mml:math id="M8" altimg="si8.svg"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mfrac><mml:mi mathvariant="normal">β</mml:mi><mml:mi mathvariant="normal">γ</mml:mi></mml:mfrac></mml:mrow></mml:math></inline-formula> tell us that how many people are infected by every single individual infected person. The above formula was calculated from the next-generation matrix method.<xref rid="bib2" ref-type="bibr"><sup>2</sup></xref>
+<sup>,</sup>
+<xref rid="bib18" ref-type="bibr"><sup>18</sup></xref>
+<sup>,</sup>
+<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref> The estimated R<sub>0</sub> for this method is 1.147.</p>
+            </sec>
+            <sec id="sec6">
+              <label>6</label>
+              <title>Error estimation and goodness of fit</title>
+              <p id="p0135">The error is estimated from two formulas.<xref rid="bib19" ref-type="bibr"><sup>19</sup></xref>
+</p>
+              <p id="p0140">Mean absolute error (E<sub><italic>MAE</italic></sub>): it the average error by only considering maginited and leaving direction and Root mean square error: It is the average of squared error and particularly useful when we have large errors between observed and predicted<disp-formula id="fd7"><label>(7)</label><mml:math id="M9" display="block" altimg="si9.svg" alttext="Equation 7."><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>M</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>o</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mi>n</mml:mi></mml:mfrac></mml:mrow></mml:math></disp-formula>
+<disp-formula id="fd8"><label>(8)</label><mml:math id="M10" display="block" altimg="si10.svg" alttext="Equation 8."><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:msqrt><mml:mfrac><mml:mrow><mml:msubsup><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:msup><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>o</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mi>n</mml:mi></mml:mfrac></mml:msqrt></mml:mrow></mml:math></disp-formula>
+</p>
+              <p id="p0145">Here accuracy of the whole model is defined as (E)<disp-formula id="fd9"><label>(9)</label><mml:math id="M11" display="block" altimg="si11.svg" alttext="Equation 9."><mml:mrow><mml:mi>E</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mtext>Σ</mml:mtext><mml:mi>p</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mfrac><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mtext>Σ</mml:mtext><mml:mi>p</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math></disp-formula>and accuracy at a particular day is simply. <inline-formula><mml:math id="M12" altimg="si12.svg"><mml:mrow><mml:mi>E</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>100</mml:mn><mml:mo linebreak="goodbreak" linebreakstyle="after">−</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mfrac><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>o</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>o</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak" linebreakstyle="after">×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math></inline-formula>.</p>
+              <p id="p0150">Goodness of fit from Normalized mean square error:<disp-formula id="fd10"><label>(10)</label><mml:math id="M13" display="block" altimg="si13.svg" alttext="Equation 10."><mml:mrow><mml:mn>1</mml:mn><mml:mo linebreak="goodbreak">−</mml:mo><mml:mfrac><mml:mrow><mml:mo>∑</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>o</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mo>∑</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>o</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mover accent="true"><mml:mi>o</mml:mi><mml:mo>¯</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>Here the p(i) is the per day active number of cases of the model, and o(i) is observed per day active cases. <inline-formula><mml:math id="M14" altimg="si14.svg"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>o</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mover></mml:mrow></mml:math></inline-formula> is the mean of observed.</p>
+              <p id="p0155">It is the measure of fit from observed value, which is most useful in predicting the future.</p>
+            </sec>
+            <sec id="sec7">
+              <label>7</label>
+              <title>Results</title>
+              <sec id="sec7.1">
+                <label>7.1</label>
+                <title>Accuracy of model</title>
+                <p id="p0160">The real time data of Covid-19 cases from 30-Jan-2020 to 25-May-2021 was taken to model the spread of Covid-19. <xref rid="tbl1" ref-type="table">Table 1</xref>
+shows the <italic>α, β, γ, δ</italic> values in different conditions stated in the assumption section.<table-wrap position="float" id="tbl1"><label>Table 1</label><caption><p>Values of Quarantine, susceptible, infected and recovered rates at different conditions.</p></caption><alt-text id="alttext0045">Table 1</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Name</th><th>1–170</th><th>170–270</th><th>270–380</th><th>380–460</th><th>460–480</th><th>480-end(Lockdown)</th><th>480-end(Periodic Lockdown)</th><th>480-end(No Lockdown)</th></tr></thead><tbody><tr><td align="left">α</td><td align="left">0.102</td><td align="left">0.102</td><td align="left">0.102</td><td align="left">0.102</td><td align="left">0.102</td><td align="left">0.102</td><td align="left">0.102</td><td align="left">0.102</td></tr><tr><td align="left">β</td><td align="left">0.4595</td><td align="left">0.4595</td><td align="left">0.4595</td><td align="left">0.4595</td><td align="left">0.4595</td><td align="left">0.4595</td><td align="left">0.4595</td><td align="left">0.4595</td></tr><tr><td align="left">γ</td><td align="left">0.4</td><td align="left">0.4</td><td align="left">0.4</td><td align="left">0.4</td><td align="left">0.4</td><td align="left">0.4</td><td align="left">0.4</td><td align="left">0.4</td></tr><tr><td align="left">δ</td><td align="left">0</td><td align="left">0.004</td><td align="left">0.0001</td><td align="left">0.004</td><td align="left">0.0001</td><td align="left">0.004</td><td align="left">0.0006(cerfew) −0.004(lockdown)</td><td align="left">0.0001</td></tr></tbody></table></table-wrap></p>
+                <p id="p0165">The vaccination rate is considered from real-time data, which is shown in the below <xref rid="fig3" ref-type="fig">Fig. 3</xref>
+.<fig id="fig3"><label>Fig. 3</label><caption><p>Plot of vaccination rate calculated from Real-time data.</p></caption><alt-text id="alttext0025">Fig. 3</alt-text><graphic xlink:href="gr3_lrg"/></fig></p>
+                <p id="p0170">The predicted cumulative number of cases as of date May 25, 2021, was 2.6928E7 with CI[2.6921e7,2.6935e7], and observed cases from real-time data was 2.6752E7; the model accuracy is 99.3%. From the below <xref rid="fig4" ref-type="fig">Fig. 4</xref>
+, the model predicts that the maximum per day active cases in the first wave was 103688 on the 7-Sept-2020 (224th day from 30-Jan-2020). The observed cases are 97950 on the 14-Sept-2020 (231th day from 30-Jan-2020), and there is an offset of 7 days with an accuracy of 94.36%. The maximum per day active cases in the second wave was 3.8385E5 on the 18-May-2021 (473rd day from 30-Jan-2020). The observed cases are 4.1418E5 on the 7-May-2021 (463rd day from 30-Jan-2020), and there is an offset of 10 days with an accuracy of 92.7%.<fig id="fig4"><label>Fig. 4</label><caption><p>Figure showing Actual vs. Modeled Per day cases from Jan-2020 to May-2021.</p></caption><alt-text id="alttext0030">Fig. 4</alt-text><graphic xlink:href="gr4_lrg"/></fig></p>
+                <p id="p0175">From the above <xref rid="fig5" ref-type="fig">Fig. 5</xref>
+, the cumulative cases of actual and model are 3.44E7,3.48E7, CI[3.47E7,3.49E7] with an error percentage of 1%.<fig id="fig5"><label>Fig. 5</label><caption><p>Cumulative corona cases plot from Jan-2020 to Nov-2021.</p></caption><alt-text id="alttext0035">Fig. 5</alt-text><graphic xlink:href="gr5_lrg"/></fig></p>
+                <p id="p0180">The mean absolute error of model E<sub><italic>MAE</italic></sub> is 1.79E4, and root-mean-square error E<sub><italic>RMSE</italic></sub> is 3.19Ee4. The goodness of fit value is 0.8954.</p>
+              </sec>
+              <sec id="sec7.2">
+                <label>7.2</label>
+                <title>Future projection</title>
+                <p id="p0185">The below <xref rid="fig6" ref-type="fig">Fig. 6</xref>
+shows the prediction of the future with three cases. The predicted number of days required to end the pandemic with continued lockdown is about 600 days(Oct-2021), and the cumulative number of cases at the end of the pandemic is 3.4890E7. And if the periodic lockdown of 15 days for every one month is implemented, then the pandemic will end after approximately 720 days(Jan-2022), cumulative cases at the end of the pandemic is 3.80E7 and if a complete nationwide lockdown is not imposed, then there will be a whopping increase in the number of cases and the rate of spread of the virus. The pandemic will be continued up to approximately 825 days(May-2022), and cumulative cases will be 4.5E7.<fig id="fig6"><label>Fig. 6</label><caption><p>Future projection of per day new cases till the end of the pandemic.</p></caption><alt-text id="alttext0040">Fig. 6</alt-text><graphic xlink:href="gr6_lrg"/></fig></p>
+                <p id="p0190">The detailed data was given in <xref rid="appsec1" ref-type="sec">Table 2 at the appendix</xref>.</p>
+              </sec>
+            </sec>
+            <sec id="sec8">
+              <label>8</label>
+              <title>Discussion and conclusion</title>
+              <p id="p0195">From the model data, the per day active cases are overestimated with change of 6% in first wave, and then in the second wave, the model underestimated about a change of 8%. As the number of days increasing, the accuracy is decreasing with underestimating trend. This trend suggests that only one optimal control point of cost function is not sufficient to predict the cases accurately. It indicates that more cost function points are required to estimate the cases accurately. From projection, the end of the pandemic, even in the worst-case scenario is on May 2022. From the figure, the model shows that there is a drastic decrease in cases after Aug-2021. The main reason for this is an increase in the vaccination rate.</p>
+              <p id="p0200">Though the model predicts the active cases with utmost accuracy, the future projection may not be justified because the spread of the virus depends on several factors, such as different pathogenic mutations of the virus, which is highly random and unpredictable and effectiveness of vaccination and preventive measures. Even for the people vaccinated, the mutations affected them drastically. The only way to control the spread is self-quarantine and isolation. Since the lifting of lockdown clearly shows an increment in cumulative active cases, one needs to take care and follow the preventive measures, and the rate at which vaccines are being jabbed must increase. This analysis was done on the whole country, but in a real case scenario, the state-to-state dynamics change spatially and temporally, so adding compartments that account for the spatial progress of COVID-19 adds much more benefits to the future projection.</p>
+              <sec id="sec8.1">
+                <label>8.1</label>
+                <title>Limitations of model</title>
+                <p id="p0205">
+                  <list list-type="simple" id="olist0020">
+                    <list-item id="o0080">
+                      <label>1.</label>
+                      <p id="p0210">The sensitivity of the model highly depends on the values of <italic>α, β, γ, δ</italic> even in a small increment leads to change on prediction of the model.</p>
+                    </list-item>
+                    <list-item id="o0085">
+                      <label>2.</label>
+                      <p id="p0215">Even vaccination rate is taken from real-time data, and the Covid-19 needs multiple shots. Thus, there is a lag inherently in the model.</p>
+                    </list-item>
+                    <list-item id="o0090">
+                      <label>3.</label>
+                      <p id="p0220">Re-infection is taken with a constant duration, but Re-infection dynamics will significantly vary in Spatio-temporal pattern. This is a major cause for the varying number of waves and active cases in different countries.</p>
+                    </list-item>
+                    <list-item id="o0095">
+                      <label>4.</label>
+                      <p id="p0225">The initial guesses will affect the number of iterations to optimize, so care has to be taken in choosing the initial guesses.</p>
+                    </list-item>
+                    <list-item id="o0100">
+                      <label>5.</label>
+                      <p id="p0230">The values of <italic>γ, δ</italic> are estimated from the trial and error, which is a difficult task when we are modeling for multiple countries. The values will vary with a significant change in order.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </sec>
+            </sec>
+            <sec id="sec9">
+              <title>Research support</title>
+              <p id="p0235">This research received no external financial or non-financial support.</p>
+            </sec>
+            <sec id="sec10">
+              <title>Relationship</title>
+              <p id="p0240">There is no additional relationship to disclose.</p>
+            </sec>
+            <sec id="sec11">
+              <title>Patents and intellectual property</title>
+              <p id="p0245">There are no patents to disclose.</p>
+            </sec>
+            <sec id="sec12">
+              <title>Other activities</title>
+              <p id="p0250">There are no other activities to disclose Data Statement The data required to reproduce the above findings are available to download from <ext-link ext-link-type="uri" xlink:href="https://github.com/CSSEGISandData/COVID-19" id="intref0010">https://github.com/CSSEGISandData/COVID-19</ext-link>
+<ext-link ext-link-type="uri" xlink:href="https://ourworldindata.org/coronavirus/country/india" id="intref0015">https://ourworldindata.org/coronavirus/country/india</ext-link>.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of competing interest</title>
+              <p id="p0255">The authors declare that they have no conflict of interest.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="cebib0010">
+              <title>References</title>
+              <ref id="bib1">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sref1">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jothikumar</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Social economic impact of COVID-19 outbreak in India</article-title>
+                  <source>Int J Pervasive Comput Commun</source>
+                  <volume>16</volume>
+                  <issue>4</issue>
+                  <year>2020</year>
+                  <fpage>309</fpage>
+                  <lpage>319</lpage>
+                  <pub-id pub-id-type="doi">10.1108/ijpcc-06-2020-0053</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sref2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hethcote</surname>
+                      <given-names>H.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The mathematics of infectious diseases</article-title>
+                  <source>SIAM Rev</source>
+                  <volume>42</volume>
+                  <issue>4</issue>
+                  <year>2000</year>
+                  <fpage>599</fpage>
+                  <lpage>653</lpage>
+                  <pub-id pub-id-type="doi">10.1137/s0036144500371907</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sref3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cetron</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Landwirth</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Public health and ethical considerations in planning for quarantine</article-title>
+                  <source>Yale J Biol Med</source>
+                  <volume>78</volume>
+                  <issue>5</issue>
+                  <year>2005</year>
+                  <fpage>329</fpage>
+                  <lpage>334</lpage>
+                  <pub-id pub-id-type="pmid">17132339</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib4">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sref4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Webster</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The psychological impact of quarantine and how to reduce it: rapid review of the evidence</article-title>
+                  <source>Lancet</source>
+                  <volume>395</volume>
+                  <issue>10227</issue>
+                  <year>2020</year>
+                  <fpage>912</fpage>
+                  <lpage>920</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s0140-6736(20)30460-8</pub-id>
+                  <pub-id pub-id-type="pmid">32112714</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sref5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brauer</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical epidemiology: past, present, and future</article-title>
+                  <source>Infect Dis Model</source>
+                  <volume>2</volume>
+                  <issue>2</issue>
+                  <year>2017</year>
+                  <fpage>113</fpage>
+                  <lpage>127</lpage>
+                  <pub-id pub-id-type="pmid">29928732</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <label>6</label>
+                <element-citation publication-type="other" id="sref6">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>May</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                  </person-group>
+                  <pub-id pub-id-type="doi">10.1001/jama.1992.03490230111047</pub-id>
+                  <year>1992</year>
+                </element-citation>
+              </ref>
+              <ref id="bib7">
+                <label>7</label>
+                <element-citation publication-type="book" id="sref7">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>S</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>A</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Age-structured Impact of Social Distancing on the COVID-19</part-title>
+                  <year>2020</year>
+                  <ext-link ext-link-type="uri" xlink:href="https://github.com/rajeshrinet/pyross" id="intref0030">https://github.com/rajeshrinet/pyross</ext-link>
+                </element-citation>
+              </ref>
+              <ref id="bib8">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sref8">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Areekal</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rajesh</surname>
+                      <given-names>K.R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>First confirmed case of COVID-19 infection in India: a case report</article-title>
+                  <comment>490–490</comment>
+                  <source>Indian J Med Res</source>
+                  <volume>151</volume>
+                  <issue>5</issue>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.4103/ijmr.ijmr_2131_20</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib9">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sref9">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Malavika</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marimuthu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Joy</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nadaraj</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Asirvatham</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeyaseelan</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting COVID- 19 epidemic in India and high incidence states using SIR and logistic growth models</article-title>
+                  <source>Clin. Epidemi- ol. Global Health</source>
+                  <volume>9</volume>
+                  <year>2021</year>
+                  <fpage>26</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cegh.2020.06.006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib10">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sref10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pai</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhaskar</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rawoot</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Investigating the dynamics of COVID-19 pandemic in India under lockdown, Chaos</article-title>
+                  <comment>109988–109988</comment>
+                  <source>Solit. Fractals</source>
+                  <volume>138</volume>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109988</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib11">
+                <label>11</label>
+                <element-citation publication-type="book" id="sref11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hull</surname>
+                      <given-names>D.G.</given-names>
+                    </name>
+                  </person-group>
+                  <series>Optimal Control Theory for Applications</series>
+                  <year>2003</year>
+                  <publisher-name>Springer-Verlag</publisher-name>
+                  <publisher-loc>New Yor</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib12">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sref12">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Obadia</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haneef</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boëlle</surname>
+                      <given-names>P.-Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The R0 package: a toolbox to estimate reproduction num- bers for epidemic outbreaks</article-title>
+                  <comment>147–147</comment>
+                  <source>BMC Med Inf Decis Making</source>
+                  <volume>12</volume>
+                  <issue>1</issue>
+                  <year>2012</year>
+                  <pub-id pub-id-type="doi">10.1186/1472-6947-12-147</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib13">
+                <label>13</label>
+                <element-citation publication-type="book" id="sref13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Betts</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Practical Methods for Optimal Control Using Nonlinear Programming</part-title>
+                  <year>2001</year>
+                </element-citation>
+              </ref>
+              <ref id="bib14">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sref14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Early transmission dynamics in wuhan, China, of novel coronavirus-infected pneumonia</article-title>
+                  <source>N Engl J Med</source>
+                  <volume>382</volume>
+                  <issue>13</issue>
+                  <year>2020</year>
+                  <fpage>1199</fpage>
+                  <lpage>1207</lpage>
+                  <pub-id pub-id-type="pmid">31995857</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib15">
+                <label>15</label>
+                <element-citation publication-type="book" id="sref15">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tao</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>The Impact of Social Distancing and Epicenter Lockdown on the COVID-19 Epidemic in Mainland China: A Data-Driven SEIQR Model Study</part-title>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="bib16">
+                <label>16</label>
+                <element-citation publication-type="book" id="sref16">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cyranoski</surname>
+                    </name>
+                  </person-group>
+                  <part-title>When Will the Coronavirus Outbreak Peak?</part-title>
+                  <year>2020</year>
+                  <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/d41586-020-00361-5" id="intref0035">https://www.nature.com/articles/d41586-020-00361-5</ext-link>
+                </element-citation>
+              </ref>
+              <ref id="bib17">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sref17">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bhatnagar</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandal</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arinaminpathy</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prudent public health intervention strategies to control the coronavirus disease 2019 transmission in India: a mathematical model-based approach</article-title>
+                  <comment>0 (0)</comment>
+                  <source>Indian J Med Res</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.4103/ijmr.ijmr_504_20</pub-id>
+                  <comment>0–0</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib18">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sref18">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van den Driessche</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reproduction numbers of infectious disease models</article-title>
+                  <source>Infect. Dis. Model.</source>
+                  <volume>2</volume>
+                  <issue>3</issue>
+                  <year>2017</year>
+                  <fpage>288</fpage>
+                  <lpage>303</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.idm.2017.06.002</pub-id>
+                  <pub-id pub-id-type="pmid">29928743</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib19">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sref19">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kankan Sarkar</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modeling and forecasting the COVID-19 pandemic in India</article-title>
+                  <source>Chaos, Solit Fractals</source>
+                  <volume>139</volume>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.110049</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib20">
+                <label>20</label>
+                <mixed-citation publication-type="other" id="sref20">Face masks are new normal after COVID-19 pandemic, Diabetes &amp; Metabolic Syndrome 14 (6) 1617– 1619. URL:<pub-id pub-id-type="doi">10.1016/j.dsx.2020.08.021</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="bib21">
+                <label>21</label>
+                <element-citation publication-type="journal" id="sref21">
+                  <article-title>Internet of things (IoT) applications to fight against COVID-19 pandemic</article-title>
+                  <source>Diabetes MetabSyndr Clin Res Rev</source>
+                  <volume>14</volume>
+                  <year>2020</year>
+                  <fpage>521</fpage>
+                  <lpage>525</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dsx.2020.04.041</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib22">
+                <label>22</label>
+                <mixed-citation publication-type="other" id="sref22">Industry 5.0: Potential applications in COVID-19, Journal of Industrial Integration and Management.URL: <pub-id pub-id-type="doi">10.1142/S2424862220500220</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="bib23">
+                <label>23</label>
+                <mixed-citation publication-type="other" id="sref23">Medical 4.0 and its role in healthcare during COVID-19 pandemic: A review, Journal of Industrial Integration and Management.URL: <pub-id pub-id-type="doi">10.1142/S2424862220300045</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="bib24">
+                <label>24</label>
+                <element-citation publication-type="journal" id="sref24">
+                  <article-title>Internet of medical things (IoMT) for orthopaedic in COVID-19 pandemic: roles, challenges, and applications</article-title>
+                  <source>J Clin Orthop</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.jcot.2020.05.011</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib25">
+                <label>25</label>
+                <element-citation publication-type="journal" id="sref25">
+                  <article-title>Industry 4.0 technologies and their applications in fighting COVID-19 pandemic</article-title>
+                  <source>Diabetes MetabSyndr Clin Res Rev</source>
+                  <volume>14</volume>
+                  <year>2020</year>
+                  <fpage>419</fpage>
+                  <lpage>441</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dsx.2020.04.032</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <sec id="appsec3">
+              <label>Appendix</label>
+              <p id="p0270">
+                <table-wrap position="anchor" id="undtbl1">
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Actual</th>
+                        <th>Predicted-with lockdown</th>
+                        <th>CI95_Lower bound</th>
+                        <th>CI95_Upper bound</th>
+                        <th>Predicted-without lockdown</th>
+                        <th>CI95_Lower bound 2</th>
+                        <th>CI95_Upper bound 3</th>
+                        <th>Predicted-periodic lockdown</th>
+                        <th>CI95_Lower bound 4</th>
+                        <th>CI95_Upper bound 5</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left">‘26-May-2021′</td>
+                        <td align="left">26948874</td>
+                        <td align="left">26743500.5</td>
+                        <td align="left">26650206.3</td>
+                        <td align="left">26836794.7</td>
+                        <td align="left">26743500.5</td>
+                        <td align="left">26421336.9</td>
+                        <td align="left">27065664.1</td>
+                        <td align="left">26743500.5</td>
+                        <td align="left">26650206.3</td>
+                        <td align="left">26836795</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘27-May-2021′</td>
+                        <td align="left">27157795</td>
+                        <td align="left">27095131.3</td>
+                        <td align="left">27001837.1</td>
+                        <td align="left">27188425.5</td>
+                        <td align="left">27095131.3</td>
+                        <td align="left">26772967.7</td>
+                        <td align="left">27417294.9</td>
+                        <td align="left">27095131.3</td>
+                        <td align="left">27001837.1</td>
+                        <td align="left">27188425</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘28-May-2021′</td>
+                        <td align="left">27369093</td>
+                        <td align="left">27440107.7</td>
+                        <td align="left">27346813.5</td>
+                        <td align="left">27533401.9</td>
+                        <td align="left">27440107.7</td>
+                        <td align="left">27117944.1</td>
+                        <td align="left">27762271.3</td>
+                        <td align="left">27440107.7</td>
+                        <td align="left">27346813.5</td>
+                        <td align="left">27533402</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘29-May-2021′</td>
+                        <td align="left">27555457</td>
+                        <td align="left">27777952.8</td>
+                        <td align="left">27684658.6</td>
+                        <td align="left">27871247.1</td>
+                        <td align="left">27777952.8</td>
+                        <td align="left">27455789.2</td>
+                        <td align="left">28100116.4</td>
+                        <td align="left">27777952.8</td>
+                        <td align="left">27684658.6</td>
+                        <td align="left">27871247</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘30-May-2021′</td>
+                        <td align="left">27729247</td>
+                        <td align="left">28108220.9</td>
+                        <td align="left">28014926.7</td>
+                        <td align="left">28201515.1</td>
+                        <td align="left">28108220.9</td>
+                        <td align="left">27786057.3</td>
+                        <td align="left">28430384.5</td>
+                        <td align="left">28108220.9</td>
+                        <td align="left">28014926.7</td>
+                        <td align="left">28201515</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘31-May-2021′</td>
+                        <td align="left">27894800</td>
+                        <td align="left">28430517.7</td>
+                        <td align="left">28337223.5</td>
+                        <td align="left">28523811.9</td>
+                        <td align="left">28431191.1</td>
+                        <td align="left">28109027.5</td>
+                        <td align="left">28753354.7</td>
+                        <td align="left">28430891.8</td>
+                        <td align="left">28337597.6</td>
+                        <td align="left">28524186</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘01-Jun-2021′</td>
+                        <td align="left">28047534</td>
+                        <td align="left">28744498.6</td>
+                        <td align="left">28651204.3</td>
+                        <td align="left">28837792.8</td>
+                        <td align="left">28747134.8</td>
+                        <td align="left">28424971.2</td>
+                        <td align="left">29069298.4</td>
+                        <td align="left">28745961.6</td>
+                        <td align="left">28652667.3</td>
+                        <td align="left">28839256</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘02-Jun-2021′</td>
+                        <td align="left">28175044</td>
+                        <td align="left">29049839.7</td>
+                        <td align="left">28956545.5</td>
+                        <td align="left">29143133.9</td>
+                        <td align="left">29056287.6</td>
+                        <td align="left">28734124</td>
+                        <td align="left">29378451.2</td>
+                        <td align="left">29053413.4</td>
+                        <td align="left">28960119.1</td>
+                        <td align="left">29146708</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘03-Jun-2021′</td>
+                        <td align="left">28307832</td>
+                        <td align="left">29346287.4</td>
+                        <td align="left">29252993.2</td>
+                        <td align="left">29439581.6</td>
+                        <td align="left">29358899.4</td>
+                        <td align="left">29036735.8</td>
+                        <td align="left">29681063</td>
+                        <td align="left">29353266.3</td>
+                        <td align="left">29259972.1</td>
+                        <td align="left">29446561</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘04-Jun-2021′</td>
+                        <td align="left">28441986</td>
+                        <td align="left">29633625.9</td>
+                        <td align="left">29540331.7</td>
+                        <td align="left">29726920.1</td>
+                        <td align="left">29655203.4</td>
+                        <td align="left">29333039.9</td>
+                        <td align="left">29977367</td>
+                        <td align="left">29645544</td>
+                        <td align="left">29552249.8</td>
+                        <td align="left">29738838</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘05-Jun-2021′</td>
+                        <td align="left">28574350</td>
+                        <td align="left">29911673</td>
+                        <td align="left">29818378.8</td>
+                        <td align="left">30004967.3</td>
+                        <td align="left">29945413.5</td>
+                        <td align="left">29623249.9</td>
+                        <td align="left">30267577</td>
+                        <td align="left">29930270.1</td>
+                        <td align="left">29836975.9</td>
+                        <td align="left">30023564</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘06-Jun-2021′</td>
+                        <td align="left">28694879</td>
+                        <td align="left">30180292.2</td>
+                        <td align="left">30086998</td>
+                        <td align="left">30273586.4</td>
+                        <td align="left">30229737.2</td>
+                        <td align="left">29907573.6</td>
+                        <td align="left">30551900.8</td>
+                        <td align="left">30207481.6</td>
+                        <td align="left">30114187.4</td>
+                        <td align="left">30300776</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘07-Jun-2021′</td>
+                        <td align="left">28809339</td>
+                        <td align="left">30439390</td>
+                        <td align="left">30346095.7</td>
+                        <td align="left">30532684.2</td>
+                        <td align="left">30508376.3</td>
+                        <td align="left">30186212.7</td>
+                        <td align="left">30830539.9</td>
+                        <td align="left">30477226.9</td>
+                        <td align="left">30383932.7</td>
+                        <td align="left">30570521</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘08-Jun-2021′</td>
+                        <td align="left">28909975</td>
+                        <td align="left">30688898.9</td>
+                        <td align="left">30595604.7</td>
+                        <td align="left">30782193.1</td>
+                        <td align="left">30781510</td>
+                        <td align="left">30459346.4</td>
+                        <td align="left">31103673.6</td>
+                        <td align="left">30739549.8</td>
+                        <td align="left">30646255.5</td>
+                        <td align="left">30832844</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘09-Jun-2021′</td>
+                        <td align="left">28996473</td>
+                        <td align="left">30928808.8</td>
+                        <td align="left">30835514.5</td>
+                        <td align="left">31022103</td>
+                        <td align="left">31049330.6</td>
+                        <td align="left">30727167.1</td>
+                        <td align="left">31371494.2</td>
+                        <td align="left">30994522.8</td>
+                        <td align="left">30901228.5</td>
+                        <td align="left">31087817</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘10-Jun-2021′</td>
+                        <td align="left">29089069</td>
+                        <td align="left">31159143.4</td>
+                        <td align="left">31065849.2</td>
+                        <td align="left">31252437.6</td>
+                        <td align="left">31312022.6</td>
+                        <td align="left">30989859.1</td>
+                        <td align="left">31634186.2</td>
+                        <td align="left">31242225.4</td>
+                        <td align="left">31148931.2</td>
+                        <td align="left">31335520</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘11-Jun-2021′</td>
+                        <td align="left">29182532</td>
+                        <td align="left">31379954.5</td>
+                        <td align="left">31286660.2</td>
+                        <td align="left">31473248.7</td>
+                        <td align="left">31569757.7</td>
+                        <td align="left">31247594.1</td>
+                        <td align="left">31891921.3</td>
+                        <td align="left">31482739.2</td>
+                        <td align="left">31389445</td>
+                        <td align="left">31576033</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘12-Jun-2021′</td>
+                        <td align="left">29274823</td>
+                        <td align="left">31591316.5</td>
+                        <td align="left">31498022.3</td>
+                        <td align="left">31684610.7</td>
+                        <td align="left">31822691.8</td>
+                        <td align="left">31500528.2</td>
+                        <td align="left">32144855.4</td>
+                        <td align="left">31716143.9</td>
+                        <td align="left">31622849.7</td>
+                        <td align="left">31809438</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘13-Jun-2021′</td>
+                        <td align="left">29359155</td>
+                        <td align="left">31793334</td>
+                        <td align="left">31700039.8</td>
+                        <td align="left">31886628.2</td>
+                        <td align="left">32070975.6</td>
+                        <td align="left">31748812.1</td>
+                        <td align="left">32393139.2</td>
+                        <td align="left">31942527</td>
+                        <td align="left">31849232.8</td>
+                        <td align="left">32035821</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘14-Jun-2021′</td>
+                        <td align="left">29439989</td>
+                        <td align="left">31986137.8</td>
+                        <td align="left">31892843.6</td>
+                        <td align="left">32079432</td>
+                        <td align="left">32314753.8</td>
+                        <td align="left">31992590.2</td>
+                        <td align="left">32636917.3</td>
+                        <td align="left">32161982.1</td>
+                        <td align="left">32068687.9</td>
+                        <td align="left">32255276</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘15-Jun-2021′</td>
+                        <td align="left">29510410</td>
+                        <td align="left">32169882.6</td>
+                        <td align="left">32076588.4</td>
+                        <td align="left">32263176.8</td>
+                        <td align="left">32554164.3</td>
+                        <td align="left">32232000.7</td>
+                        <td align="left">32876327.9</td>
+                        <td align="left">32374607.7</td>
+                        <td align="left">32281313.4</td>
+                        <td align="left">32467902</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘16-Jun-2021′</td>
+                        <td align="left">29570881</td>
+                        <td align="left">32344750.2</td>
+                        <td align="left">32251456</td>
+                        <td align="left">32438044.4</td>
+                        <td align="left">32789347.1</td>
+                        <td align="left">32467183.5</td>
+                        <td align="left">33111510.6</td>
+                        <td align="left">32580513.9</td>
+                        <td align="left">32487219.7</td>
+                        <td align="left">32673808</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘17-Jun-2021′</td>
+                        <td align="left">29633105</td>
+                        <td align="left">32510936.9</td>
+                        <td align="left">32417642.6</td>
+                        <td align="left">32604231.1</td>
+                        <td align="left">33020430.2</td>
+                        <td align="left">32698266.6</td>
+                        <td align="left">33342593.8</td>
+                        <td align="left">32779810</td>
+                        <td align="left">32686515.7</td>
+                        <td align="left">32873104</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘18-Jun-2021′</td>
+                        <td align="left">29700313</td>
+                        <td align="left">32668655.5</td>
+                        <td align="left">32575361.2</td>
+                        <td align="left">32761949.7</td>
+                        <td align="left">33247536.5</td>
+                        <td align="left">32925372.9</td>
+                        <td align="left">33569700</td>
+                        <td align="left">32972608.9</td>
+                        <td align="left">32879314.7</td>
+                        <td align="left">33065903</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘19-Jun-2021′</td>
+                        <td align="left">29762793</td>
+                        <td align="left">32818136.5</td>
+                        <td align="left">32724842.2</td>
+                        <td align="left">32911430.7</td>
+                        <td align="left">33470787.6</td>
+                        <td align="left">33148624</td>
+                        <td align="left">33792951.2</td>
+                        <td align="left">33159030.8</td>
+                        <td align="left">33065736.6</td>
+                        <td align="left">33252325</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘20-Jun-2021′</td>
+                        <td align="left">29823546</td>
+                        <td align="left">32959622.4</td>
+                        <td align="left">32866328.2</td>
+                        <td align="left">33052916.6</td>
+                        <td align="left">33690300.3</td>
+                        <td align="left">33368136.8</td>
+                        <td align="left">34012463.9</td>
+                        <td align="left">33339198.9</td>
+                        <td align="left">33245904.7</td>
+                        <td align="left">33432493</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘21-Jun-2021′</td>
+                        <td align="left">29881772</td>
+                        <td align="left">33093360.5</td>
+                        <td align="left">33000066.3</td>
+                        <td align="left">33186654.8</td>
+                        <td align="left">33906178.5</td>
+                        <td align="left">33584014.9</td>
+                        <td align="left">34228342.1</td>
+                        <td align="left">33513232.1</td>
+                        <td align="left">33419937.9</td>
+                        <td align="left">33606526</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘22-Jun-2021′</td>
+                        <td align="left">29935221</td>
+                        <td align="left">33219613.5</td>
+                        <td align="left">33126319.3</td>
+                        <td align="left">33312907.7</td>
+                        <td align="left">34118531.8</td>
+                        <td align="left">33796368.3</td>
+                        <td align="left">34440695.4</td>
+                        <td align="left">33681260.4</td>
+                        <td align="left">33587966.2</td>
+                        <td align="left">33774555</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘23-Jun-2021′</td>
+                        <td align="left">29977861</td>
+                        <td align="left">33338648.5</td>
+                        <td align="left">33245354.3</td>
+                        <td align="left">33431942.7</td>
+                        <td align="left">34327463.5</td>
+                        <td align="left">34005299.9</td>
+                        <td align="left">34649627.1</td>
+                        <td align="left">33843413.9</td>
+                        <td align="left">33750119.7</td>
+                        <td align="left">33936708</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘24-Jun-2021′</td>
+                        <td align="left">30028709</td>
+                        <td align="left">33450741.3</td>
+                        <td align="left">33357447.1</td>
+                        <td align="left">33544035.5</td>
+                        <td align="left">34533079.5</td>
+                        <td align="left">34210915.9</td>
+                        <td align="left">34855243.1</td>
+                        <td align="left">33999829.7</td>
+                        <td align="left">33906535.5</td>
+                        <td align="left">34093124</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘25-Jun-2021′</td>
+                        <td align="left">30082778</td>
+                        <td align="left">33556150.5</td>
+                        <td align="left">33462856.3</td>
+                        <td align="left">33649444.7</td>
+                        <td align="left">34735446.2</td>
+                        <td align="left">34413282.6</td>
+                        <td align="left">35057609.8</td>
+                        <td align="left">34150618.5</td>
+                        <td align="left">34057324.3</td>
+                        <td align="left">34243913</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘26-Jun-2021′</td>
+                        <td align="left">30134445</td>
+                        <td align="left">33655145.8</td>
+                        <td align="left">33561851.6</td>
+                        <td align="left">33748440</td>
+                        <td align="left">34934640.8</td>
+                        <td align="left">34612477.2</td>
+                        <td align="left">35256804.4</td>
+                        <td align="left">34296063.6</td>
+                        <td align="left">34202769.4</td>
+                        <td align="left">34389358</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘27-Jun-2021′</td>
+                        <td align="left">30183143</td>
+                        <td align="left">33748010.7</td>
+                        <td align="left">33654716.5</td>
+                        <td align="left">33841304.9</td>
+                        <td align="left">35130762.6</td>
+                        <td align="left">34808599</td>
+                        <td align="left">35452926.1</td>
+                        <td align="left">34436449.2</td>
+                        <td align="left">34343155</td>
+                        <td align="left">34529743</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘28-Jun-2021′</td>
+                        <td align="left">30233183</td>
+                        <td align="left">33835013.3</td>
+                        <td align="left">33741719.1</td>
+                        <td align="left">33928307.5</td>
+                        <td align="left">35323879.8</td>
+                        <td align="left">35001716.2</td>
+                        <td align="left">35646043.3</td>
+                        <td align="left">34572022.6</td>
+                        <td align="left">34478728.4</td>
+                        <td align="left">34665317</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘29-Jun-2021′</td>
+                        <td align="left">30279331</td>
+                        <td align="left">33916422.9</td>
+                        <td align="left">33823128.7</td>
+                        <td align="left">34009717.1</td>
+                        <td align="left">35514063.2</td>
+                        <td align="left">35191899.6</td>
+                        <td align="left">35836226.7</td>
+                        <td align="left">34703019.8</td>
+                        <td align="left">34609725.6</td>
+                        <td align="left">34796314</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘30-Jun-2021′</td>
+                        <td align="left">30316897</td>
+                        <td align="left">33992494.8</td>
+                        <td align="left">33899200.5</td>
+                        <td align="left">34085789</td>
+                        <td align="left">35701354.3</td>
+                        <td align="left">35379190.8</td>
+                        <td align="left">36023517.9</td>
+                        <td align="left">34829644.8</td>
+                        <td align="left">34736350.5</td>
+                        <td align="left">34922939</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘01-Jul-2021′</td>
+                        <td align="left">30362848</td>
+                        <td align="left">34063499.8</td>
+                        <td align="left">33970205.5</td>
+                        <td align="left">34156794</td>
+                        <td align="left">35885835.5</td>
+                        <td align="left">35563671.9</td>
+                        <td align="left">36207999.1</td>
+                        <td align="left">34952118.5</td>
+                        <td align="left">34858824.3</td>
+                        <td align="left">35045413</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘02-Jul-2021′</td>
+                        <td align="left">30411634</td>
+                        <td align="left">34129691.2</td>
+                        <td align="left">34036397</td>
+                        <td align="left">34222985.5</td>
+                        <td align="left">36067556.2</td>
+                        <td align="left">35745392.6</td>
+                        <td align="left">36389719.8</td>
+                        <td align="left">35070629.2</td>
+                        <td align="left">34977335</td>
+                        <td align="left">35163923</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘03-Jul-2021′</td>
+                        <td align="left">30458251</td>
+                        <td align="left">34191308</td>
+                        <td align="left">34098013.7</td>
+                        <td align="left">34284602.2</td>
+                        <td align="left">36246536.4</td>
+                        <td align="left">35924372.8</td>
+                        <td align="left">36568700</td>
+                        <td align="left">35185336.5</td>
+                        <td align="left">35092042.3</td>
+                        <td align="left">35278631</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘04-Jul-2021′</td>
+                        <td align="left">30502362</td>
+                        <td align="left">34248603</td>
+                        <td align="left">34155308.8</td>
+                        <td align="left">34341897.2</td>
+                        <td align="left">36422846</td>
+                        <td align="left">36100682.4</td>
+                        <td align="left">36745009.6</td>
+                        <td align="left">35296424</td>
+                        <td align="left">35203129.8</td>
+                        <td align="left">35389718</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘05-Jul-2021′</td>
+                        <td align="left">30545433</td>
+                        <td align="left">34301807.4</td>
+                        <td align="left">34208513.2</td>
+                        <td align="left">34395101.6</td>
+                        <td align="left">36596508.6</td>
+                        <td align="left">36274345</td>
+                        <td align="left">36918672.2</td>
+                        <td align="left">35404037.4</td>
+                        <td align="left">35310743.2</td>
+                        <td align="left">35497332</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘06-Jul-2021′</td>
+                        <td align="left">30585229</td>
+                        <td align="left">34351168.1</td>
+                        <td align="left">34257873.9</td>
+                        <td align="left">34444462.3</td>
+                        <td align="left">36767615.9</td>
+                        <td align="left">36445452.3</td>
+                        <td align="left">37089779.5</td>
+                        <td align="left">35508357.4</td>
+                        <td align="left">35415063.1</td>
+                        <td align="left">35601652</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘07-Jul-2021′</td>
+                        <td align="left">30619932</td>
+                        <td align="left">34396880.9</td>
+                        <td align="left">34303586.6</td>
+                        <td align="left">34490175.1</td>
+                        <td align="left">36936114.3</td>
+                        <td align="left">36613950.8</td>
+                        <td align="left">37258277.9</td>
+                        <td align="left">35609467.4</td>
+                        <td align="left">35516173.2</td>
+                        <td align="left">35702762</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘08-Jul-2021′</td>
+                        <td align="left">30663665</td>
+                        <td align="left">34439168.3</td>
+                        <td align="left">34345874</td>
+                        <td align="left">34532462.5</td>
+                        <td align="left">37102057.1</td>
+                        <td align="left">36779893.5</td>
+                        <td align="left">37424220.7</td>
+                        <td align="left">35707511.1</td>
+                        <td align="left">35614216.8</td>
+                        <td align="left">35800805</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘09-Jul-2021′</td>
+                        <td align="left">30709557</td>
+                        <td align="left">34478230.8</td>
+                        <td align="left">34384936.5</td>
+                        <td align="left">34571525</td>
+                        <td align="left">37265443.3</td>
+                        <td align="left">36943279.7</td>
+                        <td align="left">37587606.9</td>
+                        <td align="left">35802593.2</td>
+                        <td align="left">35709299</td>
+                        <td align="left">35895887</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘10-Jul-2021′</td>
+                        <td align="left">30752950</td>
+                        <td align="left">34514273.6</td>
+                        <td align="left">34420979.4</td>
+                        <td align="left">34607567.8</td>
+                        <td align="left">37426316.8</td>
+                        <td align="left">37104153.3</td>
+                        <td align="left">37748480.4</td>
+                        <td align="left">35894737.7</td>
+                        <td align="left">35801443.5</td>
+                        <td align="left">35988032</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘11-Jul-2021′</td>
+                        <td align="left">30795716</td>
+                        <td align="left">34547489.3</td>
+                        <td align="left">34454195.1</td>
+                        <td align="left">34640783.6</td>
+                        <td align="left">37584703.3</td>
+                        <td align="left">37262539.7</td>
+                        <td align="left">37906866.9</td>
+                        <td align="left">35983962.8</td>
+                        <td align="left">35890668.6</td>
+                        <td align="left">36077257</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘12-Jul-2021′</td>
+                        <td align="left">30837222</td>
+                        <td align="left">34578039.5</td>
+                        <td align="left">34484745.3</td>
+                        <td align="left">34671333.8</td>
+                        <td align="left">37740518.3</td>
+                        <td align="left">37418354.7</td>
+                        <td align="left">38062681.9</td>
+                        <td align="left">36070229.6</td>
+                        <td align="left">35976935.4</td>
+                        <td align="left">36163524</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘13-Jul-2021′</td>
+                        <td align="left">30874376</td>
+                        <td align="left">34606116.2</td>
+                        <td align="left">34512822</td>
+                        <td align="left">34699410.4</td>
+                        <td align="left">37893849.6</td>
+                        <td align="left">37571686</td>
+                        <td align="left">38216013.2</td>
+                        <td align="left">36153602.4</td>
+                        <td align="left">36060308.2</td>
+                        <td align="left">36246897</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘14-Jul-2021′</td>
+                        <td align="left">30907282</td>
+                        <td align="left">34631902.8</td>
+                        <td align="left">34538608.6</td>
+                        <td align="left">34725197</td>
+                        <td align="left">38044798.8</td>
+                        <td align="left">37722635.2</td>
+                        <td align="left">38366962.4</td>
+                        <td align="left">36234155.5</td>
+                        <td align="left">36140861.2</td>
+                        <td align="left">36327450</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘15-Jul-2021′</td>
+                        <td align="left">30946147</td>
+                        <td align="left">34655566</td>
+                        <td align="left">34562271.8</td>
+                        <td align="left">34748860.2</td>
+                        <td align="left">38193433.4</td>
+                        <td align="left">37871269.8</td>
+                        <td align="left">38515597</td>
+                        <td align="left">36311946.6</td>
+                        <td align="left">36218652.4</td>
+                        <td align="left">36405241</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘16-Jul-2021′</td>
+                        <td align="left">30987880</td>
+                        <td align="left">34677252.1</td>
+                        <td align="left">34583957.9</td>
+                        <td align="left">34770546.4</td>
+                        <td align="left">38339753.7</td>
+                        <td align="left">38017590.2</td>
+                        <td align="left">38661917.3</td>
+                        <td align="left">36387000.8</td>
+                        <td align="left">36293706.5</td>
+                        <td align="left">36480295</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘17-Jul-2021′</td>
+                        <td align="left">31026829</td>
+                        <td align="left">34697103.8</td>
+                        <td align="left">34603809.6</td>
+                        <td align="left">34790398</td>
+                        <td align="left">38483783.2</td>
+                        <td align="left">38161619.6</td>
+                        <td align="left">38805946.7</td>
+                        <td align="left">36459358.7</td>
+                        <td align="left">36366064.5</td>
+                        <td align="left">36552653</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘18-Jul-2021′</td>
+                        <td align="left">31064908</td>
+                        <td align="left">34715254.9</td>
+                        <td align="left">34621960.7</td>
+                        <td align="left">34808549.2</td>
+                        <td align="left">38625538.7</td>
+                        <td align="left">38303375.1</td>
+                        <td align="left">38947702.3</td>
+                        <td align="left">36529061.4</td>
+                        <td align="left">36435767.2</td>
+                        <td align="left">36622356</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘19-Jul-2021′</td>
+                        <td align="left">31106065</td>
+                        <td align="left">34731832.7</td>
+                        <td align="left">34638538.5</td>
+                        <td align="left">34825126.9</td>
+                        <td align="left">38765041.8</td>
+                        <td align="left">38442878.2</td>
+                        <td align="left">39087205.4</td>
+                        <td align="left">36596155.1</td>
+                        <td align="left">36502860.8</td>
+                        <td align="left">36689449</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘20-Jul-2021′</td>
+                        <td align="left">31144229</td>
+                        <td align="left">34746954.8</td>
+                        <td align="left">34653660.5</td>
+                        <td align="left">34840249</td>
+                        <td align="left">38902297.2</td>
+                        <td align="left">38580133.6</td>
+                        <td align="left">39224460.8</td>
+                        <td align="left">36660680.4</td>
+                        <td align="left">36567386.2</td>
+                        <td align="left">36753975</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘21-Jul-2021′</td>
+                        <td align="left">31174322</td>
+                        <td align="left">34760730.8</td>
+                        <td align="left">34667436.5</td>
+                        <td align="left">34854025</td>
+                        <td align="left">39037298.1</td>
+                        <td align="left">38715134.5</td>
+                        <td align="left">39359461.7</td>
+                        <td align="left">36722675.8</td>
+                        <td align="left">36629381.6</td>
+                        <td align="left">36815970</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘22-Jul-2021′</td>
+                        <td align="left">31216337</td>
+                        <td align="left">34773273.1</td>
+                        <td align="left">34679978.9</td>
+                        <td align="left">34866567.3</td>
+                        <td align="left">39170127</td>
+                        <td align="left">38847963.5</td>
+                        <td align="left">39492290.6</td>
+                        <td align="left">36782223.8</td>
+                        <td align="left">36688929.6</td>
+                        <td align="left">36875518</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘23-Jul-2021′</td>
+                        <td align="left">31257720</td>
+                        <td align="left">34784684.6</td>
+                        <td align="left">34691390.4</td>
+                        <td align="left">34877978.9</td>
+                        <td align="left">39300852.5</td>
+                        <td align="left">38978689</td>
+                        <td align="left">39623016.1</td>
+                        <td align="left">36839400.3</td>
+                        <td align="left">36746106</td>
+                        <td align="left">36932694</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘24-Jul-2021′</td>
+                        <td align="left">31293062</td>
+                        <td align="left">34795056.9</td>
+                        <td align="left">34701762.7</td>
+                        <td align="left">34888351.2</td>
+                        <td align="left">39429499.7</td>
+                        <td align="left">39107336.1</td>
+                        <td align="left">39751663.3</td>
+                        <td align="left">36894262.3</td>
+                        <td align="left">36800968</td>
+                        <td align="left">36987556</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘25-Jul-2021′</td>
+                        <td align="left">31293062</td>
+                        <td align="left">34804476.5</td>
+                        <td align="left">34711182.3</td>
+                        <td align="left">34897770.7</td>
+                        <td align="left">39556108</td>
+                        <td align="left">39233944.4</td>
+                        <td align="left">39878271.5</td>
+                        <td align="left">36946874.1</td>
+                        <td align="left">36853579.9</td>
+                        <td align="left">37040168</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘26-Jul-2021′</td>
+                        <td align="left">31371901</td>
+                        <td align="left">34813020.1</td>
+                        <td align="left">34719725.8</td>
+                        <td align="left">34906314.3</td>
+                        <td align="left">39680669.1</td>
+                        <td align="left">39358505.5</td>
+                        <td align="left">40002832.7</td>
+                        <td align="left">36997281</td>
+                        <td align="left">36903986.8</td>
+                        <td align="left">37090575</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘27-Jul-2021′</td>
+                        <td align="left">31411262</td>
+                        <td align="left">34820760.4</td>
+                        <td align="left">34727466.1</td>
+                        <td align="left">34914054.6</td>
+                        <td align="left">39803189</td>
+                        <td align="left">39481025.4</td>
+                        <td align="left">40125352.6</td>
+                        <td align="left">37045535.7</td>
+                        <td align="left">36952241.5</td>
+                        <td align="left">37138830</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘28-Jul-2021′</td>
+                        <td align="left">31440951</td>
+                        <td align="left">34827764.7</td>
+                        <td align="left">34734470.5</td>
+                        <td align="left">34921058.9</td>
+                        <td align="left">39923668.6</td>
+                        <td align="left">39601505</td>
+                        <td align="left">40245832.1</td>
+                        <td align="left">37091690.2</td>
+                        <td align="left">36998396</td>
+                        <td align="left">37184984</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘29-Jul-2021′</td>
+                        <td align="left">31484605</td>
+                        <td align="left">34834098.2</td>
+                        <td align="left">34740804</td>
+                        <td align="left">34927392.4</td>
+                        <td align="left">40042151.1</td>
+                        <td align="left">39719987.5</td>
+                        <td align="left">40364314.7</td>
+                        <td align="left">37135814.2</td>
+                        <td align="left">37042519.9</td>
+                        <td align="left">37229108</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘30-Jul-2021′</td>
+                        <td align="left">31528114</td>
+                        <td align="left">34839817.6</td>
+                        <td align="left">34746523.4</td>
+                        <td align="left">34933111.8</td>
+                        <td align="left">40158620.6</td>
+                        <td align="left">39836457.1</td>
+                        <td align="left">40480784.2</td>
+                        <td align="left">37177954.5</td>
+                        <td align="left">37084660.3</td>
+                        <td align="left">37271249</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘31-Jul-2021′</td>
+                        <td align="left">31572344</td>
+                        <td align="left">34844976.9</td>
+                        <td align="left">34751682.6</td>
+                        <td align="left">34938271.1</td>
+                        <td align="left">40273084.5</td>
+                        <td align="left">39950920.9</td>
+                        <td align="left">40595248</td>
+                        <td align="left">37218168.1</td>
+                        <td align="left">37124873.9</td>
+                        <td align="left">37311462</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘01-Aug-2021′</td>
+                        <td align="left">31613993</td>
+                        <td align="left">34849626.2</td>
+                        <td align="left">34756332</td>
+                        <td align="left">34942920.4</td>
+                        <td align="left">40385559.6</td>
+                        <td align="left">40063396</td>
+                        <td align="left">40707723.2</td>
+                        <td align="left">37256515.7</td>
+                        <td align="left">37163221.5</td>
+                        <td align="left">37349810</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘02-Aug-2021′</td>
+                        <td align="left">31655824</td>
+                        <td align="left">34853811.5</td>
+                        <td align="left">34760517.3</td>
+                        <td align="left">34947105.8</td>
+                        <td align="left">40496052.3</td>
+                        <td align="left">40173888.7</td>
+                        <td align="left">40818215.9</td>
+                        <td align="left">37293054.2</td>
+                        <td align="left">37199759.9</td>
+                        <td align="left">37386348</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘03-Aug-2021′</td>
+                        <td align="left">31695958</td>
+                        <td align="left">34857575</td>
+                        <td align="left">34764280.8</td>
+                        <td align="left">34950869.2</td>
+                        <td align="left">40604568</td>
+                        <td align="left">40282404.4</td>
+                        <td align="left">40926731.6</td>
+                        <td align="left">37327840.4</td>
+                        <td align="left">37234546.2</td>
+                        <td align="left">37421135</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘04-Aug-2021′</td>
+                        <td align="left">31726507</td>
+                        <td align="left">34860957.9</td>
+                        <td align="left">34767663.6</td>
+                        <td align="left">34954252.1</td>
+                        <td align="left">40711179.3</td>
+                        <td align="left">40389015.8</td>
+                        <td align="left">41033342.9</td>
+                        <td align="left">37360952.7</td>
+                        <td align="left">37267658.5</td>
+                        <td align="left">37454247</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘05-Aug-2021′</td>
+                        <td align="left">31769132</td>
+                        <td align="left">34863997.3</td>
+                        <td align="left">34770703.1</td>
+                        <td align="left">34957291.5</td>
+                        <td align="left">40815953.8</td>
+                        <td align="left">40493790.2</td>
+                        <td align="left">41138117.3</td>
+                        <td align="left">37392465.8</td>
+                        <td align="left">37299171.6</td>
+                        <td align="left">37485760</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘06-Aug-2021′</td>
+                        <td align="left">31812114</td>
+                        <td align="left">34866727</td>
+                        <td align="left">34773432.8</td>
+                        <td align="left">34960021.2</td>
+                        <td align="left">40918953.4</td>
+                        <td align="left">40596789.9</td>
+                        <td align="left">41241117</td>
+                        <td align="left">37422450.3</td>
+                        <td align="left">37329156.1</td>
+                        <td align="left">37515745</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘07-Aug-2021′</td>
+                        <td align="left">31856757</td>
+                        <td align="left">34869177.7</td>
+                        <td align="left">34775883.5</td>
+                        <td align="left">34962472</td>
+                        <td align="left">41020245.9</td>
+                        <td align="left">40698082.3</td>
+                        <td align="left">41342409.5</td>
+                        <td align="left">37451007.4</td>
+                        <td align="left">37357713.2</td>
+                        <td align="left">37544302</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘08-Aug-2021′</td>
+                        <td align="left">31895385</td>
+                        <td align="left">34871376.3</td>
+                        <td align="left">34778082.1</td>
+                        <td align="left">34964670.5</td>
+                        <td align="left">41119858.3</td>
+                        <td align="left">40797694.7</td>
+                        <td align="left">41442021.9</td>
+                        <td align="left">37478219.7</td>
+                        <td align="left">37384925.4</td>
+                        <td align="left">37571514</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘09-Aug-2021′</td>
+                        <td align="left">31934455</td>
+                        <td align="left">34873346.9</td>
+                        <td align="left">34780052.7</td>
+                        <td align="left">34966641.1</td>
+                        <td align="left">41217801.6</td>
+                        <td align="left">40895638</td>
+                        <td align="left">41539965.2</td>
+                        <td align="left">37504159.9</td>
+                        <td align="left">37410865.7</td>
+                        <td align="left">37597454</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘10-Aug-2021′</td>
+                        <td align="left">31969954</td>
+                        <td align="left">34875111.8</td>
+                        <td align="left">34781817.6</td>
+                        <td align="left">34968406</td>
+                        <td align="left">41314098.8</td>
+                        <td align="left">40991935.2</td>
+                        <td align="left">41636262.4</td>
+                        <td align="left">37528899.8</td>
+                        <td align="left">37435605.5</td>
+                        <td align="left">37622194</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘11-Aug-2021′</td>
+                        <td align="left">31998158</td>
+                        <td align="left">34876691.1</td>
+                        <td align="left">34783396.9</td>
+                        <td align="left">34969985.3</td>
+                        <td align="left">41408766</td>
+                        <td align="left">41086602.4</td>
+                        <td align="left">41730929.5</td>
+                        <td align="left">37552504.3</td>
+                        <td align="left">37459210.1</td>
+                        <td align="left">37645799</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘12-Aug-2021′</td>
+                        <td align="left">32036511</td>
+                        <td align="left">34878103.6</td>
+                        <td align="left">34784809.4</td>
+                        <td align="left">34971397.8</td>
+                        <td align="left">41501846.5</td>
+                        <td align="left">41179682.9</td>
+                        <td align="left">41824010.1</td>
+                        <td align="left">37575041.5</td>
+                        <td align="left">37481747.3</td>
+                        <td align="left">37668336</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘13-Aug-2021′</td>
+                        <td align="left">32077706</td>
+                        <td align="left">34879365.9</td>
+                        <td align="left">34786071.7</td>
+                        <td align="left">34972660.2</td>
+                        <td align="left">41593353.2</td>
+                        <td align="left">41271189.6</td>
+                        <td align="left">41915516.8</td>
+                        <td align="left">37596567.6</td>
+                        <td align="left">37503273.4</td>
+                        <td align="left">37689862</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘14-Aug-2021′</td>
+                        <td align="left">32117826</td>
+                        <td align="left">34880493.3</td>
+                        <td align="left">34787199.1</td>
+                        <td align="left">34973787.5</td>
+                        <td align="left">41683314.7</td>
+                        <td align="left">41361151.1</td>
+                        <td align="left">42005478.2</td>
+                        <td align="left">37617139</td>
+                        <td align="left">37523844.7</td>
+                        <td align="left">37710433</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘15-Aug-2021′</td>
+                        <td align="left">32156493</td>
+                        <td align="left">34881499.3</td>
+                        <td align="left">34788205.1</td>
+                        <td align="left">34974793.6</td>
+                        <td align="left">41771752.3</td>
+                        <td align="left">41449588.7</td>
+                        <td align="left">42093915.9</td>
+                        <td align="left">37636807</td>
+                        <td align="left">37543512.8</td>
+                        <td align="left">37730101</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘16-Aug-2021′</td>
+                        <td align="left">32192576</td>
+                        <td align="left">34882397</td>
+                        <td align="left">34789102.8</td>
+                        <td align="left">34975691.2</td>
+                        <td align="left">41858724.2</td>
+                        <td align="left">41536560.6</td>
+                        <td align="left">42180887.8</td>
+                        <td align="left">37655628.1</td>
+                        <td align="left">37562333.8</td>
+                        <td align="left">37748922</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘17-Aug-2021′</td>
+                        <td align="left">32225513</td>
+                        <td align="left">34883197.7</td>
+                        <td align="left">34789903.5</td>
+                        <td align="left">34976491.9</td>
+                        <td align="left">41944289.8</td>
+                        <td align="left">41622126.2</td>
+                        <td align="left">42266453.4</td>
+                        <td align="left">37673655.2</td>
+                        <td align="left">37580361</td>
+                        <td align="left">37766949</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘18-Aug-2021′</td>
+                        <td align="left">32250679</td>
+                        <td align="left">34883911.4</td>
+                        <td align="left">34790617.2</td>
+                        <td align="left">34977205.6</td>
+                        <td align="left">42028454.1</td>
+                        <td align="left">41706290.5</td>
+                        <td align="left">42350617.7</td>
+                        <td align="left">37690926.8</td>
+                        <td align="left">37597632.6</td>
+                        <td align="left">37784221</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘19-Aug-2021′</td>
+                        <td align="left">32285857</td>
+                        <td align="left">34884547.4</td>
+                        <td align="left">34791253.1</td>
+                        <td align="left">34977841.6</td>
+                        <td align="left">42111276.9</td>
+                        <td align="left">41789113.3</td>
+                        <td align="left">42433440.4</td>
+                        <td align="left">37707490.2</td>
+                        <td align="left">37614195.9</td>
+                        <td align="left">37800784</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘20-Aug-2021′</td>
+                        <td align="left">32322258</td>
+                        <td align="left">34885114</td>
+                        <td align="left">34791819.8</td>
+                        <td align="left">34978408.2</td>
+                        <td align="left">42192805.3</td>
+                        <td align="left">41870641.7</td>
+                        <td align="left">42514968.9</td>
+                        <td align="left">37723387.2</td>
+                        <td align="left">37630093</td>
+                        <td align="left">37816681</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘21-Aug-2021′</td>
+                        <td align="left">32358829</td>
+                        <td align="left">34885618.6</td>
+                        <td align="left">34792324.3</td>
+                        <td align="left">34978912.8</td>
+                        <td align="left">42273070.7</td>
+                        <td align="left">41950907.1</td>
+                        <td align="left">42595234.2</td>
+                        <td align="left">37738637.5</td>
+                        <td align="left">37645343.3</td>
+                        <td align="left">37831932</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘22-Aug-2021′</td>
+                        <td align="left">32393286</td>
+                        <td align="left">34886067.5</td>
+                        <td align="left">34792773.3</td>
+                        <td align="left">34979361.7</td>
+                        <td align="left">42352072.6</td>
+                        <td align="left">42029909</td>
+                        <td align="left">42674236.2</td>
+                        <td align="left">37753255</td>
+                        <td align="left">37659960.8</td>
+                        <td align="left">37846549</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘23-Aug-2021′</td>
+                        <td align="left">32424234</td>
+                        <td align="left">34886466.7</td>
+                        <td align="left">34793172.4</td>
+                        <td align="left">34979760.9</td>
+                        <td align="left">42429820.8</td>
+                        <td align="left">42107657.2</td>
+                        <td align="left">42751984.4</td>
+                        <td align="left">37767255.6</td>
+                        <td align="left">37673961.4</td>
+                        <td align="left">37860550</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘24-Aug-2021′</td>
+                        <td align="left">32449306</td>
+                        <td align="left">34886821.4</td>
+                        <td align="left">34793527.1</td>
+                        <td align="left">34980115.6</td>
+                        <td align="left">42506340.7</td>
+                        <td align="left">42184177.2</td>
+                        <td align="left">42828504.3</td>
+                        <td align="left">37780658.7</td>
+                        <td align="left">37687364.4</td>
+                        <td align="left">37873953</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘25-Aug-2021′</td>
+                        <td align="left">32474773</td>
+                        <td align="left">34887136.3</td>
+                        <td align="left">34793842.1</td>
+                        <td align="left">34980430.6</td>
+                        <td align="left">42581643.3</td>
+                        <td align="left">42259479.7</td>
+                        <td align="left">42903806.9</td>
+                        <td align="left">37793480.7</td>
+                        <td align="left">37700186.4</td>
+                        <td align="left">37886775</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘26-Aug-2021′</td>
+                        <td align="left">32512366</td>
+                        <td align="left">34887415.8</td>
+                        <td align="left">34794121.6</td>
+                        <td align="left">34980710</td>
+                        <td align="left">42655726</td>
+                        <td align="left">42333562.4</td>
+                        <td align="left">42977889.6</td>
+                        <td align="left">37805736.1</td>
+                        <td align="left">37712441.9</td>
+                        <td align="left">37899030</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘27-Aug-2021′</td>
+                        <td align="left">32558530</td>
+                        <td align="left">34887663.6</td>
+                        <td align="left">34794369.4</td>
+                        <td align="left">34980957.8</td>
+                        <td align="left">42728613.1</td>
+                        <td align="left">42406449.5</td>
+                        <td align="left">43050776.7</td>
+                        <td align="left">37817444.3</td>
+                        <td align="left">37724150</td>
+                        <td align="left">37910738</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘28-Aug-2021′</td>
+                        <td align="left">32603188</td>
+                        <td align="left">34887883.3</td>
+                        <td align="left">34794589.1</td>
+                        <td align="left">34981177.5</td>
+                        <td align="left">42800325.5</td>
+                        <td align="left">42478161.9</td>
+                        <td align="left">43122489.1</td>
+                        <td align="left">37828623.6</td>
+                        <td align="left">37735329.3</td>
+                        <td align="left">37921918</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘29-Aug-2021′</td>
+                        <td align="left">32649947</td>
+                        <td align="left">34888077.8</td>
+                        <td align="left">34794783.6</td>
+                        <td align="left">34981372</td>
+                        <td align="left">42870855.4</td>
+                        <td align="left">42548691.8</td>
+                        <td align="left">43193019</td>
+                        <td align="left">37839287.9</td>
+                        <td align="left">37745993.7</td>
+                        <td align="left">37932582</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘30-Aug-2021′</td>
+                        <td align="left">32695030</td>
+                        <td align="left">34888249.9</td>
+                        <td align="left">34794955.7</td>
+                        <td align="left">34981544.2</td>
+                        <td align="left">42940218.8</td>
+                        <td align="left">42618055.2</td>
+                        <td align="left">43262382.4</td>
+                        <td align="left">37849454.9</td>
+                        <td align="left">37756160.7</td>
+                        <td align="left">37942749</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘31-Aug-2021′</td>
+                        <td align="left">32737939</td>
+                        <td align="left">34888402.1</td>
+                        <td align="left">34795107.9</td>
+                        <td align="left">34981696.3</td>
+                        <td align="left">43008396.9</td>
+                        <td align="left">42686233.3</td>
+                        <td align="left">43330560.5</td>
+                        <td align="left">37859137.2</td>
+                        <td align="left">37765842.9</td>
+                        <td align="left">37952431</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘01-Sep-2021′</td>
+                        <td align="left">32768880</td>
+                        <td align="left">34888536.5</td>
+                        <td align="left">34795242.3</td>
+                        <td align="left">34981830.7</td>
+                        <td align="left">43075385.7</td>
+                        <td align="left">42753222.1</td>
+                        <td align="left">43397549.3</td>
+                        <td align="left">37868349.4</td>
+                        <td align="left">37775055.1</td>
+                        <td align="left">37961644</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘02-Sep-2021′</td>
+                        <td align="left">32810845</td>
+                        <td align="left">34888655.1</td>
+                        <td align="left">34795360.9</td>
+                        <td align="left">34981949.3</td>
+                        <td align="left">43141188.5</td>
+                        <td align="left">42819024.9</td>
+                        <td align="left">43463352.1</td>
+                        <td align="left">37877107.5</td>
+                        <td align="left">37783813.2</td>
+                        <td align="left">37970402</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘03-Sep-2021′</td>
+                        <td align="left">32857937</td>
+                        <td align="left">34888759.7</td>
+                        <td align="left">34795465.4</td>
+                        <td align="left">34982053.9</td>
+                        <td align="left">43205805.5</td>
+                        <td align="left">42883641.9</td>
+                        <td align="left">43527969.1</td>
+                        <td align="left">37885426.8</td>
+                        <td align="left">37792132.5</td>
+                        <td align="left">37978721</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘04-Sep-2021′</td>
+                        <td align="left">32903289</td>
+                        <td align="left">34888851.8</td>
+                        <td align="left">34795557.6</td>
+                        <td align="left">34982146</td>
+                        <td align="left">43269256.8</td>
+                        <td align="left">42947093.2</td>
+                        <td align="left">43591420.3</td>
+                        <td align="left">37893325.1</td>
+                        <td align="left">37800030.9</td>
+                        <td align="left">37986619</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘05-Sep-2021′</td>
+                        <td align="left">32945907</td>
+                        <td align="left">34888932.9</td>
+                        <td align="left">34795638.7</td>
+                        <td align="left">34982227.1</td>
+                        <td align="left">43331505.4</td>
+                        <td align="left">43009341.8</td>
+                        <td align="left">43653669</td>
+                        <td align="left">37900812.9</td>
+                        <td align="left">37807518.7</td>
+                        <td align="left">37994107</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘06-Sep-2021′</td>
+                        <td align="left">32988673</td>
+                        <td align="left">34889004.2</td>
+                        <td align="left">34795710</td>
+                        <td align="left">34982298.5</td>
+                        <td align="left">43392563.2</td>
+                        <td align="left">43070399.6</td>
+                        <td align="left">43714726.7</td>
+                        <td align="left">37907906.7</td>
+                        <td align="left">37814612.5</td>
+                        <td align="left">38001201</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘07-Sep-2021′</td>
+                        <td align="left">33027621</td>
+                        <td align="left">34889066.9</td>
+                        <td align="left">34795772.7</td>
+                        <td align="left">34982361.2</td>
+                        <td align="left">43452455.6</td>
+                        <td align="left">43130292.1</td>
+                        <td align="left">43774619.2</td>
+                        <td align="left">37914624.3</td>
+                        <td align="left">37821330</td>
+                        <td align="left">38007918</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘08-Sep-2021′</td>
+                        <td align="left">33058843</td>
+                        <td align="left">34889122.1</td>
+                        <td align="left">34795827.8</td>
+                        <td align="left">34982416.3</td>
+                        <td align="left">43511229.7</td>
+                        <td align="left">43189066.2</td>
+                        <td align="left">43833393.3</td>
+                        <td align="left">37920985.3</td>
+                        <td align="left">37827691.1</td>
+                        <td align="left">38014279</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘09-Sep-2021′</td>
+                        <td align="left">33096718</td>
+                        <td align="left">34889170.5</td>
+                        <td align="left">34795876.2</td>
+                        <td align="left">34982464.7</td>
+                        <td align="left">43568894.5</td>
+                        <td align="left">43246730.9</td>
+                        <td align="left">43891058.1</td>
+                        <td align="left">37927004.5</td>
+                        <td align="left">37833710.3</td>
+                        <td align="left">38020299</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘10-Sep-2021′</td>
+                        <td align="left">33139981</td>
+                        <td align="left">34889213</td>
+                        <td align="left">34795918.8</td>
+                        <td align="left">34982507.2</td>
+                        <td align="left">43625462.2</td>
+                        <td align="left">43303298.6</td>
+                        <td align="left">43947625.8</td>
+                        <td align="left">37932696.9</td>
+                        <td align="left">37839402.7</td>
+                        <td align="left">38025991</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘11-Sep-2021′</td>
+                        <td align="left">33174954</td>
+                        <td align="left">34889250.3</td>
+                        <td align="left">34795956</td>
+                        <td align="left">34982544.5</td>
+                        <td align="left">43680935.1</td>
+                        <td align="left">43358771.5</td>
+                        <td align="left">44003098.7</td>
+                        <td align="left">37938075.7</td>
+                        <td align="left">37844781.5</td>
+                        <td align="left">38031370</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘12-Sep-2021′</td>
+                        <td align="left">33208330</td>
+                        <td align="left">34889283</td>
+                        <td align="left">34795988.7</td>
+                        <td align="left">34982577.2</td>
+                        <td align="left">43735308.4</td>
+                        <td align="left">43413144.8</td>
+                        <td align="left">44057472</td>
+                        <td align="left">37943153.5</td>
+                        <td align="left">37849859.3</td>
+                        <td align="left">38036448</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘13-Sep-2021′</td>
+                        <td align="left">33236921</td>
+                        <td align="left">34889311.6</td>
+                        <td align="left">34796017.3</td>
+                        <td align="left">34982605.8</td>
+                        <td align="left">43788575.4</td>
+                        <td align="left">43466411.9</td>
+                        <td align="left">44110739</td>
+                        <td align="left">37947942.2</td>
+                        <td align="left">37854648</td>
+                        <td align="left">38041236</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘14-Sep-2021′</td>
+                        <td align="left">33264175</td>
+                        <td align="left">34889336.6</td>
+                        <td align="left">34796042.4</td>
+                        <td align="left">34982630.8</td>
+                        <td align="left">43840771.4</td>
+                        <td align="left">43518607.9</td>
+                        <td align="left">44162935</td>
+                        <td align="left">37952457.6</td>
+                        <td align="left">37859163.4</td>
+                        <td align="left">38045752</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘15-Sep-2021′</td>
+                        <td align="left">33289579</td>
+                        <td align="left">34889358.5</td>
+                        <td align="left">34796064.3</td>
+                        <td align="left">34982652.7</td>
+                        <td align="left">43891880.2</td>
+                        <td align="left">43569716.6</td>
+                        <td align="left">44214043.8</td>
+                        <td align="left">37956710</td>
+                        <td align="left">37863415.8</td>
+                        <td align="left">38050004</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘16-Sep-2021′</td>
+                        <td align="left">33316755</td>
+                        <td align="left">34889377.7</td>
+                        <td align="left">34796083.4</td>
+                        <td align="left">34982671.9</td>
+                        <td align="left">43941903</td>
+                        <td align="left">43619739.4</td>
+                        <td align="left">44264066.6</td>
+                        <td align="left">37960711.4</td>
+                        <td align="left">37867417.2</td>
+                        <td align="left">38054006</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘17-Sep-2021′</td>
+                        <td align="left">33347325</td>
+                        <td align="left">34889394.4</td>
+                        <td align="left">34796100.1</td>
+                        <td align="left">34982688.6</td>
+                        <td align="left">43990819.2</td>
+                        <td align="left">43668655.6</td>
+                        <td align="left">44312982.8</td>
+                        <td align="left">37964471.4</td>
+                        <td align="left">37871177.2</td>
+                        <td align="left">38057766</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘18-Sep-2021′</td>
+                        <td align="left">33381728</td>
+                        <td align="left">34889408.9</td>
+                        <td align="left">34796114.7</td>
+                        <td align="left">34982703.1</td>
+                        <td align="left">44038653.9</td>
+                        <td align="left">43716490.4</td>
+                        <td align="left">44360817.5</td>
+                        <td align="left">37968006.9</td>
+                        <td align="left">37874712.7</td>
+                        <td align="left">38061301</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘19-Sep-2021′</td>
+                        <td align="left">33417390</td>
+                        <td align="left">34889421.6</td>
+                        <td align="left">34796127.4</td>
+                        <td align="left">34982715.8</td>
+                        <td align="left">44085388.8</td>
+                        <td align="left">43763225.2</td>
+                        <td align="left">44407552.4</td>
+                        <td align="left">37971330.3</td>
+                        <td align="left">37878036.1</td>
+                        <td align="left">38064625</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘20-Sep-2021′</td>
+                        <td align="left">33448163</td>
+                        <td align="left">34889432.6</td>
+                        <td align="left">34796138.4</td>
+                        <td align="left">34982726.9</td>
+                        <td align="left">44130998.5</td>
+                        <td align="left">43808834.9</td>
+                        <td align="left">44453162</td>
+                        <td align="left">37974452.6</td>
+                        <td align="left">37881158.4</td>
+                        <td align="left">38067747</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘21-Sep-2021′</td>
+                        <td align="left">33478419</td>
+                        <td align="left">34889442.2</td>
+                        <td align="left">34796148</td>
+                        <td align="left">34982736.4</td>
+                        <td align="left">44175479.5</td>
+                        <td align="left">43853315.9</td>
+                        <td align="left">44497643.1</td>
+                        <td align="left">37977385.8</td>
+                        <td align="left">37884091.5</td>
+                        <td align="left">38070680</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘22-Sep-2021′</td>
+                        <td align="left">33504534</td>
+                        <td align="left">34889450.5</td>
+                        <td align="left">34796156.3</td>
+                        <td align="left">34982744.7</td>
+                        <td align="left">44218757.1</td>
+                        <td align="left">43896593.5</td>
+                        <td align="left">44540920.7</td>
+                        <td align="left">37980136.1</td>
+                        <td align="left">37886841.9</td>
+                        <td align="left">38073430</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘23-Sep-2021′</td>
+                        <td align="left">33531498</td>
+                        <td align="left">34889457.7</td>
+                        <td align="left">34796163.5</td>
+                        <td align="left">34982751.9</td>
+                        <td align="left">44260818</td>
+                        <td align="left">43938654.4</td>
+                        <td align="left">44582981.6</td>
+                        <td align="left">37982713.6</td>
+                        <td align="left">37889419.4</td>
+                        <td align="left">38076008</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘24-Sep-2021′</td>
+                        <td align="left">33563421</td>
+                        <td align="left">34889463.9</td>
+                        <td align="left">34796169.7</td>
+                        <td align="left">34982758.1</td>
+                        <td align="left">44301662</td>
+                        <td align="left">43979498.4</td>
+                        <td align="left">44623825.6</td>
+                        <td align="left">37985128.5</td>
+                        <td align="left">37891834.3</td>
+                        <td align="left">38078423</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘25-Sep-2021′</td>
+                        <td align="left">33594803</td>
+                        <td align="left">34889469.2</td>
+                        <td align="left">34796175</td>
+                        <td align="left">34982763.4</td>
+                        <td align="left">44341282.8</td>
+                        <td align="left">44019119.2</td>
+                        <td align="left">44663446.4</td>
+                        <td align="left">37987390</td>
+                        <td align="left">37894095.7</td>
+                        <td align="left">38080684</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘26-Sep-2021′</td>
+                        <td align="left">33624419</td>
+                        <td align="left">34889473.8</td>
+                        <td align="left">34796179.6</td>
+                        <td align="left">34982768</td>
+                        <td align="left">44379697.7</td>
+                        <td align="left">44057534.1</td>
+                        <td align="left">44701861.3</td>
+                        <td align="left">37989507.8</td>
+                        <td align="left">37896213.6</td>
+                        <td align="left">38082802</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘27-Sep-2021′</td>
+                        <td align="left">33652745</td>
+                        <td align="left">34889477.8</td>
+                        <td align="left">34796183.6</td>
+                        <td align="left">34982772</td>
+                        <td align="left">44416897.5</td>
+                        <td align="left">44094733.9</td>
+                        <td align="left">44739061.1</td>
+                        <td align="left">37991489.8</td>
+                        <td align="left">37898195.6</td>
+                        <td align="left">38084784</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘28-Sep-2021′</td>
+                        <td align="left">33678786</td>
+                        <td align="left">34889481.2</td>
+                        <td align="left">34796187</td>
+                        <td align="left">34982775.4</td>
+                        <td align="left">44452876.6</td>
+                        <td align="left">44130713</td>
+                        <td align="left">44775040.2</td>
+                        <td align="left">37993343.4</td>
+                        <td align="left">37900049.1</td>
+                        <td align="left">38086638</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘29-Sep-2021′</td>
+                        <td align="left">33697581</td>
+                        <td align="left">34889484.1</td>
+                        <td align="left">34796189.9</td>
+                        <td align="left">34982778.3</td>
+                        <td align="left">44487656.4</td>
+                        <td align="left">44165492.8</td>
+                        <td align="left">44809820</td>
+                        <td align="left">37995076.8</td>
+                        <td align="left">37901782.6</td>
+                        <td align="left">38088371</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘30-Sep-2021′</td>
+                        <td align="left">33716451</td>
+                        <td align="left">34889486.6</td>
+                        <td align="left">34796192.4</td>
+                        <td align="left">34982780.8</td>
+                        <td align="left">44521268.8</td>
+                        <td align="left">44199105.2</td>
+                        <td align="left">44843432.4</td>
+                        <td align="left">37996698.4</td>
+                        <td align="left">37903404.2</td>
+                        <td align="left">38089993</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘01-Oct-2021′</td>
+                        <td align="left">33739980</td>
+                        <td align="left">34889488.7</td>
+                        <td align="left">34796194.5</td>
+                        <td align="left">34982783</td>
+                        <td align="left">44553701.5</td>
+                        <td align="left">44231537.9</td>
+                        <td align="left">44875865.1</td>
+                        <td align="left">37998213.8</td>
+                        <td align="left">37904919.6</td>
+                        <td align="left">38091508</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘02-Oct-2021′</td>
+                        <td align="left">33766707</td>
+                        <td align="left">34889490.6</td>
+                        <td align="left">34796196.4</td>
+                        <td align="left">34982784.8</td>
+                        <td align="left">44584982.9</td>
+                        <td align="left">44262819.3</td>
+                        <td align="left">44907146.4</td>
+                        <td align="left">37999628.6</td>
+                        <td align="left">37906334.3</td>
+                        <td align="left">38092923</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘03-Oct-2021′</td>
+                        <td align="left">33791061</td>
+                        <td align="left">34889492.1</td>
+                        <td align="left">34796197.9</td>
+                        <td align="left">34982786.4</td>
+                        <td align="left">44615131.1</td>
+                        <td align="left">44292967.5</td>
+                        <td align="left">44937294.7</td>
+                        <td align="left">38000947.7</td>
+                        <td align="left">37907653.5</td>
+                        <td align="left">38094242</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘04-Oct-2021′</td>
+                        <td align="left">33813903</td>
+                        <td align="left">34889493.5</td>
+                        <td align="left">34796199.3</td>
+                        <td align="left">34982787.7</td>
+                        <td align="left">44644164.2</td>
+                        <td align="left">44322000.6</td>
+                        <td align="left">44966327.8</td>
+                        <td align="left">38002176.2</td>
+                        <td align="left">37908882</td>
+                        <td align="left">38095470</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘05-Oct-2021′</td>
+                        <td align="left">33834702</td>
+                        <td align="left">34889494.6</td>
+                        <td align="left">34796200.4</td>
+                        <td align="left">34982788.8</td>
+                        <td align="left">44672101.8</td>
+                        <td align="left">44349938.2</td>
+                        <td align="left">44994265.4</td>
+                        <td align="left">38003318.7</td>
+                        <td align="left">37910024.5</td>
+                        <td align="left">38096613</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘06-Oct-2021′</td>
+                        <td align="left">33853048</td>
+                        <td align="left">34889495.6</td>
+                        <td align="left">34796201.4</td>
+                        <td align="left">34982789.8</td>
+                        <td align="left">44698960.3</td>
+                        <td align="left">44376796.8</td>
+                        <td align="left">45021123.9</td>
+                        <td align="left">38004379.7</td>
+                        <td align="left">37911085.5</td>
+                        <td align="left">38097674</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘07-Oct-2021′</td>
+                        <td align="left">33871881</td>
+                        <td align="left">34889496.4</td>
+                        <td align="left">34796202.2</td>
+                        <td align="left">34982790.6</td>
+                        <td align="left">44724766.3</td>
+                        <td align="left">44402602.7</td>
+                        <td align="left">45046929.9</td>
+                        <td align="left">38005364.1</td>
+                        <td align="left">37912069.9</td>
+                        <td align="left">38098658</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘08-Oct-2021′</td>
+                        <td align="left">33894312</td>
+                        <td align="left">34889497.1</td>
+                        <td align="left">34796202.9</td>
+                        <td align="left">34982791.3</td>
+                        <td align="left">44749546</td>
+                        <td align="left">44427382.4</td>
+                        <td align="left">45071709.5</td>
+                        <td align="left">38006276.3</td>
+                        <td align="left">37912982.1</td>
+                        <td align="left">38099571</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘09-Oct-2021′</td>
+                        <td align="left">33915569</td>
+                        <td align="left">34889497.7</td>
+                        <td align="left">34796203.5</td>
+                        <td align="left">34982791.9</td>
+                        <td align="left">44773319.4</td>
+                        <td align="left">44451155.8</td>
+                        <td align="left">45095483</td>
+                        <td align="left">38007120.6</td>
+                        <td align="left">37913826.4</td>
+                        <td align="left">38100415</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘10-Oct-2021′</td>
+                        <td align="left">33935309</td>
+                        <td align="left">34889498.2</td>
+                        <td align="left">34796204</td>
+                        <td align="left">34982792.4</td>
+                        <td align="left">44796114.2</td>
+                        <td align="left">44473950.6</td>
+                        <td align="left">45118277.8</td>
+                        <td align="left">38007901.1</td>
+                        <td align="left">37914606.9</td>
+                        <td align="left">38101195</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘11-Oct-2021′</td>
+                        <td align="left">33953475</td>
+                        <td align="left">34889498.6</td>
+                        <td align="left">34796204.4</td>
+                        <td align="left">34982792.9</td>
+                        <td align="left">44817963.3</td>
+                        <td align="left">44495799.7</td>
+                        <td align="left">45140126.9</td>
+                        <td align="left">38008622.2</td>
+                        <td align="left">37915327.9</td>
+                        <td align="left">38101916</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘12-Oct-2021′</td>
+                        <td align="left">33971607</td>
+                        <td align="left">34889499</td>
+                        <td align="left">34796204.8</td>
+                        <td align="left">34982793.2</td>
+                        <td align="left">44838884.6</td>
+                        <td align="left">44516721</td>
+                        <td align="left">45161048.2</td>
+                        <td align="left">38009287.2</td>
+                        <td align="left">37915993</td>
+                        <td align="left">38102581</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘13-Oct-2021′</td>
+                        <td align="left">33985920</td>
+                        <td align="left">34889499.3</td>
+                        <td align="left">34796205.1</td>
+                        <td align="left">34982793.5</td>
+                        <td align="left">44858897</td>
+                        <td align="left">44536733.4</td>
+                        <td align="left">45181060.6</td>
+                        <td align="left">38009899.8</td>
+                        <td align="left">37916605.6</td>
+                        <td align="left">38103194</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘14-Oct-2021′</td>
+                        <td align="left">34001743</td>
+                        <td align="left">34889499.6</td>
+                        <td align="left">34796205.4</td>
+                        <td align="left">34982793.8</td>
+                        <td align="left">44878019.1</td>
+                        <td align="left">44555855.6</td>
+                        <td align="left">45200182.7</td>
+                        <td align="left">38010463.2</td>
+                        <td align="left">37917169</td>
+                        <td align="left">38103757</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘15-Oct-2021′</td>
+                        <td align="left">34020730</td>
+                        <td align="left">34889499.8</td>
+                        <td align="left">34796205.6</td>
+                        <td align="left">34982794</td>
+                        <td align="left">44896283.4</td>
+                        <td align="left">44574119.8</td>
+                        <td align="left">45218447</td>
+                        <td align="left">38010980.9</td>
+                        <td align="left">37917686.6</td>
+                        <td align="left">38104275</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘16-Oct-2021′</td>
+                        <td align="left">34037592</td>
+                        <td align="left">34889500</td>
+                        <td align="left">34796205.8</td>
+                        <td align="left">34982794.2</td>
+                        <td align="left">44913714.2</td>
+                        <td align="left">44591550.7</td>
+                        <td align="left">45235877.8</td>
+                        <td align="left">38011456</td>
+                        <td align="left">37918161.7</td>
+                        <td align="left">38104750</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘17-Oct-2021′</td>
+                        <td align="left">34053573</td>
+                        <td align="left">34889500.1</td>
+                        <td align="left">34796205.9</td>
+                        <td align="left">34982794.4</td>
+                        <td align="left">44930340.8</td>
+                        <td align="left">44608177.2</td>
+                        <td align="left">45252504.4</td>
+                        <td align="left">38011891.6</td>
+                        <td align="left">37918597.3</td>
+                        <td align="left">38105186</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘18-Oct-2021′</td>
+                        <td align="left">34067719</td>
+                        <td align="left">34889500.3</td>
+                        <td align="left">34796206</td>
+                        <td align="left">34982794.5</td>
+                        <td align="left">44946197.2</td>
+                        <td align="left">44624033.6</td>
+                        <td align="left">45268360.8</td>
+                        <td align="left">38012290.7</td>
+                        <td align="left">37918996.5</td>
+                        <td align="left">38105585</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘19-Oct-2021′</td>
+                        <td align="left">34081315</td>
+                        <td align="left">34889500.4</td>
+                        <td align="left">34796206.2</td>
+                        <td align="left">34982794.6</td>
+                        <td align="left">44961315.5</td>
+                        <td align="left">44639151.9</td>
+                        <td align="left">45283479</td>
+                        <td align="left">38012656.3</td>
+                        <td align="left">37919362</td>
+                        <td align="left">38105950</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘20-Oct-2021′</td>
+                        <td align="left">34094373</td>
+                        <td align="left">34889500.5</td>
+                        <td align="left">34796206.2</td>
+                        <td align="left">34982794.7</td>
+                        <td align="left">44975728.8</td>
+                        <td align="left">44653565.3</td>
+                        <td align="left">45297892.4</td>
+                        <td align="left">38012990.9</td>
+                        <td align="left">37919696.6</td>
+                        <td align="left">38106285</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘21-Oct-2021′</td>
+                        <td align="left">34108996</td>
+                        <td align="left">34889500.5</td>
+                        <td align="left">34796206.3</td>
+                        <td align="left">34982794.8</td>
+                        <td align="left">44989463.6</td>
+                        <td align="left">44667300</td>
+                        <td align="left">45311627.2</td>
+                        <td align="left">38013296.9</td>
+                        <td align="left">37920002.6</td>
+                        <td align="left">38106591</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘22-Oct-2021′</td>
+                        <td align="left">34127450</td>
+                        <td align="left">34889500.6</td>
+                        <td align="left">34796206.4</td>
+                        <td align="left">34982794.8</td>
+                        <td align="left">45002547.8</td>
+                        <td align="left">44680384.2</td>
+                        <td align="left">45324711.3</td>
+                        <td align="left">38013576.5</td>
+                        <td align="left">37920282.3</td>
+                        <td align="left">38106871</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘23-Oct-2021′</td>
+                        <td align="left">34143236</td>
+                        <td align="left">34889500.7</td>
+                        <td align="left">34796206.4</td>
+                        <td align="left">34982794.9</td>
+                        <td align="left">45014996.9</td>
+                        <td align="left">44692833.3</td>
+                        <td align="left">45337160.5</td>
+                        <td align="left">38013831.7</td>
+                        <td align="left">37920537.5</td>
+                        <td align="left">38107126</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘24-Oct-2021′</td>
+                        <td align="left">34159562</td>
+                        <td align="left">34889500.7</td>
+                        <td align="left">34796206.5</td>
+                        <td align="left">34982794.9</td>
+                        <td align="left">45026826.8</td>
+                        <td align="left">44704663.2</td>
+                        <td align="left">45348990.4</td>
+                        <td align="left">38014064.1</td>
+                        <td align="left">37920769.9</td>
+                        <td align="left">38107358</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘25-Oct-2021′</td>
+                        <td align="left">34175468</td>
+                        <td align="left">34889500.8</td>
+                        <td align="left">34796206.5</td>
+                        <td align="left">34982795</td>
+                        <td align="left">45038062.4</td>
+                        <td align="left">44715898.8</td>
+                        <td align="left">45360225.9</td>
+                        <td align="left">38014275.7</td>
+                        <td align="left">37920981.5</td>
+                        <td align="left">38107570</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘26-Oct-2021′</td>
+                        <td align="left">34189774</td>
+                        <td align="left">34889500.8</td>
+                        <td align="left">34796206.6</td>
+                        <td align="left">34982795</td>
+                        <td align="left">45048722.6</td>
+                        <td align="left">44726559.1</td>
+                        <td align="left">45370886.2</td>
+                        <td align="left">38014467.9</td>
+                        <td align="left">37921173.7</td>
+                        <td align="left">38107762</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘27-Oct-2021′</td>
+                        <td align="left">34202202</td>
+                        <td align="left">34889500.8</td>
+                        <td align="left">34796206.6</td>
+                        <td align="left">34982795</td>
+                        <td align="left">45058833.3</td>
+                        <td align="left">44736669.7</td>
+                        <td align="left">45380996.8</td>
+                        <td align="left">38014642.5</td>
+                        <td align="left">37921348.3</td>
+                        <td align="left">38107937</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘28-Oct-2021′</td>
+                        <td align="left">34215653</td>
+                        <td align="left">34889500.8</td>
+                        <td align="left">34796206.6</td>
+                        <td align="left">34982795.1</td>
+                        <td align="left">45068410.1</td>
+                        <td align="left">44746246.5</td>
+                        <td align="left">45390573.7</td>
+                        <td align="left">38014800.8</td>
+                        <td align="left">37921506.6</td>
+                        <td align="left">38108095</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘29-Oct-2021′</td>
+                        <td align="left">34231809</td>
+                        <td align="left">34889500.9</td>
+                        <td align="left">34796206.6</td>
+                        <td align="left">34982795.1</td>
+                        <td align="left">45077480</td>
+                        <td align="left">44755316.4</td>
+                        <td align="left">45399643.5</td>
+                        <td align="left">38014944.2</td>
+                        <td align="left">37921650</td>
+                        <td align="left">38108238</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘30-Oct-2021′</td>
+                        <td align="left">34246157</td>
+                        <td align="left">34889500.9</td>
+                        <td align="left">34796206.6</td>
+                        <td align="left">34982795.1</td>
+                        <td align="left">45086061.1</td>
+                        <td align="left">44763897.5</td>
+                        <td align="left">45408224.7</td>
+                        <td align="left">38015074.1</td>
+                        <td align="left">37921779.9</td>
+                        <td align="left">38108368</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘31-Oct-2021′</td>
+                        <td align="left">34260470</td>
+                        <td align="left">34889500.9</td>
+                        <td align="left">34796206.7</td>
+                        <td align="left">34982795.1</td>
+                        <td align="left">45094174.6</td>
+                        <td align="left">44772011</td>
+                        <td align="left">45416338.2</td>
+                        <td align="left">38015191.8</td>
+                        <td align="left">37921897.6</td>
+                        <td align="left">38108486</td>
+                      </tr>
+                      <tr>
+                        <td align="left">‘01-Nov-2021′</td>
+                        <td align="left">34273300</td>
+                        <td align="left">34889500.9</td>
+                        <td align="left">34796206.7</td>
+                        <td align="left">34982795.1</td>
+                        <td align="left">45101838.2</td>
+                        <td align="left">44779674.6</td>
+                        <td align="left">45424001.8</td>
+                        <td align="left">38015298.4</td>
+                        <td align="left">37922004.2</td>
+                        <td align="left">38108593</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </p>
+            </sec>
+            <sec id="appsec1" sec-type="supplementary-material">
+              <title>Appendix ASupplementary data</title>
+              <p id="p0260">The following are the Supplementary data to this article:<supplementary-material content-type="local-data" id="mmc1"><caption><title>Multimedia component 1</title></caption><media xlink:href="mmc1.xlsx"><alt-text>Multimedia component 1</alt-text></media></supplementary-material>
+</p>
+            </sec>
+            <fn-group>
+              <fn id="appsec2" fn-type="supplementary-material">
+                <label>Appendix A</label>
+                <p id="p0265">Supplementary data to this article can be found online at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cegh.2021.100934" id="intref0020">https://doi.org/10.1016/j.cegh.2021.100934</ext-link>.</p>
+              </fn>
+            </fn-group>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

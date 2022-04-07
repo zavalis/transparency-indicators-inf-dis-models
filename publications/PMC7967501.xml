@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:55:48Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7967501" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7967501</identifier>
+        <datestamp>2021-03-18</datestamp>
+        <setSpec>ijerph</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Environ Res Public Health</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Environ Res Public Health</journal-id>
+              <journal-id journal-id-type="publisher-id">ijerph</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Environmental Research and Public Health</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1661-7827</issn>
+              <issn pub-type="epub">1660-4601</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7967501</article-id>
+              <article-id pub-id-type="pmcid">PMC7967501</article-id>
+              <article-id pub-id-type="pmc-uid">7967501</article-id>
+              <article-id pub-id-type="pmid">33800896</article-id>
+              <article-id pub-id-type="doi">10.3390/ijerph18052667</article-id>
+              <article-id pub-id-type="publisher-id">ijerph-18-02667</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>SEAHIR: A Specialized Compartmental Model for COVID-19</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Leontitsis</surname>
+                    <given-names>Alexandros</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijerph-18-02667">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6382-198X</contrib-id>
+                  <name>
+                    <surname>Senok</surname>
+                    <given-names>Abiola</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijerph-18-02667">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1213-4546</contrib-id>
+                  <name>
+                    <surname>Alsheikh-Ali</surname>
+                    <given-names>Alawi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijerph-18-02667">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Al Nasser</surname>
+                    <given-names>Younus</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijerph-18-02667">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1687-6587</contrib-id>
+                  <name>
+                    <surname>Loney</surname>
+                    <given-names>Tom</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijerph-18-02667">2</xref>
+                  <xref rid="c1-ijerph-18-02667" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Alshamsi</surname>
+                    <given-names>Aamena</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijerph-18-02667">1</xref>
+                  <xref rid="c1-ijerph-18-02667" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Bragazzi</surname>
+                    <given-names>Nicola Luigi</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijerph-18-02667"><label>1</label>Smart Dubai Department, Dubai Design District, Building 1A, Dubai P.O. Box 555995, United Arab Emirates; <email>alexandros.leontitsis@smartdubai.ae</email> (A.L.); <email>younus.alnasser@smartdubai.ae</email> (Y.A.N.)</aff>
+              <aff id="af2-ijerph-18-02667"><label>2</label>College of Medicine, Mohammed Bin Rashid University of Medicine and Health Sciences, Building 14, Dubai Healthcare City, Dubai P.O. Box 505055, United Arab Emirates; <email>abiola.senok@mbru.ac.ae</email> (A.S.); <email>alawi.alsheikhali@mbru.ac.ae</email> (A.A.-A.)</aff>
+              <author-notes>
+                <corresp id="c1-ijerph-18-02667"><label>*</label>Correspondence: <email>tom.loney@mbru.ac.ae</email> (T.L.); <email>aamena.alshamsi@smartdubai.ae</email> (A.A.); Tel.: +971-4-3838737 (T.L.); +971-4-5599476 (A.A.)</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>06</day>
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>18</volume>
+              <issue>5</issue>
+              <elocation-id>2667</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>30</day>
+                  <month>12</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>25</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 by the authors.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>The SEIR (Susceptible-Exposed-Infected-Removed) model is widely used in epidemiology to mathematically model the spread of infectious diseases with incubation periods. However, the SEIR model prototype is generic and not able to capture the unique nature of a novel viral pandemic such as SARS-CoV-2. We have developed and tested a specialized version of the SEIR model, called SEAHIR (Susceptible-Exposed-Asymptomatic-Hospitalized-Isolated-Removed) model. This proposed model is able to capture the unique dynamics of the COVID-19 outbreak including further dividing the Infected compartment into: (1) “Asymptomatic”, (2) “Isolated” and (3) “Hospitalized” to delineate the transmission specifics of each compartment and forecast healthcare requirements. The model also takes into consideration the impact of non-pharmaceutical interventions such as physical distancing and different testing strategies on the number of confirmed cases. We used a publicly available dataset from the United Arab Emirates (UAE) as a case study to optimize the main parameters of the model and benchmarked it against the historical number of cases. The SEAHIR model was used by decision-makers in Dubai’s COVID-19 Command and Control Center to make timely decisions on developing testing strategies, increasing healthcare capacity, and implementing interventions to contain the spread of the virus. The novel six-compartment SEAHIR model could be utilized by decision-makers and researchers in other countries for current or future pandemics.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>compartmental models</kwd>
+                <kwd>COVID-19</kwd>
+                <kwd>Erlang distribution</kwd>
+                <kwd>predictive modelling</kwd>
+                <kwd>SARS-CoV-2</kwd>
+                <kwd>SEIR</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijerph-18-02667">
+              <title>1. Introduction</title>
+              <p>In December 2019, cases of a new respiratory illness were reported from Wuhan, Hubei Province, China. This newly emerged infectious disease now named as coronavirus disease 2019 (COVID-19) is caused by the novel severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) [<xref rid="B1-ijerph-18-02667" ref-type="bibr">1</xref>,<xref rid="B2-ijerph-18-02667" ref-type="bibr">2</xref>]. The World Health Organization initially declared the COVID-19 outbreak as a Public Health Emergency of International Concern but with the spread across and within countries leading to a rapid increase in the number of cases, the outbreak was declared a pandemic on 11 March 2020 [<xref rid="B3-ijerph-18-02667" ref-type="bibr">3</xref>]. Since the turn of the millennium, there have been two major global outbreaks caused by coronaviruses; namely, SARS-CoV, 2002–2004 and Middle Eastern Respiratory Syndrome, MERS 2012–present [<xref rid="B4-ijerph-18-02667" ref-type="bibr">4</xref>,<xref rid="B5-ijerph-18-02667" ref-type="bibr">5</xref>,<xref rid="B6-ijerph-18-02667" ref-type="bibr">6</xref>]. However, the ongoing COVID-19 pandemic is the most devastating in terms of numbers of infections, morbidity, and mortality, and is a harsh reminder of the challenges posed by emerging infectious diseases [<xref rid="B7-ijerph-18-02667" ref-type="bibr">7</xref>]. The number of confirmed COVID-19 cases globally has exceeded 114 million to date and the impact of the pandemic on healthcare, social, and economic structures across the world has been unprecedented [<xref rid="B2-ijerph-18-02667" ref-type="bibr">2</xref>,<xref rid="B7-ijerph-18-02667" ref-type="bibr">7</xref>]. Indeed, strict measures to ensure physical distancing including closure of schools and businesses as well as restrictions on travel and gatherings were implemented to varying degrees in most countries [<xref rid="B2-ijerph-18-02667" ref-type="bibr">2</xref>].</p>
+              <p>Mathematical modelling is used to make predictions on the number of cases, disease spread, and duration of an epidemic, and to estimate the impact of intervention measures during infectious disease outbreaks. Although the use of mathematical models has a long history dating back to the 18th century, compartmental models were only introduced in the early 20th century [<xref rid="B8-ijerph-18-02667" ref-type="bibr">8</xref>]. The “Susceptible-Exposed-Infected-Removed” model (SEIR hereafter) is a widely used compartmental, deterministic model, developed to simplify the mathematical modelling of infectious diseases. According to SEIR, the population is assumed to be fixed and over time moving from one compartment to another with certain rates. In SEIR, the people in the Exposed compartment, are not supposed to be infectious; however, in the case of COVID-19, the literature provides evidence that even people in the Exposed compartment can be infectious [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>]. Moreover, the Infected compartment is supposed to transmit the infection to the Susceptible compartment. In the case of COVID-19 this assumption partly holds. The diagnosed carriers may immediately be admitted to a hospital or sent to home isolation for approximately 14 days. On the other hand, there are non-diagnosed carriers who show no symptoms (e.g., fever, cough) and these asymptomatic cases can transmit the virus as they are not under any movement, travel, or social restrictions if they are not tested. In this paper we report a new six-compartment model that addresses the above issues and includes other factors that are specific to COVID-19, in order to have an accurate model for decision making and pandemic management.</p>
+              <p>The rest of the paper is organized as follows: In <xref ref-type="sec" rid="sec2-ijerph-18-02667">Section 2</xref> we discuss the core assumptions of the proposed model and the modifications which address the public health interventions, and then we proceed to the formal definition as a set of ordinary differential equations. In <xref ref-type="sec" rid="sec3-ijerph-18-02667">Section 3</xref>, we discuss the details of the optimization of the free parameters of the proposed model, and the potential cases of the undetected patients. Finally, in <xref ref-type="sec" rid="sec4-ijerph-18-02667">Section 4</xref>, <xref ref-type="sec" rid="sec5-ijerph-18-02667">Section 5</xref> and <xref ref-type="sec" rid="sec6-ijerph-18-02667">Section 6</xref>, we discuss our findings, future work, and conclusions. All the data in this paper are publicly available data from Dong et al. [<xref rid="B10-ijerph-18-02667" ref-type="bibr">10</xref>] and are also reflected in the UAE Federal Competitiveness and Statistics Authority [<xref rid="B11-ijerph-18-02667" ref-type="bibr">11</xref>] or are based on assumptions.</p>
+            </sec>
+            <sec id="sec2-ijerph-18-02667">
+              <title>2. The SEAHIR Model Assumptions</title>
+              <p>We made the following core modelling assumptions to develop our model:<list list-type="bullet"><list-item><p>Six compartments: Susceptible-Exposed-Asymptomatic-Hospitalized-Isolated-Removed (SEAHIR).</p></list-item><list-item><p>The Susceptible (<italic>S</italic>) become Exposed (<italic>E</italic>) after their interaction with the Infected population. The virus is in the incubation period within the Exposed population, until the onset of symptoms. The Exposed population show no symptoms of the virus, although they can transmit the virus to the Susceptible population. The time period that a person remains in the Exposed compartment follows the Erlang distribution with parameters k = 5 and λ = 5/5.2 = 0.96. According to this distribution the mean is 5.2 days, the 95% confidence interval is between 1.24 days and 9.88 days, and the 99% confidence interval is between 0.71 days and 12.6 days, which is aligned with the estimated incubation period reported in the literature [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>]. The transmission rate of the Exposed population is affected by public health measures.</p></list-item><list-item><p>After the incubation period, a person should be classified as either an asymptomatic, mild case, or a moderate/severe case. We assumed that 30% of the infected population would be asymptomatic, 55% mild cases, and 15% moderate/severe cases according to Lauer et al. [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>]. There are three distinct behaviors connected to this classification:<list list-type="simple"><list-item><label>-</label><p>Asymptomatic carriers (<italic>A</italic>) are mainly undetected and able to transmit the virus at the normal transmission rate (<italic>β</italic>). The only way to detect the asymptomatic carriers is through testing. Also, the transmission rate of asymptomatic individuals is affected by measures such as physical distancing.</p></list-item><list-item><label>-</label><p>Mild cases are isolated at home or in designated isolation centers (<italic>I</italic>) for 14 days on average. Mild cases may be infectious, but with a lower transmission rate than normal (<italic>β<sub>I</sub></italic>) due to isolation and their transmission rate is affected by the government’s intervention measures.</p></list-item><list-item><label>-</label><p>Moderate and severe cases are admitted to hospitals (<italic>H</italic>) for 18 days on average. Depending on severity, they are assigned to regular beds or intensive care unit beds. We assumed the hospitalized percentage as 5.5 × CFR (case fatality ratio) while we assumed that the hospitalized population is not able to transmit the virus due to stringent isolation.</p></list-item></list></p></list-item></list></p>
+              <p>Using a similar approach to the SEIHR model [<xref rid="B12-ijerph-18-02667" ref-type="bibr">12</xref>], our model considers that the hospitalized patients have different behaviors from the rest of the infected patients.
+<list list-type="bullet"><list-item><p>The Removed compartment (<italic>R</italic>) includes<list list-type="simple"><list-item><label>-</label><p>Deaths: a percentage given by the CFR and the population age structure</p></list-item><list-item><label>-</label><p>Recovered patients: The remaining cases, who have cleared the infection and developed antibodies against the virus. In the context of our modelling, we consider the recovered patients immune to the virus thereafter.</p></list-item></list></p></list-item></list></p>
+              <sec id="sec2dot1-ijerph-18-02667">
+                <title>2.1. Government Intervention: Public Health Measures</title>
+                <p>The government in every country has two main tools to manage the pandemic. One is to issue laws related to public health measures (such as mask wearing, physical distancing, and isolation), and the other is testing. The government may issue laws to mandate mask wearing in public places and increase the practice of physical distancing, and therefore, reduce the transmission rate. In our case we have taken a number of government actions and hypothetically assumed their impact from 0 (no social interaction) to 1 (full social interaction) as shown in <xref rid="ijerph-18-02667-t001" ref-type="table">Table 1</xref>. A similar approach was recently used to quantify the effect of physical distancing in another study [<xref rid="B13-ijerph-18-02667" ref-type="bibr">13</xref>].</p>
+              </sec>
+              <sec id="sec2dot2-ijerph-18-02667">
+                <title>2.2. Government Intervention: Testing</title>
+                <p>The other important part of the government intervention is testing. Tested positive people are found in the Exposed and Asymptomatic compartments. The testable population is considered the whole population except the people who have been diagnosed positive any time in the past. We assume that once they are found positive, they are immediately sent to designated isolation centres (or specific cases sent to home isolation) or the severe cases are hospitalized, where their transmission rate drops significantly. The tested positive cases increase the total cases for the day they are found positive. <xref rid="ijerph-18-02667-t002" ref-type="table">Table 2</xref> shows the structure of the testing assumption employed by our model.</p>
+              </sec>
+              <sec id="sec2dot3-ijerph-18-02667">
+                <title>2.3. Model Definition</title>
+                <p>A schematic diagram of our model is shown in <xref ref-type="fig" rid="ijerph-18-02667-f001">Figure 1</xref>. <xref rid="ijerph-18-02667-t003" ref-type="table">Table 3</xref> shows the parameters used for the SEAHIR model.</p>
+                <p>The equations that define our model are below and <xref rid="ijerph-18-02667-t003" ref-type="table">Table 3</xref> provides the description and value of the parameters.
+<disp-formula id="FD100-ijerph-18-02667"><mml:math id="mm100"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mover accent="true"><mml:mi>S</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:mo>−</mml:mo><mml:mi>S</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>min</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>I</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:mi>N</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:mi>S</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>min</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>I</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:mi>N</mml:mi><mml:mo>−</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext> </mml:mtext><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>…</mml:mo><mml:mi>I</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mtext> </mml:mtext><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>…</mml:mo><mml:mi>I</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:mi>p</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>j</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext> </mml:mtext><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>…</mml:mo><mml:mi>J</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>p</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>j</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mtext> </mml:mtext><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>…</mml:mo><mml:mi>J</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>I</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>p</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>s</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>K</mml:mi></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>I</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mi>k</mml:mi></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mtext> </mml:mtext><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>…</mml:mo><mml:mi>K</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>I</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>I</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>H</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>p</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>s</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>L</mml:mi></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>H</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mi>l</mml:mi></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi>l</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mtext> </mml:mtext><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>…</mml:mo><mml:mi>L</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mover accent="true"><mml:mi>H</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>H</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:mover accent="true"><mml:mi>R</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:msub><mml:mi>A</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math></disp-formula>
+where <inline-formula><mml:math id="mm1"><mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mo>+</mml:mo><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>I</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>H</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm2"><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mi>S</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mi>T</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mi>T</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>A</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mover accent="true"><mml:mi>I</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>I</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mover accent="true"><mml:mi>H</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>H</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mover accent="true"><mml:mi>R</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm3"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:mi>G</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm4"><mml:mrow><mml:mrow><mml:mi>α</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>ζ</mml:mi><mml:mo>,</mml:mo><mml:mi>δ</mml:mi><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm5"><mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mo>&lt;</mml:mo><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm6"><mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm7"><mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:msub><mml:mi>A</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm8"><mml:mrow><mml:mrow><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:msub><mml:mi>I</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm800"><mml:mrow><mml:mrow><mml:mi>H</mml:mi><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:msub><mml:mi>H</mml:mi><mml:mi>I</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm9"><mml:mrow><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mi>α</mml:mi><mml:mi>I</mml:mi></mml:mfrac></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm10"><mml:mrow><mml:mrow><mml:msub><mml:mi>γ</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>γ</mml:mi><mml:mi>I</mml:mi></mml:msub></mml:mrow><mml:mi>K</mml:mi></mml:mfrac></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm11"><mml:mrow><mml:mrow><mml:msub><mml:mi>γ</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>γ</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow><mml:mi>L</mml:mi></mml:mfrac></mml:mrow></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="mm12"><mml:mrow><mml:mrow><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:mfrac></mml:mrow></mml:mrow></mml:math></inline-formula>. We have set <inline-formula><mml:math id="mm13"><mml:mrow><mml:mrow><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>. The subscript T denotes the tested positive cases, and the subscript ET denotes the extra time. Regarding the tested positive people, we assume that their compartmental distribution follows the compartmental distribution of the existing carriers at day t. Hence, the following relations apply (dropping the (t) notation from E, A, E<sub>i</sub>, and A<sub>j</sub> for simplicity):<disp-formula id="FD2-ijerph-18-02667"><mml:math id="mm14"><mml:mrow><mml:mrow><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>E</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>A</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>E</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mfrac><mml:mi>E</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>A</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mfrac><mml:mi>A</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>j</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>i</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>E</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mi>E</mml:mi></mml:mfrac><mml:mo>=</mml:mo><mml:mo> </mml:mo><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>j</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>A</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow><mml:mi>A</mml:mi></mml:mfrac><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+              </sec>
+              <sec id="sec2dot4-ijerph-18-02667" sec-type="subjects">
+                <title>2.4. Possible Challenges Caused by the Asymptomatic Patients</title>
+                <p>A significant part of the complexity of this model is due to the expected presence of the Asymptomatic patients who become infected but not tested. The official statistics of confirmed cases will only report the people who have tested positive i.e., the number of confirmed cases and not infections. We assume that Isolated and Hospitalized patients are tested positive by default. Therefore, we need to make a strict distinction between the confirmed infected cases that are reported in the official statistics, and the infected cases as a superset that includes both the confirmed infected cases and asymptomatic not tested cases. Following the above issue, the Recovered compartment may contain people who have been asymptomatic but not tested in the past. These people might not be counted in the official statistics as due to a lack of symptoms they might not have been tested. The official statistics show only the confirmed recovered (<italic>R</italic><sub>C</sub>) cases, which only consists of previously diagnosed laboratory-confirmed cases who have now recovered.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec3-ijerph-18-02667">
+              <title>3. Results</title>
+              <p>With all the required equations in place, we can proceed with the estimation of the free parameters. These free parameters are the base transmission rate (<italic>β</italic>), the transmission rate in Isolation (<italic>β<sub>I</sub></italic>), and the average extra time people spent in isolation or in the hospital (<italic>δ</italic>) without being infectious.</p>
+              <p>The publicly available data for UAE cases are announced on a daily basis. They consist of the total confirmed cases (<italic>C</italic>), the total recoveries (<italic>R</italic>), and the total deaths (<italic>D</italic>). There is no further breakdown on the total confirmed cases as to whether they are hospitalized or isolated. Therefore, we will consider the actual confirmed cases (<italic>C</italic>)-(<italic>R</italic>)-(<italic>D</italic>). The actual confirmed cases will be optimized against the sum of our estimations based on our model to isolated (<italic>I</italic>), isolated in extra time (<italic>I<sub>ET</sub></italic>), hospitalized (<italic>H</italic>), hospitalized in extra time (<italic>H<sub>ET</sub></italic>), exposed tested (<italic>E<sub>T</sub></italic>), and asymptomatic tested (<italic>A<sub>T</sub></italic>). A practical consideration running this part of the optimization is to be more lenient to the negative error. We define the error as (actual)—(estimation), therefore, negative error means (actual) &lt; (estimation). By considering the estimations to be greater than the actual data, we assume that there are undetected patients. This is expected in any population due to the nature of the virus and the possibility of having asymptomatic not tested patients.</p>
+              <p>Another layer of calculations focuses on the recoveries. While in our equations we calculated all the recoveries, the publicly available data are the recoveries of the confirmed cases. This means that we need to estimate the recoveries of the confirmed cases only. We can achieve so by considering the following equation:<disp-formula id="FD6-ijerph-18-02667"><mml:math id="mm15"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>R</mml:mi><mml:mo>˙</mml:mo></mml:mover><mml:mi>A</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>T</mml:mi><mml:mo>,</mml:mo><mml:mi>J</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>ζ</mml:mi><mml:mi>J</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:mi>δ</mml:mi></mml:mrow></mml:mrow></mml:math></disp-formula>
+where the subscript A stands for Aggregated. Then the confirmed recovered should be <inline-formula><mml:math id="mm16"><mml:mrow><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>C</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>m</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>A</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula>, and the deaths should be <inline-formula><mml:math id="mm17"><mml:mrow><mml:mrow><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mi>m</mml:mi><mml:msub><mml:mi>R</mml:mi><mml:mi>A</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula>, with m being the mortality rate given above.</p>
+              <p>Finally, we need to consider the logarithmic scale as the scale of the error measurement. This is because the growth of the new cases is exponential over time. <xref ref-type="fig" rid="ijerph-18-02667-f003">Figure 3</xref> shows that our estimate closely matches the actual values, therefore, it gives us a strong indication that our model is a reliable tool for predictions. Based on our model we can predict the number of exposed and asymptomatic people in the UAE, and we can forecast the number of future cases more accurately. In <xref ref-type="fig" rid="ijerph-18-02667-f004">Figure 4</xref> we see the extrapolated results. </p>
+            </sec>
+            <sec sec-type="discussion" id="sec4-ijerph-18-02667">
+              <title>4. Discussion</title>
+              <p>We have presented an epidemiological compartmental model inspired by the well-known SEIR and modified according to the unique features of the COVID-19 outbreak. This model represents a useful tool which can be used for guiding public health policies and making projections for healthcare needs during the ongoing COVID-19 pandemic. It also permits decision-makers and researchers to accurately predict the transmission rate and evaluate the effectiveness of government interventions, and it provides an accurate estimate of the Exposed and Asymptomatic carriers. The SEAHIR model was used by decision-makers in Dubai’s COVID-19 Command and Control Center to make timely decisions on developing testing strategies, increasing healthcare capacity, and implementing interventions to contain the spread of the virus. However, with modification to the parameters we believe that it can also be applied to other countries. With the opening of countries from strict lockdown measures and implementation of relaxation of restrictions, a second wave of infections is currently being experienced in several countries. Hence, the need for accurate prediction models, such as the one described in this paper, to help mitigate against the occurrence of new waves of infection as well to enable proper planning for the disbursement of healthcare resources.</p>
+            </sec>
+            <sec id="sec5-ijerph-18-02667">
+              <title>5. Future Work</title>
+              <p>Through the development and optimization of the SEAHIR model, we have identified several areas for future work in SARS-CoV-2 research, including:<list list-type="bullet"><list-item><p>Estimating the public reaction on physical distancing. The more deaths announced, the more we expect people to take measures for personal hygiene and distancing. That said, population compliance with infection control and public health measures might reduce over time due to pandemic fatigue.</p></list-item><list-item><p>Modelling the mortality and transmission rate of the virus, as it mutates over time, and embed the findings into the SEAHIR model. Over time we expect that the more prevalent viral strain in the population may be more transmissible but less pathogenic and lethal (virulent).</p></list-item><list-item><p>Optimizing the parameters of government intervention on physical distancing. To date, the physical distancing modifiers imposed by the government were chosen arbitrarily. A focused study would be useful on how these measures can be quantified based on the available data.</p></list-item><list-item><p>The viral load is not modelled in this work. Given that we have adequate evidence that in the future, we may assume that the viral load in a patient gradually increases during the incubation period, affecting the test results and the transmission rate. Our choice of Erlang distribution can easily model the viral load by assigning a gradually increasing percentage in each of the <italic>E<sub>i</sub></italic> phases the patient belongs to.</p></list-item><list-item><p>The current version of our model does not account for re-infections. The available scientific literature on the duration of immunity following SARS-CoV-2 infection, risk of re-infection, and severity of disease following re-infection is sparse. Evidence on the duration of immunity will emerge and become more robust over the next 6–12 months and future models (or adaptations of the SEAHIR model) may be able to include parameters related to re-infection.</p></list-item><list-item><p>Numerous countries, including the UAE, have initiated population-wide vaccination campaigns and future models may be able to quantify the effect of different vaccines on transmission dynamics when sufficient data are available.</p></list-item></list></p>
+            </sec>
+            <sec sec-type="conclusions" id="sec6-ijerph-18-02667">
+              <title>6. Conclusions</title>
+              <p>In conclusion, the novel six-compartment SEAHIR model builds upon earlier SEIR infectious disease models and incorporates the unique dynamics of the virus by further dividing the Infected compartment into Asymptomatic, Isolated, and Hospitalized compartments. The SEAHIR model was used to effectively manage the COVID-19 pandemic in Dubai (UAE) and could be utilized by decision-makers and researchers in other countries for current or future pandemics with similar viral transmission dynamics.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>We are grateful to the COVID-19 Command and Control Center of Dubai for their support.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, A.L., A.S., A.A.-A., Y.A.N., T.L., and A.A.; methodology, A.L. and A.A.; software, A.L. and A.A.; validation, A.L.; formal analysis, A.L. and A.A.; investigation, A.L., A.S., A.A.-A., Y.A.N., T.L., and A.A.; resources, A.A.-A. and Y.A.N.; data curation, A.L.; writing—original draft preparation, A.L., A.S., T.L., and A.A.; writing—review and editing, A.L., A.S., A.A.-A., Y.A.N., T.L., and A.A.; visualization, A.L., A.A.-A., and T.L.; supervision, A.A.; project administration, A.A.-A., and Y.A.N. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>This research received no external funding.</p>
+            </notes>
+            <notes>
+              <title>Institutional Review Board Statement</title>
+              <p>The study was conducted according to the guidelines of the Declaration of Helsinki. The study did not require research ethics approval as it was a modelling study using secondary data available in the public domain.</p>
+            </notes>
+            <notes>
+              <title>Informed Consent Statement</title>
+              <p>Not applicable to this modelling study which used secondary data available in the public domain.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability Statement</title>
+              <p>All the data used are publicly available and the source cited in the manuscript. Please contact the corresponding authors for more details.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest. </p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijerph-18-02667">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alm</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Broberg</surname>
+                      <given-names>E.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Connor</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hodcroft</surname>
+                      <given-names>E.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Komissarov</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maurer-Stroh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Melidou</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Neher</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Toole</surname>
+                      <given-names>Á.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pereyaslov</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Geographical and temporal distribution of SARS-CoV-2 clades in the WHO European Region, January to June 2020</article-title>
+                  <source>Euro. Surveill.</source>
+                  <year>2020</year>
+                  <volume>25</volume>
+                  <fpage>2001410</fpage>
+                  <pub-id pub-id-type="doi">10.2807/1560-7917.ES.2020.25.32.2001410</pub-id>
+                  <?supplied-pmid 32794443?>
+                  <pub-id pub-id-type="pmid">32794443</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijerph-18-02667">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Uddin</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mustafa</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rizvi</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loney</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suwaidi</surname>
+                      <given-names>H.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Al-Marzouqi</surname>
+                      <given-names>A.H.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eldin</surname>
+                      <given-names>A.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alsabeeha</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Adrian</surname>
+                      <given-names>T.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stefanini</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SARS-CoV-2/COVID-19: Viral Genomics, Epidemiology, Vaccines, and Therapeutic Interventions</article-title>
+                  <source>Viruses</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <elocation-id>526</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/v12050526</pub-id>
+                  <?supplied-pmid 32397688?>
+                  <pub-id pub-id-type="pmid">32397688</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijerph-18-02667">
+                <label>3.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <article-title>WHO Director General’s Opening Remarks at the Media Briefing on COVID-19—11 March 2020</article-title>
+                  <year>2020</year>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020">https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2020-12-30">(accessed on 30 December 2020)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijerph-18-02667">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Al-Omari</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabaan</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salih</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Al-Tawfiq</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Memish</surname>
+                      <given-names>Z.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MERS coronavirus outbreak: Implications for emerging viral infections</article-title>
+                  <source>Diagn. Microbiol. Infect. Dis.</source>
+                  <year>2019</year>
+                  <volume>93</volume>
+                  <fpage>265</fpage>
+                  <lpage>285</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.diagmicrobio.2018.10.011</pub-id>
+                  <?supplied-pmid 30413355?>
+                  <pub-id pub-id-type="pmid">30413355</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijerph-18-02667">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Qu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Qin</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>From SARS to MERS, Thrusting Coronaviruses into the Spotlight</article-title>
+                  <source>Viruses</source>
+                  <year>2019</year>
+                  <volume>11</volume>
+                  <elocation-id>59</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/v11010059</pub-id>
+                  <?supplied-pmid 30646565?>
+                  <pub-id pub-id-type="pmid">30646565</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijerph-18-02667">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>A.C.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bi</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>G.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemiology, Genetic Recombination, and Pathogenesis of Coronaviruses</article-title>
+                  <source>Trends Microbiol.</source>
+                  <year>2016</year>
+                  <volume>24</volume>
+                  <fpage>490</fpage>
+                  <lpage>502</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tim.2016.03.003</pub-id>
+                  <?supplied-pmid 27012512?>
+                  <pub-id pub-id-type="pmid">27012512</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijerph-18-02667">
+                <label>7.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <collab>Johns Hopkins Center for Systems Sciences and Engineering</collab>
+                  </person-group>
+                  <article-title>COVID-19 Dashboard</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2020-12-30">(accessed on 30 December 2020)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijerph-18-02667">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermack</surname>
+                      <given-names>W.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>McKendrick</surname>
+                      <given-names>A.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Contribution to the Mathematical Theory of Epidemics</article-title>
+                  <source>Proc. R. Soc. Lond. A</source>
+                  <year>1927</year>
+                  <volume>115</volume>
+                  <fpage>700</fpage>
+                  <lpage>721</lpage>
+                  <pub-id pub-id-type="doi">10.1098/rspa.1927.0118</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijerph-18-02667">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lauer</surname>
+                      <given-names>S.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grantz</surname>
+                      <given-names>K.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bi</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>F.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Meredith</surname>
+                      <given-names>H.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Azman</surname>
+                      <given-names>A.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reich</surname>
+                      <given-names>N.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lessler</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application</article-title>
+                  <source>Ann. Intern. Med.</source>
+                  <year>2020</year>
+                  <volume>172</volume>
+                  <fpage>577</fpage>
+                  <lpage>582</lpage>
+                  <pub-id pub-id-type="doi">10.7326/M20-0504</pub-id>
+                  <?supplied-pmid 32150748?>
+                  <pub-id pub-id-type="pmid">32150748</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijerph-18-02667">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An interactive web-based dashboard to track COVID-19 in real time</article-title>
+                  <source>Lancet. Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <fpage>533</fpage>
+                  <lpage>534</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30120-1</pub-id>
+                  <pub-id pub-id-type="pmid">32087114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijerph-18-02667">
+                <label>11.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <collab>United Arab Emirates Federal Competitiveness and Statistics Authority</collab>
+                  </person-group>
+                  <article-title>Latest United Arab Emirates COVID-19 Data</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://fcsa.gov.ae/en-us/Pages/Covid19/UAE-Covid-19-Updates.aspx.">https://fcsa.gov.ae/en-us/Pages/Covid19/UAE-Covid-19-Updates.aspx.</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2020-12-30">(accessed on 30 December 2020)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijerph-18-02667">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rocha Filho</surname>
+                      <given-names>T.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganem dos Santos</surname>
+                      <given-names>F.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomes</surname>
+                      <given-names>V.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rocha</surname>
+                      <given-names>T.A.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Croda</surname>
+                      <given-names>J.H.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramalho</surname>
+                      <given-names>W.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Araujo</surname>
+                      <given-names>W.N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Expected impact of COVID-19 outbreak in a major metropolitan area in Brazil</article-title>
+                  <source>medRxiv</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.03.14.20035873</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijerph-18-02667">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lou</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Musa</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>M.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cai</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A conceptual model for the coronavirus disease 2019 (COVID-19) outbreak in Wuhan, China with individual reaction and governmental action</article-title>
+                  <source>Int. J. Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>93</volume>
+                  <fpage>211</fpage>
+                  <lpage>216</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijid.2020.02.058</pub-id>
+                  <?supplied-pmid 32145465?>
+                  <pub-id pub-id-type="pmid">32145465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijerph-18-02667">
+                <label>14.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <collab>United Arab Emirates Federal Competitiveness and Statistics Authority</collab>
+                  </person-group>
+                  <article-title>Key Statistics and Data for Global Competitiveness and Sustainable Development in the United Arab Emirates (Page 17)</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://fcsa.gov.ae/en-us/Documents/UAE%20Numbers%20En%202019.pdf">https://fcsa.gov.ae/en-us/Documents/UAE%20Numbers%20En%202019.pdf</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2020-12-30">(accessed on 30 December 2020)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijerph-18-02667">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ren</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>K.S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lau</surname>
+                      <given-names>E.H.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>J.Y.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2020</year>
+                  <volume>382</volume>
+                  <fpage>1199</fpage>
+                  <lpage>1207</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa2001316</pub-id>
+                  <?supplied-pmid 31995857?>
+                  <pub-id pub-id-type="pmid">31995857</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijerph-18-02667">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>W.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ni</surname>
+                      <given-names>Z.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>W.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ou</surname>
+                      <given-names>C.Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>J.X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shan</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lei</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hui</surname>
+                      <given-names>D.S.C.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>China Medical Treatment Expert Group for Covid-19. Clinical Characteristics of Coronavirus Disease 2019 in China</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2020</year>
+                  <volume>382</volume>
+                  <fpage>1708</fpage>
+                  <lpage>1720</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa2002032</pub-id>
+                  <?supplied-pmid 32109013?>
+                  <pub-id pub-id-type="pmid">32109013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijerph-18-02667">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harilal</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramaswamy</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loney</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Al Suwaidi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khansaheb</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alkhaja</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Varghese</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deesi</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nowotny</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alsheikh-Ali</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SARS-CoV-2 Whole Genome Amplification and Sequencing for Effective Population-Based Surveillance and Control of Viral Transmission</article-title>
+                  <source>Clin. Chem.</source>
+                  <year>2020</year>
+                  <volume>66</volume>
+                  <fpage>1450</fpage>
+                  <lpage>1458</lpage>
+                  <pub-id pub-id-type="doi">10.1093/clinchem/hvaa187</pub-id>
+                  <?supplied-pmid 32715310?>
+                  <pub-id pub-id-type="pmid">32715310</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijerph-18-02667">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tayoun</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loney</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khansaheb</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramaswamy</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harilal</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deesi</surname>
+                      <given-names>Z.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Varghese</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Al Suwaidi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alkhajeh</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>AlDabal</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Multiple early introductions of SARS-CoV-2 into a global travel hub in the Middle East</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>17720</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-74666-w</pub-id>
+                  <?supplied-pmid 33082405?>
+                  <pub-id pub-id-type="pmid">33082405</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijerph-18-02667">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Loney</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khansaheb</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramaswamy</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harilal</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deesi</surname>
+                      <given-names>Z.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Varghese</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Al Ali</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khadeeja</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Al Suwaidi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alkhajeh</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Genotype-phenotype correlation identified a novel SARS-CoV-2 variant possibly linked to severe disease</article-title>
+                  <source>Transbound. Emerg. Dis.</source>
+                  <year>2021</year>
+                  <pub-id pub-id-type="doi">10.1111/tbed.14004</pub-id>
+                  <?supplied-pmid 33506644?>
+                  <pub-id pub-id-type="pmid">33506644</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijerph-18-02667">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Champredon</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dushoff</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Earn</surname>
+                      <given-names>D.J.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Equivalence of the Erlang SEIR epidemic model and the renewal equation</article-title>
+                  <source>SIAM J. Appl. Math.</source>
+                  <year>2018</year>
+                  <volume>78</volume>
+                  <fpage>3258</fpage>
+                  <lpage>3278</lpage>
+                  <pub-id pub-id-type="doi">10.1137/18M1186411</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="ijerph-18-02667-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Model definition. The most infectious compartments are those of the Exposed and Asymptomatic carriers. Less infectious compartments are those of Isolated and tested people due to subsequent isolation. In this graph we also show that the average time of a person in the Exposed compartment is less than the average time of a person in the Asymptomatic compartment, which is in turn less than the average time of a person in the Isolated or Hospitalized compartments [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>].</p>
+              </caption>
+              <graphic xlink:href="ijerph-18-02667-g001"/>
+            </fig>
+            <fig id="ijerph-18-02667-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>The Erlang distribution with parameters k = 5 and λ = 5/5.2 = 0.96, showing the time (in days) an exposed person spends in incubation period.</p>
+              </caption>
+              <graphic xlink:href="ijerph-18-02667-g002"/>
+            </fig>
+            <fig id="ijerph-18-02667-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>The optimization result on the logarithmic scale.</p>
+              </caption>
+              <graphic xlink:href="ijerph-18-02667-g003"/>
+            </fig>
+            <fig id="ijerph-18-02667-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>The extrapolation of the result of <xref ref-type="fig" rid="ijerph-18-02667-f003">Figure 3</xref>. The assumed division of infected population is as follows: 30% of the Infected population would be asymptomatic, 55% mild cases, and 15% hospitalized (which are further divided into three sub-categories) according to Lauer et al. [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>].</p>
+              </caption>
+              <graphic xlink:href="ijerph-18-02667-g004"/>
+            </fig>
+            <table-wrap id="ijerph-18-02667-t001" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">ijerph-18-02667-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>The UAE Government public health intervention on mask wearing and physical distancing. By enforcing mask wearing in public places and physical distancing, the UAE Government introduces public health interventions and we quantify the effects of these measures as multiplier <italic>G(t)</italic>, which finally reduces the base transmission rate (<italic>β<sub>t</sub></italic>). The values are assumed, and <italic>G(t)</italic> decreases as more measures are taken.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Date</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+                      <italic>G(t)</italic>
+                    </th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-01</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.95</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Nurseries closed <sup>1</sup></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-08</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.90</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Schools and universities closed <sup>2</sup></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-15</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.85</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Gyms, parks, cinemas, and pools closed <sup>3</sup></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-16</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.80</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Mosques and other worship places closed <sup>4</sup></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-17</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.75</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Suspension of issuing entry visas <sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-23</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.70</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Malls, shopping centers, restaurants closed <sup>6</sup><break/>Passenger flights suspended <sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-04-04</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.65</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Restrictions on non-essential movement (extension of the disinfection program to 24 h a day in Dubai) <sup>8</sup></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2020-05-01</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.40</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Physical distancing measures</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn>
+                  <p><sup>1</sup><uri xlink:href="https://www.khaleejtimes.com/coronavirus-outbreak/live-number-of-coronavirus-patients-in-uae-increases-to-21-1">https://www.khaleejtimes.com/coronavirus-outbreak/live-number-of-coronavirus-patients-in-uae-increases-to-21-1</uri> (accessed date: 2 March 2021); <sup>2</sup>
+<uri xlink:href="https://www.khaleejtimes.com/coronavirus-outbreak/uae-schools-to-close-for-four-weeks-as-precaution-against-covid-19-coronavirus">https://www.khaleejtimes.com/coronavirus-outbreak/uae-schools-to-close-for-four-weeks-as-precaution-against-covid-19-coronavirus</uri> (accessed date: 2 March 2021); <sup>3</sup>
+<uri xlink:href="https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-in-uae-cinemas-in-dubai-temporarily-closed-">https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-in-uae-cinemas-in-dubai-temporarily-closed-</uri> (accessed date: 2 March 2021); <sup>4</sup>
+<uri xlink:href="https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-prayers-at-uae-mosques-other-places-of-worship-suspended-for-four-weeks-">https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-prayers-at-uae-mosques-other-places-of-worship-suspended-for-four-weeks-</uri> (accessed date: 2 March 2021); <sup>5</sup>
+<uri xlink:href="https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-uae-visa-suspension-begins-today">https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-uae-visa-suspension-begins-today</uri> (accessed date: 2 March 2021); <sup>6</sup>
+<uri xlink:href="https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-uae-to-close-shopping-malls-for-two-weeks">https://www.khaleejtimes.com/coronavirus-outbreak/coronavirus-uae-to-close-shopping-malls-for-two-weeks</uri> (accessed date: 2 March 2020); <sup>7</sup>
+<uri xlink:href="https://www.khaleejtimes.com/coronavirus-outbreak/covid-19-uae-suspends-all-passenger-and-transit-flights">https://www.khaleejtimes.com/coronavirus-outbreak/covid-19-uae-suspends-all-passenger-and-transit-flights</uri> (accessed date: 2 March 2020); <sup>8</sup>
+<uri xlink:href="https://gulfnews.com/uae/government/covid-19-disinfection-drive-extended-to-24-h-in-dubai-1.1586019164814">https://gulfnews.com/uae/government/covid-19-disinfection-drive-extended-to-24-h-in-dubai-1.1586019164814</uri> (accessed date: 3 March 2020).</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <table-wrap id="ijerph-18-02667-t002" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">ijerph-18-02667-t002_Table 2</object-id>
+              <label>Table 2</label>
+              <caption>
+                <p>The assumed positive cases detected over time that can result from random tests. The numbers below are only assumptions, since we do not have the official test data about positive cases found on people randomly sampled from the population.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Date</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Positive</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-02-27</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-03</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-09</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">3</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-10</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">5</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-03-29</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">20</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-04-20</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">60</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-05-01</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">80</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2020-05-10</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">90</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2020-05-20</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">40</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="ijerph-18-02667-t003" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">ijerph-18-02667-t003_Table 3</object-id>
+              <label>Table 3</label>
+              <caption>
+                <p>The parameters used for the SEAHIR model.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Name</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Notation</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Value</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Initial population size</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>N</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">9,366,829</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Given by the UAE Federal Competitiveness and Statistics Authority [<xref rid="B14-ijerph-18-02667" ref-type="bibr">14</xref>]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Transmission rate</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>β</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.1466 ± 0.0004 *</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Estimated in optimization based on publicly available data, see <xref ref-type="sec" rid="sec3-ijerph-18-02667">Section 3</xref> below. This is the estimated base transmission rate for the UAE</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Transmission rate in isolation</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>β<sub>I</sub></italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.0623 ± 0.0011 *</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Estimated in optimization based on publicly available data, see <xref ref-type="sec" rid="sec3-ijerph-18-02667">Section 3</xref> below. This parameter is modelling the effects of (1) the nosocomial infections in the isolation facilities, (2) expected infected healthcare workers who might then move/live in the community and contribute to community-transmission, (3) infecting housemates, and (4) possible breaking the isolation rules</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Base transmission rate multiplier</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>G(t)</italic>
+                    </td>
+                    <td colspan="2" align="left" valign="middle" rowspan="1">See <xref rid="ijerph-18-02667-t001" ref-type="table">Table 1</xref> (physical distancing). The values of <italic>G(t)</italic> vary over time due to the government measures implemented. Before 1 March 2020 we set <italic>G(t)</italic> = 1. From 1 March 2020 and up to 4 March 2020, we set <italic>G(t)</italic> = 0.95. From 5 March 2020 and up to 14 March 2020, we set <italic>G(t)</italic> = 0.90, and so on. From 1 March 2020 onwards, we set <italic>G(t)</italic> = 0.40.</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Positive tested cases</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>P(t)</italic>
+                    </td>
+                    <td colspan="2" align="left" valign="middle" rowspan="1">See <xref rid="ijerph-18-02667-t002" ref-type="table">Table 2</xref> (testing). The values of <italic>P(t)</italic> vary over time. For dates before 27 February 2020 we assume no positive people would be found if a member of the population was randomly selected and tested, so <italic>P(t)</italic> = 0. For the dates not shown we assume the number of the last date shown, up to the specific date we are interested in. For example, for the 25 March 2020 we consider <italic>P(t)</italic> = 5 positive people found, because the last date up to 25 March 2020 shown is 10 March 2020 that indicates 5 positive people found based on our assumption in <xref rid="ijerph-18-02667-t002" ref-type="table">Table 2</xref>.</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Mean incubation period (days)</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>α</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">5.2</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Based on data from [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>,<xref rid="B15-ijerph-18-02667" ref-type="bibr">15</xref>,<xref rid="B16-ijerph-18-02667" ref-type="bibr">16</xref>]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Average period the asymptomatic carriers are considered infectious (days)</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>ζ</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">9.0</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Assumed based on data from [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Average period in isolation (days)</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>γ<sub>I</sub></italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">14.0</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Assumed based on data from [<xref rid="B9-ijerph-18-02667" ref-type="bibr">9</xref>,<xref rid="B16-ijerph-18-02667" ref-type="bibr">16</xref>]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Average period in hospital (days)</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>γ<sub>H</sub></italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">18.0</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Assumed based on data from [<xref rid="B16-ijerph-18-02667" ref-type="bibr">16</xref>]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Average extra time in hospital or isolation (days)</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>δ</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">31.1 ± 8.0 *</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Estimated in optimization based on publicly available data, see below. Some people stay in hospital or isolation for additional time, until they are finally discharged. During this period, they are not infectious anymore and are only recovering</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Mortality rate</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>m</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2.4%</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Given from the population age structure and the CFR table [<xref rid="B15-ijerph-18-02667" ref-type="bibr">15</xref>]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Hospitalization need</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>h</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">5.5</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Assumed based on data from [<xref rid="B16-ijerph-18-02667" ref-type="bibr">16</xref>]</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Percentage of the Exposed population requiring hospitalization</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>s</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">13.2%</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <italic>m·h</italic>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Asymptomatic percentage</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+                      <italic>p</italic>
+                    </td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">30%</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Assumed</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn>
+                  <p>Additional notes: • We assume that the first exposed person (or group of people) arrived in the UAE on 16 January 2020 according to published viral genomics research [<xref rid="B17-ijerph-18-02667" ref-type="bibr">17</xref>,<xref rid="B18-ijerph-18-02667" ref-type="bibr">18</xref>,<xref rid="B19-ijerph-18-02667" ref-type="bibr">19</xref>]. • Up to 27 February 2020 all patients were assumed to be hospitalized. • The Exposed, Asymptomatic, Isolated and Hospitalized population is assumed to follow the Erlang (k, λ) distribution in these compartments based on the reported cases in the UAE. The Erlang distribution is supported by recent literature [<xref rid="B20-ijerph-18-02667" ref-type="bibr">20</xref>]. Note that the Erlang distribution is a special case of the Gamma (k, λ) distribution, with k being an integer. What makes the Erlang distribution a better choice compared to the Gamma distribution is the fact that a random sample from the Erlang distribution can be expressed as the sum of k random samples of an exponential distribution with parameter λ. The connection and the stability improvement of the SEIR model using the Erlang distribution is shown in [<xref rid="B20-ijerph-18-02667" ref-type="bibr">20</xref>]. In all cases we assumed k = 5. <xref ref-type="fig" rid="ijerph-18-02667-f002">Figure 2</xref> shows the Erlang distribution for the incubation period. * denotes the upper and lower 95% limits.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:48:52Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8466853" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8466853</identifier>
+        <datestamp>2021-09-27</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Comput Methods Programs Biomed Update</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Comput Methods Programs Biomed Update</journal-id>
+              <journal-title-group>
+                <journal-title>Computer Methods and Programs in Biomedicine Update</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2666-9900</issn>
+              <publisher>
+                <publisher-name>Published by Elsevier B.V.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8466853</article-id>
+              <article-id pub-id-type="pmcid">PMC8466853</article-id>
+              <article-id pub-id-type="pmc-uid">8466853</article-id>
+              <article-id pub-id-type="pmid">34604831</article-id>
+              <article-id pub-id-type="pii">S2666-9900(21)00028-8</article-id>
+              <article-id pub-id-type="doi">10.1016/j.cmpbup.2021.100029</article-id>
+              <article-id pub-id-type="publisher-id">100029</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Forecasting COVID-19 pandemic in Alberta, Canada using modified ARIMA models</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au0001">
+                  <name>
+                    <surname>Sun</surname>
+                    <given-names>Jian</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff0001" ref-type="aff">a</xref>
+                  <xref rid="aff0002" ref-type="aff">b</xref>
+                  <xref rid="cor0001" ref-type="corresp">⁎</xref>
+                </contrib>
+                <aff id="aff0001"><label>a</label>School of Public Health, University of Alberta, Edmonton, Alberta, Canada</aff>
+                <aff id="aff0002"><label>b</label>Department of Medicine, University of Calgary, Calgary, Alberta, Canada</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor0001"><label>⁎</label>Corresponding author at: 1933 119A Street SW, Edmonton AB, T6W 0E2, Canada.</corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>26</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>26</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>1</volume>
+              <fpage>100029</fpage>
+              <lpage>100029</lpage>
+              <history>
+                <date date-type="received">
+                  <day>8</day>
+                  <month>4</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>1</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>24</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 Published by Elsevier B.V.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder/>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0002">
+                <sec>
+                  <title>Background and objectives</title>
+                  <p>Auto regressive integrated moving average (ARIMA) model is a popular model to forecast future values of a time series using the past values of the same series. However, if the variance of the time series varies with time, the 95% confidence interval estimated by the ARIMA will not be accurate. This study proposes a method to revise the ARIMA model to suit time series with heteroscedasticity.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p>Multiple historical ARIMA models were constructed with publicly available COVID-19 data in Alberta, Canada. The time series between different time periods were applied for these models. The means and their 95% confidence intervals of the differences between the forecasted values and the corresponding actual values were computed. The forecasted values of the general ARIMA models were modified by adding these differences.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>The average incident cases forecasted with the proposed method are lower than those with a general ARIMA model during the forecasted period. The 95% confidence intervals of the forecasted incidence with the proposed method are narrower. During the forecasted period (13 weeks) the average incidence was predicted to increase first and then decrease exponentially.</p>
+                </sec>
+                <sec>
+                  <title>Conclusion</title>
+                  <p>The proposed method can be used to automatically specify the best ARIMA model, to fit time series with heteroscedasticity and to forecast longer period of the trends in the future. In the next 13 weeks, the Covid-19 incidence may decrease but not eliminate. To stop the transmission of infections eventually, persistent effects complying with accurate forecasts are necessary.</p>
+                </sec>
+              </abstract>
+              <kwd-group id="keys0001">
+                <title>Keywords</title>
+                <kwd>ARIMA</kwd>
+                <kwd>COVID-19</kwd>
+                <kwd>Infectious disease</kwd>
+                <kwd>SAS</kwd>
+                <kwd>Time series analysis</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec0001">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="para0010">In December 2019, a series of pneumonia cases with no identified cause appeared in Wuhan, China, with clinic symptoms similar to viral pneumonia [<xref rid="bib0001" ref-type="bibr">1</xref>, <xref rid="bib0002" ref-type="bibr">2</xref>]. The novel coronavirus was referred to as SARS-CoV-2, which belongs to the same family of virus that caused severe acute respiratory syndrome (SARS) in 2003 <xref rid="bib0003" ref-type="bibr">[3]</xref>. On March 11, 2020 World Health Organization (WHO) named the disease as coronavirus disease 2019 (COVID-19) <xref rid="bib0003" ref-type="bibr">[3]</xref>.</p>
+              <p id="para0011">Since the original outbreak, COVID-19 has spread to 221 countries and territories. As of September 1, 2021, a total of 218 930 223 confirmed cases and 4 539 725 deaths were reported <xref rid="bib0004" ref-type="bibr">[4]</xref>. In Alberta, Canada, the first COVID-19 case was reported on March 6, 2020, and through August 26, 2021, a total of 248 954 cases were reported. Among them, the number of deaths reached 2 364 <xref rid="bib0005" ref-type="bibr">[5]</xref>.</p>
+              <p id="para0012">To control the pandemic spread, Alberta Government implemented a series of strategies including travel restriction, isolation requirement and social distancing mandate. Vaccinations started on December 14, 2020. As of August 26, 2021, 77.7% of 12+ population has received at least one dose (66.1% of the total population in the province), and 69.3% were fully vaccinated (59% of the total population) <xref rid="bib0005" ref-type="bibr">[5]</xref>. With the progress of the vaccinations, Alberta Government planned reopening by stage. To effectively control the pandemic and resume socioeconomic activities, accurately predicting the COVID-19 dynamics using appropriate statistical models are necessary.</p>
+              <p id="para0013">Various statistical models were used to predict the upcoming number of cases and forecast future spread of infectious diseases <xref rid="bib0006" ref-type="bibr">[6]</xref>. Ceylan <xref rid="bib0007" ref-type="bibr">[7]</xref> reviewed different statistical methods such as multivariate linear regression <xref rid="bib0008" ref-type="bibr">[8]</xref>, grey forecasting models <xref rid="bib0009" ref-type="bibr">[9]</xref>, backpropagation neural networks <xref rid="bib0010" ref-type="bibr">[10]</xref>, and simulation models <xref rid="bib0011" ref-type="bibr">[11]</xref>. ArunKumar et al. <xref rid="bib0006" ref-type="bibr">[6]</xref> reviewed machine learning models for short-term forecasts of COVID-19 pandemic, such as support vector regression (SVR) <xref rid="bib0012" ref-type="bibr">[12]</xref>, cubic regression <xref rid="bib0013" ref-type="bibr">[13]</xref>, random forest <xref rid="bib0013" ref-type="bibr">[13]</xref>, ridge regression <xref rid="bib0013" ref-type="bibr">[13]</xref>, deep learning long short-term memory (LSTM) network <xref rid="bib0014" ref-type="bibr">[14]</xref> and so on.</p>
+              <p id="para0014">The ARIMA models which were first popularized by Box and Jenkins <xref rid="bib0015" ref-type="bibr">[15]</xref>, have been successfully applied in the past to estimate the incidence and prevalence of various infectious diseases [<xref rid="bib0007" ref-type="bibr">7</xref>,<xref rid="bib0009" ref-type="bibr">9</xref>,<xref rid="bib0010" ref-type="bibr">10</xref>]. Recently, ARIMA models had also be used for forecasting COVID-19 pandemic [<xref rid="bib0006" ref-type="bibr">6</xref>,<xref rid="bib0007" ref-type="bibr">7</xref>,<xref rid="bib0013" ref-type="bibr">13</xref>]. However, because ARIMA is suitable for time series with consistent means and variances, it could not be used directly if the series do not satisfy the conditions. Differencing is a preferred approach to stabilize the mean values of the time series, while log transformation can usually reduce but not eliminate the nonconsistency of the variance (i.e., heteroscedasticity). Heteroscedasticity where the spread is proportional to the mean of the time series will tend to be improved by taking logarithm, but if it's not increasing with the mean, then the heteroscedasticity may be made worse by that transformation. In addition to log transformation, other types of transformations such as cube, square, square root and so on are possible <xref rid="bib0016" ref-type="bibr">[16]</xref>. If the approximate form of the heteroscedasticity were known, a type of transformations might approximately make the variance constant. However, in most of the cases, heteroscedasticity cannot eliminate by transformation, because the relationship between the variance and mean of the time series are unknown. If the variance of the time series varies with time, the 95% confidence interval (95% CI) estimated by the ARIMA will not be accurate. In addition, the current values of the time series usually have stronger correlations with recent values of the series, but not with earlier ones. With the traditional ARIMA modeling technique, information contained in the earlier series is ignored or attenuated.</p>
+              <p id="para0015">This paper proposes a method to modify the traditional ARIMA model. Information computed from historical ARIMA models and the real data reported in the past were applied to adjust the forecasted values derived from the general ARIMA model. As an example, weekly incident cases of the Alberta COVID-19 were analyzed and forecasted.</p>
+            </sec>
+            <sec id="sec0002">
+              <label>2</label>
+              <title>Statistical methods</title>
+              <p id="para0016">Basic statistical methods for model building and goodness test are described briefly in this section. To apply the proposed method, limited statistical knowledges are needed.</p>
+              <sec id="sec0003">
+                <label>2.1</label>
+                <title>ARIMA model</title>
+                <p id="para0017">A time series can be expressed as a set of data points ordered in time. ARIMA is a class of models that explains a given time series based on its own past values. The equation derived by ARIMA can be used to forecast future values. Theoretically, any nonseasonal time series that exhibits patterns and is not random white noise can be modeled with ARIMA models. A general ARIMA model can be classified as an ARIMA (<italic>p, d, q</italic>) model, where <italic>p</italic> is the number of autoregressive (AR) terms, <italic>q</italic> is the number of moving average (MA) terms in the prediction equation, and <italic>d</italic> is the order of differences needed for stationarity. The first-order and second-order of differences can be represented as <xref rid="eqn0001" ref-type="disp-formula">Eqs. (1)</xref> and <xref rid="eqn0002" ref-type="disp-formula">(2)</xref>, respectively.<disp-formula id="eqn0001"><label>(1)</label><mml:math id="M1" altimg="si1.svg"><mml:mrow><mml:msubsup><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mi>t</mml:mi><mml:mo>′</mml:mo></mml:msubsup><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula>
+<disp-formula id="eqn0002"><label>(2)</label><mml:math id="M2" altimg="si2.svg"><mml:mrow><mml:msubsup><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mi>t</mml:mi><mml:mrow><mml:mo>″</mml:mo></mml:mrow></mml:msubsup><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula>Higher orders of differences were seldom used for ARIMA models.</p>
+                <p id="para0019">The ARIMA model may be simplified to ARMA model if <italic>d</italic> = 0. ARMA model may be further simplified to AR model if <italic>q</italic> = 0, or MA model if <italic>p</italic> = 0. AR (<italic>p</italic>) model refers to the current value of the time series <italic>y<sub>t</sub></italic> linearly in terms of its previous values <italic>y<sub>t−1</sub>, y<sub>t−2</sub></italic>, ..., <italic>y<sub>t−p</sub></italic> and the current residuals <italic>ε<sub>t</sub></italic>. MA (<italic>q</italic>) model refers to the current value of the time series <italic>y<sub>t</sub></italic> linearly in terms of its current and previous residual series <italic>ε<sub>t</sub>, ε<sub>t−1</sub>, ε<sub>t−2</sub></italic>, ..., <italic>ε<sub>t−q</sub></italic>
+<xref rid="bib0007" ref-type="bibr">[7]</xref>. The general formula of AR (<italic>p</italic>) and MA (<italic>q</italic>) models can be expressed in <xref rid="eqn0003" ref-type="disp-formula">Eqs. (3)</xref> and <xref rid="eqn0004" ref-type="disp-formula">(4)</xref>, respectively.<disp-formula id="eqn0003"><label>(3)</label><mml:math id="M3" altimg="si3.svg"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>C</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:mo>…</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math></disp-formula>
+<disp-formula id="eqn0004"><label>(4)</label><mml:math id="M4" altimg="si4.svg"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>C</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:mo>…</mml:mo><mml:mo>−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>q</mml:mi></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mi>q</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula>where <italic>C</italic> is a constant, <italic>ϕ<sub>1,</sub> ϕ<sub>2, …,</sub> ϕ<sub>p</sub></italic> are autoregressive model parameters and <italic>θ<sub>1,</sub> θ<sub>2, …,</sub> θ<sub>q</sub></italic> are moving average model parameters.</p>
+                <p id="para0020">An ARMA model can be represented as<disp-formula id="eqn0005"><label>(5)</label><mml:math id="M5" altimg="si5.svg"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>C</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:mo>…</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:mo>…</mml:mo><mml:mo>−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>q</mml:mi></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mi>q</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula>where <italic>p</italic> represents a gap between <italic>t</italic> and <italic>t-p</italic>, and <italic>q</italic> represents a gap between <italic>t</italic> and <italic>t-q</italic>.</p>
+                <p id="para0021">ARIMA models can also be expressed as in <xref rid="eqn0005" ref-type="disp-formula">Eq. (5)</xref> but <italic>y<sub>t,</sub> y<sub>t-1,</sub> y<sub>t-2, …,</sub> y<sub>t-p</sub></italic> in the equation represent the differences of the time series instead of the original values of the time series.</p>
+              </sec>
+              <sec id="sec0004">
+                <label>2.2</label>
+                <title>Subset ARIMA models</title>
+                <p id="para0022">A model that includes parameters for only some lags is called a subset model <xref rid="bib0017" ref-type="bibr">[17]</xref>. For example, an ARIMA(2,0,3) can be represented as in <xref rid="eqn0006" ref-type="disp-formula">Eq. (6)</xref>. <xref rid="eqn0007" ref-type="disp-formula">Eq. (7)</xref> is a subset model of ARIMA(2,0,3) which may be expressed as ARIMA((2),0,(1,3)).<disp-formula id="eqn0006"><label>(6)</label><mml:math id="M6" altimg="si6.svg"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>C</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>q</mml:mi></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula>
+<disp-formula id="eqn0007"><label>(7)</label><mml:math id="M7" altimg="si7.svg"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>C</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mi>t</mml:mi></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">−</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>q</mml:mi></mml:msub><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula>
+</p>
+                <p id="para0023">For ARIMA(2,0,3), AR and MA terms can be expressed as <italic>p</italic> = 2 and <italic>q</italic> = 3, respectively. Similarly, for subset ARIMA((2),0,(1,3)), AR and MA terms can be expressed as <italic>p</italic> = (2) and <italic>q</italic> = (1 3), respectively.</p>
+              </sec>
+              <sec id="sec0005">
+                <label>2.3</label>
+                <title>Schwarz Bayesian criterion (SBC)</title>
+                <p id="para0024">The Schwarz Bayesian criterion (SBC) <xref rid="bib0018" ref-type="bibr">[18]</xref> or Bayesian information criterion (BIC) is a popular criterion for model selection among a finite set of models. In this study, from many possible models with different lags and types to fit the same time series, the one with the lowest SBC was selected as the best model. SBC is defined as in Eq. (8).<disp-formula id="eqn0008"><label>(8)</label><mml:math id="M8" altimg="si8.svg"><mml:mrow><mml:mi>S</mml:mi><mml:mi>B</mml:mi><mml:mi>C</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mrow/><mml:mo linebreak="goodbreak">−</mml:mo><mml:mn>2</mml:mn><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>g</mml:mi><mml:mi>L</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>K</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>g</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:math></disp-formula>where <italic>L</italic> is the likelihood, <italic>K</italic> is the number of model parameters, and <italic>N</italic> is the number of observations of the time series used to build the model.</p>
+              </sec>
+            </sec>
+            <sec id="sec0006">
+              <label>3</label>
+              <title>Calculation</title>
+              <sec id="sec0007">
+                <label>3.1</label>
+                <title>Data source</title>
+                <p id="para0025">The Government of Alberta posts cumulative numbers of COVID-19 cases on its website, which contains the numbers of confirmed and possible cases <xref rid="bib0005" ref-type="bibr">[5]</xref>. Both confirmed and possible cases were included in the calculations, considering that diagnosis dates might be later than actual infected dates and omissions might occurred.</p>
+              </sec>
+              <sec id="sec0008">
+                <label>3.2</label>
+                <title>Data preprocessing</title>
+                <p id="para0026">The algorithm for data preprocessing is shown in <xref rid="fig0001" ref-type="fig">Fig. 1</xref>
+. The number of total cases was collected from March 6, 2020 to August 26, 2021. Daily incidences derived by first-order differencing were summed up to 77 weekly incidences.<fig id="fig0001"><label>Fig. 1</label><caption><p>Algorithm for data preprocessing.</p></caption><alt-text id="alt0004">Fig 1</alt-text><graphic xlink:href="gr1_lrg"/></fig></p>
+                <p id="para0027">The weekly numbers were differenced and log transformed for stationarity. The time series used for analysis started on May 1, 2020 (the start date of the 9<sup>th</sup> week from the date while the first case occurred in the province). Because the variances of the earlier values of the incidence after log transformation were still larger, they were excluded from the analysis.</p>
+                <p id="para0028">In <xref rid="eqn0003" ref-type="disp-formula">Eqs. (3)</xref>–<xref rid="eqn0005" ref-type="disp-formula">(5)</xref>, subscript <italic>t</italic> represents the “current” time. It is usually the last available time point of the series. This approach needs to construct multiple ARIMA models for the same series with different time periods. In this paper, the model used to fit the time series ended at time <italic>t</italic> is called current ARIMA model. The others for the same series but ended earlier (before <italic>t</italic>) are called historical ARIMA models.</p>
+                <p id="para0029">SAS ARIMA procedure <xref rid="bib0017" ref-type="bibr">[17]</xref> was used for the analyses. To fully use historical information, the end date points (weeks for this study) for the first and subsequent historical ARIMA models should be as early as possible. The same series with different end weeks were pretested by IDENTIFY statement in the ARIMA procedure. The earliest end week (week 48) was determined based on approximate white noise tests of the hypothesis that none of the autocorrelations of the series up to lag equals 6 are significantly different from 0. According to the tests with a few shorter series, any series ended earlier than week 48 was a white noise series. Further analyses with those series were not necessary.</p>
+                <p id="para0030">The description of data preprocessing appears complicated. With a general SAS ARIMA procedure, however, the number of differences, number of log transformations, start and the earliest end weeks were determined in minutes.</p>
+              </sec>
+              <sec id="sec0009">
+                <label>3.3</label>
+                <title>Model constructing</title>
+                <p id="para0031">The algorithm in <xref rid="fig0002" ref-type="fig">Fig. 2</xref>
+illustrated the process to specify the model type and 3-lag combination for the best model building. To specify the type and lags, six circles of estimation processes were conducted for a series started in week 9 and ended in week 48.<fig id="fig0002"><label>Fig. 2</label><caption><p>Algorithm for specifying type and lags, building the best model to fit the series ended in week 48, and calculating the differences between real data and forecasted values.</p></caption><alt-text id="alt0005">Fig 2</alt-text><graphic xlink:href="gr2_lrg"/></fig></p>
+                <p id="para0032">At the first two circles, all possible subset AR and MA models with a single lag from 1 to 10 were created. Each model outputted one observation which consisted of a lag, model type, SBC and <italic>COVN</italic>. Variable <italic>COVN</italic> = 0 indicates that the estimation process has converged <xref rid="bib0017" ref-type="bibr">[17]</xref>. All observations with <italic>COVN</italic> = 0 were combined. The first type and lag number contained in the observation with the smallest SBC were specified.</p>
+                <p id="para0033">At the next two circles, the lag number derived from the first two circles were assigned to “<italic>p</italic>” or “<italic>q</italic>” terms based on the derived type. All possible subset ARIMA models with this fixed lag and another one varied from 1 to 10 were created for the same series. With the same processes, the second type and lag number contained in the observation were specified. For example, if at the first two circles, <italic>type</italic> = “<italic>p</italic>” and lag equals 1 was specified, the <italic>type</italic> would be updated to “<italic>pp”</italic> and “<italic>qp</italic>”. Then all ARIMA models with <italic>p</italic> = 1 and any other lag up to 10 for <italic>p</italic> or <italic>q</italic> would be conducted and the best model with two lags were determined.</p>
+                <p id="para0034">Similarly, the last two circles specified the third lag and updated the type again. The best ARIMA model to fit the series ended in week 48 was built using the lags of correlations specified at this circle pair. Finally, the differences between real data and forecasted values <italic>d</italic> (.) for each of the 13 weeks were calculated.</p>
+              </sec>
+              <sec id="sec0010">
+                <label>3.4</label>
+                <title>Modifying general ARIMA and forecasting</title>
+                <p id="para0035"><xref rid="fig0003" ref-type="fig">Fig. 3</xref> illustrates the algorithm for forecasting means and 95% CIs using the proposed method and general ARIMA. The algorithm in <xref rid="fig0002" ref-type="fig">Fig. 2</xref> was iterated from <italic>end</italic> = 48 to 77 to fit the series ended from weeks 48 to 77. With these best models, except the last one for the series ended at week 77, 13-week forecasts were performed by FORECAST statements in SAS ARIMA procedure. The results were compared with the actual values which had been reported. The means and their 95% CIs of the differences between actual values and the corresponding forecasted values for each of the 13 weeks were computed. The forecasted mean values derived from the general ARIMA model fitted to the whole time series were modified by adding the differences (means and 95% CIs).<fig id="fig0003"><label>Fig. 3</label><caption><p>Algorithm for forecasting means and 95% confidence intervals.</p></caption><alt-text id="alt0006">Fig 3</alt-text><graphic xlink:href="gr3_lrg"/></fig></p>
+                <p id="para0036">Finally the forecasted means and the 95% CIs of the log transformation of the weekly incidences were transformed back to their original units by exponentiation. Before conducting the transformation, a square of the standard error of the forecast divided by 2 (<italic>STD*STD</italic>/2) was added to the logarithms of the means <xref rid="bib0017" ref-type="bibr">[17]</xref>.</p>
+                <p id="para0037">In Appendix, <xref rid="tbl0001" ref-type="table">Table A.1</xref> lists weekly incidence (<italic>wi</italic>) data in Alberta. SAS LOG function in data step A creates <italic>lnwi</italic>, the log transformation of <italic>wi</italic>. <xref rid="tbl0002" ref-type="table">Table A.2</xref> is a SAS macro for model building, modifying and forecasting. <xref rid="tbl0003" ref-type="table">Table A.3</xref> provides a SAS code for plotting the forecasted results for readers to verify the SAS macro.</p>
+              </sec>
+            </sec>
+            <sec id="sec0011">
+              <label>4</label>
+              <title>Results</title>
+              <p id="para0038">The entire course of the weekly number (confirmed and possible) is illustrated in <xref rid="fig0004" ref-type="fig">Fig. 4</xref>
+. During the 77 weeks, the curve varied violently. In weeks 7, 40 and 61, the fluctuated curve reached its three peaks (1 682, 12 065 and 14 262), respectively. Then it dropped down to 266 in week 71 (July 9 – 15, 2021). From week 71, the curve was rising again quickly.<fig id="fig0004"><label>Fig. 4</label><caption><p>Weekly number of incidences (confirmed and possible).</p></caption><alt-text id="alt0007">Fig 4</alt-text><graphic xlink:href="gr4_lrg"/></fig></p>
+              <p id="para0039">Using the SAS macro in <xref rid="tbl0002" ref-type="table">Table A.2</xref>, “<italic>p</italic> = (1 8) <italic>q</italic> = (8)” was specified for each ARIMA model to fit time series ended from weeks 48 to 60. “<italic>p</italic> = 1 <italic>q</italic> = (8)” and “<italic>p</italic> = 2 <italic>q</italic> = (8)” were specified for series ended in week 61 and 62, respectively. while “<italic>p</italic> = (1 8)” was specified for other models to fit the series ended at week 63 and later. With the specified lag numbers and types, a total of 30 ARIMA models were constructed.</p>
+              <p id="para0040"><xref rid="fig0005" ref-type="fig">Fig. 5</xref> illustrated the 13-week forecasts for the weekly cases by using the proposed method and general ARIMA model. The mean was predicted to increase from the reported number 5 972 in week 77 (August 20 - 26, 2021) to 10 248 (95% CI: 4 135 – 21 318) in week 79 (September 3 - 9, 2021) by using the proposed method, lower than that by general ARIMA which increased to 11 319 (95% CI: 4 810 - 22 761). From week 79 the number begin to decline slowly. In week 88, the curve derived from general ARIMA turns to increase, while the curve derived from the proposed method continues to decline to 610 (95% CI: 12 – 3 671) in week 90 (November 18 - 24, 2021). As shown in <xref rid="fig0005" ref-type="fig">Fig. 5</xref>, using the proposed method, most of the 95% CIs were narrower than those using the general ARIMA model.<fig id="fig0005"><label>Fig. 5</label><caption><p>13-week forecast of the weekly incidence.</p></caption><alt-text id="alt0008">Fig 5</alt-text><graphic xlink:href="gr5_lrg"/></fig></p>
+            </sec>
+            <sec id="sec0012">
+              <label>5</label>
+              <title>Discussion</title>
+              <sec id="sec0013">
+                <label>5.1</label>
+                <title>Why new method?</title>
+                <p id="para0041">COVID-19, a newly emerged infectious disease, has spread to almost all the world including Canada, with severe impact on health and public health systems, human lives and world economics. Applying statistical modeling to forecast the trend, the optimal design of effective public health policy for prevention and control of COVID-19 is important. However, it is not easy for healthcare researchers or policy makers to construct appropriate models, if they do not have a strong background in statistics.</p>
+                <p id="para0042">This paper proposed a novel method to forecast future values of COVID-19 pandemic in Alberta, Canada. To use this method, instead of complicated mathematical calculations, basic expertise on ARIMA modeling and SAS coding techniques are sufficient.</p>
+              </sec>
+              <sec id="sec0014">
+                <label>5.2</label>
+                <title>What is new?</title>
+                <p id="para0043">Instead of building one ARIMA model to fit the whole available time series, multiple ARIMA models were built to fit the same series but ended on different dates. Forecasts were performed with these historical models. The predicted values were compared with the real values. The differences between the real and the forecasted values were used to modify the results of the general ARIMA model.</p>
+                <p id="para0044">A SAS macro was created to specify the lags of correlations (<xref rid="tbl0002" ref-type="table">Table A.2</xref> in Appendix). Iterative calculations were completed by the macro. Because current values of the time series usually have stronger correlations with recent values of the series, but not with earlier ones, the iteration number for lag specification was assigned to 10 (I initially assigned it to 16). A total of 1 800 (60x30) possible three-level lag and type combinations were created for the models to fit the same series but ended in 30 different weeks. The model type and lag combination with the smallest SBC was selected for each model. The best ARIMA model with the specified type and lags was constructed automatically by the macro.</p>
+              </sec>
+              <sec id="sec0015">
+                <label>5.3</label>
+                <title>95% confidence interval</title>
+                <p id="para0045">The proposed method solved the intrinsic problem of the general ARIMA models, which is not suitable for the series with heteroscedasticity such as the Alberta COVID-19 data. The 95% CIs derived by using the proposed method may be more reasonable, since they came from the real forecast errors in the past and all the forecasts were performed by using the best models.</p>
+                <p id="para0046">Even if the prevention and control measures for the pandemic were consistent, due to some unexpected impacts, the forecasted values would still vary between the predicted 95% CIs with 95 percent possibility. The longer the forecasting period, the broader the 95% CI would be. To accurately forecast future values of the time series, narrower 95% CIs are expected. Because the 95% CIs of the forecasted incidences derived by using the proposed method were narrower than those derived from a general ARIMA model, long-term forecasts were possible.</p>
+              </sec>
+              <sec id="sec0016">
+                <label>5.4</label>
+                <title>The best model</title>
+                <p id="para0047">Identifying an appropriate ARIMA model to fit the time series based on autocorrelation and partial autocorrelation function plots is not easy. A larger autocorrelation function in the output of an IDENTIFY statement in SAS ARIMA procedure may not necessarily be a significant parameter when it is selected for the modeling. In contrast, a weak autocorrelation displayed in the plot graph may be a stronger parameter but cannot be identified. In some circumstances, similar as the effects of covariates on multivariable regression models <xref rid="bib0019" ref-type="bibr">[19]</xref>, a weaker autocorrelation becomes stronger while it is combined with another autocorrelation with different lag. Using the proposed method, Analysts don't need to observe the plots of autocorrelations or partial autocorrelations for model identifications. Specifying the lags and model type, and constructing the best model can be performed automatically by running the macro in <xref rid="tbl0002" ref-type="table">Table A.2</xref>.</p>
+                <p id="para0048">If accurate forecasts are not required in public health practice, a general ARIMA can be used. However, the proposed method is still necessary for specifying the best ARIMA models. To correctly forecast values in the future, correct models must be specified first to fit the series. The so-called best model is a relatively optimum model because we cannot compare all possible models. Since the comparations included subset models, the “best” models specified by iterations had higher possibility to be the real best models. To my knowledge, at least for COVID-19 studies, very few researchers <xref rid="bib0020" ref-type="bibr">[20]</xref> considered subset models (sparse coefficient ARIMA) when they specified their best ARIMA models. With the traditional ARIMA modeling technique, manually specifying lags and model type for the best subset model is difficult, or sometimes even impossible.</p>
+                <p id="para0049">SBC was used to select the best models. Using SBC, candidate models with fewer lags of correlations are easier to be selected than using Akaike information criterion (AIC) <xref rid="bib0021" ref-type="bibr">[21]</xref>. In addition, the estimation processes for some models might not converge. Those models were automatically excluded by running the macro in <xref rid="tbl0002" ref-type="table">Table A.2</xref>.</p>
+                <p id="para0050">The best ARIMA model was selected from candidate models with one, two and three lags of correlations. With the same processes, I investigated models with four lags, All of them had larger SBC. For different series, if more lags were selected, the effects on forecasting might be ignorable.</p>
+              </sec>
+              <sec id="sec0017">
+                <label>5.5</label>
+                <title>Data smoothing</title>
+                <p id="para0051">The proposed method can be used to specify a “best” model but needs more calculations. To simplify the calculations, daily data were summed up to weekly data. Grouping data is a useful smoothing method to remove noise from a dataset, allowing important patterns to stand out. To predict the long-term trend of the pandemic, smoothed data are more convenient than daily data with severe fluctuation.</p>
+              </sec>
+            </sec>
+            <sec id="sec0018">
+              <label>6</label>
+              <title>Conclusions</title>
+              <p id="para0052">This paper described a novel method to forecast COVID-19 pandemic in Alberta, Canada. The proposed method can be used to analyze time series with heteroscedasticity, to specify the best model, and to forecast the series into relatively far future.</p>
+              <p id="para0053">The COVID-19 pandemic in Alberta, Canada was predicted to increase in the coming weeks and decrease later. To stop the transmission of infection eventually, persistent efforts are necessary for reducing the incidence.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of Competing Interest</title>
+              <p id="para0055">The author declares that there is no conflict of interest. The author does not have financial and personal relationships with other people or organizations that could inappropriately influence (bias) this work. This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="cebibl1">
+              <title>References</title>
+              <ref id="bib0001">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sbref0001">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A Novel Coronavirus from Patients with Pneumonia in China</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <volume>382</volume>
+                  <issue>2020</issue>
+                  <year>2019</year>
+                  <fpage>727</fpage>
+                  <lpage>733</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0002">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sbref0002">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ren</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</article-title>
+                  <source>Lancet</source>
+                  <volume>395</volume>
+                  <year>2020</year>
+                  <fpage>497</fpage>
+                  <lpage>506</lpage>
+                  <pub-id pub-id-type="pmid">31986264</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0003">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sbref0003">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cucinotta</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vanelli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>WHO declares COVID-19 a pandemic</article-title>
+                  <source>Acta Biomed.</source>
+                  <volume>91</volume>
+                  <issue>1</issue>
+                  <year>2020</year>
+                  <fpage>157</fpage>
+                  <lpage>160</lpage>
+                  <pub-id pub-id-type="doi">10.23750/abm.v91i1.9397</pub-id>
+                  <pub-id pub-id-type="pmid">32191675</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0004">
+                <label>4</label>
+                <mixed-citation publication-type="other" id="sbref0004">Countries where COVID-19 has spread. <ext-link ext-link-type="uri" xlink:href="https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/" id="interref0002">https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/</ext-link> (accessed September 1, 2021).</mixed-citation>
+              </ref>
+              <ref id="bib0005">
+                <label>5</label>
+                <mixed-citation publication-type="other" id="sbref0005">Government of Alberta, COVID-19 Alberta statistics, Interactive aggregate data on COVID- 19 cases in Alberta. <ext-link ext-link-type="uri" xlink:href="https://www.alberta.ca/stats/covid-19-alberta-statistics.htm" id="interref0003">https://www.alberta.ca/stats/covid-19-alberta-statistics.htm</ext-link> (accessed August 27, 2021).</mixed-citation>
+              </ref>
+              <ref id="bib0006">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sbref0006">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>ArunKumar</surname>
+                      <given-names>K.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalaga</surname>
+                      <given-names>D.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>C.M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chilkoor</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawaji</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brenza</surname>
+                      <given-names>T.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the dynamics of cumulative COVID-19 cases (confirmed, recovered and deaths) for top-16 countries using statistical machine learning models: auto-Regressive Integrated Moving Average (ARIMA) and Seasonal Auto-Regressive Integrated Moving Average (SARIMA)</article-title>
+                  <source>Appl. Soft. Comput.</source>
+                  <year>2021</year>
+                  <fpage>103</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asoc.2021.107161</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0007">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sbref0007">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ceylan</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation of COVID-19 prevalence in Italy, Spain, and France</article-title>
+                  <source>Sci. Total Environ.</source>
+                  <volume>2020</volume>
+                  <year>2020</year>
+                  <fpage>729</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.138817</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0008">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sbref0008">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thomson</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Molesworth</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Djingarey</surname>
+                      <given-names>M.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yameogo</surname>
+                      <given-names>K.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Belanger</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuevas</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Potential of environmental models to predict meningitis epidemics in Africa</article-title>
+                  <source>Trop. Med. Int. Health</source>
+                  <volume>11</volume>
+                  <issue>6</issue>
+                  <year>2006</year>
+                  <fpage>781</fpage>
+                  <lpage>788</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-3156.2006.01630.x</pub-id>
+                  <pub-id pub-id-type="pmid">16771998</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0009">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref0009">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of ARIMA and GM(1,1) models for prediction of hepatitis B in China</article-title>
+                  <source>PLoS One</source>
+                  <volume>13</volume>
+                  <issue>9</issue>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0201987</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0010">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sbref0010">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ji</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zia</surname>
+                      <given-names>U.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Javaid</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the seasonality and trend of pulmonary tuberculosis in Jiangsu Province of China using advanced statistical time-series analyses</article-title>
+                  <source>Infect Drug Resist.</source>
+                  <volume>12</volume>
+                  <year>2019</year>
+                  <fpage>2311</fpage>
+                  <lpage>2322</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S207809</pub-id>
+                  <pub-id pub-id-type="pmid">31440067</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0011">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sbref0011">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nsoesie</surname>
+                      <given-names>E.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beckman</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shashaani</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagaraj</surname>
+                      <given-names>K.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marathe</surname>
+                      <given-names>M.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A simulation optimization approach to epidemic forecasting</article-title>
+                  <source>PLoS One</source>
+                  <volume>8</volume>
+                  <issue>6</issue>
+                  <year>2013</year>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0067164</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0012">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sbref0012">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parbat</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chakraborty</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A python based support vector regression model for prediction of COVID19 cases in India</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <volume>138</volume>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109942</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0013">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sbref0013">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ribeiro</surname>
+                      <given-names>M.H.D.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Silva</surname>
+                      <given-names>R.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mariani</surname>
+                      <given-names>V.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coelhoa</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short-term forecasting COVID- 19 cumulative confirmed cases: Perspectives for Brazil</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <volume>135</volume>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109853</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0014">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sbref0014">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chimmula</surname>
+                      <given-names>V.K.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time series forecasting of COVID-19 transmission in Canada using LSTM networks</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <volume>135</volume>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109864</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0015">
+                <label>15</label>
+                <element-citation publication-type="book" id="sbref0015">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Box</surname>
+                      <given-names>G.E.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkens</surname>
+                      <given-names>G.M.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Time Series Analysis: Forecasting and Control</part-title>
+                  <year>1976</year>
+                  <publisher-name>Holden-Day</publisher-name>
+                  <publisher-loc>San Francisco, CA</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib0016">
+                <label>16</label>
+                <mixed-citation publication-type="other" id="sbref0016">R.A. Yaffee, M. McGee, Time Series Analysis and Forecasting with Applications of SAS and SPSS, Academic Press Inc., 2000.</mixed-citation>
+              </ref>
+              <ref id="bib0017">
+                <label>17</label>
+                <element-citation publication-type="book" id="sbref0017">
+                  <person-group person-group-type="author">
+                    <collab>SAS Institute Inc</collab>
+                  </person-group>
+                  <part-title>SAS/ETS® 13.2 User's Guide</part-title>
+                  <year>2014</year>
+                  <publisher-name>SAS Institute Inc.</publisher-name>
+                  <publisher-loc>Cary, NC</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib0018">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref0018">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwarz</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the dimension of a model</article-title>
+                  <source>Ann. Stat.</source>
+                  <volume>6</volume>
+                  <year>1978</year>
+                  <fpage>461</fpage>
+                  <comment>-46</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib0019">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sbref0019">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving stepwise logistic regression using a SAS macro</article-title>
+                  <source>J. Math. Stat. Sci.</source>
+                  <volume>7</volume>
+                  <year>2021</year>
+                  <fpage>68</fpage>
+                  <lpage>78</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0020">
+                <label>20</label>
+                <element-citation publication-type="journal" id="sbref0020">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the Prevalence and Mortality of Coronavirus Disease 2019 (COVID-19) in the USA, the UK, Russia, and India</article-title>
+                  <source>Infect Drug Resist.</source>
+                  <volume>13</volume>
+                  <year>2020</year>
+                  <fpage>3335</fpage>
+                  <lpage>3350</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S265292</pub-id>
+                  <pub-id pub-id-type="pmid">33061481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0021">
+                <label>21</label>
+                <element-citation publication-type="journal" id="sbref0021">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Akaike</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new look at the statistical model identification</article-title>
+                  <source>IEEE Trans. Autom. Control</source>
+                  <volume>19</volume>
+                  <issue>6</issue>
+                  <year>1974</year>
+                  <fpage>716</fpage>
+                  <lpage>723</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TAC.1974.1100705</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <sec id="sec0020">
+              <title>Appendix. COVID-19 incidence data and SAS codes for model building and forecasting</title>
+              <p id="para0057"> 
+<table-wrap position="anchor" id="tbl0001"><label>Table A.1</label><caption><p>Log transformation of weekly incidence (<italic>lnwi</italic>) in Alberta.</p></caption><alt-text id="alt000001">Table A1</alt-text><table frame="hsides" rules="groups"><thead><tr><th valign="top"/><th valign="top">Code</th><th valign="top">Comment</th></tr></thead><tbody><tr><td valign="top">1</td><td valign="top"><bold>data</bold> a;</td><td valign="top"><italic>wi</italic> is weekly incidence.</td></tr><tr><td valign="top">2</td><td valign="top">input wi @@;</td><td valign="top"/></tr><tr><td valign="top">3</td><td valign="top">week+<bold>1;</bold></td><td valign="top"/></tr><tr><td valign="top">4</td><td valign="top">lnwi = log(wi);</td><td valign="top"/></tr><tr><td valign="top">5</td><td valign="top">cards;</td><td valign="top"/></tr><tr><td valign="top">6</td><td valign="top">26 137 366 575 338 656 1682 1537 616 473 311 175 161 246 288 257 367 336 620 854</td><td valign="top"/></tr><tr><td valign="top">7</td><td valign="top">758 586 608 689 716 982 944 1018 946 1054 1484 1773 2496 3385 4333 5246 6589 9129 11679 12065</td><td valign="top"/></tr><tr><td valign="top">8</td><td valign="top">10852 8685 7227 6693 5705 4351 3198 2740 2203 2129 2439 2403 2387 3214 4145 5307 8093 9274 10910 11893</td><td valign="top"/></tr><tr><td valign="top">9</td><td valign="top">14262 11592 6546 3508 2261 1497 1001 591 392 332 266 541 1135 1690 2941 4078 5972</td><td valign="top"/></tr><tr><td valign="top">10</td><td valign="top">;</td><td valign="top"/></tr></tbody></table></table-wrap><table-wrap position="anchor" id="tbl0002"><label>Table A.2</label><caption><p>SAS macro for model building and forecasting.</p></caption><alt-text id="alt0002">Table A2</alt-text><table frame="hsides" rules="groups"><thead><tr><th valign="top"/><th valign="top">Code</th><th align="left" valign="top">Comment</th></tr></thead><tbody><tr><td valign="top">1</td><td valign="top"><bold>%macro</bold> arima(in = a, var = lnwi, start = <bold>9</bold>, end1 = <bold>48</bold>, end2 = <bold>77</bold>);</td><td align="left" valign="top"><bold>Line 1:</bold> Invoke macro ARIMA with variable name, start, the first and last end dates.</td></tr><tr><td valign="top">2</td><td valign="top"><bold>%macro</bold> a(est, type);</td><td rowspan="17" align="left" valign="top"><bold>Lines 2-18 (Macro A):</bold> Estimate ARIMA with any possible lag up to 10. Exclude nonconvergent models. &amp;var(1) = <italic>lnwi</italic> (1) on line 6 is the first-order difference of <italic>lnwi. lnwi</italic> is log transformation of weekly incidence.</td></tr><tr><td valign="top">3</td><td valign="top">%do i = <bold>1</bold> %to <bold>10</bold>;</td></tr><tr><td valign="top">4</td><td valign="top">proc arima data = &amp;in plots = none;</td></tr><tr><td valign="top">5</td><td valign="top">where &amp;start &lt;= week &lt;= &amp;end;</td></tr><tr><td valign="top">6</td><td valign="top">identify var = &amp;var(<bold>1</bold>) noprint;</td></tr><tr><td valign="top">7</td><td valign="top">estimate &amp;est outstat = b&amp;i(drop = _type_ where = (_stat_ in ("SBC" "CONV"))) noprint;</td></tr><tr><td valign="top">8</td><td valign="top">run;</td></tr><tr><td valign="top">9</td><td valign="top">proc transpose data = b&amp;i out = c&amp;i(keep = col1 col2);</td></tr><tr><td valign="top">10</td><td valign="top">run;</td></tr><tr><td valign="top">11</td><td valign="top">%end;</td></tr><tr><td valign="top">12</td><td valign="top">data c&amp;type(drop = col2);</td></tr><tr><td valign="top">13</td><td valign="top">set c1-c10;</td></tr><tr><td valign="top">14</td><td valign="top">if col2 = <bold>0</bold>;</td></tr><tr><td valign="top">15</td><td valign="top">type = "&amp;type";</td></tr><tr><td valign="top">16</td><td valign="top">n1 = _n_;</td></tr><tr><td valign="top">17</td><td valign="top">run;</td></tr><tr><td valign="top">18</td><td valign="top"><bold>%mend a</bold>;</td></tr><tr><td valign="top">19</td><td valign="top"><bold>%macro</bold> b(in1, in2, cir);</td><td rowspan="13" align="left" valign="top"><bold>Lines 19-31 (Macro B):</bold> Specify the lags and type with the smallest SBC. Create macro variables for the lags and type.</td></tr><tr><td valign="top">20</td><td valign="top">data d;</td></tr><tr><td valign="top">21</td><td valign="top">set c&amp;in1 c&amp;in2;</td></tr><tr><td valign="top">22</td><td valign="top">run;</td></tr><tr><td valign="top">23</td><td valign="top">proc sort;</td></tr><tr><td valign="top">24</td><td valign="top">by col1;</td></tr><tr><td valign="top">25</td><td valign="top">run;</td></tr><tr><td valign="top">26</td><td valign="top">data e;</td></tr><tr><td valign="top">27</td><td valign="top">set d;</td></tr><tr><td valign="top">28</td><td valign="top">if _n_ = <bold>1</bold>;</td></tr><tr><td valign="top">29</td><td valign="top">call symput("n&amp;cir",put(n1, <bold>2.</bold>));</td></tr><tr><td valign="top">30</td><td valign="top">call symput("type", type);</td></tr><tr><td valign="top">31</td><td valign="top"><bold>%mend b</bold>;</td></tr><tr><td valign="top">32</td><td valign="top">%do end = &amp;end1 %to &amp;end2;</td><td align="left" valign="top"><bold>Line 32:</bold> Start the iteration for each ARIMA model to fit the series ended in different week.</td></tr><tr><td valign="top">33</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;i)),p);</td><td align="left" valign="top"><bold>Line 33:</bold> Invoke macro A to estimate AR with one lag.</td></tr><tr><td valign="top">34</td><td valign="top">%<bold><italic>a</italic></bold>(%str(q = (&amp;i)),q);</td><td align="left" valign="top"><bold>Line 34:</bold> Invoke macro A to estimate MA with one lag.</td></tr><tr><td valign="top">35</td><td valign="top">%<bold><italic>b</italic></bold>(p, q, <bold>1</bold>);</td><td rowspan="2" align="left" valign="top"><bold>Lines 35-36:</bold> Invoke macro B to specify the 1st lag and type.</td></tr><tr><td valign="top">36</td><td valign="top">run;</td></tr><tr><td valign="top">37</td><td valign="top">%if &amp;type = p %then %do;</td><td rowspan="8" align="left" valign="top"><bold>Lines 37-44:</bold> Invoke macro A with different 2-lag combinations based on the result of macro B.</td></tr><tr><td valign="top">38</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;i &amp;n1)), pp);</td></tr><tr><td valign="top">39</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;n1) q = (&amp;i)), qp);</td></tr><tr><td valign="top">40</td><td valign="top">%end;</td></tr><tr><td valign="top">41</td><td valign="top">%else %do;</td></tr><tr><td valign="top">42</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;i) q = (&amp;n1)), pq);</td></tr><tr><td valign="top">43</td><td valign="top">%<bold><italic>a</italic></bold>(%str(q =(&amp;i &amp;n1)), qq);</td></tr><tr><td valign="top">44</td><td valign="top">%end;</td></tr><tr><td valign="top">45</td><td valign="top">%<bold><italic>b</italic></bold>(p&amp;type, q&amp;type, <bold>2</bold>);</td><td rowspan="2" align="left" valign="top"><bold>Lines 45-46:</bold> Invoke macro B to specify the 2nd lag and type.</td></tr><tr><td valign="top">46</td><td valign="top">run;</td></tr><tr><td valign="top">47</td><td valign="top">%if &amp;type =pp %then %do;</td><td rowspan="16" align="left" valign="top"><bold>Lines 47-62:</bold> Invoke macro A with different 3-lag combinations based on the result of macro B.</td></tr><tr><td valign="top">48</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;i &amp;n1 &amp;n2)), ppp);</td></tr><tr><td valign="top">49</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;n1 &amp;n2) q = (&amp;i)), qpp);</td></tr><tr><td valign="top">50</td><td valign="top">%end;</td></tr><tr><td valign="top">51</td><td valign="top">%else %if &amp;type = pq %then %do;</td></tr><tr><td valign="top">52</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;i &amp;n1) q = (&amp;n2)), ppq);</td></tr><tr><td valign="top">53</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;n1) q = (&amp;i &amp;n2)), qpq);</td></tr><tr><td valign="top">54</td><td valign="top">%end;</td></tr><tr><td valign="top">55</td><td valign="top">%else %if &amp;type = qp %then %do;</td></tr><tr><td valign="top">56</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;i &amp;n2) q = (&amp;n1)), pqp);</td></tr><tr><td valign="top">57</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;n2) q = (&amp;i &amp;n1)), qqp);</td></tr><tr><td valign="top">58</td><td valign="top">%end;</td></tr><tr><td valign="top">59</td><td valign="top">%else %do;</td></tr><tr><td valign="top">60</td><td valign="top">%<bold><italic>a</italic></bold>(%str(p = (&amp;i) q = (&amp;n1 &amp;n2)), pqq);</td></tr><tr><td valign="top">61</td><td valign="top">%<bold><italic>a</italic></bold>(%str(q = (&amp;i &amp;n1 &amp;n2)), qqq);</td></tr><tr><td valign="top">62</td><td valign="top">%end;</td></tr><tr><td valign="top">63</td><td valign="top">%<bold><italic>b</italic></bold>(p&amp;type, q&amp;type, <bold>3</bold>);</td><td rowspan="2" align="left" valign="top"><bold>Lines 63-64:</bold> Invoke macro B to specify the 3rd lag and type.</td></tr><tr><td valign="top">64</td><td valign="top">run;</td></tr><tr><td valign="top">65</td><td valign="top">data f&amp;end;</td><td rowspan="5" align="left" valign="top"><bold>Lines 65-69:</bold> Rename lags.</td></tr><tr><td valign="top">66</td><td valign="top">set e;</td></tr><tr><td valign="top">67</td><td valign="top">n2 =&amp;n2;</td></tr><tr><td valign="top">68</td><td valign="top">n3 =&amp;n1;</td></tr><tr><td valign="top">69</td><td valign="top">run;</td></tr><tr><td valign="top">70</td><td valign="top">%if &amp;type = ppp %then %let lag = %str(p = (&amp;n1 &amp;n2 &amp;n3));</td><td rowspan="8" align="left" valign="top"><bold>Lines 70-77:</bold> Create macro variable <italic>lag</italic> based on the result of macro B.</td></tr><tr><td valign="top">71</td><td valign="top">%else %if &amp;type=qpp %then %let lag=%str(p=(&amp;n2 &amp;n3) q=(&amp;n1));</td></tr><tr><td valign="top">72</td><td valign="top">%else %if &amp;type=ppq %then %let lag=%str(p=(&amp;n1 &amp;n2) q=(&amp;n3));</td></tr><tr><td valign="top">73</td><td valign="top">%else %if &amp;type=qpq %then %let lag=%str(p=(&amp;n2) q=(&amp;n1 &amp;n3));</td></tr><tr><td valign="top">74</td><td valign="top">%else %if &amp;type=pqp %then %let lag=%str(p=(&amp;n1 &amp;n3) q=(&amp;n2));</td></tr><tr><td valign="top">75</td><td valign="top">%else %if &amp;type=qqp %then %let lag=%str(p=(&amp;n3) q=(&amp;n1 &amp;n2));</td></tr><tr><td valign="top">76</td><td valign="top">%else %if &amp;type=pqq %then %let lag=%str(p=(&amp;n1) q=(&amp;n2 &amp;n3));</td></tr><tr><td valign="top">77</td><td valign="top">%else %let lag = %str(q = (&amp;n1 &amp;n2 &amp;n3));</td></tr><tr><td valign="top">78</td><td valign="top">proc arima data = &amp;in plots = none;</td><td rowspan="6" align="left" valign="top"><bold>Lines 78-83:</bold> Build an ARIMA to fit <italic>lnwi</italic>(1) with specified lags and type. Forecast incidences for 13 weeks.</td></tr><tr><td valign="top">79</td><td valign="top">where &amp;start &lt;= week &lt;= &amp;end;</td></tr><tr><td valign="top">80</td><td valign="top">identify var = &amp;var(<bold>1</bold>) noprint;</td></tr><tr><td valign="top">81</td><td valign="top">estimate &amp;lag noprint;</td></tr><tr><td valign="top">82</td><td valign="top">forecast lead = <bold>13</bold> id = week out = result&amp;end(drop = &amp;var residual where = (week &gt; &amp;end)) noprint;</td></tr><tr><td valign="top">83</td><td valign="top">run;</td></tr><tr><td valign="top">84</td><td valign="top">%if &amp;end &lt; &amp;end2 %then %do;</td><td rowspan="9" align="left" valign="top"><bold>Lines 84-92:</bold> Calculate the difference between forecasted and actual data for each of the historical ARIMA. The difference for the current ARIMA is not available.</td></tr><tr><td valign="top">85</td><td valign="top">data arima&amp;end;</td></tr><tr><td valign="top">86</td><td valign="top">merge result&amp;end(in = a) &amp;in(in = b keep = week &amp;var);</td></tr><tr><td valign="top">87</td><td valign="top">by week;</td></tr><tr><td valign="top">88</td><td valign="top">if a and b;</td></tr><tr><td valign="top">89</td><td valign="top">d = lnwi-forecast;</td></tr><tr><td valign="top">90</td><td valign="top">j = &amp;end;</td></tr><tr><td valign="top">91</td><td valign="top">run;</td></tr><tr><td valign="top">92</td><td valign="top">%end;</td></tr><tr><td valign="top">93</td><td valign="top">%end;</td><td align="left" valign="top"><bold>Line 93:</bold> End the iteration started on line 32.</td></tr><tr><td valign="top">94</td><td valign="top">data lag;</td><td rowspan="3" align="left" valign="top"><bold>Lines 94-96:</bold> List lags and types for all ARIMA models.</td></tr><tr><td valign="top">95</td><td valign="top">set f&amp;end1-f&amp;end2;</td></tr><tr><td valign="top">96</td><td valign="top">run;</td></tr><tr><td valign="top">97</td><td valign="top">data arima(keep =n week j d);</td><td rowspan="4" align="left" valign="top"><bold>Lines 97-100:</bold> Combine the differences.</td></tr><tr><td valign="top">98</td><td valign="top">set arima&amp;end1-arima%eval(&amp;end2-<bold>1</bold>);</td></tr><tr><td valign="top">99</td><td valign="top">n =week-j;</td></tr><tr><td valign="top">100</td><td valign="top">run;</td></tr><tr><td valign="top">101</td><td valign="top">proc sql;</td><td rowspan="6" align="left" valign="top"><bold>Lines 101-106:</bold> Calculate the mean and the 95% CI of the differences for each of the 13 weeks.</td></tr><tr><td valign="top">102</td><td valign="top">create table dif1 as</td></tr><tr><td valign="top">103</td><td valign="top">select n+&amp;end2 as week, mean(d) as meand, std(d) as stdd, mean(d)-<bold>1.96</bold>*std(d) as l95d, mean(d)+<bold>1.96</bold>*std(d) as u95d</td></tr><tr><td valign="top">104</td><td valign="top">from arima</td></tr><tr><td valign="top">105</td><td valign="top">group by n;</td></tr><tr><td valign="top">106</td><td valign="top">quit;</td></tr><tr><td valign="top">107</td><td valign="top">data dif2;</td><td rowspan="11" align="left" valign="top"><bold>Lines 107-117:</bold> transform the means and 95% CIs derived from proposed method and a general ARIMA.</td></tr><tr><td valign="top">108</td><td valign="top">merge result&amp;end2 dif1(in = a);</td></tr><tr><td valign="top">109</td><td valign="top">by week;</td></tr><tr><td valign="top">110</td><td valign="top">if a;</td></tr><tr><td valign="top">111</td><td valign="top">forecastd = exp(forecast+meand+stdd*stdd/<bold>2</bold>);</td></tr><tr><td valign="top">112</td><td valign="top">l95d =exp(forecast+l95d);</td></tr><tr><td valign="top">113</td><td valign="top">u95d =exp(forecast+u95d);</td></tr><tr><td valign="top">114</td><td valign="top">forecast =exp(forecast+std*std/<bold>2</bold>);</td></tr><tr><td valign="top">115</td><td valign="top">l95 =exp(l95);</td></tr><tr><td valign="top">116</td><td valign="top">u95 =exp(u95);</td></tr><tr><td valign="top">117</td><td valign="top">run;</td></tr><tr><td valign="top">118</td><td valign="top">proc sql;</td><td rowspan="9" align="left" valign="top"><bold>Lines 118-126:</bold> Add the real data of the last date point (week 77) for plotting.</td></tr><tr><td valign="top">119</td><td valign="top">create table out as</td></tr><tr><td valign="top">120</td><td valign="top">select week, wi as forecast, wi as l95, wi as u95, wi as forecastd, wi as l95d, wi as u95d</td></tr><tr><td valign="top">121</td><td valign="top">from &amp;in</td></tr><tr><td valign="top">122</td><td valign="top">where week =&amp;end2</td></tr><tr><td valign="top">123</td><td valign="top">union all</td></tr><tr><td valign="top">124</td><td valign="top">select week, forecast, l95, u95, forecastd, l95d, u95d</td></tr><tr><td valign="top">125</td><td valign="top">from dif2;</td></tr><tr><td valign="top">126</td><td valign="top">quit;</td></tr><tr><td valign="top">127</td><td valign="top"><bold>%mend arima</bold>;</td><td align="left" valign="top"/></tr><tr><td valign="top">128</td><td valign="top">%<bold><italic>arima</italic></bold>;</td><td align="left" valign="top"><bold>Line 128:</bold> invoke the macro.</td></tr></tbody></table></table-wrap><table-wrap position="anchor" id="tbl0003"><label>Table A.3</label><caption><p>SAS code for plotting the forecasted results.</p></caption><alt-text id="alt0003">Table A3</alt-text><table frame="hsides" rules="groups"><thead><tr><th valign="top"/><th valign="top">Code</th><th align="left" valign="top">Comment</th></tr></thead><tbody><tr><td valign="top">1</td><td valign="top">axis1 label =("Week") minor =none;</td><td rowspan="2" align="left" valign="top">Revisions may need to suit different data.</td></tr><tr><td valign="top">2</td><td valign="top">axis2 label =("Case") order =(<bold>0</bold> to <bold>30000</bold> by <bold>5000</bold>);</td></tr><tr><td valign="top">3</td><td valign="top">legend1 label=none value=("Number of weekly cases (proposed method)" "Upper 95% confidence limit (proposed method)"<break/> "Lower 95% confidence limit (proposed method)" "Number of weekly cases (general ARIMA)" "Upper 95% confidence limit<break/> (general ARIMA)" "Lower 95% confidence limit (general ARIMA)") position=(top right inside) across=<bold>1</bold> frame;</td><td rowspan="3" align="left" valign="top"><italic>Forecastd, u95d</italic> and <italic>l95d</italic> are the mean, upper and<break/> lower limits of the forecasted number of weekly<break/> cases by proposed method.</td></tr><tr><td valign="top">4</td><td valign="top">symbol1 color =brown interpol =line line =<bold>1</bold> value =dot height =<bold>2</bold>;</td></tr><tr><td valign="top">5</td><td valign="top">symbol2 color =brown interpol =line line =<bold>2</bold> value ="," height =<bold>2</bold>;</td></tr><tr><td valign="top">6</td><td valign="top">symbol3 color =brown interpol =line line =<bold>2</bold> value ="*" height =<bold>2</bold>;</td><td rowspan="9" align="left" valign="top"><italic>Forecast, u95</italic> and <italic>l95</italic> are the mean, upper and<break/> lower limits of the forecasted number of weekly<break/> cases by a general ARIMA.</td></tr><tr><td valign="top">7</td><td valign="top">symbol4 color =black interpol =line line =<bold>1</bold> value =circle height =<bold>2</bold>;</td></tr><tr><td valign="top">8</td><td valign="top">symbol5 color =black interpol =line line =<bold>2</bold> value ="," height =<bold>2</bold>;</td></tr><tr><td valign="top">9</td><td valign="top">symbol6 color =black interpol =line line =<bold>2</bold> value ="*" height =<bold>2</bold>;</td></tr><tr><td valign="top">10</td><td valign="top">ods rtf file ="E:\mylab\figure5.doc";</td></tr><tr><td valign="top">11</td><td valign="top"><bold>proc gplot</bold> data =out;</td></tr><tr><td valign="top">12</td><td valign="top">plot (forecastd u95d l95d forecast u95 l95)*week/grid overlay haxis =axis1 vaxis =axis2 legend =legend1;</td></tr><tr><td valign="top">13</td><td valign="top"><bold>run</bold>;</td></tr><tr><td valign="top">14</td><td valign="top">ods rtf close;</td></tr></tbody></table></table-wrap></p>
+            </sec>
+            <ack id="ack0001">
+              <title>Acknowledgment</title>
+              <p id="para0056">The author thanks Professor Devidas Menon, School of Public Health, University of Alberta, for his encouragement and initial manuscript revision.</p>
+            </ack>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

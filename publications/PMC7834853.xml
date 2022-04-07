@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:58:29Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7834853" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7834853</identifier>
+        <datestamp>2021-01-26</datestamp>
+        <setSpec>dib</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="data-paper">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Data Brief</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Data Brief</journal-id>
+              <journal-title-group>
+                <journal-title>Data in Brief</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2352-3409</issn>
+              <publisher>
+                <publisher-name>Elsevier</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7834853</article-id>
+              <article-id pub-id-type="pmcid">PMC7834853</article-id>
+              <article-id pub-id-type="pmc-uid">7834853</article-id>
+              <article-id pub-id-type="pmid">33521186</article-id>
+              <article-id pub-id-type="pii">S2352-3409(21)00043-3</article-id>
+              <article-id pub-id-type="doi">10.1016/j.dib.2021.106759</article-id>
+              <article-id pub-id-type="publisher-id">106759</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Data Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Application of one-, three-, and seven-day forecasts during early onset on the COVID-19 epidemic dataset using moving average, autoregressive, autoregressive moving average, autoregressive integrated moving average, and naïve forecasting methods</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au0001">
+                  <name>
+                    <surname>Lynch</surname>
+                    <given-names>Christopher J.</given-names>
+                  </name>
+                  <email>cjlynch@odu.edu</email>
+                  <ext-link ext-link-type="uri" xlink:href="https://twitter.com/Chris_Lynch_ODU">@Chris_Lynch_ODU</ext-link>
+                  <xref rid="cor0001" ref-type="corresp">⁎</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au0002">
+                  <name>
+                    <surname>Gore</surname>
+                    <given-names>Ross</given-names>
+                  </name>
+                  <ext-link ext-link-type="uri" xlink:href="https://twitter.com/rossgore">@rossgore</ext-link>
+                </contrib>
+                <aff id="aff0001">Old Dominion University – Virginia Modeling, Analysis, and Simulation Center (VMASC), United States</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor0001"><label>⁎</label>Corresponding author. <email>cjlynch@odu.edu</email><ext-link ext-link-type="uri" xlink:href="https://twitter.com/Chris_Lynch_ODU">@Chris_Lynch_ODU</ext-link></corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>15</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="collection">
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>15</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>35</volume>
+              <elocation-id>106759</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>15</day>
+                  <month>12</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>12</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 The Authors</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license license-type="CC BY" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0001">
+                <p>The coronavirus disease 2019 (COVID-19) spread rapidly across the world since its appearance in December 2019. This data set creates one-, three-, and seven-day forecasts of the COVID-19 pandemic's cumulative case counts at the county, health district, and state geographic levels for the state of Virginia. Forecasts are created over the first 46 days of reported COVID-19 cases using the cumulative case count data provided by <italic>The New York Times</italic> as of April 22, 2020. From this historical data, one-, three-, seven, and all-days prior to the forecast start date are used to generate the forecasts. Forecasts are created using: (1) a Naïve approach; (2) Holt-Winters exponential smoothing (HW); (3) growth rate (Growth); (4) moving average (MA); (5) autoregressive (AR); (6) autoregressive moving average (ARMA); and (7) autoregressive integrated moving average (ARIMA). Median Absolute Error (MdAE) and Median Absolute Percentage Error (MdAPE) metrics are created with each forecast to evaluate the forecast with respect to existing historical data. These error metrics are aggregated to provide a means for assessing which combination of forecast method, forecast length, and lookback length are best fits, based on lowest aggregated error at each geographic level.</p>
+                <p>The data set is comprised of an R-Project file, four R source code files, all 1,329,404 generated short-range forecasts, MdAE and MdAPE error metric data for each forecast, copies of the input files, and the generated comparison tables. All code and data files are provided to provide transparency and facilitate replicability and reproducibility. This package opens directly in RStudio through the R Project file. The R Project file removes the need to set path locations for the folders contained within the data set to simplify setup requirements. This data set provides two avenues for reproducing results: 1) Use the provided code to generate the forecasts from scratch and then run the analyses; or 2) Load the saved forecast data and run the analyses on the stored data. Code annotations provide the instructions needed to accomplish both routes.</p>
+                <p>This data can be used to generate the same set of forecasts and error metrics for any US state by altering the state parameter within the source code. Users can also generate health district forecasts for any other state, by providing a file which maps each county within a state to its respective health-district. The source code can be connected to the most up-to-date version of <italic>The New York Times</italic> COVID-19 dataset allows for the generation of forecasts up to the most recently reported data to facilitate near real-time forecasting.</p>
+              </abstract>
+              <kwd-group id="keys0001">
+                <title>Keywords</title>
+                <kwd>Coronavirus COVID-19</kwd>
+                <kwd>Infectious diseases</kwd>
+                <kwd>Epidemic modeling</kwd>
+                <kwd>ARIMA(p,d,q) model</kwd>
+                <kwd>ARMA model</kwd>
+                <kwd>Holt-winters exponential smoothing model</kwd>
+                <kwd>Statistical analysis</kwd>
+                <kwd>Short-range time series forecasting</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec0001a">
+              <title>Specifications Table</title>
+              <p id="para0002">
+                <table-wrap position="float" id="utbl0001">
+                  <table frame="hsides" rules="groups">
+                    <tbody>
+                      <tr>
+                        <td valign="top">Subject</td>
+                        <td valign="top">Infectious Diseases</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Specific subject area</td>
+                        <td valign="top">Short-range forecasting methods applied to evaluate forecasting characteristics during early onset of COVID-19 case spread</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Type of data</td>
+                        <td valign="top">RDS (R data object)<break/>Graph (pdf, jpeg, eps)<break/>Rproject (software)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">How data were acquired</td>
+                        <td valign="top">The input data was acquired through “<italic>us-counties.csv”</italic> obtained from <ext-link ext-link-type="uri" xlink:href="https://github.com/nytimes/covid-19-data" id="interref0003">https://github.com/nytimes/covid-19-data</ext-link> on April 23, 2020 <xref rid="bib0001" ref-type="bibr">[1]</xref>. This provides cumulative COVID-19 case data up to April 22, 2020.<break/>Forecasts were created using Naïve, Growth, HW, MA(1), AR(1), ARMA(1,1), and ARIMA(<italic>p,d,q</italic>) forecasting methods. Values for <italic>p</italic> and <italic>q</italic> range from 1 to 3 and <italic>d</italic> range from 1 to 2.<break/>RStudio version 1.2.5033 and R version 3.6.3 were used to create the code and conduct analyses. Additionally, the R-packages <italic>stats</italic><xref rid="bib0002" ref-type="bibr">[2]</xref>, <italic>base r package</italic><xref rid="bib0002" ref-type="bibr">[2]</xref>, <italic>forecast</italic><xref rid="bib0003" ref-type="bibr">[3]</xref>, <italic>ggplot2</italic><xref rid="bib0004" ref-type="bibr">[4]</xref>, and <italic>tidyverse</italic><xref rid="bib0005" ref-type="bibr">[5]</xref> are required to run the source code.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Data format</td>
+                        <td valign="top">Data are raw, filtered, and analyzed.<break/>R project file and R script files (code) for execution in RStudio.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Parameters for data collection</td>
+                        <td valign="top">Virginia county, health district, and state level forecasts are created using <italic>The New York Times</italic>’ COVID-19 cumulative case count data using: naïve; Growth; HW; MA(1); AR(1); ARMA(1,1); ARIMA(p,d,q). Forecast lengths include one, three, and seven days forward. Lookback lengths of one, three, seven, and all prior days. Error metrics calculated using MdAE and MdAPE and are in units of cumulative COVID-19 cases.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Description of data collection</td>
+                        <td valign="top">Using the cumulative COVID-19 case count data from The New York Times, we filter for “Virginia” and we provide a mapping of VA's counties to their health districts. For each of the 46 days containing non-zero case counts, up to 12 forecasts are generated for each day using combinations of one, three, and seven days forward and one, three, seven, and all days prior. This repeats for all 7 forecasting methods to produce 1329,404 forecasts. The MdAE and MdAPE of each forecast is calculated and aggregated by forecast type to evaluate each method's performance at forecasting cumulative case counts.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Data source location</td>
+                        <td valign="top">Old Dominion University – Virginia Modeling, Analysis, and Simulation Center<break/>Suffolk, VA, U.S.A.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Data accessibility</td>
+                        <td valign="top">The data is hosted in a public repository and entitled: “<italic>Short-range Early Phase COVID-19 Forecasting R-Project and Data</italic>” <xref rid="bib0006" ref-type="bibr">[6]</xref> and made available under the MIT license.<break/>Repository name: Mendeley Data<break/>Data identification number: 10.17632/cytrb8p42g.2 <xref rid="bib0006" ref-type="bibr">[6]</xref><break/>Direct URL to data: <ext-link ext-link-type="uri" xlink:href="https://data.mendeley.com/datasets/cytrb8p42g/2" id="interref0004">https://data.mendeley.com/datasets/cytrb8p42g/2</ext-link><break/>Instructions for accessing these data:<break/>Access, download, and extract the data package from the provided URL.<break/>Using RStudio, open the RProject file "short-range-early-onset-covid-19-forecasting.Rproj".<break/>This automatically sets RStudio's working directory to the location of your extracted folder.<break/>All needed data files are included within this package and the file paths are relative to the location of the RProject location.<break/>No changes (e.g. path name updates) are required to get started.<break/>Within RStudio, open "forecasting_article_code.R". This file is the primary file for this data.<break/>This file contains annotations to direct the user through the code.<break/>This includes what is being forecast, how the forecasts are generated, and all of the analytical steps taken.<break/>Running each line of code in this file recreates the data set.<break/>The code provides all steps taken to generate the figures contained within the package.<break/>Copies of the files created by the code are included within the package and can directly be loaded into the code.<break/>This removes the requirement to run the forecasts, as this can be time-consuming and resource-intensive.<break/>This allows the user to move straight through to the analysis section of the code.<break/>Annotations within the code provide direction on how to properly navigate this process.</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">Related research article</td>
+                        <td valign="top">C.J. Lynch, R. Gore, Short-range forecasting of coronavirus disease 2019 (COVID-19) during early onset at county, health district, and state geographic levels: Comparative forecasting approach using seven forecasting methods, J. Med. Internet Res. In Press. <xref rid="bib0007" ref-type="bibr">[7]</xref></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </p>
+            </sec>
+            <sec id="sec0001">
+              <title>Value of the Data</title>
+              <p id="para9003">
+                <list list-type="simple" id="celist0001">
+                  <list-item id="celistitem0001">
+                    <label>•</label>
+                    <p id="para0003">These data are useful as they provide short-term forecasts of cumulative COVID-19 case counts during early onset to extend the knowledge base of COVID-19 disease spread at three different levels of granularity: state, health-district and county. MdAE and MdAPE error metrics are utilized to evaluate the forecasts with respect to historical data to inform validation and forecasting method selection.</p>
+                  </list-item>
+                  <list-item id="celistitem0002">
+                    <label>•</label>
+                    <p id="para0004">Researchers, institutions, and health officials involved in preventing COVID-19 spread can benefit from these data by identifying which method produces the smallest error for an area and utilizing that method to generate future short-term forecasts for that area. This data is reusable and the source code can be extended to different states, health districts, and counties or any other level of geographic granularity.</p>
+                  </list-item>
+                  <list-item id="celistitem0003">
+                    <label>•</label>
+                    <p id="para0005">These data can be reused to: (1) generate forecasts within other states by changing or removing the “Virginia” filter; (2) generate forecasts of current dates by accessing the up-to-date data from <italic>The New York Times</italic>; and (3) applying these forecasting methods and error metrics to other geographic levels and/or locations by providing the relevant time series formatted data on case counts.</p>
+                  </list-item>
+                  <list-item id="celistitem0004">
+                    <label>•</label>
+                    <p id="para0006">These data can aid policy makers and researchers in addressing questions of selecting optimal <italic>p, d</italic>, and <italic>q</italic> parameters for AR, MA, ARMA, and ARIMA forecasting techniques by providing benchmarks for how well each of these techniques perform for a geographic location.</p>
+                  </list-item>
+                  <list-item id="celistitem0005">
+                    <label>•</label>
+                    <p id="para0007">Members of the public can utilize these short-range forecasts to gain insight into their expected local-area COVID-19 case counts over the upcoming week. This provides an additional source of information to inform individuals in making decisions or creating plans for engaging in activities or interacting within their communities over the next few days.</p>
+                  </list-item>
+                  <list-item id="celistitem0006">
+                    <label>•</label>
+                    <p id="para0008">Policy makers of regions that do not fit solely on the county or state levels can generate forecasts based on their areas of influence to obtain a direct representation of expected case counts combined with statistically significant support on which forecasting methods are producing the smallest error within that area.</p>
+                  </list-item>
+                </list>
+              </p>
+            </sec>
+            <sec id="sec0002">
+              <label>1</label>
+              <title>Data Description</title>
+              <sec id="sec0003">
+                <label>1.1</label>
+                <title>Coronavirus Mendeley data package folder</title>
+                <p id="para0009">This root package includes all of the data pertaining to this project. The top level of this package includes a licensing information document (matching the license included in this article), a <italic>README</italic> file provides a description of the dataset, and a folder containing all of the code, data, and figures entitled <italic>Short-range Early Phase COVID-19 Forecasting R-Project</italic>.</p>
+              </sec>
+              <sec id="sec0004">
+                <label>1.2</label>
+                <title>short-range-early-onset-covid-19-forecasting Rproj file</title>
+                <p id="para0010">This is the starting point for this dataset. Within RStudio, select “File -&gt; Open Project in New Session…” to open this Rproj file. This opens the project and sets RStudio's working directory to the current location of the Rproj file. All coded file paths are relative to the folder containing the RProject file; this facilitates replication by enabling the code to be executed without modification. The following files are presented in the order in which they are utilized within the project.</p>
+              </sec>
+              <sec id="sec0005">
+                <label>1.3</label>
+                <title>forecasting_article_code R file</title>
+                <p id="para0011">This serves as the baseline file for this dataset. This file is heavily annotated with comments in the source code to instruct users on the process for generating forecasts, loading data from the <italic>data</italic> folder, and performing the analyses. All of the calls to generate the Naïve, Growth, HW, MA(1), AR(1), ARMA(1,1), and ARIMA(p,d,q) forecasts occur within this file; however, the functions for generating these forecasts appear within the following files.</p>
+              </sec>
+              <sec id="sec0006">
+                <label>1.4</label>
+                <title>import_county_hd_state_cum_case_counts R file</title>
+                <p id="para0012">This code loads the stored copy of The New York Times cumulative case count data <xref rid="bib0005" ref-type="bibr">[5]</xref> as of April 23, 2020. The data is then filtered for Virginia. A mapping of the VA county names to their corresponding health districts is also loaded and formatted into time series data objects.</p>
+              </sec>
+              <sec id="sec0007">
+                <label>1.5</label>
+                <title>forecasting_article_functions R file</title>
+                <p id="para0013">This file contains a majority of the functions needed to generate the county level forecasts. County level time series objects are generated using the imported case count data. The Naïve, HW, MA(1), AR(1), ARMA(1,1), and ARIMA(p,d,q) forecasts are generated within this file. ARIMA's values for <italic>p</italic> range from 1 to 3, <italic>d</italic> ranges from 1 to 2, and <italic>q</italic> ranges from 1 to 3. Combinations of one-, three-, and seven-day forecast lengths and one-, three-, seven-, and all-prior days cumulative case information for the county, health district, and state levels. The code for producing corresponding <italic>P</italic>-values reflecting statistically significant outcomes is also contained within this file.</p>
+                <p id="para0014">Alternatively, the provided forecasts can be loaded directly from the <italic>data</italic> folder. Annotations within the code provide instruction on how to properly run the forecasts or load the existing forecasts. This option is provided as the generation of the forecasts is time consuming and resource intensive.</p>
+              </sec>
+              <sec id="sec0008">
+                <label>1.6</label>
+                <title>forecasting_article_functions_state_and_district R file</title>
+                <p id="para0015">This file contains the functions needed to generate the health district and state level forecasts. State level time series objects are generated using the imported case count data. The Naïve, HW, MA(1), AR(1), ARMA(1,1), and ARIMA(p,d,q) forecasts are generated for health districts and the state. ARIMA's values for <italic>p</italic> range from 1 to 3, <italic>d</italic> ranges from 1 to 2, and <italic>q</italic> ranges from 1 to 3. Due to high time and resource requirements, the provided forecasts can be loaded directly at this stage.</p>
+              </sec>
+              <sec id="sec0009">
+                <label>1.7</label>
+                <title>function-version-extrapolate-seven-days-for-each-forecast R file</title>
+                <p id="para0016">Generates the Growth forecasts at the county, health district, and state levels. It determines the current rate of growth for the area based on the number of new cases in the last 24 h within the respective geographic area and number of new cases in the state. Then a forecast is generate using this rate of growth for the geographic area and desired forecast length (one, three, and seven days).</p>
+              </sec>
+              <sec id="sec0010">
+                <label>1.8</label>
+                <title>compute-infections-per-county R file</title>
+                <p id="para0017">Provides functions necessary helper functions for the creation of the Growth forecasts. This file is sourced by function-version-extrapolate-seven-days-for-each-forecast.</p>
+              </sec>
+              <sec id="sec0011">
+                <label>1.9</label>
+                <title>Data folder</title>
+                <p id="para0018">This folder contains three additional folders of data: (1) <italic>generated-table-data</italic>; (2) <italic>generated-time-series-data</italic>; and (3) <italic>input-data</italic>. The files contained in these folder allow for reproducibility and transparency in the generated data.<list list-type="simple" id="celist0002"><list-item id="celistitem0007"><label>1.</label><p id="para0019">generated-table-data contains 31 data files that include the MdAE tables, the MdAPE tables, the aggregated validation tables, and a readme file. Each table exists at a single geographic level (county, health district, or state) as indicated in its title. These are the filtered data files that facilitate analysis. These files can be imported directly in the code to prevent having to run the code to directly generate these tables, as this can result in lengthy run times and have high resource demands. The MdAE and MdAPE metrics calculated from the aggregated combinations of forecasting method, lookback length, and forecast length include: the median scores of the upper and lower notch values; the median of the aggregated median values; the median scores of the upper and lower whiskers; the median scores of the upper and lower quartile ranges; and the number of data observations.</p></list-item><list-item id="celistitem0008"><label>2.</label><p id="para0020">generated-time-series-data contains 75 data files providing the raw 1329,404 generated forecasts. These are separated by geographic level and forecasting method as indicated in their titles.</p></list-item><list-item id="celistitem0009"><label>3.</label><p id="para0021">input-data contains two data files: (1) us-counties.csv; and (2) Health-District-County-Info.RDS. A snapshot of The New York Times COVID-19 dataset <xref rid="bib0005" ref-type="bibr">[5]</xref> on April 23, 2020 is provided in us-counties.csv. This provides county-level cumulative case count information through April 22, 2020. This file is provided to ensure reproducibility of the created data. The Health-District-County-Info.RDS file provides a mapping of VA's county names to their respective health districts to enable aggregation of county data to the health district level to allow for forecasting.</p></list-item></list></p>
+                <p id="para0022">The seven forecasting methods vary in their underlying assumptions about their relationships to the means or trends in prior observations and forecasted dates. <xref rid="tbl0001" ref-type="table">Table 1</xref> provides descriptions of each forecasting method, the primary assumptions associated with each method, and identifies the R packages that were utilized in their code implementation.<table-wrap position="float" id="tbl0001"><label>Table 1</label><caption><p>Description and primary assumptions of each of the forecasting methods utilized along with the R-packages utilized to for implementation.</p></caption><alt-text id="alt0003">Table 1:</alt-text><table frame="hsides" rules="groups"><thead><tr><th valign="top"/><th valign="top">Description</th><th valign="top">Primary Assumptions</th><th valign="top">R Packages Utilized</th></tr></thead><tbody><tr><td valign="top">Naïve</td><td valign="top">The forecasted value for each day being forecasted is equal to the current day's value. This forecast method makes no use of prior knowledge to inform the future values and serves as a benchmark for comparisons.</td><td valign="top">Since the data pertains to cumulative case counts, this forecast assumes no change for each forecasted day from the present value <xref rid="bib0008" ref-type="bibr">[8]</xref>.</td><td valign="top"><italic>stats</italic><xref rid="bib0002" ref-type="bibr">[2]</xref></td></tr><tr><td valign="top">Holt-Winters exponential smoothing (HW)</td><td valign="top">Holt-Winters exponential smoothing assumes exponentially decreasing weights over the prior <italic>k</italic> observations.</td><td valign="top">Assumes higher weighting to the recent past with exponentially decreasing weighting given to each successive prior <italic>k</italic> observations <xref rid="bib0009" ref-type="bibr">[9</xref>,<xref rid="bib0010" ref-type="bibr">10]</xref>.</td><td valign="top"><italic>stats</italic><xref rid="bib0002" ref-type="bibr">[2]</xref></td></tr><tr><td valign="top">Growth Rate (Growth)</td><td valign="top">The forecast growth rate is calculated as follows: (1) initial per county growth rate is based on the increased number of cases to the prior day of the forecast start date; (2) state level growth rate is the cumulative increase in cases since the prior day for the entire state; (3) <italic>n</italic> forecasts are generated by uniformly sampling <italic>n</italic> times between the initial county growth rate and the state level growth rate; and (4) the final forecast is the average of the <italic>n</italic> forecasts <xref rid="bib0011" ref-type="bibr">[11]</xref>.</td><td valign="top">Assumes a linear relationship between the forecast dates and the prior date's count. All weighting is given to the date prior to the forecast's start date.</td><td valign="top"><italic>base-package</italic><xref rid="bib0002" ref-type="bibr">[2]</xref></td></tr><tr><td valign="top">Moving Average (MA)</td><td valign="top">For univariate time series, simple MA models depend linearly on the current value and past <italic>k</italic> observations <xref rid="bib0008" ref-type="bibr">[8]</xref>.</td><td valign="top">Assumes a stationary mean along with equal weighting for all prior <italic>k</italic> observations.</td><td valign="top"><italic>forecast</italic><xref rid="bib0003" ref-type="bibr">[3]</xref></td></tr><tr><td valign="top">Autoregressive (AR)</td><td valign="top">AR models assume a linear dependency between the forecasted values and the current and prior <italic>k</italic> observations along with a stochastic component to account for behavior.</td><td valign="top">Assumes that forecasted values are based on a linear combination of prior values <xref rid="bib0008" ref-type="bibr">[8]</xref>. Does not assume observations are stationary due to stochasticity.</td><td valign="top"><italic>stats</italic><xref rid="bib0002" ref-type="bibr">[2]</xref></td></tr><tr><td valign="top">Autoregressive Moving Average (ARMA)</td><td valign="top">ARMA models are a combination of MA and AR components. The AR component involves regressing the variables based on their own lagged values <xref rid="bib0012" ref-type="bibr">[12]</xref>. MA models the error as a linear combination of error terms at various points in the past.</td><td valign="top">Assumes observations are at least weakly stationary.</td><td valign="top"><italic>stats</italic><xref rid="bib0002" ref-type="bibr">[2]</xref></td></tr><tr><td valign="top">Autoregressive Integrated Moving Average (ARIMA)</td><td valign="top">ARIMA models apply to non-stationary data and consist of a combination of MA and AR components along with a difference measure to make the data stationary <xref rid="bib0008" ref-type="bibr">[8]</xref>.</td><td valign="top">Assumes observations are non-stationary.</td><td valign="top"><italic>stats</italic><xref rid="bib0002" ref-type="bibr">[2]</xref></td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="sec0012">
+                <label>1.10</label>
+                <title>Figures folder</title>
+                <p id="para0023">This folder contains the figures generated throughout the execution of the <italic>forecasting_article_code</italic> file. Figures are generated in three non-interactive formats (vector and non-vector graphics) as well as an interactive HTML format for a total of 28 image files. These files provide box plot comparisons of the MdAE information for the seven forecasting methods at the county (<italic>County Forecasts MdAE</italic>), health district (<italic>Health District Forecasts MdAE</italic>), and state (<italic>State Forecasts MdAE</italic>) levels that separate the information based on forecast length (one, three, and seven days) and lookback length (one, three, seven, and all prior days). Box plot comparisons of the MdAPE data are provided in the <italic>Aggregate Forecasts MdAPE</italic> figure. This figure groups data by forecasting method and plot the aggregated values at each geographic level for a total of 21 box plots divided into 7 groups. The same process is utilized to generate figures for comparing the ARIMA(p,d,q) outcomes and use a naming convention of <italic>County Level ARIMA(p,d,q) Forecasts MdAE</italic>.</p>
+              </sec>
+            </sec>
+            <sec id="sec0013">
+              <label>2</label>
+              <title>Experimental Design, Materials and Methods</title>
+              <p id="para0024">We create one-, three-, and seven-day forecasts of cumulative COVID-19 case counts at the county, health district, and state levels using Naïve, Growth, HW, MA(1), AR(1), ARMA(1,1), and ARIMA(p,d,q) forecasting methods. Then, we generate MdAE and MdAPE error metrics to utilize for validating the forecasts against historical data. This section describes the experimental design, the forecasting methods, the obtained county-level historical data, validation criteria, and the validation data generated. For a description of the data, refer to the previous section. The presentation and discussion of findings based on this data is outside the scope of this article. <xref rid="fig0001" ref-type="fig">Fig. 1</xref> distinguishes the role of this article from the roles of the data stored in the repository and future publications.<fig id="fig0001"><label>Fig. 1</label><caption><p>High level overview describing how this article fits within the context of the experimental design, historical data, the data repository storage location, and future work.</p></caption><alt-text id="alt0001">Fig. 1</alt-text><graphic xlink:href="gr1"/></fig></p>
+              <p id="para0025">The experimental design falls into four primary categories: data preparation; forecast generation; validation data preparation; and validation data generation. Data preparation describes how the historical data is obtained and how that data is aggregated to the health district and state geographic levels. Forecast generation describes the assumptions pertaining to each of the selected forecasting methods. Validation data preparation describes the error metrics selected to measure how well each forecast performs compared to the historical data and how the forecasted COVID-19 cumulative case counts are aggregated to facilitate validation. Validation data generation describes the validation methodology and the process for conducting comparisons. <xref rid="fig0002" ref-type="fig">Fig. 2</xref> provides a breakdown of the experimenal design.<fig id="fig0002"><label>Fig. 2</label><caption><p>Experimental design for preparing the historical data, generating forecasts, and preparing and generating data to use for validation. *Where applicable represents that forecasts are only generated when the dates covered by both the lookback and forecast lengths exist.</p></caption><alt-text id="alt0002">Fig. 2</alt-text><graphic xlink:href="gr2"/></fig></p>
+              <p id="para0026">In the first stage, we conduct data preparation using <italic>The New York Times</italic>’ COVID-19 cumulative case count data <xref rid="bib0001" ref-type="bibr">[1]</xref>. This county-level data is filtered to only include the 133 counties and independent cities within the state of VA. Each county's cumulative case counts per day are then stored as time series objects. Using the assigned health district mappings per county from the VA Department of Health <xref rid="bib0013" ref-type="bibr">[13]</xref>, we aggregate each county's cumulative case counts within each of the 35 health districts and store them as time series objects. Finally, we aggregate the cumulative case counts from every county each day to form a time series object for the entire state of VA.</p>
+              <p id="para0027">In the second stage, we generate forecasts using combinations of the seven forecasting methods, four lookback lengths, and three forecast lengths. Lookback lengths use one-, three-, seven-, and all-prior days information up to the date of first reported case per geographic location. Forecast lengths are one, three, and seven days ahead. To fulfill the validation criteria in the following step, forecasts are only generated over periods where historical data exists. As such, for this dataset, April 15th, 19th, and 21st, 2020, are the final dates for generating seven-, three-, and one-day forecasts, respectively. To generate forecasts for each county, health district, and the state, we utilize the time series objects from the first stage.<list list-type="simple" id="celist0003"><list-item id="celistitem0010"><label>1.</label><p id="para0028">For each combination of lookback length (x) and forecast length (y), every date within each time series is checked to determine if the necessary historical data exists in both directions.</p></list-item><list-item id="celistitem0011"><label>2.</label><p id="para0029">If yes, then a forecast of length y is generated and stored.</p></list-item><list-item id="celistitem0012"><label>3.</label><p id="para0030">If no, then the forecast is skipped.</p></list-item></list></p>
+              <p id="para0031">The process used to generate forecasts using each forecasting method follows. The utilization of the <italic>k</italic> prior days and <italic>j</italic> forecasted days ahead are indicated.<list list-type="simple" id="celist0004"><list-item id="celistitem0013"><label>•</label><p id="para0032">Naïve</p></list-item></list></p>
+              <p id="para0033">For each county, the prior single day's value is the forecast value for each of the next j days.</p>
+              <p id="para0034">For each health district, the aggregated sum of each of its counties’ prior single day's cumulative case counts become the forecast value for each of the next j days.</p>
+              <p id="para0035">For VA, the aggregated sum of all cumulative case counts from the prior single day becomes the forecast value for each of the next j days.<list list-type="simple" id="celist0005"><list-item id="celistitem0014"><label>•</label><p id="para0036">HW</p></list-item></list></p>
+              <p id="para0037">For each county, Holt-Winters exponential smoothing of the prior k day's values are used to forecast the values for the next j days.</p>
+              <p id="para0038">For each health district, the aggregated sum of its counties’ cumulative case counts for each of the prior k days are used to forecast values for the next j days.</p>
+              <p id="para0039">For VA, the aggregated sum of all cumulative case counts within VA's counties over the prior k days are used to forecast the next j days.<list list-type="simple" id="celist0006"><list-item id="celistitem0015"><label>•</label><p id="para0040">Growth</p></list-item></list></p>
+              <p id="para0041">For each county, the prior one day's value is used to calculate the current growth rate for the county over the following j days. Then, the prior day's values for all the counties are used to calculate the growth rate for VA for the same j days. A group of n forecasts are generated for the county by uniformly sampling a growth rate between the county's and VA's rates. The average of the n forecasts is utilized as the final forecast for the county.</p>
+              <p id="para0042">Each health districts’ forecasts are generated using this same method for each of its counties and then summing the values for each of the j forecasted days.</p>
+              <p id="para0043">VA's forecasts are generated by forecasting each county's values using this same method and then summing all the counties’ values for the state for each of the j forecasted days.<list list-type="simple" id="celist0007"><list-item id="celistitem0016"><label>•</label><p id="para0044">MA, AR, ARMA, and ARIMA</p></list-item></list></p>
+              <p id="para0045">For each county, an equal weighting of the prior k day's cumulative case counts is used to forecast the next j days.</p>
+              <p id="para0046">For each health district, the aggregated sum of its counties’ cumulative cases for each of the prior <italic>k</italic> days are used to forecast the next <italic>j</italic> days.</p>
+              <p id="para0047">For VA, the aggregated sum of all cases within VA's counties for the prior <italic>k</italic> days are used to forecast the next <italic>j</italic> days.</p>
+              <p id="para0048">We utilize a first order MA(1) model for all MA forecasts, a first order AR(1) model for all AR forecasts, first order AR and MA components for the ARMA(1,1) model for all ARMA forecasts, and an ARIMA(p,d,q) model. ARIMA's values for <italic>p</italic> range from 1 to 3, <italic>d</italic> ranges from 1 to 2, and <italic>q</italic> ranges from 1 to 3 for a total of 18 ARIMA forecasting models.</p>
+              <p id="para0049">In the third stage, we prepare for validation by generating the error metrics needed to validate the forecasts against the historical data. To this end, we utilized MdAE and MdAPE as established metrics for evaluating forecasting error <xref rid="bib0014" ref-type="bibr">[14]</xref>, <xref rid="bib0015" ref-type="bibr">[15]</xref>, <xref rid="bib0016" ref-type="bibr">[16]</xref>, <xref rid="bib0017" ref-type="bibr">[17]</xref>. Median-based metrics are applied as the forecasts contain outliers <xref rid="bib0014" ref-type="bibr">[14</xref>,<xref rid="bib0015" ref-type="bibr">15]</xref>. MdAE is scale dependent <xref rid="bib0016" ref-type="bibr">[16]</xref> and well suited for making comparisons between forecasts of the same scale <xref rid="bib0017" ref-type="bibr">[17]</xref>. MdAPE is applied to compare forecasts of differing scales <xref rid="bib0016" ref-type="bibr">[16]</xref>. We utilize MdAE to test for significant differences between forecasts at the same geographic level based on their performance with respect to the recorded historical values. We utilize MdAPE to measure the percentage difference of the forecasts from their observed historical values across geographic levels to account for different magnitudes of cumulative case counts when aggregating county-level data to health district and state-level geographic representations.</p>
+              <p id="para0050">The process taken to prepare the validation data at each geographic level follows:<list list-type="simple" id="celist0008"><list-item id="celistitem0017"><label>1.</label><p id="para0051">For each forecast, calculate baseline MdAE and MdAPE scores by comparing each forecast's set of values to their recorded historical counterparts</p></list-item><list-item id="celistitem0018"><label>2.</label><p id="para0052">At each geographic level, aggregate the MdAE and MdAPE scores by forecast start dates and grouping results by location name, forecasting method, lookback length, and forecast length<list list-type="simple" id="celist0009"><list-item id="celistitem0019"><label>a.</label><p id="para0053">For each geographic level, store these results in a separate dataset</p></list-item><list-item id="celistitem0020"><label>b.</label><p id="para0054">This results in three tables for MdAE values and three tables for MdAPE values</p></list-item></list></p></list-item><list-item id="celistitem0021"><label>3.</label><p id="para0055">Aggregate each of these six tables by location names and group by forecasting method, lookback length, and forecast length.<list list-type="simple" id="celist0010"><list-item id="celistitem0022"><label>a.</label><p id="para0056">This yields six datasets of aggregated MdAE and MdAPE values that convey the aggregated values based on each combination of forecasting method, lookback length, and forecast length independent of start date or location</p></list-item><list-item id="celistitem0023"><label>b.</label><p id="para0057">Sixty aggregated observations are created at each geographic level for a total of 180 observations for MdAE and 180 observations for MdAPE</p></list-item><list-item id="celistitem0024"><label>c.</label><p id="para0058">Note, this second level of aggregation is not applied to the state level data as only a single state, VA, is present in the dataset</p></list-item></list></p></list-item></list></p>
+              <p id="para0059">In the fourth stage, we take the prepared validation data and we generate the aggregated error metrics needed to validate the generated forecasts. We utilize a method of notched box plots to identify statistically significant differences between the forecasting methods <xref rid="bib0018" ref-type="bibr">[18</xref>,<xref rid="bib0019" ref-type="bibr">19]</xref>. Notched box plots display the median values of the data along with notches representing the 95% confidence interval for each median represented as <italic>±1.58*(Interquartile Range)/sqrt(n)</italic> for the upper and lower notches <xref rid="bib0020" ref-type="bibr">[20</xref>,<xref rid="bib0021" ref-type="bibr">21]</xref>. Comparisons of box plots resulting in non-overlapping notch ranges are considered to be statistically significantly different with an alpha of 0.05 <xref rid="bib0018" ref-type="bibr">[18]</xref>. We use the <italic>geom_boxplot</italic> package within <italic>ggplot2</italic>
+<xref rid="bib0004" ref-type="bibr">[4]</xref> to construct the notched box plot data for the aggregated forecast data. The median values for each of the MdAE and MdAPE metrics for each forecasting method, lookback length, and forecast length combination are produced as the output of this stage. For consistency checking, P-values are also generated during this phase using Mood's Median test to test for statistically significant differences in medians between forecasting combinations.</p>
+            </sec>
+            <sec id="sec0014">
+              <title>Ethics Statement</title>
+              <p id="para0060">The authors declare that this work does not involve the use of human subjects or experimentation with animals.</p>
+            </sec>
+            <sec id="sec0015">
+              <title>CRediT Author Statement</title>
+              <p id="para0061"><bold>Christopher J. Lynch:</bold> Conceptualization, Methodology, Software, Validation, Data Curation, Writing – Original Draft, Visualization, Project administration; <bold>Ross Gore:</bold> Conceptualization, Methodology, Software, Validation, Data Curation, Writing – Review &amp; Editing, Supervision.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of Competing Interest</title>
+              <p id="para0062">The authors declare that they have no known competing financial interests or personal relationships which have, or could be perceived to have, influenced the work reported in this article.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="cebibl1">
+              <title>References</title>
+              <ref id="bib0001">
+                <label>1</label>
+                <mixed-citation publication-type="other" id="sbref0001">The New York Times, Coronavirus (Covid-19) Data in the United States, GitHub, <ext-link ext-link-type="uri" xlink:href="https://www.github.com/nytimes/covid-19-data" id="interref0005">https://github.com/nytimes/covid-19-data</ext-link>, 2020 (retrieved 23 April 2020).</mixed-citation>
+              </ref>
+              <ref id="bib0002">
+                <label>2</label>
+                <mixed-citation publication-type="other" id="sbref0002">R Core Team. R: a language and environment for statistical computing. In: R Found. Stat. Comput. Vienne, Austria. <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/" id="interref0006">https://www.R-project.org/</ext-link>, 2020 (accessed 30 March 2020).</mixed-citation>
+              </ref>
+              <ref id="bib0003">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sbref0003">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hyndman</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khandakar</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Automatic Time Series Forecasting: the Forecast Package for R</article-title>
+                  <source>J. Stat. Softw.</source>
+                  <volume>27</volume>
+                  <issue>3</issue>
+                  <year>2008</year>
+                  <fpage>1</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v027.i03</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0004">
+                <label>4</label>
+                <element-citation publication-type="book" id="sbref0004">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wickham</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>ggplot2: Elegant Graphics For Data Analysis</chapter-title>
+                  <year>2016</year>
+                  <publisher-name>Springer</publisher-name>
+                  <publisher-loc>New York, NY</publisher-loc>
+                </element-citation>
+              </ref>
+              <ref id="bib0005">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sbref0005">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wickham</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Averick</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bryan</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>McGowan</surname>
+                      <given-names>L.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>François</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grolemund</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hayes</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Henry</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hester</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuhn</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Welcome to the Tidyverse</article-title>
+                  <source>J. Open Source Softw.</source>
+                  <volume>4</volume>
+                  <issue>43</issue>
+                  <year>2019</year>
+                  <fpage>1686</fpage>
+                  <pub-id pub-id-type="doi">10.21105/joss.01686</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0006">
+                <label>6</label>
+                <mixed-citation publication-type="other" id="sbref0006">C.J. Lynch, Gore, R., Short-range early phase COVID-19 forecasting R-project and data, Mendeley Data, V2, doi: 10.17632/cytrb8p42g.2, 2020, <ext-link ext-link-type="uri" xlink:href="https://data.mendeley.com/datasets/cytrb8p42g/2" id="interref0007">https://data.mendeley.com/datasets/cytrb8p42g/2</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="bib0007">
+                <label>7</label>
+                <mixed-citation publication-type="other" id="sbref0007">C.J. Lynch, R. Gore, Short-range forecasting of coronavirus disease 2019 (COVID-19) during early onset at county, health district, and state geographic levels: comparative forecasting approach using seven forecasting methods, J. Med. Internet Res. (In Press).</mixed-citation>
+              </ref>
+              <ref id="bib0008">
+                <label>8</label>
+                <element-citation publication-type="book" id="sbref0008">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hyndman</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Athanasopoulos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Forecasting: Principles and Practice</chapter-title>
+                  <edition>2nd ed.</edition>
+                  <year>2018</year>
+                  <publisher-name>OTexts</publisher-name>
+                  <publisher-loc>Melbourne, Australia</publisher-loc>
+                  <comment>OTexts.com/fpp2. Accessed on September 25, 2020</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib0009">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref0009">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holt</surname>
+                      <given-names>C.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting seasonals and trends by exponentially weighted moving averages</article-title>
+                  <source>Int. J. Forecast.</source>
+                  <volume>20</volume>
+                  <issue>1</issue>
+                  <year>2004</year>
+                  <fpage>5</fpage>
+                  <lpage>10</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijforecast.2003.09.015</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0010">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sbref0010">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Winters</surname>
+                      <given-names>P.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting sales by exponentially weighted moving averages</article-title>
+                  <source>Manag. Sci.</source>
+                  <volume>6</volume>
+                  <issue>3</issue>
+                  <year>1960</year>
+                  <fpage>324</fpage>
+                  <lpage>342</lpage>
+                  <pub-id pub-id-type="doi">10.1287/mnsc.6.3.324</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0011">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sbref0011">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jacquez</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>O'Neill</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reproduction numbers and thresholds in stochastic epidemic models I. Homogeneous populations</article-title>
+                  <source>Math. Biosci.</source>
+                  <volume>107</volume>
+                  <issue>2</issue>
+                  <year>1991</year>
+                  <fpage>161</fpage>
+                  <lpage>186</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0025-5564(91)90003-2</pub-id>
+                  <pub-id pub-id-type="pmid">1806112</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0012">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sbref0012">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ives</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abbott</surname>
+                      <given-names>K.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ziebarth</surname>
+                      <given-names>N.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of ecological time series with ARMA (p, q) models</article-title>
+                  <source>Ecology.</source>
+                  <volume>91</volume>
+                  <issue>3</issue>
+                  <year>2010</year>
+                  <fpage>858</fpage>
+                  <lpage>871</lpage>
+                  <pub-id pub-id-type="doi">10.1890/09-0442.1</pub-id>
+                  <pub-id pub-id-type="pmid">20426343</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0013">
+                <label>13</label>
+                <mixed-citation publication-type="other" id="sbref0013">Virginia Department of Health, Local health districts. <ext-link ext-link-type="uri" xlink:href="https://www.vdh.virginia.gov/local-health-districts/" id="interref0008">https://www.vdh.virginia.gov/local-health-districts/</ext-link>, 2020 (accessed 30 March 2020).</mixed-citation>
+              </ref>
+              <ref id="bib0014">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sbref0014">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Armstrong</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Collopy</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Error measures for generalizing about forecasting methods: empirical comparisons</article-title>
+                  <source>Int. J. Forecast.</source>
+                  <volume>8</volume>
+                  <issue>1</issue>
+                  <year>1992</year>
+                  <fpage>69</fpage>
+                  <lpage>80</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0169-2070(92)90008-W</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0015">
+                <label>15</label>
+                <element-citation publication-type="book" id="sbref0015">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Armstrong</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Evaluating forecasting methods</chapter-title>
+                  <comment>editor</comment>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Armstrong</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Principles of Forecasting: A Handbook for Researchers and Practitioners</source>
+                  <year>2001</year>
+                  <publisher-name>Kluwer Academic Publishers</publisher-name>
+                  <publisher-loc>Norwell, MA</publisher-loc>
+                  <fpage>443</fpage>
+                  <lpage>472</lpage>
+                  <pub-id pub-id-type="doi">10.1007/978-0-306-47630-3_20</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0016">
+                <label>16</label>
+                <element-citation publication-type="journal" id="sbref0016">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hyndman</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koehler</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Another look at measures of forecast accuracy</article-title>
+                  <source>Int. J. Forecast.</source>
+                  <volume>22</volume>
+                  <issue>4</issue>
+                  <year>2006</year>
+                  <fpage>679</fpage>
+                  <lpage>688</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijforecast.2006.03.001</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0017">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sbref0017">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shcherbakov</surname>
+                      <given-names>M.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brebels</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shcherbakova</surname>
+                      <given-names>N.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tyukov</surname>
+                      <given-names>A.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Janovsky</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kamaev</surname>
+                      <given-names>V.Ae.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A survey of forecast error measures</article-title>
+                  <source>World Appl. Sci. J.</source>
+                  <volume>24</volume>
+                  <issue>24</issue>
+                  <year>2013</year>
+                  <fpage>171</fpage>
+                  <lpage>176</lpage>
+                  <pub-id pub-id-type="doi">10.5829/idosi.wasj.2013.24.itmies.80032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0018">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref0018">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McGill</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tukey</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Larsen</surname>
+                      <given-names>W.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Variations of box plots</article-title>
+                  <source>Am. Stat.</source>
+                  <volume>32</volume>
+                  <issue>1</issue>
+                  <year>1978</year>
+                  <fpage>12</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00031305.1978.10479236</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0019">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sbref0019">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Krzywinski</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visualizing samples with box plots</article-title>
+                  <source>Nat. Methods.</source>
+                  <volume>11</volume>
+                  <year>2014</year>
+                  <fpage>119</fpage>
+                  <lpage>120</lpage>
+                  <comment>10.1038/nmeth.2813</comment>
+                  <pub-id pub-id-type="pmid">24645192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0020">
+                <label>20</label>
+                <mixed-citation publication-type="other" id="sbref0020">R.L. Nuzzo. The box plots alternative for visualizing quantitative data. PM&amp;R. 2016 Mar; 8(3):268–272. 10.1016/j.pmrj.2016.02.001.</mixed-citation>
+              </ref>
+              <ref id="bib0021">
+                <label>21</label>
+                <element-citation publication-type="book" id="sbref0021">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chambers</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cleveland</surname>
+                      <given-names>W.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kleiner</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tukey</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Graphical Methods for Data Analysis</chapter-title>
+                  <year>1983</year>
+                  <publisher-name>Chapman and Hall/Cole Publishing Co.</publisher-name>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <sec sec-type="data-availability">
+              <title>Data Availability</title>
+              <p id="para9001">
+                <list list-type="simple" id="dacelist0001">
+                  <list-item id="rdlistitem0001">
+                    <p id="para9002"><ext-link ext-link-type="uri" xlink:href="https://data.mendeley.com/datasets/cytrb8p42g/2" id="interref0002">Short-range Early Phase COVID-19 Forecasting R-Project and Data (Original data)</ext-link> (Mendeley Data).</p>
+                  </list-item>
+                </list>
+              </p>
+            </sec>
+            <ack id="ack0001">
+              <title>Acknowledgments</title>
+              <p id="para0063">This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.</p>
+            </ack>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:54:55Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8168636" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8168636</identifier>
+        <datestamp>2021-06-11</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8168636</article-id>
+              <article-id pub-id-type="pmcid">PMC8168636</article-id>
+              <article-id pub-id-type="pmc-uid">8168636</article-id>
+              <article-id pub-id-type="pmid">33900929</article-id>
+              <article-id pub-id-type="publisher-id">v23i5e19544</article-id>
+              <article-id pub-id-type="pmid">33900929</article-id>
+              <article-id pub-id-type="doi">10.2196/19544</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Age-Stratified Infection Probabilities Combined With a Quarantine-Modified Model for COVID-19 Needs Assessments: Model Development Study</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Basch</surname>
+                    <given-names>Corey</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Mohammad Gholi Mezerji</surname>
+                    <given-names>Naser</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Cebo</surname>
+                    <given-names>Daniel</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Bongolan</surname>
+                    <given-names>Vena Pearl</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9056-8529</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Department of Computer Science</institution>
+                    <institution>University of the Philippines Diliman</institution>
+                    <addr-line>UP AECH Bldg</addr-line>
+                    <addr-line>Velasquez St</addr-line>
+                    <addr-line>Quezon City, 1101</addr-line>
+                    <country>Philippines</country>
+                    <phone>63 915 877 2298</phone>
+                    <email>bongolan@up.edu.ph</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Minoza</surname>
+                    <given-names>Jose Marie Antonio</given-names>
+                  </name>
+                  <degrees>BSc</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2009-4799</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>de Castro</surname>
+                    <given-names>Romulo</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9300-258X</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Sevilleja</surname>
+                    <given-names>Jesus Emmanuel</given-names>
+                  </name>
+                  <degrees>MD, MPhil</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4980-2173</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>Department of Computer Science</institution>
+                <institution>University of the Philippines Diliman</institution>
+                <addr-line>Quezon City</addr-line>
+                <country>Philippines</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Center for Informatics</institution>
+                <institution>University of San Agustin</institution>
+                <addr-line>Iloilo</addr-line>
+                <country>Philippines</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>National Center for Mental Health</institution>
+                <addr-line>Mandaluyong</addr-line>
+                <country>Philippines</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Vena Pearl Bongolan <email>bongolan@up.edu.ph</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>5</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>31</day>
+                <month>5</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>31</day>
+                <month>5</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>23</volume>
+              <issue>5</issue>
+              <elocation-id>e19544</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>22</day>
+                  <month>4</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>26</day>
+                  <month>10</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>31</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>5</day>
+                  <month>4</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Vena Pearl Bongolan, Jose Marie Antonio Minoza, Romulo de Castro, Jesus Emmanuel Sevilleja. Originally published in the Journal of Medical Internet Research (https://www.jmir.org), 31.05.2021.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link xlink:href="https://www.jmir.org/" ext-link-type="uri">https://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="https://www.jmir.org/2021/5/e19544"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Classic compartmental models such as the susceptible-exposed-infectious-removed (SEIR) model all have the weakness of assuming a homogenous population, where everyone has an equal chance of getting infected and dying. Since it was identified in Hubei, China, in December 2019, COVID-19 has rapidly spread around the world and been declared a pandemic. Based on data from Hubei, infection and death distributions vary with age. To control the spread of the disease, various preventive and control measures such as community quarantine and social distancing have been widely used.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>Our aim is to develop a model where age is a factor, considering the study area’s age stratification. Additionally, we want to account for the effects of quarantine on the SEIR model.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>We use the age-stratified COVID-19 infection and death distributions from Hubei, China (more than 44,672 infections as of February 11, 2020) as an estimate or proxy for a study area’s infection and mortality probabilities for each age group. We then apply these probabilities to the actual age-stratified population of Quezon City, Philippines, to predict infectious individuals and deaths at peak. Testing with different countries shows the predicted number of infectious individuals skewing with the country’s median age and age stratification, as expected. We added a Q parameter to the SEIR model to include the effects of quarantine (Q-SEIR).</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The projections from the age-stratified probabilities give much lower predicted incidences of infection than the Q-SEIR model. As expected, quarantine tends to delay the peaks for both the exposed and infectious groups, and to “flatten” the curve or lower the predicted values for each compartment. These two estimates were used as a range to inform the local government’s planning and response to the COVID-19 threat.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>Age stratification combined with a quarantine-modified model has good qualitative agreement with observations on infections and death rates. That younger populations will have lower death rates due to COVID-19 is a fair expectation for a disease where most fatalities are among older adults.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>COVID-19</kwd>
+                <kwd>epidemic modeling</kwd>
+                <kwd>age stratification theory</kwd>
+                <kwd>infection probability</kwd>
+                <kwd>SEIR</kwd>
+                <kwd>mathematical modelling</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <p>The initial impression that came out of Wuhan, China, in late 2019 and early 2020 was that COVID-19 most affects older adult males with pre-existing conditions. Classic compartmental models like the susceptible-exposed-infectious-removed (SEIR) model all assume a homogenous population, and that everyone has equal chances of getting infected. The SEIR model is initialized by “dividing” the population into four compartments; people “progress” through being susceptible, to getting exposed, to being infectious, to getting removed, either via recovery with permanent immunity or death. Permanent immunity is a common assumption when modelling viral infections, and it is assumed here. In future, the model may be modified for temporary immunity, as soon as we get reliable data on reinfection rates. A scan of the preprints from various modeling efforts during the first quarters of 2020 gave high estimates for the peaks of the exposed and infectious groups (40% of the population, by some estimates). Even our quarantine-modified model suffered from this, and this inspired us to use age-stratified infection probabilities, which gave us a lower bound for estimates.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Estimates by Age Stratification</title>
+                <p>This calculates the “mathematical expectation” of future infections per age group, by multiplying an age group’s infection probability by the population in that age group. Initially, we used the data of patients with COVID-19 in Hubei [<xref rid="ref1" ref-type="bibr">1</xref>], stratified by ages. As data came in, we repeated the calculations with updated Quezon City data. We treat the percentages of incidence in each age group as a proxy or estimate for the corresponding probabilities of infection for people in the corresponding age group. The true probabilities are and continue to be unknown, but the scatter of the data from Hubei is consistent with the virus affecting older adults with pre-existing conditions more than other groups (<xref rid="figure1" ref-type="fig">Figure 1</xref>).</p>
+                <fig id="figure1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Projected age-stratified percentages of cases for China.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i5e19544_fig1"/>
+                </fig>
+                <p>Next, we took the proxy probabilities from Hubei, and applied them to the actual age stratification of the Philippines. Due to its young population, this resulted in a “skewed to the right” distribution (<xref rid="figure2" ref-type="fig">Figure 2</xref>) compared to the Hubei distribution, and the true distribution for the study area will be revealed as actual cases are reported.</p>
+                <fig id="figure2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Projected age-stratified percentages of cases for the Philippines.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i5e19544_fig2"/>
+                </fig>
+                <p>The Philippines has a median age of 25.7 years [<xref rid="ref2" ref-type="bibr">2</xref>] compared to China’s 38.4 years [<xref rid="ref2" ref-type="bibr">2</xref>]. This means half of the population is aged &lt;25.7 years, so more than half of the population will be in the “safer” age groups, with lower probabilities of getting infected, and significantly greater chances of survival if they should contract the disease. Those who do get infected account for only 10.2% of cases (see <xref rid="table1" ref-type="table">Table 1</xref>, sum of the percentages of those aged 0-29 years old). We expect this to be true for other countries with low median ages.</p>
+                <p>Using the United Nations World Population Prospects 2019 data [<xref rid="ref3" ref-type="bibr">3</xref>], we did a similar experiment with Japan (median age 48.6 years) and Kenya (median age 20 years) [<xref rid="ref2" ref-type="bibr">2</xref>]. We see the younger population also skewing right (<xref rid="figure3" ref-type="fig">Figure 3</xref>). Martinez [<xref rid="ref4" ref-type="bibr">4</xref>] did similar calculations, but did not treat the age-stratified incidence as a proxy for infection probability.</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Quezon City, Philippines, projection of COVID-19 cases and mortality using COVID-19 data from Hubei, China.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="150" span="1"/>
+                    <col width="160" span="1"/>
+                    <col width="160" span="1"/>
+                    <col width="160" span="1"/>
+                    <col width="180" span="1"/>
+                    <col width="190" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Age group (years)</td>
+                        <td colspan="2" rowspan="1">Hubei, China</td>
+                        <td colspan="3" rowspan="1">Quezon City, Philippines</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">COVID-19 cases, %</td>
+                        <td rowspan="1" colspan="1">Case fatality rate, %</td>
+                        <td rowspan="1" colspan="1">Projected COVID-19 cases, n</td>
+                        <td rowspan="1" colspan="1">Projected COVID-19 case distribution, %</td>
+                        <td rowspan="1" colspan="1">Projected mortality, n</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">0-9</td>
+                        <td rowspan="1" colspan="1">0.9</td>
+                        <td rowspan="1" colspan="1">0</td>
+                        <td rowspan="1" colspan="1">5164.60</td>
+                        <td rowspan="1" colspan="1">1.60</td>
+                        <td rowspan="1" colspan="1">0.00</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">10-19</td>
+                        <td rowspan="1" colspan="1">1.2</td>
+                        <td rowspan="1" colspan="1">0.2</td>
+                        <td rowspan="1" colspan="1">7345.98</td>
+                        <td rowspan="1" colspan="1">2.28</td>
+                        <td rowspan="1" colspan="1">14.69</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">20-29</td>
+                        <td rowspan="1" colspan="1">8.1</td>
+                        <td rowspan="1" colspan="1">0.2</td>
+                        <td rowspan="1" colspan="1">53,444.14</td>
+                        <td rowspan="1" colspan="1">16.57</td>
+                        <td rowspan="1" colspan="1">106.89</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">30-39</td>
+                        <td rowspan="1" colspan="1">17</td>
+                        <td rowspan="1" colspan="1">0.2</td>
+                        <td rowspan="1" colspan="1">87,156.90</td>
+                        <td rowspan="1" colspan="1">27.02</td>
+                        <td rowspan="1" colspan="1">174.31</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">40-49</td>
+                        <td rowspan="1" colspan="1">19.2</td>
+                        <td rowspan="1" colspan="1">0.4</td>
+                        <td rowspan="1" colspan="1">75,013.55</td>
+                        <td rowspan="1" colspan="1">23.25</td>
+                        <td rowspan="1" colspan="1">300.05</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">50-59</td>
+                        <td rowspan="1" colspan="1">22.4</td>
+                        <td rowspan="1" colspan="1">1.3</td>
+                        <td rowspan="1" colspan="1">61,753.09</td>
+                        <td rowspan="1" colspan="1">19.14</td>
+                        <td rowspan="1" colspan="1">802.79</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">60-69</td>
+                        <td rowspan="1" colspan="1">19.2</td>
+                        <td rowspan="1" colspan="1">3.6</td>
+                        <td rowspan="1" colspan="1">27,420.07</td>
+                        <td rowspan="1" colspan="1">8.50</td>
+                        <td rowspan="1" colspan="1">987.12</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">70-79</td>
+                        <td rowspan="1" colspan="1">8.8</td>
+                        <td rowspan="1" colspan="1">8.0</td>
+                        <td rowspan="1" colspan="1">4588.82</td>
+                        <td rowspan="1" colspan="1">1.42</td>
+                        <td rowspan="1" colspan="1">367.11</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">≥80</td>
+                        <td rowspan="1" colspan="1">3.2</td>
+                        <td rowspan="1" colspan="1">14.8</td>
+                        <td rowspan="1" colspan="1">699.83</td>
+                        <td rowspan="1" colspan="1">0.22</td>
+                        <td rowspan="1" colspan="1">103.57</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Total</td>
+                        <td rowspan="1" colspan="1">100</td>
+                        <td rowspan="1" colspan="1">28.7</td>
+                        <td rowspan="1" colspan="1">322,586.99</td>
+                        <td rowspan="1" colspan="1">100</td>
+                        <td rowspan="1" colspan="1">2856.54</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <fig id="figure3" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Projected age-stratified percentages of cases for Japan and Kenya. The average age in each country is given in parentheses.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i5e19544_fig3"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Estimates Using a Quarantine-Modified SEIR Model</title>
+                <p>The quarantine-modified SEIR equations are shown below.</p>
+                <graphic xlink:href="jmir_v23i5e19544_fig5.jpg" mimetype="image" position="float"/>
+                <p>The insertion of the <italic>Q(t)</italic> term serves to control the <italic>S × I</italic> or susceptible-infectious interactions, hence lowering exposure. <italic>Q(t)</italic> equal to one means no quarantine (ie, no change to the model). A <italic>Q(t)</italic> value of 0.4 means a 60% effective quarantine, while <italic>Q(t)</italic>=0.6 means the quarantine is only 40% effective; therefore, the lower the <italic>Q(t)</italic>, the better. We allowed <italic>Q(t)</italic> to vary day by day (since cases began before the quarantine), and we also estimated the success of the quarantine. Henceforth, we refer to this model as Q-SEIR. Solution was via the Euler method, and time stepping was one day. We used Excel (Microsoft Corp) worksheets for our calculations.</p>
+                <p>The model was ground-truthed to the estimated number of exposed individuals at the national level on April 1, 2020 (N=7400) [<xref rid="ref5" ref-type="bibr">5</xref>]. From the nationally reported number of exposed individuals (patients under investigation + persons under monitoring), Quezon City represents almost 10% of cases (~740); the Q-SEIR model predicted 705 cases.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <p>Applying the Hubei infection probabilities on Quezon City with an age distribution as shown in <xref rid="table1" ref-type="table">Table 1</xref> (from the 2015 Census, projected to 2020 at a 2% growth rate [<xref rid="ref6" ref-type="bibr">6</xref>]) gave an estimate of 322,586 infectious individuals (accumulated, which we equate with the Q-SEIR peak), which accounts for less than 10% of the population of Quezon City. Deaths were predicted at 22,390 cases (6.94%), which lies between the World Health Organization (WHO) morbidity estimates of 5.58% [<xref rid="ref7" ref-type="bibr">7</xref>] and the 12.47% reported in Italy [<xref rid="ref8" ref-type="bibr">8</xref>]. These estimates were what was available as of April 2020, and will be updated in the discussion.</p>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Results</title>
+                <p>Initial reports (around April 2020) estimated the Philippines’ death or mortality rate to be at 4.70% (4.05%-5.43%) [<xref rid="ref8" ref-type="bibr">8</xref>]. This high estimate may be explained by sampling bias, wherein severe cases may have been overrepresented because of a lack of testing. Those who are infectious but are asymptomatic or exhibit mild symptoms should also be equally represented in the testing guidelines (at the moment, they are not), as well as those who were infectious with no symptoms and have recovered.</p>
+                <p>We tried the calculations from [<xref rid="ref4" ref-type="bibr">4</xref>] using the death rate, which was reported at 2.3% for China [<xref rid="ref1" ref-type="bibr">1</xref>]. This gave a much lower number of around 2857 deaths, for a Quezon City death rate of 0.89%. This figure is surprisingly low compared to the 6.94% projected using the estimated infection probability. The latest estimate of the Philippine COVID-19 death rate is 1.82% [<xref rid="ref9" ref-type="bibr">9</xref>].</p>
+                <p>The delay in test reporting (estimate of 5-7 days [<xref rid="ref10" ref-type="bibr">10</xref>]) factors in the estimation of the initial E-I-R values. In addition, this delay is compounded by the incubation period and, in our opinion, moves the quarantine effect further down from the actual date of implementation (March 15, 2020). We started the Q-SEIR simulation on March 20, 2020, with no quarantine assumed because the steep jump in cases occurred on this date; 60% effective quarantine was set for April 2, 2020.</p>
+                <p>The Q-SEIR model predicted 14.00% of the population will be infectious (I) at the peak. The two methods now give us a low and high estimate for Quezon City: infectious individuals will peak between 9.95% (from age stratification) and 14.00% (from Q-SEIR) of the population, around the third week of May 2020. These figures seemed high compared to the reported incidence during the same period, but were not in any way unique (compared to modeling done in other countries). At that time, the suspicion was that actual cases were undertested/underreported by as much as 90% (ie, only 10% of cases were being detected). Nevertheless, this range of values serves as a guide for planners in anticipating the need for personal protective equipment, mass testing, hospital beds, and other basic needs.</p>
+                <p><xref rid="figure4" ref-type="fig">Figure 4</xref> shows the scatter of cases for Quezon City projected by the Hubei data, and the actual scatter as of May 2020.</p>
+                <fig id="figure4" position="float">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Projected versus actual age-stratified case distribution for Quezon City.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i5e19544_fig4"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Limitations</title>
+                <p>Like many research groups, we were and continue to be hampered by a lack of reliable data in a usable format. Even now, we refer to multiple data sets including the Philippine Department of Health’s DataDrop, WHO, and other data sources.</p>
+              </sec>
+              <sec>
+                <title>Comparison With Prior Work</title>
+                <p>We were one of the first groups to forward the theory of age stratification when it comes to modeling COVID-19 infections. Recently, we came across works by Balabdaoui et al [<xref rid="ref11" ref-type="bibr">11</xref>], Undurraga et al [<xref rid="ref12" ref-type="bibr">12</xref>], and the WHO [<xref rid="ref13" ref-type="bibr">13</xref>]. However, we are uniquely using incidence percentages as proxies for infection probabilities with good results.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>In conclusion, age stratification predicted the scatter of cases for Quezon City fairly well. It also predicted later observations of lower cumulative confirmed cases for the same time period (eg, 6587 cases per million compared to Italy’s 58,417 cases per million as of March 28, 2021); there is a color-coded world map in [<xref rid="ref14" ref-type="bibr">14</xref>]. Some African countries have lower median ages than the Philippines, and they have generally lighter colors than Europe and North America. The best prediction is the noticeably lower death or mortality rate of 1.82% compared to Italy’s 3.05% and Indonesia’s 2.7% (all as of March 29, 2021) [<xref rid="ref9" ref-type="bibr">9</xref>]. Since COVID-19 disproportionately affects older adults more than younger populations, we expect the Philippines to have a lower mortality rate than countries with older populations (eg, Italy has a median age of 47.3 years and Indonesia has a median age of 29.7 years, compared to 25.7 years in the Philippines). Later work can use actual infection probabilities to include the effect of age stratification in the model.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>VPB thanks the Alumni Engineers of the University of the Philippines Diliman for their support of the study (UPCoE Covid-19 Response). Additionally, she thanks her coauthors, RdC and JES, who worked pro bono; true heroes! Finally, the authors are grateful to the Engineering Research and Development for Technology (ERDT) Consortium, Republic of the Philippines, for shouldering publication costs.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">SEIR</term>
+                  <def>
+                    <p>susceptible-exposed-infectious-removed</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">WHO</term>
+                  <def>
+                    <p>World Health Organization</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team</collab>
+                  </person-group>
+                  <article-title>The Epidemiological Characteristics of an Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) — China, 2020[J]</article-title>
+                  <source>China CDC Weekly</source>
+                  <year>2020</year>
+                  <month>3</month>
+                  <day>03</day>
+                  <volume>2</volume>
+                  <issue>8</issue>
+                  <fpage>113</fpage>
+                  <lpage>122</lpage>
+                  <pub-id pub-id-type="doi">10.46234/ccdcw2020.032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Central Intelligence Agency</collab>
+                  </person-group>
+                  <article-title>Field Listing - Median age</article-title>
+                  <source>The World Factbook</source>
+                  <date-in-citation>2020-04-11</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cia.gov/the-world-factbook/field/median-age/">https://www.cia.gov/the-world-factbook/field/median-age/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>United Nations, Department of Economic and Social Affairs, Population Division</collab>
+                  </person-group>
+                  <source>World Population Prospects 2019</source>
+                  <date-in-citation>2020-04-11</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://population.un.org/wpp/DataQuery/">https://population.un.org/wpp/DataQuery/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 mortality calculator</article-title>
+                  <source>Public Tableau</source>
+                  <date-in-citation>2020-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://public.tableau.com/profile/ramon.martinez#!/vizhome/COVID-19mortalitycalculator/COVID-19mortalitycalc">https://public.tableau.com/profile/ramon.martinez#!/vizhome/COVID-19mortalitycalculator/COVID-19mortalitycalc</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Department of Health</collab>
+                  </person-group>
+                  <source>COVID-19 Case Tracker</source>
+                  <date-in-citation>2020-04-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.doh.gov.ph/covid-19/case-tracker">https://www.doh.gov.ph/covid-19/case-tracker</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Philippines: Metro Manila</article-title>
+                  <source>City Population</source>
+                  <date-in-citation>2020-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.citypopulation.de/php/philippines-metromanila-admin.php?adm2id=137404">https://www.citypopulation.de/php/philippines-metromanila-admin.php?adm2id=137404</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Coronavirus disease (COVID-19) pandemic</article-title>
+                  <source>World Health Organization</source>
+                  <date-in-citation>2020-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oke</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Heneghan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Global Covid-19 Case Fatality Rates</article-title>
+                  <source>The Centre for Evidence-Based Medicine</source>
+                  <date-in-citation>2020-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cebm.net/covid-19/global-covid-19-case-fatality-rates/">https://www.cebm.net/covid-19/global-covid-19-case-fatality-rates/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Coronavirus (COVID-19) death rate in countries with confirmed deaths and over 1,000 reported cases, by country</article-title>
+                  <source>Statista</source>
+                  <date-in-citation>2020-04-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.statista.com/statistics/1105914/coronavirus-death-rates-worldwide/">https://www.statista.com/statistics/1105914/coronavirus-death-rates-worldwide/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="webpage">
+                  <article-title>COVID-19 test results from RITM out in 5 to 7 days, but not for long, DOH says</article-title>
+                  <source>CNN Philippines</source>
+                  <date-in-citation>2020-04-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cnnphilippines.com/news/2020/3/27/COVID-19-test-results-from-RITM-out-in-5-to-7-days,-but-not-for-long,-DOH-says.html">https://www.cnnphilippines.com/news/2020/3/27/COVID-19-test-results-from-RITM-out-in-5-to-7-days,-but-not-for-long,-DOH-says.html</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Balabdaoui</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Mohr</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Age-stratified discrete compartment model of the COVID-19 epidemic with application to Switzerland</article-title>
+                  <source>Sci Rep</source>
+                  <year>2020</year>
+                  <month>12</month>
+                  <day>04</day>
+                  <volume>10</volume>
+                  <issue>1</issue>
+                  <fpage>21306</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-77420-4</pub-id>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-77420-4</pub-id>
+                  <pub-id pub-id-type="medline">33277545</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1038/s41598-020-77420-4</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7718912</pub-id>-->
+                  <pub-id pub-id-type="pmid">33277545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Undurraga</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Chowell</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Mizumoto</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 case fatality risk by age and gender in a high testing setting in Latin America: Chile, March-August 2020</article-title>
+                  <source>Infect Dis Poverty</source>
+                  <year>2021</year>
+                  <month>2</month>
+                  <day>03</day>
+                  <volume>10</volume>
+                  <issue>1</issue>
+                  <fpage>11</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://idpjournal.biomedcentral.com/articles/10.1186/s40249-020-00785-1"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/s40249-020-00785-1</pub-id>
+                  <pub-id pub-id-type="medline">33531085</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1186/s40249-020-00785-1</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7854021</pub-id>-->
+                  <pub-id pub-id-type="pmid">33531085</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>Population-based age-stratified seroepidemiological investigation protocol for COVID-19 virus infection, 17 March 2020</source>
+                  <year>2020</year>
+                  <month>3</month>
+                  <day>17</day>
+                  <date-in-citation>2021-05-12</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/331656">https://apps.who.int/iris/handle/10665/331656</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Philippines: Coronavirus Pandemic Country Profile</article-title>
+                  <source>Our World in Data</source>
+                  <date-in-citation>2020-04-01</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://ourworldindata.org/coronavirus/country/philippines">https://ourworldindata.org/coronavirus/country/philippines</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

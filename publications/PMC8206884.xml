@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:52:44Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8206884" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8206884</identifier>
+        <datestamp>2021-06-16</datestamp>
+        <setSpec>phenaturepg</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Health Care Manag Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Health Care Manag Sci</journal-id>
+              <journal-title-group>
+                <journal-title>Health Care Management Science</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1386-9620</issn>
+              <issn pub-type="epub">1572-9389</issn>
+              <publisher>
+                <publisher-name>Springer US</publisher-name>
+                <publisher-loc>New York</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8206884</article-id>
+              <article-id pub-id-type="pmcid">PMC8206884</article-id>
+              <article-id pub-id-type="pmc-uid">8206884</article-id>
+              <article-id pub-id-type="pmid">34132978</article-id>
+              <article-id pub-id-type="publisher-id">9567</article-id>
+              <article-id pub-id-type="doi">10.1007/s10729-021-09567-z</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A case for location based contact tracing</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0596-5525</contrib-id>
+                  <name>
+                    <surname>Pokharel</surname>
+                    <given-names>Atul</given-names>
+                  </name>
+                  <address>
+                    <email>pokharel@nyu.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Soulé</surname>
+                    <given-names>Robert</given-names>
+                  </name>
+                  <address>
+                    <email>robert.soule@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Silberschatz</surname>
+                    <given-names>Avi</given-names>
+                  </name>
+                  <address>
+                    <email>avi@yale.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.137628.9</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8753</institution-id><institution>Robert F. Wagner School of Public Service, </institution><institution>New York University, </institution></institution-wrap>New York, NY 10012 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.47100.32</institution-id><institution-id institution-id-type="ISNI">0000000419368710</institution-id><institution>Department of Computer Science, </institution><institution>Yale University, </institution></institution-wrap>New Haven, CT 06520-8285 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>16</day>
+                <month>6</month>
+                <year>2021</year>
+              </pub-date>
+              <fpage>1</fpage>
+              <lpage>19</lpage>
+              <history>
+                <date date-type="received">
+                  <day>4</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>4</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2021</copyright-statement>
+                <license>
+                  <license-p>This article is made available via the PMC Open Access Subset for unrestricted research re-use and secondary analysis in any form or by any means with acknowledgement of the original source. These permissions are granted for the duration of the World Health Organization (WHO) declaration of COVID-19 as a global pandemic.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">We present an evaluation of the effectiveness of manual contact tracing compared to bulletin board contact tracing. Classical contact tracing relies on reaching individuals who have been in proximity to an infectious person. A bulletin board approach focuses on identifying locations visited by an infectious person, and then contacting those who were at those locations. We present results comparing their effects on the overall reproductive number as well as the incidence and prevalence of disease. We evaluate them by building a new agent based simulation (ABS) model using the Susceptible Exposed Infectious and Recovered (SEIR) framework for disease spread. We conduct simulation experiments to quantify the effectiveness of these two models of contact tracing by calibrating the model to be compatible with SARS-CoV-2. We find that bulletin board contact tracing gives comparable results in terms of the reproductive number, duration, prevalence and incidence but is less resource intensive, easier to implement and offers a wider range of privacy options. Our experiments show that location-based bulletin board contact tracing can improve manual contact tracing.</p>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1007/s10729-021-09567-z.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Bulletin board</kwd>
+                <kwd>Contact tracing</kwd>
+                <kwd>Agent based simulation</kwd>
+                <kwd>Covid-19</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>School of Public Health, Yale University</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="FPar1">
+              <title>Highlights</title>
+              <p id="Par2">
+                <list list-type="bullet">
+                  <list-item>
+                    <p id="Par3">We compare the effectiveness of two types of contact tracing: one that requires contacting individuals (manual contact tracing) and one that requires identifying locations (bulletin board contact tracing).</p>
+                  </list-item>
+                  <list-item>
+                    <p id="Par4">Bulletin board contact tracing is less resource intensive and easier to implement than manual contact tracing while offering greater privacy options and possibly improving participation.</p>
+                  </list-item>
+                  <list-item>
+                    <p id="Par5">Manual contact tracing performs only slightly better than bulletin board contact tracing at reducing the reproductive number, duration, prevalence and incidence of SARS-CoV-2.</p>
+                  </list-item>
+                  <list-item>
+                    <p id="Par6">Hybrid contact tracing using both manual and bulletin board methods performs significantly better than manual contact tracing alone.</p>
+                  </list-item>
+                  <list-item>
+                    <p id="Par7">This suggests opportunities to improve implementations of manual contact tracing with location-based, bulletin board contact tracing.</p>
+                  </list-item>
+                </list>
+              </p>
+            </sec>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par8">Contact tracing has been a large component of battling disease [<xref ref-type="bibr" rid="CR7">7</xref>]. It works by identifying and alerting individuals who have been in contact with a contagious individual, so that they can isolate [<xref ref-type="bibr" rid="CR18">18</xref>]. In the classical form of contact tracing, a contact tracer interviews the infected individual to help them remember who they may have contacted in the recent past. The tracer then relays a message to isolate to each of these individuals. This is the most common type of contact tracing and it is a manual process [<xref ref-type="bibr" rid="CR14">14</xref>]. Recently, contact tracing has seen a large push from the tech community to see how they can help [<xref ref-type="bibr" rid="CR2">2</xref>]. These more recent automated forms of contact tracing rely on technology to help the process of detecting contacts. However, they are essentially an automated form of classical contact tracing [<xref ref-type="bibr" rid="CR1">1</xref>]. The main weakness of classical contact tracing is that it has a single point of failure: it depends entirely on the ability of an individual to accurately remember and identify people they contacted. Analogously, the technology-assisted forms require a high degree of device adoption. Second, it requires the sharing and use of personally identifying information because the intention is to identify people uniquely [<xref ref-type="bibr" rid="CR35">35</xref>]. Third, it assumes that a sufficient number of these contacts can be, or are willing to be, contacted by the contact tracer for the spread to be slowed [<xref ref-type="bibr" rid="CR12">12</xref>].</p>
+              <p id="Par9">A different type of contact tracing is also used, although less frequently. Countries like Israel have used a bulletin board style approach for contact tracing. Bulletin board contact tracing differs from the manual approach because it uses location-identifying information rather than individual-identifying information. It consists of identifying locations that an infectious person has visited, and then disseminating that information anonymously using a public bulletin board rather than trying to uniquely identify and contact particular individuals. On a smaller scale, schools use a similar approach to notify parents of classroom infections while preserving the privacy of the individual infected.</p>
+              <p id="Par10">This raises the question: how effective are the different forms of contact tracing? There have been no evaluations of the effectiveness of bulletin board contact tracing compared to classical contact tracing. Evaluating them using simulations is challenging without a natural way to conceptualize their components. To address this challenge, we divide the contact tracing problem into two components: contact set reconstruction and message routing. The former consists of figuring out who was in contact with the infected individual and the latter consists of getting a message to each of them to isolate. This enables us to implement simulations to compare manual contact tracing and bulletin board contact tracing.</p>
+              <p id="Par11">We implement the simulation by developing a stochastic discrete-time model based on the Susceptible, Exposed, Infected and Recovered (SEIR) framework of disease spread. We calibrate this model against what is known about SARS-CoV-2. We then implement a prototype manual contact tracing method, a bulletin board contact tracing method and a hybrid contact tracing method that combines both. And we compare their effectiveness in terms of the overall reproductive number, the incidence and the prevalence of disease.</p>
+              <p id="Par12">Our experiments show that bulletin board contact tracing performs similarly to manual contact tracing, or slightly worse in some cases. It does not alter the overall reproductive number or the duration of disease compared to manual contact tracing. Bulletin board tracing reduces prevalence initially, but then increases it. Incidence follows a similar trajectory. A hybrid approach that adds bulletin board tracing to manual tracing significantly reduces the reproductive number, incidence, duration, and prevalence of disease compared to manual tracing alone. Considered together with the efficiency gains from using a bulletin board approach to contact tracing, this suggests that bulletin board tracing can potentially improve the effectiveness of manual contact tracing.</p>
+              <p id="Par13">Overall, the bulletin board approach is relatively easier to implement and requires many fewer resources than manual contact tracing. Even if the latter is automated it will likely still generate resistance for privacy reasons that will raise further accuracy issues. Our model demonstrates that bulletin board contact tracing performs as well as (or slightly worse than) manual contact tracing. Therefore, from a practical point of view, it can be more efficient than manual contact tracing.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Types of contact tracing</title>
+              <p id="Par14">Contact tracing is a type of race against the spread of contagious disease [<xref ref-type="bibr" rid="CR22">22</xref>]. The disease spreads when one person infects at least one other. The number of people that a person directly infects under the assumption that everyone is equally susceptible is called the basic reproduction number(<italic>R</italic><sub>0</sub>). Contact tracing is a method of finding out who has been exposed to and potentially infected by an infected individual [<xref ref-type="bibr" rid="CR31">31</xref>]. Once they are identified, they can be tested, treated and isolated to reduce the number of infections that would have otherwise occurred. All forms of contact tracing proceed backwards in time from the discovery of this index individual to isolate other potentially exposed individuals [<xref ref-type="bibr" rid="CR6">6</xref>]. It is able to slow disease spread when this backward tracing is faster than the forward disease spread [<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR27">27</xref>]. Contact tracing is an important tool for combating pandemics [<xref ref-type="bibr" rid="CR14">14</xref>]. It is more effective against diseases like SARS, smallpox [<xref ref-type="bibr" rid="CR15">15</xref>] and Tuberculosis [<xref ref-type="bibr" rid="CR3">3</xref>] than influenza [<xref ref-type="bibr" rid="CR25">25</xref>]. Contact tracing effectiveness is significantly affected by individual behavior [<xref ref-type="bibr" rid="CR12">12</xref>].</p>
+              <p id="Par15">Recently, there have been several public proposals for implementing contact tracing using technologies such as Bluetooth Low Energy (BLE). PACT [<xref ref-type="bibr" rid="CR10">10</xref>], PEEP-PT [<xref ref-type="bibr" rid="CR38">38</xref>], BlueTrace [<xref ref-type="bibr" rid="CR4">4</xref>], TCN [<xref ref-type="bibr" rid="CR41">41</xref>], DP-3T [<xref ref-type="bibr" rid="CR13">13</xref>] and Whisper [<xref ref-type="bibr" rid="CR37">37</xref>] are among the most prominent. A major design goal of all of these proposals is user location-data privacy. Of these, PACT is the most developed in terms of implementation and testing. It uses Bluetooth enabled devices to determine when contact has occurred, and depends on how well the hardware permits assessing proximity. Because many factors in addition to hardware features affect the accuracy of proximity detection, all implementations find it necessary to choose a mathematical model that will make this estimation with the desired level of accuracy. Existing bluetooth hardware implementations cannot achieve greater than 60 percent accuracy in proximity detection [<xref ref-type="bibr" rid="CR10">10</xref>], while GPS-based implementations have trouble differentiating different floors of the same building. Because of similar technological limitations and the privacy concerns with location tracking, none of these proposals use GPS. Some contact tracing systems, such as the Whisper Protocol, allow users to report symptoms, as positive COVID-19 test results. The PACT system proposes some solutions to potential issues with Bluetooth-based contact tracing having to do with infected surfaces. PACT proposes putting “echoing” devices on public surfaces that re-broadcast the chirps they collect from others.</p>
+              <p id="Par16">These implementations make certain assumptions about device adoption and use. The primary assumption is that the reporting and collection of location information is automatic, that is, the human does not input the locations. Instead, proximity and location is recorded by the device and considered to be more accurate than human assessments. All of these implementations assume that there is adequate adoption and that the device and the person are always close enough for the protocol to work. They also assume that people don’t share devices, kids don’t use their parents’ phones even in the house etc. (i.e. the mapping from device to owner is not one to many). It is also not clear what happens when a person carries multiple id-generating devices, but they give conflicting assessments of proximity. Finally, the question of interoperability of these different protocols remains unaddressed. Early evaluations have shown digital contact tracing can be potentially useful for containing COVID-19 [<xref ref-type="bibr" rid="CR40">40</xref>]. However, some policies intended to increase self-isolation can decrease cooperation with contact tracing [<xref ref-type="bibr" rid="CR30">30</xref>]. While we focus on location-based contact tracing, we do not make any assumptions about the specific implementation aside from separating the location recall and the message passing stages. The former can be achieved with the assistance of devices or not, and the latter requires a bulletin board system that is accessible to possible contacts. This generality permits implementations in which humans can correct previous reports that they posted about their locations.</p>
+              <p id="Par17">These recent proposals are variations of classical contact tracing which take location into account in order to identify proximal individuals, find a route to them and pass a message to isolate. These implementations remove humans from the loop of contact tracing i.e. they do not require that a contact tracer route a message to isolate to the contact as this is done automatically, nor do they require human intervention in deciding what information to share. Ultimately, the bottleneck for these proposals is mobile device adoption. Finally, the guarantees of trust are provided by device manufacturers for whom location tracking and information collection may be integral to their business model.</p>
+              <p id="Par18">The bulletin board approach is entirely location-based, and need not be completely automated - this depends on the implementation. For example, although they can use whatever location-based technologies they want to aid their memory, the infected individual (or the contact tracer) ultimately decides whether and what information to post. No other information is collected, or shared about this individual for the purposes of contact tracing. Similarly, it is not necessary to know who was in the vicinity of this infected individual: this is determined by the concerned individuals themselves. The bulletin board approach requires only that a person who tests positive push an anonymous message to a public bulletin board that is then pulled by interested individuals. As a result, it also offers more nuanced privacy options to tested individuals - they do not need to share any identifying information, nor is any identifying information necessarily collected. And it allows for more nuanced human-in-the-loop implementations depending on context. As an added benefit, we suspect that the ability to calibrate privacy to ones preferences, in particular, is likely to improve cooperation with this approach compared to manual contact tracing. It is important to note, however, that our models suggest that bulletin board tracing may not perform as well as manual contact tracing towards the end of the disease lifetime.
+</p>
+              <sec id="Sec3">
+                <title>Classical (manual) contact tracing</title>
+                <p id="Par19">Classical contact tracing begins with a contact tracer interviewing the infected individual. The interview focuses on mining the individual’s memory of people they may have been in contact with in the recent past, a time range equal to the period of infectiousness of the disease. The interviews may cover a variety of topics, such the individual’s recent travels, in the interest of jogging their memory of individuals they may have contacted. All of these individuals could have been potentially exposed. So, the tracer then attempts to contact them directly through available means to request taking measures to prevent further spread. Classical contact tracing assumes that this set of contacts can be identified accurately enough, and that they can be contacted fast enough, to win the race against forward spread. Aided by communication technologies, this race seems more winnable than ever.</p>
+                <p id="Par20">Classical contact tracing has three major weaknesses. First, it has a single point of failure because it depends entirely on the ability and willingness of an individual to accurately identify who they contacted. Second, it requires the sharing and use of personally identifying information. Indeed, the more specific and individually identifiable the information the better for the purposes of manual contact tracing. Third, it assumes that a sufficient number of contacts can be, or are willing to be, contacted that the spread can be slowed. A wide range of factors have been found to affect cooperation with manual contact tracing [<xref ref-type="bibr" rid="CR33">33</xref>]. These concerns have led to early reports of mixed effectiveness of classical contact tracing [<xref ref-type="bibr" rid="CR36">36</xref>] with half [<xref ref-type="bibr" rid="CR20">20</xref>] of those contacted lying and two thirds [<xref ref-type="bibr" rid="CR32">32</xref>] refusing to cooperate.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Bulletin board tracing</title>
+                <p id="Par21">Bulletin board based contact tracing addresses some of the problems with classical contact tracing. First, instead of reconstructing the set of individuals that a person has contacted, it relies on identifying the locations that they have visited. It does not rely on memories of individuals but on memories of locations. And second, instead of relying on the infected individual to identify people who may have been exposed, it relies on these people identifying themselves. More concretely, a message is publicly posted online that an infected person, without saying who, visited a particular set of locations. The general public are instructed to regularly check the bulletin boards for locations of interest to them. There are different ways to implement this, for instance with or without a contact tracing interview. And a variety of apps could be built on this platform to automate this process of checking or even posting messages. For example, Israel has a nationwide bulletin board system (Fig. <xref rid="Fig1" ref-type="fig">1</xref>) but it is relatively uncommon in general. Implementations of contact tracing have focused, instead, on the manual approach. The bulletin board contact tracing described here here shares similarities with the “Narrowcasting” feature of the PACT protocol. Prominent differences include that the posting of messages and the broadcasting of messages need not be automated as in PACT [<xref ref-type="bibr" rid="CR10">10</xref>].
+<fig id="Fig1"><label>Fig. 1</label><caption><p>Israel’s bulletin board for contact tracing. URL: <ext-link ext-link-type="uri" xlink:href="https://coronaupdates.health.gov.il/corona-updates/grid/place">https://coronaupdates.health.gov.il/corona-updates/grid/place</ext-link> (Accessed 9/23/20 20:20)</p></caption><graphic xlink:href="10729_2021_9567_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par22">Bulletin board contact tracing thus relies on the location memories of the infected individuals and those who may have been exposed. Locations visited are typically easier to recall than people, many of whom are probably strangers. Next, because the message is broadcast, there is no need to route a message to a particular individual. This permits a wider range of privacy options both for the infected individual and their contacts. Individuals choose which locations to receive messages about. So, personally identifiable information beyond what might be gleaned from these choices is irrelevant to bulletin board contact tracing. A major weakness of bulletin board tracing is that it relies crucially on the voluntary cooperation of a larger number of people than manual contact tracing. Beyond the cooperation of the the infected individuals, it additionally relies on the cooperation of all those who may have been infected. With the bulletin board approach, for instance, there is no notion of knocking on physical doors of private residences to convey a message: for it to work, these people will have to either frequently check the message boards or sign up to receive relevant alerts. Conceivably, an implementation of bulletin board contact tracing could automate both the posting of messages to the bulletin board and the pulling of messages from it. But this human-out-of-the-loop implementation would require accurate records of location history and a willingness to be tracked.</p>
+              </sec>
+            </sec>
+            <sec id="Sec5">
+              <title>Research questions</title>
+              <p id="Par23">Our primary research question is, how does the effectiveness of manual contact tracing at curtailing the spread of the SARS-CoV-2 virus compare to bulletin board contact tracing? For each of these two models of contact tracing, we further ask: (i) how efficient it has to be in order to be effective and (ii) what variables determine its effectiveness.</p>
+            </sec>
+            <sec id="Sec6">
+              <title>Methodology</title>
+              <p id="Par24">We answer these questions using repeated agent-based simulations that combine a location-based model of disease spread with models of contact tracing. We use the CDC’s “best estimate” scenario (Scenario 5) to calibrate this model [<xref ref-type="bibr" rid="CR8">8</xref>]. As more is learned about real world spread, these parameters will need to be updated [<xref ref-type="bibr" rid="CR17">17</xref>]. We define location as any physical space a person occupies for more than 15 minutes in a day so that two people in the same location would be considered in “close contact” using the CDC’s definition [<xref ref-type="bibr" rid="CR9">9</xref>]. We conduct multiple simulations using a range of values for model parameters. We measure effectiveness in terms of (i) the time between first infection and the end of the last infection, (ii) the maximum number of people infected during this time period, and (iii) the average effective reproduction number.</p>
+            </sec>
+            <sec id="Sec7">
+              <title>Mathematical approach</title>
+              <p id="Par25">The problem of classical contact tracing can be separated into two problems: that of reconstructing the set of contacts and that of routing the message that a person is in a contact set to them. Analogously, for bulletin board contact tracing these two problems are: the problem of reconstructing the set of locations and of relaying that a positive person had been to each location to others who were also there at that time. These problems can be generalized as a reconstruction problem and a message routing problem. Our method to compare the performance characteristics of contact tracing under various assumptions using simulations relies on treating these two problems separately. From this perspective the two general types of contact tracing can be described as follows: 
+<list list-type="order"><list-item><p id="Par26"><bold>Manual:</bold> The individual <italic>i</italic> gets tested, if positive, a contact tracer asks them who they have been in contact with in the day range <italic>R</italic>, say <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>), and contacts each of the individuals in the set. The reconstruction problem consists of reconstructing the set of contacts for a relevant time period. This is done with the help of a contact tracer. The message passing problem consists of finding a way to contact these individuals and then getting a message to them. Both of these are done by the contact tracer.</p></list-item><list-item><p id="Par27"><bold>Bulletin board:</bold> The individual <italic>i</italic> gets tested, if positive anonymously posts their locations and test result to a bulletin board. All other individuals check this bulletin board to learn that they were in proximity. There are variations of this model with different privacy properties. Here the reconstruction problem consists of reconstructing the set of locations visited by the infected person over a relevant time period. This can be done with the help of a contact tracer, any physical or digital artifacts that one might have (such as receipts, photos or location histories) or independently. The message passing problem consists of posting (pushing) an anonymous message to a bulletin board, again which can be done with assistance or independently. The other part of the problem is for the relevant individuals to “pull” relevant messages from the bulletin board. Note that it is not necessary for the contact tracer to find a route to the recipient.</p></list-item></list></p>
+              <p id="Par28">Two key parameters characterize the reconstruction problem and the message routing problem: recall accuracy of individuals and devices and the message routing method.</p>
+              <sec id="Sec8">
+                <title>Recall accuracy (A)</title>
+                <p id="Par29">Recall refers to the ability of a person to remember a past experience. Recall accuracy (<italic>A</italic>) refers to the accuracy of a person’s memory of a past experience. That is, how similar what they remember is to what was experienced. There are two types of recall relevant here: contact recall and location recall. The former refers to the ability to recall who one has come into contact with. The latter refers to the ability to recall where one has been.</p>
+                <p id="Par30">In the classical model, the index agent’s recall accuracy determines who gets a message. Index agent <italic>i</italic>’s contact recall is used to populate the set <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) and it determines accuracy of the set <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>). Location recall of the index agent does not matter. Recall accuracy of individuals in <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) may or may not be relevant. One way that it might be relevant is as a way to augment the agent’s recall and make the set <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) more accurate. For example, for the contact tracer to ask the contacted person whether they remember being in contact with the index person.</p>
+                <p id="Par31">In the bulletin board model, recall accuracy of the index agent <italic>i</italic> as well as non-index agents determines who gets a message. Here, the memory about index agent’s location and non-index individuals location determines who gets a message. The contact recall of the index individual does not matter, but their location recall does. Contact recall and location recall of non-index individuals also matters. In human out of the loop implementations, recall accuracy of the machine determines who gets contacted since the recall of the machine is used to populate <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>). A machine’s recall accuracy, such as that of a mobile phone, is not guaranteed to be perfect.</p>
+                <p id="Par32">Finally, the results of contact tracing can also be expressed in terms of the completeness of <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>). For instance, the percentage in the set that are also in the real set is an indication of contact recall accuracy (<italic>c</italic>). Or, when we know that <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) is completely accurate (as in the case of flawless automation) then it is an indication of the effectiveness of message routing. We use the proportion of contacts recalled, and the proportion of recalled contacts who are reachable as parameters in our models.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Message routing method</title>
+                <p id="Par33">In the manual model of contact tracing, the message is passed to the correct recipient only through a contact tracer who must use available means to route the message. In the bulletin board model, the signal is effectively broadcast to all possible recipients by posting in a public location, and the recipients need to pull the messages and read those that are relevant to them. If we assume that recall accuracy for all individuals is the same, then the two models of contact tracing are distinguished by the message passing mechanism. That is, they are distinguished by the way that the message reaches the elements of <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) from index agent <italic>i</italic>.</p>
+                <p id="Par34">There are two processes within the signal routing mechanism that can alter its effectiveness: 
+<list list-type="order"><list-item><p id="Par35"><bold>route finding</bold> (<italic>f</italic> ): How one finds the route that the message should take to reach the destination, in this case an element of <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) for index agent <italic>i</italic>.</p></list-item><list-item><p id="Par36"><bold>message passing</bold> (<italic>p</italic>): The mechanism by which the message is passed to the destination, in this case an element of <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>).</p></list-item></list></p>
+                <p id="Par37">For agent-based contact tracing, route finding is dominant because these individuals have to be tracked down after they are identified, but once they have been tracked down passing the message to them is easier. For bulletin board, message passing is more dominant because the message is pulled from the bulletin board by each individual. The contact tracer does not have to find a route and instead posts to one location. In other words, the tracer only has to find a route to the bulletin board which is trivial by design. It is important to note that the processes for reconstructing the contact set and routing the message have to both be completed within a reasonable amount of time. In the case of SARS-CoV-2, an upper bound is 11 days because those to be contacted are infectious for that time. So if the contact tracing processes take longer than that to implement, it is ineffective at stopping the spread of the virus. A second constraint in manual contact tracing comes from the availability of contact tracers. We assume that there is always an adequate supply of contact tracers to be able to route the message to recalled individuals within the instantiation time.</p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Generalization</title>
+              <p id="Par38">Let <italic>T</italic><sub><italic>c</italic></sub> be the time between infection and the time that the message to get tested reaches an individual. Consistent with [<xref ref-type="bibr" rid="CR11">11</xref>] <italic>T</italic> is the number of days before isolation and after infection. So, <italic>T</italic> = <italic>T</italic><sub><italic>c</italic></sub> + <italic>T</italic><sub><italic>E</italic></sub> where <italic>T</italic><sub><italic>E</italic></sub> &gt; 0 because the steps following message receipt such as testing, getting the result and then entering isolation are not instantaneous.</p>
+              <p id="Par39">The models of tracing alter <italic>T</italic><sub><italic>c</italic></sub>. Hence,
+<disp-formula id="Equa"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ T_{c}=g(A, R, f, p) $$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:msub><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>g</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>R</mml:mi><mml:mo>,</mml:mo><mml:mi>f</mml:mi><mml:mo>,</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><graphic xlink:href="10729_2021_9567_Article_Equa.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p id="Par40">For SARS-Cov-2, the relevant time period is 11 days (<italic>R</italic> = 11). So,
+<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  T_{c}=g(A, f, p) $$\end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>g</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>f</mml:mi><mml:mo>,</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+              <sec id="Sec11">
+                <title>Early transmission</title>
+                <p id="Par41">Under the assumptions of the standard SEIR model, a newly infected but not yet infectious person enters an exposed state for an exponentially distributed length of time <italic>τ</italic><sup><italic>E</italic></sup> with mean 1/<italic>μ</italic><sub><italic>E</italic></sub>, after which they become infectious for an exponentially distributed duration <italic>τ</italic><sup><italic>I</italic></sup> of mean 1/<italic>μ</italic><sub><italic>I</italic></sub> during which transmission again occurs at constant rate <italic>β</italic> [<xref ref-type="bibr" rid="CR11">11</xref>].</p>
+                <p id="Par42">In the standard SEIR model describing an outbreak in a population of size N, the expected number of secondary infections generated by an infected person early in an outbreak, the reproductive number <italic>R</italic><sub>0</sub>, is given by
+<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  R_{0}=N\beta/\mu_{I} $$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>N</mml:mi><mml:mi>β</mml:mi><mml:mo stretchy="false">/</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>where <italic>β</italic> is the transmission rate per unit time. Given epidemiological estimates of the reproduction number, this enables the transmission rate to be written as [<xref ref-type="bibr" rid="CR22">22</xref>].
+<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  \beta=R_{0}\mu_{I}/N $$\end{document}</tex-math><mml:math id="M8"><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">/</mml:mo><mml:mi>N</mml:mi></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par43">In the agent based model to follow, each individual <italic>i</italic> in the population is assigned the same initial transmission rate (and basic reproduction number <italic>R</italic><sub>0</sub>) as explained in Section <xref rid="Sec15" ref-type="sec">7</xref> below. They end up with different effective reproduction numbers as a result of the simulation.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Two reconstruction problems in contact tracing</title>
+                <p id="Par44">Before explaining the computational approach that we use, it is important to note that the reconstruction problem at the heart of of contact tracing can be formulated as centered on individuals or locations.</p>
+                <sec id="Sec13">
+                  <title>Individual based reconstruction</title>
+                  <p id="Par45">Let <italic>Ω</italic> be the set of all humans in a locality such that |<italic>Ω</italic>| = <italic>N</italic>. Let <italic>ω</italic><sub><italic>i</italic></sub> be the subset ever contacted by human <italic>i</italic> ∈<italic>Ω</italic>. Given a time range R, <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) is the set of people contacted by <italic>i</italic> in that range. Then, <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) ⊂ <italic>ω</italic><sub><italic>i</italic></sub>. Let <inline-formula id="IEq1"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${C}_{i}^{t}(R)$\end{document}</tex-math><mml:math id="M10"><mml:msubsup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq1.gif"/></alternatives></inline-formula> denote this set at time <italic>t</italic>. Then, <inline-formula id="IEq2"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\omega _{i}=\bigcup \limits _{t=0}^{t_{L}} {C}_{i}^{t}(R)$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mrow><mml:mi>ω</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mi>⋃</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msubsup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq2.gif"/></alternatives></inline-formula> where <italic>t</italic><sub><italic>L</italic></sub> is the time of death. Next, ∀<italic>i</italic>,<italic>j</italic>, <italic>ω</italic><sub><italic>i</italic></sub> ∖ <italic>ω</italic><sub><italic>j</italic></sub>≠<italic>∅</italic>, if one cannot be in contact with oneself. The recall problem for every person <italic>i</italic> at time <italic>t</italic> is the problem of assigning every other element <italic>j</italic> ∈<italic>Ω</italic> a value in {0,1} such that they are assigned a 0 if <italic>j</italic>∉<italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) and a 1 if it is. Next, let <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) ⊂<italic>Ω</italic> be the set of people <italic>j</italic> such that <italic>i</italic> ∈ <italic>C</italic><sub><italic>j</italic></sub>(<italic>R</italic>). And, let <italic>m</italic><sub><italic>i</italic></sub>(<italic>R</italic>) ⊂<italic>Ω</italic> be the set of people <italic>j</italic> such that <italic>i</italic> believes <italic>i</italic> ∈ <italic>C</italic><sub><italic>j</italic></sub>(<italic>R</italic>) to be true. The reconstruction problem for each person <italic>i</italic> is the problem of keeping <italic>m</italic><sub><italic>i</italic></sub>(<italic>R</italic>) as similar to <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>) as possible. To see why the reconstruction problem is non-trivial, consider the case where two people come into contact with each other but only one knows it (they may have their backs turned or eyes closed, or they might come in contact with a common surface in quick succession). At any given time <italic>t</italic> and fixed <italic>R</italic>, three sets define each human being <italic>i</italic>: <italic>C</italic><sub><italic>i</italic></sub>(<italic>R</italic>), <inline-formula id="IEq3"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${C}_{i}^{t}(R)$\end{document}</tex-math><mml:math id="M14"><mml:msubsup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq3.gif"/></alternatives></inline-formula> and <italic>m</italic><sub><italic>i</italic></sub>(<italic>R</italic>).</p>
+                </sec>
+                <sec id="Sec14">
+                  <title>Location based reconstruction</title>
+                  <p id="Par46">Another way to formulate the reconstruction problem is to assume that every location records who has visited in every time period. That is, let <italic>m</italic><italic>l</italic><sub>{<italic>l</italic>,<italic>t</italic>}</sub> be the set of humans who have visited location <italic>l</italic> in time period <italic>t</italic>. This might be the case, for instance, when a facial recognition device continuously records all who have visited a location. The reconstruction problem is the problem of reconstructing all <italic>m</italic><italic>l</italic><sub>{<italic>l</italic>,<italic>t</italic>}</sub>.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec15">
+              <title>Computational approach</title>
+              <p id="Par47">As we have implemented it, there are three components of the computational models of manual and bulletin board contact tracing. Two components are common to the models: the model of disease spread and the testing model. The third component, the model of contact tracing, is allowed to vary. This permits us to develop time-dependent agent based simulations to compute indicators of disease spread under the three contact tracing conditions without changing the models of disease spread and testing.</p>
+              <sec id="Sec16">
+                <title>The disease spread model</title>
+                <p id="Par48">We use a location based SEIR-type model of spread that assumes homogeneous random mixing in the population and discrete time (in days). This type of mixing is appropriate for modeling local outbreaks, and represents a worst-case scenario. Each community is assumed to consist of a population of size <italic>N</italic> and a set of <italic>L</italic> locations. We assume there is no importing of infections into the community. The basic reproduction number <italic>R</italic><sub>0</sub> over the population is held constant for each simulation, and every individual is thereby given a constant infection rate. We assume that each individual’s days in the exposed state <inline-formula id="IEq4"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\left ({\tau _{i}^{E}}\right )$\end{document}</tex-math><mml:math id="M16"><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq4.gif"/></alternatives></inline-formula> after infection is drawn from an exponential distribution with mean 1/<italic>μ</italic><sub><italic>E</italic></sub>. We assume that each individual’s days in the infectious state <inline-formula id="IEq5"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\left ({\tau _{i}^{I}}\right )$\end{document}</tex-math><mml:math id="M18"><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq5.gif"/></alternatives></inline-formula> after the exposed state is drawn from an exponential distribution with mean 1/<italic>μ</italic><sub><italic>I</italic></sub>.</p>
+                <p id="Par49">Each individual is assigned an infection age, which represents the number of days since infection. If the infection age is 0, they have never been infected. If (infection age)<inline-formula id="IEq6"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\leq {\tau _{i}^{E}} $\end{document}</tex-math><mml:math id="M20"><mml:mo>≤</mml:mo><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq6.gif"/></alternatives></inline-formula> then they are exposed but not infectious. If <inline-formula id="IEq7"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$ {\tau _{i}^{E}} &lt; $\end{document}</tex-math><mml:math id="M22"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:msubsup><mml:mo>&lt;</mml:mo></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq7.gif"/></alternatives></inline-formula> (age of infection)<inline-formula id="IEq8"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\leq {\tau _{i}^{E}} + {\tau _{i}^{I}}$\end{document}</tex-math><mml:math id="M24"><mml:mo>≤</mml:mo><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq8.gif"/></alternatives></inline-formula> then they are infectious. A person <italic>i</italic> who is infectious can spread the infection to everyone in the same location who is not already infected. The number of people <italic>n</italic><sub><italic>i</italic></sub> that <italic>i</italic> actually infects in the simulation depends on <italic>R</italic><sub>0</sub>, <inline-formula id="IEq9"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${{\tau }_{i}^{I}}$\end{document}</tex-math><mml:math id="M26"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq9.gif"/></alternatives></inline-formula>, and their movement between locations (and hence their total number of interactions). Each time period, the total number of infections is counted.</p>
+              </sec>
+              <sec id="Sec17">
+                <title>Population mixing</title>
+                <p id="Par50">To enable a comparison of the bulletin-board approach, we model interactions using location assignment rather than stochastic pair formation and separation [<xref ref-type="bibr" rid="CR26">26</xref>]. Each individual <italic>i</italic> is assigned an integer value from [1...<italic>L</italic>] using a discrete uniform probability distribution over the set. All individuals assigned the same non-zero value are assumed to be in contact on day <italic>t</italic>. The location assignment model has two desirable characteristics. First, the parameter determining disease spread can be specified in terms of location. And second, it incorporates the idea of movement in space. Both of these are important for modeling bulletin board contact tracing. As we show below, we calibrate the combined population mixing and disease spread model to be equivalent to what is expected from more common mass-action models.</p>
+              </sec>
+              <sec id="Sec18">
+                <title>Location dependence</title>
+                <p id="Par51">In a location-based simulation, the exact mix of Susceptible <inline-formula id="IEq10"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\left ({S_{t}^{l}}\right )$\end{document}</tex-math><mml:math id="M28"><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq10.gif"/></alternatives></inline-formula>, Exposed <inline-formula id="IEq11"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\left ({E_{t}^{l}}\right )$\end{document}</tex-math><mml:math id="M30"><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq11.gif"/></alternatives></inline-formula>, Infected <inline-formula id="IEq12"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\left ({I_{t}^{l}}\right )$\end{document}</tex-math><mml:math id="M32"><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq12.gif"/></alternatives></inline-formula> and Recovered <inline-formula id="IEq13"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\left ({R_{t}^{l}}\right )$\end{document}</tex-math><mml:math id="M34"><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq13.gif"/></alternatives></inline-formula> people at each location is determined by the probabilistic model of population mixing. The variables that characterize this model of mixing are the number of locations they can travel to (<italic>L</italic>), and the number of people (<italic>N</italic>). Hence, the effective reproduction number for an individual <italic>i</italic> depends on these two variables.
+<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  R_{0i}=f(L,N) $$\end{document}</tex-math><mml:math id="M36"><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo>,</mml:mo><mml:mi>N</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+              </sec>
+              <sec id="Sec19">
+                <title>Approximating mass-action epidemic models</title>
+                <p id="Par52">In common mass action models, <inline-formula id="IEq14"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$|{S_{t}^{l}}| \geq {n_{l}^{i}}$\end{document}</tex-math><mml:math id="M38"><mml:mo stretchy="false">|</mml:mo><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:mo>≥</mml:mo><mml:msubsup><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq14.gif"/></alternatives></inline-formula> and <italic>L</italic> = 1 with homogeneous random mixing and a constant rate of infection. To generate an infection rate that is compatible with this in a simulation with <italic>L</italic> &gt; 1 and known <italic>R</italic><sub>0</sub>, we assign each individual a constant scaled transmission probability. To retain stochasticity, we draw the infectious and exposed durations from probability distributions.</p>
+                <p id="Par53">Let the expected number of infections at time <italic>t</italic> in our model be given by
+<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  \beta|S_{t}||I_{t}|=b\sum\limits_{l=1}^{L}|{S}_{t}^{l}||{I}_{t}^{l}| $$\end{document}</tex-math><mml:math id="M40"><mml:mi>β</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">|</mml:mo><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo><mml:mi>b</mml:mi><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mi>∑</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:munderover><mml:mo stretchy="false">|</mml:mo><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:mo stretchy="false">|</mml:mo><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">|</mml:mo></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>Where
+<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ |{S}_{t}^{l}|=|S_{t}|q_{l} $$\end{document}</tex-math><mml:math id="M42"><mml:mo stretchy="false">|</mml:mo><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>and
+<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ |{I}_{t}^{l}|=|I_{t}|q_{l} $$\end{document}</tex-math><mml:math id="M44"><mml:mo stretchy="false">|</mml:mo><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par54"><italic>q</italic><sub><italic>l</italic></sub> is the probability that the individual <italic>i</italic> will be at location <italic>l</italic> ∈{1,2..<italic>L</italic>}. <italic>b</italic> is the scaled transmission rate and <italic>β</italic> is the constant transmission rate in an ordinary SEIR model with a single location. Note that we are assuming that <italic>b</italic> is also constant in our model, which is what permits us to pull it out of the sum. More generally, using Eq. <xref rid="Equ3" ref-type="">3</xref> we can rewrite the the scaled infection rate for an individual <italic>i</italic> as
+<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ b_{i}=\frac{\beta}{{\sum}_{l=1}^{L}{q_{l}^{2}}} =\frac{\mu_{I}R_{0i}}{N{\sum}_{l=1}^{L}{{{q}_{l}^{2}}}} $$\end{document}</tex-math><mml:math id="M46"><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac class="tfrac"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:msubsup><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:msubsup><mml:msubsup><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac class="tfrac"><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:msubsup><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:msubsup><mml:msubsup><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mfrac></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par55">In our experiments there is no heterogeneity in the underlying disease spread model. So, <italic>R</italic><sub>0<italic>i</italic></sub> = <italic>R</italic><sub>0</sub> and does not vary at the individual level. In order to give everyone the same value of <italic>b</italic><sub><italic>i</italic></sub>, we use the mean value 1/<italic>μ</italic><sub><italic>I</italic></sub> for <inline-formula id="IEq15"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${\tau _{i}^{I}}$\end{document}</tex-math><mml:math id="M48"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq15.gif"/></alternatives></inline-formula> above.</p>
+                <p id="Par56">Since we assign an equal probability of being at any location, <italic>q</italic><sub><italic>l</italic></sub> = 1/<italic>L</italic>, to each individual, we have,
+<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  b_{i} =\frac{\mu_{I}R_{0i}L}{N} = \frac{\mu_{I}R_{0i}}{\rho} $$\end{document}</tex-math><mml:math id="M50"><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac class="tfrac"><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac class="tfrac"><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow></mml:mfrac></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>Where <italic>ρ</italic> = <italic>N</italic>/<italic>L</italic> is the density of the model and 0 ≤ <italic>b</italic><sub><italic>i</italic></sub> ≤ 1. To spread the infection at location <italic>l</italic>, a susceptible person at location <italic>l</italic> is infected with probability
+<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  p_{l}=1-\underset{i\in {I_{t}^{l}}}{\prod}(1-b_{i}) $$\end{document}</tex-math><mml:math id="M52"><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:munder><mml:mrow><mml:mi>∏</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:munderover></mml:mrow></mml:munder><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula>Thus, the expected number of infections at location <italic>l</italic> is given by
+<disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  {n_{t}^{l}}=|{{S}_{t}^{l}}|\left( 1-\underset{i\in {I_{t}^{l}}}{\prod}(1-b_{i})\right) $$\end{document}</tex-math><mml:math id="M54"><mml:msubsup><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mo stretchy="false">|</mml:mo><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:munder><mml:mrow><mml:mi>∏</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>∈</mml:mo><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:munder><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="10729_2021_9567_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula>These new infections are then assigned at random to infectious people at the location of infection. Note that Eq. <xref rid="Equ9" ref-type="">9</xref> makes explicit the effect of density on the transmission probability in our simulation. Finally, it is now easier to see that if <italic>L</italic> = 1, we have a mass action model with a single location.</p>
+                <p id="Par57">Note that this formulation requires that <inline-formula id="IEq16"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$P\left \{|{S_{t}^{l}}| &lt; {n_{t}^{l}}\right \}=0$\end{document}</tex-math><mml:math id="M56"><mml:mi>P</mml:mi><mml:mfenced close="}" open="{"><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">|</mml:mo><mml:mo>&lt;</mml:mo><mml:msubsup><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq16.gif"/></alternatives></inline-formula>. To achieve this condition, it must be that <italic>μ</italic><sub><italic>I</italic></sub><italic>R</italic><sub>0<italic>i</italic></sub> ≤ <italic>ρ</italic>. In our implementation, we choose simplicity over generality and fix <italic>R</italic><sub>0<italic>i</italic></sub> for each simulation, use <italic>μ</italic><sub><italic>I</italic></sub> in place of <inline-formula id="IEq17"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${\tau _{i}^{I}}$\end{document}</tex-math><mml:math id="M58"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq17.gif"/></alternatives></inline-formula> when computing the scaled transmission rate, and use a sampled <inline-formula id="IEq18"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${\tau _{i}^{I}}$\end{document}</tex-math><mml:math id="M60"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq18.gif"/></alternatives></inline-formula> to determine how many days an individual remains infectious. As we have calibrated the model below, <italic>m</italic><italic>a</italic><italic>x</italic>(<italic>μ</italic><sub><italic>I</italic></sub><italic>R</italic><sub>0<italic>i</italic></sub>) &lt; 0.228, and <italic>m</italic><italic>i</italic><italic>n</italic>(<italic>ρ</italic>) = 1
+</p>
+              </sec>
+              <sec id="Sec20">
+                <title>Testing model</title>
+                <p id="Par58">Testing in this model assumes symptomatic testing because that is the type of testing that is associated with manual contact tracing. We assume that 60% show symptoms [<xref ref-type="bibr" rid="CR8">8</xref>]. For those that show symptoms, we assume that the incubation period of the virus for each individual is drawn from a log-normal distribution with mean <italic>μ</italic><sub><italic>P</italic></sub> and standard deviation <italic>σ</italic><sub><italic>P</italic></sub>, after which they start to show symptoms. For simplicity, we assume that the individual’s symptoms, if they are symptomatic, coincides with their infectious period. During initialization, we repeatedly sample the incubation period until we get a value in the individuals infectious period, <inline-formula id="IEq19"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\left ({\tau _{i}^{E}},{\tau _{i}^{I}}\right )$\end{document}</tex-math><mml:math id="M62"><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq19.gif"/></alternatives></inline-formula>. We assume that it takes every individual one day to recognize symptoms, and they do so accurately. There is a delay in receiving test results (<italic>t</italic><sub><italic>d</italic></sub>), and the test itself has a false negative rate of <italic>P</italic><sub><italic>N</italic></sub> and a false positive rate of 0, as the false positive rate is only relevant to asymptomatic testing. Consistent with the use of a common antigen test we use <italic>P</italic><sub><italic>N</italic></sub> = 0.2 [<xref ref-type="bibr" rid="CR39">39</xref>]. We assume that individuals isolate immediately upon receiving a positive test result with probability <italic>P</italic><sub><italic>I</italic></sub>. We use <italic>t</italic><sub><italic>d</italic></sub> = 1 as an optimistic estimate that emphasizes the effects of contact tracing parameters [<xref ref-type="bibr" rid="CR27">27</xref>]. Similarly, we use <italic>P</italic><sub><italic>I</italic></sub> = 0.7 assuming that compliance with self-isolation absent financial incentives to do so is similar to self-quarantine [<xref ref-type="bibr" rid="CR5">5</xref>].</p>
+              </sec>
+              <sec id="Sec21">
+                <title>Implementation</title>
+                <p id="Par59">We implement the disease spread model using time steps of one day as follows: 
+<list list-type="order"><list-item><p id="Par60">Initialization: Begin with a population of susceptible people (<italic>P</italic>) and a number of locations (<italic>L</italic>). Each individual (<italic>i</italic>) is initialized with values for exposed duration, infectious duration, whether or not they are symptomatic and incubation period from the corresponding distributions (Table <xref rid="Tab1" ref-type="table">1</xref>) to be applied in the event that they become infected. We also assign each person a transmission probability <italic>b</italic><sub><italic>i</italic></sub> and infection age of 0 since everybody is uninfected.</p></list-item><list-item><p id="Par61">Initial infection: At time <italic>t</italic><sub>0</sub>, we choose a randomly infected index person from the population. Initializing with more than one index person speeds up the infections, without changing the dynamics.</p></list-item><list-item><p id="Par62">Movement: Every person is randomly assigned to one location with a uniform probability. In subsequent days, each location will have a mix of Susceptible, Exposed, Infectious and Recovered individuals.</p></list-item><list-item><p id="Par63">Generate infections: For each location, infect each susceptible person with the probability shown in Eq. <xref rid="Equ10" ref-type="">10</xref>.</p></list-item><list-item><p id="Par64">Repeat: Increase the infection age of each exposed or infectious individual by one day. Return to the Movement step until the number of exposed and infectious people in the population is zero.</p></list-item></list><table-wrap id="Tab1"><label>Table 1</label><caption><p>Model parameters</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Model</th><th align="left">Parameter</th><th align="left">Values</th><th align="left">Description</th><th align="left">Source</th></tr></thead><tbody><tr><td align="left">All</td><td align="left"><italic>N</italic></td><td align="left">1000</td><td align="left">Number of people.</td><td align="left">Assumed*</td></tr><tr><td align="left">All</td><td align="left"><italic>L</italic></td><td align="left">10</td><td align="left">Number of locations.</td><td align="left">Assumed*</td></tr><tr><td align="left">All</td><td align="left"><italic>R</italic><sub>0</sub></td><td align="left">2.5</td><td align="left">Basic reproduction number</td><td align="left">[<xref ref-type="bibr" rid="CR8">8</xref>]</td></tr><tr><td align="left">All</td><td align="left">1/<italic>μ</italic><sub><italic>E</italic></sub>
+</td><td align="left">3</td><td align="left">Mean of days exposed (Days immediately after infection before becoming infectious) for exponential distribution.</td><td align="left">[<xref ref-type="bibr" rid="CR8">8</xref>]</td></tr><tr><td align="left">All</td><td align="left">1/<italic>μ</italic><sub><italic>I</italic></sub>
+</td><td align="left">11</td><td align="left">Mean of days infected (Days after which an infectious person is no longer infected) for exponential distribution.</td><td align="left">[<xref ref-type="bibr" rid="CR8">8</xref>]</td></tr><tr><td align="left">m1,m2,m3,m4</td><td align="left"><italic>μ</italic><sub><italic>p</italic></sub></td><td align="left">5.2</td><td align="left">Mean of the log-normal distribution of incubation periods.</td><td align="left">[<xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR28">28</xref>]</td></tr><tr><td align="left">m1,m2,m3,m4</td><td align="left"><italic>σ</italic><sub><italic>p</italic></sub></td><td align="left">3.9</td><td align="left">Standard Deviation of the log-normal distribution of incubation periods.</td><td align="left">[<xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR28">28</xref>]</td></tr><tr><td align="left">m1,m2,m3,m4</td><td align="left"><italic>t</italic><sub><italic>d</italic></sub></td><td align="left">1</td><td align="left">Testing delay: time between test and result.</td><td align="left">[<xref ref-type="bibr" rid="CR27">27</xref>]</td></tr><tr><td align="left">m1,m2,m3,m4</td><td align="left"><italic>P</italic><sub><italic>I</italic></sub></td><td align="left">0.7</td><td align="left">Probability of isolating after a positive test result.</td><td align="left">[<xref ref-type="bibr" rid="CR5">5</xref>, *]</td></tr><tr><td align="left">m1,m2,m3,m4</td><td align="left"><italic>P</italic><sub><italic>N</italic></sub></td><td align="left">0.2</td><td align="left">Probability that the test will miss an infected, symptomatic person.</td><td align="left">[<xref ref-type="bibr" rid="CR39">39</xref>]</td></tr><tr><td align="left">m2, m3,m4</td><td align="left"><italic>S</italic></td><td align="left">3</td><td align="left">For tracing: days immediately after infection before becoming infectious.</td><td align="left">[<xref ref-type="bibr" rid="CR8">8</xref>]</td></tr><tr><td align="left">m2,m3,m4</td><td align="left"><italic>R</italic></td><td align="left">14</td><td align="left">For tracing: days after which an infected person is assumed to be no longer infected.</td><td align="left">[<xref ref-type="bibr" rid="CR8">8</xref>]</td></tr><tr><td align="left">m2,m4</td><td align="left"><italic>T</italic><sub><italic>m</italic></sub></td><td align="left">1</td><td align="left">Time taken to instantiate manual tracing for a person (such as by interviewing an infected individual).</td><td align="left">[<xref ref-type="bibr" rid="CR27">27</xref>]*</td></tr><tr><td align="left">m2.m4</td><td align="left"><italic>P</italic><sub><italic>c</italic></sub></td><td align="left">0.5</td><td align="left">Proportion of the contact set that a tracer is able to reconstruct.</td><td align="left">Assumed*</td></tr><tr><td align="left">m2,m4</td><td align="left"><italic>P</italic><sub><italic>r</italic></sub></td><td align="left">0.5</td><td align="left">Probability that a message reaches a person in the contact set.</td><td align="left">Assumed*</td></tr><tr><td align="left">m2,m4</td><td align="left"><italic>P</italic><sub><italic>m</italic></sub></td><td align="left">0.5</td><td align="left">Probability of positive person cooperating with manual contact tracing.</td><td align="left">Assumed*</td></tr><tr><td align="left">m2,m4</td><td align="left"><italic>P</italic><sub><italic>i</italic><italic>m</italic></sub></td><td align="left">0.7</td><td align="left">Probability of isolating if asked by a manual tracer.</td><td align="left">[<xref ref-type="bibr" rid="CR5">5</xref>, *]</td></tr><tr><td align="left">m3,m4</td><td align="left"><italic>T</italic><sub><italic>b</italic></sub></td><td align="left">0</td><td align="left">Time taken to instantiate bulletin board tracing for a person.</td><td align="left">Assumed*</td></tr><tr><td align="left">m3,m4</td><td align="left"><italic>P</italic><sub><italic>l</italic></sub></td><td align="left">0.7</td><td align="left">Proportion of the location set that an individual remembers.</td><td align="left">Assumed*</td></tr><tr><td align="left">m3,m4</td><td align="left"><italic>P</italic><sub><italic>s</italic></sub></td><td align="left">0.5</td><td align="left">Proportion of those who were exposed at a particular location who are subscribed to notifications or check the bulletin board daily.</td><td align="left">Assumed*</td></tr><tr><td align="left">m3,m4</td><td align="left"><italic>P</italic><sub><italic>b</italic></sub></td><td align="left">0.5</td><td align="left">Probability of positive person cooperating with bulletin board tracing.</td><td align="left">Assumed*</td></tr><tr><td align="left">m3,m4</td><td align="left"><italic>P</italic><sub><italic>i</italic><italic>b</italic></sub></td><td align="left">0.7</td><td align="left">Probability of isolating if notified by bulletin board tracing.</td><td align="left">[<xref ref-type="bibr" rid="CR5">5</xref>]**</td></tr></tbody></table><table-wrap-foot><p><sup>*</sup> These values were chosen by the authors to compare a plausible upper bound for manual contact tracing effectiveness with a plausible lower bound for the effectiveness of bulletin board contact tracing.</p><p><sup>**</sup> We assume that the probabilities of isolating are the same after testing positive and after being contacted manually or notified using a bulletin board.</p></table-wrap-foot></table-wrap></p>
+                <p id="Par65">The testing model is combined with this model of disease spread by adding the following steps to each time period before the Repeat stage. 
+<list list-type="order"><list-item><p id="Par66">Testing: Test each symptomatic person in the population whose infection age is greater than their incubation period. Tests are ready after <italic>t</italic><sub><italic>d</italic></sub> days.</p></list-item><list-item><p id="Par67">Isolation: For each person whose results are ready and positive, isolate them with probability <italic>P</italic><sub><italic>I</italic></sub>. For each person who has been isolated for <italic>R</italic> days, unisolate them. <italic>R</italic> is the number of days after which an infected person is assumed to be no longer infected.</p></list-item></list></p>
+                <p id="Par68">Finally, the two different types of contact tracing are added on top of this by adding the following steps to be followed if a person <italic>i</italic> tests positive. For manual contact tracing: 
+<list list-type="order"><list-item><p id="Par69">Contact Reconstruction: Choose <italic>P</italic><sub><italic>c</italic></sub> proportion of individuals from the set of people that <italic>i</italic> has contacted in the last <italic>R</italic> − <italic>S</italic> days. <italic>S</italic> is the number of days an individual is assumed to be in the exposed but not infectious state.</p></list-item><list-item><p id="Par70">Route Finding and Message Passing: Push a message to this set of contacts with some probability of reaching them (<italic>P</italic><sub><italic>r</italic></sub>).</p></list-item><list-item><p id="Par71">Isolation: Isolate each person who receives the message with probability <italic>P</italic><sub><italic>i</italic><italic>m</italic></sub>.</p></list-item></list></p>
+                <p id="Par72">For bulletin board contact tracing: 
+<list list-type="order"><list-item><p id="Par73">Location Reconstruction: Choose <italic>P</italic><sub><italic>c</italic></sub> proportion of locations from the set of locations that <italic>i</italic> has visited in the last <italic>R</italic> − <italic>S</italic> days.</p></list-item><list-item><p id="Par74">Message Passing: <italic>P</italic><sub><italic>s</italic></sub> proportion of those in each of these locations receive a message that an infected person visited a relevant area.</p></list-item><list-item><p id="Par75">Isolation: Each person who receives the message isolates with probability <italic>P</italic><sub><italic>i</italic><italic>b</italic></sub>.</p></list-item></list></p>
+                <p id="Par76">For hybrid contact tracing, the steps for both manual and bulletin board contact tracing are added on top of the testing model.</p>
+              </sec>
+            </sec>
+            <sec id="Sec22">
+              <title>The five models</title>
+              <p id="Par77">Five models are compared when <italic>R</italic><sub>0</sub> is 2.5. Refer to Table <xref rid="Tab1" ref-type="table">1</xref> for the typical values and symbols used. 
+<list list-type="bullet"><list-item><p id="Par78"><bold>m0: No Intervention:</bold> This is the location assignment model of spread with no testing or contact tracing given a population size (<italic>N</italic>) and number of locations (<italic>L</italic>). The infectious period for each person is assumed to end after <inline-formula id="IEq20"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${\tau }_{I}^{i}$\end{document}</tex-math><mml:math id="M64"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq20.gif"/></alternatives></inline-formula> of infection, and assumed to start <inline-formula id="IEq21"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${\tau }_{E}^{i}$\end{document}</tex-math><mml:math id="M66"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq21.gif"/></alternatives></inline-formula> days after infection. <inline-formula id="IEq22"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${\tau }_{I}^{i}$\end{document}</tex-math><mml:math id="M68"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq22.gif"/></alternatives></inline-formula> is drawn from an exponential distribution with mean 1/<italic>μ</italic><sub><italic>I</italic></sub> and <inline-formula id="IEq23"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${\tau }_{E}^{i}$\end{document}</tex-math><mml:math id="M70"><mml:msubsup><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq23.gif"/></alternatives></inline-formula> is drawn from an exponential distribution with mean 1/<italic>μ</italic><sub><italic>E</italic></sub>. The main parameters are: {<italic>N</italic>, <italic>L</italic>, 1/<italic>μ</italic><sub><italic>I</italic></sub>, 1/<italic>μ</italic><sub><italic>E</italic></sub>}. The other models below build on this model.</p></list-item><list-item><p id="Par79"><bold>m1: Testing Only:</bold> Every individual is tested symptomatically. 40% of the population is assumed to be asymptomatic [<xref ref-type="bibr" rid="CR8">8</xref>]. For others, symptoms arise after an incubation period drawn from a log-normal distribution with mean (<italic>μ</italic><sub><italic>p</italic></sub>) 5.2 and standard deviation (<italic>σ</italic><sub><italic>p</italic></sub>) 3.9. <italic>P</italic><sub><italic>T</italic></sub> proportion of people who show symptoms get tested. The result arrives <italic>t</italic><sub><italic>d</italic></sub> days later with a false negative rate of <italic>P</italic><sub><italic>n</italic></sub>. People isolate with probability <italic>P</italic><sub><italic>I</italic></sub> upon receiving a positive test result for <italic>R</italic> days. The main parameters are: {<italic>N</italic>, <italic>L</italic>, 1/<italic>μ</italic><sub><italic>I</italic></sub>, 1/<italic>μ</italic><sub><italic>E</italic></sub>, <italic>t</italic><sub><italic>d</italic></sub>, R, <italic>P</italic><sub><italic>T</italic></sub>, <italic>P</italic><sub><italic>n</italic></sub>, <italic>μ</italic><sub><italic>p</italic></sub>, <italic>σ</italic><sub><italic>p</italic></sub>}.</p></list-item><list-item><p id="Par80"><bold>m2: Manual Contact Tracing:</bold> Tracing begins <italic>T</italic><sub><italic>m</italic></sub> days after an individual receives a positive test result. A contact tracer reconstructs <italic>P</italic><sub><italic>c</italic></sub> proportion of the individual’s contact set for the last <italic>R</italic> − <italic>S</italic> days from the individual’s memory, with or without assistance. The tracer then sends a message to all of these people and it reaches each target individual with probability <italic>P</italic><sub><italic>r</italic></sub>. Recipients isolate with probability <italic>P</italic><sub><italic>i</italic><italic>m</italic></sub> upon receiving the message. It takes <italic>T</italic><sub><italic>m</italic></sub> days for the manual tracing steps to be implemented. Typically these are securing cooperation, interviewing, assigning volunteers and locating recipients. We assume that <italic>P</italic><sub><italic>m</italic></sub> proportion of infected individuals are willing to subject themselves to manual contact tracing. The main parameters are {<italic>N</italic>, <italic>L</italic>, 1/<italic>μ</italic><sub><italic>I</italic></sub>, 1/<italic>μ</italic><sub><italic>E</italic></sub>, <italic>t</italic><sub><italic>d</italic></sub>, <italic>P</italic><sub><italic>T</italic></sub>, <italic>P</italic><sub><italic>n</italic></sub>, <italic>μ</italic><sub><italic>p</italic></sub>, <italic>σ</italic><sub><italic>p</italic></sub>, <italic>R</italic>, <italic>S</italic>, <italic>P</italic><sub><italic>c</italic></sub>, <italic>P</italic><sub><italic>r</italic></sub>, <italic>P</italic><sub><italic>m</italic></sub>, <italic>T</italic><sub><italic>m</italic></sub>, <italic>P</italic><sub><italic>i</italic><italic>m</italic></sub>}.
+</p></list-item><list-item><p id="Par81"><bold>m3: Bulletin Board:</bold> An individual who receives a positive test posts a message to a bulletin board with probability <italic>P</italic><sub><italic>b</italic></sub>, which is the probability that they will cooperate with the requirements of bulletin board tracing. We assume that the message is posted and reaches the recipient within a day, whether or not it is automated so that instantiating bulletin board tracing takes 0 days. The message contains two pieces of information: (location, when visited). One message is sent to the bulletin board for each location they visited in their relevant location history. They do not share any personally identifying information. Cooperating individuals reconstruct <italic>P</italic><sub><italic>l</italic></sub> proportion of their location history for the last <italic>R</italic> − <italic>S</italic> days either alone or with assistance. <italic>P</italic><sub><italic>s</italic></sub> proportion of people overall are signed up to get bulletin board messages concerning any given location. The message to isolate reaches an identified person with probability <italic>P</italic><sub><italic>r</italic></sub> in time <italic>T</italic><sub><italic>b</italic></sub>. We assume that the recipients are willing to isolate with probability <italic>P</italic><sub><italic>i</italic><italic>b</italic></sub> when they receive a message this way. The main parameters are {<italic>N</italic>, <italic>L</italic>, 1/<italic>μ</italic><sub><italic>I</italic></sub>, 1/<italic>μ</italic><sub><italic>E</italic></sub>, <italic>t</italic><sub><italic>d</italic></sub>, <italic>P</italic><sub><italic>T</italic></sub>, <italic>P</italic><sub><italic>n</italic></sub>, <italic>μ</italic><sub><italic>p</italic></sub>, <italic>σ</italic><sub><italic>p</italic></sub>, <italic>R</italic>, <italic>P</italic><sub><italic>s</italic></sub>, <italic>P</italic><sub><italic>l</italic></sub>, <italic>P</italic><sub><italic>b</italic></sub>, <italic>T</italic><sub><italic>b</italic></sub>,<italic>P</italic><sub><italic>i</italic><italic>b</italic></sub>}.</p></list-item><list-item><p id="Par82"><bold>m4: Hybrid (Manual + Bulletin Board):</bold> Both bulletin board contact tracing and manual contact tracing are performed. The main parameters of this model consist of all the main parameters of models m2 and m3.</p></list-item></list></p>
+            </sec>
+            <sec id="Sec23">
+              <title>Model calibration</title>
+              <p id="Par83">The no intervention scenario is calibrated to be compatible with the currently known characteristics of SARS-CoV-2 as far as possible. When there is only a single location, the final sizes are compatible with what is expected from mass action SEIR models when <italic>R</italic><sub>0</sub> is 1.5 (0.583), 2.25 (0.854) and 2.5 (0.89). Figure <xref rid="Fig2" ref-type="fig">2</xref> shows the time traces of infection for each run of the simulation in this scenario.
+<fig id="Fig2"><label>Fig. 2</label><caption><p>The sequence of infections (prevalence) of 1000 runs for a calibrated base model (m0) with 1 location</p></caption><graphic xlink:href="10729_2021_9567_Fig2_HTML" id="MO2"/></fig></p>
+            </sec>
+            <sec id="Sec24">
+              <title>Results</title>
+              <p id="Par84">This paper was motivated by the question of how bulletin board contact tracing compares to manual contact tracing. To test this, we developed a discrete-time SEIR model of disease spread calibrated to what is known about SARS-CoV-2 (Table <xref rid="Tab2" ref-type="table">2</xref>) (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). We then combined this with models of symptomatic testing and the three types of contact tracing. In discrete-time simulations, compared to manual contact tracing, we find that bulletin board tracing does not significantly (<italic>α</italic> = 0.05) change the duration of the disease (Table <xref rid="Tab3" ref-type="table">3</xref>). It also does not significantly reduce the percentage of the population that is infected (Table <xref rid="Tab4" ref-type="table">4</xref>). Instead, it is effective at reducing the overall number of outbreaks (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). It also does not alter the overall <italic>R</italic><sub>0</sub> (Table <xref rid="Tab6" ref-type="table">6</xref>) compared to manual contact tracing. Bulletin board tracing reduces prevalence initially (Fig. <xref rid="Fig5" ref-type="fig">5</xref>), but then permits a higher prevalence than manual contact tracing. Incidence follows a similar pattern (Fig. <xref rid="Fig6" ref-type="fig">6</xref>). It is, however, more effective at tracing a higher proportion of people who become infected (Table <xref rid="Tab5" ref-type="table">5</xref>). When manual and hybrid approaches are combined, contact tracing is more effective in each of these measures (Table <xref rid="Tab6" ref-type="table">6</xref>). All graphs in this section show the results of 1000 iterations of the model for each set of parameters. Each iteration consists of at most 1000 time periods. Parameter values are in Table <xref rid="Tab1" ref-type="table">1</xref>.
+<table-wrap id="Tab2"><label>Table 2</label><caption><p><bold>Calibration</bold>: The base model (m0) with a single location and no heterogeneity</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Min.</th><th align="left">1st Qu.</th><th align="left">Median</th><th align="left">Mean</th><th align="left">3rd Qu.</th><th align="left">Max.</th></tr></thead><tbody><tr><td align="left">Duration of infection (days)</td><td align="left">11</td><td align="left">148</td><td align="left">176</td><td align="left">149</td><td align="left">197</td><td align="left">286</td></tr><tr><td align="left">Infected (%)</td><td align="left">.1</td><td align="left">85.4</td><td align="left">88.0</td><td align="left">69.2</td><td align="left">89.7</td><td align="left">93.5</td></tr></tbody></table><table-wrap-foot><p><italic>R</italic><sub>0</sub> = 2.5, <italic>N</italic> = 1000, <italic>ρ</italic> = 1000, 1000 runs</p></table-wrap-foot></table-wrap><fig id="Fig3"><label>Fig. 3</label><caption><p><bold>Mean total infections over time for all models:</bold> Mean total infection curves for 1000 runs of the model, with model density of 100 (<italic>N</italic> = 1 × 10<sup>3</sup> and <italic>L</italic> = 1 × 10<sup>1</sup>) and various parameters for other models</p></caption><graphic xlink:href="10729_2021_9567_Fig3_HTML" id="MO3"/></fig><table-wrap id="Tab3"><label>Table 3</label><caption><p><bold>Results[Duration (days)]</bold>: Results of comparing manual (m2), bulletin board (m3) and hybrid (m4) contact tracing</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Min.</th><th align="left">1st Qu.</th><th align="left">Median</th><th align="left">Mean [95%CI]</th><th align="left">3rd Qu.</th><th align="left">Max.</th></tr></thead><tbody><tr><td align="left">m2: Manual Contact Tracing</td><td align="left">11.00</td><td align="left">12.00</td><td align="left">45.00</td><td align="left">59.63 [56.70-62.56]</td><td align="left">102.00</td><td align="left">187.00</td></tr><tr><td align="left">m3: Bulletin Board Tracing</td><td align="left">11.00</td><td align="left">11.00</td><td align="left">26.00</td><td align="left">61.14 [57.61-64.67]</td><td align="left">119.00</td><td align="left">223.00</td></tr><tr><td align="left">m4: Hybrid Tracing</td><td align="left">11.00</td><td align="left">11.00</td><td align="left">24.00</td><td align="left">47.36 [44.70-50.01]</td><td align="left">85.00</td><td align="left">213.00</td></tr></tbody></table><table-wrap-foot><p>1000 runs with parameter values given in Table <xref rid="Tab1" ref-type="table">1</xref></p></table-wrap-foot></table-wrap><table-wrap id="Tab4"><label>Table 4</label><caption><p><bold>Results[Infected (%)]</bold>:Results of comparing manual (m2), bulletin board (m3) and hybrid (m4) contact tracing</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Min.</th><th align="left">1st Qu.</th><th align="left">Median</th><th align="left">Mean [95% CI]</th><th align="left">3rd Qu.</th><th align="left">Max.</th></tr></thead><tbody><tr><td align="left">m2: Manual Contact Tracing</td><td align="left">0.12</td><td align="left">1.90</td><td align="left">2.66</td><td align="left">2.39 [2.30-2.47]</td><td align="left">2.79</td><td align="left">4.05</td></tr><tr><td align="left">m3: Bulletin Board Tracing</td><td align="left">0.12</td><td align="left">1.90</td><td align="left">4.41</td><td align="left">3.79 [3.59-3.99]</td><td align="left">5.49</td><td align="left">5.70</td></tr><tr><td align="left">m4: Hybrid Tracing</td><td align="left">0.12</td><td align="left">1.51</td><td align="left">1.81</td><td align="left">1.63 [1.57-1.68]</td><td align="left">1.89</td><td align="left">2.93</td></tr></tbody></table><table-wrap-foot><p>1000 runs with parameter values given in Table <xref rid="Tab1" ref-type="table">1</xref></p></table-wrap-foot></table-wrap><fig id="Fig4"><label>Fig. 4</label><caption><p><bold>The cumulative fraction</bold> of runs by total number infected for all models</p></caption><graphic xlink:href="10729_2021_9567_Fig4_HTML" id="MO4"/></fig><fig id="Fig5"><label>Fig. 5</label><caption><p><bold>Prevalence</bold> of infection with manual, bulletin board and hybrid contact tracing. N = 1000. The graph shows mean values for each time period across all runs. The values are small because of the large number of runs that do not result in outbreaks but that are included in the divisor. The grey ribbon around each line shows the bootstrap 95% confidence interval</p></caption><graphic xlink:href="10729_2021_9567_Fig5_HTML" id="MO5"/></fig><fig id="Fig6"><label>Fig. 6</label><caption><p><bold>Incidence</bold> of infection with manual, bulletin board and hybrid contact tracing. N = 1000. The graph shows mean values for each time period across all runs. The values are small because of the large number of runs that do not result in outbreaks but that are included in the divisor. The grey ribbon around each line shows the bootstrap 95% confidence interval</p></caption><graphic xlink:href="10729_2021_9567_Fig6_HTML" id="MO6"/></fig><table-wrap id="Tab5"><label>Table 5</label><caption><p><bold>Results[Traced (%)]</bold>:Results of comparing manual (m2), bulletin board (m3) and hybrid (m4) contact tracing</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Min.</th><th align="left">1st Qu.</th><th align="left">Median</th><th align="left">Mean [95% CI]</th><th align="left">3rd Qu.</th><th align="left">Max.</th></tr></thead><tbody><tr><td align="left">m2: Manual Contact Tracing</td><td align="left">0.00</td><td align="left">45.01</td><td align="left">49.80</td><td align="left">45.44 [44.07-46.80]</td><td align="left">52.67</td><td align="left">58.77</td></tr><tr><td align="left">m3: Bulletin Board Tracing</td><td align="left">0.00</td><td align="left">48.44</td><td align="left">55.23</td><td align="left">50.03 [48.78-51.28]</td><td align="left">56.61</td><td align="left">58.50</td></tr><tr><td align="left">m4: Hybrid Tracing</td><td align="left">0.00</td><td align="left">63.21</td><td align="left">71.18</td><td align="left">65.84 [64.37-67.30]</td><td align="left">73.49</td><td align="left">74.23</td></tr></tbody></table><table-wrap-foot><p>1000 runs with parameter values given in Table <xref rid="Tab1" ref-type="table">1</xref></p></table-wrap-foot></table-wrap><table-wrap id="Tab6"><label>Table 6</label><caption><p><bold>Results</bold>[<italic>R</italic><sub>0</sub>]: Results of comparing manual (m2), bulletin board (m3) and hybrid (m4) contact tracing</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Min.</th><th align="left">1st Qu.</th><th align="left">Median</th><th align="left">Mean [95% CI]</th><th align="left">3rd Qu.</th><th align="left">Max.</th></tr></thead><tbody><tr><td align="left">m0: Baseline</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.069 [1.055-1.082]</td><td align="left">1.095</td><td align="left">1.503</td></tr><tr><td align="left">m1: Testing Only</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.042 [1.032-1.052]</td><td align="left">1.037</td><td align="left">1.472</td></tr><tr><td align="left">m2: Manual Contact Tracing</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.029 [1.020-1.038]</td><td align="left">1.013</td><td align="left">1.471</td></tr><tr><td align="left">m3: Bulletin Board Tracing</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.030 [1.021-1.038]</td><td align="left">1.019</td><td align="left">1.471</td></tr><tr><td align="left">m4: Hybrid Tracing</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.000</td><td align="left">1.024 [1.016-1.032]</td><td align="left">1.009</td><td align="left">1.469</td></tr></tbody></table><table-wrap-foot><p>1000 runs with parameter values given in Table <xref rid="Tab1" ref-type="table">1</xref></p></table-wrap-foot></table-wrap></p>
+              <sec id="Sec25">
+                <title>m0: No Intervention</title>
+                <p id="Par85">This is the baseline scenario in each of the comparisons. We assume that there are ten locations, one thousand people in the population (<italic>ρ</italic> = 100) and no heterogeneity.</p>
+              </sec>
+              <sec id="Sec26">
+                <title>m1: Testing only</title>
+                <p id="Par86">This is the model of testing and subsequent isolation. We assume that 70% of individuals isolate when asked to, or after they get a positive result. We assume that 2 in 10 tests gives a false negative. Predictably, less of the population on average is infected in the model compared to m0.</p>
+              </sec>
+              <sec id="Sec27">
+                <title>m2: Manual contact tracing</title>
+                <p id="Par87">In the manual contact tracing scenario, we keep the testing and false negative testing rates the same as model m1. We assume that individuals can recall 50% of all the people they contacted in the past 11 days, including strangers. And of these people, we assume that 50% can be contacted after identification. We assume that the contact tracing instantiation is highly efficient and that it only takes one day between the positive test result and the contacts receiving a message from the contact tracer. Finally, we assume that 50% of individuals cooperate with contact tracers. The results show a significant improvement over testing alone both at reducing duration, incidence and the effective reproduction number. Manual contact tracing leads to the contacting of slightly less than half of the people who would otherwise become infected being contacted (Table <xref rid="Tab5" ref-type="table">5</xref>). The number of people contacted is more sensitive to variations in recall and message passing than cooperation with contact tracing and implementation delays, as the Supplementary Materials show (Online Resource <xref rid="MOESM1" ref-type="media">1</xref>).
+</p>
+              </sec>
+              <sec id="Sec28">
+                <title>m3: Bulletin board contact tracing</title>
+                <p id="Par88">In the bulletin board contact tracing scenario, we keep the testing parameters the same as with manual contact tracing. We assume that individuals can recall 70% of all the locations they visited in the past 11 days. This is higher than the rate of recalling individual contacts because it is easier to remember locations than people. Of the people who visited these locations at the same time, we assume that 50% check the bulletin board at least once a day or have signed up to receive notifications. We assume that the bulletin board contact tracing implementation is highly efficient and that the message reaches the individuals the same day that it is posted. Finally, we assume that half of all individuals cooperate fully with the bulletin board system. The bulletin board approach leads to a shorter mean duration (Table <xref rid="Tab3" ref-type="table">3</xref>), although not significantly so as well as a significantly larger number of total infected on average (Table <xref rid="Tab4" ref-type="table">4</xref>). The effective reproduction number remains the same, however. Bulletin board contact tracing leads to the contacting of significantly more of the people who would otherwise become infected being contacted than manual contact tracing (Table <xref rid="Tab5" ref-type="table">5</xref>). As the Supplementary Materials elaborate, bulletin board tracing does significantly worse in this metric when cooperation with contact tracing generally is low (10% of people cooperate) and does about as well with medium levels of cooperation (50% of people cooperate) (Online Resource <xref rid="MOESM1" ref-type="media">1</xref>). However, bulletin board contact tracing and manual contact tracing perform similarly overall in the low recall scenario (Table <xref rid="Tab7" ref-type="table">7</xref>), and bulletin board significantly worse in the low cooperation scenario (Table <xref rid="Tab8" ref-type="table">8</xref>).
+<table-wrap id="Tab7"><label>Table 7</label><caption><p><bold>Results in the low recall scenario</bold>: Means with 95% confidence intervals of measures comparing manual (m2), bulletin board (m3) and hybrid (m4) contact tracing in the low recall scenario (<italic>P</italic><sub><italic>c</italic></sub> = 0.1,<italic>P</italic><sub><italic>l</italic></sub> = 0.1)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Duration (days)</th><th align="left">Infected (%)</th><th align="left"><italic>R</italic><sub>0</sub></th><th align="left">Traced (%)</th></tr></thead><tbody><tr><td align="left">m2: Manual Contact Tracing</td><td align="left">78.1 [74.53-81.68]</td><td align="left">4.518 [4.282-4.753]</td><td align="left">1.065 [1.064-1.066]</td><td align="left">21.54 [20.41-22.67]</td></tr><tr><td align="left">m3: Bulletin Board Tracing</td><td align="left">80.18 [76.19-84.17]</td><td align="left">6.622 [6.249-6.995]</td><td align="left">1.066 [1.065-1.067]</td><td align="left">21.02 [20.30-21.75]</td></tr><tr><td align="left">m4: Hybrid Tracing</td><td align="left">66.56 [63.07-70.04]</td><td align="left">3.619 [3.444-3.793]</td><td align="left">1.057 [1.056-1.058]</td><td align="left">34.04 [32.72-35.35]</td></tr></tbody></table><table-wrap-foot><p>1000 runs with parameter values given in Table <xref rid="Tab1" ref-type="table">1</xref></p></table-wrap-foot></table-wrap><table-wrap id="Tab8"><label>Table 8</label><caption><p><bold>Results in the low cooperation scenario</bold>: Means with 95% confidence intervals of measures comparing manual (m2), bulletin board (m3) and hybrid (m4) contact tracing in the low cooperation scenario (<italic>P</italic><sub><italic>m</italic></sub> = 0.1,<italic>P</italic><sub><italic>b</italic></sub> = 0.1)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Duration (days)</th><th align="left">Infected (%)</th><th align="left"><italic>R</italic><sub>0</sub></th><th align="left">Traced (%)</th></tr></thead><tbody><tr><td align="left">m2: Manual Contact Tracing</td><td align="left">80.58 [76.97-84.18]</td><td align="left">5.443 [5.200-5.685]</td><td align="left">1.066 [1.065-1.067]</td><td align="left">29.47 [27.96-30.96]</td></tr><tr><td align="left">m3: Bulletin Board Tracing</td><td align="left">83.56 [79.50-87.61]</td><td align="left">9.134 [8.640-9.629]</td><td align="left">1.068 [1.067-1.069]</td><td align="left">13.48 [12.87-14.08]</td></tr><tr><td align="left">m4: Hybrid Tracing</td><td align="left">74.13 [70.60-77.66]</td><td align="left">4.713 [4.483-4.942]</td><td align="left">1.061 [1.060-1.062]</td><td align="left">37.73 [36.38-39.08]</td></tr></tbody></table><table-wrap-foot><p>1000 runs with parameter values given in Table <xref rid="Tab1" ref-type="table">1</xref></p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec29">
+                <title>m4: Hybrid contact tracing</title>
+                <p id="Par89">In the hybrid contact tracing scenario, we keep the testing, manual contact tracing and bulletin board tracing parameters the same as in models m1, m2 and m3. The results show a significant improvement over either of the contact tracing approaches alone at reducing the duration and incidence, while keeping the effective reproductive number the same. Hybrid contact tracing is able to contact significantly more of the people who would otherwise become infected compared to the other approaches (Table <xref rid="Tab5" ref-type="table">5</xref>). It is superior to the other two methods in both the low recall (Table <xref rid="Tab7" ref-type="table">7</xref>) and low cooperation (Table <xref rid="Tab8" ref-type="table">8</xref>) scenarios, as well as the other scenarios examined in the Supplementary Materials (Online Resource <xref rid="MOESM1" ref-type="media">1</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="Sec30">
+              <title>Sensitivity analysis</title>
+              <p id="Par90">Our choice of values for parameters introduces some uncertainty into the results. Therefore, we report the duration, infected percentage, the effective reproduction number and the percentage traced when model parameters indicating cooperation with contact tracing (<italic>P</italic><sub><italic>m</italic></sub>, <italic>P</italic><sub><italic>b</italic></sub>) and recall ability (<italic>P</italic><sub><italic>c</italic></sub>,<italic>P</italic><sub><italic>l</italic></sub>) are much lower than the values used above (0.1). Figure <xref rid="Fig7" ref-type="fig">7</xref> shows that while the values of the indicators changes in these low value scenarios, the relative relationships persist. Tables <xref rid="Tab7" ref-type="table">7</xref> and <xref rid="Tab8" ref-type="table">8</xref> reinforce this persistence more precisely. We refer the reader to the Supplementary Materials for a fuller sensitivity analysis of these results (Online Resource <xref rid="MOESM1" ref-type="media">1</xref>). There, we examine the effect of variations in four sets of parameters: those affecting the reconstruction problem (<italic>P</italic><sub><italic>c</italic></sub>,<italic>P</italic><sub><italic>l</italic></sub>), the message passing problem (<italic>P</italic><sub><italic>r</italic></sub>,<italic>P</italic><sub><italic>s</italic></sub>), cooperation with contact tracing (<italic>P</italic><sub><italic>m</italic></sub>,<italic>P</italic><sub><italic>b</italic></sub>) and implementation delay (<italic>T</italic><sub><italic>m</italic></sub>,<italic>T</italic><sub><italic>b</italic></sub>). The sensitivity results are presented for three scenarios - low, medium and high- for each sest of parameters.
+<fig id="Fig7"><label>Fig. 7</label><caption><p><bold>Sensitivity</bold>: Sensitivity of models of Manual (m2), Bulletin Board (m3) and Hybrid Contact Tracing (m4) to low recall (a) and low cooperation (b) scenarios with 1000 runs. Other parameters as in Table <xref rid="Tab1" ref-type="table">1</xref>. The gradients correspond to the density of observations</p></caption><graphic xlink:href="10729_2021_9567_Fig7_HTML" id="MO7"/></fig></p>
+            </sec>
+            <sec id="Sec31">
+              <title>Discussion</title>
+              <p id="Par91">Bulletin board contact tracing can improve manual contact tracing considering how easy it is to implement, the relative fewer resources it demands, and its nuanced privacy options. However, as our models show, under certain conditions, bulletin board contact tracing can be comparable or even slightly worse than manual contact tracing. When they are combined into a hybrid approach, contact tracing is uniformly more effective. Figure <xref rid="Fig3" ref-type="fig">3</xref> shows that around the 45-day mark, the curves for manual contact tracing and bulletin board tracing cross with the former trending downwards faster. We suspect that this reflects the difference in expected numbers of infected people due to a missed location versus a missed individual. This is likely because locations typically have more than one person in it. So, missing a location that one had visited that was infected rules out a larger number of people from receiving the message to isolate. In comparison, missing one person that was contacted rules out only one person from receiving the message to isolate. Thus, it is a limitation of the model that it does not adequately scale the probabilities of recall. It also represents a significant handicap in favor of manual contact tracing in the head to head comparison of the two models of contact tracing.</p>
+              <p id="Par92">We suspect this crossing is likely only when (i) the recall of locations is comparable to recall of contacts and (ii) the probability of a message reaching the recipient after they had been identified is about as good as, or slightly better than, a coin toss in both cases. This is not a realistic scenario in light of what we know from individual experiences. First, there are strong reasons to believe that our ability to remember locations is better than the ability to remember individuals (some of whom will be strangers). Second, if we visit locations with lots of people (such as concerts, or other super-spreading venues), we are even more likely to remember these locations. Third, technology to assist in identifying locations is far more accurate and ubiquitous than the technology to identify people. And finally, based on authors’ experiences, people are more willing to share anonymous location-identifying information than individually identifying information.Taken together, a contact tracing approach that also takes into account location information, and uses a bulletin board approach is likely to be more effective than manual contact tracing alone in all but the most uncommon circumstances.</p>
+              <p id="Par93">We have been as generous as we could to manual contact tracing given recent reports of serious problems with the approach, and the limitations of technological fixes to the approach. On the other hand, we have been relatively severe to the bulletin board approach by assuming that the key parameters are similar to manual contact tracing when everyday experience suggests otherwise. Our results, therefore, should be understood as sketching a lower bound on the gains that can be achieved through bulletin board contact tracing. There are multiple avenues for improving its performance significantly compared to what we have assumed, without incurring similar costs as manual contact tracing. It is worth highlighting that the bulletin board approach can propagate messages much faster than the manual approach, and people are more likely to remember locations than people, particularly strangers. Compliance is also likely to be higher when there is greater privacy by default.</p>
+              <p id="Par94">There are several extensions of our model that immediately suggest themselves. One is the addition of a probability of staying home. Another is the addition of a false positive rate, in order to better model different testing regimes. However, it should be noted that the false positive rate matters to the model only when individuals are tested before they exhibit symptoms (asymptomatic testing). Test sensitivity also depends on viral load, particularly for the antigen test that we assume here. This load varies between asymptomatic and symptomatic individuals [<xref ref-type="bibr" rid="CR34">34</xref>]. Future work could use a model of disease spread and testing that better incorporates these variations in symptomatic and asymptomatic spread. One could also generate the individual basic reproductive number from a probability distribution to introduce heterogeneity into the model. We have also used a log-normal distribution to sample the infectious period from, however this could be generalized to choose any other distribution.</p>
+              <p id="Par95">For compatibility with mass action models with a single location that are common in the literature we have assumed homogeneous random mixing with a constant rate of infection. These assumptions achieved a Poisson distribution for the number of secondary infections. These constraints can be relaxed in future work to achieve more accurate estimates of the relative effectiveness of manual and bulletin board contact tracing in particular localities. A key advantage of Agent Based Models is the ability to study the effects of contact heterogeneity, a major driver of epidemics [<xref ref-type="bibr" rid="CR23">23</xref>], on contact tracing effectiveness [<xref ref-type="bibr" rid="CR29">29</xref>, <xref ref-type="bibr" rid="CR31">31</xref>]. While a thorough assessment of various models of heterogeneity is beyond the scope of this paper, we briefly discuss two types here: heterogeneity across locations and across individuals.</p>
+              <p id="Par96">Relaxing the assumption of homogeneous random mixing across locations by allowing for differences in individual travel behavior enables one to use more realistic spatial-temproal models. Different models would alter the mix of Susceptible (S), Exposed (E), Infected (I) and Recovered (R) individuals at each location at any given time, thereby leading to different effective reproductive numbers for each individual (<italic>R</italic><sub>0<italic>i</italic></sub>). Similarly, allowing for heterogeneity of behavior within locations, such as home, schools, parks etc. would also alter the transmission rate in each location (<italic>β</italic>). These modifications would allow, for instance, for modeling infection hotspots, superspreader events and overdispersion - three well known characteristics of SARS-CoV-2. Non-uniform travel behavior would also affect the performance of manual and bulletin board contact tracing by changing the impact of forgetting particular locations or individuals. For example, failing to remember coming into contact with a potential superspreader can disproportionally affect manual contact tracing, while failing to remember a superspreader event location would disproportionally affect bulletin board tracing. Given the significance of individual travel and social behavior to disease spread and contact tracing, these modifications present opportunities for improving this model.</p>
+              <p id="Par97">A challenge for any model of travel and mixing heterogeneity is to parameterize the model properly. This can be challenging because, for instance, some of the interventions associated with pandemic control are travel restrictions and behavioral changes [<xref ref-type="bibr" rid="CR16">16</xref>]. Automatically collected travel data from mobile devices, as well as other sources of place-visit data more generally, can be a promising way to approach these challenges [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR31">31</xref>]. In order to use this type of data in our model, one would need to add the parameters determining travel behavior to Eq. <xref rid="Equ4" ref-type="">4</xref>. If within-location behavior data is available, these parameters can be added to Eq. <xref rid="Equ5" ref-type="">5</xref>. This will ultimately change the equation for the expected number of infections at a given location and time (<inline-formula id="IEq24"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}${n}_{t}^{l}$\end{document}</tex-math><mml:math id="M72"><mml:msubsup><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="10729_2021_9567_Article_IEq24.gif"/></alternatives></inline-formula> in Eq. <xref rid="Equ11" ref-type="">11</xref>) as well. These modifications will likely be more realistic, but at the possible cost of breaking direct comparability with mass-action models that are common in epidemiology. The specific behavioral and mixing models used can fundamentally alter the performance of contact tracing and could significantly change the results presented here. A thorough investigation of the effects of behavioral heterogeneity on the effectiveness of contact tracing requires further work.</p>
+            </sec>
+            <sec id="Sec32">
+              <title>Conclusion</title>
+              <p id="Par98">Based on these results, classical contact tracing should, in the least, incorporate location information alongside individual information. If greater privacy options or efficiency is desired, a greater reliance on location-based tracing should be considered compared to manual contact tracing as classically implemented in most circumstances. Bulletin board contact tracing provides an improved solution for the two main problems of classical contact tracing: reconstruction of the contact set for the infected individual and communicating with those who have been exposed. It improves contact set reconstruction by relying on individuals’ memory of locations not of people; and by combining the location memories of the index individual as well as the exposed individuals. It improves on the message passing by similarly requiring only that the index person pass a message to a public bulletin board. The recipients also have only to know how to get messages from this board. The contact tracer, thus, does not need to know how to individually reach every contact. However, the bulletin board approach makes these improvements at the cost of requiring greater cooperation with the contact tracing regime than classical contact tracing. This, as we have noted, may be easier to secure than classical contact tracing because individuals involved need to reveal a relatively negligible amount of personal information: they need only agree to the posting of an anonymous message associating location and time. Based on our models, we suggest that policy makers should consider bulletin board based approaches to contact tracing in addition to manual approaches.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Electronic supplementary material</title>
+              <sec id="Sec33">
+                <p>Below is the link to the electronic supplementary material.
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="10729_2021_9567_MOESM1_ESM.pdf"><caption><p>(PDF 8.71 MB)</p></caption></media></supplementary-material></p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors are deeply indebted to the advice, guidance and generosity of Edward Kaplan. Sarah Lewis contributed the survey of recent contact tracing technologies. This research was supported, in part, by the Yale School of Public Health COVID-19 Rapid Response Fund.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author Contributions</title>
+              <p>All authors contributed equally to all aspects of the article.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This research was supported, in part, by the Yale School of Public Health COVID-19 Rapid Response Fund.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Code Availability</title>
+              <p>All code used for the simulations is available on github at <ext-link ext-link-type="uri" xlink:href="https://github.com/yale-systems/contact-trace">https://github.com/yale-systems/contact-trace</ext-link>.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar2" notes-type="COI-statement">
+                <title>
+                  <bold>Conflict of Interests</bold>
+                </title>
+                <p id="Par99">The authors declare that they have no conflict of interest.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Michelin</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Xue</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruj</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Malaney</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanhere</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Seneviratne</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Janicke</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A survey of covid-19 contact tracing apps</article-title>
+                  <source>IEEE Access</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>134577</fpage>
+                  <lpage>134601</lpage>
+                  <pub-id pub-id-type="doi">10.1109/ACCESS.2020.3010226</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">Apple (2020) Privacy-preserving contact tracing - apple and google. <ext-link ext-link-type="uri" xlink:href="https://www.apple.com/covid19/contacttracing">https://www.apple.com/covid19/contacttracing</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Begun</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Newall</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Marks</surname>
+                      <given-names>GB</given-names>
+                    </name>
+                    <name>
+                      <surname>Wood</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contact tracing of tuberculosis: a systematic review of transmission modelling studies</article-title>
+                  <source>PLoS One</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <issue>9</issue>
+                  <fpage>e72470</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0072470</pub-id>
+                  <pub-id pub-id-type="pmid">24023742</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Bluetrace (2020) Home. <ext-link ext-link-type="uri" xlink:href="https://bluetrace.io">https://bluetrace.io</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bodas</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Peleg</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Income assurances are a crucial factor in determining public compliance with self-isolation regulations during the covid-19 outbreak–cohort study in israel</article-title>
+                  <source>Israel J Health Policy Res</source>
+                  <year>2020</year>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s13584-019-0360-2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bradshaw</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Alley</surname>
+                      <given-names>EC</given-names>
+                    </name>
+                    <name>
+                      <surname>Huggins</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Lloyd</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Esvelt</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bidirectional contact tracing could dramatically improve covid-19 control</article-title>
+                  <source>Nature Commun</source>
+                  <year>2021</year>
+                  <volume>12</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-20314-w</pub-id>
+                  <pub-id pub-id-type="pmid">33397941</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">CDC (2020a) Contact tracing. <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/php/open-america/contact-tracing-resources.html">https://www.cdc.gov/coronavirus/2019-ncov/php/open-america/contact-tracing-resources.html</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">CDC (2020b) Coronavirus disease 2019 (COVID-19). <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html">https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">CDC (2020c) Healthcare Workers. <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/testing-overview.html">https://www.cdc.gov/coronavirus/2019-ncov/hcp/testing-overview.html</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Chan J, Gollakota S, Horvitz E, Jaeger J, Kakade S, Kohno T, Langford J, Larson J, Singanamalla S, Sunshine J, et al. (2020) Pact: Privacy sensitive protocols and mechanisms for mobile contact tracing. arXiv:<ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/200403544">200403544</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Crawford</surname>
+                      <given-names>FW</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaplan</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Repeat sars-cov-2 testing models for residential college populations</article-title>
+                  <source>Health Care Manag Sci. Nov</source>
+                  <year>2020</year>
+                  <volume>17</volume>
+                  <fpage>1</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10729-020-09526-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Contreras</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dehning</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Loidolt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zierenberg</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Spitzner</surname>
+                      <given-names>FP</given-names>
+                    </name>
+                    <name>
+                      <surname>Urrea-Quintero</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Mohr</surname>
+                      <given-names>SB</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilczek</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wibral</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Priesemann</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The challenges of containing sars-cov-2 via test-trace-and-isolate</article-title>
+                  <source>Nature Commun</source>
+                  <year>2021</year>
+                  <volume>12</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-20699-8</pub-id>
+                  <pub-id pub-id-type="pmid">33397941</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">DP3T (2020) DP-3T/documents. <ext-link ext-link-type="uri" xlink:href="https://github.com/DP-3T/documents">https://github.com/DP-3T/documents</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eames</surname>
+                      <given-names>KT</given-names>
+                    </name>
+                    <name>
+                      <surname>Keeling</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contact tracing and disease control</article-title>
+                  <source>Proc R Soc London Ser B Biol Sci</source>
+                  <year>2003</year>
+                  <volume>270</volume>
+                  <issue>1533</issue>
+                  <fpage>2565</fpage>
+                  <lpage>2571</lpage>
+                  <pub-id pub-id-type="doi">10.1098/rspb.2003.2554</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eichner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Case isolation and contact tracing can prevent the spread of smallpox</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2003</year>
+                  <volume>158</volume>
+                  <issue>2</issue>
+                  <fpage>118</fpage>
+                  <lpage>128</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwg104</pub-id>
+                  <pub-id pub-id-type="pmid">12851224</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gibbs</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearson</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Jarvis</surname>
+                      <given-names>CI</given-names>
+                    </name>
+                    <name>
+                      <surname>Grundy</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Quilty</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Diamond</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Eggo</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changing travel patterns in China during the early stages of the covid-19 pandemic</article-title>
+                  <source>Nature Commun</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18783-0</pub-id>
+                  <pub-id pub-id-type="pmid">31911652</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gurdasani</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ziauddeen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On the fallibility of simulation models in informing pandemic responses</article-title>
+                  <source>Lancet Glob Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <issue>6</issue>
+                  <fpage>e776</fpage>
+                  <lpage>e777</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2214-109X(20)30219-9</pub-id>
+                  <pub-id pub-id-type="pmid">32359419</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hellewell</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Abbott</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gimma</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bosse</surname>
+                      <given-names>NI</given-names>
+                    </name>
+                    <name>
+                      <surname>Jarvis</surname>
+                      <given-names>CI</given-names>
+                    </name>
+                    <name>
+                      <surname>Russell</surname>
+                      <given-names>TW</given-names>
+                    </name>
+                    <name>
+                      <surname>Munday</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Kucharski</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Edmunds</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Feasibility of controlling covid-19 outbreaks by isolation of cases and contacts</article-title>
+                  <source>The Lancet Global Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <issue>4</issue>
+                  <fpage>e488</fpage>
+                  <lpage>e496</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2214-109X(20)30074-7</pub-id>
+                  <pub-id pub-id-type="pmid">32119825</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ivers</surname>
+                      <given-names>LC</given-names>
+                    </name>
+                    <name>
+                      <surname>Weitzner</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Can digital contact tracing make up for lost time?</article-title>
+                  <source>Lancet Pub Health</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <issue>8</issue>
+                  <fpage>e417</fpage>
+                  <lpage>e418</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2468-2667(20)30160-2</pub-id>
+                  <pub-id pub-id-type="pmid">32682488</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Jean C (2020) Over 50% of coronavirus patients lie during epidemiological investigation. <ext-link ext-link-type="uri" xlink:href="https://www.jpost.com/breaking-news/over-50-percent-of-coronavirus-patients-lie-during-epidemiological-investigation-646574">https://www.jpost.com/breaking-news/over-50-percent-of-coronavirus-patients-lie-during-epidemiological-investigation-646574</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaplan</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Containing 2019-ncov (wuhan) coronavirus</article-title>
+                  <source>Health Care Manag Sci</source>
+                  <year>2020</year>
+                  <volume>23</volume>
+                  <issue>3</issue>
+                  <fpage>311</fpage>
+                  <lpage>314</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10729-020-09504-6</pub-id>
+                  <pub-id pub-id-type="pmid">32146554</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaplan</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <name>
+                      <surname>Craft</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wein</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analyzing bioterror response logistics: the case of smallpox</article-title>
+                  <source>Math Biosci</source>
+                  <year>2003</year>
+                  <volume>185</volume>
+                  <issue>1</issue>
+                  <fpage>33</fpage>
+                  <lpage>72</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0025-5564(03)00090-7</pub-id>
+                  <pub-id pub-id-type="pmid">12900141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kiss</surname>
+                      <given-names>IZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kao</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of contact heterogeneity and multiple routes of transmission on final epidemic size</article-title>
+                  <source>Math Biosci</source>
+                  <year>2006</year>
+                  <volume>203</volume>
+                  <issue>1</issue>
+                  <fpage>124</fpage>
+                  <lpage>136</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.mbs.2006.03.002</pub-id>
+                  <pub-id pub-id-type="pmid">16620875</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kissler</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kishore</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Prabhu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Goffman</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Beilin</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Landau</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Gyamfi-Bannerman</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Bateman</surname>
+                      <given-names>BT</given-names>
+                    </name>
+                    <name>
+                      <surname>Snyder</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Razavi</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Reductions in commuting mobility correlate with geographic differences in sars-cov-2 prevalence in new york city</article-title>
+                  <source>Nature Commun</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18271-5</pub-id>
+                  <pub-id pub-id-type="pmid">31911652</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klinkenberg</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Fraser</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Heesterbeek</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effectiveness of contact tracing in emerging epidemics</article-title>
+                  <source>PloS one</source>
+                  <year>2006</year>
+                  <volume>1</volume>
+                  <issue>1</issue>
+                  <fpage>e12</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0000012</pub-id>
+                  <pub-id pub-id-type="pmid">17183638</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kretzschmar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measures of concurrency in networks and the spread of infectious disease</article-title>
+                  <source>Math Biosci</source>
+                  <year>1996</year>
+                  <volume>133</volume>
+                  <issue>2</issue>
+                  <fpage>165</fpage>
+                  <lpage>195</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0025-5564(95)00093-3</pub-id>
+                  <pub-id pub-id-type="pmid">8718707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kretzschmar</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Rozhnova</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Bootsma</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>van Boven</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>van de Wijgert</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonten</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of delays on effectiveness of contact tracing strategies for covid-19: a modelling study</article-title>
+                  <source>Lancet Pub Health</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <issue>8</issue>
+                  <fpage>e452</fpage>
+                  <lpage>e459</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2468-2667(20)30157-2</pub-id>
+                  <pub-id pub-id-type="pmid">32682487</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Ren</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Lau</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>JY</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Early transmission dynamics in wuhan, china, of novel coronavirus–infected pneumonia</article-title>
+                  <source>New England J Med</source>
+                  <year>2020</year>
+                  <volume>382</volume>
+                  <fpage>1199</fpage>
+                  <lpage>1207</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa2001316</pub-id>
+                  <pub-id pub-id-type="pmid">31995857</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Lorch L, Kremer H, Trouleau W, Tsirtsis S, Szanto A, Schölkopf B, Gomez-Rodriguez M (2020) Quantifying the effects of contact tracing, testing, and containment. arXiv:<ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2004">2004</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">Lucas T, Davis E, Ayabina D, Borlase A, Crellen T, Pi L, Medley G, Yardley L, Klepac P, Gog J et al (2020) Engagement and adherence trade-offs for sars-cov-2 contact tracing. Philosophical Transactions of The Royal Society B Biological Sciences</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lunz</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Batt</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruess</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>To quarantine, or not to quarantine: A theoretical framework for disease control via contact tracing</article-title>
+                  <source>Epidemics</source>
+                  <year>2021</year>
+                  <volume>100428</volume>
+                  <fpage>34</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <mixed-citation publication-type="other">Mahase E (2020) Covid-19: Two thirds of people contacted through tracing did not fully cooperate, pilot scheme finds. BMJ 369, 10.1136/bmj.m2169. <ext-link ext-link-type="uri" xlink:href="https://www.bmj.com/content/369/bmj.m2169">https://www.bmj.com/content/369/bmj.m2169</ext-link>, publisher: British Medical Journal Publishing Group Section: News</mixed-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Megnin-Viggars</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Carter</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Melendez-Torres</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Weston</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rubin</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Facilitators and barriers to engagement with contact tracing during infectious disease outbreaks: A rapid review of the evidence</article-title>
+                  <source>PloS one</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <issue>10</issue>
+                  <fpage>e0241473</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0241473</pub-id>
+                  <pub-id pub-id-type="pmid">33120402</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mina</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Parker</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Larremore</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rethinking covid-19 test sensitivity—a strategy for containment</article-title>
+                  <source>New England J Med</source>
+                  <year>2020</year>
+                  <volume>383</volume>
+                  <issue>22</issue>
+                  <fpage>e120</fpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMp2025631</pub-id>
+                  <pub-id pub-id-type="pmid">32997903</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morley</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Cowls</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Taddeo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Floridi</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ethical guidelines for covid-19 tracing apps</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>582</volume>
+                  <fpage>29</fpage>
+                  <lpage>31</lpage>
+                  <pub-id pub-id-type="doi">10.1038/d41586-020-01578-0</pub-id>
+                  <pub-id pub-id-type="pmid">32467596</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Mueller B (2020) Contact tracing, key to reining in the virus, falls flat in the west. The New York Times <ext-link ext-link-type="uri" xlink:href="https://www.nytimes.com/2020/10/03/world/europe/covid-contract-tracing.html">https://www.nytimes.com/2020/10/03/world/europe/covid-contract-tracing.html</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <mixed-citation publication-type="other">Network C (2020) Coalition. <ext-link ext-link-type="uri" xlink:href="https://www.coalitionnetwork.org/">https://www.coalitionnetwork.org/</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <mixed-citation publication-type="other">PEPP-PT (2020) HOME — PEPP-PT. <ext-link ext-link-type="uri" xlink:href="https://www.pepp-pt.org/">https://www.pepp-pt.org/</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pray</surname>
+                      <given-names>IW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Performance of an antigen-based test for asymptomatic and symptomatic sars-cov-2 testing at two university campuses—wisconsin, september–october 2020</article-title>
+                  <source>MMWR Morb Mortal Wkly Rep</source>
+                  <year>2021</year>
+                  <volume>69</volume>
+                  <fpage>1642</fpage>
+                  <lpage>1647</lpage>
+                  <pub-id pub-id-type="doi">10.15585/mmwr.mm695152a3</pub-id>
+                  <pub-id pub-id-type="pmid">33382679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <mixed-citation publication-type="other">Rodríguez P, Graña S, Alvarez-León EE, Battaglini M, Darias FJ, Hernán MA, López R, Llaneza P, Martín MC, Ramirez-Rubio O et al (2021) A population-based controlled experiment assessing the epidemiological impact of digital contact tracing. Nature Commun 12(1):1–6</mixed-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">TCN (2020) TCNCoalition/TCN. <ext-link ext-link-type="uri" xlink:href="https://github.com/TCNCoalition/TCN">https://github.com/TCNCoalition/TCN</ext-link>, original-date: 2020-03-31T18:18:05Z</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,2691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T01:01:22Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6683776" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6683776</identifier>
+        <datestamp>2019-08-19</datestamp>
+        <setSpec>tswj</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">ScientificWorldJournal</journal-id>
+              <journal-id journal-id-type="iso-abbrev">ScientificWorldJournal</journal-id>
+              <journal-id journal-id-type="publisher-id">TSWJ</journal-id>
+              <journal-title-group>
+                <journal-title>The Scientific World Journal</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">2356-6140</issn>
+              <issn pub-type="epub">1537-744X</issn>
+              <publisher>
+                <publisher-name>Hindawi</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6683776</article-id>
+              <article-id pub-id-type="pmcid">PMC6683776</article-id>
+              <article-id pub-id-type="pmc-uid">6683776</article-id>
+              <article-id pub-id-type="pmid">31427903</article-id>
+              <article-id pub-id-type="doi">10.1155/2019/9397578</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Machine Learning Model for Imbalanced Cholera Dataset in Tanzania</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7420-6533</contrib-id>
+                  <name>
+                    <surname>Leo</surname>
+                    <given-names>Judith</given-names>
+                  </name>
+                  <email>judith.leo@nm-aist.ac.tz</email>
+                  <xref ref-type="aff" rid="I1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Luhanga</surname>
+                    <given-names>Edith</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Michael</surname>
+                    <given-names>Kisangiri</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="I1">Nelson Mandela African Institution of Science and Technology (NM-AIST), School of Computation and Communication Science and Engineering (CoCSE), P.O. BOX 447, Arusha, Tanzania</aff>
+              <author-notes>
+                <fn fn-type="other">
+                  <p>Academic Editor: Vincenzo Positano</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>25</day>
+                <month>7</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>2019</volume>
+              <elocation-id>9397578</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>2</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>15</day>
+                  <month>5</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>9</day>
+                  <month>6</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2019 Judith Leo et al.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Cholera epidemic remains a public threat throughout history, affecting vulnerable population living with unreliable water and substandard sanitary conditions. Various studies have observed that the occurrence of cholera has strong linkage with environmental factors such as climate change and geographical location. Climate change has been strongly linked to the seasonal occurrence and widespread of cholera through the creation of weather patterns that favor the disease's transmission, infection, and the growth of<italic> Vibrio cholerae</italic>, which cause the disease. Over the past decades, there have been great achievements in developing epidemic models for the proper prediction of cholera. However, the integration of weather variables and use of machine learning techniques have not been explicitly deployed in modeling cholera epidemics in Tanzania due to the challenges that come with its datasets such as imbalanced data and missing information. This paper explores the use of machine learning techniques to model cholera epidemics with linkage to seasonal weather changes while overcoming the data imbalance problem. Adaptive Synthetic Sampling Approach (ADASYN) and Principal Component Analysis (PCA) were used to the restore sampling balance and dimensional of the dataset. In addition, sensitivity, specificity, and balanced-accuracy metrics were used to evaluate the performance of the seven models. Based on the results of the Wilcoxon sign-rank test and features of the models, XGBoost classifier was selected to be the best model for the study. Overall results improved our understanding of the significant roles of machine learning strategies in health-care data. However, the study could not be treated as a time series problem due to the data collection bias. The study recommends a review of health-care systems in order to facilitate quality data collection and deployment of machine learning techniques.</p>
+              </abstract>
+              <funding-group>
+                <award-group>
+                  <funding-source>African Development Bank Group</funding-source>
+                </award-group>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1">
+              <title>1. Introduction</title>
+              <p>Cholera is an acute epidemic infectious disease caused by<italic> Vibrio cholerae (V. cholerae) </italic>bacteria [<xref rid="B1" ref-type="bibr">1</xref>]. The bacteria typically live in waters which are salty and warm, such as estuaries and water along with the coastal areas. People contract<italic> V. cholerae </italic>after drinking liquids or eating foods contaminated with the bacteria [<xref rid="B2" ref-type="bibr">2</xref>]. The disease remains to be notorious and a threat to human society throughout history, due to the extraordinary scale of death and damage it brought over the years [<xref rid="B3" ref-type="bibr">3</xref>].</p>
+              <sec id="sec1.1">
+                <title>1.1. Historical Background of Cholera Disease</title>
+                <p>At first, the root of cholera was unknown so it caused devastating mortality of millions of people across the globe and thus contributed to massive panic to countries where it appeared [<xref rid="B4" ref-type="bibr">4</xref>]. According to the literature, there have been a total of seven cholera pandemics [<xref rid="B5" ref-type="bibr">5</xref>]. Cholera pandemic is a cholera epidemic that can last many years or even a few decades at a time and that spreads to many countries and across continents and oceans [<xref rid="B6" ref-type="bibr">6</xref>]. The first cholera pandemic occurred from 1817 to 1824 in India and spread to Southeast Asia, Central Asia, the Middle East, China, and Russia, leaving hundreds and thousands of people dead [<xref rid="B7" ref-type="bibr">7</xref>]. The second cholera pandemic occurred in 1826 to 1837 in India and spread to western Asia, Europe, Great Britain, and the Americas, as well as east of China and Japan. It caused more deaths, more quickly than any other epidemic disease in the 19th century [<xref rid="B8" ref-type="bibr">8</xref>]. The third cholera pandemic also caused the highest fatalities in the 19th century [<xref rid="B9" ref-type="bibr">9</xref>]. It originated in India and spread far beyond its borders to Russia and Great Britain. Researchers at the University of California, Los Angeles, believe that the third cholera pandemic started as early as 1837 and lasted until 1863. From 1853 to 1854, the pandemic caused 23,000 deaths in Great Britain and over 10,000 deaths in London. As the results of the August 1854 cholera outbreak in London, John Snow identified contaminated water as the means of transmission of the disease. He mapped a cluster of cholera cases near a water pump in one neighborhood. His breakthrough led to the control of cholera epidemics in the 19th century [<xref rid="B9" ref-type="bibr">9</xref>].</p>
+                <p>However, there were other cholera pandemics after John Snow's breakthrough, such as the fourth cholera pandemic which began in 1863 and ended in 1875, the fifth cholera pandemic (1881 to 1896), the sixth cholera pandemic (1899 to 1923), and the seventh cholera pandemic (1961 to the 1970s) [<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B10" ref-type="bibr">10</xref>]. During the fourth pandemic, cholera spread throughout the Middle East and was carried to Russia, Europe, and North America and reached North Africa where it spread to Sub-Saharan Africa (SSA), killing 70,000 in Zanzibar, Tanzania in 1869 [<xref rid="B11" ref-type="bibr">11</xref>]. To date, cholera is still prevalent in SSA areas with inadequate sanitation, poor food, and water hygiene and remains a major global public health problem [<xref rid="B12" ref-type="bibr">12</xref>], as indicated in <xref ref-type="fig" rid="fig1">Figure 1</xref>.</p>
+              </sec>
+              <sec id="sec1.2">
+                <title>1.2. Transmission and Infection</title>
+                <p>Cholera disease is usually transmitted through the fecal-oral route of contaminated food or water caused by poor sanitation [<xref rid="B14" ref-type="bibr">13</xref>]. Most cholera cases in developed countries are transmitted through contaminated food, whereas, in developing countries, it is more often through contaminated water [<xref rid="B3" ref-type="bibr">3</xref>]. Food transmission can occur when people harvest seafood such as oysters and shellfish in the waters infected with<italic> V. cholerae. </italic>People infected with cholera often have diarrhea and hence disease transmission may occur if this diarrhea contaminates water used by other people [<xref rid="B15" ref-type="bibr">14</xref>]. A single diarrheal incident can cause a one million increase in numbers of<italic> V. cholerae </italic>in the environment through waterways, groundwater, and drinking water supplies. Normally, the transmission of cholera directly from person to person is very rare [<xref rid="B16" ref-type="bibr">15</xref>]. </p>
+                <p><italic>V. cholerae</italic> can also exist outside the human body in natural water sources, either by itself or through contracting with phytoplankton, zooplankton, and biotic and abiotic detritus. Hence, drinking such water can also result in cholera disease, even without prior contamination through fecal matter [<xref rid="B17" ref-type="bibr">16</xref>]. In addition, there are several virulence factors which can easily contribute to the pathogenicity of the<italic> V. cholerae</italic> to easily infect and cause symptoms to the hosts [<xref rid="B18" ref-type="bibr">17</xref>]. These virulence factors include toxin coregulated pilus, cholera toxin, and motility [<xref rid="B19" ref-type="bibr">18</xref>]. Furthermore, in our rapidly changing environment, it has been reported by several researchers that the transmission and infection of cholera epidemics are greatly influenced by seasonal weather variation [<xref rid="B20" ref-type="bibr">19</xref>]. This is because the dynamics of weather patterns dictate the infection and transmission rate of cholera disease. As they affect natural demographic behavior of population involved and also influences almost all variables involved in the growth of<italic> V. cholerae. </italic>Moreover, the fluctuation of weather variables, such as temperature, rainfall, humidity, and wind, is also regarded as the core factor that causes reemergence of cholera outbreak cycles and its variability from small to large scales [<xref rid="B21" ref-type="bibr">20</xref>].</p>
+              </sec>
+              <sec id="sec1.3">
+                <title>1.3. Foundation of Machine Learning</title>
+                <p>Recently, the global climatic change has led to the massive fluctuation of seasonal weather changes and environmental conditions [<xref rid="B22" ref-type="bibr">21</xref>], which has resulted in rapid cholera outbreaks in the world, especially in the developing countries [<xref rid="B23" ref-type="bibr">22</xref>], such as Tanzania, Nigeria, Zimbabwe, and Malawi [<xref rid="B24" ref-type="bibr">23</xref>, <xref rid="B25" ref-type="bibr">24</xref>]. In addition, it has been noted that the global burden of cholera epidemics from the seasonal weather changes and environmental factors is expected to increase over time with a rapid increase of epidemic size [<xref rid="B26" ref-type="bibr">25</xref>, <xref rid="B27" ref-type="bibr">26</xref>]. With the limited number of the workforce in the Tanzanian health-sector and the use of manual mechanisms [<xref rid="B28" ref-type="bibr">27</xref>] henceforth, there is a dire need to develop a suitable cholera prediction model for early warning mechanisms [<xref rid="B29" ref-type="bibr">28</xref>, <xref rid="B30" ref-type="bibr">29</xref>]. Over the past decades, there have been several studies and great achievements in developing epidemic models and systems for the proper prediction of cholera. However, the integration of weather variables and the use of machine learning techniques have not been deployed in modeling the cholera epidemics in Tanzania's settings [<xref rid="B31" ref-type="bibr">30</xref>]. This is due to the challenges that come with its datasets such as imbalanced data, missing information, and other uncertainties [<xref rid="B32" ref-type="bibr">31</xref>]. Machine learning is an application of artificial intelligence that provides computer-based systems with the ability to automatically learn and improve from experience without being explicitly programmed [<xref rid="B33" ref-type="bibr">32</xref>]. Machine learning is categorized mostly into supervised and unsupervised algorithms. Supervised algorithms are used when the data used to train is classified and labeled while unsupervised algorithms are used in unlabeled data [<xref rid="B34" ref-type="bibr">33</xref>, <xref rid="B35" ref-type="bibr">34</xref>]. The basic premise of machine learning is to build models that can receive input data and use statistical analysis to predict an output while updating outputs as new data becomes available. [<xref rid="B36" ref-type="bibr">35</xref>]. Over the past years, data determined extensively the success of machine learning algorithms; however, with the introduction of innovative strategies such as sampling, decomposition, scaling, and aggregation, there has been great revolution [<xref rid="B37" ref-type="bibr">36</xref>]. Nowadays, machine learning is used in a wide range of applications such as timely decision making, virtual personal assistance, social media services, video surveillance, identifying disease and diagnosis, drug discovery, and clinical researches, since it is capable of handling data innovatively towards achieving its intended goals [<xref rid="B38" ref-type="bibr">37</xref>, <xref rid="B39" ref-type="bibr">38</xref>].</p>
+                <p>In addition, with the current growing number of data in the health sectors due to the availability of cost-effective mechanisms for collecting and storing health-care data, other techniques such as traditional statistical techniques are losing power [<xref rid="B40" ref-type="bibr">39</xref>]. This is because nowadays machines can handle a large amount of data in terms of online storage and low-cost computation and processing without the need to reduce them through the use of mathematical techniques [<xref rid="B41" ref-type="bibr">40</xref>]. Hence, this breakthrough has given power to the rise of machine learning techniques [<xref rid="B42" ref-type="bibr">41</xref>]. This paper, therefore, proposes the use of machine learning techniques to model cholera epidemics with linkage to seasonal weather changes while overcoming the data imbalance problem in Tanzania. This is because machine learning techniques are believed to be very powerful, advanced, and innovative tools for studying the dynamics of epidemics with a wide range of dynamic and complex variables such as seasonal weather variability and imbalanced dataset condition [<xref rid="B43" ref-type="bibr">42</xref>]. The rest of this paper includes <xref ref-type="sec" rid="sec2">Section 2</xref> which provides the materials and methods, <xref ref-type="sec" rid="sec3">Section 3</xref> which presents the results and brief discussion, and, lastly, <xref ref-type="sec" rid="sec4">Section 4</xref> which concludes with a brief discussion.</p>
+              </sec>
+            </sec>
+            <sec id="sec2">
+              <title>2. Methodology</title>
+              <p>This work used design science research methodology (DSRM) [<xref rid="B44" ref-type="bibr">44</xref>] to formulate the cholera model with its linkage to seasonal weather changes. The methodology consists of six steps iterations: problem identification and motivation, design and development, demonstration of the product, evaluation, and communication through publishing the results. In addition, DSRM is an outcome-based methodology which focuses on improving the functional performance of the artifacts such as algorithms [<xref rid="B45" ref-type="bibr">45</xref>].</p>
+              <sec id="sec2.1">
+                <title>2.1. Study Area</title>
+                <p>Dar es Salaam region in Tanzania was chosen to be our study area. This is because Tanzania is a developing country in SSA with frequent reemergence of cholera epidemics [<xref rid="B46" ref-type="bibr">46</xref>]. Most of the cholera outbreaks in Tanzania are believed to start from Dar es Salaam region and spread throughout to other regions such as Kigoma, Morogoro, and Tanga, except for a few cases of the cholera outbreak which happened in Kigoma in 2015 due to the overcrowded crisis of Burundi refugees [<xref rid="B47" ref-type="bibr">47</xref>]. Researchers believed that the dynamics of cholera epidemics in Dar es Salaam are strongly linked to the weather variation [<xref rid="B48" ref-type="bibr">48</xref>]. This is because Dar es Salaam region is an industrial area, with the largest number of population compared to other regions in the country [<xref rid="B49" ref-type="bibr">49</xref>]. In addition, the region has limited resources to sustain peoples' daily needs and also has poor sanitary and hygiene conditions. Hence, the region becomes easily vulnerable to the rapid spread of the disease especially when favorable weather conditions are met such as heavy rainfall [<xref rid="B50" ref-type="bibr">50</xref>]. Furthermore, the country has only focused on the use of medical supplies such as water treatment chemicals instead of developing effective models or system for early prediction, and appropriate analysis of cholera epidemics [<xref rid="B27" ref-type="bibr">26</xref>].</p>
+              </sec>
+              <sec id="sec2.2">
+                <title>2.2. Data</title>
+                <p>The data was collected in Dar es Salaam region from January 2015 to December 2017, which includes seasonal weather variables such as temperature, rainfall, humidity, and wind, from Tanzania Meteorological Agency (TMA), and cholera cases data which includes district-location of the patient, the date onset for cholera-patient diagnosis and patients' laboratory results, from the Ministry of Health and Social Welfare as shown in Tables <xref rid="tab1" ref-type="table">1</xref> and <xref rid="tab2" ref-type="table">2</xref>.</p>
+                <p>The date onset variable was collected in order to assist the exercise of aligning the weather variables to the corresponding patient's details. In addition, the study considered the date onset as the date when a patient contracted<italic> V. cholerae</italic>. This is because the incubation period of<italic> V. cholerae</italic> is five days and also the range of weather variables within a week is always insignificant [<xref rid="B51" ref-type="bibr">51</xref>, <xref rid="B52" ref-type="bibr">52</xref>].</p>
+              </sec>
+              <sec id="sec2.3">
+                <title>2.3. Statistical Data Description</title>
+                <p>This subsection describes data into statistical measures of counts, means, standard deviations (std), Minimum (min), Maximum (max), 25th, 50th, and 75th percentile, as shown in <xref rid="tab3" ref-type="table">Table 3</xref>. In <xref rid="tab3" ref-type="table">Table 3</xref>, the count shows the total number of collected data in each column, mean shows the mean value of each column, min and max show the minimum and the maximum number of each column respectively, and std shows the standard deviation of each column [<xref rid="B53" ref-type="bibr">54</xref>]. In addition, it summarizes the data into graphical representations as shown in Figures <xref ref-type="fig" rid="fig2">2</xref>, <xref ref-type="fig" rid="fig3">3</xref>, and <xref ref-type="fig" rid="fig4">4</xref>. Whereby <xref ref-type="fig" rid="fig2">Figure 2</xref> presents patients distribution per months, <xref ref-type="fig" rid="fig3">Figure 3</xref> shows rainfall distribution per months and <xref ref-type="fig" rid="fig4">Figure 4</xref> shows patients distribution across districts.</p>
+              </sec>
+              <sec id="sec2.4">
+                <title>2.4. Data Preprocessing</title>
+                <p>Following the collection of data with 2951 patients and 9 predictors, the data collected was checked for the presence of error in data entry including missing data and misspellings. Following this process, there was no error in misspelling; however, there were 10 missing weather data. Hence, we had to visit TMA offices in order to cross-check the received data and fill the missing data. The complete data was stored in Microsoft Excel of Microsoft office 2013 suite of desktop publishing (.xls). Lastly, the data was transformed into the comma separated variable (.csv) file. Then, using python, we scaled features according to a minimum and maximum value (MinMaxScaler) between 0 and 1 in order to improve the distance-based approach in the dataset.</p>
+              </sec>
+              <sec id="sec2.5">
+                <title>2.5. Model Formulation Approach</title>
+                <p>In order to achieve our model, we followed the procedure as briefly explained in <xref ref-type="fig" rid="fig5">Figure 5</xref>. In this procedure, we first imported the scikit-learn modules then loaded the cholera datasets. After that, we checked how the dataset is balanced and performed sampling procedure in order to balance the dataset. Then we did 30-fold cross validation as a test method in order to reduce variability, overfitting, and selection bias [<xref rid="B38" ref-type="bibr">37</xref>]. Then, the training data was used to build the models and the testing data was used to assess the prediction performance of the models. Lastly, after building the model, we performed evaluation metrics in order to select the best performing models or algorithms.</p>
+              </sec>
+              <sec id="sec2.6">
+                <title>2.6. Machine Learning Models</title>
+                <p>Based on the study, we used supervised machine learning algorithms because their main goal is to learn a target function that can be used to predict values of a class. In addition, supervised algorithms can easily map an input to an output [<xref rid="B55" ref-type="bibr">55</xref>]. In a nutshell, in machine learning, there is no one algorithm that works best for every problem since there are many factors at play such as the size and structure of the datasets. Therefore, we selected the best seven supervised machine learning algorithms which will be evaluated based on their performance. Then, the best algorithm will be selected to conduct this study. The following are the selected algorithms: XGBoost, K-Nearest Neighbors (K-NN), Decision Tree, Random Forest, ExtraTree, AdaBoost, and Linear Discriminant Analysis (LDA) [<xref rid="B56" ref-type="bibr">56</xref>]. The following is a brief discussion of their description.</p>
+                <p>XGBoost is an optimized distributed gradient boosting algorithm designed to be highly efficient, flexible, and portable. It provides a parallel tree boosting that solves many data science problems in a fast and accurate way [<xref rid="B57" ref-type="bibr">57</xref>], whereas Decision Tree is one of the most popular machine learning algorithms that use tree-like model decisions and their possible consequences. It is capable of fitting complex datasets while allowing the user to see how a decision was taken [<xref rid="B58" ref-type="bibr">58</xref>]. K-NN is a simple and nonparametric algorithm used for classification and regression. It is often successful in classification situation where the decision boundary is very irregular [<xref rid="B59" ref-type="bibr">59</xref>]. LDA is a well-established machine learning technique for predicting categories. It is frequently used as a dimensional reduction technique for pattern recognition or classification [<xref rid="B60" ref-type="bibr">60</xref>]. Random Forest is a meta-estimator which fits a number of decision trees on various subsamples of the dataset. Then, it averages the results in order to improve predictive accuracy and control overfitting [<xref rid="B61" ref-type="bibr">61</xref>]. An AdaBoost classifier is a short form for Adaptive Boosting meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset. It is powerful and flexible and can be used in conjunction with many other types of learning algorithms in order to improve performance [<xref rid="B39" ref-type="bibr">38</xref>]. Lastly, ExtraTree classifier is a meta-estimator that fits a number of randomized decision trees on various subsamples of the dataset and uses averaging to improve the prediction accuracy and control overfitting [<xref rid="B62" ref-type="bibr">62</xref>].</p>
+              </sec>
+              <sec id="sec2.7">
+                <title>2.7. Data Imbalance Problem</title>
+                <p>The collected dataset is imbalanced at a rate of 0.07 as shown in <xref ref-type="fig" rid="fig6">Figure 6</xref>. The data imbalance problem is one of the major challenges in the field of machine learning [<xref rid="B63" ref-type="bibr">63</xref>]. This is because most of the machine learning algorithms assume that dataset is equally distributed. In the case of this study, the majority class which is<italic> NO Cholera (0)</italic> has dominated the prediction value. Hence our prediction poorly classifies the observation of the minority class, which is<italic> YES Cholera (1)</italic>. We performed oversampling by using Adaptive Synthetic Sampling Approach (ADASYN), which is an improved version of Synthetic Minority Oversampling Technique (SMOTE) in order to restore sampling balance. ADASYN was selected because it can easily reduce the learning bias introduced by the original imbalance data distribution and also it adaptively shifts the decision boundary towards the difficulty to learn samples. In addition, ADASYN is independent of underlying classifier and can be easily implemented [<xref rid="B64" ref-type="bibr">64</xref>]. Furthermore, we also performed decomposition or dimensional reduction of the dataset with Principal Component Analysis (PCA). PCA reduces the high dimensionality of data by selecting an optimal feature from the original dataset [<xref rid="B65" ref-type="bibr">65</xref>].</p>
+              </sec>
+              <sec id="sec2.8">
+                <title>2.8. Model Evaluation Metrics</title>
+                <p>At this stage, we evaluated the seven best supervised machine learning algorithms in order to select the best fit model. Based on the nature of cholera dataset, we used balanced-accuracy, sensitivity, and specificity metrics to evaluate the performance of the models as shown in <xref rid="tab5" ref-type="table">Table 5</xref>. The balanced accuracy was performed on the dataset so that the noncholera label is not overvalued due to the number of samples present. Specificity and sensitivity are metrics parameters that together define effectively the presence or absence of specific condition such as outbreak or diseases. Sensitivity is the ability of a test to correctly classify an individual as diseased, and specificity is the ability of a test to correctly classify an individual as disease-free. <xref rid="tab4" ref-type="table"> Table 4</xref> shows the relation between sensitivity and specificity.</p>
+              </sec>
+              <sec id="sec2.9">
+                <title>2.9. Model Selection</title>
+                <p>Based on the evaluation metrics, we obtained two models with the best results. We then performed a statistical hypothesis test using the Wilcoxon sign-rank test in order to compare them and select one model for the study. The Wilcoxon sign-rank test is a nonparametric analysis that statistically compares the average of two dependent models and then assesses significant differences [<xref rid="B67" ref-type="bibr">66</xref>]. The test is very robust and efficient and does not depend on the parent distribution or parameters of the datasets. In addition, it does not require any assumption about the shape of the distribution to determine its results [<xref rid="B68" ref-type="bibr">67</xref>].</p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <title>3. Results and Discussion</title>
+              <p>This section briefly presents the results and their discussion.</p>
+              <sec id="sec3.1">
+                <title>3.1. Result</title>
+                <p>Based on the obtained results, XGBoost and K-NN perform best with respect to the chosen metrics as shown in <xref ref-type="fig" rid="fig7">Figure 7</xref>.</p>
+              </sec>
+              <sec id="sec3.2">
+                <title>3.2. Discussion</title>
+                <p>The success of machine learning in predicting cholera occurrence with linkage to the seasonal weather changes relies on the good use of data and machine learning classifier. Selecting the right machine learning model for the right problem is necessary for achieving the best results. The results from <xref ref-type="fig" rid="fig2">Figure 2</xref> and <xref rid="tab3" ref-type="table">Table 3</xref> show clearly that the K-NN and XGBoost algorithms perform well compared to the other five algorithms in terms of their sensitivity, specificity, and balanced-accuracy metrics. However, after performing the Wilcoxon sign-rank test between K-NN and XGBoost algorithms, there is insufficient evidence to differentiate the results of their metric. Based on the main objective of the study and features of the two algorithms, the XGBoost classifier was selected to be the best model for this study. This is because XGBoost algorithm is an implementation of gradient boosted decision trees designed to be highly efficient, flexible, and portable and has the ability to increase execution speed and model performance. It is greatly applicable in anomaly detection of supervised settings where data is often highly imbalanced such as DNA sequencing, credit card transactions, and cybersecurity. In addition, the XGBoosting algorithm has the parameter “scale-pos-weight” to focus on the sensitivity of the data and also provides step by step strategy to deal with imbalanced datasets. Furthermore, XGBoost is useful in decision making since it embeds decision trees in its procedures; therefore, it aligns with the main goal of the study [<xref rid="B57" ref-type="bibr">57</xref>], whereas K-NN does not work well with large datasets, data with nonhomogeneous features, high dimensional, and imbalanced conditions. In addition, K-NN has no capability of dealing with missing value problems and its accuracy can be severely degraded by the presence of irrelevant features [<xref rid="B59" ref-type="bibr">59</xref>, <xref rid="B69" ref-type="bibr">68</xref>]. With these brief details of the two models, XGBoost classifier was selected to be the best model for this study.</p>
+                <p>Furthermore, the result of data analysis indicates that there are a larger number of patients with cholera in August, September, and April than the other months. In addition, the temperature ranges from 22°C to 32°C, rainfall level is greater than 50 mm, and humidity level is greater than 75% favoring the occurrence of cholera incidences. Furthermore, based on feature importance analysis, temperature mean ranked number one, followed by rainfall, then humidity, wind speed and lastly wind direction. Moreover, the study could not be treated as a time series problem due to the poor quality of data and data collection bias. Nearly, all data is from Kinondoni district and few entries are from the other four districts. This is due to poor data collection especially in Kigamboni, Ubungo, and Temeke districts [<xref rid="B70" ref-type="bibr">69</xref>, <xref rid="B71" ref-type="bibr">70</xref>]. In addition, the independent variables do not include proper time information; therefore, the model is unable to leverage time features and cannot do fair predictions. However, with these limitations, the selected model is useful in predicting accurately cholera epidemics using future weather variables. Furthermore, the K-NN model can handle the existing large amount of data in our health sectors, reduce computational performance, and also produce timely and reliable results for early decision making [<xref rid="B41" ref-type="bibr">40</xref>, <xref rid="B72" ref-type="bibr">71</xref>]. Lastly, the study has significantly improved our understanding of how we can improve in the health-care systems and policies in Tanzania. Future work is to rerun the model with new weather datasets in order to predict cholera cases.</p>
+              </sec>
+            </sec>
+            <sec id="sec4">
+              <title>4. Conclusion</title>
+              <p>The transmission of cholera epidemics occurs in various pathways which makes its modeling very challenging. Looking further at the challenge that most of the collected cholera datasets bring such as imbalanced data, missing information and dynamic nature of its predictors such as weather variability, it becomes more difficult to formulate the suitable model. In this study, we managed to model cholera epidemics linked with weather variables. The study improved our understanding of how imbalanced dataset should be treated towards mitigating the prediction performance of the models, and the role of oversampling and machine learning strategies in health-care data. As a result, the XGBoost machine learning algorithm was selected to be the best cholera predictor based on the used dataset. The study recommends a review of health-care systems in order to facilitate quality data collection and deployment machine learning techniques, which will significantly manage the complexity of real-world problems such as data-driven analysis, decision making, prediction and eradication strategies of cholera epidemics at large scale.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The study has been funded by the African Development Bank (AfDB). The authors acknowledge the AfDB through the Nelson Mandela African Institution of Science and Technology (NM-AIST), for funding the Ph.D. and Dr. Stefan Oehmcke of the University of Oldenburg for his technical support and guidance. Sincere appreciations are due to the Ministry of Health and Social Welfare and Tanzania Metrological Agency for granting access and permission to use the cholera dataset.</p>
+            </ack>
+            <sec sec-type="data-availability">
+              <title>Data Availability</title>
+              <p>The data used to support the findings of this study are available from the corresponding author upon request.</p>
+            </sec>
+            <sec>
+              <title>Ethical Approval</title>
+              <p>No ethical approval is required based on the used dataset.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare that there are no conflicts of interest regarding the publication of this paper.</p>
+            </sec>
+            <ref-list>
+              <ref id="B1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Di</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of human dynamics on epidemic spreading in Côte d’Ivoire</article-title>
+                  <source>
+                    <italic toggle="yes">Physica A: Statistical Mechanics and its Applications</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>467</volume>
+                  <fpage>30</fpage>
+                  <lpage>40</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.physa.2016.09.059</pub-id>
+                  <pub-id pub-id-type="other">MR3575112</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>H. S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Singleton</surname>
+                      <given-names>F. L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Attwell</surname>
+                      <given-names>R. W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimes</surname>
+                      <given-names>D. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Colwell</surname>
+                      <given-names>R. R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Survival and viability of nonculturable Escherichia coli and Vibrio cholerae in the estuarine and marine environment</article-title>
+                  <source>
+                    <italic toggle="yes">Microbial Ecology</italic>
+                  </source>
+                  <year>1982</year>
+                  <volume>8</volume>
+                  <issue>4</issue>
+                  <fpage>313</fpage>
+                  <lpage>323</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF02010671</pub-id>
+                  <pub-id pub-id-type="pmid">24226049</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mandal</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandal</surname>
+                      <given-names>M. D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pal</surname>
+                      <given-names>N. K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cholera: a great global concern</article-title>
+                  <source>
+                    <italic toggle="yes">Asian Pacific Journal of Tropical Medicine</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>4</volume>
+                  <issue>7</issue>
+                  <fpage>573</fpage>
+                  <lpage>580</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1995-7645(11)60149-1</pub-id>
+                  <pub-id pub-id-type="pmid">21803312</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sinha</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chakraborty</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>De</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Escalating association of vibrio cholerae O139 with cholera outbreaks in India</article-title>
+                  <source>
+                    <italic toggle="yes">The Weekly Epidemiological Record</italic>
+                  </source>
+                  <year>2002</year>
+                  <volume>40</volume>
+                  <issue>7</issue>
+                  <fpage>2635</fpage>
+                  <lpage>2637</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JCM.40.7.2635-2637.2002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lessler</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>S. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Luquero</surname>
+                      <given-names>F. J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mapping the burden of cholera in sub-Saharan Africa and implications for control: an analysis of data across geographical scales</article-title>
+                  <source>
+                    <italic toggle="yes">The Lancet</italic>
+                  </source>
+                  <year>2018</year>
+                  <volume>391</volume>
+                  <issue>10133</issue>
+                  <fpage>1908</fpage>
+                  <lpage>1915</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(17)33050-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Karaolis</surname>
+                      <given-names>D. K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lan</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reeves</surname>
+                      <given-names>P. R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The sixth and seventh cholera pandemics are due to independent clones separately derived from environmental, nontoxigenic, non-O1 Vibrio cholerae.</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Bacteriology</italic>
+                  </source>
+                  <year>1995</year>
+                  <volume>177</volume>
+                  <issue>11</issue>
+                  <fpage>3191</fpage>
+                  <lpage>3198</lpage>
+                  <pub-id pub-id-type="doi">10.1128/jb.177.11.3191-3198.1995</pub-id>
+                  <pub-id pub-id-type="pmid">7768818</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lan</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reeves</surname>
+                      <given-names>P. R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pandemic spread of cholera: genetic diversity and relationships within the seventh pandemic clone of Vibrio cholerae determined by amplified fragment length polymorphism</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Clinical Microbiology</italic>
+                  </source>
+                  <year>2006</year>
+                  <volume>40</volume>
+                  <issue>1</issue>
+                  <fpage>172</fpage>
+                  <lpage>181</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JCM.40.1.172-181.2002</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-0036135021</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>C. H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tuite</surname>
+                      <given-names>A. R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fisman</surname>
+                      <given-names>D. N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Speybroeck</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Historical epidemiology of the second cholera pandemic: relevance to present day disease dynamics</article-title>
+                  <source>
+                    <italic toggle="yes">PLoS ONE</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <issue>8</issue>
+                  <fpage>p. e72498</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0072498</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Azizi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Azizi</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>History of cholera outbreaks</article-title>
+                  <source>
+                    <italic toggle="yes">Middle East Journal of Digestive Diseases</italic>
+                  </source>
+                  <year>2010</year>
+                  <volume>2</volume>
+                  <issue>1</issue>
+                  <fpage>51</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="pmid">25197514</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glass</surname>
+                      <given-names>R. I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Black</surname>
+                      <given-names>R. E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The epidemiology of cholera in India</article-title>
+                  <source>
+                    <italic toggle="yes">The Lancet</italic>
+                  </source>
+                  <year>2003</year>
+                  <volume>213</volume>
+                  <issue>5509</issue>
+                  <fpage>p. 678</fpage>
+                </element-citation>
+              </ref>
+              <ref id="B11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Towner</surname>
+                      <given-names>K. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearson</surname>
+                      <given-names>N. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mhalu</surname>
+                      <given-names>F. S.</given-names>
+                    </name>
+                    <name>
+                      <surname>O'Grady</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Resistance to antimicrobial agents of Vibrio cholerae El Tor strains isolated during the fourth cholera epidemic in the United Republic of Tanzania</article-title>
+                  <source>
+                    <italic toggle="yes">Bulletin of the World Health Organization</italic>
+                  </source>
+                  <year>1980</year>
+                  <volume>58</volume>
+                  <issue>5</issue>
+                  <fpage>747</fpage>
+                  <lpage>751</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-0019258566</pub-id>
+                  <?supplied-pmid 6975183?>
+                  <pub-id pub-id-type="pmid">6975183</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weill</surname>
+                      <given-names>F. X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Domman</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Njamkepo</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Genomic history of the seventh pandemic of cholera in Africa</article-title>
+                  <source>
+                    <italic toggle="yes">Science</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>789</volume>
+                  <fpage>785</fpage>
+                  <lpage>789</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B14">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Symington</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cholera: death by diarrhoea</article-title>
+                  <source>
+                    <italic toggle="yes">Society for General Microbiology</italic>
+                  </source>
+                  <year>2011</year>
+                  <fpage>p. 12</fpage>
+                </element-citation>
+              </ref>
+              <ref id="B15">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feachem</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drasar</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cholera epidemiology in developed and developing countries: new thoughts on transmission, seasonality, and control</article-title>
+                  <source>
+                    <italic toggle="yes">The Lancet</italic>
+                  </source>
+                  <year>1985</year>
+                  <volume>325</volume>
+                  <issue>8423</issue>
+                  <fpage>261</fpage>
+                  <lpage>263</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(85)91036-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fung</surname>
+                      <given-names>I. C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cholera transmission dynamic models for public health practitioners</article-title>
+                  <source>
+                    <italic toggle="yes">Emerging Themes in Epidemiology</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>11</lpage>
+                  <pub-id pub-id-type="doi">10.1186/1742-7622-11-1</pub-id>
+                  <pub-id pub-id-type="pmid">24520853</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reidl</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klose</surname>
+                      <given-names>K. E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Vibrio cholerae and cholera: out of the water and into the host</article-title>
+                  <source>
+                    <italic toggle="yes">FEMS Microbiology Reviews</italic>
+                  </source>
+                  <year>2002</year>
+                  <volume>26</volume>
+                  <issue>2</issue>
+                  <fpage>125</fpage>
+                  <lpage>139</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0168-6445(02)00091-8</pub-id>
+                  <pub-id pub-id-type="pmid">12069878</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Novais</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coelho</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salles</surname>
+                      <given-names>C. A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Toxin-co-regulated pilus cluster in non-O1, non-toxigenic Vibrio cholerae: evidence of a third allele of pilin gene</article-title>
+                  <source>
+                    <italic toggle="yes">FEMS Microbiology Letters</italic>
+                  </source>
+                  <year>1999</year>
+                  <volume>171</volume>
+                  <issue>1</issue>
+                  <fpage>49</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0378-1097(98)00574-6</pub-id>
+                  <pub-id pub-id-type="pmid">9987841</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siettos</surname>
+                      <given-names>C. I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Russo</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical modeling of infectious disease dynamics</article-title>
+                  <source>
+                    <italic toggle="yes">Virulence</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>4</volume>
+                  <issue>4</issue>
+                  <fpage>295</fpage>
+                  <lpage>306</lpage>
+                  <pub-id pub-id-type="doi">10.4161/viru.24041</pub-id>
+                  <pub-id pub-id-type="pmid">23552814</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lugomela</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lyimo</surname>
+                      <given-names>T. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Namkinga</surname>
+                      <given-names>L. A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moyo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>co-variation of cholera with climatic and environmental parameters in coastal regions of Tanzania</article-title>
+                  <source>
+                    <italic toggle="yes">Western Indian Ocean Journal of Marine Science</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>13</volume>
+                  <issue>1</issue>
+                  <fpage>93</fpage>
+                  <lpage>105</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B21">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Constantin de Magny</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murtugudde</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sapiano</surname>
+                      <given-names>M. R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Environmental signatures associated with cholera epidemics</article-title>
+                  <source>
+                    <italic toggle="yes">Proceedings of the National Acadamy of Sciences of the United States of America</italic>
+                  </source>
+                  <year>2008</year>
+                  <volume>105</volume>
+                  <issue>46</issue>
+                  <fpage>17676</fpage>
+                  <lpage>17681</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0809654105</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Escobar</surname>
+                      <given-names>L. E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>S. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stewart-Ibarra</surname>
+                      <given-names>A. M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A global map of suitability for coastal Vibrio cholerae under current and future climate conditions</article-title>
+                  <source>
+                    <italic toggle="yes">Acta Tropica</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>149</volume>
+                  <fpage>202</fpage>
+                  <lpage>211</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actatropica.2015.05.028</pub-id>
+                  <pub-id pub-id-type="pmid">26048558</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bwire</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mwesawina</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baluku</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanyanda</surname>
+                      <given-names>S. S. E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Orach</surname>
+                      <given-names>C. G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cross-border cholera outbreaks in Sub-Saharan Africa, the mystery behind the silent illness: What needs to be done?</article-title>
+                  <source>
+                    <italic toggle="yes">PLoS ONE</italic>
+                  </source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <issue>6</issue>
+                  <fpage>1</fpage>
+                  <lpage>15</lpage>
+                  <pub-id pub-id-type="publisher-id">e0156674</pub-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0156674</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84974805116</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stephenson</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cholera in Zimbabwe</article-title>
+                  <source>
+                    <italic toggle="yes">The Journal of the American Medical Association</italic>
+                  </source>
+                  <year>2009</year>
+                  <volume>301</volume>
+                  <issue>3</issue>
+                  <fpage>263</fpage>
+                  <lpage>263</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B25">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leckebusch</surname>
+                      <given-names>G. C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abdussalam</surname>
+                      <given-names>A. F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Health &amp; Place Climate and socioeconomic in fl uences on interannual variability of cholera in Nigeria</article-title>
+                  <source>
+                    <italic toggle="yes">Health &amp; Place</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>34</volume>
+                  <fpage>107</fpage>
+                  <lpage>117</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.healthplace.2015.04.006</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84929403447</pub-id>
+                  <pub-id pub-id-type="pmid">25997026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trærup</surname>
+                      <given-names>S. L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ortiz</surname>
+                      <given-names>R. A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Markandya</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Costs of Climate Change: A Study of Cholera in Tanzania</article-title>
+                  <source>
+                    <italic toggle="yes">International Journal of Environmental Research and Public Health</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>8</volume>
+                  <issue>12</issue>
+                  <fpage>4386</fpage>
+                  <lpage>4405</lpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph8124386</pub-id>
+                  <pub-id pub-id-type="pmid">22408580</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trærup</surname>
+                      <given-names>S. L. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ortiz</surname>
+                      <given-names>R. A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Markandya</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <source>
+                    <italic toggle="yes">The Health Impacts of Climate Change: A Study of Cholera in Tanzania</italic>
+                  </source>
+                  <year>2010</year>
+                  <volume>Bc3</volume>
+                </element-citation>
+              </ref>
+              <ref id="B28">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kwesigabo</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mwangu</surname>
+                      <given-names>M. A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kakoko</surname>
+                      <given-names>D. C.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tanzania's health system and workforce crisis</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Public Health Policy</italic>
+                  </source>
+                  <year>2012</year>
+                  <volume>33</volume>
+                  <issue>Suppl. 1</issue>
+                  <fpage>35</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1057/jphp.2012.55</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mghamba</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mboera</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krekamoo</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Challenges of implementing an Integrated Disease Surveillance and Response strategy using the current health management information system in Tanzania</article-title>
+                  <source>
+                    <italic toggle="yes">Tanzania Journal of Health Research</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>6</volume>
+                  <issue>2</issue>
+                  <fpage>57</fpage>
+                  <lpage>63</lpage>
+                  <pub-id pub-id-type="doi">10.4314/thrb.v6i2.14243</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fitzpatrick</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Engels</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Leaving no one behind: A neglected tropical disease indicator and tracers for the Sustainable Development Goals</article-title>
+                  <source>
+                    <italic toggle="yes">International Health</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>8</volume>
+                  <issue>Suppl 1</issue>
+                  <fpage>i15</fpage>
+                  <lpage>i18</lpage>
+                  <pub-id pub-id-type="doi">10.1093/inthealth/ihw002</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84960953735</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Narra R.</surname>
+                    </name>
+                    <name>
+                      <surname>Maeda</surname>
+                      <given-names>J. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Temba</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ongoing Cholera Epidemic - Tanzania, 2015-2016</article-title>
+                  <source>
+                    <italic toggle="yes">Morbidity and Mortality Weekly Report</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>66</volume>
+                  <issue>6</issue>
+                  <fpage>177</fpage>
+                  <lpage>178</lpage>
+                  <pub-id pub-id-type="pmid">28207686</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Karimuribo</surname>
+                      <given-names>E. D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mboera</surname>
+                      <given-names>L. E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mbugi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Are we prepared for emerging and re-emerging diseases? Experience and lessons from epidemics that occurred in Tanzania during the last five decades</article-title>
+                  <source>
+                    <italic toggle="yes">Tanzania Journal of Health Research</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>13</volume>
+                  <issue>5</issue>
+                  <supplement>Suppl. ISS</supplement>
+                  <fpage>1</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.4314/thrb.v13i5.8</pub-id>
+                  <pub-id pub-id-type="pmid">24409640</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Demšar</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Curk</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Erjavec</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Orange: data mining toolbox in python</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Machine Learning Research</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>14</volume>
+                  <pub-id pub-id-type="publisher-id">23492353</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chao</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning tutorial</article-title>
+                  <source>
+                    <italic toggle="yes">Digital Image and Signal Processing</italic>
+                  </source>
+                  <year>2011</year>
+                </element-citation>
+              </ref>
+              <ref id="B35">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sathya</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abraham</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of supervised and unsupervised learning algorithms for pattern classification</article-title>
+                  <source>
+                    <italic toggle="yes">International Journal of Advanced Research in Artificial Intelligence</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>2</volume>
+                  <issue>2</issue>
+                  <fpage>34</fpage>
+                  <lpage>38</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B36">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Olivera</surname>
+                      <given-names>A. R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roesler</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Iochpe</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Comparison of machine-learning algorithms to build a predictive model for detecting undiagnosed diabetes - ELSA-Brasil: accuracy study</article-title>
+                  <source>
+                    <italic toggle="yes">São Paulo Medical Journal</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>135</volume>
+                  <issue>3</issue>
+                  <fpage>234</fpage>
+                  <lpage>246</lpage>
+                  <pub-id pub-id-type="doi">10.1590/1516-3180.2016.0309010217</pub-id>
+                  <pub-id pub-id-type="pmid">28746659</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B37">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dawson</surname>
+                      <given-names>P. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Werkman</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brooks-Pollock</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tildesley</surname>
+                      <given-names>M. J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemic predictions in an imperfect world: modelling disease spread with partial data</article-title>
+                  <source>
+                    <italic toggle="yes">Proceedings of the Royal Society B Biological Science</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>282</volume>
+                  <issue>1808</issue>
+                  <fpage>20150205</fpage>
+                  <lpage>20150205</lpage>
+                  <pub-id pub-id-type="doi">10.1098/rspb.2015.0205</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Domingos</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A few useful things to know about machine learning</article-title>
+                  <source>
+                    <italic toggle="yes">Communications of the ACM</italic>
+                  </source>
+                  <year>2012</year>
+                  <volume>55</volume>
+                  <issue>10</issue>
+                  <fpage>78</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1145/2347736.2347755</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84867539048</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abuassba</surname>
+                      <given-names>A. O. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaheryar</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ali</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving classification performance through an advanced ensemble based heterogeneous extreme learning machines</article-title>
+                  <source>
+                    <italic toggle="yes">Computational Intelligence and Neuroscience</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>2017</volume>
+                  <fpage>11</fpage>
+                  <pub-id pub-id-type="publisher-id">3405463</pub-id>
+                  <pub-id pub-id-type="doi">10.1155/2017/3405463</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thessen</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adoption of machine learning techniques in ecology and earth science</article-title>
+                  <source>
+                    <italic toggle="yes">One Ecosystem</italic>
+                  </source>
+                  <year>2016</year>
+                  <volume>1</volume>
+                  <fpage>p. e8621</fpage>
+                  <pub-id pub-id-type="doi">10.3897/oneeco.1.e8621</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jordan</surname>
+                      <given-names>M. I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitchell</surname>
+                      <given-names>T. M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning: trends, perspectives, and prospects</article-title>
+                  <source>
+                    <italic toggle="yes">Science</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>349</volume>
+                  <issue>6245</issue>
+                  <fpage>255</fpage>
+                  <lpage>260</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.aaa8415</pub-id>
+                  <pub-id pub-id-type="other">MR3382217</pub-id>
+                  <pub-id pub-id-type="other">Zbl1355.68227</pub-id>
+                  <pub-id pub-id-type="pmid">26185243</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bhavsar</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganatra</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A comparative study of training algorithms for supervised machine learning</article-title>
+                  <source>
+                    <italic toggle="yes">International Journal of Soft Computing and Engineering</italic>
+                  </source>
+                  <year>2012</year>
+                  <volume>2</volume>
+                  <issue>4</issue>
+                  <fpage>74</fpage>
+                  <lpage>81</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B43">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hepworth</surname>
+                      <given-names>P. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nefedov</surname>
+                      <given-names>A. V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Muchnik</surname>
+                      <given-names>I. B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morgan</surname>
+                      <given-names>K. L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Broiler chickens can benefit from machine learning: Support vector machine analysis of observational epidemiological data</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of the Royal Society Interface</italic>
+                  </source>
+                  <year>2012</year>
+                  <volume>9</volume>
+                  <issue>73</issue>
+                  <fpage>1934</fpage>
+                  <lpage>1942</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-84865076648</pub-id>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2011.0852</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <collab>WHO</collab>
+                  <article-title>Weekly Epidemiological Record, 21 September 2018</article-title>
+                  <source>
+                    <italic toggle="yes">Wkly. Epidemiol. Rec</italic>
+                  </source>
+                  <year>2018</year>
+                  <volume>93</volume>
+                  <issue>38</issue>
+                  <fpage>489</fpage>
+                  <lpage>500</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B44">
+                <label>44</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wieringa</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Introduction to design science methodology</article-title>
+                  <conf-name>Proceedings of the REFSQ Dr. Symp.</conf-name>
+                  <conf-date>2013</conf-date>
+                  <fpage>1</fpage>
+                  <lpage>17</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B45">
+                <label>45</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Geerts</surname>
+                      <given-names>G. L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A design science research methodology and its application to accounting information systems research</article-title>
+                  <source>
+                    <italic toggle="yes">International Journal of Accounting Information Systems</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>12</volume>
+                  <issue>2</issue>
+                  <fpage>142</fpage>
+                  <lpage>151</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.accinf.2011.02.004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B46">
+                <label>46</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Naha</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chowdhury</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghosh-Banerjee</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Molecular characterization of high-level-cholera-toxin-producing el tor variant vibrio cholerae strains in the zanzibar archipelago of Tanzania</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Clinical Microbiology</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>51</volume>
+                  <issue>3</issue>
+                  <fpage>1040</fpage>
+                  <lpage>1045</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JCM.03162-12</pub-id>
+                  <pub-id pub-id-type="pmid">23325815</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B47">
+                <label>47</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Violence in Burundi triggers refugee crisis</article-title>
+                  <source>
+                    <italic toggle="yes">The Lancet</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>386</volume>
+                  <issue>9994</issue>
+                  <fpage>639</fpage>
+                  <lpage>640</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(15)61489-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B48">
+                <label>48</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trærup</surname>
+                      <given-names>S. L. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ortiz</surname>
+                      <given-names>R. A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Markandya</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The health impacts of climate change: a study of cholera in Tanzania</article-title>
+                  <source>
+                    <italic toggle="yes">Basque Centre for Climate Change</italic>
+                  </source>
+                  <year>2010</year>
+                  <fpage>1</fpage>
+                  <lpage>27</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B49">
+                <label>49</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jacobi</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Amend</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiango</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>City case study Dar es Salaam urban agriculture in Dar es Salaam: providing an indispensable part of the diet</article-title>
+                  <source>
+                    <italic toggle="yes">Growing Cities Growing Food: Urban Agriculture on the Policy Agenda</italic>
+                  </source>
+                  <year>2000</year>
+                  <fpage>257</fpage>
+                  <lpage>283</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B50">
+                <label>50</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shemsanga</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nyatichi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The cost of climate change in Tanzania?: impacts and adaptations</article-title>
+                  <source>
+                    <italic toggle="yes">American Scientist</italic>
+                  </source>
+                  <year>2010</year>
+                  <volume>6</volume>
+                  <issue>3</issue>
+                  <fpage>182</fpage>
+                  <lpage>196</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B51">
+                <label>51</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Azman</surname>
+                      <given-names>A. S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rudolph</surname>
+                      <given-names>K. E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cummings</surname>
+                      <given-names>D. A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lessler</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The incubation period of cholera: A systematic review</article-title>
+                  <source>
+                    <italic toggle="yes">Infection</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>66</volume>
+                  <issue>5</issue>
+                  <fpage>432</fpage>
+                  <lpage>438</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jinf.2012.11.013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B52">
+                <label>52</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Werner</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brandon</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gangopadhyay</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Incorporating medium-range numerical weather model output into the ensemble streamflow prediction system of the national weather service</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Hydrometeorology</italic>
+                  </source>
+                  <year>2005</year>
+                  <volume>6</volume>
+                  <issue>2</issue>
+                  <fpage>101</fpage>
+                  <lpage>114</lpage>
+                  <pub-id pub-id-type="doi">10.1175/JHM411.1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B66">
+                <label>53</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lalkhen</surname>
+                      <given-names>A. G.</given-names>
+                    </name>
+                    <name>
+                      <surname>McCluskey</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical tests: Sensitivity and specificity</article-title>
+                  <source>
+                    <italic toggle="yes">Continuing Education in Anaesthesia, Critical Care and Pain</italic>
+                  </source>
+                  <year>2008</year>
+                  <volume>8</volume>
+                  <issue>6</issue>
+                  <fpage>221</fpage>
+                  <lpage>223</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-56749107702</pub-id>
+                  <pub-id pub-id-type="doi">10.1093/bjaceaccp/mkn041</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B53">
+                <label>54</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leys</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ley</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klein</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bernard</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Licata</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Experimental Social Psychology</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>49</volume>
+                  <issue>4</issue>
+                  <fpage>764</fpage>
+                  <lpage>766</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-84877053241</pub-id>
+                  <pub-id pub-id-type="doi">10.1016/j.jesp.2013.03.013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B55">
+                <label>55</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Erik</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <source>
+                    <italic toggle="yes">Introduction to Supervised Learning</italic>
+                  </source>
+                  <year>2014</year>
+                </element-citation>
+              </ref>
+              <ref id="B56">
+                <label>56</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kotsiantis</surname>
+                      <given-names>S. B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Supervised machine learning: a review of classification techniques</article-title>
+                  <source>
+                    <italic toggle="yes">Informatica</italic>
+                  </source>
+                  <year>2007</year>
+                  <volume>31</volume>
+                  <issue>3</issue>
+                  <fpage>249</fpage>
+                  <lpage>268</lpage>
+                  <pub-id pub-id-type="other">MR2350486</pub-id>
+                  <pub-id pub-id-type="other">Zbl1162.68552</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B57">
+                <label>57</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mariot</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sgoifo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sauli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>I gozzi endotoracici: contributo casistico-clinico (20 casi)</article-title>
+                  <source>
+                    <italic toggle="yes">Friuli Medical</italic>
+                  </source>
+                  <year>1964</year>
+                  <volume>19</volume>
+                  <issue>6</issue>
+                </element-citation>
+              </ref>
+              <ref id="B58">
+                <label>58</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Agrawal</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Classification through machine learning technique: C4.5 algorithm based on various entropies</article-title>
+                  <source>
+                    <italic toggle="yes">International Journal of Computer Applications</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>82</volume>
+                  <issue>16</issue>
+                  <fpage>28</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.5120/14249-2444</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B59">
+                <label>59</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jadhav</surname>
+                      <given-names>S. D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Channe</surname>
+                      <given-names>H. P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparative study of K-NN, naive bayes and decision tree classification techniques</article-title>
+                  <source>
+                    <italic toggle="yes">International Journal of Science and Research (IJSR)</italic>
+                  </source>
+                  <year>2016</year>
+                  <volume>5</volume>
+                  <issue>1</issue>
+                  <fpage>1842</fpage>
+                  <lpage>1845</lpage>
+                  <pub-id pub-id-type="doi">10.21275/v5i1.NOV153131</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B60">
+                <label>60</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Blei</surname>
+                      <given-names>D. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>A. Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jordan</surname>
+                      <given-names>M. I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Latent dirichlet allocation</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Machine Learning Research</italic>
+                  </source>
+                  <year>2003</year>
+                  <volume>3</volume>
+                  <issue>3</issue>
+                  <fpage>993</fpage>
+                  <lpage>1022</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B61">
+                <label>61</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Biau</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Scornet</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Random Forest Guided Tour</article-title>
+                  <source>
+                    <italic toggle="yes">TEST</italic>
+                  </source>
+                  <year>2016</year>
+                  <volume>25</volume>
+                  <issue>2</issue>
+                  <fpage>197</fpage>
+                  <lpage>227</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11749-016-0481-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B62">
+                <label>62</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wehenkel</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ernst</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Geurts</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ensembles of extremely randomized trees and some generic applications</article-title>
+                  <source>
+                    <italic toggle="yes">CiteSeerx</italic>
+                  </source>
+                  <year>2006</year>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B63">
+                <label>63</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mao</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xue</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An ELM-based model with sparse-weighting strategy for sequential data imbalance problem</article-title>
+                  <source>
+                    <italic toggle="yes">International Journal of Machine Learning and Cybernetics</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>8</volume>
+                  <issue>4</issue>
+                  <fpage>1333</fpage>
+                  <lpage>1345</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s13042-016-0509-z</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B64">
+                <label>64</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dorn</surname>
+                      <given-names>K.-H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jobst</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Innenreinigung von Rohrleitungssystemen aus Stahl</article-title>
+                  <source>
+                    <italic toggle="yes">JOT, Journal fuer Oberflaechentechnik</italic>
+                  </source>
+                  <year>2002</year>
+                  <volume>42</volume>
+                  <issue>5</issue>
+                  <fpage>56</fpage>
+                  <lpage>57</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-0036565661</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B65">
+                <label>65</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lever</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krzywinski</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Altman</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Principal component analysis</article-title>
+                  <source>
+                    <italic toggle="yes">Nature Methods</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <issue>7</issue>
+                  <fpage>641</fpage>
+                  <lpage>642</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.4346</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B67">
+                <label>66</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sirum</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Humburg</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The experimental design ability test (EDAT)</article-title>
+                  <source>
+                    <italic toggle="yes">Bioscene</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>37</volume>
+                  <issue>1</issue>
+                  <fpage>9</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-79959833819</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B68">
+                <label>67</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Modarres</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gastwirth</surname>
+                      <given-names>J. L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hybrid test for the hypothesis of symmetry</article-title>
+                  <source>
+                    <italic toggle="yes">Journal of Applied Statistics</italic>
+                  </source>
+                  <year>1998</year>
+                  <volume>25</volume>
+                  <issue>6</issue>
+                  <fpage>777</fpage>
+                  <lpage>783</lpage>
+                  <pub-id pub-id-type="doi">10.1080/02664769822765</pub-id>
+                  <pub-id pub-id-type="other">Zbl0954.62061</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-1542605392</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B69">
+                <label>68</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haddon</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Markou</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nearest-Neighbour Classifiers in Natural Scene Analysis</article-title>
+                  <source>
+                    <italic toggle="yes">Pattern Recognition</italic>
+                  </source>
+                  <year>2001</year>
+                  <volume>34</volume>
+                  <issue>8</issue>
+                  <fpage>1601</fpage>
+                  <lpage>1612</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B70">
+                <label>69</label>
+                <element-citation publication-type="journal">
+                  <collab>World Health Organization</collab>
+                  <article-title>The 2015 cholera report</article-title>
+                  <source>
+                    <italic toggle="yes">The Weekly Epidemiological Record (WER)</italic>
+                  </source>
+                  <year>2016</year>
+                  <volume>38</volume>
+                  <fpage>433</fpage>
+                  <lpage>440</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B71">
+                <label>70</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Madon</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anifalaje</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lazarro-Malecela</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Michael</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Integrated health information systems in Tanzania: experience and challenges</article-title>
+                  <source>
+                    <italic toggle="yes">The Electronic Journal of Information Systems in Developing Countries</italic>
+                  </source>
+                  <year>2017</year>
+                  <volume>33</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>21</lpage>
+                  <pub-id pub-id-type="doi">10.1002/j.1681-4835.2008.tb00227.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B72">
+                <label>71</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dietterich</surname>
+                      <given-names>T. G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning in ecosystem informatics and sustainability</article-title>
+                  <conf-name>Proceedings of the 21st International Joint Conference on Artificial Intelligence, IJCAI-09</conf-name>
+                  <conf-date>July 2009</conf-date>
+                  <conf-loc>USA</conf-loc>
+                  <fpage>8</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-78751679671</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="fig1" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Cholera cases reported by WHO by a year and by continent from 1989 to 2017 [<xref rid="B13" ref-type="bibr">43</xref>].</p>
+              </caption>
+              <graphic xlink:href="TSWJ2019-9397578.001"/>
+            </fig>
+            <fig id="fig2" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Patients distribution per months.</p>
+              </caption>
+              <graphic xlink:href="TSWJ2019-9397578.002"/>
+            </fig>
+            <fig id="fig3" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>Rainfall distribution per months.</p>
+              </caption>
+              <graphic xlink:href="TSWJ2019-9397578.003"/>
+            </fig>
+            <fig id="fig4" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>Patient distribution across districts.</p>
+              </caption>
+              <graphic xlink:href="TSWJ2019-9397578.004"/>
+            </fig>
+            <fig id="fig5" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <p>Model formulation approach.</p>
+              </caption>
+              <graphic xlink:href="TSWJ2019-9397578.005"/>
+            </fig>
+            <fig id="fig6" orientation="portrait" position="float">
+              <label>Figure 6</label>
+              <caption>
+                <p>Imbalanced cholera dataset.</p>
+              </caption>
+              <graphic xlink:href="TSWJ2019-9397578.006"/>
+            </fig>
+            <fig id="fig7" orientation="portrait" position="float">
+              <label>Figure 7</label>
+              <caption>
+                <p>Results of sensitivity, specificity, and balanced-accuracy metrics.</p>
+              </caption>
+              <graphic xlink:href="TSWJ2019-9397578.007"/>
+            </fig>
+            <table-wrap id="tab1" orientation="portrait" position="float">
+              <label>Table 1</label>
+              <caption>
+                <p>Description of data for daily seasonal weather changes.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1">Variable</th>
+                    <th align="center" rowspan="1" colspan="1">Description</th>
+                    <th align="center" rowspan="1" colspan="1">SI Unit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_max</td>
+                    <td align="center" rowspan="1" colspan="1">Minimum Temperature</td>
+                    <td align="center" rowspan="1" colspan="1">Degree centigrade (°C)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_mean</td>
+                    <td align="center" rowspan="1" colspan="1">Mean Temperature</td>
+                    <td align="center" rowspan="1" colspan="1">Degree centigrade (°C)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_min</td>
+                    <td align="center" rowspan="1" colspan="1">Maximum Temperature</td>
+                    <td align="center" rowspan="1" colspan="1">Degree centigrade (°C)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_range</td>
+                    <td align="center" rowspan="1" colspan="1">Temperature Range</td>
+                    <td align="center" rowspan="1" colspan="1">Degree centigrade (°C)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Rainfall</td>
+                    <td align="center" rowspan="1" colspan="1">Rainfall</td>
+                    <td align="center" rowspan="1" colspan="1">Millimeter (mm)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Humidity</td>
+                    <td align="center" rowspan="1" colspan="1">Relative Humidity</td>
+                    <td align="center" rowspan="1" colspan="1">(%)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Wind_Spd</td>
+                    <td align="center" rowspan="1" colspan="1">Wind Speed</td>
+                    <td align="center" rowspan="1" colspan="1">Knots</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Wind_Dir</td>
+                    <td align="center" rowspan="1" colspan="1">Wind Direction</td>
+                    <td align="center" rowspan="1" colspan="1">Degrees</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="tab2" orientation="portrait" position="float">
+              <label>Table 2</label>
+              <caption>
+                <p>Description of cholera cases data with regards to patient details.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1">Variable</th>
+                    <th align="center" rowspan="1" colspan="1">Description</th>
+                    <th align="center" rowspan="1" colspan="1">SI Unit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">District</td>
+                    <td align="center" rowspan="1" colspan="1">District Names</td>
+                    <td align="center" rowspan="1" colspan="1">Dar es Salaam Districts</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Date</td>
+                    <td align="center" rowspan="1" colspan="1">Date on set</td>
+                    <td align="center" rowspan="1" colspan="1">Date Month Year</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Result</td>
+                    <td align="center" rowspan="1" colspan="1">Lab result</td>
+                    <td align="center" rowspan="1" colspan="1">Yes or No</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="tab3" orientation="portrait" position="float">
+              <label>Table 3</label>
+              <caption>
+                <p>Statistical data description of cholera cases using count, mean, std, min, max, and percentile.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1"> </th>
+                    <th align="center" rowspan="1" colspan="1">count</th>
+                    <th align="center" rowspan="1" colspan="1">mean</th>
+                    <th align="center" rowspan="1" colspan="1">std</th>
+                    <th align="center" rowspan="1" colspan="1">min</th>
+                    <th align="center" rowspan="1" colspan="1">25%</th>
+                    <th align="center" rowspan="1" colspan="1">50%</th>
+                    <th align="center" rowspan="1" colspan="1">75%</th>
+                    <th align="center" rowspan="1" colspan="1">max</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Rainfall</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">1.962</td>
+                    <td align="center" rowspan="1" colspan="1">7.518</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0.2</td>
+                    <td align="center" rowspan="1" colspan="1">105.1</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_max</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">31.343</td>
+                    <td align="center" rowspan="1" colspan="1">1.816</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">30</td>
+                    <td align="center" rowspan="1" colspan="1">31.1</td>
+                    <td align="center" rowspan="1" colspan="1">32.7</td>
+                    <td align="center" rowspan="1" colspan="1">36.3</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_min</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">22.496</td>
+                    <td align="center" rowspan="1" colspan="1">2.505</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">21</td>
+                    <td align="center" rowspan="1" colspan="1">21.4</td>
+                    <td align="center" rowspan="1" colspan="1">24.2</td>
+                    <td align="center" rowspan="1" colspan="1">28.8</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_mean</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">26.92</td>
+                    <td align="center" rowspan="1" colspan="1">1.854</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">25.5</td>
+                    <td align="center" rowspan="1" colspan="1">26.7</td>
+                    <td align="center" rowspan="1" colspan="1">28.2</td>
+                    <td align="center" rowspan="1" colspan="1">31.55</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Temp_range</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">8.847</td>
+                    <td align="center" rowspan="1" colspan="1">2.323</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">7.5</td>
+                    <td align="center" rowspan="1" colspan="1">9</td>
+                    <td align="center" rowspan="1" colspan="1">10.4</td>
+                    <td align="center" rowspan="1" colspan="1">16.4</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Humidity</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">78.835</td>
+                    <td align="center" rowspan="1" colspan="1">5.2</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">75</td>
+                    <td align="center" rowspan="1" colspan="1">78</td>
+                    <td align="center" rowspan="1" colspan="1">81</td>
+                    <td align="center" rowspan="1" colspan="1">97</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Wind_Dir</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">117.32</td>
+                    <td align="center" rowspan="1" colspan="1">91.23</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">50</td>
+                    <td align="center" rowspan="1" colspan="1">120</td>
+                    <td align="center" rowspan="1" colspan="1">160</td>
+                    <td align="center" rowspan="1" colspan="1">360</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Wind_Spd</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">5.33</td>
+                    <td align="center" rowspan="1" colspan="1">3.706</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">3</td>
+                    <td align="center" rowspan="1" colspan="1">5</td>
+                    <td align="center" rowspan="1" colspan="1">8</td>
+                    <td align="center" rowspan="1" colspan="1">18</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">result</td>
+                    <td align="center" rowspan="1" colspan="1">2951</td>
+                    <td align="center" rowspan="1" colspan="1">0.07</td>
+                    <td align="center" rowspan="1" colspan="1">0.255</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="tab4" orientation="portrait" position="float">
+              <label>Table 4</label>
+              <caption>
+                <p>Description of sensitivity and specificity [<xref rid="B66" ref-type="bibr">53</xref>].</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1"> </th>
+                    <th align="center" rowspan="1" colspan="1">Disease present</th>
+                    <th align="center" rowspan="1" colspan="1">Disease absent</th>
+                    <th align="center" rowspan="1" colspan="1">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Test positive</td>
+                    <td align="center" rowspan="1" colspan="1">a (TP)</td>
+                    <td align="center" rowspan="1" colspan="1">b (FP)</td>
+                    <td align="center" rowspan="1" colspan="1">all cases</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Test negative</td>
+                    <td align="center" rowspan="1" colspan="1">c (FN)</td>
+                    <td align="center" rowspan="1" colspan="1">d (TN)</td>
+                    <td align="center" rowspan="1" colspan="1">all noncases</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1"> </td>
+                    <td align="center" rowspan="1" colspan="1">all diseased</td>
+                    <td align="center" rowspan="1" colspan="1">all nondiseased</td>
+                    <td align="center" rowspan="1" colspan="1">all participants in the study</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1"> </td>
+                    <td align="center" rowspan="1" colspan="1">Sensitivity= a/(a+c)</td>
+                    <td align="center" rowspan="1" colspan="1">Specificity= d/(b+d)</td>
+                    <td align="center" rowspan="1" colspan="1"> </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn>
+                  <p><italic>Note:</italic> TP: True Positive, TN: True Negative, FP: False Positive, and FN: False Negative.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <table-wrap id="tab5" orientation="portrait" position="float">
+              <label>Table 5</label>
+              <caption>
+                <p>Classifiers with a detailed range of sensitivity, specificity, and balanced accuracy.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1">Classifiers</th>
+                    <th align="center" rowspan="1" colspan="1">Sensitivity score</th>
+                    <th align="center" rowspan="1" colspan="1">Specificity score</th>
+                    <th align="center" rowspan="1" colspan="1">Balanced accuracy score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4" align="left" rowspan="1">
+                      <italic>Plain Classifiers </italic>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">XGB</td>
+                    <td align="center" rowspan="1" colspan="1">0.055+-0.08</td>
+                    <td align="center" rowspan="1" colspan="1">0.995+-0.006</td>
+                    <td align="center" rowspan="1" colspan="1">0.525+-0.04</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">K-NN</td>
+                    <td align="center" rowspan="1" colspan="1">0.095+-0.103</td>
+                    <td align="center" rowspan="1" colspan="1">0.985+-0.014</td>
+                    <td align="center" rowspan="1" colspan="1">0.54+-0.053</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">DT</td>
+                    <td align="center" rowspan="1" colspan="1">0.119+-0.116</td>
+                    <td align="center" rowspan="1" colspan="1">0.98+-0.016</td>
+                    <td align="center" rowspan="1" colspan="1">0.549+-0.061</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">RF</td>
+                    <td align="center" rowspan="1" colspan="1">0.166+-0.137</td>
+                    <td align="center" rowspan="1" colspan="1">0.981+-0.016</td>
+                    <td align="center" rowspan="1" colspan="1">0.574+-0.072</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">ExtraTrees</td>
+                    <td align="center" rowspan="1" colspan="1">0.114+-0.113</td>
+                    <td align="center" rowspan="1" colspan="1">0.984+-0.015</td>
+                    <td align="center" rowspan="1" colspan="1">0.549+-0.06</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">AdaBoost</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0.997+-0.005</td>
+                    <td align="center" rowspan="1" colspan="1">0.498+-0.003</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">LDA</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">1</td>
+                    <td align="center" rowspan="1" colspan="1">0.5</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" align="left" rowspan="1">
+                      <italic>Oversampling Classifiers</italic>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">XGB</td>
+                    <td align="center" rowspan="1" colspan="1">0.801+-0.148</td>
+                    <td align="center" rowspan="1" colspan="1">0.742+-0.053</td>
+                    <td align="center" rowspan="1" colspan="1">0.772+-0.079</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">K-NN</td>
+                    <td align="center" rowspan="1" colspan="1">0.656+-0.24</td>
+                    <td align="center" rowspan="1" colspan="1">0.83+-0.042</td>
+                    <td align="center" rowspan="1" colspan="1">0.743+-0.123</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">DT</td>
+                    <td align="center" rowspan="1" colspan="1">0.579+-0.17</td>
+                    <td align="center" rowspan="1" colspan="1">0.882+-0.032</td>
+                    <td align="center" rowspan="1" colspan="1">0.73+-0.09</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">RF</td>
+                    <td align="center" rowspan="1" colspan="1">0.632+-0.156</td>
+                    <td align="center" rowspan="1" colspan="1">0.88+-0.034</td>
+                    <td align="center" rowspan="1" colspan="1">0.756+-0.085</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">ExtraTrees</td>
+                    <td align="center" rowspan="1" colspan="1">0.589+-0.161</td>
+                    <td align="center" rowspan="1" colspan="1">0.88+-0.032</td>
+                    <td align="center" rowspan="1" colspan="1">0.734+-0.085</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">AdaBoost</td>
+                    <td align="center" rowspan="1" colspan="1">0.708+-0.206</td>
+                    <td align="center" rowspan="1" colspan="1">0.707+-0.058</td>
+                    <td align="center" rowspan="1" colspan="1">0.707+-0.103</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">LDA</td>
+                    <td align="center" rowspan="1" colspan="1">0.593+-0.23</td>
+                    <td align="center" rowspan="1" colspan="1">0.594+-0.051</td>
+                    <td align="center" rowspan="1" colspan="1">0.593+-0.111</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" align="left" rowspan="1">
+                      <italic>PCA Classifiers</italic>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">XGB</td>
+                    <td align="center" rowspan="1" colspan="1">0.056+-0.096</td>
+                    <td align="center" rowspan="1" colspan="1">0.9912+-0.01</td>
+                    <td align="center" rowspan="1" colspan="1">0.524+-0.049</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">K-NN</td>
+                    <td align="center" rowspan="1" colspan="1">0.061+-0.09</td>
+                    <td align="center" rowspan="1" colspan="1">0.989+-0.013</td>
+                    <td align="center" rowspan="1" colspan="1">0.525+-0.045</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">DT</td>
+                    <td align="center" rowspan="1" colspan="1">0.119+-0.117</td>
+                    <td align="center" rowspan="1" colspan="1">0.983+-0.015</td>
+                    <td align="center" rowspan="1" colspan="1">0.551+-0.062</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">RF</td>
+                    <td align="center" rowspan="1" colspan="1">0.153+-0.121</td>
+                    <td align="center" rowspan="1" colspan="1">0.983+-0.016</td>
+                    <td align="center" rowspan="1" colspan="1">0.568+-0.063</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">ExtraTrees</td>
+                    <td align="center" rowspan="1" colspan="1">0.114+-0.113</td>
+                    <td align="center" rowspan="1" colspan="1">0.984+-0.015</td>
+                    <td align="center" rowspan="1" colspan="1">0.549+-0.06</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">AdaBoost</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">0.999+-0.004</td>
+                    <td align="center" rowspan="1" colspan="1">0.5</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">LDA</td>
+                    <td align="center" rowspan="1" colspan="1">0</td>
+                    <td align="center" rowspan="1" colspan="1">1</td>
+                    <td align="center" rowspan="1" colspan="1">0.5</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" align="left" rowspan="1">
+                      <italic>PCA/Oversampling Classifiers</italic>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">XGB</td>
+                    <td align="center" rowspan="1" colspan="1">0.805+-0.169</td>
+                    <td align="center" rowspan="1" colspan="1">0.73+-0.05</td>
+                    <td align="center" rowspan="1" colspan="1">0.767+-0.09</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">K-NN</td>
+                    <td align="center" rowspan="1" colspan="1">0.705+-0.199</td>
+                    <td align="center" rowspan="1" colspan="1">0.828+-0.034</td>
+                    <td align="center" rowspan="1" colspan="1">0.767+-0.105</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">DT</td>
+                    <td align="center" rowspan="1" colspan="1">0.596+-0.163</td>
+                    <td align="center" rowspan="1" colspan="1">0.879+-0.032</td>
+                    <td align="center" rowspan="1" colspan="1">0.737+-0.086</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">RF</td>
+                    <td align="center" rowspan="1" colspan="1">0.645+-0.155</td>
+                    <td align="center" rowspan="1" colspan="1">0.877+-0.031</td>
+                    <td align="center" rowspan="1" colspan="1">0.761+-0.082</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">ExtraTrees</td>
+                    <td align="center" rowspan="1" colspan="1">0.585+-0.19</td>
+                    <td align="center" rowspan="1" colspan="1">0.879654+-0.033950</td>
+                    <td align="center" rowspan="1" colspan="1">0.732+-0.102</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">AdaBoost</td>
+                    <td align="center" rowspan="1" colspan="1">0.691+-0.168</td>
+                    <td align="center" rowspan="1" colspan="1">0.731+-0.040</td>
+                    <td align="center" rowspan="1" colspan="1">0.711+-0.087</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">LDA</td>
+                    <td align="center" rowspan="1" colspan="1">0.534+-0.226</td>
+                    <td align="center" rowspan="1" colspan="1">0.622+-0.072</td>
+                    <td align="center" rowspan="1" colspan="1">0.578+-0.117</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

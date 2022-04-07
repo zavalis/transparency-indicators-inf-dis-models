@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:47:10Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8568588" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8568588</identifier>
+        <datestamp>2021-11-15</datestamp>
+        <setSpec>aimsph</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">AIMS Public Health</journal-id>
+              <journal-id journal-id-type="iso-abbrev">AIMS Public Health</journal-id>
+              <journal-id journal-id-type="publisher-id">PublicHealth</journal-id>
+              <journal-title-group>
+                <journal-title>AIMS Public Health</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2327-8994</issn>
+              <publisher>
+                <publisher-name>AIMS Press</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8568588</article-id>
+              <article-id pub-id-type="pmcid">PMC8568588</article-id>
+              <article-id pub-id-type="pmc-uid">8568588</article-id>
+              <article-id pub-id-type="pmid">34786422</article-id>
+              <article-id pub-id-type="publisher-id">publichealth-08-04-048</article-id>
+              <article-id pub-id-type="doi">10.3934/publichealth.2021048</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A comparative study of SIR Model, Linear Regression, Logistic Function and ARIMA Model for forecasting COVID-19 cases</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Abolmaali</surname>
+                    <given-names>Saina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="corresp" rid="cor1">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shirzaei</surname>
+                    <given-names>Samira</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Department of Industrial and Systems Engineering, Auburn University, 345 W Magnolia Ave, Auburn, AL 36849, USA</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Department of Computer Information System &amp; Analytics , University of Central Arkansas, 201 Donaghey Ave, Conway, AR 72035, USA</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1"><bold>* Correspondence:</bold> Email: <email>sza0129@auburn.edu</email>.</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>26</day>
+                <month>8</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>8</volume>
+              <issue>4</issue>
+              <fpage>598</fpage>
+              <lpage>613</lpage>
+              <history>
+                <date date-type="received">
+                  <day>12</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>29</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 the Author(s), licensee AIMS Press</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>the Author(s)</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0</ext-link>)</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Starting February 2020, COVID-19 was confirmed in 11,946 people worldwide, with a mortality rate of almost 2%. A significant number of epidemic diseases consisting of human Coronavirus display patterns. In this study, with the benefit of data analytic, we develop regression models and a Susceptible-Infected-Recovered (SIR) model for the contagion to compare the performance of models to predict the number of cases. First, we implement a good understanding of data and perform Exploratory Data Analysis (EDA). Then, we derive parameters of the model from the available data corresponding to the top 4 regions based on the history of infections and the most infected people as of the end of August 2020. Then models are compared, and we recommend further research.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>COVID-19</kwd>
+                <kwd>epidemiology</kwd>
+                <kwd>SIR</kwd>
+                <kwd>linear regression</kwd>
+                <kwd>logistic function</kwd>
+                <kwd>ARIMA</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <label>1.</label>
+              <title>Introduction</title>
+              <p>A pandemic is defined as “an epidemic occurring worldwide, over a very wide area, crossing international boundaries, and usually affecting a large number of people” <xref rid="b1" ref-type="bibr">[1]</xref>. Since this is a broad definition that could include seasonal epidemics (which are discarded pandemics), the transmissibility and severity of a disease can be measured to characterize and further describe it. One metric used to measure the transmissibility of a disease is the effective reproduction number (R), which represents the average number of persons infected by one single infectious individual. A measure of severity is the case fatality ratio, which represents the number of deaths caused by the disease. The World Health Organization (WHO) lists nineteen(19) pandemic, epidemic diseases: Chikungunya, Cholera, Crimean-Congo hemorrhagic fever, Ebola virus, Hendra virus infection, Influenza (pandemic, seasonal, zoonotic), Lassa fever, Marburg virus disease, Meningitis, MERS-CoV, Monkeypox, Nipah virus infection, Plague, Rift Valley fever, SARS, Smallpox, Tularaemia, Yellow fever, and Zika virus disease <xref rid="b2" ref-type="bibr">[2]</xref>. On March 11, 2020, the WHO declared the novel coronavirus (2019-nCoV) a global pandemic, adding the twentieth disease to this list <xref rid="b3" ref-type="bibr">[3]</xref>. On April 25, 2020, the number of confirmed cases reached 2,810,325 and the number of confirmed deaths 193,825, affecting in this way 213 countries, areas, or territories <xref rid="b4" ref-type="bibr">[4]</xref>.</p>
+              <p>Some papers discussed the international trade as driver of virus spread <xref rid="b5" ref-type="bibr">[5]</xref>–<xref rid="b7" ref-type="bibr">[7]</xref>. Some studies discuss SARS-CoV-2 and the corresponding disease <xref rid="b8" ref-type="bibr">[8]</xref>–<xref rid="b10" ref-type="bibr">[10]</xref> Many researches have discussed the matter as of the effective reproduction numbers <xref rid="b11" ref-type="bibr">[11]</xref>, <xref rid="b12" ref-type="bibr">[12]</xref>. Many researches cover the environmental effect of COVID-19. A study tries to find the connection between weather factors and the spread of virus <xref rid="b13" ref-type="bibr">[13]</xref>. Coccia, in his study, discussed the geo-environmental effect on the spread of the COVID-19. Data from North Italy showed a high association between air pollution and the number of infected individuals <xref rid="b14" ref-type="bibr">[14]</xref>–<xref rid="b18" ref-type="bibr">[18]</xref>. Regarding the spread of the COVID-19 in another work, he discussed geo-ecological determinants of the sped-up dissemination of COVID-19 <xref rid="b19" ref-type="bibr">[19]</xref>. Following his work he also developed two indexes which measure the exhibition to confront pandemic dangers by nations, also discussed economic growth of nations <xref rid="b20" ref-type="bibr">[20]</xref>, <xref rid="b21" ref-type="bibr">[21]</xref>. Another study has assessed the connection between ecological contamination determinants and the COVID-19 flare-up in California <xref rid="b22" ref-type="bibr">[22]</xref>.</p>
+              <p>Although there are still many questions about this disease, data is being collected and used to learn more about this disease. This study seeks to predict the number of confirmed cases and the number of deaths with the epidemic model and data analytical models. Data analytic have been used in many different areas such as transportation, finance <xref rid="b23" ref-type="bibr">[23]</xref> and healthcare. Pandemics have been a topic of interest to several researchers in the data analytic field. Consequently, researchers have been used different models to study the behavior of the data, gain some insight, and draw conclusions. One popular model that is being used is the SIR model. One of the most recent pandemics (before COVID-19) was the H1N1 <xref rid="b24" ref-type="bibr">[24]</xref>. According to the Centers for Disease Control and Prevention (CDC), between April 12, 2009, and April 10, 2010, the number of cases reported was 60.8 million and the number of deaths 12,469 in the United States <xref rid="b25" ref-type="bibr">[25]</xref>. Ebola (first discovered in 1976) had a recent large outbreak in West Africa (2014–2016). In this significant outbreak, there were 28,652 cases and 11,325 deaths according to the CDC <xref rid="b26" ref-type="bibr">[26]</xref>.</p>
+              <p>Chowell et al. <xref rid="b27" ref-type="bibr">[27]</xref> discussed the most common modeling approaches used to study and analyze the early spread of an epidemic. These approaches include meta population spatial models, individual-based network models, examining early growth from spatial models (including the SIR model), SIR model with reactive behavior changes, and SIR model with inhomogeneous mixing. The authors identified a gap that requires the incorporation of imperative epidemic features, such as a flexible epidemic growth (from polynomial to exponential dynamics). Mutalik <xref rid="b28" ref-type="bibr">[28]</xref> provided a literature review of mathematical models used to predict H1N1 outbreaks. The author included thirty-one (31) articles; nine (9) of them used the SIR model, and the other nine (9) use the SIER model. Other models included: SIS; Compartmental Model; combined model; combined model with SIER – two models only; early exponential growth rate, simple SIER model and complex SIER model, stochastic SIR model; the combination of SIS, SIR, SIER. The author found that the most used mathematical model was the SIER model. The author concluded that a mathematical model along with another secondary model would generate a better prediction.</p>
+              <p>Zhan et al. <xref rid="b29" ref-type="bibr">[29]</xref> used COVID-19 historical data of 367 cities in China and obtained the set of parameters of the augmented Susceptible - Exposed-Infected-Removed (SEIR) model for each city; to create a set of profile codes representing a variety of transmission mechanisms and contact topology. They compared data of the early outbreak of a given population with the complete set of historical profiles. Then, they selected the best-fit profiles and used the corresponding sets of profile codes for predicting the future progression of the epidemic in that population. They applied the method to the data of South Korea, Italy, and Iran. The results showed that peaks of infection cases were expected to happen before the end of March 2020. Moreover, the percentage of the population infected in each city would be less than 0.01%, 0.05% and 0.02%, for South Korea, Italy, and Iran, respectively. In another research Lover and McAndrew <xref rid="b30" ref-type="bibr">[30]</xref> used the exponential growth model and epidemiological parameters from the epidemic in Wuhan, China to forecast cumulative infections in the United States. Their forecast results showed that a significant number of infections are undetected, and without considerable non-pharmaceutical interventions, the number of infections are expected to grow exponentially. In another work, Liu et al. <xref rid="b31" ref-type="bibr">[31]</xref> used the SEIR model combined with network-driven dynamics to simulate the spread of COVID-19 in the United States accounting for the domestic air traffic occurring amongst the 50 US states, Washington DC, and Puerto Rico. Based on the model predictions for March 14 to March 16, if no containment plans were done, the national epidemic peak could be expected to arrive by early June, corresponding to a daily active count of 7% of the US population. Their results showed that Epidemic peaks were expected to arrive in the Washington and New York states by May 21 and 25, respectively. They also reported that the epidemic progression could be delayed by up to 34 days with a modest 25% reduction in COVID-19 transmissibility via community-level interventions. One work has discussed the prediction of cases in United States using ARIMA and SARIMA models <xref rid="b32" ref-type="bibr">[32]</xref>. Another model was implemented by Roosa et al. <xref rid="b33" ref-type="bibr">[33]</xref>. They used three phenomenological models to do short-term forecasts in real time. The models had been previously used to perform short-term forecasts for several infectious diseases, including SARS, Ebola, pandemic influenza, and dengue. The generalized logistic growth model (GLM) extended the simple logistic growth model to accommodate sub-exponential growth dynamics with a scaling of growth parameter, p. The Richards model also included a scaling parameter, a, to allow for deviation from the symmetric logistic curve. They also included a sub-epidemic wave model that supports complex epidemic trajectories, including multiple peaks. Based on data up until February 9, 2020, their forecasts agreed across the three models presented to a large extent and predicted an average range of 7409–7496 additional confirmed cases in Hubei and 1128–1929 additional cases in other provinces within the next five days. Models also predicted an average total cumulative case count between 37,415 and 38,028 in Hubei and 11,588–13,499 in other provinces by February 24, 2020. Taking into account the nature of the epidemic disease data is time series, Gupta and Pal <xref rid="b34" ref-type="bibr">[34]</xref> applied the ARIMA model to predict the future trends in India. Based on their forecasts generated by the ARIMA model, the number of infected cases in India may go up to 700 thousand in the next 30 days in the worst-case scenario. However, the most optimistic scenario may show the numbers up to 1000–1200. Moreover, the average number of infected cases predicted by the ARIMA model was around 7000 in the next 30 days while the current number was 536. Some studies have discussed the inefficiency of the SIR model and developed a modified SIR model <xref rid="b35" ref-type="bibr">[35]</xref>–<xref rid="b37" ref-type="bibr">[37]</xref>. A study used the Susceptible-Infectious-Recovered-Dead (SIDR) model and data of the COVID-19 spread in Hubei, China from January 11 to February 10, 2020, to estimate the parameters of basic reproduction number <italic>R</italic><sub>0</sub> (2.6 based on confirmed cases and almost 2 considering twenty times the number of confirmed cases and forty times the number of recovered) and per day infection mortality (0.15% considering the second scenario) and recovery rates. The authors also predicted that the epicenter would be on February 29, 2020, with a cumulative number of infected of 45,000–180,000 and a number of deaths of more than 2,700 <xref rid="b38" ref-type="bibr">[38]</xref>. Read et al. <xref rid="b39" ref-type="bibr">[39]</xref> applied a fitted a deterministic SEIR meta population transmission model with an assumed four (4) days incubation period (based on a SARS approximation) to estimate the <italic>R</italic><sub>0</sub>, which ranges between 3.6 and 4.0. Moreover, they estimated a transmission rate of 1.07 within Wuhan. The authors estimate that only 5.1% (with a 95% confidence interval) of infections in Wuhan are identified. They also predict more than 190,000 cases by February 4, 2020.</p>
+              <p>While different models have been proposed <xref rid="b40" ref-type="bibr">[40]</xref>, <xref rid="b41" ref-type="bibr">[41]</xref>, it is hard to predict the number of cases because non identifiability in model alignments utilizing the affirmed case information <xref rid="b42" ref-type="bibr">[42]</xref>. To compare this study with previous researches, one study has compared the SEIR model with the polynomial model and SEIR showed better results in long term <xref rid="b43" ref-type="bibr">[43]</xref>. Another work compares The SIR and the ARIMA model and showed the ARIMA model outperforms the SIR model <xref rid="b44" ref-type="bibr">[44]</xref>. This work tries to give a good understanding of the data by providing data visualization in different models. In the next step, we are trying to investigate the modeling and prediction based on each model. We have used logistic function, linear regression, SIR model which is the well-known epidemiologic model, and ARIMA model a time series model to define and predict the number of cases for four countries. These four countries are selected based on the highest number of infected individuals at the period of study. The rest of the study is classified as materials and methods in the second part which describes the data and model used, results and discussion which clarify the outcomes of the models, and conclusion at the end.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <label>2.</label>
+              <title>Materials and method</title>
+              <sec id="s2.1">
+                <label>2.1.</label>
+                <title>Sample and data</title>
+                <p>For this research, we have used GitHub data repository managed by Johns Hopkins University which contains daily time series summary tables, including confirmed, deaths and cases infected more than once per day. Daily data of the influenced individuals are very helpful for data scientists. All data are from the daily case report, retrieved from: <ext-link ext-link-type="uri" xlink:href="https://github.com/CSSEGISandData/COVID-19">https://github.com/CSSEGISand Data/COVID-19</ext-link>. The number of global confirmed cases and deaths since January 22 is graphically illustrated in <xref ref-type="fig" rid="publichealth-08-04-048-g001">Figure 1</xref>. It shows that the expansion begins between March and April 2020. It is important to note that this number includes the reported cases of people who have been tested. No nation knows the actual number of individuals tainted with COVID-19. All we know is the status of the individuals who have been tested. Each of them who has lab-affirmed contamination is considered as a confirmed case. This implies the tallies of affirmed cases rely upon how much a nation really tests and the reliability of results correctness. To decipher any information on the confirmed cases we have to know how much testing for COVID-19 the nation really does. Although these numbers do not exactly reflect the real situation that the world is facing, they still give valuable insight into the behavior of this disease's growth. We broke down our data sets with various EDA techniques and envisioned that information to give an adequate cognizance concerning the flare-up of COVID-19. The top four nations with the most infected patients are the USA, Brazil, India, and Russia.</p>
+                <p>We have separated the number of confirmed cases and the fatalities to show how Coronavirus is contaminating individuals in each country. This measurement offers two key experiences: initially as a proportion of how sufficient nations are testing; furthermore to assist us with understanding the spread of the infection, related to information on confirmed cases. The positive rate is a decent measurement for how satisfactorily nations are trying because it shows the degree of testing compared to the size of the episode. To have the option to appropriately screen and control the spread of the infection, nations with more boundless flare-ups need to accomplish all the more testing. For classification, regression, or forecast of a specific issue, feature selection techniques can be utilized to discover the highlights that have the most elevated effect on that issue. As indicated by <xref ref-type="fig" rid="publichealth-08-04-048-g002">Figures 2</xref> and <xref ref-type="fig" rid="publichealth-08-04-048-g003">3</xref>, it doesn't appear that the spread is controlled in any of the referenced nations. As we can see in the depicted charts, the United States has the highest number of infected patients. The figure shows that in almost 4 months of the first case announced in the United State more than 5 million people were infected and after that India has the sharpest rate of infection.</p>
+                <fig id="publichealth-08-04-048-g001" position="float">
+                  <label>Figure 1.</label>
+                  <caption>
+                    <title>Global number of confirmed cases and deceased cases.</title>
+                  </caption>
+                  <graphic xlink:href="publichealth-08-04-048-g001"/>
+                </fig>
+                <fig id="publichealth-08-04-048-g002" position="float">
+                  <label>Figure 2.</label>
+                  <caption>
+                    <title>Confirmed cases per country.</title>
+                  </caption>
+                  <graphic xlink:href="publichealth-08-04-048-g002"/>
+                </fig>
+                <fig id="publichealth-08-04-048-g003" position="float">
+                  <label>Figure 3.</label>
+                  <caption>
+                    <title>Deceased cases per country.</title>
+                  </caption>
+                  <graphic xlink:href="publichealth-08-04-048-g003"/>
+                </fig>
+              </sec>
+              <sec id="s2.2">
+                <label>2.2.</label>
+                <title>Model and data analysis</title>
+                <p>The mathematical modeling of epidemics has been the object of a vast number of studies over the past century <xref rid="b45" ref-type="bibr">[45]</xref>. Given the importance of epidemics for life on Earth in general, it is not in the least astonishing that the desire to understand their mechanism has led to the formulation of models which make possible the simulation of events for which laboratory experiments cannot be conducted easily <xref rid="b37" ref-type="bibr">[37]</xref>. The reason we have chosen the SIR model is that there is not enough evidence that the patient might not be immune to the disease. Prominent among the mathematical models of epidemics, and great historical importance, is the susceptible–infected- removed (SIR) model initially proposed by Kermack and McKendrick <xref rid="b46" ref-type="bibr">[46]</xref>. The model has been defined with three groups of healthy people who are susceptible (S), infected individuals (I), removed individuals either by them being recovered and immunized or by their death (R). Since the number of susceptible, infected, and recovered people may fluctuate over time, the SIR model is dynamic. Flowing from susceptible to infected and then recovered could be showed in the <xref ref-type="fig" rid="publichealth-08-04-048-g004">Figure 4</xref>.</p>
+                <p>In this model, the infection rate is <italic>β</italic>, which is the probability of transmitting disease between a susceptible and an infectious individual. <italic>γ</italic> is the recovery rate. <italic>N</italic> is defined as population and is equal to <italic>N</italic> = <italic>S</italic> + <italic>I</italic> + <italic>R</italic>. We can write the SIR model as the following differential equation:</p>
+                <p>
+                  <disp-formula id="eq001">
+                    <mml:math id="eq001a">
+                      <mml:mrow>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>S</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                        </mml:mfrac>
+                        <mml:mo>=</mml:mo>
+                        <mml:mo>−</mml:mo>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mi>β</mml:mi>
+                            <mml:mi>S</mml:mi>
+                            <mml:mi>I</mml:mi>
+                          </mml:mrow>
+                          <mml:mi>N</mml:mi>
+                        </mml:mfrac>
+                      </mml:mrow>
+                    </mml:math>
+                    <label>(1)</label>
+                  </disp-formula>
+                </p>
+                <p>
+                  <disp-formula id="eq002">
+                    <mml:math id="eq002a">
+                      <mml:mrow>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>I</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                        </mml:mfrac>
+                        <mml:mo>=</mml:mo>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mi>β</mml:mi>
+                            <mml:mi>S</mml:mi>
+                            <mml:mi>I</mml:mi>
+                          </mml:mrow>
+                          <mml:mi>N</mml:mi>
+                        </mml:mfrac>
+                        <mml:mo>−</mml:mo>
+                        <mml:mi>γ</mml:mi>
+                        <mml:mi>I</mml:mi>
+                      </mml:mrow>
+                    </mml:math>
+                    <label>(2)</label>
+                  </disp-formula>
+                </p>
+                <p>
+                  <disp-formula id="eq003">
+                    <mml:math id="eq003a">
+                      <mml:mrow>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>R</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                        </mml:mfrac>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi>γ</mml:mi>
+                        <mml:mi>I</mml:mi>
+                      </mml:mrow>
+                    </mml:math>
+                    <label>(3)</label>
+                  </disp-formula>
+                </p>
+                <fig id="publichealth-08-04-048-g004" position="float">
+                  <label>Figure 4.</label>
+                  <caption>
+                    <title>SIR following.</title>
+                  </caption>
+                  <graphic xlink:href="publichealth-08-04-048-g004"/>
+                </fig>
+                <p>To perform the SIR model we have started with 1000 as the number of population. We have used an initial number of infected equal to one and an initial number of removed equal to zero as the data set. Therefore, everyone else is susceptible to infection initially. After taking several tests on the model we have observed that the best combination of the beta and gamma for our data set would be <italic>β</italic> = 3.524 which is a mean number of contacts (sufficient to spread the disease per day that each infected individual has) and also <italic>γ</italic> = 3.45 the infected group that recovers (or dies) during any given day. In this model, we did not consider the influence of immigration because once an epidemic has started, the impact of any additional immigrants is small. The relative impact of an immigrant in the subsequent growth of the epidemic drops geometrically with the number of local infected <xref rid="b47" ref-type="bibr">[47]</xref>.</p>
+                <p>Our general surroundings are profoundly muddled. For instance, how an infection spreads, including the novel strand of Coronavirus (SARS-CoV-2) that was distinguished in Wuhan, China, relies on numerous components, among which some of them are considered by the exemplary SIR model, which is somewhat oversimplified and can't contemplate floods in the number of susceptible people. Regression models are utilized to assess or anticipate the target variable based on dependent factors. As we know regression modeling characterizes an influential technique to model and estimate the target variable. For the instance of predicting a continuous amount response variable regression is utilized, while classification is reasonable for foreseeing a discrete class label response. Subsequently, for demonstrating the number of confirmed cases after some time and anticipating future development, regression is thought of. To model the relationship between the response and the explanatory variable we are going to use linear regression. Simple linear regression is a model with a single regressor <italic>x</italic> that corresponds to a response variable <italic>y</italic>. Simple linear regression can be formulated as follow:</p>
+                <p>
+                  <disp-formula id="eq004">
+                    <mml:math id="eq004a">
+                      <mml:mrow>
+                        <mml:mi>y</mml:mi>
+                        <mml:mo>=</mml:mo>
+                        <mml:msub>
+                          <mml:mi>β</mml:mi>
+                          <mml:mn>0</mml:mn>
+                        </mml:msub>
+                        <mml:mo>+</mml:mo>
+                        <mml:msub>
+                          <mml:mi>β</mml:mi>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                        <mml:mi>x</mml:mi>
+                        <mml:mo>+</mml:mo>
+                        <mml:mi>ε</mml:mi>
+                      </mml:mrow>
+                    </mml:math>
+                    <label>(4)</label>
+                  </disp-formula>
+                </p>
+                <p>where <italic>β</italic><sub>0</sub> is intercept and <italic>β</italic><sub>1</sub> is the slope. Both of these parameters are constant. Here <italic>ε</italic> is a random error component.</p>
+                <p>The logistic equation was initially advanced in 1920 not as an advantageous depiction, yet as a law of development, and was enthusiastically condemned by statisticians and biologists for the resulting decade and a half. However, it endured and rose in an alternate setting as one of the base models of experimental populace biology in the 1930's and 1940's. The move from dismissal to acknowledgment was in no way, easy and was not just because of biologists' progressive acknowledgment of the natural value of the curve. The logistic curve portrays the development of a populace after some time. In its easiest structure it is S-shaped, balanced, and is portrayed with the equation:</p>
+                <p>
+                  <disp-formula id="eq005">
+                    <mml:math id="eq005a">
+                      <mml:mrow>
+                        <mml:mi>f</mml:mi>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>x</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo>=</mml:mo>
+                        <mml:mfrac>
+                          <mml:mi>L</mml:mi>
+                          <mml:mrow>
+                            <mml:mn>1</mml:mn>
+                            <mml:mo>+</mml:mo>
+                            <mml:msup>
+                              <mml:mi>e</mml:mi>
+                              <mml:mrow>
+                                <mml:mo>−</mml:mo>
+                                <mml:mi>k</mml:mi>
+                                <mml:mo stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo>−</mml:mo>
+                                <mml:msub>
+                                  <mml:mi>x</mml:mi>
+                                  <mml:mn>0</mml:mn>
+                                </mml:msub>
+                                <mml:mo stretchy="false">)</mml:mo>
+                              </mml:mrow>
+                            </mml:msup>
+                          </mml:mrow>
+                        </mml:mfrac>
+                      </mml:mrow>
+                    </mml:math>
+                    <label>(5)</label>
+                  </disp-formula>
+                </p>
+                <p>where</p>
+                <p><italic>x</italic><sub>0</sub> = sigmoid's midpoint,</p>
+                <p><italic>L</italic> = the curve's maximum value,</p>
+                <p><italic>k</italic> = the logistic growth rate.</p>
+                <p>This equation communicates all the more the essential proposal underlying the logistic hypothesis, that the pace of growth diminishes linearly as the population increases. The underlying phase of growth is almost exponential; at that point, as immersion starts, the growth eases back to linear, and at the end, stops the growth. The model can provide a forecast for 3 out of 4 countries closely as the actual data. we have used 200 days to train the model and we have tested the model over the 50 days data after the 200 data.</p>
+                <p>ARIMA model is a well-known and generally utilized statistical technique for time series forecasting. “Auto-Regressive Integrated Moving Average” is a given time series dependent on its previous values, to forecast future values using the equation. non-seasonal time series with patterns that are not white noises can be modeled by ARIMA. ARIMA model was presented by Box and Jenkins in 1970. ARIMA models have demonstrated proficient ability to create short-term forecasts. This model is based on the idea that variables future value is dependent on the past values of that variable and errors of that variable. This is conveyed as follows:</p>
+                <p>
+                  <disp-formula id="eq006">
+                    <mml:math id="eq006a">
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mi>Y</mml:mi>
+                          <mml:mi>t</mml:mi>
+                        </mml:msub>
+                        <mml:mo>=</mml:mo>
+                        <mml:msub>
+                          <mml:mi>φ</mml:mi>
+                          <mml:mn>0</mml:mn>
+                        </mml:msub>
+                        <mml:mo>+</mml:mo>
+                        <mml:msub>
+                          <mml:mi>φ</mml:mi>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                        <mml:msub>
+                          <mml:mi>Y</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                            <mml:mo>−</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msub>
+                        <mml:mo>+</mml:mo>
+                        <mml:msub>
+                          <mml:mi>φ</mml:mi>
+                          <mml:mn>2</mml:mn>
+                        </mml:msub>
+                        <mml:msub>
+                          <mml:mi>Y</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                            <mml:mo>−</mml:mo>
+                            <mml:mn>2</mml:mn>
+                          </mml:mrow>
+                        </mml:msub>
+                        <mml:mo>+</mml:mo>
+                        <mml:mn>...</mml:mn>
+                        <mml:msub>
+                          <mml:mi>φ</mml:mi>
+                          <mml:mi>p</mml:mi>
+                        </mml:msub>
+                        <mml:msub>
+                          <mml:mi>Y</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                            <mml:mo>−</mml:mo>
+                            <mml:mi>p</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                        <mml:mo>+</mml:mo>
+                        <mml:msub>
+                          <mml:mi>ε</mml:mi>
+                          <mml:mi>t</mml:mi>
+                        </mml:msub>
+                        <mml:mo>−</mml:mo>
+                        <mml:msub>
+                          <mml:mi>θ</mml:mi>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                        <mml:msub>
+                          <mml:mi>ε</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                            <mml:mo>−</mml:mo>
+                            <mml:mn>2</mml:mn>
+                          </mml:mrow>
+                        </mml:msub>
+                        <mml:mo>−</mml:mo>
+                        <mml:mn>...</mml:mn>
+                        <mml:mo>−</mml:mo>
+                        <mml:msub>
+                          <mml:mi>θ</mml:mi>
+                          <mml:mi>q</mml:mi>
+                        </mml:msub>
+                        <mml:msub>
+                          <mml:mi>ε</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                            <mml:mo>−</mml:mo>
+                            <mml:mi>q</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:math>
+                    <label>(6)</label>
+                  </disp-formula>
+                </p>
+                <p>where,</p>
+                <p><italic>Y<sub>t</sub></italic> is the real value,</p>
+                <p><italic>ε<sub>t</sub></italic> is the random error at time t.</p>
+                <p>The steps in building ARIMA predictive model consist of model identification, parameter estimation, and diagnostic checking <xref rid="b48" ref-type="bibr">[48]</xref>. ARIMA model has been fitted to the data using 180 days as train data and the rest as test data. We can interpret from the charts that the model can be utilized in short-term predictions since the data is changing in long term.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <label>3.</label>
+              <title>Results and discussion</title>
+              <p>Late epidemic behavior identification is important for monitoring and preventing infectious diseases. The effectiveness of predictive models in predicted incidences of infectious disease has proven to be useful. In this stage, we have all the results gathered as the following charts. Four different models were tested for four different countries with the highest number of infected individuals at the time of the study. Different models have depicted different behaviors for each country. The results might change by expanding the time of the study or by changing the time of the study to another section.</p>
+              <p>Here we have the results for the SIR model in <xref ref-type="fig" rid="publichealth-08-04-048-g005">Figure 5</xref>. After calculating the best-fit parameters of the model we plotted the best model for each country. The following figure shows the best possible fit of the data for the United States, Brazil, India, and Russia. The model does not show a good fit for the number of infected individuals. Results indicate that for the United States at early stages the SIR model cannot predict the surge accurately, while it can predict the last surge of the infected individuals. In the case of India, this division is smaller and the graph shows a better fir for India. SIR model is acting the same for Brazil as it did for The United States. Again here we can see the first surge of the infected individuals was not accurately modeled while it was performing better in the second surge. Again the same thing happens for Russia. The results are quantified by using a MSE measure which is mean squared error that is calculating the mean squared difference between the estimated values and the actual value. Here we have MSE(US) = 8127.7, MSE(India) = 3781.9, MSE(Brazil) = 8430.9, MSE(Russia) = 7321.2. At the end of this section, we will compare the MSE results for different methods.</p>
+              <fig id="publichealth-08-04-048-g005" position="float">
+                <label>Figure 5.</label>
+                <caption>
+                  <title>SIR model.</title>
+                </caption>
+                <graphic xlink:href="publichealth-08-04-048-g005"/>
+              </fig>
+              <p>The graphical and the MSE result shows that the SIR model can not provide a useful early prediction of the epidemic in this case. To improve we have decided to move to regression analysis. Moving forward we have Linear Regression as our second model. <xref ref-type="fig" rid="publichealth-08-04-048-g006">Figure 6</xref> demonstrates the results for linear regression of the four countries. Over the test results, we can see that linear regression has performed a better prediction for Brazil over the three other countries. This shows that linear regression can not be used in long term and since this data is nonlinear, a linear model could not explain the data perfectly. By skimming through the charts we can say performs the worst for the United States and India while is performing better for Brazil and Russia. To quantify the error again we have MSE(US) = 3241.2, MSE(India) = 3561.3, MSE(Brazil) = 2658.1, MSE(Russia) = 2601.8. Comparing SIR and linear regression here based on MSE error we can see linear regression is performing a better prediction in the short term.</p>
+              <fig id="publichealth-08-04-048-g006" position="float">
+                <label>Figure 6.</label>
+                <caption>
+                  <title>Linear regression.</title>
+                </caption>
+                <graphic xlink:href="publichealth-08-04-048-g006"/>
+              </fig>
+              <p>For our third model, we have explained the Logistic Regression in section 2. We have discovered a Logistic Function that is very near the watched COVID-19 information from these four countries. Results for this model are depicted in <xref ref-type="fig" rid="publichealth-08-04-048-g007">Figures 7</xref>, <xref ref-type="fig" rid="publichealth-08-04-048-g008">8</xref>, <xref ref-type="fig" rid="publichealth-08-04-048-g009">9</xref> and <xref ref-type="fig" rid="publichealth-08-04-048-g010">10</xref>. The visual examination of the charts says that the model is performing better than the SIR and linear regression. This is to say that the model is visually performing the best for India. To better understand the performance of the model it is better to take a look at the error. Here we have MSE(US) = 678.7, MSE(India) = 631.3, MSE(Brazil) = 731.0, MSE(Russia) = 1501.1. Comparing the MSE we can see model is outperforming in India. Comparing SIR, linear regression, and logistic regression here based on MSE error we can see logistic regression is performing a better prediction in the short term.</p>
+              <fig id="publichealth-08-04-048-g007" position="float">
+                <label>Figure 7.</label>
+                <caption>
+                  <title>Logistic curve for US.</title>
+                </caption>
+                <graphic xlink:href="publichealth-08-04-048-g007"/>
+              </fig>
+              <fig id="publichealth-08-04-048-g008" position="float">
+                <label>Figure 8.</label>
+                <caption>
+                  <title>Logistic curve for India.</title>
+                </caption>
+                <graphic xlink:href="publichealth-08-04-048-g008"/>
+              </fig>
+              <fig id="publichealth-08-04-048-g009" position="float">
+                <label>Figure 9.</label>
+                <caption>
+                  <title>Logistic curve for Brazil.</title>
+                </caption>
+                <graphic xlink:href="publichealth-08-04-048-g009"/>
+              </fig>
+              <fig id="publichealth-08-04-048-g010" position="float">
+                <label>Figure 10.</label>
+                <caption>
+                  <title>Logistic curve for Russia.</title>
+                </caption>
+                <graphic xlink:href="publichealth-08-04-048-g010"/>
+              </fig>
+              <p>Moving on to the last model we have used the ARIMA model to predict the number of infected individuals. <xref ref-type="fig" rid="publichealth-08-04-048-g011">Figure 11</xref> is the representation of the model. Albeit further information is required for a more point-by-point forecast, the spread of the infection appears to be modeled precisely. Determining the level of difference, the ARIMA model helps the data remain stationary. This will result in more flexibility for the modeling. Results for the ARIMA model indicate that the model can capture the effect of change in every stage of the data precisely. Errors again is the best representation of the accuracy of the model here. For the ARIMA model we have MSE(US) = 120.2, MSE(India) = 146.8, MSE(Brazil) = 165.4, MSE(Russia) = 102.7. This represents that comparing four models together the ARIMA model managed to present the minimum error for the prediction that means is outperforming the other three models.</p>
+              <fig id="publichealth-08-04-048-g011" position="float">
+                <label>Figure 11.</label>
+                <caption>
+                  <title>ARIMA model.</title>
+                </caption>
+                <graphic xlink:href="publichealth-08-04-048-g011"/>
+              </fig>
+            </sec>
+            <sec id="s4">
+              <label>4.</label>
+              <title>Conclusions</title>
+              <p>It is necessary to collect and analyze data of a pandemic to assess strategies of intervention, management, and control. This analysis gives a crucial baseline of the characteristics of the transmission and severity of the infectious disease. This study analyzes the behavior of the COVID-19 pandemic in the United States. Moreover, a SIR-based model, Linear Regression, Logistic Regression, and ARIMA model are presented to predict the number of cases and fatalities of this pandemic. Future research could use other models such as variations to the basic SIR model or individual-based network models. Comparisons among these models, in terms of accuracy and magnitude of error, could be made. Results showed that the ARIMA model outperforms all three in the case of prediction. As the case of the limitation of the study was the effect of other parameters like environmental and management effects of the data which cannot be modeled in the series of models presented in this paper. There are some extensions to the sir model that could be considered for further studies. Also, the ARIMA model could be extended to the SARIMA.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors did not receive support from any organization for this study.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p><bold>Conflict of interest:</bold> The authors report no conflict of interest.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="b1">
+                <label>1</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Porta</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <source>A dictionary of epidemiology</source>
+                  <publisher-name>Oxford university press</publisher-name>
+                  <year>2014</year>
+                </element-citation>
+              </ref>
+              <ref id="b2">
+                <label>2</label>
+                <element-citation publication-type="other">
+                  <collab>WHO</collab>
+                  <source>COVID-19 Epidemic disease</source>
+                  <comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/news">https://www.who.int/emergencies/diseases/news</ext-link></comment>
+                </element-citation>
+              </ref>
+              <ref id="b3">
+                <label>3</label>
+                <element-citation publication-type="other">
+                  <collab>AJMC Staff</collab>
+                  <source>A Timeline of COVID-19 Developments in 2020</source>
+                  <comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ajmc.com/view/a-timeline-of-covid19-developments-in-2020">https://www.ajmc.com/view/a-timeline-of-covid19-developments-in-2020</ext-link></comment>
+                  <year>2021</year>
+                </element-citation>
+              </ref>
+              <ref id="b4">
+                <label>4</label>
+                <element-citation publication-type="other">
+                  <source>COVID-19 CORONAVIRUS PANDEMIC</source>
+                  <comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.worldometers.info/coronavirus/">https://www.worldometers.info/coronavirus/</ext-link></comment>
+                </element-citation>
+              </ref>
+              <ref id="b5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bontempi</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>International trade as critical parameter of COVID-19 spread that outclasses demographic, economic, environmental, and pollution factors</article-title>
+                  <source>Environ Res</source>
+                  <year>2021</year>
+                  <volume>201</volume>
+                  <fpage>111514</fpage>
+                  <pub-id pub-id-type="pmid">34139222</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bontempi</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Commercial exchanges instead of air pollution as possible origin of COVID-19 initial diffusion phase in Italy: more efforts are necessary to address interdisciplinary research</article-title>
+                  <source>Environ Res</source>
+                  <year>2020</year>
+                  <volume>188</volume>
+                  <fpage>109775</fpage>
+                  <pub-id pub-id-type="pmid">32562948</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bontempi</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Vergalli</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Can commercial trade represent the main indicator of the COVID-19 diffusion due to human-to-human interactions? A comparative analysis between Italy, France, and Spain</article-title>
+                  <source>Environ Res</source>
+                  <year>2021</year>
+                  <volume>201</volume>
+                  <fpage>111529</fpage>
+                  <pub-id pub-id-type="pmid">34147467</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anand</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Cabreros</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Mal</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Novel coronavirus disease 2019 (COVID-19) pandemic: From transmission to control with an interdisciplinary vision</article-title>
+                  <source>Environ Res</source>
+                  <year>2021</year>
+                  <volume>197</volume>
+                  <fpage>111126</fpage>
+                  <pub-id pub-id-type="pmid">33831411</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bontempi</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Vergalli</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Squazzoni</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Understanding COVID-19 diffusion requires an interdisciplinary, multi-dimensional approach</article-title>
+                  <source>Environ Res</source>
+                  <year>2020</year>
+                  <volume>188</volume>
+                  <fpage>109814</fpage>
+                  <pub-id pub-id-type="pmid">32544726</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Al Huraimel</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Alhosani</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kunhabdulla</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SARS-CoV-2 in the environment: Modes of transmission, early detection and potential role of pollutions</article-title>
+                  <source>Sci Total Environ</source>
+                  <year>2020</year>
+                  <volume>744</volume>
+                  <fpage>140946</fpage>
+                  <pub-id pub-id-type="pmid">32687997</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lv</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Monitoring transmissibility and mortality of COVID-19 in Europe</article-title>
+                  <source>Int J Infect Dis</source>
+                  <year>2020</year>
+                  <volume>95</volume>
+                  <fpage>311</fpage>
+                  <lpage>315</lpage>
+                  <pub-id pub-id-type="pmid">32234343</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Gayle</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilder-Smith</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The reproductive number of COVID-19 is higher compared to SARS coronavirus</article-title>
+                  <source>J Travel Med</source>
+                  <year>2020</year>
+                  <volume>27</volume>
+                  <fpage>taaa021</fpage>
+                  <pub-id pub-id-type="pmid">32052846</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosario</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Mutz</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Bernardes</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Relationship between COVID-19 and weather: Case study in a tropical country</article-title>
+                  <source>Int J Hyg Environ Health</source>
+                  <year>2020</year>
+                  <volume>229</volume>
+                  <fpage>113587</fpage>
+                  <pub-id pub-id-type="pmid">32917371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Factors determining the diffusion of COVID-19 and suggested strategy to prevent future accelerated viral infectivity similar to COVID</article-title>
+                  <source>Sci Total Environ</source>
+                  <year>2020</year>
+                  <volume>729</volume>
+                  <fpage>138474</fpage>
+                  <pub-id pub-id-type="pmid">32498152</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of atmospheric stability with low wind speed and of air pollution on the accelerated transmission dynamics of COVID-19</article-title>
+                  <source>Int J Environ Stud</source>
+                  <year>2021</year>
+                  <volume>78</volume>
+                  <fpage>1</fpage>
+                  <lpage>27</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>High health expenditures and low exposure of population to air pollution as critical factors that can reduce fatality rate in COVID-19 pandemic crisis: a global analysis</article-title>
+                  <source>Environ Res</source>
+                  <year>2021</year>
+                  <volume>199</volume>
+                  <fpage>111339</fpage>
+                  <pub-id pub-id-type="pmid">34029545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of the spread of COVID-19 on public health of polluted cities: results of the first wave for explaining the dej vu in the second wave of COVID-19 pandemic and epidemics of future vital agents</article-title>
+                  <source>Environ Sci Pollut Res Int</source>
+                  <year>2021</year>
+                  <volume>28</volume>
+                  <fpage>19147</fpage>
+                  <lpage>19154</lpage>
+                  <pub-id pub-id-type="pmid">33398753</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How do low wind speeds and high levels of air pollution support the spread of COVID-19?</article-title>
+                  <source>Atmos Pollut Res</source>
+                  <year>2021</year>
+                  <volume>12</volume>
+                  <fpage>437</fpage>
+                  <lpage>445</lpage>
+                  <pub-id pub-id-type="pmid">33046960</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An index to quantify environmental risk of exposure to future epidemics of the COVID-19 and similar viral agents: Theory and practice</article-title>
+                  <source>Environ Res</source>
+                  <year>2020</year>
+                  <volume>191</volume>
+                  <fpage>110155</fpage>
+                  <pub-id pub-id-type="pmid">32871151</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Preparedness of countries to face covid-19 pandemic crisis: Strategic positioning and underlying structural factors to support strategies of prevention of pandemic threats</article-title>
+                  <source>Environ Res</source>
+                  <year>2021</year>
+                  <fpage>111678</fpage>
+                  <pub-id pub-id-type="pmid">34280421</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Coccia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The relation between length of lockdown, numbers of infected people and deaths of Covid-19, and economic growth of countries: Lessons learned to cope with future pandemics similar to Covid-19 and to constrain the deterioration of economic system</article-title>
+                  <source>Sci Total Environ</source>
+                  <year>2021</year>
+                  <volume>775</volume>
+                  <fpage>145801</fpage>
+                </element-citation>
+              </ref>
+              <ref id="b22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bashir</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Komal</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Correlation between environmental pollution indicators and COVID-19 pandemic: a brief study in Californian context</article-title>
+                  <source>Environ Res</source>
+                  <year>2020</year>
+                  <volume>187</volume>
+                  <fpage>109652</fpage>
+                  <pub-id pub-id-type="pmid">32405084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abolmaali</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Roodposhti</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Portfolio Optimization Using Ant Colony Method a Case Study on Tehran Stock Exchange</article-title>
+                  <source>J Account</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                </element-citation>
+              </ref>
+              <ref id="b24">
+                <label>24</label>
+                <element-citation publication-type="other">
+                  <collab>Centers for Disease Control and Prevention, National Center for Immunization and Respiratory Diseases (NCIRD)</collab>
+                  <source>1918 Pandemic (H1N1 virus)</source>
+                  <comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html">https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html</ext-link></comment>
+                </element-citation>
+              </ref>
+              <ref id="b25">
+                <label>25</label>
+                <element-citation publication-type="other">
+                  <collab>Centers for Disease Control and Prevention, National Center for Immunization and Respiratory Diseases (NCIRD)</collab>
+                  <source>2009 H1N1 Pandemic (H1N1pdm09 virus)</source>
+                  <comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/flu/pandemic-resources/2009-h1n1-pandemic.html">https://www.cdc.gov/flu/pandemic-resources/2009-h1n1-pandemic.html</ext-link></comment>
+                </element-citation>
+              </ref>
+              <ref id="b26">
+                <label>26</label>
+                <element-citation publication-type="other">
+                  <source>Ebola Lessons for Global Health and PPE Preparedness during Outbreak</source>
+                  <comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.derekduck.com/page/267">https://www.derekduck.com/page/267</ext-link></comment>
+                </element-citation>
+              </ref>
+              <ref id="b27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chowell</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Sattenspiel</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Bansal</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mathematical models to characterize early epidemic growth: A review</article-title>
+                  <source>Phys Life Rev</source>
+                  <year>2016</year>
+                  <volume>18</volume>
+                  <fpage>66</fpage>
+                  <lpage>97</lpage>
+                  <pub-id pub-id-type="pmid">27451336</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mutalik</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Models to predict H1N1 outbreaks: a literature review</article-title>
+                  <source>Int J Community Med Public Health</source>
+                  <year>2017</year>
+                  <volume>4</volume>
+                  <fpage>3068</fpage>
+                  <lpage>3075</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Chi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction of COVID-19 Spreading Profiles in South Korea, Italy and Iran by Data-Driven Coding</article-title>
+                  <source>PLoS One</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <fpage>e0234763</fpage>
+                  <pub-id pub-id-type="pmid">32628673</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lover</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>McAndrew</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sentinel Event Surveillance to Estimate Total SARS-CoV-2 Infections, United States</article-title>
+                  <source>MedRxiv</source>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="b31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Beeler</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Chakrabarty</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 Progression Timeline and Effectiveness of Response-to-Spread Interventions across the United States</article-title>
+                  <source>MedRxiv</source>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="b32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abolmaali</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirzaei</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting COVID-19 Number of Cases by Implementing ARIMA and SARIMA with Grid Search in the United States</article-title>
+                  <source>MedRxiv</source>
+                  <year>2021</year>
+                </element-citation>
+              </ref>
+              <ref id="b33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roosa</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Real-time forecasts of the COVID-19 epidemic in China from February 5th to February 24th, 2020</article-title>
+                  <source>Infect Dis Model</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <fpage>256</fpage>
+                  <lpage>263</lpage>
+                  <pub-id pub-id-type="pmid">32110742</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Pal</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trend Analysis and Forecasting of COVID-19 outbreak in India</article-title>
+                  <source>MedRxiv</source>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="b35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moein</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Nickaeen</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Roointan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Inefficiency of SIR models in forecasting COVID-19 epidemic: a case study of Isfahan</article-title>
+                  <source>Sci Rep</source>
+                  <year>2021</year>
+                  <volume>11</volume>
+                  <fpage>4725</fpage>
+                  <pub-id pub-id-type="pmid">33633275</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Calafiore</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Novara</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Possieri</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A modified SIR model for the COVID-19 contagion in Italy</article-title>
+                  <source>Annu Rev Control</source>
+                  <year>2020</year>
+                  <volume>50</volume>
+                  <fpage>361</fpage>
+                  <lpage>372</lpage>
+                  <pub-id pub-id-type="pmid">33132739</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Satsuma</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Willox</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramani</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Extending the SIR epidemic model</article-title>
+                  <source>Physica A: Statistical Mechanics And Its Applications</source>
+                  <year>2004</year>
+                  <fpage>369</fpage>
+                  <lpage>375</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anastassopoulou</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Russo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsakris</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Data-based analysis, modelling and forecasting of the COVID-19 outbreak</article-title>
+                  <source>PloS One</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <fpage>e0230405</fpage>
+                  <pub-id pub-id-type="pmid">32231374</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Read</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bridgen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Cummings</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</article-title>
+                  <source>Philos Trans R Soc Lond B Biol Sci</source>
+                  <year>2021</year>
+                  <volume>376</volume>
+                  <fpage>20200265</fpage>
+                  <pub-id pub-id-type="pmid">34053269</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A conceptual model for the coronavirus disease 2019 (COVID-19) outbreak in Wuhan, China with individual reaction and governmental action</article-title>
+                  <source>Int J Infect Dis</source>
+                  <year>2020</year>
+                  <volume>93</volume>
+                  <fpage>211</fpage>
+                  <lpage>216</lpage>
+                  <pub-id pub-id-type="pmid">32145465</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Giordano</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Blanchini</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruno</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy</article-title>
+                  <source>Nat Med</source>
+                  <year>2020</year>
+                  <volume>26</volume>
+                  <fpage>855</fpage>
+                  <lpage>860</lpage>
+                  <pub-id pub-id-type="pmid">32322102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roda</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Varughese</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Why is it difficult to accurately predict the COVID-19 epidemic?</article-title>
+                  <source>Infect Dis Model</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <fpage>271</fpage>
+                  <lpage>281</lpage>
+                  <pub-id pub-id-type="pmid">32289100</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Furtado</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemiology SIR with Regression, Arima, and Prophet in Forecasting Covid-19</article-title>
+                  <source>Eng Proc</source>
+                  <year>2021</year>
+                  <volume>5</volume>
+                  <fpage>52</fpage>
+                </element-citation>
+              </ref>
+              <ref id="b44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abuhasel</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Khadr</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Alquraish</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analyzing and forecasting COVID-19 pandemic in the Kingdom of Saudi Arabia using ARIMA and SIR models</article-title>
+                  <source>Comput Intell</source>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="b45">
+                <label>45</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Diekmann</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Heesterbeek</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical epidemiology of infectious diseases: model building, analysis and interpretation</article-title>
+                  <source>Math Biosci</source>
+                  <year>2008</year>
+                  <volume>213</volume>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="pmid">18405926</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b46">
+                <label>46</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermack</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>McKendrick</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contributions to the mathematical theory of epidemics</article-title>
+                  <source>Bull Math Biol</source>
+                  <year>1991</year>
+                  <volume>53</volume>
+                  <fpage>33</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="pmid">2059741</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b47">
+                <label>47</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bjrnstad</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Finkenstdt</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Grenfell</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamics of measles epidemics: estimating scaling of transmission rates using a time series SIR model</article-title>
+                  <source>Ecol Monogr</source>
+                  <year>2002</year>
+                  <volume>72</volume>
+                  <fpage>169</fpage>
+                  <lpage>184</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b48">
+                <label>48</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tabachnick</surname>
+                      <given-names>BG</given-names>
+                    </name>
+                    <name>
+                      <surname>Fidell</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                    <name>
+                      <surname>Ullman</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                  </person-group>
+                  <source>Using multivariate statistics</source>
+                  <publisher-loc>Boston, MA</publisher-loc>
+                  <publisher-name>Pearson</publisher-name>
+                  <year>2007</year>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

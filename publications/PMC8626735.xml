@@ -1,0 +1,2417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:46:37Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8626735" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8626735</identifier>
+        <datestamp>2021-11-29</datestamp>
+        <setSpec>bmcph</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Public Health</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Public Health</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Public Health</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2458</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8626735</article-id>
+              <article-id pub-id-type="pmcid">PMC8626735</article-id>
+              <article-id pub-id-type="pmc-uid">8626735</article-id>
+              <article-id pub-id-type="pmid">34837982</article-id>
+              <article-id pub-id-type="publisher-id">11891</article-id>
+              <article-id pub-id-type="doi">10.1186/s12889-021-11891-6</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Using GAM functions and Markov-Switching models in an evaluation framework to assess countries’ performance in controlling the COVID-19 pandemic</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9377-6267</contrib-id>
+                  <name>
+                    <surname>de Oliveira</surname>
+                    <given-names>Abdinardo M. B.</given-names>
+                  </name>
+                  <address>
+                    <email>abdinardom@utfpr.edu.br</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Binner</surname>
+                    <given-names>Jane M.</given-names>
+                  </name>
+                  <address>
+                    <email>J.M.Binner@bham.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mandal</surname>
+                    <given-names>Anandadeep</given-names>
+                  </name>
+                  <address>
+                    <email>A.Mandal@bham.ac.uk</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kelly</surname>
+                    <given-names>Logan</given-names>
+                  </name>
+                  <address>
+                    <email>logan.kelly@uwrf.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Power</surname>
+                    <given-names>Gabriel J.</given-names>
+                  </name>
+                  <address>
+                    <email>gabriel.power@fsa.ulaval.ca</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.474682.b</institution-id><institution-id institution-id-type="ISNI">0000 0001 0292 0044</institution-id><institution>Department of Business, </institution><institution>Federal University of Technology of Paraná, </institution></institution-wrap>Paraná, Brazil </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.6572.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 7486</institution-id><institution>Birmingham Business School, </institution><institution>University of Birmingham, </institution></institution-wrap>Birmingham, UK </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.267478.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 0084 3081</institution-id><institution>Department of Economics, </institution><institution>University of Wisconsin, </institution></institution-wrap>River Falls, USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.23856.3a</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8390</institution-id><institution>Department of Finance, Insurance and Real Estate, </institution><institution>Laval University, </institution></institution-wrap>Laval, Canada </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>27</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>27</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <elocation-id>2173</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>10</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">The COVID-19 pandemic has initiated several initiatives to better understand its behavior, and some projects are monitoring its evolution across countries, which naturally leads to comparisons made by those using the data. However, most “at a glance” comparisons may be misleading because the curve that should explain the evolution of COVID-19 is different across countries, as a result of the underlying geopolitical or socio-economic characteristics. Therefore, this paper contributes to the scientific endeavour by creating a new evaluation framework to help stakeholders adequately monitor and assess the evolution of COVID-19 in countries, considering the occurrence of spikes, "secondary waves" and structural breaks in the time series.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">Generalized Additive Models were used to model cumulative and daily curves for confirmed cases and deaths. The Root Relative Squared Error and the Percentage Deviance Explained measured how well the models fit the data. A local min-max function was used to identify all local maxima in the fitted values. The pure Markov-Switching and the family of Markov-Switching GARCH models were used to identify structural breaks in the COVID-19 time series. Finally, a quadrants system to identify countries that are more/less efficient in the short/long term in controlling the spread of the virus and the number of deaths was developed. Such methods were applied in the time series of 189 countries, collected from the Centre for Systems Science and Engineering at Johns Hopkins University.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">Our methodology proves more effective in explaining the evolution of COVID-19 than growth functions worldwide, in addition to standardizing the entire estimation process in a single type of function. Besides, it highlights several inflection points and regime-switching moments, as a consequence of people’s diminished commitment to fighting the pandemic. Although Europe is the most developed continent in the world, it is home to most countries with an upward trend and considered inefficient, for confirmed cases and deaths.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">The new outcomes presented in this research will allow key stakeholders to check whether or not public policies and interventions in the fight against COVID-19 are having an effect, easily identifying examples of best practices and promote such policies more widely around the world.</p>
+                </sec>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at (10.1186/s12889-021-11891-6).</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>COVID-19</kwd>
+                <kwd>Statistical models</kwd>
+                <kwd>Epidemiological monitoring</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p>Pandemics and major epidemic outbreaks are not unlikely events, contrary to what common sense may imply. They are real threats. History tells us the effects on mankind of the Black Death in the 14th century and the Spanish flu in 1918. Over the past three decades, the number of reported outbreaks of highly pathogenic or highly transmissible infectious diseases has increased enormously [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>].</p>
+              <p>The number of deaths directly attributable to these outbreaks is not always large. However, a pandemic might have a catastrophic impact if it is not taken seriously, due to the non-linearity of its transmission in a world that is highly interconnected through long-range transportation [<xref ref-type="bibr" rid="CR3">3</xref>, <xref ref-type="bibr" rid="CR4">4</xref>]. This is an ideal setting for the widespread transmission of COVID-19. As of September 15, 2021, more than 226 million people worldwide have been infected, and more than 4.1 million people have died since the first case was detected in December 2019 in China, according to data gathered by the Centre for Systems Science and Engineering [CSSE] at Johns Hopkins University [<xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR6">6</xref>].</p>
+              <p>Several initiatives are conducting careful research worldwide to better understand the behavior of COVID-19, such as those modelling the reproductive ratio [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR8">8</xref>], the mortality rate [<xref ref-type="bibr" rid="CR9">9</xref>, <xref ref-type="bibr" rid="CR10">10</xref>], the influence of climatic variables [<xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR12">12</xref>], and the short-run impact on the global economy [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR14">14</xref>], whilst adopting the precautionary principle of averting the risk of ruin [<xref ref-type="bibr" rid="CR4">4</xref>, <xref ref-type="bibr" rid="CR15">15</xref>].</p>
+              <p>In parallel, some projects are being undertaken to monitor the evolution of COVID-19 across countries [<xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR17">17</xref>], which naturally leads to comparisons made by those who use the data. Clearly, these “at a glance” comparisons may be misleading because the curve that should explain the evolution of COVID-19 is different across countries as a result of the underlying geopolitical or socio-economic characteristics.</p>
+              <p>To deal with this situation, [<xref ref-type="bibr" rid="CR18">18</xref>] proposed a framework to monitor and evaluate the performance of public policies in confronting COVID-19 that are more/less efficient in the short/long term, employing a set of non-linear growth functions (exponential, logistic, Gompertz, Weibull, Richards) through a quadrants system. These functions are not highly accurate in the long run owing to spikes and “second waves” now evident in the COVID-19 data worldwide [<xref ref-type="bibr" rid="CR19">19</xref>]. They predict only one inflection point, i.e., the global maximum and do not detect local maximum or minimum over time. The exception is exponential function, which goes to infinity and which may be anticipating a regime change in the COVID-19 series, and growth functions find it difficult to model such behavior.</p>
+              <p>This paper contributes to the scientific endeavor by creating a new evaluation framework to help stakeholders (policymakers, public sector health workers, resilience managers, and the general public) to: 
+<list list-type="order"><list-item><p>Adequately monitor the evolution of reported confirmed cases and deaths in countries, considering the occurrence of spikes and “secondary waves”;</p></list-item><list-item><p>Identify structural breaks in the confirmed cases and deaths curves;</p></list-item><list-item><p>Assess the performance of their actions in the face of the spread of COVID-19.</p></list-item></list></p>
+              <p>We incorporate new evidence that pandemic fatigue is taking hold. This decrease in commitment to fighting the pandemic alters the behavior of the forecast errors present in the COVID-19 curves, causing a structural break in the variance of the residuals, or forecast errors. We are therefore able to use Markov-Switching models on the residuals of our forecasts to identify regime-switching in the COVID-19 time series. Our new methodology proves more effective in explaining the evolution of COVID-19 than growth functions worldwide, including highlighting several inflection points and regime-switching moments. Moreover, results from this research can be used by managers, for example, to provide an econometric justification for the prioritizing of vaccination programmes in the health care sector.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>The generalized additive models</title>
+                <p>Generalized Additive Models (GAM) are generally regarded as a particular case of generalized linear models [<xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR21">21</xref>]. These models use linear predictors which are themselves sums of smooth functions, e.g., polynomial, bin, running mean, among others, of predictor variables, where their basic building blocks are splines used to model relationships. This is the main difference from linear models: the latter use predictors directly in the model multiplied by a scalar [<xref ref-type="bibr" rid="CR22">22</xref>]. The linear model is a special and limiting case of a GAM [<xref ref-type="bibr" rid="CR23">23</xref>].</p>
+                <p>The GAM framework allows for the dependence of the response on the predictor variables to be specified flexibly. The model is, therefore, specified in terms of smooth, or basis, functions. However, to obtain this convenience and flexibility, it is necessary to: 
+<list list-type="bullet"><list-item><p>Determine an appropriate representation for the smooth functions;</p></list-item><list-item><p>Choose how smooth they should be.</p></list-item></list></p>
+                <p>A GAM, in its simplest form, can be represented as the Eq. <xref rid="Equ1" ref-type="">1</xref>, where <italic>y</italic><sub><italic>t</italic></sub> is a response variable, <italic>x</italic><sub><italic>t</italic></sub> is a predictor variable, <italic>b</italic><sub><italic>j</italic></sub>(<italic>x</italic>) is a basis function as described above, <italic>β</italic><sub><italic>j</italic></sub> are the unknown coefficients, <italic>k</italic> is the basis dimension, which controls the degree of the model smoothness, the number of knots in a basis function, and it is part of model specification, and <italic>ε</italic><sub><italic>t</italic></sub> is a zero-mean, i.i.d. random variable. 
+<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ y_{t} = \sum_{j=1}^{k}b_{j}(x)\beta_{j} + \epsilon_{t}   $$ \end{document}</tex-math><mml:math id="M2"><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>x</mml:mi><mml:mo>)</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:math><graphic xlink:href="12889_2021_11891_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>Thus, Eqs. <xref rid="Equ2" ref-type="">2</xref> and (<xref rid="Equ3" ref-type="">3</xref>) show the GAM functions for confirmed cases and deaths from COVID-19, respectively, with <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\zeta _{t} \thicksim N(0,\sigma ^{2})$\end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mrow><mml:mi>ζ</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∽</mml:mo><mml:mi>N</mml:mi><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq1.gif"/></alternatives></inline-formula> random variables. 
+<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{array}{@{}rcl@{}} {confirmed}_{t} &amp;=&amp; \sum_{j=1}^{100}b_{j}({day}_{t})\beta_{j} + \zeta_{t} \end{array} $$ \end{document}</tex-math><mml:math id="M6"><mml:mtable class="eqnarray" columnalign="left center right"><mml:mtr><mml:mtd class="eqnarray-1"><mml:msub><mml:mrow><mml:mtext mathvariant="italic">confirmed</mml:mtext></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mtd><mml:mtd class="eqnarray-2"><mml:mo>=</mml:mo></mml:mtd><mml:mtd class="eqnarray-3"><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>100</mml:mn></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mtext mathvariant="italic">day</mml:mtext></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ζ</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="12889_2021_11891_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>
+                  <disp-formula id="Equ3">
+                    <label>3</label>
+                    <alternatives>
+                      <tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{array}{@{}rcl@{}} {deaths}_{t} &amp;=&amp; \sum_{j=1}^{100}b_{j}({day}_{t})\beta_{j} + \zeta_{t} \end{array} $$ \end{document}</tex-math>
+                      <mml:math id="M8">
+                        <mml:mtable class="eqnarray" columnalign="left center right">
+                          <mml:mtr>
+                            <mml:mtd class="eqnarray-1">
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mtext mathvariant="italic">deaths</mml:mtext>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                            </mml:mtd>
+                            <mml:mtd class="eqnarray-2">
+                              <mml:mo>=</mml:mo>
+                            </mml:mtd>
+                            <mml:mtd class="eqnarray-3">
+                              <mml:munderover>
+                                <mml:mrow>
+                                  <mml:mo>∑</mml:mo>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>j</mml:mi>
+                                  <mml:mo>=</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>100</mml:mn>
+                                </mml:mrow>
+                              </mml:munderover>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>b</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>j</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>(</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mtext mathvariant="italic">day</mml:mtext>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>)</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>β</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>j</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>+</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>ζ</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ3.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>These equations do not directly calculate the occurrence of the inflection points, however: these are the moments when the growth rate is going to decrease. This is common when using growth functions [<xref ref-type="bibr" rid="CR24">24</xref>] to investigate outbreaks and epidemics [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR25">25</xref>]. To counter this limitation, Eqs. <xref rid="Equ4" ref-type="">4</xref> and (<xref rid="Equ5" ref-type="">5</xref>) show the GAM functions for daily cases and deaths from COVID-19. 
+<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{array}{@{}rcl@{}} {dailycases}_{t} &amp;=&amp; \sum_{j=1}^{50}b_{j}({day}_{t})\beta_{j} + \varsigma_{t} \end{array} $$ \end{document}</tex-math><mml:math id="M10"><mml:mtable class="eqnarray" columnalign="left center right"><mml:mtr><mml:mtd class="eqnarray-1"><mml:msub><mml:mrow><mml:mtext mathvariant="italic">dailycases</mml:mtext></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mtd><mml:mtd class="eqnarray-2"><mml:mo>=</mml:mo></mml:mtd><mml:mtd class="eqnarray-3"><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mtext mathvariant="italic">day</mml:mtext></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ς</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="12889_2021_11891_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>
+                  <disp-formula id="Equ5">
+                    <label>5</label>
+                    <alternatives>
+                      <tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{array}{@{}rcl@{}} {dailydeaths}_{t} &amp;=&amp; \sum_{j=1}^{50}b_{j}({day}_{t})\beta_{j} + \varsigma_{t} \end{array} $$ \end{document}</tex-math>
+                      <mml:math id="M12">
+                        <mml:mtable class="eqnarray" columnalign="left center right">
+                          <mml:mtr>
+                            <mml:mtd class="eqnarray-1">
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mtext mathvariant="italic">dailydeaths</mml:mtext>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                            </mml:mtd>
+                            <mml:mtd class="eqnarray-2">
+                              <mml:mo>=</mml:mo>
+                            </mml:mtd>
+                            <mml:mtd class="eqnarray-3">
+                              <mml:munderover>
+                                <mml:mrow>
+                                  <mml:mo>∑</mml:mo>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>j</mml:mi>
+                                  <mml:mo>=</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>50</mml:mn>
+                                </mml:mrow>
+                              </mml:munderover>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>b</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>j</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>(</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mtext mathvariant="italic">day</mml:mtext>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>)</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>β</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>j</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>+</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>ς</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ5.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>Using time series of daily or deaths cases, unlike cumulative series, it is possible to estimate their smoothed curves. These curves approximate their growth rate functions, which allow us to identify their inflection points. In this case, we set <italic>k</italic> = 50 to increase the degree of smoothness, using <inline-formula id="IEq2"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\varsigma _{t} \thicksim Pois(\lambda)$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mrow><mml:mi>ς</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∽</mml:mo><mml:mtext mathvariant="italic">Pois</mml:mtext><mml:mo>(</mml:mo><mml:mi>λ</mml:mi><mml:mo>)</mml:mo></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq2.gif"/></alternatives></inline-formula> i.i.d. random variables. Recall: the lower the <italic>k</italic> values, the smoother the fitted curve is, which helps to find the most relevant inflection points, the local maxima. Otherwise, the fitted curve would be very wiggly, making all the points local minima and maxima.</p>
+                <p>The coefficients of Eqs. (<xref rid="Equ1" ref-type="">1</xref>–<xref rid="Equ5" ref-type="">5</xref>) are estimated by restricted maximum likelihood (REML) as a bias-reducing alternative to maximum likelihood (ML), given that the latter tends to underestimate the variance components. Moreover, compared with the generalized cross-validation (GCV) estimator, REML tends to be more resistant to occasional severe over-fitting. Its optimum tends to be more pronounced relative to sampling variability, and it has less tendency to develop phantom minima when there is no real signal in the data, with an <italic>O</italic>(<italic>n</italic><sup>−4/5</sup>) computational cost [<xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR26">26</xref>].</p>
+                <p>To measure how well the models fit the data, the Root Relative Squared Error (RRSE) was used for Eqs. (<xref rid="Equ2" ref-type="">2</xref>–<xref rid="Equ3" ref-type="">3</xref>), while the percentage deviance explained was used for Eqs. (<xref rid="Equ4" ref-type="">4</xref>–<xref rid="Equ5" ref-type="">5</xref>). The percentage deviance explained, which is a generalization of <italic>R</italic><sup>2</sup>, is based on the sum of squares of the deviance residuals, as the fitted model deviance, divided by the sum of squares of the deviance residuals when the covariate effects are set to zero, as the null deviance [<xref ref-type="bibr" rid="CR21">21</xref>]. The higher the values, the better.</p>
+                <p>The local.min.max function from the spatialEco R package [<xref ref-type="bibr" rid="CR27">27</xref>] was used to identify all local maxima or peaks in the fitted values, also known as inflection points. This method is simpler to explain and more straightforward than simulating multivariate normal random deviates, as proposed by [<xref ref-type="bibr" rid="CR28">28</xref>].</p>
+              </sec>
+              <sec id="Sec4">
+                <title>The Markov-Switching structural break functions</title>
+                <p>When using Eqs. (<xref rid="Equ2" ref-type="">2</xref>–<xref rid="Equ3" ref-type="">3</xref>), we assumed that the residuals follow a normal distribution, with a constant variance: <inline-formula id="IEq3"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\zeta _{t} \thicksim N(0,\sigma ^{2})$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mrow><mml:mi>ζ</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∽</mml:mo><mml:mi>N</mml:mi><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq3.gif"/></alternatives></inline-formula>.</p>
+                <p>It appears, however, that the occurrence of a new more contagious wave of COVID-19 is spreading faster than the first outbreak in spring 2020 according to top scientists [<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR29">29</xref>]. Member States across the WHO European Region are reporting emerging pandemic fatigue in their populations. Pandemic fatigue is an expected and natural reaction to the prolonged nature of this crisis and the associated inconvenience and hardship. It poses a serious threat to efforts to control the spread of the virus, see [<xref ref-type="bibr" rid="CR30">30</xref>] for a Policy framework for reinvigorating the public to prevent the pandemic.</p>
+                <p>In the same vein,[<xref ref-type="bibr" rid="CR19">19</xref>] provides evidence that people relaxed their commitment to non-pharmacological measures to combat COVID-19: mask-wearing, hand-washing, and social distancing after the first wave of contagion. Furthermore, [<xref ref-type="bibr" rid="CR31">31</xref>] showed that social distancing can result in an estimated 65% reduction in new COVID-19 cases, while [<xref ref-type="bibr" rid="CR32">32</xref>], using the situation in Manitoba, Canada as an example, verified that relaxing social distancing to levels of contact that are 50% of what they were before COVID-19 may result in over 35% of the population infected at the same time. Both studies corroborate our contention, reinforced by [<xref ref-type="bibr" rid="CR30">30</xref>], that pandemic fatigue is taking hold.</p>
+                <p>This decrease in commitment to fighting the pandemic alters the behavior of the forecast errors present in the COVID-19 curves, causing a structural break in the variance of the residuals, or forecast errors. We are particularly looking for this phenomenon in the residuals because the lower the RRSE, the greater the possibility of the residuals of the series being stationary, thus allowing, for instance, the use of the Markov-Switching (MS) models.</p>
+                <p>The main features of the MS models are: 
+<list list-type="order"><list-item><p>The regime that occurs at time t is determined by an unobservable random process, <inline-formula id="IEq4"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$S^{i}_{t}$\end{document}</tex-math><mml:math id="M18"><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq4.gif"/></alternatives></inline-formula>;</p></list-item><list-item><p>Each regime is assumed to be a first-order Markov process, that is, the current regime only depends on the previous one [<xref ref-type="bibr" rid="CR33">33</xref>].</p></list-item></list></p>
+                <p>The Lamoureux and Lastrapes test [<xref ref-type="bibr" rid="CR34">34</xref>] was used to verify the occurrence of structural breaks in the variance of the residuals in equations (2-3). The test consisted of estimating the <italic>α</italic> and <italic>β</italic> coefficients of a GARCH model (1,1) applied to standardized residuals. If the sum of these coefficients is very close to 1, the existence of structural breaks in the residuals is confirmed, which implies the existence of at least two regimes. This finding suggests that a change in people’s behavior might be contributing to a greater increase in infected people, as pointed out by [<xref ref-type="bibr" rid="CR19">19</xref>].</p>
+                <p>The next step was to select the best approach to represent the structural breaks in the residuals of Eqs. (<xref rid="Equ2" ref-type="">2</xref>–<xref rid="Equ3" ref-type="">3</xref>). For simplicity of modeling these approaches, we assume the existence of two regimes: low (high) variance, which represents a stronger (weaker) commitment to non-pharmacological measures to combat COVID-19. Our first approach is to consider a pure Markov-Switching (MSwM) model of variance, as proposed by [<xref ref-type="bibr" rid="CR35">35</xref>]. Here the persistence in the variance (previous values keep affecting posterior values) occurs due to the regime-switching of the variance process. This model can be described using the following set of equations and definitions: 
+<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} \zeta_{t} \thicksim N(0,\sigma^{2}) \end{aligned}  $$ \end{document}</tex-math><mml:math id="M20"><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>ζ</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∽</mml:mo><mml:mi>N</mml:mi><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="12889_2021_11891_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>
+                  <disp-formula id="Equ7">
+                    <label>7</label>
+                    <alternatives>
+                      <tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} {}\sigma^{2}_{t} = \sigma^{2}_{1}S_{1t} + \sigma^{2}_{2}S_{2t} \end{aligned}  $$ \end{document}</tex-math>
+                      <mml:math id="M22">
+                        <mml:mtable>
+                          <mml:mtr>
+                            <mml:mtd>
+                              <mml:msubsup>
+                                <mml:mrow>
+                                  <mml:mi>σ</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                              </mml:msubsup>
+                              <mml:mo>=</mml:mo>
+                              <mml:msubsup>
+                                <mml:mrow>
+                                  <mml:mi>σ</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                              </mml:msubsup>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>1</mml:mn>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>+</mml:mo>
+                              <mml:msubsup>
+                                <mml:mrow>
+                                  <mml:mi>σ</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                              </mml:msubsup>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ7.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>
+                  <disp-formula id="Equ8">
+                    <label>8</label>
+                    <alternatives>
+                      <tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} {}\sigma^{2}_{1} &lt; \sigma^{2}_{2} \end{aligned}  $$ \end{document}</tex-math>
+                      <mml:math id="M24">
+                        <mml:mtable>
+                          <mml:mtr>
+                            <mml:mtd>
+                              <mml:msubsup>
+                                <mml:mrow>
+                                  <mml:mi>σ</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                              </mml:msubsup>
+                              <mml:mo>&lt;</mml:mo>
+                              <mml:msubsup>
+                                <mml:mrow>
+                                  <mml:mi>σ</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                              </mml:msubsup>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ8.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>
+                  <disp-formula id="Equ9">
+                    <label>9</label>
+                    <alternatives>
+                      <tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} {} S_{kt} = 1, if S_{t} = k; otherwise S_{kt} = 0, k = 1,2 \end{aligned}  $$ \end{document}</tex-math>
+                      <mml:math id="M26">
+                        <mml:mtable>
+                          <mml:mtr>
+                            <mml:mtd>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mtext mathvariant="italic">kt</mml:mtext>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>,</mml:mo>
+                              <mml:mtext mathvariant="italic">if</mml:mtext>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mi>k</mml:mi>
+                              <mml:mo>;</mml:mo>
+                              <mml:mtext mathvariant="italic">otherwise</mml:mtext>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mtext mathvariant="italic">kt</mml:mtext>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>0</mml:mn>
+                              <mml:mo>,</mml:mo>
+                              <mml:mi>k</mml:mi>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>,</mml:mo>
+                              <mml:mn>2</mml:mn>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ9.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>
+                  <disp-formula id="Equ10">
+                    <label>10</label>
+                    <alternatives>
+                      <tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} {}p(S_{t} = 1 | S_{t-1} = 1) = p_{11};p(S_{t} = 2 | S_{t-1} = 1) = 1 - p_{11} \end{aligned}  $$ \end{document}</tex-math>
+                      <mml:math id="M28">
+                        <mml:mtable>
+                          <mml:mtr>
+                            <mml:mtd>
+                              <mml:mi>p</mml:mi>
+                              <mml:mo>(</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>|</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                  <mml:mo>−</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>)</mml:mo>
+                              <mml:mo>=</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>p</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>11</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>;</mml:mo>
+                              <mml:mi>p</mml:mi>
+                              <mml:mo>(</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>2</mml:mn>
+                              <mml:mo>|</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                  <mml:mo>−</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>)</mml:mo>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>−</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>p</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>11</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ10.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>
+                  <disp-formula id="Equ11">
+                    <label>11</label>
+                    <alternatives>
+                      <tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} {}p(S_{t} = 2 | S_{t-1} = 2) = p_{22};p(S_{t} = 1 | S_{t-1} = 2) = 1 - p_{22} \end{aligned}  $$ \end{document}</tex-math>
+                      <mml:math id="M30">
+                        <mml:mtable>
+                          <mml:mtr>
+                            <mml:mtd>
+                              <mml:mi>p</mml:mi>
+                              <mml:mo>(</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>2</mml:mn>
+                              <mml:mo>|</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                  <mml:mo>−</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>2</mml:mn>
+                              <mml:mo>)</mml:mo>
+                              <mml:mo>=</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>p</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>22</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>;</mml:mo>
+                              <mml:mi>p</mml:mi>
+                              <mml:mo>(</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>|</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>S</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                  <mml:mo>−</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>2</mml:mn>
+                              <mml:mo>)</mml:mo>
+                              <mml:mo>=</mml:mo>
+                              <mml:mn>1</mml:mn>
+                              <mml:mo>−</mml:mo>
+                              <mml:msub>
+                                <mml:mrow>
+                                  <mml:mi>p</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>22</mml:mn>
+                                </mml:mrow>
+                              </mml:msub>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ11.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>
+                  <disp-formula id="Equ12">
+                    <label>12</label>
+                    <alternatives>
+                      <tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ {}\begin{aligned} L(\epsilon,\theta) = \sum_{t=1}^{T}\sum_{i=1}^{2} \frac{p_{ii}}{\sqrt{2\pi\sigma^{2}_{i}}}\exp\left\{\frac{-\left(\epsilon_{t} - \mu_{i} \right)^{2}}{2\sigma^{2}_{i}} \right\}  \end{aligned}  $$ \end{document}</tex-math>
+                      <mml:math id="M32">
+                        <mml:mtable>
+                          <mml:mtr>
+                            <mml:mtd>
+                              <mml:mi>L</mml:mi>
+                              <mml:mo>(</mml:mo>
+                              <mml:mi>ε</mml:mi>
+                              <mml:mo>,</mml:mo>
+                              <mml:mi>θ</mml:mi>
+                              <mml:mo>)</mml:mo>
+                              <mml:mo>=</mml:mo>
+                              <mml:munderover>
+                                <mml:mrow>
+                                  <mml:mo>∑</mml:mo>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>t</mml:mi>
+                                  <mml:mo>=</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>T</mml:mi>
+                                </mml:mrow>
+                              </mml:munderover>
+                              <mml:munderover>
+                                <mml:mrow>
+                                  <mml:mo>∑</mml:mo>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mi>i</mml:mi>
+                                  <mml:mo>=</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:mrow>
+                              </mml:munderover>
+                              <mml:mfrac>
+                                <mml:mrow>
+                                  <mml:msub>
+                                    <mml:mrow>
+                                      <mml:mi>p</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                      <mml:mtext mathvariant="italic">ii</mml:mtext>
+                                    </mml:mrow>
+                                  </mml:msub>
+                                </mml:mrow>
+                                <mml:mrow>
+                                  <mml:msqrt>
+                                    <mml:mrow>
+                                      <mml:mn>2</mml:mn>
+                                      <mml:mi>π</mml:mi>
+                                      <mml:msubsup>
+                                        <mml:mrow>
+                                          <mml:mi>σ</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                          <mml:mi>i</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                          <mml:mn>2</mml:mn>
+                                        </mml:mrow>
+                                      </mml:msubsup>
+                                    </mml:mrow>
+                                  </mml:msqrt>
+                                </mml:mrow>
+                              </mml:mfrac>
+                              <mml:mo>exp</mml:mo>
+                              <mml:mfenced close="}" open="{">
+                                <mml:mrow>
+                                  <mml:mfrac>
+                                    <mml:mrow>
+                                      <mml:mo>−</mml:mo>
+                                      <mml:msup>
+                                        <mml:mrow>
+                                          <mml:mfenced close=")" open="(">
+                                            <mml:mrow>
+                                              <mml:msub>
+                                                <mml:mrow>
+                                                  <mml:mi>ε</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                  <mml:mi>t</mml:mi>
+                                                </mml:mrow>
+                                              </mml:msub>
+                                              <mml:mo>−</mml:mo>
+                                              <mml:msub>
+                                                <mml:mrow>
+                                                  <mml:mi>μ</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                  <mml:mi>i</mml:mi>
+                                                </mml:mrow>
+                                              </mml:msub>
+                                            </mml:mrow>
+                                          </mml:mfenced>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                          <mml:mn>2</mml:mn>
+                                        </mml:mrow>
+                                      </mml:msup>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                      <mml:mn>2</mml:mn>
+                                      <mml:munderover>
+                                        <mml:mrow>
+                                          <mml:mi>σ</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                          <mml:mi>i</mml:mi>
+                                        </mml:mrow>
+                                        <mml:mrow>
+                                          <mml:mn>2</mml:mn>
+                                        </mml:mrow>
+                                      </mml:munderover>
+                                    </mml:mrow>
+                                  </mml:mfrac>
+                                </mml:mrow>
+                              </mml:mfenced>
+                            </mml:mtd>
+                          </mml:mtr>
+                        </mml:mtable>
+                      </mml:math>
+                      <graphic xlink:href="12889_2021_11891_Article_Equ12.gif" position="anchor"/>
+                    </alternatives>
+                  </disp-formula>
+                </p>
+                <p>where the vector of parameters <inline-formula id="IEq5"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\theta \equiv \left \{\mu _{1},\mu _{2},\sigma ^{2}_{1}, \sigma ^{2}_{2}, p_{11},p_{22} \right \}$\end{document}</tex-math><mml:math id="M34"><mml:mi>θ</mml:mi><mml:mo>≡</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>11</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>22</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq5.gif"/></alternatives></inline-formula> can be estimated by a log-likelihood function in Eq. <xref rid="Equ12" ref-type="">12</xref> using numerical methods [<xref ref-type="bibr" rid="CR36">36</xref>]. With <italic>p</italic><sub>11</sub> and <italic>p</italic><sub>22</sub>, it is possible to construct the transition matrix, essential to calculate the 1-step ahead regime. We used the MSwM R package [<xref ref-type="bibr" rid="CR37">37</xref>] to estimate the vector <italic>θ</italic>. When using this approach, it is important to highlight that we assume that the variance remains constant within each regime.</p>
+                <p>The second approach considers the family of Markov-Switching GARCH models [<xref ref-type="bibr" rid="CR38">38</xref>], where the variance can be time-varying in each regime (<italic>k</italic>=1,2). This means that the persistence in the variance occurs both for the shocks and the regime-switching in the parameters of the variance process.</p>
+                <p>We used the set of equations and conditional distributions (with zero mean and unit variance) available from the MSGARCH R package, as shown in Tables <xref rid="Tab1" ref-type="table">1</xref> and <xref rid="Tab2" ref-type="table">2</xref>, respectively [<xref ref-type="bibr" rid="CR45">45</xref>]. Thus, it is possible to estimate up to 30 types of models. 
+<disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ L\left(\psi,I_{t}\right) = \prod_{t=1}^{T}f(\epsilon_{t}|\psi,I_{t-1})   $$ \end{document}</tex-math><mml:math id="M36"><mml:mi>L</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>ψ</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:munderover><mml:mrow><mml:mo>∏</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:munderover><mml:mi>f</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>|</mml:mo><mml:mi>ψ</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:math><graphic xlink:href="12889_2021_11891_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula><table-wrap id="Tab1"><label>Table 1</label><caption><p>MSGARCH models</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Label</th><th align="left">Equation</th><th align="left">Author</th></tr></thead><tbody><tr><td align="justify">“sARCH”</td><td align="justify"><inline-formula id="IEq6"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\sigma ^{2}_{k,t} = \omega _{k} + \alpha _{k}\epsilon ^{2}_{t-1}$\end{document}</tex-math><mml:math id="M38"><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>ω</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq6.gif"/></alternatives></inline-formula></td><td align="left">Engle [<xref ref-type="bibr" rid="CR39">39</xref>]</td></tr><tr><td align="justify">“sGARCH”</td><td align="justify"><inline-formula id="IEq7"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\sigma ^{2}_{k,t} = \omega _{k} + \alpha _{k}\epsilon ^{2}_{t-1} + \beta _{k}\sigma ^{2}_{k,t-1}$\end{document}</tex-math><mml:math id="M40"><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>ω</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq7.gif"/></alternatives></inline-formula></td><td align="left">Bollerslev [<xref ref-type="bibr" rid="CR40">40</xref>]</td></tr><tr><td align="justify">“eGARCH”</td><td align="justify"><inline-formula id="IEq8"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\ln \left (\sigma ^{2}_{k,t}\right) = \omega _{k} + \alpha _{1,k}\left (\left |\eta _{k,t-1}\right | - E\left [\left |\eta _{k,t-1}\right | \right ]\right) + $\end{document}</tex-math><mml:math id="M42"><mml:mo>ln</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:munderover><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:munderover></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>ω</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mfenced close="|" open="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>−</mml:mo><mml:mi>E</mml:mi><mml:mfenced close="]" open="["><mml:mrow><mml:mfenced close="|" open="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>+</mml:mo></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq8.gif"/></alternatives></inline-formula></td><td align="left">Nelson [<xref ref-type="bibr" rid="CR41">41</xref>]</td></tr><tr><td align="justify"/><td align="justify"><inline-formula id="IEq9"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$+ \alpha _{2,k}\eta _{k,t-1}+\beta _{k}\ln \left (\sigma ^{2}_{k,t-1}\right)$\end{document}</tex-math><mml:math id="M44"><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>ln</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:munderover><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:munderover></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq9.gif"/></alternatives></inline-formula></td><td align="left"/></tr><tr><td align="justify">“gjrGARCH”</td><td align="justify"><inline-formula id="IEq10"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\sigma ^{2}_{k,t} = \omega _{k} + \left (\alpha _{1,k}+\alpha _{2,k}I \left \{\epsilon _{t-1}&lt;0\right \} \right)\epsilon ^{2}_{t-1} + $\end{document}</tex-math><mml:math id="M46"><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>ω</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mi>I</mml:mi><mml:mfenced close="}" open="{"><mml:mrow><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:msubsup><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq10.gif"/></alternatives></inline-formula></td><td align="left">GJR [<xref ref-type="bibr" rid="CR42">42</xref>]</td></tr><tr><td align="justify"/><td align="justify"><inline-formula id="IEq11"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$+\beta _{k}\sigma ^{2}_{k,t-1}$\end{document}</tex-math><mml:math id="M48"><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq11.gif"/></alternatives></inline-formula></td><td align="justify"/></tr><tr><td align="justify">“tGARCH”</td><td align="justify"><inline-formula id="IEq12"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\sigma _{k,t} = \omega _{k} + \left (\alpha _{1,k}I \left \{\epsilon _{t-1}\geqq 0\right \} - \alpha _{1,k}I \left \{\epsilon _{t-1}\geqq 0\right \}\right) \epsilon _{t-1}+$\end{document}</tex-math><mml:math id="M50"><mml:msub><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>ω</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mi>I</mml:mi><mml:mfenced close="}" open="{"><mml:mrow><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>≧</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mfenced><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>α</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mi>I</mml:mi><mml:mfenced close="}" open="{"><mml:mrow><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>≧</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq12.gif"/></alternatives></inline-formula></td><td align="left">Zakoian [<xref ref-type="bibr" rid="CR43">43</xref>]</td></tr><tr><td align="justify"/><td align="justify">+<italic>β</italic><sub><italic>k</italic></sub><italic>σ</italic><sub><italic>k</italic>,<italic>t</italic>−1</sub></td><td align="justify"/></tr></tbody></table></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>MSGARCH conditional distributions</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Distribution</th><th align="left">Equation</th><th align="left">Label</th></tr></thead><tbody><tr><td align="left">Normal</td><td align="justify"><inline-formula id="IEq13"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$fN(\eta) = \frac {1}{\sqrt {2\pi }}\exp \left (-\frac {\eta ^{2}}{2}\right)$\end{document}</tex-math><mml:math id="M52"><mml:mtext mathvariant="italic">fN</mml:mtext><mml:mo>(</mml:mo><mml:mi>η</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mn>2</mml:mn><mml:mi>π</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq13.gif"/></alternatives></inline-formula></td><td align="left">“norm”</td></tr><tr><td align="left">Student-t</td><td align="justify"><inline-formula id="IEq14"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$fS(\eta ;\nu) = \frac {\Gamma \left (\frac {\eta + 1}{2} \right)}{\sqrt {\left (\nu -2\right)\pi }\Gamma \left (\frac {\nu }{2}\right)} \left (1 + \frac {\eta ^{2}}{\left (\nu -2\right)}\right)^{-\frac {\nu +1}{2}} $\end{document}</tex-math><mml:math id="M54"><mml:mtext mathvariant="italic">fS</mml:mtext><mml:mo>(</mml:mo><mml:mi>η</mml:mi><mml:mo>;</mml:mo><mml:mi>ν</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>Γ</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mfrac><mml:mrow><mml:mi>η</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mi>ν</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:mfenced><mml:mi>π</mml:mi></mml:mrow></mml:msqrt><mml:mi>Γ</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mfrac><mml:mrow><mml:mi>ν</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mi>ν</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>ν</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq14.gif"/></alternatives></inline-formula></td><td align="left">“std”</td></tr><tr><td align="left">GED</td><td align="justify"><inline-formula id="IEq15"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$f_{GED}(\eta ;\nu) \equiv \frac {\nu \exp \left (-\frac {\left |\eta /\lambda \right |^{\nu }}{2} \right)}{\lambda 2^{\left (1+1/\nu \right)}\Gamma (1/\nu)}, \lambda \equiv \left (\frac {\Gamma (1/\nu)}{4^{1/\nu }\Gamma (3/\nu)} \right)^{1/2} $\end{document}</tex-math><mml:math id="M56"><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">GED</mml:mtext></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>η</mml:mi><mml:mo>;</mml:mo><mml:mi>ν</mml:mi><mml:mo>)</mml:mo><mml:mo>≡</mml:mo><mml:mfrac><mml:mrow><mml:mi>ν</mml:mi><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mfenced close="|" open="|"><mml:mrow><mml:mi>η</mml:mi><mml:mo>/</mml:mo><mml:mi>λ</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>ν</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>λ</mml:mi><mml:msup><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>ν</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:msup><mml:mi>Γ</mml:mi><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>ν</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mi>λ</mml:mi><mml:mo>≡</mml:mo><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mfrac><mml:mrow><mml:mi>Γ</mml:mi><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>ν</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>ν</mml:mi></mml:mrow></mml:msup><mml:mi>Γ</mml:mi><mml:mo>(</mml:mo><mml:mn>3</mml:mn><mml:mo>/</mml:mo><mml:mi>ν</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq15.gif"/></alternatives></inline-formula></td><td align="left">“ged”</td></tr><tr><td align="left">Skewed Normal</td><td align="justify">See Trottier and Ardia [<xref ref-type="bibr" rid="CR44">44</xref>], equation 1</td><td align="left">“snorm”</td></tr><tr><td align="left">Skewed Student-t</td><td align="justify">See Trottier and Ardia [<xref ref-type="bibr" rid="CR44">44</xref>], equation 1</td><td align="left">“sstd”</td></tr><tr><td align="left">Skewed GED</td><td align="justify">See Trottier and Ardia [<xref ref-type="bibr" rid="CR44">44</xref>], equation 1</td><td align="left">“sged”</td></tr></tbody></table></table-wrap></p>
+                <p>Let <italic>ψ</italic> be the vector of model parameters. The likelihood function is defined in Eq. <xref rid="Equ13" ref-type="">13</xref>, and the maximum likelihood estimator <inline-formula id="IEq16"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\widehat {\psi }$\end{document}</tex-math><mml:math id="M58"><mml:mover accent="false"><mml:mrow><mml:mi>ψ</mml:mi></mml:mrow><mml:mo>^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq16.gif"/></alternatives></inline-formula> is obtained by maximizing the logarithm of (<xref rid="Equ13" ref-type="">13</xref>), where <italic>f</italic>(<italic>ε</italic><sub><italic>t</italic></sub>|<italic>ψ</italic>,<italic>I</italic><sub><italic>t</italic>−1</sub>) denotes the density of <italic>ε</italic><sub><italic>t</italic></sub> given past observations, <italic>I</italic><sub><italic>t</italic>−1</sub> and model parameters <italic>ψ</italic>.</p>
+              </sec>
+            </sec>
+            <sec id="Sec5" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec6">
+                <title>Use of GAM functions to predict COVID-19 historical series</title>
+                <p>Countries’ data were collected using <italic>tidycovid19</italic> R package [<xref ref-type="bibr" rid="CR6">6</xref>]. The results for COVID-19 curves in the USA are shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref> as an example of the modeling proposed by Eqs. (<xref rid="Equ2" ref-type="">2</xref>–<xref rid="Equ5" ref-type="">5</xref>), respectively. The red points are the actual values, the black solid lines are the fitted values, the dashed blue lines are the 99% forecasting intervals, and the vertical dashed purple lines are the inflection points.
+<fig id="Fig1"><label>Fig. 1</label><caption><p>COVID-19 curves for the USA, as of September 15, 2021. Panel A shows cumulative confirmed cases; panel B shows cumulative deaths; panel C shows daily confirmed cases, and panel D shows daily deaths</p></caption><graphic xlink:href="12889_2021_11891_Fig1_HTML" id="MO1"/></fig></p>
+                <p>Figure <xref rid="Fig2" ref-type="fig">2</xref> shows the results of Eqs. (<xref rid="Equ2" ref-type="">2</xref>–<xref rid="Equ5" ref-type="">5</xref>) applied to several countries worldwide, represented by purple/red dots. The median of the RRSE shows that the models fit the data well, both for confirmed cases and deaths (A-B). Moreover, when countries are classified as “less accurate”, that is, the RRSE is above the median, the maximum RRSE is close to 0.15, except in one case, which is considered to be an outlier.
+<fig id="Fig2"><label>Fig. 2</label><caption><p>Boxplots for RRSE and Deviance explained worldwide, on September 15, 2021. Panel A shows cumulative cases; panel B shows cumulative deaths; panel C shows daily cases, and panel D shows daily deaths</p></caption><graphic xlink:href="12889_2021_11891_Fig2_HTML" id="MO2"/></fig></p>
+                <p>Similarly, the panels in Fig. <xref rid="Fig2" ref-type="fig">2</xref> reporting results for deviance explained also suggest a good fit for Eqs. (<xref rid="Equ4" ref-type="">4</xref>–<xref rid="Equ5" ref-type="">5</xref>) to smooth the daily cases and death time series for the countries, given that their medians are above 74% (the higher, the better).</p>
+                <p>As a comparison, we considered several growth functions (exponential, logistic, Gompertz, Weibull, and Richards) [<xref ref-type="bibr" rid="CR24">24</xref>] to fit the confirmed cases of the countries. Next, we computed their RRSE. To estimate the growth functions parameters, we based our estimation on the previous study by [<xref ref-type="bibr" rid="CR18">18</xref>], choosing the function that best fits each country using RRSE.</p>
+                <p>Figure <xref rid="Fig3" ref-type="fig">3</xref> shows the RRSE for each of the five growth functions considered, for the confirmed cases, given that [<xref ref-type="bibr" rid="CR18">18</xref>] analyzed only this time series. Our results clearly show that the GAM functions outperform those of [<xref ref-type="bibr" rid="CR18">18</xref>] for the fitting of the COVID-19 time series, in addition to standardizing the entire estimation process in a single type of function.
+<fig id="Fig3"><label>Fig. 3</label><caption><p>Boxplots for RRSE of growth functions worldwide on September 15, 2021</p></caption><graphic xlink:href="12889_2021_11891_Fig3_HTML" id="MO3"/></fig></p>
+              </sec>
+              <sec id="Sec7">
+                <title>Identifying structural breaks in the COVID-19 curves</title>
+                <p>Continuing with the COVID-19 for the USA series as an example, the GARCH (1,1) [<inline-formula id="IEq17"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\sigma ^{2}_{t} = \omega + \alpha \epsilon ^{2}_{t-1} + \beta \sigma ^{2}_{t-1}$\end{document}</tex-math><mml:math id="M60"><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mi>ω</mml:mi><mml:mo>+</mml:mo><mml:mi>α</mml:mi><mml:msubsup><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:mi>β</mml:mi><mml:msubsup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12889_2021_11891_Article_IEq17.gif"/></alternatives></inline-formula>] coefficients were estimated for the residuals of Eqs. (<xref rid="Equ2" ref-type="">2</xref>–<xref rid="Equ3" ref-type="">3</xref>) using the rugarch R package [<xref ref-type="bibr" rid="CR46">46</xref>], assuming a Normal distribution, as illustrated in Table <xref rid="Tab3" ref-type="table">3</xref>, with 1% of significance. In both models, the sum of the <italic>α</italic> and <italic>β</italic> coefficients is equal to 1, confirming the existence of a structural break in the residuals, as shown in Figure 4. In other words, the parameters of the variance’s residuals change over time.
+<table-wrap id="Tab3"><label>Table 3</label><caption><p>GARCH models result for residuals for the USA, on September 15, 2021</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">GARCH model (USA)</th><th align="left"><italic>ω</italic></th><th align="left"><italic>α</italic></th><th align="left"><italic>β</italic></th></tr></thead><tbody><tr><td align="left">Residuals from Eq. <xref rid="Equ2" ref-type="">2</xref></td><td align="left">0.00000</td><td align="left">0.32943</td><td align="left">0.67057</td></tr><tr><td align="left">Residuals from Eq. <xref rid="Equ3" ref-type="">3</xref></td><td align="left">0.00005</td><td align="left">0.29769</td><td align="left">0.70231</td></tr></tbody></table></table-wrap></p>
+                <p>Figure <xref rid="Fig4" ref-type="fig">4</xref> shows the results for the pure Markov-Switching models (MSwM) for the confirmed cases and deaths from COVID-19 in the USA, on September 15, 2021. The black and red lines are the probabilities of being, respectively, in the regime of low (<italic>σ</italic><sub>1,<italic>c</italic><italic>o</italic><italic>n</italic><italic>f</italic><italic>i</italic><italic>r</italic><italic>m</italic><italic>e</italic><italic>d</italic></sub>=0.32;<italic>σ</italic><sub>1,<italic>d</italic><italic>e</italic><italic>a</italic><italic>t</italic><italic>h</italic><italic>s</italic></sub>=0.48) and high (<italic>σ</italic><sub>2,<italic>c</italic><italic>o</italic><italic>n</italic><italic>f</italic><italic>i</italic><italic>r</italic><italic>m</italic><italic>e</italic><italic>d</italic></sub>=1.85;<italic>σ</italic><sub>2,<italic>d</italic><italic>e</italic><italic>a</italic><italic>t</italic><italic>h</italic><italic>s</italic></sub>=1.59) variance/std. deviation, while the blue line is the standardized residuals.
+<fig id="Fig4"><label>Fig. 4</label><caption><p>MSwM probabilities for confirmed cases and deaths, linked to COVID-19 for the USA</p></caption><graphic xlink:href="12889_2021_11891_Fig4_HTML" id="MO4"/></fig></p>
+                <p>Regarding confirmed cases, the MSwM models indicate that a regime-switching started on November 8th, 2020 (five days after the United States presidential election), from low variance to high variance. On February 16, 2021, the USA returned to the low variance regime since they administered the first vaccine on December 14, 2020 [<xref ref-type="bibr" rid="CR47">47</xref>]. However, on July 17, 2021, they came again to the high variance regime, mainly due to the proliferation of the delta variant in the country, together with the decrease in the effectiveness of vaccines against this new variant of COVID-19 [<xref ref-type="bibr" rid="CR48">48</xref>]. As for the number of deaths, the regime-switching from low variance to high variance, and vice-versa, follows a pattern similar to that observed for confirmed cases.</p>
+                <p>Figure <xref rid="Fig5" ref-type="fig">5</xref> shows the results for the Markov-Switching GARCH models (MSGARCH) for the COVID-19 curves, for confirmed cases and deaths in the USA, as of September 15, 2021. As in Fig. <xref rid="Fig4" ref-type="fig">4</xref>, the black and red lines are the probabilities of being in the regime of low and high variance/std. deviation, while the blue line shows standardized residuals.
+<fig id="Fig5"><label>Fig. 5</label><caption><p>MSGARCH probabilities for confirmed cases and deaths, linked to COVID-19 for the USA</p></caption><graphic xlink:href="12889_2021_11891_Fig5_HTML" id="MO5"/></fig></p>
+                <p>Given that 30 models were estimated for both curves, the choice of the best model was based on the following criteria: all model parameters must be significant at the 5% level, and the best model must have the lowest Bayesian Information Criteria [BIC]. The estimated coefficients for the best models are shown in Table <xref rid="Tab4" ref-type="table">4</xref>, for confirmed cases and deaths.
+<table-wrap id="Tab4"><label>Table 4</label><caption><p>MSGARCH estimated parameters for the USA COVID-19 curves</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">sGARCH-snorm</th><th align="left" colspan="2">Confirmed cases</th><th align="left">eGARCH-ged</th><th align="left" colspan="2">Deaths</th></tr><tr><th align="left"/><th align="left">Low var</th><th align="left">High var</th><th align="left"/><th align="left">Low var</th><th align="left">High var</th></tr></thead><tbody><tr><td align="justify"><italic>ω</italic><sub>1</sub></td><td align="left">0.0000</td><td align="left">0.0001</td><td align="justify"><italic>ω</italic><sub>1</sub></td><td align="left">0.1019</td><td align="left">-0.0290</td></tr><tr><td align="justify"><italic>α</italic><sub>1</sub></td><td align="left">0.2502</td><td align="left">0.1431</td><td align="justify"><italic>α</italic><sub>1</sub></td><td align="left">0.3636</td><td align="left">0.3244</td></tr><tr><td align="justify"><italic>β</italic><sub>1</sub></td><td align="left">0.7492</td><td align="left">0.8567</td><td align="justify"><italic>α</italic><sub>2</sub></td><td align="left">-0.1452</td><td align="left">0.1729</td></tr><tr><td align="justify"><italic>ξ</italic><sub>1</sub></td><td align="left">1.3930</td><td align="left">1.4308</td><td align="justify"><italic>β</italic><sub>1</sub></td><td align="left">0.9621</td><td align="left">0.9969</td></tr><tr><td align="justify">-</td><td align="left">-</td><td align="left">-</td><td align="justify"><italic>ν</italic><sub>1</sub></td><td align="left">4.8038</td><td align="left">5.9520</td></tr></tbody></table></table-wrap></p>
+                <p>Both Fig. <xref rid="Fig4" ref-type="fig">4</xref> and <xref rid="Fig5" ref-type="fig">5</xref> show the mean of the probabilities <italic>p</italic>(<italic>S</italic><sub><italic>t</italic>=1</sub>|<italic>S</italic><sub><italic>t</italic>−1</sub>=1)=<italic>p</italic><sub>11</sub> and <italic>p</italic>(<italic>S</italic><sub><italic>t</italic></sub>=2|<italic>S</italic><sub><italic>t</italic>−1</sub>=2)=<italic>p</italic><sub>22</sub> for confirmed cases and deaths, from their transition matrices. The higher these values, the more persistent is the regime. Otherwise, the regime-changing would be easier, thus making no sense for the use of Markov-Switching models, and a single regime GARCH model could better explain the low/high variability of the residuals. Therefore, the best model is that with the highest <italic>m</italic><italic>e</italic><italic>a</italic><italic>n</italic>(<italic>p</italic><sub>11</sub>,<italic>p</italic><sub>22</sub>), suggesting that MSGARCH slightly better explains the regime-switching for confirmed cases, while the MSwM better explains deaths.</p>
+                <p>Figures <xref rid="Fig6" ref-type="fig">6</xref> and <xref rid="Fig7" ref-type="fig">7</xref> display the classification of the Markov-Switching model that better explains the structural breaks amongst countries, on September 15, 2021, following the above-mentioned criteria of choice. For the confirmed cases and deaths, the MSwM accounts for 96 and 83 countries, respectively, while the MSGARCH accounts for 93 and 98 countries, in that order.
+<fig id="Fig6"><label>Fig. 6</label><caption><p>Markov-Switching classification for the confirmed cases worldwide</p></caption><graphic xlink:href="12889_2021_11891_Fig6_HTML" id="MO6"/></fig><fig id="Fig7"><label>Fig. 7</label><caption><p>Markov-Switching classification for the deaths worldwide</p></caption><graphic xlink:href="12889_2021_11891_Fig7_HTML" id="MO7"/></fig></p>
+                <p>When the MSGARCH is chosen, the eGARCH-ged model is selected 12 out of 93 times for the confirmed cases, and the eGARCH-sged and eGARCH-snorm models are selected 14 out of 98 times for the deaths, being those models their modes, respectively. It is essential to highlight that the variance in the eGARCH model respond asymmetrically to rises and falls in COVID-19 numbers, determined by the <italic>α</italic><sub>2</sub> parameter. In the USA example, for deaths, the variance increases when the residual is positive (<italic>α</italic><sub>2</sub>&gt;0) for the high regime, while when the regime is low, the variance increases when the residual is negative (<italic>α</italic><sub>2</sub>&lt;0).</p>
+                <p>Besides, we can add two other possibilities of classification for the countries regarding the occurrence of structural breaks in the confirmed cases and deaths from COVID-19 curves. Again, we contend that pandemic fatigue causes a change in people’s behavior and contributes to a greater increase in infected people, as pointed out by [<xref ref-type="bibr" rid="CR19">19</xref>].</p>
+                <p>The first possibility was using the Partitioning Around Medoids (PAM) [<xref ref-type="bibr" rid="CR49">49</xref>], given that it uses the K-medoid algorithm, which is a robust alternative to the K-means algorithm because it is less sensitive to noise and outliers. Moreover, it employs the silhouette method to find the optimal k clusters over a range of possible values, because it measures the quality of clustering: the higher, the better, in a scale of Average Silhouette Width (ASW), ranging from zero to one. We define 01 to 10 as the range of possible values for k, and we found two clusters as the best number of clusters for the confirmed cases (ASW=0.48) and deaths (ASW=0.49).</p>
+                <p>The second possibility was to define quadrants from the medians of the axes, equally splitting the countries’ sample per axis, and dividing the Cartesian plane into four regions (I-IV), interpreted in a counter-clockwise direction. Region I is defined as having small “low-variability”/great “high-variability” [confirmed=41; deaths=46], region II as having small “low-variability”/small “high-variability” [confirmed=54; deaths=45], region III as having great “low-variability”/small “high-variability” [confirmed=41; deaths=46], and region IV as having great “low-variability”/great “high-variability” [confirmed=53; deaths=44].</p>
+                <p>Overall, on September 15, 2021, Figs. <xref rid="Fig6" ref-type="fig">6</xref>-<xref rid="Fig7" ref-type="fig">7</xref> show how heterogeneous the countries were concerning the commitment of their populations to non-pharmacological measures to combat COVID-19. Countries in Region II seem to have the best performance in this regard.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>A proposal for the COVID-19 evaluation framework</title>
+                <p>In Figs. <xref rid="Fig8" ref-type="fig">8</xref>-<xref rid="Fig9" ref-type="fig">9</xref>, the x-axis represents the cumulative number of days since the first COVID-19 case, and the y-axis is the natural logarithm of the current number of COVID-19 confirmed cases or deaths, as well as the size of the circles for each country, to facilitate a relative comparison between them: the bigger, the worst. To mediate the relationship between them, one more variable is considered: the inflection point.
+<fig id="Fig8"><label>Fig. 8</label><caption><p>An evaluation framework for the confirmed cases worldwide</p></caption><graphic xlink:href="12889_2021_11891_Fig8_HTML" id="MO8"/></fig><fig id="Fig9"><label>Fig. 9</label><caption><p>An evaluation framework for the deaths worldwide</p></caption><graphic xlink:href="12889_2021_11891_Fig9_HTML" id="MO9"/></fig></p>
+                <p>Like Figs. <xref rid="Fig6" ref-type="fig">6</xref>, <xref rid="Fig7" ref-type="fig">7</xref>, <xref rid="Fig8" ref-type="fig">8</xref> and <xref rid="Fig9" ref-type="fig">9</xref> were divided into quadrants from the medians of the axes, equally splitting the countries’ sample per axis, and dividing the Cartesian plane into four regions (I-IV), also interpreted in a counter-clockwise direction.</p>
+                <p>Region I is defined as having “short-term inefficiency” [confirmed=22; deaths=26], region II as having “short-term efficiency” [confirmed=73; deaths=67], region III as having “long-term efficiency” [confirmed=22; deaths=24], and region IV as having “long-term inefficiency” [confirmed=72; deaths=64].</p>
+                <p>Therefore, the key concept of efficiency here is interpreted as preventing the number of confirmed cases and deaths from increasing over time, as well as to see, in the same chart, how the behavior of the growth rate.</p>
+                <p>Moreover, using the PAM clustering [<xref ref-type="bibr" rid="CR49">49</xref>], clusters were also found in Figs. <xref rid="Fig8" ref-type="fig">8</xref>-<xref rid="Fig9" ref-type="fig">9</xref>, thus showing heterogeneity in their performance, even in the same quadrant (ASW=0.89 for the confirmed cases, ASW=0.81 for the deaths).</p>
+              </sec>
+            </sec>
+            <sec id="Sec9" sec-type="discussion">
+              <title>Discussion</title>
+              <p>In the Background section, we mentioned the role of geopolitical and socio-economic characteristics in explaining the evolution of COVID-19. However, it is also important to comment the role of psychological effects on people caused by the spread of COVID-19 around the world.</p>
+              <p>For example, several studies have assessed the fear of healthcare professionals or medical students of being infected with COVID-19, as well as how this fear affects their physical, mental, and emotional health [<xref ref-type="bibr" rid="CR50">50</xref>–<xref ref-type="bibr" rid="CR53">53</xref>]. Among the various results obtained using the Fear of COVID-19 Scale [<xref ref-type="bibr" rid="CR54">54</xref>], women are more afraid than men of being infected by COVID-19, causing greater impacts on the quality of their physical, mental and emotional health. Perhaps, for these reasons, women, more than men, are also more likely to adopt non-pharmacological prevention measures.</p>
+              <p>Therefore, our evaluation framework also allows us to conjecture that countries classified as efficient, whether in the short or long term, also have the highest levels of the physical, mental, and emotional quality of their health professionals or medical students. The importance of this is that these professionals work on the front line in the fight against COVID-19.</p>
+              <p>Although not the main focus of this study, our evaluation framework can also be applied to assess the vaccination deployment worldwide, in order to contribute to the perception of vaccine safety and increase willingness to receive it, as pointed out by [<xref ref-type="bibr" rid="CR55">55</xref>]. Recently, [<xref ref-type="bibr" rid="CR56">56</xref>] have made available a free-to-access global dataset that tracks the scale and rate of vaccine rollout. For instance, Fig. <xref rid="Fig10" ref-type="fig">10</xref> shows, on September 15, 2021, the distribution of countries for the total vaccinated per hundred, since the 1st dose applied. In this case, countries in regions I and IV are classified as “short-term efficiency” and “long-term efficiency”, respectively.
+<fig id="Fig10"><label>Fig. 10</label><caption><p>An evaluation framework for the total vaccinated per 100 worldwide</p></caption><graphic xlink:href="12889_2021_11891_Fig10_HTML" id="MO10"/></fig></p>
+              <p>Finally, on September 15, 2021, the results presented in Figs. <xref rid="Fig8" ref-type="fig">8</xref>–<xref rid="Fig9" ref-type="fig">9</xref> for the countries can be summarized as follows, considering the regions as defined in the World Bank’s Development Indicators: 
+<list list-type="order"><list-item><p>For the confirmed cases, 105 out of the 189 countries showed a growth rate on a downward trend;</p></list-item><list-item><p>For the deaths, 99 out of the 181 countries showed a growth rate on a downward trend;</p></list-item><list-item><p>For confirmed cases and deaths, most of the countries on a downward trend are located in Sub-Saharan Africa, Europe &amp; Central Asia. However, most of the countries on an upward trend are located in Europe &amp; Central Asia, Sub-Saharan Africa, and Latin America &amp; Caribbean, in this order;</p></list-item><list-item><p>For the confirmed cases, most of the countries considered efficient (quadrants II and III) are located in Sub-Saharan Africa (42), East Asia &amp; Pacific (16), and Latin America &amp; Caribbean (16). On the other hand, most of the countries considered inefficient (quadrants I and IV) are located in Europe &amp; Central Asia (38), Latin America &amp; Caribbean (17), and Middle East &amp; North Africa (17);</p></list-item><list-item><p>For the deaths, most of the countries considered efficient (quadrants II and III) are located in Sub-Saharan Africa (39), Europe &amp; Central Asia (17), and Latin America &amp; Caribbean (13). On the other hand, most of the countries considered inefficient (quadrants I and IV) are located in Europe &amp; Central Asia (34), Latin America &amp; Caribbean (18), and Middle East &amp; North Africa (13);</p></list-item><list-item><p>The United States, India, and Brazil have the highest confirmed cases among all countries, but only the USA has its growth rate on a upward trend;</p></list-item><list-item><p>Regarding the deaths, The United States, Brazil, India, Mexico and Peru have the highest number of victims among all countries, but Peru have its growth rate on an downward trend;</p></list-item></list></p>
+              <p>The figures mentioned above from our evaluation framework show that the most developed countries are not necessarily the most efficient in combating COVID-19. Europe is the most developed continent in the world and is home to 4 of the 7 members that constitute the G7, but most countries are trending upwards and considered inefficient, for confirmed cases and deaths.</p>
+              <p>Furthermore, even though 43.3% of the world’s population has received at least one dose of the COVID-19 vaccine [<xref ref-type="bibr" rid="CR56">56</xref>], Figs. 8 and 9 illustrate that several countries are again facing waves of contagion, including those that were pioneers in vaccinating their populations, like Israel [<xref ref-type="bibr" rid="CR57">57</xref>]. Another example comes from Figure 1: the USA is experiencing a new wave of infections and deaths similar to what they experienced in mid-December/2020 when they started their vaccination campaign against COVID-19.</p>
+            </sec>
+            <sec id="Sec10" sec-type="conclusion">
+              <title>Conclusion</title>
+              <p>The purpose of this paper is to propose a new framework to monitor and assess, daily, the performance of countries in the fight against COVID-19. Our process will provide a greater understanding by stakeholders (policy-makers, public health workers, and the general public) of the evolution of the disease in each country, thereby improving public policies for mitigating or suppressing the effects of COVID-19 on society ahead of obtaining a vaccine. Our new methodology proves more effective in explaining the evolution of COVID-19 worldwide than traditional growth functions, including highlighting several inflection points and regime-switching moments. Moreover, results from this research can be used by managers, for example, to provide an econometric justification for the prioritizing of vaccination programmes in the health care sector.</p>
+              <p>The use of GAM functions to predict the confirmed cases and deaths prove adequate, even with the occurrence of spikes or “second waves” in these series. Our new approach even allows the identification of several inflection points throughout the daily confirmed cases and deaths series: an advance when compared to traditional growth functions.</p>
+              <p>However, we recognize that for monitoring pandemics and epidemic outbreaks in the early stages, growth functions are still important for this purpose, as demonstrated by [<xref ref-type="bibr" rid="CR18">18</xref>]. This brings us to the main limitation of our evaluation framework: the size of the epidemiological time series. It was empirically verified that the smallest size for the proper use of GAM functions and Markov-Switching models is 60 observations.</p>
+              <p>We incorporate new evidence that pandemic fatigue is taking hold, especially after the start of vaccination. This decrease in commitment to fighting the pandemic alters the behavior of the forecast errors present in the COVID-19 curves, causing a structural break in the variance of the residuals, or forecast errors. This allows us the opportunity to take advantage of Markov-Switching (MS) models, built on the residuals of our forecasts, to specifically identify this behavior using regime-switching in the COVID-19 time series. The application of the Markov-Switching models in the residuals of the GAM functions proves to be viable concerning the identification of structural breaks in these series, effectively pointing to a prevalence of the MSwM models for the confirmed cases, and the MSGARCH for deaths. Besides, when the MSGARCH is chosen, the prevalent model indicates that the variance in the eGARCH model responds asymmetrically to rises and falls in COVID-19 numbers.</p>
+              <p>Finally, our new framework for assessing the effectiveness of countries in controlling the spread of COVID-19 in their territories, as well as the number of deaths, provides a new lens for visualizing and understanding the world panorama, helping to identify the countries with the most effective strategies, and even allowing additional new explanatory variables to be used in the y-axis, such as the death rate from infected people. The new outcomes presented in this research will allow key stakeholders to check whether or not public policies and interventions in the fight against COVID-19 are having an effect. We can easily identify examples of best practice and promote such policies more widely around the world. Not least, the application of our evaluation framework to the vaccine dataset developed by [<xref ref-type="bibr" rid="CR56">56</xref>] is our main recommendation for future studies.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec11">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="12889_2021_11891_MOESM1_ESM.r">
+                      <caption>
+                        <p><bold>Additional file 1</bold> Script1.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="12889_2021_11891_MOESM2_ESM.r">
+                      <caption>
+                        <p><bold>Additional file 2</bold> Script2.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM3">
+                    <media xlink:href="12889_2021_11891_MOESM3_ESM.r">
+                      <caption>
+                        <p><bold>Additional file 3</bold> Script3.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM4">
+                    <media xlink:href="12889_2021_11891_MOESM4_ESM.pdf">
+                      <caption>
+                        <p><bold>Additional file 4</bold> List of countries’ abbreviations.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>CSSE</term>
+                  <def>
+                    <p>Centre for Systems Science and Engineering</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>GAM</term>
+                  <def>
+                    <p>Generalized Additive Models</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>REML</term>
+                  <def>
+                    <p>restricted maximum likelihood</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ML</term>
+                  <def>
+                    <p>maximum likelihood</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>GCV</term>
+                  <def>
+                    <p>generalized cross-validation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RRSE</term>
+                  <def>
+                    <p>Root Relative Squared Error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>WHO</term>
+                  <def>
+                    <p>World Health Organization</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MSwM</term>
+                  <def>
+                    <p>pure Markov-Switching</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MSGARCH</term>
+                  <def>
+                    <p>Markov-Switching Generalized Autoregressive Conditional Heteroskedasticity</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>GED</term>
+                  <def>
+                    <p>generalized error distribution</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PAM</term>
+                  <def>
+                    <p>Partitioning Around Medoids</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>ASW</term>
+                  <def>
+                    <p>Average Silhouette Width</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Not applicable.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <sec id="FPar1">
+                <title>Authors’ contributions</title>
+                <p>All authors conceptualised the idea for this paper. Data collection and data analysis were undertaken by AMBO. AMBO wrote the first draft of the manuscript with critical reviews from JMB, AM, LK and GJP. All authors reviewed and contributed to all drafts of the manuscript including the final manuscript. The authors read and approved the final manuscript.</p>
+              </sec>
+              <sec id="FPar2">
+                <title>Authors’ information</title>
+                <p>Not applicable.</p>
+              </sec>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>No funding was obtained for this study.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>Countries’ data were collected using tidycovid19 R package [<xref ref-type="bibr" rid="CR6">6</xref>]. Once the package is installed, public access to the database is free and open. To access the link for the global database of COVID-19 vaccinations, see [<xref ref-type="bibr" rid="CR56">56</xref>]. Besides, all codes written in R used in this study (Additional file <xref rid="MOESM1" ref-type="media">1</xref>, Additional file <xref rid="MOESM2" ref-type="media">2</xref>, and Additional file <xref rid="MOESM3" ref-type="media">3</xref>) are available in supplementary material, as well as a list of countries abbreviations (Additional file <xref rid="MOESM4" ref-type="media">4</xref>), to promote and disseminate our findings widely.</p>
+            </notes>
+            <notes id="FPar3">
+              <title>Ethics approval and consent to participate</title>
+              <p>Not applicable.</p>
+            </notes>
+            <notes id="FPar4">
+              <title>Consent for publication</title>
+              <p>Not applicable.</p>
+            </notes>
+            <notes id="FPar5" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p>The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Houlihan</surname>
+                      <given-names>CF</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitworth</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Outbreak science: recent progress in the detection and response to outbreaks of infectious diseases</article-title>
+                  <source>Clin Med</source>
+                  <year>2019</year>
+                  <volume>19</volume>
+                  <issue>2</issue>
+                  <fpage>140</fpage>
+                  <lpage>44</lpage>
+                  <pub-id pub-id-type="doi">10.7861/clinmedicine.19-2-140</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chowell</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyman</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <source>Mathematical and Statistical Modeling for Emerging and Re-emerging Infectious Diseases</source>
+                  <year>2016</year>
+                  <publisher-loc>Cham</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3</label>
+                <mixed-citation publication-type="other">Bar-Yam Y. Transitions to extinction: pandemics in a connected world. 2016. <ext-link ext-link-type="uri" xlink:href="https://necsi.edu/transition-to-extinction">https://necsi.edu/transition-to-extinction</ext-link>. Accessed 04 Jan 2021.</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4</label>
+                <mixed-citation publication-type="other">Norman J, Bar-Yam Y, Taleb NN. Systemic risk of pandemic via novel pathogens – Coronavirus: A note. 2020. <ext-link ext-link-type="uri" xlink:href="https://necsi.edu/systemic-risk-of-pandemic-via-novel-pathogens-coronavirus-a-note">https://necsi.edu/systemic-risk-of-pandemic-via-novel-pathogens-coronavirus-a-note</ext-link>. Accessed 04 Jan 2021.</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An interactive web-based dashboard to track COVID-19 in real time</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <issue>5</issue>
+                  <fpage>533</fpage>
+                  <lpage>34</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30120-1</pub-id>
+                  <pub-id pub-id-type="pmid">32087114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6</label>
+                <mixed-citation publication-type="other">Gassen J. tidycovid19: Download, Tidy and Visualize Covid-19 Related Data. 2020. <ext-link ext-link-type="uri" xlink:href="https://joachim-gassen.github.io/tidycovid19/">https://joachim-gassen.github.io/tidycovid19/</ext-link>. Accessed 07 Dec 2020.</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7</label>
+                <mixed-citation publication-type="other">Annan JD, Hargreaves JC. Model calibration, nowcasting, and operational prediction of the COVID-19 pandemic. medRxiv. 2020; preprint. 10.1101/2020.04.14.20065227.</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hilton</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Keeling</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation of country-level basic reproductive ratios for novel Coronavirus (SARS-CoV-2/COVID-19) using synthetic contact matrices</article-title>
+                  <source>PLoS Comput Biol</source>
+                  <year>2020</year>
+                  <volume>16</volume>
+                  <issue>7</issue>
+                  <fpage>1008031</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1008031</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vasconcelos</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Macêdo</surname>
+                      <given-names>AMS</given-names>
+                    </name>
+                    <name>
+                      <surname>Ospina</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Almeida</surname>
+                      <given-names>FAG</given-names>
+                    </name>
+                    <name>
+                      <surname>Duarte-Filho</surname>
+                      <given-names>GC</given-names>
+                    </name>
+                    <name>
+                      <surname>Brum</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Souza</surname>
+                      <given-names>ICL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling fatality curves of COVID-19 and the effectiveness of intervention strategies</article-title>
+                  <source>PeerJ</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>9421</fpage>
+                  <pub-id pub-id-type="doi">10.7717/peerj.9421</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baud</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Qi</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Nielsen-Saines</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Musso</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Pomar</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Favre</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real estimates of mortality following COVID-19 infection</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <issue>7</issue>
+                  <fpage>773</fpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30195-X</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Jing</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of temperature and humidity on the daily new cases and new deaths of COVID-19 in 166 countries</article-title>
+                  <source>Sci Total Environ</source>
+                  <year>2020</year>
+                  <volume>729</volume>
+                  <issue>10</issue>
+                  <fpage>139051</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.139051</pub-id>
+                  <pub-id pub-id-type="pmid">32361460</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Xi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of temperature on the dynamics of the COVID-19 outbreak in China</article-title>
+                  <source>Sci Total Environ</source>
+                  <year>2020</year>
+                  <volume>728</volume>
+                  <issue>1</issue>
+                  <fpage>138890</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.138890</pub-id>
+                  <pub-id pub-id-type="pmid">32339844</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13</label>
+                <mixed-citation publication-type="other">McKibbin W, Fernando R. The Global Macroeconomic Impacts of COVID-19: Seven Scenarios. 2020. <ext-link ext-link-type="uri" xlink:href="https://www.brookings.edu/research/the-global-macroeconomic-impacts-of-covid-19-seven-scenarios/">https://www.brookings.edu/research/the-global-macroeconomic-impacts-of-covid-19-seven-scenarios/</ext-link>. Accessed 08 June 2020.</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14</label>
+                <mixed-citation publication-type="other">Lin Z, Meissner C. Health vs. Wealth? Public Health Policies and the Economy During Covid-19. Technical report. Cambridge: National Bureau of Economic Research; 2020. 10.3386/w27099. <ext-link ext-link-type="uri" xlink:href="http://www.nber.org/papers/w27099.pdf">http://www.nber.org/papers/w27099.pdf</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15</label>
+                <mixed-citation publication-type="other">Taleb NN, Read R, Douady R, Norman J, Bar-Yam Y. The precautionary principle (with application to the genetic modi cation of organisms). 2014. <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1410.5787">https://arxiv.org/abs/1410.5787</ext-link>. Accessed 04 Jan 2021.</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16</label>
+                <mixed-citation publication-type="other">EndCoronavirus.org. Some are winning, some are not. Which countries do best in beating COVID-19? 2021. <ext-link ext-link-type="uri" xlink:href="https://www.endcoronavirus.org/countries">https://www.endcoronavirus.org/countries</ext-link>. Accessed 08 June 2020.</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17</label>
+                <mixed-citation publication-type="other">Financial Times. Coronavirus tracked: the latest fi gures as countries fight to contain the pandemic. 2021. <ext-link ext-link-type="uri" xlink:href="https://www.ft.com/content/a2901ce8-5eb7-4633-b89c-cbdf5b386938">https://www.ft.com/content/a2901ce8-5eb7-4633-b89c-cbdf5b386938</ext-link>. Accessed 08 June 2020.</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Oliveira</surname>
+                      <given-names>AMB</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandal</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Power</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Felipe</surname>
+                      <given-names>I. J. d. S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monitoring COVID-19 in Brazil: an application of growth functions to assess the performance of States</article-title>
+                  <source>Rev Tecnol Soc</source>
+                  <year>2021</year>
+                  <volume>17</volume>
+                  <issue>46</issue>
+                  <fpage>264</fpage>
+                  <pub-id pub-id-type="doi">10.3895/rts.v17n46.12363</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19</label>
+                <mixed-citation publication-type="other">Maragakis LL. Coronavirus Second Wave? Why Cases Increase. 2020. <ext-link ext-link-type="uri" xlink:href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/first-and-second-waves-of-coronavirus">https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/first-and-second-waves-of-coronavirus</ext-link>. Accessed 07 Dec 2020.</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hastie</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Tibshirani</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Generalized Additive Models</source>
+                  <year>1990</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Chapman and Hall</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wood</surname>
+                      <given-names>SN</given-names>
+                    </name>
+                  </person-group>
+                  <source>Generalized Additive Models</source>
+                  <year>2017</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Chapman and Hall/CRC</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                    <name>
+                      <surname>London</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <source>Modern Regression Techniques Using R: a Practical Guide for Students and Researchers</source>
+                  <year>2009</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Sage publications Ltd</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Almond</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Moving out of the Linear Rut: The Possibilities of Generalized Additive Models</article-title>
+                  <source>Trans Inst Br Geogr</source>
+                  <year>1992</year>
+                  <volume>17</volume>
+                  <issue>4</issue>
+                  <fpage>434</fpage>
+                  <pub-id pub-id-type="doi">10.2307/622709</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seber</surname>
+                      <given-names>GAF</given-names>
+                    </name>
+                    <name>
+                      <surname>Wild</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Nonlinear Regression. Wiley Series in Probability and Statistics</source>
+                  <year>1989</year>
+                  <publisher-loc>Hoboken</publisher-loc>
+                  <publisher-name>John Wiley and Sons</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rodriguez</surname>
+                      <given-names>CRS</given-names>
+                    </name>
+                    <name>
+                      <surname>Valdés</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                    <name>
+                      <surname>Shkedy</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Vega</surname>
+                      <given-names>VS</given-names>
+                    </name>
+                    <name>
+                      <surname>Escobar</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Pérez</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Model uncertainty in the comparison of two single dengue outbreaks</article-title>
+                  <source>Rev Invest Oper</source>
+                  <year>2020</year>
+                  <volume>41</volume>
+                  <issue>3</issue>
+                  <fpage>344</fpage>
+                  <lpage>51</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26</label>
+                <mixed-citation publication-type="other">Wood SN. Journal of the Royal Statistical Society: Series B (Statistical Methodology). 2011; 73(1):3–36. 10.1111/j.1467-9868.2010.00749.x.</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27</label>
+                <mixed-citation publication-type="other">Evans JS. spatialEco: Spatial Analysis and Modelling Utilities. 2021. <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/package=spatialEco">https://cran.r-project.org/package=spatialEco</ext-link>. Accessed 07 Dec 2020.</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28</label>
+                <mixed-citation publication-type="other">Izadi F. Generalized additive models to capture the death rates in Canada COVID-19. arXiv. 2020:1–19. http://arxiv.org/abs/2008.01030. Accessed 09 Nov 2020.</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29</label>
+                <mixed-citation publication-type="other">Skynews. Coronavirus: Second COVID-19 wave faster than the first, warns top European scientist. 2020. <ext-link ext-link-type="uri" xlink:href="https://news.sky.com/story/coronavirus-second-covid-19-wave-faster-than-the-first-warns-top-european-scientist-12112000">https://news.sky.com/story/coronavirus-second-covid-19-wave-faster-than-the-first-warns-top-european-scientist-12112000</ext-link>. Accessed 07 Dec 2020.</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30</label>
+                <mixed-citation publication-type="other">WHO. Pandemic Fatigue: Reinvigorating the Public to Prevent Pandemic Fatigue. 2020. <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/335820/WHO-EURO-2020-1160-40906-55390-eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/335820/WHO-EURO-2020-1160-40906-55390-eng.pdf</ext-link>. Accessed 04 Jan 2021.</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McGrail</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Dai</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>McAndrews</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalluri</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enacting national social distancing policies corresponds with dramatic reduction in COVID19 infection rates</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <issue>7</issue>
+                  <fpage>0236619</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0236619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shafer</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Nesca</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Balshaw</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Relaxation of social distancing restrictions: Model estimated impact on COVID-19 epidemic in Manitoba, Canada</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2021</year>
+                  <volume>16</volume>
+                  <issue>1</issue>
+                  <fpage>0244537</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0244537</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franses</surname>
+                      <given-names>PH</given-names>
+                    </name>
+                    <name>
+                      <surname>van Dijk</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <source>Nonlinear Time Series Models in Empirical Finance</source>
+                  <year>2000</year>
+                  <publisher-loc>Cambridge</publisher-loc>
+                  <publisher-name>Cambridge University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lamoureux</surname>
+                      <given-names>CG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lastrapes</surname>
+                      <given-names>WD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Persistence in Variance, Structural Change, and the GARCH Model</article-title>
+                  <source>J Bus Econ Stat</source>
+                  <year>1990</year>
+                  <volume>8</volume>
+                  <issue>2</issue>
+                  <fpage>225</fpage>
+                  <lpage>34</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>C-J</given-names>
+                    </name>
+                    <name>
+                      <surname>Nelson</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Startz</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Testing for mean reversion in heteroskedastic data based on Gibbs-sampling-augmented randomization</article-title>
+                  <source>J Empir Finance</source>
+                  <year>1998</year>
+                  <volume>5</volume>
+                  <issue>2</issue>
+                  <fpage>131</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0927-5398(97)00015-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Engel</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long swings in the dollar: are they in the data and do markets know it?</article-title>
+                  <source>Am Econ Rev</source>
+                  <year>1990</year>
+                  <volume>80</volume>
+                  <issue>4</issue>
+                  <fpage>689</fpage>
+                  <lpage>713</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37</label>
+                <mixed-citation publication-type="other">Sanchez-Espigares JA, Lopez-Moreno A. MSwM: Fitting Markov Switching Models. 2018. <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/package=MSwM">https://cran.r-project.org/package=MSwM</ext-link>. Accessed 08 June 2020.</mixed-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haas</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A New Approach to Markov-Switching GARCH Models</article-title>
+                  <source>J Financ Econ</source>
+                  <year>2004</year>
+                  <volume>2</volume>
+                  <issue>4</issue>
+                  <fpage>493</fpage>
+                  <lpage>530</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Engle</surname>
+                      <given-names>RF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation</article-title>
+                  <source>Econometrica</source>
+                  <year>1982</year>
+                  <volume>50</volume>
+                  <issue>4</issue>
+                  <fpage>987</fpage>
+                  <pub-id pub-id-type="doi">10.2307/1912773</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bollerslev</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Generalized autoregressive conditional heteroskedasticity</article-title>
+                  <source>J Econ</source>
+                  <year>1986</year>
+                  <volume>31</volume>
+                  <issue>3</issue>
+                  <fpage>307</fpage>
+                  <lpage>27</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0304-4076(86)90063-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nelson</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Conditional Heteroskedasticity in Asset Returns: A New Approach</article-title>
+                  <source>Econometrica</source>
+                  <year>1991</year>
+                  <volume>59</volume>
+                  <issue>2</issue>
+                  <fpage>347</fpage>
+                  <pub-id pub-id-type="doi">10.2307/2938260</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glosten</surname>
+                      <given-names>LR</given-names>
+                    </name>
+                    <name>
+                      <surname>Jagannathan</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Runkle</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On the Relation between the Expected Value and the Volatility of the Nominal Excess Return on Stocks</article-title>
+                  <source>J Financ</source>
+                  <year>1993</year>
+                  <volume>48</volume>
+                  <issue>5</issue>
+                  <fpage>1779</fpage>
+                  <lpage>801</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1540-6261.1993.tb05128.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zakoian</surname>
+                      <given-names>J-M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Threshold heteroskedastic models</article-title>
+                  <source>J Econ Dyn Control</source>
+                  <year>1994</year>
+                  <volume>18</volume>
+                  <issue>5</issue>
+                  <fpage>931</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0165-1889(94)90039-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trottier</surname>
+                      <given-names>D-A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ardia</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Moments of standardized Fernandez–Steel skewed distributions: Applications to the estimation of GARCH-type models</article-title>
+                  <source>Finance Res Lett</source>
+                  <year>2016</year>
+                  <volume>18</volume>
+                  <fpage>311</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.frl.2016.05.006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ardia</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Bluteau</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Boudt</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Catania</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Trottier</surname>
+                      <given-names>D-A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Markov-Switching GARCH Models in R : The MSGARCH Package</article-title>
+                  <source>J Stat Softw</source>
+                  <year>2019</year>
+                  <volume>91</volume>
+                  <issue>4</issue>
+                  <fpage>1</fpage>
+                  <lpage>38</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v091.i04</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46</label>
+                <mixed-citation publication-type="other">Ghalanos A. rugarch: Univariate GARCH models. 2020. <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/package=rugarch">https://cran.r-project.org/package=rugarch</ext-link>. Accessed 08 June 2020.</mixed-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47</label>
+                <mixed-citation publication-type="other">BBCUSACanada. Covid-19: firrst vaccine given in US as roll-out begins. 2020. <ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/news/world-us-canada-55305720">https://www.bbc.com/news/world-us-canada-55305720</ext-link>. Accessed 11 Jan 2021.</mixed-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48</label>
+                <mixed-citation publication-type="other">Guarino B, McGinley L. Vaccines show declining effectiveness against infection overall but strong protection against hospitalization amid delta variant. 2021. <ext-link ext-link-type="uri" xlink:href="https://www.washingtonpost.com/health/2021/08/18/covid-vaccine-effectiveness/">https://www.washingtonpost.com/health/2021/08/18/covid-vaccine-effectiveness/</ext-link>. Accessed 30 Aug 2021.</mixed-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kassambara</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <source>Practical Guide to Cluster Analysis in R: Unsupervised Machine Learning</source>
+                  <year>2017</year>
+                  <publisher-loc>Marseille</publisher-loc>
+                  <publisher-name>STHDA</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50</label>
+                <mixed-citation publication-type="other">Konstantinov V, Berdenova S, Satkangulova G, Reznik A, Isralowitz R. COVID-19 Impact on Kazakhstan University Student Fear, Mental Health, and Substance Use. Int J Ment Health Addict. 2020. 10.1007/s11469-020-00412-y.</mixed-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51</label>
+                <mixed-citation publication-type="other">Barbosa-Camacho FJ, García-Reyna B, Cervantes-Cardona GA, Cervantes-Pérez E, Chavarria-Avila E, Pintor-Belmontes KJ, Guzmán-Ramírez BG, Bernal-Hernández A, Ibarrola-Peña JC, Fuentes-Orozco C, González-Ojeda A, Cervantes-Guevara G. Comparison of Fear of COVID-19 in Medical and Nonmedical Personnel in a Public Hospital in Mexico: a Brief Report. Int J Ment Health Addict. 2021. 10.1007/s11469-021-00600-4.</mixed-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Isralowitz</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Konstantinov</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Gritsenko</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Vorobeva</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Reznik</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>First and Second Wave COVID-19 Impact on Russian Medical Student Fear, Mental Health and Substance Use</article-title>
+                  <source>J Loss Trauma</source>
+                  <year>2021</year>
+                  <volume>26</volume>
+                  <issue>1</issue>
+                  <fpage>94</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15325024.2021.1872274</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mittal</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Jain</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 mental health consequences on medical students worldwide</article-title>
+                  <source>J Community Hosp Intern Med Perspect</source>
+                  <year>2021</year>
+                  <volume>11</volume>
+                  <issue>3</issue>
+                  <fpage>296</fpage>
+                  <lpage>98</lpage>
+                  <pub-id pub-id-type="doi">10.1080/20009666.2021.1918475</pub-id>
+                  <pub-id pub-id-type="pmid">34234896</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54</label>
+                <mixed-citation publication-type="other">Ahorsu DK, Lin C-Y, Imani V, Saffari M, Griffiths MD, Pakpour AH. The Fear of COVID-19 Scale: Development and Initial Validation. Int J Ment Health Addict. 2020. 10.1007/s11469-020-00270-8.</mixed-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Tan</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Husain</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                    <name>
+                      <surname>McIntyre</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Chew</surname>
+                      <given-names>NWS</given-names>
+                    </name>
+                    <name>
+                      <surname>Tan</surname>
+                      <given-names>BY-Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Tran</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Vu</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Vu</surname>
+                      <given-names>GT</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>VK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attitudes toward COVID-19 vaccination and willingness to pay: comparison of people with and without mental disorders in China</article-title>
+                  <source>BJPsych Open</source>
+                  <year>2021</year>
+                  <volume>7</volume>
+                  <issue>5</issue>
+                  <fpage>146</fpage>
+                  <pub-id pub-id-type="doi">10.1192/bjo.2021.979</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mathieu</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ritchie</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ortiz-Ospina</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Roser</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hasell</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Appel</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Giattino</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodés-Guirao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A global database of COVID-19 vaccinations</article-title>
+                  <source>Nat Hum Behav</source>
+                  <year>2021</year>
+                  <volume>5</volume>
+                  <issue>7</issue>
+                  <fpage>947</fpage>
+                  <lpage>53</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41562-021-01122-8</pub-id>
+                  <pub-id pub-id-type="pmid">33972767</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57</label>
+                <mixed-citation publication-type="other">Avis D. Israel’s Covid surge shows the world what’s coming next. 2021. <ext-link ext-link-type="uri" xlink:href="https://www.bloomberg.com/news/articles/2021-09-07/israel-s-covid-surge-shows-the-world-what-s-coming-next">https://www.bloomberg.com/news/articles/2021-09-07/israel-s-covid-surge-shows-the-world-what-s-coming-next</ext-link>. Accessed 13 Sep 2021.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

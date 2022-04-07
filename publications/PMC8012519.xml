@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:55:39Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8012519" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8012519</identifier>
+        <datestamp>2021-04-01</datestamp>
+        <setSpec>phenaturepg</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Neural Process Lett</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Neural Process Lett</journal-id>
+              <journal-title-group>
+                <journal-title>Neural Processing Letters</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1370-4621</issn>
+              <issn pub-type="epub">1573-773X</issn>
+              <publisher>
+                <publisher-name>Springer US</publisher-name>
+                <publisher-loc>New York</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8012519</article-id>
+              <article-id pub-id-type="pmcid">PMC8012519</article-id>
+              <article-id pub-id-type="pmc-uid">8012519</article-id>
+              <article-id pub-id-type="pmid">33821142</article-id>
+              <article-id pub-id-type="publisher-id">10495</article-id>
+              <article-id pub-id-type="doi">10.1007/s11063-021-10495-w</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Nonlinear Neural Network Based Forecasting Model for Predicting COVID-19 Cases</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Namasudra</surname>
+                    <given-names>Suyel</given-names>
+                  </name>
+                  <address>
+                    <email>suyelnamasudra@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Dhamodharavadhani</surname>
+                    <given-names>S.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Rathipriya</surname>
+                    <given-names>R.</given-names>
+                  </name>
+                  <address>
+                    <email>rathipriyar@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.444650.7</institution-id><institution-id institution-id-type="ISNI">0000 0004 1772 7273</institution-id><institution>Department of Computer Science and Engineering, </institution><institution>National Institute of Technology Patna, </institution></institution-wrap>Bihar, India </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.412490.a</institution-id><institution-id institution-id-type="ISNI">0000 0004 0538 1156</institution-id><institution>Department of Computer Science, </institution><institution>Periyar University, </institution></institution-wrap>Salem, India </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>1</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <fpage>1</fpage>
+              <lpage>21</lpage>
+              <history>
+                <date date-type="accepted">
+                  <day>12</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2021</copyright-statement>
+                <license>
+                  <license-p>This article is made available via the PMC Open Access Subset for unrestricted research re-use and secondary analysis in any form or by any means with acknowledgement of the original source. These permissions are granted for the duration of the World Health Organization (WHO) declaration of COVID-19 as a global pandemic.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The recent COVID-19 outbreak has severely affected people around the world. There is a need of an efficient decision making tool to improve awareness about the spread of COVID-19 infections among the common public. An accurate and reliable neural network based tool for predicting confirmed, recovered and death cases of COVID-19 can be very helpful to the health consultants for taking appropriate actions to control the outbreak. This paper proposes a novel Nonlinear Autoregressive (NAR) Neural Network Time Series (NAR-NNTS) model for forecasting COVID-19 cases. This NAR-NNTS model is trained with Scaled Conjugate Gradient (SCG), Levenberg Marquardt (LM) and Bayesian Regularization (BR) training algorithms. The performance of the proposed model has been compared by using Root Mean Square Error (RMSE), Mean Square Error (MSE) and correlation co-efficient i.e. R-value. The results show that NAR-NNTS model trained with LM training algorithm performs better than other models for COVID-19 epidemiological data prediction.</p>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Levenberg Marquardt</kwd>
+                <kwd>Bayesian regularization</kwd>
+                <kwd>Scaled conjugate gradient</kwd>
+                <kwd>Forecasting</kwd>
+                <kwd>Training algorithm</kwd>
+                <kwd>Regression</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">The first instance of novel coronavirus, which is also known as the Wuhan Virus or COVID-19, was reported in the middle of December 2019 [<xref ref-type="bibr" rid="CR1">1</xref>]. The human-to-human transition of nCov or COVID-19 raises the infected cases exponentially in this early stage. The World Health Organization (WHO) has issued a worldwide health emergency on 30 January 2020 because of this COVID-19 [<xref ref-type="bibr" rid="CR2">2</xref>]. Morbidity and mortality rates for the COVID-19 infection are unknown at an advanced stage [<xref ref-type="bibr" rid="CR3">3</xref>], particularly for young and old people. To control the widespread of the COVID-19, government authorities took preventative actions and enforced curfew or shutdown infested cities in the most of the world. This helps the public authorities to implement social distance among the people to prevent the spread of this novel virus. Therefore, predicting COVID-19 cases with multi parameters is an extreme need in this current scenario in terms of social and community health aspects [<xref ref-type="bibr" rid="CR4">4</xref>].</p>
+              <p id="Par3">In this scenario, any single prediction model is not adequate for COVID-19 prediction with high accuracy [<xref ref-type="bibr" rid="CR5">5</xref>]. In the existing works [<xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR9">9</xref>], researchers have used neural networks with multi-layered perceptron, regression model and vector autoregression model for forecasting the epidemiological cases of COVID-19 in India. Autoregression is basically a time series model, which utilizes the observations from the previous time steps as input to any regression equation for predicting the significance of the next time step. This process is simple, which results the accurate forecast on a given range of time series problems. Generally, data mining and machine learning models are used for predicting COVID-19 [<xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR12">12</xref>] and data are collected and processed from various sources in the secured process [<xref ref-type="bibr" rid="CR13">13</xref>–<xref ref-type="bibr" rid="CR37">37</xref>]. Deep learning techniques are also used to identify the confirmed COVID-19 disease from the X-ray dataset [<xref ref-type="bibr" rid="CR38">38</xref>]. This pandemic prediction can be based on different variables including the influence of natural aspects, infection rate, confinement effect, age, gender and many more. Most of the researches used above mentioned methods and variables for the prediction of COVID-19 [<xref ref-type="bibr" rid="CR39">39</xref>–<xref ref-type="bibr" rid="CR41">41</xref>]. Multivariate evidence revealed that the epidemics condition with COVID-19 has an optimistic and important impact on online shopping [<xref ref-type="bibr" rid="CR42">42</xref>]. Burstyn et al. [<xref ref-type="bibr" rid="CR43">43</xref>] have analysed clinical time series data besides SARS-CoV-2 epidemiologic illness to identify the common cause for COVID-19. The authors of [<xref ref-type="bibr" rid="CR44">44</xref>–<xref ref-type="bibr" rid="CR46">46</xref>] have identified the clinical diagnosis factors for epidemic using the Bayesian approach.</p>
+              <p id="Par4">Iwendi et al. [<xref ref-type="bibr" rid="CR47">47</xref>] have proposed an adjusted random forest model supported through AdaBoost calculation for the prediction of COVID-19 cases. This model is used to monitor the COVID-19 affected people with many details like geographical location, health condition, travel history and segment information to expect the seriousness of the case and the conceivable result, recuperation or passing. The traditional forecasting models, such as ARIMA [<xref ref-type="bibr" rid="CR7">7</xref>, <xref ref-type="bibr" rid="CR9">9</xref>], regression models [<xref ref-type="bibr" rid="CR10">10</xref>, <xref ref-type="bibr" rid="CR11">11</xref>] and Bayesian approaches [<xref ref-type="bibr" rid="CR43">43</xref>] are often not very helpful in decision making activities for the epidemics as these are failed to support long term prediction. In addition, sometimes, these models misinterpret information due to underfitting and overfitting problems. These techniques are mainly helpful in predicting short-range trends and values. The overfitting problem is one of the key issues, when developing a neural network based forecasting model. This problem occurs, when a model learned the noise or random fluctuations in the training data to some extent that negatively affects the performance of the model. This is a very common problem for non-parameter and non-linear prediction models.</p>
+              <p id="Par5">In [<xref ref-type="bibr" rid="CR48">48</xref>], authors have proposed an ensemble of convolutional neural networks with a combination of different activation functions. This scheme produces more accurate results than the standard activation function. Maguolo et al. [<xref ref-type="bibr" rid="CR49">49</xref>] have proposed a weighted resampling based transfer learning algorithm that combines efficient data with the data labelled in its target domain, and then, this scheme integrates the learned classifiers with the integrated data. A novel model has been proposed by Nanni et al. [<xref ref-type="bibr" rid="CR50">50</xref>], which combines static and dynamic activation functions. This scheme replaces all activation layers of a Convolutional Neural Network (CNN). However, this scheme is slow.</p>
+              <p id="Par6">In this paper, a novel nonlinear autoregressive neural network time series model has been developed for forecasting COVID-19 cases. The proposed methodology can support a predictive tool for assessing the current status of COVID-19 infection and can help government and healthcare officials to take accurate decisions to reduce mortality and control the spread of this disease. The proposed NAR-NNTS model consists of an input layer, a hidden layer and an output layer. It combines the default two-layer feed-forward Backpropagation (BP) algorithm with the sigmoid activation function in the hidden layer and a linear activation function in the output layer. The output of NAR-NNTS model is provided back to the input layer of the network with delays. This proposed model can find patterns between the non-linear past variables and can predict future variables. To evaluate the performance of the proposed NAR-NNTS, it is trained by adjusting neural network configuration parameters, such as different training algorithms, number of Hidden neurons (H) and Initial Weight (IW). It helps to reduce the overfitting problem and improves the prediction accuracy. The benchmark performance measure like RMSE, R-value and MSE are used to assess the time series forecasting model. Here, RMSE value is the selection criterion for choosing the best prediction model. The main contributions of the proposed work can be summarized as follows:<list list-type="order"><list-item><p id="Par7">The proposed NAR-NNTS is based on neural network and it can able to identify the uncertainty in the COVID-19 dataset.</p></list-item><list-item><p id="Par8">NAR-NNTS is trained with different training algorithms and network configuration parameters to avoid overfitting problem. Therefore, it is also suitable for small datasets.</p></list-item><list-item><p id="Par9">The proposed scheme has the potential to provide a predictive tool for assessing the current status of COVID-19 infection and enable government and health workers to make better decisions to reduce mortality.</p></list-item></list></p>
+              <p id="Par10">The rest of the paper is organized into different sections. Section 2 describes the proposed methodology for forecasting COVID-19 cases. Section 3 represents the results and discussions of the proposed work, and finally, Sect. 4 summarizes the entire paper with some future works.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Proposed Scheme</title>
+              <p id="Par11">The decision making systems for the rapidly spreading COVID-19 epidemic need to deal with high uncertainty. Generally, the epidemiological data of COVID-19 vary in the number of confirmed, recovered and death cases. Furthermore, COVID-19 is an ongoing outbreak in India. India is the second largest country in terms of population. In India, the prevalence of COVID-19 is very high, and state-of-the-art hospital facilities are not available everywhere in India. Therefore, forecasting of CVOID-19 death can be helpful for the government officials to control this pandemic by making appropriate decisions.</p>
+              <p id="Par12">NAR-NNTS is a time series neural network model for estimating future values of the input variable. It can be suitable for the nonlinear dataset and predicts future values based on the historical background using a re-feeding mechanism. The predicted value can be used as an input for future predictions using forward-looking points [<xref ref-type="bibr" rid="CR51">51</xref>–<xref ref-type="bibr" rid="CR53">53</xref>]. NAR-NNTS model is generated by specifying values for network configuration parameters, such as feedback delays, number of neurons in the hidden layer, training algorithms and activation functions. These parameters depend only on the problem domain, and finding the optimal values of these parameters is a challenging task. Then, it accomplished in an open-loop network based on the actual target values as feedback, and thus, makes the training with high accuracy. After training, the model open-loop is converted into a closed-loop, and a new predicted value is given back as input into the feedback network.</p>
+              <p id="Par13">The design of NAR-NNTS network is shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. It consists of input layer of <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M2"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq1.gif"/></alternatives></inline-formula> time point, output layer and hidden layer, which consist of pre-defined number of neurons. The performance of the training network is based on the BP algorithm, and uses a descent time step ahead. BP algorithm is the elementary building block of the neural network. It is used to effectively train the neural network through the chain rule system. In other words, it performs a backward pass, while adjusting the weights and biases of the model to improve its accuracy. BP algorithm provides a low error rate and high accuracy during the prediction.<fig id="Fig1"><label>Fig. 1</label><caption><p>Design of NAR-NNTS network</p></caption><graphic xlink:href="11063_2021_10495_Fig1_HTML" id="MO1"/></fig></p>
+              <p id="Par14">Equation (<xref rid="Equ1" ref-type="">1</xref>) represents the mathematical form of NAR in which the new predicted values are denoted as time series <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y\left( {ts} \right)$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="italic">ts</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq2.gif"/></alternatives></inline-formula> and historical observation values are represented as <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y\left( {ts - 1} \right)$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mi>s</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq3.gif"/></alternatives></inline-formula>, <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y\left( {ts - 2} \right)$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mi>s</mml:mi><mml:mo>-</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq4.gif"/></alternatives></inline-formula>, …, <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y\left( {ts - d} \right)$$\end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mi>s</mml:mi><mml:mo>-</mml:mo><mml:mi>d</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq5.gif"/></alternatives></inline-formula>.<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ y = \sigma \left( \varepsilon \right) = \left\{ {\begin{array}{*{20}l} 1 \hfill &amp; {{\text{if}}\,\varepsilon \ge h} \hfill \\ h \hfill &amp; { {\text{if}}\, \varepsilon &lt; h} \hfill \\ \end{array} } \right.\quad {\text{where}}\; \varepsilon = \mathop \sum \limits_{i = 0}^{y} w_{i} y_{i} $$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:mi>y</mml:mi><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced close=")" open="("><mml:mi>ε</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mn>1</mml:mn></mml:mtd><mml:mtd><mml:mrow><mml:mtext>if</mml:mtext><mml:mspace width="0.166667em"/><mml:mi>ε</mml:mi><mml:mo>≥</mml:mo><mml:mi>h</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi>h</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>if</mml:mtext><mml:mspace width="0.166667em"/><mml:mi>ε</mml:mi><mml:mo>&lt;</mml:mo><mml:mi>h</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mspace width="1em"/><mml:mtext>where</mml:mtext><mml:mspace width="0.277778em"/><mml:mi>ε</mml:mi><mml:mo>=</mml:mo><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>y</mml:mi></mml:munderover><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="11063_2021_10495_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p id="Par15">The output value i.e. <inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y\left( {ts} \right) = \sigma \left( \varepsilon \right)$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="italic">ts</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced close=")" open="("><mml:mi>ε</mml:mi></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq6.gif"/></alternatives></inline-formula> is achieved after the threshold excitation level <inline-formula id="IEq7"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$h$$\end{document}</tex-math><mml:math id="M16"><mml:mi>h</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq7.gif"/></alternatives></inline-formula>, which can be determined by the activation function <inline-formula id="IEq8"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sigma$$\end{document}</tex-math><mml:math id="M18"><mml:mi>σ</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq8.gif"/></alternatives></inline-formula>. The inputs are <inline-formula id="IEq9"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y\left( {ts - 1} \right), y\left( {ts - 2} \right), \ldots . , y\left( {ts - d} \right)$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mi>s</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mi>s</mml:mi><mml:mo>-</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:mfenced><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>.</mml:mo><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mi>s</mml:mi><mml:mo>-</mml:mo><mml:mi>d</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq9.gif"/></alternatives></inline-formula> and <inline-formula id="IEq10"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_{1} , w_{2} , \ldots , w_{n}$$\end{document}</tex-math><mml:math id="M22"><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq10.gif"/></alternatives></inline-formula> are the weights that transform input data within the network's hidden layers. Here, <inline-formula id="IEq11"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$d$$\end{document}</tex-math><mml:math id="M24"><mml:mi>d</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq11.gif"/></alternatives></inline-formula> is the time delay. The training algorithm is used to determine the optimal weights and bias values of the proposed NAR-NNTS. The identification of the most suitable training algorithm for a given dataset is a challenging task. To address this issue, this NAR-NNTS model has been proposed by three different algorithms, namely LM, SCG and BR. All these algorithms are well suited for non-linear and small time-series datasets. Figure <xref rid="Fig2" ref-type="fig">2</xref> shows the processing steps of the proposed methodology.<fig id="Fig2"><label>Fig. 2</label><caption><p>Processing steps in the proposed methodology</p></caption><graphic xlink:href="11063_2021_10495_Fig2_HTML" id="MO2"/></fig></p>
+              <p id="Par16">In the proposed work, COVID-19 data has made for forecasting by using three separate training algorithms [<xref ref-type="bibr" rid="CR54">54</xref>–<xref ref-type="bibr" rid="CR57">57</xref>] as discussed below:<list list-type="order"><list-item><p id="Par17">LM training algorithm is commonly used for nonlinear data and optimization problems. It provides a nonlinear least-square minimization as a solution, which shows the minimization function defined in the following Eq. (<xref rid="Equ2" ref-type="">2</xref>). LM is a supervised algorithm, and it is mostly suited for the nonlinear time-series datasets.<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ f\left( x \right) = \frac{1}{2}\mathop \sum \limits_{j = 1}^{m} r_{j}^{2} \left( x \right) $$\end{document}</tex-math><mml:math id="M26" display="block"><mml:mrow><mml:mi>f</mml:mi><mml:mfenced close=")" open="("><mml:mi>x</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:munderover><mml:msubsup><mml:mi>r</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mfenced close=")" open="("><mml:mi>x</mml:mi></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="11063_2021_10495_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq12"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x$$\end{document}</tex-math><mml:math id="M28"><mml:mi>x</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq12.gif"/></alternatives></inline-formula> is the input vector, <inline-formula id="IEq13"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$r_{j}$$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mi>r</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq13.gif"/></alternatives></inline-formula> is the model residuals (residual is nothing but the error in the predictions), and it is assumed that <inline-formula id="IEq14"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m \ge n$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:mi>m</mml:mi><mml:mo>≥</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq14.gif"/></alternatives></inline-formula>, where <inline-formula id="IEq15"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m$$\end{document}</tex-math><mml:math id="M34"><mml:mi>m</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq15.gif"/></alternatives></inline-formula> is the records in the dataset and <inline-formula id="IEq16"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M36"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq16.gif"/></alternatives></inline-formula> is the number of parameters.
+</p></list-item><list-item><p id="Par19">BR is used to update the weights and bias values of the model based on LM optimization. This reduces squared error and weights, and then, determines the correct combination of them to develop the generalized model. BR algorithm has two variables defined as <inline-formula id="IEq17"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha$$\end{document}</tex-math><mml:math id="M38"><mml:mi>α</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq17.gif"/></alternatives></inline-formula> and <inline-formula id="IEq18"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M40"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq18.gif"/></alternatives></inline-formula>, which are known as Bayesian hyper-parameters. These parameters are used to show whether the training algorithm depends on the minimum weight or the minimum error or both [<xref ref-type="bibr" rid="CR51">51</xref>–<xref ref-type="bibr" rid="CR53">53</xref>]. Equation (<xref rid="Equ3" ref-type="">3</xref>) represents the function of the BR training algorithm.<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ C\left( i \right) = \alpha S_{w} + \beta S_{e} $$\end{document}</tex-math><mml:math id="M42" display="block"><mml:mrow><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mi>i</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi>α</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mi>w</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>β</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="11063_2021_10495_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq19"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S_{e}$$\end{document}</tex-math><mml:math id="M44"><mml:msub><mml:mi>S</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq19.gif"/></alternatives></inline-formula> is the sum of squared error, <inline-formula id="IEq20"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S_{w}$$\end{document}</tex-math><mml:math id="M46"><mml:msub><mml:mi>S</mml:mi><mml:mi>w</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq20.gif"/></alternatives></inline-formula> is the sum of squared weight, and <inline-formula id="IEq21"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha$$\end{document}</tex-math><mml:math id="M48"><mml:mi>α</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq21.gif"/></alternatives></inline-formula> and <inline-formula id="IEq22"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M50"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq22.gif"/></alternatives></inline-formula> are constants, where <inline-formula id="IEq23"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha + { }\beta = 1$$\end{document}</tex-math><mml:math id="M52"><mml:mrow><mml:mi>α</mml:mi><mml:mo>+</mml:mo><mml:mrow/><mml:mi>β</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq23.gif"/></alternatives></inline-formula>.
+</p></list-item><list-item><p id="Par21">SCG is completely automated, which does not include any important parameters and depend on application. For each execution, the appropriate phase size is used in Conjugate Gradient Backpropagation (CGB) and Broyden–Fletcher–Goldfarb–Shanno memory less quasi-Newton algorithm (BFGS) is used to reduce the path scan time-consumption [<xref ref-type="bibr" rid="CR51">51</xref>–<xref ref-type="bibr" rid="CR53">53</xref>]. A training algorithm for the feed-forward neural networks is a part of the conjugate gradient methods. During the first epoch, SCG scans the path that allows the unbiased function to be minimized as quickly as possible, instead of scanning a path to obtain the interval value for use. Figure <xref rid="Fig3" ref-type="fig">3</xref> shows the workflow of the proposed forecasting model for COVID-19 cases.<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ x_{i + 1} = x_{i} + \alpha_{i} g_{i} $$\end{document}</tex-math><mml:math id="M54" display="block"><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>g</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="11063_2021_10495_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p></list-item></list><fig id="Fig3"><label>Fig. 3</label><caption><p>The entire workflow of the proposed methodology</p></caption><graphic xlink:href="11063_2021_10495_Fig3_HTML" id="MO3"/></fig></p>
+              <p id="Par22">In Eq. (<xref rid="Equ4" ref-type="">4</xref>), <inline-formula id="IEq24"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M56"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq24.gif"/></alternatives></inline-formula> represents the <inline-formula id="IEq25"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i{\text{th}}$$\end{document}</tex-math><mml:math id="M58"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq25.gif"/></alternatives></inline-formula> variable, <inline-formula id="IEq26"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x$$\end{document}</tex-math><mml:math id="M60"><mml:mi>x</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq26.gif"/></alternatives></inline-formula> denotes connection weights, <inline-formula id="IEq27"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha_{i}$$\end{document}</tex-math><mml:math id="M62"><mml:msub><mml:mi>α</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq27.gif"/></alternatives></inline-formula> is to regulate the indefiniteness of the Hessian matrix and <inline-formula id="IEq28"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$g_{i}$$\end{document}</tex-math><mml:math id="M64"><mml:msub><mml:mi>g</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq28.gif"/></alternatives></inline-formula> is a function of <inline-formula id="IEq29"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha_{i}$$\end{document}</tex-math><mml:math id="M66"><mml:msub><mml:mi>α</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq29.gif"/></alternatives></inline-formula> i.e., the Hessian matrix of the error function.</p>
+              <p id="Par23">All three training algorithms are well suited for non-linear and small datasets. The fastest training function is generally LM learning algorithm, however, it is not efficient for a large network. SCG learning algorithm is the best for a large network and the requirement of memory is relatively less than LM. BR learning algorithm spends more time than LM and SCG to learn, but generalization capability is very high and avoids overfitting and underfitting issues even for a small dataset. The proposed methodology comprises of the following steps:<list list-type="order"><list-item><p id="Par24">Data Collection: In this step, data are collected from the reliable and authenticate data source.</p></list-item><list-item><p id="Par25">Splitting the Dataset: Here, dataset is divided into 70:15:15 percent of data into a training set, validation set and testing set, respectively.</p></list-item><list-item><p id="Par26">Model Development: The third step is responsible for mainly four works:</p></list-item><list-item><p id="Par27">To configure NAR-NNTS model with different network setup parameters.</p></list-item><list-item><p id="Par28">To design the proposed algorithm using LM, SCG and BR learning algorithms.</p></list-item><list-item><p id="Par29">To train the model with a different set of parameters and ensemble training algorithm.</p></list-item><list-item><p id="Par30">At last, an average value is taken for forecasting.</p></list-item></list><list list-type="simple"><list-item><label>4.</label><p id="Par31">Validate the Model: Here, RMSE and R-value are used to validate the proposed NAR-NNTS model.</p></list-item><list-item><label>5.</label><p id="Par32">Forecasting: In this step, <inline-formula id="IEq30"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t$$\end{document}</tex-math><mml:math id="M68"><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq30.gif"/></alternatives></inline-formula> timestamp value is forecasted for COVID-19 epidemiological data.</p></list-item></list></p>
+            </sec>
+            <sec id="Sec3">
+              <title>Results and Discussions</title>
+              <p id="Par33">This section discusses the results of the NAR-NNTS model with different training algorithms.</p>
+              <sec id="Sec4">
+                <title>Overview of Dataset</title>
+                <p id="Par34">An empirical study is carried out to assess the efficiency of the proposed methodology to forecast the COVID-19 pandemic. COVID-19 epidemiological data for India is downloaded from [<xref ref-type="bibr" rid="CR58">58</xref>]. Datasets are taken from January 2020 to August 2020 time series that contains cumulative confirmed, recovered and death cases [<xref ref-type="bibr" rid="CR59">59</xref>]. Figure <xref rid="Fig4" ref-type="fig">4</xref> shows the graphical representation of the COVID-19 time series dataset. Sometimes, the default values of the parameters are used to start the initial flow. The parameters are optimized for the selection of the best model based on the dataset and increase the forecasting accuracy. The values of the neural network parameters like training algorithm, number of neurons in the hidden layer and feedback delays are completely depended on the dataset. There is no benchmark values of these parameters.<fig id="Fig4"><label>Fig. 4</label><caption><p>Graphical representation of COVID-19 dataset</p></caption><graphic xlink:href="11063_2021_10495_Fig4_HTML" id="MO4"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Qualitative Performance Measures</title>
+                <p id="Par35">The performance of the proposed NAR-NNTS model has been analyzed with three different training algorithms using the following measures [<xref ref-type="bibr" rid="CR53">53</xref>–<xref ref-type="bibr" rid="CR56">56</xref>]:<list list-type="order"><list-item><p id="Par36">Root mean square error is a polynomial counting rule. It represents the error-index, which is used to compare different forecasting models. This is the square root of the square differences measured between prediction and actual observation.<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ RMSE = \sqrt {\frac{1}{n}\mathop \sum \limits_{i = 1}^{n} \left( {P_{i} - A_{i} } \right)^{2} } $$\end{document}</tex-math><mml:math id="M70" display="block"><mml:mrow><mml:mi>R</mml:mi><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mi>n</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:math><graphic xlink:href="11063_2021_10495_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq31"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M72"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq31.gif"/></alternatives></inline-formula> is the number of samples, <inline-formula id="IEq32"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P$$\end{document}</tex-math><mml:math id="M74"><mml:mi>P</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq32.gif"/></alternatives></inline-formula> is the predicted value and <inline-formula id="IEq33"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A$$\end{document}</tex-math><mml:math id="M76"><mml:mi>A</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq33.gif"/></alternatives></inline-formula> is actual value.
+</p></list-item><list-item><p id="Par38">Mean square error is defined as the variance between predicted and actual values (average). The model having low MSE values is better. If the MSE value is 0.00, it denotes no error value occurs in the prediction model.<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ MSE = \frac{1}{n}\mathop \sum \limits_{i = 1}^{n} \left( {P_{i} - A_{i} } \right)^{2} $$\end{document}</tex-math><mml:math id="M78" display="block"><mml:mrow><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>n</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math><graphic xlink:href="11063_2021_10495_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq34"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M80"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq34.gif"/></alternatives></inline-formula> is the number of samples, <inline-formula id="IEq35"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P$$\end{document}</tex-math><mml:math id="M82"><mml:mi>P</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq35.gif"/></alternatives></inline-formula> is the predicted value and <inline-formula id="IEq36"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A$$\end{document}</tex-math><mml:math id="M84"><mml:mi>A</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq36.gif"/></alternatives></inline-formula> is the actual value.
+</p></list-item><list-item><p id="Par40">Correlation co-efficient value i.e. R-value is used to measure the relationship between the actual and the predicted values. If <inline-formula id="IEq37"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R$$\end{document}</tex-math><mml:math id="M86"><mml:mi>R</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq37.gif"/></alternatives></inline-formula> is 1, there is a close relationship, and when <inline-formula id="IEq38"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R$$\end{document}</tex-math><mml:math id="M88"><mml:mi>R</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq38.gif"/></alternatives></inline-formula> is 0, then, there is a random relationship.<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R = \frac{{n\left( {\sum PA} \right) - \left( {\sum P} \right)\left( {\sum A} \right)}}{{\sqrt {(n\sum P^{2} - (\sum P)^{2 } [n\sum A^{2} - (\sum A)^{2} ]} }} $$\end{document}</tex-math><mml:math id="M90" display="block"><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>n</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mo>∑</mml:mo><mml:mi>P</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:mfenced><mml:mo>-</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mo>∑</mml:mo><mml:mi>P</mml:mi></mml:mrow></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mo>∑</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:msqrt><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>n</mml:mi><mml:mo>∑</mml:mo><mml:msup><mml:mi>P</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>-</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>∑</mml:mo><mml:mi>P</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mi>n</mml:mi><mml:mo>∑</mml:mo><mml:msup><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>-</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>∑</mml:mo><mml:mi>A</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:msqrt></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="11063_2021_10495_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq39"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M92"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq39.gif"/></alternatives></inline-formula> is the number of samples, <inline-formula id="IEq40"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P$$\end{document}</tex-math><mml:math id="M94"><mml:mi>P</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq40.gif"/></alternatives></inline-formula> is the predicted value and <inline-formula id="IEq41"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A$$\end{document}</tex-math><mml:math id="M96"><mml:mi>A</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq41.gif"/></alternatives></inline-formula> is the actual value.
+</p></list-item></list></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Experimental Setup</title>
+                <p id="Par42">Matlab toolbox 2019 is used to implement the proposed NAR-NNTS forecasting model. The experiments are executed on the on a Dell OptiPlex 7070 desktop, which has 16 GB RAM, 2 TB SSD, 3.0 GHz Intel Core i7 9700 eight core and Windows 10 as operating system. NAR-NNTS forecasting model with different training algorithms run iteratively for COVID-19 epidemiological dataset until the convergence of loss function or maximum iteration reached. Table <xref rid="Tab1" ref-type="table">1</xref> shows the parameter settings for three different training algorithms of NAR-NNTS, namely LM, BR and SCG. These parameters are used to analyze the performance of the model using the training, validation and testing dataset as per the following aspects.<list list-type="order"><list-item><p id="Par43">Forecasting error of NAR-NNTS model for MSE.</p></list-item><list-item><p id="Par44">The complexity of NAR-NNTS model lies on the neuron count and the hidden layer.</p></list-item><list-item><p id="Par45">Convergence speed (epoch) of NAR-NNTS model and training time of the NAR-NNTS model.</p></list-item><list-item><p id="Par46">Accuracy of the NAR-NNTS model is evaluated by RMSE and R-value.</p></list-item></list><table-wrap id="Tab1"><label>Table 1</label><caption><p>Parameter settings for different NAR-NNTS training algorithms</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Parameter</th><th align="left">LM</th><th align="left">BR</th><th align="left">SCG</th></tr></thead><tbody><tr><td align="left">Training (maximum iteration)</td><td align="left">1000</td><td align="left">1000</td><td align="left">1000</td></tr><tr><td align="left">Objective performance</td><td align="left">0</td><td align="left">0</td><td align="left">0</td></tr><tr><td align="left">validation of failures (maximum)</td><td align="left">2</td><td align="left">2</td><td align="left">2</td></tr><tr><td align="left">Original error value i.e., <inline-formula id="IEq42"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}</tex-math><mml:math id="M98"><mml:mi>μ</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq42.gif"/></alternatives></inline-formula></td><td align="left">0.001</td><td align="left">N/A</td><td align="left">0.005</td></tr><tr><td align="left">Maximum <inline-formula id="IEq43"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}</tex-math><mml:math id="M100"><mml:mi>μ</mml:mi></mml:math><inline-graphic xlink:href="11063_2021_10495_Article_IEq43.gif"/></alternatives></inline-formula></td><td align="left">1e10</td><td align="left">N/A</td><td align="left">1e10</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec7">
+                <title>Performance Analysis of NAR-NNTS Model</title>
+                <p id="Par47">The performance measures, namely RMSE, MSE and R-value have been used in this work to assess the model. Three different NAR-NNTS models are constructed as mentioned below with appropriate neural network configuration parameter for COVID-19 dataset:<list list-type="order"><list-item><p id="Par48">Confirmed case model</p></list-item><list-item><p id="Par49">Recovered case model</p></list-item><list-item><p id="Par50">Death case model</p></list-item></list></p>
+                <p id="Par51">Table <xref rid="Tab2" ref-type="table">2</xref> illustrates the performance of NAR-NNTS model for confirmed cases with three different training algorithms in the training, validation and testing phases. The error measure i.e., MSE is used in this work to select the best prediction model for COVID-19 confirmed case prediction. As shown the values of Table <xref rid="Tab2" ref-type="table">2</xref>, NAR-NNTS model with LM is the best prediction model. This is because it has a less MSE value compared to the other two training methods used for evaluation purposes.<table-wrap id="Tab2"><label>Table 2</label><caption><p>MSE value of the NAR-NNTS model with different training algorithms (confirmed cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">Training MSE</th><th align="left">Validation MSE</th><th align="left">Testing MSE</th></tr></thead><tbody><tr><td align="left">LM</td><td align="left">4,227,568.42</td><td align="left">15,200,807.45</td><td align="left">5,286,473.29</td></tr><tr><td align="left">BR</td><td char="." align="left">8,375,333.84</td><td align="left">0</td><td char="." align="left">23,628,016.84</td></tr><tr><td align="left">SCG</td><td char="." align="left">50,705,416.88</td><td align="left">147,483,647.5</td><td char="." align="left">10,280,507.55</td></tr></tbody></table></table-wrap></p>
+                <p id="Par52">Table <xref rid="Tab3" ref-type="table">3</xref> illustrates the performance of NAR-NNTS model for recovered cases with three different training algorithms in the training, validation and testing phases. Although MSE value in validation phase is zero for BR validation phase, MSE of all three phases are high. Therefore, it is concluded that LM training algorithm is the best for the recovered case prediction.<table-wrap id="Tab3"><label>Table 3</label><caption><p>MSE value of the NAR-NNTS model with different training algorithms (recovered cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">Training MSE</th><th align="left">Validation MSE</th><th align="left">Testing MSE</th></tr></thead><tbody><tr><td align="left">LM</td><td align="left">3,204,290.32</td><td align="left">25,514,125.9</td><td align="left">3,002,158.38</td></tr><tr><td align="left">BR</td><td char="." align="left">31,806,366.9</td><td align="left">0</td><td char="." align="left">34,820,470.44</td></tr><tr><td align="left">SCG</td><td char="." align="left">64,161,317.4</td><td align="left">3,028,286.04</td><td char="." align="left">14,748,364.08</td></tr></tbody></table></table-wrap></p>
+                <p id="Par53">Table <xref rid="Tab4" ref-type="table">4</xref> shows the performance of NAR-NNTS model for death cases with three different training algorithms in the training, validation and testing phases. Based on the MSE values of the three phases for the death case prediction model, NAR-NNTS with LM training algorithm outperformed the other two training algorithms.<table-wrap id="Tab4"><label>Table 4</label><caption><p>MSE value of the NAR-NNTS model with different training algorithms (death cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">Training MSE</th><th align="left">Validation MSE</th><th align="left">Testing MSE</th></tr></thead><tbody><tr><td align="left">LM</td><td char="." align="left">1165.11</td><td align="left">89,014.74</td><td char="." align="left">1317.5</td></tr><tr><td align="left">BR</td><td align="left">36,604.248</td><td align="left">0</td><td char="." align="left">339,501.04</td></tr><tr><td align="left">SCG</td><td char="." align="left">600,824.8</td><td align="left">484,634.38</td><td align="left">528,707.21</td></tr></tbody></table></table-wrap></p>
+                <p id="Par54">Table <xref rid="Tab5" ref-type="table">5</xref> shows the performance of NAR-NNTS model for confirmed cases with LM, SCG and BR training algorithms in the training, validation and testing phases. The accuracy measure i.e., R-value is used as the selection criterion for selecting the best prediction model. It is observed that the NAR-NNTS model with LM is the best model for confirmed case prediction.<table-wrap id="Tab5"><label>Table 5</label><caption><p>Performance evaluation of NAR-NNTS model with different training algorithms (confirmed cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">Training R-value</th><th align="left">Validation R-value</th><th align="left">Testing R-value</th></tr></thead><tbody><tr><td align="left">LM</td><td align="left">1</td><td align="left">0.99999</td><td align="left">1</td></tr><tr><td align="left">BR</td><td align="left">0.99998</td><td char="." align="left">0.0</td><td align="left">0.99993</td></tr><tr><td align="left">SCG</td><td align="left">0.99034</td><td char="." align="left">0.98782</td><td align="left">0.99366</td></tr></tbody></table></table-wrap></p>
+                <p id="Par55">Table <xref rid="Tab6" ref-type="table">6</xref> illustrates the performance evaluation of NAR-NNTS with three different training algorithms with the training, validation and testing phases. Based on R-value, the NAR-NNTS model with LM is the best prediction model for COVID-19 recovered cases. This is because R-value is much closer to 1, when compared to the other two training algorithms taken for evaluation. Furthermore, in three phases, R-value is equal to 1 for LM training algorithm, which signifies that it is the most suitable algorithm and this model fits the data exactly in all three phases.<table-wrap id="Tab6"><label>Table 6</label><caption><p>Performance evaluation of NAR-NNTS model with different training algorithms (recovered cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">Training R-value</th><th align="left">Validation R-value</th><th align="left">Testing R-value</th></tr></thead><tbody><tr><td align="left">LM</td><td align="left">1</td><td align="left">1</td><td align="left">1</td></tr><tr><td align="left">BR</td><td align="left">0.99996</td><td align="left">0.00</td><td align="left">0.99996</td></tr><tr><td align="left">SCG</td><td align="left">0.998183</td><td align="left">0.99921</td><td align="left">0.99801</td></tr></tbody></table></table-wrap></p>
+                <p id="Par56">Table <xref rid="Tab7" ref-type="table">7</xref> shows the performance evaluation of NAR-NNTS with three different training algorithms in the training, validation and testing phases. Based on R-value, the NAR-NNTS model with LM is the best prediction model for COVID-19 death cases. The main reason for this is because R-value is much closer to 1, when compared to the other two training algorithms taken for study.<table-wrap id="Tab7"><label>Table 7</label><caption><p>Performance evaluation of NAR-NNTS model with different training algorithms (death cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">Training R-value</th><th align="left">Validation R-value</th><th align="left">Testing R-value</th></tr></thead><tbody><tr><td align="left">LM</td><td align="left">0.9999</td><td char="." align="left">0.9999</td><td align="left">0.99999</td></tr><tr><td align="left">BR</td><td align="left">0.99974</td><td char="." align="left">0.0</td><td align="left">0.99996</td></tr><tr><td align="left">SCG</td><td char="." align="left">0.999125</td><td align="left">0.99897</td><td align="left">0.99934</td></tr></tbody></table></table-wrap></p>
+                <p id="Par57">Tables <xref rid="Tab8" ref-type="table">8</xref>, <xref rid="Tab9" ref-type="table">9</xref> and <xref rid="Tab10" ref-type="table">10</xref> illustrate the overall performance evaluation of the proposed NAR-NNTS with three different training algorithms. The error measures like MSE value, RMSE value and accuracy measure R-value are used separately to select the best model for COVID-19 confirmed, recovered and death case prediction. In all the cases, it has been observed that the NAR-NNTS model with LM is the best prediction model because it has less MSE value and RMSE value, and R-value is much closer to 1, when compared to the other two training algorithms taken for the study. The lowest RMSE values for the prediction of the confirmed cases, recovered cases and death cases are 2870.241, 3251.696 and 174.64, respectively. RMSE is used as a performance indicator to select the best model for forecasting. Therefore, LM training algorithm has performed well in all three phases of NAR-NNTS model compared to other algorithms.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Selection and Validation of the Best Model with the Lowest RMSE</title>
+                <p id="Par58">Commonly, RMSE is used as a standard key performance measure to assess the time series prediction. Figure <xref rid="Fig5" ref-type="fig">5</xref> represents the RMSE value for NAR-NNTS with three training algorithms, namely LM, BR and SCG for COVID-19 confirmed, recovered and death cases, respectively. NAR-NNTS with LM training algorithm is the best model for forecasting COVID-19 confirmed cases, recovered cases and death cases.<fig id="Fig5"><label>Fig. 5</label><caption><p>Comparison of RMSE values for different NAR-NNTS training algorithm</p></caption><graphic xlink:href="11063_2021_10495_Fig5_HTML" id="MO5"/></fig></p>
+                <p id="Par59">It can be easily observed from Fig. <xref rid="Fig5" ref-type="fig">5</xref>, Tables <xref rid="Tab8" ref-type="table">8</xref>, <xref rid="Tab9" ref-type="table">9</xref> and <xref rid="Tab10" ref-type="table">10</xref> that the proposed NAR-NNTS with LM model is always a good fit for the pandemic COVID-19 datasets. It is witnessed that NAR-NNTS model has excellent fit and a good forecasting accuracy for pandemic COVID -19 data in a short-range.<table-wrap id="Tab8"><label>Table 8</label><caption><p>Overall performance results of NAR-NNTS model (confirmed cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">MSE</th><th align="left">RMSE</th><th align="left">R-value</th></tr></thead><tbody><tr><td align="left">LM</td><td char="." align="left">8,238,283.053</td><td char="." align="left">2870.241</td><td align="left">1</td></tr><tr><td align="left">BR</td><td align="left">10,667,783.56</td><td char="." align="left">3266.157</td><td align="left">0.666663</td></tr><tr><td align="left">SCG</td><td align="left">69,489,857.31</td><td align="left">8336.058</td><td align="left">0.999060</td></tr></tbody></table></table-wrap><table-wrap id="Tab9"><label>Table 9</label><caption><p>Overall performance results of NAR-NNTS model (recovered cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">MSE</th><th align="left">RMSE</th><th align="left">R-value</th></tr></thead><tbody><tr><td align="left">LM</td><td align="left">10,573,524.87</td><td align="left">3251.696</td><td align="left">1</td></tr><tr><td align="left">BR</td><td align="left">22,208,945.78</td><td align="left">4712.637</td><td align="left">0.66666</td></tr><tr><td align="left">SCG</td><td align="left">27,312,655.84</td><td align="left">5226.151</td><td align="left">0.998473</td></tr></tbody></table></table-wrap><table-wrap id="Tab10"><label>Table 10</label><caption><p>Overall performance results of NAR-NNTS model (death cases)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Algorithm</th><th align="left">MSE</th><th align="left">RMSE</th><th align="left">R-value</th></tr></thead><tbody><tr><td align="left">LM</td><td align="left">30,499.11667</td><td char="." align="left">174.64</td><td align="left">0.99998</td></tr><tr><td align="left">BR</td><td char="." align="left">125,368.4293</td><td align="left">354.074</td><td align="left">0.666567</td></tr><tr><td align="left">SCG</td><td char="." align="left">538,055.4633</td><td char="." align="left">733.5226</td><td align="left">0.99914</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec9">
+                <title>Forecast Model Result for COVID-19</title>
+                <p id="Par60">The COVID-19 pandemic data forecasting using NAR-NNTS model can be helpful for the public health professionals and government authorities to develop disease control programme and early warning systems. Table <xref rid="Tab11" ref-type="table">11</xref> shows the predicted number of COVID-19 cases (confirmed, death and recovered cases) for India using NAR-NNTS with LM.<table-wrap id="Tab11"><label>Table 11</label><caption><p>Predicted value of COVID-19 cases in India using NAR-NNTS with LM</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Date</th><th align="left">Confirmed</th><th align="left">Recovered</th><th align="left">Death</th></tr></thead><tbody><tr><td align="left">1-Sep</td><td align="left">3,762,977</td><td align="left">2,903,147</td><td align="left">66,234.27</td></tr><tr><td align="left">6-Sep</td><td align="left">4,128,523</td><td align="left">3,220,774</td><td align="left">70,965.61</td></tr><tr><td align="left">13-Sep</td><td align="left">4,640,288</td><td align="left">3,665,452</td><td align="left">77,589.48</td></tr><tr><td align="left">20-Sep</td><td align="left">5,152,053</td><td align="left">4,110,129</td><td align="left">84,213.36</td></tr><tr><td align="left">27-Sep</td><td align="left">5,663,819</td><td align="left">4,554,807</td><td align="left">90,837.24</td></tr><tr><td align="left">4-Oct</td><td align="left">6,175,584</td><td align="left">4,999,485</td><td align="left">97,461.11</td></tr><tr><td align="left">11-Oct</td><td align="left">6,687,349</td><td align="left">5,444,162</td><td align="left">104,085</td></tr><tr><td align="left">18-Oct</td><td align="left">7,199,114</td><td align="left">5,888,840</td><td align="left">110,708.9</td></tr><tr><td align="left">25-Oct</td><td align="left">7,710,879</td><td align="left">6,333,518</td><td align="left">117,332.7</td></tr><tr><td align="left">1-Nov</td><td align="left">8,222,644</td><td align="left">6,778,195</td><td align="left">123,956.6</td></tr><tr><td align="left">8-Nov</td><td align="left">8,734,409</td><td align="left">7,222,873</td><td align="left">130,580.5</td></tr><tr><td align="left">15-Nov</td><td align="left">9,246,175</td><td align="left">7,667,551</td><td align="left">137,204.4</td></tr><tr><td align="left">22-Nov</td><td align="left">9,757,940</td><td align="left">8,112,228</td><td align="left">143,828.2</td></tr><tr><td align="left">29-Nov</td><td align="left">10,269,705</td><td align="left">8,556,906</td><td align="left">150,452.1</td></tr><tr><td align="left">6-Dec</td><td align="left">10,781,470</td><td align="left">9,001,584</td><td align="left">157,076</td></tr><tr><td align="left">13-Dec</td><td align="left">11,293,235</td><td align="left">9,446,262</td><td align="left">163,699.9</td></tr><tr><td align="left">20-Dec</td><td align="left">11,805,000</td><td align="left">9,890,939</td><td align="left">170,323.8</td></tr><tr><td align="left">27-Dec</td><td align="left">12,316,766</td><td align="left">10,335,617</td><td align="left">176,947.6</td></tr><tr><td align="left">3-Jan</td><td align="left">12,828,531</td><td align="left">10,780,295</td><td align="left">183,571.5</td></tr></tbody></table></table-wrap></p>
+                <p id="Par61">Figure <xref rid="Fig6" ref-type="fig">6</xref> shows the time series response plot for confirmed cases using NAR-NNTS with LM training algorithm. Here, x-axis represents the response output and y-axis represents the target output. It also shows which time points are selected for training, testing and validation phases. The experimental result shows that NAR-NNTS model with LM training algorithm outperformed other models, and it produces higher prediction accuracy. This approach reduces the overfitting problem and improves prediction accuracy. MSE value of the validation set in the proposed model is lower than the training set for confirmed case and recovered case prediction using LM training algorithm, which indicates that there is no overfitting issue and it has a high degree of model generalization.<fig id="Fig6"><label>Fig. 6</label><caption><p>Time series response plots for the confirmed cases using LM training algorithm</p></caption><graphic xlink:href="11063_2021_10495_Fig6_HTML" id="MO6"/></fig></p>
+                <p id="Par62">Figure <xref rid="Fig7" ref-type="fig">7</xref> illustrates the time series response plot for recovered cases using NAR-NNTS with LM training algorithm. Here, the x-axis and y-axis represent the response output and target output, respectively. The experimental result shows that NAR-NNTS model with LM training algorithm outperformed other models in terms of prediction accuracy and model fit.<fig id="Fig7"><label>Fig. 7</label><caption><p>Time series response plots for the recovered cases using LM training algorithm</p></caption><graphic xlink:href="11063_2021_10495_Fig7_HTML" id="MO7"/></fig></p>
+                <p id="Par63">Figure <xref rid="Fig8" ref-type="fig">8</xref> illustrates the time series response plot for the death cases using NAR-NNTS with LM training algorithm. Here, the x-axis represents the response output and the y-axis represents the target output. Based on the prediction accuracy and model fit, NAR-NNTS model with LM training algorithm is the best prediction model. It is clearly known from Figs. <xref rid="Fig6" ref-type="fig">6</xref>, <xref rid="Fig7" ref-type="fig">7</xref> and <xref rid="Fig8" ref-type="fig">8</xref> that the actual and target output values are exactly fitted into the model without any significant error for COVID-19 cases because of low RMSE value of the proposed NAR-NNTS model.<fig id="Fig8"><label>Fig. 8</label><caption><p>Time series response plots for the death cases using LM training algorithm</p></caption><graphic xlink:href="11063_2021_10495_Fig8_HTML" id="MO8"/></fig></p>
+                <p id="Par64">Figure <xref rid="Fig9" ref-type="fig">9</xref> displays the correlation plot for confirmed cases with varying degrees of lag. Here, the x-axis represents the lag values and the y-axis represents the correlation values for confirmed cases. In this model, most of the lines fall into 95% confidence limits. Generally, an error autocorrelation plot is used to indicate how much the predicted value of the model is related to its actual value.<fig id="Fig9"><label>Fig. 9</label><caption><p>Autocorrelation of error for the confirmed cases using LM training algorithm</p></caption><graphic xlink:href="11063_2021_10495_Fig9_HTML" id="MO9"/></fig></p>
+                <p id="Par65">Figure <xref rid="Fig10" ref-type="fig">10</xref> displays the correlation plot for the recovered cases with respect to the degrees of lag. Here, the x-axis and the y-axis represent the lag values and the correlation values for confirmed cases, respectively. In the proposed model, most of the lines fall into the 96% confidence limits.<fig id="Fig10"><label>Fig. 10</label><caption><p>Autocorrelation of error for the recovered cases using LM training algorithm</p></caption><graphic xlink:href="11063_2021_10495_Fig10_HTML" id="MO10"/></fig></p>
+                <p id="Par66">Figure <xref rid="Fig11" ref-type="fig">11</xref> shows the correlation plot for the death cases with varying degrees of lag. Here, the x-axis represents the lag values and the y-axis represents the correlation values for confirmed cases. In the proposed model, most of the lines fall into the 99% confidence limits. The autocorrelation plots are illustrated in Figs. <xref rid="Fig6" ref-type="fig">6</xref>, <xref rid="Fig7" ref-type="fig">7</xref> and <xref rid="Fig8" ref-type="fig">8</xref>. Here, value zero occurs at zero lag, which represents a good prediction model. This is due to the low RMSE value of the proposed NAR-NNTS model with LM training algorithm.<fig id="Fig11"><label>Fig. 11</label><caption><p>Autocorrelation of error for the death cases using LM training algorithm</p></caption><graphic xlink:href="11063_2021_10495_Fig11_HTML" id="MO11"/></fig></p>
+                <p id="Par67">Figure <xref rid="Fig12" ref-type="fig">12</xref>a shows the plot of target vs. output in the training phase, whose R-value is 0.9999. Figure <xref rid="Fig12" ref-type="fig">12</xref>b shows the plot of target vs. output in the validation phase, whose R-value is 1. Figure <xref rid="Fig12" ref-type="fig">12</xref>c shows the plot of target versus output in the testing phase, whose R-value is 1. Figure <xref rid="Fig12" ref-type="fig">12</xref>d shows the overall performance of NAR-NNTS forecasting model for the confirmed cases.<fig id="Fig12"><label>Fig. 12</label><caption><p>Regression plot for the confirmed cases: <bold>a</bold> training, <bold>b</bold> validation, <bold>c</bold> testing, <bold>d</bold> all</p></caption><graphic xlink:href="11063_2021_10495_Fig12_HTML" id="MO12"/></fig></p>
+                <p id="Par68">Figure <xref rid="Fig13" ref-type="fig">13</xref>a shows the plot of the target with respect to the output in the training phase of the recovered case prediction model, whose R-value is 1. Figure <xref rid="Fig13" ref-type="fig">13</xref>b shows the plot of target vs. output in the validation phase, whose R-value is 1. Figure <xref rid="Fig13" ref-type="fig">13</xref>c shows the target plot with respect to the output in the testing phase, whose R-value is 1. Figure <xref rid="Fig13" ref-type="fig">13</xref>d shows the overall performance of NAR-NNTS forecasting model for the recovered cases.<fig id="Fig13"><label>Fig. 13</label><caption><p>Regression plot for recovered cases: <bold>a</bold> training, <bold>b</bold> validation, <bold>c</bold> testing, <bold>d</bold> all</p></caption><graphic xlink:href="11063_2021_10495_Fig13_HTML" id="MO13"/></fig></p>
+                <p id="Par69">Figure <xref rid="Fig14" ref-type="fig">14</xref>a shows the plot of target vs. output in the training phase of the death case prediction model, whose R-value is 0.99998. Figure <xref rid="Fig14" ref-type="fig">14</xref>b shows the plot of target vs. output in the validation phase, whose R-value is 0.99999. Figure <xref rid="Fig14" ref-type="fig">14</xref>c shows the target plot with respect to the output in the testing phase, whose R-value is 0.99999. Figure <xref rid="Fig14" ref-type="fig">14</xref>d shows the overall performance of NAR-NNTS forecasting model for the death cases.<fig id="Fig14"><label>Fig. 14</label><caption><p>Regression plot for the death cases: <bold>a</bold> training, <bold>b</bold> validation, <bold>c</bold> testing, <bold>d</bold> all</p></caption><graphic xlink:href="11063_2021_10495_Fig14_HTML" id="MO14"/></fig></p>
+                <p id="Par70">The prediction of COVID-19 confirmed cases and recovered cases in the proposed NAR-NNTS is the best for LM training algorithm. This is because the predicted data are fitted into the model without any deviation at all the stages of model development. In the case of death case prediction, one or two predicted values are not fitted into the model. This is because there is a significant increase in the RMSE value over the predictive model of the remaining two cases.</p>
+                <p id="Par71">Figure <xref rid="Fig15" ref-type="fig">15</xref> shows the prediction values of the confirmed, recovered and death cases of India using the proposed NAR-NNTS with LM training algorithm. Here, the x-axis represents the time periods and the y-axis represents the predicted case values. In this empirical work and analysis, NAR-NNTS with LM training algorithm is the optimal model for the COVID-19 time series dataset. It supports better prediction accuracy compared to BR and SCG training algorithms. Based on the time series analysis of the COVID-19 dataset, it has been seen that all types of predicted COVID-19 cases can be increased steadily till December 2020. Therefore, all preventive and precautionary measures recommended by the WHO and the Government of India should be carefully followed. This is the best way to avoid the worst-case scenario of COVID-19 spread.<fig id="Fig15"><label>Fig. 15</label><caption><p>COVID-19 predicted cases for India</p></caption><graphic xlink:href="11063_2021_10495_Fig15_HTML" id="MO15"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Conclusion and Future works</title>
+              <p id="Par72">The epidemiological data forecasting model always plays an important role in planning preventive measures for infectious diseases, such as SARS, dengue, Ebola virus and many more. Because of the non-linear nature of COVID-19 time-series database, forecasting is a challenging task. In this paper, a methodology has been proposed for precise and reliable COVID-19 forecast, which ensembles a collection of three different training algorithms for NAR_NNTS model. Experiments have been conducted on the COVID-19 outbreak dataset for India to evaluate the proposed methodology. The results show that the proposed NAR-NNTS with LM training algorithm and optimized network configuration parameter produce better results. The proposed scheme is suitable for the government officials to control COVID-19 by taking appropriate decisions. The main issue of the proposed method is that it consumes much time. In the future, a novel technique can be developed to identify COVID-19 patients in less time. Moreover, a combination of different training algorithms and activation functions for the proposed NAR-NNTS can be designed to assess the improvement of the model in terms of performance.</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">World Health Organization’s response to the COVID-19 pandemic (2020) https://en.wikipedia.org/wiki/World_Health_Organization's_response_to_the_COVID-19_pandemic. Accessed on 06 Aug 2020</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Remuzzi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Remuzzi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 and Italy: what next?</article-title>
+                  <source>Health Policy</source>
+                  <year>2020</year>
+                  <volume>395</volume>
+                  <issue>10231</issue>
+                  <fpage>1225</fpage>
+                  <lpage>1228</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Severe acute respiratory syndrome coronavirus 2. <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2">https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2</ext-link> (2020). Accessed on 31 July 2020</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Sparrow A (2020) How China’s coronavirus is spreading-and how to stop it. <ext-link ext-link-type="uri" xlink:href="https://foreignpolicy.com/2020/01/26/2019-ncov-china-epidemic-pandemic-the-wuhan-coronavirus-a-tentative-clinical-profile/">https://foreignpolicy.com/2020/01/26/2019-ncov-china-epidemic-pandemic-the-wuhan-coronavirus-a-tentative-clinical-profile/</ext-link>. Accessed on 01 Aug 2020</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 mortality rate prediction for India using statistical neural network models</article-title>
+                  <source>Front Public Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>441</fpage>
+                  <lpage>441</lpage>
+                  <pub-id pub-id-type="doi">10.3389/fpubh.2020.00441</pub-id>
+                  <pub-id pub-id-type="pmid">32984242</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chakraborty</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Chattopadhyay</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghosh</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting dengue epidemics using a hybrid methodology</article-title>
+                  <source>Physica A Stat Mech Appl</source>
+                  <year>2019</year>
+                  <volume>5</volume>
+                  <fpage>27</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.physa.2019.121266</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benvenuto</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Application of the ARIMA model on the COVID-2019 epidemic dataset</article-title>
+                  <source>Data Brief</source>
+                  <year>2019</year>
+                  <volume>29</volume>
+                  <fpage>105340</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dib.2020.105340</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fong</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Finding an accurate early forecasting model from small dataset: a case of 2019-NCoV novel coronavirus outbreak</article-title>
+                  <source>Int J Intera Multimed Artif Intell</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <issue>1</issue>
+                  <fpage>132</fpage>
+                  <lpage>140</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">Dehesh T, Fard HAM, Dehesh P (2020) Forecasting of COVID-19 confirmed cases in different countries with ARIMA models. medRxiv. 10.1101/2020.03.13.20035345</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sujatha</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hassanien</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A machine learning forecasting model for COVID-19 pandemic in India</article-title>
+                  <source>Stoch Env Res Risk Assess</source>
+                  <year>2020</year>
+                  <volume>34</volume>
+                  <issue>7</issue>
+                  <fpage>959</fpage>
+                  <lpage>972</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00477-020-01827-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Albahri</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Role of biological data mining and machine learning techniques in detecting and diagnosing the novel coronavirus (COVID- 19): a systematic review</article-title>
+                  <source>J Med Syst</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s10916-020-01582-x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>John</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaiba</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Main factors influencing recovery in MERS Co-V patients using machine learning</article-title>
+                  <source>J Infect Public Health</source>
+                  <year>2019</year>
+                  <volume>12</volume>
+                  <issue>5</issue>
+                  <fpage>700</fpage>
+                  <lpage>704</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jiph.2019.03.020</pub-id>
+                  <pub-id pub-id-type="pmid">30979679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pradeepa</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>DRFS: detecting risk factor of stroke disease from social media using machine learning techniques</article-title>
+                  <source>Neural Process Lett</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s11063-020-10279-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Geetha</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cervical cancer identification with synthetic minority oversampling technique and PCA analysis using random forest classifier</article-title>
+                  <source>J Med Syst</source>
+                  <year>2019</year>
+                  <volume>43</volume>
+                  <issue>9</issue>
+                  <fpage>286</fpage>
+                  <pub-id pub-id-type="doi">10.1007/s10916-019-1402-6</pub-id>
+                  <pub-id pub-id-type="pmid">31312985</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Robinson</surname>
+                      <given-names>YH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tree-based convolutional neural networks for object classification in segmented satellite images</article-title>
+                  <source>Int J High Perform Comput Appl</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1177/1094342020945026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ramamurthy</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Deep learning based genome analysis and NGS-RNA LL identification with a novel hybrid model</article-title>
+                  <source>Biosystems</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.biosystems.2020.104211</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sampath</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>IoT based health-related topic recognition from emerging online health community (med help) using machine learning technique</article-title>
+                  <source>Electronics</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.3390/electronics9091469</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <mixed-citation publication-type="other">Thomas GAS et al (2020) Diabetic retinopathy diagnostics from retinal images based on deep convolutional networks. Preprints. 10.20944/preprints202005.0493.v1</mixed-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Suresh A, Udendhran R, Vimal S (2020) Deep neural networks for multimodal imaging and biomedical applications. IGI Global. 10.4018/978-1-7998-3591-2</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>GAS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Intelligent prediction approach for diabetic retinopathy using deep learning based convolutional neural networks algorithm by means of retina photographs</article-title>
+                  <source>Comput Mater Continua</source>
+                  <year>2021</year>
+                  <volume>66</volume>
+                  <issue>2</issue>
+                  <fpage>1613</fpage>
+                  <lpage>1629</lpage>
+                  <pub-id pub-id-type="doi">10.32604/cmc.2020.013443</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Namasudra S, Deka GC (2021) Applications of blockchain in healthcare. Springer. 10.1007/978-981-15-9547-9</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sivabalan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Opportunistic forward routing using bee colony optimization</article-title>
+                  <source>Int J Comput Sci Eng</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <issue>5</issue>
+                  <fpage>1820</fpage>
+                  <lpage>1827</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Namasudra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fast and secure data accessing by using DNA computing for the cloud environment</article-title>
+                  <source>IEEE Trans Serv Comput</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1109/TSC.2020.3046471</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kumari</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Intelligent deception techniques against adversarial attack on industrial system</article-title>
+                  <source>Int J Intell Syst</source>
+                  <year>2021</year>
+                  <pub-id pub-id-type="doi">10.1002/int.22384</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Namasudra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>DNA computing and table based data accessing in the cloud environment</article-title>
+                  <source>J Netw Comput Appl</source>
+                  <year>2020</year>
+                  <volume>1</volume>
+                  <fpage>72</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jnca.2020.102835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Survey on cloud model based similarity measure of uncertain concepts</article-title>
+                  <source>CAAI Trans. Intell. Technol.</source>
+                  <year>2019</year>
+                  <volume>4</volume>
+                  <issue>4</issue>
+                  <fpage>223</fpage>
+                  <lpage>230</lpage>
+                  <pub-id pub-id-type="doi">10.1049/trit.2019.0021</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Namasudra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Securing multimedia by using DNA based encryption in the cloud computing environment</article-title>
+                  <source>ACM Trans Multimed Comput Commun Appl</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1145/3392665</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alguliyev</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Aliguliyev</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sukhostat</surname>
+                      <given-names>LV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficient algorithm for big data clustering on single machine</article-title>
+                  <source>CAAI Trans Intell Technol</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <issue>1</issue>
+                  <fpage>9</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.1049/trit.2019.0048</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Namasudra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>FAST: Fast accessing scheme for data transmission in cloud computing</article-title>
+                  <source>Peer-to-Peer Netw Appl</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s12083-020-00959-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jain</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>VK</given-names>
+                    </name>
+                    <name>
+                      <surname>Trivedi</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Elevating recruitment process by classifying the enrolled students in the institution using ubiquitous human computing</article-title>
+                  <source>Mater Today Proc</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.matpr.2020.11.299</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Namasudra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Time efficient secure DNA based access control model for cloud computing environment</article-title>
+                  <source>Futur Gener Comput Syst</source>
+                  <year>2017</year>
+                  <volume>73</volume>
+                  <fpage>90</fpage>
+                  <lpage>105</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.future.2017.01.017</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Zuo</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advances on QoS-aware web service selection and composition with nature-inspired computing</article-title>
+                  <source>CAAI Trans Intell Technol</source>
+                  <year>2019</year>
+                  <volume>4</volume>
+                  <issue>3</issue>
+                  <fpage>159</fpage>
+                  <lpage>174</lpage>
+                  <pub-id pub-id-type="doi">10.1049/trit.2019.0018</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Namasudra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An improved attribute based encryption technique towards the data security in cloud computing</article-title>
+                  <source>Concurr Comput Pract Exer</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1002/cpe.4364</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ramesh</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Mishra</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Trivedi</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>PCS-ABE (t, n): a secure threshold multi authority CP-ABE scheme based efficient access control systems for cloud environment</article-title>
+                  <source>J Ambient Intell Humaniz Comput</source>
+                  <year>2021</year>
+                  <pub-id pub-id-type="doi">10.1007/s12652-020-02643-2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kumari</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Namasudra</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>System reliability evaluation using budget constrained real d-MC search</article-title>
+                  <source>Comput Commun</source>
+                  <year>2021</year>
+                  <pub-id pub-id-type="doi">10.1016/j.comcom.2021.02.004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Sharma DK et al (2021) An efficient Makespan reducing task scheduling algorithm in cloud computing environment. In: Fong S, Dey N, Joshi A (eds) ICT analysis and applications. Lecture Notes in Networks and Systems. Springer, p 154. 10.1007/978-981-15-8354-4_31</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sarkar</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An efficient and time saving web service based android application</article-title>
+                  <source>SSRG Int J Comput Sci Eng</source>
+                  <year>2015</year>
+                  <volume>2</volume>
+                  <issue>8</issue>
+                  <fpage>18</fpage>
+                  <lpage>21</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Apostolopoulos</surname>
+                      <given-names>ID</given-names>
+                    </name>
+                    <name>
+                      <surname>Mpesiana</surname>
+                      <given-names>TA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Covid-19: Automatic detection from X-ray images utilizing transfer learning with convolutional neural networks</article-title>
+                  <source>Phys Eng Sci Med</source>
+                  <year>2020</year>
+                  <volume>43</volume>
+                  <issue>2</issue>
+                  <fpage>635</fpage>
+                  <lpage>640</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s13246-020-00865-4</pub-id>
+                  <pub-id pub-id-type="pmid">32524445</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shinde</surname>
+                      <given-names>GR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Forecasting models for coronavirus disease (COVID-19): a survey of the state-of-the-art</article-title>
+                  <source>SN Comput Sci</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s42979-020-00209-9</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Muhammad</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predictive data mining models for novel corona virus (COVID-19) infected patients’ recovery</article-title>
+                  <source>SN Comput Sci</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s42979-020-00216-w</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Predictors of fatality including radiographic findings in adults with COVID-19</article-title>
+                  <source>Respir Res</source>
+                  <year>2020</year>
+                  <volume>21</volume>
+                  <issue>146</issue>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <pub-id pub-id-type="pmid">31898493</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>HV</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Online book shopping in Vietnam: the impact of the COVID-19 pandemic situation</article-title>
+                  <source>Publ Res Q</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s12109-020-09732-2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Burstyn</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldstein</surname>
+                      <given-names>ND</given-names>
+                    </name>
+                    <name>
+                      <surname>Gustafson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Towards reduction in bias in epidemic curves due to outcome misclassification through Bayesian analysis of time-series of laboratory test results: case study of COVID-19 in Alberta, Canada and Philadelphia, USA</article-title>
+                  <source>BMC Med Res Methodol</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <fpage>21</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12874-020-01037-4</pub-id>
+                  <pub-id pub-id-type="pmid">32024470</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vokó</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Pitter</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of social distance measures on COVID-19 epidemics in Europe: an interrupted time series analysis</article-title>
+                  <source>GeroScience</source>
+                  <year>2020</year>
+                  <volume>42</volume>
+                  <issue>4</issue>
+                  <fpage>1075</fpage>
+                  <lpage>1082</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11357-020-00205-0</pub-id>
+                  <pub-id pub-id-type="pmid">32529592</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tsioufis</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The mystery of “missing” visits in an emergency cardiology department, in the era of COVID-19. a time-series analysis in a tertiary Greek general hospital</article-title>
+                  <source>Clin Res Cardiol</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s00392-020-01682-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hatami</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Worldwide ACE (I/D) polymorphism may affect COVID-19 recovery rate: anecological meta-regression</article-title>
+                  <source>Endocrine</source>
+                  <year>2020</year>
+                  <volume>68</volume>
+                  <issue>3</issue>
+                  <fpage>479</fpage>
+                  <lpage>484</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12020-020-02381-7</pub-id>
+                  <pub-id pub-id-type="pmid">32542429</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Iwendi</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>COVID-19 patient health prediction using boosted random forest algorithm</article-title>
+                  <source>Front Public Health</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.3389/fpubh.2020.00357</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <mixed-citation publication-type="other">Klabjan D, Harmon M (2019) Activation ensembles for deep neural networks. In: Proceedings of the IEEE international conference on big data (Big Data). IEEE, Los Angeles</mixed-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <mixed-citation publication-type="other">Maguolo G, Nanni L, Ghidoni S (2021) Ensemble of convolutional neural networks trained with different activation functions. arXiv:1905.02473</mixed-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nanni</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Stochastic selection of activation layers for convolutional neural networks</article-title>
+                  <source>Sensors</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.3390/s20061626</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Petkovic</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kocev</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Džeroski</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Feature ranking for multi-target regression</article-title>
+                  <source>Mach Learn</source>
+                  <year>2020</year>
+                  <volume>109</volume>
+                  <fpage>1179</fpage>
+                  <lpage>1204</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10994-019-05829-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Akhtar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kraemer</surname>
+                      <given-names>MUG</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A dynamic neural network model for predicting risk of Zika in real time</article-title>
+                  <source>BMC Med</source>
+                  <year>2019</year>
+                  <volume>17</volume>
+                  <fpage>1</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s12916-019-1389-3</pub-id>
+                  <pub-id pub-id-type="pmid">30651111</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sarkar</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A comparative study of activation functions of NAR and NARX neural network for long-term wind speed forecasting in Malaysia</article-title>
+                  <source>Math Probl Eng</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1155/2019/6403081</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Peter</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Alavi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Javadi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Region-wise rainfall prediction using mapreduce-based exponential smoothing techniques</article-title>
+                  <source>Advances in big data and cloud computing</source>
+                  <year>2018</year>
+                  <publisher-loc>Berlin</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                  <fpage>229</fpage>
+                  <lpage>239</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Richman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Wüthrich</surname>
+                      <given-names>MV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A neural network extension of the Lee–Carter model to multiplepopulations</article-title>
+                  <source>Ann Actuar Sci</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1017/S1748499519000071</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Marquez</surname>
+                      <given-names>FPG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enhanced logistic regression (ELR) model for big data”</article-title>
+                  <source>Handbook of research on big data clustering and machine learning</source>
+                  <year>2020</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>IGI Global</publisher-name>
+                  <fpage>152</fpage>
+                  <lpage>176</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Ganapathi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Shanmugapriya</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Variable selection method for regression models using computational intelligence techniques</article-title>
+                  <source>Handbook of research on machine and deep learning applications for cyber security</source>
+                  <year>2020</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>IGI Global</publisher-name>
+                  <fpage>416</fpage>
+                  <lpage>436</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <mixed-citation publication-type="other">CSSEGISandData (2020) <ext-link ext-link-type="uri" xlink:href="https://github.com/CSSEGISandData/COVID-19">https://github.com/CSSEGISandData/COVID-19</ext-link>. Accessed on 01 Sept 2020</mixed-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Varadharajan</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Hitchens</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Achieving secure role-based access control on encrypted data in cloud storage</article-title>
+                  <source>IEEE Trans Inf Forensics Secur</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <issue>12</issue>
+                  <fpage>1947</fpage>
+                  <lpage>1960</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TIFS.2013.2286456</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

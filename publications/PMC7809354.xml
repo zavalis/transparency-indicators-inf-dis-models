@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:59:08Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7809354" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7809354</identifier>
+        <datestamp>2021-01-21</datestamp>
+        <setSpec>npjdigitmed</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">NPJ Digit Med</journal-id>
+              <journal-id journal-id-type="iso-abbrev">NPJ Digit Med</journal-id>
+              <journal-title-group>
+                <journal-title>NPJ Digital Medicine</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2398-6352</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7809354</article-id>
+              <article-id pub-id-type="pmcid">PMC7809354</article-id>
+              <article-id pub-id-type="pmc-uid">7809354</article-id>
+              <article-id pub-id-type="pmid">33446891</article-id>
+              <article-id pub-id-type="publisher-id">374</article-id>
+              <article-id pub-id-type="doi">10.1038/s41746-020-00374-4</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Simulating SARS-CoV-2 epidemics by region-specific variables and modeling contact tracing app containment</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5939-8637</contrib-id>
+                  <name>
+                    <surname>Ferrari</surname>
+                    <given-names>Alberto</given-names>
+                  </name>
+                  <address>
+                    <email>aferrari34@yahoo.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7327-2731</contrib-id>
+                  <name>
+                    <surname>Santus</surname>
+                    <given-names>Enrico</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cirillo</surname>
+                    <given-names>Davide</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7496-844X</contrib-id>
+                  <name>
+                    <surname>Ponce-de-Leon</surname>
+                    <given-names>Miguel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Marino</surname>
+                    <given-names>Nicola</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ferretti</surname>
+                    <given-names>Maria Teresa</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Santuccione Chadha</surname>
+                    <given-names>Antonella</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mavridis</surname>
+                    <given-names>Nikolaos</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Valencia</surname>
+                    <given-names>Alfonso</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.460094.f</institution-id><institution-id institution-id-type="ISNI">0000 0004 1757 8431</institution-id><institution>FROM Research Foundation, </institution><institution>Papa Giovanni XXIII Hospital, </institution></institution-wrap>Bergamo, Italy </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.420044.6</institution-id><institution-id institution-id-type="ISNI">0000 0004 0374 4101</institution-id><institution>Bayer, Decision Science &amp; Advanced Analytics for MA, PV &amp; RA Division, </institution></institution-wrap>Leverkusen, Germany </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.10097.3f</institution-id><institution-id institution-id-type="ISNI">0000 0004 0387 1602</institution-id><institution>Barcelona Supercomputing Center (BSC), </institution></institution-wrap>C/Jordi Girona 29, 08034 Barcelona, Spain </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.508244.f</institution-id><institution>Women’s Brain Project (WBP), </institution></institution-wrap>Gunterhausen, Switzerland </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.10796.39</institution-id><institution-id institution-id-type="ISNI">0000000121049995</institution-id><institution>Dipartimento di Scienze Madiche e, </institution><institution>Universitá di Foggia Chirurgiche, </institution></institution-wrap>Foggia, Italy </aff>
+                <aff id="Aff6"><label>6</label>Interactive Robots and Media Laboratory (IRLM), Abu Dhabi, United Arab Emirates </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.425902.8</institution-id><institution-id institution-id-type="ISNI">0000 0000 9601 989X</institution-id><institution>ICREA, </institution></institution-wrap>Pg. Lluís Companys 23, 08010 Barcelona, Spain </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>14</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>14</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>4</volume>
+              <elocation-id>9</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>2</day>
+                  <month>6</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>25</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Targeted contact-tracing through mobile phone apps has been proposed as an instrument to help contain the spread of COVID-19 and manage the lifting of nation-wide lock-downs currently in place in USA and Europe. However, there is an ongoing debate on its potential efficacy, especially in light of region-specific demographics. We built an expanded <italic>S</italic><italic>I</italic><italic>R</italic> model of COVID-19 epidemics that accounts for region-specific population densities, and we used it to test the impact of a contact-tracing app in a number of scenarios. Using demographic and mobility data from Italy and Spain, we used the model to simulate scenarios that vary in baseline contact rates, population densities, and fraction of app users in the population. Our results show that, in support of efficient isolation of symptomatic cases, app-mediated contact-tracing can successfully mitigate the epidemic even with a relatively small fraction of users, and even suppress altogether with a larger fraction of users. However, when regional differences in population density are taken into consideration, the epidemic can be significantly harder to contain in higher density areas, highlighting potential limitations of this intervention in specific contexts. This work corroborates previous results in favor of app-mediated contact-tracing as mitigation measure for COVID-19, and draws attention on the importance of region-specific demographic and mobility factors to achieve maximum efficacy in containment policies.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Viral infection</kwd>
+                <kwd>Epidemiology</kwd>
+                <kwd>Health care economics</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100010661</institution-id>
+                      <institution>EC | Horizon 2020 Framework Programme (EU Framework Programme for Research and Innovation H2020)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>825070</award-id>
+                  <award-id>825070</award-id>
+                  <award-id>825070</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Cirillo</surname>
+                      <given-names>Davide</given-names>
+                    </name>
+                    <name>
+                      <surname>Ponce-de-Leon</surname>
+                      <given-names>Miguel</given-names>
+                    </name>
+                    <name>
+                      <surname>Valencia</surname>
+                      <given-names>Alfonso</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2), is a novel coronavirus strain, discovered in 2019, responsible of a severe respiratory illness named Coronavirus Disease 2019 (COVID-19) that has been declared a public health emergency since January 2020. As of August 18th 2020 more than 13 million people worldwide have developed COVID-19 and more than 773,000 have died from it.</p>
+              <p id="Par3">The spread of COVID-19 has raised new challenges for healthcare systems all over the world, hitting with particular strength Europe and USA, after China. According to the available data, Italy had among the highest number of contagions and dead toll from COVID-19, with over 200,000 confirmed cases and more that 30,000 deceased as of May 14<sup>th</sup> 2020. However, the spread of COVID-19 has been quite heterogeneous in speed, reach, and lethality, not only from country to country, but also in different regions of the same country. The main possible explanation is given by the delay between the onset of the epidemic, the first diagnosis, and the kick-off of containment measures. Other reasons may be due to region-specific variables, such as population density and mean age, societal structure, and behaviors. A third factor depends also on the adopted policies for containment and testing, in particular for what concerns the fraction of infectious individuals that never display symptoms (asymptomatic).</p>
+              <p id="Par4">In fact, it is now known that the course of infection includes an incubation pre-symptomatic period, during which the patients show no sign of disease but are still potentially infectious (likely to a lesser degree), after which some individuals progress to a symptomatic state, while others remain asymptomatic, but still potentially infectious<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. This behavior has important consequence on how we model COVID-19’s epidemiology and plan countermeasures.</p>
+              <p id="Par5">Most countries dealing with the epidemics have resorted to nation-wide lock-downs and social distancing to slow down the outbreak; the strategy has been effective in slowing down the epidemic, but lock-downs are temporary measures by nature and simply releasing them without any other parallel containment strategy could very well lead to a new increase of cases. Dedicated works in the scientific literature show that this scenario is avoidable as long as extensive policies of testing and contact tracing are adopted<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>.</p>
+              <p id="Par6">However, the effectiveness of such measures in controlling the epidemic strictly depends on efficiency in isolating positive and symptomatic cases, as well as their contacts. Earlier work on the topic showed that efficient outbreak control may require tracing and isolation of up to 80% of the contacts, and with very short delay from onset to isolation<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. This is hardly feasible on a large scale using only traditional methods for contact tracing, and managing the epidemics in the long term will likely require the use of information technology to help implement measures of containment and mitigation. In particular, precise identification of cases and contact tracing and isolation can hardly be performed with traditional methods, and the use of targeted phone apps could highly improve the efficiency of these processes, as shown by the experience of multiple Asian countries – such as South Korea.</p>
+              <p id="Par7">Different infrastructures and working interfaces for such an instrument have already been proposed<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>, and its potential impact on the virus’s reproductive rate has also been studied<sup><xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR8">8</xref></sup>. Tracing apps could play a key role in ensuring that the epidemic remains sustainable on the healthcare systems, not exceeding their capabilities, which would otherwise lead to excess mortality.</p>
+              <p id="Par8">South Korea pioneered in this approach, both by suggesting to the public the use of applications able to notify contacts with infected subjects, and by mandatory installation, for travelers, of an app implemented by the Ministry of Health and Welfare to monitor COVID-19 symptoms and quarantine for 14 days. Another app, by the Ministry of Interior and Safety, was aimed at monitoring trajectories and contacts of infected subjects and to apply self-surveillance and self-quarantine<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>.</p>
+              <p id="Par9">Despite concerns over potential privacy violations, the South Korean approach managed to achieve efficient control of the epidemics in its earliest phases, and represents a good example of how such an approach could work.</p>
+              <p id="Par10">Notable efforts have been done by epidemiologist to model epidemic trends for COVID-19 and the effect of containment measures.</p>
+              <p id="Par11">In this proof-of-concept study we built a comprehensive framework to model the COVID-19 epidemic, taking into account population density, the different contributions of symptomatic, pre-symptomatic and asymptomatic contagions, and using it to test the efficacy of targeted interventions such as the aforementioned contact tracing app. In contrast to previous work<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup> aimed at modeling the two-way dynamic between individual behaviors and containment policies, we chose to build a global compartmental modeling framework that can account for region-specific factors, such as the effect of population density on contact rate or the role of expected compliance to containment procedures.</p>
+              <p id="Par12">Our research builds a model that allows testing the effect of both case isolation and app-mediated interventions in a region-specific fashion.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <p id="Par13">We built an improved Susceptible-Infectious-Recovered (<italic>S</italic><italic>I</italic><italic>R</italic>) model<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> with the aims of a) faithfully reproducing the dynamics of the SARS-CoV-2 epidemics, including the respective roles of asymptomatic infection and population density; b) testing the effects of distinct interventions, and specifically the use of phone apps for contact tracing. As Italy was the first western country affected by the SARS-CoV-2 and for which region-specific and intervention-related data was readily available, our analysis is focused on the Italian case. This has allowed us to study how the virus spreads at a very different pace in different Italian districts (Figs <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref>).<fig id="Fig1"><label>Fig. 1</label><caption><title>Density and mobility influence contact tracing app effectiveness.</title><p>Compared to low density regions (<bold>a</bold>), epidemics may be significantly harder to contain through contact tracing apps in areas with very high population density (<bold>b</bold>).</p></caption><graphic xlink:href="41746_2020_374_Fig1_HTML" id="d32e435"/></fig><fig id="Fig2"><label>Fig. 2</label><caption><title>Model outline.</title><p>Graphical representation of the interactions among the different compartments of the extended SIR model. S susceptible, I infected, R recovered, A asymptomatic, P pre-symptomatic, QS quarantined susceptible, QI quarantined infected, QA quarantined asymptomatic, QP quarantined pre-symptomatic. Rates of transfer between compartments are a function of the parameters annotated on the arrows. A detailed description of such parameters is provided in “Methods” and Table <xref rid="Tab1" ref-type="table">1</xref>.</p></caption><graphic xlink:href="41746_2020_374_Fig2_HTML" id="d32e449"/></fig></p>
+              <p id="Par14">Results of the simulations from the model are summarized in Figs <xref rid="Fig3" ref-type="fig">3</xref> and <xref rid="Fig4" ref-type="fig">4</xref>, showing the time curves of the sum of the infected (<italic>I</italic>) and quarantined infected (<italic>Q</italic><italic>I</italic>) compartments and expected mortality. Clearly the epidemic peak is expected to vary with increasing contact rate, assuming that transmissibility and recovery rate are constant. As expected, in all simulated scenarios, app-aided contact tracing significantly decreased the effective reproductive number <italic>R</italic><sub><italic>t</italic></sub> and height of the epidemic peak. In our sensitivity analyses, using the slightly longer incubation time had no significant impact in our simulations, whereas the increased infectiousness causes an expected delay in the complete suppression of infections, in particular under conditions of normal mobility.<fig id="Fig3"><label>Fig. 3</label><caption><title>Symptomatic population and mortality.</title><p>Total symptomatic population (red) and simulated mortality (black) in the 48 scenarios. Density-dependent contact rate simulations on the left (plots <bold>a</bold>–<bold>f</bold>); fixed contact rate simulations on the right (plots <bold>g</bold>–<bold>l</bold>). Each curve results from the sum over 110 districts averaged over 50 replicates per district. Solid lines represent no app users; dashed, dotted and dashed–dotted lines show increasing fractions of the population using the app (25, 50, 75%). All simulations can be interactively explored at <ext-link ext-link-type="uri" xlink:href="https://flowmaps.life.bsc.es/shiny/ct_app/">https://flowmaps.life.bsc.es/shiny/ct_app/</ext-link>.</p></caption><graphic xlink:href="41746_2020_374_Fig3_HTML" id="d32e500"/></fig><fig id="Fig4"><label>Fig. 4</label><caption><title>Successful/unsuccessful suppression in the first 50 days.</title><p>Detail of Fig. <xref rid="Fig3" ref-type="fig">3</xref>. Density-dependent contact rate simulations on the left (<bold>a</bold>, <bold>c</bold>, <bold>e</bold>); fixed contact rate simulations on the right (<bold>b</bold>, <bold>d</bold>, <bold>f</bold>). Suppression is achieved in the most optimistic scenario (contact rate 7.5, app users 75%) with fixed contact rate (<bold>b</bold>), whereas its success varies from district to district in scenarios with density-dependent contact rate.</p></caption><graphic xlink:href="41746_2020_374_Fig4_HTML" id="d32e536"/></fig></p>
+              <sec id="Sec3">
+                <title>Constant contact rate</title>
+                <p id="Par15">In scenarios with constant contact rate equal to 7.5, symptomatic cases isolation was per se very effective in slowing the epidemic, so much so that app-mediated contact tracing managed to achieve suppression even with only 75% (Fig. <xref rid="Fig4" ref-type="fig">4b</xref>) of the population using the app and complying to self-quarantine, whereas with 50% peak height was reduced more than 2-fold (Fig. <xref rid="Fig3" ref-type="fig">3</xref>b). This shows that, in scenarios with lower baseline contact rate and efficient isolation of cases, app-mediated contact tracing can achieve epidemic suppression.</p>
+                <p id="Par16">On the other hand, nation-wide suppression was not achieved in the less optimistic scenarios with 10 and 14.8 contact rate; however, the app induced a very effective mitigation, with peak number of infectious reduced roughly 4-fold in the worst-case scenario and with 75% of the population using the app (Fig. <xref rid="Fig3" ref-type="fig">3d, f</xref>).</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Density-dependent contact rate</title>
+                <p id="Par17">In scenarios where contact rate was allowed to vary with population density the epidemic trend was, as expected, significantly different from region to region. In Fig. <xref rid="Fig3" ref-type="fig">3</xref>, left panels, the curves of symptomatic infections over time are shown; compared to simulations with constant contact rate, it is evident the presence of two more or less distinct epidemic peaks; this may reflect the presence of groups of districts with different population densities. However, the distinction tends to disappear with increasing proportions of app users. The simulations show that suppression can be achieved in most regions even with only 25% of the population using the app (dashed lines), but the epidemics does not die out, being almost entirely sustained by the districts with the highest population density (Milan, Monza, Neaples; Fig. <xref rid="Fig5" ref-type="fig">5</xref>). This result is, clearly, achieved by using the app to augment an efficient tracking and isolation of new symptomatic cases, and indicates that, as for all interventions, effectiveness of app-mediated contact-tracing and voluntary quarantine should be evaluated in the light of region-specific differences.<fig id="Fig5"><label>Fig. 5</label><caption><title>Epidemic curve by district.</title><p>Epidemic curve for individual nodes (districts) in the scenario with average velocity <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=1.5$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>1.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq1.gif"/></alternatives></inline-formula> and fraction of app users <italic>j</italic> = 25%. The epidemic outbreak is entirely sustained by the three highest-density districts, whereas in the others the effective reproductive number is below 1.</p></caption><graphic xlink:href="41746_2020_374_Fig5_HTML" id="d32e596"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Quarantine measures impact</title>
+                <p id="Par18">The model allows to also keep track of the number of <italic>I</italic> subjects successfully quarantined ("true positives”) and of the subjects that underwent quarantine without actually being infected ("false positives”), by tracing the population in the <italic>Q</italic><italic>I</italic> (subjects that were rightfully quarantined) and <italic>Q</italic><italic>S</italic> (Quarantined-Susceptible, subjects that were quarantined but did not contract infection) compartments. The maximum number of subjects in each compartment at the same time is summarized in Table <xref rid="Tab1" ref-type="table">1</xref>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Average maximum true positives (<italic>Q</italic><italic>I</italic>) and false positives (<italic>Q</italic><italic>S</italic>) in each scenario.</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th><italic>j</italic></th><th><italic>Q</italic><italic>I</italic></th><th><italic>Q</italic><italic>S</italic></th></tr></thead><tbody><tr><td><inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=1.5$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>1.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq2.gif"/></alternatives></inline-formula></td><td>0</td><td>411850.46</td><td>0</td></tr><tr><td><inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=1.5$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>1.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq3.gif"/></alternatives></inline-formula></td><td>0.25</td><td>345302.96</td><td>126772.1</td></tr><tr><td><inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=1.5$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>1.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq4.gif"/></alternatives></inline-formula></td><td>0.5</td><td>195800.12</td><td>304706.56</td></tr><tr><td><inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=1.5$$\end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>1.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq5.gif"/></alternatives></inline-formula></td><td>0.75</td><td>58791.4</td><td>227277.26</td></tr><tr><td><inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=2.5$$\end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>2.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq6.gif"/></alternatives></inline-formula></td><td>0</td><td>1082325.62</td><td>0</td></tr><tr><td><inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=2.5$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>2.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq7.gif"/></alternatives></inline-formula></td><td>0.25</td><td>937295.72</td><td>344843.98</td></tr><tr><td><inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=2.5$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>2.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq8.gif"/></alternatives></inline-formula></td><td>0.5</td><td>617449.32</td><td>958998.18</td></tr><tr><td><inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=2.5$$\end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>2.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq9.gif"/></alternatives></inline-formula></td><td>0.75</td><td>282200.52</td><td>1096092.2</td></tr><tr><td><inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=5.2$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>5.2</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq10.gif"/></alternatives></inline-formula></td><td>0</td><td>1774628.08</td><td>0</td></tr><tr><td><inline-formula id="IEq11"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=5.2$$\end{document}</tex-math><mml:math id="M22"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>5.2</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq11.gif"/></alternatives></inline-formula></td><td>0.25</td><td>1641431.7</td><td>589880.54</td></tr><tr><td><inline-formula id="IEq12"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=5.2$$\end{document}</tex-math><mml:math id="M24"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>5.2</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq12.gif"/></alternatives></inline-formula></td><td>0.5</td><td>1202505.64</td><td>1801323.82</td></tr><tr><td><inline-formula id="IEq13"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}=5.2$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>5.2</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq13.gif"/></alternatives></inline-formula></td><td>0.75</td><td>702748.88</td><td>2656114.82</td></tr><tr><td><italic>C</italic> = 7.5</td><td>0</td><td>2482094.86</td><td>0</td></tr><tr><td><italic>C</italic> = 7.5</td><td>0.25</td><td>2029409.8</td><td>747889.48</td></tr><tr><td><italic>C</italic> = 7.5</td><td>0.5</td><td>866790.1</td><td>1346998.68</td></tr><tr><td><italic>C</italic> = 7.5</td><td>0.75</td><td>13639.94</td><td>51768.96</td></tr><tr><td><italic>C</italic> = 10</td><td>0</td><td>5993749.92</td><td>0</td></tr><tr><td><italic>C</italic> = 10</td><td>0.25</td><td>5110050.2</td><td>1879426.1</td></tr><tr><td><italic>C</italic> = 10</td><td>0.5</td><td>3023884.64</td><td>4691037.66</td></tr><tr><td><italic>C</italic> = 10</td><td>0.75</td><td>960177.86</td><td>3703523.2</td></tr><tr><td><italic>C</italic> = 14.8</td><td>0</td><td>10492705.48</td><td>0</td></tr><tr><td><italic>C</italic> = 14.8</td><td>0.25</td><td>9162768.02</td><td>3395616.34</td></tr><tr><td><italic>C</italic> = 14.8</td><td>0.5</td><td>6105113.84</td><td>9497105.26</td></tr><tr><td><italic>C</italic> = 14.8</td><td>0.75</td><td>2977727.44</td><td>11519918.38</td></tr></tbody></table></table-wrap></p>
+                <p id="Par19">Both false positives and true positives are naturally dependent on the success or failure of epidemics suppression, and will be very low when suppression is achieved. In density-dependent scenarios with 75% of app users the maximum number of SUSCEPTIBLE subjects quarantined at the same time ranged from 200, 000 to 2, 000, 000, whereas in scenarios with fixed density the variation was much higher, mainly due to the fact that with contact rate <italic>C</italic> = 7.5 and 75% app users suppression is achieved.</p>
+                <p id="Par20">As expected, true positives decrease as app coverage increases and epidemic spread is impaired, but at the same time the number of subjects that are subjected to voluntary quarantine without reason increases. The two quantities cross over between <italic>j</italic> = 0.25 and <italic>j</italic> = 0.5, where subjects that are wrongly quarantined surpass those that are actually infectious.</p>
+              </sec>
+            </sec>
+            <sec id="Sec6" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par21">The use of targeted app for contact tracing has been proposed as a means to control the COVID-19 epidemics when lockdown measures are lifted. It has been shown that, given certain combinations of efficacy in case identifications and compliant use of such an instrument, the approach can contribute to the effective reproductive number <italic>R</italic><sub><italic>t</italic></sub> of the disease below 1<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Here we aimed to model the effect of app-mediated contact tracing taking into account population density and transportation, at the same time making it possible to monitor the number of patients that are quarantined and their status concerning the infection.</p>
+              <p id="Par22">This is a much needed approach if we wish to implement precise and timely specific intervention making the infections and contagion sustainable for healthcare systems.</p>
+              <p id="Par23">The model uses a series of <italic>Q</italic>* compartments to model the behavior and status of subjects that are quarantined for symptomatic infection or based on contact tracing. To our knowledge, this is the first model that allows simulation and prediction of the outcomes of the epidemic both accounting for differential population density and quarantine measures. This is particularly important since it allows to visualize the effect of contact-tracing apps along the entire duration of the epidemics, and also because the management of the infection has to take into account the specific characteristics of a given region and implement measures accordingly. In fact, the application of containment policies disregarding region-specific conditions can result in measures which are not needed or too drastic. As a consequence, rather than providing support, such policies might result in a burden for the psychological well-being of people as well as detrimental for the economy<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>.</p>
+              <p id="Par24">Compartmentalization of quarantined subjects has a remarkable potential usefulness in studying the socio-economic impact of voluntary self-quarantine suggested by app tracing. Clearly, a larger proportion of app users entails better epidemic control. However, it is expected that the number of false positives in the <italic>Q</italic><italic>S</italic> compartment increases accordingly, with increased losses in terms of well-being and resources.</p>
+              <p id="Par25">Despite the many parameters considered in our model, our work still falls into a classic compartmental epidemiologic framework; this is a net advantage in terms of interpretability of results and generalizability. To our knowledge, this is also the first model that allows keeping track of subjects that undergo voluntary quarantine.</p>
+              <p id="Par26">According to our model, case isolation is per se a very effective containment measure that, as long as cases are identified and isolated with a very high success rate, can achieve suppression of the epidemics in a series of theoretical scenarios. However, coupling case isolation with immediate app-mediated contact tracing produces a remarkable improvement in success of the strategy, achieving in all scenarios a very effective mitigation of contagion and, in some scenarios, full suppression. These results highlight the benefit of introducing contact-tracing as a measure of pandemic prevention and control as well as the positive impact that this would have especially upon critical circumstances.</p>
+              <p id="Par27">Feasibility of epidemic control by app-mediated contact tracing has been suggested already by Ferretti et al.<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>; by decomposing contributions to <italic>R</italic><sub>0</sub> from symptomatic, pre-symptomatic, asymptomatic, and environmental sources, they show that <italic>R</italic><sub><italic>t</italic></sub> &lt; 1 can be attained for certain combinations of efficiency in case isolation and compliance in contact tracing. Our model allows to directly simulate such scenarios while at the same time keeping track of the trends in isolated and quarantined cases. This is particularly relevant as it allows to quantify the effect of interventions on specific compartments, e.g., it is possible to trace the number of individuals that are quarantined at a specific time-point, a piece of data that is potentially very helpful in designing cost-effectiveness analyses of containment measures.</p>
+              <p id="Par28">Another important result comes from our simulations with a density-dependent contact rate. In our simulation different Italian districts behaved very differently, and in all scenarios suppression was easily attained in the less densely populated regions, whereas it failed in the others (Fig. <xref rid="Fig5" ref-type="fig">5</xref>). This is consistent with the different epidemic trends that have been observed to date in Italian districts; however, it must be pointed out that differences between districts may as well be justified by different approaches in dealing with the epidemics, time to first diagnosed case versus numbers of people already infected in the population and not yet recognized and, most importantly, is influenced by the nation-wide/region-wide lockdown put in place by the central government.</p>
+              <p id="Par29">It is also of note that by making contact rate dependent on both density and daily distance traveled, our model takes into account the potential effectiveness of policies aimed at optimizing and regulating transportation, especially in high-density regions. According to the model, effective suppression of the epidemics in such areas is strongly dependent on such measures.</p>
+              <p id="Par30">The main limitation of our work is that there is some uncertainty in the parameters that have to be plugged-in the simulations; anyway, we were able to derive reasonable estimates for all of them, and performed a sensitivity analysis to check that our results are robust to changes in the most uncertain parameters. We adopted some credible figures for the asymptomatic/symptomatic infections ratio and for relative decrease in infectiousness in asymptomatic subjects, as well as for probability of infection per contact; however the greatest uncertainty is precisely in estimation of contact rate, as this is a variable that is influenced by specific environmental and cultural factors, e.g., individual mobility, social interactions, transportation systems, as well as general social distancing measures that have been implemented wherever the epidemics took place. Our first choice estimate for contact rate came from the experience of the Diamond Princess, based on which we estimated it at a very impressive figure of 14.8, a condition that would hardly allow for suppression in a nation-wide context. However, it is evident that the situation in a closed environment favors a higher contact rate, thus this number is likely to be significantly overestimated. This makes the scenario a worst-case one, suggesting that, in real world experience, case isolation and contact tracing may be more effective than predicted.</p>
+              <p id="Par31">In scenarios where we modeled contact rate as a function of population density, the most relevant scaling factor is <inline-formula id="IEq14"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}$$\end{document}</tex-math><mml:math id="M28"><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq14.gif"/></alternatives></inline-formula>, i.e., the theoretical average daily distance traveled by individuals. This is a measure that is not readily estimable, which is why in the present work we showed results for a series of credible scenarios; however, using mobility data from European cities we managed to obtain credible figures to plug-in the model. Our model does take into account interpersonal distance in the form of <italic>R</italic> parameter; a potential expansion of this framework is to account for time spent within the 1 m interpersonal distance, as well as distinguishing between high-risk (e.g., taxis, buses) and low-risk (e.g., walking, personal car) means of transportation.</p>
+              <p id="Par32">However, this work proves the feasibility of including population density and transportation in an expanded <italic>S</italic><italic>I</italic><italic>R</italic> model, and suggests that, even if travel between districts is forbidden, the epidemics may still be significantly harder to contain in areas with very high population density (for example, in Italy, the districts of Milano, Monza, and Napoli). The model can be further improved and expanded by adding age-specific compartments, sex and gender factors, and risk classes, by refining the implementation of vital dynamics, and by modeling different methods for contact tracing with varying degree of compliance.</p>
+              <p id="Par33">We approached the model with a simulation-based approach; this is computationally intensive but still manageable by most software and hardware and less demanding than stochastic models based on individual data, and allows for a high degree of customizability by fine-tuning its parameters on specific interventions.</p>
+              <p id="Par34">The model constitutes a viable framework to monitor epidemic trends and assess the effect of interventions. Our results show that (1) voluntary self-quarantine based on contact-tracing apps, together with efficient case isolation, can give a relevant, and in some scenarios decisive, contribution to epidemics mitigation/suppression; (2) at the same time, the success of this strategy can depend heavily on population density and transportation.</p>
+            </sec>
+            <sec id="Sec7">
+              <title>Methods</title>
+              <sec id="Sec8">
+                <title>Model design</title>
+                <p id="Par35">The typical <italic>S</italic><italic>I</italic><italic>R</italic> model assumes that some degree of immunity, at least temporary, is acquired after SARS-CoV-2 infection; therefore, it is assumed that subjects move from the <italic>S</italic> (SUSCEPTIBLE) compartment to the <italic>I</italic> (INFECTIOUS) compartment, and from there, with a daily rate equal to the inverse of recovery time, to the <italic>R</italic> (RECOVERED) compartment, until the relative densities of <italic>S</italic> and <italic>I</italic> become too low for the epidemic to continue. In order to simulate the behavior of asymptomatic and pre-symptomatic individuals, an <italic>A</italic> (ASYMPTOMATIC) and <italic>P</italic> (PRE-SYMPTOMATIC) compartment were added to the model.</p>
+                <p id="Par36">To simulate the effect of targeted quarantine measures, we introduced a series of <italic>Q</italic>* compartments indicating the number of subjects that are quarantined and their status regarding the disease. To model the reversible transition from the different compartment into the state-specific quarantine compartments, there are four different <italic>Q</italic> compartments: <italic>Q</italic><italic>S</italic>, <italic>Q</italic><italic>I</italic>, <italic>Q</italic><italic>A</italic>, and <italic>Q</italic><italic>P</italic>. Whenever they are infected, individuals are supposed to move from the <italic>S</italic> compartment to the <italic>A</italic> or <italic>P</italic> compartments, with respective probabilities <italic>p</italic><sub><italic>a</italic></sub> and <italic>p</italic><sub><italic>i</italic></sub> = 1 − <italic>p</italic><sub><italic>a</italic></sub>. Subjects in the <italic>P</italic> compartments then transfer to the <italic>I</italic> compartment with a daily rate of 1/<italic>τ</italic><sub><italic>i</italic></sub>, where <italic>τ</italic><sub><italic>i</italic></sub> is the incubation period. We also assume that asymptomatic and pre-symptomatic patients are less infectious than symptomatic individuals by a factor <italic>f</italic>.</p>
+                <p id="Par37">However, there is evidence that pre-sympromatic individuals are highly infectious already about <italic>τ</italic><sub><italic>d</italic></sub> = 2 days before symptom onset<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, and the focus of our model is transmission dynamics, rather than symptoms manifestations. Under this profile, a <italic>P</italic> subject is already akin to a <italic>I</italic> subject <italic>τ</italic><sub><italic>d</italic></sub> days before symptom onset. Therefore, we let <italic>P</italic> subjects move into <italic>I</italic> compartment after an incubation period that is <italic>τ</italic><sub><italic>d</italic></sub> = 2 days shorter, while at the same time increasing the recovery period by the same amount.</p>
+                <p id="Par38">Our model assumes the use of a phone app that keeps track of contacts and, once a symptomatic case is identified, notifies the event to everyone who had contacts with them in the pre-symptomatic period, so that they can enter a voluntary quarantine (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). Such an application is heavily reliant, on one hand, on effectiveness of case isolation on the part of the authorities, and on the other hand on compliance and widespread use of the system by the population. Thus, we assume, for our model, that a <italic>J</italic> fraction of symptomatic cases is identified and undergoes perfect quarantine with zero contacts. We call <italic>j</italic> the fraction of the population using the app and we assume that once in quarantine, they reduce the contact rate by a factor <italic>q</italic>. Therefore, <italic>j</italic><sup>2</sup> is the fraction of contacts that happen between individuals using the app. Quarantined subjects that develop the infection undergo the entire course of the disease, whereas those that were not infected in the contact eventually exit quarantine after the quarantine period <italic>τ</italic><sub><italic>q</italic></sub> (15 days) and become SUSCEPTIBLE again. In the classic SIR model, the rate of transfer between the <italic>S</italic> and <italic>I</italic> compartments depends on transmission rate <italic>β</italic>, that is, the product of number of contacts per subject, <italic>C</italic>, and probability of transmission during a single contact <italic>μ</italic><sup><xref ref-type="bibr" rid="CR13">13</xref></sup>.</p>
+                <p id="Par39">To estimate contact rate as a function of population density we built on previous results by Rhodes and Anderson<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> who derived a formula for estimation of daily contact rate of a subject in a population with density <italic>ρ</italic> moving with velocity <inline-formula id="IEq15"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{v}$$\end{document}</tex-math><mml:math id="M30"><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41746_2020_374_Article_IEq15.gif"/></alternatives></inline-formula> as<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$C=\frac{8R\bar{v}\rho }{\pi }$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:mi>C</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>8</mml:mn><mml:mi>R</mml:mi><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>¯</mml:mo></mml:mover><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi>π</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <italic>R</italic> is the minimum distance within which two individuals can be said to have a “contact”; for COVID-19, and other air-borne diseases transmitted by droplets expelled from nose or mouth, it is commonly estimated as 1 m<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>.</p>
+                <p id="Par40">In our model we assume that SUSCEPTIBLE subjects move to the <italic>P</italic> compartment with a rate proportional to the probability of meeting an <italic>A</italic>, <italic>I</italic>, or <italic>P</italic> subject, assuming that at least one of the two does not use the tracing app and/or the case is not successfully identified. This is modeled by making the rate dependent on 1 − <italic>J</italic><italic>j</italic><sup>2</sup>. The remaining <italic>J</italic><italic>j</italic><sup>2</sup> fraction of the contacts between <italic>S</italic> and <italic>I</italic> individuals leads to a transfer from <italic>S</italic> to one of the three <italic>Q</italic><italic>P</italic>, <italic>Q</italic><italic>A</italic>, and <italic>Q</italic><italic>S</italic> compartments, each with probability equal to <italic>p</italic><sub><italic>i</italic></sub>, <italic>p</italic><sub><italic>a</italic></sub>, or 1 − <italic>p</italic><sub><italic>i</italic></sub> − <italic>p</italic><sub><italic>a</italic></sub>, i.e., the probability of the contact leading to symptomatic infection, asymptomatic infection, or no infection. Individuals in the <italic>Q</italic><italic>P</italic> compartment eventually transfer to the <italic>Q</italic><italic>I</italic> compartment after incubation, whereas <italic>Q</italic><italic>A</italic> and <italic>Q</italic><italic>S</italic> transfer to <italic>R</italic> and to <italic>S</italic>, respectively, with rates equal to 1/<italic>τ</italic><sub><italic>i</italic></sub> and 1/<italic>τ</italic><sub><italic>q</italic></sub>.</p>
+                <p id="Par41">The structure of the model is shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref> and it is described by the following set of differential equations. By defining <italic>α</italic> = <italic>J</italic><italic>j</italic><sup>2</sup> as the proportion of contacts that are successfully contained, we have:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dS}{dt}=-\mu CS\frac{\left(1-\alpha \right)\left(fP+I\right)+fq\left(QP+QA\right)}{N}\mu-CS\frac{fA}{N}-\frac{1}{{\tau }_{d}}\alpha CS\frac{I}{N}+\frac{QS}{{\tau }_{q}}$$\end{document}</tex-math><mml:math id="M34"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mi>μ</mml:mi><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:mfrac><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>α</mml:mi></mml:mrow></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>f</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mi>q</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>Q</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>Q</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mi>μ</mml:mi><mml:mo>−</mml:mo><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:mfrac><mml:mrow><mml:mi>f</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mi>α</mml:mi><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>q</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dI}{dt}=\frac{P}{{\tau }_{i}}-\frac{I}{{\tau }_{h}}-\frac{JI}{{\tau }_{d}}$$\end{document}</tex-math><mml:math id="M36"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>J</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dP}{dt}={p}_{i}\mu CS\frac{\left(1-\alpha \right)\left(fP+I\right)+fA+fq\left(QP+QA\right)}{N}-\frac{1}{{\tau }_{d}}\alpha CP\frac{I}{N}-\frac{P}{{\tau }_{i}}$$\end{document}</tex-math><mml:math id="M38"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi>μ</mml:mi><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:mfrac><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>α</mml:mi></mml:mrow></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>f</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mi>q</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>Q</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>Q</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mi>α</mml:mi><mml:mi>C</mml:mi><mml:mi>P</mml:mi><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dA}{dt}={p}_{a}\mu CS\frac{\left(1-\alpha \right)\left(fP+I\right)+fA+fq\left(QP+QA\right)}{N}-\frac{1}{{\tau }_{d}}\alpha CA\frac{I}{N}-\frac{A}{{\tau }_{h}}$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mi>μ</mml:mi><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:mfrac><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>α</mml:mi></mml:mrow></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>f</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:mi>f</mml:mi><mml:mi>q</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>Q</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>Q</mml:mi><mml:mi>A</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mi>α</mml:mi><mml:mi>C</mml:mi><mml:mi>A</mml:mi><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dR}{dt}=\frac{I}{{\tau }_{h}}+\frac{A}{{\tau }_{h}}+\frac{QI}{{\tau }_{h}}+\frac{QA}{{\tau }_{h}}$$\end{document}</tex-math><mml:math id="M42"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dQS}{dt}=\frac{1}{{\tau }_{d}}\alpha C\left(1-{p}_{i}-{p}_{a}\right)S\frac{I}{N}-\frac{QS}{{\tau }_{q}}$$\end{document}</tex-math><mml:math id="M44"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>Q</mml:mi><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mi>α</mml:mi><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mi>S</mml:mi><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>q</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dQP}{dt}=\frac{1}{{\tau }_{d}}\alpha C\left({p}_{i}S+P\right)\frac{I}{N}-\frac{QP}{{\tau }_{i}}$$\end{document}</tex-math><mml:math id="M46"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>Q</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mi>α</mml:mi><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi>S</mml:mi><mml:mo>+</mml:mo><mml:mi>P</mml:mi></mml:mrow></mml:mfenced><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dQA}{dt}=\frac{1}{{\tau }_{d}}\,\alpha C\left({p}_{a}S+A\right)\frac{I}{N}-\frac{QA}{{\tau }_{h}}$$\end{document}</tex-math><mml:math id="M48"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>Q</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mspace width="0.25em"/><mml:mi>α</mml:mi><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mi>S</mml:mi><mml:mo>+</mml:mo><mml:mi>A</mml:mi></mml:mrow></mml:mfenced><mml:mfrac><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{dQI}{dt}=\frac{JI}{{\tau }_{d}}+\frac{QP}{{\tau }_{i}}-\frac{QI}{{\tau }_{q}}$$\end{document}</tex-math><mml:math id="M50"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>Q</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>J</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>τ</mml:mi></mml:mrow><mml:mrow><mml:mi>q</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41746_2020_374_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par42">The model is governed by a set of ordinary differential equations (2–10) that depend on different parameters. Model parameters are based on values found in different bibliographic references (see Table <xref rid="Tab2" ref-type="table">2</xref>).<table-wrap id="Tab2"><label>Table 2</label><caption><p>Model parameter values and sources.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Parameter</th><th>Description</th><th>Value</th><th>Source</th></tr></thead><tbody><tr><td><italic>μ</italic></td><td>Probability of transmission in a single contact</td><td>0.10</td><td>[<xref ref-type="bibr" rid="CR16">16</xref>]</td></tr><tr><td><italic>p</italic><sub><italic>a</italic></sub></td><td>Probability of infection being asymptomatic</td><td>0.40</td><td>[<xref ref-type="bibr" rid="CR6">6</xref>, <xref ref-type="bibr" rid="CR17">17</xref>]</td></tr><tr><td><italic>f</italic></td><td>Relative infectiousness of a- and pre-symptomatic compared to symptomatic</td><td>0.10</td><td>[<xref ref-type="bibr" rid="CR6">6</xref>]</td></tr><tr><td><italic>q</italic></td><td>Contact reduction in quarantine</td><td>0.10</td><td>[<xref ref-type="bibr" rid="CR21">21</xref>]</td></tr><tr><td><italic>τ</italic><sub><italic>h</italic></sub></td><td>Time from symptom onset to recovery (days)</td><td>10</td><td>[<xref ref-type="bibr" rid="CR22">22</xref>]</td></tr><tr><td><italic>τ</italic><sub><italic>i</italic></sub></td><td>Incubation period (days)</td><td>5.1</td><td>[<xref ref-type="bibr" rid="CR23">23</xref>]</td></tr><tr><td><italic>τ</italic><sub><italic>q</italic></sub></td><td>Quarantine duration (days)</td><td>15</td><td>[<xref ref-type="bibr" rid="CR15">15</xref>]</td></tr><tr><td><italic>C</italic></td><td>Daily contact rate</td><td>14.8</td><td>[<xref ref-type="bibr" rid="CR20">20</xref>]</td></tr><tr><td><italic>R</italic></td><td>Maximum distance to qualify a contact (meters)</td><td>1</td><td>[<xref ref-type="bibr" rid="CR24">24</xref>]</td></tr></tbody></table></table-wrap></p>
+                <p id="Par43">For COVID-19 attack rate <italic>μ</italic> we adopted data from the epidemic in Shenzen, where secondary attack rate was estimated between 0.10 and 0.15<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. According to Ferretti et al.<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> the most likely estimates for <italic>f</italic> and <italic>p</italic><sub><italic>a</italic></sub> are 0.1 and 0.4. The 0.4 estimate for the asymptomatic fraction is corroborated by a recent epidemiological study on COVID-19 prevalence in Veneto<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>.</p>
+                <p id="Par44">In the simulations, we included some basic vital dynamics by adding a <italic>D</italic> (DECEASED) compartment (not shown), for which we assumed an overall mortality of 1% in symptomatics. Mortality estimates for COVID-19 are actually still quite uncertain, but INFECTIOUS removal by mortality is not expected to significantly affect epidemic trends.</p>
+                <p id="Par45">The parameter estimates have a degree of uncertainty and, most importantly, the body of evidence supporting them is continuously growing. Incubation time <italic>τ</italic><sub><italic>i</italic></sub>, for example, has been recently suggested to be higher than our 5.1 days estimate, at 7.76<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. Relative infectiousness of <italic>A</italic> and <italic>P</italic> versus <italic>I</italic>, <italic>f</italic> is another parameter that has strong uncertainty. For this reason, we performed a sensitivity analyses on the two most uncertain parameters (see Supplementary Figs. <xref rid="MOESM1" ref-type="media">1</xref> and <xref rid="MOESM1" ref-type="media">2</xref>).</p>
+                <p id="Par46">The simulations were run using R package <italic>S</italic><italic>i</italic><italic>m</italic><italic>I</italic><italic>n</italic><italic>f</italic>, a system for stochastic simulation of compartmental models of epidemics<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Experiments</title>
+                <p id="Par47">For our experiments we assumed that <italic>J</italic> = 75% of symptomatic cases are identified and perfectly quarantined at symptom onset, i.e., two days after their infectiousness increases. On the other hand, contacts undergoing voluntary self-quarantine are supposed to reduce their contact rate ten-fold (<italic>q</italic> = 0.1).</p>
+                <p id="Par48">We simulated 12 scenarios with varying contact rate <italic>C</italic> and, most importantly, assuming a different proportion <italic>j</italic> of app users in the population (0, 0.25, 0.5, and 0.75). Each simulation was run on 110 nodes representing Italian districts (with data on area and resident population updated to 2016), and was repeated 50 times, with globally 5500 simulations per scenario.</p>
+                <p id="Par49">For a first set of simulations we assumed a constant population density for all the nodes; this equals the assumption of a unique transmission rate and, therefore, a unique <italic>R</italic><sub>0</sub> for the entire set, so that the only region-specific factor affecting the outcome was relative population. Transmissibility has been previously estimated, based on data from the Diamond Princess outbreak, at 1.48<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>; accordingly, assuming 0.10 attack rate, in this scenario we set a contact rate equal to 14.8. However, this was calculated in a particular scenario where contact rate was supposedly higher than in normal conditions, thus we simulated two more scenarios with lower contact rates, 10 and 7.5.</p>
+                <p id="Par50">A second set of simulations accounted for different population densities across the 110 districts. Here, contact rate was allowed to vary following population density under an assumed average daily distance traveled by the subjects, according to Eq. (<xref rid="Equ1" ref-type="">1</xref>). Mobility data from two sample European cities (Berga and Barcelona) show an average daily distance traveled per person varying between 1.2 and 5.2 km (personal communication); starting from these figures we simulated scenarios in which subjects travel, on average, 1.5, 2.5, and 5 km per day.</p>
+                <p id="Par51">An interactive R Shiny web application, enabling the exploration of simulation scenarios, is available at <ext-link ext-link-type="uri" xlink:href="https://flowmaps.life.bsc.es/shiny/ct_app/">https://flowmaps.life.bsc.es/shiny/ct_app/</ext-link>.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Data</title>
+                <p id="Par52">Our simulations were based on population and surface area data from 110 Italian districts updated to 2016. This kind of data is subject to frequent administrative rearrangements, but actual demographics have remained substantially stable for the aims of this work, and since some districts have since be grouped together, older data has actually higher spatial resolution.</p>
+                <p id="Par53">Table <xref rid="Tab3" ref-type="table">3</xref> summarizes population data about the five most and least densely populated districts. Over the entire national territory, density was 2.01/km<sup>2</sup>, and in districts it ranged from 0.03 to 2.65. Corresponding surface area ranged from 212 to 7400 km<sup>2</sup>. Globally, population was 60, 589, 085. Ogliastra was both the least populated and least densely populated district, with 57, 185 inhabitants and a density of 0.03/km<sup>2</sup>; the district with most residents was Rome (4, 353, 738 residents), but the most densely populated was Neaples.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Summary statistic of the five most and least densely populated districts.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>District</th><th>Region</th><th>Density</th><th>Surface (km<sup>2</sup>)</th><th>Residents</th></tr></thead><tbody><tr><td>Napoli</td><td>Campania</td><td>2.65</td><td>1171</td><td>3107006</td></tr><tr><td>Monza and Brianza</td><td>Lombardia</td><td>2.15</td><td>405</td><td>868859</td></tr><tr><td>Milano</td><td>Lombardia</td><td>2.04</td><td>1579</td><td>3218201</td></tr><tr><td>Trieste</td><td>Friuli-Venezia Giulia</td><td>1.11</td><td>212</td><td>234682</td></tr><tr><td>Roma</td><td>Lazio</td><td>0.81</td><td>5352</td><td>4353738</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>Grosseto</td><td>Toscana</td><td>0.05</td><td>4504</td><td>223045</td></tr><tr><td>Olbia-Tempio</td><td>Sardegna</td><td>0.05</td><td>3399</td><td>160672</td></tr><tr><td>Nuoro</td><td>Sardegna</td><td>0.04</td><td>3934</td><td>156096</td></tr><tr><td>Aosta</td><td>Valle d’Aosta</td><td>0.04</td><td>3263</td><td>126883</td></tr><tr><td>Ogliastra</td><td>Sardegna</td><td>0.03</td><td>1854</td><td>57185</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec11">
+                <title>Reporting summary</title>
+                <p id="Par54">Further information on research design is available in the <xref rid="MOESM4" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec12">
+                <supplementary-material content-type="local-data" id="MOESM1">
+                  <media xlink:href="41746_2020_374_MOESM1_ESM.pdf">
+                    <caption>
+                      <p>Supplementary file</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="MOESM2">
+                  <media xlink:href="41746_2020_374_MOESM2_ESM.txt">
+                    <caption>
+                      <p>Data Set 1</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="MOESM3">
+                  <media xlink:href="41746_2020_374_MOESM3_ESM.gz">
+                    <caption>
+                      <p>Data Set 2</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="MOESM4">
+                  <media xlink:href="41746_2020_374_MOESM4_ESM.pdf">
+                    <caption>
+                      <p>Reporting Summary</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p><bold>Supplementary information</bold> is available for this paper at 10.1038/s41746-020-00374-4.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This material is based upon work supported by the European Commission’s Horizon 2020 Program, H2020-ICT-12-2018-2020, “INFORE - Interactive Extreme-Scale Analytics and Forecasting” (ref. 825070). The authors would like to acknowledge the Spanish Ministry of Transport, Mobility and Urban Agenda for assistance and support with mobility data.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>A.F., E.S., and N.M. conceived the experiments; A.F. designed the model and ran simulations; A.F. and E.S. wrote the paper; D.C. and M.P.-d.-L. revised the model and code; D.C. wrote the web app; M.T.S., A.S.C., N.M., and A.V. revised the paper and helped with interpretation and discussion; A.V. supervised model design and provided mobility data. All of the authors approved the final version of the paper.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>Data about population density is provided as supplementary material. Mobility data has been provided by the Spanish Ministry of Transport, Mobility and Urban Agenda (<ext-link ext-link-type="uri" xlink:href="https://www.mitma.gob.es/ministerio/covid-19/evolucion-movilidad-big-data">https://www.mitma.gob.es/ministerio/covid-19/evolucion-movilidad-big-data</ext-link>).</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Code availability</title>
+              <p>The code used for the simulations is provided as supplementary material.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par55">E.S. works for Bayer, is collaborating to COVID Safe Paths app, by MIT, and advising LEMONADE tracing app, by Nuland. A.S.C. works for Roche Pharma. M.T.F is consultant for Ely Lilly. The other authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koh</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>What do we know about SARS-CoV-2 transmission? A systematic review and meta-analysis of the secondary attack rate, serial interval, and asymptomatic infection</article-title>
+                  <source>PLOS ONE</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <fpage>e0240205</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0240205</pub-id>
+                  <pub-id pub-id-type="pmid">33031427</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Giordano</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy</article-title>
+                  <source>Nat. Med.</source>
+                  <year>2020</year>
+                  <volume>26</volume>
+                  <fpage>855</fpage>
+                  <lpage>860</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41591-020-0883-7</pub-id>
+                  <pub-id pub-id-type="pmid">32322102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peto</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Covid-19 mass testing facilities could end the epidemic rapidly</article-title>
+                  <source>BMJ</source>
+                  <year>2020</year>
+                  <volume>368</volume>
+                  <fpage>m1163</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmj.m1163</pub-id>
+                  <pub-id pub-id-type="pmid">32201376</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hellewell</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts</article-title>
+                  <source>Lancet Glob. Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>e488</fpage>
+                  <lpage>e488</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2214-109X(20)30074-7</pub-id>
+                  <pub-id pub-id-type="pmid">32119825</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A survey of COVID-19 contact tracing apps</article-title>
+                  <source>IEEE Access</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>134577</fpage>
+                  <lpage>134601</lpage>
+                  <pub-id pub-id-type="doi">10.1109/ACCESS.2020.3010226</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ferretti</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <volume>368</volume>
+                  <fpage>eabb6936</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.abb6936</pub-id>
+                  <pub-id pub-id-type="pmid">32234805</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Matabuena, M. et al. COVID-19: estimating spread in Spain solving an inverse problem with a probabilistic model. Preprint at <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2004.13695">https://arxiv.org/abs/2004.13695</ext-link> [q-bio.PE] (2020).</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Lorch, L. et al. A spatiotemporal epidemic model to quantify the effects of contact tracing, testing, and containment. Preprint at <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2004.07641">https://arxiv.org/abs/2004.07641</ext-link> [cs.LG] (2020).</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Testing on the move: South Koreaas rapid response to the COVID-19 pandemic</article-title>
+                  <source>Transp. Res. Interdiscip. Perspect.</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <fpage>100111</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermack</surname>
+                      <given-names>WO</given-names>
+                    </name>
+                    <name>
+                      <surname>McKendrick</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A contribution to the mathematical theory of epidemics</article-title>
+                  <source>Proc. R. Soc. Lond.</source>
+                  <year>1927</year>
+                  <volume>115</volume>
+                  <fpage>700</fpage>
+                  <lpage>721</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morley</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ethical guidelines for COVID-19 tracing apps</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>582</volume>
+                  <fpage>29</fpage>
+                  <lpage>31</lpage>
+                  <pub-id pub-id-type="doi">10.1038/d41586-020-01578-0</pub-id>
+                  <pub-id pub-id-type="pmid">32467596</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>He</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Temporal dynamics in viral shedding and transmissibility of COVID-19</article-title>
+                  <source>Nat. Med.</source>
+                  <year>2020</year>
+                  <volume>26</volume>
+                  <fpage>672</fpage>
+                  <lpage>675</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41591-020-0869-5</pub-id>
+                  <pub-id pub-id-type="pmid">32296168</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lipsitch</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transmission dynamics and control of severe acute respiratory syndrome</article-title>
+                  <source>Science</source>
+                  <year>2003</year>
+                  <volume>300</volume>
+                  <fpage>1966</fpage>
+                  <lpage>1970</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1086616</pub-id>
+                  <pub-id pub-id-type="pmid">12766207</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rhodes</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contact rate calculation for a basic epidemic model</article-title>
+                  <source>Math. Biosci.</source>
+                  <year>2008</year>
+                  <volume>216</volume>
+                  <fpage>56</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.mbs.2008.08.007</pub-id>
+                  <pub-id pub-id-type="pmid">18783724</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">WHO. <italic>Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (Covid-19)</italic> (2020). available at: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Bi, Q. et al. Epidemiology and transmission of COVID-19 in Shenzhen China: analysis of 391 cases and 1,286 of their close contacts. <italic>MedRxiv</italic>, 10.1101/2020.03.03.20028423 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lavezzo</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Suppression of COVID-19 outbreak in the municipality of Vo, Italy</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>584</volume>
+                  <fpage>425</fpage>
+                  <lpage>429</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2488-1</pub-id>
+                  <pub-id pub-id-type="pmid">32604404</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Estimation of incubation period distribution of COVID-19 using disease onset forward time: a novel cross-sectional and forward follow-up study</article-title>
+                  <source>Sci. Adv.</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <fpage>eabc1202</fpage>
+                  <pub-id pub-id-type="doi">10.1126/sciadv.abc1202</pub-id>
+                  <pub-id pub-id-type="pmid">32851189</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Widgren</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SimInf: an R package for data-driven stochastic disease spread simulations</article-title>
+                  <source>J. Stat. Softw.</source>
+                  <year>2019</year>
+                  <volume>91</volume>
+                  <fpage>1</fpage>
+                  <lpage>42</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v091.i12</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rocklöv</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Sjödin</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilder-Smith</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 outbreak on the Diamond Princess cruise ship: estimating the epidemic potential and effectiveness of public health countermeasures</article-title>
+                  <source>J. Travel Med.</source>
+                  <year>2020</year>
+                  <volume>27</volume>
+                  <fpage>taaa030</fpage>
+                  <pub-id pub-id-type="doi">10.1093/jtm/taaa030</pub-id>
+                  <pub-id pub-id-type="pmid">32109273</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peak</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Childs</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Grad</surname>
+                      <given-names>YH</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckee</surname>
+                      <given-names>CO</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparing nonpharmaceutical interventions for containing emerging epidemics</article-title>
+                  <source>Proceedings of the National Academy of Sciences</source>
+                  <year>2017</year>
+                  <volume>114</volume>
+                  <fpage>4023</fpage>
+                  <lpage>4028</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1616438114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ling</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Persistence and clearance of viral RNA in 2019 novel coronavirus disease rehabilitation patients</article-title>
+                  <source>Chin. Med. J.</source>
+                  <year>2020</year>
+                  <volume>133</volume>
+                  <fpage>1039</fpage>
+                  <lpage>1043</lpage>
+                  <pub-id pub-id-type="doi">10.1097/CM9.0000000000000774</pub-id>
+                  <pub-id pub-id-type="pmid">32118639</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lauer</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application</article-title>
+                  <source>Ann. Intern. Med.</source>
+                  <year>2020</year>
+                  <volume>172</volume>
+                  <fpage>577</fpage>
+                  <lpage>582</lpage>
+                  <pub-id pub-id-type="doi">10.7326/M20-0504</pub-id>
+                  <pub-id pub-id-type="pmid">32150748</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wells</surname>
+                      <given-names>WF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ON AIR-BORNE INFECTION: STUDY II. DROPLETS AND DROPLET NUCLEI</article-title>
+                  <source>Am. J. Epidemiol.</source>
+                  <year>1934</year>
+                  <volume>20</volume>
+                  <fpage>611</fpage>
+                  <lpage>618</lpage>
+                  <pub-id pub-id-type="doi">10.1093/oxfordjournals.aje.a118097</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

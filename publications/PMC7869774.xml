@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:58:12Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7869774" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7869774</identifier>
+        <datestamp>2021-02-09</datestamp>
+        <setSpec>bmcmidm</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Med Inform Decis Mak</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Med Inform Decis Mak</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Medical Informatics and Decision Making</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1472-6947</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7869774</article-id>
+              <article-id pub-id-type="pmcid">PMC7869774</article-id>
+              <article-id pub-id-type="pmc-uid">7869774</article-id>
+              <article-id pub-id-type="pmid">33557818</article-id>
+              <article-id pub-id-type="publisher-id">1359</article-id>
+              <article-id pub-id-type="doi">10.1186/s12911-020-01359-9</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Technical Advance</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Predicting COVID-19 disease progression and patient outcomes based on temporal deep learning</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sun</surname>
+                    <given-names>Chenxi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hong</surname>
+                    <given-names>Shenda</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Song</surname>
+                    <given-names>Moxian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Hongyan</given-names>
+                  </name>
+                  <address>
+                    <email>leehy@pku.edu.cn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1717-5790</contrib-id>
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Zhenjie</given-names>
+                  </name>
+                  <address>
+                    <email>zhenjie.wang@pku.edu.cn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.11135.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2256 9319</institution-id><institution>School of Electronics Engineering and Computer Science, </institution><institution>Peking University, </institution></institution-wrap>Beijing, People’s Republic of China </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.11135.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2256 9319</institution-id><institution>Key Laboratory of Machine Perception (Ministry of Education), </institution><institution>Peking University, </institution></institution-wrap>Beijing, People’s Republic of China </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.11135.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2256 9319</institution-id><institution>National Institute of Health Data Science, </institution><institution>Peking University, </institution></institution-wrap>Beijing, People’s Republic of China </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.11135.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2256 9319</institution-id><institution>Institute of Medical Technology, Health Science Center of Peking University, </institution></institution-wrap>Beijing, People’s Republic of China </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.11135.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2256 9319</institution-id><institution>Institute of Population Research, </institution><institution>Peking University, </institution></institution-wrap>No.5 Yiheyuan Road, Beijing, 100871 People’s Republic of China </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>8</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <elocation-id>45</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>17</day>
+                  <month>7</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2020</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">The coronavirus disease 2019 (COVID-19) pandemic has caused health concerns worldwide since December 2019. From the beginning of infection, patients will progress through different symptom stages, such as fever, dyspnea or even death. Identifying disease progression and predicting patient outcome at an early stage helps target treatment and resource allocation. However, there is no clear COVID-19 stage definition, and few studies have addressed characterizing COVID-19 progression, making the need for this study evident.
+</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">We proposed a temporal deep learning method, based on a time-aware long short-term memory (T-LSTM) neural network and used an online open dataset, including blood samples of 485 patients from Wuhan,
+China, to train the model. Our method can grasp the dynamic relations in irregularly sampled time series, which is ignored by existing works. Specifically, our method predicted the outcome of COVID-19 patients by considering both the biomarkers and the irregular time intervals. Then, we used the patient representations, extracted from T-LSTM units, to subtype the patient stages and describe the disease progression of COVID-19.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">Using our method, the accuracy of the outcome of prediction results was more than 90% at 12 days and 98, 95 and 93% at 3, 6, and 9 days, respectively. Most importantly, we found 4 stages of COVID-19 progression with different patient statuses and mortality risks. We ranked 40 biomarkers related to disease and gave the reference values of them for each stage. Top 5 is Lymph, LDH, hs-CRP, Indirect Bilirubin, Creatinine. Besides, we have found 3 complications - myocardial injury, liver function injury and renal function injury. Predicting which of the 4 stages the patient is currently in can help doctors better assess and cure the patient.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">To combat the COVID-19 epidemic, this paper aims to help clinicians better assess and treat infected patients, provide relevant researchers with potential disease progression patterns, and enable more effective use of medical resources. Our method predicted patient outcomes with high accuracy and identified a four-stage disease progression. We hope that the obtained results and patterns will aid in fighting the disease.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>COVID-19</kwd>
+                <kwd>Disease progression</kwd>
+                <kwd>Outcome early prediction</kwd>
+                <kwd>Irregularly sampled time series</kwd>
+                <kwd>Time-aware long short-term memory</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Scientific Research Foundation for the Returned Overseas Chinese Scholars, State Education Ministry and UKRI’s Global Challenge Research Fund</institution>
+                  </funding-source>
+                  <award-id>ES/P011055/1</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Zhenjie</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>National Key Research and Development Program of China</institution>
+                  </funding-source>
+                  <award-id>2020YFB2103402</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par33">Coronavirus disease 2019 (COVID-19) outbreaks have caused health concerns worldwide since December 2019;
+the disease was declared a pandemic by the World Health Organization (WHO) on 11 March 2020 [<xref ref-type="bibr" rid="CR1">1</xref>]. Over seven million cases of COVID-19 have been reported worldwide, including more than 400,000 deaths (as of 15 June 2020) [<xref ref-type="bibr" rid="CR2">2</xref>]. Even though the disease has been controlled in certain countries, the WHO director warns the pandemic is still ‘Speeding Up’ [<xref ref-type="bibr" rid="CR3">3</xref>]. Because of its sudden onset, many hospitals are still facing medical resource shortages. For example, news in [<xref ref-type="bibr" rid="CR4">4</xref>] reported a lack of medical resources in New Delhi. In [<xref ref-type="bibr" rid="CR5">5</xref>], Arizona has experienced record-high hospital capacity as coronavirus cases climb. A reasonable allocation of resources according to patient condition is needed.</p>
+              <p id="Par34">The solution to this problem involves determining the stages of disease progression by subtyping and predicting the outcome of COVID-19 patients. Then, targeted treatment and medical resource allocation can be carried out for patients in different stages. Recent studies [<xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR11">11</xref>] have used statistical methods to analyze COVID-19 progress by inpatient symptoms. However, different statistical results were obtained by considering different patient groups and different symptoms. At present, there is no clear division of the stages of COVID-19 progression.</p>
+              <p id="Par35">Longitudinal disease analysis is the key to understanding disease progression, designing prognoses and developing early diagnostic tools. The time dynamics of disease can provide more information than static symptom observation [<xref ref-type="bibr" rid="CR12">12</xref>]. Considering the complex patient states, the amount of interventions and the real-time requirement, the data-driven machine learning approaches by learning from electronic health records are the desiderata to help clinicians [<xref ref-type="bibr" rid="CR13">13</xref>].</p>
+              <p id="Par36">Many existing works have used machine learning methods for COVID-19 prediction tasks. We have summarized them in Table <xref rid="Tab1" ref-type="table">1</xref>. For example, in most method of [<xref ref-type="bibr" rid="CR27">27</xref>] and in [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR19">19</xref>], authors used non-deep learning methods, such as k-NN, LR, Cox, SVM and DT to classify CT/X-ray images and predict the outcomes of COVID-19 patients. However, in terms of prediction accuracy, non-deep learning is not as good as deep learning methods. Deep learning methods can train the parameters with complex nonlinearity to learn the data structures and have achieved state-of-the-art in many medical prediction tasks [<xref ref-type="bibr" rid="CR28">28</xref>–<xref ref-type="bibr" rid="CR30">30</xref>]. Thus, many current works apply deep learning methods for COVID-19 prediction tasks [<xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR19">19</xref>–<xref ref-type="bibr" rid="CR26">26</xref>]. However, these methods either use the simple multi-layer perceptron for predicting or use the convolutional structures for image classification. Both the above methods ignored the temporal development of patient’s status. In the real-world patient records, except for the basic information, vital signs, test values and diagnoses are both time series, especially for the blood samples of COVID-19 patients, the data we used in this paper.
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>The conclusion of machine learning methods used in COVID-19 prediction tasks</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="4">Non-deep learning methods</th><th colspan="3">Deep learning methods</th></tr><tr><th>Statistics</th><th>Regression</th><th>SVM</th><th>Decision tree</th><th>Basic NN</th><th>CNNs</th><th>RNNs</th></tr></thead><tbody><tr><td><p>LDA [<xref ref-type="bibr" rid="CR14">14</xref>]</p><p>NB [<xref ref-type="bibr" rid="CR15">15</xref>]</p><p>k-NN [<xref ref-type="bibr" rid="CR16">16</xref>]</p></td><td><p>LR [<xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR18">18</xref>]</p><p>Cox [<xref ref-type="bibr" rid="CR19">19</xref>]</p></td><td>[<xref ref-type="bibr" rid="CR17">17</xref>]</td><td><p>RF [<xref ref-type="bibr" rid="CR17">17</xref>]</p><p>XGBoost [<xref ref-type="bibr" rid="CR1">1</xref>]</p></td><td><p>BPNN [<xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR20">20</xref>],</p><p>GRNN [<xref ref-type="bibr" rid="CR21">21</xref>],</p><p>RBFNN [<xref ref-type="bibr" rid="CR21">21</xref>],</p><p>PNN [<xref ref-type="bibr" rid="CR21">21</xref>]</p></td><td><p>Basic CNN [<xref ref-type="bibr" rid="CR22">22</xref>],</p><p>Transfer CNN [<xref ref-type="bibr" rid="CR23">23</xref>],</p><p>GDCNN [<xref ref-type="bibr" rid="CR24">24</xref>],</p><p>COVID-Net [<xref ref-type="bibr" rid="CR25">25</xref>],</p><p>COVNet [<xref ref-type="bibr" rid="CR26">26</xref>]</p></td><td>/</td></tr></tbody></table><table-wrap-foot><p>We use the abbreviations of methods and the full names are listed in Table <xref rid="Tab1" ref-type="table">1</xref></p></table-wrap-foot></table-wrap></p>
+              <p id="Par37">Recently, a deep learning method, recurrent neural network (RNN) [<xref ref-type="bibr" rid="CR31">31</xref>] can efficiently model temporal sequences. It uses recursion in the direction of sequence evolution to learning the relations among past, present and future. But the basic RNN has the long-term dependency problems [<xref ref-type="bibr" rid="CR32">32</xref>]. Meanwhile, RNN only process uniformly distributed longitudinal data while COVID-19 patient blood samples are distributed nonuniformly with irregular time intervals between observations. Thus, a method that can model this irregular time series of COVID-19 patients is needed.</p>
+              <p id="Par38">In this paper, we retrospectively analyzed the blood samples of 485 patients from the region of Wuhan, China. The medical records collected with standard case report forms, including epidemiological, demographic, clinical, laboratory and mortality outcome information, from an online open dataset under an MIT license. We applied a temporal deep learning method Time-aware Long Short-term Unit (T-LSTM) to model the irregular time series of COVID-19 patients. T-LSTM can predict the mortality with more than 98% accuracy before 3 days. Meanwhile, we have discovered four stages of COVID-19 patients. According to the different stages, we gave the analysis of the patient’s state and found the related biomarkers and complications.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <p id="Par39">In this section, we first introduce the COVID-19 dataset and the data preprocessing process. Then, we describe the methods for mortality prediction and disease progression in detail.</p>
+              <sec id="Sec3">
+                <title>Dataset description</title>
+                <p id="Par40">Blood index values can reflect a COVID-19 patient’s physical condition [<xref ref-type="bibr" rid="CR10">10</xref>]. COVID-19 patients’ blood samples were collected between 10 January and 18 February 2020 at Tongji Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China [<xref ref-type="bibr" rid="CR33">33</xref>]. The dataset contains 80 characteristics from 375 patients with 6120 records as a training set and 110 patients with 757 records as a test set. A case of sample is shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. It draws lines of the time series of LHD, lymph and hs-CRP of a 70-year-old female patient during hospitalization. We can see the time intervals between two observations are irregular, which could be a few minutes or even days.<fig id="Fig1"><label>Fig. 1</label><caption><p>Examples and statistics of COVID-19 dataset. The first block is a line chart of an example in dataset - a 70-year-old female patient. It draws the time series of LHD, lymph and hs-CRP during hospitalization; The second block is the distributions of age, gender, LHD, lymph and hs-CRP of survival class (0) and death class (1); The third block is the statistics about dataset. It contains the counts of time series length, the statistics of overall missing rate and the statistics of each feature’s missing rate under different sampling rate</p></caption><graphic xlink:href="12911_2020_1359_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par41">The detailed statistical information of demographic and 74 clinical laboratory test features is listed Table <xref rid="Tab2" ref-type="table">2</xref>. For example, in the dataset, the average age of patients is 58.83, the survival rate is 53.6% and the ratio of male to female is about 1.5:1. We also list the range and mean value of each feature. In Fig. <xref rid="Fig1" ref-type="fig">1</xref>, we display the distributions of some features (age, gender, LHD, lymph and hs-CRP) of survival class (0) and death class (1).<table-wrap id="Tab2"><label>Table 2</label><caption><p>Demographic, laboratory and outcome information of 375 samples in training dataset</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Characteristics<sup>a</sup></th><th>Statistics<sup>b</sup></th><th>Characteristics<sup>a</sup></th><th>Statistics<sup>b</sup></th></tr></thead><tbody><tr><td>Demographics</td><td/><td>Outcomes</td><td/></tr><tr><td>Age, mean (years)</td><td>58.83</td><td>Survival, count and rate</td><td>201, 53.6%</td></tr><tr><td>Gender</td><td>Male 224; Female 151</td><td>Mortality, count and rate</td><td>174, 46.4%</td></tr><tr><td colspan="4">Lab test mean (min, max) patient’s last measurements</td></tr><tr><td> cTnI</td><td>747.76 (1.9, 43,905.19)</td><td>glucose</td><td>8.37 (2.43, 32.37)</td></tr><tr><td> Hemoglobin</td><td>124.89 (6.4, 178.0)</td><td>neutrophils count</td><td>7.03 (0.85, 31.43)</td></tr><tr><td> Serum chloride</td><td>102.73 (77.7, 138.2)</td><td>Direct bilirubin</td><td>9.5 (1.7, 216.3)</td></tr><tr><td> Prothrombin time</td><td>16.01 (11.69, 84.22)</td><td>Mean platelet volume</td><td>10.89 (9.04, 14.0)</td></tr><tr><td> procalcitonin</td><td>0.99 (0.02, 49.34)</td><td>ferritin</td><td>1634.37 (26.8, 42,402.91)</td></tr><tr><td> Eosinophils(%)</td><td>0.56 (0.0, 5.61)</td><td>RBCW-SD</td><td>41.78 (32.5, 83.3)</td></tr><tr><td> sIL-2R</td><td>961.52 (61.0, 5608.04)</td><td>Thrombin time</td><td>18.17 (13.0, 133.67)</td></tr><tr><td> Alkaline phosphatase</td><td>84.86 (37.18, 481.5)</td><td>Lymphocyte(%)</td><td>16.45 (0.6, 54.83)</td></tr><tr><td> albumin</td><td>33.06 (19.1, 45.07)</td><td>Anti-HCV</td><td>0.13 (0.03, 1.85)</td></tr><tr><td> basophil(%)</td><td>0.21 (0.0, 1.38)</td><td>D-D dimer</td><td>6.2 (0.21, 29.82)</td></tr><tr><td> Interleukin 10</td><td>12.5 (5.0, 500.0)</td><td>Total cholesterol</td><td>3.66 (0.66, 6.11)</td></tr><tr><td> Total bilirubin</td><td>16.28 (2.95, 276.0)</td><td>AST</td><td>56.53 (8.0, 1858.0)</td></tr><tr><td> Platelet count</td><td>187.78 (1.2, 472.5)</td><td>Uric acid</td><td>297.47 (57.0, 1001.0)</td></tr><tr><td> monocytes(%)</td><td>6.66 (0.62, 31.62)</td><td>HCO3-</td><td>22.59 (6.3, 29.7)</td></tr><tr><td> antithrombin</td><td>87.57 (20.0, 136.0)</td><td>calcium</td><td>2.1 (1.35, 2.5)</td></tr><tr><td> Interleukin 8</td><td>88.08 (5.0, 6385.85)</td><td>NT-proBNP</td><td>3166.26 (5.57, 70,000.0)</td></tr><tr><td> indirect bilirubin</td><td>6.85 (1.0, 79.3)</td><td>LDH</td><td>492.12 (143.0, 1867.0)</td></tr><tr><td> RDW</td><td>12.94 (10.91, 22.91)</td><td>platelet large cell ratio</td><td>31.63 (16.48, 54.1)</td></tr><tr><td> Neutrophils(%)</td><td>76.09 (15.9, 98.1)</td><td>Interleukin 6</td><td>130.37 (1.5, 5000.0)</td></tr><tr><td> Total protein</td><td>66.06 (36.7, 79.33)</td><td>FDP</td><td>44.29 (4.0, 182.4)</td></tr><tr><td> Anti-TP</td><td>0.17 (0.02, 8.74)</td><td>monocytes count</td><td>0.54 (0.08, 22.75)</td></tr><tr><td> Prothrombin activity</td><td>80.97 (16.3, 136.64)</td><td>PLT distribution width</td><td>12.97 (8.42, 25.3)</td></tr><tr><td> HBsAg</td><td>10.35 (0.0, 250.0)</td><td>globulin</td><td>32.96 (13.8, 46.04)</td></tr><tr><td> mean corpuscular volume</td><td>89.75 (62.3, 110.73)</td><td>γ-GT</td><td>51.79 (10.6, 555.25)</td></tr><tr><td> hematocrit</td><td>37.0 (19.9, 51.3)</td><td>INR</td><td>1.3 (0.86, 10.51)</td></tr><tr><td> WBC</td><td>15.18 (0.8, 1726.6)</td><td>basophil count(#)</td><td>0.02 (0.0, 0.12)</td></tr><tr><td> Tumor necrosis factorα</td><td>12.07 (4.0, 168.0)</td><td>2019-nCoV nucleic acid</td><td>−1.0 (−1.0, −1.0)</td></tr><tr><td> MCHC</td><td>344.17 (286.0, 464.33)</td><td>MCH</td><td>30.9 (20.8, 
+47.67)</td></tr><tr><td> fibrinogen</td><td>4.38 (0.5, 8.89)</td><td>APTT</td><td>41.72 (25.59, 100.27)</td></tr><tr><td> Interleukin 1β</td><td>6.56 (5.0, 79.44)</td><td>hs-CRP</td><td>72.49 (0.2, 320.0)</td></tr><tr><td> Urea</td><td>9.74 (2.17, 68.4)</td><td>anti-HIV</td><td>0.1 (0.05, 0.26)</td></tr><tr><td> lymphocyte count</td><td>1.06 (0.13, 35.53)</td><td>serum sodium</td><td>141.06 (122.8, 171.4)</td></tr><tr><td> PH value</td><td>6.47 (5.0, 7.54)</td><td>thrombocytocrit</td><td>0.21 (0.05, 0.49)</td></tr><tr><td> Red blood cell count</td><td>7.58 (0.1, 749.5)</td><td>ESR</td><td>32.33 (2.0, 102.0)</td></tr><tr><td> Eosinophil count</td><td>0.03 (0.0, 0.33)</td><td>GPT</td><td>42.6 (5.0, 1508.0)</td></tr><tr><td> Corrected calcium</td><td>2.34 (1.78, 2.67)</td><td>eGFR</td><td>81.07 (2.0, 164.7)</td></tr><tr><td> Serum potassium</td><td>4.45 (3.1, 9.86)</td><td>creatinine</td><td>120.38 (39.25, 1497.0)</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>Characteristics have three types - demographics (age and gender), outcomes (survival and mortality) and laboratory test (74 items)</p><p><sup>b</sup> Statistics is statistical data for corresponding characteristics, such as rate, mean value and range. The statistical methods are described in each column</p></table-wrap-foot></table-wrap></p>
+                <p id="Par42">This COVID-19 blood test data is publicly available at <ext-link ext-link-type="uri" xlink:href="https://github.com/HAIRLAB/Pre_Surv_COVID_19">https://github.com/HAIRLAB/Pre_Surv_COVID_19</ext-link>.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Dataset preprocessing</title>
+                <p id="Par43">First, we attempted to find a suitable time measurement granularity. In the raw dataset, the lengths of sequences are unequal and different sampling times result in missing data, with an 85% missing rate on average. The missing rate is expressed in Eq. <xref rid="Equ1" ref-type="">1</xref>. <italic>N</italic><sub><italic>missing</italic></sub> means the number of time points with missing data in one time series. <italic>N</italic><sub><italic>all</italic></sub> means the number of time points in that time series. The presence of vacancies has a large impact on data quality, resulting in unstable predictions and other unpredictable effects [<xref ref-type="bibr" rid="CR34">34</xref>]. We used 3 days as the basic sampling interval, reducing the average <italic>mr</italic> below 30%. The time series length of raw data, the average missing rate and the missing rate for each feature are shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>.
+<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$mr=\frac{N_{missing}}{N_{all}}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:mi>m</mml:mi><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi mathvariant="italic">missing</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi mathvariant="italic">all</mml:mi></mml:mrow></mml:msub></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par44">Meanwhile, for feature selection, using all 74 laboratory test features is unrealistic. To address the high missing rate, repeated features and collection difficulties, we considered three key features: lactic dehydrogenase (LDH), lymphocytes (lymph) and high-sensitivity C-reactive protein (hs-CRP). These features contain specific research biomarkers of COVID-19 patients [<xref ref-type="bibr" rid="CR33">33</xref>] and can be easily collected in any hospital. Considering that only three features may not achieve high prediction accuracy, we also select 40 features (listed in Table <xref rid="Tab7" ref-type="table">7</xref>) with missing rate less than 30% for comparative experiment.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>T-LSTM</title>
+                <p id="Par45">Recurrent neural networks (RNNs) [<xref ref-type="bibr" rid="CR31">31</xref>] (the first structure in Fig. <xref rid="Fig2" ref-type="fig">2</xref>) are deep network architectures designed to model temporal sequences. They take sequence data as input, recursion occurs in the direction of sequence evolution, and all units are chained together. In basic RNN (the second structure in Fig. <xref rid="Fig2" ref-type="fig">2</xref>), the current state <italic>h</italic><sub><italic>t</italic></sub> is affected by the previous state <italic>h</italic><sub><italic>t</italic> − 1</sub> and the current input <italic>x</italic><sub><italic>t</italic></sub> and is described as <italic>h</italic><sub><italic>t</italic></sub> = <italic>σ</italic>(<italic>Wx</italic><sub><italic>t</italic></sub> + <italic>Uh</italic><sub><italic>t</italic> − 1</sub> + <italic>b</italic>), where <italic>σ</italic> is an activation function, and <italic>W</italic>, <italic>U</italic> and <italic>b</italic> are learnable parameters. Long Short-Term Memory (LSTM) [<xref ref-type="bibr" rid="CR32">32</xref>] (the third structure in Fig. <xref rid="Fig2" ref-type="fig">2</xref>) is a variant of RNN that is adept at solving long-term dependency problems. A standard LSTM unit consists of a forget gate <italic>f</italic><sub><italic>t</italic></sub>, an input gate <italic>i</italic><sub><italic>t</italic></sub>, memory cells <italic>C</italic><sub><italic>t</italic></sub>, <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\overset{\sim }{C_t}$$\end{document}</tex-math><mml:math id="M4"><mml:mover><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo>∼</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq1.gif"/></alternatives></inline-formula> and an output gate <italic>o</italic><sub><italic>t</italic></sub>.<fig id="Fig2"><label>Fig. 2</label><caption><p>Structures of the methods. The first block shows the structure of RNNs, including basic RNN, LSTM and our T-LSTM; The second block shows the structure that how to use T-LSTM to complete the outcome prediction task (lower grey area) and disease progressing task (upper grey area)</p></caption><graphic xlink:href="12911_2020_1359_Fig2_HTML" id="MO2"/></fig></p>
+                <p id="Par46">However, RNNs only process uniformly distributed longitudinal data by assuming that the sequences have an equal distribution of time differences. COVID-19 patient blood samples are distributed nonuniformly. For example, the time gap between two sequential records could be hours or days. Time-aware Long Short-Term Memory (T-LSTM) [<xref ref-type="bibr" rid="CR35">35</xref>] (the fourth structure in Fig. <xref rid="Fig2" ref-type="fig">2</xref>) incorporates the elapsed time information into LSTM. It applies a memory discount to capture the irregular temporal dynamics. T-LSTM can be formulated as:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}l} {C_{{t - 1}}^{S} = \tanh \left( {W_{d} C_{{t - 1}} + b_{d} } \right)} \hfill &amp; {{\text{Short-term}}\;{\text{memory}}} \hfill \\ {\hat{C}_{{t - 1}}^{S} = C_{{t - 1}}^{S} * g\left( {\Delta _{t} } \right)} \hfill &amp; {{\text{Discounted}}\;{\text{short-term}}\;{\text{memory}}} \hfill \\ {C_{{t - 1}}^{T} = C_{{t - 1}} - C_{{t - 1}}^{S} } \hfill &amp; {{\text{Long-term}}\;{\text{memory}}} \hfill \\ {C_{{t - 1}}^{ * } = C_{{t - 1}}^{T} - \hat{C}_{{t - 1}}^{S} } \hfill &amp; {{\text{Adjusted}}\;{\text{previous}}\;{\text{memory}}} \hfill \\ {f_{t} = \sigma \left( {W_{f} x_{t} + U_{f} h_{{t - 1}} + b_{f} } \right)} \hfill &amp; {{\text{Forget}}\;gate} \hfill \\ {i_{t} = \sigma \left( {W_{i} x_{t} + U_{i} h_{{t - 1}} + b_{i} } \right)} \hfill &amp; {{\text{Input}}\;{\text{gate}}} \hfill \\ {\mathop {C_{t} }\limits^{\sim } = \tanh \left( {W_{c} x_{t} + U_{c} h_{{t - 1}} + b_{o} } \right)} \hfill &amp; {{\text{Candidate}}\;{\text{memory}}} \hfill \\ {C_{t} = f_{t} * C_{{t - 1}}^{ * } + i_{t} * \mathop {C_{t} }\limits^{\sim } } \hfill &amp; {{\text{Current}}\;{\text{memory}}} \hfill \\ {o_{t} = \sigma \left( {W_{o} x_{t} + U_{o} h_{{t - 1}} + b_{o} } \right)} \hfill &amp; {{\text{Output}}\;{\text{gate}}} \hfill \\ {h_{t} = o_{t} * \tanh \left( {C_{t} } \right)} \hfill &amp; {{\text{Current}}\;{\text{hidden}}\;{\text{state}}} \hfill \\ \end{array}$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>S</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mo>tanh</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>d</mml:mi></mml:msub><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Short-term</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>memory</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msubsup><mml:mover accent="true"><mml:mi>C</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>S</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>S</mml:mi></mml:msubsup><mml:mrow/><mml:mo>∗</mml:mo><mml:mi>g</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Discounted</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>short-term</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>memory</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>S</mml:mi></mml:msubsup></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Long-term</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>memory</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mrow><mml:mrow/><mml:mo>∗</mml:mo></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>-</mml:mo><mml:msubsup><mml:mover accent="true"><mml:mi>C</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>S</mml:mi></mml:msubsup></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Adjusted</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>previous</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>memory</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>U</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>f</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Forget</mml:mtext><mml:mspace width="0.277778em"/><mml:mi>g</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msub><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>U</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Input</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>gate</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:mover><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo>∼</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mo>tanh</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>U</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>o</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Candidate</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>memory</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mrow/><mml:mo>∗</mml:mo><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mrow><mml:mrow/><mml:mo>∗</mml:mo></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msub><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mrow/><mml:mo>∗</mml:mo><mml:mover><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo>∼</mml:mo></mml:mover></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Current</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>memory</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>U</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>o</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Output</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>gate</mml:mtext></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mrow/><mml:mo>∗</mml:mo><mml:mo>tanh</mml:mo><mml:mfenced close=")" open="("><mml:msub><mml:mi>C</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mtext>Current</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>hidden</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>state</mml:mtext></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par47">In Eq. <xref rid="Equ2" ref-type="">2</xref>, based on the basic LSTM, T-LSTM possesses some new designs. <inline-formula id="IEq2"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${C}_{t-1}^S$$\end{document}</tex-math><mml:math id="M8"><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>S</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq2.gif"/></alternatives></inline-formula> component learns the short-term memory of sequence by learnable network parameters. <inline-formula id="IEq3"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${C}_{t-1}^T$$\end{document}</tex-math><mml:math id="M10"><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq3.gif"/></alternatives></inline-formula> is the long-term memory calculated from the former memory cell <italic>C</italic><sub><italic>t</italic> − 1</sub> with getting rid of <inline-formula id="IEq4"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${C}_{t-1}^S$$\end{document}</tex-math><mml:math id="M12"><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>S</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq4.gif"/></alternatives></inline-formula>. <inline-formula id="IEq5"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${C}_{t-1}^S$$\end{document}</tex-math><mml:math id="M14"><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>S</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq5.gif"/></alternatives></inline-formula> is adjusted to the discounted short-term memory <inline-formula id="IEq6"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{C}}_{t-1}^S$$\end{document}</tex-math><mml:math id="M16"><mml:msubsup><mml:mover accent="true"><mml:mi>C</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>S</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq6.gif"/></alternatives></inline-formula> by the elapsed time function <italic>g</italic>(Δ<sub><italic>t</italic></sub>). The previous memory <inline-formula id="IEq7"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${C}_{t-1}^{\ast }$$\end{document}</tex-math><mml:math id="M18"><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mo>*</mml:mo></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq7.gif"/></alternatives></inline-formula> is changed to the complement subspace of <inline-formula id="IEq8"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${C}_{t-1}^T$$\end{document}</tex-math><mml:math id="M20"><mml:msubsup><mml:mi>C</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq8.gif"/></alternatives></inline-formula> combined with <inline-formula id="IEq9"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{C}}_{t-1}^S$$\end{document}</tex-math><mml:math id="M22"><mml:msubsup><mml:mover accent="true"><mml:mi>C</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>S</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq9.gif"/></alternatives></inline-formula>.</p>
+                <p id="Par48">We use a log calculation for the elapsed time function. Δ<sub><italic>t</italic></sub> describes the time gap between two records at two sequential time steps <italic>t</italic> and t − 1. <italic>T</italic><sub><italic>t</italic></sub> is the actual time at time step <italic>t</italic>.<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$g\left( {\Delta _{t} } \right) = \frac{1}{{\log \left( {e + \Delta _{t} } \right)}}, \quad\Delta _{t} = T_{t} - T_{{t - 1}}$$\end{document}</tex-math><mml:math id="M24" display="block"><mml:mrow><mml:mi>g</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>e</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mspace width="1em"/><mml:msub><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Analysis strategy</title>
+                <p id="Par49">We first describe the two tasks in this study and then introduce the specific methods. The whole method process is shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>.<fig id="Fig3"><label>Fig. 3</label><caption><p>The results of outcome prediction. The first line’s charts are the AUC-ROC of mortality prediction results using baselines; The second line’s chart is the changes of accuracy and loss during training T-LSTM; The third line’s charts are the dimension experiments. They show the accuracy of mortality prediction by using different representation dimensions and the effect of representation dimension reduction; The fourth line’s charts are the effect when using DBSCAN</p></caption><graphic xlink:href="12911_2020_1359_Fig3_HTML" id="MO3"/></fig></p>
+                <p id="Par50"><bold><italic>Task 1 (Outcome prediction</italic></bold><italic>) A set of labeled patient data is represented as</italic><inline-formula id="IEq10"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathcal{D}=\left\{\left({x}_i,{c}_i\right)\in \left(X,C\right)|i=1,\dots, n\right\}$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mi mathvariant="script">D</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mfenced close=")" open="("><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced><mml:mo>∈</mml:mo><mml:mfenced close=")" open="("><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>C</mml:mi></mml:mfenced><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq10.gif"/></alternatives></inline-formula><italic>. X is a time series set of patients, where</italic><inline-formula id="IEq11"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${x}_i=\left\{{x}_i^t|t=1,\dots, {t}_{onset}\right\}$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msubsup><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo></mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi mathvariant="italic">onset</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq11.gif"/></alternatives></inline-formula><italic>represents a patient’s records over t time steps; specifically,</italic><inline-formula id="IEq12"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${x}_i^t$$\end{document}</tex-math><mml:math id="M30"><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq12.gif"/></alternatives></inline-formula><italic>is multivariate data, and each dimension is a clinical record represented by a numeric vector. C</italic> ∈ {0, 1} <italic>is the outcome, where class</italic> 0 <italic>means death and class</italic> 1 <italic>means survival. The outcome prediction task aims to predict patient outcomes by the prediction function f</italic> : <italic>X</italic> → <italic>C</italic></p>
+                <p id="Par51"><bold><italic>Task 2 (Temporal patient subtyping / Disease progression mining)</italic></bold><italic>The goal is to find patient groups G</italic> = {<italic>g</italic><sub><italic>i</italic></sub>| <italic>i</italic> = 0, …, <italic>m</italic>} <italic>with similar feature representation</italic>
+<inline-formula id="IEq13"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R=\left\{{r}_i^t|i=0,\dots, n;t=0,\dots, {t}_{onset}\right\}$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:msubsup><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msubsup><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo><mml:mi>n</mml:mi><mml:mo>;</mml:mo><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mo>,</mml:mo></mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi mathvariant="italic">onset</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq13.gif"/></alternatives></inline-formula>. <inline-formula id="IEq14"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${r}_i^t$$\end{document}</tex-math><mml:math id="M34"><mml:msubsup><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq14.gif"/></alternatives></inline-formula>
+<italic>is the representation of clinical record</italic>
+<inline-formula id="IEq15"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${x}_i^t$$\end{document}</tex-math><mml:math id="M36"><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq15.gif"/></alternatives></inline-formula>
+<italic>at time t. Then, the patient groups G distributed over time are used to analyze the stages of disease progression</italic></p>
+                <p id="Par52">In COVID-19 patient outcome prediction task, T-LSTM is used to handle patient record sequences and then make the prediction. The process is displayed in the proposed method of Fig. <xref rid="Fig2" ref-type="fig">2</xref>, in the lower gray area.</p>
+                <p id="Par53">For a patient <italic>i</italic>, the input of T-LSTM at time step <italic>t</italic> is a three-dimensional feature vector <inline-formula id="IEq16"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${x}_i^t=\left[{v}_{LDH},{v}_{lymphocytes},{v}_{hs- CRP},\right]$$\end{document}</tex-math><mml:math id="M38"><mml:mrow><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">LDH</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">lymphocytes</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi>h</mml:mi><mml:mi>s</mml:mi><mml:mo>-</mml:mo><mml:mi>C</mml:mi><mml:mi>R</mml:mi><mml:mi>P</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq16.gif"/></alternatives></inline-formula> with time gap Δ<sub><italic>t</italic></sub>. The output is the state representation <italic>s</italic><sub><italic>i</italic></sub> at the last time step. We apply this outcome prediction task as a binary classification task, with two classes: death and survival.</p>
+                <p id="Par54">The cross-entropy [<xref ref-type="bibr" rid="CR36">36</xref>] is mainly used to measure the difference between two probability distributions. We expect our predicted distribution of patient outcomes to be closer to the true distribution. Thus, we use the cross-entropy loss function in Eq. <xref rid="Equ4" ref-type="">4</xref>. Besides, when using sigmoid active function, this loss can avoid the reduced learning rate causing by traditional mean square error loss when gradient decreases.<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L={L}_{CE}\left(C,\hat{C}\right)=-{\sum}_xp(x) logq(x)=-{\sum}_{i=1}^n\hat{c_i}{\log}{c}_i+\left(1-\hat{c_i}\right){\log}\left(1-{c}_i\right)$$\end{document}</tex-math><mml:math id="M40" display="block"><mml:mrow><mml:mi>L</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi mathvariant="italic">CE</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mi>C</mml:mi><mml:mo>,</mml:mo><mml:mover accent="true"><mml:mi>C</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:mfenced><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msub><mml:mo>∑</mml:mo><mml:mi>x</mml:mi></mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>g</mml:mi><mml:mi>q</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mover accent="true"><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>log</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mover accent="true"><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:mfenced><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula><italic>p</italic>(<italic>x</italic>) is the prior probability (true label vector) and <italic>q</italic>(<italic>x</italic>) is the prediction probability (predicted results vector). Correspondingly, <inline-formula id="IEq17"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{C}$$\end{document}</tex-math><mml:math id="M42"><mml:mover accent="true"><mml:mi>C</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq17.gif"/></alternatives></inline-formula> is the real class of input data, and <italic>C</italic> represents the prediction class.</p>
+                <p id="Par55">In COVID-19 patient disease progression task, temporal patient subtyping can uncover the dynamic characteristics of diseases by significantly nuanced subtyping, which leads to the potential stages of disease progression. We addressed the issue by building a time stage reference and providing a low-dimensional representation of each subject, encoding his or her position with respect to this reference.</p>
+                <p id="Par56">The method structure is displayed in the upper gray area of proposed method in Fig. <xref rid="Fig2" ref-type="fig">2</xref>. It has 4 steps: 1) Acquisition of patient representation <italic>r</italic><sup><italic>t</italic></sup>. We used the hidden state <italic>h</italic><sub><italic>t</italic></sub>, extracted from every T-LSTM unit, as the patient’s representation <italic>r</italic><sup><italic>t</italic></sup> at time step <italic>t</italic>. 2) Dimension reduction of <italic>r</italic><sup><italic>t</italic></sup>. For better demonstration, we used the t-distributed Stochastic Neighbor Embedding (t-SNE) [<xref ref-type="bibr" rid="CR37">37</xref>] method to reduce these high-dimensional vectors <italic>r</italic><sup><italic>t</italic></sup> into two dimensions. 3) Obtaining the patient group set <italic>G</italic>. As prior information about the patient groups was not available, we acquired patient groups by applying an unsupervised clustering method, the Density-Based Spatial Clustering of Applications with Noise (DBSCAN) [<xref ref-type="bibr" rid="CR38">38</xref>], on <italic>r</italic><sup><italic>t</italic></sup>. 4) Analysis of <italic>G</italic> and stages of disease progression. The mortality rate <italic>MR</italic>, and the average time distance <italic>TD</italic> were calculated as the analysis criteria.<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$MR=\frac{N_{death}}{N_{patient}}$$\end{document}</tex-math><mml:math id="M44" display="block"><mml:mrow><mml:mi>M</mml:mi><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi mathvariant="italic">death</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi mathvariant="italic">patient</mml:mi></mml:mrow></mml:msub></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$TD=\frac{1}{\mid {g}_k\mid }{\sum}_{x_i^t\in {g}_k}\left({T}_{t_{onset}}-{T}_t\right)$$\end{document}</tex-math><mml:math id="M46" display="block"><mml:mrow><mml:mi>T</mml:mi><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mo>∣</mml:mo><mml:msub><mml:mi>g</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>∣</mml:mo></mml:mrow></mml:mfrac><mml:msub><mml:mo>∑</mml:mo><mml:mrow><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:msubsup><mml:mo>∈</mml:mo><mml:msub><mml:mi>g</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>T</mml:mi><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi mathvariant="italic">onset</mml:mi></mml:mrow></mml:msub></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>Equation <xref rid="Equ5" ref-type="">5</xref> expresses the mortality rate. <italic>N</italic><sub><italic>death</italic></sub> is the number of patients with the death outcome and <italic>N</italic><sub><italic>patient</italic></sub> is the total number of patients. Eq. <xref rid="Equ6" ref-type="">6</xref> expresses the average time distance. <italic>T</italic><sub><italic>t</italic></sub> means the current prediction time and <inline-formula id="IEq18"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${T}_{t_{onset}}$$\end{document}</tex-math><mml:math id="M48"><mml:msub><mml:mi>T</mml:mi><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi mathvariant="italic">onset</mml:mi></mml:mrow></mml:msub></mml:msub></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq18.gif"/></alternatives></inline-formula> means the time of outcome. ∣<italic>g</italic><sub><italic>k</italic></sub>∣ is the number of patients in group <italic>g</italic><sub><italic>k</italic></sub>.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Evaluation metrics</title>
+                <p id="Par57">The prediction results were evaluated by assessing the area under the curve of the Receiver Operating Characteristic (AUC-ROC). The ROC is a curve of the True Positive Rate (TPR) and the False Positive Rate (FPR). TN, TP, FP and FN represent true positives, true negatives, false positives and false negatives, respectively.<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$TPR=\frac{TP}{TP+ FN}$$\end{document}</tex-math><mml:math id="M50" display="block"><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">TP</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$FPR=\frac{FP}{TN+ FP}$$\end{document}</tex-math><mml:math id="M52" display="block"><mml:mrow><mml:mi>F</mml:mi><mml:mi>P</mml:mi><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">FP</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>N</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>P</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula>The patient groups obtained by unsupervised clustering were evaluated by the Calinski-Harabaz Index (CH), which measures the covariance of data within a class and between classes. A larger CH value indicates a better clustering performance. In Eq. <xref rid="Equ9" ref-type="">9</xref>, <italic>m</italic> is the number of data and <italic>k</italic> is the number of groups. <italic>B</italic><sub><italic>k</italic></sub> and <italic>W</italic><sub><italic>k</italic></sub> respectively represent the covariance matrices between groups and within groups.<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$CH=\frac{tr(B_k)}{tr(W_k)}\frac{m-k}{k-1}$$\end{document}</tex-math><mml:math id="M54" display="block"><mml:mrow><mml:mi>C</mml:mi><mml:mi>H</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>W</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac><mml:mfrac><mml:mrow><mml:mi>m</mml:mi><mml:mo>-</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>When we get the stages of COVID-19 patients, we used Kullback-Leibler Divergence (KL divergence) to analyze patient characteristics through each laboratory test feature. KL divergence can measure the degree of difference between two probability distributions. For each feature, we first establish the Gaussian distribution <inline-formula id="IEq19"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathcal{N}\left(\mu, {\sigma}^2\right)$$\end{document}</tex-math><mml:math id="M56"><mml:mrow><mml:mi mathvariant="script">N</mml:mi><mml:mfenced close=")" open="("><mml:mi>μ</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="12911_2020_1359_Article_IEq19.gif"/></alternatives></inline-formula> with expected value <italic>μ</italic> and variance <italic>σ</italic><sup>2</sup> at each stage. Then, we calculate the average KL divergence of the distribution of adjacent stages. If the average KL divergence of a feature is large, it more likely is a biomarker to distinguish different stages. The basic KL divergence of distribution <italic>p</italic>(<italic>X</italic>) and <italic>q</italic>(<italic>X</italic>) and the KL divergence of two univariate Gaussian distributions are in Eq. <xref rid="Equ10" ref-type="">10</xref> and <xref rid="Equ11" ref-type="">11</xref>.</p>
+                <p id="Par58"><disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$KL\Big(p(X)\mid \left|q(X)\right)=\sum_{x_i\epsilon X}p\left({x}_i\right) {\log}\frac{p\left({x}_i\right)}{q\left({x}_i\right)}$$\end{document}</tex-math><mml:math id="M58" display="block"><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi><mml:mrow><mml:mo maxsize="1.623em" minsize="1.623em" stretchy="true">(</mml:mo></mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>X</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>∣</mml:mo><mml:mfenced close=")" open="|"><mml:mi>q</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>X</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mfenced><mml:mo>=</mml:mo><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mi>ϵ</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:munder><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced><mml:mo>log</mml:mo><mml:mfrac><mml:mrow><mml:mi>p</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced></mml:mrow><mml:mrow><mml:mi>q</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$KL\left(\mathcal{N}\left({\mu}_1,{\sigma}_1^2\right)\Big\Vert \mathcal{N}\left({\mu}_2,{\sigma}_2^2\right)\right)=\log \frac{\sigma_2}{\sigma_1}+\frac{\sigma_1^2+{\left({\mu}_1-{\mu}_2\right)}^2}{2{\sigma}_2^2}-\frac{1}{2}$$\end{document}</tex-math><mml:math id="M60" display="block"><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi><mml:mfenced close=")" open="("><mml:mi mathvariant="script">N</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>μ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msubsup><mml:mi>σ</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:mfenced><mml:mrow><mml:mo maxsize="1.623em" minsize="1.623em" stretchy="true">‖</mml:mo></mml:mrow><mml:mi mathvariant="script">N</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>μ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msubsup><mml:mi>σ</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:mfenced></mml:mfenced><mml:mo>=</mml:mo><mml:mo>log</mml:mo><mml:mfrac><mml:msub><mml:mi>σ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>σ</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:msub><mml:mi>μ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:msubsup><mml:mi>σ</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula>For measure and evaluate each feature, we use the average KL divergence (Average KL) between neighbor stages <italic>g</italic><sub><italic>i</italic></sub>, <italic>g</italic><sub><italic>i</italic> + 1</sub>. <italic>m</italic> is the number of groups.<disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Average\ KL=\frac{1}{m}\sum_{i=0}^{m-1}{KL}_{g_i,{g}_{i+1}}$$\end{document}</tex-math><mml:math id="M62" display="block"><mml:mrow><mml:mi>A</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mspace width="4pt"/><mml:mi>K</mml:mi><mml:mi>L</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>m</mml:mi></mml:mfrac><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>m</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi mathvariant="italic">KL</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mi>g</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xlink:href="12911_2020_1359_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula></p>
+              </sec>
+            </sec>
+            <sec id="Sec8">
+              <title>Results</title>
+              <p id="Par59">We used the records of 375 patients as a training set; the ratio of the training set to the verification set was 0.8:0.2. The records of 110 patients made up the test set. This experiment was conducted on 5-fold cross-validation. The code implementation is publicly available at <ext-link ext-link-type="uri" xlink:href="https://github.com/scxhhh/COVID-19">https://github.com/scxhhh/COVID-19</ext-link>.</p>
+              <sec id="Sec9">
+                <title>Baselines</title>
+                <p id="Par60">We use the related works summarized in Table <xref rid="Tab1" ref-type="table">1</xref> as comparison methods. Related works are divided into non-deep learning methods and deep learning methods. We use Cox [<xref ref-type="bibr" rid="CR19">19</xref>], k-NN [<xref ref-type="bibr" rid="CR16">16</xref>], SVM [<xref ref-type="bibr" rid="CR17">17</xref>], DT [<xref ref-type="bibr" rid="CR1">1</xref>], BPNN [<xref ref-type="bibr" rid="CR20">20</xref>], PNN [<xref ref-type="bibr" rid="CR21">21</xref>], RNN, LSTM and T-LSTM for COVID-19 mortality prediction. T-LSTM is our method.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Outcome prediction results</title>
+                <p id="Par61">Table <xref rid="Tab3" ref-type="table">3</xref> shows the results of COVID-19 mortality prediction using baselines. The AUC-ROC is evaluated at 0, 3, 6, 9, 12, 15, and 18 days early. Here, the results are obtained when the patient’s representations are 64 dimensional. The results indicate that our method T-LSTM performed better than all of baselines no matter how early before the onset times of patients. More precisely, using T-LSTM, the outcome prediction accuracy is above 90% at 12 days early and is approximately 97% accurate when predicting 3 days before the disease outcome. More detailed results of train, validation and test sets using T-LSTM are listed in Table <xref rid="Tab4" ref-type="table">4</xref>.<table-wrap id="Tab3"><label>Table 3</label><caption><p>AUC-ROC of COVID-19 mortality prediction results by using baselines</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>0 days early<sup>a</sup></th><th>3 days early<sup>a</sup></th><th>6 days early</th><th>9 days early</th><th>12 days early</th></tr></thead><tbody><tr><td>Cox<sup>b</sup></td><td>0.955 ± 0.06</td><td>0.992 ± 0.02</td><td>0.870 ±0.01</td><td>0.85 ±0.01</td><td>0.810 ±0.01</td></tr><tr><td>k-NN<sup>c</sup></td><td>0.950 ± 0.02</td><td>0.909 ± 0.01</td><td>0.890 ±0.02</td><td>0.840 ±0.02</td><td>0.816 ±0.01</td></tr><tr><td>SVM<sup>d</sup></td><td>0.969 ± 0.04</td><td>0.954 ± 0.02</td><td>0.930 ± 0.03</td><td>0.895 ±0.04</td><td>0.857 ±0.02</td></tr><tr><td>DT<sup>e</sup></td><td>0.974 ±0.01</td><td>0.959 ± 0.03</td><td>0.924 ±0.00</td><td>0.897 ±0.01</td><td>0.869 ±0.03</td></tr><tr><td>BPNN<sup>f</sup></td><td>0.980 ±0.02</td><td>0.954 ±0.05</td><td>0.933 ±0.0 1</td><td>0.894 ±0.02</td><td>0.878 ±0.03</td></tr><tr><td>PNN<sup>g</sup></td><td>0.985 ±0.01</td><td>0.961 ±0.02</td><td>0.940 ±0.0 2</td><td>0.889 ±0.02</td><td>0.889 ±0.02</td></tr><tr><td>RNN<sup>h</sup></td><td>0.985 ±0.01</td><td>0.960 ±0.01</td><td>0.931 ±0.00</td><td>0.910 ±0.02</td><td>0.871 ±0.01</td></tr><tr><td>LSTM<sup>i</sup></td><td>0.990 ±0.01</td><td>0.961 ±0.02</td><td>0.937 ±0.02</td><td>0.920 ±0.03</td><td>0.897 ±0.03</td></tr><tr><td>T-LSTM<sup>j</sup></td><td><bold>0.997</bold><bold><italic>±</italic></bold><bold>0.00</bold></td><td><bold>0.969</bold><bold><italic>±</italic></bold><bold>0.01</bold></td><td><bold>0.947</bold><bold><italic>±</italic></bold><bold>0.03</bold></td><td><bold>0.921</bold><bold><italic>±</italic></bold><bold>0.03</bold></td><td><bold>0.914</bold><bold><italic>±</italic></bold><bold>0.02</bold></td></tr></tbody></table><table-wrap-foot><p><sup>a</sup> n days early: The models make prediction n days before the final death/survival time. They use sequence data from day 0 to n days before the last time to predict</p><p><sup>b</sup> Cox: Cox’s proportional hazards regression model is semi parametric regression model. It can analyze the influence of many factors on outcomes. It is used in [<xref ref-type="bibr" rid="CR19">19</xref>]</p><p><sup>c</sup> k-NN: k-Nearest Neighbors method makes prediction based on the information of nearest k samples in training set. In this mortality prediction task, the most accurate results appeared when k = 3</p><p><sup>d</sup> SVM: Support Vector Machines classify by solving the separation hyperplane which can divide the training data correctly and has the largest geometric interval</p><p><sup>e</sup> DT: Decision tree is a simple classifier consisting of sequences of hierarchically organized binary decisions. It is used in [<xref ref-type="bibr" rid="CR33">33</xref>]</p><p><sup>f</sup> BPNN: Back Propagation Neuron Network makes the signal and the error propagate forward and backward separately. It is used in [<xref ref-type="bibr" rid="CR20">20</xref>]</p><p><sup>g</sup> PNN: Probabilistic Neural Network is a forward propagation network and does not need back propagation to optimize parameters by using Bayesian decision-making. It is used in [<xref ref-type="bibr" rid="CR21">21</xref>]</p><p><sup>h</sup> RNN: Recurrent Neural Network have been introduced in the ‘T-LSTM’ section</p><p><sup>i</sup> LSTM: Long Short-Term Memory which we have introduced in the ‘T-LSTM’ section. Here, the hyperparameter setting is same as T-LSTM</p><p><sup>j</sup> T-LSTM: Time-aware LSTM is the model used in this paper. Its inputs are the three-dimensional vectors and the time intervals. The values for each dimension are the values of LDH, lymphocyte and hs-CRP in patients’ blood tests. Its output is the binary result 0/1. Here, 0 indicates survival and 1 indicates death. The hidden states in its units are 64 dimensional, and the fully connected layer has 32 dimensions</p></table-wrap-foot></table-wrap><table-wrap id="Tab4"><label>Table 4</label><caption><p>AUC-ROC of COVID-19 mortality prediction results by using T-LSTM on different sets at different timestamps</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>Training<sup>b</sup></th><th>Validation<sup>b</sup></th><th>Test<sup>b</sup></th></tr></thead><tbody><tr><td>0 days early<sup>a</sup></td><td>0.996 ± 0.01</td><td>0.997 ± 0.01</td><td>0.997 ± 0.00</td></tr><tr><td>3 days early</td><td>0.989 ± 0.00</td><td>0.987 ± 0.01</td><td>0.969 ± 0.01</td></tr><tr><td>6 days early</td><td>0.960 ±0.01</td><td>0.957 ±0.0 2</td><td>0.947 ±0.03</td></tr><tr><td>9 days early</td><td>0.944 ±0.00</td><td>0.935 ± 0.01</td><td>0.921 ±0.03</td></tr><tr><td>12 days early</td><td>0.926 ± 0.01</td><td>0.924 ±0.0 2</td><td>0.914 ±0.02</td></tr><tr><td>15 days early</td><td>0.891 ± 0.01</td><td>0.883 ± 0.01</td><td>0.863 ±0.01</td></tr><tr><td>18 days early</td><td>0.852 ± 0.01</td><td>0.834 ±0.0 2</td><td>0.819 ±0.0 2</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>n days early: The model makes a prediction n days before the final death/survival time. It uses sequence data from day 0 to n days before the last time to predict</p><p><sup>b</sup>We use the records of 375 patients as the training set; the ratio of training set to verification set is 0.8:0.2. The records of 110 patients make up the test set. This experiment is conducted on 5-fold cross-validation</p></table-wrap-foot></table-wrap></p>
+                <p id="Par62">The first four figures in Fig. <xref rid="Fig3" ref-type="fig">3</xref> are the visualizes of prediction results. The first two figures are the AUC-ROC of prediction results of baselines and T-LSTM in different earliness. The third figure is the changes of prediction accuracy and cross-entropy loss when training the model. The fourth figure represents the relation of patient representation dimension and AUC-ROC of prediction using T-LSTM. Too few dimensions lead to incomplete feature learning, while too many dimensions lead to redundant calculations and easy over-fitting. Considering result accuracy, computational complexity and ease of representation use in the following task, we decided to use 64 dimensional vectors to represent patients.</p>
+                <p id="Par63">Based on prediction results, we found: 1) Deep learning approaches (T-LSTM, RNN, PNN and BPNN) has higher COVID-19 outcome prediction accuracy than non-deep learning approaches (Cox, k-NN, SVM and DT) as they have completed the highly nonlinear feature transformation by neural junction structures. 2) RNN-based models (T-LSTM and RNN) performance better on time series data as they contain state connections for reproducing time delays and output feedback connections for forming a loop. 3) Time-aware model (T-LSTM) has the best performance as it can model the time series with irregular time intervals, which is a prominent feature of COVID-19 blood sample dataset.</p>
+                <p id="Par64">Further, we also select 40 features (listed in Table <xref rid="Tab7" ref-type="table">7</xref>) as the input of T-LSTM for comparative experiment. The results in Table <xref rid="Tab5" ref-type="table">5</xref> indicate that learning a large number of patient characteristics does not necessarily contribute to COVID-19 patient mortality prediction task. The three biomarkers, LDH, lymph and hs-CRP can make the results better. The AUC-ROC of using 3 features is 3% higher than using 40 features on average. This is because too many features will introduce redundant and irrelevant dependencies leading by redundant features.<table-wrap id="Tab5"><label>Table 5</label><caption><p>AUC-ROC of COVID-19 mortality prediction results by using T-LSTM with 40 or 3 laboratory tests<sup>b</sup></p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>0 days early<sup>a</sup></th><th>3 days early<sup>a</sup></th><th>6 days early</th><th>9 days early</th><th>12 days early</th></tr></thead><tbody><tr><td>40 features</td><td>0.949 ± 0.01</td><td>0.920 ± 0.03</td><td>0.915 ± 0.01</td><td>0.910 ± 0.01</td><td>0.903 ± 0.01</td></tr><tr><td>3 features</td><td><bold>0.997</bold><bold><italic>±</italic></bold><bold>0.00</bold></td><td><bold>0.969</bold><bold><italic>±</italic></bold><bold>0.01</bold></td><td><bold>0.947</bold><bold><italic>±</italic></bold><bold>0.03</bold></td><td><bold>0.921</bold><bold><italic>±</italic></bold><bold>0.03</bold></td><td><bold>0.914</bold><bold><italic>±</italic></bold><bold>0.02</bold></td></tr></tbody></table><table-wrap-foot><p><sup>a</sup> n days early: The model makes prediction n days before the final death/survival time. It uses sequence data from day 0 to n days before the last time to predict</p><p><sup>b</sup> The inputs of T-LSTM are time series of 48 laboratory tests or 3 laboratory tests (LDH, lymph and hs-CRP)</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec11">
+                <title>Disease progression results</title>
+                <p id="Par65">By implementing the four steps of disease progression mining, we obtained the 4 stages in both the death class (critical) and the survival class (general), shown in Fig. <xref rid="Fig4" ref-type="fig">4</xref>.<fig id="Fig4"><label>Fig. 4</label><caption><p>The result of COVID-19 progression. This figure shows the four stages of COVID-19 patients by using T-LSTM. The upper clusters are the original clustering of data. The lower are the patient subtyping by using T-LSTM. We can find there are four clusters with distinct boundaries both in death/critical class (red) and survival/general class (blue)</p></caption><graphic xlink:href="12911_2020_1359_Fig4_HTML" id="MO4"/></fig></p>
+                <p id="Par66">For better visualization, we reduced the dimension of the patient’s representation vector, the fifth figure in Fig. <xref rid="Fig3" ref-type="fig">3</xref> is the dimension reduction effect. We chose 2 dimensions due to low representation loss and clear observation. Besides, the DBSCAN clustering effect evaluated by the CH index is shown in the sixth and seventh figures in Fig. <xref rid="Fig3" ref-type="fig">3</xref>. Different clustering effects can be obtained by changing the cluster radius parameter <italic>ε</italic>. The best CH index values for the death class and the survival class are 680.07 and 44.24, respectively.</p>
+                <p id="Par67">In this case, both classes have four groups. Four stages of COVID-19 patients are shown in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. For each stage, we calculate the mortality rate <italic>MR</italic> and the average time distance <italic>TD</italic>. For the death class, <italic>MR</italic> increases over stages and is 100% at stage 4. For the survival class, <italic>MR</italic> decreases over stages and is 0% in stage 4. <italic>TD</italic> in both classes decreases, meaning that the 4 stages are distributed over time. Meanwhile, as the CH index of the survival class is higher than that of the death class, the survival class stages are relatively loosely distributed.</p>
+                <p id="Par68">In Fig. <xref rid="Fig4" ref-type="fig">4</xref>, the first clustering is obtained by using biomarkers directly and shows that reasonable stages could not be found. In the first clustering, no stage is clustered in the death class and the 2 stages in the survival class have similar mortality rates and no time difference, as the shade of blue indicates. However, using our method, different stages have obvious differences, such as the data point color deepening with the stages. Meanwhile, as shown in the two insets, the class boundary is clearer based on our method.</p>
+                <p id="Par69">The division of stages contains the potential characteristics of COVID-19. Here, we present three findings. First, at the time of initial diagnosis, the COVID-19 infected patients’ physical conditions are similar, regardless of final survival or death. In Fig. <xref rid="Fig4" ref-type="fig">4</xref>, the distance between stage 1 for the death class and the survival class is small, and the two even overlap. This indicates that outcome prediction is likely not accurate at the time of infection. Second, the physical condition of patients who eventually die changes less than that of those who eventually survive. We conclude this from CH index values, where the CH value of the survival class is larger than that for the death class. Third, mortality rate varies by stage. For example, if the patient is classified into the death class and is at stage 1, there is still hope of survival, as shown by the green triangle sample in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. However, if the patient is in stage 3 or 4, he or she is very likely to die. Based on estimating the current stage of a patient, doctors will be given a reference, which can help them assess a patient’s current situation. Based on that, doctors can carry out targeted treatment and reasonable resource allocation more easily. Thus, the ultimate goal of this study, helping improve the quality of medical care, can be achieved.</p>
+                <p id="Par70">Meanwhile, we calculated the mean values of 40 laboratory test features in each stage, the feature values vary with stages. Table <xref rid="Tab6" ref-type="table">6</xref> lists 10 of these features - Lymph, LDH, hs-CRP, Indirect Bilirubin, Creatinine, INR, Serum Sodium, eGFR, Serum Chlorine and Albumin. The changes of values through 4 stages are visualized in Fig. <xref rid="Fig5" ref-type="fig">5</xref>. Under different classes, the trends of features are different.<table-wrap id="Tab6"><label>Table 6</label><caption><p>Feature statistics of patients in different stages of COVID-19 disease progression</p></caption><table frame="hsides" rules="groups"><tbody><tr><td colspan="5">Survival class (general)</td></tr><tr><td> Mean value</td><td>Stage 1</td><td>Stage 2</td><td>Stage 3</td><td>Stage 4</td></tr><tr><td> Mortality rate (%)</td><td>7.57</td><td>0</td><td>1.91</td><td>0</td></tr><tr><td> Time distance (days)</td><td>22.65</td><td>14.08</td><td>7.98</td><td>2.75</td></tr><tr><td> Lymph (%)</td><td>16</td><td>18</td><td>21</td><td>31</td></tr><tr><td> LDH (U/l)</td><td>328</td><td>301</td><td>245</td><td>199</td></tr><tr><td> hs-CRP (mg/l)</td><td>43</td><td>39</td><td>21</td><td>3</td></tr><tr><td> Indirect Bilirubin (μmol/l)</td><td>7</td><td>6</td><td>4</td><td>3</td></tr><tr><td> Creatinine (μmoI/l)</td><td>98</td><td>75</td><td>89</td><td>76</td></tr><tr><td> INR</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td> Serum Sodium (mmol/l)</td><td>138</td><td>139</td><td>140</td><td>137</td></tr><tr><td> eGFR (ml/min)</td><td>79</td><td>109</td><td>112</td><td>111</td></tr><tr><td> Serum Chlorine (mmol/l)</td><td>97</td><td>99</td><td>103</td><td>102</td></tr><tr><td> Albumin (g/l)</td><td>41</td><td>39</td><td>38</td><td>40</td></tr><tr><td colspan="5">Death class (critical)</td></tr><tr><td> Mean value</td><td>Stage 1</td><td>Stage 2</td><td>Stage 3</td><td>Stage 4</td></tr><tr><td> Mortality rate (%)</td><td>76.32</td><td>88.76</td><td>91.28</td><td>100</td></tr><tr><td> Time distance (days)</td><td>26.96</td><td>18.76</td><td>9.32</td><td>2.05</td></tr><tr><td> Lymph (%)</td><td>15</td><td>10</td><td>9</td><td>4</td></tr><tr><td> LDH (U/l)</td><td>338</td><td>364</td><td>375</td><td>499</td></tr><tr><td> hs-CRP (mg/l)</td><td>48</td><td>55</td><td>69</td><td>84</td></tr><tr><td> Indirect Bilirubin (μmol/l)</td><td>8</td><td>9</td><td>14</td><td>23</td></tr><tr><td> Creatinine (μmoI/l)</td><td>104</td><td>106</td><td>120</td><td>125</td></tr><tr><td> INR</td><td>2</td><td>2</td><td>3</td><td>2</td></tr><tr><td> Serum Sodium (mmol/l)</td><td>140</td><td>140</td><td>135</td><td>129</td></tr><tr><td> eGFR (ml/min)</td><td>75</td><td>71</td><td>70</td><td>57</td></tr><tr><td> Serum Chloride (mmol/l)</td><td>96</td><td>103</td><td>104</td><td>105</td></tr><tr><td> Albumin (g/l)</td><td>40</td><td>32</td><td>33</td><td>32</td></tr></tbody></table></table-wrap><fig id="Fig5"><label>Fig. 5</label><caption><p>Changes of features in different stages. This figure shows the changes of features (Mortality rate, Lymph, LDH, hs-CRP, Indirect Bilirubin, Creatinine, INR, Serum Sodium, eGFR, Serum Chlorine and Albumin) through 4 stages. Under different classes, the trends of features are different</p></caption><graphic xlink:href="12911_2020_1359_Fig5_HTML" id="MO5"/></fig></p>
+                <p id="Par71">Further, we calculated the average KL divergence between adjoint stages of each features in 40 clinical laboratory tests data. We ranked the average KL values. The higher the ranking, the better the biomarkers can be used to distinguish different stages. By ranking 40 biomarkers according to the degree of correlation with COVID-19 (Table <xref rid="Tab7" ref-type="table">7</xref>), we have found the biomarkers which are more relevant to COVID-19. The top 10 are: Lymph, LDH, hs-CRP, Indirect Bilirubin, Creatinine, INR, Serum Sodium, eGFR, Serum Chlorine and Albumin. For each marker, we gave its reference value in each stage, shown in Table <xref rid="Tab6" ref-type="table">6</xref>. Different markers have unique trends in different stages.<table-wrap id="Tab7"><label>Table 7</label><caption><p>Ranking of average KL divergence values of top 40 features</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Ranking</th><th>Feature</th><th>Average KL</th><th>Ranking</th><th>Feature</th><th>Average KL</th></tr></thead><tbody><tr><td>1</td><td>Lymph</td><td>0.0421</td><td>21</td><td>Total Cholesterol</td><td>0.0041</td></tr><tr><td>2</td><td>LDH</td><td>0.0392</td><td>22</td><td>Interleukin 6</td><td>0.0032</td></tr><tr><td>3</td><td>hs-CRP</td><td>0.0376</td><td>23</td><td>I sIL-2R</td><td>0.0031</td></tr><tr><td>4</td><td>Indirect Bilirubin</td><td>0.0324</td><td>24</td><td>cTnI</td><td>0.0030</td></tr><tr><td>5</td><td>Creatinine</td><td>0.0302</td><td>25</td><td>RBCW-SD</td><td>0.0024</td></tr><tr><td>6</td><td>INR</td><td>0.0235</td><td>26</td><td>Uric Acid</td><td>0.0023</td></tr><tr><td>7</td><td>Serum Sodium</td><td>0.0232</td><td>27</td><td>Corrected Calcium</td><td>0.0022</td></tr><tr><td>8</td><td>eGFR</td><td>0.0225</td><td>28</td><td>Interleukin 8</td><td>0.0019</td></tr><tr><td>9</td><td>Serum Chloride</td><td>0.0224</td><td>29</td><td>Prothrombin Time</td><td>0.0018</td></tr><tr><td>10</td><td>Albumin</td><td>0.0193</td><td>30</td><td>Serum Potassium</td><td>0.0017</td></tr><tr><td>11</td><td>Globulin</td><td>0.0177</td><td>31</td><td>Interleukin 1β</td><td>0.0017</td></tr><tr><td>12</td><td>Hematocrit</td><td>0.0122</td><td>32</td><td>D-D dimer</td><td>0.0016</td></tr><tr><td>13</td><td>Hemoglobin</td><td>0.0091</td><td>33</td><td>FDP</td><td>0.0016</td></tr><tr><td>14</td><td>Fibrinogen</td><td>0.0079</td><td>34</td><td>Antithrombin</td><td>0.0015</td></tr><tr><td>15</td><td>γ-GT</td><td>0.0079</td><td>35</td><td>Procalcitonin</td><td>0.0010</td></tr><tr><td>16</td><td>ESR</td><td>0.0078</td><td>36</td><td>Platelet Count</td><td>0.0009</td></tr><tr><td>17</td><td>NT-proBNP</td><td>0.0074</td><td>37</td><td>WBC</td><td>0.0006</td></tr><tr><td>18</td><td>APTT</td><td>0.0053</td><td>38</td><td>Ferritin</td><td>0.0005</td></tr><tr><td>19</td><td>Eosinophils</td><td>0.0051</td><td>39</td><td>Interleukin 10</td><td>0.0004</td></tr><tr><td>20</td><td>basophil</td><td>0.0049</td><td>40</td><td>PLT</td><td>0.0004</td></tr></tbody></table></table-wrap></p>
+                <p id="Par72">Combining the correlation analysis with the reference value analysis, we found that the critical COVID-19 patients are usually accompanied by low values of lymph, eGFR, albumin and Serum Sodium, high values of LDH, hs-CRP, indirect bilirubin, creatinine and INR. For example, in the critical stage 4, the average lymph (%) is just 4 and the average LDH (U/l) is up to 499. Besides, there are three major complications of COVID-19 patients - myocardial injury, liver function injury and renal function injury. We got the conclusions separately through the value of 1) LDH, 2) albumin and indirect bilirubin, 3) serum sodium, serum chlorine and creatinine in different stages.</p>
+              </sec>
+            </sec>
+            <sec id="Sec12">
+              <title>Discussion</title>
+              <p id="Par73">In recent years, deep learning (DL) technology has been widely used because of its superior performance in various medical applications [<xref ref-type="bibr" rid="CR28">28</xref>, <xref ref-type="bibr" rid="CR29">29</xref>], such as medical image recognition [<xref ref-type="bibr" rid="CR39">39</xref>] and medication recommendations [<xref ref-type="bibr" rid="CR40">40</xref>]. In the past year, the spread of COVID-19 has had a peripheral effect on the global economy and health. Therefore, we expect to combine DL methods to study and fight COVID-19.</p>
+              <p id="Par74">The states of COVID-19 patients in hospital are dynamic time sequence processes. In addition to the basic information of patients, the vital signs, diagnoses and other lab tests are all time series. Existing many works [<xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR27">27</xref>, <xref ref-type="bibr" rid="CR41">41</xref>, <xref ref-type="bibr" rid="CR42">42</xref>] have achieved good results for COVID-19 prediction tasks. But they paid little attention to analyze and model the characteristics of COVID-19 patients’ time series. Dynamic time series modeling can grasp the relationship between historical observations and current observations, and learn the potential development mode of sequence, which is conducive to more accurate prediction and representation. Besides, we have found that the time series of COVID-19 patients is irregularly sampled - Different time intervals exist in adjacent observations. Every possible test is not regularly measured during an admission. When a certain symptom worsens, corresponding variables are examined more frequently; when the symptom disappears, the corresponding variables are no longer examined. These time intervals will add a time sparsity factor when the intervals between observations are large [<xref ref-type="bibr" rid="CR13">13</xref>]. Therefore, it is necessary not only to deal with time series, but also to deal with irregular time series according to the characteristics of COVID-19 patients. In this paper, we use time-aware LSTM model solved this problem.</p>
+              <p id="Par75">Deep learning methods have outstanding performance in prediction tasks. If a doctor predicts survival or death only by observing the biomarkers and using a threshold, the accuracy is at or below 80% for early predictions. However, the clinical reference value of inaccurate results is very low [<xref ref-type="bibr" rid="CR43">43</xref>, <xref ref-type="bibr" rid="CR44">44</xref>]. The DL method has better performance, and the time-aware aspect enables higher accuracy, as shown in Table <xref rid="Tab3" ref-type="table">3</xref>.</p>
+              <p id="Par76">However, there are some concerns about the use of DL methods in the high-risk tasks of healthcare.</p>
+              <p id="Par77">First, it may be risky to apply predictive methods directly to clinical practice [<xref ref-type="bibr" rid="CR45">45</xref>]. DL methods may be assistive tools for doctors but not used to make decisions directly. It is challenging for doctors to make optimal decisions, a data-driven and high-accuracy prediction method could help. In this paper, we can predict patient outcomes with higher accuracy than baselines. The method can effectively predict whether the infected patient will die or survive 12 days prior to disease outcome with over 90% accuracy. The prediction accuracies at 3-, 6-, and 9-days prior are 98, 95 and 93%, respectively.</p>
+              <p id="Par78">Second, the DL method is the black-box models which are troubled by poor interpretability [<xref ref-type="bibr" rid="CR46">46</xref>, <xref ref-type="bibr" rid="CR47">47</xref>], but clinical settings prefer interpretable models. For example, finding the appropriate prediction-related biomarkers is important. Currently, certain studies have identified suitable predictive biomarkers, such as the 3 biomarkers in [<xref ref-type="bibr" rid="CR33">33</xref>], which are regarded to have a significant impact on patient mortality. For interpretability, our method identified four disease stages distributed over time. This interesting finding cannot be distinguished simply by the value of biomarkers, as shown as the comparison of two clustering results in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. The discovered stages are closely related to mortality and time of illness and can help analyze the status of infected patients. This shows that the DL method can explore new patterns in multidimensional space that cannot be demonstrated by a simple variable value [<xref ref-type="bibr" rid="CR48">48</xref>]. We also ranked 40 biomarkers according to the degree of correlation with COVID-19 progression, which can provide interpretable results to help doctors better understand the model.</p>
+              <p id="Par79">This study has three basic contributions. 1) we can predict patient outcomes with higher accuracy than all baselines. 2) We identified four stages of COVID-19 progression. The stages are closely related to mortality and time of illness and can help analyze the status of infected patients. 3) We give the ranking of 40 biomarkers according to the degree of correlation with COVID-19. Based on this, we found three major complications of COVID-19 patients - myocardial injury, liver function injury and renal function injury.</p>
+              <p id="Par80">Further, there is room for further improvement. First, because of the data limitations, our method may face risk of bias, because data-driven methods are easily influenced by different source of data. For example, the results may vary when using different datasets [<xref ref-type="bibr" rid="CR45">45</xref>]. Second, our current interpretation is based on results, such as the degree of association between biomarkers and disease. We hope to give more explanations about the complex DL black-box model, such as telling more specific effect of each part of the model on the result. Meanwhile, we hope to enlighten the relevant researchers to further study these 4 stages and present more clinical explanations. In particular, we expect to be able to give specific treatments for different stages. Targeted treatment is significant for both patient rehabilitation and the reasonable allocation of medical resources.</p>
+            </sec>
+            <sec id="Sec13">
+              <title>Conclusions</title>
+              <p id="Par81">The sudden outbreak and epidemic of COVID-19 has led to worldwide suffering and shortages of medical resources. In this paper, we propose T-LSTM to predict patient outcomes with high accuracy - 98, 95 and 93% at 3, 6, and 9 days, which will enable reasonable allocation of medical resources. T-LSTM can effectively model the irregular sampled time series in blood test samples of COVID-19 patients and predict more accurately than existing baselines. Meanwhile, we identified four COVID-19 stages. We ranked 40 biomarkers according to correlations to the outcomes of patients, gave the reference values of top 10 biomarkers for each stage. The top 10 biomarkers are: Lymph, LDH, hs-CRP, Indirect Bilirubin, Creatinine, INR, Serum Sodium, eGFR, Serum Chlorine and Albumin. We also found 3 complications of COVID-19, which are myocardial injury, liver function injury and renal function injury. By analyzing patients’ life conditions at different stages, doctors can choose specific, targeted treatments. Future work will focus more on the study of pathological characteristics of different stages. Aiming at four stages, targeted treatments are expected to be designed. Meanwhile, more real clinical data are expected to be available for model validation and the model will be used to mine the inherent hidden features of other diseases.</p>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>COVID-19</term>
+                  <def>
+                    <p id="Par5">Corona Virus Disease 2019</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>WHO</term>
+                  <def>
+                    <p id="Par6">World Health Organization</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LDH</term>
+                  <def>
+                    <p id="Par7">Lactic Dehydrogenase</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>hs-CRP</term>
+                  <def>
+                    <p id="Par8">High-sensitivity C-reactive Protein</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>lymph</term>
+                  <def>
+                    <p id="Par9">Lymphocytes</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DL</term>
+                  <def>
+                    <p id="Par10">Deep Learning</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RNN</term>
+                  <def>
+                    <p id="Par11">Recurrent Neural Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LSTM</term>
+                  <def>
+                    <p id="Par12">Long Short-Term Unit</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>T-LSTM</term>
+                  <def>
+                    <p id="Par13">Time-aware Long Short-Term Memory</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>PNN</term>
+                  <def>
+                    <p id="Par14">Probabilistic Neural Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RBFNN</term>
+                  <def>
+                    <p id="Par15">Radial Basis Function Neural Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>GRNN</term>
+                  <def>
+                    <p id="Par16">Generalized Regression Neural Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BPNN</term>
+                  <def>
+                    <p id="Par17">Back Propagation Neuron Network</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DT</term>
+                  <def>
+                    <p id="Par18">Decision Tree</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RF</term>
+                  <def>
+                    <p id="Par19">Random Forest</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>XGBoost</term>
+                  <def>
+                    <p id="Par20">eXtreme Gradient Boosting</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>SVM</term>
+                  <def>
+                    <p id="Par21">Support Vector Machines</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>Cox</term>
+                  <def>
+                    <p id="Par22">Cox’s Proportional Hazards Regression</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LR</term>
+                  <def>
+                    <p id="Par23">Linear Regression</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>NB</term>
+                  <def>
+                    <p id="Par24">Naive Bayes</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LDA</term>
+                  <def>
+                    <p id="Par25">Linear Discriminant Analysis</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>t-SNE</term>
+                  <def>
+                    <p id="Par26">t-distributed Stochastic Neighbor Embedding</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>DBSCAN</term>
+                  <def>
+                    <p id="Par27">Density-Based Spatial Clustering of Applications with Noise</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MR</term>
+                  <def>
+                    <p id="Par28">Mortality Rate</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>TD</term>
+                  <def>
+                    <p id="Par29">Average Time Distance</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>AUC-ROC</term>
+                  <def>
+                    <p id="Par30">The Area Under the Curve of the Receiver Operating Characteristic</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>CH</term>
+                  <def>
+                    <p id="Par31">Calinski-Harabaz Index</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>KL divergence</term>
+                  <def>
+                    <p id="Par32">Kullback-Leibler Divergence</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <p>This paper is dedicated to those who want to fight COVID-19.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors’ contributions</title>
+              <p>C.S. and S.H. conceptualized the idea. S.H., Z.W. and H.L. initialized, conceived and supervised the project. C. S, S.H. and M.S. collected data and implemented the experiments. C. S, S. H, M.S. and Z.W. drafted the manuscript. All authors provided a critical review of the manuscript and approved the final draft for publication. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This work was supported by the Scientific Research Foundation for the Returned Overseas Chinese Scholars, State Education Ministry and UKRI’s Global Challenge Research Fund (ES/P011055/1). This work was also supported by the National Key Research and Development Program of China (No. 2020YFB2103402). The funders had no role in study design, data collection, analysis, the writing of the manuscript, or the decision to submit this article for publication.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The code implementation is publicly available at <ext-link ext-link-type="uri" xlink:href="https://github.com/scxhhh/COVID-19">https://github.com/scxhhh/COVID-19</ext-link>. The data is from an online open dataset <ext-link ext-link-type="uri" xlink:href="https://github.com/HAIRLAB/Pre_Surv_COVID_19">https://github.com/HAIRLAB/Pre_Surv_COVID_19</ext-link> under an MIT license (10.5281/zenodo.3758806).</p>
+            </notes>
+            <notes id="FPar1">
+              <title>Ethics approval and consent to participate</title>
+              <p id="Par82">The original study was approved by the Ethics Committee of Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology (Yan Li, et al. “An interpretable mortality prediction model for COVID-19 patients.” Nature Machine Intelligence). In the current study, the data used is from that study as an online open dataset under an MIT license (10.5281/zenodo.3758806).</p>
+            </notes>
+            <notes id="FPar2">
+              <title>Consent for publication</title>
+              <p id="Par83">Not applicable.</p>
+            </notes>
+            <notes id="FPar3" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par84">No financial competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>
+References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">
+World Health Organization. Coronavirus Disease 2019 (COVID-19) Situation Report 68, 28 March 2020. <ext-link ext-link-type="uri" xlink:href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200328-sitrep-68-covid-19.pdf">https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200328-sitrep-68-covid-19.pdf</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">World Health Organization. Coronavirus Disease 2019 (COVID-19) Situation Report 147, 15 June 2020. <ext-link ext-link-type="uri" xlink:href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200615-covid-19-sitrep-147.pdf?sfvrsn=2497a605_2">https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200615-covid-19-sitrep-147.pdf?sfvrsn=2497a605_2</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Emily Czachor. WHO Director Warns COVID-19 Pandemic is ‘Speeding Up,’ Here for ‘Long Haul’. Newsweek, News. 6/29/2020. <ext-link ext-link-type="uri" xlink:href="https://www.newsweek.com/who-director-warns-covid-19-pandemic-speeding-here-long-haul-1514169">https://www.newsweek.com/who-director-warns-covid-19-pandemic-speeding-here-long-haul-1514169</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Sébastien Farcis. Coronavirus: worries and worries about bed shortage in New Delhi. Liberation, Reportage. 6/15/2020. <ext-link ext-link-type="uri" xlink:href="https://www.liberation.fr/planete/2020/06/15/coronavirus-a-new-delhi-inquietude-et-desarroi-face-a-la-penurie-de-lits_1791300">https://www.liberation.fr/planete/2020/06/15/coronavirus-a-new-delhi-inquietude-et-desarroi-face-a-la-penurie-de-lits_1791300</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Katherine Fung. Arizona Hits Record-High Hospital Capacity as Coronavirus Cases Climb. Newsweek, News. 6/29/2020. <ext-link ext-link-type="uri" xlink:href="https://www.newsweek.com/arizona-hits-record-high-hospital-capacity-coronavirus-cases-climb-1511578">https://www.newsweek.com/arizona-hits-record-high-hospital-capacity-coronavirus-cases-climb-1511578</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <volume>395</volume>
+                  <fpage>497</fpage>
+                  <lpage>506</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(20)30183-5</pub-id>
+                  <pub-id pub-id-type="pmid">31986264</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <volume>395</volume>
+                  <fpage>507</fpage>
+                  <lpage>513</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(20)30211-7</pub-id>
+                  <pub-id pub-id-type="pmid">32007143</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical course and outcomes of critically ill patients with SARS CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study</article-title>
+                  <source>Lancet Resp Med</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>475</fpage>
+                  <lpage>481</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2213-2600(20)30079-5</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <volume>395</volume>
+                  <fpage>10229</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus–infected pneumonia in Wuhan, China</article-title>
+                  <source>JAMA</source>
+                  <year>2020</year>
+                  <volume>323</volume>
+                  <issue>11</issue>
+                  <fpage>1061</fpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2020.1585</pub-id>
+                  <pub-id pub-id-type="pmid">32031570</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Shu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Xia</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical course and outcomes of critically Ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study</article-title>
+                  <source>Lancet Respir Med.</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <issue>5</issue>
+                  <fpage>1</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2213-2600(20)30079-5</pub-id>
+                  <pub-id pub-id-type="pmid">31868602</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Spadon</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Brandoli</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Matwin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodrigues-Jr</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pay Attention to Evolution: Time Series Forecasting with Deep Graph-Evolution Learning</article-title>
+                  <source>arXiv preprint arXiv</source>
+                  <year>2020</year>
+                  <volume>2008</volume>
+                  <fpage>12833</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A review of deep learning methods for irregularly sampled medical time series data</article-title>
+                  <source>arXiv</source>
+                  <year>2020</year>
+                  <volume>2010</volume>
+                  <fpage>12493</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Wang C, Deng R, Gou L, Fu Z, Zhang X, Shao F, et al. Preliminary study to identify severe from moderate cases of COVID-19 using NLR&amp;RDW-SD combination parameter. 2020. medRxiv 2020.04.09.20058594.</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Farid</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Selim</surname>
+                      <given-names>GI</given-names>
+                    </name>
+                    <name>
+                      <surname>Khater</surname>
+                      <given-names>HAA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A novel approach of CT images feature analysis and prediction to screen for corona virus disease (COVID-19)</article-title>
+                  <source>Int J Sci Eng Res</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <issue>3</issue>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Kumar R, Arora R, Bansal V, Sahayasheela VJ, Buckchash H, et al. Accurate prediction of COVID-19 using chest X-ray images through deep feature learning model with SMOTE and machine learning classifiers. 2020. medRxiv 2020.04.13.20063461.</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Batista AFM, Miraglia JL, Donato THR, Chiavegatto Filho ADP. COVID-19 diagnosis prediction in emergency care patients: a machine learning approach. 2020. medRxiv 2020.04.04.20052092.</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The clinical and chest CT features associated with severe and critical COVID-19 pneumonia</article-title>
+                  <source>Investig Radiol</source>
+                  <year>2020</year>
+                  <volume>55</volume>
+                  <issue>6</issue>
+                  <fpage>327</fpage>
+                  <pub-id pub-id-type="doi">10.1097/RLI.0000000000000672</pub-id>
+                  <pub-id pub-id-type="pmid">32118615</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Early triage of critically ill COVID-19 patients using deep learning</article-title>
+                  <source>Nat Commun.</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <fpage>3543</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-17280-8</pub-id>
+                  <pub-id pub-id-type="pmid">32669540</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sujath</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hassanien</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A machine learning forecasting model for COVID-19 pandemic in India</article-title>
+                  <source>Stoch Env Res Risk Assess</source>
+                  <year>2020</year>
+                  <volume>34</volume>
+                  <issue>7</issue>
+                  <fpage>959</fpage>
+                  <lpage>972</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00477-020-01827-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 mortality rate prediction for India using statistical neural network models</article-title>
+                  <source>Front Public Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>441</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fpubh.2020.00441</pub-id>
+                  <pub-id pub-id-type="pmid">32984242</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Panwar</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>PK</given-names>
+                    </name>
+                    <name>
+                      <surname>Siddiqui</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Application of deep learning for fast detection of COVID-19 in X-rays using nCOVnet</article-title>
+                  <source>Chaos, Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>138</volume>
+                  <fpage>109944</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109944</pub-id>
+                  <pub-id pub-id-type="pmid">32536759</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harsh</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>PK</given-names>
+                    </name>
+                    <name>
+                      <surname>Siddiqui</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                    <name>
+                      <surname>Morales-Menendez</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhardwaj</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A deep learning and grad-CAM based color visualization approach for fast detection of COVID-19 cases using chest X-ray and CT-Scan images</article-title>
+                  <source>Chaos, Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>140</volume>
+                  <fpage>110190</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.110190</pub-id>
+                  <pub-id pub-id-type="pmid">32836918</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Babukarthik</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Adiga</surname>
+                      <given-names>VAK</given-names>
+                    </name>
+                    <name>
+                      <surname>Sambasivam</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Chandramohan</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Amudhavel</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction of COVID-19 Using Genetic Deep Learning Convolutional Neural Network (GDCNN)</article-title>
+                  <source>IEEE Access</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>177647</fpage>
+                  <lpage>177666</lpage>
+                  <pub-id pub-id-type="doi">10.1109/ACCESS.2020.3025164</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-Net: A tailored deep convolutional neural network design for detection of COVID-19 cases from chest radiography images</article-title>
+                  <source>arXiv</source>
+                  <year>2020</year>
+                  <volume>2003</volume>
+                  <fpage>09871</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Qin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Yin</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Kong</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Using artificial intelligence to detect COVID-19 and community-acquired pneumonia based on pulmonary CT: evaluation of the diagnostic accuracy</article-title>
+                  <source>Radiology.</source>
+                  <year>2020</year>
+                  <volume>296</volume>
+                  <issue>2</issue>
+                  <fpage>E65</fpage>
+                  <lpage>E71</lpage>
+                  <pub-id pub-id-type="doi">10.1148/radiol.2020200905</pub-id>
+                  <pub-id pub-id-type="pmid">32191588</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Radanliev</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Roure</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                    <name>
+                      <surname>Walton</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Data mining and analysis of scientific research data records on covid 19 mortality, immunity, and vaccine development - in the first wave of the Covid-19 pandemic</article-title>
+                  <source>Diabetes Metab Syndr</source>
+                  <year>2020</year>
+                  <volume>14</volume>
+                  <issue>5</issue>
+                  <fpage>1121</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dsx.2020.06.063</pub-id>
+                  <pub-id pub-id-type="pmid">32659695</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adam</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Rampášek</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Safikhani</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Machine learning approaches to drug response prediction: challenges and recent progress</article-title>
+                  <source>Precis Onc</source>
+                  <year>2020</year>
+                  <volume>4</volume>
+                  <fpage>19</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41698-020-0122-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jalali</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lonsdale</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Do</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Deep learning for improved risk prediction in surgical outcomes</article-title>
+                  <source>Sci Rep</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>9289</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-62971-3</pub-id>
+                  <pub-id pub-id-type="pmid">32518246</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siuly</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Medical big data: neurological diseases diagnosis through medical data analysis</article-title>
+                  <source>Data Sci Eng</source>
+                  <year>2016</year>
+                  <volume>1</volume>
+                  <fpage>54</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s41019-016-0011-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Zipser</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A learning algorithm for continually running fully recurrent neural networks</article-title>
+                  <source>Neural Comput.</source>
+                  <year>1998</year>
+                  <volume>1</volume>
+                  <issue>2</issue>
+                  <fpage>270</fpage>
+                  <lpage>280</lpage>
+                  <pub-id pub-id-type="doi">10.1162/neco.1989.1.2.270</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hochreiter</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidhuber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long short-term memory</article-title>
+                  <source>Neural Computation</source>
+                  <year>1997</year>
+                  <volume>9</volume>
+                  <issue>8</issue>
+                  <fpage>1735</fpage>
+                  <lpage>1780</lpage>
+                  <pub-id pub-id-type="doi">10.1162/neco.1997.9.8.1735</pub-id>
+                  <pub-id pub-id-type="pmid">9377276</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>HT</given-names>
+                    </name>
+                    <name>
+                      <surname>Goncalves</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An interpretable mortality prediction model for COVID-19 patients</article-title>
+                  <source>Nat Mach Intell.</source>
+                  <year>2020</year>
+                  <volume>2</volume>
+                  <fpage>283</fpage>
+                  <lpage>288</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s42256-020-0180-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Ilyas</surname>
+                      <given-names>IF</given-names>
+                    </name>
+                    <name>
+                      <surname>Krishnan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Data cleaning: Overview and emerging challenges, in Proc. Int. Conf. Manage. Data SIGMOD Conf., San Francisco, CA, USA, Jun./Jul</source>
+                  <year>2016</year>
+                  <fpage>2201</fpage>
+                  <lpage>2206</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baytas</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Patient Subtyping via Time-Aware LSTM Networks. the 23rd ACM SIGKDD International Conference. ACM</source>
+                  <year>2017</year>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Corduneanu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <source>Integral Equations and Applications</source>
+                  <year>1991</year>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laurens</surname>
+                      <given-names>VDM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinton</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visualizing Data using t-SNE</article-title>
+                  <source>J Mach Learn Res</source>
+                  <year>2008</year>
+                  <volume>9</volume>
+                  <issue>2605</issue>
+                  <fpage>2579</fpage>
+                  <lpage>2605</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <mixed-citation publication-type="other">Ester M, Kriegel H-P, Sander J, Xiaowei X. A density-based algorithm for discovering clusters in large spatial databases with noise. KDD. 1996:226–31.</mixed-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Research on recognition of medical image detection based on neural network</article-title>
+                  <source>IEEE Access</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>94947</fpage>
+                  <lpage>94955</lpage>
+                  <pub-id pub-id-type="doi">10.1109/ACCESS.2020.2995466</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <mixed-citation publication-type="other">Shang J, Xiao C, Ma T, Li H, Sun J. GAMENet: graph augmented memory networks for recommending medication combination. AAAI. 2019:1126–33.</mixed-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">Tang Z, et al. Severity assessment of coronavirus disease 2019 (COVID-19) using quantitative features from chest CT images. 2020. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2003:11988">arXiv:2003:11988</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mohamadou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Halidou</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kapen</surname>
+                      <given-names>PT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A review of mathematical modeling, artificial intelligence and datasets used in the study, prediction and management of COVID-19</article-title>
+                  <source>Appl Intell</source>
+                  <year>2020</year>
+                  <volume>50</volume>
+                  <issue>11</issue>
+                  <fpage>3913</fpage>
+                  <lpage>3925</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10489-020-01770-9</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Network-based multi-task learning models for biomarker selection and cancer outcome prediction</article-title>
+                  <source>Bioinform</source>
+                  <year>2020</year>
+                  <volume>36</volume>
+                  <issue>6</issue>
+                  <fpage>1814</fpage>
+                  <lpage>1822</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btz809</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Learning hierarchical representations of electronic health records for clinical outcome prediction</article-title>
+                  <source>AMIA Annu Symp Proc.</source>
+                  <year>2020</year>
+                  <volume>2019</volume>
+                  <fpage>597</fpage>
+                  <lpage>606</lpage>
+                  <?supplied-pmid 32308854?>
+                  <pub-id pub-id-type="pmid">32308854</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wynants</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Calster</surname>
+                      <given-names>BV</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonten</surname>
+                      <given-names>MMJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal</article-title>
+                  <source>BMJ (online)</source>
+                  <year>2020</year>
+                  <volume>369</volume>
+                  <fpage>m1328</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Molnar</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <source>Interpretable machine learning: a guide for making black box models explainable</source>
+                  <year>2019</year>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ito</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsubouchi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Sakaji</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Contextual sentiment neural network for document sentiment analysis</article-title>
+                  <source>Data Sci. Eng.</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <fpage>180</fpage>
+                  <lpage>192</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s41019-020-00122-4</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gibney</surname>
+                      <given-names>HMJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of meal patterns with the use of supervised data mining techniques—artificial neural networks and decision trees</article-title>
+                  <source>Am J Clin Nutr</source>
+                  <year>2008</year>
+                  <volume>88</volume>
+                  <issue>6</issue>
+                  <fpage>1632</fpage>
+                  <lpage>1642</lpage>
+                  <pub-id pub-id-type="doi">10.3945/ajcn.2008.26619</pub-id>
+                  <pub-id pub-id-type="pmid">19064525</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

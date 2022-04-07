@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T01:00:52Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6884467" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6884467</identifier>
+        <datestamp>2019-12-06</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6884467</article-id>
+              <article-id pub-id-type="pmcid">PMC6884467</article-id>
+              <article-id pub-id-type="pmc-uid">6884467</article-id>
+              <article-id pub-id-type="pmid">31784625</article-id>
+              <article-id pub-id-type="publisher-id">54495</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-019-54495-2</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A method for hand-foot-mouth disease prediction using GeoDetector and LSTM model in Guangxi, China</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gu</surname>
+                    <given-names>Jiangyan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Liang</surname>
+                    <given-names>Lizhong</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Song</surname>
+                    <given-names>Hongquan</given-names>
+                  </name>
+                  <address>
+                    <email>hqsong@henu.edu.cn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Kong</surname>
+                    <given-names>Yunfeng</given-names>
+                  </name>
+                  <address>
+                    <email>yfkong@henu.edu.cn</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ma</surname>
+                    <given-names>Rui</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hou</surname>
+                    <given-names>Yane</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zhao</surname>
+                    <given-names>Jinyu</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>Junjie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>He</surname>
+                    <given-names>Nan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zhang</surname>
+                    <given-names>Yang</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9139 560X</institution-id><institution-id institution-id-type="GRID">grid.256922.8</institution-id><institution>Laboratory of Geospatial Technology for the Middle and Lower Yellow River Regions, Ministry of Education, </institution><institution>Henan University, </institution></institution-wrap>Kaifeng, Henan 475004 China </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9139 560X</institution-id><institution-id institution-id-type="GRID">grid.256922.8</institution-id><institution>Institute of Urban Big Data, College of Environment and Planning, </institution><institution>Henan University, </institution></institution-wrap>Kaifeng, Henan 475004 China </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1760 3078</institution-id><institution-id institution-id-type="GRID">grid.410560.6</institution-id><institution>The Affiliated Hospital of Guangdong Medical University, </institution></institution-wrap>Zhanjiang, 524001 China </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9139 560X</institution-id><institution-id institution-id-type="GRID">grid.256922.8</institution-id><institution>Henan Key Laboratory of Integrated Air Pollution Control and Ecological Security, </institution><institution>Henan University, </institution></institution-wrap>Kaifeng, Henan 475004 China </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0369 6365</institution-id><institution-id institution-id-type="GRID">grid.22069.3f</institution-id><institution>Institute for Global Innovation and Development, </institution><institution>East China Normal University, </institution></institution-wrap>Shanghai, 200062 China </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>29</day>
+                <month>11</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>29</day>
+                <month>11</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <volume>9</volume>
+              <elocation-id>17928</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>6</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>14</day>
+                  <month>11</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2019</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Hand-foot-mouth disease (HFMD) is a common infectious disease in children and is particularly severe in Guangxi, China. Meteorological conditions are known to play a pivotal role in the HFMD. Previous studies have reported numerous models to predict the incidence of HFMD. In this study, we proposed a new method for the HFMD prediction using GeoDetector and a Long Short-Term Memory neural network (LSTM). The daily meteorological factors and HFMD records in Guangxi during 2014–2015 were adopted. First, potential risk factors for the occurrence of HFMD were identified based on the GeoDetector. Then, region-specific prediction models were developed in 14 administrative regions of Guangxi, China using an optimized three-layer LSTM model. Prediction results (the R-square ranges from 0.39 to 0.71) showed that the model proposed in this study had a good performance in HFMD predictions. This model could provide support for the prevention and control of HFMD. Moreover, this model could also be extended to the time series prediction of other infectious diseases.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Viral infection</kwd>
+                <kwd>Risk factors</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>National Natural Science Foundation of China (41401107)</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Hand-foot-mouth disease (HFMD) is a common viral infectious disease in children under 5 years old, which is commonly caused by the enteric pathogen coxsackievirus A16 (CoxA16) and enterovirus 71 (EV 71)<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. Severe HFMD could be associated with serious complications, such as poliomyelitis and brainstem encephalitis, which may be life-threatening<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. HFMD has resulted in several outbreaks throughout the world and become a public health issue in Asia<sup><xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup>. HFMD ranked first among the notifiable infectious diseases in China in 2017<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. The incidence and mortality rate of HFMD are particularly severe in Guangxi Zhuang Autonomous Region of China<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. There are no specific drugs or vaccines to prevent HFMD<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup> and therefore it is essential to establish a reliable prediction model for the prevention of HFMD.</p>
+              <p id="Par3">HFMD has obvious periodic variations, such as its peak period usually occurs during summer months in the northern hemisphere<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. Previous studies have revealed that HFMD is closely related to meteorological conditions<sup><xref ref-type="bibr" rid="CR13">13</xref>–<xref ref-type="bibr" rid="CR16">16</xref></sup>, such as the mean temperature, relative humidity, wind speed, and sunshine hours. It should be possible to establish models to predict the occurrence of HFMD based on these associations. The prediction model would enable individuals as well as hospitals and clinics formulate precautions and minimize health risks.</p>
+              <p id="Par4">Numerous studies have been carried out to develop HFMD prediction models. There are three categories of prediction models, including linear regression, time series, and machine learning. The linear regression model was established by analyzing the correlations between the incidence of HFMD and the influential factors<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. However, it is difficult to capture the non-linear association between HFMD and impacting factors and maintain the spatial stationary assumption over a large area<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. The time series model uses the relationship in the sequential lag time series to predict the incidence of HFMD, such as the seasonal auto-regressive integrated moving average model (ARIMA)<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>. These models did not consider the relationship between HFMD and potential impacting factors. With the development of artificial intelligence (AI), machine learning algorithms have shown their advantages in predictions and recognitions<sup><xref ref-type="bibr" rid="CR21">21</xref>–<xref ref-type="bibr" rid="CR23">23</xref></sup>. Gradient boosting tree (GBT) and random forest (RF) were found to be capable of identifying both mild and severe HFMD, which is helpful for early surveillance and control in HFMD<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>. Deep learning methods such as Back Propagation Neural Networks (BPNN) were also adopted to predict the incidence of HFMD<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. However, conventional machine learning methods such as BPNN cannot effectively deal with the trend prediction of HFMD since the temporal pattern must be taken into account when predicting infectious diseases.</p>
+              <p id="Par5">To overcome the limitations mentioned above, this study proposed a HFMD prediction method using the GeoDetector (<ext-link ext-link-type="uri" xlink:href="http://geodetector.org">http://geodetector.org</ext-link>) and the Long Short-Term Memory Neural Network (LSTM). GeoDetector measures the association between input factors and dependent factors according to their temporal-spatial distributions by the indicator <italic>q</italic>-statistic (<italic>q</italic>) value, the value ∈ [0,1] increases as the association between the input factor and HFMD increase<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. LSTM is an advanced kind of Recurrent Neural Network (RNN), which has the ability to learn temporal pattern and store the useful memory for a longer time. In this study, the GeoDetector was employed to analyze the impact of every meteorological factor and the interactive effects between different factors on HFMD. And then the dominant impacting factors were input into LSTM model to predict the weekly cases of HFMD in 14 subregions of Guangxi, China.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Identification of potential impacting factors</title>
+                <p id="Par6">Figure <xref rid="Fig1" ref-type="fig">1</xref> shows the contributions of 14 meteorological factors to the occurrence of HFMD in 14 subregions of Guangxi from 2014 to 2015. The 14 meteorological factors were divided into four categories, including (1) Humidity: minimum relative humidity (MIH), mean relative humidity (MEH), and precipitation (PR); (2) temperature: mean temperature (MET), maximum temperature (MAT), and minimum temperature (MIT); (3) pressure: mean pressure (MEP), maximum pressure (MAP), and minimum pressure (MIP); (4) wind speed: mean wind speed (MEW), maximum wind speed(MW), the direction of maximum wind speed (DMW), extreme wind speed (EW), and the direction of extreme wind speed (DEW). It can be seen that the primary impacting factor is the temperature of MIT (<italic>q</italic> = 0.23) and MET (<italic>q</italic> = 0.20), followed by PR (<italic>q</italic> = 0.10) and wind speed (DEW, <italic>q</italic> = 0.04; MW, <italic>q</italic> = 0.02; EW, <italic>q</italic> = 0.01; MEW, <italic>q</italic> = 0.01). This indicated that the <italic>q</italic> value was similar for the category of potential impacting factors, which means that they may have the similar contribution to the occurrence of HFMD, but does not mean that they influence the HFMD in the same way.<fig id="Fig1"><label>Figure 1</label><caption><p>Determinant power of the potential impacting factors of HFMD.</p></caption><graphic xlink:href="41598_2019_54495_Fig1_HTML" id="d29e466"/></fig></p>
+                <p id="Par7">The interactive effect is not simply equal to the sum of the <italic>q</italic> values of the two influencing factors’ (<italic>X</italic>1 and <italic>X</italic>2) effects on HFMD, which is represented as <italic>q</italic>(<italic>X</italic>1 ∩ <italic>X</italic>2)<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Figure <xref rid="Fig2" ref-type="fig">2</xref> shows the interactive results between potential influencing factors (only show a subset (<italic>q</italic> (<italic>X</italic>1 ∩ <italic>X</italic>2) &gt; 0.20) of all the interactions due to the space limitation, entire results could be found in the Supplementary Fig. <xref rid="MOESM1" ref-type="media">S1</xref>). This indicated that any two combined factors could play a more important role than their single effects on HFMD. The combinations of the temperatures and other factors had more dominated influences among all the combinations. The most four primary interactions MIT and EW (<italic>q</italic> = 0.30), MIT and MEW (<italic>q</italic> = 0.30), MIT and MIP (<italic>q</italic> = 0.28), and MET and MEW (<italic>q</italic> = 0.28). Taking the effects of both single and combined effects into consideration, MW and DEW were eliminated from the risk factors.<fig id="Fig2"><label>Figure 2</label><caption><p>Interactive effects between the potential influencing factors on HFMD. The x-axis label <italic>X</italic>1 &amp; X2 denotes q values of <italic>X</italic>1 (blue), <italic>X</italic>2 (red), and the interaction between <italic>X</italic>1 and <italic>X</italic>2 (green).</p></caption><graphic xlink:href="41598_2019_54495_Fig2_HTML" id="d29e543"/></fig></p>
+              </sec>
+              <sec id="Sec4">
+                <title>LSTM prediction model</title>
+                <p id="Par8">To minimize the spatial difference of the effects of meteorological conditions on HFMD and improve the prediction accuracy of LSTM, we developed the region-specific models for 14 subregions of Guangxi. The HFMD cases of the previous 80 weeks were taken as the training set to train the LSTM model, and the HFMD cases of the next 24 weeks were taken as the testing set to evaluate the prediction model. The model was saved after 5000 iterations, which was applied to predict the HFMD cases in the subsequent 24 weeks. We run 20 times for each model and the mean value of the runs was considered as the prediction value.</p>
+                <p id="Par9">Figure <xref rid="Fig3" ref-type="fig">3</xref> shows predictions of the region-specific LSTM models compared with observations in subregions (Beihai and Wuzhou not shown here due to the lower cases of HFMD, entire results could be found in the Supplementary Fig. <xref rid="MOESM1" ref-type="media">S2</xref>). The predictions and observations had good consistence in all subregions, which indicated that the region-specific LSTM models had good performance in the prediction of HFMD. To quantify the performance of the region-specific models, the metrics of R Square (<italic>R</italic><sup>2</sup>) and Mean Absolute Percent Error (<italic>MAPE</italic>) were adopted to evaluate the performance of these models. Table <xref rid="Tab1" ref-type="table">1</xref> shows the performance of the 14 region-specific models in Guangxi. The mean <italic>R</italic><sup>2</sup> and <italic>MAPE</italic> of these models was 0.60 and 0.73, respectively. The <italic>R</italic><sup>2</sup> ranges from 0.39 to 0.71 and the <italic>MAPE</italic> ranges from 23% to 131%. The region-specific model showed best and worst performance in Baise (<italic>R</italic><sup>2</sup> = 0.71, <italic>MAPE</italic> = 30.46%) and Chongzuo (<italic>R</italic><sup>2</sup> = 0.39, <italic>MAPE</italic> = 55.29%), respectively.<fig id="Fig3"><label>Figure 3</label><caption><p>Region-specific model predictions of HFMD compared with observations in subregions. The grey shaded areas demote the 95% confidence interval (CI) of the predictions.</p></caption><graphic xlink:href="41598_2019_54495_Fig3_HTML" id="d29e610"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>The performance of the region-specific models in subregions of Guangxi.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Region</th><th>Chongzuo</th><th>Hezhou</th><th>Qinzhou</th><th>Liuzhou</th><th>Nanning</th><th>Beihai</th><th>Guilin</th></tr></thead><tbody><tr><td>R<sup>2</sup></td><td>0.39</td><td>0.40</td><td>0.49</td><td>0.54</td><td>0.56</td><td>0.60</td><td>0.61</td></tr><tr><td>MAPE</td><td>0.55</td><td>0.52</td><td>0.43</td><td>0.23</td><td>0.92</td><td>1.32</td><td>0.35</td></tr><tr><td><bold>Region</bold></td><td><bold>Laibin</bold></td><td><bold>Wuzhou</bold></td><td><bold>Guigang</bold></td><td><bold>Yulin</bold></td><td><bold>Fangchenggang</bold></td><td><bold>Hechi</bold></td><td><bold>Baise</bold></td></tr><tr><td>R<sup>2</sup></td><td>0.64</td><td>0.65</td><td>0.68</td><td>0.68</td><td>0.70</td><td>0.70</td><td>0.71</td></tr><tr><td>MAPE</td><td>1.05</td><td>1.38</td><td>0.96</td><td>0.75</td><td>1.07</td><td>0.36</td><td>0.30</td></tr></tbody></table></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec5" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par10">It has been reported that the incidence of HFMD significantly increased in recent years in China<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>, particularly in the southeast areas. This study proposed a method for predictions of the HFMD occurrence using GeoDetector and LSTM model.</p>
+              <p id="Par11">Primary potential impacting factors for HFMD were identified by the GeoDetector. Compared with the conventional regression models, the GeoDetector can not only identify non-linear associations but also detect interactive effects from multiple variables. According to the detection results of the GeoDetector, the <italic>q</italic> values of the temperatures and the precipitation are at high levels, indicating that they could be crucial influential factors of the HFMD. Particularly, the temperatures rank higher associations than other variables. In addition, interactions of temperatures and wind speeds rank highest, which means that these combinations play an important role in the occurrence of HFDM. This finding is consistent with previous studies<sup><xref ref-type="bibr" rid="CR13">13</xref>–<xref ref-type="bibr" rid="CR16">16</xref></sup>. Existing researches explained the association between climate and disease, such as wind can promote circulation and distribution of air pollutants like particulate matter carrying enterovirus to accelerate the transportation of HFMD<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Temperature change could not only influence the children’s immune capacity<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>, but can also influence human’s direct contact to increase the opportunity of HFMD transmissions, as physical activities among individuals are increasing in warm months<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. A study in Hefei, China, has found that more than half of HFMD cases occurred on rainy days, because the wet weather is suitable for the HFMD virus to survive and multiply<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>.</p>
+              <p id="Par12">Predictions of the region-specific models in 14 subregions of Guangxi proved that LSTM has the ability to predict the occurrence of HFMD. Numerous studies have contributed to the construction of HFMD prediction model<sup><xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR20">20</xref></sup>. However, this may be the first time to adopt the LSTM, to the best of our knowledge, to predict the occurrence of HFMD based on meteorological conditions. The mean <italic>R</italic><sup>2</sup> and MAPE of the 14 region-specific models was 0.60 and 0.73, respectively. Compared with previous works predicted by other methods<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR35">35</xref></sup> (mean <italic>R</italic><sup>2</sup> = 0.54, mean MAPE = 1.02), indicating that the model proposed in this study had higher accuracy in the HFMD predictions. However, the performance of the LSTM model had spatial variations, which may be due to the meteorological conditions may not be the primary driving factors in some regions. For example, the socio-economic factors may be the primary driving forces for the incidence of HFMD<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>.</p>
+              <p id="Par13">It should also be noted that there were some limitations in the region-specific LSTM prediction model proposed in this study. The training dataset may be partial and insufficient due to the uneven distribution of hospitals, which may result in uncertainties for the prediction of HFMD. However, we believe that this can capture the temporal trends of HFMD occurrence for each subregion, because the dataset adopted in this study was collected continuously from most hospitals in each region. In addition, we adopted normalized and optimized method to minimize the prediction errors in the model construction. Moreover, the HFMD is also affected by socio-economic factors such as population density, rural population, and proportion of student population<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>. However, we only considered meteorological factors in this study, which may possibly lead to inaccurate predictions in regions where meteorological factors are not strong determinants of the HFMD. Taking other potential impacting factors into the LSTM model development would improve the prediction accuracy of HFMD occurrence.</p>
+              <p id="Par14">In conclusion, this study proposed a method for predicting HFMD using GeoDetector and LSTM. The method was proved to be accurate and effective. Although this model cannot be applied directly in other studies due to the parameters in deep learning algorithm models vary with training data, the framework proposed in this study can be extended to predict other infectious diseases in other study areas. The capability of LSTM in dealing with time series issues could be applied more extensively in further researches.</p>
+            </sec>
+            <sec id="Sec6" sec-type="materials|methods">
+              <title>Materials and Methods</title>
+              <sec id="Sec7">
+                <title>Data sources</title>
+                <p id="Par15">We collected the daily historical first page data of medical records and meteorological data from January 2014 to December 2015 in Guangxi, China. Guangxi is located in southeast China, adjacent to the South China Sea. Most of it is in the subtropical zone with a monsoon humid and rainy climate (Fig. <xref rid="Fig4" ref-type="fig">4</xref>).<fig id="Fig4"><label>Figure 4</label><caption><p>Location of Guangxi Zhuang Autonomous Region in China and the total number of HFMD cases during 2014–2015.</p></caption><graphic xlink:href="41598_2019_54495_Fig4_HTML" id="d29e890"/></fig></p>
+                <p id="Par16">The first page data of medical records for hospitals were collected from 14 administrative regions of Guangxi, including patients age, source, admission time, hospital stay, diagnosis, operation, payment, and the form of payment. Considering the scale of the first page data, the big data technologies such as data cleaning and denoising were adopted during the first page data preprocessing. The HFMD cases were defined according to the International Classification of Diseases B08.4. Finally, there were 170920 records of HFMD were adopted in this study, which were divided by 14 administrative regions and 104 weeks.</p>
+                <p id="Par17">Meteorological data were obtained from the China Meteorological Data Sharing Service System. The original data were collected at 99 meteorological stations in and around Guangxi, including 14 meteorological factors, MIH, MEH, PR, MET, MAT, MIT, MEP, MAP, MIP, MEW, MW, DMW, EW, and DEW. In order to get the meteorological data for each week and each region, a model equipped with iterator was built by using the Model Builder function of ArcMap 10 (<ext-link ext-link-type="uri" xlink:href="https://desktop.arcgis.com/en/arcmap/">https://desktop.arcgis.com/en/arcmap/</ext-link>). The main function of this model was to turn the daily station records to weekly region records by spatiotemporal Kriging interpolation method. Spatiotemporal interpolation method was an extended interpolation way based on spatial temporary relativity, considering the variables both in space and time, the estimated value of a time-space spot is calculated by the weighted sum of its surrounding observations. Main methods include spatiotemporal Kriging, BME (Bayesian Maximum Entropy), and synthesis method<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. Among all the spatial interpolation ways, the spatiotemporal Kriging was a simple way and commonly used for the interpolation of climatic data<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>GeoDetector</title>
+                <p id="Par18">GeoDetector is a statistical method to detect the temporal-spatial heterogeneity. This tool has been widely used in many areas, such as heavy metal differentiation, land use, and disease risk factor detection<sup><xref ref-type="bibr" rid="CR40">40</xref>–<xref ref-type="bibr" rid="CR42">42</xref></sup>. The assumption is that, if a potential factor leads to a disease, this factor would show a temporal-spatial distribution similar to the disease. In this study, GeoDetector was adopted to identify the risk factors from the 14 candidate meteorological factors that caused the temporal spatial stratified heterogeneity of HFMD in Guangxi from 2014 to 2015. Then, the impacting factors were identified according to the ranking of <italic>q</italic> values. The calculation of <italic>q</italic> is as follows:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=1-\frac{{\sum }_{h=1}^{L}{\sum }_{i=1}^{{N}_{h}}{({Y}_{hi}-{\bar{Y}}_{h})}^{2}}{{\sum }_{i=1}^{N}{({Y}_{i}-\bar{Y})}^{2}}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mi>q</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>h</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>L</mml:mi></mml:msubsup><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msubsup><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mi>Y</mml:mi><mml:mo>¯</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:msubsup><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mi>Y</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par19">This equation assumes that the study area is composed of <italic>N</italic> units and is stratified into h ∈ [1, 2, 3<sub>……</sub>L] strata, <italic>Y</italic><sub><italic>i</italic></sub> is the value of sample <italic>i</italic>, <italic>i</italic> is the whole sample population, <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${Y}_{hi}$$\end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq1.gif"/></alternatives></inline-formula> means the value of sample <italic>i</italic> in stratum <italic>h</italic>, <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\bar{Y}}_{h}$$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mi>Y</mml:mi><mml:mo>¯</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq2.gif"/></alternatives></inline-formula> is the mean value of stratum <italic>h</italic>, <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{Y}$$\end{document}</tex-math><mml:math id="M8"><mml:mover accent="true"><mml:mi>Y</mml:mi><mml:mo>¯</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq3.gif"/></alternatives></inline-formula> is the mean value of population. A higher value of <italic>q</italic> indicates a stronger spatially stratified heterogeneity of <italic>Y</italic>; it means that factor <italic>X</italic> can explain 100 * <italic>q</italic> % of the temporal-spatial pattern of <italic>Y</italic>. Moreover, according to the rules and principle of GeoDetector, the <italic>X</italic> should be a categorized variable instead of numerical variables<sup><xref ref-type="bibr" rid="CR28">28</xref>,<xref ref-type="bibr" rid="CR43">43</xref></sup>, therefore, the continuous meteorological factors were categorized into six levels using <italic>k</italic>-means cluster algorithm.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>LSTM neural networks</title>
+                <p id="Par20">LSTM is a special kind of RNN (Recurrent Neural Network). RNN has the ability to learn patterns and extract features from data that contains time series due to the special structure in context layer, a hidden layer with repeated connections in neurons. LSTM has been widely used in recognitions of image and speech due to its high accuracy<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup>. However, it remains a long-term dependency issue in RNN due to the exploding gradient problem resulting from gradient propagation over many layers. LSTM was designed to overcome this issue through cell-and-gate structure, which enables the LSTM to learn when they forget and update memory<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. LSTM has a better performance than tradition statistical models and has been applied in predicting such as emotional state, traffic flow, and disease, especially when combined with convolutional neural networks<sup><xref ref-type="bibr" rid="CR47">47</xref>–<xref ref-type="bibr" rid="CR49">49</xref></sup>.</p>
+                <p id="Par21">In order to learn the pattern in time series, the conventional deep feed-forward neural networks must be improved (Fig. <xref rid="Fig5" ref-type="fig">5a</xref>). The lack of connections among the nodes within the hidden layers may result in failure in dealing with time series problems. Therefore, RNN, a kind of neural network equipped with recurrent connections in the neurons of hidden layers, has been developed and improved<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. Figure <xref rid="Fig5" ref-type="fig">5b,c</xref> show a basic RNN architecture and unfolded architecture in time. The connections or loops can transport feedback from the previous state to the current state, allowing information to be passed between the consecutive temporal steps. Hence, it can be seen that the output not only depends on the input information, but also depends on the output of the previous hidden layer.<fig id="Fig5"><label>Figure 5</label><caption><p>Architecture of artificial neural networks. (<bold>a</bold>) Architecture of feed-forward neural network. (<bold>b</bold>) Architecture of RNN. (<bold>c</bold>) Architecture of RNN unfolded in time.</p></caption><graphic xlink:href="41598_2019_54495_Fig5_HTML" id="d29e1202"/></fig></p>
+                <p id="Par22">The model in Fig. <xref rid="Fig5" ref-type="fig">5a</xref> can be expressed mathematically as follows:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${h}_{t}={f}_{1}({w}_{1}{x}_{t}+{b}_{1})$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${y}_{t}={f}_{2}({w}_{2}{h}_{t}+{b}_{2})$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <italic>x</italic><sub><italic>t</italic></sub> is the input variable, <italic>h</italic><sub><italic>t</italic></sub> is the temporary variable in hidden layer or hidden state; <italic>w</italic><sub>1</sub> and <italic>w</italic><sub>2</sub> are weight metrics from input layer to hidden layer and from hidden layer to output layer, respectively; <italic>b</italic><sub>1</sub> and <italic>b</italic><sub>2</sub> are bias vectors; <italic>f</italic><sub>1</sub>, and <italic>f</italic><sub>2</sub> are hidden and output activation functions, respectively. The activation functions are nonlinear functions, making the neural networks approximate any continual nonlinear functions with any precision<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>.</p>
+                <p id="Par23">The mathematical expressions of the feedback loop in a hidden layer are as follow equations (Fig. <xref rid="Fig5" ref-type="fig">5b</xref>):<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${h}_{t}={f}_{1}({w}_{t1}{x}_{t}+{w}_{t2}{h}_{t-1}+{b}_{1})$$\end{document}</tex-math><mml:math id="M14" display="block"><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${y}_{t}={f}_{2}({w}_{2}{h}_{t}+{b}_{2})$$\end{document}</tex-math><mml:math id="M16" display="block"><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where the <italic>w</italic><sub><italic>t</italic>1</sub>, <italic>w</italic><sub><italic>t</italic>2</sub> and <italic>w</italic><sub>2</sub> are weight matrices; <italic>b</italic><sub>1</sub>, <italic>b</italic><sub>2</sub>, <italic>f</italic><sub>1</sub> and <italic>f</italic><sub>2</sub> have the same meaning as described for conventional deep feed-forward neural networks. The same weights are used at each time step to calculate the output <italic>y</italic><sub><italic>t</italic></sub>.The loop makes the <italic>h</italic><sub><italic>t</italic></sub> at time <italic>t</italic> calculated not only by the input <italic>x</italic><sub><italic>t</italic></sub> but also by the previous output <italic>h</italic><sub><italic>t</italic>−1</sub>, which is consistent with the unfolded RNN architecture shown in Fig. <xref rid="Fig5" ref-type="fig">5b</xref>. It can be seen that the temporal information is continuously reflected over time. The RNN is actually a very deep neural network trained using back propagation algorithm in time direction. However, due to the vanishing gradient or exploding gradient problems that always occur in very deep neural networks<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>, the accuracy of the RNN deteriorates quickly over a long period of time, which means the RNN can only store short-term memory. This is called the long-term dependency of RNNs.</p>
+                <p id="Par24">The LSTM was proposed by Sepp Hochreiter and Jürgen Schmidhuber to overcome the long-term dependency of RNNs in 1997<sup><xref ref-type="bibr" rid="CR53">53</xref></sup>. For LSTM, the hidden neurons of the RNN are replaced by LSTM memory units (Fig. <xref rid="Fig6" ref-type="fig">6a)</xref>. The memory units are mainly composed of three gates and one cell (Fig. <xref rid="Fig6" ref-type="fig">6b</xref>), which aim to control information flow and storage, including input gate, forget gate, output gate and memory cell. The system is determined by the state of these structures at each time step whether the information will be retained. Thus, the LSTM could hold important short-term memory for a longer period by the filtration of the memory units.<fig id="Fig6"><label>Figure 6</label><caption><p>Architecture of LSTM. (<bold>a</bold>) Architecture of LSTM. (<bold>b</bold>) Architecture of LSTM memory unit.</p></caption><graphic xlink:href="41598_2019_54495_Fig6_HTML" id="d29e1604"/></fig></p>
+                <p id="Par25">The formulas for calculations in the memory unit are performed as follows:<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${i}_{t}=\sigma ({w}_{i1}{x}_{t}+{w}_{i2}{h}_{t-1}+{b}_{i})$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:msub><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${f}_{t}=\sigma ({w}_{f1}{x}_{t}+{w}_{f2}{h}_{t-1}+{b}_{f})$$\end{document}</tex-math><mml:math id="M20" display="block"><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${o}_{t}=\sigma ({w}_{o1}{x}_{t}+{w}_{o2}{h}_{t-1}+{b}_{0})$$\end{document}</tex-math><mml:math id="M22" display="block"><mml:msub><mml:mrow><mml:mi>o</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${g}_{t}=tanh({w}_{g1}{x}_{t}+{w}_{g2}{h}_{t-1}+{b}_{g})$$\end{document}</tex-math><mml:math id="M24" display="block"><mml:msub><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>h</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${c}_{t}={f}_{t}\ast {c}_{t-1}+{i}_{t}\ast {g}_{t}$$\end{document}</tex-math><mml:math id="M26" display="block"><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∗</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∗</mml:mo><mml:msub><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${h}_{t}={o}_{t}\ast \,\tanh \,({c}_{t})$$\end{document}</tex-math><mml:math id="M28" display="block"><mml:msub><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>o</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∗</mml:mo><mml:mspace width=".25em"/><mml:mi>tanh</mml:mi><mml:mspace width=".10em"/><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula>here, the input gate <italic>i</italic><sub><italic>t</italic></sub>, forget gate <italic>f</italic><sub><italic>t</italic></sub>, and output gate <italic>o</italic><sub><italic>t</italic></sub> take variable <italic>x</italic><sub><italic>t</italic></sub> and previous hidden state <italic>h</italic><sub><italic>t−</italic>1</sub> as inputs at time <italic>t</italic>, multiplied with the weight matrices <inline-formula id="IEq4"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${w}_{i1}$$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq4.gif"/></alternatives></inline-formula>
+<inline-formula id="IEq5"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${w}_{i2}\,{w}_{f1}\,{w}_{f2}\,{w}_{o1}{x}_{t}\,{w}_{o2}$$\end{document}</tex-math><mml:math id="M32"><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mn>2</mml:mn><mml:mspace width=".25em"/></mml:mrow></mml:msub><mml:mspace width=".25em"/><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mspace width=".25em"/><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mspace width=".25em"/><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi><mml:mn>1</mml:mn><mml:mspace width=".25em"/></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mspace width=".25em"/><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq5.gif"/></alternatives></inline-formula>, then plus bias vectors <italic>b</italic><sub><italic>i</italic></sub>, <italic>b</italic><sub><italic>f</italic></sub>, <italic>b</italic><sub><italic>o</italic>,</sub>
+<italic>σ</italic> means the sigmoid function <inline-formula id="IEq6"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sigma (z)={(1+{e}^{-z})}^{-1}$$\end{document}</tex-math><mml:math id="M34"><mml:mi>σ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>z</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mi>z</mml:mi></mml:mrow></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq6.gif"/></alternatives></inline-formula>, generating the outputs of these gates range from 0 to 1. The larger output value is, the more information allowed, i.e., if the output value equals 1, it means the information is fully entered. The <italic>c</italic><sub><italic>t</italic>−1</sub> means previous state of memory cell; the * indicates element-wise multiplication. <italic>tanh</italic> is a kind of activation function such that, <inline-formula id="IEq7"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$tanh(z)=\frac{{e}^{x}-{e}^{-x}}{{e}^{x}+{e}^{-x}}$$\end{document}</tex-math><mml:math id="M36"><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>h</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>z</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mi>x</mml:mi></mml:msup><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mi>x</mml:mi></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq7.gif"/></alternatives></inline-formula>. The calculations are as follows: after inputting the candidate information <italic>g</italic><sub><italic>t</italic></sub> to be stored, the actual amount stored is determined by the input gate <italic>i</italic><sub><italic>t</italic></sub>. Then in the Eq.(<xref rid="Equ10" ref-type="">10</xref>), the final cell sta<sub><italic>t</italic></sub>e <italic>c</italic><sub><italic>t</italic></sub> depends on the sum of the amount of newly input informat<italic>i</italic>on <italic>i</italic><sub><italic>t</italic></sub> * <italic>g</italic><sub><italic>t</italic></sub> and the amount of forgotten information <inline-formula id="IEq8"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{f}_{t}\ast {c}_{t-1}$$\end{document}</tex-math><mml:math id="M38"><mml:mspace width=".25em"/><mml:msub><mml:mrow><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>∗</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq8.gif"/></alternatives></inline-formula>, <italic>h</italic><sub><italic>t</italic></sub> means the final output of the memory unit, controlled by the output gate <italic>o</italic><sub><italic>t</italic></sub> and the final cell state <italic>c</italic><sub><italic>t</italic></sub>. The LSTM model was constructed in Python 3.5 and was supported by modules including Tensorflow, Numpy, and Pandas.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Model design</title>
+                <p id="Par26">In order to identify the risk meteorological factors of the temporal-spatial distribution of HFMD in Guangxi, the preprocessed data were sent to GeoDetector, including weekly normalized cases and categorized meteorological factors in each region. In addition, the weekly cases need to be normalized in data preprocessing due to the collected data cannot cover all the hospitals, so the case number instead of incidence was adopted as dependent variable. However, the number of cases between regions had large spatial differences because of the uneven distribution of hospitals and population. To solve this issue, we standardizes the number of cases to eliminate dimension. Z-score was adopted to normalize the data. The Z-score calculation method is:<disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${x}^{\ast }=\frac{x-\bar{x}}{\sqrt{\frac{1}{N}}{\sum }_{i=1}^{N}{({x}_{i}-\bar{x})}^{2}}$$\end{document}</tex-math><mml:math id="M40" display="block"><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>⁎</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>x</mml:mi><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mi>x</mml:mi><mml:mo>¯</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac></mml:mrow></mml:msqrt><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:msubsup><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mi>x</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par27">The environmental factors are different in different regions of Guangxi. To minimize the effect of spatial scale and improve the accuracy of LSTM, the region-specific model was built for each of the 14 regions of Guangxi. After the identification by using GeoDetector, the identified impacting factors and weekly cases in any given region were used as inputs and outputs, respectively. To develop the LSTM prediction model, the hospital data of the first 80 weeks work as the training set and the last 24 weeks work as the testing set. The number of input layers was equal to the number of identified factors and the neuron in hidden layer was set as 10 after experiments and adjustments. Because the output is a continuous variable, the output layer was set as 1 without activation functions. To study the model with continuous variables, the root-mean-square error was set as loss function. Backward propagation with gradient descent was used as a training algorithm to minimize the result of loss function. The optimization of the LSTM prediction model had three parts: L2 regularization, moving average model and exponential decay learning rate. First, in order to avoid the overfitting problem caused by the limited number of data, L2 regularization was adopted in loss function as shown in equations<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>, where <italic>c</italic><sub>0</sub> denotes the original loss function; the ε denotes the regularization rate, usually set as a very small number, such as 0.0001 in this paper; and <inline-formula id="IEq9"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sum _{w}{w}^{2}$$\end{document}</tex-math><mml:math id="M42"><mml:munder><mml:mo>∑</mml:mo><mml:mi>w</mml:mi></mml:munder><mml:msup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:math><inline-graphic xlink:href="41598_2019_54495_Article_IEq9.gif"/></alternatives></inline-formula> indicates the sum of squares of all the weights.<disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${c}_{0}=\frac{1}{n}\mathop{\sum }\limits_{i=1}^{n}{({y}_{pi}-{y}_{i})}^{2}$$\end{document}</tex-math><mml:math id="M44" display="block"><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>n</mml:mi></mml:mfrac><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:mrow><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{c}}={c}_{0}+\frac{\varepsilon }{2n}\sum _{w}{w}^{2}$$\end{document}</tex-math><mml:math id="M46" display="block"><mml:mi mathvariant="normal">c</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mi>ε</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mi>n</mml:mi></mml:mrow></mml:mfrac><mml:mrow><mml:munder><mml:mo>∑</mml:mo><mml:mi>w</mml:mi></mml:munder><mml:mrow><mml:msup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par28">Second, the moving average model is always accompanied by a gradient decay algorithm to improve the capacity and extensiveness of the final output model. Shadow variables following the variables are held and updated with iterations by the model to control the update rate<sup><xref ref-type="bibr" rid="CR55">55</xref></sup>, after experiments, the decay rate was determined as 0.99.<disp-formula id="Equ15"><label>15</label><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$shado{w}_{i}={\rm{decay}}\_{\rm{rate}}\ast shado{w}_{i-1}+(1-{\rm{decay}}\_{\rm{rate}})\ast variabl{e}_{i}$$\end{document}</tex-math><mml:math id="M48" display="block"><mml:mi>s</mml:mi><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="normal">decay</mml:mi><mml:mo>_</mml:mo><mml:mi mathvariant="normal">rate</mml:mi><mml:mo>∗</mml:mo><mml:mi>s</mml:mi><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi mathvariant="normal">decay</mml:mi><mml:mo>_</mml:mo><mml:mi mathvariant="normal">rate</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>∗</mml:mo><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>b</mml:mi><mml:mi>l</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ15.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par29">The other important parameter in neural networks is learning rate. It has been proved that dynamic rate has a better effect than fixed rate in training<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. Therefore, in this study, an exponential decay learning rate was adopted, and the mathematical mechanism is expressed in Eq. (<xref rid="Equ16" ref-type="">16</xref>). A better solution is using a higher learning rate at first, called learning rate base, then it will decrease gradually as the increase in global step over time. The learning rate base was determined as 0.1, and the decay rate was 0.99 after experiments.<disp-formula id="Equ16"><label>16</label><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{learning}}\_{\rm{rate}}={\rm{base}}\_{\rm{rate}}\ast {(decay\_rate)}^{\frac{global\_step}{decay\_steps}}$$\end{document}</tex-math><mml:math id="M50" display="block"><mml:mi mathvariant="normal">learning</mml:mi><mml:mo>_</mml:mo><mml:mi mathvariant="normal">rate</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">base</mml:mi><mml:mo>_</mml:mo><mml:mi mathvariant="normal">rate</mml:mi><mml:mo>∗</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi><mml:mo>_</mml:mo><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mfrac><mml:mrow><mml:mi>g</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>b</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mo>_</mml:mo><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi><mml:mo>_</mml:mo><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>p</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:math><graphic xlink:href="41598_2019_54495_Article_Equ16.gif" position="anchor"/></alternatives></disp-formula></p>
+              </sec>
+              <sec id="Sec11">
+                <title>Ethics approval</title>
+                <p id="Par30">The present study was approved by the medical and research ethics committee of Henan University (see the ethical approval in the related manuscript file), all methods were carried out in accordance with relevant guidelines and regulations. Since there were no individual information involved and the records are anonymized in this study, the approving IRB has waived the need to collect informed consent, so the informed consent was not required in the present study.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec12">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2019_54495_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>supplementary figures</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="41598_2019_54495_MOESM2_ESM.xlsx">
+                      <caption>
+                        <p>Dataset 1</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM3">
+                    <media xlink:href="41598_2019_54495_MOESM3_ESM.xlsx">
+                      <caption>
+                        <p>Dataset 2</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>is available for this paper at 10.1038/s41598-019-54495-2.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This study was financially supported by the Natural Science Foundation of China (416015694 and 41601422). We thank the donor of the datasets and the participants who contributed to the data collection of HFMD cases in this study.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>J.Y.G., H.Q.S. and Y.F.K. were involved in conception and design of this study, J.Y.G. wrote the whole manuscript, H.Q.S. and Y.F.K. suggested the method to be used and revised the whole manuscript. L.Z.L. provided the original data. R.M., Y.E.H. and N.H. participated in data organization, J.J.L., J.J.Z. and Y.Z. participated in revision and submission of this research. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>The meteorological dataset used during the current study are available from China Meteorological Data Sharing Service System (<ext-link ext-link-type="uri" xlink:href="http://data.cma.cn/">http://data.cma.cn/</ext-link>). The hospital datasets can be extracted as presented in the website of data collection, or contact the corresponding author on reasonable request.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par32">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Jin-feng</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>Yan-Sha</given-names>
+                    </name>
+                    <name>
+                      <surname>Christakos</surname>
+                      <given-names>George</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Wei-Zhong</given-names>
+                    </name>
+                    <name>
+                      <surname>Liao</surname>
+                      <given-names>Yi-Lan</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Zhong-Jie</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Xiao-Zhou</given-names>
+                    </name>
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>Sheng-Jie</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Hong-Yan</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hand, foot and mouth disease: spatiotemporal transmission and climate</article-title>
+                  <source>International Journal of Health Geographics</source>
+                  <year>2011</year>
+                  <volume>10</volume>
+                  <issue>1</issue>
+                  <fpage>25</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1476-072X-10-25</pub-id>
+                  <pub-id pub-id-type="pmid">21466689</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>GX</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatiotemporal risk mapping of hand, foot and mouth disease and its association with meteorological variables in children under 5 years</article-title>
+                  <source>Epidemiology and Infection</source>
+                  <year>2017</year>
+                  <volume>145</volume>
+                  <fpage>2912</fpage>
+                  <lpage>2920</lpage>
+                  <pub-id pub-id-type="doi">10.1017/s0950268817001984</pub-id>
+                  <?supplied-pmid 28891456?>
+                  <pub-id pub-id-type="pmid">28891456</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ventarola</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Bordone</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Silverberg</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Update on hand-foot-and-mouth disease</article-title>
+                  <source>Clinics in Dermatology</source>
+                  <year>2015</year>
+                  <volume>33</volume>
+                  <fpage>340</fpage>
+                  <lpage>346</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.clindermatol.2014.12.011</pub-id>
+                  <?supplied-pmid 25889136?>
+                  <pub-id pub-id-type="pmid">25889136</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schmidt</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lennette</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>HH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An apparently new enterovirus isolated from patients with disease of the central nervous system</article-title>
+                  <source>The Journal of infectious diseases</source>
+                  <year>1974</year>
+                  <volume>129</volume>
+                  <fpage>304</fpage>
+                  <lpage>309</lpage>
+                  <pub-id pub-id-type="doi">10.1093/infdis/129.3.304</pub-id>
+                  <?supplied-pmid 4361245?>
+                  <pub-id pub-id-type="pmid">4361245</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>K-T</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>H-L</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>S-T</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>Y-T</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>J-Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemiologic features of hand-foot-mouth disease and herpangina caused by enterovirus 71 in Taiwan, 1998-2005</article-title>
+                  <source>Pediatrics</source>
+                  <year>2007</year>
+                  <volume>120</volume>
+                  <fpage>E244</fpage>
+                  <lpage>E252</lpage>
+                  <pub-id pub-id-type="doi">10.1542/peds.2006-3331</pub-id>
+                  <?supplied-pmid 17671037?>
+                  <pub-id pub-id-type="pmid">17671037</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ang</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemiology and Control of Hand, Foot and Mouth Disease in Singapore, 2001-2007</article-title>
+                  <source>Annals Academy of Medicine Singapore</source>
+                  <year>2009</year>
+                  <volume>38</volume>
+                  <fpage>106</fpage>
+                  <lpage>112</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>Qing-Bin</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Xiao-Ai</given-names>
+                    </name>
+                    <name>
+                      <surname>Wo</surname>
+                      <given-names>Ying</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Hong-Mei</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Xiu-Jun</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Xian-Jun</given-names>
+                    </name>
+                    <name>
+                      <surname>Ding</surname>
+                      <given-names>Shu-Jun</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Xiao-Dan</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Cui</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Li-Juan</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Hao</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Hong</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Ting-Yu</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Wei</given-names>
+                    </name>
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>Wu-Chun</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circulation of Coxsackievirus A10 and A6 in Hand-Foot-Mouth Disease in China, 2009–2011</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <issue>12</issue>
+                  <fpage>e52073</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0052073</pub-id>
+                  <pub-id pub-id-type="pmid">23272213</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">National Survey of Epidemic Situation of Notifiable Communicable Diseases in 2017 (accessed on 1 January <italic>2019)</italic>, <ext-link ext-link-type="uri" xlink:href="http://www.nhc.gov.cn/jkj/s3578/201802/de926bdb046749abb7b0a8e23d929104.shtml">http://www.nhc.gov.cn/jkj/s3578/201802/de926bdb046749abb7b0a8e23d929104.shtml</ext-link> (1990).</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemiological characteristics and temporal-spatial clustering of hand,foot and mouth disease in Guangxi from 2008 to 2015. <italic>Chinese</italic></article-title>
+                  <source>Journal of Disease Control &amp; Prevention</source>
+                  <year>2017</year>
+                  <volume>21</volume>
+                  <fpage>340</fpage>
+                  <lpage>344</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>KX</given-names>
+                    </name>
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>MML</given-names>
+                    </name>
+                    <name>
+                      <surname>Chu</surname>
+                      <given-names>JJH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Developments towards antiviral therapies against enterovirus 71</article-title>
+                  <source>Drug Discovery Today</source>
+                  <year>2010</year>
+                  <volume>15</volume>
+                  <fpage>1041</fpage>
+                  <lpage>1051</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.drudis.2010.10.008</pub-id>
+                  <?supplied-pmid 20974282?>
+                  <pub-id pub-id-type="pmid">20974282</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>BY</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Forecasting the economic value of an Enterovirus 71 (EV71) vaccine</article-title>
+                  <source>Vaccine</source>
+                  <year>2010</year>
+                  <volume>28</volume>
+                  <fpage>7731</fpage>
+                  <lpage>7736</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.vaccine.2010.09.065</pub-id>
+                  <?supplied-pmid 20923711?>
+                  <pub-id pub-id-type="pmid">20923711</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Druyts-Voets</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemiological features of entero non-poliovirus isolations in Belgium 1980–94</article-title>
+                  <source>Epidemiology and infection</source>
+                  <year>1997</year>
+                  <volume>119</volume>
+                  <fpage>71</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.1017/s0950268897007656</pub-id>
+                  <?supplied-pmid 9287946?>
+                  <pub-id pub-id-type="pmid">9287946</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Onozuka</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hashizume</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The influence of temperature and humidity on the incidence of hand, foot, and mouth disease in Japan</article-title>
+                  <source>Science of the Total Environment</source>
+                  <year>2011</year>
+                  <volume>410</volume>
+                  <fpage>119</fpage>
+                  <lpage>125</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2011.09.055</pub-id>
+                  <?supplied-pmid 22014509?>
+                  <pub-id pub-id-type="pmid">22014509</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Chengdong</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatio-Temporal Pattern and Risk Factor Analysis of Hand, Foot and Mouth Disease Associated with Under-Five Morbidity in the Beijing–Tianjin–Hebei Region of China</article-title>
+                  <source>International Journal of Environmental Research and Public Health</source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <issue>4</issue>
+                  <fpage>416</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph14040416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">Zhang, X., Xu, C. &amp; Xiao, G. Space-time heterogeneity of hand, foot and mouth disease in children and its potential driving factors in Henan, China. <italic>Bmc Infectious Diseases</italic><bold>18</bold>, 10.1186/s12879-018-3546-2 (2018).</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Qin</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Zuo</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatial-temporal mapping of hand foot and mouth disease and the long-term effects associated with climate and socio-economic variables in Sichuan Province, China from 2009 to 2013</article-title>
+                  <source>Science of the Total Environment</source>
+                  <year>2016</year>
+                  <volume>563</volume>
+                  <fpage>152</fpage>
+                  <lpage>159</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2016.03.159</pub-id>
+                  <?supplied-pmid 27135578?>
+                  <pub-id pub-id-type="pmid">27135578</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Bo, Y.-C., Song, C., Wang, J.-F. &amp; Li, X.-W. Using an autologistic regression model to identify spatial risk factors and spatial risk patterns of hand, foot and mouth disease (HFMD) in Mainland China. <italic>Bmc Public Health</italic><bold>14</bold>, 10.1186/1471-2458-14-358 (2014).</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Meimei</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Weiwei</given-names>
+                    </name>
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>Shilu</given-names>
+                    </name>
+                    <name>
+                      <surname>Jia</surname>
+                      <given-names>Lei</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>Fengchao</given-names>
+                    </name>
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>Xiaochuan</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Non-Linear Association between Exposure to Ambient Temperature and Children’s Hand-Foot-and-Mouth Disease in Beijing, China</article-title>
+                  <source>PLOS ONE</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <issue>5</issue>
+                  <fpage>e0126171</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0126171</pub-id>
+                  <pub-id pub-id-type="pmid">26010147</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>Bryan Inho</given-names>
+                    </name>
+                    <name>
+                      <surname>Ki</surname>
+                      <given-names>Hyunok</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>Sunhee</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>Eunhi</given-names>
+                    </name>
+                    <name>
+                      <surname>Chun</surname>
+                      <given-names>Byung Chul</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of Climatic Factors on Hand, Foot, and Mouth Disease in South Korea, 2010-2013</article-title>
+                  <source>PLOS ONE</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <issue>6</issue>
+                  <fpage>e0157500</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0157500</pub-id>
+                  <pub-id pub-id-type="pmid">27285850</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Application of seasonal auto-regressive integrated moving average model in forecasting the incidence of hand-foot-mouth disease in Wuhan, China</article-title>
+                  <source>Journal of Huazhong University of Science and Technology-Medical Sciences</source>
+                  <year>2017</year>
+                  <volume>37</volume>
+                  <fpage>842</fpage>
+                  <lpage>848</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11596-017-1815-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Si</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ECG-based identity recognition via deterministic learning</article-title>
+                  <source>Biotechnology &amp; Biotechnological Equipment</source>
+                  <year>2018</year>
+                  <volume>32</volume>
+                  <fpage>769</fpage>
+                  <lpage>777</lpage>
+                  <pub-id pub-id-type="doi">10.1080/13102818.2018.1428500</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A paired neural network model for tourist arrival forecasting</article-title>
+                  <source>Expert Systems with Applications</source>
+                  <year>2018</year>
+                  <volume>114</volume>
+                  <fpage>588</fpage>
+                  <lpage>614</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.eswa.2018.08.025</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kucukoglu</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Simsek</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Simsek</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multidimensional Bernstein polynomials and Bezier curves: Analysis of machine learning algorithm for facial expression recognition based on curvature</article-title>
+                  <source>Applied Mathematics and Computation</source>
+                  <year>2019</year>
+                  <volume>344</volume>
+                  <fpage>150</fpage>
+                  <lpage>162</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.amc.2018.10.012</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Zhang, B. <italic>et al</italic>. Machine Learning Algorithms for Risk Prediction of Severe Hand-Foot-Mouth Disease in Children. <italic>Scientific Reports</italic><bold>7</bold>, 10.1038/s41598-017-05505-8 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <mixed-citation publication-type="other">Liu, G. <italic>et al</italic>. Developing a Machine Learning System for Identification of Severe Hand, Foot, and Mouth Disease from Electronic Medical Record Data. <italic>Scientific Reports</italic><bold>7</bold>, 10.1038/s41598-017-16521-z (2017).</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xiang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The model of back-propagation neural network about meteorological factors and hand-foot-mouth disease in Baoshan District,Shanghai City. <italic>Chinese</italic></article-title>
+                  <source>Journal of Disease Control &amp; Prevention</source>
+                  <year>2015</year>
+                  <volume>19</volume>
+                  <fpage>138</fpage>
+                  <lpage>141</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J-F</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>T-L</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>B-J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A measure of spatial stratified heterogeneity</article-title>
+                  <source>Ecological Indicators</source>
+                  <year>2016</year>
+                  <volume>67</volume>
+                  <fpage>250</fpage>
+                  <lpage>256</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ecolind.2016.02.052</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Geodetector: Principle and prospective</article-title>
+                  <source>Acta Geographica Sinica</source>
+                  <year>2017</year>
+                  <volume>72</volume>
+                  <fpage>116</fpage>
+                  <lpage>134</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Temporal-spatial variation of hand-foot-mouth disease in 2008 to 2014,China. <italic>Journal of Nanjing Medical University</italic></article-title>
+                  <source>Natural Sciences Edition</source>
+                  <year>2018</year>
+                  <volume>38</volume>
+                  <fpage>380</fpage>
+                  <lpage>385</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">Liao, Y., Ouyang, R., Wang, J. &amp; Xu, B. A study of spatiotemporal delay in hand, foot and mouth disease in response to weather variations based on SVD: a case study in Shandong Province, China. <italic>Bmc Public Health</italic><bold>15</bold>, 10.1186/s12889-015-1446-6 (2015).</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Impact of temperature variation between adjacent days on childhood hand, foot and mouth disease during April and July in urban and rural Hefei</article-title>
+                  <source>China.</source>
+                  <year>2016</year>
+                  <volume>60</volume>
+                  <fpage>883</fpage>
+                  <lpage>890</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00484-015-1082-y</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Suminski</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                    <name>
+                      <surname>Poston</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                    <name>
+                      <surname>Market</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyder</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sara</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Meteorological conditions are associated with physical activities performed in open-air settings</article-title>
+                  <source>International Journal of Biometeorology</source>
+                  <year>2008</year>
+                  <volume>52</volume>
+                  <fpage>189</fpage>
+                  <lpage>197</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00484-007-0110-y</pub-id>
+                  <?supplied-pmid 17566789?>
+                  <pub-id pub-id-type="pmid">17566789</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Associations between extreme precipitation and childhood hand, foot and mouth disease in urban and rural areas in Hefei, China</article-title>
+                  <source>Science of the Total Environment</source>
+                  <year>2014</year>
+                  <volume>497</volume>
+                  <fpage>484</fpage>
+                  <lpage>490</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2014.08.006</pub-id>
+                  <?supplied-pmid 25150743?>
+                  <pub-id pub-id-type="pmid">25150743</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>Junni</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>Alana</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Qiyong</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>Yehuan</given-names>
+                    </name>
+                    <name>
+                      <surname>Weinstein</surname>
+                      <given-names>Phil</given-names>
+                    </name>
+                    <name>
+                      <surname>Bi</surname>
+                      <given-names>Peng</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Effect of Meteorological Variables on the Transmission of Hand, Foot and Mouth Disease in Four Major Cities of Shanxi Province, China: A Time Series Data Analysis (2009-2013)</article-title>
+                  <source>PLOS Neglected Tropical Diseases</source>
+                  <year>2015</year>
+                  <volume>9</volume>
+                  <issue>3</issue>
+                  <fpage>e0003572</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pntd.0003572</pub-id>
+                  <pub-id pub-id-type="pmid">25742504</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>Zhicheng</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Lin</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Wangjian</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Dingmei</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Shicheng</given-names>
+                    </name>
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>Yuantao</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting the hand, foot, and mouth disease incidence using search engine query data and climate variables: an ecological study in Guangdong, China</article-title>
+                  <source>BMJ Open</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <issue>10</issue>
+                  <fpage>e016263</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2017-016263</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatiotemporal decomposition and risk determinants of hand, foot and mouth disease in Henan, China</article-title>
+                  <source>Science of the Total Environment</source>
+                  <year>2019</year>
+                  <volume>657</volume>
+                  <fpage>509</fpage>
+                  <lpage>516</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.12.039</pub-id>
+                  <?supplied-pmid 30550914?>
+                  <pub-id pub-id-type="pmid">30550914</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Spatiotemporal data analysis in geography</article-title>
+                  <source>Acta Geographica Sinica</source>
+                  <year>2014</year>
+                  <volume>69</volume>
+                  <fpage>1326</fpage>
+                  <lpage>1345</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sha</surname>
+                      <given-names>LI</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>SHU</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Research and realization of Kriging interpolation based on spatial-temporal variogram</article-title>
+                  <source>Computer Engineering and Application</source>
+                  <year>2011</year>
+                  <volume>47</volume>
+                  <fpage>25</fpage>
+                  <lpage>26,38</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sha</surname>
+                      <given-names>LI</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>SHU</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhengquan</surname>
+                      <given-names>XU</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Study on Spatial-temporal Kriging Interpolation of Monthly Precipitation in Three Provinces of Northeast China</article-title>
+                  <source>Hydrology</source>
+                  <year>2011</year>
+                  <volume>31</volume>
+                  <fpage>31</fpage>
+                  <lpage>35</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zuo</surname>
+                      <given-names>Shudi</given-names>
+                    </name>
+                    <name>
+                      <surname>Dai</surname>
+                      <given-names>Shaoqing</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Yaying</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>Jianfeng</given-names>
+                    </name>
+                    <name>
+                      <surname>Ren</surname>
+                      <given-names>Yin</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of Heavy Metal Sources in the Soil of Riverbanks Across an Urbanization Gradient</article-title>
+                  <source>International Journal of Environmental Research and Public Health</source>
+                  <year>2018</year>
+                  <volume>15</volume>
+                  <issue>10</issue>
+                  <fpage>2175</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph15102175</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Geo-detection of factors controlling spatial patterns of heavy metals in urban topsoil using multi-source data</article-title>
+                  <source>Science of the Total Environment</source>
+                  <year>2018</year>
+                  <volume>643</volume>
+                  <fpage>451</fpage>
+                  <lpage>459</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.06.224</pub-id>
+                  <?supplied-pmid 29945080?>
+                  <pub-id pub-id-type="pmid">29945080</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fei</surname>
+                      <given-names>Xufeng</given-names>
+                    </name>
+                    <name>
+                      <surname>Lou</surname>
+                      <given-names>Zhaohan</given-names>
+                    </name>
+                    <name>
+                      <surname>Christakos</surname>
+                      <given-names>George</given-names>
+                    </name>
+                    <name>
+                      <surname>Ren</surname>
+                      <given-names>Zhouqiao</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Qingmin</given-names>
+                    </name>
+                    <name>
+                      <surname>Lv</surname>
+                      <given-names>Xiaonan</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The association between heavy metal soil pollution and stomach cancer: a case study in Hangzhou City, China</article-title>
+                  <source>Environmental Geochemistry and Health</source>
+                  <year>2018</year>
+                  <volume>40</volume>
+                  <issue>6</issue>
+                  <fpage>2481</fpage>
+                  <lpage>2490</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10653-018-0113-0</pub-id>
+                  <pub-id pub-id-type="pmid">29679198</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J-F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Geographical Detectors-Based Health Risk Assessment and its Application in the Neural Tube Defects Study of the Heshun Region, China</article-title>
+                  <source>International Journal of Geographical Information Science</source>
+                  <year>2010</year>
+                  <volume>24</volume>
+                  <fpage>107</fpage>
+                  <lpage>127</lpage>
+                  <pub-id pub-id-type="doi">10.1080/13658810802443457</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">He, K., Zhang, X., Ren, S., Sun, J. &amp; Ieee. In <italic>2016 Ieee Conference on Computer Vision and Pattern Recognition IEEE Conference on Computer Vision and Pattern Recognition</italic> 770–778 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Graves, A., Mohamed, A.-r., Hinton, G. &amp; Ieee. In <italic>2013 Ieee International Conference on Acoustics</italic>, <italic>Speech and Signal Processing International Conference on Acoustics Speech and Signal Processing ICASSP</italic> 6645–6649 (2013).</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baek</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>HY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ModAugNet: A new forecasting framework for stock market index value with an overfitting prevention LSTM module and a prediction LSTM module</article-title>
+                  <source>Expert Systems with Applications</source>
+                  <year>2018</year>
+                  <volume>113</volume>
+                  <fpage>457</fpage>
+                  <lpage>480</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.eswa.2018.07.019</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Woellmer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Schuller</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Eyben</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Rigoll</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Combining Long Short-Term Memory and Dynamic Bayesian Networks for Incremental Emotion-Sensitive Artificial Listening</article-title>
+                  <source>Ieee Journal of Selected Topics in Signal Processing</source>
+                  <year>2010</year>
+                  <volume>4</volume>
+                  <fpage>867</fpage>
+                  <lpage>881</lpage>
+                  <pub-id pub-id-type="doi">10.1109/jstsp.2010.2057200</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <mixed-citation publication-type="other">Chen, Z., Liu, Y. &amp; Liu, S. In <italic>Proceedings of the 36th Chinese Control Conference</italic> Chinese <italic>Control Conference</italic> (eds T. Liu &amp; Q. Zhao) 3876–3881 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>Yangseon</given-names>
+                    </name>
+                    <name>
+                      <surname>Roh</surname>
+                      <given-names>Jae-Hwan</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>Ha</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Early Forecasting of Rice Blast Disease Using Long Short-Term Memory Recurrent Neural Networks</article-title>
+                  <source>Sustainability</source>
+                  <year>2017</year>
+                  <volume>10</volume>
+                  <issue>2</issue>
+                  <fpage>34</fpage>
+                  <pub-id pub-id-type="doi">10.3390/su10010034</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <mixed-citation publication-type="other">Fausett, L. V. <italic>Fundamentals of Neural Networks: Architectures</italic>, <italic>Algorithms and Applications</italic>. (Prentice-Hall, 1994).</mixed-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <mixed-citation publication-type="other">Chen, T. &amp; Chen, H. J. I. T. N. N. Universal approximation to nonlinear operators by neural networks with arbitrary activation functions and its application to dynamical systems. <bold>6</bold>, 911–917 (1995).</mixed-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bengio</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Simard</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Frasconi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>%J IEEE Transactions on Neural Networks</article-title>
+                  <source>Learning long-term dependencies with gradient descent is difficult.</source>
+                  <year>1994</year>
+                  <volume>5</volume>
+                  <fpage>157</fpage>
+                  <lpage>166</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hochreiter</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidhuber</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long short-term memory</article-title>
+                  <source>Neural computation</source>
+                  <year>1997</year>
+                  <volume>9</volume>
+                  <fpage>1735</fpage>
+                  <lpage>1780</lpage>
+                  <pub-id pub-id-type="doi">10.1162/neco.1997.9.8.1735</pub-id>
+                  <?supplied-pmid 9377276?>
+                  <pub-id pub-id-type="pmid">9377276</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <mixed-citation publication-type="other">Xu, Z., Chang, X., Xu, F. &amp; Zhang, H. J. I. T. o. N. N. &amp; Systems, L. L1/2 regularization: a thresholding representation theory and a fast solver. <bold>23</bold>, 1013–1027 (2012).</mixed-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <mixed-citation publication-type="other">Khashei, M., Bijari, M. &amp; Ardali, G. A. R. J. N. Improvement of Auto-Regressive Integrated Moving Average models using Fuzzy logic and Artificial Neural Networks (ANNs). <bold>72</bold>, 956–967 (2009).</mixed-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anthimopoulos</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Christodoulidis</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ebner</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Christe</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Mougiakakou</surname>
+                      <given-names>SJIT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>o. M. I. Lung Pattern Classification for Interstitial Lung Diseases Using a Deep Convolutional Neural</article-title>
+                  <source>Network.</source>
+                  <year>2016</year>
+                  <volume>35</volume>
+                  <fpage>1207</fpage>
+                  <lpage>1216</lpage>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

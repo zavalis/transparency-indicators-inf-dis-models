@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:51:26Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8287417" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8287417</identifier>
+        <datestamp>2021-07-20</datestamp>
+        <setSpec>frontpubhealth</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="brief-report">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Public Health</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Public Health</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Public Health</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Public Health</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2296-2565</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8287417</article-id>
+              <article-id pub-id-type="pmcid">PMC8287417</article-id>
+              <article-id pub-id-type="pmc-uid">8287417</article-id>
+              <article-id pub-id-type="pmid">34291025</article-id>
+              <article-id pub-id-type="doi">10.3389/fpubh.2021.661615</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Public Health</subject>
+                  <subj-group>
+                    <subject>Brief Research Report</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Exploring Feasibility of Multivariate Deep Learning Models in Predicting COVID-19 Epidemic</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Shi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="c001">
+                    <sup>*</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/1088839/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Paul</surname>
+                    <given-names>Rajib</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Janies</surname>
+                    <given-names>Daniel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Murphy</surname>
+                    <given-names>Keith</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Feng</surname>
+                    <given-names>Tinghao</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/1378762/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Thill</surname>
+                    <given-names>Jean-Claude</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/1324128/overview"/>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><sup>1</sup><institution>Department of Public Health Sciences, University of North Carolina at Charlotte</institution>, <addr-line>Charlotte, NC</addr-line>, <country>United States</country></aff>
+              <aff id="aff2"><sup>2</sup><institution>School of Data Science, University of North Carolina at Charlotte</institution>, <addr-line>Charlotte, NC</addr-line>, <country>United States</country></aff>
+              <aff id="aff3"><sup>3</sup><institution>Department of Bioinformatics and Genomics, University of North Carolina at Charlotte</institution>, <addr-line>Charlotte, NC</addr-line>, <country>United States</country></aff>
+              <aff id="aff4"><sup>4</sup><institution>Department of Computer Science, University of North Carolina at Charlotte</institution>, <addr-line>Charlotte, NC</addr-line>, <country>United States</country></aff>
+              <aff id="aff5"><sup>5</sup><institution>Department of Geography and Earth Sciences, University of North Carolina at Charlotte</institution>, <addr-line>Charlotte, NC</addr-line>, <country>United States</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p>Edited by: Weida Tong, National Center for Toxicological Research (FDA), United States</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p>Reviewed by: Justin Zhan, University of Arkansas, United States; Subhas Khajanchi, Presidency University, India; Saeed Hamood Alsamhi, Ibb University, Yemen; Bruno Ramos Nascimento, Universidade Federal de Minas Gerais, Brazil</p>
+                </fn>
+                <corresp id="c001">*Correspondence: Shi Chen <email>schen56@uncc.edu</email></corresp>
+                <fn fn-type="other" id="fn001">
+                  <p>This article was submitted to Infectious Diseases – Surveillance, Prevention and Treatment, a section of the journal Frontiers in Public Health</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>05</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>05</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>9</volume>
+              <elocation-id>661615</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>08</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>5</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2021 Chen, Paul, Janies, Murphy, Feng and Thill.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>Chen, Paul, Janies, Murphy, Feng and Thill</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p><bold>Background:</bold> Mathematical models are powerful tools to study COVID-19. However, one fundamental challenge in current modeling approaches is the lack of accurate and comprehensive data. Complex epidemiological systems such as COVID-19 are especially challenging to the commonly used mechanistic model when our understanding of this pandemic rapidly refreshes.</p>
+                <p><bold>Objective:</bold> We aim to develop a data-driven workflow to extract, process, and develop deep learning (DL) methods to model the COVID-19 epidemic. We provide an alternative modeling approach to complement the current mechanistic modeling paradigm.</p>
+                <p><bold>Method:</bold> We extensively searched, extracted, and annotated relevant datasets from over 60 official press releases in Hubei, China, in 2020. Multivariate long short-term memory (LSTM) models were developed with different architectures to track and predict multivariate COVID-19 time series for 1, 2, and 3 days ahead. As a comparison, univariate LSTMs were also developed to track new cases, total cases, and new deaths.</p>
+                <p><bold>Results:</bold> A comprehensive dataset with 10 variables was retrieved and processed for 125 days in Hubei. Multivariate LSTM had reasonably good predictability on new deaths, hospitalization of both severe and critical patients, total discharges, and total monitored in hospital. Multivariate LSTM showed better results for new and total cases, and new deaths for 1-day-ahead prediction than univariate counterparts, but not for 2-day and 3-day-ahead predictions. Besides, more complex LSTM architecture seemed not to increase overall predictability in this study.</p>
+                <p><bold>Conclusion:</bold> This study demonstrates the feasibility of DL models to complement current mechanistic approaches when the exact epidemiological mechanisms are still under investigation.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>COVID-19</kwd>
+                <kwd>epidemic</kwd>
+                <kwd>modeling</kwd>
+                <kwd>deep learning</kwd>
+                <kwd>multivariate</kwd>
+              </kwd-group>
+              <counts>
+                <fig-count count="2"/>
+                <table-count count="1"/>
+                <equation-count count="0"/>
+                <ref-count count="20"/>
+                <page-count count="6"/>
+                <word-count count="4145"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Mathematical models are important tools to understanding and predicting COVID-19 epidemic dynamics. A recent literature search in the NIH LitCovid online COVID-19 database revealed more than 6,000 peer-reviewed published modeling papers on the current pandemic (<xref rid="B1" ref-type="bibr">1</xref>). Among them, most models are in the mechanistic modeling paradigm. The most common mechanistic modeling approach is to construct a compartmental SEIR (Susceptible-Exposed-Infected-Recovery)-type model, fit the published case series to the model, and quantify key parameters such as basic reproduction number (<italic>R</italic><sub>0</sub>) (<xref rid="B2" ref-type="bibr">2</xref>–<xref rid="B4" ref-type="bibr">4</xref>). Other less-common approaches include cross-scale modeling, agent-based modeling, and more recent advances in machine learning and deep learning (DL) models.</p>
+              <p>Mathematical models of epidemic dynamics, regardless of types, eventually all rely on the fundamental elements, the data, to operate. While there are adequate studies on various modeling approaches, relatively less emphasis has been put on the neglected yet critical data quality and reliability issues (<xref rid="B5" ref-type="bibr">5</xref>). Given the novelty of the SARS-CoV-2 pathogen, the definition of “cases” is not consistently and accurately defined across time and space. Case numbers are contingent on testing capacity and our knowledge about this novel pathogen, especially at the beginning the disease. COVID-19 has at least two distinct clinical stages: severe (which requires hospitalization including intensive care, use of ventilator) and non-severe (which usually does not involve intensive medical care) (<xref rid="B6" ref-type="bibr">6</xref>). These two stages have distinct consequences on the transition of the epidemiological state, especially from susceptible to infected, and from infected to recovery or death. Without the understanding and incorporation of these clinical insights, it is difficult to accurately model COVID-19 epidemic dynamics.</p>
+              <p>Many non-traditional data and metadata are available but are not well-explored for the complex socioepidemiological system of COVID-19 (<xref rid="B5" ref-type="bibr">5</xref>). In general, more data can help characterize complex systems with more resilience to input data bias. Previously neglected metadata provide additional insights in characterizing the unprecedented pandemic. However, these data are generally not well-organized, scattered across different places, and not in standardized reporting format (e.g., in a table or database).</p>
+              <p>DL models are based on deep neural networks which include convolution neural network (CNN), recurrent neural network (RNN), and generative adversarial network (GAN). Compared to non-data-driven methods, which usually focus on epidemiological mechanisms such as transmission and recovery, data-driven models are not driven by man-made assumptions about these mechanisms. Such assumptions may be misleading because a novel pandemic has many unknowns both clinically and epidemiologically. According to the Universal Approximation Theorem (<xref rid="B7" ref-type="bibr">7</xref>), even simple neural networks can approximate complex functions. Among various DL models, RNNs are particularly useful to handle time series data and have demonstrated their high performance in audio-visual analytics. Long short-term memory (LSTM) models, a type of RNN, have “remember” and “forget” gates, which are essential for LSTM to learn the high-level representation in time series data by adjusting how much information to keep (i.e., useful information) or forget (i.e., unuseful information) from previous time steps (<xref ref-type="fig" rid="F1">Figure 1</xref>). After all, the fundamental goal of modeling infectious disease dynamics is to accurately represent the functional response of the epi-curve across time and space. Nevertheless, most current DL approaches on COVID-19 modeling are still univariate on reported case series (<xref rid="B8" ref-type="bibr">8</xref>–<xref rid="B11" ref-type="bibr">11</xref>), making them prone to the same data quality issue as other approaches.</p>
+              <fig id="F1" position="float">
+                <label>Figure 1</label>
+                <caption>
+                  <p>Schematic data mining and multivariate deep learning (long short-term memory LSTM) workflow for COVID-19 modeling.</p>
+                </caption>
+                <graphic xlink:href="fpubh-09-661615-g0001"/>
+              </fig>
+              <p>In this study, we explore and demonstrate the feasibility of data-driven DL models, especially multivariate LSTM, on characterizing COVID-19 epidemic with additional metadata mining steps in Hubei, China.</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <title>Methods</title>
+              <sec>
+                <title>Data Mining</title>
+                <p>Hubei Province, China, was selected in this study because it had a complete COVID-19 epidemic from starting to ending, a relatively large first wave of outbreak, and reasonable amount of information regarding the epidemic, although data quality was inconsistent at the beginning of the first wave of the epidemic. We checked the official Hubei Province COVID-19 press release from January 25, 2020 to May 15, 2020 (<xref rid="B12" ref-type="bibr">12</xref>). More than 60 publicly available government press releases were screened and archived. After the initial check, we designed a specific regular expression (regex) in Python to crawl the corresponding webpages and automatically extract information from each press release. We built a customized lookup table for the regex to identify specific data of interest, such as numbers of in-hospital monitoring, from the press release.</p>
+              </sec>
+              <sec>
+                <title>Data Preprocessing</title>
+                <p>The raw data extracted from the press releases were not consistent. We retrospectively fit missing values with extrapolation, assuming the first case was on January 1, 2020 in this study as the first “suspected” case was reported around then. The last official press release was published on May 11, 2020, ~5 weeks after the lift of lockdown in Wuhan, Hubei, marking the end of the first wave of the epidemic.</p>
+                <p>After data preprocessing, all variables were fitted to the same length of 125d. To fit the DL model, the multivariate time series were required to be the same length. We applied a min-max scaler to transform continuous variable values to percentage and fed them into the DL workflow for increased efficiency. The percentage outputs from the DL model were then transformed back to continuous values to compare with actual observed values and evaluate model performance.</p>
+              </sec>
+              <sec>
+                <title>Multivariate Deep-Learning Model Based on LSTM</title>
+                <p>The preprocessed multivariate time series were fed into the LSTM model. There were two types of multivariate LSTM settings; the first would use one variable (e.g., incident case numbers) as an output (i.e., dependent variable), while all other variables were used as predictors (i.e., independent/input variables). In this study, we used multivariate time series at the same time without differentiating the predictor (input) and response variable (output). The time series of the cumulative case, in theory, should have the same predictive power as the incident case, as the cumulative case is the sum of daily incident cases from the beginning to the current time step. However, the cumulative time series has less fluctuation than daily counts, as cumulatives were monotonically increasing. This property might have influences on LSTM performance.</p>
+                <p>LSTM requires the user to specify the number of past time steps and number of future steps to operate. These are known as “hyperparameters” in machine learning and DL models, and are user-definable values. In this study, we chose 3-day past time steps to predict 3 days ahead as a demonstration on how LSTM handled temporal autocorrelation. Shorter periods (e.g., 1 day) may ignore temporal patterns in the data, while longer periods (e.g., 7 days) may be too long for COVID-19 prognosis; therefore, 3 days were a reasonable hyperparameter of time step in LSTM. The dataset was then transformed in a series of 3-day moving windows, making the new dataset substantially larger than the original data with more information about the COVID-19 epidemic, especially potential temporal autocorrelation. This larger dataset was important for LSTM to learn high-level representation of the data and improve model performance.</p>
+                <p>LSTM architecture in this study included multiple stacked encoders and decoders. In theory, more complex architecture (i.e., more encoders and decoders) would reinforce the model to better learn the representation of the data (e.g., temporal pattern) and increase predictability, but might bear the risk of overfitting (<xref rid="B9" ref-type="bibr">9</xref>). We developed a simpler one-encoder one-decoder LSTM (E1D1) and a more complex two-encoder two-decoder LSTM (E2D2). We aimed to investigate whether more complex architecture E2D2 necessarily increase predictability in multivariate LSTM.</p>
+                <p>As a baseline comparison, we also developed individual univariate LSTM to predict incident cases, cumulative cases, and new deaths: the three mostly used variables in COVID-19 models. We compared model performance of these univariate LSTMs with results from multivariate LSTM. An illustration of the complete analytical workflow is shown in <xref ref-type="fig" rid="F1">Figure 1</xref>. Detailed model architecture is provided in the <xref ref-type="supplementary-material" rid="SM1">Supplementary Material</xref>.</p>
+                <p>To run LSTM models, first 80% of the data was used to train LSTM. The trained model was then tested with the remaining 20% unseen data to evaluate model performance. Mean absolute error (MAE) was chosen for LSTM model performance evaluation by calculating the error between predicted value from the model and actual reported value in the data. Each variable derived from data mining and preprocessing steps would have its own MAE. The LSTM model was trained with 25 epochs, with the Huber loss function and Adam optimization method. We used Python 3.7 with additional Scikit Learn and Tensorflow 2.0 packages.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <sec>
+                <title>Data Mining</title>
+                <p>After screening published COVID-19 situation reports and press releases, 10 variables were included in this study. These variables were: new confirmed cases, new deaths, new discharges from hospital, cumulative confirmed cases, cumulative hospitalization of COVID-19 patients in severe stage defined by the National Health Commission of China) (<xref rid="B6" ref-type="bibr">6</xref>), cumulative hospitalizations in critical stage, cumulative deaths, cumulative discharges, number of individuals tracked (i.e., contact tracing), and number of individuals with high likelihood of infection and being monitored in hospital (i.e., suspected cases). While case and death numbers were common variables in current COVID-19 models, we suggested that numbers of hospitalizations, discharges, tracing, and suspected cases could help depict the COVID-19 epidemic more comprehensively.</p>
+                <p>Additional data cleaning and extrapolation and interpolation were performed to make sure all time series of the 10 included variables had the same length of 125d, from January 1, 2020 to May 11, 2020. The dimension of the dataset was 125 by 10.</p>
+              </sec>
+              <sec>
+                <title>Multivariate and Univariate LSTM</title>
+                <p>Both LSTMs in E1D1 and E2D2 architectures (<xref ref-type="fig" rid="F2">Figure 2</xref> left and right panels, respectively) showed no evidence of overfitting or underfitting in either training (blue curve) or validation set (orange curve) in 25 epochs. Model losses diminished quickly after a few (&lt;10) epochs in all scenarios. E2D2, the more complicated architecture, had a smaller difference between training and validation set, which was more desirable than E1D1.</p>
+                <fig id="F2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Comparison of model loss (multivariate E1D1 vs. E2D2).</p>
+                  </caption>
+                  <graphic xlink:href="fpubh-09-661615-g0002"/>
+                </fig>
+                <p>The detailed MAEs of each LSTM architecture are provided in <xref rid="T1" ref-type="table">Table 1</xref>. For prediction of new cases number, more complicated E2D2 architecture provided better accuracy in 1-d ahead (687 vs. 919), but substantially worse in 2-d ahead (1,168 vs. 470), and again better prediction (1,039 vs. 1,383) in 3-d ahead prediction than simpler E1D1. For total cumulative cases, less complicated E1D1 architecture provided consistently better predictability than E2D2 across all three prediction steps (1, 2, and 3d). Because the Health Commission of China had changed the definition of “confirmed case” on February 2, 2020 to include clinical cases based on CT scan (<xref rid="B6" ref-type="bibr">6</xref>), and the case numbers had a large peak, which might not reflect the actual epidemic dynamics and proposed challenge for models to deal with, especially in the middle of a time series (i.e., “spikes”). Therefore, we also provided relative MAEs based on the maximum number of each variable (<xref rid="T1" ref-type="table">Table 1</xref>, values in parenthesis) to evaluate the model performance more comprehensively.</p>
+                <table-wrap id="T1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Multivariate and Univariate Model Performance Comparison Between Different LSTM Architectures based on Mean Absolute Error (MAE).</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead>
+                      <tr>
+                        <th valign="top" align="left" style="border-bottom: thin solid #000000;" rowspan="1" colspan="1">
+                          <bold>LSTM architecture</bold>
+                        </th>
+                        <th valign="top" align="center" colspan="3" style="border-bottom: thin solid #000000;" rowspan="1">
+                          <bold>MAE E1D1</bold>
+                        </th>
+                        <th valign="top" align="center" colspan="3" style="border-bottom: thin solid #000000;" rowspan="1">
+                          <bold>MAE E2D2</bold>
+                        </th>
+                      </tr>
+                      <tr>
+                        <th valign="top" align="left" rowspan="1" colspan="1">
+                          <bold>Day/Variable</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>Day1</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>Day2</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>Day3</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>Day1</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>Day2</bold>
+                        </th>
+                        <th valign="top" align="center" rowspan="1" colspan="1">
+                          <bold>Day3</bold>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">New cases</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">919 (6.19)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">470 (3.17)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,383 (9.32)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">687 (4.63)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,168 (7.87)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,039 (7.00)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Total cases</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">842 (1.24)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,555 (5.22)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,905 (8.67)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,686 (3.94)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,914 (5.74)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">7,866 (11.54)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">New deaths</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">11 (4.55)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">8 (3.31)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">18 (7.44)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0 (0.00)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15 (6.20)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">20 (8.26)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">New discharges</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">594 (23.11)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">320 (12.45)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">184 (7.16)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">416 (16.19)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">302 (11.75)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">255 (9.92)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Hospital severe</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">670 (7.21)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">215 (2.31)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">84 (0.90)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">669 (7.20)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">299 (3.22)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">144 (1.55)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Hospital critical</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">130 (5.22)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">58 (2.33)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">55 (2.21)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">209 (8.39)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">78 (3.13)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">18 (0.72)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Total deaths</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,579 (35.00)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,144 (25.35)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">898 (19.90)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,431 (31.72)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,084 (24.02)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">873 (19.35)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Total discharges</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">689 (1.07)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">626 (0.97)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">27 (0.04)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,304 (3.57)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,526 (2.37)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,611 (5.60)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Total tracked</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17,487 (6.17)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,669 (2.00)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">20,359 (7.19)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">398 (0.14)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17,917 (6.33)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">25,764 (9.10)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Total monitored</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,213 (2.85)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,889 (3.72)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,486 (3.20)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,930 (2.48)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,426 (5.70)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,460 (7.03)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">New cases univariate</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,235 (8.32)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">63 (0.42)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">394 (2.65)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">877 (5.91)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">190 (1.28)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">60 (0.40)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Total cases univariate</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,720 (8.40)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">705 (1.03)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,640 (5.34)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,814 (4.13)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,042 (1.32)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,920 (2.82)</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">New deaths univariate</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">21 (8.68)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2 (0.83)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5 (2.07)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">14 (5.79)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5 (2.07)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4 (1.65)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <p><italic>The first 10 variables were in the same multivariate LSTM model. The last three univariate LSTMs were different models based on their respective univariate inputs. Numbers in parentheses represented relative values as percentage</italic>.</p>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>We further examined whether time series of other variables could be predicted more accurately because of higher input data reliability. Multivariate LSTM performed reasonably well in predicting new deaths, hospitalizations of patients in both severe and critical condition, as well as total number of discharges from the hospital. Once again, we did not observe that either E1D1 or E2D2 was superior to the other in all three prediction time steps. Therefore, multiple architectures might need to be developed for different tasks (e.g., immediate or short-term prediction). Total deaths and new discharges were having the worst predictability among the 10 included variables. While in theory total deaths and total discharges were the cumulative sum of daily deaths and daily discharges, data-driven LSTM seemed to treat daily and total numbers independently, thus resulting in vastly different predictability of these variables.</p>
+                <p>In addition, univariate LSTM performed substantially better in 2d- and 3d-ahead prediction of the incident case, total case, and new death than their multivariate LSTM counterparts, no matter what architecture was chosen (E1D1 or E2D2). Multivariate LSTM only outperformed univariate models in 1d-ahead prediction (<xref rid="T1" ref-type="table">Table 1</xref>) in both E1D1 and E2D2 architecture. Nevertheless, because of the inconsistency in “case” definition, the seemingly better predictability of univariate LSTM on case numbers should be interpreted with caution.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>This DL approach is able to tackle some modeling challenges in current complex epidemiological systems such as the COVID-19 pandemic. In summary, not all variables had the same predictive power in the multivariate LSTM that we developed. New cases, total cases, new death, hospitalization of severe patients, hospitalization of critical condition patients, total discharged, total tracked, and total monitored in hospital had much better predictability than new discharge and total death. Univariate LSTM performed better than multivariate model in predicting both new case, total case, and new death for 2d- and 3d-ahead prediction, but multivariate LSTM outperformed at 1d-ahead prediction. We also tested 5d-ahead prediction, and the results were similar. In addition, more complex E2D2 architecture did not provide substantial performance boost over simpler E1D1 architecture. While the definitions of “case” were not consistent over time and space, we suggested that new death could be a more robust variable to track and predict during the COVID-19 epidemic. In general, there was no “one-size-fits-all” solution of LSTM architecture, and we suggest future case studies to develop several different architectures in parallel to identify the most appropriate one. In addition, LSTM is just one type of RNN besides other alternatives such as gated recurrent network (<xref rid="B8" ref-type="bibr">8</xref>).</p>
+              <p>LSTM is relatively easy to operate and straightforward to quickly adjust LSTM architecture by adding, removing, or revising existing layers, which are the building blocks for LSTM. More importantly, the multivariate LSTM developed in this study can be easily extended to further incorporate more data such as in the MIDAS GitHub repository (<xref rid="B13" ref-type="bibr">13</xref>). Other non-traditional data, such as social media, sensor-based data, and drone imaging, can be incorporated into the LSTM model to better characterize multiple aspects of COVID-19 dynamics (<xref rid="B14" ref-type="bibr">14</xref>–<xref rid="B19" ref-type="bibr">19</xref>). Decentralized blockchain techniques and robotics could also provide rich and secure inputs for data-driven models such as LSTM (<xref rid="B19" ref-type="bibr">19</xref>, <xref rid="B20" ref-type="bibr">20</xref>).</p>
+              <p>Unlike mechanistic models, data-driven DL models generally do not require thorough understanding of disease mechanisms to work with, as DL is directly driven by underlying data. We suggest the data mining step is therefore essential: more data will increase model resilience against biases in case numbers (e.g., inconsistent case definition in early phase of COVID-19). Recent blockchain technology could facilitate data archiving and mitigate data tampering issues (<xref rid="B19" ref-type="bibr">19</xref>).</p>
+              <p>For DL, existing models developed in a certain region can be applied to other regions with distinct sociocultural backgrounds <italic>via</italic> the transfer learning technique (<xref rid="B10" ref-type="bibr">10</xref>). This is another key potency specific to DL models. Modeling and comparing epidemic dynamics across sociocultural backgrounds in different regions of the world is a challenging task to mechanistic models. Many sociocultural differences (e.g., public attitude toward interventions and willingness of compliance to these interventions) may drive COVID-19 dynamics differently, but the influence of these factors is difficult to quantify in mechanistic models. However, for neural-network-based DL models, we can fix existing network layers and “transfer” this pretrained model from one region to another with distinct sociocultural backgrounds.</p>
+              <p>There are some downsides of data-driven DL models. Most prominently, DL models generally do not have good interpretability, compared to explicit mechanistic models. Therefore, DL models generally cannot derive important parameters such as <italic>R</italic><sub>0</sub>, which is the key in mechanistic models. We suggest that DL models are more appropriate for prediction than interpretation. The other technical challenge is that although DL modeling process has been substantially simplified with Keras and Tensorflow libraries, it still requires a substantial amount of programming experiences and skills. The modeling approach, process, and results could be opaque to stakeholders and concerned citizens.</p>
+            </sec>
+            <sec sec-type="conclusions" id="s5">
+              <title>Conclusion</title>
+              <p>In this study, we describe a data-driven workflow on COVID-19 modeling, including data mining, cleaning, preprocessing, and DL with multivariate RNNs. We suggest that the multivariate LSTMs demonstrated in this study are not intended to replace the current mechanistic modeling approaches. DL models, when meticulously developed on robust datasets, are able to complement existing modeling approaches by providing a different angle on the complex epidemiological systems such as COVID-19.</p>
+            </sec>
+            <sec sec-type="data-availability" id="s6">
+              <title>Data Availability Statement</title>
+              <p>The original contributions generated for this study are included in the article/<xref ref-type="sec" rid="s8">Supplementary Material</xref>, further inquiries can be directed to the corresponding author/s.</p>
+            </sec>
+            <sec id="s7">
+              <title>Author Contributions</title>
+              <p>TF performed original data mining and pre-processing. SC, KM, and RP developed deep learning model. RP, DJ, and J-CT supervised the study. SC wrote the manuscript. All authors discussed and approved the final manuscript for submission.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="conf1">
+              <title>Conflict of Interest</title>
+              <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank the helpful discussions of the research idea with colleagues at the MIDAS network.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="financial-disclosure">
+                <p><bold>Funding.</bold> This study was supported by the Models of Infectious Disease Agent Study (MIDAS) network supplementary grant (MIDASUP-05). The data mining part of this study was internally supported by the UNC Charlotte.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="supplementary-material" id="s8">
+              <title>Supplementary Material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/fpubh.2021.661615/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fpubh.2021.661615/full#supplementary-material</ext-link></p>
+              <supplementary-material content-type="local-data" id="SM1">
+                <media xlink:href="Table_1.DOCX">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <label>1.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname><given-names>Q</given-names></name><name><surname>Allot</surname><given-names>A</given-names></name><name><surname>Lu</surname><given-names>Z</given-names></name></person-group>. <article-title>Keep up with the latest coronavirus research</article-title>. <source>Nature.</source> (<year>2020</year>) <volume>579</volume>:<fpage>193</fpage>. <pub-id pub-id-type="doi">10.1038/d41586-020-00694-1</pub-id><?supplied-pmid 32157233?><pub-id pub-id-type="pmid">32157233</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kermack</surname><given-names>WO</given-names></name><name><surname>McKendrick</surname><given-names>AG</given-names></name></person-group>. <article-title>A contribution to the mathematical theory of epidemics</article-title>. <source>Proc Royal Soc A.</source> (<year>1927</year>) <volume>115</volume>:<fpage>700</fpage>–<lpage>21</lpage>
+<pub-id pub-id-type="doi">10.1098/rspa.1927.0118</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hoertel</surname><given-names>N</given-names></name><name><surname>Blachier</surname><given-names>M</given-names></name><name><surname>Blanco</surname><given-names>C</given-names></name><name><surname>Olfson</surname><given-names>M</given-names></name><name><surname>Massetti</surname><given-names>M</given-names></name><name><surname>Rico</surname><given-names>MS</given-names></name><etal/></person-group>. <article-title>A stochastic agent-based model of the SARS-CoV-2 epidemic in France</article-title>. <source>Nat Med.</source> (<year>2020</year>) <volume>26</volume>:<fpage>1417</fpage>–<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-020-1001-6</pub-id><?supplied-pmid 33067584?><pub-id pub-id-type="pmid">32665655</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wu</surname><given-names>JT</given-names></name><name><surname>Leung</surname><given-names>K</given-names></name><name><surname>Leung</surname><given-names>GM</given-names></name></person-group>. <article-title>Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study</article-title>. <source>Lancet.</source> (<year>2020</year>) <volume>395</volume>:<fpage>689</fpage>–<lpage>97</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(20)30260-9</pub-id><?supplied-pmid 32014114?><pub-id pub-id-type="pmid">32014114</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname><given-names>S</given-names></name><name><surname>Robinson</surname><given-names>P</given-names></name><name><surname>Janies</surname><given-names>D</given-names></name><name><surname>Dulin</surname><given-names>M</given-names></name></person-group>. <article-title>Four challenges associated with current mathematical modeling paradigm of infectious diseases and call for a shift</article-title>. <source>Open Forum Infect Dis.</source> (<year>2020</year>) <volume>7</volume>:<fpage>ofaa333</fpage>. <pub-id pub-id-type="doi">10.1093/ofid/ofaa333</pub-id><?supplied-pmid 32851113?><pub-id pub-id-type="pmid">32851113</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <label>6.</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>The Fifth Diagnosis and Treatment Manual of the SARS-CoV-2</collab></person-group>. <article-title>Chinese Center for Disease Prevention and Control</article-title>. Available online at: <ext-link ext-link-type="uri" xlink:href="http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11815/202002/t20200209_212396.html">http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11815/202002/t20200209_212396.html</ext-link> (accessed June 21, 2021).</mixed-citation>
+              </ref>
+              <ref id="B7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kim</surname><given-names>T</given-names></name><name><surname>Adali</surname><given-names>T</given-names></name></person-group>. <article-title>Approximation by fully complex multilayer perceptrons</article-title>. <source>Neural Comput.</source> (<year>2003</year>) <volume>15</volume>:<fpage>1641</fpage>–<lpage>66</lpage>. <pub-id pub-id-type="doi">10.1162/089976603321891846</pub-id><?supplied-pmid 12816570?><pub-id pub-id-type="pmid">12816570</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shahid</surname><given-names>F</given-names></name><name><surname>Zameer</surname><given-names>A</given-names></name><name><surname>Muneeb</surname><given-names>M</given-names></name></person-group>. <article-title>Predictions for COVID-19 with deep learning models of LSTM, GRU and Bi-LSTM</article-title>. <source>Chaos Solitons Fractals.</source> (<year>2020</year>) <volume>140</volume>:<fpage>110212</fpage>. <pub-id pub-id-type="doi">10.1016/j.chaos.2020.110212</pub-id><?supplied-pmid 32839642?><pub-id pub-id-type="pmid">32839642</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ibrahim</surname><given-names>MR</given-names></name><name><surname>Haworth</surname><given-names>J</given-names></name><name><surname>Lipani</surname><given-names>A</given-names></name><name><surname>Aslam</surname><given-names>N</given-names></name><name><surname>Cheng</surname><given-names>T</given-names></name><name><surname>Christie</surname><given-names>N</given-names></name></person-group>. <article-title>Variational-LSTM autoencoder to forecast the spread of coronavirus across the globe</article-title>. <source>PLoS ONE.</source> (<year>2021</year>) <volume>16</volume>:<fpage>e0246120</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0246120</pub-id><?supplied-pmid 33507932?><pub-id pub-id-type="pmid">33507932</pub-id></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chimmula</surname><given-names>VKR</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name></person-group>. <article-title>Time series forecasting of COVID-19 transmission in Canada using LSTM networks</article-title>. <source>Chaos Solitons Fractals.</source> (<year>2020</year>) <volume>135</volume>:<fpage>109864</fpage>. <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109864</pub-id><?supplied-pmid 32390691?><pub-id pub-id-type="pmid">32390691</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gautam</surname><given-names>Y</given-names></name></person-group>. <article-title>Transfer Learning for COVID-19 cases and deaths forecast using LSTM network</article-title>. <source>ISA Trans.</source> (<year>2021</year>). <pub-id pub-id-type="doi">10.1016/j.isatra.2020.12.057</pub-id>. [Epub ahead of print].<?supplied-pmid 33422330?><pub-id pub-id-type="pmid">33422330</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <label>12.</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>Hubei Province Government Press Release on COVID-19 Epidemic</collab></person-group>. Available online at: <ext-link ext-link-type="uri" xlink:href="http://wjw.hubei.gov.cn/bmdt/dtyw/202106/t20210621_3603964.shtml">http://wjw.hubei.gov.cn/bmdt/dtyw/202106/t20210621_3603964.shtml</ext-link> (accessed June 21, 2021).</mixed-citation>
+              </ref>
+              <ref id="B13">
+                <label>13.</label>
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><collab>Models of Infectious Disease Agent Study (MIDAS) GitHub Repository</collab></person-group>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://github.com/midas-network/covid19-scenario-modeling-hub">https://github.com/midas-network/covid19-scenario-modeling-hub</ext-link> (accessed June 21, 2021).</mixed-citation>
+              </ref>
+              <ref id="B14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname><given-names>S</given-names></name><name><surname>Zhou</surname><given-names>L</given-names></name><name><surname>Song</surname><given-names>Y</given-names></name><name><surname>Xu</surname><given-names>Q</given-names></name><name><surname>Wang</surname><given-names>P</given-names></name><name><surname>Wang</surname><given-names>K</given-names></name><etal/></person-group>. <article-title>A novel machine learning framework for comparison of viral COVID-19-related Sina Weibo and Twitter posts: workflow development and content analysis</article-title>. <source>J Med Internet Res.</source> (<year>2021</year>) <volume>23</volume>:<fpage>e24889</fpage>. <pub-id pub-id-type="doi">10.2196/24889</pub-id><?supplied-pmid 33326408?><pub-id pub-id-type="pmid">33326408</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Huang</surname><given-names>X</given-names></name><name><surname>Li</surname><given-names>Z</given-names></name><name><surname>Jiang</surname><given-names>Y</given-names></name><name><surname>Li</surname><given-names>X</given-names></name><name><surname>Porter</surname><given-names>D</given-names></name></person-group>. <article-title>Twitter reveals human mobility dynamics during the COVID-19 pandemic</article-title>. <source>PLoS ONE.</source> (<year>2020</year>) <volume>15</volume>:<fpage>e0241957</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0241957</pub-id><?supplied-pmid 33170889?><pub-id pub-id-type="pmid">33170889</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sarkar</surname><given-names>K</given-names></name><name><surname>Khajanchi</surname><given-names>S</given-names></name><name><surname>Nieto</surname><given-names>JJ</given-names></name></person-group>. <article-title>Modeling and forecasting the COVID-19 pandemic in India</article-title>. <source>Chaos Soliton Fract</source>. (<year>2020</year>) <volume>139</volume>:<fpage>110049</fpage>. <pub-id pub-id-type="doi">10.1016/j.chaos.2020.110049</pub-id><?supplied-pmid 32834603?><pub-id pub-id-type="pmid">32834603</pub-id></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <label>17.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Khajanchi</surname><given-names>S</given-names></name><name><surname>Sarkar</surname><given-names>K</given-names></name></person-group>. <article-title>Forecasting the daily and cumulative number of cases for the COVID-19 pandemic in India</article-title>. <source>Chaos.</source> (<year>2020</year>) <volume>30</volume>:<fpage>071101</fpage>. <pub-id pub-id-type="doi">10.1063/5.0016240</pub-id><?supplied-pmid 32752627?><pub-id pub-id-type="pmid">32752627</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rai</surname><given-names>RK</given-names></name><name><surname>Khajanchi</surname><given-names>S</given-names></name><name><surname>Tiwari</surname><given-names>PK</given-names></name><name><surname>Venturino</surname><given-names>E</given-names></name><name><surname>Misra</surname><given-names>AK</given-names></name></person-group>. <article-title>Impact of social media advertisements on the transmission dynamics of COVID-19 pandemic in India</article-title>. <source>J Appl Math Comput.</source> (<year>2021</year>) <volume>27</volume>:<fpage>1</fpage>–<lpage>26</lpage>. <pub-id pub-id-type="doi">10.1007/s12190-021-01507-y</pub-id><?supplied-pmid 33679275?><pub-id pub-id-type="pmid">33679275</pub-id></mixed-citation>
+              </ref>
+              <ref id="B19">
+                <label>19.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alsamhi</surname><given-names>SH</given-names></name><name><surname>Lee</surname><given-names>B</given-names></name><name><surname>Guizani</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>N</given-names></name><name><surname>Qiao</surname><given-names>Y</given-names></name><name><surname>Liu</surname><given-names>X</given-names></name></person-group>. <article-title>Blockchain for decentralized multi-drone to combat COVID-19 and future pandemics: framework and proposed solutions</article-title>. <source>Trans Emerging Tel Tech.</source> (<year>2021</year>) e4255. <pub-id pub-id-type="doi">10.1002/ett.4255</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alsamhi</surname><given-names>SH</given-names></name><name><surname>Lee</surname><given-names>B</given-names></name></person-group>. <article-title>Blockchain-empowered multi-robot collaboration to fight COVID-19 and future pandemics</article-title>. <source>IEEE Access.</source> (<year>2021</year>) <volume>9</volume>:<fpage>44173</fpage>–<lpage>97</lpage>. <pub-id pub-id-type="doi">10.1109/ACCESS.2020.3032450</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

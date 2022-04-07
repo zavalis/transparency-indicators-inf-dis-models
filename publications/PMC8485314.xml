@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:48:47Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8485314" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8485314</identifier>
+        <datestamp>2021-10-01</datestamp>
+        <setSpec>phenaturepg</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Indian J Phys Proc Indian Assoc Cultiv Sci (2004)</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Indian J Phys Proc Indian Assoc Cultiv Sci (2004)</journal-id>
+              <journal-title-group>
+                <journal-title>Indian Journal of Physics and Proceedings of the Indian Association for the Cultivation of Science (2004)</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0973-1458</issn>
+              <issn pub-type="epub">0974-9845</issn>
+              <publisher>
+                <publisher-name>Springer India</publisher-name>
+                <publisher-loc>New Delhi</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8485314</article-id>
+              <article-id pub-id-type="pmcid">PMC8485314</article-id>
+              <article-id pub-id-type="pmc-uid">8485314</article-id>
+              <article-id pub-id-type="pmid">34611386</article-id>
+              <article-id pub-id-type="publisher-id">2195</article-id>
+              <article-id pub-id-type="doi">10.1007/s12648-021-02195-x</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Machine learning predictions of COVID-19 second wave end-times in Indian states</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kondapalli</surname>
+                    <given-names>Anvesh Reddy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Koganti</surname>
+                    <given-names>Hanesh</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Challagundla</surname>
+                    <given-names>Sai Krishna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Guntaka</surname>
+                    <given-names>Chaitanya Suhaas Reddy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Biswas</surname>
+                    <given-names>Soumyajyoti</given-names>
+                  </name>
+                  <address>
+                    <email>soumyajyoti.b@srmap.edu.in</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label>Department of Computer Science and Engineering, SRM University-AP, Amaravati, Andra Pradesh 522502 India </aff>
+                <aff id="Aff2"><label>2</label>Department of Physics, SRM University-AP, Amaravati, Andra Pradesh 522502 India </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>1</day>
+                <month>10</month>
+                <year>2021</year>
+              </pub-date>
+              <fpage>1</fpage>
+              <lpage>9</lpage>
+              <history>
+                <date date-type="received">
+                  <day>21</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>26</day>
+                  <month>8</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Indian Association for the Cultivation of Science 2021</copyright-statement>
+                <license>
+                  <license-p>This article is made available via the PMC Open Access Subset for unrestricted research re-use and secondary analysis in any form or by any means with acknowledgement of the original source. These permissions are granted for the duration of the World Health Organization (WHO) declaration of COVID-19 as a global pandemic.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The estimate of the remaining time of an ongoing wave of epidemic spreading is a critical issue. Due to the variations of a wide range of parameters in an epidemic, for simple models such as Susceptible-Infected-Removed (SIR) model, it is difficult to estimate such a time scale. On the other hand, multidimensional data with a large set attributes are precisely what one can use in statistical learning algorithms to make predictions. Here we show, how the predictability of the SIR model changes with various parameters using a supervised learning algorithm. We then estimate the condition in which the model gives the least error in predicting the duration of the first wave of the COVID-19 pandemic in different states in India. Finally, we use the SIR model with the above mentioned optimal conditions to generate a training data set and use it in the supervised learning algorithm to estimate the end-time of the ongoing second wave of the pandemic in different states in India.</p>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Epidemic models</kwd>
+                <kwd>Machine learning</kwd>
+                <kwd>Percolation</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">Since the outbreak of the COVID-19 pandemic [<xref ref-type="bibr" rid="CR1">1</xref>], the estimate of a time-scale for the end of a wave of pandemic outbreak has undoubtedly become an outstanding challenge. Nevertheless, due to the variations of a wide range of parameters, such as the rate of spreading, the contact network of the individuals, various mitigation measures, etc., it is very difficult to make such an estimate [<xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR11">11</xref>]. However, a multidimensional set of data is often used in statistical learning approaches for making predictions [<xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR13">13</xref>]. Indeed, such predictions have been attempted in a wide range of cases, such as financial time series, weather data, medical applications and many other physical systems [<xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR17">17</xref>]. There have been multiple earlier attempts in using machine learning approaches for predicting epidemic spreading in the context of COVID-19 (see e.g., [<xref ref-type="bibr" rid="CR21">21</xref>, <xref ref-type="bibr" rid="CR22">22</xref>]) as well. However, to have a proper estimate, a large set of training data is needed to be fed to the supervised learning algorithm. This is often a major hurdle to overcome for a pandemic such as the present one, the like of which is not seen in a century.</p>
+              <p id="Par3">To address this issue, we first consider a simplified model of epidemic spreading, called the Susceptible-Infected-Removed (SIR) model [<xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR20">20</xref>] and estimate its predictability using a supervised learning algorithm, by varying various parameters of the SIR model. We then find the condition under which the model is best suited to make ‘predictions’ about the first wave of the COVID-19 pandemic in different states in India. Since in most of these cases, the first and the second waves are separated by a period of low infection rates, the end-time of the first wave can be well defined. Therefore, it is possible to make an error estimate for the ‘prediction’ of the first wave end-time. The optimal condition of the model that ‘predicts’ the end of the first wave can then be used to generate a ‘synthetic’ training data set of substantial size. This ‘synthetic’ training data set can then be used to make predictions for the ongoing second wave. The use of synthetic data for enhancing prediction capability of ML algorithms is a well known technique (see e.g., [<xref ref-type="bibr" rid="CR23">23</xref>]). By increasing the size of the training data set substantially, this technique enables the ML algorithm to make stable predictions.</p>
+              <p id="Par4">Certainly, there are multiple issues in using the first-wave data for the optimization of the training set. Particularly, the two waves are, of course, different in several aspects: effects of vaccinations, changes in the norms of travel restrictions, presence of mutant variants of the virus, etc. One outcome of these variations would be the changes in the maximum values of the daily infection rates between the two waves. As is evident from the data in India [<xref ref-type="bibr" rid="CR24">24</xref>], the peak height of the second wave was about four times larger than the peak height of the first wave. Therefore, we normalize the data by the peak height, which necessarily assumes that the peak for the second wave has passed, in each of the cases where we make the end-time predictions.</p>
+              <p id="Par5">The rest of the paper is organized as follows: First we describe the SIR model and the machine learning methods used for making the predictions in the model (Sect. <xref rid="Sec2" ref-type="sec">2</xref>). In Sect. <xref rid="Sec3" ref-type="sec">3</xref>, we present the simulation results, describing the variations in predictability of the SIR model under different conditions (testing rate, site dilution). Then in Sec. <xref rid="Sec6" ref-type="sec">4</xref>, we use the ML algorithm to make predictions of the end-time of the second wave of the pandemic for some states in India. Finally, we discuss and conclude in Sect. <xref rid="Sec7" ref-type="sec">5</xref>.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Model and methods</title>
+              <p id="Par6">The SIR model is a well studied model for epidemic spreading [<xref ref-type="bibr" rid="CR18">18</xref>]. Although a simple model, this and its variants have been widely popular for epidemic spreading studies [<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR20">20</xref>]. The model assumes that the total population is divided into three groups - Susceptible: denoting the individuals who can get infected by the virus but are not yet infected, Infected: denoting the individuals who are currently infected and can infect the susceptible population and Removed: denoting the population who were already infected by the virus and do not affect the evolution of the spreading dynamics any more. For the case of COVID-19, it is not entirely conclusive whether an individual can get infected more than once. However, in our study we have assumed it to be the case.</p>
+              <p id="Par7">There are several variants of SIR-like models that are applied in the case of COVID-19 spreading, specifically those concerning the imposition of social distancing measures and travel restrictions (see e.g., [<xref ref-type="bibr" rid="CR25">25</xref>–<xref ref-type="bibr" rid="CR28">28</xref>], see also [<xref ref-type="bibr" rid="CR29">29</xref>] for a review on effects of travel restrictions). However, in our case we have considered the simplest version of the SIR model, since the data for the additional states (e.g., exposed, isolated individuals) are not available for comparisons.</p>
+              <p id="Par8">We consider the model on a two dimensional square lattice, where each site represents the location of an individual who can be in one of the three states mentioned above. An infected individual can, with certain probability, infect one of their eight neighbors (four nearest neighbors and four diagonal neighbors) if that neighbor is in the susceptible state. An infected individual remains in that state for a given duration of time, during which they can infect other susceptible individuals. Following that duration, the infected individual enters the Removed state, where they no longer participate in the spreading dynamics.</p>
+              <p id="Par9">In one time step of the simulation, every individual is selected once, and their states are attempted for a possible update. The updates are done in a parallel updating scheme, such that a given update comes into effect in the following time step. If an individual is in the susceptible state and one of the eight neighbors is infected, then the susceptible individual can be infected with probability <italic>p</italic>. If an infected individual has remained in that state for <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau$$\end{document}</tex-math><mml:math id="M2"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq1.gif"/></alternatives></inline-formula> time steps, then that individual is put in the removed state. Here we keep <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau =14$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mi>τ</mml:mi><mml:mo>=</mml:mo><mml:mn>14</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq2.gif"/></alternatives></inline-formula> , and the value of <italic>p</italic> is fixed at a randomly chosen value between 0.3 to 0.8 from a uniform distribution for each realization of the model.</p>
+              <p id="Par10">The number of infected individuals at a time <italic>t</italic>, denoted by <italic>I</italic>(<italic>t</italic>), represents what is usually referred to as the ‘active cases’. The time derivative of the susceptible (<italic>S</italic>(<italic>t</italic>)) individuals, <italic>dS</italic>(<italic>t</italic>)/<italic>dt</italic>, is essentially the number of new infections in a day (at <italic>t</italic>). Both of these quantities start from a low value. Initially, these quantities are identical and start from a low value. The initial infection is chosen randomly and uniformly between 10 and 20 for each simulation, independent of the system size. Both of these quantities then increase with time, reach a peak and then eventually decrease to zero. The model does not show multiple waves of infection rates, nor does it account for the effects of vaccination or restriction imposed in interactions.</p>
+              <p id="Par11">While it is straightforward to get an exact solution for the mean field version of the model and also to numerically estimate the above mentioned quantities in other topologies (including the square lattice considered here), the actual situation is far more complex, and the available data sets are limited. Particularly, just the absence of tests for the individuals without symptoms and/or access to such medical facilities, would distort the data for the number of infections and other related quantities. Also, the topology of a square lattice is a simplified one and would at the very least include ‘disorder’ in terms of unoccupied sites. We first investigate the effects of these factors in predictability of the SIR model. For the prediction, we use a supervised machine learning algorithm, particularly the Random Forest algorithm. This is an ensemble of decision tress, and the predictions in the model are made using the majority of the predictions of the decision trees. The various attributes that we use for the training of the algorithm are: daily infection, daily recovery and the number of active cases at a particular time. The target variable for the prediction is the remaining time before the daily infection number goes below 5% of the peak value. In the Random-forest, we used 1000 estimators and kept the maximum depth at 15. The results are stable with small variations around these parameters. Following the training of the algorithm with a training set of 200 ensembles (each ensemble represents the full time series of the different quantities mentioned from the start to the end of the spreading dynamics), each having a randomly chosen infection rate and initial infection number, in the way outlined above. Then the trained algorithm is used to make predictions for a different set of 100 ensembles. Of course, there are multiple other factors that are not captured in the model or data; for example the effects of social distancing measures, quarantines, asymptomatic individuals, exposed individuals who were not showing symptoms yet and so on. However, since the relevant data for these parameters are not available for comparisons, we could not use it for this study.</p>
+              <p id="Par12">In Fig. <xref rid="Fig1" ref-type="fig">1</xref>, a typical time series of the infection rate (normalized by the peak height) is shown. The actual remaining time and the machine learning (ML) predicted remaining times, at every instance, are also shown. The root-mean-squared fluctuations between the actual remaining time and the predicted remaining time at every instance give an estimate for the error in prediction. In the following, we first estimate the error in predictions i.e., the efficiency of the ML predictions under different conditions of variable testing rate and disorder in the SIR model. Then we use the model as training set to make predictions for the end of the second wave of the COVID-19 pandemic in different states in India.<fig id="Fig1"><label>Fig. 1</label><caption><p>The time variation of the daily infection rate (normalized) that starts from a low values, reaches a peak and then declines and the corresponding ML predictions for the time remaining before the end of infections are shown for a single run of the SIR model. The actual remaining time (straight line) is also shown, and the root-mean-square deviation between the predicted and the actual time gives the error in the prediction (Color figure online)</p></caption><graphic xlink:href="12648_2021_2195_Fig1_HTML" id="MO1"/></fig></p>
+            </sec>
+            <sec id="Sec3">
+              <title>Simulation results</title>
+              <p id="Par13">Here we describe the simulation results of the SIR model of epidemic spreading and estimate the variations of its predictability with different parameters of the model, using supervised machine learning algorithm.</p>
+              <sec id="Sec4">
+                <title>ML predictability of SIR model with variable testing</title>
+                <p id="Par14">As indicated before, a major source of distortion in the data for the pandemic is the limited testing resources available. This was especially apparent during the first wave of the pandemic (see e.g., [<xref ref-type="bibr" rid="CR31">31</xref>]). Therefore, it is useful to understand, even for this simplified model, how does incomplete testing and/or variable testing rate affect the measurements in the model so as to affect, in turn, the predictability of the model.</p>
+                <p id="Par15">We check this effect in two different ways. First we assume that only a fraction (<italic>v</italic>) of the total population can get tested i.e., only that fraction of the population have access to the necessary medical facilities. While the underlying SIR dynamics runs with the three possible states (<italic>S</italic>, <italic>I</italic> and <italic>R</italic>) for each individual, the measurements are made, at each time, only on the <italic>v</italic> fraction of the total population, chosen randomly and kept fixed in time for that realization.
+</p>
+                <p id="Par16">Figure  <xref rid="Fig2" ref-type="fig">2</xref> depicts the effect of the various values of <italic>v</italic>, between 10% (<inline-formula id="IEq8"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v=0.1$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mi>v</mml:mi><mml:mo>=</mml:mo><mml:mn>0.1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq8.gif"/></alternatives></inline-formula>) to 100% (<inline-formula id="IEq9"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v=1$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mi>v</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq9.gif"/></alternatives></inline-formula>) testing. While the (apparent) number of daily infection is very sensitive to the value of <italic>v</italic>, when scaled by this factor (Fig. <xref rid="Fig2" ref-type="fig">2</xref>b), the curves fall on top of each other, with a varying degree of fluctuations. The consequent error in the predictions using the ML algorithm, however, only varies weakly (Fig. <xref rid="Fig2" ref-type="fig">2</xref>c) with <italic>v</italic>. This gives an important conclusion that while drastically sub-sampling, the predictability remains almost the same in the model, as long as a macroscopic fraction of the randomly chosen population is tested.<fig id="Fig2"><label>Fig. 2</label><caption><p>The simulation results for the SIR model in two dimensional square lattice (<inline-formula id="IEq3"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$200 \times 200$$\end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:mn>200</mml:mn><mml:mo>×</mml:mo><mml:mn>200</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq3.gif"/></alternatives></inline-formula>) for a fixed fraction <italic>v</italic> of the population tested (from <inline-formula id="IEq4"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v=1$$\end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mi>v</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq4.gif"/></alternatives></inline-formula> to <inline-formula id="IEq5"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v=0.1$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mi>v</mml:mi><mml:mo>=</mml:mo><mml:mn>0.1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq5.gif"/></alternatives></inline-formula> showing the highest to the lowest peak heights). (a) The time variation of the daily infection rate for a particular realization of the model is shown for different values of <italic>v</italic>. (b) When scaled by <italic>v</italic>, the daily infection curved fall on top of each other, with a variation in fluctuations. (c) The variation in the root-mean-squared error in prediction made by the ML algorithm (for 100 sets, after training by 200 sets) with <italic>v</italic> is shown. No significant variation is noted (Color figure online)</p></caption><graphic xlink:href="12648_2021_2195_Fig2_HTML" id="MO2"/></fig></p>
+                <p id="Par17">Secondly, it is also known that the rate of testing is not a fixed quantity over the duration of the pandemic. Particularly, it is often dependent on the rate of positive results obtained in daily testing. Therefore, we also look at the variation due to a time dependent value of <italic>v</italic>. We vary <italic>v</italic> between a lower bound <inline-formula id="IEq10"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{min}$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">min</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq10.gif"/></alternatives></inline-formula> and an upper bound <inline-formula id="IEq11"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{max}=0.5$$\end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">max</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq11.gif"/></alternatives></inline-formula>, linearly dependent on the daily infection rate. Other than the linear dependence of <italic>v</italic> within this range, it is not allowed to fall below or increase above, the fixed threshold values. The individuals are again randomly selected for testing at each step, but now with a time dependent value of <italic>v</italic>. Fig. <xref rid="Fig3" ref-type="fig">3</xref> shows the results for this case. In Fig. <xref rid="Fig3" ref-type="fig">3</xref>a, the time variation of the daily infections are shown for various values of <inline-formula id="IEq12"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{min}$$\end{document}</tex-math><mml:math id="M20"><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">min</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq12.gif"/></alternatives></inline-formula> and <inline-formula id="IEq13"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{max}$$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">max</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq13.gif"/></alternatives></inline-formula>. In Fig. <xref rid="Fig3" ref-type="fig">3</xref>b, the actual data for number of testing and the corresponding daily infections are shown for various states in India, justifying the choice of the linear variation (indicated by the straight line). Nevertheless, there is hardly any systematic variation in the error (hence also the predictability) with <inline-formula id="IEq14"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{min}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">min</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq14.gif"/></alternatives></inline-formula>. This is also an interesting observation that while the time dependent testing rate can introduce fluctuations in the data, ultimately it does not translate to a lower predictability, as long as it is made sure that a macroscopic fraction of the individuals is always tested.<fig id="Fig3"><label>Fig. 3</label><caption><p>The simulation results for the SIR model in two dimensional square lattice (<inline-formula id="IEq6"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$200 \times 200$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mn>200</mml:mn><mml:mo>×</mml:mo><mml:mn>200</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq6.gif"/></alternatives></inline-formula>) for a time dependent testing rate are shown. (a) The time variation of the daily infections (scaled by the peak value) is shown for various ranges of allowed variations in <italic>v</italic>. The curves are of different fluctuations, but of similar nature. (b) The variations in the error in ML predictions with the lower bound in testing fraction (<inline-formula id="IEq7"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{min}$$\end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi mathvariant="italic">min</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq7.gif"/></alternatives></inline-formula>), showing no systematic variation in predictability. (c) The actual dependence of the testing and daily positive cases is shown for different states in India that shows an approximate linear variation (indicated by the straight line for a guide to the eye). This is for the justification of the choice of the linear dependence of <italic>v</italic> with daily (apparent) infection rate in the simulations (Color figure online)</p></caption><graphic xlink:href="12648_2021_2195_Fig3_HTML" id="MO3"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>ML predictability of SIR model with site dilution</title>
+                <p id="Par18">As mentioned before, topology of the contact network of the individuals can play a crucial role in the spreading dynamics. So far we have kept that to be very simple fully occupied two dimensional square lattice. But such an orderly arrangement is not realistic. As a simple way to introduce disorder, we remove a fraction <italic>q</italic> of the sites i.e., there are no individuals occupying that fraction of the sites This modification, of course, introduces a fluctuation that diverges near the critical point <inline-formula id="IEq16"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q_c\approx 0.4$$\end{document}</tex-math><mml:math id="M30"><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>≈</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq16.gif"/></alternatives></inline-formula> of site percolation [<xref ref-type="bibr" rid="CR32">32</xref>] (see also [<xref ref-type="bibr" rid="CR33">33</xref>] for percolation threshold with longer than nearest neighbor connections). It is generally known that a system with higher disorder is relatively more predictable through machine learning, compared to the systems having less disorder [<xref ref-type="bibr" rid="CR17">17</xref>]. It is also known that the distribution of population in a city follow a fractal character [<xref ref-type="bibr" rid="CR34">34</xref>], which will happen here near the percolation threshold. It is, therefore, interesting to study the variation of the predictability when the SIR model is simulated in a site diluted lattice.</p>
+                <p id="Par19">Figure <xref rid="Fig4" ref-type="fig">4</xref> shows the simulation results for the site diluted lattice. It is interesting to note that even when the infection curves are scaled by the corresponding maximum values, they do not overlap. Indeed, there is a non-monotonic variation in the duration upto which the dynamics run, with the dilution fraction. The corresponding errors, scaled by the error obtained without ML i.e., just considering the average duration of the training set as the predicted duration for each testing set, show a non-monotonic variation with the dilution fraction. A system size dependence shows that the minimum point of the error tends toward the critical percolation threshold, as the system size is increased. Therefore, we conjecture that the highest disorder in the model i.e., the percolation critical point, is the maximally predictable point as well. This is an interesting observation, since as mentioned before, at the percolation point, the occupied site form a fractal structure. As mentioned before, this mimics the fractal nature of the population distributions in cities [<xref ref-type="bibr" rid="CR34">34</xref>], although with a different fractal dimension.<fig id="Fig4"><label>Fig. 4</label><caption><p>The simulation results for the SIR model in two dimensional square lattice (<inline-formula id="IEq15"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$200 \times 200$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:mn>200</mml:mn><mml:mo>×</mml:mo><mml:mn>200</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq15.gif"/></alternatives></inline-formula>) for different values of site dilution fraction. (a) The duration for which the daily infection rate is finite, varies non-monotonically with site dilution. Therefore, the curves, even when scaled, do not overlap with each other. (b) The relative errors for various system sizes show a minimum that tends toward the percolation threshold with increasing system size (Color figure online)</p></caption><graphic xlink:href="12648_2021_2195_Fig4_HTML" id="MO4"/></fig></p>
+                <p id="Par20">In Fig. <xref rid="Fig5" ref-type="fig">5</xref>, the locations of infected sites and the corresponding infection times are shown (in color gradient). It is clear that for the dilution fraction around 0.6, the infected locations look like a fractal. It is known that the spatial arrangements of COVID-19 spreading indeed follow a fractal structure [<xref ref-type="bibr" rid="CR35">35</xref>]. Therefore, it is significant that near the point where the infection spreading is fractal-like, the matching with first-wave prediction is the highest (see below). Finally, the marginally connected sites are infected much later, delaying the decay process of the daily infection curve (see Fig. <xref rid="Fig4" ref-type="fig">4</xref>).<fig id="Fig5"><label>Fig. 5</label><caption><p>The simulation results for the SIR model in two dimensional square lattice (<inline-formula id="IEq17"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$200 \times 200$$\end{document}</tex-math><mml:math id="M34"><mml:mrow><mml:mn>200</mml:mn><mml:mo>×</mml:mo><mml:mn>200</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12648_2021_2195_Article_IEq17.gif"/></alternatives></inline-formula>) for different values of site dilution fraction. The three figures are for dilution fractions 0.5, 0.55 and 0.6 (from left to right) with colors indication the time of infection. The infected locations look like a fractal (see [<xref ref-type="bibr" rid="CR35">35</xref>]) with the marginally connected locations getting infected at a much later time, delaying the decay of daily infections for dilute lattices (see Fig. <xref rid="Fig4" ref-type="fig">4</xref>) (Color figure online)</p></caption><graphic xlink:href="12648_2021_2195_Fig5_HTML" id="MO5"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec6">
+              <title>Application: Predictions of end-time of second wave in some Indian states</title>
+              <p id="Par21">So far we have discussed the predictability of the SIR model using supervised machine learning. We have also seen that the predictability depends on the site dilution fraction in the model when simulated on a square lattice. Here we attempt in using the SIR model as a training set and then make predictions for the end-time of the second waves in eight Indian states where the total infection has crossed one million. These states are: Andhra Pradesh (AP), Delhi (DL), Karnataka (KA), Kerala (KL), Maharashtra (MH), Tamil Nadu (TN), Uttar Pradesh (UP) and West Bengal (WB).</p>
+              <p id="Par22">In Fig. <xref rid="Fig6" ref-type="fig">6</xref>, we see that the first and second waves are more or less distinct in these states–separated by a low daily infection rate. First we use the SIR model with various site dilution fractions and make ‘predictions’ about the end-time of the first wave. Knowing the actual end-time of the first waves in these states, it is possible to estimate the errors in those predictions (Fig. <xref rid="Fig6" ref-type="fig">6</xref>(inset)). It is seen that the error is minimum for the dilution fraction 0.55. We therefore use the SIR model with dilution fraction 0.55 to generate a training set (500 sets) and then feed the data for the second wave to make a prediction about the end-time. In doing so, one obvious issue is with the peak height, which are very much different between the first and the second waves and also among the different states. We, therefore, normalize the training as well as the testing data by the corresponding peak heights. One obvious assumption, therefore, is that the peak for the second wave has passed, which is obvious in many of the states and are also indicative in the rest of the states.<fig id="Fig6"><label>Fig. 6</label><caption><p>The seven day rolling average of the daily infection from March 14, 2020 to May 20, 2021 in eight Indian states. The inset shows the errors in ‘predicting’ the first wave using training data from SIR model with various levels of site dilution. The minimum error is noted for the dilution fraction 0.55, which is then used as the training set for the predictions of the second wave (Color figure online)</p></caption><graphic xlink:href="12648_2021_2195_Fig6_HTML" id="MO6"/></fig></p>
+              <p id="Par23">We make another set of predictions by using the first waves as the training data. It is remarkable that the two sets of predictions are very close to each other. However, in making the final prediction (Fig. <xref rid="Fig7" ref-type="fig">7</xref>, Table <xref rid="Tab1" ref-type="table">1</xref>), we use the training set of the SIR model.</p>
+              <p id="Par24">The errors in the remaining time were estimated from the errors of the straight-line fit of the remaining time line. This has two components, the errors in the pre-factor and the errors in the slope. The final errors were calculated by taking the combinations of the extreme values of these two errors, which has resulted in asymmetric error bars in some cases.<fig id="Fig7"><label>Fig. 7</label><caption><p>The predicted end-time for the second wave in the eight Indian states, where the total infection has crossed one million. The errors are also indicated, which are estimated from the least squared fit of the straight lines of the final points of prediction. In cases where the infection rates are very close to the peak, the predictions are less accurate. The green dots are the predictions using SIR model as training set, and the purple dots are the predictions using the first wave data as the training set (Color figure online)</p></caption><graphic xlink:href="12648_2021_2195_Fig7_HTML" id="MO7"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>The predicted end-dates for the second wave in different states and the corresponding errors. The errors are higher for the states where the infection rates are close to the peak (data as of May 20, 2021 [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR30">30</xref>])</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">States</th><th align="left">Andhra Pradesh</th><th align="left">Delhi</th><th align="left">Karnataka</th><th align="left">Kerala</th><th align="left">Maharashtra</th><th align="left">Tamil Nadu</th><th align="left">Uttar Pradesh</th><th align="left">West Bengal</th></tr></thead><tbody><tr><td align="left">End-time</td><td align="left">July 16</td><td align="left">May 28</td><td align="left">July 1</td><td align="left">August 12</td><td align="left">July 13</td><td align="left">July 26</td><td align="left">May 27</td><td align="left">September 2</td></tr><tr><td align="left">Errors</td><td align="left">− 16 days,+28 days</td><td align="left">−  2 days, +2 days</td><td align="left">− 6 days, +5 days</td><td align="left">− 14 days, +14 days</td><td align="left">7 days, +7 days</td><td align="left">− 17 days , + 33 days</td><td align="left">− 2days, + 3 days</td><td align="left">− 30 days, + 30days</td></tr></tbody></table></table-wrap></p>
+            </sec>
+            <sec id="Sec7">
+              <title>Conclusions</title>
+              <p id="Par25">We have reported the variations in the predictability of the SIR model of epidemic spreading with different parameters of the model, using supervised machine learning algorithm. It is interesting to note that the predictions for the end-time in the model are remarkably stable, even when only a small fraction (10%) of the individuals are tested for the infection. The predictions are also stable when the testing rate vary with time–linearly with the positivity rate of the testing within a given range. However, the predictability changes substantially when a disorder is introduced in terms of site dilution in the model i.e., some positions are not occupied by any individual. Particularly, the relative predictability of the model is the highest (error in prediction is the lowest) when the site dilution fraction approaches the percolation critical point (see Fig. <xref rid="Fig4" ref-type="fig">4</xref>). In that case, the underlying lattice structure approaches a fractal and the fluctuations in the cluster size diverges with system size [<xref ref-type="bibr" rid="CR32">32</xref>]. It is seen before that the predictability using ML approaches increases with the increase in the disorder in the system (see e.g., [<xref ref-type="bibr" rid="CR17">17</xref>]). Indeed, the fluctuations in the time series of the various attributes used for the ML algorithm have richer characteristics (carrying more information), and consequently, the training of the algorithm is better. Also, it is interesting to note that the spatial distribution of population in cities is fractal in nature [<xref ref-type="bibr" rid="CR34">34</xref>], although not necessarily of the same fractal dimension as that of the site percolation. Nevertheless, the fluctuations introduced in the daily infection rate and other related quantities due to the delayed spreading of the infections in marginally connection regions, would introduce qualitatively similar effects in any fractal geometry. Therefore, a fractal geometry is perhaps better suited to model the epidemic spreading.</p>
+              <p id="Par26">We then use the model and the ML approach to make predictions of the end-time of the ongoing second wave of the COVID-19 pandemic in eight Indian states, where the total number of infections are over one million (see Table <xref rid="Tab1" ref-type="table">1</xref>). In doing so, we first need to overcome the lack of training data for the ML algorithm. We first note that the first and second waves of the pandemic in India are somewhat separated by a relatively low daily infection rate. Therefore, we take the data for the first wave and make ‘predictions’ about its end-time using the SIR model as the training set. As the predictability of the SIR model is already shown to be sensitive to the lattice dilution, we estimate the dilution fraction for which the error in the ‘predictions’ for the first wave is minimum. We then use the SIR model with that dilution fraction to generate the training data set for making predictions about the end-time of the ongoing second wave. This approach assumes that the statistical nature of the fluctuations in the first and second waves would be similar once those are scaled by the respective peak infection rates. This in turn necessarily assumes that the peak infection for the second wave has already past, which indeed seems to be the case (see Fig. <xref rid="Fig6" ref-type="fig">6</xref>). In places where the peak has just reached (until May 20, 2021), the errors in predictions are higher. It also does not consider the effects of vaccinations, new mutant variants of the virus and changes in the travel restriction norms. Nevertheless, use of this ‘synthetic’ training data set enables the ML algorithm to make predictions for the end-time, which is otherwise difficult to do due to the lack of training data sets.</p>
+              <p id="Par27">It is useful to note here that ML algorithms have been used widely in various aspects of COVID-19, including diagnosis to predictions on infections (see e.g., [<xref ref-type="bibr" rid="CR36">36</xref>, <xref ref-type="bibr" rid="CR37">37</xref>]). It was also used for imposition of social distancing measures and the possible effects of early lifting of such measures (see e.g., [<xref ref-type="bibr" rid="CR29">29</xref>] for a review). In our case, we do not implement such measures in the simulation due to the lack of data for the corresponding comparisons.</p>
+              <p id="Par28">In conclusion, we note that the epidemic spreading in the SIR model on a two dimensional square lattice can be well predicted by supervised machine learning algorithms. The predictability of the model is sensitive to the site dilution fraction of the model and becomes the highest near the percolation critical point. An optimal condition for predictability can be obtained by tuning the site dilution fraction in the model that minimizes the prediction errors for the first wave of the COVID-19 pandemic. The optimized model can then be used to make predictions of the end-times for the ongoing second wave of the pandemic in different states in India with reasonable success.<table-wrap id="Tab2"><label>Table 2</label><caption><p>The infection numbers in states where the predicted end-date (when infection was supposed to be 5% of peak) has passed</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">States</th><th align="left">Peak infection</th><th align="left">Infection at predicted end date</th><th align="left">Percentage of peak</th></tr></thead><tbody><tr><td align="left">AP</td><td align="left">24171</td><td align="left">2345</td><td align="left">9.7</td></tr><tr><td align="left">DL</td><td align="left">28395</td><td align="left">1141</td><td align="left">4.0</td></tr><tr><td align="left">KA</td><td align="left">50112</td><td align="left">3203</td><td align="left">6.3</td></tr><tr><td align="left">MH</td><td align="left">68631</td><td align="left">7243</td><td align="left">10.5</td></tr><tr><td align="left">TN</td><td align="left">36184</td><td align="left">1785</td><td align="left">4.9</td></tr><tr><td align="left">UP</td><td align="left">37944</td><td align="left">3179</td><td align="left">8.3</td></tr></tbody></table></table-wrap></p>
+              <p id="Par29">Note added in the revised version: Since the work presented here (in the first submission) represent predictions made using data up to May 20, 2021, several states have now passed the predicted end-dates. In Table <xref rid="Tab2" ref-type="table">2</xref>, therefore, we provide the six states for which the predicted end-date has passed and the value of the infection number on that particular date and what percentage of the peak was reached (predicted end-time was defined as 5% of peak).</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>[1]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>579</volume>
+                  <fpage>270</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2012-7</pub-id>
+                  <pub-id pub-id-type="pmid">32015507</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>[2]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chinazzi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <volume>368</volume>
+                  <fpage>395</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.aba9757</pub-id>
+                  <pub-id pub-id-type="pmid">32144116</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>[3]</label>
+                <mixed-citation publication-type="other">J Dehning et al. <italic>Sci.</italic><bold>369</bold> 6500 (2020)</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>[4]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kraemer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <volume>368</volume>
+                  <fpage>493</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.abb4218</pub-id>
+                  <pub-id pub-id-type="pmid">32213647</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>[5]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ceylan</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <source>Science of the Total Environment</source>
+                  <year>2020</year>
+                  <volume>729</volume>
+                  <fpage>138817</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.138817</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>[6]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anastassopoulou</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>PLoS ONE</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <fpage>e0230405</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0230405</pub-id>
+                  <pub-id pub-id-type="pmid">32231374</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>[7]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chakraborty</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghosh</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <source>Chaos, Solitons &amp; Fractals</source>
+                  <year>2020</year>
+                  <volume>135</volume>
+                  <fpage>109850</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109850</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>[8]</label>
+                <mixed-citation publication-type="other">K Biswas, A Khaleque, P Sen <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2003:07063">arxiv: 2003:07063</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>[9]</label>
+                <mixed-citation publication-type="other">S Khajanchi et al. <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2005.06286">arxiv: 2005.06286</ext-link>, (2020)</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>[10]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Indian Journal of Physics</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s12648-020-01766-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>[11]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Indian Journal of Physics</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1007/s12648-020-01928-8</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>[12]</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Olshen</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Stone</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>Classification and regression trees</source>
+                  <year>1984</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>CRC Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>[13]</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hastie</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Tibshirani</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>The elements of statistical learning: Data mining, inference and predictions</source>
+                  <year>2001</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>[14]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rouet-Leduc</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Geophys. Res. Lett.</source>
+                  <year>2017</year>
+                  <volume>44</volume>
+                  <fpage>9276</fpage>
+                  <pub-id pub-id-type="doi">10.1002/2017GL074677</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>[15]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salmenjoki</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Alava</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Laurson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <source>Nat. Commun.</source>
+                  <year>2018</year>
+                  <volume>9</volume>
+                  <fpage>5307</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-018-07737-2</pub-id>
+                  <pub-id pub-id-type="pmid">30546114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>[16]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van der Baan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Jutten</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <source>Geophys.</source>
+                  <year>2000</year>
+                  <volume>65</volume>
+                  <fpage>1032</fpage>
+                  <pub-id pub-id-type="doi">10.1190/1.1444797</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>[17]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Biswas</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Castellanos</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                    <name>
+                      <surname>Zaiser</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <source>Sci. Rep.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>16910</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-72969-6</pub-id>
+                  <pub-id pub-id-type="pmid">33037259</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>[18]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermack</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>McKendrick</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <source>Proc. R. Soc. A</source>
+                  <year>1927</year>
+                  <volume>115</volume>
+                  <fpage>700</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>[19]</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>NTJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>The mathematical theory of infectious diseases</source>
+                  <year>1975</year>
+                  <edition>2</edition>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Griffin</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>[20]</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Daley</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Gani</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Epidemic modeling: An introduction</source>
+                  <year>2005</year>
+                  <publisher-loc>NY</publisher-loc>
+                  <publisher-name>Cambridge University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>[21]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chimmula</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <source>Chaos, Solitons &amp; Fractals</source>
+                  <year>2020</year>
+                  <volume>135</volume>
+                  <fpage>109864</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109864</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>[22]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bedi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhiman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gole</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Jindal</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <source>SN Comput. Sci.</source>
+                  <year>2021</year>
+                  <volume>2</volume>
+                  <fpage>224</fpage>
+                  <pub-id pub-id-type="doi">10.1007/s42979-021-00598-5</pub-id>
+                  <pub-id pub-id-type="pmid">33899004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>[23]</label>
+                <mixed-citation publication-type="other">N Patki, R Wedge, K Veeramachaneni <italic>The Synthetic Data Vault</italic>, 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA), pp. 399-410, (2016)</mixed-citation>
+              </ref>
+              <ref id="CR24">
+                <label>[24]</label>
+                <mixed-citation publication-type="other">All data used in this work comes from: <ext-link ext-link-type="uri" xlink:href="https://api.covid19india.org/">https://api.covid19india.org/</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>[25]</label>
+                <mixed-citation publication-type="other">L C G Rogers <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2004.12462">arxiv: 2004.12462</ext-link> (2020)</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>[26]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pires</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Int. J. Mod. Phys. C</source>
+                  <year>2021</year>
+                  <volume>32</volume>
+                  <fpage>2150107</fpage>
+                  <pub-id pub-id-type="doi">10.1142/S0129183121501072</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>[27]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hoertel</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <source>Nat. Med.</source>
+                  <year>2020</year>
+                  <volume>26</volume>
+                  <fpage>1417</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41591-020-1001-6</pub-id>
+                  <pub-id pub-id-type="pmid">32665655</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>[28]</label>
+                <mixed-citation publication-type="other">M Pedersen, M Meneghini DOI:10.13140/RG.2.2.11753.85600(2020)</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>[29]</label>
+                <mixed-citation publication-type="other">S Biswas, A Kr Mandal <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2105.14294">arxiv: 2105.14294</ext-link> (2021)</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>[30]</label>
+                <mixed-citation publication-type="other">The predictions for UP and Delhi already seem to work reasonably well: For Delhi, the peak infection number was 28395 on April 20, 2021. 5% of that means 1420. Delhi had: 1491 cases on 26th May, 1072 cases on 27th May, 1141 cases on 28th May. Prediction for Delhi was 28th May, with error of +/- 2 days. For Uttar Pradesh, the peak infection was 37944 on 24th April, 2021. 5% of that means 1897. UP had: 3179 cases on 27 May, 2276 cases on 28 May, 2014 cases on 29 May. Prediction for UP was 27May, with error -2days to +3 days</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>[31]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Binnicker</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <source>J. Clin. Microbiol.</source>
+                  <year>2020</year>
+                  <volume>58</volume>
+                  <fpage>e01695</fpage>
+                  <pub-id pub-id-type="doi">10.1128/JCM.01695-20</pub-id>
+                  <pub-id pub-id-type="pmid">32817231</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>[32]</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stauffer</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Aharony</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <source>Introduction to percolation theory</source>
+                  <year>1994</year>
+                  <edition>2</edition>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Taylor &amp; Francis</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>[33]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Malarz</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Galam</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <source>Phys. Rev. E</source>
+                  <year>2005</year>
+                  <volume>71</volume>
+                  <fpage>016125</fpage>
+                  <pub-id pub-id-type="doi">10.1103/PhysRevE.71.016125</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>[34]</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Batty</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Longley</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                  </person-group>
+                  <source>Fractal cities: a geometry of form and function</source>
+                  <year>1994</year>
+                  <publisher-loc>London</publisher-loc>
+                  <publisher-name>Academic Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>[35]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abbasi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Chaos</article-title>
+                  <source>Solitons &amp; Fractals</source>
+                  <year>2020</year>
+                  <volume>140</volume>
+                  <fpage>110119</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.110119</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>[36]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shahid</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>J. Biomed. Inf.</source>
+                  <year>2021</year>
+                  <volume>117</volume>
+                  <fpage>103751</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbi.2021.103751</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>[37]</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kushwaha</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>J. Indust. Integr. Manag.</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <fpage>453</fpage>
+                  <pub-id pub-id-type="doi">10.1142/S2424862220500268</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

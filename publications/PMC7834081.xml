@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:59:23Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7834081" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7834081</identifier>
+        <datestamp>2021-01-26</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">ISA Trans</journal-id>
+              <journal-id journal-id-type="iso-abbrev">ISA Trans</journal-id>
+              <journal-title-group>
+                <journal-title>ISA Transactions</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0019-0578</issn>
+              <issn pub-type="epub">1879-2022</issn>
+              <publisher>
+                <publisher-name>ISA. Published by Elsevier Ltd.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7834081</article-id>
+              <article-id pub-id-type="pmcid">PMC7834081</article-id>
+              <article-id pub-id-type="pmc-uid">7834081</article-id>
+              <article-id pub-id-type="pmid">33422330</article-id>
+              <article-id pub-id-type="pii">S0019-0578(20)30576-0</article-id>
+              <article-id pub-id-type="doi">10.1016/j.isatra.2020.12.057</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Transfer Learning for COVID-19 cases and deaths forecast using LSTM network</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au000001">
+                  <name>
+                    <surname>Gautam</surname>
+                    <given-names>Yogesh</given-names>
+                  </name>
+                </contrib>
+                <aff id="aff1">Department of Mechanical and Aerospace Engineering, Pulchowk Campus, Institute of Engineering, Kathmandu 44700, Nepal</aff>
+              </contrib-group>
+              <pub-date pub-type="pmc-release">
+                <day>4</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="epub">
+                <day>4</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <history>
+                <date date-type="received">
+                  <day>28</day>
+                  <month>6</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>23</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>29</day>
+                  <month>12</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 ISA. Published by Elsevier Ltd. All rights reserved.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder>ISA</copyright-holder>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="d1e885">
+                <p>In this paper, Transfer Learning is used in LSTM networks to forecast new COVID cases and deaths. Models trained in data from early COVID infected countries like Italy and the United States are used to forecast the spread in other countries. Single and multistep forecasting is performed from these models. The results from these models are tested with data from Germany, France, Brazil, India, and Nepal to check the validity of the method. The obtained forecasts are promising and can be helpful for policymakers coping with the threats of COVID-19.</p>
+              </abstract>
+              <kwd-group id="d1e891">
+                <title>Keywords</title>
+                <kwd>COVID-19</kwd>
+                <kwd>Long Short Term Memory (LSTM)</kwd>
+                <kwd>Time-series-forecast</kwd>
+                <kwd>Transfer Learning</kwd>
+                <kwd>Neural network</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="d1e916">COVID-19 was first detected in Wuhan City in December 2019. Since then it has caused more than seven hundred thousand deaths and twenty million infections <xref rid="b1" ref-type="bibr">[1]</xref>. With such massive scale fatalities, it has become one of the greatest crises of this generation. Apart from the loss of human lives, the pandemic has caused serious damage to the world economy. Because of lockdowns and similar distancing strategies it has also adversely affected psychological and social sections <xref rid="b2" ref-type="bibr">[2]</xref>.</p>
+              <p id="d1e926">In the absence of any proven medicine or vaccine at present, an intervention strategy may be more useful to control the spread <xref rid="b3" ref-type="bibr">[3]</xref>. An effective modeling method to forecast the spread of the virus among the population can be extremely useful to prepare and formulate health and economic policies for any government or administrators. From planning emergency hospitals, managing ventilators, and medical resources to regulating lock-downs and scheduling economic activities, effective forecasts are strategically very important for policymakers <xref rid="b4" ref-type="bibr">[4]</xref>. When new cases rise at a rate of thousands per day then even the most developed nation’s healthcare system has been overwhelmed to handle a large number of patients. A timely forecast can prepare the responsible authority accordingly to manage efficiently even during overwhelming scenarios.</p>
+              <p id="d1e936">With the rise of cases and the availability of more data, various studies <xref rid="b5" ref-type="bibr">[5]</xref>, <xref rid="b6" ref-type="bibr">[6]</xref>, <xref rid="b7" ref-type="bibr">[7]</xref> have presented mathematical models for the spread. However, most of the models have a limited scope of forecasts for a particular country or region only. Previous researches <xref rid="b8" ref-type="bibr">[8]</xref>, <xref rid="b9" ref-type="bibr">[9]</xref> have also used LSTM models to forecast but they use old data of the same country which is pretty limited. As it may not have seen and learned from the various patterns like sharp spikes and flattening effects, the learning process may be incomplete and imprecise. These dynamic patterns are more prevalent in early infected countries like Italy which have now passed the sharp spiking and gradual flattening for new cases. The use of Transfer Learning may help the network to model all these highly non-linear temporal patterns which the test country may have never seen in its history. For countries like France, Italy the earlier occurrence and spread provides a large dataset for training which is not available for countries that saw the spread later like India and Nepal, which imposed strict lockdown early but is easing the regulations now. This discrepancy in pandemic over various regions has provided mature data for earlier infected countries.</p>
+              <p id="d1e946">Cluster analysis <xref rid="b10" ref-type="bibr">[10]</xref> study has shown similarities existing in the dynamics of the spread of the disease between various countries like Italy, France, and Germany which has similar intervention modalities. Though there may be some level of similarity in intervention techniques and timing, even then the countries can have massive differences in scale of spread and mortality rate. These differences are very prominent across countries in the European Union. A generalized forecasting model incorporating a wider region is thus a difficult challenge owing to all the differences existing across nations.</p>
+              <p id="d1e952">The paper implements Transfer Learning to LSTM models which learn separately from the data of Italy and the United States. It then applies these trained models i.e. the architecture along with weights, to forecast new COVID cases and deaths. The results are tested for France, Germany, Brazil, India, and Nepal. For both the models, separate networks have been trained to forecast for one and five days.</p>
+            </sec>
+            <sec id="sec2">
+              <label>2</label>
+              <title>Material and methods</title>
+              <sec id="sec2.1">
+                <label>2.1</label>
+                <title>Dataset</title>
+                <p id="d1e964">The data has been obtained from an open dataset of Our World in Data <xref rid="b11" ref-type="bibr">[11]</xref> which maintains and updates global data daily acquired from the <italic>European Center for Disease Prevention and Control</italic> (ECDC). The data was available from the 31st of December to the 10th of June. However, the data from February 28th onwards has been used for training purpose during which cases were more active. Data for the number of new cases per 100 thousand of the population per day is one of the forecasting variables. <disp-formula id="fd1"><label>(1)</label><mml:math id="d1e980" display="block" altimg="si1.svg"><mml:mrow><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>w</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mn>100</mml:mn><mml:mspace width="1em" class="nbsp"/><mml:mi>T</mml:mi><mml:mi>h</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>w</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>d</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>u</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:mfrac><mml:mo linebreak="goodbreak">∗</mml:mo><mml:mtext>100,000</mml:mtext></mml:mrow></mml:math></disp-formula>New death cases per million of the populations calculated as in Eq. <xref rid="fd2" ref-type="disp-formula">(2)</xref> has also been forecasted from the available data. <disp-formula id="fd2"><label>(2)</label><mml:math id="d1e1115" display="block" altimg="si2.svg"><mml:mrow><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>w</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>s</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>m</mml:mi><mml:mi>i</mml:mi><mml:mi>l</mml:mi><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>w</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>d</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>u</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:mfrac><mml:mo linebreak="goodbreak">∗</mml:mo><mml:mtext>1,000,000</mml:mtext></mml:mrow></mml:math></disp-formula>Data from 7 countries: Italy, France, Germany, United States, Brazil, India, and Nepal has been used for this study. These test countries cover up 4 continents representing high diversity in intervention techniques, government policies, healthcare system, population density, and levels of spread and death because of COVID-19.</p>
+              </sec>
+              <sec id="sec2.2">
+                <label>2.2</label>
+                <title>Moving-average</title>
+                <p id="d1e1251">The data of new cases and new deaths consist of lots of sharp spikes, the noisy data is smoothened using moving average. Moving average can provide more stable data points suitable for the modeling.</p>
+                <p id="d1e1253">Moving average is defined mathematically as: <disp-formula id="fd3"><label>(3)</label><mml:math id="d1e1262" display="block" altimg="si3.svg"><mml:mrow><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">+</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="badbreak">+</mml:mo><mml:mo linebreak="badbreak">⋯</mml:mo><mml:mo linebreak="badbreak">+</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mi>n</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>where, <disp-formula-group id="d1e1326"><disp-formula id="d1e1327"><mml:math id="d1e1328" display="block" altimg="si4.svg"><mml:mrow><mml:msub id="mmlalignd1e1339"><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>v</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>a</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext><mml:mspace width="1em" class="nbsp"/><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="d1e1402"><mml:math id="d1e1403" display="block" altimg="si5.svg"><mml:mrow><mml:msub id="mmlalignd1e1413"><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>u</mml:mi><mml:mi>e</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext><mml:mspace width="1em" class="nbsp"/><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="d1e1447"><mml:math id="d1e1448" display="block" altimg="si6.svg"><mml:mrow><mml:mi id="mmlalignd1e1457">n</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>o</mml:mi><mml:mi>f</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>v</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mspace width="1em" class="nbsp"/><mml:mi>a</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:math></disp-formula></disp-formula-group>
+</p>
+                <p id="d1e1500">The study uses a moving average of 3 days for both new cases and new deaths. The reason for using low valued moving average is to smooth out very sharp spikes without changing the actual pattern of the data.</p>
+              </sec>
+              <sec id="sec2.3">
+                <label>2.3</label>
+                <title>LSTM network</title>
+                <p id="d1e1507">Recurrent Neural Network (RNN) is one of the most popular and effective deep learning techniques for time series forecasts, because of its ability to memorize sequential information <xref rid="b12" ref-type="bibr">[12]</xref>. However, the problems of exploding and vanishing gradient are more common in simple RNN <xref rid="b13" ref-type="bibr">[13]</xref>. LSTM solves this problem by introducing a new memory state in RNN <xref rid="b14" ref-type="bibr">[14]</xref>. The ability of LSTM networks to capture patterns in data like trends, seasonality, autocorrelations and noise makes it a good candidate for the time series forecast. In a deep neural network, initial layers capture more basic features or patterns and the deeper layer can extract high-level features. As a model trained in one country is used to forecast for the next country, the network should learn basic temporal patterns and avoid memorizing high-level features of a particular dataset. For this single layer LSTM network has been used to avoid any deep and complex architecture. For single and 5-days predictions 1 and 5 units are assigned for this single-layered network. The network does not return any sequences so the output from the LSTM network is the final output. The use of any dense layer has been avoided.</p>
+                <p id="d1e1529">The success of LSTM networks lies in their variety of update, forget, and output gates. Cell state carries the memory of past data and the combination of gates helps the network to determine what information from the past is to be retained and from the present is to be updated. Each cell in the sequence is fed with an activation state (<inline-formula><mml:math id="d1e1533" display="inline" altimg="si7.svg"><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula>) and cell state<inline-formula><mml:math id="d1e1547" display="inline" altimg="si8.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and the respective input (<inline-formula><mml:math id="d1e1567" display="inline" altimg="si9.svg"><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>)</p>
+                <p id="d1e1576">Update gate value (u) is based on the previous activation state (<inline-formula><mml:math id="d1e1580" display="inline" altimg="si7.svg"><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula>) and present input (<inline-formula><mml:math id="d1e1595" display="inline" altimg="si9.svg"><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>). Its range is 0 to 1. Weight <inline-formula><mml:math id="d1e1605" display="inline" altimg="si12.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and bias <inline-formula><mml:math id="d1e1621" display="inline" altimg="si13.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> is learned during training. It provides necessary weightage to the new candidate cell state to determine a new cell state in Eq. <xref rid="fd7" ref-type="disp-formula">(7)</xref>. <disp-formula id="fd4"><label>(4)</label><mml:math id="d1e1647" display="block" altimg="si14.svg"><mml:mrow><mml:mi>u</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula>Forget gate value (<inline-formula><mml:math id="d1e1699" display="inline" altimg="si15.svg"><mml:mi>f</mml:mi></mml:math></inline-formula>) is also based on previous activation state (<inline-formula><mml:math id="d1e1705" display="inline" altimg="si7.svg"><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula>) and present input (<inline-formula><mml:math id="d1e1720" display="inline" altimg="si9.svg"><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>), Weight <inline-formula><mml:math id="d1e1731" display="inline" altimg="si18.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and bias <inline-formula><mml:math id="d1e1746" display="inline" altimg="si19.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> is updated during training. It is used in the determination of a new cell state in Eq. <xref rid="fd8" ref-type="disp-formula">(8)</xref>. <disp-formula id="fd5"><label>(5)</label><mml:math id="d1e1773" display="block" altimg="si20.svg"><mml:mrow><mml:mi>f</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula>Output gate value (o) depends on the previous activation state (<inline-formula><mml:math id="d1e1824" display="inline" altimg="si7.svg"><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math></inline-formula>) and present input (<inline-formula><mml:math id="d1e1839" display="inline" altimg="si9.svg"><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>), Weight <inline-formula><mml:math id="d1e1850" display="inline" altimg="si23.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and bias <inline-formula><mml:math id="d1e1865" display="inline" altimg="si24.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> is updated during the training process. It determines the new activation state by assigning necessary weightage to a new cell state. <disp-formula id="fd6"><label>(6)</label><mml:math id="d1e1886" display="block" altimg="si25.svg"><mml:mrow><mml:mi>o</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>σ</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula>New candidate cell state<inline-formula><mml:math id="d1e1936" display="inline" altimg="si26.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mo>~</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> is determined with values of previous activation <inline-formula><mml:math id="d1e1957" display="inline" altimg="si27.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and present input<inline-formula><mml:math id="d1e1976" display="inline" altimg="si28.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> which will be used to update the new cell state, its influence in the new cell state is determined by the update gate value <inline-formula><mml:math id="d1e1991" display="inline" altimg="si29.svg"><mml:mrow><mml:mo>(</mml:mo><mml:mi>u</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula>. The network learns the necessary weights <inline-formula><mml:math id="d1e2001" display="inline" altimg="si30.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and bias <inline-formula><mml:math id="d1e2017" display="inline" altimg="si31.svg"><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> during training. <disp-formula id="fd7"><label>(7)</label><mml:math id="d1e2038" display="block" altimg="si32.svg"><mml:mrow><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mo>~</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>h</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mfenced open="[" close="]"><mml:mrow><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula>
+</p>
+                <p id="d1e2102">Cell state (<inline-formula><mml:math id="d1e2106" display="inline" altimg="si33.svg"><mml:msup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>) is passed to the next cell with weightage provided by update gate (<inline-formula><mml:math id="d1e2117" display="inline" altimg="si34.svg"><mml:mi>u</mml:mi></mml:math></inline-formula>) and forget gate (<inline-formula><mml:math id="d1e2124" display="inline" altimg="si15.svg"><mml:mi>f</mml:mi></mml:math></inline-formula>) from Eqs. <xref rid="fd4" ref-type="disp-formula">(4)</xref>, <xref rid="fd5" ref-type="disp-formula">(5)</xref>. <disp-formula id="fd8"><label>(8)</label><mml:math id="d1e2140" display="block" altimg="si36.svg"><mml:mrow><mml:msup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>u</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mo>~</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>f</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:msup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></disp-formula>New activation (<inline-formula><mml:math id="d1e2188" display="inline" altimg="si37.svg"><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>) is determined by output gate (<inline-formula><mml:math id="d1e2199" display="inline" altimg="si38.svg"><mml:mi>o</mml:mi></mml:math></inline-formula>) and present cell state (<inline-formula><mml:math id="d1e2205" display="inline" altimg="si33.svg"><mml:msup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>). The values of the activation state (<inline-formula><mml:math id="d1e2217" display="inline" altimg="si37.svg"><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>) and cell state (<inline-formula><mml:math id="d1e2228" display="inline" altimg="si33.svg"><mml:msup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:math></inline-formula>) gets passed to the next cell for repeated operations as explained from Eqs. <xref rid="fd4" ref-type="disp-formula">(4)</xref>, <xref rid="fd5" ref-type="disp-formula">(5)</xref>, <xref rid="fd6" ref-type="disp-formula">(6)</xref>, <xref rid="fd7" ref-type="disp-formula">(7)</xref>, <xref rid="fd8" ref-type="disp-formula">(8)</xref>, <xref rid="fd9" ref-type="disp-formula">(9)</xref>. <disp-formula id="fd9"><label>(9)</label><mml:math id="d1e2250" display="block" altimg="si42.svg"><mml:mrow><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>o</mml:mi><mml:mo linebreak="goodbreak">×</mml:mo><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>h</mml:mi><mml:mfenced open="(" close=")"><mml:mrow><mml:msup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfenced></mml:mrow></mml:math></disp-formula>
+<inline-formula><mml:math id="d1e2283" display="inline" altimg="si43.svg"><mml:mi>σ</mml:mi></mml:math></inline-formula> is the sigmoid function defined as: <disp-formula id="fd10"><label>(10)</label><mml:math id="d1e2294" display="block" altimg="si44.svg"><mml:mrow><mml:mi>σ</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo linebreak="badbreak">+</mml:mo><mml:mo class="qopname">exp</mml:mo><mml:mfenced open="(" close=")"><mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>z</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>Its output is in the range of 0 to 1. For all the gates i.e. update, forget and output gate the value ranges from 0 to 1, 0 provides no weightage, and 1 represents complete weightage. The output of the hyperbolic tangent (tanh) function ranges from −1 to 1.</p>
+                <p id="d1e2325">The network weights are learned separately from the data of Italy and the United States. During training, these trained weights along with the respective network are then used to forecast for various test countries. Thus, the concept of Transfer Learning enables us to acquire the necessary knowledge from the matured dataset and apply it to forecast for a different country.</p>
+                <p id="d1e2327">
+                  <fig id="fig1">
+                    <label>Fig. 1</label>
+                    <caption>
+                      <p>Proposed LSTM network for single day prediction.</p>
+                    </caption>
+                    <graphic xlink:href="gr1_lrg"/>
+                  </fig>
+                </p>
+              </sec>
+              <sec id="sec2.4">
+                <label>2.4</label>
+                <title>Network architecture</title>
+                <p id="d1e2335">N units of the LSTM network are used where N is the number of days of forecast. As many to one architecture is used, the output of each unit is output to the architecture. So, for 1 and 5 days forecasting 1 and 5 units of LSTM has been assigned in the first layer respectively. The number of cells inside each unit varies according to the window size of the model. Window size refers to the number of past data that is input into the model, this is equal to the number of cells in each LSTM unit. For single-day prediction window size of 8 is chosen i.e. 8 days of past data used as input and the value of 9th-day value is taken as the forecasting value. During training, the network learns respective weights by trying to minimize the error between the actual value on the 9th day and the forecasted value by the network. For 5 days multistep prediction window size of 20 is used i.e. 20 days of past data is input for the network and the consecutive future 5 days data is used as output for the network. The time sequence is maintained both for input and output. A larger window size is used for multistep prediction as more data sequence is necessary to forecast the long-range pattern.</p>
+                <p id="d1e2337"><xref rid="fig1" ref-type="fig">Fig. 1</xref> depicts the architecture for single day prediction, as the window size is eight, the unit has eight cells. Each cell receives sequential input however the output is received from the final cell which is a typical many-to-one architecture. In multistep prediction 5 such sequences as in <xref rid="fig1" ref-type="fig">Fig. 1</xref> are used with 20 cells in each unit. For a particular unit, the weights of trainable parameters across all the cells remain the same. In this architecture, the single-step model has 12 trainable parameters whereas the 5 days prediction model has 140 trainable parameters.</p>
+                <p id="d1e2346">For training purpose, a batch size of 10 is used. As training data is low in number lower batch size supplies more training batches from available data.</p>
+              </sec>
+              <sec id="sec2.5">
+                <label>2.5</label>
+                <title>Network parameters</title>
+                <p id="d1e2353">The LSTM network uses Stochastic Gradient Descent (SGD) optimizer for all of its models with momentum of 0.9. Initially variable learning rate ranging from <inline-formula><mml:math id="d1e2356" display="inline" altimg="si45.svg"><mml:mrow><mml:mn>1</mml:mn><mml:mo linebreak="goodbreak" linebreakstyle="after">∗</mml:mo><mml:mn>1</mml:mn><mml:msup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math id="d1e2375" display="inline" altimg="si46.svg"><mml:mrow><mml:mn>1</mml:mn><mml:mo linebreak="goodbreak" linebreakstyle="after">∗</mml:mo><mml:mn>1</mml:mn><mml:msup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>8</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula> is set as a callback function to train along 100 epochs. Then the learning rate corresponding to minimum loss is chosen for actual training of 500 epochs. The same procedure has been used for all the models used in this paper. The details have been tabulated in <xref rid="tbl1" ref-type="table">Table 1</xref>.</p>
+                <p id="d1e2397">
+                  <table-wrap position="anchor" id="tbl1">
+                    <label>Table 1</label>
+                    <caption>
+                      <p>Network parameters for training.</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead>
+                        <tr>
+                          <th align="left">Step</th>
+                          <th align="left">Trainable parameters</th>
+                          <th align="left">Batch size</th>
+                          <th align="left">Optimizer</th>
+                          <th align="left">Momentum</th>
+                          <th align="left">Epochs</th>
+                          <th align="left">Learning Rate</th>
+                          <th align="left">Loss Function</th>
+                          <th align="left">Performance metrics</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left">Singlestep</td>
+                          <td align="left">12</td>
+                          <td align="left">10</td>
+                          <td align="left">SGD</td>
+                          <td align="left">0.9</td>
+                          <td align="left">500</td>
+                          <td align="left">2E−05</td>
+                          <td align="left">Huber Loss</td>
+                          <td align="left">MAE</td>
+                        </tr>
+                        <tr>
+                          <td align="left">Multistep</td>
+                          <td align="left">140</td>
+                          <td align="left">10</td>
+                          <td align="left">SGD</td>
+                          <td align="left">0.9</td>
+                          <td align="left">500</td>
+                          <td align="left">1E−05</td>
+                          <td align="left">Huber loss</td>
+                          <td align="left">MAE</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                </p>
+              </sec>
+              <sec id="sec2.6">
+                <label>2.6</label>
+                <title>Performance parameters</title>
+                <p id="d1e2405">Mean Absolute Error (MAE) and Root Mean Square Error (RMSE) are two metrics used to compare the results from the proposed models.</p>
+                <p id="d1e2407">Mean Absolute Error provides an average absolute error between the forecasted value and real value. <disp-formula id="fd11"><label>(11)</label><mml:math id="d1e2416" display="block" altimg="si47.svg"><mml:mrow><mml:mi>M</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:mfrac><mml:munderover><mml:mrow><mml:mo linebreak="badbreak">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mo>|</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mo>|</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula>
+</p>
+                <p id="d1e2489">Because of squared error, Root Mean Square Error (RMSE) gives better insights of higher valued error across forecasts. <disp-formula id="fd12"><label>(12)</label><mml:math id="d1e2498" display="block" altimg="si48.svg"><mml:mrow><mml:mi>R</mml:mi><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:msqrt><mml:mrow><mml:munderover><mml:mrow><mml:mo linebreak="badbreak">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">−</mml:mo><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt></mml:mrow></mml:math></disp-formula>
+</p>
+                <p id="d1e2578">The normal distribution represents the values of a given distribution as a density of variables. The distribution visualizes the symmetry occurrence in the data around the mean. For multistep prediction, both MAE and RMSE obtained are fitted to normal distribution to see the variation in error across all forecasts. The normal distribution is given by: <disp-formula id="fd13"><label>(13)</label><mml:math id="d1e2587" display="block" altimg="si49.svg"><mml:mrow><mml:mi>z</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi>x</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mi>σ</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>where <inline-formula><mml:math id="d1e2606" display="inline" altimg="si50.svg"><mml:mi>μ</mml:mi></mml:math></inline-formula> refers to mean and <inline-formula><mml:math id="d1e2611" display="inline" altimg="si43.svg"><mml:mi>σ</mml:mi></mml:math></inline-formula>refers to standard deviation.</p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <label>3</label>
+              <title>Results and discussion</title>
+              <p id="d1e2620">The paper implements Transfer Learning for the LSTM network to learn from one region and forecast for a completely different region. For training purpose, Keras API with TensorFlow backend <xref rid="b15" ref-type="bibr">[15]</xref> is used. Various python libraries have been used for other evaluations. The networks were trained in GPU available in the Google Colab environment <xref rid="b16" ref-type="bibr">[16]</xref>.</p>
+              <p id="d1e2630">Both the models have been trained and tested in smoothened data whose samples are provided in <xref rid="fig2" ref-type="fig">Fig. 2</xref>, <xref rid="fig3" ref-type="fig">Fig. 3</xref>. A low value moving average has helped to smooth out sharp spikes without causing any significant distortions to the curves.</p>
+              <p id="d1e2636">
+Two models based on Italy and the United States have been used. Data from December 31st to June 10th was available during modeling. However, the initial part has been truncated when the reported cases and death were limited to single-digit or even 0 in most of the days. For both the models training data ranging from February 28th to June 10th has been taken which encapsulates an active period of the spreading and deaths in these countries. The timeframe for new death cases has been kept consistent with new cases for training as well as testing. It is observed in all datasets, the time series increase or decrease of new cases is consistent with an increase or decrease of new death cases so, the same time frame has been used for death cases as well.<fig id="fig2"><label>Fig. 2</label><caption><p>Samples for data smoothing for new cases.</p></caption><graphic xlink:href="gr2_lrg"/></fig><fig id="fig3"><label>Fig. 3</label><caption><p>Samples for data smoothing for new death cases.</p></caption><graphic xlink:href="gr3_lrg"/></fig></p>
+              <p id="d1e2642">In the United States even as late as February 26th, 0 new cases were recorded but after that, there has been a sharp rise in cases, and during the recorded time frame cases have risen from as low as 1 new case on February 28th to over 30,000 new cases being reported every day during March and April. As for new death cases, the first death in the US was recorded on March 1st and then rose to even 2000 plus new deaths per day within the second week of April. Even by the first week of June, the new death cases were still high approaching 1000 in some cases.</p>
+              <p id="d1e2644">For Italy, new cases reporting surged from the last week of February, until then even as late as February 21st, no new case was reported. During the last week of February, the new death cases were still limited to single-digit however during March and April it reached its peak of over 800 new deaths per day. By the first week of June, the new death cases had decreased to double-digit figures. This time frame thus captures the active period of virus spread and deaths. So, both models start on February 28. During this period, both the countries have reached their peak as of new cases reporting and new death cases.</p>
+              <p id="d1e2646">For testing the models, same timeframe has been used for France, Germany, and Brazil as it represents an active growth time frame for all these countries. However, for India and Nepal COVID spread has got more active lately. This can be explained by strict lockdowns imposed earlier in both countries. For India and Nepal, data from May 2nd to August 11th is used. For all the test countries 102 days have been taken as test days to maintain consistency while comparing results.</p>
+              <sec id="sec3.1">
+                <label>3.1</label>
+                <title>Forecast results</title>
+                <p id="d1e2653">Detailed error calculation for all new cases forecasts has been tabulated in <xref rid="tbl2" ref-type="table">Table 2</xref> and new death cases forecasts have been tabulated in <xref rid="tbl3" ref-type="table">Table 3</xref>. The model’s self-forecast i.e. Italy model’s forecast for Italy and the US model’s forecast for the US has not been tabulated for comparison as these are training data for the models.</p>
+                <p id="d1e2671">
+                  <table-wrap position="float" id="tbl2">
+                    <label>Table 2</label>
+                    <caption>
+                      <p>New cases forecast error.</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead>
+                        <tr>
+                          <th align="left"/>
+                          <th colspan="4" align="left">1 Days prediction<hr/></th>
+                          <th colspan="8" align="left">5 Days Prediction<hr/></th>
+                        </tr>
+                        <tr>
+                          <th align="left">Target Country</th>
+                          <th colspan="2" align="left">Italy Model<hr/></th>
+                          <th colspan="2" align="left">US Model<hr/></th>
+                          <th colspan="4" align="left">Italy Model<hr/></th>
+                          <th colspan="4" align="left">US Model<hr/></th>
+                        </tr>
+                        <tr>
+                          <th align="left"/>
+                          <th align="left">RMSE</th>
+                          <th align="left">MAE</th>
+                          <th align="left">RMSE</th>
+                          <th align="left">MAE</th>
+                          <th align="left">RMSE</th>
+                          <th align="left">RMSE SD</th>
+                          <th align="left">MAE</th>
+                          <th align="left">MAE SD</th>
+                          <th align="left">RMSE</th>
+                          <th align="left">RMSE SD</th>
+                          <th align="left">MAE</th>
+                          <th align="left">MAE SD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left">Germany</td>
+                          <td align="left">0.46</td>
+                          <td align="left">0.32</td>
+                          <td align="left">0.5</td>
+                          <td align="left">0.97</td>
+                          <td align="left">0.63</td>
+                          <td align="left">0.55</td>
+                          <td align="left">0.56</td>
+                          <td align="left">0.5</td>
+                          <td align="left">0.96</td>
+                          <td align="left">0.35</td>
+                          <td align="left">0.82</td>
+                          <td align="left">0.34</td>
+                        </tr>
+                        <tr>
+                          <td align="left">France</td>
+                          <td align="left">0.69</td>
+                          <td align="left">0.46</td>
+                          <td align="left">0.7</td>
+                          <td align="left">0.493</td>
+                          <td align="left">1.03</td>
+                          <td align="left">0.06</td>
+                          <td align="left">0.9</td>
+                          <td align="left">0.81</td>
+                          <td align="left">1.17</td>
+                          <td align="left">0.35</td>
+                          <td align="left">1.02</td>
+                          <td align="left">0.3</td>
+                        </tr>
+                        <tr>
+                          <td align="left">Italy</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">0.46</td>
+                          <td align="left">0.36</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">0.91</td>
+                          <td align="left">0.37</td>
+                          <td align="left">0.8</td>
+                          <td align="left">0.35</td>
+                        </tr>
+                        <tr>
+                          <td align="left">US</td>
+                          <td align="left">0.76</td>
+                          <td align="left">0.56</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">1.24</td>
+                          <td align="left">0.68</td>
+                          <td align="left">1.11</td>
+                          <td align="left">0.64</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                        </tr>
+                        <tr>
+                          <td align="left">Brazil</td>
+                          <td align="left">1.65</td>
+                          <td align="left">1.31</td>
+                          <td align="left">1.01</td>
+                          <td align="left">0.52</td>
+                          <td align="left">1.3</td>
+                          <td align="left">1.21</td>
+                          <td align="left">1.14</td>
+                          <td align="left">1.09</td>
+                          <td align="left">1.31</td>
+                          <td align="left">1.19</td>
+                          <td align="left">1.12</td>
+                          <td align="left">1.08</td>
+                        </tr>
+                        <tr>
+                          <td align="left">India</td>
+                          <td align="left">0.12</td>
+                          <td align="left">0.11</td>
+                          <td align="left">0.17</td>
+                          <td align="left">0.15</td>
+                          <td align="left">0.51</td>
+                          <td align="left">0.21</td>
+                          <td align="left">0.46</td>
+                          <td align="left">0.19</td>
+                          <td align="left">0.53</td>
+                          <td align="left">0.24</td>
+                          <td align="left">0.43</td>
+                          <td align="left">0.18</td>
+                        </tr>
+                        <tr>
+                          <td align="left">Nepal</td>
+                          <td align="left">0.35</td>
+                          <td align="left">0.22</td>
+                          <td align="left">0.37</td>
+                          <td align="left">0.25</td>
+                          <td align="left">0.48</td>
+                          <td align="left">0.25</td>
+                          <td align="left">0.42</td>
+                          <td align="left">0.23</td>
+                          <td align="left">0.82</td>
+                          <td align="left">0.26</td>
+                          <td align="left">0.67</td>
+                          <td align="left">0.27</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                  <table-wrap position="float" id="tbl3">
+                    <label>Table 3</label>
+                    <caption>
+                      <p>New death cases forecast error.</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead>
+                        <tr>
+                          <th align="left"/>
+                          <th colspan="4" align="left">1 Days prediction<hr/></th>
+                          <th colspan="9" align="left">5 Days Prediction<hr/></th>
+                        </tr>
+                        <tr>
+                          <th align="left">Target Country</th>
+                          <th colspan="2" align="left">Italy Model<hr/></th>
+                          <th colspan="2" align="left">US Model<hr/></th>
+                          <th colspan="4" align="left">Italy Model<hr/></th>
+                          <th colspan="5" align="left">US Model<hr/></th>
+                        </tr>
+                        <tr>
+                          <th align="left"/>
+                          <th align="left">RMSE</th>
+                          <th align="left">MAE</th>
+                          <th align="left">RMSE</th>
+                          <th align="left">MAE</th>
+                          <th align="left">RMSE</th>
+                          <th align="left">RMSE SD</th>
+                          <th align="left">MAE</th>
+                          <th align="left">MAE SD</th>
+                          <th align="left">RMSE</th>
+                          <th align="left">RMSE SD</th>
+                          <th align="left">MAE</th>
+                          <th colspan="2" align="left">MAE SD</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left">Germany</td>
+                          <td align="left">0.3</td>
+                          <td align="left">0.24</td>
+                          <td align="left">0.32</td>
+                          <td align="left">0.23</td>
+                          <td align="left">0.55</td>
+                          <td align="left">0.33</td>
+                          <td align="left">0.48</td>
+                          <td align="left">0.3</td>
+                          <td align="left">1.35</td>
+                          <td align="left">0.36</td>
+                          <td align="left">1.19</td>
+                          <td colspan="2" align="left">0.35</td>
+                        </tr>
+                        <tr>
+                          <td align="left">France</td>
+                          <td align="left">1.46</td>
+                          <td align="left">0.84</td>
+                          <td align="left">2.28</td>
+                          <td align="left">1.15</td>
+                          <td align="left">1.94</td>
+                          <td align="left">1.92</td>
+                          <td align="left">1.71</td>
+                          <td align="left">1.64</td>
+                          <td align="left">2.17</td>
+                          <td align="left">1.63</td>
+                          <td align="left">1.91</td>
+                          <td colspan="2" align="left">1.41</td>
+                        </tr>
+                        <tr>
+                          <td align="left">Italy</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">1.56</td>
+                          <td align="left">1.03</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">1.37</td>
+                          <td align="left">0.57</td>
+                          <td align="left">1.24</td>
+                          <td colspan="2" align="left">0.55</td>
+                        </tr>
+                        <tr>
+                          <td align="left">US</td>
+                          <td align="left">0.85</td>
+                          <td align="left">0.57</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">0.84</td>
+                          <td align="left">0.72</td>
+                          <td align="left">0.75</td>
+                          <td align="left">0.67</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td align="left">–</td>
+                          <td colspan="2" align="left">-</td>
+                        </tr>
+                        <tr>
+                          <td align="left">Brazil</td>
+                          <td align="left">0.44</td>
+                          <td align="left">0.32</td>
+                          <td align="left">0.37</td>
+                          <td align="left">0.23</td>
+                          <td align="left">0.78</td>
+                          <td align="left">0.46</td>
+                          <td align="left">0.68</td>
+                          <td align="left">0.44</td>
+                          <td align="left">1.13</td>
+                          <td align="left">0.38</td>
+                          <td align="left">0.98</td>
+                          <td colspan="2" align="left">0.34</td>
+                        </tr>
+                        <tr>
+                          <td align="left">India</td>
+                          <td align="left">0.21</td>
+                          <td align="left">0.2</td>
+                          <td align="left">0.162</td>
+                          <td align="left">0.138</td>
+                          <td align="left">0.84</td>
+                          <td align="left">0.72</td>
+                          <td align="left">0.75</td>
+                          <td align="left">0.67</td>
+                          <td align="left">1.56</td>
+                          <td align="left">0.01</td>
+                          <td align="left">0.98</td>
+                          <td colspan="2" align="left">0.01</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                </p>
+                <sec id="sec3.1.1">
+                  <label>3.1.1</label>
+                  <title>Single-step forecast</title>
+                  <p id="d1e2681">
+For new cases, the Italy model performs slightly better for France as compared to the US models. The differences in the result are prominent in the first peak occurring around the end of March, where the US model predicts higher values than the Italy model. France imposed lockdown from March 17th <xref rid="b17" ref-type="bibr">[17]</xref> when both new cases and death cases were having a very steep rise. Within a week both the curves for new cases and new deaths reached its’ peak and started descending gradually. As new cases started leveling out, France eased its lockdown from the first week of May with strict controls in hotspots of the spread. Both US and Italy models predict well for all different cases like steep rise, peak, and the gradual descent of new cases of curves (see <xref rid="fig4" ref-type="fig">Fig. 4</xref>). The Italy model has MAE of 0.46 and RMSE of 0.69 compared to MAE and RMSE of 0.49 and 0.7 respectively for the US model.<fig id="fig4"><label>Fig. 4</label><caption><p>New cases prediction for France.</p></caption><graphic xlink:href="gr4_lrg"/></fig></p>
+                  <p id="d1e2695">
+The Italy model performs better for new death cases of France with an MAE of 0.84 compared to the US model’s MAE of 1.15. Even though both the models perform comparatively well in the initial gradual rise and later gradual descend of death cases, the US model fails to forecast the steep peaks during April as seen in <xref rid="fig5" ref-type="fig">Fig. 5</xref>.<fig id="fig5"><label>Fig. 5</label><caption><p>New death cases prediction for France.</p></caption><graphic xlink:href="gr5_lrg"/></fig></p>
+                  <p id="d1e2703">
+Both the models’ forecasts for Brazil have small errors initially as there is a gradual rise in new cases. However, during mid-May as there is a very steep rise in cases both the models fail to capture the steep peak which is visible in graphs of <xref rid="fig6" ref-type="fig">Fig. 6</xref>. Even though the US model predicts better in these peaks the error is still very high compared to prediction in other test countries.<fig id="fig6"><label>Fig. 6</label><caption><p>New cases prediction for Brazil.</p></caption><graphic xlink:href="gr6_lrg"/></fig></p>
+                  <p id="d1e2728">
+Unlike the forecast for new cases, both models can forecast new death cases for Brazil comparatively better (see <xref rid="fig7" ref-type="fig">Fig. 7</xref>). Numerically, the US model performs better with the MAE of 0.23. Unlike the case of France, both the models can forecast well in the peak region of Brazil.<fig id="fig7"><label>Fig. 7</label><caption><p>New death cases prediction for Brazil.</p></caption><graphic xlink:href="gr7_lrg"/></fig></p>
+                  <p id="d1e2736">
+Germany’s infection curves are limited compared to other European nation mainly because of its’ quick actions and strict regulations. Beginning at the start of March itself strict regulations were being imposed for gathering <xref rid="b17" ref-type="bibr">[17]</xref> and offices. The Italy model performs better for Germany with an MAE of 0.32 compared to 0.97 for the US model. US model generally predicts higher values and the differences are clearer in May in <xref rid="fig8" ref-type="fig">Fig. 8</xref> when new cases have started decreasing gradually.<fig id="fig8"><label>Fig. 8</label><caption><p>New cases prediction for Germany.</p></caption><graphic xlink:href="gr8_lrg"/></fig></p>
+                  <p id="d1e2748">
+New death cases start to decrease after mid-April in Germany, Both the models predict higher values during this instance (see <xref rid="fig9" ref-type="fig">Fig. 9</xref>). Germany comparatively has a lower mortality rate compared to other similarly infected EU countries like Italy and France. Numerically, the US model predicts better in terms of MAE (0.23) compared to 0.24 of the Italy model, though the Italy model’s RMSE of 0.30 is less than that of the US model (0.32).<fig id="fig9"><label>Fig. 9</label><caption><p>New death cases prediction for Germany.</p></caption><graphic xlink:href="gr9_lrg"/></fig></p>
+                  <p id="d1e2756">
+For Germany, though the Italy model predicts better for new cases, the US model predicts better for death cases. A possible explanation can be provided from training data. If we visualize the training data for Italy and United States in <xref rid="fig2" ref-type="fig">Fig. 2</xref>, <xref rid="fig3" ref-type="fig">Fig. 3</xref>, it can be observed that for the United States’ new cases, gradual descent is still not distinctly visible as in Italy and Germany. In contrast, gradual descent is clear for new death cases in the United States data. Because of this United States’ training data for new death cases can capture a wider range of patterns than the data for new cases which still have no signs of the descent part. Moreover, the death cases data for the United States and Germany has a clear waveform with seasonal ups and downs which is not so clear in Italy’s data. This similarity in the US and Germany could also be a reason for the ability of the US model to perform better than the Italy model for death cases of Germany.<fig id="fig10"><label>Fig. 10</label><caption><p>New cases prediction for Nepal.</p></caption><graphic xlink:href="gr10_lrg"/></fig><fig id="fig11"><label>Fig. 11</label><caption><p>New cases prediction for India.</p></caption><graphic xlink:href="gr11_lrg"/></fig></p>
+                  <p id="d1e2766">Nepal was under lockdown from March 24th and the easing started only around June 10th and finally ending it officially July 21st. Even then national and international flights have yet not started, inter-district mobility is highly controlled and strict restrictions apply to public gatherings. Vehicle movement has been controlled heavily using odd–even number plate rule, where only odd-numbered or even-numbered plates are allowed in a single day. Moreover, areas reporting higher cases have been put under immediate seal. Because of all these strict measures, the highest new cases reporting is limited to a few hundred. The new death cases are also limited to single-digit figures. However, even for such low cases, both models perform pretty well with MAE of 0.22 and 0.25 for Italy and US model respectively. <xref rid="fig10" ref-type="fig">Fig. 10</xref> depicts the differences between these two models, Italy model predicts lower values for most of the instances whereas the US model predicts higher values.</p>
+                  <p id="d1e2780">Though India maintained a longer lockdown in various phases easing different sectors one by one, the virus spread has gradually increased reaching threatening numbers. Sharp peaks are still not visible and it is still gradually increasing. For new cases, both the models have a modest performance with MAE of 0.12 and 0.17 for Italy and US models respectively. As seen in other test countries the US model predicts higher values compared to the Italy model (see <xref rid="fig11" ref-type="fig">Fig. 11</xref>).</p>
+                  <p id="d1e2795">
+US model has an MAE of 0.138 for India which is the best figure among all the test countries for new death cases. Italy model also has a pretty decent MAE of 0.2 however it can be seen in <xref rid="fig12" ref-type="fig">Fig. 12</xref> that initially Italy model has higher forecasted values with nearly equal forecasted values later for both the models as cases reach higher values.<fig id="fig12"><label>Fig. 12</label><caption><p>New death cases prediction for India.</p></caption><graphic xlink:href="gr12_lrg"/></fig><fig id="fig13"><label>Fig. 13</label><caption><p>New cases prediction for Italy and the United States.</p></caption><graphic xlink:href="gr13_lrg"/></fig><fig id="fig14"><label>Fig. 14</label><caption><p>New death cases prediction for Italy and the United States.</p></caption><graphic xlink:href="gr14_lrg"/></fig></p>
+                  <p id="d1e2807">For new cases, Italy and US models when tested in each other produce interesting results. US model predicts comparatively better for Italy with MAE of 0.37, capturing its steep rise and peak very closely. Italy model on the other hand fails to capture sharp peaks in US Data and has an MAE of 0.56. The difference can be visualized more vividly in <xref rid="fig13" ref-type="fig">Fig. 13</xref>.</p>
+                  <p id="d1e2813">For new death cases, the US model has a higher error for Italy as compared to the Italy model’s error for the US. The errors are more pronounced in steep peaks of Italy occurring during the end of March (see <xref rid="fig14" ref-type="fig">Fig. 14</xref>). However, the Italy model predicts closely in the peak region of the US occurring during mid-April and other consecutive smaller peaks occurring thereafter.</p>
+                  <p id="d1e2819">
+The Italy model predicts pretty well for countries like France, Germany whereas it predicts lower values for countries like Brazil and the United States and thus has comparatively large RMSE and MAE. The strategies implemented in European countries were pretty similar to each other <xref rid="b18" ref-type="bibr">[18]</xref>, so the Italy model predicts better for European countries whereas for Brazil the strategy was very different from that of Italy and the US as well so the forecasts have higher errors. However, for Countries like Nepal and India where there are a lot of differences in intervention strategy, the health care system, and other control policies Italy model performs just as well as it performed for the European countries. This shows the forecasted values are also a strong function of its history or past data regardless of the exact policies being implemented or the other diversifying factors.<fig id="fig15"><label>Fig. 15</label><caption><p>Single day new cases forecast error.</p></caption><graphic xlink:href="gr15_lrg"/></fig><fig id="fig16"><label>Fig. 16</label><caption><p>New death cases forecast errors.</p></caption><graphic xlink:href="gr16_lrg"/></fig><fig id="fig17"><label>Fig. 17</label><caption><p>New cases forecast error for France.</p></caption><graphic xlink:href="gr17_lrg"/></fig></p>
+                  <p id="d1e2831">The lowest RMSE and MAE of the Italy model are 0.12 and 0.11 respectively both occurring for India, and the maximum value is 1.31 and 1.65 respectively occurring in Brazil for new cases. The lowest RMSE and MAE of the US model are also for India with 0.17 and 0.15 respectively. One of the possible reasons for this can be India is having a gradual rise in cases and still not seen steep peaks where the models’ performance is compromised. It can be seen in the earlier forecast figures, both the models’ weakness lies in peaks but performs extremely well on gradual incline or decline of cases.</p>
+                  <p id="d1e2833">The graphs of new cases for France, Italy, Germany, and Brazil consist of clear spikes which represent the highest rise in cases, the models predict fine for all these peaks except for Brazil. Thus, the models are not able to forecast a very steep rise in cases in Brazil. The graphs for Brazil depict the US model has a better capacity to encapsulate sharp spikes better than the Italy model for new cases. In contrast, the Italy model better encapsulates sharp spikes in death cases better compared to US models.</p>
+                  <p id="d1e2843">The difference in MAE and RMSE for both the models in various countries can be visualized through <xref rid="fig15" ref-type="fig">Fig. 15</xref>, <xref rid="fig16" ref-type="fig">Fig. 16</xref>. For testing purposes, training data i.e. Italy and US data have not​ been used for error analysis in Italy and US models respectively as these are the training data for the respective models.</p>
+                </sec>
+                <sec id="sec3.1.2">
+                  <label>3.1.2</label>
+                  <title>Multi-step forecast</title>
+                  <p id="d1e2862">The same set of data has been used for the multistep forecast as in single-step forecasts. Total data of 102 days form 78 test sets for the five-days forecast. The mean value of RMSE and MAE across all these sets is calculated along with its standard deviation. The result is then fitted to a normal distribution for analyzing the variability in error across these test sets. The model requires 25 days of data, for single set validation, 20 for window size, and 5 for forecasts.</p>
+                  <p id="d1e2864">
+As for the single day forecast of France, the results of both models have a very small difference. Though the error parameters are small, it is nearly twice compared to the single-step forecast. The forecast results for new death cases are unacceptably large with very high MAE and RMSE along with high deviation for both the models (see <xref rid="fig17" ref-type="fig">Fig. 17</xref>, <xref rid="fig18" ref-type="fig">Fig. 18</xref>). The distributions extend to numbers as high as 7 which has not been recorded for other test countries.<fig id="fig18"><label>Fig. 18</label><caption><p>New death cases forecast error for France.</p></caption><graphic xlink:href="gr18_lrg"/></fig></p>
+                  <p id="d1e2889">
+With MAE of 1.12 and 1.14 for US and Italy models respectively for new cases, the forecasted errors for Brazil are nearly equal for both the models. Though the US model performed comparatively better for single-step prediction the results for multistep prediction have one of the highest errors compared to other test countries. However, the results for new death cases are quite contrasting as the results are better compared to other test countries (see <xref rid="fig19" ref-type="fig">Fig. 19</xref>, <xref rid="fig20" ref-type="fig">Fig. 20</xref>).<fig id="fig19"><label>Fig. 19</label><caption><p>New cases forecast error for Brazil.</p></caption><graphic xlink:href="gr19_lrg"/></fig><fig id="fig20"><label>Fig. 20</label><caption><p>New death cases forecast error for Brazil.</p></caption><graphic xlink:href="gr20_lrg"/></fig></p>
+                  <p id="d1e2899">
+Consistent with the single-step prediction for Germany, Italy model has a modest performance for multistep new cases prediction with an MAE of 0.56 while the US model has an MAE of 0.82. The standard deviation for US and Italy models for MAE is 0.50 and 0.34 respectively, the results are stable across the test set. The performance of Italy models for new death cases is even better with an MAE of 0.48 and a standard deviation of 0.30, the results are quite stable across the test set (see <xref rid="fig21" ref-type="fig">Fig. 21</xref>, <xref rid="fig22" ref-type="fig">Fig. 22</xref>).<fig id="fig21"><label>Fig. 21</label><caption><p>New cases forecast error for Germany.</p></caption><graphic xlink:href="gr21_lrg"/></fig><fig id="fig22"><label>Fig. 22</label><caption><p>New death cases forecast error for Germany.</p></caption><graphic xlink:href="gr22_lrg"/></fig></p>
+                  <p id="d1e2909">
+In case of India, though the Italy model has slightly better performance, both the models have a similar distribution with nearly equal error and its deviation (see <xref rid="fig23" ref-type="fig">Fig. 23</xref>). Compared to other countries MAE of 0.46 and 0.43 are modest numbers however compared to India’s single-step prediction the figures are nearly four times higher. For new death cases, both the models have the least deviated results with a standard deviation of 0.01 for both MAE and RMSE (see <xref rid="fig24" ref-type="fig">Fig. 24</xref>).<fig id="fig23"><label>Fig. 23</label><caption><p>New cases forecast error for India.</p></caption><graphic xlink:href="gr23_lrg"/></fig><fig id="fig24"><label>Fig. 24</label><caption><p>New death cases forecast error for India.</p></caption><graphic xlink:href="gr24_lrg"/></fig></p>
+                  <p id="d1e2923">
+Italy model for Nepal has the best performance compared to all the test countries with an MAE of 0.42 Nepal is still in its early phase with a very slow gradual rise in cases. It has been seen in the single-step prediction that both the models predict well in regions of gradual rise or fall and have some compromise in predictions near the peaks. As Nepal does not have any sharp spikes and peaks this may be the reason for Italy’s fine performance for Nepal (see <xref rid="fig25" ref-type="fig">Fig. 25</xref>).<fig id="fig25"><label>Fig. 25</label><caption><p>New cases forecast error for Nepal.</p></caption><graphic xlink:href="gr25_lrg"/></fig></p>
+                  <p id="d1e2940">
+Consistent with the single-step prediction of new cases, the US model performs better for Italy compared to the Italy model’s performance for the United States. And for new death cases, the Italy model performs better for the United States (see <xref rid="fig26" ref-type="fig">Fig. 26</xref>, <xref rid="fig27" ref-type="fig">Fig. 27</xref>).<fig id="fig26"><label>Fig. 26</label><caption><p>New cases forecast error for Italy and US.</p></caption><graphic xlink:href="gr26_lrg"/></fig><fig id="fig27"><label>Fig. 27</label><caption><p>New death cases forecast error for US and Italy.</p></caption><graphic xlink:href="gr27_lrg"/></fig></p>
+                  <p id="d1e2950">The lowest RMSE (0.48) and MAE (0.42) for Italy model’s new cases are for Nepal. The standard deviation for RMSE is 0.21 and MAE is 0.19, which are also pretty low, meaning the error does not​ deviate much through all of its test sets and the forecasts are stable. The Italy model also performs well for Germany as in single-step predictions. Moreover, the Italy model’s RMSE (1.3) and MAE (1.14) is high for Brazil. Unlike in single-step prediction, the Italy model does not predict well for France as it is RMSE(1.03) and MAE (0.9) are comparatively higher.</p>
+                  <p id="d1e2976">For new cases, Lowest RMSE (0.53) and lowest MAE (0.43) for the US model are seen for India, which is comparatively higher than errors observed in the Italy model. Like the Italy model, the US model also fails to predict better for Brazil. The RMSE and MAE values for Brazil are 1.31 and 1.12 respectively which is nearly equal to that of the Italy model.</p>
+                  <p id="d1e2979">Except for India and Germany both the models predict on a similar scale for new cases. The inability of the models to predict well for Brazil’s new cases may be explained by the problems in its different restriction policies. The strategy followed in Brazil is very different from to rest of the world <xref rid="b19" ref-type="bibr">[19]</xref> and has a very steep rise in new cases and death cases as well which may be the reason for higher prediction error. Moreover, Brazil shows a higher variation in error which can be visualized in <xref rid="fig19" ref-type="fig">Fig. 19</xref>, <xref rid="fig20" ref-type="fig">Fig. 20</xref>.</p>
+                  <p id="d1e2989">As expected, the 5 days models do not perform as good as single day models, as it is more challenging to capture and forecast long ranger patterns than a shorter one. Even then the results are satisfying for countries like India and Germany for new cases.</p>
+                  <p id="d1e3007">
+5 days new cases prediction error can be visualized from <xref rid="fig28" ref-type="fig">Fig. 28</xref>. Italy’s model performance for Nepal is far better than any other prediction model both. Samples of a multistep forecast for new cases have been presented in <xref rid="fig29" ref-type="fig">Fig. 29</xref>.<fig id="fig28"><label>Fig. 28</label><caption><p>New cases multistep forecast error.</p></caption><graphic xlink:href="gr28_lrg"/></fig></p>
+                  <p id="d1e3019">
+Though any conclusion cannot be drawn from samples of <xref rid="fig29" ref-type="fig">Fig. 29</xref>, what can be observed is the US model has predicted higher values compared to both the actual value and values forecasted by the Italy model.<fig id="fig29"><label>Fig. 29</label><caption><p>Samples of multistep forecast for new cases.</p></caption><graphic xlink:href="gr29_lrg"/></fig></p>
+                  <p id="d1e3027"><xref rid="fig30" ref-type="fig">Fig. 30</xref> depicts the multistep forecast for the latest available values for Nepal. The cases in Nepal are gradually rising and still, the spread is in its’ initial phase. For Nepal also US model predicts higher values compared to Italy’s model. As for available data for new death cases of Nepal, it is still limited to single-digit figures and there are many days with no new death cases recorded. So, forecasts for new death cases have not been presented as the numbers are too close to zero and will be ambiguous to compare with the results of other test countries.<fig id="fig30"><label>Fig. 30</label><caption><p>New cases multistep forecast for Nepal.</p></caption><graphic xlink:href="gr30_lrg"/></fig><fig id="fig31"><label>Fig. 31</label><caption><p>New death cases multistep forecast error.</p></caption><graphic xlink:href="gr31_lrg"/></fig><fig id="fig32"><label>Fig. 32</label><caption><p>Samples of multistep forecast for new death cases.</p></caption><graphic xlink:href="gr32_lrg"/></fig></p>
+                  <p id="d1e3055">Error for multistep death cases forecast can be visualized in <xref rid="fig31" ref-type="fig">Fig. 31</xref>. In contrast to all previous forecasts, Brazil also has achieved decent results. For new death cases, the best result is obtained for the Italy model applied to Germany with MAE of 0.48 and RMSE of 0.55. Both US and Italy models have poor performance for France with the highest MAE of 1.71 and 1.91 respectively for Italy and the US model. For all the test countries Italy model’s performance is numerically better than that of the US model. Samples of multistep forecast are presented in <xref rid="fig32" ref-type="fig">Fig. 32</xref>.</p>
+                  <p id="d1e3065">As expected, multistep models have higher errors than single-step models for both new cases and deaths forecast as capturing longer sequences is challenging. Even then good results have been obtained for countries like Germany, Nepal, and India for new cases and Brazil and Germany for death cases. The results can further be improved by considering other variables like age ratio, population density, and localizing the forecasts to a particular region of hotspots like New York, Delhi, Paris, etc. With such limited training data and wide diversity across the test countries, the proposed models have provided a decent forecast.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="sec4">
+              <label>4</label>
+              <title>Conclusions</title>
+              <p id="d1e3072">In this paper, Transfer Learning is applied in the LSTM network to learn trends of new cases and new deaths because of COVID-19 from data of Italy and the United States and forecast for other countries. Germany, France, Brazil, India, and Nepal have been tested for single-step and multistep predictions from the prepared models. These forecasts have verified that even for different modes of intervention, policies, and health care systems, the proposed models can predict well. The results indicate new cases and deaths can be forecasted pretty well with the proposed models. Complex patterns of steep rise, spikes, and flattening effects of new cases and deaths can be learned from mature datasets i.e. data from countries infected earlier. This approach is more useful for countries that are in its early phase of virus spread, to forecast based on other country’s models. Such forecasts can be a great help to governments and policymakers.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of Competing Interest</title>
+              <p id="d1e3077">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="bib1">
+              <title>References</title>
+              <ref id="b1">
+                <label>1</label>
+                <element-citation publication-type="book" id="sb1">
+                  <chapter-title>Coronavirus Update (Live): 20, 514, 016 Cases and 745, 687 Deaths from COVID-19 Virus Pandemic - Worldometer</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="https://www.worldometers.info/coronavirus/" id="interref1">https://www.worldometers.info/coronavirus/</ext-link>. [Accessed 12 August 2020]</comment>
+                </element-citation>
+              </ref>
+              <ref id="b2">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sb2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Atalan</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is the lockdown important to prevent the COVID-9 pandemic? Effects on psychology, environment and economy-perspective</article-title>
+                  <source>Ann Med Surg</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.amsu.2020.06.010</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b3">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sb3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuo</surname>
+                      <given-names>R.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shih</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19: The first documented coronavirus pandemic in history</article-title>
+                  <source>Biomed J</source>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bj.2020.04.007</pub-id>
+                  <pub-id pub-id-type="pmid">32200951</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b4">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sb4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Swapnarekha</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Behera</surname>
+                      <given-names>H.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nayak</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Naik</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Role of intelligent computing in COVID-19 prognosis: A state-of-the-art review</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <volume>138</volume>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">109947</object-id>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109947</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b5">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sb5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ben</surname>
+                      <given-names>Fredj H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chrif</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Novel Corona virus Disease infection in Tunisia: Mathematical model and the impact of the quarantine strategy</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">109969</object-id>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109969</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b6">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sb6">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Torrealba-Rodriguez</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Conde-Gutiérrez</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hernández-Javier</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling and prediction of COVID-19 in Mexico applying mathematical and computational models</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <fpage>138</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109946</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b7">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sb7">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ndaïrou</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Area</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nieto</surname>
+                      <given-names>J.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Torres</surname>
+                      <given-names>D.F.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical modeling of COVID-19 transmission dynamics with a case study of Wuhan</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <fpage>135</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109846</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b8">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sb8">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tomar</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction for the spread of COVID-19 in India and effectiveness of preventive measures</article-title>
+                  <source>Sci Total Environ</source>
+                  <volume>728</volume>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">138762</object-id>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.138762</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b9">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sb9">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chimmula</surname>
+                      <given-names>V.K.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time series forecasting of COVID-19 transmission in Canada using LSTM networks</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <fpage>135</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109864</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b10">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sb10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ghosal</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhattacharyya</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Majumder</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of complete lockdown on total infection and death rates: A hierarchical cluster analysis</article-title>
+                  <source>Diabetes Metab Syndr Clin Res Rev</source>
+                  <volume>14</volume>
+                  <year>2020</year>
+                  <fpage>707</fpage>
+                  <lpage>711</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dsx.2020.05.026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b11">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sb11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roser</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ritchie</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ortiz-Ospina</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hasell</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Coronavirus Pandemic (COVID-19)</article-title>
+                  <source>Our world data</source>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="b12">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sb12">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Connor</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>R.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Atlas</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recurrent neural networks and robust time series prediction</article-title>
+                  <source>IEEE Trans Neural Netw</source>
+                  <volume>5</volume>
+                  <year>1994</year>
+                  <fpage>240</fpage>
+                  <lpage>254</lpage>
+                  <pub-id pub-id-type="doi">10.1109/72.279188</pub-id>
+                  <pub-id pub-id-type="pmid">18267794</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b13">
+                <label>13</label>
+                <mixed-citation publication-type="other" id="sb13">Pascanu R, Mikolov T, Bengio Y. On the difficulty of training recurrent neural networks. In: 30th int conf mach learn; 2013, p. 2347–55.</mixed-citation>
+              </ref>
+              <ref id="b14">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sb14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hochreiter</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidhuber</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>LSTM can solve hard long time lag problems</article-title>
+                  <source>Adv Neural Inf Process Syst</source>
+                  <year>1997</year>
+                  <fpage>473</fpage>
+                  <lpage>479</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b15">
+                <label>15</label>
+                <element-citation publication-type="book" id="sb15">
+                  <chapter-title>Keras: the Python deep learning API</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="https://keras.io/" id="interref2">https://keras.io/</ext-link>, [Accessed 16 June 2020]</comment>
+                </element-citation>
+              </ref>
+              <ref id="b16">
+                <label>16</label>
+                <element-citation publication-type="book" id="sb16">
+                  <chapter-title>Welcome To Colaboratory - Colaboratory</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="https://colab.research.google.com/notebooks/intro.ipynb" id="interref3">https://colab.research.google.com/notebooks/intro.ipynb</ext-link>, [Accessed 17 June 2020]</comment>
+                </element-citation>
+              </ref>
+              <ref id="b17">
+                <label>17</label>
+                <element-citation publication-type="book" id="sb17">
+                  <chapter-title>Coronavirus: France eases lockdown after eight weeks - BBC News</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/news/world-europe-52615733" id="interref4">https://www.bbc.com/news/world-europe-52615733</ext-link>, [Accessed 15 August 2020]</comment>
+                </element-citation>
+              </ref>
+              <ref id="b18">
+                <label>18</label>
+                <element-citation publication-type="book" id="sb18">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Meunier</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Full lockdown policies in Western Europe countries have no evident impacts on the COVID-19 epidemic</chapter-title>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1101/2020.04.24.20078717</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b19">
+                <label>19</label>
+                <element-citation publication-type="book" id="sb19">
+                  <chapter-title>Coronavirus quarantine: While other countries open up, Brazil can’t lock down - The Washington Post</chapter-title>
+                  <year>2020</year>
+                  <comment><ext-link ext-link-type="uri" xlink:href="https://www.washingtonpost.com/world/while-other-countries-look-to-open-up-brazil-cant-find-a-way-to-shut-down/2020/05/10/2c02abea-92c1-11ea-87a3-22d324235636_story.html" id="interref5">https://www.washingtonpost.com/world/while-other-countries-look-to-open-up-brazil-cant-find-a-way-to-shut-down/2020/05/10/2c02abea-92c1-11ea-87a3-22d324235636_story.html</ext-link>, [Accessed 17 June 2020]</comment>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

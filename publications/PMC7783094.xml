@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:59:40Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7783094" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7783094</identifier>
+        <datestamp>2021-01-05</datestamp>
+        <setSpec>phecambridgeup</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Infect Control Hosp Epidemiol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Infect Control Hosp Epidemiol</journal-id>
+              <journal-id journal-id-type="publisher-id">ICE</journal-id>
+              <journal-title-group>
+                <journal-title>Infection Control and Hospital Epidemiology</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0899-823X</issn>
+              <issn pub-type="epub">1559-6834</issn>
+              <publisher>
+                <publisher-name>Cambridge University Press</publisher-name>
+                <publisher-loc>New York, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7783094</article-id>
+              <article-id pub-id-type="pmcid">PMC7783094</article-id>
+              <article-id pub-id-type="pmc-uid">7783094</article-id>
+              <article-id pub-id-type="pmid">33308354</article-id>
+              <article-id pub-id-type="pmid">33308354</article-id>
+              <article-id pub-id-type="publisher-id">S0899823X20013690</article-id>
+              <article-id pub-id-type="doi">10.1017/ice.2020.1369</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Evaluating intervention strategies in controlling coronavirus disease 2019 (COVID-19) spread in care homes: An agent-based model</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6742-6896</contrib-id>
+                  <name>
+                    <surname>Nguyen</surname>
+                    <given-names>Le L. K.</given-names>
+                  </name>
+                  <degrees>MPH</degrees>
+                  <xref ref-type="aff" rid="a1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0796-7981</contrib-id>
+                  <name>
+                    <surname>Howick</surname>
+                    <given-names>Susan</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="a1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McLafferty</surname>
+                    <given-names>Dennis</given-names>
+                  </name>
+                  <degrees>MSc</degrees>
+                  <xref ref-type="aff" rid="a2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5768-6360</contrib-id>
+                  <name>
+                    <surname>Anderson</surname>
+                    <given-names>Gillian H.</given-names>
+                  </name>
+                  <degrees>BA</degrees>
+                  <xref ref-type="aff" rid="a1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pravinkumar</surname>
+                    <given-names>Sahaya J.</given-names>
+                  </name>
+                  <degrees>MBBS, MPH, FFPH</degrees>
+                  <xref ref-type="aff" rid="a3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9442-1628</contrib-id>
+                  <name>
+                    <surname>Van Der Meer</surname>
+                    <given-names>Robert</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="a1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8391-6660</contrib-id>
+                  <name>
+                    <surname>Megiddo</surname>
+                    <given-names>Itamar</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="a1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="a1"><label>1</label>Department of Management Science, Strathclyde Business School, <institution>University of Strathclyde</institution>, <city>Glasgow</city>, <country>United Kingdom</country></aff>
+              <aff id="a2"><label>2</label>Adult Services, <institution>Health &amp; Social Care North Lanarkshire</institution>, Motherwell, <country>United Kingdom</country></aff>
+              <aff id="a3"><label>3</label>Department of Public Health, NHS Lanarkshire, <institution>Kirklands Hospital</institution>, Bothwell, <country>United Kingdom</country></aff>
+              <author-notes>
+                <corresp id="cor1"><bold>Author for correspondence:</bold> Ms Le L. K. Nguyen, E-mail: <email>nguyen-le-khanh-ngan@strath.ac.uk</email></corresp>
+              </author-notes>
+              <pub-date publication-format="electronic" date-type="pub">
+                <day>14</day>
+                <month>12</month>
+                <year>2020</year>
+              </pub-date>
+              <fpage>1</fpage>
+              <lpage>11</lpage>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>8</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>24</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>08</day>
+                  <month>12</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Society for Healthcare Epidemiology of America 2020</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder>The Society for Healthcare Epidemiology of America</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (<uri xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</uri>), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:title="pdf" xlink:href="S0899823X20013690a.pdf"/>
+              <abstract abstract-type="normal">
+                <sec id="as1">
+                  <title>Background:</title>
+                  <p>Care homes are vulnerable to widespread transmission of severe acute respiratory coronavirus virus 2 (SARS-CoV-2) with poor outcomes for staff and residents. Infection control interventions in care homes need to not only be effective in containing the spread of coronavirus disease 2019 (COVID-19) but also feasible to implement in this special setting which is both a healthcare institution and a home.</p>
+                </sec>
+                <sec id="as2">
+                  <title>Methods:</title>
+                  <p>We developed an agent-based model that simulates the transmission dynamics of COVID-19 via contacts between individuals, including residents, staff members, and visitors in a care home setting. We explored a representative care home in Scotland in our base case and explore other care home setups in an uncertainty analysis. We evaluated the effectiveness of a range of intervention strategies in controlling the spread of COVID-19.</p>
+                </sec>
+                <sec id="as3">
+                  <title>Results:</title>
+                  <p>In the presence of the reference interventions that have been implemented in many care homes, including testing of new admissions, isolation of symptomatic residents, and restricted public visiting, routine testing of staff appears to be the most effective and practical approach. Routine testing of residents is no more effective as a reference strategy while routine testing of both staff and residents only shows a negligible additive effect. Modeling results are very sensitive to transmission probability per contact, but the qualitative finding is robust to varying parameter values in our uncertainty analysis.</p>
+                </sec>
+                <sec id="as4">
+                  <title>Conclusions:</title>
+                  <p>Our model predictions suggest that routine testing should target staff in care homes in conjunction with adherence to strict hand hygiene and using personal protective equipment to reduce risk of transmission per contact.</p>
+                </sec>
+              </abstract>
+              <counts>
+                <fig-count count="5"/>
+                <table-count count="2"/>
+                <ref-count count="51"/>
+                <page-count count="11"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <p>As of July 15, 2020, ~24 million people had been infected with severe acute respiratory coronavirus virus 2 (SARS-CoV-2) worldwide, and 3.4% of those infected have died.<sup><xref rid="r1" ref-type="bibr">1</xref></sup> Many studies have demonstrated that comorbidity and old age are associated with poor outcomes among coronavirus disease 2019 (COVID-19) patients.<sup><xref rid="r2" ref-type="bibr">2</xref>,<xref rid="r3" ref-type="bibr">3</xref></sup> Care homes across the globe, where most residents are elderly and have complex medical and care needs, have suffered devastating outcomes.<sup><xref rid="r4" ref-type="bibr">4</xref>,<xref rid="r5" ref-type="bibr">5</xref></sup> High rates of mortality involving COVID-19 have been attributed to residents in this setting (eg, 40%–70% in Canada,<sup><xref rid="r6" ref-type="bibr">6</xref></sup> 33%–64% in European countries,<sup><xref rid="r5" ref-type="bibr">5</xref></sup> and 47% in Scotland<sup><xref rid="r7" ref-type="bibr">7</xref></sup>).</p>
+            <p>Care homes are integral to the wider healthcare system, and it is essential that they continue to function safely and effectively amid the COVID-19 pandemic to avoid increasing the pressure on the acute-care sector. If care homes stop admitting patients discharged from hospitals, patients have to stay in hospitals longer than they need, putting them at greater risk, adding to the pressure on hospitals, and causing tremendous distress for many individuals. Because vaccination for COVID-19 is currently unavailable, infection control interventions within care homes and across settings are vitally important to protect the vulnerable residents and healthcare workers.</p>
+            <p>Agent-based models (ABMs) have been used to study epidemic behavior and interventions and to mitigate them in the past couple of decades, leading to new insights. Although compartmental models have been popularly used to simulate transmission dynamics of infectious diseases at the population level, ABMs have been useful for understanding the effects of heterogeneous individual characteristics and behavior in conjunction with the stochasticity of transmission events. They have shown that individual characteristics such as age, comorbidity, and socio-spatial structures and contact patterns in different settings influence disease spread and the effectiveness of interventions.<sup><xref rid="r8" ref-type="bibr">8</xref>–<xref rid="r12" ref-type="bibr">12</xref></sup> Many of these factors are important in the care-home setting and for COVID-19 specifically. Influenza and COVID-19 pandemic ABMs have studied disease dynamics and interventions at the population level,<sup><xref rid="r10" ref-type="bibr">10</xref>,<xref rid="r13" ref-type="bibr">13</xref>–<xref rid="r15" ref-type="bibr">15</xref></sup> and a number of recent ABMs have investigated how interventions in small-scale settings, such as schools and workplaces, would influence the behavior of epidemics in wider communities.<sup><xref rid="r10" ref-type="bibr">10</xref>,<xref rid="r16" ref-type="bibr">16</xref>,<xref rid="r17" ref-type="bibr">17</xref></sup> None of these models explores the care-home setting, and many measures implemented schools and workplaces, such as closure and social distancing, are not suitable for care homes that also act as a residence and where staff interaction with residents is often unavoidable.</p>
+            <p>Many studies have investigated the spread of SARS-CoV-2 in the general population, but research on the unique transmission dynamics and interventions for COVID-19 in healthcare settings, and care homes in particular, is scarce. We searched PubMed, MedRxiv, and BioRxiv for papers published between January 1, 2020, and July 15, 2020, that contained the terms (COVID OR coronavirus OR nCoV OR SARS-CoV-2) AND (care home* OR nursing home* OR skilled nursing facility* OR long-term care OR LTCF* OR residential care). We identified 152 preprints and articles published in academic journals, mostly outbreak reports, point prevalence surveys, commentary and editorial papers that discuss the importance and challenges of controlling the spread of SARS-CoV-2 in this setting. They describe experiences of containing spread in some specific care homes and a need for improved control interventions, and they call for more attention and a plan from governments. We found 1 preprint modeling study<sup><xref rid="r18" ref-type="bibr">18</xref></sup> that evaluates the capability of surveillance strategies to detect simulated outbreaks under limited testing capacity in a long-term care hospital. This paucity suggests a lack of research on the transmission dynamics of SARS-CoV-2 and the effectiveness of infection control interventions in this setting. Therefore, we investigated the transmission dynamics of SARS-CoV-2 in a care home and the effectiveness of a range of infection control intervention strategies using agent-based modeling.</p>
+            <sec sec-type="methods" id="s1">
+              <title>Methods</title>
+              <sec id="s1-1" sec-type="other">
+                <title>Model</title>
+                <p>We developed an ABM that simulates the transmission dynamics of SARS-CoV-2 via contacts between individual agents, including residents, staff members, and visitors within a care home. We assumed that all rooms are single occupancy because the vast majority of rooms in Scottish care homes are of this type<sup><xref rid="r19" ref-type="bibr">19</xref></sup> and, based on discussions with care-home stakeholders, single occupancy has been a consensus practice during the COVID-19 pandemic. The model structure (Fig. <xref ref-type="fig" rid="f1">1</xref>) is described in detail in the ‘ODD’ (overview, design concepts, and details) protocol (Appendix <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S1</uri> online). In brief, susceptible individuals may acquire the infection when exposed to infectious sources. They are infected but not yet infectious (exposed). Once exposed, individuals become infectious, they can either remain asymptomatic for the entire infectious period or develop symptoms after a presymptomatic period. Symptoms could be mild or severe and require hospitalization. Infectious individuals eventually recover or die. Infections can be imported into the care home by infected residents upon admission (from hospitals and the community) and staff or visitors who acquired the infection elsewhere. The COVID-19 prevalence in hospitals and the community determine the probability at which these individuals introduce the infection into the care home. Transmission events occur through contacts made between susceptible and infectious (presymptomatic, asymptomatic, and symptomatic) individuals at risk, determined by the infection probability per contact. We assumed that recovered individuals are immune to reinfection throughout the simulated time. As we examined the spread of SARS-CoV-2 once infection already exists in the care home, 1 random resident is infected at the beginning of the simulation; staff and other residents are susceptible.</p>
+                <p>
+                  <fig id="f1" orientation="portrait" position="float">
+                    <label>Fig. 1.</label>
+                    <caption>
+                      <p>Overview of the model structure. (A) The structure of the care home and routes of introducing SARS-CoV-2 into the home. The base case care home, representative of a care home in North Lanarkshire, Scotland, has 80 residents and a team of 72 staff members. It is split into 2 units containing 40 residents and 16 and 15 care staff members on duty per unit per day. The staff pools for the 2 units contain 33 and 32 care staff members respectively. A group of 7 well-being coordinators and housekeepers is shared between the 2 units. (B) The progression of COVID-19 cases. Susceptible people may acquire the infection when exposed to infectious sources. They are infected but not yet infectious (exposed state). Once exposed people become infectious, they can either remain asymptomatic for the entire infectious period or develop symptoms after a pre-symptomatic period. Symptoms could be mild or severe and require hospitalizations. Infectious people will eventually recover or die. (C) Interactions between residents, staff and visitors in a care home. The dashed lines linking individuals denote their possible ways of interaction. Different colours are used for these lines to distinguish different types of interaction: blue, staff-resident interaction; green, resident-resident interaction; red, staff–staff interaction; black, resident-visitor interaction; and purple, staff–visitor interactions.</p>
+                    </caption>
+                    <graphic xlink:href="S0899823X20013690_fig1"/>
+                  </fig>
+                </p>
+              </sec>
+              <sec id="s1-2" sec-type="other">
+                <title>Data collection and parameters</title>
+                <p>We interviewed care-home stakeholders including managers, staff in different roles, and we had regular discussions with representatives from the Health and Social Care Partnerships and Public Health in Lanarkshire to analyze the problem, build the model, and design the intervention strategies. The interviews were semistructured, and each lasted ~45–60 minutes. We also conducted literature reviews to obtain the values for parameters characterizing the transmission of SARS-CoV-2 and the disease progression. Other parameters are based on national data for Scotland and regional data for North Lanarkshire where available. Model input parameters used for the base case simulation are presented in Table <xref rid="tbl1" ref-type="table">1</xref>.</p>
+                <p>
+                  <table-wrap id="tbl1" orientation="portrait" position="float">
+                    <label>Table 1.</label>
+                    <caption>
+                      <p>Input Parameters for Base Case Simulation and Distributions of Parameters</p>
+                    </caption>
+                    <alternatives>
+                      <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                          <col span="1"/>
+                          <col span="1"/>
+                          <col span="1"/>
+                          <col span="1"/>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th colspan="1" rowspan="1">Input Parameter</th>
+                            <th colspan="1" rowspan="1">Base Case Value</th>
+                            <th colspan="1" rowspan="1">Sensitivity/Uncertainty Analysis</th>
+                            <th colspan="1" rowspan="1">Source</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Infection prevalence in the hospital</td>
+                            <td rowspan="1" colspan="1" align="center">0.02</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min = 0, max = 0.5, mode = 0.2)</td>
+                            <td rowspan="1" colspan="1" align="center">National Records Scotland,<sup><xref rid="r7" ref-type="bibr">7</xref></sup> Public Health Scotland,<sup><xref rid="r22" ref-type="bibr">22</xref></sup>Scottish government<sup><xref rid="r31" ref-type="bibr">31</xref></sup>(estimated)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Infection prevalence in the community</td>
+                            <td rowspan="1" colspan="1" align="center">0.05</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min = 0, max = 0.2, mode = 0.05)</td>
+                            <td rowspan="1" colspan="1" align="center">Perez-Reche and Strachan<sup><xref rid="r21" ref-type="bibr">21</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that an infected resident dies (age-specific)</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual resident from empirical distribution by age:<break/>80+ y: 11%<break/>70–79 y: 6.0%<break/>60–69 y: 2.6%<break/>50–59 y: 0.71%<break/>40–49 y: 0.18%<break/>30–49 y: 0.09%<break/>20–29 y: 0.04%<break/>18–20 y: 0.007%</td>
+                            <td rowspan="1" colspan="1" align="center">No (This parameter does not impact our main model output, the number of infected residents, significantly.)</td>
+                            <td rowspan="1" colspan="1" align="center">Ferguson et al,<sup><xref rid="r13" ref-type="bibr">13</xref></sup>Kulu and Dorey<sup><xref rid="r32" ref-type="bibr">32</xref></sup>
+<break/>The Infection Fatality Rate (IFR) for Scotland is adjusted based on the overall aged-adjusted IFR value for the UK and the relative IFR value (=1.18) for other urban areas in Scotland. Most of the population (&gt;80%) in North Lanarkshire live in areas classified as other urban areas.</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that an infected staff member dies</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual staff member from a uniform distribution (0.0003–0.022)</td>
+                            <td rowspan="1" colspan="1" align="center">No</td>
+                            <td rowspan="1" colspan="1" align="center">Ferguson et al,<sup><xref rid="r13" ref-type="bibr">13</xref></sup>Kulu and Dorey<sup><xref rid="r32" ref-type="bibr">32</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The no. of contacts that a resident has with other residents per day</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual resident from a Poisson distribution with a mean of<break/>3.9 contacts per resident per day</td>
+                            <td rowspan="1" colspan="1" align="center">Mean of the Poisson distribution is drawn from a triangular distribution (min, 1; max, 5; mode = 3.9)</td>
+                            <td rowspan="1" colspan="1" align="center">Van den Dool et al,<sup><xref rid="r11" ref-type="bibr">11</xref></sup>Chamchod and Ruan<sup><xref rid="r33" ref-type="bibr">33</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The no. of contacts that a staff has with other staff per day</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual staff member from a Poisson distribution with a mean of 7.3 contacts per staff member per day</td>
+                            <td rowspan="1" colspan="1" align="center">Mean of the Poisson distribution is drawn from a triangular distribution (min, 1; max, 10; mode, 7.3)</td>
+                            <td rowspan="1" colspan="1" align="center">Van den Dool et al<sup><xref rid="r11" ref-type="bibr">11</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The no. of contacts that a staff has with residents per day</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual staff member from a Poisson distribution with a mean of 16.2 contacts per staff per day</td>
+                            <td rowspan="1" colspan="1" align="center">Mean of the Poisson distribution is drawn from a triangular distribution (min, 10; max, 20; mode, 16.2)</td>
+                            <td rowspan="1" colspan="1" align="center">Van den Dool et al,<sup><xref rid="r11" ref-type="bibr">11</xref></sup>Chamchod and Ruan<sup><xref rid="r33" ref-type="bibr">33</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The no. of contacts that a staff has with visitors per day</td>
+                            <td rowspan="1" colspan="1" align="center">5.0 contacts per staff member per day</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0; max, 10; mode, 5.0)</td>
+                            <td rowspan="1" colspan="1" align="center">Discussions with the manager and staff of the representative care home</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that a resident comes into contact with another resident in the other unit</td>
+                            <td rowspan="1" colspan="1" align="center">20%</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0; max, 0.5; mode, 0.2)</td>
+                            <td rowspan="1" colspan="1" align="center">Discussions with the manager and staff of the representative care home</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The average no. of people visiting a resident per day</td>
+                            <td rowspan="1" colspan="1" align="center">1.0 visitor per resident per day</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0; max, 2.0; mode, 1.0)</td>
+                            <td rowspan="1" colspan="1" align="center">Van den Dool et al,<sup><xref rid="r11" ref-type="bibr">11</xref></sup>Port et al<sup><xref rid="r34" ref-type="bibr">34</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The rate at which residents leave the care home because of deaths caused by other reasons, moving to another facility, admitted to hospitals, or returning to their own home (rare)</td>
+                            <td rowspan="1" colspan="1" align="center">0.005 deaths or discharges per resident per day</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0.001; max, 0.005; mode, 0.004)</td>
+                            <td rowspan="1" colspan="1" align="center">Scotland Information Services<sup><xref rid="r19" ref-type="bibr">19</xref></sup> (Calculated from data for care homes in North Lanarkshire)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Staff turnover rate</td>
+                            <td rowspan="1" colspan="1" align="center">24% per year</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0.1; max, 0.5; mod, 0.24)</td>
+                            <td rowspan="1" colspan="1" align="center">Scottish Care<sup><xref rid="r35" ref-type="bibr">35</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that an infected resident will develop symptoms</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual resident from empirical distribution:<break/>80+ y: 0.9<break/>70–79 y: 0.85<break/>60–69 y: 0.8<break/>50–59 y: 0.75<break/>40–49 y: 0.7<break/>30–49 y: 0.65<break/>20–29 y: 0.6<break/>18–20 y: 0.55</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0.5; max, 0.9; mode, 0.8)</td>
+                            <td rowspan="1" colspan="1" align="center">Ferguson et al,<sup><xref rid="r13" ref-type="bibr">13</xref></sup>Verity et al<sup><xref rid="r36" ref-type="bibr">36</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that an infected staff member will develop symptoms</td>
+                            <td rowspan="1" colspan="1" align="center">0.7</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0.5; max, 0.9; mode, 0.7)</td>
+                            <td rowspan="1" colspan="1" align="center">Ferguson et al,<sup><xref rid="r13" ref-type="bibr">13</xref></sup>Verity et al<sup><xref rid="r36" ref-type="bibr">36</xref></sup>
+<break/>(for a population like the United Kingdom or the United States)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that a symptomatic resident has severe symptoms</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual resident from empirical distribution:<break/>80+ y: 0.28<break/>70–79 y: 0.25<break/>60–69 y: 0.17<break/>50–59 y: 0.11<break/>40–49 y: 0.05<break/>30–49 y: 0.03<break/>20–29 y: 0.01<break/>18–20 y: 0.001</td>
+                            <td rowspan="1" colspan="1" align="center">No (This parameter does not affect no. of infections significantly given the assumptions that symptomatic individuals are isolated)</td>
+                            <td rowspan="1" colspan="1" align="center">Ferguson et al,<sup><xref rid="r13" ref-type="bibr">13</xref></sup>Kulu and Dorey<sup><xref rid="r32" ref-type="bibr">32</xref></sup>
+<break/>The proportion of symptomatic cases requiring hospitalizations for Scotland is adjusted based on the overall aged-adjusted value for the United Kingdom</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that a symptomatic staff member has severe symptoms</td>
+                            <td rowspan="1" colspan="1" align="center">Drawn for each individual staff member from a uniform distribution (0.01–0.17)</td>
+                            <td rowspan="1" colspan="1" align="center">No</td>
+                            <td rowspan="1" colspan="1" align="center">Ferguson et al,<sup><xref rid="r13" ref-type="bibr">13</xref></sup>Kulu and Dorey<sup><xref rid="r32" ref-type="bibr">32</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The probability that an individual (resident or staff) is infected after coming into contact with another infectious individual (resident, staff or visitor)</td>
+                            <td rowspan="1" colspan="1" align="center">0.02</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0.001; max, 0.1; mode, 0.02)</td>
+                            <td rowspan="1" colspan="1" align="center">Ferguson et al,<sup><xref rid="r13" ref-type="bibr">13</xref></sup>Wang et al,<sup><xref rid="r37" ref-type="bibr">37</xref></sup>Tang et al<sup><xref rid="r38" ref-type="bibr">38</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The time elapsed between first exposure and becoming infectious</td>
+                            <td rowspan="1" colspan="1" align="center">Lognormal (μ = 1.16, σ = 0.85)</td>
+                            <td rowspan="1" colspan="1" align="center">No (This parameter does not significantly affect number of infections as exposed individuals are not infectious. Also, values for this parameter are relatively consistent across studies.)</td>
+                            <td rowspan="1" colspan="1" align="center">Lauer et al,<sup><xref rid="r39" ref-type="bibr">39</xref></sup>McAloon et al,<sup><xref rid="r40" ref-type="bibr">40</xref></sup>Nishiura et al<sup><xref rid="r41" ref-type="bibr">41</xref></sup> (log normal mean, 4.6; SD, 4.8)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The time elapsed between becoming infectious and onset of symptoms</td>
+                            <td rowspan="1" colspan="1" align="center">Discrete uniform distribution (1,3)</td>
+                            <td rowspan="1" colspan="1" align="center">No (Values for this parameter are consistent across studies.)</td>
+                            <td rowspan="1" colspan="1" align="center">He et al,<sup><xref rid="r42" ref-type="bibr">42</xref></sup> Gatto et al,<sup><xref rid="r43" ref-type="bibr">43</xref></sup> Byrne et al<sup><xref rid="r44" ref-type="bibr">44</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The time elapsed between onset of symptoms and recovery (or recovery time for those who remain asymptomatic)</td>
+                            <td rowspan="1" colspan="1" align="center">Asymptomatic: log normal (μ = 2.049, σ = 0.246)<break/>Symptomatic:<break/>Mild: log normal (μ = 2.049, σ = 0.246)<break/>Severe: log normal (μ = 2.624, σ = 0.170)</td>
+                            <td rowspan="1" colspan="1" align="center">No (There is a strong consensus about the distribution of this parameter in literature.)</td>
+                            <td rowspan="1" colspan="1" align="center">Kerr et al,<sup><xref rid="r17" ref-type="bibr">17</xref></sup> Wölfel et al<sup><xref rid="r45" ref-type="bibr">45</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The reduction of resident–resident and staff–staff interactions when social distancing is implemented</td>
+                            <td rowspan="1" colspan="1" align="center">0.75</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0.2; max, 0.9; mode, 0.75)</td>
+                            <td rowspan="1" colspan="1" align="center">Assumed (based on other models’ assumption<sup><xref rid="r13" ref-type="bibr">13</xref>,<xref rid="r46" ref-type="bibr">46</xref></sup> and discussions with care home staff and managers)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The sensitivity of RT-PCR test</td>
+                            <td rowspan="1" colspan="1" align="center">0.7</td>
+                            <td rowspan="1" colspan="1" align="center">Triangular distribution (min, 0.6; max, 0.98; mode, 0.7)</td>
+                            <td rowspan="1" colspan="1" align="center">Watson et al,<sup><xref rid="r47" ref-type="bibr">47</xref></sup> Arevalo-Rodriguez et al<sup><xref rid="r48" ref-type="bibr">48</xref></sup>
+</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">The lag between testing and test result</td>
+                            <td rowspan="1" colspan="1" align="center">1 day</td>
+                            <td rowspan="1" colspan="1" align="center">No (implemented in scenario-based uncertainty analysis)</td>
+                            <td rowspan="1" colspan="1" align="center">Discussion with representatives from Public Health Medicine (NHS Lanarkshire) and Lanarkshire Health and Social Care Partnership</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Effectiveness of isolation of infected residents</td>
+                            <td rowspan="1" colspan="1" align="center">100%</td>
+                            <td rowspan="1" colspan="1" align="center">50%, 75%, and 100%</td>
+                            <td rowspan="1" colspan="1" align="center">Assumed (based on other models’ assumptions<sup><xref rid="r13" ref-type="bibr">13</xref>,<xref rid="r46" ref-type="bibr">46</xref></sup>)</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <graphic xlink:href="S0899823X20013690_tab1"/>
+                    </alternatives>
+                  </table-wrap>
+                </p>
+              </sec>
+              <sec id="s1-3" sec-type="other">
+                <title>Intervention scenarios</title>
+                <p>We considered the impact of 9 different intervention strategies summarized in Table <xref rid="tbl2" ref-type="table">2</xref>. The reference intervention strategy (Inter1) was based on discussions with local care-home stakeholders in Lanarkshire and aligned with the guidance from the Scottish government for controlling SARS-CoV-2. Interventions such as hand hygiene and using personal protective equipment (PPE) change the infection probability per contact, representing the reduction in transmission risk and an increase in compliance. Residents and staff members who are symptomatic or tested positive are isolated and excluded from work respectively the day after being tested because we assumed it would take 1 day for results to be returned in base-case simulations. Because standard RT-PCR testing is highly specific,<sup><xref rid="r20" ref-type="bibr">20</xref></sup> we assumed perfect specificity. The COVID-19 epidemic in the general population was assumed to be ongoing at a constant prevalence within the simulated time (1 year) because we focused on interventions that do not shield the care home from the external world. Finally, the intervention strategies we examined were in force during this period.</p>
+                <p>
+                  <table-wrap id="tbl2" orientation="portrait" position="float">
+                    <label>Table 2.</label>
+                    <caption>
+                      <p>Summary of Intervention Strategies Considered</p>
+                    </caption>
+                    <alternatives>
+                      <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                          <col span="1"/>
+                          <col span="1"/>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th colspan="1" rowspan="1">Intervention Strategy</th>
+                            <th colspan="1" rowspan="1">Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter0</td>
+                            <td rowspan="1" colspan="1" align="center">No intervention</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter1</td>
+                            <td rowspan="1" colspan="1" align="center">Isolation of symptomatic cases &amp; testing of new admissions (2 tests) and social distancing and restricted visiting (referred to as the reference intervention).</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter2</td>
+                            <td rowspan="1" colspan="1" align="center">Inter1 and 14-d compulsory isolation for new admissions regardless of the result of their tests</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter3</td>
+                            <td rowspan="1" colspan="1" align="center">Inter1 and adaptive testing (ie, testing staff and residents and the care home is closed to new admissions when there is a symptomatic case, reopening when all symptomatic and confirmed residents recover)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter4</td>
+                            <td rowspan="1" colspan="1" align="center">Inter3 and 14-d compulsory isolation for new admissions</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter5</td>
+                            <td rowspan="1" colspan="1" align="center">Inter1 and weekly testing of residents</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter6</td>
+                            <td rowspan="1" colspan="1" align="center">Inter1 and weekly testing of staff</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter7</td>
+                            <td rowspan="1" colspan="1" align="center">Inter1 and weekly testing of staff and residents</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter8</td>
+                            <td rowspan="1" colspan="1" align="center">Inter6 and 14-d compulsory isolation for new admissions</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1" align="center">Inter9</td>
+                            <td rowspan="1" colspan="1" align="center">Inter7 and 14-d compulsory isolation for new admissions</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <graphic xlink:href="S0899823X20013690_tab2"/>
+                    </alternatives>
+                  </table-wrap>
+                </p>
+              </sec>
+              <sec id="s1-4" sec-type="other">
+                <title>Outcomes</title>
+                <p>A stochastic ABM produces different outputs for the same parameter set; therefore, it requires a large number of simulations to gain an understanding of the behavior of the system over time. We ran 300 simulations for each scenario because the mean outputs converged after this number of simulations. The outcomes we considered in the results were the prevalence of infected residents over time (means and distribution of prevalence at peak) and the cumulative number of infected residents (means, medians, interquartile ranges [IQRs], and 1.5×IQRs).</p>
+              </sec>
+              <sec id="s1-5" sec-type="other">
+                <title>Uncertainty and sensitivity analyses</title>
+                <p>We performed global probabilistic sensitivity analyses for parameter uncertainty for the reference intervention (Inter1) and weekly testing of staff strategies (Inter6). The probability distributions of the analyzed parameters are summarized in Table <xref rid="tbl1" ref-type="table">1</xref>. We adopted the Latin hypercube sampling (LHS) method to generate 300 sets of samples, and we performed 100 iterations for each set (ie, 30,000 simulations in total). We calculated the partial rank correlation coefficient (PRCC) to determine the strength of the relationship between each LHS parameter and each outcome measure. We also examined how robust the relative effectiveness of interventions were with respect to the most impactful uncertain parameters determined in the PRCC analysis.</p>
+                <p>We assessed the impact of the testing interval between 1 and 30 days on the effectiveness of routine testing interventions (Inter6, Inter7, Inter8, and Inter9). We also tested the robustness of the findings to the care home’s capacity, structure, and staff pooling system (Supplementary Table <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S4</uri>-<uri xlink:href="https://doi.org/10.1017/ice.2020.1369">1</uri> in Appendix <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S4</uri> online). Finally, we examined model outputs with infection prevalence in the community set to historical daily data in Scotland adjusted for undetected cases and start the simulation without a seeded infection.<sup><xref rid="r21" ref-type="bibr">21</xref>,<xref rid="r22" ref-type="bibr">22</xref></sup>
+</p>
+              </sec>
+              <sec id="s1-6" sec-type="other">
+                <title>Statistical analysis</title>
+                <p>We used the Welch <italic>t</italic> test at a significant level of α = 0.05 to perform hypothesis testing for difference in the mean cumulative numbers of infections after 90 and 180 days between scenarios (Appendix <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S2</uri> online). We also adopted the Bonferroni correction method in which the <italic>P</italic> values were multiplied by the number of tests to counteract the potential type 1 error in multiple comparisons.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s2">
+              <title>Results</title>
+              <sec id="s2-1" sec-type="other">
+                <title>Spread of COVID-19</title>
+                <p>In all scenarios, the mean prevalence of infected residents peaked ~30 days after the first infection in the care home, decreased, then stabilized after around ~90 days (Fig. <xref ref-type="fig" rid="f2">2</xref>A). The distribution of prevalence at peak (mean, 34; standard deviation [SD], 4.9; range, 19–47) in the no intervention scenario is illustrated in Figure <xref ref-type="fig" rid="f2">2</xref>B. Relatively large variations in prevalence values are due to stochastic uncertainty of interactions within the care home and disease progression.</p>
+                <p>
+                  <fig id="f2" orientation="portrait" position="float">
+                    <label>Fig. 2.</label>
+                    <caption>
+                      <p>Time series of COVID-19 prevalence among residents in care home with capacity of 80 residents across all scenarios using the base case parameters (means of 300 simulations for each scenario) (A) and distribution of the prevalence at peak for no intervention scenario (Inter0) using the base case parameters for 300 simulations (B). (<bold>Inter0:</bold> No intervention; <bold>Inter1:</bold> Reference intervention (isolation of symptomatic/confirmed residents, testing of new admissions, closed to visitors, social distancing); <bold>Inter2:</bold> Inter 1 + isolation upon admission; <bold>Inter3:</bold> Inter1 + adaptive testing strategy; <bold>Inter4:</bold> Inter3 + isolation upon admission; <bold>Inter5:</bold> Inter1 + Weekly testing for residents; <bold>Inter6:</bold> Inter1 + weekly testing for staff; <bold>Inter7:</bold> Inter1 + weekly testing for staff and residents; <bold>Inter8:</bold> Inter6 + isolation upon admission; <bold>Inter9:</bold> Inter7 + isolation upon admission).</p>
+                    </caption>
+                    <graphic xlink:href="S0899823X20013690_fig2"/>
+                  </fig>
+                </p>
+                <p>In the absence of any control measures and spontaneous changes in the behaviors of individuals, the introduction of a single infected resident resulted in an outbreak (ie, at least 2 residents are infected) in 99.7% of simulations (299 of 300); in 1 simulation, transmission died out quickly. By the time that any infected residents manifested COVID-19 symptoms, an average of 6 residents (SD, 4.2; range, 1–23) had acquired the infection but may not (yet) have shown symptoms. Infected cases that did not (yet) display symptoms made up approximately half of all infections among residents (Fig. <xref ref-type="fig" rid="f3">3</xref>), which aligns with reported data.<sup><xref rid="r23" ref-type="bibr">23</xref></sup> Additionally, the proportion of asymptomatic cases among infected residents in our study (7%; range, 4%–10%) shows a good approximation of observed data for long-term aged care (8%; range, 3%–18%).<sup><xref rid="r24" ref-type="bibr">24</xref>-<xref rid="r26" ref-type="bibr">26</xref></sup>
+</p>
+                <p>
+                  <fig id="f3" orientation="portrait" position="float">
+                    <label>Fig. 3.</label>
+                    <caption>
+                      <p>Time series of prevalence of infected residents (mean) in different infection status across 300 simulations when no intervention is implemented (Inter0) using the base case parameters.</p>
+                    </caption>
+                    <graphic xlink:href="S0899823X20013690_fig3"/>
+                  </fig>
+                </p>
+              </sec>
+              <sec id="s2-2" sec-type="other">
+                <title>Effectiveness of the examined intervention strategies</title>
+                <p>Implementing the reference intervention, which combines isolation of symptomatic residents, testing of new admissions, social distancing, and restricted visiting (Inter1), clearly lowered the peak and reduced the cumulative number of infections after 90 days compared to the no intervention scenario (Inter0) (Fig. <xref ref-type="fig" rid="f2">2</xref>A and Fig. <xref ref-type="fig" rid="f4">4</xref>). There was very strong evidence (<italic>P</italic> &lt; .001) for rejecting the null hypothesis in favor of the alternative hypothesis that the mean cumulative number of infected residents for the reference intervention scenario was lower than the mean when doing nothing (95% CI of the difference, 20.4–22.4 [90 days]).</p>
+                <p>
+                  <fig id="f4" orientation="portrait" position="float">
+                    <label>Fig. 4.</label>
+                    <caption>
+                      <p>Box plot of cumulative numbers of infected residents 90 days after a resident is infected at the start of the simulation in nine intervention scenarios using the base case parameters (The result is presented as a box plot − lower hinge: 25% quantile; lower whisker: smallest observation greater than or equal to lower hinge − 1.5×IQR; middle: median; upper hinge: 75% quantile; upper whisker: largest observation less than or equal to upper hinge + 1.5×IQR; red dot: mean; blue dot: outlier). Note. IQR, interquartile range.</p>
+                    </caption>
+                    <graphic xlink:href="S0899823X20013690_fig4"/>
+                  </fig>
+                </p>
+                <p>Adding the 14-day compulsory isolation of new admissions (Inter2) slightly decreased the number of infections compared to the reference intervention strategy (<italic>P</italic> &lt; .001; 95% CI of the difference, 1.9–3.7 [90 days]). Replacing the isolation of new admissions in strategy Inter3 with or adding the adaptive testing intervention (Inter4) further improved the outcomes. However, because the care home was closed to new admissions for part of the time in these scenarios, the total number of residents were smaller than those in other scenarios, contributing to the lower infections shown in Figure <xref ref-type="fig" rid="f4">4</xref> for interventions Inter3 and Inter4. Furthermore, weekly resident testing (Inter5) did not lead to lower infections when compared with the reference intervention (Inter1) (<italic>P</italic> ~ 1.0).</p>
+                <p>Weekly testing of staff in the presence of the reference intervention strategy (Inter6) was more effective than Inter2–Inter5, significantly reducing the peak and the cumulative number of infected residents. This intervention strategy reduced the cumulative infections among residents by ~20 cases after 90 days compared to the reference intervention (Inter1) and by ~10 cases compared to adaptive testing (Inter4) (<italic>P</italic> &lt; .001). A more stringent strategy that involves routine testing for both residents and staff (Inter7) showed little evidence in improving the outcomes (<italic>P</italic> ~ 1.0; 95% CI of the difference: –0.1 to 1.8 [90 days]). Supplementing these routine testing interventions with isolation of new admissions (Inter8 and Inter9) only slightly reduced the peak and cumulative outcomes. Additional plots of modeling results for different time intervals are included in Appendix <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S3</uri> (online).</p>
+              </sec>
+              <sec id="s2-3" sec-type="other">
+                <title>Effectiveness of various routine testing strategies and compliance</title>
+                <p>Routine testing of residents (Inter5) was predicted to be no more effective than the reference intervention strategy (Inter1) regardless of testing frequency (<italic>P</italic> ~ 1.0; 95% CI of the difference, –0.1 to 2.1 [180 days]). The effectiveness of routine testing of staff (Inter6) and of staff and residents (Inter7) decreased nonlinearly with increased testing intervals (Fig. <xref ref-type="fig" rid="f5">5</xref>A). The difference between the 2 interventions (Inter6 and Inter7) reduced as the infection probability reduced (Fig. <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S4</uri>-<uri xlink:href="https://doi.org/10.1017/ice.2020.1369">3</uri> online). Increasing compliance to routine testing of staff linearly reduced the cumulative number of infected residents (Fig. <xref ref-type="fig" rid="f5">5</xref>B). Moreover, compliance with routine testing of staff had a significant effect on the model outcome when a testing interval was &lt;10 days (Fig. <xref ref-type="fig" rid="f5">5</xref>C).</p>
+                <p>
+                  <fig id="f5" orientation="portrait" position="float">
+                    <label>Fig. 5.</label>
+                    <caption>
+                      <p>Effectiveness of different routine testing strategies and compliance. (A) The impact of different testing intervals in routine testing scenarios on the cumulative number of infections after 90 days. (B) The impact of compliance to weekly testing of staff (Inter6) on the cumulative number of infections after 30, 90, and 180 days. Other parameters take the values at base case. (Dots denote the mean values of 300 simulations and error bars represent 95% confidence interval of the mean.) (C) Heatmap plot for the impact of testing interval and compliance to routine testing of staff (Inter6) on the cumulative number of infections after 90 days.</p>
+                    </caption>
+                    <graphic xlink:href="S0899823X20013690_fig5"/>
+                  </fig>
+                </p>
+              </sec>
+              <sec id="s2-4" sec-type="other">
+                <title>Sensitivity and uncertainty analyses</title>
+                <p>Outputs from the PRCC analyses are summarized in Appendix <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S4</uri> (online). The PRCC values measure the associations between each of the parameters and the cumulative number of infected residents after 90 days. The infection probability per contact, the infection prevalence in the community, and the average staff–resident contact rate were the highest contributors to uncertainty in the cumulative prevalence of COVID-19 in care homes in both scenarios. Additionally, the outcomes in testing scenarios were sensitive to test sensitivity. Increasing these parameters led to an increase in cumulative COVID-19 prevalence in care homes. Due to the large correlation between the infection probability and the outcomes, measures including individuals’ hand hygiene and PPE that reduce the risk of transmission are highlighted as extremely important for COVID-19 prevalence.</p>
+                <p>The examined outcomes were also sensitive to the infection prevalence in the community and staff–resident contact rate but to a significantly lesser extent. The model outcomes were sensitive to the staff–resident contact rate but not to staff–staff and resident–resident contact rates in both scenarios. The difference in sensitivity to different types of contacts ocurred because a social distancing measure was implemented in the reference intervention, and we assumed that the intervention reduced staff–staff and resident–resident contact while staff–resident contact rates remained unchanged. Test sensitivity affected the effectiveness of routine testing of staff strategy. The model outcomes were not sensitive to the number of visitors allowed. Across values of the most impactful parameters, the relative effectiveness of intervention strategies remained unchanged (Supplementary Fig. <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">S4</uri>-<uri xlink:href="https://doi.org/10.1017/ice.2020.1369">3</uri> in Appendix <uri xlink:href="https://doi.org/10.1017/ice.2020.1369">4</uri> online).</p>
+                <p>The findings regarding the relative effectiveness of interventions were robust when modifying the structures (unit size and residents-per-staff ratio) and capacity of the care home. Unit size or residents-per-staff ratio did not significantly impact the cumulative number of infected residents. Neither did care-home capacity affect the proportion of infections among residents. Furthermore, when we used the daily data of Scotland adjusted for undetected cases<sup><xref rid="r21" ref-type="bibr">21</xref>,<xref rid="r22" ref-type="bibr">22</xref></sup> and started the simulation without a seeded infection, the order of the impact of strategies remained robust.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s3">
+              <title>Discussion</title>
+              <p>We present an ABM that captures heterogeneity and stochasticity of individuals’ disease progression and interaction patterns and their effect on transmission dynamics of SARS-CoV-2 and the effectiveness of control interventions in a care-home setting. Care homes are diverse in terms of their resident population, structure and management, and ABMs have more flexibility compared to simpler epidemiological compartment models to reflect this variation and to examine how it influences findings. The stochastic feature of ABM is well-suited for simulating a small population in an intricate setting like a care home, where chance events can lead to major effects. Furthermore, while deterministic compartment models yield a single output for each parameter set, an ABM produces a distribution of outputs accounting for stochastic uncertainty of interactions within the care home and disease progression.</p>
+              <p>Our simulations show that once SARS-CoV-2 is introduced into care homes, it spreads very quickly and stopping the spread is very difficult. Because risk of transmission per contact appears to be the most impactful factor on the prevalence and cumulative prevalence of infections among residents, interventions such as hand hygiene and PPE that reduce this risk are crucial for controlling the spread of SARS-CoV-2. The importance of these measures in controlling COVID-19 should be emphasized and reinforced among staff in care homes as they may become less compliant when community transmission improves and interventions are relaxed.</p>
+              <p>Among the examined SARS-CoV-2 testing strategies, routine testing of staff appears to be the most effective and practical approach in the presence of the reference intervention strategy. When the risk of transmission per contact is reduced by enhancing compliance to hand hygiene and PPE use, the strategy of routine testing of staff is as effective as more stringent interventions strategies. This includes the combination of this strategy and 14-day compulsory isolation of new admissions, routine testing of both staff and residents with/without isolation of new admissions. Routine testing of residents does not show additional effect compared to the reference intervention strategy. Therefore, our model predictions suggest that routine testing should target staff in care homes in conjunction with encouragement and support to enhance compliance to hand hygiene and using PPE.</p>
+              <p>Our modeling results on the effectiveness of routine testing of staff and residents are supported by a number of recently published studies. Weekly universal testing of all staff and residents irrespective of symptoms conducted in 123 West Virginia nursing homes showed that this intervention was more effective in lowering the prevalence of COVID-19 than daily symptom-based resident and staff screening.<sup><xref rid="r27" ref-type="bibr">27</xref></sup> Other empirical studies in nursing homes in the United States and France also reported that routine universal testing helped identify cases among staff and residents more quickly and interrupted transmission in the facility.<sup><xref rid="r28" ref-type="bibr">28</xref>-<xref rid="r30" ref-type="bibr">30</xref></sup> These studies, however, did not examine the impact of routine testing targeting staff only and compared it to resident testing, which is easier to study in a simulation model such as ours than designing a controlled experiment.</p>
+              <p>Regarding testing intervals, our model predictions, along with discussions with local experts and management regarding feasibility, suggest that routine testing of staff should be carried out every 7–10 days. Although more frequent intervals of testing of staff result in better outcomes, this may not be feasible and is costly. The adverse effects of more frequent testing of staff include increased workload, time pressure, worsened staff shortages, and decreasing tolerance; therefore, they may lead to reduced compliance to testing among staff members. Increasing workload and time pressure may, in turn, affect other care activities provided to residents and staffs’ compliance with testing and hand hygiene, which has greatest impact on the transmission of SARS-CoV-2. A more frequent testing policy could be tailored to care homes with outbreaks to achieve the best outcomes at an acceptable cost. At this stage, we did not explicitly consider the implications of these additional costs in our model.</p>
+              <p>Care homes are interested in developing strategies for visitors, which is important for the welfare of residents. The model outcomes are not sensitive to the number of visitors allowed because staff that interact with residents more frequently also provide an entry point for infection. This finding suggests that relaxing the visiting policy, will not significantly impact the effectiveness of the examined interventions. However, the assumption that the model starts with a seeded infection limits this interpretation. Further work is required to combine a model such as the one we present with a model of prevalence in the community over time to explore the effect of relaxing visiting under different scenarios of infection prevalence in the community.</p>
+              <p>This work has a number of limitations. First, we assumed that the level of COVID-19 in the community is static. However, varying this parameter or using time series data of Scotland did not affect the intervention ranking. Second, the model does not account for the potential that residents with atypical symptoms are not successfully detected and, therefore, isolated in a timely manner. However, we conducted sensitivity analysis to consider varying values of the probability residents develop symptoms to reflect this uncertainty because we modeled atypical symptomatic residents who are not detected as asymptomatic residents. We found that this parameter does not affect the outcomes. Third, although we carried out uncertainty and sensitivity analyses on a care home’s size and structure, the diversity of this setting in terms of characteristics of resident populations, health and care services provided, and management would limit the generalization of our findings. Finally, we have not evaluated the cost-effectiveness of the examined interventions which would impact the feasibility of implementation.</p>
+              <p>In conclusion, our analysis sheds light on the transmission dynamics of COVID-19 in care homes. The effectiveness evaluation of different infection control intervention strategies has potentially significant implications for public health policy making. Infection control interventions in care homes need to be both effective in containing the spread of COVID-19 and also feasible to implement in this setting which has a dual nature: a healthcare institution and a home. Routine testing that targets staff is most effective and practical, and more rigorous testing strategies may not induce additional impact. We also emphasize the importance of interventions such as hand hygiene and using PPE that reduce risk of transmission in inter-individual contacts on the spread of SARS-CoV-2 and the COVID-19 pandemic.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>We thank Health and Social Care Partnerships and Public Health Medicine - NHS Lanarkshire (Judy Allison, David Cromie, Jim White), and Jennifer McKellar and other staff members in Highgate care home for helpful discussion. We also thank Dr Sarah J.E. Barry from Department of Mathematics and Statistics—University of Strathclyde for reviewing the statistical methods and results of the study.</p>
+            </ack>
+            <sec sec-type="supplementary-material" id="s6">
+              <title>Supplementary material</title>
+              <supplementary-material content-type="local-data" id="S0899823X20013690sup">
+                <p>For supplementary material accompanying this paper visit https://doi.org/10.1017/ice.2020.1369.</p>
+                <media xlink:href="S0899823X20013690sup.zip" mimetype="application" mime-subtype="zip" orientation="portrait" id="d40e1172" position="anchor">
+                  <caption>
+                    <p>click here to view supplementary material</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <sec id="s4" sec-type="other">
+              <title>Financial support</title>
+              <p>This work was funded by the University of Strathclyde as part of L.L.K.N.’s doctoral project.</p>
+            </sec>
+            <sec id="s5" sec-type="other">
+              <title>Conflicts of interest</title>
+              <p>All authors declare no potential conflicts of interest related to this article.</p>
+            </sec>
+            <ref-list id="reflist1">
+              <title>References</title>
+              <ref id="ref1">
+                <label>1.</label>
+                <mixed-citation publication-type="other" id="r1">Coronavirus disease (COVID-19) pandemic. World Health Organization website. <uri xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</uri> Published <year>2020</year>. Accessed 15 July, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal" id="r2"><string-name><surname>Wang</surname><given-names>D</given-names></string-name>, <string-name><surname>Hu</surname><given-names>B</given-names></string-name>, <string-name><surname>Hu</surname><given-names>C</given-names></string-name>, <etal>et al.</etal><article-title>Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus–infected pneumonia in Wuhan, China</article-title>. <source>JAMA</source><year>2020</year>;<volume>323</volume>:<fpage>1061</fpage>–<lpage>1069</lpage>.<pub-id pub-id-type="pmid">32031570</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal" id="r3"><string-name><surname>Chen</surname><given-names>N</given-names></string-name>, <string-name><surname>Zhou</surname><given-names>M</given-names></string-name>, <string-name><surname>Dong</surname><given-names>X</given-names></string-name>, <etal>et al.</etal><article-title>Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</article-title>. <source>Lancet</source><year>2020</year>;<volume>395</volume>:<fpage>507</fpage>–<lpage>513</lpage>.<pub-id pub-id-type="pmid">32007143</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal" id="r4"><string-name><surname>McMichael</surname><given-names>TM</given-names></string-name>, <string-name><surname>Currie</surname><given-names>DW</given-names></string-name>, <string-name><surname>Clark</surname><given-names>S</given-names></string-name>, <etal>et al.</etal><article-title>Epidemiology of covid-19 in a long-term care facility in King County, Washington</article-title>. <source>N Engl J Med</source><year>2020</year>;<volume>382</volume>:<fpage>2005</fpage>–<lpage>2011</lpage>.<pub-id pub-id-type="pmid">32220208</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5.</label>
+                <mixed-citation publication-type="other" id="r5"><string-name><surname>Comas-Herrera</surname><given-names>A</given-names></string-name>, <string-name><surname>Zalakain</surname><given-names>J</given-names></string-name>, <string-name><surname>Litwin</surname><given-names>C</given-names></string-name>, <string-name><surname>Hsu</surname><given-names>AT</given-names></string-name>, <string-name><surname>Fernandez-Plotka</surname><given-names>J-L.</given-names></string-name> Mortality associated with COVID-19 outbreaks in care homes: early international evidence. LTC Responses to COVID website. <uri xlink:href="https://ltccovid.org/2020/04/12/mortality-associated-with-covid-19-outbreaks-in-care-homes-early-international-evidence/?subscribe%3dsuccess#blog_subscription-3">https://ltccovid.org/2020/04/12/mortality-associated-with-covid-19-outbreaks-in-care-homes-early-international-evidence/?subscribe=success#blog_subscription-3</uri> Published <year>2020</year>. Accessed 19 April, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6.</label>
+                <mixed-citation publication-type="other" id="r6"><string-name><surname>Hsu</surname><given-names>AT</given-names></string-name>, <string-name><surname>Lane</surname><given-names>N.</given-names></string-name> Impact of COVID-19 on residents of Canada’s long-term care homes — ongoing challenges and policy response. LTC Responses to COVID website. <uri xlink:href="https://ltccovid.org/2020/04/15/impact-of-covid-19-on-residents-of-canadas-long-term-care-homes-ongoing-challenges-and-policy-response/">https://ltccovid.org/2020/04/15/impact-of-covid-19-on-residents-of-canadas-long-term-care-homes-ongoing-challenges-and-policy-response/</uri> Published <year>2020</year>. Accessed 15 April, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7.</label>
+                <mixed-citation publication-type="other" id="r7">Deaths involving coronavirus (COVID-19) in Scotland. National Records of Scotland website. <uri xlink:href="https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/general-publications/weekly-and-monthly-data-on-births-and-deaths/deaths-involving-coronavirus-covid-19-in-scotland">https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/general-publications/weekly-and-monthly-data-on-births-and-deaths/deaths-involving-coronavirus-covid-19-in-scotland</uri> Published <year>2020</year>. Accessed 20 June, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal" id="r8"><string-name><surname>Adiga</surname><given-names>A</given-names></string-name>, <string-name><surname>Chu</surname><given-names>S</given-names></string-name>, <string-name><surname>Eubank</surname><given-names>S</given-names></string-name>, <etal>et al.</etal><article-title>Disparities in spread and control of influenza in slums of Delhi: findings from an agent-based modelling study</article-title>. <source>BMJ Open</source><year>2018</year>;<volume>8</volume>:<fpage>e017353</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9.</label>
+                <mixed-citation publication-type="journal" id="r9"><string-name><surname>He</surname><given-names>T</given-names></string-name>, <string-name><surname>Li</surname><given-names>K</given-names></string-name>, <string-name><surname>Roberts</surname><given-names>MS</given-names></string-name>, <etal>et al.</etal><article-title>Prevention of hepatitis C by screening and treatment in US prisons</article-title>. <source>Ann Intern Med</source><year>2016</year>;<volume>164</volume>:<fpage>84</fpage>–<lpage>92</lpage>.<pub-id pub-id-type="pmid">26595252</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal" id="r10"><string-name><surname>Hoertel</surname><given-names>N</given-names></string-name>, <string-name><surname>Blachier</surname><given-names>M</given-names></string-name>, <string-name><surname>Blanco</surname><given-names>C</given-names></string-name>, <etal>et al.</etal><article-title>A stochastic agent-based model of the SARS-CoV-2 epidemic in France</article-title>. <source>Nat Med</source><year>2020</year>;<volume>26</volume>:<fpage>1417</fpage>–<lpage>1421</lpage>.<pub-id pub-id-type="pmid">32665655</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11.</label>
+                <mixed-citation publication-type="journal" id="r11"><string-name><surname>van den Dool</surname><given-names>C</given-names></string-name>, <string-name><surname>Bonten</surname><given-names>MJM</given-names></string-name>, <string-name><surname>Hak</surname><given-names>E</given-names></string-name>, <string-name><surname>Heijne</surname><given-names>JCM</given-names></string-name>, <string-name><surname>Wallinga</surname><given-names>J.</given-names></string-name><article-title>The effects of influenza vaccination of healthcare workers in nursing homes: insights from a mathematical model</article-title>. <source>PLoS Med</source><year>2008</year>;<volume>5</volume>(<issue>10</issue>):<fpage>e200</fpage>.<pub-id pub-id-type="pmid">18959470</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12.</label>
+                <mixed-citation publication-type="journal" id="r12"><string-name><surname>Stephenson</surname><given-names>B</given-names></string-name>, <string-name><surname>Lanzas</surname><given-names>C</given-names></string-name>, <string-name><surname>Lenhart</surname><given-names>S</given-names></string-name>, <etal>et al.</etal><article-title>Comparing intervention strategies for reducing <italic>Clostridioides difficile</italic> transmission in acute healthcare settings: an agent-based modeling study</article-title>. <source>BMC Infect Dis</source><year>2020</year>;<volume>20</volume>:<fpage>799</fpage>.<pub-id pub-id-type="pmid">33115427</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13.</label>
+                <mixed-citation publication-type="other" id="r13"><string-name><surname>Ferguson</surname><given-names>N</given-names></string-name>, <string-name><surname>Laydon</surname><given-names>D</given-names></string-name>, <string-name><surname>Nedjati Gilani</surname><given-names>G</given-names></string-name>, <etal>et al.</etal> Report 9: <italic>Impact of Non-Pharmaceutical Interventions (NPIs) to Reduce COVID19 Mortality and Healthcare Demand.</italic> London: Imperial College London <year>2020</year>. doi: 10.25561/77482.</mixed-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal" id="r14"><string-name><surname>Halloran</surname><given-names>ME</given-names></string-name>, <string-name><surname>Ferguson</surname><given-names>NM</given-names></string-name>, <string-name><surname>Eubank</surname><given-names>S</given-names></string-name>, <etal>et al.</etal><article-title>Modeling targeted layered containment of an influenza pandemic in the United States</article-title>. <source>Proc Nat Acad Sci</source><year>2008</year>;<volume>105</volume>:<fpage>4639</fpage>–<lpage>4644</lpage>.<pub-id pub-id-type="pmid">18332436</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal" id="r15"><string-name><surname>Ferguson</surname><given-names>NM</given-names></string-name>, <string-name><surname>Cummings</surname><given-names>DA</given-names></string-name>, <string-name><surname>Cauchemez</surname><given-names>S</given-names></string-name>, <etal>et al.</etal><article-title>Strategies for containing an emerging influenza pandemic in Southeast Asia</article-title>. <source>Nature</source><year>2005</year>;<volume>437</volume>:<fpage>209</fpage>–<lpage>214</lpage>.<pub-id pub-id-type="pmid">16079797</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16.</label>
+                <mixed-citation publication-type="journal" id="r16"><string-name><surname>Panovska-Griffiths</surname><given-names>J</given-names></string-name>, <string-name><surname>Kerr</surname><given-names>CC</given-names></string-name>, <string-name><surname>Stuart</surname><given-names>RM</given-names></string-name>, <etal>et al.</etal><article-title>Determining the optimal strategy for reopening schools, the impact of test and trace interventions, and the risk of occurrence of a second COVID-19 epidemic wave in the UK: a modelling study</article-title>. <source>Lancet Child Adolescent Health</source><year>2020</year>;<volume>4</volume>:<fpage>817</fpage>–<lpage>827</lpage>.<pub-id pub-id-type="pmid">32758453</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17.</label>
+                <mixed-citation publication-type="other" id="r17"><string-name><surname>Kerr</surname><given-names>CC</given-names></string-name>, <string-name><surname>Stuart</surname><given-names>RM</given-names></string-name>, <string-name><surname>Mistry</surname><given-names>D</given-names></string-name>, <etal>et al.</etal> Covasim: an agent-based model of COVID-19 dynamics and interventions. <italic>medRxiv</italic>
+<year>2020</year>. doi: <pub-id pub-id-type="doi">10.1101/2020.05.10.20097469</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18.</label>
+                <mixed-citation publication-type="other" id="r18"><string-name><surname>Smith</surname><given-names>DR</given-names></string-name>, <string-name><surname>Duval</surname><given-names>A</given-names></string-name>, <string-name><surname>Pouwels</surname><given-names>KB</given-names></string-name>, <etal>et al.</etal> How best to use limited tests? Improving COVID-19 surveillance in long-term care. <italic>medRxiv</italic>
+<year>2020</year>. doi: <pub-id pub-id-type="doi">10.1101/2020.04.19.20071639</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19.</label>
+                <mixed-citation publication-type="other" id="r19"><collab>Care Home Census for Adults in Scotland</collab>, <year>2016</year> Scotland Information Services Division website. <uri xlink:href="http://www.isdscotland.org/Health-Topics/Health-and-Social-CommunityCare/Publications/2016-10-25/2016-10-25-CHCensus-Report.pdf">http://www.isdscotland.org/Health-Topics/Health-and-Social-CommunityCare/Publications/2016-10-25/2016-10-25-CHCensus-Report.pdf</uri>. Published 2016. Accessed December 10, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20.</label>
+                <mixed-citation publication-type="journal" id="r20"><string-name><surname>Corman</surname><given-names>VM</given-names></string-name>, <string-name><surname>Landt</surname><given-names>O</given-names></string-name>, <string-name><surname>Kaiser</surname><given-names>M</given-names></string-name>, <etal>et al.</etal><article-title>Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR</article-title>. <source>Eurosurveillance</source><year>2020</year>;<volume>25</volume>(<issue>3</issue>):<fpage>2000045</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal" id="r21"><string-name><surname>Perez-Reche</surname><given-names>F</given-names></string-name>, <string-name><surname>Strachan</surname><given-names>N.</given-names></string-name><article-title>Importance of untested infectious individuals for the suppression of COVID-19 epidemics</article-title>. <source>medRxiv</source><year>2020</year>. doi: <pub-id pub-id-type="doi">10.1101/2020.04.13.20064022</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22.</label>
+                <mixed-citation publication-type="other" id="r22">Coronavirus (COVID-19) data. Public Health Scotland website. <uri xlink:href="https://publichealthscotland.scot/our-areas-of-work/sharing-our-data-and-intelligence/coronavirus-covid-19-data/">https://publichealthscotland.scot/our-areas-of-work/sharing-our-data-and-intelligence/coronavirus-covid-19-data/</uri> Published <year>2020</year>. Accessed 20 June, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23.</label>
+                <mixed-citation publication-type="journal" id="r23"><string-name><surname>Kimball</surname><given-names>A</given-names></string-name>, <string-name><surname>Hatfield</surname><given-names>KM</given-names></string-name>, <string-name><surname>Arons</surname><given-names>M</given-names></string-name>, <etal>et al.</etal><article-title>Asymptomatic and presymptomatic SARS-CoV-2 infections in residents of a long-term care skilled nursing facility—King County</article-title>, Washington, March <year>2020</year><source>Morbid Mortal Wkly Rept</source><year>2020</year>;<volume>69</volume>:<fpage>377</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24.</label>
+                <mixed-citation publication-type="other" id="r24"><string-name><surname>Byambasuren</surname><given-names>O</given-names></string-name>, <string-name><surname>Cardona</surname><given-names>M</given-names></string-name>, <string-name><surname>Bell</surname><given-names>K</given-names></string-name>, <string-name><surname>Clark</surname><given-names>J</given-names></string-name>, <string-name><surname>McLaws</surname><given-names>M-L</given-names></string-name>, <string-name><surname>Glasziou</surname><given-names>P.</given-names></string-name> Estimating the extent of true asymptomatic COVID-19 and its potential for community transmission: systematic review and meta-analysis. <italic>medRxiv</italic>
+<year>2020</year>. doi.org/<pub-id pub-id-type="doi">10.1101/2020.05.10.20097543</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25.</label>
+                <mixed-citation publication-type="journal" id="r25"><string-name><surname>Arons</surname><given-names>MM</given-names></string-name>, <string-name><surname>Hatfield</surname><given-names>KM</given-names></string-name>, <string-name><surname>Reddy</surname><given-names>SC</given-names></string-name>, <etal>et al.</etal><article-title>Presymptomatic SARS-CoV-2 infections and transmission in a skilled nursing facility</article-title>. <source>N Engl J Med</source><year>2020</year>;<volume>382</volume>:<fpage>2081</fpage>–<lpage>2090</lpage>.<pub-id pub-id-type="pmid">32329971</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26.</label>
+                <mixed-citation publication-type="other" id="r26"><string-name><surname>Freitas</surname><given-names>F.</given-names></string-name> COVID-19 pandemic: true asymptomatic cases among SARS-CoV-2–infected individuals. <italic>SSRN</italic>
+<year>2020</year>. doi: l10.2139/ssrn.3590123.</mixed-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27.</label>
+                <mixed-citation publication-type="journal" id="r27"><string-name><surname>McBee</surname><given-names>SM</given-names></string-name>, <string-name><surname>Thomasson</surname><given-names>ED</given-names></string-name>, <string-name><surname>Scott</surname><given-names>MA</given-names></string-name>, <etal>et al.</etal><article-title>Notes from the field: universal statewide laboratory testing for SARS-CoV-2 in nursing homes—West Virginia</article-title>, April 21–May 8, <year>2020</year>
+<source>Morbid Mortal Wkly Rept</source>
+<year>2020</year>;<volume>69</volume>:<fpage>1177</fpage>–<lpage>1179</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28.</label>
+                <mixed-citation publication-type="journal" id="r28"><string-name><surname>Dora</surname><given-names>AV</given-names></string-name>, <string-name><surname>Winnett</surname><given-names>A</given-names></string-name>, <string-name><surname>Jatt</surname><given-names>LP</given-names></string-name>, <etal>et al.</etal><article-title>Universal and serial laboratory testing for SARS-CoV-2 at a long-term care skilled nursing facility for veterans—Los Angeles</article-title>, California, <year>2020</year><source>Morbid Mortal Wkly Rept</source><year>2020</year>;<volume>69</volume>:<fpage>651</fpage>–<lpage>655</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29.</label>
+                <mixed-citation publication-type="journal" id="r29"><string-name><surname>Sacco</surname><given-names>G</given-names></string-name>, <string-name><surname>Foucault</surname><given-names>G</given-names></string-name>, <string-name><surname>Briere</surname><given-names>O</given-names></string-name>, <string-name><surname>Annweiler</surname><given-names>C.</given-names></string-name><article-title>COVID-19 in seniors: findings and lessons from mass screening in a nursing home</article-title>. <source>Maturitas</source><year>2020</year>;<volume>141</volume>:<fpage>46</fpage>–<lpage>52</lpage>.<pub-id pub-id-type="pmid">33036702</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30.</label>
+                <mixed-citation publication-type="journal" id="r30"><string-name><surname>Hatfield</surname><given-names>KM</given-names></string-name>, <string-name><surname>Reddy</surname><given-names>SC</given-names></string-name>, <string-name><surname>Forsberg</surname><given-names>K</given-names></string-name>, <etal>et al.</etal><article-title>Facility-Wide testing for SARS-CoV-2 in nursing homes - seven US jurisdictions</article-title>, March–June <year>2020</year>
+<source>Morbid Mortal Wkly Rept</source>
+<year>2020</year>;<volume>69</volume>:<fpage>1095</fpage>–<lpage>1099</lpage>.</mixed-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31.</label>
+                <mixed-citation publication-type="other" id="r31">Coronavirus (COVID-19): daily data for Scotland. Scottish Government website. <uri xlink:href="https://www.gov.scot/publications/coronavirus-covid-19-daily-data-for-scotland/">https://www.gov.scot/publications/coronavirus-covid-19-daily-data-for-scotland/</uri> Published <year>2020</year>. Accessed 9 August, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32.</label>
+                <mixed-citation publication-type="other" id="r32"><string-name><surname>Kulu</surname><given-names>H</given-names></string-name>, <string-name><surname>Dorey</surname><given-names>P.</given-names></string-name> The contribution of age structure to the number of deaths from COVID-19 in the UK by geographical units. <italic>medRxiv</italic>
+<year>2020</year>. doi: <pub-id pub-id-type="doi">10.1101/2020.04.16.20067991</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33.</label>
+                <mixed-citation publication-type="journal" id="r33"><string-name><surname>Chamchod</surname><given-names>F</given-names></string-name>, <string-name><surname>Ruan</surname><given-names>S.</given-names></string-name><article-title>Modeling the spread of methicillin-resistant <italic>Staphylococcus aureus</italic> in nursing homes for elderly</article-title>. <source>PloS One</source><year>2012</year>;<volume>7</volume>(<issue>1</issue>):<fpage>e29757</fpage>.<pub-id pub-id-type="pmid">22238650</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34.</label>
+                <mixed-citation publication-type="journal" id="r34"><string-name><surname>Port</surname><given-names>CL</given-names></string-name>, <string-name><surname>Hebel</surname><given-names>JR</given-names></string-name>, <string-name><surname>Gruber-Baldini</surname><given-names>AL</given-names></string-name>, <etal>et al.</etal><article-title>Measuring the frequency of contact between nursing home residents and their family and friends</article-title>. <source>Nurs Res</source><year>2003</year>;<volume>52</volume>:<fpage>52</fpage>–<lpage>56</lpage>.<pub-id pub-id-type="pmid">12552176</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35.</label>
+                <mixed-citation publication-type="other" id="r35">Care home workforce data report. Scottish Care website. <uri xlink:href="https://scottishcare.org/wp-content/uploads/2019/11/Care-Home-Workforce-Data-2018.pdf">https://scottishcare.org/wp-content/uploads/2019/11/Care-Home-Workforce-Data-2018.pdf</uri> Published <year>2018</year>. Accessed August 15, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36.</label>
+                <mixed-citation publication-type="journal" id="r36"><string-name><surname>Verity</surname><given-names>R</given-names></string-name>, <string-name><surname>Okell</surname><given-names>LC</given-names></string-name>, <string-name><surname>Dorigatti</surname><given-names>I</given-names></string-name>, <etal>et al.</etal><article-title>Estimates of the severity of coronavirus disease 2019: a model-based analysis</article-title>. <source>Lancet Infect Dis</source><year>2020</year>;<volume>20</volume>:<fpage>669</fpage>–<lpage>677</lpage>.<pub-id pub-id-type="pmid">32240634</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37.</label>
+                <mixed-citation publication-type="journal" id="r37"><string-name><surname>Wang</surname><given-names>K</given-names></string-name>, <string-name><surname>Lu</surname><given-names>Z</given-names></string-name>, <string-name><surname>Wang</surname><given-names>X</given-names></string-name>, <etal>et al.</etal><article-title>Current trends and future prediction of novel coronavirus disease (COVID-19) epidemic in China: a dynamical modeling analysis</article-title>. <source>Math Biosci Engin</source><year>2020</year>;<volume>17</volume>(<issue>4</issue>):<fpage>3052</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38.</label>
+                <mixed-citation publication-type="journal" id="r38"><string-name><surname>Tang</surname><given-names>B</given-names></string-name>, <string-name><surname>Bragazzi</surname><given-names>NL</given-names></string-name>, <string-name><surname>Li</surname><given-names>Q</given-names></string-name>, <string-name><surname>Tang</surname><given-names>S</given-names></string-name>, <string-name><surname>Xiao</surname><given-names>Y</given-names></string-name>, <string-name><surname>Wu</surname><given-names>J.</given-names></string-name><article-title>An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov)</article-title>. <source>Infect Dis Model</source><year>2020</year>;<volume>5</volume>:<fpage>248</fpage>–<lpage>255</lpage>.<pub-id pub-id-type="pmid">32099934</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39.</label>
+                <mixed-citation publication-type="other" id="r39"><string-name><surname>Lauer</surname><given-names>SA</given-names></string-name>, <string-name><surname>Grantz</surname><given-names>KH</given-names></string-name>, <string-name><surname>Bi</surname><given-names>Q</given-names></string-name>, <etal>et al.</etal> The incubation period of coronavirus disease 2019 (COVID-19) from publicly reported confirmed cases: estimation and application. <italic>Ann Intern Med</italic>
+<year>2020</year>. doi: 10.7326/M20-0504.</mixed-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40.</label>
+                <mixed-citation publication-type="journal" id="r40"><string-name><surname>McAloon</surname><given-names>CG</given-names></string-name>, <string-name><surname>Collins</surname><given-names>A</given-names></string-name>, <string-name><surname>Hunt</surname><given-names>K</given-names></string-name>, <etal>et al.</etal><article-title>The incubation period of COVID-19: a rapid systematic review and meta-analysis of observational research</article-title>. <source>BMJ Open</source><year>2020</year>;<volume>10</volume>:<fpage>e039652</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ref41">
+                <label>41.</label>
+                <mixed-citation publication-type="journal" id="r41"><string-name><surname>Nishiura</surname><given-names>H</given-names></string-name>, <string-name><surname>Linton</surname><given-names>NM</given-names></string-name>, <string-name><surname>Akhmetzhanov</surname><given-names>AR.</given-names></string-name><article-title>Serial interval of novel coronavirus (COVID-19) infections</article-title>. <source>Int J Infect Dis</source><year>2020</year>;<volume>93</volume>:<fpage>284</fpage>–<lpage>286</lpage>.<pub-id pub-id-type="pmid">32145466</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref42">
+                <label>42.</label>
+                <mixed-citation publication-type="journal" id="r42"><string-name><surname>He</surname><given-names>X</given-names></string-name>, <string-name><surname>Lau</surname><given-names>EH</given-names></string-name>, <string-name><surname>Wu</surname><given-names>P</given-names></string-name>, <etal>et al.</etal><article-title>Temporal dynamics in viral shedding and transmissibility of COVID-19</article-title>. <source>Nat Med</source><year>2020</year>;<volume>26</volume>:<fpage>672</fpage>–<lpage>675</lpage>.<pub-id pub-id-type="pmid">32296168</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref43">
+                <label>43.</label>
+                <mixed-citation publication-type="journal" id="r43"><string-name><surname>Gatto</surname><given-names>M</given-names></string-name>, <string-name><surname>Bertuzzo</surname><given-names>E</given-names></string-name>, <string-name><surname>Mari</surname><given-names>L</given-names></string-name>, <etal>et al.</etal><article-title>Spread and dynamics of the COVID-19 epidemic in Italy: effects of emergency containment measures</article-title>. <source>Proc Nat Acad Sci</source><year>2020</year>;<volume>117</volume>:<fpage>10484</fpage>–<lpage>10491</lpage>.<pub-id pub-id-type="pmid">32327608</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref44">
+                <label>44.</label>
+                <mixed-citation publication-type="journal" id="r44"><string-name><surname>Byrne</surname><given-names>AW</given-names></string-name>, <string-name><surname>McEvoy</surname><given-names>D</given-names></string-name>, <string-name><surname>Collins</surname><given-names>A</given-names></string-name>, <etal>et al.</etal><article-title>Inferred duration of infectious period of SARS-CoV-2: rapid scoping review and analysis of available evidence for asymptomatic and symptomatic COVID-19 cases</article-title>. <source>BMJ Open</source><year>2020</year>;<volume>10</volume>:<fpage>e039856</fpage>.</mixed-citation>
+              </ref>
+              <ref id="ref45">
+                <label>45.</label>
+                <mixed-citation publication-type="journal" id="r45"><string-name><surname>Wölfel</surname><given-names>R</given-names></string-name>, <string-name><surname>Corman</surname><given-names>VM</given-names></string-name>, <string-name><surname>Guggemos</surname><given-names>W</given-names></string-name>, <etal>et al.</etal><article-title>Virological assessment of hospitalized patients with COVID-2019</article-title>. <source>Nature</source><year>2020</year>;<volume>581</volume>:<fpage>465</fpage>–<lpage>469</lpage>.<pub-id pub-id-type="pmid">32235945</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref46">
+                <label>46.</label>
+                <mixed-citation publication-type="journal" id="r46"><string-name><surname>Matrajt</surname><given-names>L</given-names></string-name>, <string-name><surname>Leung</surname><given-names>T.</given-names></string-name><article-title>Evaluating the effectiveness of social distancing interventions to delay or flatten the epidemic curve of coronavirus disease</article-title>. <source>Emerg Infect Dis</source><year>2020</year>;<volume>26</volume>:<fpage>1740</fpage>–<lpage>1748</lpage>.<pub-id pub-id-type="pmid">32343222</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref47">
+                <label>47.</label>
+                <mixed-citation publication-type="other" id="r47"><string-name><surname>Watson</surname><given-names>J</given-names></string-name>, <string-name><surname>Whiting</surname><given-names>PF</given-names></string-name>, <string-name><surname>Brush</surname><given-names>JE.</given-names></string-name> Interpreting a COVID-19 test result. <italic>BMJ</italic>
+<year>2020</year>;369. doi: <pub-id pub-id-type="doi">10.1136/bmj.m1808</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ref48">
+                <label>48.</label>
+                <mixed-citation publication-type="other" id="r48"><string-name><surname>Arevalo-Rodriguez</surname><given-names>I</given-names></string-name>, <string-name><surname>Buitrago-Garcia</surname><given-names>D</given-names></string-name>, <string-name><surname>Simancas-Racines</surname><given-names>D</given-names></string-name>, <etal>et al.</etal> False-Negative results of initial RT-PCR assays for COVID-19: a systematic review. <italic>medRxiv</italic>
+<year>2020</year>. doi: <pub-id pub-id-type="doi">10.1101/2020.04.16.20066787</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="ref49">
+                <label>49.</label>
+                <mixed-citation publication-type="other" id="r49">COVID-19 pandemic planning scenarios. Centers for Disease Control and Prevention website. <uri xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html">https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html</uri> Published <year>2020</year>. Accessed June 13, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref50">
+                <label>50.</label>
+                <mixed-citation publication-type="other" id="r50">National clinical and practice guidance for adult care homes in Scotland during the COVID-19 pandemic. Scottish Government website. <uri xlink:href="https://www.gov.scot/publications/coronavirus-covid-19-clinical-and-practice-guidance-for-adult-care-homes/">https://www.gov.scot/publications/coronavirus-covid-19-clinical-and-practice-guidance-for-adult-care-homes/</uri> Updated May 15, <year>2020</year>. Accessed December 10, 2020.</mixed-citation>
+              </ref>
+              <ref id="ref51">
+                <label>51.</label>
+                <mixed-citation publication-type="journal" id="r51"><string-name><surname>Taylor</surname><given-names>R.</given-names></string-name><article-title>Interpretation of the correlation coefficient: a basic review</article-title>. <source>J Diagn Med Sonogr</source><year>1990</year>;<volume>6</volume>:<fpage>35</fpage>–<lpage>39</lpage>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

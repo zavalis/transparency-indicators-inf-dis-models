@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:55:48Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8001699" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8001699</identifier>
+        <datestamp>2021-03-28</datestamp>
+        <setSpec>vaccines</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Vaccines (Basel)</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Vaccines (Basel)</journal-id>
+              <journal-id journal-id-type="publisher-id">vaccines</journal-id>
+              <journal-title-group>
+                <journal-title>Vaccines</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2076-393X</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8001699</article-id>
+              <article-id pub-id-type="pmcid">PMC8001699</article-id>
+              <article-id pub-id-type="pmc-uid">8001699</article-id>
+              <article-id pub-id-type="pmid">33801188</article-id>
+              <article-id pub-id-type="pmid">33801188</article-id>
+              <article-id pub-id-type="doi">10.3390/vaccines9030206</article-id>
+              <article-id pub-id-type="publisher-id">vaccines-09-00206</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Change Point Analysis for Detecting Vaccine Safety Signals</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2430-6907</contrib-id>
+                  <name>
+                    <surname>You</surname>
+                    <given-names>Seung-Hun</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-vaccines-09-00206">1</xref>
+                  <xref ref-type="aff" rid="af2-vaccines-09-00206">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9137-9815</contrib-id>
+                  <name>
+                    <surname>Jang</surname>
+                    <given-names>Eun Jin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af3-vaccines-09-00206">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9094-8780</contrib-id>
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>Myo-Song</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-vaccines-09-00206">1</xref>
+                  <xref ref-type="aff" rid="af2-vaccines-09-00206">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3178-9660</contrib-id>
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Min-Taek</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-vaccines-09-00206">1</xref>
+                  <xref ref-type="aff" rid="af2-vaccines-09-00206">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1061-8344</contrib-id>
+                  <name>
+                    <surname>Kang</surname>
+                    <given-names>Ye-Jin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-vaccines-09-00206">1</xref>
+                  <xref ref-type="aff" rid="af2-vaccines-09-00206">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2900-0197</contrib-id>
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Jae-Eun</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-vaccines-09-00206">1</xref>
+                  <xref ref-type="aff" rid="af2-vaccines-09-00206">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4890-7499</contrib-id>
+                  <name>
+                    <surname>Eom</surname>
+                    <given-names>Joo-Hyeon</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-vaccines-09-00206">1</xref>
+                  <xref ref-type="aff" rid="af2-vaccines-09-00206">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2032-112X</contrib-id>
+                  <name>
+                    <surname>Jung</surname>
+                    <given-names>Sun-Young</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-vaccines-09-00206">1</xref>
+                  <xref ref-type="aff" rid="af2-vaccines-09-00206">2</xref>
+                  <xref rid="c1-vaccines-09-00206" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Baldo</surname>
+                    <given-names>Vincenzo</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-vaccines-09-00206"><label>1</label>College of Pharmacy, Chung-Ang University, Seoul 06974, Korea; <email>dbtmdgnssla@cau.ac.kr</email> (S.-H.Y.); <email>myosong@cau.ac.kr</email> (M.-S.K.); <email>come410@cau.ac.kr</email> (M.-T.L.); <email>asnmoty11000@cau.ac.kr</email> (Y.-J.K.); <email>lje427@cau.ac.kr</email> (J.-E.L.); <email>eomjoohyeon@cau.ac.kr</email> (J.-H.E.)</aff>
+              <aff id="af2-vaccines-09-00206"><label>2</label>Department of Global Innovative Drugs, Graduate School of Chung-Ang University, Seoul 06974, Korea</aff>
+              <aff id="af3-vaccines-09-00206"><label>3</label>Department of Information Statistics, Andong National University, Andong 36729, Korea; <email>ejjang@anu.ac.kr</email></aff>
+              <author-notes>
+                <corresp id="c1-vaccines-09-00206"><label>*</label>Correspondence: <email>jsyoung@cau.ac.kr</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>02</day>
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>9</volume>
+              <issue>3</issue>
+              <elocation-id>206</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>26</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>16</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 by the authors.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="pmc" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>It is important to detect signals of abrupt changes in adverse event reporting in order to notice public safety concerns and take prompt action, especially for vaccines under national immunization programs. In this study, we assessed the applicability of change point analysis (CPA) for signal detection in vaccine safety surveillance. The performances of three CPA methods, namely Bayesian change point analysis, Taylor’s change point analysis (Taylor-CPA), and environmental time series change point detection (EnvCpt), were assessed via simulated data with assumptions for the baseline number of events and degrees of change. The analysis was validated using the Korea Adverse Event Reporting System (KAERS) database. In the simulation study, the Taylor-CPA method exhibited better results for the detection of a change point (accuracy of 96% to 100%, sensitivity of 7% to 100%, specificity of 98% to 100%, positive predictive value of 25% to 85%, negative predictive value of 96% to 100%, and balanced accuracy of 53% to 100%) than the other two CPA methods. When the CPA methods were applied to reports of syncope or dizziness following human papillomavirus (HPV) immunization in the KAERS database, Taylor-CPA and EnvCpt detected a change point (Q2/2013), which was consistent with actual public safety concerns. CPA can be applied as an efficient tool for the early detection of vaccine safety signals.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>change point analysis</kwd>
+                <kwd>vaccines</kwd>
+                <kwd>data mining</kwd>
+                <kwd>pharmacovigilance</kwd>
+                <kwd>adverse events</kwd>
+                <kwd>signal detection</kwd>
+                <kwd>human papilloma virus vaccines</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-vaccines-09-00206">
+              <title>1. Introduction</title>
+              <p>Vaccines are generally administered to healthy individuals and a high standard of safety is therefore expected for vaccines. Furthermore, it is essential to maintain public confidence through post-licensure vaccine safety monitoring, as clinical trials might not have a large enough sample size to detect rare adverse events (AEs), which may occur in large post-licensure populations [<xref rid="B1-vaccines-09-00206" ref-type="bibr">1</xref>,<xref rid="B2-vaccines-09-00206" ref-type="bibr">2</xref>,<xref rid="B3-vaccines-09-00206" ref-type="bibr">3</xref>]. An additional feature of post-licensure vaccine safety monitoring is that it requires timely assessment in order to help distinguish true vaccine adverse reactions from coincidental unrelated events, particularly as potential health risks associated with vaccines are drawing increasing public attention [<xref rid="B1-vaccines-09-00206" ref-type="bibr">1</xref>]. Especially in the recent situation of rapid development of coronavirus disease 2019 (COVID-19) vaccines [<xref rid="B4-vaccines-09-00206" ref-type="bibr">4</xref>], early detection of both true safety signal and increased public concerns due to misinformation is important, to achieve adequate vaccine effectiveness, safety, and acceptance.</p>
+              <p>To detect signals of vaccine-related AEs from spontaneous reporting, data mining techniques based on finding disproportionalities through the proportional reporting ratio (PRR) [<xref rid="B5-vaccines-09-00206" ref-type="bibr">5</xref>], reporting odds ratio (ROR) [<xref rid="B6-vaccines-09-00206" ref-type="bibr">6</xref>], or the information component of the Bayesian confidence propagation neural network [<xref rid="B7-vaccines-09-00206" ref-type="bibr">7</xref>] have been widely used. However, because disproportionality analysis is an approach that analyzes AEs for a vaccine of interest in comparison to the same event for all other vaccines, the method may not be sufficient for detecting abrupt increases in safety reports. To enable early response, including epidemic investigations, causality assessment, and appropriate decision-making, early detection of a cluster of AEs following vaccination is important [<xref rid="B8-vaccines-09-00206" ref-type="bibr">8</xref>]. </p>
+              <p>Change point analysis (CPA) is a methodology for detecting changes within a given time series or sequence. The CPA method focuses on detecting changes within time-series data and has been applied in climatology and medical imaging fields [<xref rid="B9-vaccines-09-00206" ref-type="bibr">9</xref>]. Several CPA methods have been developed using nonparametric, frequentist, or Bayesian approaches [<xref rid="B10-vaccines-09-00206" ref-type="bibr">10</xref>,<xref rid="B11-vaccines-09-00206" ref-type="bibr">11</xref>,<xref rid="B12-vaccines-09-00206" ref-type="bibr">12</xref>].</p>
+              <p>In the field of public health surveillance, with the exception of the application of CPA for active syndromic surveillance of emergency visits due to daily influenza-like illness during the H1N1 pandemic [<xref rid="B13-vaccines-09-00206" ref-type="bibr">13</xref>] and with regard to the safety issue of an appetite suppressant drug [<xref rid="B14-vaccines-09-00206" ref-type="bibr">14</xref>], vaccine safety applications are lacking. As vaccine safety issues are associated with distinguished features, an assessment of the applicability of CPA for vaccine safety is needed. To assess the validity of CPA in vaccine safety, the safety issues in human papillomavirus (HPV) vaccines can be considered. The HPV vaccine was first approved in 2006 to prevent cervical cancer and is included in national immunization programs (NIPs) worldwide [<xref rid="B15-vaccines-09-00206" ref-type="bibr">15</xref>,<xref rid="B16-vaccines-09-00206" ref-type="bibr">16</xref>,<xref rid="B17-vaccines-09-00206" ref-type="bibr">17</xref>,<xref rid="B18-vaccines-09-00206" ref-type="bibr">18</xref>]. In Japan, in March 2013, two syndromes, complex regional pain syndrome (CRPS) and postural orthostatic tachycardia syndrome (POTS) were reported in girls who received HPV vaccines, which drew public attention worldwide [<xref rid="B17-vaccines-09-00206" ref-type="bibr">17</xref>]. However, the Medicines and Healthcare Products Regulatory Agency provided evidence that there is no association between HPV vaccination and CRPS in August 2013 [<xref rid="B19-vaccines-09-00206" ref-type="bibr">19</xref>,<xref rid="B20-vaccines-09-00206" ref-type="bibr">20</xref>]. In addition, the European Medicines Agency (EMA) reported a lack of sufficient evidence for causality between HPV vaccinations and the two syndromes [<xref rid="B16-vaccines-09-00206" ref-type="bibr">16</xref>]. </p>
+              <p>This study aimed to assess the applicability of various CPA methods for signal detection in vaccine safety surveillance. We considered Taylor’s change point analysis (Taylor-CPA), a method based on the nonparametric approach; environmental time series change point detection (EnvCpt) [<xref rid="B21-vaccines-09-00206" ref-type="bibr">21</xref>], based on the frequentist method; and the Bayesian change point (BCP) method [<xref rid="B22-vaccines-09-00206" ref-type="bibr">22</xref>].We first generated simulated data based on the framework of the real data reported to the Korea Adverse Event Reporting System (KAERS) in order to assess the performance of CPA. The methods were then applied to data regarding safety concerns of dizziness or syncope following HPV vaccination in the KAERS database for signal detection.</p>
+            </sec>
+            <sec id="sec2-vaccines-09-00206">
+              <title>2. Materials and Methods</title>
+              <sec id="sec2dot1-vaccines-09-00206">
+                <title>2.1. Data Source</title>
+                <p>Vaccine-related AE reporting data in this study were obtained from the spontaneous individual case safety reports (ICSRs) reported in the KAERS of the Korea Institute of Drug Safety and Risk Management. The KAERS database is composed of eight distributed tables including general information, information regarding the administered drug, AE information, serious adverse drug reaction cases, reporter information, causality assessment information of the drug–AE combination, patient medical history, and the sequence of reporting, such as initial and follow-up reports [<xref rid="B23-vaccines-09-00206" ref-type="bibr">23</xref>]. All vaccine names were coded using the Anatomical Therapeutic Chemical (ATC) classification system and AEs were coded using the WHO Adverse Reaction Terminology (WHO-ART), version 092 [<xref rid="B24-vaccines-09-00206" ref-type="bibr">24</xref>]. WHO-ART is a dictionary meant to serve as a basis for rational coding of adverse reaction terms in several countries and has four hierarchical structures: system-organ class (SOC), high-level term (HLT), preferred term (PT), and included term (IT). The study protocol was exempted from review by the Institutional Review Board of Chung-Ang University (IRB number: 1041078-201903-HR-071-01).</p>
+              </sec>
+              <sec id="sec2dot2-vaccines-09-00206">
+                <title>2.2. Study Vaccine and Adverse Event</title>
+                <p>To apply CPA methods to actual reported data, we analyzed ICSRs for the HPV vaccine (ATC code: J07BM) in the KAERS database from 2008 to 2014. Among these reports, AEs of interest were syncope and dizziness, which are known to be the leading symptoms of POTS [<xref rid="B25-vaccines-09-00206" ref-type="bibr">25</xref>].</p>
+              </sec>
+              <sec id="sec2dot3-vaccines-09-00206">
+                <title>2.3. Statistical Analysis</title>
+                <sec id="sec2dot3dot1-vaccines-09-00206">
+                  <title>2.3.1. Change Point Analysis Method</title>
+                  <p>The Taylor-CPA method, which detects changes in time-series data in a nonparametric manner, iteratively performs the procedure that calculates the cumulative sum and bootstrapping methods without assuming parameters [<xref rid="B10-vaccines-09-00206" ref-type="bibr">10</xref>]. The EnvCpt method estimates the change point (CP) using the maximum likelihood estimation method and selects the best model as the one with the smallest Akaike information criterion [<xref rid="B9-vaccines-09-00206" ref-type="bibr">9</xref>,<xref rid="B12-vaccines-09-00206" ref-type="bibr">12</xref>,<xref rid="B26-vaccines-09-00206" ref-type="bibr">26</xref>]. The BCP method assumes a Bayesian model with a normal likelihood and estimates the posterior probability of the CP being at each location using the Markov chain Monte Carlo method [<xref rid="B11-vaccines-09-00206" ref-type="bibr">11</xref>]. In Bayesian methods, the probabilities for the hypotheses of interest can be directly represented using the posterior probabilities [<xref rid="B27-vaccines-09-00206" ref-type="bibr">27</xref>]. Since the posterior probability of the CP represents the probability that each point will be a change point, we defined it as a change point if the posterior probability of being a change point is greater than 90%. The threshold probability of 90% was selected based on previous studies [<xref rid="B28-vaccines-09-00206" ref-type="bibr">28</xref>,<xref rid="B29-vaccines-09-00206" ref-type="bibr">29</xref>,<xref rid="B30-vaccines-09-00206" ref-type="bibr">30</xref>].</p>
+                </sec>
+                <sec id="sec2dot3dot2-vaccines-09-00206">
+                  <title>2.3.2. Simulation Study </title>
+                  <p>We considered various baseline values for the number of reports and the degree of change to reflect spontaneous ICSRs. The baseline number of reports was determined based on the mean number of reports in the KAERS database for known common AEs, such as injection site reactions, fever, and allergic reactions, and rare AEs, such as Guillain–Barré syndrome (GBS) [<xref rid="B31-vaccines-09-00206" ref-type="bibr">31</xref>].</p>
+                  <p>To implement the framework of baselines in which the number of common and rare AEs was reported, we generated 28 observations of baseline data from the Poisson distributions with means of 1, 5, 10, 50, and 100 (<xref ref-type="fig" rid="vaccines-09-00206-f001">Figure 1</xref>A). We assumed that the change point was the midpoint (the 14th point) and that the degrees of change were 1.5-, 3-, 5-, 10-, and 50-fold increases at baseline (<xref ref-type="fig" rid="vaccines-09-00206-f001">Figure 1</xref>B). Therefore, we generated 1000 datasets for each of the 25 scenes of the simulation scenarios, which combined the baseline and the degree of change. Three methodologies, namely Taylor-CPA, BCP, and EnvCpt, were applied to each scene.</p>
+                  <p>In all scenes, we assumed that a significant change occurred at the 15th point of the 28 points. By allowing one point of margin, we defined the gold standard of classified CPs as the 14th, 15th, and 16th points out of the 28 points, and the remaining 25 points were treated as false CPs. To assess the performance for CPs detected by each CPA method, we constructed a 2*2 confusion matrix which showed the number of correctly and incorrectly classified conditions (<xref ref-type="app" rid="app1-vaccines-09-00206">Table S1</xref>) [<xref rid="B32-vaccines-09-00206" ref-type="bibr">32</xref>] and calculated accuracy (proportion of correctly classified observations), sensitivity (proportion of positive cases correctly predicted), specificity (proportion of negative cases correctly predicted), positive predictive value (PPV, proportion of true positives in the total positive predictions), negative predictive value (NPV, proportion of true negatives in the total negative predictions), and balanced accuracy (arithmetic means of sensitivity and specificity) (<xref ref-type="app" rid="app1-vaccines-09-00206">Table S2</xref>) [<xref rid="B32-vaccines-09-00206" ref-type="bibr">32</xref>,<xref rid="B33-vaccines-09-00206" ref-type="bibr">33</xref>].</p>
+                </sec>
+                <sec id="sec2dot3dot3-vaccines-09-00206">
+                  <title>2.3.3. Application to the KAERS Database </title>
+                  <p>We applied three CPA methods to actual reports of syncope and dizziness following HPV vaccination in the KAERS database between 2008 and 2014 and compared the CPs detected with the three CPA methods. </p>
+                  <p>All analyses were performed using SAS 9.4 for Windows (SAS Institute, Inc., Cary, NC, USA) and R Statistical Software (version 4.0.0; R Foundation for Statistical Computing, Vienna, Austria).</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec3-vaccines-09-00206">
+              <title>3. Results</title>
+              <sec id="sec3dot1-vaccines-09-00206">
+                <title>3.1. Performance Assessment for the Simulation Study</title>
+                <p>For all baselines with 1.5- and 3-fold increases, the three methods performed with accuracies from 95% to 100%, balanced accuracies from 50% to 100%, and PPVs and NPVs from 8% to 100% and 96% to 100%, respectively (<xref rid="vaccines-09-00206-t001" ref-type="table">Table 1</xref>, <xref ref-type="app" rid="app1-vaccines-09-00206">Table S3</xref>). When five- and tenfold increases were reported, the three methods performed with accuracies ranging from 97% to 100%, balanced accuracies from 63% to 100%, and PPVs and NPVs from 68% to 100% and 97% to 100%, respectively (<xref rid="vaccines-09-00206-t001" ref-type="table">Table 1</xref>, <xref ref-type="app" rid="app1-vaccines-09-00206">Table S3</xref>). When a 50-fold degree-of-change increase was reported, the accuracy increased from 99% to 100%, the balanced accuracy increased from 99% to 100%, and the PPV and NPV increased from 79% to 98% and 100%, respectively (<xref rid="vaccines-09-00206-t001" ref-type="table">Table 1</xref>, <xref ref-type="app" rid="app1-vaccines-09-00206">Table S3</xref>). For the results of applying the radar chart to visualize the 25 scenes of scenario simulation, the Taylor-CPA method was primarily the highest rank, and therefore widely visually distributed. The method was the highest especially for most metrics in the scenes that were combined with the baselines of 1, 5, and 10 and with degrees of change of 1.5- and 3-fold increases (<xref ref-type="app" rid="app1-vaccines-09-00206">Figure S1</xref>).</p>
+              </sec>
+              <sec id="sec3dot2-vaccines-09-00206">
+                <title>3.2. CPA for KAERS Database</title>
+                <p>Among the ICSRs in the KAERS database from 1988 to 2014, 2468 ICSRs were associated with the HPV vaccine. After excluding the follow-up reports and reporting errors, 2229 ICSRs for the HPV vaccine were identified (<xref ref-type="app" rid="app1-vaccines-09-00206">Figure S2</xref>). Among these, 155 ICSRs related to the AEs of interest.</p>
+                <p>Among the three CPA methods, Taylor-CPA and EnvCpt detected the same significant CP from ICSRs of dizziness or syncope following HPV vaccination. The CP that was detected with the two methods was the same point in the second quarter of 2013 and, on average, 3.2 cases per quarter were reported until the CP, after which this figure soared to 12 (<xref ref-type="fig" rid="vaccines-09-00206-f002">Figure 2</xref>). This point was consistent with a safety concern regarding dizziness or syncope following the HPV vaccine.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec4-vaccines-09-00206">
+              <title>4. Discussion</title>
+              <p>In the present study, we assessed the applicability of CPA in detecting the signal of an abrupt increase in AE reports in vaccine safety surveillance. We examined the performances of three CPA methods, namely Taylor-CPA, BCP, and EnvCpt, using simulations based on the framework of the KAERS. We then applied the CPA to actual reports of syncope and dizziness following HPV vaccination in the KAERS database for actual public safety concern detection.</p>
+              <p>In the simulation study of 25 scenes with combined baseline numbers and degrees of changes, the Taylor-CPA method showed higher performance in terms of the overall assessment of the six indices. This result showing the higher robustness of the Taylor-CPA method compared with the BCP method is consistent with a previous study of surveillance of daily influenza-like illness emergency department visits [<xref rid="B13-vaccines-09-00206" ref-type="bibr">13</xref>]. Whereas the previous study qualitatively compared detected CPs, our study had a strength in that we compared the performances of three CPA methods by calculating reliability indices. </p>
+              <p>The utilization of actual patterns of safety reports to generate a simulation framework is another strength of the present study. To determine the baseline number of reports before a subtle change, we performed a descriptive analysis of ICSRs reported in the KAERS database. The mean number of reports for known common AEs was 200 for injection site reactions, 90 for fever, and 10 for allergic reactions [<xref rid="B31-vaccines-09-00206" ref-type="bibr">31</xref>]. The mean number of ICSRs for known rare AEs, such as neuritis (including GBS), was two. Therefore, we defined 1, 5, 10, 50, and 100 reports and generated scenarios using a Poisson distribution. In the case of reports on syncope or dizziness for HPV vaccines, the degree of change in Q2 2013 was fivefold. As three or more reports are generally assumed to be significant in the pharmacovigilance field, we defined 1.5-, 3-, 5-, 10-, and 50-fold increases in reports as the possible degrees of change in the simulation models. </p>
+              <p>Although the Taylor-CPA method assured 80% to 100% balanced accuracy when there was a threefold or more increase in report numbers, in the case of a 1.5-fold increase, scenes with less than 10 baseline reports showed a balanced accuracy of 67% and 53%. In particular, the scene of the one-report baseline with a 1.5-fold increase showed lower sensitivity (7%). Based on our simulation study, it should be noted that, when CPA methods are applied in practice, monitoring of rare events needs to be done cautiously because the methods may be underpowered. </p>
+              <p>When we applied the three CPA methods to a nationwide spontaneous AE database, the KAERS database, the Taylor-CPA and EnvCpt methods detected the point of an actual public safety concern regarding syncope and dizziness after HPV vaccination. The second quarter of 2013 was consistent with the time the case related to POTS after HPV vaccination was publicized through media and newspaper articles in Japan. Soon, public concerns were raised worldwide through social media, for instance rejecting the safety of the HPV vaccine [<xref rid="B20-vaccines-09-00206" ref-type="bibr">20</xref>,<xref rid="B34-vaccines-09-00206" ref-type="bibr">34</xref>]. Spontaneous reporting of AEs may be stimulated by the behavioral influence of media publicity [<xref rid="B35-vaccines-09-00206" ref-type="bibr">35</xref>], for which prompt action for causality assessment is important, especially for vaccines under national immunization programs. Therefore, CPA can be applied as an efficient tool for the early detection of clusters of AE reports.</p>
+              <p>In the present study, we applied the Taylor-CPA method to the number of AE reports. In a previous study using the French pharmacovigilance database and EudraVigilance to detect a signal with regard to aortic valve incompetence (AVI) associated with the use of benfluorex, the CPA method was applied to not only the number of reports but also the proportional reporting ratio (PRR). In our database, our analysis was applied to the lower bound of the PRR and the percentage of reports did not show a significant change point. This difference may have been due to the nature of AEs. Our study detected signals resulting from increases associated with external factors, such as public service advertisements or national systems, rather than increases related to AEs. However, the use of benfluorex is associated with a significant increase in AVI [<xref rid="B14-vaccines-09-00206" ref-type="bibr">14</xref>]. Nevertheless, in the French National Agency for Medicines and Health Products Safety, the study examined the advantages of detecting initial signals and reducing misclassification by combining CPA analysis and the lower bound of PRR in pharmacovigilance [<xref rid="B36-vaccines-09-00206" ref-type="bibr">36</xref>]. Further research is needed to understand how different reasons depend on different measures, including the number of AE reports, the lower bound of the PRR, and the percentage of reports. </p>
+              <p>Timeliness in detecting a CP is important to ensure prompt response, including further investigations and causality assessment. In our simulation analysis, we allowed one point of margin for setting the gold standard of the CPs. On the other hand, an Australian study based on weekly analysis of AEs reported that they aimed to detect a vaccine safety signal within three weeks [<xref rid="B30-vaccines-09-00206" ref-type="bibr">30</xref>]. Further research comparing CPA methods in respect of the timeliness of detecting a CP and comparing the degree of the margin used for CPs would be meaningful.</p>
+              <p>In the present study, we assumed a single point of abrupt increase as the CP because it is important to detect the exact point of change in pharmacovigilance. However, multiple points can be specified if the objective is to identify multiple points. In addition, although we performed univariate analyses for the three CPA methods, further research applying an algorithm using multivariate analysis would be possible. </p>
+              <p>Our results need to be interpreted in light of several limitations inherent to spontaneous reporting systems. First, there may be problems of under-reporting and selective reporting, as only a minority of AEs are identified and reported. The heterogeneity of the original reporters may also affect the profiles of reported AEs. In the KAERS database, syncope or dizziness was more frequently reported by consumers and less frequently by healthcare professionals than other ICSRs following HPV vaccination (<xref ref-type="app" rid="app1-vaccines-09-00206">Table S4</xref>). Second, because the reports are made spontaneously by consumers and healthcare professionals, and causality assessment is not essential, the detected point of sharp increase in reports could not be interpreted as a causal relationship; the CP only implies a signal for safety issues that necessitates further investigation. In the case of POTS and CRPS following HPV vaccination, further assessments were made by regulatory authorities, which documented low relevance for the link between the HPV vaccine and the AEs [<xref rid="B16-vaccines-09-00206" ref-type="bibr">16</xref>]. </p>
+              <p>Nevertheless, a spontaneous reporting database can provide an opportunity to monitor vaccine safety and identify new, rare signals to generate ideal prospective research hypotheses. Whereas traditional data-mining approaches are based on the disproportionality of reports, CPA may further contribute to earlier detection of vaccine safety concerns, especially for newly implemented vaccines, such as COVID-19 vaccines. In cases of detection of a CP, immediate investigation and causality assessment would be needed to provide appropriate safety information and to minimize vaccine refusal in the population which could diminish the efficacy of the vaccine. </p>
+            </sec>
+            <sec sec-type="conclusions" id="sec5-vaccines-09-00206">
+              <title>5. Conclusions</title>
+              <p>In our simulation study, the Taylor-CPA method exhibited the best performance for the detection of a change point compared to the other two CPA methods. Based on our application examples, the CPA could be used as an effective tool for the early detection of vaccine safety signals within a time series of spontaneous AE reporting systems.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors thank the Korea Institute of Drug Safety and Risk Management (KIDS) for their cooperation in providing access to the Korea Adverse Event Reporting System Database.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app id="app1-vaccines-09-00206">
+                <title>Supplementary Materials</title>
+                <p>The following are available online at <uri xlink:href="https://www.mdpi.com/2076-393X/9/3/206/s1">https://www.mdpi.com/2076-393X/9/3/206/s1</uri>. Figure S1: Data visualization with a radar chart was defined (A) and 25 scenes of the simulation were visualized, combining the mean number of reports and the degree of change using six metrics of the confusion matrix (B): accuracy; sensitivity; specificity; positive predictive value; negative predictive value; and balanced accuracy. Figure S2: Flow diagram of individual case safety reports. Table S1: The confusion matrix for a simulation model: possible results from a binary classier. Table S2: Statistics for performance assessment derived from the confusion matrix. Table S3: Summary of performance results obtained with the three change point analysis methods for the 1000 simulated datasets for 25 scenes. Table S4: Characteristics of individual case safety reports for the human papillomavirus vaccine and other vaccines.</p>
+                <supplementary-material content-type="local-data" id="vaccines-09-00206-s001">
+                  <media xlink:href="vaccines-09-00206-s001.pdf">
+                    <caption>
+                      <p>Click here for additional data file.</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, methodology, writing—original draft, S.-H.Y., E.J.J., and S.-Y.J.; Formal analysis, visualization, S.-H.Y.; Investigation, S.-H.Y., E.J.J., M.-S.K., Y.-J.K., and S.-Y.J.; Validation, E.J.J., M.-S.K., M.-T.L., and S.-Y.J.; Writing—review and editing, S.-H.Y., E.J.J., M.-S.K., M.-T.L., Y.-J.K., J.-E.L., J.-H.E., and S.-Y.J.; Funding acquisition, project administration, supervision, S.-Y.J. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>This research was supported by a government-wide R&amp;D fund project for infectious disease research (GFID), Republic of Korea (grant number: HG18C0066). </p>
+            </notes>
+            <notes>
+              <title>Institutional Review Board Statement</title>
+              <p>The study protocol was exempted from review by the Institutional Review Board of Chung-Ang University (IRB number: 1041078-201903-HR-071-01).</p>
+            </notes>
+            <notes>
+              <title>Informed Consent Statement</title>
+              <p>Patient consent was waived due to KAERS databases contain anonymized data that cannot allow patients’ identification.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability Statement</title>
+              <p>Restrictions apply to the availability of these data. Data was obtained from Korea Institute of Drug Safety and Risk Management (KIDS) and are available <uri xlink:href="https://open.drugsafe.or.kr/">https://open.drugsafe.or.kr/</uri> (accessed on 12 February 2021) with the permission of KIDS.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-vaccines-09-00206">
+                <label>1.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hamborsky</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kroger</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Epidemiology and Prevention of Vaccine-Preventable Diseases, E-Book: The Pink Book</source>
+                  <publisher-name>Public Health Foundation</publisher-name>
+                  <publisher-loc>Washington, DC, USA</publisher-loc>
+                  <year>2015</year>
+                </element-citation>
+              </ref>
+              <ref id="B2-vaccines-09-00206">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>N.-K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>B.-J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adverse drug reaction surveillance system in Korea</article-title>
+                  <source>J. Prev. Med. Public Health</source>
+                  <year>2007</year>
+                  <volume>40</volume>
+                  <fpage>278</fpage>
+                  <lpage>284</lpage>
+                  <pub-id pub-id-type="doi">10.3961/jpmph.2007.40.4.278</pub-id>
+                  <pub-id pub-id-type="pmid">17693730</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-vaccines-09-00206">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lei</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Balakrishnan</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gidudu</surname>
+                      <given-names>J.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zuber</surname>
+                      <given-names>P.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Use of a new global indicator for vaccine safety surveillance and trends in adverse events following immunization reporting 2000–2015</article-title>
+                  <source>Vaccine</source>
+                  <year>2018</year>
+                  <volume>36</volume>
+                  <fpage>1577</fpage>
+                  <lpage>1582</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.vaccine.2018.02.012</pub-id>
+                  <pub-id pub-id-type="pmid">29454518</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-vaccines-09-00206">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Graham</surname>
+                      <given-names>B.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rapid COVID-19 vaccine development</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <volume>368</volume>
+                  <fpage>945</fpage>
+                  <lpage>946</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.abb8923</pub-id>
+                  <?supplied-pmid 32385100?>
+                  <pub-id pub-id-type="pmid">32385100</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-vaccines-09-00206">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>S.J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waller</surname>
+                      <given-names>P.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Use of proportional reporting ratios (PRRs) for signal generation from spontaneous adverse drug reaction reports</article-title>
+                  <source>Pharmacoepidemiol. Drug Saf.</source>
+                  <year>2001</year>
+                  <volume>10</volume>
+                  <fpage>483</fpage>
+                  <lpage>486</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pds.677</pub-id>
+                  <?supplied-pmid 11828828?>
+                  <pub-id pub-id-type="pmid">11828828</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-vaccines-09-00206">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rothman</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lanes</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sacks</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The reporting odds ratio and its advantages over the proportional reporting ratio</article-title>
+                  <source>Pharmacoepidemiol. Drug Saf.</source>
+                  <year>2004</year>
+                  <volume>13</volume>
+                  <fpage>519</fpage>
+                  <lpage>523</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pds.1001</pub-id>
+                  <pub-id pub-id-type="pmid">15317031</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-vaccines-09-00206">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bate</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindquist</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Edwards</surname>
+                      <given-names>I.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsson</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Orre</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lansner</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Freitas</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Bayesian neural network method for adverse drug reaction signal generation</article-title>
+                  <source>Eur. J. Clin. Pharmacol.</source>
+                  <year>1998</year>
+                  <volume>54</volume>
+                  <fpage>315</fpage>
+                  <lpage>321</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s002280050466</pub-id>
+                  <pub-id pub-id-type="pmid">9696956</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-vaccines-09-00206">
+                <label>8.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>Vaccine Safety Basics Learning Manual</source>
+                  <publisher-name>WHO</publisher-name>
+                  <publisher-loc>Geneva, Switzerland</publisher-loc>
+                  <year>2013</year>
+                </element-citation>
+              </ref>
+              <ref id="B9-vaccines-09-00206">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Killick</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eckley</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>changepoint: An R package for changepoint analysis</article-title>
+                  <source>J. Stat. Softw.</source>
+                  <year>2014</year>
+                  <volume>58</volume>
+                  <fpage>1</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v058.i03</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-vaccines-09-00206">
+                <label>10.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>W.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Change-Point Analysis: A Powerful New Tool for Detecting Changes</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://www.variation.com/cpa/tech/changepoint.html">http://www.variation.com/cpa/tech/changepoint.html</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-01-25">(accessed on 25 January 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B11-vaccines-09-00206">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Erdman</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Emerson</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>bcp: An R package for performing a Bayesian analysis of change point problems</article-title>
+                  <source>J. Stat. Softw.</source>
+                  <year>2007</year>
+                  <volume>23</volume>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v023.i03</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-vaccines-09-00206">
+                <label>12.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Killick</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beaulieu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>EnvCpt: Detection of Structural Changes in Climate and Environment Time Series, R Package Version 1.1.2</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/EnvCpt/index.html">https://cran.r-project.org/web/packages/EnvCpt/index.html</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-01-25">(accessed on 25 January 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B13-vaccines-09-00206">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kass-Hout</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>McMurray</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckeridge</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brownstein</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Finelli</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Groseclose</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Application of change point analysis to daily influenza-like illness emergency department visits</article-title>
+                  <source>J. Am. Med. Inform. Assoc.</source>
+                  <year>2012</year>
+                  <volume>19</volume>
+                  <fpage>1075</fpage>
+                  <lpage>1081</lpage>
+                  <pub-id pub-id-type="doi">10.1136/amiajnl-2011-000793</pub-id>
+                  <pub-id pub-id-type="pmid">22759619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-vaccines-09-00206">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tribouilloy</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rusinaru</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maréchaux</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ederhy</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Donal</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Increased risk of left heart valve regurgitation associated with benfluorex use in patients with diabetes mellitus: A multicenter study</article-title>
+                  <source>Circulation</source>
+                  <year>2012</year>
+                  <volume>126</volume>
+                  <fpage>2852</fpage>
+                  <lpage>2858</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.112.111260</pub-id>
+                  <pub-id pub-id-type="pmid">23143159</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-vaccines-09-00206">
+                <label>15.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <collab>Centers for Disease Control and Prevention</collab>
+                  </person-group>
+                  <article-title>Safety Information by Vaccine-Human Papillomavirus (HPV) Vaccine</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/vaccinesafety/vaccines/hpv-vaccine.html.">https://www.cdc.gov/vaccinesafety/vaccines/hpv-vaccine.html.</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-01-25">(accessed on 25 January 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B16-vaccines-09-00206">
+                <label>16.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <collab>European Medicines Agency</collab>
+                  </person-group>
+                  <article-title>HPV Vaccines: EMA Confirms Evidence Does Not Support that They Cause CRPS or POTS</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.ema.europa.eu/en/medicines/human/referrals/human-papillomavirus-vaccines-cervarix-gardasil-gardasil-9-silgard">https://www.ema.europa.eu/en/medicines/human/referrals/human-papillomavirus-vaccines-cervarix-gardasil-gardasil-9-silgard</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-01-25">(accessed on 25 January 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B17-vaccines-09-00206">
+                <label>17.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <article-title>Safety Update of Human Papillomavirus Vaccines</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/vaccine_safety/committee/topics/hpv/en/">https://www.who.int/vaccine_safety/committee/topics/hpv/en/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-01-25">(accessed on 25 January 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B18-vaccines-09-00206">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Markowitz</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunne</surname>
+                      <given-names>E.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saraiya</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chesson</surname>
+                      <given-names>H.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Curtis</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gee</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human papillomavirus vaccination: Recommendations of the Advisory Committee on Immunization Practices (ACIP)</article-title>
+                  <source>Morb. Mortal. Wkly. Rep. Recomm. Rep.</source>
+                  <year>2014</year>
+                  <volume>63</volume>
+                  <fpage>1</fpage>
+                  <lpage>30</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B19-vaccines-09-00206">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morimoto</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ueda</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egawa-Takata</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yagi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Terai</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohmichi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ichimura</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sumi</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murata</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanzaki</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect on HPV vaccination in Japan resulting from news report of adverse events and suspension of governmental recommendation for HPV vaccination</article-title>
+                  <source>Int. J. Clin. Oncol.</source>
+                  <year>2014</year>
+                  <volume>20</volume>
+                  <fpage>549</fpage>
+                  <lpage>555</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10147-014-0723-1</pub-id>
+                  <pub-id pub-id-type="pmid">25001869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-vaccines-09-00206">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tsuda</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamamoto</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leppold</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tanimoto</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kusumi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Komatsu</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trends of media coverage on human papillomavirus vaccination in Japanese newspapers</article-title>
+                  <source>Clin. Infect. Dis.</source>
+                  <year>2016</year>
+                  <pub-id pub-id-type="doi">10.1093/cid/ciw647</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-vaccines-09-00206">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Killick</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fearnhead</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eckley</surname>
+                      <given-names>I.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Optimal Detection of Changepoints With a Linear Computational Cost</article-title>
+                  <source>J. Am. Stat. Assoc.</source>
+                  <year>2012</year>
+                  <volume>107</volume>
+                  <fpage>1590</fpage>
+                  <lpage>1598</lpage>
+                  <pub-id pub-id-type="doi">10.1080/01621459.2012.737745</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-vaccines-09-00206">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barry</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hartigan</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Bayesian Analysis for Change Point Problems</article-title>
+                  <source>J. Am. Stat. Assoc.</source>
+                  <year>1993</year>
+                  <volume>88</volume>
+                  <fpage>309</fpage>
+                  <pub-id pub-id-type="doi">10.2307/2290726</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-vaccines-09-00206">
+                <label>23.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <collab>Korea Institute of Drug Safety and Risk Management</collab>
+                  </person-group>
+                  <article-title>User Guide: Korea Institute of Drug Safety and Risk Management Korea adverse Event Reporting System Database (KIDS-KD)</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://open.drugsafe.or.kr/original/guidelines/List.jsp">https://open.drugsafe.or.kr/original/guidelines/List.jsp</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2021-01-25">(accessed on 25 January 2021)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B24-vaccines-09-00206">
+                <label>24.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>Korea Institute of Drug Safety and Risk Management</collab>
+                  </person-group>
+                  <source>Adverse Event Reporting Terminology Selection Guidelines</source>
+                  <publisher-name>Korea Institute of Drug Safety and Risk Management</publisher-name>
+                  <publisher-loc>Anyang, Korea</publisher-loc>
+                  <year>2014</year>
+                </element-citation>
+              </ref>
+              <ref id="B25-vaccines-09-00206">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bonaldo</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaccheri</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>D’Annibali</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Motola</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Safety profile of human papilloma virus vaccines: An analysis of the US Vaccine Adverse Event Reporting System from 2007 to 2017</article-title>
+                  <source>Br. J. Clin. Pharmacol.</source>
+                  <year>2019</year>
+                  <volume>85</volume>
+                  <fpage>634</fpage>
+                  <lpage>643</lpage>
+                  <pub-id pub-id-type="doi">10.1111/bcp.13841</pub-id>
+                  <pub-id pub-id-type="pmid">30569481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-vaccines-09-00206">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beaulieu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Killick</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Distinguishing Trends and Shifts from Memory in Climate Data</article-title>
+                  <source>J. Clim.</source>
+                  <year>2018</year>
+                  <volume>31</volume>
+                  <fpage>9519</fpage>
+                  <lpage>9543</lpage>
+                  <pub-id pub-id-type="doi">10.1175/JCLI-D-17-0863.1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-vaccines-09-00206">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ohlssen</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>K.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xia</surname>
+                      <given-names>H.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerman</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Quartey</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heilmann</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Carlin</surname>
+                      <given-names>B.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Guidance on the implementation and reporting of a drug safety Bayesian network meta-analysis</article-title>
+                  <source>Pharm. Stat.</source>
+                  <year>2014</year>
+                  <volume>13</volume>
+                  <fpage>55</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pst.1592</pub-id>
+                  <?supplied-pmid 24038897?>
+                  <pub-id pub-id-type="pmid">24038897</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-vaccines-09-00206">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moran</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Graham</surname>
+                      <given-names>P.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rockliff</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bersten</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Updating the evidence for the role of corticosteroids in severe sepsis and septic shock: A Bayesian meta-analytic perspective</article-title>
+                  <source>Crit. Care</source>
+                  <year>2010</year>
+                  <volume>14</volume>
+                  <fpage>1</fpage>
+                  <lpage>15</lpage>
+                  <pub-id pub-id-type="doi">10.1186/cc9182</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-vaccines-09-00206">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ruklisa</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ware</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Balding</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>A Cook</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bayesian models for syndrome- and gene-specific probabilities of novel variant pathogenicity</article-title>
+                  <source>Genome Med.</source>
+                  <year>2015</year>
+                  <volume>7</volume>
+                  <fpage>5</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13073-014-0120-4</pub-id>
+                  <pub-id pub-id-type="pmid">25649125</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-vaccines-09-00206">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jacoby</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glover</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Damon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fathima</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pillsbury</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Durrheim</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gold</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leeb</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Snelling</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Timeliness of signal detection for adverse events following influenza vaccination in young children: A simulation case study</article-title>
+                  <source>BMJ Open</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>e031851</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2019-031851</pub-id>
+                  <?supplied-pmid 32122906?>
+                  <pub-id pub-id-type="pmid">32122906</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-vaccines-09-00206">
+                <label>31.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>Information Sheet. Observed Rate of Vaccine Reactions. Human Papillomavirus Vaccine</source>
+                  <publisher-name>Global Vaccine Safety, Immunization, Vaccines and Biologicals</publisher-name>
+                  <publisher-loc>Geneva, Switzerland</publisher-loc>
+                  <year>2012</year>
+                </element-citation>
+              </ref>
+              <ref id="B32-vaccines-09-00206">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beguería</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Validation and Evaluation of Predictive Models in Hazard Assessment and Risk Management</article-title>
+                  <source>Nat. Hazards</source>
+                  <year>2006</year>
+                  <volume>37</volume>
+                  <fpage>315</fpage>
+                  <lpage>329</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11069-005-5182-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-vaccines-09-00206">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Velez</surname>
+                      <given-names>D.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>White</surname>
+                      <given-names>B.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Motsinger</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bush</surname>
+                      <given-names>W.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ritchie</surname>
+                      <given-names>M.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>J.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A balanced accuracy function for epistasis modeling in imbalanced datasets using multifactor dimensionality reduction</article-title>
+                  <source>Genet. Epidemiol.</source>
+                  <year>2007</year>
+                  <volume>31</volume>
+                  <fpage>306</fpage>
+                  <lpage>315</lpage>
+                  <pub-id pub-id-type="doi">10.1002/gepi.20211</pub-id>
+                  <?supplied-pmid 17323372?>
+                  <pub-id pub-id-type="pmid">17323372</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-vaccines-09-00206">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dunn</surname>
+                      <given-names>A.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leask</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandl</surname>
+                      <given-names>K.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coiera</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Associations Between Exposure to and Expression of Negative Opinions About Human Papillomavirus Vaccines on Social Media: An Observational Study</article-title>
+                  <source>J. Med. Internet Res.</source>
+                  <year>2015</year>
+                  <volume>17</volume>
+                  <fpage>e144</fpage>
+                  <pub-id pub-id-type="doi">10.2196/jmir.4343</pub-id>
+                  <?supplied-pmid 26063290?>
+                  <pub-id pub-id-type="pmid">26063290</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-vaccines-09-00206">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>C.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marshall</surname>
+                      <given-names>N.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grunstein</surname>
+                      <given-names>R.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fois</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hibbs</surname>
+                      <given-names>D.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hanrahan</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saini</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spontaneous Adverse Event Reports Associated with Zolpidem in the United States 2003–2012</article-title>
+                  <source>J. Clin. Sleep Med.</source>
+                  <year>2017</year>
+                  <volume>13</volume>
+                  <fpage>223</fpage>
+                  <lpage>234</lpage>
+                  <pub-id pub-id-type="doi">10.5664/jcsm.6452</pub-id>
+                  <?supplied-pmid 27784418?>
+                  <pub-id pub-id-type="pmid">27784418</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-vaccines-09-00206">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trinh</surname>
+                      <given-names>N.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Solé</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Benkebil</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Benefits of combining change-point analysis with disproportionality analysis in pharmacovigilance signal detection</article-title>
+                  <source>Pharmacoepidemiol. Drug Safety</source>
+                  <year>2018</year>
+                  <volume>28</volume>
+                  <fpage>370</fpage>
+                  <lpage>376</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pds.4613</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="vaccines-09-00206-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Simulation model from the Poisson distribution with a mean baseline number of reports of 1 (<bold>A</bold>) and the different scenarios with 1.5-, 3-, 5-, 10-, and 50-fold increases in number (<bold>B</bold>).</p>
+              </caption>
+              <graphic xlink:href="vaccines-09-00206-g001"/>
+            </fig>
+            <fig id="vaccines-09-00206-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Change points detected by change point analysis based on the number of reports for the human papillomavirus vaccine including syncope and dizziness in individual case safety reports. Abbreviations: POTS, postural orthostatic tachycardia syndrome; BCP, Bayesian change point; Taylor-CPA, Taylor’s change point analysis; EnvCpt, environmental time series change point detection.</p>
+              </caption>
+              <graphic xlink:href="vaccines-09-00206-g002"/>
+            </fig>
+            <table-wrap id="vaccines-09-00206-t001" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">vaccines-09-00206-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>Balanced accuracy of performance results obtained with the three change point analysis methods on the 1000 simulated datasets for 25 scenes.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th rowspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1">Degree of Change</th>
+                    <th colspan="15" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Mean Baseline Number of Reports</th>
+                  </tr>
+                  <tr>
+                    <th colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">1</th>
+                    <th colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">5</th>
+                    <th colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">10</th>
+                    <th colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">50</th>
+                    <th colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">100</th>
+                  </tr>
+                  <tr>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BCP</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Taylor<break/>-CPA</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">EnvCpt</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BCP</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Taylor<break/>-CPA</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">EnvCpt</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BCP</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Taylor<break/>-CPA</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">EnvCpt</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BCP</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Taylor<break/>-CPA</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">EnvCpt</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BCP</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Taylor<break/>-CPA</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">EnvCpt</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4" align="center" valign="middle" rowspan="1">The number of reports increased</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.5-fold</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">50%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">53%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">52%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">50%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">67%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">56%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">52%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">80%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">69%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">75%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">98%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">93%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3-fold</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">52%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">80%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">73%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">77%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">98%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">93%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5-fold</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">63%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">95%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">95%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">97%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">10-fold</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">90%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">50-fold</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">99%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn>
+                  <p>Abbreviations: BCP, Bayesian change point; Taylor-CPA, Taylor’s change point analysis; EnvCpt, environmental time series change point detection; PPV, positive predictive value; NPV, negative predictive value.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:57:18Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7894084" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7894084</identifier>
+        <datestamp>2021-02-22</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Procedia Comput Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Procedia Comput Sci</journal-id>
+              <journal-title-group>
+                <journal-title>Procedia Computer Science</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1877-0509</issn>
+              <publisher>
+                <publisher-name>The Author(s). Published by Elsevier B.V.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7894084</article-id>
+              <article-id pub-id-type="pmcid">PMC7894084</article-id>
+              <article-id pub-id-type="pmc-uid">7894084</article-id>
+              <article-id pub-id-type="pmid">33643496</article-id>
+              <article-id pub-id-type="pii">S1877-0509(21)00136-8</article-id>
+              <article-id pub-id-type="doi">10.1016/j.procs.2021.01.102</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A Comparison: Prediction of Death and Infected COVID-19 Cases in Indonesia Using Time Series Smoothing and LSTM Neural Network</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au0433">
+                  <name>
+                    <surname>Rasjid</surname>
+                    <given-names>Zulfany Erlisa</given-names>
+                  </name>
+                  <xref rid="aff0001" ref-type="aff">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au0434">
+                  <name>
+                    <surname>Setiawan</surname>
+                    <given-names>Reina</given-names>
+                  </name>
+                  <xref rid="aff0001" ref-type="aff">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au0435">
+                  <name>
+                    <surname>Effendi</surname>
+                    <given-names>Andy</given-names>
+                  </name>
+                  <xref rid="aff0002" ref-type="aff">b</xref>
+                </contrib>
+                <aff id="aff0001"><label>a</label>Computer Science Department, School of Computer Science, Bina Nusantara University, Jl. K.H. Syahdan No. 9, Jakarta 11480, Indonesia</aff>
+                <aff id="aff0002"><label>b</label>Information Systems Department, School of Information Systems, Bina Nusantara University, Jl. K.H. Syahdan No. 9, Jakarta 11480, Indonesia</aff>
+              </contrib-group>
+              <pub-date pub-type="pmc-release">
+                <day>19</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>19</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>179</volume>
+              <fpage>982</fpage>
+              <lpage>988</lpage>
+              <permissions>
+                <copyright-statement>© 2021 The Author(s). Published by Elsevier B.V.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder/>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0001">
+                <p>COVID-19 is a virus causing pneumonia, also known as Corona Virus Disease. The first outbreak was found in Wuhan, China, in the province of Hubei on December 2019. The objective of this paper is to predict the death and infected COVID-19 in Indonesia using Savitzky Golay Smoothing and Long Short Term Memory Neural Network model (LSTM-NN). The dataset is obtained from Humanitarian Data Exchange (HDX), containing daily information on death and infected due to COVID-19. In Indonesia, the total data collected ranges from 2 March 2020 and by 26 July 2020, with a total of 147 records. The results of these two models are compared to determine the best fitted model. The curve of LSTM-NN shows an increase in death and infected cases and the Time Series also increases, however the smoothing shows a tendency to decrease. In conclusion, LSTM-NN prediction produce better result than the Savitzky Golay Smoothing. The LSTM-NN prediction shows a distinct rise and align with the actual Time Series data.</p>
+              </abstract>
+              <kwd-group id="keys0001">
+                <title>Keywords</title>
+                <kwd>Covid-19</kwd>
+                <kwd>Savitzky Golay Smoothing</kwd>
+                <kwd>Long Short Term Memory Neural Network model</kwd>
+                <kwd>Prediction</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <back>
+            <ref-list id="cebibsec1">
+              <title>References</title>
+              <ref id="bib0001">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sbref0001">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zanin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions</article-title>
+                  <source>J Thorac Dis [Internet]</source>
+                  <year>2020</year>
+                  <comment>2019. Available at: </comment>
+                  <pub-id pub-id-type="doi">10.21037/jtd.2020.02.64</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0002">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sbref0002">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harapan</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Itoh</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Yufika</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Winardi</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Keam</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Te</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Coronavirus disease 2019, (COVID-19): A literature review</article-title>
+                  <source>J Infect Public Health [Internet]</source>
+                  <volume>13</volume>
+                  <issue>5</issue>
+                  <year>2020</year>
+                  <fpage>667</fpage>
+                  <lpage>673</lpage>
+                  <comment>Available at: </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.jiph.2020.03.019</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0003">
+                <label>3</label>
+                <mixed-citation publication-type="other" id="oref0003">HDX. No Title [Internet]. 2020 [cited July 30, 2020]. Available at: <ext-link ext-link-type="uri" xlink:href="https://data.humdata.org/dataset/indonesia-covid-19-cases-recoveries-and-deaths-per-province" id="interrefs3">https://data.humdata.org/dataset/indonesia-covid-19-cases-recoveries-and-deaths-per-province</ext-link></mixed-citation>
+              </ref>
+              <ref id="bib0004">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sbref0004">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Setiati</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Azwar</surname>
+                      <given-names>MK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 and Indonesia</article-title>
+                  <source>Acta Med Inonesia- Indones J Intern Med</source>
+                  <volume>52</volume>
+                  <issue>1</issue>
+                  <year>2020</year>
+                  <fpage>84</fpage>
+                  <lpage>89</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0005">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sbref0005">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ivanov</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting the impacts of epidemic outbreaks on global supply chains : A simulation-based analysis on the coronavirus outbreak</article-title>
+                  <source>Transp Res Part E [Internet]</source>
+                  <volume>136</volume>
+                  <issue>March</issue>
+                  <year>2020</year>
+                  <fpage>101922</fpage>
+                  <comment>Available at: </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.tre.2020.101922</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0006">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sbref0006">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fanelli</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Piazza</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis and forecast of COVID-19 spreading in China, Italy and France</article-title>
+                  <source>Chaos, Solitons Fractals Interdiscip J Nonlinear Sci Nonequilibrium Complex Phenom [Internet]</source>
+                  <volume>134</volume>
+                  <year>2020</year>
+                  <fpage>109761</fpage>
+                  <comment>Available at: </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109761</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0007">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sbref0007">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Petropoulos</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Makridakis</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the novel coronavirus COVID-19</article-title>
+                  <source>PLoS One [Internet]</source>
+                  <volume>15</volume>
+                  <issue>5</issue>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <comment>Available at: </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0231236</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0008">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sbref0008">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nicolaa</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Alsafib</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Sohrabic</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerwand</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Al-Jabird</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Iosifidisc</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The socio-economic implications of the coronavirus pandemic (COVID-19): A review</article-title>
+                  <source>Int J Surg.</source>
+                  <volume>78</volume>
+                  <year>2020</year>
+                  <fpage>185</fpage>
+                  <lpage>193</lpage>
+                  <pub-id pub-id-type="pmid">32305533</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0009">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref0009">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The psychological impact of the COVID-19 epidemic on college students in China</article-title>
+                  <source>Psychiatry Res [Internet]</source>
+                  <volume>287</volume>
+                  <issue>March</issue>
+                  <year>2020</year>
+                  <fpage>112934</fpage>
+                  <comment>Available at: </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.psychres.2020.112934</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00010">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sbref00010">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Karakiulakis</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Roth</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correspondence hypertension and increased risk for</article-title>
+                  <source>Lancet Respir [Internet]</source>
+                  <volume>2600</volume>
+                  <issue>20</issue>
+                  <year>2020</year>
+                  <fpage>30116</fpage>
+                  <comment>Available at: </comment>
+                  <pub-id pub-id-type="doi">10.1016/S2213-2600(20)30116-</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00011">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sbref00011">
+                  <article-title>Variations of Models and Learning Platforms for Prospective Teachers During the COVID-19 Pandemic Period</article-title>
+                  <source>Indones J Teach Educ</source>
+                  <volume>1</volume>
+                  <issue>2</issue>
+                  <year>2020</year>
+                  <fpage>61</fpage>
+                  <lpage>70</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00012">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sbref00012">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mailizar</surname>
+                      <given-names>Almanthari A</given-names>
+                    </name>
+                    <name>
+                      <surname>Maulina</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruce</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Secondary School Mathematics Teachers ’ Views on E-learning Implementation Barriers during the COVID-19 Pandemic </article-title>
+                  <source>The Case of Indonesia</source>
+                  <volume>16</volume>
+                  <issue>7</issue>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="bib00013">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sbref00013">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barid</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wajdi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Al</surname>
+                      <given-names>Faruq U</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Education Policy Overcome Coronavirus, A Study of Indonesians</article-title>
+                  <source>J Educ Technol</source>
+                  <volume>3</volume>
+                  <issue>2</issue>
+                  <year>2020</year>
+                  <fpage>96</fpage>
+                  <lpage>106</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00014">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sbref00014">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Milzam</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mahardika</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Amalia</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Corona Virus Pandemic Impact on Sales Revenue of Micro Small and Medium Enterprises (MSMEs) in Pekalongan City</article-title>
+                  <source>J Vocat Stud Appl Res</source>
+                  <volume>2</volume>
+                  <issue>April</issue>
+                  <year>2020</year>
+                  <fpage>7</fpage>
+                  <lpage>10</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00015">
+                <label>15</label>
+                <element-citation publication-type="journal" id="sbref00015">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Muzakki</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Global Political Economy Impact of Covid-19 and the Implication to Indonesia</article-title>
+                  <source>J Soc Polit Sci</source>
+                  <volume>1</volume>
+                  <issue>2</issue>
+                  <year>2020</year>
+                  <fpage>76</fpage>
+                  <lpage>93</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00016">
+                <label>16</label>
+                <element-citation publication-type="journal" id="sbref00016">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hanoatubun</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dampak Covid - 19 Terhadap Perekonomian Indonesia</article-title>
+                  <source>EduPsyCouns J</source>
+                  <volume>2</volume>
+                  <issue>1</issue>
+                  <year>2020</year>
+                  <fpage>146</fpage>
+                  <lpage>153</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00017">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sbref00017">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wachyuni</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Kusumaningrum</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Effect of COVID-19 Pandemic : How are the Future Tourist Behavior ?</article-title>
+                  <source>J Educ Soc Behav Sci.</source>
+                  <volume>33</volume>
+                  <issue>4</issue>
+                  <year>2020</year>
+                  <fpage>67</fpage>
+                  <lpage>76</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00018">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref00018">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yunity</surname>
+                      <given-names>IGAD</given-names>
+                    </name>
+                    <name>
+                      <surname>Sasmita</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Komara</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                    <name>
+                      <surname>Purba</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Pandawani</surname>
+                      <given-names>NP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Impact of Covid-19 on Community Life in the Province of Bali, Indonesia</article-title>
+                  <source>Int J Psychosoc Rehabil</source>
+                  <volume>24</volume>
+                  <issue>10</issue>
+                  <year>2020</year>
+                  <fpage>1918</fpage>
+                  <lpage>1929</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00019">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sbref00019">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nuraini</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Khairudin</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Apri</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <source>Modeling Simulation of COVID-19 in Indonesia based on Early Endemic Data</source>
+                  <volume>3</volume>
+                  <issue>1</issue>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00020">
+                <label>20</label>
+                <element-citation publication-type="journal" id="sbref00020">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rustan</surname>
+                      <given-names>Handayani L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Outbreak’s Modeling of Coronavirus (Covid-19) Using the Modified Seir Model in Indonesia</article-title>
+                  <source>SPEKTRA J Fis dan Apl</source>
+                  <volume>5</volume>
+                  <issue>1</issue>
+                  <year>2020</year>
+                  <fpage>61</fpage>
+                  <lpage>68</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00021">
+                <label>21</label>
+                <element-citation publication-type="journal" id="sbref00021">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parhusip</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Menelusuri COVID-19 di Dunia dan di Indonesia dengan Model Regresi SVM, Bayesian dan Gaussian Study on COVID-19 in the World and Indonesia Using Regression Model of SVM, Bayesian Ridge and Gaussian</article-title>
+                  <source>J Ilm Sains</source>
+                  <volume>20</volume>
+                  <issue>2</issue>
+                  <year>2020</year>
+                  <fpage>49</fpage>
+                  <lpage>57</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00022">
+                <label>22</label>
+                <element-citation publication-type="journal" id="sbref00022">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siskus</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Arianto</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediksi Kasus Covid-19 Di Indonesia Menggunakan Metode Backpropagation Dan Fuzzy Tsukamoto</article-title>
+                  <source>J Teknol Inf</source>
+                  <volume>4</volume>
+                  <issue>1</issue>
+                  <year>2020</year>
+                  <fpage>120</fpage>
+                  <lpage>127</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00023">
+                <label>23</label>
+                <element-citation publication-type="journal" id="sbref00023">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermack</surname>
+                      <given-names>WO</given-names>
+                    </name>
+                    <name>
+                      <surname>McKendrick</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Contribution to the Mathematical Theory of Epidemics</article-title>
+                  <source>The Royal Society A</source>
+                  <year>1927</year>
+                  <fpage>700</fpage>
+                  <lpage>721</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00024">
+                <label>24</label>
+                <element-citation publication-type="journal" id="sbref00024">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huppert</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Katriel</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical modelling and prediction in infectious disease epidemiology</article-title>
+                  <source>Clin Microbiol Infect</source>
+                  <volume>19</volume>
+                  <issue>9</issue>
+                  <year>2013</year>
+                  <fpage>999</fpage>
+                  <lpage>1005</lpage>
+                  <pub-id pub-id-type="pmid">24266045</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00025">
+                <label>25</label>
+                <element-citation publication-type="book" id="sbref00025">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ku</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>The Forecast of Ebola Virus Propagation</chapter-title>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Dang</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ku</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Qian</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodino</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <source>New Trends in Analysis and Interdisciplinary Applications</source>
+                  <year>2017</year>
+                  <publisher-name>Birkhäuser</publisher-name>
+                  <publisher-loc>Cham</publisher-loc>
+                  <fpage>97</fpage>
+                  <lpage>103</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00026">
+                <label>26</label>
+                <element-citation publication-type="journal" id="sbref00026">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jia</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsui</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemic Modelling Using SARS As A Case Study</article-title>
+                  <source>North Am Actuar J</source>
+                  <volume>9</volume>
+                  <issue>4</issue>
+                  <year>2005</year>
+                  <fpage>28</fpage>
+                  <lpage>42</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00027">
+                <label>27</label>
+                <element-citation publication-type="journal" id="sbref00027">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ozdinc</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Senel</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Ozturcan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Akgul</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting the Progress of COVID-19 : The Case for Turkey</article-title>
+                  <source>Turkiye Klin J Med Sci Press</source>
+                  <year>2020</year>
+                  <fpage>19</fpage>
+                  <lpage>22</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00028">
+                <label>28</label>
+                <element-citation publication-type="journal" id="sbref00028">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Biswas</surname>
+                      <given-names>MHA</given-names>
+                    </name>
+                    <name>
+                      <surname>Paiva</surname>
+                      <given-names>LT</given-names>
+                    </name>
+                    <name>
+                      <surname>de</surname>
+                      <given-names>Pinho M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Seir Model for Control of Infectious Diseases</article-title>
+                  <source>Math Biosci Eng</source>
+                  <volume>11</volume>
+                  <issue>4</issue>
+                  <year>2014</year>
+                  <fpage>761</fpage>
+                  <lpage>784</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00029">
+                <label>29</label>
+                <element-citation publication-type="journal" id="sbref00029">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Ebola virus based on SIR and SEIR model</article-title>
+                  <source>Int Journall Sci</source>
+                  <volume>5</volume>
+                  <issue>10</issue>
+                  <year>2018</year>
+                  <fpage>163</fpage>
+                  <lpage>168</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00030">
+                <label>30</label>
+                <element-citation publication-type="journal" id="sbref00030">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vaishya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Javaid</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Haleem</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Haleem</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Artificial Intelligence (AI) applications for COVID-19 pandemic</article-title>
+                  <source>Diabetes Metab Syndr Clin Res Rev</source>
+                  <volume>14</volume>
+                  <year>2020</year>
+                  <fpage>337</fpage>
+                  <lpage>339</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00031">
+                <label>31</label>
+                <element-citation publication-type="journal" id="sbref00031">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rustam</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Reshi</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehmood</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ullah</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>On</surname>
+                      <given-names>WON</given-names>
+                    </name>
+                    <name>
+                      <surname>Aslam</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Future Forecasting Using Supervised Machine Learning Models</article-title>
+                  <source>IEEE Access.</source>
+                  <volume>8</volume>
+                  <year>2020</year>
+                  <fpage>101489</fpage>
+                  <lpage>101499</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00032">
+                <label>32</label>
+                <element-citation publication-type="journal" id="sbref00032">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pinter</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Felde</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Mosavi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghamisi</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 Pandemic Prediction for Hungary ; A Hybrid Machine Learning Approach</article-title>
+                  <source>Mathematics</source>
+                  <volume>8</volume>
+                  <issue>890</issue>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="bib00033">
+                <label>33</label>
+                <element-citation publication-type="journal" id="sbref00033">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Cui</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Kang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Predicting COVID-19 in China Using Hybrid AI Model</article-title>
+                  <source>IEEE Trans Cybern</source>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>14</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00034">
+                <label>34</label>
+                <element-citation publication-type="journal" id="sbref00034">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ghosal</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sengupta</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Majumder</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sinha</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Linear Regression Analysis to predict the number of deaths in India due to SARS-CoV-2 at 6 weeks from day 0 (100 cases - March 14th</article-title>
+                  <source>Diabetes Metab Syndr Clin Res Rev [Internet]</source>
+                  <volume>14</volume>
+                  <issue>4</issue>
+                  <year>2020</year>
+                  <fpage>311</fpage>
+                  <lpage>315</lpage>
+                  <comment>Available at: </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.dsx.2020.03.017</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00035">
+                <label>35</label>
+                <element-citation publication-type="journal" id="sbref00035">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Combined Optimization of Savitzky-Golay Smoothing and Multiplicative Scatter Correction for FT-NIR PLS Models</article-title>
+                  <source>ISRN Spectrosc</source>
+                  <year>2013</year>
+                  <comment>2013</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib00036">
+                <label>36</label>
+                <mixed-citation publication-type="other" id="oref00036">Luchini S, Teschl M, Pintus PA, Degoulet M, Baunez C, Moatti J. Urgently Needed for Policy Guidance : An Operational Tool for Monitoring the COVID-19 Pandemic [Internet]. Social Science Research Network. 2020 [cited July 31, 2020]. p. 1–14. Available at: <ext-link ext-link-type="uri" xlink:href="https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3563688" id="interrefs10">https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3563688</ext-link></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

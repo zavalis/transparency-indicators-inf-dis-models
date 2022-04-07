@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:46:27Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8627046" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8627046</identifier>
+        <datestamp>2021-11-29</datestamp>
+        <setSpec>idm</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Infect Dis Model</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Infect Dis Model</journal-id>
+              <journal-title-group>
+                <journal-title>Infectious Disease Modelling</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">2468-2152</issn>
+              <issn pub-type="epub">2468-0427</issn>
+              <publisher>
+                <publisher-name>KeAi Publishing</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8627046</article-id>
+              <article-id pub-id-type="pmcid">PMC8627046</article-id>
+              <article-id pub-id-type="pmc-uid">8627046</article-id>
+              <article-id pub-id-type="pmid">34869960</article-id>
+              <article-id pub-id-type="pii">S2468-0427(21)00079-8</article-id>
+              <article-id pub-id-type="doi">10.1016/j.idm.2021.11.004</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Agent-based modeling of COVID-19 outbreaks for New York state and UK: Parameter identification algorithm</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au1">
+                  <name>
+                    <surname>Krivorotko</surname>
+                    <given-names>Olga</given-names>
+                  </name>
+                  <email>o.krivorotko@g.nsu.ru</email>
+                  <xref rid="aff1" ref-type="aff">a</xref>
+                  <xref rid="aff2" ref-type="aff">b</xref>
+                  <xref rid="cor1" ref-type="corresp">∗</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au2">
+                  <name>
+                    <surname>Sosnovskaia</surname>
+                    <given-names>Mariia</given-names>
+                  </name>
+                  <email>m.sosnovskaya@g.nsu.ru</email>
+                  <xref rid="aff2" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au3">
+                  <name>
+                    <surname>Vashchenko</surname>
+                    <given-names>Ivan</given-names>
+                  </name>
+                  <email>i.vashchenko@g.nsu.ru</email>
+                  <xref rid="aff2" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au4">
+                  <name>
+                    <surname>Kerr</surname>
+                    <given-names>Cliff</given-names>
+                  </name>
+                  <email>ckerr@idmod.org</email>
+                  <xref rid="aff3" ref-type="aff">c</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au5">
+                  <name>
+                    <surname>Lesnic</surname>
+                    <given-names>Daniel</given-names>
+                  </name>
+                  <email>D.Lesnic@leeds.ac.uk</email>
+                  <xref rid="aff4" ref-type="aff">d</xref>
+                </contrib>
+                <aff id="aff1"><label>a</label>Institute of Computational Mathematics and Mathematical Geophysics Siberian Branch of the Russian Academy of Sciences, 6 Prospect Akademika Lavrentieva Street, Novosibirsk, 630090, Russia</aff>
+                <aff id="aff2"><label>b</label>Novosibirsk State University, 2 Pirogova Street, Novosibirsk, 630090, Russia</aff>
+                <aff id="aff3"><label>c</label>Institute for Disease Modeling, Bill &amp; Melinda Gates Foundation, Seattle, USA</aff>
+                <aff id="aff4"><label>d</label>University of Leeds, LS2 9JT, UK</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>∗</label>Corresponding author. Institute of Computational Mathematics and Mathematical Geophysics Siberian Branch of the Russian Academy of Sciences, 6 Prospect Akademika Lavrentieva Street, Novosibirsk, 630090, Russia. <email>o.krivorotko@g.nsu.ru</email></corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>27</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>27</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>7</volume>
+              <issue>1</issue>
+              <fpage>30</fpage>
+              <lpage>44</lpage>
+              <history>
+                <date date-type="received">
+                  <day>23</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>24</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>24</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 The Authors</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0010">
+                <p>This paper uses Covasim, an agent-based model (ABM) of COVID-19, to evaluate and scenarios of epidemic spread in New York State (USA) and the UK. Epidemiological parameters such as contagiousness (virus transmission rate), initial number of infected people, and probability of being tested depend on the region's demographic and geographical features, the containment measures introduced; they are calibrated to data about COVID-19 spread in the region of interest. At the first stage of our study, epidemiological data (numbers of people tested, diagnoses, critical cases, hospitalizations, and deaths) for each of the mentioned regions were analyzed. The data were characterized in terms of seasonality, stationarity, and dependency spaces, and were extrapolated using machine learning techniques to specify unknown epidemiological parameters of the model. At the second stage, the Optuna optimizer based on the tree Parzen estimation method for objective function minimization was applied to determine the model's unknown parameters. The model was validated with the historical data of 2020. The modeled results of COVID-19 spread in New York State and the UK have demonstrated that if the level of testing and containment measures is preserved, the number of positive cases in New York State remain the same during March of 2021, while in the UK it will reduce.</p>
+              </abstract>
+              <kwd-group id="kwrds0010">
+                <title>Keywords</title>
+                <kwd>Epidemiology</kwd>
+                <kwd>Agent-based modeling</kwd>
+                <kwd>COVID-19</kwd>
+                <kwd>Interventions analysis</kwd>
+                <kwd>Coronavirus data analysis</kwd>
+                <kwd>Forecasting scenarios</kwd>
+                <kwd>Reproduction number</kwd>
+                <kwd>Optimization</kwd>
+                <kwd>Parameter identification</kwd>
+              </kwd-group>
+            </article-meta>
+            <notes>
+              <p id="misc0010">Handling editor: Dr Lou Yijun</p>
+            </notes>
+          </front>
+          <body>
+            <sec id="sec1">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="p0010">COVID-19 was declared pandemic by the WHO on March 11th, 2020. Since that time, more than 219 million people in 192 countries have been infected with the disease, and more than 4.5 million people have died after getting infected. During the last two years mankind have mobilized its resources to fight the pandemic. One of the useful tools in this struggle has been mathematical modeling that uses known historical data to study different scenarios of disease spread (<xref rid="bib5" ref-type="bibr">Cooper et al., 2020</xref>; <xref rid="bib16" ref-type="bibr">Ndairoua et al., 2020</xref>).</p>
+              <p id="p0015">The models including those for studying coronavirus infections can be divided into two groups: compartmental and agent-based models. In compartmental models, a population is divided into groups sharing similar features and interacting with one another following the mass action law. Agent-based models (ABMs), on the other hand, give each agent (people, social institutes, the state, etc.) a set of features and determines the way the agents interact from random graphs following disease spread principles. In other words, an agent's behavior is determined individually, and their joint behavior is described as the interaction of multiple agents (bottom-top approach). Unlike compartmental models, ABMs are capable of providing a detailed description of an epidemiological situation, especially in a case of inaccurate and insufficient data. ABMs account for the stochastic nature of epidemic spread, makes it possible to estimate the likelihood of different epidemic scenarios, and allows one to evaluate the risks of unfavorable events occurring due to policy changes. The resulted data enable one to make conclusions about the duration, severity and scale of an epidemic, evaluate the efficacy of the preventive and quarantine measures, and assess its economic consequences.</p>
+              <p id="p0020">During 2020, many models were developed to predict COVID-19 spread. In (<xref rid="bib13" ref-type="bibr">Kai et al., 2020</xref>), both compartmental and agent-based models are presented to study mass face-mask wearing and predict its effect on COVID-19 spread. A graph-based ABM is suggested in (<xref rid="bib21" ref-type="bibr">Wolfram, 2020</xref>). The paper considers a small population of 1000 agents and graphs of different kinds such as fully-connected, Barabasi-Albert, Watts-Strogatz ones, etc. Another approach to agents interactions is demonstrated in (<xref rid="bib9" ref-type="bibr">Cuevas, 2020</xref>). In this paper, agents are initialized in a 2D space (so-called mesh) to consider a distance between different agents, so such a factor as social distancing can be explicitly accounted for. However, this approach leads to excessive computation complexity, and for that reason, these models consider a small number of agents (up to 500).</p>
+              <p id="p0025">Another important direction of modeling has been a comparison of containment measures and projecting the future for different scenarios. The paper published by Chang et al. (<xref rid="bib4" ref-type="bibr">Chang et al., 2021</xref>) combines an epidemiological SEIR model and the hourly GPS data from the mobile phones of 98 million people in 10 US cities. The model predicted that closing of the most crowded public places such as restaurants and religious establishments would be a sufficient measure to contain the pandemic unlike unilateral measures to limit people's mobility. In (<xref rid="bib19" ref-type="bibr">Silva et al., 2020</xref>), the authors offer an ABM using SEIR agents to model COVID-19 spread dynamics, where the agents imitate people, businesses and the government. Using the model, they have analyzed seven social-distancing scenarios having different epidemiological and economic effects. The paper has demonstrated that the so-called vertical isolation has no positive effect. In (<xref rid="bib15" ref-type="bibr">Mellacher, 2020</xref>) macroeconomic epidemiological ABM been presented to study the economic effect COVID-19 would have in different scenarios of pandemic containment such as closing of educational and entertainment facilities. The model was calibrated using the statistical data on country's and business demography, households, employment, profits and wages in Germany.</p>
+              <p id="p0030">It is noteworthy that data collecting and processing is a very important step in building an effective COVID-19 spread model. However, in the studies mentioned above data pre-processing for the modeled regions was not performed. Most of them concentrated on building the models and algorithms, whose parameters were considered known either from literature or from experts’ estimations, so the issues of identifiability for unknown parameters have remained unresolved, as has the need of devising a regularization algorithm for solving the problem of epidemiological forecasting.</p>
+              <p id="p0035">In this study, our focus is on the analysis of data, parameter identification, and regularization algorithms. However, it is a known fact that epidemics develop differently in different locations. To address this issue, in our study, the epidemiological situations in New York State (USA) and the UK were compared and analyzed.</p>
+              <sec id="sec1.1">
+                <label>1.1</label>
+                <title>New York State</title>
+                <p id="p0040">Nearly 2 million people were confirmed infected and more than 50 000 people died by April 6, 2021 in NY State (<xref rid="bib20" ref-type="bibr">Tracking Coronavirus in N, 2021</xref>). In NY State, the pandemic spread rapidly, reaching its peak in March–April of 2020 (see Section <xref rid="sec2.1" ref-type="sec">2.1</xref>). The healthcare system was overloaded in the very first months of the outbreak. Thanks to the containment measures introduced, the number of infected people reduced to a characteristic plateau that was followed by a second infection wave several months later.</p>
+              </sec>
+              <sec id="sec1.2">
+                <label>1.2</label>
+                <title>United Kingdom</title>
+                <p id="p0045">Another pandemic scenario was observed in the UK. After the first infection wave had been successfully suppressed by June 2020, the second wave hit the country hard and, due to the B.1.1.7 SARS-CoV-2 variant, the number of infected people increased 10 times compared to the first wave (see Section <xref rid="sec2.2" ref-type="sec">2.2</xref>). At the time of writing, this has reduced to 7000 cases a day, and the pandemic is on wane.</p>
+                <p id="p0050">This study is organized as follows. First, open-source data of COVID-19 spread in New York State and the UK were processed and analyzed using the statistics and machine learning methods to find interdependencies, study seasonality and predict possible future dynamics (see Section <xref rid="sec2" ref-type="sec">2</xref>). Second, we confirmed that the selected ABM met the identifiability condition such as being sensitive to data errors and capable of unambiguous determination of the unknown parameters of COVID-19 spread from additional measurements (Section <xref rid="sec3.2" ref-type="sec">3.2</xref>). The obtained space of identifiable parameters was specified using the multilevel global-optimization method (Section <xref rid="sec4" ref-type="sec">4</xref>). Finally, scenarios of how the COVID-19 pandemic that could develop in New York State and the UK were assessed concerning available data and certain containment measures (Section <xref rid="sec5" ref-type="sec">5</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="sec2">
+              <label>2</label>
+              <title>Data analysis</title>
+              <p id="p0055">Data analysis and data processing are important parts of forecasting modeling. Before data processing begins, one has to understand the character of available data and determine their features. Collecting such daily indicators as the number of tests, diagnosed cases, ventilated COVID patients, etc. (see <xref rid="tbl1" ref-type="table">Table 1</xref>) helps to overview the general picture for a considered region, while anomalous time intervals may call for more scrupulous analysis.<table-wrap position="float" id="tbl1"><label>Table 1</label><caption><p>Indicators used in data analyses and their description.</p></caption><alt-text id="alttext0080">Table 1</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Indicator</th><th>Description</th></tr></thead><tbody><tr><td align="left">New Tests</td><td align="left">Number of performed tests</td></tr><tr><td align="left">New Diagnoses</td><td align="left">Number of diagnosed cases</td></tr><tr><td align="left">New Deaths</td><td align="left">Number of deaths related to a positive diagnosis</td></tr></tbody></table></table-wrap></p>
+              <sec id="sec2.1">
+                <label>2.1</label>
+                <title>New York State (USA)</title>
+                <p id="p0060">To forecast the way the pandemic would develop, the data from the COVID Tracking Project's website (<xref rid="bib8" ref-type="bibr">The COVID Tracking Project in USA</xref>) were used. The site contains information for each state and for the country as a whole. The feature of the data in question is the method they calculate New Diagnoses: positive cases (confirmed plus probable) summing the total number of confirmed cases and the probable cases of COVID-19 reported by the state or territory, ideally per the “August 5, 2020 CSTE case definition”. Some states are following the older “April 5th, 2020 CSTE case definition” or using their own custom definitions. The latter method of data collection is more suitable for ABMs since it takes into account the percentage of infected people that may have been simply neglected.</p>
+                <p id="p0065">We can consider the COVID-19 spread in New York State in more detail, using the epidemic time-series data. Any time series can be decomposed into the following three elements:<disp-formula id="ufd1"><mml:math id="M1" altimg="si1.svg"><mml:mi>X</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>T</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>N</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:math></disp-formula>Here, <italic>X</italic>(<italic>n</italic>) is a time-series value, <italic>T</italic>(<italic>n</italic>) is the value of the underlying time-series component; <italic>S</italic>(<italic>n</italic>) is the value of a seasonality component, <italic>N</italic>(<italic>n</italic>) is the value of a noise component for the <italic>n</italic>-th day. When analyzing a time series, we found it was most useful to analyze its trend, since this determines an indicator's behavior in time.</p>
+                <p id="p0070">The non-smoothed graphs in <xref rid="fig1" ref-type="fig">Fig. 1</xref> demonstrate widely dispersed points of statistics, so these data were smoothed before using them in the model because only the main trends of the curves were necessary for reaching an appropriate result. The graphs demonstrate certain periodicity that is known to be time series seasonality, which is clearly traced during summer in New Diagnoses.<fig id="fig1"><label>Fig. 1</label><caption><p>Graphs of COVID-19 spread in New York State (top line): the number of New Tests (left), New Diagnoses (middle) and New Deaths (right) and their smoothed curves (bottom line).</p></caption><alt-text id="alttext0015">Fig. 1</alt-text><graphic xlink:href="gr1"/></fig></p>
+                <p id="p0075">Now, let us consider the average fraction of tests for each day of the week that is calculated as:<disp-formula id="ufd2"><mml:math id="M2" altimg="si2.svg"><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover accentunder="false" accent="false"><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mfrac><mml:mrow><mml:mi>X</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="badbreak">+</mml:mo><mml:mi>m</mml:mi><mml:mo linebreak="badbreak">⋅</mml:mo><mml:mi>j</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="badbreak">+</mml:mo><mml:mi>m</mml:mi><mml:mo linebreak="badbreak">⋅</mml:mo><mml:mi>j</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:math></disp-formula>Here, <italic>i</italic> is a week-day number, <italic>N</italic> is the number of full weeks within a considered time series, <italic>S</italic>(<italic>i</italic> + <italic>m</italic> ⋅ <italic>j</italic>) is the cumulative sum of the New Tests performed within a week corresponding to index <italic>j</italic>, <italic>m</italic> = 7. The results can be seen in <xref rid="tbl2" ref-type="table">Table 2</xref>. It is apparent that the number of tests tends to its minimum for Mondays and Tuesdays and reaches its maximum on Fridays and Saturdays, which exemplifies the seasonality (i.e., periodicity) of the considered time series.<table-wrap position="float" id="tbl2"><label>Table 2</label><caption><p>Average fraction from the number of tests and its daily distribution for a whole statistics-gathering period (NY State).</p></caption><alt-text id="alttext0085">Table 2</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Days of the week</th><th>Average fraction</th></tr></thead><tbody><tr><td align="left">Monday</td><td align="left">0.113 654</td></tr><tr><td align="left">Tuesday</td><td align="left">0.127 697</td></tr><tr><td align="left">Wednesday</td><td align="left">0.134 512</td></tr><tr><td align="left">Thursday</td><td align="left">0.155 779</td></tr><tr><td align="left">Friday</td><td align="left">0.162 017</td></tr><tr><td align="left">Saturday</td><td align="left">0.163 702</td></tr><tr><td align="left">Sunday</td><td align="left">0.142 640</td></tr></tbody></table></table-wrap></p>
+                <p id="p0080">COVID-19 pandemic data analysis has shown that there is a dependence between New Tests and New Diagnoses datasets for different regions. In such cases, the behavior of the second indicator is partly determined by that of the first. As a matter of fact, the last day of the week does not mean an abrupt increase in the number of the infected only because it is Friday. However, more people get tested on Friday, so the number of positive tests may increase. For that reason, analyzing the links between the number of infected people and that of new tests becomes crucial. For a proper understanding of the situation, it is not New Diagnoses, but their fraction from the number of New Tests that we want to know. After all, if one tested every person in a region, they would immediately indicate every one infected and their indicator would increase abruptly while their percentage would remain the same. Based on this fact, one can derive a time series that describes the percentage of newly tested people with either positive or potentially positive COVID-19 test.</p>
+                <p id="p0085"><xref rid="fig2" ref-type="fig">Fig. 2</xref> shows that the ratio reached its peak in April 2020 and later started to reduce due to an increased number of tests. In autumn, the second pandemic wave began, so the number of daily confirmed cases increased (see <xref rid="fig1" ref-type="fig">Fig. 1</xref>), but the ratio between New Diagnoses and New Tests remained at a low level. This implies that testing behavior (i.e., the probability of testing with or without COVID-19 symptoms) did not change.<fig id="fig2"><label>Fig. 2</label><caption><p>Fraction of new diagnoses from new tests in NY state.</p></caption><alt-text id="alttext0020">Fig. 2</alt-text><graphic xlink:href="gr2"/></fig></p>
+                <p id="p0090">To confirm change in testing during autumn and winter, the MACD indicator (<xref rid="bib1" ref-type="bibr">Bartolucci et al., 2018</xref>) was used, whose histogram tracks a function's rise and fall (in our case it was the rise of New Tests). The graph demonstrates that the MACD indicator increased significantly over this period (see <xref rid="fig3" ref-type="fig">Fig. 3</xref>).<fig id="fig3"><label>Fig. 3</label><caption><p>MACD-indicator of the new tests in NY state.</p></caption><alt-text id="alttext0025">Fig. 3</alt-text><graphic xlink:href="gr3"/></fig></p>
+              </sec>
+              <sec id="sec2.2">
+                <label>2.2</label>
+                <title>Seasonality</title>
+                <p id="p0095">The above-mentioned term “seasonality” refers to the periodic fluctuations observed in time series. In other words, if one takes a time-series space and overlaps it against a neighboring space of the same size, their profiles are going to coincide (or differ by a constant). The peak absolute values will correlate with the same time points calculated from the beginning of the space. As for our COVID-19 data, their seasonality can be traced in the New Tests indicator, which has its logic since collecting this statistics involves as a human factor as the features of the healthcare system. The seasonality of a time series makes it possible to forecast the series behavior relative to some average value.</p>
+                <p id="p0100">Seasonality is commonly determined with an autocorrelation function (ACF). For a discrete process <italic>X</italic>(1), <italic>X</italic>(2), …, <italic>X</italic>(<italic>n</italic>) its formula is written as:<disp-formula id="ufd3"><mml:math id="M3" altimg="si3.svg"><mml:mi>R</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>M</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">⋅</mml:mo><mml:msup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac><mml:munderover accentunder="false" accent="false"><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>X</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>μ</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>X</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="badbreak">+</mml:mo><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:mi>μ</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:math></disp-formula>Here <italic>σ</italic> is the standard deviation of a discrete process <italic>X</italic>, <italic>μ</italic> is its average value, <italic>M</italic> and <italic>n</italic> are positive integers. Besides, to analyze time-series seasonality, a partial correlation (PACF) was applied that removed the linear dependence between shifted time series.</p>
+                <p id="p0105">The results confirmed New Tests really had weekly seasonality (7, 14 and 21st days), while the New Diagnoses did not possess this property (see <xref rid="fig4" ref-type="fig">Fig. 4</xref>).<fig id="fig4"><label>Fig. 4</label><caption><p>Graphical results of applying ACF (left) and PACF (right) to New Tests (top) and New Diagnoses (bottom) in NY State.</p></caption><alt-text id="alttext0030">Fig. 4</alt-text><graphic xlink:href="gr4"/></fig></p>
+              </sec>
+              <sec id="sec2.3">
+                <label>2.3</label>
+                <title>New Tests/New Diagnoses interrelation</title>
+                <p id="p0110">We have also considered a percentage change for any current moment in relation to the same moment a week before:<disp-formula id="ufd4"><mml:math id="M4" altimg="si4.svg"><mml:mi>p</mml:mi><mml:mi>c</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>n</mml:mi><mml:mo linebreak="badbreak">−</mml:mo><mml:mn>7</mml:mn></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo linebreak="goodbreak">−</mml:mo><mml:mn>1</mml:mn><mml:mo>.</mml:mo></mml:math></disp-formula></p>
+                <p id="p0115">This statistic demonstrates by how much an average indicator has changed in fractions compared to a previous week. If compared for weekdays, the results become smoother and easier to interpret.</p>
+                <p id="p0120">The two time series in <xref rid="fig5" ref-type="fig">Fig. 5</xref> have spaces where their trajectories almost match. In other words, the percent change of one indicator differs from that of the other one by a constant. In terms of tested/infected ratio, such spaces confirm that within this period, the number of infected people grew owing to the increased number of tests and not to a worsening pandemic situation in the region.<fig id="fig5"><label>Fig. 5</label><caption><p>New Diagnoses percent change (red line) and New Tests percent change (blue line) time-series graphs in NY State.</p></caption><alt-text id="alttext0035">Fig. 5</alt-text><graphic xlink:href="gr5"/></fig></p>
+                <p id="p0125">For more specific analysis, a window of 28 days was correlated with the previous 28 days for every day in the window (see <xref rid="fig6" ref-type="fig">Fig. 6</xref>).<fig id="fig6"><label>Fig. 6</label><caption><p>New Diagnoses percent change and New Tests perecent change correlations within a 28-day backward window with ∣0.8∣ and ∣0.9∣ correlation's threshold lines for NY state.</p></caption><alt-text id="alttext0040">Fig. 6</alt-text><graphic xlink:href="gr6"/></fig></p>
+                <p id="p0130">In statistics, a close linear dependence occurs when the absolute correlation value exceeds 0.7. If it exceeds 0.9, it means there is a strong dependence between two indicators (<xref rid="bib3" ref-type="bibr">Chaddock, 1925</xref>). In NY State, with some deviations, New Diagnoses strongly depended on New Tests. The deviations mean the pandemic develops following its own scenario. For instance, in the end of May and the beginning of June, the correlation coefficient exceeded 0.8 within a 28-day backward window when the first pandemic wave in the region was considered defeated and reached the so-called plateau that lasted till October when the second correlation took place and the second pandemic wave began, which means the second wave might have been triggered by the abrupt increase of New Tests. However, the correlation coefficient got back to almost zero by December, indicating that the rise and fall of New Diagnoses did not correlate with New Tests, so the pandemic in the region at that time spread or reduced (depending on graph direction). In February and March, the correlation became very close to one, meaning the number of infected people depended only on a New Tests.</p>
+              </sec>
+              <sec id="sec2.4">
+                <label>2.4</label>
+                <title>United Kingdom</title>
+                <p id="p0135">To analyze COVID-19 spread in the UK, the data accumulated on an official government web portal were used (<xref rid="bib6" ref-type="bibr">Coronavirus (COVID-19) in the UK</xref>).</p>
+                <p id="p0140"><xref rid="fig7" ref-type="fig">Fig. 7</xref> shows three stages of the infection: the first wave (from 2020.03.09 to 2020.06.01), plateau (from 2020.06.01 to 2020.09.01) and the second wave (from 2020.09.01 to 2021.03.06). The standard deviation of the time series for the second wave was much bigger than for the first one. For that reason, the standard deviation values were considered for two independent time series of New Diagnoses and New Tests (see <xref rid="tbl3" ref-type="table">Table 3</xref>). The data for NY State (NY) is put in the table for comparison.<fig id="fig7"><label>Fig. 7</label><caption><p>COVID-19 spread graphs in the UK (top line): New Tests (left), New Diagnoses (middle), New Deaths (right) and their smoothed curves (bottom line).</p></caption><alt-text id="alttext0045">Fig. 7</alt-text><graphic xlink:href="gr7"/></fig><table-wrap position="float" id="tbl3"><label>Table 3</label><caption><p>Standard deviation values for particular New Diagnoses and New Tests time series during different waves of COVID-19.</p></caption><alt-text id="alttext0090">Table 3</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Indicator</th><th>The 1st stage</th><th>The 2nd stage</th><th>The 3rd stage</th></tr></thead><tbody><tr><td align="left">(UK) New Tests std</td><td align="left">10 626.7</td><td align="left">16 613.8</td><td align="left">77 382.5</td></tr><tr><td align="left">(UK) New Diagnoses std</td><td align="left">455.8</td><td align="left">201.1</td><td align="left">5727.2</td></tr><tr><td align="left">(NY) New Tests std</td><td align="left">5636.6</td><td align="left">9543.9</td><td align="left">31 127</td></tr><tr><td align="left">(NY) New Diagnoses std</td><td align="left">1137</td><td align="left">114.2</td><td align="left">1144</td></tr></tbody></table></table-wrap></p>
+                <p id="p0145">Unfortunately, the data did not allow us to conclude what was the exact reason for the second wave's higher variance. It could have been the week variance of New Tests or something else since, in the UK, they started to register the number of tests only on 2020.04.21. All we know is the standard deviation of New Diagnoses increased with time as well as the variance of New Tests. However, despite the growing variance of New Tests in NY State, the standard deviation value of New Diagnoses remained at the same level.</p>
+              </sec>
+              <sec id="sec2.5">
+                <label>2.5</label>
+                <title>Seasonality</title>
+                <p id="p0150">The ACF and PACF applied to the New Diagnoses and New Tests time series and the fractions of tests calculated for every day of the week demonstrated the weekly seasonality of New Tests confirmed by ACF (see <xref rid="fig8" ref-type="fig">Fig. 8</xref> and <xref rid="tbl4" ref-type="table">Table 4</xref>). However, no significant PACF delays were observed. Results obtained with those from NY State demonstrated the absence of linear dependence did not affect the time series's seasonality. However, a different situation was observed in the UK.<fig id="fig8"><label>Fig. 8</label><caption><p>Graphical results of applying ACF (left) and PACF (right) to New Tests (top) and New Diagnoses (bottom) for the UK.</p></caption><alt-text id="alttext0050">Fig. 8</alt-text><graphic xlink:href="gr8"/></fig><table-wrap position="float" id="tbl4"><label>Table 4</label><caption><p>Average fraction from the number of tests and its daily distribution for a whole statistics-gathering period in the UK.</p></caption><alt-text id="alttext0095">Table 4</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Days of the week</th><th>Average fraction</th></tr></thead><tbody><tr><td align="left">Monday</td><td align="left">0.125 222</td></tr><tr><td align="left">Tuesday</td><td align="left">0.135 905</td></tr><tr><td align="left">Wednesday</td><td align="left">0.159 167</td></tr><tr><td align="left">Thursday</td><td align="left">0.166 208</td></tr><tr><td align="left">Friday</td><td align="left">0.157 837</td></tr><tr><td align="left">Saturday</td><td align="left">0.131 992</td></tr><tr><td align="left">Sunday</td><td align="left">0.123 668</td></tr></tbody></table></table-wrap></p>
+                <p id="p0155">In the next section, an approach to forecasting the New Tests time series will be demonstrated. The approach relies upon several techniques, including SARIMA (<xref rid="bib10" ref-type="bibr">Dabral &amp; Murry, 2017</xref>), an algorithm requiring a significant correlation for the seasonal delays (7, 14, 21, etc.) of a single parameter.</p>
+              </sec>
+              <sec id="sec2.6">
+                <label>2.6</label>
+                <title>Forecasting new tests</title>
+                <p id="p0160">To draw forecast curves while modeling, one has to predict a number of certain statistical data sets that are used as input parameters. In our model, such a data set was the New Tests performed in the region since this indicator did not depend on the others and had the highest value of seasonality that determined the seasonality of the other indicators. To extrapolate the New Tests time series, the SARIMA algorithm was used. The result of numerical modeling and forecasting is demonstrated in Section <xref rid="sec5" ref-type="sec">5</xref>.</p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <label>3</label>
+              <title>Agent-based mathematical model</title>
+              <p id="p0165">This section presents the ABM devised to describe COVID-19 spread and formulates a problem to identify (calibrate) the model's unknown parameters as objective functional minimization. It also presents a scheme for automatic calibration of the parameters for time intervals.</p>
+              <sec id="sec3.1">
+                <label>3.1</label>
+                <title>ABM formulation</title>
+                <p id="p0170">Within the framework of this research, stochastic ABMs for New York State and the United Kingdom were devised. They were built using the Covasim (<xref rid="bib14" ref-type="bibr">Kerr et al., 2021</xref>). This package had been utilized to predict the number of infected, dead and hospitalized people in the State of Oregon and become one of the tools to make decisions about whether to relax or escalate COVID-19 containment measures. This library is written in Python to study non-trivial COVID-19 dynamics. Its general algorithm is as follows: after all necessary parameters and statistical data are uploaded, the package creates an artificial population with account for age distribution. The model's agent is a person in a particular region. Then, the agents are united into contact networks and the integration loop begins. At every time step (1 day), an agent's status is updated in relation to its contact network and the containment measures relevant for this interval (self-isolation; closed access to public places; wearing face masks, etc.). The agents can interact with one another in particular networks. Depending on the network's structure, both full and random connectivity graphs are built for an agent to Figure out how the infection spreads. The average number of daily contacts is different for every agent and every network. At any time moment, the agents distributed by their age (bins of 0–9, 10–19, …, 90+) are found in their given state (see <xref rid="fig10" ref-type="fig">Fig. 10</xref>). More details about the structure of Covasim-based ABMs, their parameters and realization methods can be found in (<xref rid="bib7" ref-type="bibr">Covasim documentation</xref>).</p>
+                <p id="p0175">Every agent has their set of properties and characteristics that can be divided into 2 groups: constant (belong to each particular agent and do not change while modeling) and time-dependent.</p>
+              </sec>
+              <sec id="sec3.2">
+                <label>3.2</label>
+                <title>Time–independent agent characteristics</title>
+                <p id="p0180">
+                  <list list-type="simple" id="olist0010">
+                    <list-item id="o0010">
+                      <label>●</label>
+                      <p id="p0185">Age (<italic>t</italic>∗). All the agents are subdivided into age groups of 10 years (0–9 years, 10–19, …, 90 + . The age distribution depends on the demographic situation in a studied region.</p>
+                    </list-item>
+                    <list-item id="o0015">
+                      <label>●</label>
+                      <p id="p0190">Social status (determined by an agent's age <italic>t</italic>∗). Depending on their age, agents contact one another in contact networks. All agents have contacts in households and public places. Agents of 6–21 years old can also have contacts in educational institutions with agents of their age. Agents of 22–65 years old contact at work (see <xref rid="fig9" ref-type="fig">Fig. 9</xref>). Depending on a contact's structure, the transmission parameter <italic>β</italic> is multiplied by corresponding constant <inline-formula><mml:math id="M5" altimg="si5.svg"><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>β</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.3333em"/><mml:mfenced open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>β</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:mfenced></mml:math></inline-formula> for households, 0.6 – for educational institutions, 0.3 – for public places), i.e. the likelihood of virus transfer is different for every network.<fig id="fig9"><label>Fig. 9</label><caption><p>Agent contacts layers and their interactions in the COVID-19 spread ABM.</p></caption><alt-text id="alttext0055">Fig. 9</alt-text><graphic xlink:href="gr9"/></fig><fig id="fig10"><label>Fig. 10</label><caption><p>Agent state transition diagram in Covasim that is based on a SEIR-type compartment model. The orange frame marks those agent states that can give positive COVID-19 tests.</p></caption><alt-text id="alttext0060">Fig. 10</alt-text><graphic xlink:href="gr10"/></fig></p>
+                    </list-item>
+                    <list-item id="o0020">
+                      <label>●</label>
+                      <p id="p0195">Likelihood of disease progression (determined by an agent's age <italic>t</italic>∗). These parameters characterize disease progression (see <xref rid="fig10" ref-type="fig">Fig. 10</xref>). Their description is given in <xref rid="tbl5" ref-type="table">Table 5</xref>.<table-wrap position="float" id="tbl5"><label>Table 5</label><caption><p>Parameters of disease progression probability.</p></caption><alt-text id="alttext0100">Table 5</alt-text><table frame="hsides" rules="groups"><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody><tr><td align="left"><italic>p</italic><sub><italic>sym</italic></sub>(<italic>t</italic>∗)</td><td align="left">Probability of developing symptoms</td></tr><tr><td align="left"><italic>p</italic><sub><italic>sev</italic></sub>(<italic>t</italic>∗)</td><td align="left">Probability of developing severe symptoms (requires hospitalization)</td></tr><tr><td align="left"><italic>p</italic><sub><italic>crit</italic></sub>(<italic>t</italic>∗)</td><td align="left">Probability of critical condition (ICU)</td></tr><tr><td align="left"><italic>p</italic><sub><italic>death</italic></sub>(<italic>t</italic>∗)</td><td align="left">Probability of death</td></tr></tbody></table></table-wrap></p>
+                    </list-item>
+                  </list>
+                </p>
+              </sec>
+              <sec id="sec3.3">
+                <label>3.3</label>
+                <title>Time-dependent agent characteristics</title>
+                <p id="p0200">
+                  <list list-type="simple" id="olist0015">
+                    <list-item id="o0025">
+                      <label>●</label>
+                      <p id="p0205">Agent's epidemiological status. Each agent may have one of the 9 stages of the disease <inline-formula><mml:math id="M6" altimg="si6.svg"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>S</mml:mi><mml:mo>,</mml:mo><mml:mi>E</mml:mi><mml:mo>,</mml:mo><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>Y</mml:mi><mml:mo>,</mml:mo><mml:mi>M</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mo>,</mml:mo><mml:mi>R</mml:mi><mml:mo>,</mml:mo><mml:mi>D</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> (<xref rid="fig10" ref-type="fig">Fig. 10</xref>).</p>
+                    </list-item>
+                    <list-item id="o0030">
+                      <label>●</label>
+                      <p id="p0210">Agent's chance to be tested for COVID-19 <inline-formula><mml:math id="M7" altimg="si7.svg"><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>~</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>X</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> that is determined by the agent's epidemiological status. The agents are tested daily, the number of tests corresponds to the statistical data obtained in a region. At every modeling step, the tests are distributed across the population, the agents whose status is marked with an orange frame in a <xref rid="fig10" ref-type="fig">Fig. 10</xref> can be given a positive result. The agents whose test is recognized as positive are marked as “confirmed” and included in New Diagnoses. The model assumes that the likelihood for an agent to be tested as a symptomatic carrier is higher and this chance ratio is controlled by parameter <inline-formula><mml:math id="M8" altimg="si8.svg"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>~</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>X</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> at is restored from solving the inverse problem (see Section <xref rid="sec3.2" ref-type="sec">3.2</xref>).</p>
+                    </list-item>
+                  </list>
+                </p>
+              </sec>
+              <sec id="sec3.4">
+                <label>3.4</label>
+                <title>Parameter identification problem</title>
+                <p id="p0215">The ABM developed was also characterized by unknown parameters vector <inline-formula><mml:math id="M9" altimg="si9.svg"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>β</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>~</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula>. To specify the model's parameters a variational inverse problem formulation was performed to minimize the misfit function:<disp-formula id="fd1"><label>(1)</label><mml:math id="M10" display="block" altimg="si10.svg" alttext="Equation 1."><mml:mi>J</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:munderover accentunder="false" accent="false"><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:munderover><mml:mfrac><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>a</mml:mi><mml:mi>g</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo linebreak="goodbreak">+</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">−</mml:mo><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:math></disp-formula></p>
+                <p id="p0220">Here, <inline-formula><mml:math id="M11" altimg="si11.svg"><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> are smoothed daily statistical and model data of New Diagnoses; <inline-formula><mml:math id="M12" altimg="si12.svg"><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> are smoothed daily statistical and model data of New Deaths; <italic>T</italic> – the number of modeled days, <italic>M</italic><sub><italic>diag</italic></sub>, <italic>M</italic><sub><italic>death</italic></sub> are normalising terms. Parameters <inline-formula><mml:math id="M13" altimg="si13.svg"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> and <inline-formula><mml:math id="M14" altimg="si14.svg"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> determine days and values changes of piece-wise parameter <italic>β</italic> (see details in Section <xref rid="sec3.3" ref-type="sec">3.3</xref>). In paper (<xref rid="bib22" ref-type="bibr">Krivorotko, Kabanikhin, Sosnovskaya, &amp; Andornaya, 2021</xref>) the sensitivity-based identifiability analysis of the COVID-19 pandemic agent model in the Novosibirsk region was shown that the transmission parameter ∖beta is a more sensitive to measurements and needs to be accurate calibration.</p>
+              </sec>
+              <sec id="sec3.5">
+                <label>3.5</label>
+                <title>Automatic parameter calibration</title>
+                <p id="p0225">The model assumed that parameter <italic>β</italic> was a piece-wise constant. The longer was a considered time interval, the more unknown parameters it included. Since every launch of the model's calibration algorithm was rather time-consuming, the time interval in question was divided into periods of 1 month. For example, for NY State the first period was 2020.03-02 - 2020.04.01, the second – 2020.04.02–2020.05.03; for the UK – 2020.02.07–2020.03.08 and 2020.03.09–2020.04.07, etc.</p>
+                <p id="p0230">Each period was sequentially calibrated, so the parameters restored at a previous step were used in the following iteration of the optimization algorithm. Thus, for the initial period considered the unknown parameter vector was<disp-formula id="ufd5"><mml:math id="M15" altimg="si15.svg"><mml:msubsup><mml:mi>q</mml:mi><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mo>⃗</mml:mo></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>β</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>~</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:math></disp-formula>where <italic>E</italic>(0) is the initial number of infected agents, <italic>β</italic> is a contagiousness parameter value, <italic>β</italic><sub><italic>d</italic></sub>(1) is the day parameter <italic>β</italic> changes, <italic>β</italic><sub><italic>c</italic></sub>(1) is the value by which parameter <italic>β</italic> changes on day <italic>β</italic><sub><italic>d</italic></sub>, <inline-formula><mml:math id="M16" altimg="si16.svg"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>~</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> is a test level parameter in relation to statistical data. For all the following periods (second, third, etc.):<disp-formula id="ufd6"><mml:math id="M17" altimg="si17.svg"><mml:msubsup><mml:mi>q</mml:mi><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mo>⃗</mml:mo></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:math></disp-formula></p>
+              </sec>
+            </sec>
+            <sec id="sec4">
+              <label>4</label>
+              <title>Methods and approaches</title>
+              <p id="p0235">Identifying (calibrating) the parameters of an ABM, so that its outputs match observed data, is quite a complex and computation-intensive task due to the large number of the parameters involved. There are different approaches to the problem (see (<xref rid="bib23" ref-type="bibr">Kabanikhin &amp; Krivorotko, 2020</xref>) and references therein). In most cases, the parameters are selected manually or one uses averaged experimental results neglecting the specific features of a studied region are used. Analysis of the papers describing epidemiological ABMs has demonstrated that no algorithm could be considered superior for identification of model parameters (<xref rid="bib11" ref-type="bibr">Hazelbag et al., 2020</xref>). According to the paper “… it appears that calibrating individual-based models in epidemiological studies of HIV, malaria and TB transmission dynamics remains more of an art than a science.”</p>
+              <p id="p0240">In our model, the vector of unknown parameters <inline-formula><mml:math id="M18" altimg="si18.svg"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow></mml:math></inline-formula> was calibrated using the Optuna hyperparameter optimization software (<xref rid="bib17" ref-type="bibr">OPTUNA</xref>) to be one of the latest optimizers designed to adjust hyperparameters in machine learning algorithms and neural networks. The optimizer is based on the tree-structured Parzen estimator (TPE) that in many ways is similar to the Bayesian optimizer (<xref rid="bib18" ref-type="bibr">Rasmussen &amp; Williams, 2006</xref>). However, unlike the Bayesian optimizer that calculates <inline-formula><mml:math id="M19" altimg="si19.svg"><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>J</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula>, TPE calculates <inline-formula><mml:math id="M20" altimg="si20.svg"><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mi>J</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math id="M21" altimg="si21.svg"><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>J</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> to determine the parameters domain to minimize functional <italic>J</italic> by performing Parzen window density estimation, to generate two separate distributions specifying the high - and low-quality regions of the input-space respectively. For this, <inline-formula><mml:math id="M22" altimg="si22.svg"><mml:mi>l</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math id="M23" altimg="si23.svg"><mml:mi>g</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> probability distributions are introduced. <inline-formula><mml:math id="M24" altimg="si22.svg"><mml:mi>l</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> is interpreted as representing the probability of a region in the input space yielding a high-quality observation while similarly, <inline-formula><mml:math id="M25" altimg="si23.svg"><mml:mi>g</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> represents low-quality regions. A full TPE optimization procedure is described in Algorithm 1 (<xref rid="bib2" ref-type="bibr">Bergstra et al., 2011</xref>).<boxed-text id="dtbox6"><p id="p0255s"><statement id="enun_Algorithm_1"><label>Algorithm 1</label><p id="p0245">Tree-Parzen estimator optimization <inline-graphic xlink:href="fx1.gif"><alt-text id="alttext0010">Image 1</alt-text></inline-graphic></p></statement></p></boxed-text></p>
+            </sec>
+            <sec id="sec5">
+              <label>5</label>
+              <title>Modeling and forecasting</title>
+              <p id="p0250">In this section, we consider mathematical models and scenarios of COVID-19 spread in NY State and (Section <xref rid="sec5.2" ref-type="sec">5.2</xref>), the UK (Section <xref rid="sec5.3" ref-type="sec">5.3</xref>) as well as how do different interventions affect the effective reproduction number (Section <xref rid="sec5.4" ref-type="sec">5.4</xref>).</p>
+              <sec id="sec5.1">
+                <label>5.1</label>
+                <title>Initial datasets</title>
+                <p id="p0255">To build and analyze the ABMs in the two considered regions, the following data were used:<list list-type="simple" id="olist0020"><list-item id="o0035"><label>1.</label><p id="p0260">Information on population's age distribution according to the local government statistics;</p></list-item><list-item id="o0040"><label>2.</label><p id="p0265">Information on the average family size according to the UN data (<xref rid="bib12" ref-type="bibr">Household Size and 2019, 2019</xref>);</p></list-item><list-item id="o0045"><label>3.</label><p id="p0270">Statistical data on the people infected with COVID-19, who recovered and died including the number of tests performed that were collected from:<list list-type="simple" id="olist0025"><list-item id="o0050"><label>●</label><p id="p0275">The COVID Tracking Project (New York State): <ext-link ext-link-type="uri" xlink:href="https://covidtracking.com/data" id="intref0010">https://covidtracking.com/data</ext-link>;</p></list-item><list-item id="o0055"><label>●</label><p id="p0280">The official UK Government website for data and insights on Coronavirus (United Kingdom): <ext-link ext-link-type="uri" xlink:href="https://coronavirus.data.gov.uk/" id="intref0010e">https://coronavirus.data.gov.uk/</ext-link>.</p></list-item></list></p></list-item></list></p>
+                <p id="p0285">For every region, the modeling results for the New Diagnoses and New Deaths datasets were analyzed. In Sections <xref rid="sec5.2" ref-type="sec">5.2</xref>, <xref rid="sec5.3" ref-type="sec">5.3</xref> one can find the graphs of 45-day forecasts validated with historical data. The forecasts have an 80% confidence interval to characterize 10% and 90% quantiles.</p>
+                <p id="p0290">The forecast scenarios of COVID-19 spread for each region were considered for four intervention types in Section <xref rid="sec5.4" ref-type="sec">5.4</xref> (<xref rid="fig13" ref-type="fig">Fig. 13</xref>):<list list-type="simple" id="olist0030"><list-item id="o0060"><label>●</label><p id="p0295">Baseline (black curve);</p></list-item><list-item id="o0065"><label>●</label><p id="p0300">Return to offices 30% of workers from remote work (blue curve);</p></list-item><list-item id="o0070"><label>●</label><p id="p0305">Closure of 20% of public places and transition 20% of workers to the remote work (green curve);</p></list-item><list-item id="o0075"><label>●</label><p id="p0310">Increasing number of people in public places by 60% (red curve).</p></list-item></list></p>
+              </sec>
+              <sec id="sec5.2">
+                <label>5.2</label>
+                <title>COVID-19 spread simulation in NY state</title>
+                <p id="p0315">After identification of the parameters by minimization of the misfit function (1), the model was devised and validated with historical data. <xref rid="fig11" ref-type="fig">Fig. 11</xref> presents the results of a 45-day forecast with restored vector of unknown parameters for NY State, where the dots mark the real data accumulated over one year from 2020.03.02 to 2021.03.06 (for New Diagnoses red dots and for New Death blue dots represent modeling data which was used during the solution of inverse problem, while black ones represent testing data which was used for validation). The forecast for New Diagnoses assumed the rate of daily tests remained unchanged.<fig id="fig11"><label>Fig. 11</label><caption><p>Model calibration results for 10 simulations + a 45-day forecast for New Diagnoses (the top graph) and New Deaths (the bottom graph) in NY State. The shaded areas are 10% and 90% quantiles, the solid line – the median value of modeling result, and dots – real data. The dashed vertical lines are COVID-19 containment measures.</p></caption><alt-text id="alttext0065">Fig. 11</alt-text><graphic xlink:href="gr11"/></fig></p>
+                <p id="p0320">According to the graphs, despite the size of the confidence interval that started to increase from the October 2020, the increment rate of New Diagnoses was closed to the test data. In terms of New Deaths, the modeling results for this statistics were less accurate than for New Diagnoses. This can be explained by the unweighted type of misfit function (1). The problem of determining the weight coefficients needs further consideration.</p>
+              </sec>
+              <sec id="sec5.3">
+                <label>5.3</label>
+                <title>COVID-19 spread simulation in the UK</title>
+                <p id="p0325">In the same way as for New York State, the parameters that minimize mismatch function (1) were identified for the United Kingdom. <xref rid="fig12" ref-type="fig">Fig. 12</xref> presents the results of a 45-day forecast for the UK with restored vector of unknown parameters <inline-formula><mml:math id="M26" altimg="si18.svg"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mo>⃗</mml:mo></mml:mover></mml:mrow></mml:math></inline-formula>, where the dots mark the real data accumulated from 2020.02.08 to 2021.03.06 (for New Diagnoses red dots represent modeling data which was used during the solution of inverse problem, while black ones represent testing data which was used for validation) The forecast for New Diagnoses assumed the rate of daily tests remained unchanged.<fig id="fig12"><label>Fig. 12</label><caption><p>Model calibration results for 10 simulations + a 45-day forecast for New Diagnoses (the top graph) and New Deaths (the bottom graph) in the UK. The shaded areas are 10% and 90% quantiles, the solid line – the median value of modeling result, and dots – real data. The dashed vertical lines are COVID-19 containment measures.</p></caption><alt-text id="alttext0070">Fig. 12</alt-text><graphic xlink:href="gr12"/></fig><fig id="fig13"><label>Fig. 13</label><caption><p>Effective reproduction number in New York State (top) and in the United Kingdom (bottom) for four considered scenarios. The red dashed line represents <inline-formula><mml:math id="M27" altimg="si26.svg"><mml:mi mathvariant="bold-script">R</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:math></inline-formula>.</p></caption><alt-text id="alttext0075">Fig. 13</alt-text><graphic xlink:href="gr13"/></fig></p>
+                <p id="p0330">Although modeling results for New Diagnoses differed from real data by about 20%, the prognosis for validation data (marked by black dotes) was accurate (with relative error less than 5%)</p>
+              </sec>
+              <sec id="sec5.4">
+                <label>5.4</label>
+                <title>Effective reproduction number</title>
+                <p id="p0335">Additionally, effective reproduction number was calculated for every region. This number indicate how many persons an infectious agent infects on average during the time it has been infectious and calculated as:<disp-formula id="fd2"><label>(2)</label><mml:math id="M28" display="block" altimg="si24.svg" alttext="Equation 2."><mml:mi mathvariant="bold-script">R</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo linebreak="badbreak">⋅</mml:mo><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>C</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:math></disp-formula>where <italic>I</italic><sub><italic>N</italic></sub>(<italic>t</italic>) is the number of new infections on day <italic>t</italic>, <italic>I</italic><sub><italic>C</italic></sub>(<italic>t</italic>) is the number of actively infectious people on day <italic>t</italic> and <italic>f</italic> is the average duration of infectiousness. If <inline-formula><mml:math id="M29" altimg="si25.svg"><mml:mi mathvariant="bold-script">R</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>1</mml:mn></mml:math></inline-formula>, the pandemic is considered to stop spreading and keeps spreading otherwise.</p>
+                <p id="p0340">Effective reproduction number was calculated considering different scenarios, presented in Section <xref rid="sec5.1" ref-type="sec">5.1</xref>. The numerical results for both New York State and the United Kingdom are illustrated at <xref rid="fig13" ref-type="fig">Fig. 13</xref>.</p>
+                <p id="p0345">The graph for New York State demonstrate that under baseline condition (black line) epidemic is under control during the forecasting period from 2021.03.07 to 2021.04.22 (because the value of <inline-formula><mml:math id="M30" altimg="si27.svg"><mml:mi mathvariant="bold-script">R</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> is around 1). Increasing number of people at workplace (blue line) and in public places (red line) provoke the epidemic growth in the region, while closure 20% of public places and workplaces helps to stop propagation (green line).</p>
+                <p id="p0350">In the United Kingdom the epidemic spread was decreasing in February and March 2021 (the value of <inline-formula><mml:math id="M31" altimg="si27.svg"><mml:mi mathvariant="bold-script">R</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:math></inline-formula> was under 1). As a result, under all considered scenarios COVID-19 propagation was expected to decrease because of relatively small number of infected people in the population during the forecast period.</p>
+              </sec>
+            </sec>
+            <sec id="sec6">
+              <label>6</label>
+              <title>Conclusions and discussions</title>
+              <p id="p0355">Mathematical models are effective tools to deal with the time evolution and patterns of disease outbreaks. They provide us with useful predictions in the context of the impact of intervention in decreasing the number of infections and deaths.</p>
+              <p id="p0360">This paper provides a detailed analysis of the statistical data, including the number of tested, positive, mortality cases on COVID-19 spread in NY State and the UK and presents a solution to the problem of identification of unknown epidemiological parameters (transmissibility; the initial number of infected individuals; probability of being tested, etc.) in an ABM. The problem has been considered as the minimization of a target functional in relation to daily numbers of tested, positive and mortality cases in the studied regions and become an important modification of the Covasim package (<xref rid="bib12" ref-type="bibr">Household Size and 2019, 2019</xref>). The minimization problem has been solved using the Optuna hyperparameter optimization software and the Parzen estimation method. Normal gradient descent methods do not work with Covasim or other agent-based models, due to the stochastic variability between model runs that makes the landscape very “bumpy” (i.e., many transient local minima). One way of getting around this is to perform many different runs and take the average. However, averaging over many runs is computationally expensive, since running <italic>N</italic> simulations of ABM will only reduce the noise by <inline-formula><mml:math id="M32" altimg="si28.svg"><mml:msqrt><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msqrt></mml:math></inline-formula> (Covasim documentation: ht).</p>
+              <p id="p0365">The results of data analysis in every studied region showed the weekly seasonality of New Tests, which helped us forecast the future values of this time series. It worth noting that some countries have their own rules of statistical analysis that have to be accounted for when carrying out modeling, e.g. in the USA, the New Diagnoses indicator contains a certain percentage of probable cases, while New Deaths in the UK accounts for all the deaths that have occurred within 28 days since a positive COVID-19 test, even if such death has not been provoked by the virus.</p>
+              <p id="p0370">Due to the high sensitivity of the transmissibility parameter, the accuracy of its identification becomes crucial for uncovering the pattern of COVID-19 spread in an investigated region (<xref rid="bib22" ref-type="bibr">Krivorotko et al., 2021</xref>). However, not all containment measures affect the pattern. For that reason, when developing an ABM calibration algorithm based on epidemiological data, we paid special attention to transmissibility and the times this parameter changed while modeling. These characteristics were determined from solving the minimization problem as a piecewise-constant function, while solving the inverse problem restored the parameter together with its times of change.</p>
+              <p id="p0375">The devised ABM has been validated with historical data. The modeling results for the two regions in question have demonstrated that preserving the introduced containment measures would have sustained New Diagnoses in NY State during March 2021 and would have reduced them in the UK.</p>
+              <p id="p0380">The proposed agent-based model has the following limitations: we do not fix population number changing during model year, consider waning of immunity to coronavirus, or the possibility of re-infection. We also use more simplistic contact structures than in real life.</p>
+              <p id="p0385">Our future plans are investigation of model identifiability to real data and sensitivity analysis. It will also be necessary to investigate the influence of vaccination on COVID-19 propagation.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of competing interest</title>
+              <p id="p0390">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="cebib0010">
+              <title>References</title>
+              <ref id="bib1">
+                <element-citation publication-type="journal" id="sref1">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bartolucci</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cardinali</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pennoni</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A generalized moving average convergence/divergence for testing semi-strong market efficiency</article-title>
+                  <source>Mathematical and Statistical Methods for Actuarial Sciences and Finance</source>
+                  <year>2018</year>
+                  <fpage>101</fpage>
+                  <lpage>105</lpage>
+                  <pub-id pub-id-type="doi">10.1007/978-3-319-89824-7_18</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <element-citation publication-type="journal" id="sref2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bergstra</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bardenet</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bengio</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Algorithms for hyper-parameter optimization</article-title>
+                  <source>Advances in Neural Information Processing Systems</source>
+                  <year>2011</year>
+                  <fpage>24</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <element-citation publication-type="journal" id="sref3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chaddock</surname>
+                      <given-names>R.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Principles and methods of statistics</article-title>
+                  <source>The Annals of the American Academy of Political and Social Science</source>
+                  <volume>123</volume>
+                  <issue>1</issue>
+                  <year>1925</year>
+                  <comment>229–229</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib4">
+                <element-citation publication-type="journal" id="sref4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koh</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerardin</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Redbird</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grusky</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leskovec</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mobility network models of COVID-19 explain inequities and inform reopening</article-title>
+                  <source>Nature</source>
+                  <volume>589</volume>
+                  <year>2021</year>
+                  <fpage>82</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2923-3</pub-id>
+                  <pub-id pub-id-type="pmid">33171481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <element-citation publication-type="journal" id="sref5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cooper</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mondal</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Antonopoulos</surname>
+                      <given-names>C.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A SIR model assumption for the spread of COVID-19 in different communities</article-title>
+                  <source>Chaos, Solitons &amp; Fractals</source>
+                  <volume>139</volume>
+                  <issue>110057</issue>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.110057</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <mixed-citation publication-type="other" id="sref6">Coronavirus (COVID-19) in the UK: <ext-link ext-link-type="uri" xlink:href="https://coronavirus.data.gov.uk/" id="intref0015">https://coronavirus.data.gov.uk/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="bib7">
+                <mixed-citation publication-type="other" id="sref7">Covasim documentation: <ext-link ext-link-type="uri" xlink:href="https://docs.idmod.org/projects/covasim/en/latest/index.html" id="intref0020">https://docs.idmod.org/projects/covasim/en/latest/index.html</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="bib8">
+                <mixed-citation publication-type="other" id="sref8">The COVID Tracking Project in USA: <ext-link ext-link-type="uri" xlink:href="https://covidtracking.com/data" id="intref0025">https://covidtracking.com/data</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="bib9">
+                <element-citation publication-type="journal" id="sref9">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cuevas</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An agent-based model to evaluate the COVID-19 transmission risks in facilities</article-title>
+                  <source>Computers in Biology and Medicine</source>
+                  <volume>121</volume>
+                  <issue>103827</issue>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.compbiomed.2020.103827</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib10">
+                <element-citation publication-type="journal" id="sref10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dabral</surname>
+                      <given-names>P.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murry</surname>
+                      <given-names>M.Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling and forecasting of rainfall time series using SARIMA</article-title>
+                  <source>Environmental Processes</source>
+                  <volume>4</volume>
+                  <year>2017</year>
+                  <fpage>399</fpage>
+                  <lpage>419</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib11">
+                <element-citation publication-type="journal" id="sref11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hazelbag</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dushoff</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dominic</surname>
+                      <given-names>E.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mthombothi</surname>
+                      <given-names>Z.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delva</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Calibration of individual-based models to epidemiological data: A systematic review</article-title>
+                  <source>PLoS Computational Biology</source>
+                  <volume>16</volume>
+                  <issue>5</issue>
+                  <year>2020</year>
+                  <object-id pub-id-type="publisher-id">e1007893</object-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1007893</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib12">
+                <element-citation publication-type="other" id="sref12">
+                  <article-title>Household size</article-title>
+                  <comment>UN</comment>
+                  <ext-link ext-link-type="uri" xlink:href="https://population.un.org/Household/#/countries/840" id="intref0030">https://population.un.org/Household/#/countries/840</ext-link>
+                  <year>2019</year>
+                </element-citation>
+              </ref>
+              <ref id="bib23">
+                <element-citation publication-type="journal" id="optLOnOvStpjV">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kabanikhin</surname>
+                      <given-names>S.</given-names>
+                      <suffix>I.</suffix>
+                    </name>
+                    <name>
+                      <surname>Krivorotko</surname>
+                      <given-names>O.</given-names>
+                      <suffix>I.</suffix>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical modeling of the Wuhan COVID-2019 epidemic and inverse problems</article-title>
+                  <source>Computational Mathematics and Mathematical Physics</source>
+                  <volume>60</volume>
+                  <issue>11</issue>
+                  <year>2020</year>
+                  <fpage>1889</fpage>
+                  <lpage>1899</lpage>
+                  <pub-id pub-id-type="doi">10.1134/S0965542520110068</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib13">
+                <element-citation publication-type="book" id="sref13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kai</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldstein</surname>
+                      <given-names>G.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morgunov</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nangalia</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rotkirch</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Universal masking is urgent in the COVID-19 pandemic: SEIR and agent-based models, empirical validation, policy recommendations</part-title>
+                  <year>2020</year>
+                  <publisher-name>arXiv preprint arXiv:2004.13553</publisher-name>
+                  <pub-id pub-id-type="doi">10.13140/RG.2.2.21662.08001</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib14">
+                <element-citation publication-type="journal" id="sref14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kerr</surname>
+                      <given-names>C.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stuart</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mistry</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abeysuriya</surname>
+                      <given-names>R.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosenfeld</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hart</surname>
+                      <given-names>G.R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Covasim: An agent-based model of COVID-19 dynamics and interventions</article-title>
+                  <source>PLoS Computational Biology</source>
+                  <volume>17</volume>
+                  <issue>7</issue>
+                  <year>2021</year>
+                  <object-id pub-id-type="publisher-id">e1009149</object-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1009149</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib22">
+                <element-citation publication-type="journal" id="opttw6DutTXzr">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Krivorotko</surname>
+                      <given-names>O.</given-names>
+                      <suffix>I.</suffix>
+                    </name>
+                    <name>
+                      <surname>Kabanikhin</surname>
+                      <given-names>S.</given-names>
+                      <suffix>I.</suffix>
+                    </name>
+                    <name>
+                      <surname>Sosnovskaya</surname>
+                      <given-names>M.</given-names>
+                      <suffix>I.</suffix>
+                    </name>
+                    <name>
+                      <surname>Andornaya</surname>
+                      <given-names>D.</given-names>
+                      <suffix>V.</suffix>
+                    </name>
+                  </person-group>
+                  <article-title>Sensitivity and identifiability analysis of COVID-19 pandemic models</article-title>
+                  <source>Vavilov Journal of Genetics and Breeding</source>
+                  <volume>25</volume>
+                  <issue>1</issue>
+                  <year>2021</year>
+                  <fpage>82</fpage>
+                  <lpage>91</lpage>
+                  <pub-id pub-id-type="doi">10.18699/VJ21.010</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib15">
+                <element-citation publication-type="book" id="sref15">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mellacher</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>COVID-Town: An integrated economic-epidemiological agent-based model</part-title>
+                  <year>2020</year>
+                  <publisher-name>Munich Personal RePEc Archive Paper</publisher-name>
+                  <comment>No. 103661</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib16">
+                <element-citation publication-type="journal" id="sref16">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ndairoua</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Area</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nieto</surname>
+                      <given-names>J.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Torresa</surname>
+                      <given-names>D.F.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical modeling of COVID-19 transmission dynamics with a case study of Wuhan</article-title>
+                  <source>Chaos, Solitons &amp; Fractals</source>
+                  <volume>135</volume>
+                  <issue>109846</issue>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109846</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib17">
+                <mixed-citation publication-type="other" id="sref17">OPTUNA: hyperparameter optimization framework: <ext-link ext-link-type="uri" xlink:href="https://optuna.org/" id="intref0035">https://optuna.org/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="bib18">
+                <element-citation publication-type="book" id="sref18">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rasmussen</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>C.K.I.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Gaussian processes for machine learning</part-title>
+                  <year>2006</year>
+                  <publisher-name>The MIT Press</publisher-name>
+                  <comment>026218253X</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib19">
+                <element-citation publication-type="journal" id="sref19">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silva</surname>
+                      <given-names>P.C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Batista</surname>
+                      <given-names>P.V.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lima</surname>
+                      <given-names>H.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alves</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guimarães</surname>
+                      <given-names>F.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Silva</surname>
+                      <given-names>R.C.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-ABS: An agent-based model of COVID-19 epidemic to simulate health and economic effects of social distancing interventions</article-title>
+                  <source>Chaos, Solitons &amp; Fractals</source>
+                  <volume>139</volume>
+                  <issue>110088</issue>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.110088</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib20">
+                <mixed-citation publication-type="other" id="sref20">Tracking Coronavirus in New York: Latest Map and Case Count <ext-link ext-link-type="uri" xlink:href="https://www.nytimes.com/interactive/2021/us/new-york-covid-cases.html" id="intref0040">https://www.nytimes.com/interactive/2021/us/new-york-covid-cases.html</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="bib21">
+                <element-citation publication-type="journal" id="sref21">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wolfram</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An agent-based model of COVID-19</article-title>
+                  <source>Complex Systems</source>
+                  <volume>29</volume>
+                  <issue>1</issue>
+                  <year>2020</year>
+                  <fpage>87</fpage>
+                  <lpage>105</lpage>
+                  <pub-id pub-id-type="doi">10.25088/ComplexSystems.29.1.87</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <ack id="ack0010">
+              <title>Acknowledgements</title>
+              <p id="p0395">The data analysis part (section <xref rid="sec2" ref-type="sec">2</xref>) is supported by the <funding-source id="gs1"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100002261</institution-id><institution>Russian Foundation for Basic Research</institution></institution-wrap></funding-source> and <funding-source id="gs2"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100000288</institution-id><institution>Royal Society</institution></institution-wrap></funding-source> (project no. 21-51-10 003). The agent-based mathematical model construction and analysis of numerical results (sections <xref rid="sec3" ref-type="sec">3</xref>, <xref rid="sec4" ref-type="sec">4</xref>, <xref rid="sec5" ref-type="sec">5</xref>) was supported by the <funding-source id="gs3"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100006769</institution-id><institution>Russian Science Foundation</institution></institution-wrap></funding-source> (project no. 18-71-10 044) and the <funding-source id="gs4"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100000288</institution-id><institution>Royal Society</institution></institution-wrap></funding-source> IEC∖R2∖202 020 – International Exchanges 2020 Cost Share between UK and Russia. Authors would like to thank Professor Sergey Kabanikhin and Doctor Alexey Romanyukha for the problem analysis and fruitful discussions. Also we would like to thank Yan Reznichenko for language help.</p>
+            </ack>
+            <fn-group>
+              <fn id="d35e418">
+                <p id="ntpara0010">Peer review under responsibility of KeAi Communications Co., Ltd.</p>
+              </fn>
+            </fn-group>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:49:29Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8723141" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8723141</identifier>
+        <datestamp>2022-01-05</datestamp>
+        <setSpec>bioinfo</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Bioinformatics</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Bioinformatics</journal-id>
+              <journal-id journal-id-type="publisher-id">bioinformatics</journal-id>
+              <journal-title-group>
+                <journal-title>Bioinformatics</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1367-4803</issn>
+              <issn pub-type="epub">1367-4811</issn>
+              <publisher>
+                <publisher-name>Oxford University Press</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8723141</article-id>
+              <article-id pub-id-type="pmcid">PMC8723141</article-id>
+              <article-id pub-id-type="pmc-uid">8723141</article-id>
+              <article-id pub-id-type="pmid">34529036</article-id>
+              <article-id pub-id-type="pmid">34529036</article-id>
+              <article-id pub-id-type="doi">10.1093/bioinformatics/btab649</article-id>
+              <article-id pub-id-type="publisher-id">btab649</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                  <subj-group subj-group-type="category-toc-heading">
+                    <subject>Systems Biology</subject>
+                  </subj-group>
+                </subj-group>
+                <subj-group subj-group-type="category-taxonomy-collection">
+                  <subject>AcademicSubjects/SCI01060</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>BioDynaMo: a modular platform for high-performance agent-based simulation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2265-8615</contrib-id>
+                  <name>
+                    <surname>Breitwieser</surname>
+                    <given-names>Lukas</given-names>
+                  </name>
+                  <xref rid="btab649-cor1" ref-type="corresp"/>
+                  <!--lukas.breitwieser@inf.ethz.ch-->
+                  <xref rid="btab649-aff1" ref-type="aff">1</xref>
+                  <xref rid="btab649-aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hesam</surname>
+                    <given-names>Ahmad</given-names>
+                  </name>
+                  <xref rid="btab649-cor1" ref-type="corresp"/>
+                  <!--a.s.hesam@tudelft.nl-->
+                  <xref rid="btab649-aff1" ref-type="aff">1</xref>
+                  <xref rid="btab649-aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>de Montigny</surname>
+                    <given-names>Jean</given-names>
+                  </name>
+                  <xref rid="btab649-aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vavourakis</surname>
+                    <given-names>Vasileios</given-names>
+                  </name>
+                  <xref rid="btab649-aff4" ref-type="aff">4</xref>
+                  <xref rid="btab649-aff5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Iosif</surname>
+                    <given-names>Alexandros</given-names>
+                  </name>
+                  <xref rid="btab649-aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jennings</surname>
+                    <given-names>Jack</given-names>
+                  </name>
+                  <xref rid="btab649-aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kaiser</surname>
+                    <given-names>Marcus</given-names>
+                  </name>
+                  <xref rid="btab649-aff6" ref-type="aff">6</xref>
+                  <xref rid="btab649-aff7" ref-type="aff">7</xref>
+                  <xref rid="btab649-aff8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7869-2620</contrib-id>
+                  <name>
+                    <surname>Manca</surname>
+                    <given-names>Marco</given-names>
+                  </name>
+                  <xref rid="btab649-aff9" ref-type="aff">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Di Meglio</surname>
+                    <given-names>Alberto</given-names>
+                  </name>
+                  <xref rid="btab649-aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Al-Ars</surname>
+                    <given-names>Zaid</given-names>
+                  </name>
+                  <xref rid="btab649-aff3" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rademakers</surname>
+                    <given-names>Fons</given-names>
+                  </name>
+                  <xref rid="btab649-aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mutlu</surname>
+                    <given-names>Onur</given-names>
+                  </name>
+                  <xref rid="btab649-cor1" ref-type="corresp"/>
+                  <xref rid="btab649-aff2" ref-type="aff">2</xref>
+                  <xref rid="btab649-aff10" ref-type="aff">10</xref>
+                  <!--omutlu@ethz.ch-->
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bauer</surname>
+                    <given-names>Roman</given-names>
+                  </name>
+                  <xref rid="btab649-cor1" ref-type="corresp"/>
+                  <!--r.bauer@surrey.ac.uk-->
+                  <xref rid="btab649-aff11" ref-type="aff">11</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="btab649-aff1"><label>1</label><institution>CERN openlab, IT Department, CERN, </institution>Geneva 1211, <country country="CH">Switzerland</country></aff>
+              <aff id="btab649-aff2"><label>2</label><institution>Department of Computer Science, ETH Zurich, </institution>Zurich 8092, <country country="CH">Switzerland</country></aff>
+              <aff id="btab649-aff3"><label>3</label><institution>Department of Quantum &amp; Computer Engineering, Delft University of Technology</institution>, Delft 2628CD, <country country="NL">The Netherlands</country></aff>
+              <aff id="btab649-aff4"><label>4</label><institution>Department of Mechanical &amp; Manufacturing Engineering, University of Cyprus</institution>, Nicosia 2109, Cyprus</aff>
+              <aff id="btab649-aff5"><label>5</label><institution>Department of Medical Physics &amp; Biomedical Engineering, University College London</institution>, London WC1E 6BT, <country country="GB">UK</country></aff>
+              <aff id="btab649-aff6"><label>6</label><institution>School of Computing, Newcastle University</institution>, Newcastle upon Tyne NE4 5TG, <country country="GB">UK</country></aff>
+              <aff id="btab649-aff7"><label>7</label><institution>Department of Functional Neurosurgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine</institution>, Shanghai 200025, <country country="CN">China</country></aff>
+              <aff id="btab649-aff8"><label>8</label><institution>Precision Imaging Beacon, School of Medicine, University of Nottingham</institution>, Nottingham NG7 2UH, <country country="GB">UK</country></aff>
+              <aff id="btab649-aff9"><label>9</label><institution>SCimPulse Foundation</institution>, Geleen 6162 BC, <country country="NL">The Netherlands</country></aff>
+              <aff id="btab649-aff10"><label>10</label><institution>Department of Information Technology and Electrical Engineering</institution>, ETH Zurich, Zurich 8092, <country country="CH">Switzerland</country></aff>
+              <aff id="btab649-aff11"><label>11</label><institution>Department of Computer Science, University of Surrey</institution>, Guildford GU2 7XH, <country country="GB">UK</country></aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Wren</surname>
+                    <given-names>Jonathan</given-names>
+                  </name>
+                  <role>Associate Editor</role>
+                </contrib>
+              </contrib-group>
+              <author-notes>
+                <corresp id="btab649-cor1">To whom correspondence should be addressed. <email>lukas.breitwieser@inf.ethz.ch</email> or <email>a.s.hesam@tudelft.nl</email> or <email>omutlu@ethz.ch</email> or <email>r.bauer@surrey.ac.uk</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <day>15</day>
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub" iso-8601-date="2021-09-16">
+                <day>16</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>16</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>38</volume>
+              <issue>2</issue>
+              <fpage>453</fpage>
+              <lpage>460</lpage>
+              <history>
+                <date date-type="received">
+                  <day>04</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>02</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="editorial-decision">
+                  <day>03</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>13</day>
+                  <month>9</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="corrected-typeset">
+                  <day>19</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021. Published by Oxford University Press.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="btab649.pdf"/>
+              <abstract>
+                <title>Abstract</title>
+                <sec id="s1">
+                  <title>Motivation</title>
+                  <p>Agent-based modeling is an indispensable tool for studying complex biological systems. However, existing simulation platforms do not always take full advantage of modern hardware and often have a field-specific software design.</p>
+                </sec>
+                <sec id="s2">
+                  <title>Results</title>
+                  <p>We present a novel simulation platform called BioDynaMo that alleviates both of these problems. BioDynaMo features a modular and high-performance simulation engine. We demonstrate that BioDynaMo can be used to simulate use cases in: neuroscience, oncology and epidemiology. For each use case, we validate our findings with experimental data or an analytical solution. Our performance results show that BioDynaMo performs up to three orders of magnitude faster than the state-of-the-art baselines. This improvement makes it feasible to simulate each use case with one billion agents on a single server, showcasing the potential BioDynaMo has for computational biology research.</p>
+                </sec>
+                <sec id="s3">
+                  <title>Availability and implementation</title>
+                  <p>BioDynaMo is an open-source project under the Apache 2.0 license and is available at <ext-link xlink:href="http://www.biodynamo.org" ext-link-type="uri">www.biodynamo.org</ext-link>. Instructions to reproduce the results are available in the <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">supplementary information</ext-link>.</p>
+                </sec>
+                <sec id="s5">
+                  <title>Supplementary information</title>
+                  <p>Available at <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">https://doi.org/10.5281/zenodo.5121618</ext-link>.</p>
+                </sec>
+              </abstract>
+              <funding-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>CERN Knowledge Transfer office</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Israeli Innovation Authority</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Research Excellence Academy from the Faculty of Medical Science of the Newcastle University</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>UCY StartUp Grant scheme</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Medical Research Council of the United Kingdom</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>MR/N015037/1</award-id>
+                  <award-id>MR/T004347/1</award-id>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Engineering and Physical Sciences Research Council of the UK</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>EP/S001433/1</award-id>
+                  <award-id>NS/A000026/1</award-id>
+                  <award-id>EP/N031962/1</award-id>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Newcastle University’s School of Computing</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Wellcome Trust</institution>
+                      <institution-id institution-id-type="DOI">10.13039/100010269</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>102037</award-id>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Guangci Professorship Program of Ruijin Hospital</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>SAFARI Research Group’s industrial partners including Huawei</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+                <award-group award-type="grant">
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Intel, Microsoft, and VMware</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <counts>
+                <page-count count="8"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec>
+              <title>1 Introduction</title>
+              <p>Agent-based simulation (ABS) is a powerful tool assisting life scientists in better understanding complex biological systems. <italic toggle="yes">In silico</italic> simulation is an inexpensive and efficient way to rapidly test hypotheses about the (patho)physiology of cellular populations, tissues, organs or entire organisms (<xref rid="btab649-B13" ref-type="bibr">Ji <italic toggle="yes">et al.</italic>, 2017</xref>; <xref rid="btab649-B33" ref-type="bibr">Yankeelov <italic toggle="yes">et al.</italic>, 2016</xref>).</p>
+              <p>However, the effectiveness of such computer simulations for scientific research is often limited, in part because of two reasons. First, after the slowing down of Moore’s law (<xref rid="btab649-B22" ref-type="bibr">Moore, 1965</xref>) and Dennard scaling (<xref rid="btab649-B7" ref-type="bibr">Dennard <italic toggle="yes">et al.</italic>, 1974</xref>), hardware has become increasingly parallel and heterogeneous. Most ABS platforms do not take full advantage of these hardware enhancements. The resulting limited computational power forces life scientists to compromise either on the resolution of the model or on simulation size (<xref rid="btab649-B29" ref-type="bibr">Thorne <italic toggle="yes">et al.</italic>, 2007</xref>). Second, existing ABS platforms have often been developed with a specific use case in mind. This makes it challenging to implement the desired model, even if it deviates only slightly from its original purpose.</p>
+              <p>To help researchers tackle these two major challenges, we propose a novel open-source platform for biology dynamics modeling, BioDynaMo. We alleviate both of these problems by emphasizing performance and modularity. BioDynaMo features a high-performance simulation engine that is fully parallelized to utilize multi-core CPUs and able to offload computation to hardware accelerators (e.g. a GPU). The software comprises a set of fundamental biological functions, and a flexible design that adapts to specific user requirements. Currently, BioDynaMo implements the neurite model and mechanical forces presented in <xref rid="btab649-B34" ref-type="bibr">Zubler and Douglas (2009)</xref>, but these components can easily be extended, modified or replaced. Hence, BioDynaMo is well-suited for simulating a wide range of biological processes in tissue modeling and beyond.</p>
+              <p>BioDynaMo provides by design five system properties:
+</p>
+              <list list-type="bullet">
+                <list-item>
+                  <p><bold>Agent-based.</bold> The BioDynaMo project is established to support an agent-based modeling approach which allows one to simulate a wide range of developmental biological processes. A characteristic property of agent-based simulations is the absence of a central organizational unit that orchestrates the behavior of all agents. Quite to the contrary, each agent is an autonomous entity that individually determines its actions based on its current state, behavior and the surrounding environment.</p>
+                </list-item>
+                <list-item>
+                  <p><bold>General purpose.</bold> BioDynaMo is developed to become a general-purpose tool for agent-based simulation. To simulate models from various fields, BioDynaMo’s software design is extensible and modular.</p>
+                </list-item>
+                <list-item>
+                  <p><bold>Large scale.</bold> Biological systems contain a large number of agents. The cerebral cortex, for example, comprises approximately 16 billion neurons (<xref rid="btab649-B1" ref-type="bibr">Azevedo <italic toggle="yes">et al.</italic>, 2009</xref>). Biologists should not be limited by the number of agents within a simulation. Consequently, BioDynaMo is designed to take full advantage of modern hardware and use memory efficiently to scale-up simulations.</p>
+                </list-item>
+                <list-item>
+                  <p><bold>Easily programmable.</bold> The success of an ABS platform depends, among other things, on how quickly a scientist, not necessarily an expert in computer science or high-performance programming, can translate an idea into a simulation. This characteristic can be broken down into four key requirements that BioDynaMo is designed to fullfil: first, BioDynaMo provides a wide range of common functionalities such as visualization, plotting, parameter parsing, backups, etc. Second, BioDynaMo provides simulation primitives that minimize the programming effort necessary to build a use case. Third, as outlined in item ‘General purpose’, BioDynaMo has a modular and extensible design. Fourth, BioDynaMo provides a coherent API and hides implementation details that are irrelevant for a computational model (e.g. details such as parallelization strategy, synchronization, load balancing or hardware optimizations).</p>
+                </list-item>
+                <list-item>
+                  <p><bold>Quality assured.</bold> BioDynaMo establishes a rigorous, test-driven development process to foster correctness, maintainability of the codebase and reproducibility of results.</p>
+                </list-item>
+              </list>
+              <p>The main contribution of this article is an open-source, high-performance and modular simulation platform for agent-based simulations. We provide the following evidence to support this claim: (i) we detail the user-facing features of BioDynaMo that enable users to build a simulation based on predefined building blocks and to define a model tailored to their needs. (ii) We present three basic use cases in the field of neuroscience, oncology and epidemiology to demonstrate BioDynaMo’s capabilities and modularity. (iii) We show that BioDynaMo can produce biologically meaningful simulation results by validating these use cases against experimental data, or an analytical solution. (iv) We present performance data on different systems and scale each use case to one billion agents to demonstrate BioDynaMo’s performance.</p>
+              <sec>
+                <title>1.1 Prior work</title>
+                <p>The history of agent-based modeling and simulation significantly precedes the 1990s; however, it was not widely adopted for biological systems until the 2000s. Several ABS platforms have been published demonstrating the importance of agent-based models in computational biology research (<xref rid="btab649-B4" ref-type="bibr">Collier and North, 2011</xref>; <xref rid="btab649-B5" ref-type="bibr">Cytowski and Szymanska, 2014</xref>; <xref rid="btab649-B8" ref-type="bibr">Emonet <italic toggle="yes">et al.</italic>, 2005</xref>; <xref rid="btab649-B9" ref-type="bibr">Ghaffarizadeh <italic toggle="yes">et al.</italic>, 2018</xref>; <xref rid="btab649-B14" ref-type="bibr">Kang <italic toggle="yes">et al.</italic>, 2014</xref>; <xref rid="btab649-B17" ref-type="bibr">Koene <italic toggle="yes">et al.</italic>, 2009</xref>; <xref rid="btab649-B18" ref-type="bibr">Lardon <italic toggle="yes">et al.</italic>, 2011</xref>; <xref rid="btab649-B19" ref-type="bibr">Matyjaszkiewicz <italic toggle="yes">et al.</italic>, 2017</xref>; <xref rid="btab649-B21" ref-type="bibr">Mirams <italic toggle="yes">et al.</italic>, 2013</xref>; <xref rid="btab649-B25" ref-type="bibr">Richmond <italic toggle="yes">et al.</italic>, 2010</xref>; <xref rid="btab649-B26" ref-type="bibr">Rudge <italic toggle="yes">et al.</italic>, 2012</xref>; <xref rid="btab649-B30" ref-type="bibr">Torben-Nielsen and De Schutter, 2014</xref>; <xref rid="btab649-B31" ref-type="bibr">Wilensky, 1999</xref>; <xref rid="btab649-B34" ref-type="bibr">Zubler and Douglas, 2009</xref>). In this section, we compare BioDynaMo’s most crucial system properties with prior work.</p>
+                <sec>
+                  <title> </title>
+                  <sec>
+                    <title>Large-scale model support</title>
+                    <p>The authors of BioCellion (<xref rid="btab649-B14" ref-type="bibr">Kang <italic toggle="yes">et al.</italic>, 2014</xref>), PhysiCell (<xref rid="btab649-B9" ref-type="bibr">Ghaffarizadeh <italic toggle="yes">et al.</italic>, 2018</xref>), Timothy (<xref rid="btab649-B5" ref-type="bibr">Cytowski and Szymanska, 2014</xref>) and Repast HPC (<xref rid="btab649-B4" ref-type="bibr">Collier and North, 2011</xref>) recognize the necessity for efficient implementations to enable large-scale models. Although these tools can simulate a large number of agents, they do not support neural development. The NeuroMaC neuroscientific simulation platform (<xref rid="btab649-B30" ref-type="bibr">Torben-Nielsen and De Schutter, 2014</xref>) claims to be scalable, but the authors do not present performance data and present simulations with only 100 neurons. Therefore, BioDynaMo’s ability to simulate large-scale neural development, which we demonstrate in the results section, is, to our knowledge, unrivaled.</p>
+                  </sec>
+                  <sec>
+                    <title>General-purpose platform</title>
+                    <p>Many ABS platforms focus on a specific application area: bacterial colonies (<xref rid="btab649-B8" ref-type="bibr">Emonet <italic toggle="yes">et al.</italic>, 2005</xref>; <xref rid="btab649-B18" ref-type="bibr">Lardon <italic toggle="yes">et al.</italic>, 2011</xref>; <xref rid="btab649-B19" ref-type="bibr">Matyjaszkiewicz <italic toggle="yes">et al.</italic>, 2017</xref>; <xref rid="btab649-B26" ref-type="bibr">Rudge <italic toggle="yes">et al.</italic>, 2012</xref>), cell colonies (<xref rid="btab649-B5" ref-type="bibr">Cytowski and Szymanska, 2014</xref>; <xref rid="btab649-B14" ref-type="bibr">Kang <italic toggle="yes">et al.</italic>, 2014</xref>; <xref rid="btab649-B21" ref-type="bibr">Mirams <italic toggle="yes">et al.</italic>, 2013</xref>) and neural development (<xref rid="btab649-B17" ref-type="bibr">Koene <italic toggle="yes">et al.</italic>, 2009</xref>; <xref rid="btab649-B30" ref-type="bibr">Torben-Nielsen and De Schutter, 2014</xref>; <xref rid="btab649-B34" ref-type="bibr">Zubler and Douglas, 2009</xref>). Pronounced specialization of an ABS platform may prevent its capacity to adapt to different use cases or simulation scenarios. In contrast, BioDynaMo can be adapted to many different fields due to its modularity and extensibility.</p>
+                  </sec>
+                  <sec>
+                    <title>Quality assurance</title>
+                    <p>Automated software testing is the foundation of a modern development workflow. Unfortunately, several simulation tools (<xref rid="btab649-B5" ref-type="bibr">Cytowski and Szymanska, 2014</xref>; <xref rid="btab649-B17" ref-type="bibr">Koene <italic toggle="yes">et al.</italic>, 2009</xref>; <xref rid="btab649-B18" ref-type="bibr">Lardon <italic toggle="yes">et al.</italic>, 2011</xref>; <xref rid="btab649-B26" ref-type="bibr">Rudge <italic toggle="yes">et al.</italic>, 2012</xref>; <xref rid="btab649-B30" ref-type="bibr">Torben-Nielsen and De Schutter, 2014</xref>; <xref rid="btab649-B34" ref-type="bibr">Zubler and Douglas, 2009</xref>) omit these tests. <xref rid="btab649-B21" ref-type="bibr">Mirams <italic toggle="yes">et al.</italic> (2013)</xref> recognize this shortcoming and describe a rigorous development workflow in their article. BioDynaMo has over 400 automated tests which are continuously executed on all supported operating systems to ensure high code quality. BioDynaMo’s open-source code base, tutorials and documentation not only help users get started, but also enable validation by external examiners.</p>
+                  </sec>
+                </sec>
+              </sec>
+            </sec>
+            <sec>
+              <title>2 Materials and methods</title>
+              <p>In this section, we present the main simulation concepts of BioDynaMo and describe our approach to achieve modularity, extensibility and high performance.</p>
+              <sec>
+                <title>2.1 Simulation concepts</title>
+                <p>BioDynaMo is implemented in the C++ programming language and supports simulations that follow an agent-based approach. <xref rid="btab649-F1" ref-type="fig">Figure 1</xref> gives an overview of BioDynaMo’s main concepts, <xref rid="btab649-F2" ref-type="fig">Figure 2</xref> presents the abstraction layers, while <xref rid="btab649-F3" ref-type="fig">Figure 3</xref> illustrates its object-oriented design.</p>
+                <fig position="float" id="btab649-F1">
+                  <label>Fig. 1.</label>
+                  <caption>
+                    <p>Simulation concepts. Agents (<bold>A</bold>) have their own geometry, behavior (<bold>B</bold>) and environment (<bold>C</bold>). (B) Agent behavior is defined in separate classes, which are inserted into agents. The update of an agent is based on its current state and its surrounding environment. (C) The environment is determined by radius <italic toggle="yes">r</italic> and contains other agents or extracellular substances. The simulation algorithm (<bold>D</bold>) can be divided into two main parts: the definition of the initial model and the execution of the simulation</p>
+                  </caption>
+                  <graphic xlink:href="btab649f1" position="float"/>
+                </fig>
+                <fig position="float" id="btab649-F2">
+                  <label>Fig. 2.</label>
+                  <caption>
+                    <p>BioDynaMo’s layered architecture. BioDynaMo is predominantly executed on multi-core CPUs, is able to offload computations to the GPU, and supports Linux and MacOS operating systems. BioDynaMo provides a rich set of low- and high-level features commonly required in agent-based models. On top of these generic features, BioDynaMo offers model building blocks to simplify the development of a simulation. Even if BioDynaMo does not provide the required building blocks, users still benefit from all generic agent-based features (illustrated by the vertical extension of the ‘Simulation’ layer)</p>
+                  </caption>
+                  <graphic xlink:href="btab649f2" position="float"/>
+                </fig>
+                <fig position="float" id="btab649-F3">
+                  <label>Fig. 3.</label>
+                  <caption>
+                    <p>Software design and modularity. Overview of selected classes and functions that are important from the users’ perspective. Classes in white (BioDynaMo core) and green (BioDynaMo’s neuroscience module) are part of the current BioDynaMo installation. The remaining classes illustrate how we extended BioDynaMo to implement the use cases and benchmarks presented in this article (purple: neuroscience use case, red: oncology use case, orange: epidemiology use case, blue: soma clustering benchmark, yellow: cell proliferation benchmark). A complete list of BioDynaMo classes can be found at <ext-link xlink:href="https://biodynamo.org/api" ext-link-type="uri">https://biodynamo.org/api</ext-link></p>
+                  </caption>
+                  <graphic xlink:href="btab649f3" position="float"/>
+                </fig>
+                <p>An agent (<xref rid="btab649-F1" ref-type="fig">Figure 1A</xref>) has a 3D geometry, behavior and environment. There is a broad spectrum of entities that can be modeled as an agent. In the results section, we show examples where an agent represents a subcellular structure (neuroscience use case), a cell (oncology use case) or a person (epidemiology use case). <xref rid="btab649-F1" ref-type="fig">Figure 1B</xref> shows example agent behaviors such as growth factor secretion, chemotaxis or cell division. Behaviors can be activated or inhibited. BioDynaMo achieves this by attaching them to or removing them from the corresponding agent.</p>
+                <p>The <italic toggle="yes">Environment</italic> is the vicinity that the agent can interact with (<xref rid="btab649-F1" ref-type="fig">Figure 1C</xref>). It comprises agents and other resources like chemical substances in the extracellular matrix. Surrounding agents are, for example, needed to calculate mechanical interactions among agent pairs.</p>
+                <p>Currently, the user defines a simulation programmatically in C++ (see <xref rid="btab649-F1" ref-type="fig">Figure 1D</xref> and <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Section 1.4</ext-link>). C++ is a great choice in terms of execution speed, efficiency, and interoperability with high-performance computing libraries, but is harder to program in due to its lower level of abstraction (versus higher level languages like Java or Python). There are two main steps involved: initialization and execution. During initialization, the user places agents in space, sets their attributes, and defines their behavior. In the execution step, the simulation engine evaluates the defined model in the simulated physical environment by executing a series of operations. We distinguish between agent operations and standalone operations (<xref rid="btab649-F1" ref-type="fig">Figure 1D</xref>). At a high level, an agent operation is a function that: (i) alters the state of an agent and potentially also its environment, (ii) creates a new agent or (iii) removes an agent from the simulation. Examples for agent operations are: execute all behaviors and calculate mechanical forces. The simulation engine executes agent operations for each agent for each time step. Alternatively, standalone operations perform a specific task during one time step and are therefore only invoked once. Examples include the update of substance diffusion and the export of visualization data.</p>
+              </sec>
+              <sec>
+                <title>2.2 BioDynaMo features</title>
+                <p>BioDynaMo is a simulation platform that can be used to develop agent-based simulations in various computational biology fields (e.g. neuroscience, oncology, epidemiology, etc.). Although agent-based models in these different fields may intrinsically vary, there is a set of functionalities and definitions that they have in common.</p>
+                <p>These commonalities can be divided into low- and high-level agent-based features and are an integral part of BioDynaMo. BioDynaMo also provides model building blocks to accelerate the development of agent-based models. The described layered architecture is shown in <xref rid="btab649-F2" ref-type="fig">Figure 2</xref>.</p>
+                <sec>
+                  <title>2.2.1 Low-level features</title>
+                  <p>The low-level features (<xref rid="btab649-F2" ref-type="fig">Figure 2</xref>) form the foundation of BioDynaMo and provide crucial functionality responsible for high-performance execution and ease-of use. These features are mostly hidden from the user and require control only in exceptional situations.</p>
+                  <p>In this section we will provide more details about parallelization and thread safety and refer the reader to <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Section 1.1</ext-link> for more details of the remaining low-level features.</p>
+                  <sec>
+                    <title>Parallelism and thread safety</title>
+                    <p>BioDynaMo exploits the inherent parallelism of agent-based models in which agents update themselves based on their current state, behavior and local environment. BioDynaMo’s implementation uses OpenMP (<ext-link xlink:href="https://www.openmp.org/" ext-link-type="uri">https://www.openmp.org/</ext-link>) compiler directives to parallelize the loop over all agents (<xref rid="btab649-F1" ref-type="fig">Figure 1D</xref>). In addition to parallelizing the execution of agent operations for each agent, standalone operations like updating the diffusion grid and visualization are parallelized separately (<xref rid="btab649-F1" ref-type="fig">Figure 1D</xref>).</p>
+                    <p>Synchronization between threads is only needed if agents modify their environment. In this case, two agents (handled by two different threads) might attempt to update the same resource in the local environment. This scenario occurs in the neuroscience use case in which neurite elements modify neighboring segments. Therefore, BioDynaMo provides built-in synchronization mechanisms to ensure that even if two threads try to modify the same agent or resource, data is not corrupted. There are two thread safety mechanisms to protect agents from data corruption: automatic and user-defined. Automatic thread safety uses the environment to prevent two threads from processing agents with overlapping local environments. This mechanism can be enabled with a single parameter, but might be too restrictive for some use cases. User-defined thread safety on the other hand offers more fine-grained control over which agents must not be processed at the same time, but likely requires additional input from the user.</p>
+                    <p>Other resources that are modified by agents (e.g. the DiffusionGrid to simulate extracellular diffusion) need their own protection mechanism. This feature is used in the soma clustering benchmark where cells secrete a substance into the extracellular matrix.</p>
+                    <p>For typical BioDynaMo simulations users do not need to control parallel execution and thread synchronization. This holds particularly true for all use cases and benchmarks presented in this article. Only for more advanced uses, like adding a new environment algorithm or adding a shared resource that is <italic toggle="yes">not</italic> an agent, users have to consider parallel execution.</p>
+                  </sec>
+                </sec>
+                <sec>
+                  <title>2.2.2 High-level features</title>
+                  <p>The high-level layer (<xref rid="btab649-F2" ref-type="fig">Figure 2</xref>) provides general functionality which is commonly required in agent-based models across many fields.</p>
+                  <sec>
+                    <title>Generation of agent populations</title>
+                    <p>The first step in an agent-based model is to specify the starting condition of the simulation. Therefore, BioDynaMo provides functionality to create agent populations with specific properties. Class ModelInitializer provides several functions to create agents in 3D space and to initialize extracellular substances (<xref rid="btab649-F3" ref-type="fig">Figure 3</xref> and <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Section 1.4</ext-link>). Furthermore, to initialize the attributes of an agent population, researchers can use one of the many predefined random number generators that draw samples from a specific distribution (uniform, exponential, gaussian, binomial, etc.) or define their own one. These features are demonstrated in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Tutorial ST01, ST02 and ST08</ext-link>.</p>
+                  </sec>
+                  <sec>
+                    <title>Agent reproduction and mortality</title>
+                    <p>The addition and removal of agents during the execution of a simulation is an integral part of agent-based simulations. Therefore, BioDynaMo provides a framework to create new agents during a simulation and initialize their attributes. By default, agents that are created in iteration i will be visible to other agents in iteration i + 1. The removal of agents is handled identically. The handling of when new or removed agents become visible to the simulation is encapsulated in the execution context. Therefore, a user could provide another implementation where agents are visible immediately.</p>
+                    <p>Besides adding and removing agents, a second major part is to provide a generic way to initialize the attributes of an agent. To this end, BioDynaMo simplifies the regulation of behaviors if new agents are created. The user can control whether a behavior will be copied to a new agent or removed from the existing agent, based on the underlying process (e.g. cell division). Similarly, agents have a function Initialize which can be overridden by user-defined agents to initialize additional attributes. These concepts are demonstrated in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Tutorial ST03–ST05</ext-link>.</p>
+                  </sec>
+                  <sec>
+                    <title>Environment search</title>
+                    <p>To determine the agents in the local environment (neighbors), BioDynaMo uses an environment search algorithm (<ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Tutorial ST06</ext-link>). BioDynaMo’s default environment algorithm is based on a uniform grid implementation. The implementation divides the total simulation space into uniform boxes of the same size and assigns agents to boxes based on the center of mass of the agent. Hence, the agents in the environment can be obtained by iterating over the assigned box and all its surrounding boxes (27 boxes in total). The box size is chosen by the user or determined automatically based on the largest agent in the simulation to ensure all mechanical interactions are taken into account. Alternatively, BioDynaMo provides an octree and kd-tree environment implementation. The interface is kept generic enough to support non-Euclidean space environment definitions.</p>
+                  </sec>
+                  <sec>
+                    <title>Multi-scale simulations</title>
+                    <p>A biological simulation has to account for dynamic mechanisms that range from milliseconds to weeks (e.g. physical forces, reaction-diffusion processes, gene regulatory dynamics, etc.). BioDynaMo supports processes at different time scales by providing a parameter to specify the time interval between two time steps and an execution frequency for each operation (<ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Tutorial ST07</ext-link>). An execution frequency of one means that the corresponding operation is executed every time step. In contrast, a frequency of three would mean that the operation is executed every three time steps. This mechanism allows BioDynaMo to simulate e.g. substance diffusion and neurite growth in the same model.</p>
+                  </sec>
+                  <sec>
+                    <title>Statistical analysis</title>
+                    <p>Statistical analysis plays a fundamental role in generating new insights from simulation data. BioDynaMo builds upon the rich features of CERN’s primary data analysis framework ROOT (<xref rid="btab649-B2" ref-type="bibr">Brun and Rademakers, 1997</xref>), which provides an extensive mathematical, histogram, graphing, and fitting library. BioDynaMo complements this functionality by providing an easy mechanism to collect simulation data over time and a simplified API targeted to the agent-based use case. These capabilities are demonstrated in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Tutorial ST08–ST11</ext-link>.</p>
+                  </sec>
+                  <sec>
+                    <title>Hierarchical model support</title>
+                    <p><xref rid="btab649-B24" ref-type="bibr">Railsback <italic toggle="yes">et al.</italic> (2006)</xref> describe an agent-based model in which large agents have to be executed before smaller agents. BioDynaMo supports these hierarchical models with several functions in the ResourceManager, Scheduler, and Operation class. The described order can be implemented in BioDynaMo by adding three lines of code as demonstrated in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Tutorial ST12</ext-link>. Additionally, it is possible to execute a different set of operations for large and small agents.</p>
+                  </sec>
+                  <sec>
+                    <title>Hybrid modeling support</title>
+                    <p>Some models benefit from the combination of multiple simulation methodologies—e.g. the combination of an agent-based and continuum-based model. BioDynaMo’s flexible build system supports hybrid modeling capabilities and was demonstrated by <xref rid="btab649-B6" ref-type="bibr">de Montigny <italic toggle="yes">et al.</italic> (2021)</xref> to investigate cancer development.</p>
+                    <p>The remaining high-level features are detailed in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Section 1.2</ext-link>.</p>
+                  </sec>
+                </sec>
+                <sec>
+                  <title>2.2.3 Model building blocks</title>
+                  <p>Currently, BioDynaMo’s building blocks (<xref rid="btab649-F2" ref-type="fig">Figure 2</xref>) belong to the (neural) tissue modeling domain. Similar to the biological model presented in (<xref rid="btab649-B34" ref-type="bibr">Zubler and Douglas, 2009</xref>), BioDynaMo supports spherical and cylindrical agent geometries, mechanical interactions between agents and diffusion of extracellular substances.</p>
+                  <p>With these features, researchers can simulate cell body dynamics, neural growth and gene regulatory networks. We provide more details about the individual model building blocks in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Section 1.3</ext-link>.</p>
+                  <p>Simulations to study the development of (neural) tissue are only one example of how BioDynaMo could be used in the future. By designing BioDynaMo in a modular and extensible way, we laid the foundation to create new building blocks easily (<xref rid="btab649-F3" ref-type="fig">Figure 3</xref> and Section 3.3).</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>2.3 Use cases</title>
+                <p>We demonstrate BioDynaMo’s capacity to simulate disparate problems in systems biology with simple yet representative use cases in neuroscience, oncology and epidemiology. Since BioDynaMo does not contain any epidemiological building blocks, this use case indicates how easy it is to implement a model-based solely on features from the high- and low-level layer (<xref rid="btab649-F2" ref-type="fig">Figure 2</xref>).</p>
+                <p>For each use case we present the implemented model, validate the simulation results against verified experimental or analytical data, and report performance data for different problem sizes on multiple hardware configurations. Furthermore, we provide pseudocode for all agent behaviors, a table with model parameters and more detailed performance results in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Section 2</ext-link>.</p>
+              </sec>
+              <sec>
+                <title>2.4 Performance analysis</title>
+                <p>We compare BioDynaMo’s performance with two established serial ABS platforms [Cortex3D (<xref rid="btab649-B34" ref-type="bibr">Zubler and Douglas, 2009</xref>) and NetLogo (<xref rid="btab649-B31" ref-type="bibr">Wilensky, 1999</xref>)], analyze BioDynaMo’s scalability, and quantify the impact of GPU acceleration. Display updates are turned off on all platforms for these evaluations. Cortex3D has the highest similarity in terms of the underlying biological model out of all the related works presented in Section 1.1. More specifically, BioDynaMo and Cortex3D use the same method to determine mechanical forces between agents and the same model to grow neural morphologies. This makes Cortex3D the best candidate with which to compare BioDynaMo and ensure a fair comparison.</p>
+                <p>We quantify the performance of BioDynaMo with four simulations: cell growth and division, soma clustering, pyramidal cell growth and the epidemiology use case. We compare the runtime of the first three simulations with Cortex3D and the epidemiology use case with NetLogo 3D. These simulations have different properties and are, therefore, well suited to evaluate BioDynaMo’s simulation engine under a broad set of conditions. <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Section 2.2</ext-link> contains more details about these benchmarks.</p>
+                <sec>
+                  <title> </title>
+                  <sec>
+                    <title>Statistical method</title>
+                    <p>We perform five measurements for each presented data point in <xref rid="btab649-F7" ref-type="fig">Figure 7</xref> and <xref rid="btab649-T1" ref-type="table">Table 1</xref>. We summarize runtimes using the arithmetic mean and rates such as speedup using the harmonic mean.</p>
+                    <table-wrap position="float" id="btab649-T1">
+                      <label>Table 1.</label>
+                      <caption>
+                        <p>Performance data</p>
+                      </caption>
+                      <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                          <col valign="top" align="left" span="1"/>
+                          <col valign="top" align="center" span="1"/>
+                          <col valign="top" align="center" span="1"/>
+                          <col valign="top" align="char" char="." span="1"/>
+                          <col valign="top" align="left" span="1"/>
+                          <col valign="top" align="char" char="." span="1"/>
+                          <col valign="top" align="center" span="1"/>
+                          <col valign="top" align="center" span="1"/>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th rowspan="1" colspan="1">Simulation</th>
+                            <th rowspan="1" colspan="1">Agents</th>
+                            <th rowspan="1" colspan="1">Diffusion volumes</th>
+                            <th rowspan="1" colspan="1">Iterations</th>
+                            <th rowspan="1" colspan="1">System</th>
+                            <th rowspan="1" colspan="1">Physical CPUs</th>
+                            <th rowspan="1" colspan="1">Runtime</th>
+                            <th rowspan="1" colspan="1">Memory</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td colspan="8" rowspan="1">Neuroscience use case</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Single (Figure 4A)</td>
+                            <td rowspan="1" colspan="1">1494</td>
+                            <td rowspan="1" colspan="1">250</td>
+                            <td rowspan="1" colspan="1">500</td>
+                            <td rowspan="1" colspan="1">A</td>
+                            <td rowspan="1" colspan="1">1</td>
+                            <td rowspan="1" colspan="1">0.16 s</td>
+                            <td rowspan="1" colspan="1">382 MB</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Large-scale (Figure 4C)</td>
+                            <td rowspan="1" colspan="1">9 054 740</td>
+                            <td rowspan="1" colspan="1">65 536</td>
+                            <td rowspan="1" colspan="1">500</td>
+                            <td rowspan="1" colspan="1">A</td>
+                            <td rowspan="1" colspan="1">72</td>
+                            <td rowspan="1" colspan="1">36 s</td>
+                            <td rowspan="1" colspan="1">6.02 GB</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Very-large-scale</td>
+                            <td rowspan="1" colspan="1">1 018 644 154</td>
+                            <td rowspan="1" colspan="1">5 606 442</td>
+                            <td rowspan="1" colspan="1">500</td>
+                            <td rowspan="1" colspan="1">B</td>
+                            <td rowspan="1" colspan="1">72</td>
+                            <td rowspan="1" colspan="1">1 h 26 min</td>
+                            <td rowspan="1" colspan="1">436 GB</td>
+                          </tr>
+                          <tr>
+                            <td colspan="8" rowspan="1">Oncology use case (Figure 5)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> 2000 initial cells</td>
+                            <td rowspan="1" colspan="1">4177</td>
+                            <td rowspan="1" colspan="1">0</td>
+                            <td rowspan="1" colspan="1">312</td>
+                            <td rowspan="1" colspan="1">A</td>
+                            <td rowspan="1" colspan="1">1</td>
+                            <td rowspan="1" colspan="1">1.05 s</td>
+                            <td rowspan="1" colspan="1">382 MB</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Large-scale</td>
+                            <td rowspan="1" colspan="1">10 003 925</td>
+                            <td rowspan="1" colspan="1">0</td>
+                            <td rowspan="1" colspan="1">288</td>
+                            <td rowspan="1" colspan="1">A</td>
+                            <td rowspan="1" colspan="1">72</td>
+                            <td rowspan="1" colspan="1">1 min 42 s</td>
+                            <td rowspan="1" colspan="1">7.42 GB</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Very-large-scale</td>
+                            <td rowspan="1" colspan="1">986 054 868</td>
+                            <td rowspan="1" colspan="1">0</td>
+                            <td rowspan="1" colspan="1">288</td>
+                            <td rowspan="1" colspan="1">B</td>
+                            <td rowspan="1" colspan="1">72</td>
+                            <td rowspan="1" colspan="1">6 h 21 min</td>
+                            <td rowspan="1" colspan="1">604 GB</td>
+                          </tr>
+                          <tr>
+                            <td colspan="8" rowspan="1">Epidemiology use case (Figure 6C)</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Measles</td>
+                            <td rowspan="1" colspan="1">2010</td>
+                            <td rowspan="1" colspan="1">0</td>
+                            <td rowspan="1" colspan="1">1000</td>
+                            <td rowspan="1" colspan="1">A</td>
+                            <td rowspan="1" colspan="1">1</td>
+                            <td rowspan="1" colspan="1">0.53 s</td>
+                            <td rowspan="1" colspan="1">381 MB</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Seasonal Influenza</td>
+                            <td rowspan="1" colspan="1">20 200</td>
+                            <td rowspan="1" colspan="1">0</td>
+                            <td rowspan="1" colspan="1">2500</td>
+                            <td rowspan="1" colspan="1">A</td>
+                            <td rowspan="1" colspan="1">1</td>
+                            <td rowspan="1" colspan="1">16.41 s</td>
+                            <td rowspan="1" colspan="1">383 MB</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Large-scale (measles)</td>
+                            <td rowspan="1" colspan="1">10 050 000</td>
+                            <td rowspan="1" colspan="1">0</td>
+                            <td rowspan="1" colspan="1">1000</td>
+                            <td rowspan="1" colspan="1">A</td>
+                            <td rowspan="1" colspan="1">72</td>
+                            <td rowspan="1" colspan="1">59.19 s</td>
+                            <td rowspan="1" colspan="1">5.87 GB</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="1" colspan="1"> Very-large-scale (measles)</td>
+                            <td rowspan="1" colspan="1">1 005 000 000</td>
+                            <td rowspan="1" colspan="1">0</td>
+                            <td rowspan="1" colspan="1">1000</td>
+                            <td rowspan="1" colspan="1">B</td>
+                            <td rowspan="1" colspan="1">72</td>
+                            <td rowspan="1" colspan="1">2 h 0 min</td>
+                            <td rowspan="1" colspan="1">495 GB</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table-wrap-foot>
+                        <fn id="tblfn1">
+                          <p><italic toggle="yes">Note</italic>: The values in column ‘Agents’ and ‘Diffusion volumes’ are taken from the end of the simulation. Runtime measures the wall-clock time to simulate the number of iterations. It excludes the time for simulation setup and visualization. The entries in column ‘System’ correspond to <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Table 5</ext-link>. <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Table 6</ext-link> contains more detailed performance data.</p>
+                        </fn>
+                      </table-wrap-foot>
+                    </table-wrap>
+                  </sec>
+                </sec>
+              </sec>
+              <sec>
+                <title>2.5 Reproducibility</title>
+                <p>We use the latest BioDynaMo version v1.01-55-gd05111e3 for all use cases and benchmarks in the result section. To help other researchers replicate our findings we provide the following <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Information</ext-link> for utmost transparency. First, we publish all source code and data in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF3</ext-link>. The archive contains six shell scripts that execute all simulations, and generate all plots, visualizations and videos shown in this article. Second, we provide a ready-to-use self-contained Docker image to simplify the process of executing our simulations and benchmarks and to guarantee long-term reproducibility (<ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF4</ext-link>). Third, we add a step-by-step instruction in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF2</ext-link>.</p>
+              </sec>
+            </sec>
+            <sec>
+              <title>3 Results</title>
+              <sec>
+                <title>3.1 Neuroscience use case</title>
+                <p>This example illustrates the use of BioDynaMo to model neurite growth of pyramidal cells using chemical cues. Initially, a pyramidal cell, composed of a 10 μm cell body, three 0.5 μm long basal dendrites and one 0.5 μm long apical dendrite (all of them considered here as agents), is created in 3D space [L37–L51 (Line numbers in Section 3.1 correspond to the code example in <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Listing 4</ext-link>.)]. Furthermore, two artificial growth factors were initialized, following a Gaussian distribution along the <italic toggle="yes">z</italic>-axis (L54–L65). The distribution of these growth factors guided dendrite growth and remained unchanged during the simulation.</p>
+                <p>Dendritic development was dictated by a behavior defining growth direction, speed and branching behavior for apical and basal dendrites (L12–L35). At each step of the simulation, the dendritic growth direction depended on the local chemical growth factor gradient, the dendrite’s previous direction and a randomly chosen direction. In addition, the dendrite’s diameter tapered as it grew (shrinkage), until it reached a specified diameter, preventing it from growing any further. The weight of each element on the direction varied between apical and basal dendrites.</p>
+                <p>These simple rules gave rise to a straight long apical dendrite with a simple branching pattern and more dispersed basal dendrites, as shown in <xref rid="btab649-F4" ref-type="fig">Figure 4A</xref>, similar to what can be observed in real pyramidal cell morphologies as shown in <xref rid="btab649-F4" ref-type="fig">Figure 4B</xref> or <xref rid="btab649-B27" ref-type="bibr">Spruston (2008)</xref> (Figure 1A CA1). Using our growth model, we were able to generate a large number of various realistic pyramidal cell morphologies. We used a publicly available database of real pyramidal cells coming from <xref rid="btab649-B20" ref-type="bibr">Mellström <italic toggle="yes">et al.</italic> (2016)</xref> for comparison and parameter tuning. Two measures were used to compare our simulated neurons and the 69 neurons composing the real morphologies database: the average number of branching points, and the average length of dendritic trees. No significant differences were observed between our simulated neurons and the real ones (<italic toggle="yes">P </italic>&lt;<italic toggle="yes"> </italic>0.001 using a T-test for two independent samples). These results are shown in <xref rid="btab649-F4" ref-type="fig">Figure 4D</xref>. The model specification of the pyramidal cell growth simulation consists of 127 lines of C++ code (<ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Listing 4</ext-link>).</p>
+                <fig position="float" id="btab649-F4">
+                  <label>Fig. 4.</label>
+                  <caption>
+                    <p>Pyramidal cell simulation. (<bold>A</bold>) Example pyramidal cell simulated with BioDynaMo. (<bold>B</bold>) Real neuron (R67nr67b-CEL1.CNG) taken from <xref rid="btab649-B20" ref-type="bibr">Mellström <italic toggle="yes">et al.</italic> (2016)</xref> and visualized with <ext-link xlink:href="https://neuroinformatics.nl/HBP/morphology-viewer/" ext-link-type="uri">https://neuroinformatics.nl/HBP/morphology-viewer/</ext-link>. (<bold>C</bold>) Large-scale simulation. The model started with 5000 initial pyramidal cell bodies and contained 9 million agents after simulating 500 iterations. The simulation execution time was 35 s on a server with 72 CPU cores. (<bold>D</bold>) Morphology comparison between simulated neurons and experimental data from <xref rid="btab649-B20" ref-type="bibr">Mellström <italic toggle="yes">et al.</italic> (2016)</xref>. Error bars represent the standard deviation. (A, C) A video is available in the <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Materials</ext-link></p>
+                  </caption>
+                  <graphic xlink:href="btab649f4" position="float"/>
+                </fig>
+                <p><xref rid="btab649-F4" ref-type="fig">Figure 4C</xref> shows a large-scale simulation incorporating 5000 neurons similar to the one described above and demonstrates the potential of BioDynaMo for developmental, anatomical and connectivity studies in the brain. This simulation contained nine million agents.</p>
+              </sec>
+              <sec>
+                <title>3.2 Oncology use case</title>
+                <p>In this section, we present a tumor spheroid simulation to replicate in vitro experiments from <xref rid="btab649-B10" ref-type="bibr">Gong <italic toggle="yes">et al.</italic> (2015)</xref>. Tumor spheroid experiments are typically employed to investigate the pathophysiology of cancer, and are also being used for pre-clinical drug screening (<xref rid="btab649-B23" ref-type="bibr">Nunes <italic toggle="yes">et al.</italic>, 2019</xref>). Here we considered three in vitro test cases using a breast adenocarcinoma MCF-7 cell line (<xref rid="btab649-B10" ref-type="bibr">Gong <italic toggle="yes">et al.</italic>, 2015</xref>) with different initial cell populations (2000, 4000 and 8000 MCF-7 cells). Our goal was to simulate the growth of this mono cell culture embedded in a collagenous (extracellular) matrix.</p>
+                <p>The fundamental cellular mechanisms modeled here include cell growth, cell duplication, cell migration and cell apoptosis. All these processes are implemented in the class TumorCellBehavior. The cell growth rate was derived from the published data (<xref rid="btab649-B28" ref-type="bibr">Sutherland <italic toggle="yes">et al.</italic>, 1983</xref>), while cell migration (cell movement speed), cell survival and apoptosis were fine-tuned after trial and error testing. Since the in vitro study considered the same agarose gel matrix composition among the experiments, the BioDynaMo model assumes identical parameters for the cell–matrix interactions in the simulations. Considering the homogeneous ECM properties, tumor cell migration was modeled as Brownian motion.</p>
+                <p>The in vitro experiments from <xref rid="btab649-B10" ref-type="bibr">Gong <italic toggle="yes">et al.</italic> (2015)</xref> and the simulations using BioDynaMo are depicted in <xref rid="btab649-F5" ref-type="fig">Figure 5</xref>. Each line plot in <xref rid="btab649-F5" ref-type="fig">Figure 5A</xref> compares the mean diameter between the experiments and the simulations over time, which demonstrates the validity and accuracy of BioDynaMo. The diameter of the spheroids in the simulations were deducted from the volume of the convex hull that enclosed all cancer cells. The in vitro experiments used microscopy imaging to measure the spheroid’s diameters (<xref rid="btab649-B10" ref-type="bibr">Gong <italic toggle="yes">et al.</italic>, 2015</xref>). <xref rid="btab649-F5" ref-type="fig">Figure 5B</xref> compares snapshots of the simulated tumor spheroids (bottom row) against microscopy images of in vitro spheroids (top row) at different time points. The spheroid’s morphologies between the in vitro experiments and the BioDynaMo simulations are in excellent agreement.</p>
+                <fig position="float" id="btab649-F5">
+                  <label>Fig. 5.</label>
+                  <caption>
+                    <p>Comparison between in vitro MCF-7 tumor spheroid experiments and our <italic toggle="yes">in silico</italic> simulations using BioDynaMo. (<bold>A</bold>) Human breast adenocarcinoma tumor spheroid (MCF-7 cell line) development during a 15 day period, where different initial cell populations were considered [see Fig. 3 in <xref rid="btab649-B10" ref-type="bibr">Gong <italic toggle="yes">et al.</italic> (2015)</xref>]. Error bars denote standard deviation to the experimental data. The mean of the <italic toggle="yes">in silico</italic> results is shown as a solid black line with a gray band depicting minimum and maximum observed value. (<bold>B</bold>) A qualitative comparison between the microscopy images and simulation snapshots. Scale bars correspond to 100 μm. A video is available in the <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary Materials</ext-link></p>
+                  </caption>
+                  <graphic xlink:href="btab649f5" position="float"/>
+                </fig>
+                <p>Model specification required 154 lines of C++ code.</p>
+              </sec>
+              <sec>
+                <title>3.3 Epidemiology use case</title>
+                <p>This section presents an agent-based model that describes the spreading of infectious diseases between humans. The model divides the population into three groups: susceptible, infected and recovered (SIR) agents. We compare our simulation results with the solution of the original SIR model from <xref rid="btab649-B16" ref-type="bibr">Kermack <italic toggle="yes">et al.</italic> (1927)</xref>, which used the following three differential equations to describe the model dynamics: <inline-formula id="IE1"><mml:math id="IM1" display="inline" overflow="scroll"><mml:mrow><mml:mi>d</mml:mi><mml:mi>S</mml:mi><mml:mo>/</mml:mo><mml:mi>d</mml:mi><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mo>β</mml:mo><mml:mi>S</mml:mi><mml:mi>I</mml:mi><mml:mo>/</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula>, <inline-formula id="IE2"><mml:math id="IM2" display="inline" overflow="scroll"><mml:mrow><mml:mi>d</mml:mi><mml:mi>I</mml:mi><mml:mo>/</mml:mo><mml:mi>d</mml:mi><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mo>β</mml:mo><mml:mi>S</mml:mi><mml:mi>I</mml:mi><mml:mo>/</mml:mo><mml:mi>N</mml:mi><mml:mo>−</mml:mo><mml:mo>γ</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:math></inline-formula> and <inline-formula id="IE3"><mml:math id="IM3" display="inline" overflow="scroll"><mml:mrow><mml:mi>d</mml:mi><mml:mi>R</mml:mi><mml:mo>/</mml:mo><mml:mi>d</mml:mi><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mo>γ</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:math></inline-formula>. <italic toggle="yes">S</italic>, <italic toggle="yes">I</italic> and <italic toggle="yes">R</italic> are the number of susceptible, infected and recovered individuals, <italic toggle="yes">N</italic> is the total number of individuals, <italic toggle="yes">β</italic> is the mean transmission rate and <italic toggle="yes">γ</italic> is the recovery rate.</p>
+                <p>For our agent-based implementation (<xref rid="btab649-F6" ref-type="fig">Figure 6C</xref>) we created a new agent (representing a person) that encompasses three new behaviors (see <xref rid="btab649-F3" ref-type="fig">Figure 3</xref>). First, a susceptible agent became infected with the infection probability if an infected agent was within the infection radius. Second, an infected agent recovered with the recovery probability at every time step. Third, all agents moved randomly in space with toroidal boundary condition. The absolute distance an agent could travel in every time step was limited.</p>
+                <fig position="float" id="btab649-F6">
+                  <label>Fig. 6.</label>
+                  <caption>
+                    <p>Measles and seasonal influenza SIR model results. (<bold>A, B</bold>) Comparison between agent-based (solid lines) and analytical (dashed lines) model for measles (A) and seasonal influenza (B). The agent-based simulation was repeated ten times. The individual simulation results are shown as thin solid lines. The bold solid line represents the mean from all simulations. The legend is shared between the two plots. (<bold>C</bold>) Visualization of the measles and influenza model for different time steps in 3D space. Susceptible persons are shown in white, infected persons in red, and recovered persons in blue</p>
+                  </caption>
+                  <graphic xlink:href="btab649f6" position="float"/>
+                </fig>
+                <p>We selected two infectious diseases with different characteristics to verify our model: measles and seasonal influenza. We obtained values for the basic reproduction number <italic toggle="yes">R</italic><sub>0</sub> and recovery duration <italic toggle="yes">T<sub>R</sub></italic> from the literature <italic toggle="yes">(</italic>Measles: <inline-formula id="IE4"><mml:math id="IM4" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>12.9</mml:mn></mml:mrow></mml:math></inline-formula>, <italic toggle="yes">T<sub>R</sub></italic> = 8 days (<xref rid="btab649-B11" ref-type="bibr">Guerra <italic toggle="yes">et al.</italic>, 2017</xref>; <xref rid="btab649-B32" ref-type="bibr">World Health Organization, 2020</xref>), Influenza: <inline-formula id="IE5"><mml:math id="IM5" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>1.3</mml:mn><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msub><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mi>R</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>4.1</mml:mn></mml:mrow></mml:math></inline-formula> days (<xref rid="btab649-B3" ref-type="bibr">Chowell <italic toggle="yes">et al.</italic>, 2008</xref>)) and determined the parameters <italic toggle="yes">β</italic> and <italic toggle="yes">γ</italic> for the analytical model, based on <inline-formula id="IE6"><mml:math id="IM6" display="inline" overflow="scroll"><mml:mrow><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mo>β</mml:mo><mml:mo>/</mml:mo><mml:mo>γ</mml:mo></mml:mrow></mml:math></inline-formula> and <inline-formula id="IE7"><mml:math id="IM7" display="inline" overflow="scroll"><mml:mrow><mml:mo>γ</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mi>R</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula>. For the agent-based model we set the recovery probability to <italic toggle="yes">γ</italic>, and determined the remaining parameters (infection radius, infection probability and maximum movement in one time step) using particle swarm optimization (<xref rid="btab649-B15" ref-type="bibr">Kennedy and Eberhart, 1995</xref>). <xref rid="btab649-F6" ref-type="fig">Figure 6</xref> shows that the agent-based model is in excellent agreement with the equation-based approach from (<xref rid="btab649-B16" ref-type="bibr">Kermack <italic toggle="yes">et al.</italic>, 1927</xref>) for measles and influenza.</p>
+                <p>Model specification required 181 lines of C++ code.</p>
+              </sec>
+              <sec>
+                <title>3.4 Performance</title>
+                <p>First, to demonstrate the performance improvements against established ABS platforms, we compared BioDynaMo with Cortex3D and NetLogo. <xref rid="btab649-F7" ref-type="fig">Figure 7A</xref> shows the speedup of BioDynaMo for four simulations. We define speedup as the runtime of the compared ABS platform over the runtime of BioDynaMo. We observed a significant speedup between 19 and 74× for Cortex3D and 25× for NetLogo. The speedup was larger, when the simulation was more dynamic or more complex. Note that we set the number of threads available to BioDynaMo to one since Cortex3D and NetLogo are not parallelized. In the ‘epidemiology (medium-scale)’ benchmark we increased the number of available physical CPU cores to 72 and observe a three order of magnitude speedup of 945×. This result clearly shows the impact of parallelization on the overall performance. Although NetLogo is not parallelized, it benefits from parallel garbage collection. We could not perform a medium-scale analysis with Cortex3D, because it only supports simulations with a small number of agents.</p>
+                <fig position="float" id="btab649-F7">
+                  <label>Fig. 7.</label>
+                  <caption>
+                    <p>BioDynaMo performance analysis. (<bold>A</bold>) Speedup of BioDynaMo compared to the serial simulation platforms Cortex3D and NetLogo. Simulations use one CPU core except for the ‘epidemiology (medium-scale)’ benchmark, for which all 72 physical cores were available. The comparison with NetLogo uses the same simulation with different numbers of agents. Cortex3D supports only small-scale simulations. (<bold>B</bold>) Strong scaling behavior of BioDynaMo on a server with 72 physical cores, two threads per core and four NUMA domains. The gray area highlights hyper-threads</p>
+                  </caption>
+                  <graphic xlink:href="btab649f7" position="float"/>
+                </fig>
+                <p>Second, to evaluate the scalability of BioDynaMo, we measured the simulation time with an increasing number of threads. We increased the number of agents used in the comparison with Cortex3D and reduced the number of simulation timesteps to 10. <xref rid="btab649-F7" ref-type="fig">Figure 7B</xref> shows the strong scaling analysis. We define the term ‘strong scaling’ as the property of a simulation platform to reduce the runtime of a simulation with a fixed size <italic toggle="yes">x</italic> with an increasing number of CPU cores <italic toggle="yes">c</italic>: <inline-formula id="IE8"><mml:math id="IM8" display="inline" overflow="scroll"><mml:mrow><mml:mi mathvariant="italic">speedup</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>c</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">time</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="italic">time</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>c</mml:mi><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math></inline-formula> (<xref rid="btab649-B12" ref-type="bibr">Hill, 1990</xref>).</p>
+                <p>All simulation parameters were kept constant, and the number of threads was increased from one to the number of logical cores provided by the benchmark server. The maximum speedup ranged between 62× and 77×, which corresponds to a parallel efficiency of 0.86 and 1.07. Performance improved even after all physical cores were utilized and hyper-threads were used. Hyper-threads are highlighted in gray in <xref rid="btab649-F7" ref-type="fig">Figure 7B</xref>. We want to emphasize that even the pyramidal cell growth benchmark scaled well, despite the challenges of synchronization and load imbalance.</p>
+                <p>Third, we evaluated the impact of calculating the mechanical forces on the GPU using the cell growth and division, and soma clustering simulations. We excluded the pyramidal cell growth simulation because the current GPU kernel does not yet support cylinder geometry. The benchmarks were executed on System C (see <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Table 4</ext-link>), comparing an NVidia Tesla V100 GPU with 32 CPU cores (64 threads). We observed a speedup of 1.01× for cell growth and division, and 4.16× for soma clustering. The speedup correlated with the number of collisions in the simulation. The computational intensity is directly linked with the number of collisions between agents.</p>
+                <p>In summary, in the scalability test, we observed a minimum speedup of 62×. Furthermore, we measured a minimum speedup of 19× comparing BioDynaMo with Cortex3D both using a single thread. Based on these two observations, we conclude that on System A (see <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Table 4</ext-link>) BioDynaMo is more than three orders of magnitude faster than Cortex3D. In the comparison with NetLogo we observed a 945× speedup directly.</p>
+                <p>Based on these speedups, we executed the neuroscience, oncology and epidemiology use cases with one billion agents. Using all 72 physical CPUs on System B (see <ext-link xlink:href="https://doi.org/10.5281/zenodo.5121618" ext-link-type="uri">Supplementary File SF1 Table 4</ext-link>), we measured a runtime of 1 h 26 min, 6 h 22 min and 2 h, respectively. One billion agents, however, are not the limit. The maximum depends on the available memory and accepted execution duration. To be consistent across all use cases and keep our pipeline’s total execution time better manageable, we decided to run these benchmarks with one billion agents. <xref rid="btab649-T1" ref-type="table">Table 1</xref> shows that available memory would permit an epidemiological and neuroscience simulation with two billion agents. With enough memory, BioDynaMo is capable of supporting hundreds of billions of agents.</p>
+              </sec>
+            </sec>
+            <sec>
+              <title>4 Discussion</title>
+              <p>This article presented BioDynaMo, a novel open-source platform for agent-based simulations. Its modular software architecture allows researchers to implement models of distinctly different fields, of which neuroscience, oncology and epidemiology were demonstrated in this article. Although the implemented models follow a simplistic set of rules, the results that emerge from the simulations are prominent and highlight BioDynaMo’s capabilities. We do not claim that these models are novel, but we rather want to emphasize that BioDynaMo enables scientists to (i) develop models in various computational biology fields in a modular fashion, (ii) obtain results rapidly with the parallelized execution engine, (iii) scale up the model to billions of agents on a single server and (iv) produce results that are in agreement with validated experimental data. Although BioDynaMo is modular, we currently offer a limited number of ready-to-use simulation primitives. We are currently expanding our library of agents and behaviors to facilitate model development beyond the current capacity.</p>
+              <p>Ongoing work uses BioDynaMo to gain insights into retinal development, cryopreservation, multiscale (organ-to-cell) cancer modeling, radiation-induced tissue damage and more. Further efforts focus on accelerating drug development by replacing in vitro experiments with <italic toggle="yes">in silico</italic> simulations using BioDynaMo.</p>
+              <p>Our performance analysis showed improvements of up to three orders of magnitude over state-of-the-art baseline simulation software, allowing us to scale up simulations to an unprecedented number of agents. To the best of our knowledge, BioDynaMo is the first scalable ABS platform for neural development that scales to more than one billion agents. The same principles used to model axons and dendrites in the neuroscience use case could also be applied to simulate blood and lymphatic vessels.</p>
+              <p>We envision BioDynaMo to become a valuable tool in computational biology, fostering faster and easier simulation of complex and large-scale systems, interdisciplinary collaboration and scientific reproducibility.</p>
+            </sec>
+            <sec>
+              <title>Funding</title>
+              <p>This work was supported by the CERN Knowledge Transfer office [to L.B. and A.H.]; the Israeli Innovation Authority [to A.H.]; the Research Excellence Academy from the Faculty of Medical Science of the Newcastle University [to J.dM.]; the UCY StartUp Grant scheme [to V.V.]; the Medical Research Council of the United Kingdom [MR/N015037/1 to R.B., MR/T004347/1 to M.K.]; the Engineering and Physical Sciences Research Council of the UK [EP/S001433/1 to R.B., NS/A000026/1, EP/N031962/1 to M.K.]; a PhD studentship funded by Newcastle University’s School of Computing [to J.J.]; the Wellcome Trust [102037 to M.K.]; the Guangci Professorship Program of Ruijin Hospital (Shanghai Jiao Tong Univ.) [to M.K.]; and by several donations by SAFARI Research Group’s industrial partners including Huawei, Intel, Microsoft, and VMware [to O.M.].</p>
+              <p><italic toggle="yes">Conflict of Interest</italic>: none declared.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material id="sup1" position="float" content-type="local-data">
+                <label>btab649_Supplementary_Data</label>
+                <media xlink:href="btab649_supplementary_data.zip">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="ack1">
+              <title>Acknowledgements</title>
+              <p>The authors thank Giovanni De Toni for his work on the BioDynaMo build system.</p>
+            </ack>
+            <ref-list id="ref1">
+              <title>References</title>
+              <ref id="btab649-B1">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Azevedo</surname><given-names>F.A.C.</given-names></string-name></person-group><etal>et al</etal> (<year>2009</year>) <article-title>Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain</article-title>. <source>J. Compar. Neurol</source>., <volume>513</volume>, <fpage>532</fpage>–<lpage>541</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B2">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brun</surname><given-names>R.</given-names></string-name>, <string-name><surname>Rademakers</surname><given-names>F.</given-names></string-name></person-group> (<year>1997</year>) <article-title>ROOT — An object oriented data analysis framework</article-title>. <source>Nuclear Instrum. Methods Phys. Res. Sect. A Accel. Spectrom. Detect. Assoc. Equip</source>., <volume>389</volume>, <fpage>81</fpage>–<lpage>86</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B3">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chowell</surname><given-names>G.</given-names></string-name></person-group><etal>et al</etal> (<year>2008</year>) <article-title>Seasonal influenza in the United States, France, and Australia: transmission and prospects for control</article-title>. <source>Epidemiol. Infect</source>., <volume>136</volume>, <fpage>852</fpage>–<lpage>864</lpage>.<pub-id pub-id-type="pmid">17634159</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B4">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Collier</surname><given-names>N.</given-names></string-name>, <string-name><surname>North</surname><given-names>M.</given-names></string-name></person-group> (<year>2011</year>) <source>Repast HPC: A Platform for Large-Scale Agent-Based Modeling</source>, <volume>Chapter 5</volume>. <publisher-name>John Wiley &amp; Sons, Ltd</publisher-name>., <publisher-loc>New York</publisher-loc>, pp. <fpage>81</fpage>–<lpage>109</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B5">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cytowski</surname><given-names>M.</given-names></string-name>, <string-name><surname>Szymanska</surname><given-names>Z.</given-names></string-name></person-group> (<year>2014</year>) <article-title>Large-scale parallel simulations of 3D cell colony dynamics</article-title>. <source>Comput. Sci. Eng</source>., <volume>16</volume>, <fpage>86</fpage>–<lpage>95</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B6">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>de Montigny</surname><given-names>J.</given-names></string-name></person-group><etal>et al</etal> (<year>2021</year>) <article-title>An in silico hybrid continuum-/agent-based procedure to modelling cancer development: interrogating the interplay amongst glioma invasion, vascularity and necrosis</article-title>. <source>Methods</source>, <volume>185</volume>, <fpage>94</fpage>– <lpage>104</lpage>.<pub-id pub-id-type="pmid">31981608</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B7">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dennard</surname><given-names>R.H.</given-names></string-name></person-group><etal>et al</etal> (<year>1974</year>) <article-title>Design of ion-implanted MOSFET’s with very small physical dimensions</article-title>. <source>IEEE J. Solid State Circuits</source>, <volume>9</volume>, <fpage>256</fpage>–<lpage>268</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B8">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Emonet</surname><given-names>T.</given-names></string-name></person-group><etal>et al</etal> (<year>2005</year>) <article-title>AgentCell: a digital single-cell assay for bacterial chemotaxis</article-title>. <source>Bioinformatics</source>, <volume>21</volume>, <fpage>2714</fpage>–<lpage>2721</lpage>.<pub-id pub-id-type="pmid">15774553</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B9">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ghaffarizadeh</surname><given-names>A.</given-names></string-name></person-group><etal>et al</etal> (<year>2018</year>) <article-title>PhysiCell: an open source physics-based cell simulator for 3-D multicellular systems</article-title>. <source>PLoS Comput. Biol</source>., <volume>14</volume>, <fpage>e1005991</fpage>.<pub-id pub-id-type="pmid">29474446</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B10">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gong</surname><given-names>X.</given-names></string-name></person-group><etal>et al</etal> (<year>2015</year>) <article-title>Generation of multicellular tumor spheroids with microwell-based agarose scaffolds for drug testing</article-title>. <source>PLoS One</source>, <volume>10</volume>, <fpage>e0130348</fpage>.<pub-id pub-id-type="pmid">26090664</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B11">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Guerra</surname><given-names>F.M.</given-names></string-name></person-group><etal>et al</etal> (<year>2017</year>) <article-title>The basic reproduction number (R0) of measles: a systematic review</article-title>. <source>Lancet Infect. Dis</source>., <volume>17</volume>, <fpage>e420</fpage>–<lpage>e428</lpage>.<pub-id pub-id-type="pmid">28757186</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B12">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hill</surname><given-names>M.D.</given-names></string-name></person-group> (<year>1990</year>) <article-title>What is scalability?</article-title><source>ACM SIGARCH Comput. Archit. News</source>, <volume>18</volume>, <fpage>18</fpage>–<lpage>21</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B13">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ji</surname><given-names>Z.</given-names></string-name></person-group><etal>et al</etal> (<year>2017</year>) <article-title>Mathematical and computational modeling in complex biological systems</article-title>. <source>BioMed Res. Int</source>., <volume>2017</volume>, <fpage>5958321</fpage>.<pub-id pub-id-type="pmid">28386558</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B14">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kang</surname><given-names>S.</given-names></string-name></person-group><etal>et al</etal> (<year>2014</year>) <article-title>Biocellion: accelerating computer simulation of multicellular biological system models</article-title>. <source>Bioinformatics</source>, <volume>30</volume>, <fpage>3101</fpage>–<lpage>3108</lpage>.<pub-id pub-id-type="pmid">25064572</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B15">
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Kennedy</surname><given-names>J.</given-names></string-name>, <string-name><surname>Eberhart</surname><given-names>R.</given-names></string-name></person-group> (<year>1995</year>) Particle swarm optimization. In: <italic toggle="yes">Proceedings of ICNN’95 – International Conference on Neural Networks</italic>, Perth, WA, Australia, Vol. 4, pp. <fpage>1942</fpage>–<lpage>1948</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B16">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kermack</surname><given-names>W.O.</given-names></string-name></person-group><etal>et al</etal> (<year>1927</year>) <article-title>A contribution to the mathematical theory of epidemics</article-title>. <source>Proc. R. Soc. Lond. Ser. A Contain. Papers Math. Phys. Charact</source>., <volume>115</volume>, <fpage>700</fpage>–<lpage>721</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B17">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Koene</surname><given-names>R.A.</given-names></string-name></person-group><etal>et al</etal> (<year>2009</year>) <article-title>NETMORPH: a framework for the stochastic generation of large scale neuronal networks with realistic neuron morphologies</article-title>. <source>Neuroinformatics</source>, <volume>7</volume>, <fpage>195</fpage>–<lpage>210</lpage>.<pub-id pub-id-type="pmid">19672726</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B18">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lardon</surname><given-names>L.A.</given-names></string-name></person-group><etal>et al</etal> (<year>2011</year>) <article-title>iDynoMiCS: next-generation individual-based modelling of biofilms</article-title>. <source>Environ. Microbiol</source>., <volume>13</volume>, <fpage>2416</fpage>–<lpage>2434</lpage>.<pub-id pub-id-type="pmid">21410622</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B19">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Matyjaszkiewicz</surname><given-names>A.</given-names></string-name></person-group><etal>et al</etal> (<year>2017</year>) <article-title>BSim 2.0: an advanced agent-based cell simulator</article-title>. <source>ACS Synth. Biol</source>., <volume>6</volume>, <fpage>1969</fpage>–<lpage>1972</lpage>. [PMC][<italic toggle="yes">10.1021/acssynbio.7b00121</italic>] [<italic toggle="yes">28585809</italic>]<pub-id pub-id-type="pmid">28585809</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B20">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mellström</surname><given-names>B.</given-names></string-name></person-group><etal>et al</etal> (<year>2016</year>) <article-title>Specific cytoarchitectureal changes in hippocampal subareas in daDREAM mice</article-title>. <source>Mol. Brain</source>, <volume>9</volume>, <fpage>22</fpage>.<pub-id pub-id-type="pmid">26928278</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B21">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mirams</surname><given-names>G.R.</given-names></string-name></person-group><etal>et al</etal> (<year>2013</year>) <article-title>Chaste: an open source C++ library for computational physiology and biology</article-title>. <source>PLoS Comput. Biol</source>., <volume>9</volume>, <fpage>e1002970</fpage>.<pub-id pub-id-type="pmid">23516352</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B22">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Moore</surname><given-names>G.E.</given-names></string-name></person-group> (<year>1965</year>) <article-title>Cramming more components onto integrated circuits</article-title>. <source>Electronics</source>, <volume>38</volume>, <fpage>114</fpage>–<lpage>117</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B23">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nunes</surname><given-names>A.</given-names></string-name></person-group><etal>et al</etal> (<year>2019</year>) <article-title>3D tumor spheroids as in vitro models to mimic in vivo human solid tumors resistance to therapeutic drugs</article-title>. <source>Biotechnol. Bioeng</source>., <volume>116</volume>, <fpage>206</fpage>–<lpage>226</lpage>.<pub-id pub-id-type="pmid">30367820</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B24">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Railsback</surname><given-names>S.F.</given-names></string-name></person-group><etal>et al</etal> (<year>2006</year>) <article-title>Agent-based simulation platforms: review and development recommendations</article-title>. <source>Simulation</source>, <volume>82</volume>, <fpage>609</fpage>–<lpage>623</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B25">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Richmond</surname><given-names>P.</given-names></string-name></person-group><etal>et al</etal> (<year>2010</year>) <article-title>High performance cellular level agent-based simulation with FLAME for the GPU</article-title>. <source>Brief. Bioinf</source>., <volume>11</volume>, <fpage>334</fpage>–<lpage>347</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B26">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rudge</surname><given-names>T.J.</given-names></string-name></person-group><etal>et al</etal> (<year>2012</year>) <article-title>Computational modeling of synthetic microbial biofilms</article-title>. <source>ACS Synth. Biol</source>., <volume>1</volume>, <fpage>345</fpage>–<lpage>352</lpage>.<pub-id pub-id-type="pmid">23651288</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B27">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Spruston</surname><given-names>N.</given-names></string-name></person-group> (<year>2008</year>) <article-title>Pyramidal neurons: dendritic structure and synaptic integration</article-title>. <source>Nat. Rev. Neurosci</source>., <volume>9</volume>, <fpage>206</fpage>–<lpage>221</lpage>.<pub-id pub-id-type="pmid">18270515</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B28">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sutherland</surname><given-names>R.L.</given-names></string-name></person-group><etal>et al</etal> (<year>1983</year>) <article-title>Cell proliferation kinetics of mcf-7 human mammary carcinoma cells in culture and effects of tamoxifen on exponentially growing and plateau-phase cells</article-title>. <source>Cancer Res</source>., <volume>43</volume>, <fpage>3998</fpage>–<lpage>4006</lpage>.<pub-id pub-id-type="pmid">6871841</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B29">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Thorne</surname><given-names>B.C.</given-names></string-name></person-group><etal>et al</etal> (<year>2007</year>) <article-title>Combining experiments with multi-cell agent-based modeling to study biological tissue patterning</article-title>. <source>Brief. Bioinf</source>., <volume>8</volume>, <fpage>245</fpage>–<lpage>257</lpage>.</mixed-citation>
+              </ref>
+              <ref id="btab649-B30">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Torben-Nielsen</surname><given-names>B.</given-names></string-name>, <string-name><surname>De Schutter</surname><given-names>E.</given-names></string-name></person-group> (<year>2014</year>) <article-title>Context-aware modeling of neuronal morphologies</article-title>. <source>Front. Neuroanat</source>., <volume>8</volume>, <fpage>92</fpage>.<pub-id pub-id-type="pmid">25249944</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B31">
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Wilensky</surname><given-names>U.</given-names></string-name></person-group> (<year>1999</year>) <italic toggle="yes">Netlogo</italic>. Center for Connected Learning and Computer-based Modeling, Northwestern University, Evanston, IL. <ext-link xlink:href="http://ccl.northwestern.edu/netlogo/" ext-link-type="uri">http://ccl.northwestern.edu/netlogo/</ext-link> (30 April 2021, date last accessed).</mixed-citation>
+              </ref>
+              <ref id="btab649-B32">
+                <mixed-citation publication-type="other">World Health Organization (<year>2020</year>) <italic toggle="yes">Measles</italic>. <ext-link xlink:href="https://www.who.int/news-room/fact-sheets/detail/measles" ext-link-type="uri">https://www.who.int/news-room/fact-sheets/detail/measles</ext-link> (23 November 2020, date last accessed).</mixed-citation>
+              </ref>
+              <ref id="btab649-B33">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yankeelov</surname><given-names>T.E.</given-names></string-name></person-group><etal>et al</etal> (<year>2016</year>) <article-title>Multi-scale modeling in clinical oncology: opportunities and barriers to success</article-title>. <source>Ann. Biomed. Eng</source>., <volume>44</volume>, <fpage>2626</fpage>–<lpage>2641</lpage>.<pub-id pub-id-type="pmid">27384942</pub-id></mixed-citation>
+              </ref>
+              <ref id="btab649-B34">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zubler</surname><given-names>F.</given-names></string-name>, <string-name><surname>Douglas</surname><given-names>R.</given-names></string-name></person-group> (<year>2009</year>) <article-title>A framework for modeling the growth and development of neurons and networks</article-title>. <source>Front. Comput. Neurosci</source>., <volume>3</volume>, <fpage>25</fpage>.<pub-id pub-id-type="pmid">19949465</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

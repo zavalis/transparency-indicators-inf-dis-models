@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:51:54Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8265026" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8265026</identifier>
+        <datestamp>2021-07-08</datestamp>
+        <setSpec>bmcid</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Infect Dis</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Infect Dis</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Infectious Diseases</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2334</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8265026</article-id>
+              <article-id pub-id-type="pmcid">PMC8265026</article-id>
+              <article-id pub-id-type="pmc-uid">8265026</article-id>
+              <article-id pub-id-type="pmid">34233622</article-id>
+              <article-id pub-id-type="publisher-id">6121</article-id>
+              <article-id pub-id-type="doi">10.1186/s12879-021-06121-8</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Estimation of the reproduction number of influenza A(H1N1)pdm09 in South Korea using heterogeneous models</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Yunjeong</given-names>
+                  </name>
+                  <address>
+                    <email>yunjung0104@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Dong Han</given-names>
+                  </name>
+                  <address>
+                    <email>ldhmd@korea.kr</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kwon</surname>
+                    <given-names>Hee-Dae</given-names>
+                  </name>
+                  <address>
+                    <email>hdkwon@inha.ac.kr</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>Changsoo</given-names>
+                  </name>
+                  <address>
+                    <email>PREMAN@yuhs.ac</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Jeehyun</given-names>
+                  </name>
+                  <address>
+                    <email>ezhyun@yonsei.ac.kr</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.15444.30</institution-id><institution-id institution-id-type="ISNI">0000 0004 0470 5454</institution-id><institution>Department of Computational Science and Engineering, </institution><institution>Yonsei University, </institution></institution-wrap>50, Yonsei-ro, Seoul, 03722 South Korea </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.511148.8</institution-id><institution>Korea Disease Control and Prevention Agency, </institution></institution-wrap>187, Osongsaengmyeong 2-ro, Cheongju-si, 28159 South Korea </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.202119.9</institution-id><institution-id institution-id-type="ISNI">0000 0001 2364 8385</institution-id><institution>Department of Mathematics, </institution><institution>Inha University, </institution></institution-wrap>100, Inha-ro, Incheon, 22212 South Korea </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.15444.30</institution-id><institution-id institution-id-type="ISNI">0000 0004 0470 5454</institution-id><institution>Department of Preventive Medicine and Public Health, </institution><institution>Severance Hospital, Yonsei University College of Medicine, </institution></institution-wrap>50-1, Yonsei-ro, Seoul, 03722 South Korea </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.15444.30</institution-id><institution-id institution-id-type="ISNI">0000 0004 0470 5454</institution-id><institution>Department of Mathematics, </institution><institution>Yonsei University, </institution></institution-wrap>50, Yonsei-ro, Seoul, 03722 South Korea </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>7</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>7</day>
+                <month>7</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <elocation-id>658</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>31</day>
+                  <month>3</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>28</day>
+                  <month>4</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver(<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">The reproduction number is one of the most crucial parameters in determining disease dynamics, providing a summary measure of the transmission potential. However, estimating this value is particularly challenging owing to the characteristics of epidemic data, including non-reproducibility and incompleteness.</p>
+                </sec>
+                <sec>
+                  <title>Methods</title>
+                  <p id="Par2">In this study, we propose mathematical models with different population structures; each of these models can produce data on the number of cases of the influenza A(H1N1)pdm09 epidemic in South Korea. These structured models incorporating the heterogeneity of age and region are used to estimate the reproduction numbers at various terminal times. Subsequently, the age- and region-specific reproduction numbers are also computed to analyze the differences illustrated in the incidence data.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par3">Incorporation of the age-structure or region-structure allows for robust estimation of parameters, while the basic SIR model provides estimated values beyond the reasonable range with severe fluctuation. The estimated duration of infectious period using age-structured model is around 3.8 and the reproduction number was estimated to be 1.6. The estimated duration of infectious period using region-structured model is around 2.1 and the reproduction number was estimated to be 1.4. The estimated age- and region-specific reproduction numbers are consistent with cumulative incidence for corresponding groups.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par4">Numerical results reveal that the introduction of heterogeneity into the population to represent the general characteristics of dynamics is essential for the robust estimation of parameters.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Influenza</kwd>
+                <kwd>Reproduction number</kwd>
+                <kwd>Antiviral agents</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100003725</institution-id>
+                      <institution>National Research Foundation of Korea</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>2015R1A5A1009350</award-id>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100003710</institution-id>
+                      <institution>Korea Health Industry Development Institute</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>HG20C0003030020</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p>The reproduction number is defined as the average number of secondary cases generated by a typical primary case. It is a measure of the transmission potential associated with the contact rate, duration of infectivity, and probability of transmission per contact. The maximum reproduction number is attained when an infectious person is introduced into a totally susceptible population and is called the basic reproduction number, <italic>R</italic><sub>0</sub>. Various approaches such as the exponential growth rate of infections during the early epidemic stage, model-based schemes, and maximum-likelihood estimations have been used to analyze this number [<xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR4">4</xref>].</p>
+              <p>When an infection spreads throughout a population, the time-dependent effective reproduction number, <italic>R</italic><sub><italic>t</italic></sub>, is often more useful for assessing the transmission potential throughout a pandemic, especially during the period with the highest level of activity. Real-time estimation continues to track the number of secondary infections caused by a single infective, providing a quantitative measure of the time evolution of the epidemic force. Cruz-Pacheco et al. demonstrated the manner in which sanitary measures reduce the prevalence of an infected population [<xref ref-type="bibr" rid="CR1">1</xref>]. Estimates of the reproduction number were shown to decrease from 1.4-1.5 initially to 1.1-1.2 later in the summer, which was most likely because of the vacation period and the seasonality of influenza transmission [<xref ref-type="bibr" rid="CR5">5</xref>]. In addition to capturing temporal dynamics, it is important to consider heterogeneous patterns of the transmission. It is well known that school-age children are disproportionately responsible for influenza transmissions. Estimates of the age-specific reproduction number help with our understanding of the role of each group in the transmission dynamics and with devising effective targeting mitigation strategies.</p>
+              <p>If all incident cases could be traced back to their index cases, estimating the reproduction number would simply be a matter of counting the number of secondary cases. However, with most epidemics, only the epidemic curve is observed, and there is no available information regarding who infected whom. To appropriately estimate the reproduction number from the influenza outbreak data, it is essential that the selected model capture the underlying dynamics embedded in the data. The objective of this study is to estimate the reproduction numbers based on the incidence data.</p>
+              <p>When the World Health Organization announced the emergence of influenza A(H1N1)pdm09 (pH1N1) in 2009 [<xref ref-type="bibr" rid="CR6">6</xref>], the first probable patient in South Korea was identified on April 28. A total of 763,759 confirmed cases, of which 270 were fatal, were reported by the end of August 2010 [<xref ref-type="bibr" rid="CR7">7</xref>]. During the initial epidemic phase, the main control measure was containment through quarantine and isolation. Surveillance programs in schools and medical facilities were implemented, and all confirmed cases were investigated. However, when community outbreaks were detected in June, the intervention policy switched from containment to mitigation, including vaccination and antiviral prescription. Vaccination was started on October 27, 2009, and 12.7 million people were vaccinated by the end of August 2010. Before August 20, antiviral agents were prescribed to patients with acute febrile respiratory illness (AFRI) and who had a history of travel abroad or contact with a confirmed patient. However, when the number of community-acquired cases increased, antiviral agents were prescribed to patients with AFRI symptoms.</p>
+              <p>According to the database, 3,087,788 courses of antiviral agents were prescribed from August 21, 2009 to April 30, 2010. The daily number of incident patients was estimated based on the amount of prescribed antiviral agents (Refer to [<xref ref-type="bibr" rid="CR8">8</xref>] for details). Figure <xref rid="Fig1" ref-type="fig">1</xref> shows the temporal incidence distribution of pH1N1 in South Korea. The amount of antiviral agents prescribed and the number of incident patients soared from mid-October, reached its peak at the end of October, and started declining in mid-November.
+<fig id="Fig1"><label>Fig. 1</label><caption><p>Daily antiviral agent prescription (dotted line) and incident patients (solid line) from September 1, 2009 to March 30, 2010. The incidence data used for model calibration was imported from literature and refer to [<xref ref-type="bibr" rid="CR8">8</xref>] for details</p></caption><graphic xlink:href="12879_2021_6121_Fig1_HTML" id="MO1"/></fig></p>
+              <p>Demographic and regional characteristics are illustrated in Table <xref rid="Tab1" ref-type="table">1</xref> and Fig. <xref rid="Fig2" ref-type="fig">2</xref>. The incidence rate is higher in children and students than in other age group individuals (Table <xref rid="Tab1" ref-type="table">1</xref>). The rate is higher in urban areas than in rural areas and is the highest in the national capital and the south-eastern region (Fig. <xref rid="Fig2" ref-type="fig">2</xref>).
+<fig id="Fig2"><label>Fig. 2</label><caption><p>Cumulative incidence by region, which is own figure drawn from the incidence data</p></caption><graphic xlink:href="12879_2021_6121_Fig2_HTML" id="MO2"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>Cumulative incidence by age</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Age</th><th align="left">Population size</th><th align="left">Total number of cases</th><th align="left">Incidence rate(%)</th></tr></thead><tbody><tr><td align="left">0-4</td><td align="left">2273634</td><td align="left">917793</td><td align="left">40</td></tr><tr><td align="left">5-9</td><td align="left">2671496</td><td align="left">1084094</td><td align="left">41</td></tr><tr><td align="left">10-14</td><td align="left">3284134</td><td align="left">920937</td><td align="left">28</td></tr><tr><td align="left">15-19</td><td align="left">3368818</td><td align="left">781238</td><td align="left">23</td></tr><tr><td align="left">20-24</td><td align="left">3153001</td><td align="left">305403</td><td align="left">10</td></tr><tr><td align="left">25-29</td><td align="left">4001090</td><td align="left">341940</td><td align="left">9</td></tr><tr><td align="left">30-34</td><td align="left">3856438</td><td align="left">290354</td><td align="left">8</td></tr><tr><td align="left">35-39</td><td align="left">4466962</td><td align="left">303670</td><td align="left">7</td></tr><tr><td align="left">40-44</td><td align="left">4244225</td><td align="left">220743</td><td align="left">5</td></tr><tr><td align="left">45-49</td><td align="left">4321262</td><td align="left">164735</td><td align="left">4</td></tr><tr><td align="left">50-54</td><td align="left">3761143</td><td align="left">149067</td><td align="left">4</td></tr><tr><td align="left">55-59</td><td align="left">2611705</td><td align="left">97571</td><td align="left">4</td></tr><tr><td align="left">60-64</td><td align="left">2117041</td><td align="left">73540</td><td align="left">3</td></tr><tr><td align="left">65-69</td><td align="left">1870279</td><td align="left">66033</td><td align="left">4</td></tr><tr><td align="left">70+</td><td align="left">3306607</td><td align="left">100728</td><td align="left">3</td></tr></tbody></table></table-wrap></p>
+              <p>In this paper, two different structured models are proposed to estimate reproduction numbers on the basis of the epidemic curve. We begin by introducing a basic SIR model to describe a single outbreak and build age- and region-structured models by incorporating population heterogeneity. Numerical simulations are conducted to analyze the impact of terminal time and the effect of heterogeneous structures on the estimation of parameters. Finally, the proposed models are applied to the 2009 incidence data of novel pH1N1 in South Korea to compute the age- and region-specific reproduction numbers.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Basic SIR model</title>
+                <p>We consider the standard SIR model to represent single-outbreak influenza dynamics. The model classifies individuals into three key compartments: susceptible, infected, and recovered. The nonlinear system of differential equations describing the dynamics is given by the following equation. 
+<disp-formula id="Equa"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} S^{\prime}(t) &amp;= -\beta S(t)I(t) \\ I^{\prime}(t) &amp;= \beta S(t)I(t) - \gamma I(t) \\ R^{\prime}(t) &amp;= \gamma I(t). \end{aligned} $$ \end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mi>βS</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mi>I</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mi>βS</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mi>I</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mo>−</mml:mo><mml:mi>γI</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msup><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mi>γI</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mi>.</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equa.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>The state variables <italic>S</italic>(<italic>t</italic>),<italic>I</italic>(<italic>t</italic>), and <italic>R</italic>(<italic>t</italic>) denote the number of individuals who are susceptible, infected, and recovered, respectively, at time <italic>t</italic>. The number of contact events sufficient for transmitting an infection during unit time per individual is <italic>β</italic><italic>N</italic> based on the mass action incidence. Infective individuals leave the compartment at the recovery rate <italic>γ</italic>, thereby acquiring immunity to the disease. We can drop the equation for <italic>R</italic>(<italic>t</italic>) as it has no effect on the dynamics of others and hence is determined once <italic>S</italic>(<italic>t</italic>) and <italic>I</italic>(<italic>t</italic>) are known. Based on the SIR model, we have the time-dependent net reproduction number <italic>R</italic><sub><italic>t</italic></sub>=<italic>β</italic><italic>S</italic>(<italic>t</italic>)/<italic>γ</italic>, which quantifies the level of transmission at time <italic>t</italic>. Note that <italic>R</italic><sub><italic>t</italic></sub> is the per-infective rate at which new infections occur within the average duration of infection at time <italic>t</italic>.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Age-structured model</title>
+                <p>An age-structured model is employed to estimate the reproduction number of pH1N1 because the transmission rate is higher in preschool and schoolchildren than in other age group individuals, in general. We consider a subgroup SIR model where the population is divided into <italic>n</italic><sub><italic>a</italic></sub> age groups with different transmission dynamics. We denote the number of susceptible and infected individuals within the <italic>i</italic><sup><italic>th</italic></sup> age group by <italic>S</italic><sub><italic>i</italic></sub> and <italic>I</italic><sub><italic>i</italic></sub>, respectively. Let <italic>β</italic><sub><italic>ij</italic></sub> refer to the transmission from the <italic>j</italic><sup><italic>th</italic></sup> age group to the <italic>i</italic><sup><italic>th</italic></sup> age group, and <italic>β</italic> =[<italic>β</italic><sub><italic>ij</italic></sub>] denote the transmission matrix, also known as Who-Acquires-Infection-From-Whom matrix. Putting these elements together, we have the following system of differential equations. 
+<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \begin{aligned} S_{i}^{\prime}(t) &amp;= -\sum_{j=1}^{n_{a}} \beta_{{ij}} S_{i}(t)I_{j}(t) \\ I_{i}^{\prime}(t) &amp;= \sum_{j=1}^{n_{a}} \beta_{{ij}} S_{i}(t)I_{j}(t) - \gamma_{i} I_{i}(t). \end{aligned}  $$ \end{document}</tex-math><mml:math id="M4"><mml:mtable><mml:mtr><mml:mtd><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msubsup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msubsup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mi>.</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="12879_2021_6121_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>In a general structured model of the form (<xref rid="Equ1" ref-type="">1</xref>) with <italic>n</italic><sub><italic>a</italic></sub> distinct classes, <inline-formula id="IEq1"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$n_{a}^{2}$\end{document}</tex-math><mml:math id="M6"><mml:msubsup><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12879_2021_6121_Article_IEq1.gif"/></alternatives></inline-formula> transmission terms are required. However, one transmission term is available at most for each class. The typical way to address this lack of specificity is to constrain the structure of the transmission matrix and/or to use prior knowledge of social mixing behavior. For an age-structured model, we assume that the transmission rates are proportional to the rates of social contact, which can be estimated from contact patterns. A large multi-country population-based survey conducted in Europe as a part of the POLYMOD [<xref ref-type="bibr" rid="CR9">9</xref>] enables us to implement this approach. The transmission is modeled as the product of the contact rate in the survey and an age-specific proportionality factor to account for characteristics related to susceptibility and infectiousness, which are not captured by contact rates. This leads to 
+<disp-formula id="Equb"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \beta_{{ij}}=\left\{\begin{array}{ll} q_{i} c_{{ij}} &amp; \quad i=j \\ \sigma c_{{ij}} &amp; \quad i\neq j \end{array}\right. $$ \end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable class="array" columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mspace width="1em"/><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi>j</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mspace width="1em"/><mml:mi>i</mml:mi><mml:mo>≠</mml:mo><mml:mi>j</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equb.gif" position="anchor"/></alternatives></disp-formula> where <italic>c</italic><sub><italic>ij</italic></sub> is the contact rate and <italic>q</italic><sub><italic>i</italic></sub> and <italic>σ</italic> are proportionality factors.</p>
+                <p>Based on the age-structured SIR model (<xref rid="Equ1" ref-type="">1</xref>), the reproduction number can be calculated by following Driessche and Watmough [<xref ref-type="bibr" rid="CR10">10</xref>]. It is the spectral radius of the next generation matrix <italic>M</italic> where 
+<disp-formula id="Equc"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$M_{{ij}} =\frac{\beta_{{ij}} S_{i}(t)}{\gamma_{i}}. $$ \end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mi>.</mml:mi></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equc.gif" position="anchor"/></alternatives></disp-formula> The details are given in Appendix.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Region-structured model</title>
+                <p>The second mechanism incorporates a heterogeneous population based on regions to account for the wave of the pH1N1 pandemic. We denote the number of susceptible and infected individuals within the <italic>i</italic><sup><italic>th</italic></sup> region by <italic>S</italic><sub><italic>i</italic></sub> and <italic>I</italic><sub><italic>i</italic></sub>, respectively. Let <italic>β</italic><sub><italic>ij</italic></sub> refer to the transmission from the <italic>j</italic><sup><italic>th</italic></sup> subgroup to the <italic>i</italic><sup><italic>th</italic></sup> subgroup and <italic>β</italic> =[<italic>β</italic><sub><italic>ij</italic></sub>] denote the transmission matrix. In the same manner as the age-structured model, we have the following system of differential equations. 
+<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$  \begin{aligned} S_{i}^{\prime}(t) &amp;= -\sum_{j=1}^{n_{r}} \beta_{{ij}} S_{i}(t)I_{j}(t) \\ I_{i}^{\prime}(t) &amp;= \sum_{j=1}^{n_{r}} \beta_{{ij}} S_{i}(t)I_{j}(t) - \gamma_{i} I_{i}(t). \end{aligned}  $$ \end{document}</tex-math><mml:math id="M12"><mml:mtable><mml:mtr><mml:mtd><mml:msubsup><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msubsup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msubsup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mi>.</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="12879_2021_6121_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>We assume that transmission rates between distinct regions in the region-structured model can be expressed as the frequency of transportations multiplied by a region-specific proportionality factor. The transportation information was extracted from the highway portal site and Kakao map for number of buses and highway traffic, respectively [<xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR12">12</xref>]. Let the number of buses and highway traffic from region <italic>j</italic> to region <italic>i</italic> be denoted by <italic>w</italic><sub><italic>i,j</italic></sub> and <italic>W</italic><sub><italic>i,j</italic></sub>, respectively. Note that <italic>w</italic> is symmetric because the bus route is circular, although <italic>W</italic> is not necessarily. The transmission rate can be written as 
+<disp-formula id="Equd"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \beta_{{ij}}=\left\{\begin{array}{ll} q_{i} &amp; \quad i=j \\ q_{i} \sigma_{l} w_{{ij}} + q_{i} \sigma_{g} W_{{ij}} &amp; \quad i\neq j \end{array}\right. $$ \end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable class="array" columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mspace width="1em"/><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi>j</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mspace width="1em"/><mml:mi>i</mml:mi><mml:mo>≠</mml:mo><mml:mi>j</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equd.gif" position="anchor"/></alternatives></disp-formula> where <italic>q</italic><sub><italic>i</italic></sub> is the proportionality factor, and <italic>σ</italic><sub><italic>l</italic></sub> are <italic>σ</italic><sub><italic>g</italic></sub> can be chosen such that they balance the weight between different types of transportations.</p>
+                <p>The same argument as that presented in the age-structured model gives the expression of the effective reproduction number <italic>R</italic><sub><italic>t</italic></sub>, which is the spectral radius of the following next generation matrix 
+<disp-formula id="Eque"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\left[ \frac{\beta_{{ij}} S_{i}(t)}{\gamma_{i}}\right]. $$ \end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mfenced close="]" open="["><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced><mml:mi>.</mml:mi></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Eque.gif" position="anchor"/></alternatives></disp-formula></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Study subjects and parameter estimation</title>
+                <p>Study subjects were patients who were prescribed antiviral agents from the national stockpile from August 21, 2009 to April 30, 2010. Because of mandatory antiviral agent management program during study period, all patients who were prescribed antiviral agent were included in this study. The data employed to estimate the parameters are the daily number of incident patients in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. It was estimated based on the aggregation of prescribed antiviral agents from deidentified database. This study was approved by the Institutional Review Board (IRB) of Yonsei University Health System. Since this study used retrospective data and the study subjects were anonymized, the IRB waived the requirement for written consent from the patients.</p>
+                <p>Our goal is to estimate the optimal parameters that provide the states that are best fit to the given data. This section briefly reviews the parameter estimation technique of the least squares method. In general, parameter estimation is conducted by minimizing the cost function, which measures the difference between the model prediction and observation. The simplex algorithm proposed by John Nelder and Roger Mead is applied to solve the optimization problem [<xref ref-type="bibr" rid="CR13">13</xref>]. Let <bold><italic>θ</italic></bold> be the parameter set and time points <italic>t</italic><sub><italic>j</italic></sub>(<italic>j</italic>=1,...,<italic>N</italic>) are uniformly distributed with daily time step. The data vector <bold><italic>y</italic></bold><sub><italic>j</italic></sub>(<italic>j</italic>=1,...,<italic>N</italic>) denotes the number of cases at time <italic>t</italic><sub><italic>j</italic></sub>. It is a scalar for basic SIR model, but it is a vector structured by age and region for age-stratified and region-stratified models, respectively. For example, the <bold><italic>y</italic></bold><sub><italic>j</italic></sub> is a column vector of length 15 for the age-structured model. We recast the mathematical model as 
+<disp-formula id="Equf"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \boldsymbol{x}^{\prime}(t)= \boldsymbol{g}\left(t, \boldsymbol{x}(t), \boldsymbol{\theta}\right), $$ \end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mi mathvariant="bold-italic">g</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold-italic">x</mml:mi><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mo>,</mml:mo><mml:mi mathvariant="bold-italic">θ</mml:mi></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equf.gif" position="anchor"/></alternatives></disp-formula> and assume a statistical model for measurement of the form 
+<disp-formula id="Equg"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \boldsymbol{y}_{j} = \boldsymbol{f}\left(t_{j};\boldsymbol{\theta}\right) + \varepsilon_{j}, \qquad j=1,\cdots,N $$ \end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">y</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="bold-italic">f</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:mi mathvariant="bold-italic">θ</mml:mi></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mspace width="2em"/><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mspace width="0.3em"/><mml:mo>,</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equg.gif" position="anchor"/></alternatives></disp-formula> where <bold><italic>f</italic></bold>(<italic>t</italic><sub><italic>j</italic></sub>;<bold><italic>θ</italic></bold>) is the model prediction at time <italic>t</italic><sub><italic>j</italic></sub> with parameter <bold><italic>θ</italic></bold> and the measurement error <inline-formula id="IEq2"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\varepsilon _{j} \sim \mathcal {N}\left (0, a^{2}\right)$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mrow><mml:mi>ε</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>∼</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="12879_2021_6121_Article_IEq2.gif"/></alternatives></inline-formula>. The least squares estimator can be obtained by minimizing the following cost function over the given parameter space <italic>Ω</italic><sub><italic>θ</italic></sub> [<xref ref-type="bibr" rid="CR14">14</xref>]: 
+<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \sum_{j=1}^{N} \left[\boldsymbol{y}_{j} - \boldsymbol{f}\left(t_{j};\boldsymbol{\theta}\right)\right]^{T}\left[\boldsymbol{y}_{j} - \boldsymbol{f}\left(t_{j};\boldsymbol{\theta}\right)\right]  $$ \end{document}</tex-math><mml:math id="M24"><mml:munderover><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:msup><mml:mrow><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">y</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi mathvariant="bold-italic">f</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:mi mathvariant="bold-italic">θ</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msup><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">y</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi mathvariant="bold-italic">f</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:mi mathvariant="bold-italic">θ</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="12879_2021_6121_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p>The parameter sets to be estimated for the basic SIR model, age-structured model and region-structured model, are 
+<disp-formula id="Equh"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{aligned} \boldsymbol{\theta}_{\text{basic}} &amp;= \left\{\beta, \gamma\right\} \text{and initial values of {S} and {I},}\\ \boldsymbol{\theta}_{\text{age}} &amp;= \left\{q_{i}, \sigma, \gamma_{i} \text{ for} i=1, 2,\cdots, n_{a}\right\} \text{and initial values of \(S_{i}\) and \(I_{i}\),} \\ \boldsymbol{\theta}_{\text{region}} &amp;= \left\{q_{i}, \sigma_{l}, \sigma_{g}, \gamma_{i} \text{ for} i=1, 2,\cdots, n_{r} \right\} \text{and initial values of \(S_{i}\) and \(I_{i}\)}\\ \end{aligned} $$ \end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">θ</mml:mi></mml:mrow><mml:mrow><mml:mtext>basic</mml:mtext></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>β</mml:mi><mml:mo>,</mml:mo><mml:mi>γ</mml:mi></mml:mrow></mml:mfenced><mml:mtext>and initial values of S and I,</mml:mtext></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">θ</mml:mi></mml:mrow><mml:mrow><mml:mtext>age</mml:mtext></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>σ</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mtext>for</mml:mtext><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mspace width="0.3em"/><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mtext>and initial values of</mml:mtext><mml:mspace width="1em"/><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mtext>and</mml:mtext><mml:mspace width="1em"/><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mtext>,</mml:mtext></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">θ</mml:mi></mml:mrow><mml:mrow><mml:mtext>region</mml:mtext></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>γ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mtext>for</mml:mtext><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>⋯</mml:mo><mml:mspace width="0.3em"/><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mtext>and initial values of</mml:mtext><mml:mspace width="1em"/><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mtext>and</mml:mtext><mml:mspace width="1em"/><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mtext/></mml:mtd></mml:mtr><mml:mtr/></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equh.gif" position="anchor"/></alternatives></disp-formula> where <italic>n</italic><sub><italic>a</italic></sub> and <italic>n</italic><sub><italic>r</italic></sub> denote the number of age groups and regions, respectively.</p>
+              </sec>
+            </sec>
+            <sec id="Sec7" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec8">
+                <title>Time-dependent reproduction number</title>
+                <p>We illustrate the proposed methodology and investigate its performance by applying it to 2009 incidence data of pH1N1 in South Korea. This section presents the results of the estimation obtained by applying the least squares method to basic SIR, age- and region-structured models. In each experiment, data with different time periods by varying the terminal time are tested to determine the earliest stage of the epidemic sufficient to provide a reasonable estimation. Figure <xref rid="Fig3" ref-type="fig">3</xref> displays the predicted incidence based on the basic SIR model compared with the observed data. Predictions using data only during the initial growth phase cannot effectively exhibit the dynamics and substantially overestimate the spread of the infection. The results of simulation improved after the peak of the epidemic, and the wave is roughly generated at a later stage. However, the simple SIR model does not provide a reasonable estimation of parameters. The estimated values of <italic>γ</italic> and <italic>R</italic><sub>0</sub> demonstrate a large variation and remains outside of the feasible range for the influenza, regardless of the time period for data in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. The plausible reason for this involves the model assumptions that are too simple to capture the underlying mechanisms.
+<fig id="Fig3"><label>Fig. 3</label><caption><p>Comparison of pH1N1 incidence data with predictions of least squares method (LSM) using the basic SIR model (top and bottom left): The red dots show the number of new cases per day and the blue line presents the predicted number of cases. Terminal time of data used for estimation is displayed by a black dotted vertical bar. In each figure, the end of time period was set at October 24, 2009, November 14, 2009, and March 30, 2010</p></caption><graphic xlink:href="12879_2021_6121_Fig3_HTML" id="MO3"/></fig><fig id="Fig4"><label>Fig. 4</label><caption><p>Estimated parameters and prediction using three different models: The x-axis denotes the terminal time <italic>t</italic> of data collection for which we have computed three different quantities as time passes. The duration of infectious period 1/<italic>γ</italic>(<italic>t</italic>) and transmission rate <italic>β</italic>(<italic>t</italic>) were estimated by fitting the model prediction to the number of cases as the data collection period increased. Then the basic reproduction number was obtained by computing <italic>β</italic>(<italic>t</italic>)<italic>N</italic>/<italic>γ</italic>(<italic>t</italic>) with the estimated parameters, where <italic>N</italic> represented the size of total population. And the effective reproduction number was calculated through <italic>β</italic>(<italic>t</italic>)<italic>S</italic>(<italic>t</italic>)/<italic>γ</italic>(<italic>t</italic>) using the model prediction <italic>S</italic>(<italic>t</italic>) with estimated parameters</p></caption><graphic xlink:href="12879_2021_6121_Fig4_HTML" id="MO4"/></fig></p>
+                <p>For the age-structured SIR model (<xref rid="Equ1" ref-type="">1</xref>), the total population is split into 14 subgroups of 5-year age bands and one with 70 years and older (i.e., 0-4, 5-9,..., 65-69, 70 <sup>+</sup>). This incorporates a heterogeneous population into the model in order to reflect different transmission rates in each age group. In Fig. <xref rid="Fig5" ref-type="fig">5</xref>, the outbreaks are simulated using data during various time periods in the same manner as mentioned above. Results of both the models show similar trends as long as the terminal time is earlier than mid-November when the gentle growth begins during the decline stage. Additionally, as the growth begins to decline, the age-structured SIR model fits the incidence data better than the basic SIR model. In Fig. <xref rid="Fig4" ref-type="fig">4</xref>, the reproduction number starts increasing in early October, peaks at 2.5 on October 17, and then decreases to unity at the end of October. Real-time estimation demonstrated that the effective reproduction number rose sharply during mid-October when the number of patients increased dramatically. The reproduction number fell below unity at the end of October and stayed lower than unity indicating that the epidemic starts decreasing, which is consistent with the incidence data. In the age-stratified model, heterogeneity was incorporated by WAIFW matrix where the transmission was assumed to be proportional to the contacts. The effective contacts were measured by POLYMOD contact survey, which showed a clear evidence for an age-dependency in contact patterns. Taking heterogeneous mixing into the model enabled better description of the dynamics, because the trend in behavior was consistent with the demographic characteristics of cases (as shown in Table <xref rid="Tab1" ref-type="table">1</xref>). Estimated parameters are possible indicators to determine the feasibility of models. Incorporation of the age structure allows for robust estimation of parameters, while the basic SIR model provides estimated values beyond the reasonable range with severe fluctuation in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. Table <xref rid="Tab2" ref-type="table">2</xref> summarizes the parameter estimates using three different models. The estimated duration of infectious period using age-structured model is around 3.8. The reproduction number was estimated to be 1.6 which is similar to those obtained in Mexico, the United States, New Zealand, Peru, and Chile [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR18">18</xref>].
+<fig id="Fig5"><label>Fig. 5</label><caption><p>Comparison of pH1N1 incidence data with predictions of least squares method (LSM) using age-structured SIR model (top and bottom left): The red dots show the number of new cases per day, and the blue line presents the predicted number of cases. Terminal time of data used for estimation is displayed by a black dotted vertical bar. In each figure, the end of time period was set at October 24, 2009, November 14, 2009, and March 30, 2010</p></caption><graphic xlink:href="12879_2021_6121_Fig5_HTML" id="MO5"/></fig><table-wrap id="Tab2"><label>Table 2</label><caption><p>Estimated parameters using three different models</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Basic SIR</th><th align="left">Age-structured SIR</th><th align="left">Region-structured SIR</th></tr></thead><tbody><tr><td align="left"><italic>R</italic><sub>0</sub></td><td align="left">1.0722</td><td align="justify">1.6398</td><td align="left">1.4487</td></tr><tr><td align="left">Infectious period</td><td align="left">0.5462</td><td align="justify">3.8539</td><td align="left">2.1359</td></tr></tbody></table></table-wrap></p>
+                <p>The general characteristics of regional difference led us to consider a second type of heterogeneity in the model. The nation is split into 252 in the region-structured model (<xref rid="Equ2" ref-type="">2</xref>), where the transmission rates are implemented based on transportation patterns. Figure <xref rid="Fig6" ref-type="fig">6</xref> compares the predicted cases based on the region-structured SIR model with the observed data over the course of the epidemic. As it was discussed in the previous experiment, it is not earlier than the epidemic peak for estimation to start adjusting to outbreak data. Since this outbreak, the incidence data is well described in the form of the characteristic exponential rise, turnover, and decline pattern predicted by the process model. The estimated duration of infectious period using region-structured model is around 2.1 and the reproduction number was estimated to be 1.4 (Table <xref rid="Tab2" ref-type="table">2</xref>). The time-dependent effective reproduction number is also illustrated in Fig. <xref rid="Fig4" ref-type="fig">4</xref>, which demonstrates a pattern similar to that obtained using the age-structured SIR model.
+<fig id="Fig6"><label>Fig. 6</label><caption><p>Comparison of pH1N1 incidence data with the predictions of least squares method (LSM) obtained using the region-structured SIR model (top and bottom left): The red dots show the number of new cases per day, and the blue line presents the predicted number of cases. The terminal time of data used for estimation is displayed by a black dotted vertical bar. In each figure, the end of time period was set at October 24, 2009, November 14, 2009, and March 30, 2010</p></caption><graphic xlink:href="12879_2021_6121_Fig6_HTML" id="MO6"/></fig></p>
+                <p>Estimated duration of infectious period and reproduction numbers using three different models are compared in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. Values of the cost function defined by (<xref rid="Equ3" ref-type="">3</xref>) are also provided in Fig. <xref rid="Fig7" ref-type="fig">7</xref>, which shows the goodness-of-fit in the order of region-structured, age-structured and simple SIR model.
+<fig id="Fig7"><label>Fig. 7</label><caption><p>Residual sum of squares (RSS) which measures the goodness-of-fit in least squares estimation using three different models as time passes: The time average values of RSS for the basic, age-structured and region-structured models are 1.097×10<sup>11</sup>,1.787×10<sup>9</sup>, and 7.023×10<sup>8</sup>, respectively</p></caption><graphic xlink:href="12879_2021_6121_Fig7_HTML" id="MO7"/></fig></p>
+              </sec>
+              <sec id="Sec9">
+                <title>Age-specific and region-specific reproduction numbers</title>
+                <p>It is widely known that the transmission is considerably different among various age groups. We also observe from the pH1N1 epidemic data that the incidence rate is higher in children and students than in other age groups (Table <xref rid="Tab1" ref-type="table">1</xref>). Estimates of the age-specific reproduction number help in clarifying the role of each age group in the transmission dynamics and in suggesting guidelines for effective targeting intervention strategies. The estimated age-specific reproduction numbers are displayed in Fig. <xref rid="Fig8" ref-type="fig">8</xref>. The result is closely related to the cumulative incidence for each age group because it is often the contact rate within the same age group is higher than with other groups.
+<fig id="Fig8"><label>Fig. 8</label><caption><p>Age-specific reproduction number (left) and cumulative incidence for each age group (right)</p></caption><graphic xlink:href="12879_2021_6121_Fig8_HTML" id="MO8"/></fig></p>
+                <p>The incidence rate is higher in urban areas than in rural areas, and the highest in the national capital and the south-eastern region, as shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref>. We estimated the region-specific reproduction number and observed that it is more than two in some areas and less than one in the others (Fig. <xref rid="Fig9" ref-type="fig">9</xref>). This is consistent with regions having larger cumulative incidence with a similar argument regarding contact patterns to age-specific cases.
+<fig id="Fig9"><label>Fig. 9</label><caption><p>Region-specific reproduction number (left) and cumulative incidence for each region (right)</p></caption><graphic xlink:href="12879_2021_6121_Fig9_HTML" id="MO9"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec10" sec-type="discussion">
+              <title>Discussion</title>
+              <p>An estimation of reproduction numbers is crucial because it provides a measure of the transmission potential when an infection is spreading throughout a population. The reproductive numbers in the early phase of Influenza A(H1N1)pdm09 have been estimated in several countries with different settings, yielding median 1.46 and range 1.0–3.6 [<xref ref-type="bibr" rid="CR19">19</xref>]. Many of these studies focused on cases confirmed in the early stage of the pandemic. Because laboratory tests focused on severe cases and there are possible changes in laboratory testing and notification rates, the number of confirmed cases does not necessarily represent the underlying epidemic. It also does not reflect the dynamics during the period of the highest level of activity, which is the winter in temperate climates. Some studies used the number of cases from sentinel surveillance that is much less than the actual number of influenza patients. It is necessary to estimate the reproductive number using the number of all the patients throughout a pandemic, including the period with the highest level of activity. In this study, the reproductive number was estimated based on the national data of incidence deduced from antiviral agent prescription in South Korea during the pandemic.</p>
+              <p>We discussed parameter estimation methodologies based on deterministic SIR models that included age or spatial structures with the main aim being to estimate the effective reproduction numbers, <italic>R</italic><sub>0</sub> and <italic>R</italic><sub><italic>t</italic></sub>. There could be many modelling choices to compute these important epidemiological parameters, including simple SIR model with time varying parameters [<xref ref-type="bibr" rid="CR20">20</xref>, <xref ref-type="bibr" rid="CR21">21</xref>] or renewal equations [<xref ref-type="bibr" rid="CR22">22</xref>, <xref ref-type="bibr" rid="CR23">23</xref>]. We proposed one possible approach to introduce population heterogeneity since we observed demographic and regional characteristics of incidence data. Age-structured and region-structured models were employed to describe the underlying epidemic process, in particular. To avoid exacerbating non-identifiability problem by increasing the complexity of a model, age- and region-specific data were used to estimate parameters for age- and region-structured model, respectively. And contact measurements of POLYMOD contact matrix (for age-structured model) and transportation information (for region-structured model) have been incorporated to compensate the discrepancy in the increased dimension of transmission parameters and the data. Nevertheless, we are aware that the complexity of this type of model can leave some problems of non-identifiability.</p>
+              <p>The proposed mechanisms were applied to influenza A(H1N1)pdm09 in South Korea to compute the time-dependent effective reproduction numbers. Real-time estimation showed that the reproduction number started increasing in early October, peaked at 2.5 on October 17, and then decreased to unity at the end of October. The effective number rose sharply during the mid-October when the number of patients increased dramatically. The reproduction number fell below unity at the end of October and remained lower that unity, indicating that the epidemic starts decreasing, which is consistent with the incidence data.</p>
+              <p>Subsequently, age-specific and region-specific basic reproduction numbers were estimated to account for the differences of incidence. We observe from the pH1N1 epidemic data that the incidence rate is higher in children and students than in other age groups. The estimated age-specific reproduction numbers agree with the cumulative incidence for each age group because the mixing is assortative. The incidence rate is higher in urban areas than in rural areas, highest in the national capital and in the south-eastern region. We estimated the region-specific reproduction number whose trend is similar to the number of cases in each region. Estimates of the age-specific and region-specific reproduction number help to predict the transmission dynamics, and to suggest guidelines for effective targeting intervention strategies.</p>
+              <p>This study has both limitations and strengths. First, the number of cases is estimated from the amount of prescribed antiviral agents assuming the time lag between symptom onset and antiviral agent prescription, the proportion of prescription and the proportion of pH1N1 confirmation among AFRI patients. Also, vaccination is not considered in the model. However, the effect of vaccination on the transmission of pH1N1 may have been insignificant because the vaccination for general group was initiated in January 2010. The effective contacts were employed from POLYMOD contact survey, which possibly yields discrepancy in mixing pattern of Korea [<xref ref-type="bibr" rid="CR24">24</xref>]. The use of POLYMOD as well as the potential non-identifiability of complex models are limitations of this study. We will be able to improve the outcome as we gather more information, because additional knowledge is required to achieve a better result.</p>
+              <p>On the contrary, the present research has its strengths compared to previous studies. The reproduction number was estimated based on the national level antiviral agent prescription data in South Korea throughout the pandemic including the period of the highest level of activity. The real-time estimation incorporating population structures can be used to predict the disease dynamics, thereby providing guidelines for the optimal implementation of preventive measures, such as school closing and distribution of antiviral agents.</p>
+            </sec>
+            <sec id="Sec11" sec-type="conclusion">
+              <title>Conclusions</title>
+              <p>Numerical results reveal that the introduction of heterogeneity into the population and sufficient data to represent general characteristics of dynamics are essential to the robust estimation of parameters. Real-time estimation showed that the reproduction number started increasing in early October, peaked on October 17, and then decreased to fell below unity at the end of October, which is consistent with the incidence data. The estimated age- and region-specific reproduction numbers are also consistent with cumulative incidence for corresponding groups.</p>
+            </sec>
+            <sec id="Sec12">
+              <title>Appendix</title>
+              <p>The reproduction number for the age-structured SIR model (<xref rid="Equ1" ref-type="">1</xref>), can be calculated following the approach of Driessche and Watmough [<xref ref-type="bibr" rid="CR10">10</xref>]. Let <inline-formula id="IEq3"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\mathcal {F}_{i}$\end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mrow><mml:mi mathvariant="script">F</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12879_2021_6121_Article_IEq3.gif"/></alternatives></inline-formula> be the new infections and <inline-formula id="IEq4"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\mathcal {V}_{i}$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mrow><mml:mi mathvariant="script">V</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12879_2021_6121_Article_IEq4.gif"/></alternatives></inline-formula> be the transitions of <italic>i</italic><sup><italic>th</italic></sup> compartment, then 
+<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \mathcal{F}_{i} = S_{i}\left(q_{i} c_{{ii}}I_{i} + \sum_{j\neq i} \sigma c_{{ij}}I_{j}\right)  $$ \end{document}</tex-math><mml:math id="M32"><mml:msub><mml:mrow><mml:mi mathvariant="script">F</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ii</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:munder><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>≠</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:munder><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mtext mathvariant="italic">ij</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="12879_2021_6121_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p>and 
+<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ \mathcal{V}_{i} = \gamma I_{i}.  $$ \end{document}</tex-math><mml:math id="M34"><mml:msub><mml:mrow><mml:mi mathvariant="script">V</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>γ</mml:mi><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi>.</mml:mi></mml:math><graphic xlink:href="12879_2021_6121_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p>for <italic>i</italic>=1,⋯,<italic>n</italic><sub><italic>a</italic></sub>.</p>
+              <p>Subsequently, the derivatives of <inline-formula id="IEq5"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\mathcal {F}=[\mathcal {F}_{i}]$\end{document}</tex-math><mml:math id="M36"><mml:mi mathvariant="script">F</mml:mi><mml:mo>=</mml:mo><mml:mo>[</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="script">F</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>]</mml:mo></mml:math><inline-graphic xlink:href="12879_2021_6121_Article_IEq5.gif"/></alternatives></inline-formula> and <inline-formula id="IEq6"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$\mathcal {V}=[\mathcal {V}_{i}]$\end{document}</tex-math><mml:math id="M38"><mml:mi mathvariant="script">V</mml:mi><mml:mo>=</mml:mo><mml:mo>[</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="script">V</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>]</mml:mo></mml:math><inline-graphic xlink:href="12879_2021_6121_Article_IEq6.gif"/></alternatives></inline-formula> are 
+<disp-formula id="Equi"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$\begin{aligned} F &amp;= \left[\begin{array}{cccc} S_{1} q_{1} c_{11} &amp; S_{1} \sigma c_{12} &amp; \cdots &amp; S_{1} \sigma c_{1n_{a}} \\ S_{2} \sigma c_{21} &amp; S_{1} q_{2} c_{22} &amp; \cdots &amp; S_{2} \sigma c_{2n_{a}} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ S_{n_{a}} \sigma c_{n_{a}1} &amp; S_{n_{a}} \sigma c_{n_{a}2} &amp; \cdots &amp; S_{n_{a}} q_{n_{a}} c_{n_{a}n_{a}} \end{array}\right],\\ \quad V &amp;= \left[\begin{array}{llll} \gamma &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; \gamma &amp; \cdots &amp; 0 \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; \cdots &amp;\gamma \end{array}\right], \end{aligned} $$ \end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi>F</mml:mi></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mtable class="array" columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>11</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>21</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>22</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd><mml:mtd><mml:mo>⋱</mml:mo></mml:mtd><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mspace width="1em"/><mml:mi>V</mml:mi></mml:mtd><mml:mtd><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mtable class="array" columnalign="left"><mml:mtr><mml:mtd><mml:mi>γ</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>γ</mml:mi></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd><mml:mtd><mml:mo>⋱</mml:mo></mml:mtd><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:mi>γ</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12879_2021_6121_Article_Equi.gif" position="anchor"/></alternatives></disp-formula> respectively, and the next generation matrix is 
+<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document} $$ FV^{-1} = \frac{1}{\gamma} \left[\begin{array}{cccc} S_{1} q_{1} c_{11} &amp; S_{1} \sigma c_{12} &amp; \cdots &amp; S_{1} \sigma c_{1n_{a}} \\ S_{2} \sigma c_{21} &amp; S_{1} q_{2} c_{22} &amp; \cdots &amp; S_{2} \sigma c_{2n_{a}} \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ S_{n_{a}} \sigma c_{n_{a}1} &amp; S_{n_{a}} \sigma c_{n_{a}2} &amp; \cdots &amp; S_{n_{a}} q_{n_{a}} c_{n_{a}n_{a}} \end{array}\right].  $$ \end{document}</tex-math><mml:math id="M42"><mml:mi>F</mml:mi><mml:msup><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>γ</mml:mi></mml:mrow></mml:mfrac><mml:mfenced close="]" open="["><mml:mrow><mml:mtable class="array" columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>11</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>21</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>22</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd><mml:mtd><mml:mo>⋱</mml:mo></mml:mtd><mml:mtd><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mi>σ</mml:mi><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mtd><mml:mtd><mml:mo>⋯</mml:mo></mml:mtd><mml:mtd><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced><mml:mi>.</mml:mi></mml:math><graphic xlink:href="12879_2021_6121_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p>Thus, the reproduction number is the spectral radius of <italic>FV</italic><sup>−1</sup> and the age-specific reproduction number is the column sum of <italic>FV</italic><sup>−1</sup> corresponding to the age of interest.</p>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>AFRI</term>
+                  <def>
+                    <p>Acute febrile respiratory illness</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>IRB</term>
+                  <def>
+                    <p>Institutional review board</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>WAIFW</term>
+                  <def>
+                    <p>Who acquires infection from whom</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>LSM</term>
+                  <def>
+                    <p>Least squares method</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>RSS</term>
+                  <def>
+                    <p>Residual sum of squares</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher’s Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>Yunjeong Lee and Dong Han Lee contributed equally to this work.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Not applicable.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <sec id="FPar1">
+                <title>Authors’ contributions</title>
+                <p>DHL and JL designed the work, and CK contributed to collect data. YL carried out data processing and numerical implementation, and JL, HDK, and YL interpreted the results. JL wrote the manuscript and DHL, CK, HDK and YL assisted with drafting the work. All authors read and approved the final manuscript.</p>
+              </sec>
+              <sec id="FPar2">
+                <title>Authors’ information</title>
+                <p>Not applicable.</p>
+              </sec>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>The work of Jeehyun Lee was supported by NRF-2015R1A5A1009350 and HG20C0003030020. The work of Hee-Dae Kwon was supported by NRF-2016R1D1A1B04931897 and the NST grant by the Korean government (MSIP) (No. CRC-16-01-KRICT). The funding source had no role in the study process, including the design, collection, analysis, and interpretation of data and in writing the manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>All data generated or analysed during this study are included in the published article [<xref ref-type="bibr" rid="CR8">8</xref>]. The datasets used and/or analysed during the current study are available from the corresponding author on reasonable request.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar3">
+                <title>Ethics approval and consent to participate</title>
+                <p>This study was approved by the Institutional Review Board (IRB) of Yonsei University Health System. The administrative permissions was not required to access the data used in this study and the data was anonymised before its use.</p>
+              </notes>
+              <notes id="FPar4">
+                <title>Consent for publication</title>
+                <p>Not applicable.</p>
+              </notes>
+              <notes id="FPar5" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p>The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cruz-Pacheco</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Duran</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Esteva</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Minzoni</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>López-Cervantes</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Panayotaros</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahued Ortega</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Villaseñor Ruíz</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling of the influenza A(H1N1)v outbreak in Mexico City, April-May 2009, with control sanitary measures</article-title>
+                  <source>Euro Surveill</source>
+                  <year>2009</year>
+                  <volume>14</volume>
+                  <issue>26</issue>
+                  <fpage>19254</fpage>
+                  <pub-id pub-id-type="doi">10.2807/ese.14.26.19254-en</pub-id>
+                  <pub-id pub-id-type="pmid">19573510</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fraser</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Donnelly</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cauchemez</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hanage</surname>
+                      <given-names>WP</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Kerkhove</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Hollingsworth</surname>
+                      <given-names>TD</given-names>
+                    </name>
+                    <name>
+                      <surname>Griffin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Baggaley</surname>
+                      <given-names>RF</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkins</surname>
+                      <given-names>HE</given-names>
+                    </name>
+                    <name>
+                      <surname>Lyons</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Jombart</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinsley</surname>
+                      <given-names>WR</given-names>
+                    </name>
+                    <name>
+                      <surname>Grassly</surname>
+                      <given-names>NC</given-names>
+                    </name>
+                    <name>
+                      <surname>Balloux</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghani</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferguson</surname>
+                      <given-names>NM</given-names>
+                    </name>
+                    <name>
+                      <surname>Rambaut</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Pybus</surname>
+                      <given-names>OG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lopez-Gatell</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Alpuche-Aranda</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Chapela</surname>
+                      <given-names>IB</given-names>
+                    </name>
+                    <name>
+                      <surname>Zavala</surname>
+                      <given-names>EP</given-names>
+                    </name>
+                    <name>
+                      <surname>Guevara</surname>
+                      <given-names>DME</given-names>
+                    </name>
+                    <name>
+                      <surname>Checchi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Hugonnet</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Roth</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Collaboration</surname>
+                      <given-names>TWRPA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pandemic potential of a strain of influenza A (H1N1): early findings</article-title>
+                  <source>Science</source>
+                  <year>2009</year>
+                  <volume>324</volume>
+                  <issue>5934</issue>
+                  <fpage>1557</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1176062</pub-id>
+                  <pub-id pub-id-type="pmid">19433588</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nishiura</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Chowell</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Safan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Castillo-Chavez</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pros and cons of estimating the reproduction number from early epidemic growth rate of influenza A (H1N1) 2009</article-title>
+                  <source>Theor Biol Med Model</source>
+                  <year>2010</year>
+                  <volume>7</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1186/1742-4682-7-1</pub-id>
+                  <pub-id pub-id-type="pmid">20056004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sugimoto</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Halloran</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Basta</surname>
+                      <given-names>NE</given-names>
+                    </name>
+                    <name>
+                      <surname>Chao</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Matrajt</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Potter</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kenah</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Longini</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The transmissibility and control of pandemic influenza A (H1N1) virus</article-title>
+                  <source>Science</source>
+                  <year>2009</year>
+                  <volume>326</volume>
+                  <issue>5953</issue>
+                  <fpage>729</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1177373</pub-id>
+                  <pub-id pub-id-type="pmid">19745114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cowling</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lau</surname>
+                      <given-names>MSY</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>L-M</given-names>
+                    </name>
+                    <name>
+                      <surname>Chuang</surname>
+                      <given-names>S-K</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>S-H</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>P-Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lo</surname>
+                      <given-names>S-V</given-names>
+                    </name>
+                    <name>
+                      <surname>Lau</surname>
+                      <given-names>EHY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effective reproduction number of pandemic influenza: prospective estimation</article-title>
+                  <source>Epidemiology</source>
+                  <year>2010</year>
+                  <volume>21</volume>
+                  <issue>6</issue>
+                  <fpage>842</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.1097/EDE.0b013e3181f20977</pub-id>
+                  <pub-id pub-id-type="pmid">20805752</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6</label>
+                <mixed-citation publication-type="other">World Health Organization. Influenza-like illness in the United States and Mexico. 2009. <ext-link ext-link-type="uri" xlink:href="https://www.who.int/csr/don/2009_04_24/en/">https://www.who.int/csr/don/2009_04_24/en/</ext-link>. Accessed 4 Sep 2019.</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>Korea Centers for Disease Control and Prevention</collab>
+                  </person-group>
+                  <article-title>Analysis of reported pandemic influenza (A/H1N1 2009) virus infections in Korea - from April, 2009 through August, 2010</article-title>
+                  <source>Public Health Weekly Report 2010a</source>
+                  <year>2010</year>
+                  <volume>3</volume>
+                  <fpage>637</fpage>
+                  <lpage>42</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8</label>
+                <mixed-citation publication-type="other">Lee DH. Estimation of the reproduction number of pandemic influenza A(H1N1) 2009 from national data of antiviral agent prescription. PhD thesis, Yonsei University, Department of Public Health, Seoul, South Korea. 2011.</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9</label>
+                <mixed-citation publication-type="other">Mossong J, Hens N, Jit M, Beutels P, Auranen K, Mikolajczyk R, Massari M, Salmaso S, Tomba GS, Wallinga J, Heijne J, Sadkowska-Todys M, Rosinska M, Edmunds WJ. Social contacts and mixing patterns relevant to the spread of infectious diseases. 2008; 5(3):e74.</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van den Driessche</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Watmough</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reproduction numbers and sub-threshold endemic equilibria for compartmental models of disease transmission</article-title>
+                  <source>Math Biosci</source>
+                  <year>2002</year>
+                  <volume>180</volume>
+                  <fpage>29</fpage>
+                  <lpage>48</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0025-5564(02)00108-6</pub-id>
+                  <pub-id pub-id-type="pmid">12387915</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11</label>
+                <mixed-citation publication-type="other">Kakao Corporation, Jeju-si, South Korea. Kakao map. 2017. <ext-link ext-link-type="uri" xlink:href="https://map.kakao.com/">https://map.kakao.com/</ext-link>. Updated 25 Feb 2019, Accessed 15 Mar 2017.</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12</label>
+                <mixed-citation publication-type="other">Korea Expressway Corporation, Gimcheon-si, South Korea. Highway public data portal. c2015. http://data.ex.co.kr/portal/fdwn/view?type=TCS&amp;num=39&amp;requestfrom=dataset#. Accessed 15 Mar 2017.</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nelder</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mead</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A simplex method for function minimization</article-title>
+                  <source>Comput J</source>
+                  <year>1965</year>
+                  <volume>7</volume>
+                  <issue>4</issue>
+                  <fpage>308</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1093/comjnl/7.4.308</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Banks</surname>
+                      <given-names>HT</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                  </person-group>
+                  <source>Modeling and Inverse Problems in the Presence of Uncertainty</source>
+                  <year>2014</year>
+                  <publisher-loc>New York</publisher-loc>
+                  <publisher-name>Chapman and Hall/CRC</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Paine</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Mercer</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kelly</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandaranayake</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackereth</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Bissielo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Glass</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Hope</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Transmissibility of 2009 pandemic influenza A (H1N1) in New Zealand: effective reproduction number and influence of age, ethnicity and importations</article-title>
+                  <source>Euro Surveill</source>
+                  <year>2010</year>
+                  <volume>15</volume>
+                  <issue>24</issue>
+                  <fpage>19591</fpage>
+                  <pub-id pub-id-type="doi">10.2807/ese.15.24.19591-en</pub-id>
+                  <pub-id pub-id-type="pmid">20576236</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Munayco</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomez</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Laguna-Torres</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Arrasco</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kochel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Fiestas</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Perez</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Torres</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Condori</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Epidemiological and transmissibility analysis of influenza a (h1n1) v in a southern hemisphere setting: Peru</article-title>
+                  <source>Euro Surveill</source>
+                  <year>2009</year>
+                  <volume>14</volume>
+                  <issue>32</issue>
+                  <fpage>19299</fpage>
+                  <pub-id pub-id-type="doi">10.2807/ese.14.32.19299-en</pub-id>
+                  <pub-id pub-id-type="pmid">19679037</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sugimoto</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Halloran</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Basta</surname>
+                      <given-names>NE</given-names>
+                    </name>
+                    <name>
+                      <surname>Chao</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Matrajt</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Potter</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Kenah</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Longini</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The transmissibility and control of pandemic influenza A (H1N1) virus</article-title>
+                  <source>Science</source>
+                  <year>2009</year>
+                  <volume>326</volume>
+                  <issue>5953</issue>
+                  <fpage>729</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1177373</pub-id>
+                  <pub-id pub-id-type="pmid">19745114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pedroni</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Espinola</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Guerrero</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonzalez</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Olea</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Calvo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Martorell</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Winkler</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Carrasco</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Outbreak of 2009 pandemic influenza A (H1N1), Los Lagos, Chile, April-June 2009</article-title>
+                  <source>Euro Surveill</source>
+                  <year>2010</year>
+                  <volume>15</volume>
+                  <issue>1</issue>
+                  <fpage>19456</fpage>
+                  <?supplied-pmid 20067745?>
+                  <pub-id pub-id-type="pmid">20067745</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Biggerstaff</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Cauchemez</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Reed</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gambhir</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Finelli</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimates of the reproduction number for seasonal, pandemic, and zoonotic influenza: a systematic review of the literature</article-title>
+                  <source>BMC Infect Dis</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <fpage>480</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2334-14-480</pub-id>
+                  <pub-id pub-id-type="pmid">25186370</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cazelles</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Champagne</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Dureau</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accounting for non-stationarity in epidemiology by embedding time-varying parameters in stochastic models</article-title>
+                  <source>PLoS Comput Biol</source>
+                  <year>2018</year>
+                  <volume>14</volume>
+                  <issue>8</issue>
+                  <fpage>1006211</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1006211</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lemaitre</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Perez-Saez</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Azman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rinaldo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Fellay</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing the impact of non-pharmaceutical interventions on SARS-CoV-2 transmission in Switzerland</article-title>
+                  <source>Swiss Med Wkly</source>
+                  <year>2020</year>
+                  <volume>150</volume>
+                  <fpage>20295</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cori</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferguson</surname>
+                      <given-names>NM</given-names>
+                    </name>
+                    <name>
+                      <surname>Fraser</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Cauchemez</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new framework and software to estimate time-varying reproduction numbers during epidemics</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2013</year>
+                  <volume>178</volume>
+                  <issue>9</issue>
+                  <fpage>1505</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwt133</pub-id>
+                  <pub-id pub-id-type="pmid">24043437</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wallinga</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Teunis</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2004</year>
+                  <volume>160</volume>
+                  <issue>6</issue>
+                  <fpage>509</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwh255</pub-id>
+                  <pub-id pub-id-type="pmid">15353409</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Britton</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ball</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Trapman</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A mathematical model reveals the influence of population heterogeneity on herd immunity to SARS-CoV-2</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <volume>369</volume>
+                  <issue>6505</issue>
+                  <fpage>846</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.abc6810</pub-id>
+                  <pub-id pub-id-type="pmid">32576668</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

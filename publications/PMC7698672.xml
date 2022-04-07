@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:59:43Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7698672" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7698672</identifier>
+        <datestamp>2020-12-01</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Chaos Solitons Fractals</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Chaos Solitons Fractals</journal-id>
+              <journal-title-group>
+                <journal-title>Chaos, Solitons, and Fractals</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0960-0779</issn>
+              <issn pub-type="epub">0960-0779</issn>
+              <publisher>
+                <publisher-name>Elsevier Ltd.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7698672</article-id>
+              <article-id pub-id-type="pmcid">PMC7698672</article-id>
+              <article-id pub-id-type="pmc-uid">7698672</article-id>
+              <article-id pub-id-type="pmid">33281306</article-id>
+              <article-id pub-id-type="pii">S0960-0779(20)30904-8</article-id>
+              <article-id pub-id-type="doi">10.1016/j.chaos.2020.110512</article-id>
+              <article-id pub-id-type="publisher-id">110512</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Frontiers</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Data analysis of Covid-19 pandemic and short-term cumulative case forecasting using machine learning time series methods</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au0001">
+                  <name>
+                    <surname>Ballı</surname>
+                    <given-names>Serkan</given-names>
+                  </name>
+                  <xref rid="fn0001" ref-type="fn">1</xref>
+                </contrib>
+                <aff id="aff0001">Department of Information Systems Engineering, Faculty of Technology, Muğla Sıtkı Koçman University, 48000, Muğla, Turkey</aff>
+              </contrib-group>
+              <author-notes>
+                <fn id="fn0001">
+                  <label>1</label>
+                  <p id="fn1">[orcid=0000-0002-4825-139X]</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>28</day>
+                <month>11</month>
+                <year>2020</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>11</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>142</volume>
+              <fpage>110512</fpage>
+              <lpage>110512</lpage>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 Elsevier Ltd. All rights reserved.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder/>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract abstract-type="author-highlights" id="absh001">
+                <title>Highlights</title>
+                <p>
+                  <list list-type="simple" id="lst0001">
+                    <list-item id="lstitem0001">
+                      <label>•</label>
+                      <p id="p0001">The cumulative coronavirus cases for USA, Germany and Global are forecasted.</p>
+                    </list-item>
+                    <list-item id="lstitem0002">
+                      <label>•</label>
+                      <p id="p0002">Four different machine learning time series methods are employed.</p>
+                    </list-item>
+                    <list-item id="lstitem0003">
+                      <label>•</label>
+                      <p id="p0003">SVM method achieves the best trend.</p>
+                    </list-item>
+                    <list-item id="lstitem0004">
+                      <label>•</label>
+                      <p id="p0004">Largest extreme value distribution fits best for Covid-19 global cumulative weekly cases.</p>
+                    </list-item>
+                  </list>
+                </p>
+              </abstract>
+              <abstract id="abs0001">
+                <p>The Covid-19 pandemic is the most important health disaster that has surrounded the world for the past eight months. There is no clear date yet on when it will end. As of 18 September 2020, more than 31 million people have been infected worldwide. Predicting the Covid-19 trend has become a challenging issue. In this study, data of COVID-19 between 20/01/2020 and 18/09/2020 for USA, Germany and the global was obtained from World Health Organization. Dataset consist of weekly confirmed cases and weekly cumulative confirmed cases for 35 weeks. Then the distribution of the data was examined using the most up-to-date Covid-19 weekly case data and its parameters were obtained according to the statistical distributions. Furthermore, time series prediction model using machine learning was proposed to obtain the curve of disease and forecast the epidemic tendency. Linear regression, multi-layer perceptron, random forest and support vector machines (SVM) machine learning methods were used. The performances of the methods were compared according to the RMSE, APE, MAPE metrics and it was seen that SVM achieved the best trend. According to estimates, the global pandemic will peak at the end of January 2021 and estimated approximately 80 million people will be cumulatively infected.</p>
+              </abstract>
+              <kwd-group id="keys0001">
+                <title>Keywords</title>
+                <kwd>Covid-19</kwd>
+                <kwd>Machine learning</kwd>
+                <kwd>Support vector machines</kwd>
+                <kwd>Multi-layer perceptron</kwd>
+                <kwd>Statistical distribution</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec0001">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="p0005">The COVID-19 disease, which occurred after December 2019, spread all over the world after February 2020. The virus has passed from animals to humans and is transmitted from person to person via airborne droplets <xref rid="bib0008" ref-type="bibr">[8]</xref>. In a short time, it became the biggest epidemic the world has seen in the last century. With respect to data from World Health Organization (WHO), the number of cases seen worldwide is increasing rapidly. Despite the measures taken, the virus has not yet been stopped because of its high infectious power.</p>
+              <p id="p0006">Since COVID-19 first emerged, various trend analysis studies have been conducted. Fanelli and Piazza <xref rid="bib0006" ref-type="bibr">[6]</xref> analyzed the temporal dynamics of the coronavirus disease 2019 outbreak in China, Italy and France. Yesilkanat <xref rid="bib0020" ref-type="bibr">[20]</xref> estimated the near future case numbers for 190 countries in the world using random forest algorithm. Sahin and Sahin <xref rid="bib0012" ref-type="bibr">[12]</xref> estimated the cumulative cases of COVID-19 using fractional nonlinear grey Bernoulli model. Yadav et al. <xref rid="bib0018" ref-type="bibr">[18]</xref> analyzed COVID-19 spread using machine learning methods. Kaxiras et al. <xref rid="bib0009" ref-type="bibr">[9]</xref> used Susceptible-Infectious-Removed (SIR) populations model for describing COVID-19 pandemic. Wang et al. <xref rid="bib0015" ref-type="bibr">[15]</xref> studied on prediction of Covid-19 with logistic model and machine learning technics. Wieczorek et al. <xref rid="bib0017" ref-type="bibr">[17]</xref> presented a neural network powered COVID-19 spread forecasting model. Das <xref rid="bib0004" ref-type="bibr">[4]</xref> estimated incidences of COVID-19 using Box-Jenkins method for the period July 12-September 11, 2020. Shastri et al. <xref rid="bib0013" ref-type="bibr">[13]</xref> performed a time series forecasting of Covid-19 using deep learning models for India and USA. Feroze <xref rid="bib0007" ref-type="bibr">[7]</xref> forecasted the patterns of COVID-19 using bayesian structural time series models.</p>
+              <p id="p0007">In this study, unlike previous works, the distribution of Covid-19 weekly case increase was examined and the largest extreme value distribution was found for global and Germany, and smallest extreme value distribution was found for USA. Afterwards, the disease curves were found and predictions were made for weekly cumulative cases for global, Germany and USA with linear regression, multi-layer perceptron, random forest and support vector machines (SVM) machine learning time series methods. The performances of the methods were compared according to the RMSE, APE, MAPE metrics and SVM was found best fitted method to forecast Covid-19 data. Then short-term cumulative case forecasting was applied using all methods for global, Germany and USA.</p>
+              <p id="p0008">The paper is organized as follows. In the section two, machine learning time series methods will be introduced. Detailed analysis of the dataset will be explained in the third section. In the fourth section, evaluation metrics, results and discussion will be given. Finally, the conclusion of the study will be summarized in the section five.</p>
+            </sec>
+            <sec id="sec0002">
+              <label>2</label>
+              <title>Machine learning for time series forecasting</title>
+              <p id="p0009">There are numerous approaches in the literature which are used to model time series such as Auto-Regressive Integrated Moving Average (ARIMA) and Fourier Transforms. These are univariate due to the nature of the time series’s data. Using a single variable can be ineffective in understanding the time series. Therefore, it may be necessary to convert the data to multivariate. Machine learning can be used for this purpose <xref rid="bib0001" ref-type="bibr">[1]</xref>.</p>
+              <p id="p0010">Machine learning time series takes into account the time parameter and evaluates other inputs based on time. Time feature is divided into sub-components such as daily, weekly, monthly, quarterly, days of the week, weekend, weekdays, N-period lagged date, minimum, maximum, average, powers of time, products of time and lagged variables. Hidden patterns in time series can be captured with these components.</p>
+              <p id="p0011">As in general machine learning methods, the data for the time series is divided into two groups as training and test data. The data behavior is learned by training data and a general model is created. Then, this model is tested using the test data. Machine learning time series with nonlinear data can yield successful results. The machine learning methods used in this study are discussed in the following subsections.</p>
+              <sec id="sec0003">
+                <label>2.1</label>
+                <title>Random forest</title>
+                <p id="p0012">Random Forest (RF) is a popular unsupervised learning technique and employed for regression and classification <xref rid="bib0003" ref-type="bibr">[3]</xref>. It is an ensemble learning method. The classifier represents a decision tree <xref rid="bib0019" ref-type="bibr">[19]</xref>. N outputs by N decision trees are obtained using this method. All outcomes are estimated by voting. RF is both a simple and easy method for using parallel <xref rid="bib0002" ref-type="bibr">[2]</xref>.</p>
+              </sec>
+              <sec id="sec0004">
+                <label>2.2</label>
+                <title>Linear regression</title>
+                <p id="p0013">Linear regression is the most basic and simple approach used to find the relationship between variables consisting of numerical data. In this method, the trend of the data is found and estimation is performed accordingly. However, all independent variables must be defined <xref rid="bib0005" ref-type="bibr">[5]</xref>.</p>
+              </sec>
+              <sec id="sec0005">
+                <label>2.3</label>
+                <title>Multilayer perceptron</title>
+                <p id="p0014">Artificial neural networks (ANN) work by imitating the learning feature of the human brain. It gives better results for longer term predictions than statistical methods. It can also model nonlinear data. However, it is unknown how it does modeling the data because of its black-box feature <xref rid="bib0005" ref-type="bibr">[5]</xref>. A multilayer perceptron (MLP) is a feed forward ANN model. A MLP consists of three layers: output, hidden and input. MLP uses a back propagation (supervised) learning technique for training. MLP can discern data that can not be linearly separated <xref rid="bib0011" ref-type="bibr">[11]</xref>. Mathematical calculation of MLP is stated as follows:<disp-formula id="eq0001"><label>(1)</label><mml:math id="M1" altimg="si1.svg"><mml:mrow><mml:mi>y</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true">{</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:msub><mml:mi mathvariant="bold">w</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:msub><mml:mi>f</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="true">[</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:msub><mml:mi mathvariant="bold">h</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi mathvariant="bold">X</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="badbreak">+</mml:mo><mml:msub><mml:mi mathvariant="bold">b</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="true">]</mml:mo></mml:mrow><mml:mo linebreak="badbreak">+</mml:mo><mml:msub><mml:mi mathvariant="bold">b</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy="true">}</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula> where y is the output, X is the vector of input, h<sub>ij</sub> is the weight matrix, b<sub>j</sub> is the bias vector and f<sub>H</sub> is the hidden layer’s activation function, w<sub>j</sub>, b<sub>o</sub> and f<sub>o</sub> are the vector of weight, the bias scalar and the output layer’s activation function <xref rid="bib0010" ref-type="bibr">[10]</xref>.</p>
+              </sec>
+              <sec id="sec0006">
+                <label>2.4</label>
+                <title>Support vector machines</title>
+                <p id="p0015">The support vector machine (SVM) is a machine learning technique employed for classification and regression. Instead of using a nonlinear function for regression, it tests to predict the regression employing a linear function in a large space <xref rid="bib0014" ref-type="bibr">[14]</xref>. In SVM prediction is calculated by following formula:<disp-formula id="eq0002"><label>(2)</label><mml:math id="M2" altimg="si2.svg"><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">=</mml:mo><mml:msup><mml:mi>w</mml:mi><mml:mi>T</mml:mi></mml:msup><mml:mi>x</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:math></disp-formula> where x is vector of the input, b is the bias and w is the vector of weight <xref rid="bib0001" ref-type="bibr">[1]</xref>.</p>
+              </sec>
+            </sec>
+            <sec id="sec0007">
+              <label>3</label>
+              <title>Covid-19 dataset and distribution analysis</title>
+              <p id="p0016">In this study, data of COVID-19 between 20/01/2020 and 18/09/2020 for USA, Germany and global was was obtained from World Health Organization website <xref rid="bib0016" ref-type="bibr">[16]</xref>. Dataset consist of weekly confirmed cases and weekly cumulative confirmed cases for 35 weeks. Descriptive statistics of weekly confirmed cases is given in <xref rid="tbl0001" ref-type="table">Table 1</xref>
+. Considering the 8-months period, a global average of 881.504 new cases are seen weekly. The standard deviation for global is also almost close to the mean. This closeness is similar for the USA and Germany. The positive skewness that Germany has means that there is a longer tail on the right.<table-wrap position="float" id="tbl0001"><label>Table 1</label><caption><p>Descriptive statistics of weekly confirmed cases</p></caption><alt-text id="at0008">Table 1</alt-text><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="top"/><th align="left" valign="top">Mean</th><th align="left" valign="top">Std.Dev.</th><th align="left" valign="top">Minimum</th><th align="left" valign="top">Maximum</th><th align="left" valign="top">Skewness</th><th align="left" valign="top">Kurtosis</th></tr></thead><tbody><tr><td valign="top"><bold>Global</bold></td><td valign="top">881.504</td><td valign="top">714.238</td><td valign="top">1.928</td><td valign="top">2.177.544</td><td valign="top">0,30</td><td valign="top">-1,35</td></tr><tr><td valign="top"><bold>USA</bold></td><td valign="top">29.274</td><td valign="top">21.516</td><td valign="top">0</td><td valign="top">66.963</td><td valign="top">-0,01</td><td valign="top">-1,05</td></tr><tr><td valign="top"><bold>Germany</bold></td><td valign="top">988</td><td valign="top">1.172</td><td valign="top">0</td><td valign="top">4.615</td><td valign="top">2,03</td><td valign="top">3,98</td></tr></tbody></table></table-wrap></p>
+              <p id="p0017">Germany has positive kurtosis, global and USA have negative kurtosis. As shown in <xref rid="fig0001" ref-type="fig">Fig. 1</xref>
+, the data distribution for Germany with large kurtosis displays tail data that exceeds the tails of the normal distribution.<fig id="fig0001"><label>Fig. 1</label><caption><p>Histogram of weekly cases for global, Germany and USA</p></caption><alt-text id="at0001">Fig. 1</alt-text><graphic xlink:href="gr1_lrg"/></fig></p>
+              <p id="p0018">In addition, distribution analysis was made for weekly case data. The results of goodness of fit test for weekly global cases are given in <xref rid="tbl0002" ref-type="table">Table 2</xref>
+. Fitting of the data to Lognormal, Normal, Exponential, 2-Parameter Exponential, Weibull, 3-Parameter Weibull, Largest Extreme Value, Smallest Extreme Value, Logistic and Gamma distributions was investigated.<table-wrap position="float" id="tbl0002"><label>Table 2</label><caption><p>Goodness of fit test for weekly global cases</p></caption><alt-text id="at0009">Table 2</alt-text><table frame="hsides" rules="groups"><thead><tr><th align="left">Distribution</th><th align="left">AD</th><th align="left">P</th></tr></thead><tbody><tr><td valign="top">Normal</td><td valign="top">1,259</td><td valign="top">&lt;0,005</td></tr><tr><td valign="top">Lognormal</td><td valign="top">2,860</td><td valign="top">&lt;0,005</td></tr><tr><td valign="top">Exponential</td><td valign="top">2,594</td><td valign="top">&lt;0,003</td></tr><tr><td valign="top">2-Parameter Exponential</td><td valign="top">1,665</td><td valign="top">0,012</td></tr><tr><td valign="top">Weibull</td><td valign="top">2,039</td><td valign="top">&lt;0,010</td></tr><tr><td valign="top">3-Parameter Weibull</td><td valign="top">1,667</td><td valign="top">&lt;0,005</td></tr><tr><td valign="top">Smallest Extreme Value</td><td valign="top">1,564</td><td valign="top">&lt;0,010</td></tr><tr><td valign="top">Largest Extreme Value</td><td valign="top">1,153</td><td valign="top">&lt;0,010</td></tr><tr><td valign="top">Gamma</td><td valign="top">1,798</td><td valign="top">&lt;0,005</td></tr><tr><td valign="top">Logistic</td><td valign="top">1,232</td><td valign="top">&lt;0,005</td></tr></tbody></table></table-wrap></p>
+              <p id="p0019">In <xref rid="tbl0002" ref-type="table">Table 2</xref>, AD value represents Anderson-Darling test value. It is a measure of the deviations between the fitted line of the distribution and data points. The p-value is the probability showing that the data follow the distribution. In order to choose the best distribution, it is expected that the AD value is low and the p-value is high. The probability plot of the first four distributions with the lowest AD value is given in <xref rid="fig0002" ref-type="fig">Fig. 2</xref>
+. As seen in <xref rid="fig0002" ref-type="fig">Fig. 2</xref>, Largest Extreme Value is the distribution that fits best for global weekly data.<fig id="fig0002"><label>Fig. 2</label><caption><p>Probability plot for weekly global cases</p></caption><alt-text id="at0002">Fig. 2</alt-text><graphic xlink:href="gr2_lrg"/></fig></p>
+              <p id="p0020">Estimated parameters of distributions for global weekly data are given in <xref rid="tbl0003" ref-type="table">Table 3</xref>
+. Using these parameters, proper similar data can be derived for distributions or used for estimation.<table-wrap position="float" id="tbl0003"><label>Table 3</label><caption><p>Estimates of distribution parameters for weekly global cases</p></caption><alt-text id="at0010">Table 3</alt-text><table frame="hsides" rules="groups"><thead><tr><th align="left">Distribution</th><th align="left">Location</th><th align="left">Shape</th><th align="left">Scale</th><th align="left">Threshold</th></tr></thead><tbody><tr><td valign="top"><bold>Normal</bold></td><td valign="top">881.504</td><td>-</td><td valign="top">714.238</td><td>-</td></tr><tr><td valign="top"><bold>Lognormal</bold></td><td valign="top">12,80563</td><td>-</td><td valign="top">1,93553</td><td>-</td></tr><tr><td valign="top"><bold>Exponential</bold></td><td>-</td><td>-</td><td valign="top">881.504</td><td>-</td></tr><tr><td valign="top"><bold>2-Parameter Exponential</bold></td><td>-</td><td>-</td><td valign="top">905.445</td><td valign="top">-23.941,9</td></tr><tr><td valign="top"><bold>Weibull</bold></td><td>-</td><td valign="top">0,83125</td><td valign="top">820.779</td><td>-</td></tr><tr><td valign="top"><bold>3-Parameter Weibull</bold></td><td>-</td><td valign="top">1,01121</td><td valign="top">910.043</td><td valign="top">-24.993</td></tr><tr><td valign="top"><bold>Smallest Extreme Value</bold></td><td valign="top">1.241.170</td><td>-</td><td valign="top">668.737</td><td>-</td></tr><tr><td valign="top"><bold>Largest Extreme Value</bold></td><td valign="top">542.319</td><td>-</td><td valign="top">580.244</td><td>-</td></tr><tr><td valign="top"><bold>Gamma</bold></td><td>-</td><td valign="top">0,68580</td><td valign="top">1.285.360</td><td>-</td></tr><tr><td valign="top"><bold>Logistic</bold></td><td valign="top">844.683</td><td>-</td><td valign="top">430.713</td><td>-</td></tr></tbody></table></table-wrap></p>
+              <p id="p0021">Similarly, the goodness of fit test was performed for the weekly case data of Germany and USA, and probability plots are given in <xref rid="fig0003" ref-type="fig">Figs. 3</xref>
+and <xref rid="fig0004" ref-type="fig">4</xref>
+. Accordingly, the best fit distribution for Germany was found as largest extreme value and it was found as smallest extreme value for USA. The smallest extreme value distribution is skewed to the left and the largest extreme value distribution is skewed to the right. This skewness can also be seen in <xref rid="fig0001" ref-type="fig">Fig. 1</xref> for Germany, USA and global data.<fig id="fig0003"><label>Fig. 3</label><caption><p>Probability plot for weekly cases in Germany</p></caption><alt-text id="at0003">Fig. 3</alt-text><graphic xlink:href="gr3_lrg"/></fig><fig id="fig0004"><label>Fig. 4</label><caption><p>Probability plot for weekly cases in USA</p></caption><alt-text id="at0004">Fig. 4</alt-text><graphic xlink:href="gr4_lrg"/></fig></p>
+            </sec>
+            <sec id="sec0008">
+              <label>4</label>
+              <title>Short-term cumulative case forecasting</title>
+              <p id="p0022">In this study, data of COVID-19 between 20/01/2020 and 18/09/2020 for USA, Germany and the global was obtained from World Health Organization website <xref rid="bib0016" ref-type="bibr">[16]</xref>. Furthermore, time series prediction model using machine learning methods is proposed to obtain the disease curve and forecast the epidemic trend. Linear regression, multi-layer perceptron, random forest and support vector machines methods were used for forecasting. The evaluation metrics described in the subsection below are used to compare these methods.</p>
+              <sec id="sec0009">
+                <label>4.1</label>
+                <title>Evaluation metrics</title>
+                <p id="p0023">In order to compare the estimation methods used in this study, root mean square error (RMSE), mean absolute percentage error (MAPE) and absolute percentage error (APE) metrics were used. By measuring APE, the consistency between the original value and the predicted value is calculated. These values are expected to be low when comparing. The following equations will express the APE, MAPE, and RMSE calculations:<disp-formula id="eq0003"><label>(3)</label><mml:math id="M3" altimg="si3.svg"><mml:mrow><mml:mi>A</mml:mi><mml:mi>P</mml:mi><mml:mi>E</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mo>%</mml:mo><mml:mo>)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">=</mml:mo><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mfrac><mml:mrow><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mi>y</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>y</mml:mi><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:math></disp-formula>
+<disp-formula id="eq0004"><label>(4)</label><mml:math id="M4" altimg="si4.svg"><mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mi>A</mml:mi><mml:mi>P</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mo>%</mml:mo><mml:mo>)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">=</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mfrac><mml:mrow><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mi>y</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>y</mml:mi><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mfrac><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">×</mml:mo><mml:mfrac><mml:mn>100</mml:mn><mml:mrow><mml:mi>n</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+<disp-formula id="eq0005"><label>(5)</label><mml:math id="M5" altimg="si5.svg"><mml:mrow><mml:mi>R</mml:mi><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:msqrt><mml:mfrac><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mi>y</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mo>(</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mi>n</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfrac></mml:msqrt></mml:mrow></mml:math></disp-formula> where n shows observation number, y<sub>i</sub> is the i-th observed value and ŷ<sub>i</sub> is the i-th estimated value.</p>
+              </sec>
+              <sec id="sec0010">
+                <label>4.2</label>
+                <title>Results and discussion</title>
+                <p id="p0024">Machine learning time series takes into account the time parameter and evaluates other inputs based on time. In this study, time feature is divided into sub-components as time index, weekly cases, 17 lagged variables of weekly cases, square of the time index, cube of time index and products of 17 lagged variables with time index. Thus, 38 different variables were extracted.</p>
+                <p id="p0025">Dataset consist of weekly cumulative confirmed cases for 35 weeks. In machine learning methods, the data for the time series is divided into two groups as training and test data. In this study, 18 weeks were used for training and 17 weeks as test data.</p>
+                <p id="p0026">After training and testing, APE, MAPE, RMSE values were found and are given in <xref rid="tbl0004" ref-type="table">Table 4</xref>
+for linear regression, multi-layer perceptron, random forest and SVM machine learning methods. In <xref rid="tbl0004" ref-type="table">Table 4</xref>, it is seen that SVM method provides the best performance for the global, Germany and USA data. It is the method with the lowest value for RMSE, MAPE, and APE values. It is obviously seen that SVM achieved the best trend for all data.<table-wrap position="float" id="tbl0004"><label>Table 4</label><caption><p>Comparison of the methods.</p></caption><alt-text id="at0011">Table 4</alt-text><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="top">Methods</th><th align="left">Metric</th><th align="left">Global</th><th align="left">Germany</th><th align="left">USA</th></tr></thead><tbody><tr><td align="left" rowspan="3" valign="top">Random Forest</td><td valign="top">MAE</td><td valign="top">269.274,0518</td><td valign="top">955,1736</td><td valign="top">42.496,719</td></tr><tr><td valign="top">MAPE</td><td valign="top">2,0726</td><td valign="top">0,4477</td><td valign="top">1,5608</td></tr><tr><td valign="top">RMSE</td><td valign="top">340.926,4251</td><td valign="top">1.387,0147</td><td valign="top">53.864,6539</td></tr><tr><td align="left" rowspan="3" valign="top">Linear Regression</td><td valign="top">MAE</td><td valign="top">17.081,1363</td><td valign="top">224,0337</td><td valign="top">11.745,2812</td></tr><tr><td valign="top">MAPE</td><td valign="top">0,1853</td><td valign="top">0,1125</td><td valign="top">0,3331</td></tr><tr><td valign="top">RMSE</td><td valign="top">21.816,6988</td><td valign="top">324,0253</td><td valign="top">16.508,4263</td></tr><tr><td align="left" rowspan="3" valign="top">MLP</td><td valign="top">MAE</td><td valign="top">139.330,4846</td><td valign="top">752,3291</td><td valign="top">19.819,1675</td></tr><tr><td valign="top">MAPE</td><td valign="top">0,8179</td><td valign="top">0,381</td><td valign="top">0,6497</td></tr><tr><td valign="top">RMSE</td><td valign="top">223.638,9972</td><td valign="top">832.688,26</td><td valign="top">26.713,8094</td></tr><tr><td align="left" rowspan="3" valign="top">SVM</td><td valign="top">MAE</td><td valign="top">19.771,7317</td><td valign="top">191,0731</td><td valign="top">5.852,0147</td></tr><tr><td valign="top">MAPE</td><td valign="top">0,1247</td><td valign="top">0,0918</td><td valign="top">0,1406</td></tr><tr><td valign="top">RMSE</td><td valign="top">25.825,8366</td><td valign="top">329,196</td><td valign="top">9.531,6776</td></tr></tbody></table></table-wrap></p>
+                <p id="p0027">When <xref rid="tbl0004" ref-type="table">Table 4</xref> is examined in detail, SVM and linear regression methods have very close MAPE and RMSE values. Next comes the MLP method. The method with the worst performance is Random Forest. The Random Forest method has also failed in predicting the future.</p>
+                <p id="p0028">Accordingly, estimations were made with best three method for the global, Germany and USA for 17 weeks after 18/09/2020. These estimates are shown in
+<xref rid="fig0005" ref-type="fig">Fig. 5</xref>, <xref rid="fig0006" ref-type="fig">Fig. 6</xref>, <xref rid="fig0007" ref-type="fig">Fig. 7</xref>
+.<fig id="fig0005"><label>Fig. 5</label><caption><p>Prediction of weekly cumulative global cases</p></caption><alt-text id="at0005">Fig. 5</alt-text><graphic xlink:href="gr5_lrg"/></fig><fig id="fig0006"><label>Fig. 6</label><caption><p>Prediction of weekly cumulative cases for Germany</p></caption><alt-text id="at0006">Fig. 6</alt-text><graphic xlink:href="gr6_lrg"/></fig><fig id="fig0007"><label>Fig. 7</label><caption><p>Prediction of weekly cumulative cases for USA</p></caption><alt-text id="at0007">Fig. 7</alt-text><graphic xlink:href="gr7_lrg"/></fig></p>
+                <p id="p0029"><xref rid="fig0005" ref-type="fig">Fig. 5</xref> shows the future trend for global cumulative data. According to forecasts in <xref rid="fig0005" ref-type="fig">Fig. 5</xref>, the global pandemic will peak at the end of January 2021 and an estimated approximately 80 million people will be cumulatively infected by using SVM method. Approximately 98 million people will be infected according to the linear regression method. For the MLP method, approximately 39 million people will be infected. The prediction of SVM, which is the best method according to performance metrics, seems more robust and realistic.</p>
+                <p id="p0030"><xref rid="fig0006" ref-type="fig">Fig. 6</xref> shows the future trend for cumulative case data for Germany. According to forecasts in <xref rid="fig0006" ref-type="fig">Fig. 6</xref>, Germany will peak at the end of January 2021 and an estimated approximately 580.000 people will be cumulatively infected by using SVM method. Approximately 1 million people will be infected according to the linear regression method. For the MLP method, 330.000 people will be infected. Performance metrics show that the estimation of SVM is more accurate.</p>
+                <p id="p0031">According to forecasts in <xref rid="fig0007" ref-type="fig">Fig. 7</xref>, USA will peak at the end of January 2021 and an estimated approximately 11 million people will be cumulatively infected by using SVM method. According to linear regression method, it enters a downward trend and approaches zero. This is not a realistic estimation. According to the MLP method, 6 million people will be infected. Once again, the prediction of SVM seems more realistic.</p>
+              </sec>
+            </sec>
+            <sec id="sec0011">
+              <label>5</label>
+              <title>Conclusion</title>
+              <p id="p0032">In this study, data of COVID-19 between 20/01/2020 and 18/09/2020 for USA, Germany and the global was analyzed. The distribution of the data is found as largest extreme value for global and Germany and smallest extreme value for USA. Then time series prediction model is proposed to obtain the disease curve and forecast the epidemic trend using machine learning methods. Linear regression, multi-layer perceptron, random forest and SVM machine learning methods were used for this purpose. The performances of the methods were compared according to the RMSE, APE, MAPE criteria. The results showed that the SVM method outperformed linear regression, multi-layer perceptron, random forest methods in modeling the Covid-19 data, and could be successfully used to diagnose the behavior of cumulative Covid-19 data over time. With the practical application of such machine learning time series methods, further research is expected to provide the most appropriate method for healthcare professionals to control and prevent future epidemics.</p>
+            </sec>
+            <sec id="sec0011a">
+              <title>CRediT authorship contribution statement</title>
+              <p id="p0032a"><bold>Serkan Ballı:</bold> Investigation, Conceptualization, Methodology, Formal analysis, Validation, Writing - review &amp; editing.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of Competing Interest</title>
+              <p id="p0033">The author declares that he has no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="bib001">
+              <title>References</title>
+              <ref id="bib0001">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sbref0001">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmed</surname>
+                      <given-names>N.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Atiya</surname>
+                      <given-names>A.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gayar</surname>
+                      <given-names>N.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>El-Shishiny</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An empirical comparison of machine learning models for time series forecasting</article-title>
+                  <source>Econom Rev</source>
+                  <volume>29(5–6)</volume>
+                  <year>2010</year>
+                  <fpage>594</fpage>
+                  <lpage>621</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0002">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sbref0002">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breiman</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Random forests</article-title>
+                  <source>Mach Learn</source>
+                  <volume>45(1)</volume>
+                  <year>2001</year>
+                  <fpage>5</fpage>
+                  <lpage>32</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0003">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sbref0003">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brokamp</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jandarov</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>M.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>LeMasters</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Exposure assessment models for elemental components of particulate matter in an urban environment: a comparison of regression and random forest approaches</article-title>
+                  <source>Atmos Environ</source>
+                  <volume>151</volume>
+                  <year>2017</year>
+                  <fpage>1</fpage>
+                  <lpage>11</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0004">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sbref0004">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Das</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting incidences of covid-19 using box-jenkins method for the period july 12-septembert 11, 2020: a study on highly affected countries</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>140</volume>
+                  <year>2020</year>
+                  <fpage>110248</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0005">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sbref0005">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Elfahham</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation and prediction of construction cost index using neural networks, time series, and regression</article-title>
+                  <source>Alex Eng J</source>
+                  <volume>58(2)</volume>
+                  <year>2019</year>
+                  <fpage>499</fpage>
+                  <lpage>506</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0006">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sbref0006">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fanelli</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Piazza</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis and forecast of covid-19 spreading in china, italy and france</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>134</volume>
+                  <year>2020</year>
+                  <fpage>109761</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0007">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sbref0007">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Feroze</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the patterns of covid-19 and causal impacts of lockdown in top ten affected countries using bayesian structural time series models</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>140</volume>
+                  <year>2020</year>
+                  <fpage>110196</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0008">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sbref0008">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>W.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ni</surname>
+                      <given-names>Z.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ou</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Clinical characteristics of coronavirus disease 2019 in china</article-title>
+                  <source>N top N Engl J Med</source>
+                  <volume>382(18)</volume>
+                  <year>2020</year>
+                  <fpage>1708</fpage>
+                  <lpage>1720</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0009">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref0009">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaxiras</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Neofotistos</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Angelaki</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The first 100 days: modeling the evolution of the covid-19 pandemic</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>138</volume>
+                  <year>2020</year>
+                  <fpage>110114</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0010">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sbref0010">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ribeiro</surname>
+                      <given-names>M.H.D.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coelho</surname>
+                      <given-names>D.S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ensemble approach based on bagging, boosting and stacking for short-term prediction in agribusiness time series</article-title>
+                  <source>Appl Soft Comput</source>
+                  <volume>86</volume>
+                  <year>2020</year>
+                  <fpage>105837</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0011">
+                <label>11</label>
+                <mixed-citation publication-type="other" id="othref0001b">Rosenblatt F. Principles of neurodynamics. perceptrons and the theory of brain mechanisms. Report No. VG-1196-G-8. Cornell Aeronautical Lab Inc, Buffalo NY, <ext-link ext-link-type="uri" xlink:href="https://apps.dtic.mil/dtic/tr/fulltext/u2/256582.pdf" id="intref0001b1">https://apps.dtic.mil/dtic/tr/fulltext/u2/256582.pdf</ext-link>. [Accessed: September 18, 2020]; 1961.</mixed-citation>
+              </ref>
+              <ref id="bib0012">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sbref0012">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sahin</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sahin</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the cumulative number of confirmed cases of covid-19 in Italy, UK and USA using fractional nonlinear grey bernoulli model</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <volume>138</volume>
+                  <year>2020</year>
+                  <fpage>109948</fpage>
+                  <pub-id pub-id-type="pmid">32834578</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0013">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sbref0013">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shastri</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kour</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mansotra</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time series forecasting of covid-19 using deep learning models: India-USA comparative case study</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>140</volume>
+                  <year>2020</year>
+                  <fpage>110227</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0014">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sbref0014">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shirmohammadi-Khorram</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tapak</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamidi</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maryanaji</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A comparison of three data mining time series models in prediction of monthly brucellosis surveillance data</article-title>
+                  <source>Zoonoses Public Health</source>
+                  <volume>66(7)</volume>
+                  <year>2019</year>
+                  <fpage>759</fpage>
+                  <lpage>772</lpage>
+                  <pub-id pub-id-type="pmid">31305019</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0015">
+                <label>15</label>
+                <element-citation publication-type="journal" id="sbref0015">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction of epidemic trends in covid-19 with logistic model and machine learning technics</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>139</volume>
+                  <year>2020</year>
+                  <fpage>110058</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0016">
+                <label>16</label>
+                <mixed-citation publication-type="other" id="sbref0016">WHO. World health organization covid cumulative dataset. <ext-link ext-link-type="uri" xlink:href="https://covid19.who.int" id="intrrf0002">https://covid19.who.int</ext-link> [Accessed: September 18, 2020]; 2020.</mixed-citation>
+              </ref>
+              <ref id="bib0017">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sbref0017">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wieczorek</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Siłka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Woźniak</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neural network powered covid-19 spread forecasting model</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>140</volume>
+                  <year>2020</year>
+                  <fpage>110203</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0018">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref0018">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yadav</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Perumal</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Srinivas</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis on novel coronavirus (covid-19) using machine learning methods</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>139</volume>
+                  <year>2020</year>
+                  <fpage>110050</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0019">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sbref0019">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>J.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>C.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>C.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A time-series water level forecasting model based on imputation and variable selection method</article-title>
+                  <source>Comput Intell Neurosci</source>
+                  <volume>2017</volume>
+                  <year>2017</year>
+                  <fpage>8734214</fpage>
+                  <pub-id pub-id-type="pmid">29250110</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0020">
+                <label>20</label>
+                <element-citation publication-type="journal" id="sbref0020">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yesilkanat</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatio-temporal estimation of the daily cases of covid-19 in worldwide using random forest machine learning algorithm</article-title>
+                  <source>Chaos, Solitons and Fractals</source>
+                  <volume>140</volume>
+                  <year>2020</year>
+                  <fpage>110210</fpage>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

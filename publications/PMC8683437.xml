@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:46:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8683437" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8683437</identifier>
+        <datestamp>2021-12-20</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8683437</article-id>
+              <article-id pub-id-type="pmcid">PMC8683437</article-id>
+              <article-id pub-id-type="pmc-uid">8683437</article-id>
+              <article-id pub-id-type="pmid">34921175</article-id>
+              <article-id pub-id-type="publisher-id">3499</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-021-03499-y</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Predicting regional COVID-19 hospital admissions in Sweden using mobility data</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Gerlee</surname>
+                    <given-names>Philip</given-names>
+                  </name>
+                  <address>
+                    <email>gerlee@chalmers.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Karlsson</surname>
+                    <given-names>Julia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fritzell</surname>
+                    <given-names>Ingrid</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brezicka</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Spreco</surname>
+                    <given-names>Armin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Timpka</surname>
+                    <given-names>Toomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jöud</surname>
+                    <given-names>Anna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lundh</surname>
+                    <given-names>Torbjörn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.5371.0</institution-id><institution-id institution-id-type="ISNI">0000 0001 0775 6028</institution-id><institution>Mathematical Sciences, </institution><institution>Chalmers University of Technology, </institution></institution-wrap>Gothenburg, Sweden </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.8761.8</institution-id><institution-id institution-id-type="ISNI">0000 0000 9919 9582</institution-id><institution>Mathematical Sciences, </institution><institution>University of Gothenburg, </institution></institution-wrap>Gothenburg, Sweden </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.1649.a</institution-id><institution-id institution-id-type="ISNI">000000009445082X</institution-id><institution>Sahlgrenska University Hospital, </institution></institution-wrap>Gothenburg, Sweden </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.5640.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 2162 9922</institution-id><institution>Department of Health, Medicine and Caring Sciences, </institution><institution>Linköping University, </institution></institution-wrap>Linköping, Sweden </aff>
+                <aff id="Aff5"><label>5</label>Center for Health Services Development, Region Östergötland, Linköping, Sweden </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.4514.4</institution-id><institution-id institution-id-type="ISNI">0000 0001 0930 2361</institution-id><institution>Department of Laboratory Medicine, Faculty of Medicine, </institution><institution>Lund University, </institution></institution-wrap>Lund, Sweden </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.411843.b</institution-id><institution-id institution-id-type="ISNI">0000 0004 0623 9987</institution-id><institution>Department of Research and Development, </institution><institution>Skåne University Hospital, </institution></institution-wrap>Lund, Sweden </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>17</day>
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>17</day>
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>24171</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>9</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>30</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The transmission of COVID-19 is dependent on social mixing, the basic rate of which varies with sociodemographic, cultural, and geographic factors. Alterations in social mixing and subsequent changes in transmission dynamics eventually affect hospital admissions. We employ these observations to model and predict regional hospital admissions in Sweden during the COVID-19 pandemic. We use an SEIR-model for each region in Sweden in which the social mixing is assumed to depend on mobility data from public transport utilisation and locations for mobile phone usage. The results show that the model could capture the timing of the first and beginning of the second wave of the pandemic 3 weeks in advance without any additional assumptions about seasonality. Further, we show that for two major regions of Sweden, models with public transport data outperform models using mobile phone usage. We conclude that a model based on routinely collected mobility data makes it possible to predict future hospital admissions for COVID-19 3 weeks in advance.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Viral infection</kwd>
+                <kwd>Applied mathematics</kwd>
+                <kwd>Epidemiology</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Chalmers University of Technology</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open access funding provided by Chalmers University of Technology.</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">COVID-19 belongs to the category of infectious diseases that mainly are disseminated through transmission of the infectious agent in association with physical meetings (social mixing) between individuals. These meetings occur at home or at other locations such as workplaces or schools, which are reached using some means of transportation, e.g. by car, public transport or foot. The meetings tend to take on regular patterns and variations, and these can be used for different types of analytic purposes<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>.</p>
+              <p id="Par3">The COVID-19 pandemic has affected the society in numerous ways. Before the availability of vaccines, the key intervention was the reduction in individual mobility, which was enforced either by strict legal lockdowns or, as in the case of Sweden, by recommendations to the general public. This enforced reduction in social mixing has had the intended effect of “flattening the curve” during the first waves of the pandemic<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>.</p>
+              <p id="Par4">Obtaining an understanding of the effect of mobility-related social mixing on the transmission of COVID-19 requires an ability to measure and quantify said changes in individual mobility. This was achieved during the early phases of the COVID-19 pandemic by geographically tracking cell phone usage, either directly by mobile phone operators<sup><xref ref-type="bibr" rid="CR4">4</xref></sup> or via usage of Google services<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> that are readily available for many geographic regions. In addition to this, mobility was also measured by considering the utilisation of public transport<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>.</p>
+              <p id="Par5">This type of information has been used in a number of studies in order to model and understand the pandemic. Linka et al.<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> used mobility data to obtain a correlation between the reproduction number and public health interventions, while Zhou et al.<sup><xref ref-type="bibr" rid="CR8">8</xref></sup> investigated the delay of outbreaks caused by mobility restrictions. Another application of mobility data is to make model-informed choices between different levels of social distancing<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Mobility data has also been used in order to draw conclusions about how markets and governments respond to surges in COVID-19 cases<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>, and to obtain a quantification of the impact on reduced mobility on COVID-19 cases and deaths<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, and on the risk of transmission<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>.</p>
+              <p id="Par6">Given the time delay between initial infection and potential hospital treatment, mobility data, such as records of daily commuters, also offer an opportunity to make predictions about the coming number of hospital admissions<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Such models can be useful for hospital administration since it allows for planning and a higher degree of preparedness for coming surges in the need of hospital beds. During the early phases of a pandemic there are limited possibilities to follow the dissemination of the infectious agent through laboratory testing. Therefore, knowledge of reliable syndromic data sources that can be used for response planning is essential during an emerging pandemic. The aim of this study was to investigate whether variations in data reflecting local social mixing levels through weekly commuting rates could be associated with later COVID-19 hospitalisation rates and also compare the ability of different data sources of commuting (or social mixing) to achieve this aim. The underlying assumption was that the levels of local commuting reflect the level of social mixing and correspondingly disease transmission and hospital admissions.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <p id="Par7">A retrospective design was used for data collection and analysis. We developed an SEIR-model of disease transmission which outputs the expected number of hospital admissions. Here we describe the hospital admission and mobility data, the epidemiological model that we have used as well as the method for fitting the model to data. The code for the model and the data used is available at: <ext-link ext-link-type="uri" xlink:href="https://github.com/philipgerlee/Predicting-regional-COVID-19-hospital-admissions-in-Sweden-using-mobility-data">https://github.com/philipgerlee/Predicting-regional-COVID-19-hospital-admissions-in-Sweden-using-mobility-data</ext-link>.</p>
+              <sec id="Sec3">
+                <title>Data</title>
+                <p id="Par8">Data collected between week 10 (beginning 8th March) and week 50 (beginning with 7th December) of 2020 were used for the analyses.</p>
+                <sec id="Sec4">
+                  <title>Endpoint data</title>
+                  <p id="Par9">Weekly regional-level data on hospital admissions with the ICD-10 diagnosis code U07.1 ‘COVID-19, virus identified’<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. The data are reported separately for each of the 21 regions in Sweden. Missing data points are replaced by zeroes for all regions.</p>
+                </sec>
+                <sec id="Sec5">
+                  <title>Syndromic data</title>
+                  <p id="Par10">Mobility data from two sources were used: public transport data from the public transport authorities in two Swedish regions (Region Västra Götaland and Region Skåne) called Västtrafik (VT) and Skånetrafiken (ST), respectively, and Google mobility reports (GMR).</p>
+                  <p id="Par11">All of the above data was collected in accordance with the General Data Protection Regulation. These dataset are not considered personal data and therefore no approval from a licensing committee for collection was required. Consent to collect GMR was obtained by Google from their users.</p>
+                  <p id="Par12">The VT- and ST-data describe the total number of journeys made by public transport in the region and are reported on a weekly basis. Data are given in terms of a percent change compared to travel during week 9. The GMR-data also describes the change in mobility compared to a baseline, which is the median value from the 5-week period Jan 3-Feb 6, 2020. Mobility is split into place categories and we have used values from the category ‘transit stations’. The GMR-data is reported on a daily basis and in order to make it compatible with the model we calculate weekly averages. Figure <xref rid="MOESM1" ref-type="media">S3</xref> in the Supplementary Material shows the above mobility measures as a function of time.</p>
+                </sec>
+              </sec>
+              <sec id="Sec6">
+                <title>Epidemiological model</title>
+                <p id="Par13">To model the weekly time series of COVID-19 related hospital admissions we have used an SEIR-model with time-dependent infectivity <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta (t)$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq1.gif"/></alternatives></inline-formula> which is informed by mobility measures. Infectivity is assumed to vary with mobility such that the number of new social contacts for each infected individual increases with travel.</p>
+                <p id="Par14">We assume that mobility measured by public transport utilisation and mobile phone usage reflects the general level of social mixing in each region, which is then assumed to impact the contact rate and consequently the virus transmission. Note that we do not assume that disease transmissions occurs exclusively during travel, but rather that the above mobility measures serve as a useful proxy for the rate of new social contacts.</p>
+                <p id="Par15">The model is defined in terms of the following set of coupled ordinary differential equations:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \left\{ \begin{array}{l} \dfrac{dS}{dt} = -\dfrac{\beta (t) SI}{N}\\ \dfrac{dE}{dt} = \dfrac{\beta (t) SI}{N} - \rho E\\ \dfrac{dI}{dt} = \rho E - \gamma I \\ \dfrac{dR}{dt} = \gamma I. \end{array} \right. \end{aligned}$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">dS</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mi>N</mml:mi></mml:mfrac></mml:mstyle></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">dE</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>=</mml:mo><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow><mml:mi>N</mml:mi></mml:mfrac></mml:mstyle><mml:mo>-</mml:mo><mml:mi>ρ</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">dI</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>=</mml:mo><mml:mi>ρ</mml:mi><mml:mi>E</mml:mi><mml:mo>-</mml:mo><mml:mi>γ</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">dR</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>=</mml:mo><mml:mi>γ</mml:mi><mml:mi>I</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_3499_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>Here <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho$$\end{document}</tex-math><mml:math id="M6"><mml:mi>ρ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq2.gif"/></alternatives></inline-formula> is the rate at which people leave the exposed compartment, <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\gamma$$\end{document}</tex-math><mml:math id="M8"><mml:mi>γ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq3.gif"/></alternatives></inline-formula> is the rate of recovery and <italic>N</italic> is the population size of the region. In order to solve the system of equations we also need to specify an initial condition and when in time it occurs. We assume that all individuals are susceptible except an initial number of <inline-formula id="IEq4"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I_0$$\end{document}</tex-math><mml:math id="M10"><mml:msub><mml:mi>I</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq4.gif"/></alternatives></inline-formula> of infectious individuals at <inline-formula id="IEq5"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t_0$$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq5.gif"/></alternatives></inline-formula> weeks prior to the first data point in the admission data (week 10).</p>
+                <p id="Par16">To connect the dynamics of the SEIR-model with hospital admissions we assume that individuals in the infectious compartment give rise to future hospital admissions. To model this we assume that the number of hospital admissions <inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t_a$$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mi>t</mml:mi><mml:mi>a</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq6.gif"/></alternatives></inline-formula> weeks into the future is given by a fraction <italic>p</italic> of the present number of infectious individuals.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Model parametrisation and fitting</title>
+                <p id="Par17">The parameters of the SEIR-model were taken from previously published studies and we have used <inline-formula id="IEq7"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho =1.37$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mi>ρ</mml:mi><mml:mo>=</mml:mo><mml:mn>1.37</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq7.gif"/></alternatives></inline-formula> week<inline-formula id="IEq8"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{-1}$$\end{document}</tex-math><mml:math id="M18"><mml:msup><mml:mrow/><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq8.gif"/></alternatives></inline-formula> (corresponding to a latency period of on average 5.1 days) and recovery rate <inline-formula id="IEq9"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\gamma =1.4$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mi>γ</mml:mi><mml:mo>=</mml:mo><mml:mn>1.4</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq9.gif"/></alternatives></inline-formula> week<inline-formula id="IEq10"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{-1}$$\end{document}</tex-math><mml:math id="M22"><mml:msup><mml:mrow/><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq10.gif"/></alternatives></inline-formula> (corresponding to a infectious period of on average 5 days)<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>.</p>
+                <p id="Par18">Since testing was limited during the early stages of the pandemic in Sweden it is difficult to estimate the initial condition for our model. For simplicity we assume a single infected individual in a population of susceptibles appearing <inline-formula id="IEq11"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t_0=4$$\end{document}</tex-math><mml:math id="M24"><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq11.gif"/></alternatives></inline-formula> weeks prior to the first data point. We also tried to adjust the the initial condition for each region by assuming that a single infected individual was introduced 4 weeks prior to the first reported case in each region (obtained from<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>).</p>
+                <p id="Par19">The scaling that relates the number of infected to hospital admissions was set to <inline-formula id="IEq12"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p=0.023$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mi>p</mml:mi><mml:mo>=</mml:mo><mml:mn>0.023</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq12.gif"/></alternatives></inline-formula> in accordance with a previous study<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. The time lag from infection to hospital admission was set to <inline-formula id="IEq13"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t_a = 3$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq13.gif"/></alternatives></inline-formula> weeks. This value is related to the time from infection to hospital admission, which has been reported to be 17 days (5 days latency<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> plus 12 days from symptom onset to admission<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>). However, it should not be interpreted as a parameter describing the fate of an individual patient, but should rather be interpreted as the time it takes for changes in disease transmission to propagate (sometimes via secondary cases) to hospital admissions. A previous study using mobility data has shown a time delay in admissions due to mobility restrictions in the range of 9–25 days<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>, which covers our assumed value of 21 days.</p>
+                <p id="Par20">Given the uncertainty in many of the above parameter values we have carried out a sensitivity analysis by varying one parameter at a time within a reasonable range. The results of this analysis is presented in the Supplementary Material (Fig. <xref rid="MOESM1" ref-type="media">S1</xref>).</p>
+                <p id="Par21">The infectivity <inline-formula id="IEq14"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta (t)$$\end{document}</tex-math><mml:math id="M30"><mml:mrow><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq14.gif"/></alternatives></inline-formula> is informed by the mobility data in the following way: For Västra Götaland and Skåne we use the public transport data and assume a linear relationship<disp-formula id="Equ2"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \beta (t) = a+bV(t) \end{aligned}$$\end{document}</tex-math><mml:math id="M32" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>a</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mi>V</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_3499_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>where <italic>a</italic>, <italic>b</italic> are parameters that are fitted to the admission data (see below for details) and <italic>V</italic>(<italic>t</italic>) is the percent change in travel during week <italic>t</italic> compared to week 9. For all other regions we use the GMR-data in a similar way and assume that<disp-formula id="Equ3"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \beta (t) = a+bG_i(t) \end{aligned}$$\end{document}</tex-math><mml:math id="M34" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>β</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>a</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:msub><mml:mi>G</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_3499_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq15"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$G_i(t)$$\end{document}</tex-math><mml:math id="M36"><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq15.gif"/></alternatives></inline-formula> is the GMR-data (place category ‘transit stations’) for region <italic>i</italic>, and <italic>a</italic>, <italic>b</italic> are parameters that are estimated.</p>
+                <p id="Par22">In order to account for the fact that not only mobility changed at the onset of the pandemic, but also other circumstances such as physical distancing and increased hand hygiene, we adjust the baseline values for <italic>V</italic>(<italic>t</italic>) and <inline-formula id="IEq16"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$G_i(t)$$\end{document}</tex-math><mml:math id="M38"><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq16.gif"/></alternatives></inline-formula> from 0 to 0.2.</p>
+                <p id="Par23">The infectivity parameters <italic>a</italic>, <italic>b</italic> are estimated by minimising the mean squared error (RMSE)<disp-formula id="Equ4"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} E(\theta ) = \sqrt{\frac{1}{n}\sum _{i=0}^n \left( pI(t_i-t_a,\theta )-A(t_i) \right) ^2} \end{aligned}$$\end{document}</tex-math><mml:math id="M40" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>θ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mi>n</mml:mi></mml:mfrac><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:msup><mml:mfenced close=")" open="("><mml:mi>p</mml:mi><mml:mi>I</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>θ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>-</mml:mo><mml:mi>A</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_3499_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>with respect to <inline-formula id="IEq17"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\theta =(a,b)$$\end{document}</tex-math><mml:math id="M42"><mml:mrow><mml:mi>θ</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq17.gif"/></alternatives></inline-formula>. Here <inline-formula id="IEq18"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$pI(t_i+t_a,\theta )$$\end{document}</tex-math><mml:math id="M44"><mml:mrow><mml:mi>p</mml:mi><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>θ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq18.gif"/></alternatives></inline-formula> is the predicted number of hospital admissions and <inline-formula id="IEq19"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A(t_i)$$\end{document}</tex-math><mml:math id="M46"><mml:mrow><mml:mi>A</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq19.gif"/></alternatives></inline-formula> is the actual number of admissions and the sum runs over all time points <inline-formula id="IEq20"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t_i$$\end{document}</tex-math><mml:math id="M48"><mml:msub><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq20.gif"/></alternatives></inline-formula>. To find the minimum RMSE we use a combination of global and local search. First we apply a global search using the grid search method with 80 linearly spaced values in the range 1-12 for both <italic>a</italic> and <italic>b</italic><sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. The minimal value of the RMSE found in the grid search was subsequently used as an initial guess for the SciPy-function curvefit which implements the trust region reflective algorithm<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. With this two-step minimisation of the RMSE we obtain for each Swedish region <italic>i</italic> a set <inline-formula id="IEq21"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{\theta }}_i=({\hat{a}}_i,{\hat{b}}_i)$$\end{document}</tex-math><mml:math id="M50"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq21.gif"/></alternatives></inline-formula> of estimated parameters.</p>
+                <p id="Par24">In order to quantify the uncertainty in our parameter estimates we calculated parametric bootstrap confidence intervals. This was achieved by independently drawing 1000 parameter combinations assuming normal distributions with means given by <inline-formula id="IEq22"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\hat{a}},{\hat{b}})$$\end{document}</tex-math><mml:math id="M52"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>,</mml:mo><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq22.gif"/></alternatives></inline-formula> and variances obtained from the trust region reflective algorithm. For each draw the numerical solution was calculated and confidence intervals were obtained by calculating the 2.5- and 97.5-percentile for each point in time.</p>
+                <p id="Par25">When comparing the model error between different regions we normalise the RMSE by dividing by the maximum number of weekly admissions for each region.</p>
+                <p id="Par26">In order to investigate correlations between regional variables (population size, population density and area) and the optimal parameters <inline-formula id="IEq23"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\hat{a}},{\hat{b}})$$\end{document}</tex-math><mml:math id="M54"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>,</mml:mo><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq23.gif"/></alternatives></inline-formula> and RMSE we performed a hypothesis test whose null hypothesis is that the slope of a linear regression between the variables is zero, using a Wald Test with t-distribution of the test statistic. The significance level was set to <inline-formula id="IEq24"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha = 0.05$$\end{document}</tex-math><mml:math id="M56"><mml:mrow><mml:mi>α</mml:mi><mml:mo>=</mml:mo><mml:mn>0.05</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq24.gif"/></alternatives></inline-formula> and we used a Bonferroni correction with <inline-formula id="IEq25"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n=3$$\end{document}</tex-math><mml:math id="M58"><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq25.gif"/></alternatives></inline-formula>.</p>
+                <p id="Par27">For Region Västra Götaland we fit the mobility-driven SEIR-model (<xref rid="Equ1" ref-type="">1</xref>) using increasing amounts of reported hospital admissions. We start by including data up until week 20 and test the model’s predictive ability in terms of the mean absolute percentage error (MAPE) on the coming 3 weeks. This procedure is repeated for increasing amounts of training data. To illustrate the robustness of the model we also plot how the estimated model parameters <inline-formula id="IEq26"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}$$\end{document}</tex-math><mml:math id="M60"><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq26.gif"/></alternatives></inline-formula> and <inline-formula id="IEq27"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{b}}$$\end{document}</tex-math><mml:math id="M62"><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq27.gif"/></alternatives></inline-formula> change as we include more weekly data.</p>
+              </sec>
+            </sec>
+            <sec id="Sec8">
+              <title>Results</title>
+              <sec id="Sec9">
+                <title>Predicting hospital admissions using public transport utilisation</title>
+                <p id="Par28">For Region Västra Götaland the resulting model error in terms of MAPE can be seen in Fig. <xref rid="Fig1" ref-type="fig">1</xref>A. By successively increasing the training data, we see in Fig. <xref rid="Fig1" ref-type="fig">1</xref>B that the model remains largely unchanged beyond week 30, which timewise corresponds to the end of the first wave of the pandemic.</p>
+                <p id="Par29">When using all available data we find that <inline-formula id="IEq28"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}=4.11$$\end{document}</tex-math><mml:math id="M64"><mml:mrow><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>4.11</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq28.gif"/></alternatives></inline-formula> and <inline-formula id="IEq29"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{b}}=5.68$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>5.68</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq29.gif"/></alternatives></inline-formula> (Fig. <xref rid="Fig1" ref-type="fig">1</xref>C), and we note that the model captures the dynamics of admissions during both the first and beginning of the second wave, although the rate of decline during the first wave is overestimated.<fig id="Fig1"><label>Figure 1</label><caption><p>Model fit to admission data from Region Västra Götaland. (<bold>A</bold>) The model error in terms of the MAPE on 3 week predictions as a function of the number of weeks of data used in the fitting. (<bold>B</bold>) The estimated model parameters <inline-formula id="IEq30"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\hat{a}},{\hat{b}})$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>,</mml:mo><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq30.gif"/></alternatives></inline-formula> as a function of the number of weeks of data used in the fitting. (<bold>C</bold>) The optimal fit when all data points are used (until week 45). The dashed lines show the 95% confidence interval for the model fit (see “<xref rid="Sec2" ref-type="sec">Methods</xref>”).</p></caption><graphic xlink:href="41598_2021_3499_Fig1_HTML" id="MO5"/></fig></p>
+              </sec>
+              <sec id="Sec10">
+                <title>Using Google mobility data to predict hospital admissions</title>
+                <p id="Par30">For all other regions we make use of Google mobility data (see “<xref rid="Sec2" ref-type="sec">Methods</xref>” for details). We tried to fit the model using both regionally adapted initial conditions (see “<xref rid="Sec2" ref-type="sec">Methods</xref>”) and identical initial conditions for all regions (a single infected individual at week 6). The fit was not improved when using regional adaptation and we only present results for the uniform initial conditions. Figure <xref rid="Fig2" ref-type="fig">2</xref> shows model fits for Östergötland and Stockholm (see Fig. <xref rid="MOESM1" ref-type="media">S2</xref> in the Supplementary Material for model fits to admissions in all Swedish regions and Table <xref rid="MOESM1" ref-type="media">S1</xref> for normalised RMSE and estimated parameters). Again, we note that the model correctly describes the timing of the first and second wave.</p>
+                <p id="Par31">In order to investigate regional differences in model fit we compared the normalised RMSE and estimated parameter <inline-formula id="IEq31"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\hat{a}},{\hat{b}})$$\end{document}</tex-math><mml:math id="M70"><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>,</mml:mo><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq31.gif"/></alternatives></inline-formula> to the population size, area and population density of each region. We found a significant correlation between <inline-formula id="IEq32"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}$$\end{document}</tex-math><mml:math id="M72"><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq32.gif"/></alternatives></inline-formula> and regional population size (Pearsons’s correlation <inline-formula id="IEq33"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho =0.73$$\end{document}</tex-math><mml:math id="M74"><mml:mrow><mml:mi>ρ</mml:mi><mml:mo>=</mml:mo><mml:mn>0.73</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq33.gif"/></alternatives></inline-formula>) and population density (<inline-formula id="IEq34"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho =0.73$$\end{document}</tex-math><mml:math id="M76"><mml:mrow><mml:mi>ρ</mml:mi><mml:mo>=</mml:mo><mml:mn>0.73</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq34.gif"/></alternatives></inline-formula>), but no significant correlation between <inline-formula id="IEq35"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}$$\end{document}</tex-math><mml:math id="M78"><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq35.gif"/></alternatives></inline-formula> and regional area. No such correlations were present between <inline-formula id="IEq36"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{b}}$$\end{document}</tex-math><mml:math id="M80"><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq36.gif"/></alternatives></inline-formula> and regional properties, nor between RMSE and regional properties.<fig id="Fig2"><label>Figure 2</label><caption><p>Optimal model fit for (<bold>A</bold>) Stockholm (<inline-formula id="IEq37"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}=4.74$$\end{document}</tex-math><mml:math id="M82"><mml:mrow><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>4.74</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq37.gif"/></alternatives></inline-formula> and <inline-formula id="IEq38"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{b}}=9.11$$\end{document}</tex-math><mml:math id="M84"><mml:mrow><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>9.11</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq38.gif"/></alternatives></inline-formula>) and (<bold>B</bold>) Östergötland (<inline-formula id="IEq39"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}=3.78$$\end{document}</tex-math><mml:math id="M86"><mml:mrow><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>3.78</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq39.gif"/></alternatives></inline-formula> and <inline-formula id="IEq40"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{b}}=8.31$$\end{document}</tex-math><mml:math id="M88"><mml:mrow><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mn>8.31</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq40.gif"/></alternatives></inline-formula>). In both panels the dashed lines show 95 % confidence intervals for the model fit.</p></caption><graphic xlink:href="41598_2021_3499_Fig2_HTML" id="MO6"/></fig></p>
+              </sec>
+              <sec id="Sec11">
+                <title>Public transport data improves model fit compared to Google mobility reports</title>
+                <p id="Par32">For Skåne Region we have both public transport data and GMR-data, which was used on all other regions. Figure <xref rid="Fig3" ref-type="fig">3</xref> shows the best model fits using the mobility data from the public transport agency Skånetrafiken compared to GMR-data. We note that although the model using GMR fits the data during the second wave better the overall fit is considerably improved by using data from public transport. In terms of the RMSE we observe that the model error is 21 admissions/week for the public transport model compared to 62 admissions/week for the model that uses GMR. A similar trend is seen for Region Västra Götaland where public transport data yields an RMSE of 41 admissions/week whereas GMR-data gives an error of 118 admissions/week.<fig id="Fig3"><label>Figure 3</label><caption><p>Optimal model fit for Skåne Region using mobility data from public transport (red line) and Google Mobility Report (black line). The model fit using public transport data is better compared to Google’s mobility data (RMSE of 21 vs. 62 admissions/week).</p></caption><graphic xlink:href="41598_2021_3499_Fig3_HTML" id="MO7"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec12">
+              <title>Discussion</title>
+              <p id="Par33">We set out to investigate whether variations in data reflecting local social mixing through weekly commuting rates were associated with later COVID-19 hospitalisation rates. We found that a SEIR-model can be fitted using two free parameters to regional data from Sweden and that COVID-19 hospital admissions can be predicted 3 weeks in advance using time-dependent mobility data.</p>
+              <p id="Par34">Our approach is similar to that used by Chang et al.<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> who used spatially resolved mobility data in order to model disease transmission in metropolitan areas in the US, and a study by Levin et al.<sup><xref ref-type="bibr" rid="CR21">21</xref></sup> who used data on county-to-county trips to fit an SEIR-model to COVID-19 spread in Minnesota. Both these studies compared their model output to COVID-19 incidence, whereas we have focused on hospital admissions. The reasons for this are twofold: firstly, the data on incidence in Sweden is unreliable due to variable testing strategies and secondly hospital admissions is a more interesting metric for healthcare providers.</p>
+              <p id="Par35">Given the time lag between current mobility which drives infections and future hospital admissions, the model provides a tool for predicting the demands on hospital beds up to 3 weeks in advance. Although the SEIR-model describes the transmission of the disease, the model details were not in focus in the present study. Uncertainty in model parameters such as the initial condition and the fraction of individuals that become hospitalised implies that the model dynamics in terms of the number of susceptible, infectious and recovered individuals are unreliable. It is also worth pointing out that the connection between infection and hospitalisation is not assumed to be direct. It may well be that an individual who contributes to the measured mobility transmits the virus in several steps to an individual with an increased risk of severe illness who is subsequently hospitalised.</p>
+              <p id="Par36">We have also assumed that the mobility measures we consider reflect the general level of social mixing. This fact can of course be questioned and it is possible that mobility data of the types considered in this study are biased in terms of socio-economic attributes. The observed reduction in mobility might overestimate the actual reduction in socio-economic groups where disease transmission exceeds that of the general population. In order to control for such bias one would have to collect other types of data that better reflect social mixing (e.g. using surveys as in the Polymod-study<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>) and compare it to public transport and GMR-data. This validation of mobility data has been carried out for mobile phone data in the US<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>.</p>
+              <p id="Par37">Despite these simplifications, the model was able to capture the general shape and timing of both the first and the beginning of the second wave for most regions. A recurring feature seen across most regions is the inability of the model to accurately describe the width of the first peak (see e.g. Figs. <xref rid="Fig1" ref-type="fig">1</xref>C and <xref rid="Fig2" ref-type="fig">2</xref>A). The model tends to underestimate the actual width, and this is likely due to the lack of detail in the model or inaccuracy in the assumed parameter values. Moreover, it is noteworthy that the model captured the timing of the onset of the second peak without accounting for seasonal or temperature-driven infectivity. Instead, the results suggest that mobility in itself, which might contain seasonal variation is sufficient to capture the dynamics of hospital admissions. It should be noted that the separation into distinct waves can be made mathematically precise, which aids subsequent analysis e.g. in terms of mortality rates<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>.</p>
+              <p id="Par38">There was no significant correlation between model error (in terms of normalised RMSE, see Table <xref rid="MOESM1" ref-type="media">S1</xref>) and the population size, area or density of the regions. We found a significant correlation between the population size and density of a region and the estimated value <inline-formula id="IEq41"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}$$\end{document}</tex-math><mml:math id="M90"><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq41.gif"/></alternatives></inline-formula>. This parameter represent the baseline infectivity for each region, and assuming a constant probability of infection per contact across Sweden, regional differences in <inline-formula id="IEq42"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{a}}$$\end{document}</tex-math><mml:math id="M92"><mml:mover accent="true"><mml:mi>a</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq42.gif"/></alternatives></inline-formula> reflect variation in the contact rate. Under this assumption the contact rate is correlated with population density, a phenomenon that has previously been reported for the COVID-19 pandemic in the US<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>. The reason for the correlation between regional population size and infectivity is probably due to the underlying correlation between population density and population size (Pearson’s correlation <inline-formula id="IEq43"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho = 0.87$$\end{document}</tex-math><mml:math id="M94"><mml:mrow><mml:mi>ρ</mml:mi><mml:mo>=</mml:mo><mml:mn>0.87</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_3499_Article_IEq43.gif"/></alternatives></inline-formula>).</p>
+              <p id="Par39">The present research has some limitations that should be taken in consideration when interpreting the results. When trained on admission data until week 20 for Region Västra Götaland the model initially performs well in terms of the model error (MAPE) on the 3 consecutive weeks (Fig. <xref rid="Fig1" ref-type="fig">1</xref>A). This is followed by an increase in the MAPE during week 18–22, which is due to an increase in admissions that the model is unable to capture, and then a subsequent decline. One possible explanation for this additional peak, which is also seen in other regions, is the Easter holidays that occurred during week 15. During the holidays people typically travel longer distances and meet family and friends, and these social contacts are captured by our mobility data to a lesser extent. In terms of the model robustness, we observe that the parameters remain largely unchanged after week 30, suggesting that data from the first wave was sufficient to fit the model (Fig. <xref rid="Fig1" ref-type="fig">1</xref>B).</p>
+              <p id="Par40">In the model we have disregarded any kind of age-structure, migration of cases between regions and assumed a highly simplified connection between infection and hospital admission. In addition, we have assumed that the disease was introduced in an identical way in all regions. These choices were made in order to formulate a simple and general model, which could be applied directly to all regions. We have shown for Region Skåne that public transport data provides a better fit between model and admission data, and further tailoring the model to each region will most likely improve model fit even further.</p>
+              <p id="Par41">The mobility measures we considered exhibit similar changes during the considered time period (see Fig. <xref rid="MOESM1" ref-type="media">S3</xref>). Despite these similarities the public transport data provides a considerably better model fit compared to GMR. This suggests that public transport data is more complete and better reflects changes in social mixing at the regional level. If models for hospital admissions on a smaller spatial scale are to be constructed GMR might provide a better alternative due to its higher spatial resolution.</p>
+              <p id="Par42">We have not considered data on the number of reported cases, which could also be used to estimate model parameters. The main reason for this is that during the time period we model (week 10–50, 2020), the testing strategy in Sweden has varied substantially. In addition, there are also regional differences in testing strategies. The delay from symptom onset to hospitalisation has been shown to be in the range of 3–10 days<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>, which means that the number of reported cases can be used to predict hospital admissions approximately a week ahead. In relation to this we note that our model provides predictions 3 weeks ahead.</p>
+              <p id="Par43">In terms of numerical methods, we have also made a couple of simplifications. We carried out the parameter estimation one region at a time. Here it would be beneficial to consider a hierarchical mixed-effects model that considers all regions simultaneously<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. We have performed a sensitivity analysis with respect to the initial condition, the parameters that relate the size of the infectious compartment to hospital admissions and the initial mobility (see Fig. <xref rid="MOESM1" ref-type="media">S1</xref>). The results show that the model fit can be somewhat improved by making slight adjustment to the baseline parameter values. However, given the uncertainty in these parameter values we do not find it motivated to adjust our baseline values.</p>
+              <p id="Par44">This study should be seen as a first attempt to model local hospital admissions in Europe early during an emerging pandemic using mobility data. The assumed 3-week lag between virus transmission and hospital admission implies that the model can, using routinely available mobility data, make predictions 3 weeks into the future. The results encourage continued research on use of mobility data, which is easily accessed, in health service capacity planning during the early phases of a pandemic when the availability of laboratory testing resources are limited.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec23">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2021_3499_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary Information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41598-021-03499-y.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We would like to thank Jonas Hägglund at Västtrafik for providing the public transport data and Tom Britton for his comments on the manuscript. PG and TL would like to acknowledge seed funding from Chalmers University of Technology Areas of Advance “Information and Communication Technology” and “Health Engineering”.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>The study was conceived by P.G. and T.L. The model was constructed by all authors. The manuscripts was written by P.G. with input from all other authors.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open access funding provided by Chalmers University of Technology.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par47">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">E. Holm, T. Timpka <italic>et al.</italic>, A discrete time-space geography for epidemiology: From mixing groups to pockets of local order in pandemic simulations, in <italic>MedInfo</italic> 464–468 (2007)</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Strömgren</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Holm</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Dahlström</surname>
+                      <given-names>Ö</given-names>
+                    </name>
+                    <name>
+                      <surname>Ekberg</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Eriksson</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Spreco</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Timpka</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Place-based social contact and mixing: A typology of generic meeting places of relevance for infectious disease transmission</article-title>
+                  <source>Epidemiol. Infect.</source>
+                  <year>2017</year>
+                  <volume>145</volume>
+                  <fpage>2582</fpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268817001169</pub-id>
+                  <pub-id pub-id-type="pmid">28625193</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruse</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Dopfer</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Sethi</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                    <name>
+                      <surname>Reyes</surname>
+                      <given-names>JFM</given-names>
+                    </name>
+                    <name>
+                      <surname>Yandell</surname>
+                      <given-names>BS</given-names>
+                    </name>
+                    <name>
+                      <surname>Patz</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Association of mobile phone location data indications of travel and stay-at-home mandates with COVID-19 infection rates in the US</article-title>
+                  <source>JAMA Netw. Open</source>
+                  <year>2020</year>
+                  <volume>3</volume>
+                  <fpage>e2020485</fpage>
+                  <pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.20485</pub-id>
+                  <pub-id pub-id-type="pmid">32897373</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">B. Klein, T. LaRocky, S. McCabey, L. Torresy, F. Privitera <italic>et al.</italic> Assessing changes in commuting and individual mobility in major metropolitan areas in the United States during the COVID-19 outbreak (2020)</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Google COVID-19 community mobility reports. <ext-link ext-link-type="uri" xlink:href="https://www.google.com/COVID19/mobility/">https://www.google.com/COVID19/mobility/</ext-link>. Accessed 14 Dec 2020.</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jenelius</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Cebecauer</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impacts of COVID-19 on public transport ridership in Sweden: Analysis of ticket validations, sales and passenger counts</article-title>
+                  <source>Transp. Res. Interdiscip. Perspect.</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>1002424</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Linka, K., Peirlinck, M. &amp; Kuhl, E. The reproduction number of COVID-19 and its correlation with public health interventions. <italic>medRxiv</italic> (2020)</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Yue</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Xia</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of human mobility restrictions on the spread of COVID-19 in Shenzhen, China: A modelling study using mobile phone data</article-title>
+                  <source>Lancet Digit. Health</source>
+                  <year>2020</year>
+                  <volume>2</volume>
+                  <fpage>e417</fpage>
+                  <pub-id pub-id-type="doi">10.1016/S2589-7500(20)30165-5</pub-id>
+                  <pub-id pub-id-type="pmid">32835199</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">Liu, M., Thomadsen, R. &amp; Yao, S. Forecasting the spread of COVID-19 under different reopening strategies. <italic>medRxiv</italic> (2020)</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>James</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Menzies</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficiency of communities and financial markets during the 2020 pandemic</article-title>
+                  <source>Chaos</source>
+                  <year>2021</year>
+                  <volume>31</volume>
+                  <fpage>083116</fpage>
+                  <pub-id pub-id-type="doi">10.1063/5.0054493</pub-id>
+                  <pub-id pub-id-type="pmid">34470250</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yilmazkuday</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stay-at-home works to fight against COVID-19: International evidence from Google mobility data</article-title>
+                  <source>J. Hum. Behav. Soc. Environ.</source>
+                  <year>2021</year>
+                  <volume>31</volume>
+                  <fpage>210</fpage>
+                  <pub-id pub-id-type="doi">10.1080/10911359.2020.1845903</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zachreson</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitchell</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Lydeamore</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Rebuli</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomko</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Geard</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Risk mapping for COVID-19 outbreaks in Australia using mobility data</article-title>
+                  <source>J. R. Soc. Interface</source>
+                  <year>2021</year>
+                  <volume>18</volume>
+                  <fpage>20200657</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2020.0657</pub-id>
+                  <pub-id pub-id-type="pmid">33404371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Picchiotti, N., Salvioli, M., Zanardini, E. &amp; Missale, F. COVID-19 pandemic: A mobility-dependent SEIR model with undetected cases in Italy, Europe and US, arXiv preprint <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2005.08882">arXiv:2005.08882</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Statistik om antal slutenvårdade COVID-19 patienter. <ext-link ext-link-type="uri" xlink:href="https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-COVID-19/statistik-om-slutenvard-av-patienter-med-COVID-19/">https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-COVID-19/statistik-om-slutenvard-av-patienter-med-COVID-19/</ext-link>. Accessed 14 Dec 2020</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">Estimates of the peak-day and the number of infected individuals during the COVID-19 outbreak in the Stockholm region, Sweden, February–April 2020. <ext-link ext-link-type="uri" xlink:href="https://www.folkhalsomyndigheten.se/publicerat-material/publikationsarkiv/e/estimates-of-the-peak-day-and-the-number-of-infected-individuals-during-the-COVID-19-outbreak-in-the-stockholm-region-sweden-february--april-2020/">https://www.folkhalsomyndigheten.se/publicerat-material/publikationsarkiv/e/estimates-of-the-peak-day-and-the-number-of-infected-individuals-during-the-COVID-19-outbreak-in-the-stockholm-region-sweden-february--april-2020/</ext-link>. Accessed 14 Dec 2020</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Bekräftade fall i Sverige—daglig uppdatering. <ext-link ext-link-type="uri" xlink:href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/COVID-19/statistik-och-analyser/bekraftade-fall-i-sverige/">https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/COVID-19/statistik-och-analyser/bekraftade-fall-i-sverige/</ext-link>. Accessed 25 Jan 2021</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Gu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: A retrospective cohort study</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <volume>395</volume>
+                  <fpage>1054</fpage>
+                  <lpage>1062</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(20)30566-3</pub-id>
+                  <pub-id pub-id-type="pmid">32171076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vinceti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Filippini</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Rothman</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferrari</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Goffi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Maffeis</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Orsini</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Lockdown timing and efficacy in controlling COVID-19 using mobile phone tracking</article-title>
+                  <source>EClinicalMedicine</source>
+                  <year>2020</year>
+                  <volume>25</volume>
+                  <fpage>100457</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.eclinm.2020.100457</pub-id>
+                  <pub-id pub-id-type="pmid">32838234</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mobility network models of COVID-19 explain inequities and inform reopening</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>589</volume>
+                  <fpage>82</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2923-3</pub-id>
+                  <pub-id pub-id-type="pmid">33171481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Branch</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Coleman</surname>
+                      <given-names>TF</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A subspace, interior, and conjugate gradient method for large-scale bound-constrained minimization problems</article-title>
+                  <source>SIAM J. Sci. Comput.</source>
+                  <year>1999</year>
+                  <volume>21</volume>
+                  <fpage>1</fpage>
+                  <pub-id pub-id-type="doi">10.1137/S1064827595289108</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Levin</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>Shang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Stern</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of short-term travel on COVID-19 spread: A novel SEIR model and case study in Minnesota</article-title>
+                  <source>PLoS One</source>
+                  <year>2021</year>
+                  <volume>16</volume>
+                  <fpage>e0245919</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0245919</pub-id>
+                  <pub-id pub-id-type="pmid">33481956</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mossong</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hens</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Jit</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Beutels</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Auranen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Mikolajczyk</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Massari</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Salmaso</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomba</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Wallinga</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Social contacts and mixing patterns relevant to the spread of infectious diseases</article-title>
+                  <source>PLoS Med.</source>
+                  <year>2008</year>
+                  <volume>5</volume>
+                  <fpage>e74</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pmed.0050074</pub-id>
+                  <pub-id pub-id-type="pmid">18366252</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruse</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multiscale dynamic human mobility flow dataset in the us during the COVID-19 epidemic</article-title>
+                  <source>Sci. Data</source>
+                  <year>2020</year>
+                  <volume>7</volume>
+                  <fpage>1</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41597-019-0340-y</pub-id>
+                  <pub-id pub-id-type="pmid">31896794</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>James</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Menzies</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Radchenko</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 second wave mortality in Europe and the United States</article-title>
+                  <source>Chaos</source>
+                  <year>2021</year>
+                  <volume>31</volume>
+                  <fpage>031105</fpage>
+                  <pub-id pub-id-type="doi">10.1063/5.0041569</pub-id>
+                  <pub-id pub-id-type="pmid">33810707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>DW</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spreading of COVID-19: Density matters</article-title>
+                  <source>PLoS One</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <fpage>e0242398</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0242398</pub-id>
+                  <pub-id pub-id-type="pmid">33362283</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Faes</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Abrams</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Beckhoven</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyfroidt</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Vlieghe</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Hens</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Time between symptom onset, hospitalisation and recovery or death: Statistical analysis of Belgian COVID-19 patients</article-title>
+                  <source>Int. J. Environ. Res. Public Health</source>
+                  <year>2020</year>
+                  <volume>17</volume>
+                  <fpage>7560</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph17207560</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lindstrom</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bates</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nonlinear mixed effects models for repeated measures data</article-title>
+                  <source>Biometrics</source>
+                  <year>1990</year>
+                  <volume>46</volume>
+                  <fpage>673</fpage>
+                  <lpage>687</lpage>
+                  <pub-id pub-id-type="doi">10.2307/2532087</pub-id>
+                  <pub-id pub-id-type="pmid">2242409</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

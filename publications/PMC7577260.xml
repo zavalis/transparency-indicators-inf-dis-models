@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T01:00:03Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7577260" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7577260</identifier>
+        <datestamp>2020-10-22</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3-mathml3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Physica A</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Physica A</journal-id>
+              <journal-title-group>
+                <journal-title>Physica a</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0378-4371</issn>
+              <issn pub-type="epub">0378-4371</issn>
+              <publisher>
+                <publisher-name>Elsevier B.V.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7577260</article-id>
+              <article-id pub-id-type="pmcid">PMC7577260</article-id>
+              <article-id pub-id-type="pmc-uid">7577260</article-id>
+              <article-id pub-id-type="pmid">33106728</article-id>
+              <article-id pub-id-type="pii">S0378-4371(20)30785-8</article-id>
+              <article-id pub-id-type="doi">10.1016/j.physa.2020.125483</article-id>
+              <article-id pub-id-type="publisher-id">125483</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Time dependent correlations between the probability of a node being infected and its centrality measures</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au000001">
+                  <name>
+                    <surname>Gündüç</surname>
+                    <given-names>Semra</given-names>
+                  </name>
+                  <xref rid="cor1" ref-type="corresp">⁎</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au000002">
+                  <name>
+                    <surname>Eryiğit</surname>
+                    <given-names>Recep</given-names>
+                  </name>
+                </contrib>
+                <aff id="aff1">Ankara University Computer Engineering Department, Ankara, Turkey</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>⁎</label>Corresponding author.</corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>21</day>
+                <month>10</month>
+                <year>2020</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <day>1</day>
+                <month>2</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>21</day>
+                <month>10</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>563</volume>
+              <fpage>125483</fpage>
+              <lpage>125483</lpage>
+              <history>
+                <date date-type="received">
+                  <day>15</day>
+                  <month>5</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>3</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 Elsevier B.V. All rights reserved.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder>Elsevier B.V.</copyright-holder>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="d1e249">
+                <p>Pandemics are a growing world-wide threat for all societies. Throughout history, various infectious diseases presented widely spread damage to human life, economic viability and general well-being. The scale of destruction of the most recent pandemic, COVID-19, has yet to be seen. This work aims to introduce intervention methodology for the prevention of global scale spread of infectious diseases. The proposed method combines time-dependent infection spreading data with the social connectivity structure of the society. SIR model simulations provided the dynamic of contamination spread in different sets of network data. Seven centrality measures parameterized the local and global importance of each node in the underlying network. At each time step the calculated values of the correlations between node infection probability and node centrality values are analyzed. Calculations show that correlations increase at the beginning of infection spread and reaches its highest value when spreading starts to become an epidemic. The peak is at the very early stages of the spreading; and with this analysis, it is possible to predict the node infection probability from time-dependent correlations data.</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="d1e262">The dynamics of diffusion, contagious disease spread, rumor, a new idea, or computer viruses exhibit common spreading mechanisms <xref rid="b1" ref-type="bibr">[1]</xref>, <xref rid="b2" ref-type="bibr">[2]</xref>, <xref rid="b3" ref-type="bibr">[3]</xref>, <xref rid="b4" ref-type="bibr">[4]</xref>, <xref rid="b5" ref-type="bibr">[5]</xref>, <xref rid="b6" ref-type="bibr">[6]</xref>. In all of these phenomena, the transmission requires contact interaction within neighboring nodes. All real-world systems, such as social, technological, communication, transportation, are organized in a connectivity structure that results in a complex network of nodes (vertex) connected by links (edges) <xref rid="b7" ref-type="bibr">[7]</xref>. Therefore, understanding of the underlying connectivity structure of the system of concern is essential for a realistic model of the contact driven spreading phenomena <xref rid="b8" ref-type="bibr">[8]</xref>, <xref rid="b9" ref-type="bibr">[9]</xref>. Not only are such models vital to estimating or understanding the behavior but also to manipulate the system into a preferred state <xref rid="b10" ref-type="bibr">[10]</xref>. The effects of connectivity structure on the evolution of the dynamic processes on the network are well studied <xref rid="b11" ref-type="bibr">[11]</xref>, <xref rid="b12" ref-type="bibr">[12]</xref>, <xref rid="b13" ref-type="bibr">[13]</xref>. Power network breakouts, failures in communication networks, crisis in financial networks, and many cascading processes may be related to negligible changes or failures in the connectivity structure of a system <xref rid="b14" ref-type="bibr">[14]</xref>. In all these works, detailed knowledge of the network structures is the crucial element on the success or failure in taking precautions to protect society from the spread of disease. A method less dependent on the detailed underlying connectivity will be of great benefit to complex network science.</p>
+              <p id="d1e289">Some network nodes are more effective than others in accelerating the spreading process <xref rid="b15" ref-type="bibr">[15]</xref>. Their strength in spreading disease is related to their local and global positioning in the network. Mathematical formulation of the relation between the network structure and local and global weights of each network node is the centrality measures. There exist more than 200 centrality measures, with each classifying different aspects of the weight of member nodes according to their importance and inter-relational strength on the network. Despite the complexity of modern systems such as social, technological and communication networks, centrality measures are useful to quantify the local and global positions of the nodes. Each centrality measure aims another aspect of the role of the nodes. The centrality measure, which is related to the number of neighbors, is called degree centrality. Similarly, betweenness, closeness, eigenvector, clustering and PageRank centrality measures are among the most commonly used centrality measures.</p>
+              <p id="d1e295">Despite abundance of centrality measures, only a limited number of centrality measures are totally independent and are commonly used in the literature <xref rid="b16" ref-type="bibr">[16]</xref>. Correlations between centrality measures are indication of degree of dependence among the centrality measures. Moreover, the centrality measure correlations also depend on network topology. Network modularity is the source of this cross-network variations <xref rid="b17" ref-type="bibr">[17]</xref> and is also affects dynamic process factors. For this reason, the relation between network centrality measures and the spreading phenomena is far from clear <xref rid="b17" ref-type="bibr">[17]</xref>.</p>
+              <p id="d1e309">In controlling the diffusion processes such as an epidemic outbreak, the optimum performance can be achieved only with complete knowledge of the network <xref rid="b12" ref-type="bibr">[12]</xref>. There are a considerable number of recent articles which studied the efficient methods of immunization and isolation. In these studies, the observed fact is that, in real-world networks, the hub nodes – the nodes with a high degree of connectivity – play a crucial role in the spreading phenomena <xref rid="b18" ref-type="bibr">[18]</xref>. Real-world networks are far more complicated than a simple network. News diffusion on a communication network may affect the other diffusion processes proceeding on other layers. In multi-layer networks, the news spreading on one layer increases awareness, hence can prevent disease from spreading on another <xref rid="b2" ref-type="bibr">[2]</xref>, <xref rid="b4" ref-type="bibr">[4]</xref>.</p>
+              <p id="d1e323">Fighting the spread of contagious disease is a race against time. The main tools to slow the spread of an infection are vaccination and quarantine. In most cases, the means of immunization may not be readily available, or time-consuming, which makes large-scale application impossible. Quarantine is an extreme prevention method; it can be efficient only if used selectively and for a limited period. Either or both of these methods on selected nodes decisively control the diffusion. Two questions thus emerge: (i) Is the spread at its initial stages? (ii) which nodes are the most vulnerable? In most cases, even the identification of the spread requires good knowledge of the status of the nodes. The local and global position nodes determine the effect of the spreading process. Centrality measures parameterize the vulnerability of the node during a diffusion process. If a node is vulnerable, has many connections, remains between large communities, its centrality measures reflect the vulnerability level. Therefore, the knowledge of the correlations between local and global node importance and the spreading dynamics becomes crucial for prevention planning. At the initial stages of the spread, almost all nodes are susceptible. At this stage, there are no correlations between the node infection probability and the node centrality measure values. As the infection spreads, the first nodes to be infected are the ones that have high centrality values. The correlation between node infection probability and high centrality values increases as the infection spread widens. At the final stages, the number of infected nodes is large, and the relative importance of the node position is lost, indicating a lower correlation between the centrality measures and node infection probability. Hence, there exists a time-dependent relation between infection probability and node centrality values. Here, two questions, which centrality measures are more relevant for a given network, and knowing the centrality value of a node can one predict the possible time of being infected.</p>
+              <p id="d1e325">The present work aims to introduce a systematic scheme to identify the relevant network centrality measures to predict the infection probability of a node given the time interval. The relevance of different centrality measures depends on network typologies This knowledge can be a guide to prevent the spread of a contagious disease at an early stage of an outbreak. The time dependencies of correlation between the node centrality measures and spreading dynamics have not been considered in the literature yet.</p>
+              <p id="d1e327">In the proposed scheme, the correlations between the node centrality values and the node infection probability at a given time slice are calculated for selected centrality measures. Hence studying the relation between the spreading of disease and centrality measures cannot be abstracted from the correlations among the centrality measures <xref rid="b17" ref-type="bibr">[17]</xref>. Correlations among the centrality measures and the correlations between node centrality values and node infection probability give evidence for the relevant centrality measures given the network topology. The main aim is to make model predictions on the real-world systems. The existing observations show that there are two different types of artificial networks, Erdős–Renyi <xref rid="b19" ref-type="bibr">[19]</xref> and scale free <xref rid="b20" ref-type="bibr">[20]</xref> networks, which have the same characteristics as the real-world systems. These network structures have their distinct characteristic connectivity patterns, <inline-formula><mml:math id="d1e343" display="inline" altimg="si1.svg"><mml:mrow><mml:msub><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>k</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>, which gives the probability of a node having <inline-formula><mml:math id="d1e361" display="inline" altimg="si2.svg"><mml:mi>k</mml:mi></mml:math></inline-formula> neighbors. To test the proposed scheme, two artificial networks, namely, Barabási–Albert and Erdős–Renyi are employed. Later, Airline <xref rid="b21" ref-type="bibr">[21]</xref> and Facebook <xref rid="b22" ref-type="bibr">[22]</xref> network data are used as real-world examples. Susceptible–Infected–Recovered (SIR) model <xref rid="b23" ref-type="bibr">[23]</xref> is employed for the dynamics of the spreading of the contagious disease. Barabási–Albert and Erdős–Renyi network models are used as model networks. The observations are tested on real-world networks.</p>
+              <p id="d1e378">For the preparation of the network connectivity structure and the calculation of the network parameters NetworkX python package <xref rid="b24" ref-type="bibr">[24]</xref> is employed. The created network topologies are used as the input for Idlib python library <xref rid="b25" ref-type="bibr">[25]</xref> which is used for the SIR model spreading dynamics. The python libraries, pandas <xref rid="b26" ref-type="bibr">[26]</xref>, and NumPy <xref rid="b27" ref-type="bibr">[27]</xref> are used for data analysis and correlation calculations.</p>
+              <p id="d1e397">The work is organized as follows. Details of the methodology are discussed in the following section. Section <xref rid="sec3" ref-type="sec">3</xref> is devoted to the results and discussions. Finally, conclusions are presented in the fourth section.</p>
+            </sec>
+            <sec id="sec2">
+              <label>2</label>
+              <title>The method</title>
+              <p id="d1e409">SIR epidemic model is based on the scenario in which those susceptible <inline-formula><mml:math id="d1e412" display="inline" altimg="si3.svg"><mml:mi>S</mml:mi></mml:math></inline-formula> become infected, <inline-formula><mml:math id="d1e417" display="inline" altimg="si4.svg"><mml:mi>I</mml:mi></mml:math></inline-formula> denote infected nodes, <inline-formula><mml:math id="d1e422" display="inline" altimg="si5.svg"><mml:mi>R</mml:mi></mml:math></inline-formula> denote nodes recovered. The probabilities <inline-formula><mml:math id="d1e428" display="inline" altimg="si6.svg"><mml:mi>β</mml:mi></mml:math></inline-formula>, gamma <inline-formula><mml:math id="d1e433" display="inline" altimg="si7.svg"><mml:mi>γ</mml:mi></mml:math></inline-formula> control the number of infected and recovered individuals. A third parameter, <inline-formula><mml:math id="d1e438" display="inline" altimg="si8.svg"><mml:mi>λ</mml:mi></mml:math></inline-formula> is the ratio of initial infected nodes which determines initially infected individuals. During a dynamic process, the number of individuals does not change. Hence, the total number of individuals, <disp-formula id="d1e445"><mml:math id="d1e448" display="block" altimg="si9.svg"><mml:mrow><mml:mi>N</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>S</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>I</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>R</mml:mi><mml:mspace width="0.2777em"/><mml:mspace width="0.2777em"/><mml:mspace width="0.2777em"/><mml:mi mathvariant="normal">where</mml:mi><mml:mspace width="0.2777em"/><mml:mspace width="0.2777em"/><mml:mi>I</mml:mi><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>λ</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:math></disp-formula>remains constant. At the initial stages, all individuals except a small number of infected individuals, <inline-formula><mml:math id="d1e483" display="inline" altimg="si10.svg"><mml:mrow><mml:mi>I</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>, are susceptible. Since the individuals are grouped under three categories, such models are also called compartmental models. By using <inline-formula><mml:math id="d1e496" display="inline" altimg="si11.svg"><mml:mrow><mml:mi>s</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mi>S</mml:mi><mml:mo>∕</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="d1e510" display="inline" altimg="si12.svg"><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mi>I</mml:mi><mml:mo>∕</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="d1e524" display="inline" altimg="si13.svg"><mml:mrow><mml:mi>r</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mi>R</mml:mi><mml:mo>∕</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula> to denote the fraction of the population in each compartment, the SIR model becomes <disp-formula-group id="d1e542"><disp-formula id="d1e543"><mml:math id="d1e544" display="block" altimg="si14.svg"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo id="mmlalignd1e570" linebreak="goodbreak">=</mml:mo><mml:mo id="mmlalignd1e573" linebreak="goodbreak">−</mml:mo><mml:mi>β</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="fd1"><label>(1)</label><mml:math id="d1e572" display="block" altimg="si15.svg"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo id="mmlalignd1e598" linebreak="goodbreak" indentalign="id" indenttarget="mmlalignd1e570">=</mml:mo><mml:mi id="mmlalignd1e601">β</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>γ</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="d1e601"><mml:math id="d1e602" display="block" altimg="si16.svg"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo id="mmlalignd1e627" linebreak="goodbreak" indentalign="id" indenttarget="mmlalignd1e570">=</mml:mo><mml:mi id="mmlalignd1e630">γ</mml:mi><mml:mi>i</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula></disp-formula-group>
+</p>
+              <p id="d1e625">SIR model sets the dynamics of the spreading of the contamination. If the number of infected increases more than the recovered, an epidemic occurs. Hence the epidemic condition: <disp-formula id="fd2"><label>(2)</label><mml:math id="d1e634" display="block" altimg="si17.svg"><mml:mrow><mml:mi>β</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mo linebreak="goodbreak">−</mml:mo><mml:mi>γ</mml:mi><mml:mi>i</mml:mi><mml:mo linebreak="goodbreak">&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math></disp-formula>
+</p>
+              <p id="d1e652">The spreading of contamination is a function of three parameters: transmissibility, duration of illness, and the average rate of contact between susceptible and infected individuals. The first two, transmissibility and duration of contamination, are characteristics of the contaminating agent, while the third parameter is directly related to the topology of the interaction network. The reproduction number <inline-formula><mml:math id="d1e655" display="inline" altimg="si18.svg"><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math></inline-formula>, is <disp-formula id="fd3"><label>(3)</label><mml:math id="d1e671" display="block" altimg="si19.svg"><mml:mrow><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo linebreak="goodbreak">=</mml:mo><mml:mi>τ</mml:mi><mml:mover accent="true"><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mo>¯</mml:mo></mml:mrow></mml:mover><mml:mi>d</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula>
+</p>
+              <p id="d1e695">If <inline-formula><mml:math id="d1e698" display="inline" altimg="si18.svg"><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math></inline-formula> has a non-vanishing value, then the spreading becomes an epidemic. In Eq. <xref rid="fd3" ref-type="disp-formula">(3)</xref>
+<inline-formula><mml:math id="d1e711" display="inline" altimg="si21.svg"><mml:mi>τ</mml:mi></mml:math></inline-formula> is the transmissibility, <inline-formula><mml:math id="d1e716" display="inline" altimg="si22.svg"><mml:mover accent="true"><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mo>¯</mml:mo></mml:mrow></mml:mover></mml:math></inline-formula> is the average rate of contact between susceptible and infected individuals, and <inline-formula><mml:math id="d1e727" display="inline" altimg="si23.svg"><mml:mi>d</mml:mi></mml:math></inline-formula> is the duration of illness. SIR model assumes a well-mixed population with an equal probability of contacting any susceptible individual. In this model, the basic reproduction number is simply <disp-formula id="fd4"><label>(4)</label><mml:math id="d1e738" display="block" altimg="si24.svg"><mml:mrow><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>S</mml:mi><mml:mi>I</mml:mi><mml:mi>R</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo linebreak="goodbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>γ</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+</p>
+              <p id="d1e767">Comparing Eqs. <xref rid="fd3" ref-type="disp-formula">(3)</xref>, <xref rid="fd4" ref-type="disp-formula">(4)</xref> , the relation, <inline-formula><mml:math id="d1e774" display="inline" altimg="si25.svg"><mml:mrow><mml:mi>β</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mi>τ</mml:mi><mml:mover accent="true"><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mo>¯</mml:mo></mml:mrow></mml:mover></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math id="d1e791" display="inline" altimg="si26.svg"><mml:mrow><mml:mi>d</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>1</mml:mn><mml:mo>∕</mml:mo><mml:mi>γ</mml:mi></mml:mrow></mml:math></inline-formula> can be obtained.</p>
+              <p id="d1e804">The SIR model is an aggregate (compartmental) model where each interacts with all others. The model in which all interact with all others is not realistic for modern societies. An agent-based SIR model with an interaction pattern constitutes a more realistic model of the infection spreading. Complex networks or real-world networks represent the connectivity structure of a society. The links of the determine the node–node interaction pattern. Two variables, the node index and the state (<inline-formula><mml:math id="d1e808" display="inline" altimg="si27.svg"><mml:mrow><mml:mi>S</mml:mi><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:math></inline-formula> or <inline-formula><mml:math id="d1e818" display="inline" altimg="si5.svg"><mml:mi>R</mml:mi></mml:math></inline-formula>), represent the position and the state of the node. At time <inline-formula><mml:math id="d1e823" display="inline" altimg="si29.svg"><mml:mi>t</mml:mi></mml:math></inline-formula>, the individual living at site <inline-formula><mml:math id="d1e829" display="inline" altimg="si30.svg"><mml:mi>i</mml:mi></mml:math></inline-formula>, is denoted by the variable <inline-formula><mml:math id="d1e834" display="inline" altimg="si31.svg"><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula> where <inline-formula><mml:math id="d1e852" display="inline" altimg="si32.svg"><mml:mrow><mml:mi>i</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula>. The node variable <inline-formula><mml:math id="d1e870" display="inline" altimg="si33.svg"><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> can take three values, <inline-formula><mml:math id="d1e881" display="inline" altimg="si3.svg"><mml:mi>S</mml:mi></mml:math></inline-formula>, <inline-formula><mml:math id="d1e886" display="inline" altimg="si4.svg"><mml:mi>I</mml:mi></mml:math></inline-formula> or <inline-formula><mml:math id="d1e891" display="inline" altimg="si5.svg"><mml:mi>R</mml:mi></mml:math></inline-formula>. The transition probabilities of the changing state of an individual are given by <disp-formula-group id="d1e899"><disp-formula id="fd5"><label>(5)</label><mml:math id="d1e903" display="block" altimg="si37.svg"><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mo>|</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>S</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo id="mmlalignd1e965" linebreak="goodbreak">=</mml:mo><mml:mi id="mmlalignd1e968">β</mml:mi><mml:munderover><mml:mrow><mml:mo linebreak="badbreak">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>o</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula><disp-formula id="fd6"><label>(6)</label><mml:math id="d1e1031" display="block" altimg="si38.svg"><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>R</mml:mi><mml:mo>|</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo id="mmlalignd1e1093" linebreak="goodbreak" indentalign="id" indenttarget="mmlalignd1e965">=</mml:mo><mml:mi id="mmlalignd1e1096">γ</mml:mi><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo linebreak="goodbreak">+</mml:mo><mml:mi>o</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula></disp-formula-group> where <inline-formula><mml:math id="d1e1115" display="inline" altimg="si39.svg"><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> is the Kronecker delta. The sum over the nearest neighbors (<inline-formula><mml:math id="d1e1142" display="inline" altimg="si40.svg"><mml:mrow><mml:mi>N</mml:mi><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>), <inline-formula><mml:math id="d1e1155" display="inline" altimg="si41.svg"><mml:mrow><mml:msubsup><mml:mrow><mml:mo>∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>, counts the number of infected neighbors. Eqs. <xref rid="fd5" ref-type="disp-formula">(5)</xref>, <xref rid="fd6" ref-type="disp-formula">(6)</xref> are the probabilities of the agent living on the node <inline-formula><mml:math id="d1e1208" display="inline" altimg="si30.svg"><mml:mi>i</mml:mi></mml:math></inline-formula> being infected (if it is susceptible at time <inline-formula><mml:math id="d1e1213" display="inline" altimg="si29.svg"><mml:mi>t</mml:mi></mml:math></inline-formula>) and recovered (if it is infected at time <inline-formula><mml:math id="d1e1218" display="inline" altimg="si29.svg"><mml:mi>t</mml:mi></mml:math></inline-formula>) at next time step (<inline-formula><mml:math id="d1e1224" display="inline" altimg="si45.svg"><mml:mrow><mml:mi>t</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mi>t</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">+</mml:mo><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:math></inline-formula>). On the regular networks as <inline-formula><mml:math id="d1e1241" display="inline" altimg="si46.svg"><mml:mrow><mml:mi>N</mml:mi><mml:mo>→</mml:mo><mml:mi>∞</mml:mi></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math id="d1e1251" display="inline" altimg="si47.svg"><mml:mrow><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo>→</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math></inline-formula> the probabilistic model gives the same results as expected from the augmented model. <disp-formula-group id="d1e1266"><disp-formula id="fd7"><label>(7)</label><mml:math id="d1e1270" display="block" altimg="si48.svg"><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mo>|</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>S</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo id="mmlalignd1e1325" linebreak="goodbreak">=</mml:mo><mml:mi id="mmlalignd1e1328">β</mml:mi><mml:munderover><mml:mrow><mml:mo linebreak="badbreak">∑</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mrow><mml:mi>δ</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="fd8"><label>(8)</label><mml:math id="d1e1382" display="block" altimg="si49.svg"><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>R</mml:mi><mml:mo>|</mml:mo><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo id="mmlalignd1e1437" linebreak="goodbreak" indentalign="id" indenttarget="mmlalignd1e1325">=</mml:mo><mml:mi id="mmlalignd1e1440">γ</mml:mi><mml:mi>Δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:math></disp-formula></disp-formula-group>
+</p>
+              <p id="d1e1447">The number of neighbors differs according to the connectivity structure of the nodes. If a susceptible node has a large number of neighbors, it is more likely to be infected. Similarly, if an infected node has a large number of neighbors, it is more likely it may cause someone to be infected, which means the probability of spreading the illness is also high. The connectivity structure depends on the topology of the network. In this work, three different categories are considered: Barabási–Albert, Erdős–Renyi, Real-World networks.</p>
+              <p id="d1e1449">Regardless of the network structure, nodes possess characteristic parameters which uniquely identify its weight and importance in the network. Nodes can be associated with many different measurable quantities. One of the most commonly used is the degree of a node, which determines the number of connected neighboring nodes. Among over <inline-formula><mml:math id="d1e1452" display="inline" altimg="si50.svg"><mml:mrow><mml:mn>200</mml:mn></mml:mrow></mml:math></inline-formula> centrality measures the quantities</p>
+              <p id="d1e1457">
+                <list list-type="simple" id="d1e1459">
+                  <list-item id="lst1">
+                    <label>•</label>
+                    <p id="d1e1463">degree centrality,</p>
+                  </list-item>
+                  <list-item id="lst2">
+                    <label>•</label>
+                    <p id="d1e1468">betweenness centrality,</p>
+                  </list-item>
+                  <list-item id="lst3">
+                    <label>•</label>
+                    <p id="d1e1473">closeness centrality,</p>
+                  </list-item>
+                  <list-item id="lst4">
+                    <label>•</label>
+                    <p id="d1e1478">eigenvector centrality,</p>
+                  </list-item>
+                  <list-item id="lst5">
+                    <label>•</label>
+                    <p id="d1e1483">clustering coefficient,</p>
+                  </list-item>
+                  <list-item id="lst6">
+                    <label>•</label>
+                    <p id="d1e1488">pagerank centrality</p>
+                  </list-item>
+                </list>
+              </p>
+              <p id="d1e1491">are the network parameters which are used widely in network analysis. All of the network parameters are designed to give special information on the connectivity structure of a complex network. Each is designed to measure a different aspect of the complex relations among the nodes. Despite centrality, measures emphasizes a different aspect of complex relations; they are correlated and some of them have strong correlations. These correlations are also reflected in the spreading dynamics. The relation between the speed of the spreading phenomena and the network parameters of the nodes gives a clear indication of the correlations between network parameters and the dynamics of spreading.</p>
+              <p id="d1e1493">The model is based on the comparison between the correlations among the centrality measures and the spreading dynamics on the same network topology. To address the problem of predicting the relationship between the centrality measures and the spreading dynamics on a given network, the model is tested on well-known Erdős–Renyi and Barabási–Albert network topologies. The SIR Model dynamics are simulated on both artificially generated and real-world network structures. The replicas of the networks with an equal average degree are used to follow the spreading dynamics for 50-time steps. In order to eliminate the artifact effects of the seed nodes of the contamination, the contamination started at the randomly chosen seed sites, and the averages are calculated over a large number of statistically independent samples. The correlations between the network parameters and the probability of a node being contaminated are calculated at each time step.</p>
+            </sec>
+            <sec id="sec3">
+              <label>3</label>
+              <title>Results and discussions</title>
+              <p id="d1e1500">In this section, the SIR model simulation on artificial and real-world network results will be presented. First, two artificial networks, scale-free and random networks, will be used to introduce the hypothesis of the present work. The main aim of the simulation work is to show the time-dependent changes in the correlations between node centrality measures and the probability of a node being infected. For a given network topology, the density of the connections determines the time scale of the spreading. For artificial networks, the average number of connections is a crucial control parameter. Hence, the average number of neighbors per node is taken <inline-formula><mml:math id="d1e1503" display="inline" altimg="si51.svg"><mml:mn>3</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e1508" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> for time scale comparisons.</p>
+              <p id="d1e1512">Artificial societies (scale-free and random networks) consist of <inline-formula><mml:math id="d1e1515" display="inline" altimg="si72.svg"><mml:mrow><mml:mi>N</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>10</mml:mn><mml:mspace width="0.16667em"/><mml:mn>000</mml:mn></mml:mrow></mml:math></inline-formula> nodes. The same initial set-up, (the same number of nodes, the same average number of neighbors) results in different connectivity patterns — replicas. Replicas have the same characteristics in the average, but exhibit spreading variations. Hence, for each artificial network setting, <inline-formula><mml:math id="d1e1528" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> independent replicas are created for simulations.</p>
+              <p id="d1e1533">For every replica, <inline-formula><mml:math id="d1e1536" display="inline" altimg="si55.svg"><mml:mrow><mml:mn>500</mml:mn></mml:mrow></mml:math></inline-formula> independent configurations of randomly selected seed spreader sites are created. The time evolution of the spreading (Eq. <xref rid="fd7" ref-type="disp-formula">(7)</xref>) is followed for <inline-formula><mml:math id="d1e1546" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> time steps. At each time step, the averages are taken over <inline-formula><mml:math id="d1e1553" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> replical and on each replica <inline-formula><mml:math id="d1e1559" display="inline" altimg="si55.svg"><mml:mrow><mml:mn>500</mml:mn></mml:mrow></mml:math></inline-formula> new runs started from statistically independent initial configurations.</p>
+              <p id="d1e1564">For all network data sets the same SIR model parameters are used, <inline-formula><mml:math id="d1e1567" display="inline" altimg="si59.svg"><mml:mrow><mml:mi>β</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>01</mml:mn></mml:mrow></mml:math></inline-formula>, <inline-formula><mml:math id="d1e1581" display="inline" altimg="si60.svg"><mml:mrow><mml:mi>γ</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>005</mml:mn></mml:mrow></mml:math></inline-formula> and the infection probability, <inline-formula><mml:math id="d1e1595" display="inline" altimg="si61.svg"><mml:mrow><mml:mi>λ</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>01</mml:mn></mml:mrow></mml:math></inline-formula>. The initial infected individuals (The seed spreaders) are randomly selected.</p>
+              <p id="d1e1608">The time dependent correlations between the network centrality measures and the infection probability of the nodes vary in time. At the beginning of the spread there exist no correlation, since all nodes share the same infection probability until the spread of infection start to grow (initial stages of spreading). At a certain point, topology of the network come into play where a peak in the correlations appear. As the infection spreads to all off the nodes, the correlations start to die off. Both the speed of the spread and the duration of the contamination are effective on the strength of the correlations. The height and the time of the correlation peak is closely related with the topology of the network. In order to observe the relations between the correlations and the topology of the network the hypothesis are tested on the artificial networks.</p>
+              <sec id="sec3.1">
+                <label>3.1</label>
+                <title>Artificial networks</title>
+                <p id="d1e1615">Topological differences between scale-free and random networks create opportunities to compare spreading dynamics on the real-world networks. Hence, the correlations between centrality measures and the spreading phenomena are tested on both Barabási–Albert (scale-free) and Erdős–Renyi (random) networks.</p>
+                <sec id="sec3.1.1">
+                  <label>3.1.1</label>
+                  <title>Barabási–Albert Networks</title>
+                  <p id="d1e1622">Barabási–Albert network is well known for its characteristic power-law degree distribution, which indicates the existence of a small number of nodes with high connectivity (hub nodes), while a large number of nodes with a small number of neighbors. First, the correlations among the centrality measures are calculated to check the dependencies. In calculating correlations among the centrality measures of nodes, <inline-formula><mml:math id="d1e1625" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> statistically independent Barabási–Albert networks are used.</p>
+                  <p id="d1e1630"><xref rid="fig1" ref-type="fig">Fig. 1</xref> show the correlations between selected centrality measures. The correlations are obtained as the averages over <inline-formula><mml:math id="d1e1636" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> replicas of Barabási–Albert networks with <inline-formula><mml:math id="d1e1642" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula>
+(<xref rid="fig1" ref-type="fig">Figs. 1(a)</xref>) and <inline-formula><mml:math id="d1e1653" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>
+(<xref rid="fig1" ref-type="fig">1(b)</xref>) average connections per site. The comparison of the subfigures, <xref rid="fig1" ref-type="fig">Fig. 1</xref>, <xref rid="fig1" ref-type="fig">Fig. 1</xref> indicate that increasing average number of connections also increases the existing correlations. Moreover, page rank and degree centrality measures are highly correlated, give the same information with the same strength. The clustering centrality measure does not correlate with any other measure, which does not change with the increasing connectivity of the system. Similarly, the closeness centrality exhibits a relatively weak correlation with the other measures. Its correlations increase with increasing connectivity.</p>
+                  <p id="d1e1667"><xref rid="fig2" ref-type="fig">Fig. 2</xref> shows the correlations between the node centrality measures and the node infection probability. The node infection probability denotes the probability of being infected if an infection starts to spread at any node in the network. For every independent graph, <inline-formula><mml:math id="d1e1676" display="inline" altimg="si55.svg"><mml:mrow><mml:mn>500</mml:mn></mml:mrow></mml:math></inline-formula> different runs are performed with statistically independent initial configurations. During <inline-formula><mml:math id="d1e1682" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> time steps, the spread of infection is followed. At every time step, the infected nodes are labeled as susceptible, infected, or recovered. The node infection probabilities are calculated over <inline-formula><mml:math id="d1e1689" display="inline" altimg="si55.svg"><mml:mrow><mml:mn>500</mml:mn></mml:mrow></mml:math></inline-formula> sample runs at each time step. If a node is infected once, this node is considered as infected for all the time steps.<fig id="fig1"><label>Fig. 1</label><caption><p>Correlations among the centrality measures for Barabási–Albert Network with average degrees <inline-formula><mml:math id="d1e27" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e32" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>.</p></caption><graphic xlink:href="gr1_lrg"/></fig></p>
+                  <p id="d1e1694">After calculation of the node infection probabilities, the correlations between infection probabilities and centrality measures are obtained and the averages are taken over all <inline-formula><mml:math id="d1e1697" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> independent graphs.</p>
+                  <p id="d1e1702">
+Correlations among the centrality measures are reflected in the centrality-infection probability correlations. <xref rid="fig2" ref-type="fig">Fig. 2</xref>, shows that degree (dgr) and page rank (pgr) follow closely each other within the accuracy of the plot. Eigenvector (eig) and Betweenness (btw) centrality measures follow a similar pattern with the page rank and degree centralities but they remain slightly lower as expected (<xref rid="fig1" ref-type="fig">Fig. 1</xref>). Remaining two centrality measures, closeness (clo) and clustering (cls), behave independently from the other.<fig id="fig2"><label>Fig. 2</label><caption><p>Correlation between the infection probability and the centrality measures of the nodes. The spread of infection on Barabási–Albert network with <inline-formula><mml:math id="d1e46" display="inline" altimg="si72.svg"><mml:mrow><mml:mi>N</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>10</mml:mn><mml:mspace width="0.16667em"/><mml:mn>000</mml:mn></mml:mrow></mml:math></inline-formula> and average degrees <inline-formula><mml:math id="d1e59" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e64" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>.</p></caption><graphic xlink:href="gr2_lrg"/></fig></p>
+                  <p id="d1e1715"><xref rid="fig3" ref-type="fig">Fig. 3</xref> show the percentage changes of susceptible, infected and recovered populations for <inline-formula><mml:math id="d1e1721" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> time steps. If <xref rid="fig2" ref-type="fig">Fig. 2</xref>, <xref rid="fig3" ref-type="fig">Fig. 3</xref> are considered together, the relation between the peaks and the spreading dynamics can be better interpreted. Both <xref rid="fig3" ref-type="fig">Fig. 3</xref>, <xref rid="fig2" ref-type="fig">Fig. 2</xref> contain two subfigures for <inline-formula><mml:math id="d1e1736" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e1741" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula> average degree respectively. Increased connectivity increases the speed of the infection spread. Hence, from <xref rid="fig3" ref-type="fig">Fig. 3</xref>, <xref rid="fig3" ref-type="fig">Fig. 3</xref> it can be seen that between the average degrees <inline-formula><mml:math id="d1e1751" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e1757" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula> the speed off the spread of infection approximately doubles. A characteristic feature of SIR-like epidemics, at the initial stages, the slope of the increase in the number of infected individuals is small up to a critical percentage. After the initial stage, a new phase with a higher slope starts which may lead to an epidemic situation. The correlations between the infection probability and centrality measures reflect the observed initial stages of the contamination spread. Correlations start to grow at the initial stage where the slope of the infection spread is low, reach to a peak at the point where the slope changes. The position of the peak is the position of the point where the slope changes. The slopes are calculated by fitting the infected population data for both average degrees <inline-formula><mml:math id="d1e1763" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e1768" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>. As the infection spreads, after the peak of the correlations, a large number of nodes have the same probability of being infected, hence the correlations start to decrease.</p>
+                  <p id="d1e1773">
+The position of the peak gives an indication of the timing of any planned action. The peak position of the correlations is much earlier than the peak of the infection spread. At the peak, the spread can be controlled by pointing the nodes with the highest centrality values. Immunizations, isolation, or quarantine are most useful before or at the peak of the correlations. The degree and page rank centralities are the decisive factors for the control of infection spreading (<xref rid="fig2" ref-type="fig">Fig. 2</xref>).<fig id="fig3"><label>Fig. 3</label><caption><p>The spread of infection on Barabási–Albert networks with average degrees <inline-formula><mml:math id="d1e78" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e83" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>. The straight lines indicate the critical slope changes at the initial stages of epidemics.</p></caption><graphic xlink:href="gr3_lrg"/></fig></p>
+                  <p id="d1e1782">The role of topology on the spreading phenomena can be better understood by comparing the results of scale-free and random networks. In the following subsection spread of SIR type infection on Erdős–Renyi networks will be subject to discussion.</p>
+                </sec>
+                <sec id="sec3.1.2">
+                  <label>3.1.2</label>
+                  <title>Erdős–Renyi Networks</title>
+                  <p id="d1e1789">Erdős–Renyi random networks are one of the oldest and best-studied models of node connectivity. However, its resemblance to the real-world networks such as the Internet, social networks or biological networks is limited since it lacks network clustering or transitivity, and its Poisson degree distribution does not overlap with the degree distributions of the real-world networks. Despite that, the real-world networks are mostly scale-free networks, depending on the network size and the relation among the nodes, some parts or the whole network may exhibit random connectivity.</p>
+                  <p id="d1e1791"><xref rid="fig4" ref-type="fig">Fig. 4</xref> show the correlation between different centrality measures using <inline-formula><mml:math id="d1e1797" display="inline" altimg="si54.svg"><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:math></inline-formula> statistically independent graphs. The correlations of centrality measures of Erdős–Renyi networks for <inline-formula><mml:math id="d1e1803" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula>, <xref rid="fig4" ref-type="fig">Fig. 4(a)</xref> and 12, <xref rid="fig4" ref-type="fig">Fig. 4(b)</xref> average degree per site indicate that increasing average number of connections also increases the existing correlations. In the random network case, the correlations among the centrality measures are stronger than the scale-free network. Page rank and degree centrality measures are highly correlated as it is for the scale-free networks (<xref rid="fig4" ref-type="fig">Fig. 4</xref>, <xref rid="fig1" ref-type="fig">Fig. 1</xref>). Clustering centrality measures do not have a correlation with any other measure for both scale-free and random networks. This fact does not change with the increasing connectivity of the system.</p>
+                  <p id="d1e1821">
+The effect of the network topology on the spreading dynamics can be seen in <xref rid="fig5" ref-type="fig">Fig. 5</xref>. The most distinct feature of the Erdős–Renyi network results is the observed smooth rise in the correlations between the node centrality measures and the node infection probability (<xref rid="fig2" ref-type="fig">Fig. 2</xref>). The peak, seen in the Barabási–Albert network case is lost. Hence the identification of the infection spread by observing the peak in the early stages of the infection spread (<xref rid="fig6" ref-type="fig">Fig. 6</xref>) cannot be easily done. Moreover, apart from the clustering centrality measure, all centrality measures follow closely with each other.<fig id="fig4"><label>Fig. 4</label><caption><p>Correlations among the centrality measures for Erdős–Renyi Network with average degrees <inline-formula><mml:math id="d1e97" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e102" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>.</p></caption><graphic xlink:href="gr4_lrg"/></fig></p>
+                  <p id="d1e1840"><xref rid="fig5" ref-type="fig">Fig. 5</xref>, <xref rid="fig6" ref-type="fig">Fig. 6</xref> contain information on the affect of the average degree, <inline-formula><mml:math id="d1e1849" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e1854" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula> respectively. Increased connectivity increases the speed of the infection spread. Hence, it can be seen that the speed of the spread of infection approximately doubles as the average connectivity increases from <inline-formula><mml:math id="d1e1861" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> to <inline-formula><mml:math id="d1e1866" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>. Comparisons between the <xref rid="fig3" ref-type="fig">Figs. 3(a)</xref> with <xref rid="fig6" ref-type="fig">Fig. 6</xref>, <xref rid="fig3" ref-type="fig">Fig. 3</xref> with <xref rid="fig6" ref-type="fig">6(b)</xref> that the influencer (hub) nodes of the scale free networks play an important role in increasing the speed of the spread.<fig id="fig5"><label>Fig. 5</label><caption><p>Correlation between the infection probability and the centrality measures of the nodes. The spread of infection on Erdős–Renyi network with <inline-formula><mml:math id="d1e116" display="inline" altimg="si72.svg"><mml:mrow><mml:mi>N</mml:mi><mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo><mml:mn>10</mml:mn><mml:mspace width="0.16667em"/><mml:mn>000</mml:mn></mml:mrow></mml:math></inline-formula> and average degrees <inline-formula><mml:math id="d1e129" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e134" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>.</p></caption><graphic xlink:href="gr5_lrg"/></fig></p>
+                  <p id="d1e1884">
+                    <fig id="fig6">
+                      <label>Fig. 6</label>
+                      <caption>
+                        <p>The spread of infection on Erdős–Renyi networks with average degrees <inline-formula><mml:math id="d1e149" display="inline" altimg="si66.svg"><mml:mn>6</mml:mn></mml:math></inline-formula> and <inline-formula><mml:math id="d1e154" display="inline" altimg="si67.svg"><mml:mrow><mml:mn>12</mml:mn></mml:mrow></mml:math></inline-formula>. The straight lines indicate the critical slope changes at the initial stages of epidemics.</p>
+                      </caption>
+                      <graphic xlink:href="gr6_lrg"/>
+                    </fig>
+                  </p>
+                </sec>
+              </sec>
+              <sec id="sec3.2">
+                <label>3.2</label>
+                <title>Real-world networks</title>
+                <p id="d1e1892">To compare scale-free and random networks with the real-world network data sets Airline Data <xref rid="b21" ref-type="bibr">[21]</xref> (3425 nodes (vertex) and 19 257 links (edges)) and Facebook ego network <xref rid="b22" ref-type="bibr">[22]</xref> (4039 nodes (vertex) and 88 234 links (edges)) are used as test ground.</p>
+                <p id="d1e1906"><xref rid="fig7" ref-type="fig">Fig. 7</xref> show the Airline and Facebook network diagrams. Despite the fact that both networks possess power-law degree distribution, Airline Network is a uni-center network while Facebook has more than one center. In the Facebook network case the local centers of dense connectivity <xref rid="b28" ref-type="bibr">[28]</xref>, <xref rid="b29" ref-type="bibr">[29]</xref> are sparsely connected with the remaining centers. <xref rid="fig7" ref-type="fig">Fig. 7</xref>, <xref rid="fig7" ref-type="fig">Fig. 7</xref> show the node distributions and connection of the Airline and Facebook networks.</p>
+                <p id="d1e1919">
+The topological differences in the connectivity structures between the airline and the Facebook networks are reflected in the correlations among the centrality measures. <xref rid="fig8" ref-type="fig">Fig. 8</xref> shows the correlations between centrality measures of airline network (<xref rid="fig8" ref-type="fig">Fig. 8(a)</xref>) and Facebook Network (<xref rid="fig8" ref-type="fig">Fig. 8(b)</xref>). The correlations among the airline network centrality measure closely follow the Barabási–Albert network as expected. For the airline network page rank, eigenvalue, and degree centralities are closely related. Similarly, betweenness also shows a correlation with page rank and degree centralities. Clustering centrality shows no correlation with any other centrality measures. For the Facebook case, degree and betweenness centralities correlate with the page rank centrality. Apart from these correlations non of the centrality measure exhibit significant correlation.<fig id="fig7"><label>Fig. 7</label><caption><p>Distinct network structures of Airline and Facebook networks.</p></caption><graphic xlink:href="gr7_lrg"/></fig></p>
+                <p id="d1e1938">
+The effect of the correlations between the centrality measures can be seen on the centrality and the infection-spread probability correlations. <xref rid="fig9" ref-type="fig">Fig. 9</xref> show the time-dependent changes in the centrality and the infection spread correlations and the spreading dynamics in the airline network. As one can see, highly correlated centrality measures exhibit similar correlations (<xref rid="fig9" ref-type="fig">Fig. 9(a)</xref>). The curves, corresponding to the highly correlated centrality measures (degree, page rank, eigenvalue centralities) follow each other closely. Betweenness, have the same shape, the peak position but the height of the peak, and in general, the whole curve is lower than the group of highly correlated three centrality measures. All these four centrality measures resemble closely the behavior of the Barabási–Albert case (<xref rid="fig2" ref-type="fig">Fig. 2</xref>). The closeness centrality measure curve has no peak, similar to the case of centrality measures of random networks, increases smoothly, and reaches a saturation level. Finally, the behaviors of the clustering centrality correlations very low and carry no significant information. The peak value and the correlation curves correspond to the point where the infection spreading slope changes. <xref rid="fig9" ref-type="fig">Fig. 9(b)</xref> show the time-dependent changes in susceptible, infected, and recovered individuals. The initial slow-spreading regime remains only for a very short period. After the initial stage, the slope of the curve changes. During the initial spreading phase the correlations between the probability of being infected and the node centrality measures show a strong correlation. After the slope change, these strong correlations become weaker.<fig id="fig8"><label>Fig. 8</label><caption><p>Correlations among the centrality measures of Airline and Facebook networks.</p></caption><graphic xlink:href="gr8_lrg"/></fig></p>
+                <p id="d1e1961">
+The Facebook network, due to its multi-centered connectivity structure, exhibits no strong correlations among the centrality measures (<xref rid="fig8" ref-type="fig">Fig. 8(b)</xref>). Hence, <xref rid="fig10" ref-type="fig">Fig. 10(a)</xref> show that the correlations between the node centrality measures and the infection probability curves separated from each other. However, degree and eigenvector centralities have similar shapes and peak positions. The peak positions also in accord with the slope change point of the infection spread (<xref rid="fig10" ref-type="fig">Fig. 10(b)</xref>). The curves corresponding to page rank and betweenness centrality measures have similar behavior, but the peak positions and the peak heights indicate little correlation with the infection spreading phenomena.<fig id="fig9"><label>Fig. 9</label><caption><p>Comparative study of correlations between the infection probability and the centrality measures and the spread of infection on Airline network.</p></caption><graphic xlink:href="gr9_lrg"/></fig></p>
+                <p id="d1e1980">At the beginning of the contamination spread, separated centers of high activity (<xref rid="fig10" ref-type="fig">Fig. 10</xref>) act like small communities with a high degree of connectivity, which causes the fast spread of infection. The spread of infection and the correlations between the node centrality values and the infection probability are presented by <xref rid="fig10" ref-type="fig">Fig. 10</xref>. Comparing with the previous cases, relatively fast initial contamination spread (<xref rid="fig10" ref-type="fig">Fig. 10(b)</xref>) is reflected to the peak positions of the centrality correlation curves (<xref rid="fig10" ref-type="fig">Fig. 10(a)</xref>).</p>
+                <p id="d1e2002">
+                  <fig id="fig10">
+                    <label>Fig. 10</label>
+                    <caption>
+                      <p>Comparative study of correlations between the infection probability and the centrality measures and the spread of infection on Facebook network.</p>
+                    </caption>
+                    <graphic xlink:href="gr10_lrg"/>
+                  </fig>
+                </p>
+              </sec>
+            </sec>
+            <sec id="sec4">
+              <label>4</label>
+              <title>Conclusions</title>
+              <p id="d1e2010">Advanced technologies increased the quality and standards of life. One of the most significant impacts of the new technologies is on the pharmaceutical and medical research which opened the possibilities for a better and longer lifespan for large populations living in the developed and also developing countries. Another impact of technological advancement is on communication and transportation. All of the goods are available globally, while the individuals travel to see the natural, historical sites and exotic lifestyles. On the communication side, worldwide information networks made it possible to reach information globally. Despite advanced technologies used for vaccines, medicine, and medical equipment, the spreading of contagious diseases is one of the problems. Starting with the Spanish Flue, many virus-based diseases cost a great many lives. Today, COVID-19 is a striking example of a new type of virus infection. It is seen in all of the countries globally. It has no vaccine or a specific method of treatment. A unique tool to fight with this highly contagious and deadly virus is isolation or quarantine. It is almost impossible to impose long term personal isolation globally, reducing travel, identifying and isolating the most vulnerable groups or individuals, and the possible super spreaders seemingly the most effective method for fighting the spread. At this point, technology comes into play. The advanced communication technologies give a clear indication for the connectivity structure of the nodes: interactions and movements of the individuals in the societies. Hence, the knowledge of the connectivity structure of society is a tool for disease prevention attempts.</p>
+              <p id="d1e2012">In this work, the observed facts are:</p>
+              <p id="d1e2014">
+                <list list-type="simple" id="d1e2016">
+                  <list-item id="lst7">
+                    <label>•</label>
+                    <p id="d1e2020">The correlations among the centrality measures reflect the topological structure of the network.</p>
+                  </list-item>
+                  <list-item id="lst8">
+                    <label>•</label>
+                    <p id="d1e2025">On the complex networks, the contamination starts from the seed sites. The majority (Particularly for BA and real-world networks) of the seed sites are nodes with low connectivity. When the spreading starts from such a relatively isolated site, contamination shows a slow paste until it reaches to the highly connected nodes. After this initial transient regime, the system enters a second phase that has a higher slope. Hence, two distinct phases can be linearized separately (<xref rid="fig3" ref-type="fig">Figs. 3</xref>, <xref rid="fig6" ref-type="fig">6</xref>, <xref rid="fig9" ref-type="fig">9</xref>, and <xref rid="fig10" ref-type="fig">10</xref>). Hence, the infectious disease spreading curve exhibits a short-flat initial stage (low slope) followed by a relatively faster spreading regime (higher slope).</p>
+                  </list-item>
+                  <list-item id="lst9">
+                    <label>•</label>
+                    <p id="d1e2048">There exists a close, time-dependent relation between the node infection probability and the node centrality values. The correlations between the centrality measures and the node infection probability increase until the end of the flat initial stage, reach its peak at the crossing point of the fitted lines indicating two separate phases.</p>
+                  </list-item>
+                  <list-item id="lst10">
+                    <label>•</label>
+                    <p id="d1e2053">The correlation behaves differently after the initial-stage for scale-free and random networks. <list list-type="simple" id="d1e2055"><list-item id="lst11"><label>1.</label><p id="d1e2059">For scale-free networks, the increase in the correlations reaches a peak value at the point where the initial slow-spreading regime leaves its place to a fast-spreading regime.</p></list-item><list-item id="lst12"><label>2.</label><p id="d1e2064">Random networks show a different behavior, the correlation between the centrality measures and node infection probability increases in the initial slow-spreading stage, and it levels off at the time where the spreading speed increases.</p></list-item></list>
+</p>
+                  </list-item>
+                  <list-item id="lst13">
+                    <label>•</label>
+                    <p id="d1e2069">The strength of the correlation between node infection probability and the node centrality measures depends on the centrality measure and the topology of the network.</p>
+                  </list-item>
+                  <list-item id="lst14">
+                    <label>•</label>
+                    <p id="d1e2074">The selected real-world networks, namely, airline and Facebook networks, both have power-law degree distribution, but exhibit different centrality-infection probability correlation patterns.</p>
+                  </list-item>
+                  <list-item id="lst15">
+                    <label>•</label>
+                    <p id="d1e2079">The difference is due to the connectivity structure of the networks. Airline networks have uni-centered structures, while in the Facebook case, nodes are centered around more than one loosely connected large communities.</p>
+                  </list-item>
+                  <list-item id="lst16">
+                    <label>•</label>
+                    <p id="d1e2084">Among the studied centrality measures, degree and page rank provide the most reliable information.</p>
+                  </list-item>
+                </list>
+              </p>
+              <p id="d1e2086">The world has experienced various influenza outbreaks in the recent past. In light of the observed facts, the existing infection spread data can be combined with the connectivity information of the individuals (nodes) for the disease prevention planning. For efficient planning, the network structure of the society must be sketched out, the centrality measures of each node must be calculated, correlations with the existing infection spread data, and centrality measures can be used to identify the society specific prevention planning.</p>
+            </sec>
+            <sec id="d1e2088">
+              <title>CRediT authorship contribution statement</title>
+              <p id="d1e2091"><bold>Semra Gündüç:</bold> Conceptualization, Methodology, Software, Data curation, Writing - original draft, Simulation. <bold>Recep Eryiğit:</bold> Data curation, Writing - original draft, Visualization.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of Competing Interest</title>
+              <p id="d1e2101">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="bib1">
+              <title>References</title>
+              <ref id="b1">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sb1">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Small</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu/</surname>
+                      <given-names>X.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of awareness on epidemic spreading in networks</article-title>
+                  <source>Chaos</source>
+                  <year>2012</year>
+                  <fpage>22</fpage>
+                </element-citation>
+              </ref>
+              <ref id="b2">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sb2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gunduc</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of diffusion of information on epidemic spread - A multilayer approach</article-title>
+                  <source>Acta Phys. Polon. B</source>
+                  <volume>50</volume>
+                  <year>2019</year>
+                  <fpage>179</fpage>
+                </element-citation>
+              </ref>
+              <ref id="b3">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sb3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weigang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interacting model of rumor propagation and behavior spreading in multiplex networks chaos</article-title>
+                  <source>Solut. Fractals</source>
+                  <volume>121</volume>
+                  <year>2019</year>
+                  <fpage>168</fpage>
+                  <lpage>177</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b4">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sb4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gunduc</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A study on the effects of diffusion of information on epidemic spread</article-title>
+                  <source>Int. J. Model. Simul., Sci. Comput.</source>
+                  <volume>10</volume>
+                  <year>2019</year>
+                  <object-id pub-id-type="publisher-id">1950015</object-id>
+                  <comment>(14 pages)</comment>
+                </element-citation>
+              </ref>
+              <ref id="b5">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sb5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gan</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemics of computer viruses: A complex-network approach</article-title>
+                  <source>Appl. Math. Comput.</source>
+                  <volume>219</volume>
+                  <year>2013</year>
+                  <fpage>8705</fpage>
+                  <lpage>8717</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b6">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sb6">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Satorras</surname>
+                      <given-names>R.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vespignani</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemic spreading in scale-free networks</article-title>
+                  <source>Phys. Rev. Lett.</source>
+                  <volume>86</volume>
+                  <year>2001</year>
+                  <fpage>14</fpage>
+                  <comment>3200-3203</comment>
+                  <pub-id pub-id-type="pmid">11136082</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b7">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sb7">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gonzalez</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barabási</surname>
+                      <given-names>A.-L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Complex networks - from data to models</article-title>
+                  <source>Nat. Phys.</source>
+                  <volume>3</volume>
+                  <year>2007</year>
+                  <fpage>224</fpage>
+                  <lpage>225</lpage>
+                  <pub-id pub-id-type="pmid">32226461</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b8">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sb8">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boccaletti</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Latora</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreno</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chavez</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hwanga</surname>
+                      <given-names>D.-U.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Phys. Rep. Vol.</source>
+                  <volume>424</volume>
+                  <issue>45</issue>
+                  <year>2006</year>
+                  <fpage>175</fpage>
+                  <lpage>308</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b9">
+                <label>9</label>
+                <mixed-citation publication-type="other" id="sb9">M. Opuszko, J. Ruhland, Impact of the network structure on the SIR model spreading phenomena in online networks, in: Conference: The Eighth International Multi-Conference on Computing in the Global Information Technology ICCGI, Nice, France, 2013.</mixed-citation>
+              </ref>
+              <ref id="b10">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sb10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liua Q. Xiongbc</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shia</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shia</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Physica A</source>
+                  <volume>452</volume>
+                  <year>2016</year>
+                  <fpage>209</fpage>
+                  <lpage>219</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b11">
+                <label>11</label>
+                <element-citation publication-type="book" id="sb11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rodrigues</surname>
+                      <given-names>F.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peron</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Connaughton</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kurths</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreno</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>A machine learning approach to predicting dynamical observables from network structure</chapter-title>
+                  <year>2019</year>
+                </element-citation>
+              </ref>
+              <ref id="b12">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sb12">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cherifi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palla</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Szymanski</surname>
+                      <given-names>B.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On community structure in complex networks: challenges and opportunities</article-title>
+                  <source>Appl. Netw. Sci.</source>
+                  <volume>4</volume>
+                  <year>2019</year>
+                  <fpage>117</fpage>
+                </element-citation>
+              </ref>
+              <ref id="b13">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sb13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Small</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Suboptimal control and targeted constant control for semi-random epidemic networks</article-title>
+                  <source>IEEE Trans. Syst., Man, Cybern.: Syst.</source>
+                  <year>2019</year>
+                </element-citation>
+              </ref>
+              <ref id="b14">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sb14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>Y.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Motter</surname>
+                      <given-names>A.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nishikawa</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Attacks and cascades in complex networks</article-title>
+                  <source>Lect. Notes Phys.</source>
+                  <volume>650</volume>
+                  <year>2004</year>
+                  <fpage>299</fpage>
+                  <lpage>310</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b15">
+                <label>15</label>
+                <element-citation publication-type="journal" id="sb15">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bae</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identifying and ranking influential spreaders in complex networks by neighborhood coreness</article-title>
+                  <source>Physica A</source>
+                  <volume>395</volume>
+                  <year>2014</year>
+                  <fpage>549</fpage>
+                  <lpage>559</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b16">
+                <label>16</label>
+                <element-citation publication-type="journal" id="sb16">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jalili</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salehzadeh-Yazdi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Asgari</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arab</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yaghmaie</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghavamzadeh</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>CentiServer: A comprehensive resource, web-based application and R package for centrality analysis</article-title>
+                  <source>PLoS One</source>
+                  <volume>10</volume>
+                  <year>2015</year>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b17">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sb17">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oldham</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fulcher</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parkes</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnatkevic</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suo</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fornito</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Consistency and differences between centrality measures across distinct classes of networks</article-title>
+                  <source>PLoS One</source>
+                  <volume>14</volume>
+                  <year>2019</year>
+                  <fpage>7</fpage>
+                </element-citation>
+              </ref>
+              <ref id="b18">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sb18">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>De Arruda</surname>
+                      <given-names>G.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barbieri</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodrigues</surname>
+                      <given-names>F.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreno</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>da Fontoura Costa</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Phys. Rev. E</source>
+                  <volume>90</volume>
+                  <year>2014</year>
+                  <object-id pub-id-type="publisher-id">032812</object-id>
+                </element-citation>
+              </ref>
+              <ref id="b19">
+                <label>19</label>
+                <element-citation publication-type="book" id="sb19">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Erdős</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rényi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>On random graphs</chapter-title>
+                  <source>I Publicationes Mathematicae, Vol. 6</source>
+                  <year>1959</year>
+                  <fpage>290</fpage>
+                  <lpage>297</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b20">
+                <label>20</label>
+                <element-citation publication-type="journal" id="sb20">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Onnela</surname>
+                      <given-names>J.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saramaki</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyvonen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Szabo</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lazer</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaski</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kertesz</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barabási</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Structure and tie strengths in mobile communication networks</article-title>
+                  <source>Proc. Nat. Acad. Sci.</source>
+                  <volume>104</volume>
+                  <year>2007</year>
+                  <fpage>7332</fpage>
+                  <lpage>7336</lpage>
+                  <pub-id pub-id-type="pmid">17456605</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b21">
+                <label>21</label>
+                <mixed-citation publication-type="other" id="sb21"><ext-link ext-link-type="uri" xlink:href="http://openflight.org" id="interref1">http://openflight.org</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="b22">
+                <label>22</label>
+                <element-citation publication-type="journal" id="sb22">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McAuley</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leskovec</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Learning to discover social circles in ego networks</article-title>
+                  <source>NIPS</source>
+                  <year>2012</year>
+                </element-citation>
+              </ref>
+              <ref id="b23">
+                <label>23</label>
+                <element-citation publication-type="journal" id="sb23">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermack</surname>
+                      <given-names>W.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>McKendrick</surname>
+                      <given-names>A.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A contribution to the mathematical theory of epidemics</article-title>
+                  <source>Proc. R. Soc. Lond. Ser. A Math. Phys. Eng. Sci.</source>
+                  <volume>115</volume>
+                  <year>1927</year>
+                  <fpage>700</fpage>
+                  <lpage>721</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b24">
+                <label>24</label>
+                <element-citation publication-type="book" id="sb24">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hagberg</surname>
+                      <given-names>Aric A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schult</surname>
+                      <given-names>Daniel A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Swart</surname>
+                      <given-names>Pieter J.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Exploring network structure, dynamics, and function using networkx</chapter-title>
+                  <source>Proceedings of the 7th Python in Science Conference</source>
+                  <year>2008</year>
+                  <publisher-name>SciPy</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="b25">
+                <label>25</label>
+                <element-citation publication-type="journal" id="sb25">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rossetti</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milli</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rinzivillo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sirbu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pedreschi</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Giannotti</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ndlib: a python library to model and analyze diffusion processes over complex networks</article-title>
+                  <source>J. Data Sci. Anal.</source>
+                  <year>2017</year>
+                </element-citation>
+              </ref>
+              <ref id="b26">
+                <label>26</label>
+                <mixed-citation publication-type="other" id="sb26">W. McKinney, Data structures for statistical computing in python. in: Proceedings of the 9th Python in Science Conference, 2010, pp. 51-56.</mixed-citation>
+              </ref>
+              <ref id="b27">
+                <label>27</label>
+                <element-citation publication-type="book" id="sb27">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oliphant</surname>
+                      <given-names>T.E.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>A Guide to NumPy</chapter-title>
+                  <year>2009</year>
+                  <publisher-name>Trelgol Publishing USA</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="b28">
+                <label>28</label>
+                <element-citation publication-type="journal" id="sb28">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Girvan</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Newman</surname>
+                      <given-names>M.E.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Community structure in social and biological networks</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA.</source>
+                  <volume>99</volume>
+                  <year>2020</year>
+                  <fpage>7821</fpage>
+                  <lpage>7826</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b29">
+                <label>29</label>
+                <element-citation publication-type="book" id="sb29">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Newman</surname>
+                      <given-names>M.E.J.</given-names>
+                    </name>
+                  </person-group>
+                  <chapter-title>Networks: An Introduction</chapter-title>
+                  <year>2010</year>
+                  <publisher-name>Oxford University Press</publisher-name>
+                  <publisher-loc>Oxford UK</publisher-loc>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

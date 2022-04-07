@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:48:39Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8486231" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8486231</identifier>
+        <datestamp>2021-10-04</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Procedia Comput Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Procedia Comput Sci</journal-id>
+              <journal-title-group>
+                <journal-title>Procedia Computer Science</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1877-0509</issn>
+              <publisher>
+                <publisher-name>The Author(s). Published by Elsevier B.V.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8486231</article-id>
+              <article-id pub-id-type="pmcid">PMC8486231</article-id>
+              <article-id pub-id-type="pmc-uid">8486231</article-id>
+              <article-id pub-id-type="pmid">34630745</article-id>
+              <article-id pub-id-type="pii">S1877-0509(21)01713-0</article-id>
+              <article-id pub-id-type="doi">10.1016/j.procs.2021.08.217</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Immunization using a heterogeneous geo-spatial population model: A qualitative perspective on COVID-19 vaccination strategies</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au0273">
+                  <name>
+                    <surname>Topîrceanu</surname>
+                    <given-names>Alexandru</given-names>
+                  </name>
+                  <xref rid="aff0001" ref-type="aff">a</xref>
+                </contrib>
+                <aff id="aff0001"><label>a</label>Department of Computer and Information Technology, Politehnica University Timisoara, Bd. V. Parvan 2, 300223 Timisoara, Romania</aff>
+              </contrib-group>
+              <pub-date pub-type="pmc-release">
+                <day>1</day>
+                <month>10</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>1</day>
+                <month>10</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>192</volume>
+              <fpage>2095</fpage>
+              <lpage>2104</lpage>
+              <permissions>
+                <copyright-statement>© 2021 The Author(s). Published by Elsevier B.V.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder/>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0001">
+                <p>Epidemic modeling has been a key tool for understanding the impact of global viral outbreaks for over two decades. Recent developments of the COVID-19 pandemic have accelerated research using compartmental models, like SI, SIR, SEIR, with their appropriate modifications. However, there is a large body of recent research consolidated on homogeneous population mixing models, which are known to offer reduced tractability, and render conclusions hard to quantify. As such, based on our recent work, introducing the heterogeneous geo-spatial mobility population model (GPM), we adapt a modified SIR-V (susceptible-infected-recovered-vaccinated) epidemic model which embodies the idea of patient relapse from R back to S, vaccination of R and S patients (reducing their infectiousness), thus altering the infectiousness of V patients (from <italic>λ<sub>n</sub></italic> to <italic>λ<sub>r</sub>).</italic> Simulation results spanning over a period of <italic>t =</italic> 2000 days (6 years, the period « 2020-2025) compare the impact of an epidemic outbreak with variable vaccination strategies, starting after 1 year (as is the case of COVID-19). The infected proportion in the remaining 5-year period is analyzed using vaccination rates from <italic>r<sub>v</sub> =</italic> 0 (no vaccination) to <italic>r<sub>v</sub> =</italic> 1. While <italic>r<sub>v</sub> &lt;</italic> 0.4 is less effective during the earlier stages, all strategies with <italic>r<sub>v</sub> &gt;</italic> 0.4 show a similar downward convergence reducing the number of infected by more than half, compared to no vaccination. Given the complexity of epidemic processes, we conclude that higher vaccination rates yield similar results, but a minimal <italic>r<sub>v</sub> =</italic> 0.4 (40% of population over five years) should be targeted.</p>
+              </abstract>
+              <kwd-group id="keys0001">
+                <title>Keywords</title>
+                <kwd>epidemic modeling</kwd>
+                <kwd>computational intelligence</kwd>
+                <kwd>heterogeneous population</kwd>
+                <kwd>geo-spatial mobility</kwd>
+                <kwd>vaccination strategies.</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <back>
+            <ref-list id="cebibsec1">
+              <title>References</title>
+              <ref id="bib0001">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sbref0001">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alimohamadi</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taghdir</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sepandi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimate of the basic reproduction number for COVID-19: a systematic review and meta-analysis</article-title>
+                  <source>Journal of Preventive Medicine and Public Health</source>
+                  <volume>53</volume>
+                  <year>2020</year>
+                  <fpage>151</fpage>
+                  <pub-id pub-id-type="pmid">32498136</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib0002">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sbref0002">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amit</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Regev-Yochay</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Afek</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kreiss</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leshem</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Early rate reductions of SARS-CoV-2 infection and COVID-19 in bnt162b2 vaccine recipients</article-title>
+                  <source>The Lancet</source>
+                  <volume>397</volume>
+                  <year>2021</year>
+                  <fpage>875</fpage>
+                  <lpage>877</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0003">
+                <label>3</label>
+                <element-citation publication-type="book" id="sbref0003">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>May</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <series>Infectious diseases of humans: dynamics and control</series>
+                  <volume>28</volume>
+                  <year>1992</year>
+                  <publisher-name>Wiley Online Library</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="bib0004">
+                <label>4</label>
+                <mixed-citation publication-type="other" id="oref0004">Arenas, A., Cota, W., Gomez-Gardenes, J., Gómez, S., Granell, C., Matamalas, J.T., Soriano-Panos, D., Steinegger, B., 2020. A mathematical model for the spatiotemporal epidemic spreading of COVID-19. MedRxiv.</mixed-citation>
+              </ref>
+              <ref id="bib0005">
+                <label>5</label>
+                <mixed-citation publication-type="other" id="oref0005">Atkeson, A., 2020. What will be the economic impact of COVID-19 in the us? rough estimates of disease scenarios. Technical Report. Nat. Bureau of Economic Research.</mixed-citation>
+              </ref>
+              <ref id="bib0006">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sbref0006">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Block</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoffman</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Raabe</surname>
+                      <given-names>I.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dowd</surname>
+                      <given-names>J.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rahal</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kashyap</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mills</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Social network-based distancing strategies to flatten the COVID-19 curve in a post-lockdown world</article-title>
+                  <source>Nature Human Behaviour</source>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0007">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sbref0007">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>Z.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemic spreading on networks with overlapping community structure</article-title>
+                  <source>Physica A: Statistical Mechanics and its Applications</source>
+                  <volume>391</volume>
+                  <year>2012</year>
+                  <fpage>1848</fpage>
+                  <lpage>1854</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib0008">
+                <label>8</label>
+                <mixed-citation publication-type="other" id="oref0008">Cohen, J., Kupferschmidt, K., 2020. Countries test tactics in ‘war’ against COVID-19.</mixed-citation>
+              </ref>
+              <ref id="bib0009">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref0009">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Diaz</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Constantine</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalmbach</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pankavich</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A modified seir model for the spread of ebola in western africa and metrics for resource allocation</article-title>
+                  <source>Applied Mathematics and Computation</source>
+                  <volume>324</volume>
+                  <year>2018</year>
+                  <fpage>141</fpage>
+                  <lpage>155</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00010">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sbref00010">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An interactive web-based dashboard to track COVID-19 in real time</article-title>
+                  <source>The Lancet infectious diseases</source>
+                  <volume>20</volume>
+                  <year>2020</year>
+                  <fpage>533</fpage>
+                  <lpage>534</lpage>
+                  <pub-id pub-id-type="pmid">32087114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00011">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sbref00011">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dye</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gay</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling the sars epidemic</article-title>
+                  <source>Science</source>
+                  <volume>300</volume>
+                  <year>2003</year>
+                  <fpage>1884</fpage>
+                  <lpage>1885</lpage>
+                  <pub-id pub-id-type="pmid">12766208</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00012">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sbref00012">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ferguson</surname>
+                      <given-names>N.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cummings</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fraser</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cajka</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cooley</surname>
+                      <given-names>P.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Burke</surname>
+                      <given-names>D.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Strategies for mitigating an influenza pandemic</article-title>
+                  <source>Nature</source>
+                  <volume>442</volume>
+                  <year>2006</year>
+                  <fpage>448</fpage>
+                  <lpage>452</lpage>
+                  <pub-id pub-id-type="pmid">16642006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00013">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sbref00013">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ferrari</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grais</surname>
+                      <given-names>R.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bharti</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Conlan</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bjørnstad</surname>
+                      <given-names>O.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolfson</surname>
+                      <given-names>L.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guerin</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Djibo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grenfell</surname>
+                      <given-names>B.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The dynamics of measles in sub-saharan africa</article-title>
+                  <source>Nature</source>
+                  <volume>451</volume>
+                  <year>2008</year>
+                  <fpage>679</fpage>
+                  <lpage>684</lpage>
+                  <pub-id pub-id-type="pmid">18256664</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00014">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sbref00014">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gudbjartsson</surname>
+                      <given-names>D.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Norddahl</surname>
+                      <given-names>G.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Melsted</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gunnarsdottir</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holm</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eythorsson</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnthorsson</surname>
+                      <given-names>A.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Helgason</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bjarnadottir</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingvarsson</surname>
+                      <given-names>R.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Humoral immune response to SARS-CoV-2 in iceland</article-title>
+                  <source>New England Journal of Medicine</source>
+                  <volume>383</volume>
+                  <year>2020</year>
+                  <fpage>1724</fpage>
+                  <lpage>1734</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00015">
+                <label>15</label>
+                <element-citation publication-type="book" id="sbref00015">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hellewell</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abbott</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts</source>
+                  <year>2020</year>
+                  <publisher-name>The Lancet Global Health</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="bib00016">
+                <label>16</label>
+                <element-citation publication-type="journal" id="sbref00016">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holland</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Laskey</surname>
+                      <given-names>K.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leinhardt</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stochastic blockmodels: First steps</article-title>
+                  <source>Social networks</source>
+                  <volume>5</volume>
+                  <year>1983</year>
+                  <fpage>109</fpage>
+                  <lpage>137</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00017">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sbref00017">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koo</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cook</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interventions to mitigate early spread of COVID-19 in singapore: a modelling study</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2020</year>
+                  <comment>doi:10.1016/S1473-3099(20)30162-6</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib00018">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref00018">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kucharski</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Russell</surname>
+                      <given-names>T.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Early dynamics of transmission and control of COVID-19: a mathematical modelling study</article-title>
+                  <source>The Lancet Infectious Diseases</source>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="bib00019">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sbref00019">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kupferschmidt</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>China’s aggressive measures have slowed the coronavirus. they may not work in other countries</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <comment>Mar</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib00020">
+                <label>20</label>
+                <element-citation publication-type="book" id="sbref00020">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McLean</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>May</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pattison</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                  </person-group>
+                  <source>SARS: a case study in emerging infections</source>
+                  <year>2005</year>
+                  <publisher-name>Oxford University Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="bib00021">
+                <label>21</label>
+                <element-citation publication-type="journal" id="sbref00021">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Noh</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Danuser</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation of the fraction of COVID-19 infected people in us states and countries worldwide</article-title>
+                  <source>PloS one</source>
+                  <volume>16</volume>
+                  <year>2021</year>
+                  <fpage>e0246772</fpage>
+                  <pub-id pub-id-type="pmid">33556142</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00022">
+                <label>22</label>
+                <element-citation publication-type="book" id="sbref00022">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Prem</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Russell</surname>
+                      <given-names>T.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kucharski</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eggo</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Davies</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Flasche</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clifford</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearson</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Munday</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                  </person-group>
+                  <source>The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in wuhan, china: a modelling study</source>
+                  <year>2020</year>
+                  <publisher-name>The Lancet Public Health</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="bib00023">
+                <label>23</label>
+                <element-citation publication-type="journal" id="sbref00023">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salathé</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>J.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamics and control of diseases in networks with community structure</article-title>
+                  <source>PLoS Comput Biol</source>
+                  <volume>6</volume>
+                  <year>2010</year>
+                  <fpage>e1000736</fpage>
+                  <pub-id pub-id-type="pmid">20386735</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00024">
+                <label>24</label>
+                <mixed-citation publication-type="other" id="oref00024">Salathé, M., Kazandjieva, M., Lee, J.W., Levis, P., Feldman, M.W., Jones, J.H., 2010. A high-resolution human contact network for infectious disease transmission. Proceedings of the National Academy of Sciences 107, 22020–22025.</mixed-citation>
+              </ref>
+              <ref id="bib00025">
+                <label>25</label>
+                <element-citation publication-type="journal" id="sbref00025">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemic spreading on complex networks with overlapping and non-overlapping community structure</article-title>
+                  <source>Physica A: Statistical Mechanics and its Applications</source>
+                  <volume>419</volume>
+                  <year>2015</year>
+                  <fpage>171</fpage>
+                  <lpage>182</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00026">
+                <label>26</label>
+                <element-citation publication-type="journal" id="sbref00026">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stegehuis</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Der Hofstad</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Leeuwaarden</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Epidemic spreading on complex networks with community structures</article-title>
+                  <source>Scientific reports</source>
+                  <volume>6</volume>
+                  <year>2016</year>
+                  <fpage>1</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="pmid">28442746</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00027">
+                <label>27</label>
+                <element-citation publication-type="journal" id="sbref00027">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thunström</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Newbold</surname>
+                      <given-names>S.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Finnoff</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ashworth</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shogren</surname>
+                      <given-names>J.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The benefits and costs of using social distancing to flatten the curve for COVID-19</article-title>
+                  <source>Journal of Benefit-Cost Analysis</source>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>27</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00028">
+                <label>28</label>
+                <mixed-citation publication-type="other" id="oref00028">Topîrceanu, A., 2020. Analyzing the impact of geo-spatial organization of real-world communities on epidemic spreading dynamics, in: International Conference on Complex Networks and Their Applications, Springer. pp. 345–356.</mixed-citation>
+              </ref>
+              <ref id="bib00029">
+                <label>29</label>
+                <element-citation publication-type="journal" id="sbref00029">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Topirceanu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Udrescu</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistical fidelity: a tool to quantify the similarity between multi-variable entities with application in complex networks</article-title>
+                  <source>International Journal of Computer Mathematics</source>
+                  <volume>94</volume>
+                  <year>2017</year>
+                  <fpage>1787</fpage>
+                  <lpage>1805</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00030">
+                <label>30</label>
+                <mixed-citation publication-type="other" id="oref00030">Topirceanu, A., Udrescu, M., Marculescu, R., 2020. Centralized and decentralized isolation strategies and their impact on the COVID-19 pandemic dynamics. arXiv preprint arXiv:2004.04222.</mixed-citation>
+              </ref>
+              <ref id="bib00031">
+                <label>31</label>
+                <element-citation publication-type="journal" id="sbref00031">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Topîrceanu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Udrescu</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Udrescu</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ardelean</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dan</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reisz</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mihaicuta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sas score: Targeting high-specificity for efficient population-wide monitoring of obstructive sleep apnea</article-title>
+                  <source>PloS one</source>
+                  <volume>13</volume>
+                  <year>2018</year>
+                  <fpage>e0202042</fpage>
+                  <pub-id pub-id-type="pmid">30183715</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00032">
+                <label>32</label>
+                <element-citation publication-type="book" id="sbref00032">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Topirceanu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Udrescu</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vladutiu</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Genetically optimized realistic social network topology inspired by facebook</part-title>
+                  <source>Online Social Media Analysis and Visualization</source>
+                  <year>2014</year>
+                  <publisher-name>Springer</publisher-name>
+                  <fpage>163</fpage>
+                  <lpage>179</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib00033">
+                <label>33</label>
+                <element-citation publication-type="journal" id="sbref00033">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wallinga</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Teunis</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Different epidemic curves for severe acute respiratory syndrome reveal similar impacts of control measures</article-title>
+                  <source>American Journal of epidemiology</source>
+                  <volume>160</volume>
+                  <year>2004</year>
+                  <fpage>509</fpage>
+                  <lpage>516</lpage>
+                  <pub-id pub-id-type="pmid">15353409</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib00034">
+                <label>34</label>
+                <mixed-citation publication-type="other" id="oref00034">Ward, H., Cooke, G., Atchison, C.J., Whitaker, M., Elliott, J., Moshe, M., Brown, J.C., Flower, B., Daunt, A., Ainslie, K.E., et al., 2020. Declining prevalence of antibody positivity to SARS-CoV-2: a community study of 365,000 adults. MedRxiv.</mixed-citation>
+              </ref>
+              <ref id="bib00035">
+                <label>35</label>
+                <mixed-citation publication-type="other" id="oref00035">Warszawski, L., Frieler, K., et al., 2017. Center for international earth science information network—ciesin—columbia university. Gridded population of the world, version 4 (gpwv4). nasa socioeconomic data and applications center (sedac). doi: 10. 7927/h4np22dq. Atlas of Environmental Risks Facing China Under Climate Change, 228.</mixed-citation>
+              </ref>
+              <ref id="bib00036">
+                <label>36</label>
+                <mixed-citation publication-type="other" id="oref00036">Watts, D.J., Muhamad, R., Medina, D.C., Dodds, P.S., 2005. Multiscale, resurgent epidemics in a hierarchical metapopulation model. Proceedings of the National Academy of Sciences 102, 11157–11162.</mixed-citation>
+              </ref>
+              <ref id="bib00037">
+                <label>37</label>
+                <mixed-citation publication-type="other" id="oref00037">Zuo, J., Dowell, A., Pearce, H., Verma, K., Long, H., Begum, J., Aiano, F., Amin-Chowdhury, Z., Hallis, B., Stapley, L., et al., 2020. Robust SARS-CoV-2-specific t-cell immunity is maintained at 6 months following primary infection. BioRxiv.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

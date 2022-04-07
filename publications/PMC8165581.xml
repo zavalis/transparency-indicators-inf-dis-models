@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:53:35Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8165581" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8165581</identifier>
+        <datestamp>2021-06-03</datestamp>
+        <setSpec>transb</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Philos Trans R Soc Lond B Biol Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Philos Trans R Soc Lond B Biol Sci</journal-id>
+              <journal-id journal-id-type="publisher-id">RSTB</journal-id>
+              <journal-id journal-id-type="hwp">royptb</journal-id>
+              <journal-title-group>
+                <journal-title>Philosophical Transactions of the Royal Society B: Biological Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0962-8436</issn>
+              <issn pub-type="epub">1471-2970</issn>
+              <publisher>
+                <publisher-name>The Royal Society</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8165581</article-id>
+              <article-id pub-id-type="pmcid">PMC8165581</article-id>
+              <article-id pub-id-type="pmc-uid">8165581</article-id>
+              <article-id pub-id-type="pmid">34053271</article-id>
+              <article-id pub-id-type="pmid">34053271</article-id>
+              <article-id pub-id-type="doi">10.1098/rstb.2020.0266</article-id>
+              <article-id pub-id-type="publisher-id">rstb20200266</article-id>
+              <article-categories>
+                <subj-group subj-group-type="discipline-codes">
+                  <compound-subject>
+                    <compound-subject-part content-type="code">1001</compound-subject-part>
+                  </compound-subject>
+                </subj-group>
+                <subj-group subj-group-type="subject-codes">
+                  <compound-subject>
+                    <compound-subject-part content-type="code">44</compound-subject-part>
+                  </compound-subject>
+                  <compound-subject>
+                    <compound-subject-part content-type="code">87</compound-subject-part>
+                  </compound-subject>
+                  <compound-subject>
+                    <compound-subject-part content-type="code">22</compound-subject-part>
+                  </compound-subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Articles</subject>
+                </subj-group>
+                <subj-group subj-group-type="type-of-publication">
+                  <subject>Research Articles</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Real-time monitoring of COVID-19 dynamics using automated trend fitting and anomaly detection</article-title>
+                <alt-title alt-title-type="short">ASMODEE</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-2226-8692</contrib-id>
+                  <name>
+                    <surname>Jombart</surname>
+                    <given-names>Thibaut</given-names>
+                  </name>
+                  <email>thibautjombart@gmail.com</email>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="af2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="af3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="an1" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-3911-9573</contrib-id>
+                  <name>
+                    <surname>Ghozzi</surname>
+                    <given-names>Stéphane</given-names>
+                  </name>
+                  <email>stephane.ghozzi@helmholtz-hzi.de</email>
+                  <xref rid="af4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <xref rid="an1" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schumacher</surname>
+                    <given-names>Dirk</given-names>
+                  </name>
+                  <xref rid="af5" ref-type="aff">
+                    <sup>5</sup>
+                  </xref>
+                  <xref rid="af10" ref-type="aff">
+                    <sup>10</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Taylor</surname>
+                    <given-names>Timothy J.</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0003-4761-001X</contrib-id>
+                  <name>
+                    <surname>Leclerc</surname>
+                    <given-names>Quentin J.</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jit</surname>
+                    <given-names>Mark</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="af6" ref-type="aff">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Flasche</surname>
+                    <given-names>Stefan</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Greaves</surname>
+                    <given-names>Felix</given-names>
+                  </name>
+                  <xref rid="af7" ref-type="aff">
+                    <sup>7</sup>
+                  </xref>
+                  <xref rid="af8" ref-type="aff">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ward</surname>
+                    <given-names>Tom</given-names>
+                  </name>
+                  <xref rid="af7" ref-type="aff">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-0362-6717</contrib-id>
+                  <name>
+                    <surname>Eggo</surname>
+                    <given-names>Rosalind M.</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nightingale</surname>
+                    <given-names>Emily</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">http://orcid.org/0000-0002-6385-2652</contrib-id>
+                  <name>
+                    <surname>Meakin</surname>
+                    <given-names>Sophie</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brady</surname>
+                    <given-names>Oliver J.</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <collab>Centre for Mathematical Modelling of Infectious Diseases COVID-19 Working Group</collab>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Medley</surname>
+                    <given-names>Graham F.</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Höhle</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref rid="af9" ref-type="aff">
+                    <sup>9</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Edmunds</surname>
+                    <given-names>W. John</given-names>
+                  </name>
+                  <xref rid="af1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <aff id="af1">
+                  <label>
+                    <sup>1</sup>
+                  </label>
+                  <addr-line>Centre for Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, <institution>London School of Hygiene and Tropical Medicine</institution>, Keppel Street, London WC1E 7HT, <country>UK</country></addr-line>
+                </aff>
+                <aff id="af2">
+                  <label>
+                    <sup>2</sup>
+                  </label>
+                  <addr-line><institution>UK Public Health Rapid Support Team</institution>, London WC1E 7HT, <country>UK</country></addr-line>
+                </aff>
+                <aff id="af3">
+                  <label>
+                    <sup>3</sup>
+                  </label>
+                  <addr-line>MRC Centre for Global Infectious Disease Analysis, Department of Infectious Disease Epidemiology, <institution>School of Public Health, Imperial College London</institution>, London SW7 2DD, <country>UK</country></addr-line>
+                </aff>
+                <aff id="af4">
+                  <label>
+                    <sup>4</sup>
+                  </label>
+                  <addr-line>Department of Epidemiology, <institution>Helmholtz Centre for Infection Research</institution>, Brunswick, 38124, Braunschweig, Lower Saxony, <country>Germany</country></addr-line>
+                </aff>
+                <aff id="af5">
+                  <label>
+                    <sup>5</sup>
+                  </label>
+                  <addr-line>Department of Infectious Disease Epidemiology, <institution>Robert Koch-Institute</institution>, DE-13353 Berlin, <country>Germany</country></addr-line>
+                </aff>
+                <aff id="af6">
+                  <label>
+                    <sup>6</sup>
+                  </label>
+                  <addr-line><institution>School of Public Health, Li Ka Shing Faculty of Medicine, University of Hong Kong</institution>, Hong Kong SAR, <country>People's Republic of China</country></addr-line>
+                </aff>
+                <aff id="af7">
+                  <label>
+                    <sup>7</sup>
+                  </label>
+                  <addr-line>Department of Health and Social Care, <institution>Joint Biosecurity Centre</institution>, London SW1H 0EU, <country>UK</country></addr-line>
+                </aff>
+                <aff id="af8">
+                  <label>
+                    <sup>8</sup>
+                  </label>
+                  <addr-line>Department of Primary Care and Public Health, <institution>Imperial College London</institution>, London W6 8RP, <country>UK</country></addr-line>
+                </aff>
+                <aff id="af9">
+                  <label>
+                    <sup>9</sup>
+                  </label>
+                  <addr-line>Department of Mathematics, <institution>Stockholm University</institution>, 114 19 Stockholm, <country>Sweden</country></addr-line>
+                </aff>
+                <aff id="af10">
+                  <label>
+                    <sup>10</sup>
+                  </label>
+                  <addr-line><institution>Unit for Medical Biometry and Statistics, Federal Institute for Quality Assurance and Transparency in Healthcare</institution>, Berlin, <country>Germany</country></addr-line>
+                </aff>
+              </contrib-group>
+              <author-notes>
+                <fn fn-type="other">
+                  <p>One contribution of 21 to a theme issue ‘<ext-link xlink:href="http://dx.doi.org/10.1098/rstb/376/1829" ext-link-type="uri">Modelling that shaped the early COVID-19 pandemic response in the UK</ext-link>’.</p>
+                </fn>
+                <fn id="an1" fn-type="other">
+                  <label>
+                    <sup>†</sup>
+                  </label>
+                  <p>These authors contributed equally to the manuscript.</p>
+                </fn>
+              </author-notes>
+              <pub-date publication-format="print" date-type="pub">
+                <day>19</day>
+                <month>7</month>
+                <year>2021</year>
+                <string-date>July 19, 2021</string-date>
+              </pub-date>
+              <pub-date publication-format="electronic" date-type="pub">
+                <day>31</day>
+                <month>5</month>
+                <year>2021</year>
+                <string-date>May 31, 2021</string-date>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>31</day>
+                <month>5</month>
+                <year>2021</year>
+                <string-date>May 31, 2021</string-date>
+              </pub-date>
+              <volume>376</volume>
+              <issue>1829</issue>
+              <issue-title><named-content content-type="issue-type">Theme issue</named-content> ‘Modelling that shaped the early COVID-19 pandemic response in the UK’ <named-content content-type="editors">compiled and edited by Ellen Brooks-Pollock, Leon Danon, Thibaut Jombart and Lorenzo Pellis</named-content></issue-title>
+              <elocation-id>20200266</elocation-id>
+              <history>
+                <date date-type="accepted">
+                  <day>15</day>
+                  <month>2</month>
+                  <year>2021</year>
+                  <string-date>February 15, 2021</string-date>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 The Authors.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Published by the Royal Society under the terms of the Creative Commons Attribution License <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>, which permits unrestricted use, provided the original author and source are credited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:href="rstb.2020.0266.pdf"/>
+              <abstract>
+                <p>As several countries gradually release social distancing measures, rapid detection of new localized COVID-19 hotspots and subsequent intervention will be key to avoiding large-scale resurgence of transmission. We introduce ASMODEE (automatic selection of models and outlier detection for epidemics), a new tool for detecting sudden changes in COVID-19 incidence. Our approach relies on automatically selecting the best (fitting or predicting) model from a range of user-defined time series models, excluding the most recent data points, to characterize the main trend in an incidence. We then derive prediction intervals and classify data points outside this interval as outliers, which provides an objective criterion for identifying departures from previous trends. We also provide a method for selecting the optimal breakpoints, used to define how many recent data points are to be excluded from the trend fitting procedure. The analysis of simulated COVID-19 outbreaks suggests ASMODEE compares favourably with a state-of-art outbreak-detection algorithm while being simpler and more flexible. As such, our method could be of wider use for infectious disease surveillance. We illustrate ASMODEE using publicly available data of National Health Service (NHS) Pathways reporting potential COVID-19 cases in England at a fine spatial scale, showing that the method would have enabled the early detection of the flare-ups in Leicester and Blackburn with Darwen, two to three weeks before their respective lockdown. ASMODEE is implemented in the free R package <italic toggle="yes">trendbreaker</italic>.</p>
+                <p>This article is part of the theme issue ‘Modelling that shaped the early COVID-19 pandemic response in the UK’.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>ASMODEE</kwd>
+                <x xml:space="preserve">, </x>
+                <kwd>
+                  <italic toggle="yes">trendbreaker</italic>
+                </kwd>
+                <x xml:space="preserve">, </x>
+                <kwd>surveillance</kwd>
+                <x xml:space="preserve">, </x>
+                <kwd>outbreak</kwd>
+                <x xml:space="preserve">, </x>
+                <kwd>algorithm</kwd>
+                <x xml:space="preserve">, </x>
+                <kwd>machine learning</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>cover-date</meta-name>
+                  <meta-value>July 19, 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <label>1<x xml:space="preserve">. </x></label>
+              <title>Introduction</title>
+              <p>After a fast initial spread worldwide and large-scale epidemics in many affected countries, the trajectory of the COVID-19 pandemic is changing. In a number of severely affected countries, strong mitigation measures such as various forms of social distancing have slowed national epidemics and in many cases brought the epidemic close to control [<xref rid="RSTB20200266C1" ref-type="bibr">1</xref>–<xref rid="RSTB20200266C3" ref-type="bibr">3</xref>]. However, in the absence of widespread, long-lasting immunity through vaccination or natural infection [<xref rid="RSTB20200266C4" ref-type="bibr">4</xref>–<xref rid="RSTB20200266C6" ref-type="bibr">6</xref>], these respites are most likely temporary, and further relapses, in the form of localized outbreaks or nation-wide resurgence, remain highly likely and a very serious threat.</p>
+              <p>In the UK, a ‘lockdown’ was implemented on 23 March 2020, and gradually relaxed from the beginning of June 2020, by which point about 300 000 confirmed COVID-19 cases and 40 000 deaths had been reported [<xref rid="RSTB20200266C7" ref-type="bibr">7</xref>]. Unfortunately, the risk of local flare-ups was illustrated soon after, as increased case incidence in Leicester resulted in the city being put under lockdown again on 29 June 2020 [<xref rid="RSTB20200266C8" ref-type="bibr">8</xref>]. Similarly, increased restrictions were imposed in Blackburn on 9 August 2020.</p>
+              <p>In order to prevent large-scale relapses, localized COVID-19 hotspots (i.e. places with high levels of transmission) need to be detected as soon as cases occur and contained as early as possible. For such detection to be optimal, COVID-19 dynamics need to be monitored at a small spatial scale, requiring daily surveillance of multiple time series of case incidence, and prompt detection of ongoing increases. Disease surveillance algorithms have been designed for such purposes [<xref rid="RSTB20200266C9" ref-type="bibr">9</xref>–<xref rid="RSTB20200266C12" ref-type="bibr">12</xref>], although many of them are tailored to detecting either seasonal or point-source outbreaks and may be most effective when trained on years of weekly incidence data (e.g. Farrington algorithm [<xref rid="RSTB20200266C13" ref-type="bibr">13</xref>,<xref rid="RSTB20200266C14" ref-type="bibr">14</xref>]). However, careful implementation of such algorithms has proved useful as a backbone for setting up automated disease surveillance systems for endemic diseases [<xref rid="RSTB20200266C15" ref-type="bibr">15</xref>].</p>
+              <p>Here, we introduce ASMODEE (automated selection of models and outlier detection for epidemics), an algorithm for detecting ongoing changes in COVID-19 incidence patterns. In order to characterize potentially very different dynamics in case incidence across a large number of locations, our approach implements a flexible time series framework using a variety of models including linear regression, generalized linear models (GLMs) or Bayesian regression. ASMODEE first identifies past temporal trends using automated model selection, and then uses outlier detection inspired by classical Shewhart control-charts to signal recent anomalous data points.</p>
+              <p>We used simulations to evaluate the potential of ASMODEE for detecting changes in incidence patterns. COVID-19 incidence dynamics were simulated using a branching-process model with realistic estimates of the time-varying reproduction number (<italic toggle="yes">Rt</italic>) and serial interval, under four scenarios: steady state (<italic toggle="yes">Rt</italic> close to 1), relapse, lockdown and flare-up following low levels of transmission. For comparison, we also applied the modified Farrington algorithm [<xref rid="RSTB20200266C14" ref-type="bibr">14</xref>], a standard method designed for the detection of point-source outbreaks and used in many public health institutions [<xref rid="RSTB20200266C9" ref-type="bibr">9</xref>]. We computed a variety of scores such as the probability of detection, sensitivity and specificity for two configurations of ASMODEE.</p>
+              <p>We used our approach to design automated surveillance pipelines that monitor changes in potential COVID-19 cases reported through an online and telephone hotline used in England, the National Health Service (NHS) Pathways system, which includes calls made to 111/999 as well as reports made through the 111-online system. We conducted the analysis at the level of Clinical Commissioning Groups (CCGs), small area divisions used for healthcare management in England's NHS, with an average of 226 000 people each. One advantage of the NHS Pathways system is that reports occur with little delay, because no confirmatory diagnostic tests are involved. The downside is that this system suffers from the usual sensitivity and specificity issues of a syndromic surveillance system: some reported ‘potential cases’ will not be actual COVID-19 cases, and some actual cases will be unreported. We show that when applied to NHS 111/999 calls data, ASMODEE would have enabled the early detection of the flare-ups in Leicester and Blackburn with Darwen in June and July 2020, respectively. We propose that ASMODEE may be a useful, flexible complement to existing outbreak detection methods for designing disease surveillance pipelines, for COVID-19 and other diseases.</p>
+              <p>All source code necessary to run ASMODEE, analyse and visualize results, implement the NHS Pathways pipeline and reproduce the analyses is open and freely available under MIT license (see §2d).</p>
+            </sec>
+            <sec sec-type="methods" id="s2">
+              <label>2<x xml:space="preserve">. </x></label>
+              <title>Material and methods</title>
+              <p>Here, we first describe ASMODEE, an algorithm using automatic model selection to characterize past temporal trends, and identifying outliers in recent data points. We also provide details on different options for selecting models, and the optimal size of the outlier detection window in separate sections. We then outline different simulation scenarios and criteria for evaluating the performances of ASMODEE, with comparison to the Farrington flexible algorithm as a gold standard. Finally, we explain how ASMODEE was used for detecting step changes in potential COVID-19 cases in England using NHS Pathways data.</p>
+              <sec id="s2a">
+                <label>(a)</label>
+                <title>Automated selection of models and outlier detection for epidemics</title>
+                <sec id="s2a1">
+                  <label>(i)</label>
+                  <title>General algorithm</title>
+                  <p>ASMODEE is designed for detecting recent departures/aberrations from past temporal trends in univariate time series. The response variable typically represents case counts, but it can readily accommodate other response variables such as incidence rates or case fatality ratios. We are interested in classifying outliers in the most recent time points of the available time series. Our approach can be broken down into the following steps:
+<list list-type="simple"><list-item><label>1<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p>Partition the analysed time series into two complementary time windows: a <italic toggle="yes">calibration window</italic>, excluding the most recent <italic toggle="yes">k</italic> data points; and a <italic toggle="yes">prediction window</italic>, made of the last <italic toggle="yes">k</italic> data points. The value of <italic toggle="yes">k</italic> is either fixed by the user, or its ‘optimal’ value can be determined using heuristics (see §2a(iiii) below). The corresponding datasets are referred to as the <italic toggle="yes">calibration</italic>, and <italic toggle="yes">prediction set</italic>, respectively. Note that the calibration window should ideally capture a single, consistent trend. Accordingly, it does not need to include all historical data, and may retain e.g. the last six weeks of data.</p></list-item><list-item><label>2<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p>Fit a range of user-defined time series models to the calibration set, and retain the best-predicting or best-fitting model (see ‘<italic toggle="yes">Selecting the ‘best’ model</italic>’ below); here we describe implementations with linear regressions, various GLMs (including Poisson and negative binomial models) and Bayesian regression models.</p></list-item><list-item><label>3<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p>Derive prediction intervals at a given <italic toggle="yes">alpha</italic> two-sided threshold (defaulting to 5%) for all data points included in the prediction set. This threshold is equal to the expected proportion of data points that will be classified as outliers if all points followed the same temporal trend.</p></list-item><list-item><label>4<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p>Identify outliers as data points lying outside the prediction interval; the number of data points showing a marked <italic toggle="yes">increase</italic> from past trends in the prediction set can be used to design an alarm system. Similarly, a <italic toggle="yes">decrease</italic> in trend can be seen in data points lying below the lower bound of the prediction interval. Points within the interval can be considered as <italic toggle="yes">normal</italic>, i.e. belonging to the recent trend.</p></list-item></list></p>
+                </sec>
+                <sec id="s2a2">
+                  <label>(ii)</label>
+                  <title>Selecting the ‘best’ model</title>
+                  <p>The literature on model selection offers a plethora of methods for selecting models fulfilling a given optimality criteria in ‘traditional’ statistics [<xref rid="RSTB20200266C16" ref-type="bibr">16</xref>–<xref rid="RSTB20200266C19" ref-type="bibr">19</xref>] as well as in machine learning [<xref rid="RSTB20200266C20" ref-type="bibr">20</xref>–<xref rid="RSTB20200266C22" ref-type="bibr">22</xref>]. To reflect some of this diversity, we have implemented two different approaches for model selection in ASMODEE. Note that both approaches use only the calibration window, and ignore data from the prediction window.</p>
+                  <p>The first approach is <italic toggle="yes">K</italic>-fold cross-validation, in which the data are randomly broken into <italic toggle="yes">K</italic> partitions of roughly equal sizes (the ‘folds’) [<xref rid="RSTB20200266C23" ref-type="bibr">23</xref>]. Each fold is in turn used for a round of cross-validation: the <italic toggle="yes">K</italic> − 1 other folds are used as a <italic toggle="yes">training</italic> set, to fit the model, while the remaining fold is used as a <italic toggle="yes">testing</italic> set, to assess the quality of the model predictions. By default, we use <italic toggle="yes">K</italic> = <italic toggle="yes">N</italic>, where <italic toggle="yes">N</italic> is the number of data points in the calibration window. Discrepancies between model predictions and observed data of the testing set can be measured using various metrics. Here, we chose the root mean square error (RMSE) because of its wide use in statistical modelling and ease of computation. RMSE is summed over all rounds of cross-validation to characterize a given model. The model with the lowest total RMSE is retained as the ‘best’ model. Note that this metric gives equal weights to positive and negative residuals, and thus implicitly assumes that the magnitude of deviations from the model (under- and over-estimation) is similar. Other metrics could be used with low counts, where negative residuals are typically smaller (as case counts cannot be negative). When <italic toggle="yes">K</italic> &lt; <italic toggle="yes">N</italic>, further accuracy of measurement can be gained by repeating the cross-validation procedure several times, each time using a different set of random folds, called repeated <italic toggle="yes">K</italic>-fold cross-validation.</p>
+                  <p>This approach is likely to select models with good predictive ability (in the sense of minimum RMSE), but can be computationally intensive when evaluating multiple models over many datasets. As an alternative, we also implemented model selection using Akaike's information criterion (AIC [<xref rid="RSTB20200266C16" ref-type="bibr">16</xref>]). AIC is a standard for comparing the goodness-of-fit of models while accounting for their respective complexity, and can be used for all models for which a likelihood can readily be calculated. It is defined as<disp-formula id="RSTB20200266UM1"><mml:math id="DM1" display="block"><mml:mrow><mml:mi mathvariant="normal">AIC</mml:mi></mml:mrow><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mn>2</mml:mn><mml:mo> </mml:mo><mml:mrow><mml:mi mathvariant="normal">log</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mi>P</mml:mi><mml:mo>,</mml:mo></mml:math></disp-formula>where <italic toggle="yes">L</italic> is the model likelihood (so that −2 log(<italic toggle="yes">L</italic>) is the model's deviance) and <italic toggle="yes">P</italic> is the number of parameters of the model. AIC is calculated for each model, and the model with the lowest AIC is retained as the ‘best fitting’ model. This procedure is fast but it does not guarantee that the retained model has the best predictive abilities. In practice though, results on simulated data suggest both approaches often give similar results (results not shown), in line with recent observations on incidence forecasting [<xref rid="RSTB20200266C24" ref-type="bibr">24</xref>].</p>
+                </sec>
+                <sec id="s2a3">
+                  <label>(iii)</label>
+                  <title>Setting the prediction window (<italic toggle="yes">k</italic>)</title>
+                  <p>The length of the prediction window <italic toggle="yes">k</italic> is an important parameter in ASMODEE, as it draws the line between the time period used for estimating past trends and the recent time period over which we identify potential anomalies. For routine surveillance, a possible approach is to fix arbitrary values for both the calibration window and the prediction window, e.g. using seven weeks of daily incidence data for calibration and looking for outliers in the last week of data. These values may need to be adjusted over time to ensure optimal detection of changes in temporal trends, and to balance the need for the calibration window to contain sufficient data points to fit the most complex time series model considered. In addition, the value of <italic toggle="yes">k</italic> should be chosen so that (i) it exceeds delays previously identified for detecting trend changes and (ii) it remains within the time period over which forecasts are deemed reliable (typically no more than three weeks for fast-spreading diseases such as Ebola or COVID-19).</p>
+                  <p>Besides this ‘manual tuning’ approach, heuristics can be used to compare results over different values of <italic toggle="yes">k</italic>. Various criteria can be devised to optimize <italic toggle="yes">sensitivity</italic> (ability to detect trend changes) or <italic toggle="yes">specificity</italic> (ability to identify data points following the trend), or any trade-off of these. Here, we maximize a simple score calculated for each value of <italic toggle="yes">k</italic> (up to a user-specified maximum value) as the sum of two components: (i) the number of non-outliers (points within the prediction interval of the ‘best’ model) in the calibration window, and (ii) the number of outliers in the prediction window. Therefore, this criterion tends to select a value of <italic toggle="yes">k</italic> such that past temporal trends can be well-defined (i.e. with most pre-break points within the prediction interval), while also retaining the ability to detect recent anomalies.</p>
+                </sec>
+              </sec>
+              <sec id="s2b">
+                <label>(b)</label>
+                <title>Application to simulated data</title>
+                <sec id="s2b1">
+                  <label>(i)</label>
+                  <title>Simulated data</title>
+                  <p>ASMODEE was evaluated using simulated COVID-19 incidence. All simulations used the <italic toggle="yes">projections</italic> package v. 0.5.1 [<xref rid="RSTB20200266C25" ref-type="bibr">25</xref>], which implements branching-process epidemic simulations allowing for the reproduction number (<italic toggle="yes">Rt</italic>) to vary by time periods. A full description of the model can be found in Jombart <italic toggle="yes">et al.</italic> [<xref rid="RSTB20200266C26" ref-type="bibr">26</xref>]. Note that here and below, <italic toggle="yes">Rt</italic> refers to the expected number of secondary cases, and not the actual number of secondary infections drawn, so that even with <italic toggle="yes">Rt</italic> = 1 some simulated epidemic trajectories might increase or decrease over time. Briefly, COVID-19 infections are simulated on a given day from a Poisson distribution, according to a force of infection determined by past cases, and distributions of the serial interval and <italic toggle="yes">Rt</italic>. Here, we used a gamma-distributed serial interval with mean 4.7 days and standard deviation 2.9 days [<xref rid="RSTB20200266C27" ref-type="bibr">27</xref>]. <italic toggle="yes">Rt</italic> was drawn from lognormal distributions with different means for different scenarios, and standard deviations 10% of the mean. We accounted for under-reporting by assuming that on average 10% of infections were reported (this value is broadly compatible with reported estimates [<xref rid="RSTB20200266C28" ref-type="bibr">28</xref>]), so that the observed case count followed a binomial distribution with the number of trials, the true number of cases, and probability of success of 0.1.</p>
+                  <p>We considered four scenarios that translated into different initial incidences and time-varying values of <italic toggle="yes">Rt</italic>:
+<list list-type="simple"><list-item><label>—<x xml:space="preserve"> </x></label><p><italic toggle="yes">Steady state:</italic> 1000 cases per day (thus an average of 100 reported cases per day) with a mean <italic toggle="yes">Rt</italic> of 1.</p></list-item><list-item><label>—<x xml:space="preserve"> </x></label><p><italic toggle="yes">Relapse:</italic> 10 000 initial cases per day first declining with mean <italic toggle="yes">Rt</italic> of 0.8, followed by an increase with a mean <italic toggle="yes">Rt</italic> of 1.3.</p></list-item><list-item><label>—<x xml:space="preserve"> </x></label><p><italic toggle="yes">Lockdown:</italic> 1000 initial cases per day first increasing with a mean <italic toggle="yes">Rt</italic> of 1.3, followed by a decline with mean <italic toggle="yes">Rt</italic> of 0.8.</p></list-item><list-item><label>—<x xml:space="preserve"> </x></label><p><italic toggle="yes">Flare-up:</italic> 100 initial cases per day and a steady state with a mean <italic toggle="yes">Rt</italic> of 1, followed by a sudden increase with mean <italic toggle="yes">Rt</italic> of 2.5.</p></list-item></list></p>
+                  <p>All simulations produced daily time series for 42 days. An <italic toggle="yes">observation period</italic>, over which the algorithms were evaluated, was set to be the last 12 days. This period, a bit longer than a typical use case of 7 days, was chosen to offer enough variability and data points for a meaningful evaluation. Changes in <italic toggle="yes">Rt</italic> in the last three scenarios took place on days 34, 35 or 36. Simulations were replicated 30 times for each scenario and day of period change, resulting in 30 simulated time series for the <italic toggle="yes">steady state</italic> scenario and 90 for the others (<xref rid="RSTB20200266F1" ref-type="fig">figure 1</xref>).
+<fig position="float" id="RSTB20200266F1"><label>Figure 1<x xml:space="preserve">. </x></label><caption><p>Simulations under four scenarios and illustration of the detection algorithm. Left column: the blue lines show time series generated under the four scenarios <italic toggle="yes">steady state</italic> (30 simulations), <italic toggle="yes">relapse</italic>, <italic toggle="yes">lockdown</italic> and <italic toggle="yes">flare-up</italic> (90 simulations each). The vertical solid grey lines mark the beginning of the observation period, the dotted orange lines the time at which a trend change occurs. Second to fourth columns: application on a single time series from each scenario of the configurations <italic toggle="yes">ASMODEE manual</italic>, <italic toggle="yes">ASMODEE optimal</italic> and the <italic toggle="yes">modified Farrington</italic> algorithms. The grey lines show the simulated time series, the ribbons show the prediction interval for the value of <italic toggle="yes">alpha</italic> indicated, and the dashed black lines mark the end of the calibration period for ASMODEE. The red dots show data points categorized as <italic toggle="yes">increase</italic>, the green dots those categorized as <italic toggle="yes">decrease</italic>, the grey ones are considered <italic toggle="yes">normal</italic>. The values of <italic toggle="yes">alpha</italic> were set so as to maximize the 6-day probability of detection. <italic toggle="yes">modified Farrington</italic> does not produce results for the first training period.</p></caption><graphic xlink:href="rstb20200266f01" position="float"/></fig></p>
+                </sec>
+                <sec id="s2b2">
+                  <label>(ii)</label>
+                  <title>Outbreak detection</title>
+                  <p>Here, we propose a general framework to evaluate COVID-19 outbreak detection algorithms. We used it to compare two configurations for ASMODEE together with the <italic toggle="yes">modified Farrington</italic> algorithm as a benchmark.</p>
+                  <p>ASMODEE was applied to the simulated time series with one of three models (Poisson GLM with constant mean, and Poisson and negative binomial GLMs with log-linear trend in time) selected through minimization of the AIC. Model selection through cross-validation produced similar results (data not shown). We looked at either a fixed <italic toggle="yes">k</italic> of 12 days (<italic toggle="yes">ASMODEE manual</italic>) or an optimal <italic toggle="yes">k</italic> of at most 12 days (<italic toggle="yes">ASMODEE optimal</italic>). The rationale for setting <italic toggle="yes">k</italic> to (at most) the duration of the observation period is that a user would define a period in which they are interested, implicitly assuming everything that happened before was not of direct interest and thus could be used to train the algorithms.</p>
+                  <p>The <italic toggle="yes">modified Farrington</italic> algorithm [<xref rid="RSTB20200266C14" ref-type="bibr">14</xref>] trains a statistical model on univariate count time series to derive bounds based on a parameter <italic toggle="yes">alpha</italic>. It takes trend and seasonality into account and downweights anomalous counts in the training range. To avoid getting caught in recent trends and thus missing outbreaks, the last time steps are ignored during training. Conversely, low counts can be ignored to avoid uninteresting alarms. Lastly, it performs a one-step-ahead detection, i.e. it is retrained at every time step. It is typically used for weekly detection of point-source outbreaks with comparison to a 5-years baseline, but its parameters can be adapted to reflect other situations. Here, we use its implementation as farringtonFlexible in the R package <italic toggle="yes">surveillance</italic> [<xref rid="RSTB20200266C9" ref-type="bibr">9</xref>] with three weeks training of a GLM with negative binomial family, weekly periodicity and a 3-days window half-size around the first day of each period, no limitation on low counts, and the last week ignored for training. Moreover, we further adapted the algorithm so that it always takes trend into account, thus removing the requirement that the estimated mean not be higher than all preceding counts.</p>
+                  <p>The algorithms classified each day of a given time series as either <italic toggle="yes">increase</italic>, <italic toggle="yes">decrease</italic> or <italic toggle="yes">normal</italic> if it lay above the upper bound of the prediction interval, below its lower bound, or between the two, respectively. The application of the algorithms and the resulting classifications are illustrated for each scenario in <xref rid="RSTB20200266F1" ref-type="fig">figure 1</xref>.</p>
+                </sec>
+                <sec id="s2b3">
+                  <label>(iii)</label>
+                  <title>Evaluation</title>
+                  <p>The three approaches (<italic toggle="yes">ASMODEE manual</italic>, <italic toggle="yes">ASMODEE optimal</italic> and <italic toggle="yes">modified Farrington</italic>) were evaluated in terms of their ability to correctly classify the last 12 days of the simulated epidemic curves. For a given simulation, each of the last 12 days could be classified as
+<list list-type="simple"><list-item><label>—<x xml:space="preserve"> </x></label><p>True positive (TP): increase (relapse and flare-up scenarios) or decrease (lockdown scenario) correctly detected by the method.</p></list-item><list-item><label>—<x xml:space="preserve"> </x></label><p>True negative (TN): absence of change (steady-state scenario) correctly identified as such by the method.</p></list-item><list-item><label>—<x xml:space="preserve"> </x></label><p>False positive (FP): days detected as changes (increase or decrease) in the steady state scenario.</p></list-item><list-item><label>—<x xml:space="preserve"> </x></label><p>False negative (FN): days not correctly detected as increase (elapse and flare-up scenarios) or decrease (lockdown scenario).</p></list-item></list></p>
+                  <p>This classification enables the calculation of standard performance scores (<xref rid="RSTB20200266F2" ref-type="fig">figure 2</xref>):
+<list list-type="simple"><list-item><label>1<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p><italic toggle="yes">sensitivity</italic> TP/(TP + FN);</p></list-item><list-item><label>2<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p><italic toggle="yes">specificity</italic> TN/(TN + FP);</p></list-item><list-item><label>3<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p><italic toggle="yes">balanced accuracy</italic>, <italic toggle="yes">ba</italic> = (sensitivity + specificity)/2;</p></list-item><list-item><label>4<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p><italic toggle="yes">precision</italic> TP/(TP + FP); and <italic toggle="yes">F1 score</italic>,</p></list-item><list-item><label>5<x xml:space="preserve">. </x><x xml:space="preserve"> </x></label><p><italic toggle="yes">F1</italic> = (2 × precision × sensitivity)/(precision + sensitivity).</p></list-item></list>
+<fig position="float" id="RSTB20200266F2"><label>Figure 2<x xml:space="preserve">. </x></label><caption><p>Evaluation of the algorithm on simulated data. Distribution of scores over all simulation runs. Each row corresponds to a different scenario, each column to one score, computed for each algorithm. ‘ba’ stands for balanced accuracy, the average of sensitivity and specificity. The horizontal lines correspond to the 25th, 50th and 75th percentiles, the dots correspond to the average. The plot title indicates which class was considered positive for each scenario and which value of <italic toggle="yes">alpha</italic> was considered optimal. (The trivial results for the <italic toggle="yes">steady state</italic> scenario, with a sensitivity very close to 1 and other scores undefined, are not shown.).</p></caption><graphic xlink:href="rstb20200266f02" position="float"/></fig></p>
+                  <p>The values these scores take depend on the two-sided threshold <italic toggle="yes">alpha</italic>, which was set to an optimal value as described below.</p>
+                  <p>By contrast to these daily classifications, we also defined the <italic toggle="yes">period detection</italic>, which indicated whether a true change was detected over a given time period. This led to the definition of a <italic toggle="yes">probability of detection within a time interval D</italic> as the proportion of time series with the last period correctly detected within <italic toggle="yes">D</italic> days after the trend change. It thus represents a measure of <italic toggle="yes">timeliness</italic> of trend change detection. <xref rid="RSTB20200266F3" ref-type="fig">Figure 3</xref> shows the probability of detection computed for each scenario, algorithm and selected values of the threshold parameter <italic toggle="yes">alpha</italic>.
+<fig position="float" id="RSTB20200266F3"><label>Figure 3<x xml:space="preserve">. </x></label><caption><p>Delay to trend change detection. This figure illustrates the delay between the change in <italic toggle="yes">Rt</italic> and the first detected change (<italic toggle="yes">increase</italic> or <italic toggle="yes">decrease</italic>) by the different methods. The probability of detection on the <italic toggle="yes">y</italic>-axis is defined as the proportion of simulations where a trend change was detected, conditionally on no changes having been detected (false positive) before. Results are provided for selected values of the threshold parameter <italic toggle="yes">alpha</italic>, represented in colour. (The trivial results for the <italic toggle="yes">steady state</italic> scenario are not shown.).</p></caption><graphic xlink:href="rstb20200266f03" position="float"/></fig></p>
+                  <p><italic toggle="yes">alpha</italic> can be seen as an adjustment parameter: the smaller its value, the higher the proportion of days/periods classified as <italic toggle="yes">normal</italic>. For the purpose of comparing and evaluating algorithms, we varied <italic toggle="yes">alpha</italic> from 0.01 to 0.5. Its optimal value was defined as the one maximizing the probability of detection within 6 days, the longest interval available for all simulation runs (<xref rid="RSTB20200266F3" ref-type="fig">figure 3</xref>). In practice, <italic toggle="yes">alpha</italic> can be iteratively adjusted by the user to achieve the desired level of alert for a given surveillance system.</p>
+                </sec>
+              </sec>
+              <sec id="s2c">
+                <label>(c)</label>
+                <title>Automated pipelines for NHS pathways data</title>
+                <sec id="s2c1">
+                  <label>(i)</label>
+                  <title>Implementation</title>
+                  <p>As a real-world use case, we used the NHS Pathways data [<xref rid="RSTB20200266C29" ref-type="bibr">29</xref>] reporting potential COVID-19 cases in England, broken down by Clinical Commissioning Groups (CCG). These data include all reports classified as ‘potential COVID-19 cases' notified via calls to 111, 999 and 111-online systems [<xref rid="RSTB20200266C30" ref-type="bibr">30</xref>]. These data are not confirmed cases, and are subject to unknown reporting biases. They likely include a substantial fraction of ‘false positives’ (cases classified as potential COVID-19 that are in fact due to other illness), as well as under-reporting (true COVID-19 cases not reported). Last, because these data are using self-reporting, it is likely that individual perceptions as well as ease of access to the reporting platforms impact the observed numbers.</p>
+                  <p>We have discussed how these data can be interpreted and the associated caveats elsewhere and refer to these sources for more context [<xref rid="RSTB20200266C31" ref-type="bibr">31</xref>]. Recent observations suggest that 111/999 calls may be more reflective of COVID-19 dynamics than 111-online [<xref rid="RSTB20200266C31" ref-type="bibr">31</xref>]. Therefore, the subsequent analyses were based on these data only.</p>
+                  <p>We have developed an automated pipeline to download these data, apply ASMODEE and present results. It has been implemented in a publicly accessible webpage (see §2d below) and was used in the illustration discussed in the next section.</p>
+                </sec>
+                <sec id="s2c2">
+                  <label>(ii)</label>
+                  <title>Illustration</title>
+                  <p>The pipeline for NHS Pathways data was applied to all CCGs each day from 1 June to 10 August 2020. We highlighted the results for Leicester City and Blackburn as they experienced a large COVID-19 outbreak in the middle of June and July, respectively, with the first leading to the first local lockdown in the UK being imposed on 29 June.</p>
+                  <p>We chose as parameters for ASMODEE a fixed <italic toggle="yes">k</italic> of 7 days and used AIC as the criterion for model selection. Here also, model selection through cross-validation produced identical results (data not shown). <italic toggle="yes">alpha</italic> was set to 0.05, low enough to avoid false alarms but high enough to rapidly detect changes. The five candidate models from which one was selected each day were: Poisson with constant mean; Poisson and negative binomial with the log-linear trend in time; the same with supplementary cofactor the day of the week (distinguishing weekends, Mondays and other days, in order to account for system closure over weekends and backlog effects); and the latter with a supplementary interaction of day and day of the week. <xref rid="RSTB20200266F4" ref-type="fig">Figure 4</xref> shows the output of ASMODEE as applied each day, using a calibration window of 35 days. Moreover, we considered one metric to compare CCGs and highlight the peculiarity of the situations in Leicester and Blackburn with Darwen: the number of <italic toggle="yes">increase</italic> signals in a 7-day observation period (<xref rid="RSTB20200266F5" ref-type="fig">figure 5</xref>).
+<fig position="float" id="RSTB20200266F4"><label>Figure 4<x xml:space="preserve">. </x></label><caption><p>ASMODEE applied to the COVID-19 cases reported through the NHS Pathways (111/999 calls) for the CCG Leicester City during June and July and the first 10 days of August 2020. Each plot corresponds to a different reference date, with the algorithm applied to the preceding 42 days (including the reference day). <italic toggle="yes">k</italic> was fixed to 7 days, <italic toggle="yes">alpha</italic> was set to 0.05. Considered temporal trends models included: Poisson GLM with constant mean, linear regression with linear trend in time, negative binomial GLM with log-linear trend in time, the same with a ‘day of the week’ effect (distinguishing weekends, Mondays and other days), and the latter with an additional interaction to allow for different slopes by day of the week. Automated model selection using AIC was used for all analyses.</p></caption><graphic xlink:href="rstb20200266f04" position="float"/></fig>
+<fig position="float" id="RSTB20200266F5"><label>Figure 5<x xml:space="preserve">. </x></label><caption><p>Leicester City and Blackburn with Darwen stand out among all CCGs from 1 June until 10 August 2020. Number of days classified as <italic toggle="yes">increase</italic> within 7 days of the reference date. Each dot represents one CCG on one reference day, the lines connect the dots corresponding to the same CCGs from one day to the next. Leicester City is highlighted in blue, Blackburn with Darwen in orange. A small jitter was applied for better readability. The blue and orange vertical lines indicate the dates at which increased restrictions were imposed in Leicester and Blackburn, respectively.</p></caption><graphic xlink:href="rstb20200266f05" position="float"/></fig></p>
+                </sec>
+              </sec>
+              <sec id="s2d">
+                <label>(d)</label>
+                <title>Availability</title>
+                <sec id="s2d1">
+                  <label>(i)</label>
+                  <title>ASMODEE</title>
+                  <p>ASMODEE is implemented in the new package <italic toggle="yes">trendbreaker</italic> for the R software [<xref rid="RSTB20200266C32" ref-type="bibr">32</xref>], released under MIT license as part of the toolkit developed by the R Epidemics Consortium (RECON, <uri xlink:href="http://repidemicsconsortium.org/">http://repidemicsconsortium.org/</uri>) for outbreak analytics [<xref rid="RSTB20200266C33" ref-type="bibr">33</xref>]. While already functional and fully documented, this package is still under active development, and will be an integral part of the next generation of tools for handling, visualizing and modelling epidemic curves developed within RECON. It is available and documented at: <uri xlink:href="https://github.com/reconhub/trendbreaker">https://github.com/reconhub/trendbreaker</uri>, and is scheduled for a release on CRAN by June 2021.</p>
+                  <p>The package provides a unified interface for various modelling tools including linear models (function lm), Gaussian, Binomial, quasi-Binomial, Poisson, quasi-Poisson and Gamma GLMs (function glm), negative binomial GLM (function MASS::glm.nb) and Bayesian generalized nonlinear models using Stan [<xref rid="RSTB20200266C34" ref-type="bibr">34</xref>,<xref rid="RSTB20200266C35" ref-type="bibr">35</xref>] (function brms::brm). Various routines are implemented for automated model selection (function select_model), outlier detection (function detect_outliers) and the selection of <italic toggle="yes">k</italic> (function detect_changepoint). The main function asmodee wraps these different tools and provides a full implementation of the method, including the two approaches for model selection (repeated <italic toggle="yes">K</italic>-fold cross-validation and AIC) and the automated selection of <italic toggle="yes">k</italic> using the scoring described in the previous section, plus plotting functions.</p>
+                </sec>
+                <sec id="s2d2">
+                  <label>(ii)</label>
+                  <title>Simulations</title>
+                  <p>Scripts implementing the simulation of COVID-19 outbreaks and their analysis, as well as the adapted farringtonFlexible function are available at: <uri xlink:href="https://gitlab.com/stephaneghozzi/asmodee-trendbreaker-evaluation">https://gitlab.com/stephaneghozzi/asmodee-trendbreaker-evaluation</uri>.</p>
+                </sec>
+                <sec id="s2d3">
+                  <label>(iii)</label>
+                  <title>NHS pathways analysis pipeline</title>
+                  <p>The data pipeline applying ASMODEE to NHS Pathways data is available at: <uri xlink:href="https://github.com/thibautjombart/nhs_pathways_monitoring">https://github.com/thibautjombart/nhs_pathways_monitoring</uri>. This pipeline is designed as a blogdown website [<xref rid="RSTB20200266C36" ref-type="bibr">36</xref>] that automatically updates data and analyses daily using github actions. Daily data cleaning itself is done by the data pipeline hosted at: <uri xlink:href="https://github.com/qleclerc/nhs_pathways_report">https://github.com/qleclerc/nhs_pathways_report</uri>. The resulting website renders through Netlify at: <uri xlink:href="https://covid19-nhs-pathways-asmodee.netlify.app/">https://covid19-nhs-pathways-asmodee.netlify.app/</uri>. Therefore, our pipeline is entirely free and can easily be replicated and adapted to other data streams. The script for illustration on CCG data is available at: <uri xlink:href="https://gitlab.com/stephaneghozzi/asmodee-trendbreaker-evaluation">https://gitlab.com/stephaneghozzi/asmodee-trendbreaker-evaluation</uri>.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <label>3<x xml:space="preserve">. </x></label>
+              <title>Results</title>
+              <sec id="s3a">
+                <label>(a)</label>
+                <title>Simulated data</title>
+                <p>ASMODEE detected anomalies in the three scenarios with trend changes in the simulated time series for both the manual and optimal tuning (<xref rid="RSTB20200266F1" ref-type="fig">figure 1</xref>). Very few false alarms were generated in the <italic toggle="yes">steady-state</italic> scenario.</p>
+                <p>The five performance scores varied substantially within and across scenarios. All approaches showed almost perfect sensitivity in the <italic toggle="yes">steady state</italic> scenario, where typically more than 99% of ‘normal’ days are classified as such. Results were more heterogeneous in the <italic toggle="yes">relapse</italic> and <italic toggle="yes">lockdown</italic> scenarios where both ASMODEE configurations showed high precision and specificity, with varying sensitivity, translating into high overall balanced accuracy and <italic toggle="yes">F1</italic> scores (<xref rid="RSTB20200266F2" ref-type="fig">figure 2</xref>). <italic toggle="yes">ASMODEE manual</italic> performed somewhat better in sensitivity and thus in <italic toggle="yes">F1</italic> scores. Both ASMODEE approaches performed similarly in the <italic toggle="yes">flare-up</italic> scenario. Overall, the methods exhibited high specificity and precision, but with lower sensitivity than in the <italic toggle="yes">lockdown</italic> and <italic toggle="yes">relapse</italic> scenarios. <italic toggle="yes">modified Farrington</italic> performed very similarly to <italic toggle="yes">ASMODEE manual</italic>, with slightly higher sensitivity and lower specificity in the <italic toggle="yes">lockdown</italic> scenario.</p>
+                <p>It should be noted that results are not only a reflection of the methods evaluated, but are also largely conditioned by the simulations and evaluation settings. Because we used a branching process to simulate COVID-19 outbreaks, changes in <italic toggle="yes">Rt</italic> are typically reflected after at least one serial interval (4–5 days on average). The resulting lag in the incidence time series, which can be seen in <xref rid="RSTB20200266F1" ref-type="fig">figure 1</xref>, imposes an upper bound on sensitivity: algorithms can only detect changes in transmissibility once these are reflected in the case counts. With the last trend period encompassing 7–9 days in our simulations, around half of the data points at best can be expected to be correctly detected as anomalies.</p>
+                <p>The probability of detection within 6 days or less is less sensitive to the choice of the observation period, as it does not depend on its duration. As <xref rid="RSTB20200266F3" ref-type="fig">figure 3</xref> shows, <italic toggle="yes">alpha</italic> has a non-monotonic effect on the detection performance, leading to an optimal value maximized after 6 days. In the three scenarios with a trend change, a 50% probability of detection for ASMODEE is typically reached only after 3–5 days, again due to the delay between changes in <italic toggle="yes">Rt</italic> and its actual reflection in the incidence time series. Overall, all three algorithms show good probabilities of detection, reaching almost 100% and both <italic toggle="yes">ASMODEE</italic> approaches outperforming <italic toggle="yes">modified Farrington</italic> in the <italic toggle="yes">lockdown</italic> scenarios.</p>
+              </sec>
+              <sec id="s3b">
+                <label>(b)</label>
+                <title>Detection of flare-ups of COVID-19 cases in England</title>
+                <p>Looking at the particular case of Leicester in June 2020, we see that <italic toggle="yes">increase</italic> signals are consistently triggered for reference dates ranging from 10 to 22 June (<xref rid="RSTB20200266F4" ref-type="fig">figure 4</xref>). ASMODEE indicates one anomalous day from 7 to 9 June, two on 10 June and three on 11 June. Consistent with simulation results, ASMODEE exhibited good specificity, with very few <italic toggle="yes">increase</italic> signals generated before or after the relapse. Similar patterns were observed for Blackburn from 11 until 18 July 2020 (data not shown). The algorithm correctly flagged the weeks following the lockdown in Leicester on 29 June and the associated drop in incidence as <italic toggle="yes">decreases</italic> (<xref rid="RSTB20200266F4" ref-type="fig">figure 4</xref>).</p>
+                <p>To understand the context of the increase in the Leicester and Blackburn with Darwen CCGs, we analysed the time series of cases in all 136 CCGs that reported potential COVID-19 cases in June and July 2020. Leicester showed one of the longest periods of consecutive increase from 13 to 21 June (<xref rid="RSTB20200266F5" ref-type="fig">figure 5</xref>). Similarly, Blackburn stands out from 13 to 18 July. Taken together, these results show that ASMODEE could have detected the outbreaks in both regions early on.</p>
+              </sec>
+            </sec>
+            <sec id="s4">
+              <label>4<x xml:space="preserve">. </x></label>
+              <title>Discussion</title>
+              <p>We have presented ASMODEE, a novel algorithm for trend change and anomaly detection. ASMODEE unifies two important features of an early warning system: gauging temporal trends in incidence time series and detecting recent anomalies, exceptionally higher case counts than expected based on recent data. The main advantage of the approach may be its flexibility for modelling temporal trends. Rather than imposing a single model, it allows for a range of candidate models to be specified, and automatically selects the best-predicting (using repeated <italic toggle="yes">K</italic>-fold cross-validation) or fitting (using AIC) model. The current implementation provides support for linear regression, various different types of GLMs, as well as Bayesian regression implemented in Stan, and should as such provide ample flexibility for modelling different epidemic time series.</p>
+              <p>We tested ASMODEE using simulated COVID-19 epidemics, but this approach can be readily extended to other diseases and contexts. For instance, ASMODEE could be useful for detecting new hotspots of Ebola cases in large-scale epidemics such as the West-African Ebola outbreak [<xref rid="RSTB20200266C37" ref-type="bibr">37</xref>,<xref rid="RSTB20200266C38" ref-type="bibr">38</xref>] or the more recent one in North Kivu/Ituri, Democratic Republic of the Congo [<xref rid="RSTB20200266C26" ref-type="bibr">26</xref>,<xref rid="RSTB20200266C39" ref-type="bibr">39</xref>]. In a different context, it could complement existing systems for tracking nosocomial outbreaks of norovirus at a national level [<xref rid="RSTB20200266C40" ref-type="bibr">40</xref>], to help identify wards or hospitals with a sudden increase of cases that would warrant prompt intervention. The fact that ASMODEE is model-agnostic and can include additional predictors beyond time grants the method flexibility to accommodate additional factors impacting incidence, such as changes in data quality, surveillance or testing capacity. For instance, changes in testing capacity could be accounted for by including the daily numbers of tests as a covariate in candidate models, so that any detected departure from past trends would indeed reflect changes in transmission, and not testing. Similarly, periods of disrupted surveillance, e.g. due to heightened insecurity [<xref rid="RSTB20200266C26" ref-type="bibr">26</xref>], could be accounted for by including the presence or absence of disruption as an additional predictor.</p>
+              <p>We compared two variants of ASMODEE (with or without automatically setting the parameter <italic toggle="yes">k</italic>) to a state-of-the-art outbreak detection algorithm in <italic toggle="yes">modified Farrington</italic>. Considering a number of metrics that reflect how a user would typically interpret detection results, we found that all three methods performed well overall, with very high specificity and varying sensitivity. Using a fixed value of <italic toggle="yes">k</italic> in ASMODEE (<italic toggle="yes">ASMODEE manual</italic>) seemed to increase sensitivity in the considered scenarios. As this approach is also more computationally efficient, it may be a reasonable default for setting up surveillance pipelines. The <italic toggle="yes">ASMODEE manual</italic> configuration performed very closely to <italic toggle="yes">modified Farrington</italic>. This similarity may not be surprising: without seasonality and past, localized outbreaks, both approaches are based on similar statistical modelling and aberration detection approaches. Interestingly, when considering the delay to change detection, ASMODEE optimal showed more consistent, and better performances across different values of <italic toggle="yes">alpha</italic> than the other two methods in two scenarios out of three. Importantly, the low sensitivity exhibited in some results can be largely explained by the branching process used to simulate outbreaks: changes in <italic toggle="yes">Rt</italic> are only actually reflected in incidence time series after a lag of at least one serial interval. Further work may focus on evaluating ASMODEE using alternative models to simulate time series without such lag.</p>
+              <p>ASMODEE, as implemented in the package <italic toggle="yes">trendbreaker</italic>, is both much simpler than <italic toggle="yes">modified Farrington</italic> (requiring fewer parameters to be fine-tuned for specific contexts and diseases) and much more flexible (many kinds of statistical models can be easily integrated and automatically selected), as illustrated by the fact that we had to adapt <italic toggle="yes">modified Farrington</italic> to account for upward trends and produce meaningful results. However, it is not the case that ASMODEE would always be the approach of choice: <italic toggle="yes">modified Farrington</italic> has been developed for very specific use cases and practical needs, namely the longer-term surveillance of infections causing point-source outbreaks, such as food- or water-borne diseases. Nevertheless, we believe it to be a suitable benchmark for COVID-19 as, for lack of more specific standard tools, it would still have been the default method employed for COVID-19 surveillance.</p>
+              <p>Other aspects of the ASMODEE remain to be investigated. In our simulations, model selection using repeated <italic toggle="yes">K</italic>-fold cross-validation and AIC gave near identical results (results not shown). This may not be the case in other settings, and further work will be needed to investigate the automated model selection step. In particular, one may look for optimal fold sizes and numbers of repeats in the cross-validation procedure, and may also consider other goodness-of-fit statistics such as the Bayesian information criteria (BIC [<xref rid="RSTB20200266C17" ref-type="bibr">17</xref>]). Further developments may also be considered for defining the optimal value of <italic toggle="yes">k</italic>, beyond the simple scoring system introduced here. We also note that our approach assumes that the calibration window contains a single trend, which can be adequately captured by at least one candidate model. In practice, this means temporal trends may be best characterized by selecting a subset of the most recent weeks of data. Further work may be devoted to optimizing this aspect as well, e.g. using absolute measures of fit to ensure the recent trends are indeed well captured.</p>
+              <p>The proposed method has a number of limitations. The main one relates to reporting delays, which are an intrinsic feature of most epidemiological data. ASMODEE takes incidence data on face value, i.e. without accounting for the potential effect of reporting delays, which typically cause incidence time series to artificially decrease over the last few days of data. While this limitation is not specific to ASMODEE, it will clearly hinder the method's capacity to detect recent increases in case counts. A possible improvement of the method would be to characterize reporting delays, and then use augmented data/nowcasting to simulate the true underlying incidence, on which ASMODEE would be run. This approach would undoubtedly increase computational time, but would be easy to parallelize and most likely still fast enough to be used in daily surveillance of hundreds of geographical locations.</p>
+              <p>A second limitation of our approach is that ASMODEE does not consider the spatial spread of epidemics. While multiple locations can be analysed separately as illustrated in our analysis of NHS 111/999 data, the approach does not account for transmission across different locations. The general framework used in ASMODEE could in theory be extended to multivariate time series models incorporating spatial dependency, but the current implementation would need additional work to support such features. In practice, we expect this may only be a substantial limitation when very good data on patient locations and movement are available. An alternative worth exploring would be to run ASMODEE on spatially smoothed data [<xref rid="RSTB20200266C41" ref-type="bibr">41</xref>] to reduce noise in data typically observed in small geographical areas with low case numbers and therefore facilitate anomaly detection.</p>
+              <p>We expect ASMODEE will be most useful for surveying potentially large numbers of incidence time series, e.g. to detect flare-ups of COVID-19 in small geographical units and/or specific population demographics. It may be best used in conjunction with human judgement rather than as a purely automated algorithm. For instance, ASMODEE could rank incidence times series according to their respective numbers of ‘increase’ days, and then the highest-ranked series could be examined by epidemiologists to decide whether further investigation is warranted. As such, ASMODEE could form the basis for a daily COVID-19 surveillance system, and be regularly refined, e.g. changing the duration of the detection window (parameter <italic toggle="yes">k</italic>) or the <italic toggle="yes">alpha</italic> threshold to meet required alert levels. The automated pipeline we have developed for NHS 111/999 data shows that such surveillance systems can be built using free, open-source tools, and readily automated for daily updates.</p>
+              <p>It is our hope that ASMODEE will form a useful complement to existing point-source outbreak detection methods such as the <italic toggle="yes">modified Farrington</italic> algorithm [<xref rid="RSTB20200266C14" ref-type="bibr">14</xref>] and scan statistics [<xref rid="RSTB20200266C42" ref-type="bibr">42</xref>]. We believe its inherent simplicity and flexibility for modelling time series, together with its availability in the free, open-source R package <italic toggle="yes">trendbreaker</italic>, will facilitate further improvements and adoption by the community, and its broader use for disease surveillance for COVID-19 outbreaks and beyond.</p>
+            </sec>
+            <sec id="s5">
+              <label>5<x xml:space="preserve">. </x></label>
+              <title>Context: real-time monitoring of COVID-19 dynamics using automated trend fitting and anomaly detection</title>
+              <p>The focus of the work of Scientific Pandemic Influenza Group on Modelling (SPI-M) has evolved as the COVID-19 epidemic unfolded in the UK. Before the first wave peaked, most questions revolved around the speed at which the epidemic was growing and spreading geographically, and estimates of future bed occupancy to assess whether, or when, hospital capacity might be exceeded.</p>
+              <p>After the first wave, as cases were globally falling in the UK, interest started shifting to detecting local flare-ups of cases, and more generally any new trend in COVID-19 cases that may warrant tailored interventions. This type of question generally falls within the realm of <italic toggle="yes">outbreak detection</italic> methods that have been developed over the years for routine disease surveillance. Unfortunately, local dynamics of COVID-19 cases posed a number of challenges that existing methods struggled to accommodate, ranging from weekly reporting artefacts (e.g. cases going down on weekends and up on Mondays) to changes in testing intensity or age-specific mortality.</p>
+              <p>ASMODEE was designed to overcome these issues. When developing the method, we followed three guiding principles. First, we wanted to avoid estimating changes in the reproduction number (<italic toggle="yes">R</italic>), which was already the focus of many other groups in SPI-M. The underlying idea was that showing significant changes in <italic toggle="yes">R</italic> may require weeks of data, and we wanted our approach to be able to detect trend changes as soon as they happened. This is why we preferred a strategy relying on characterizing past trends, and identifying recent departures from these trends using an outlier detection approach. Second, we designed our approach to be more flexible than existing standard surveillance tools. Indeed, it is able to use a variety of models, and to account for confounders such as testing or the age distribution of cases by including them as covariates in candidate models. We found that using many (hundreds of) simple candidate models, retaining the best one for each locality, was a much more efficient approach for COVID-19 surveillance than attempting to design a one-size-fits-all model.</p>
+              <p>Last, we wanted this approach to become a new standard in infectious disease surveillance. We spent a vast amount of time designing free, open-source software packages that can be used for other disease surveillance tasks beyond COVID-19. These tools include <italic toggle="yes">incidence2</italic>, <italic toggle="yes">trending</italic>, <italic toggle="yes">trendeval</italic> and <italic toggle="yes">trendbreaker</italic>, which are now part of the base of the reconverse (<uri xlink:href="https://www.reconverse.org/">https://www.reconverse.org/</uri>), a new suite of tools for outbreak analysis. ASMODEE has been deployed in the UK for detecting trend changes in potential COVID-19 cases reported through calls to 111 and 999 and 111-online. While it could have no doubt been applied to other data sources, we favoured transparency and reproducibility, and used these data sources as they were all publicly available early on. Since then, ASMODEE has been used outside the UK, for COVID-19 surveillance in Germany at the Robert Koch Institute and at the World Health Organization, where it is used for monitoring changes in COVID-19 trends in countries across the world.</p>
+            </sec>
+          </body>
+          <back>
+            <sec id="s6">
+              <title>Data accessibility</title>
+              <p>Full details of data accessibility are provided within the text.</p>
+            </sec>
+            <sec id="s7">
+              <title>Authors' contributions</title>
+              <p>In alphabetic order: S.G., T.J., D.S. developed the methodology. S.G., T.J., D.S., T.J.T. contributed code. S.G., T.J. performed the analyses. S.G., T.J.T. reviewed code. S.G., T.J. wrote the first draft of the manuscript. O.J.B., W.J.E., R.M.E., S.F., F.G., S.G., M.H., T.J., M.J., Q.J.L., G.F.M., S.M., E.N., D.S., T.W., T.J.T. contributed to the manuscript. CMMID COVID-19 Working Group gave input on the method, contributed data and provided elements of discussion. The following authors were part of the Centre for Mathematical Modelling of Infectious Disease 2019-nCoV working group: Arminder K. Deol, Kathleen O'Reilly, Charlie Diamond, David Simons, Petra Klepac, Christopher I. Jarvis, Sebastian Funk, Nicholas G. Davies, Yung-Wai Desmond Chan, Damien C. Tully, Nikos I. Bosse, Simon R. Procter, Kaja Abbas, Amy Gimma, Jon C. Emery, Billy J. Quilty, Kevin van Zandvoort, Stéphane Hué, Rosanna C. Barnard, Timothy W. Russell, Sam Abbott, Kiesha Prem, Adam J. Kucharski, Akira Endo, Fiona Yueqian Sun, James W. Rudge, Katharine Sherratt, Yang Liu, Katherine E. Atkins, Rein M. G. J. Houben, Matthew Quaife, Joel Hellewell, Gwenan M. Knight, Carl A. B. Pearson, Georgia R. Gore-Langton, Anna M. Foss, Megan Auzenbergs, Alicia Rosello, Samuel Clifford, C. Julian Villabona-Arenas, Hamish P. Gibbs, Alicia Showering, Jack Williams, Frank G. Sandman, Naomi R. Waterlow. Each contributed in processing, cleaning and interpretation of data, interpreted findings, contributed to the manuscript and approved the work for publication.</p>
+            </sec>
+            <sec id="s8">
+              <title>Competing interests</title>
+              <p>We declare we have no competing interests.</p>
+            </sec>
+            <sec id="s9">
+              <title>Funding</title>
+              <p>The named authors (O.J.B., W.J.E., R.M.E., T.J., M.J., S.M., E.N., T.J.T.) had the following sources of funding: O.J.B. was funded by a Sir Henry Wellcome Fellowship funded by the Wellcome Trust (grant no. 206471/Z/17/Z). R.M.E. receives funding from HDR UK (grant no. MR/S003975/1). S.F. is supported by a Sir Henry Dale Fellowship jointly funded by the Wellcome Trust and the Royal Society (grant no. 208812/Z/17/Z). T.J. receives funding from the Global Challenges Research Fund (GCRF) project ‘RECAP’ managed through RCUK and ESRC (ES/P010873/1), the UK Public Health Rapid Support Team funded by the United Kingdom Department of Health and Social Care and from the National Institute for Health Research (NIHR)—Health Protection Research Unit for Modelling Methodology. M.J. receives funding from the Bill and Melinda Gates foundation (grant no.: INV-003174) and the NIHR (grant no.: 16/137/109 and HPRU-2012-10096). E.N. receives funding from the Bill and Melinda Gates Foundation (grant no.: OPP1183986). M.J. and W.J.E. receive funding from European Commission project EpiPose (grant no. 101003688). S.M. receives funding from the Wellcome Trust (grant no. 210758/Z/18/Z). S.F. receives funding from the Wellcome Trust (grant no. 208812/Z/17/Z). T.J. and T.J.T. receive funding from the MRC (grant no. MC_PC_19065). The following funding sources are acknowledged as providing funding for the working group authors. BBSRC LIDP (BB/M009513/1: D.S.). This research was partly funded by the Bill &amp; Melinda Gates Foundation (INV-001754: M.Q.; INV-003174: K.P., M.J., Y.L.; NTD Modelling Consortium OPP1184344: C.A.B.P., G.F.M.; OPP1180644: S.R.P.; OPP1191821: K.O'R., M.A.). BMGF (OPP1157270: K.A.). DFID/Wellcome Trust (Epidemic Preparedness Coronavirus research programme 221303/Z/20/Z: K.v.Z.). DTRA (HDTRA1-18-1-0051: J.W.R.). Elrha R2HC/UK DFID/Wellcome Trust/this research was partly funded by the National Institute for Health Research (NIHR) using UK aid from the UK Government to support global health research. ERC Starting Grant (#757699: J.C.E., M.Q., R.M.G.J.H.). This project has received funding from the European Union's Horizon 2020 research and innovation programme—project EpiPose (101003688: K.P., M.J., P.K., R.C.B., Y.L.). HDR UK (MR/S003975/1: R.M.E.). NIHR (16/136/46: B.J.Q.; 16/137/109: B.J.Q., C.D., F.Y.S., M.J., Y.L.; Health Protection Research Unit for Immunisation NIHR200929: N.G.D., F.G.S.; Health Protection Research Unit for Modelling Methodology HPRU-2012-10096: T.J., F.G.S.; NIHR200929: M.J.; PR-OD-1017-20002: A.R.). UK DHSC/UK Aid/NIHR (ITCRZ 03010: H.P.G.). UK MRC (LID DTP MR/N013638/1: G.R.G.-L., Q.J.L., N.R.W.; MC_PC_19065: A.G., N.G.D., R.M.E., S.C., T.J., Y.L.; MR/P014658/1: G.M.K.). Authors of this research receive funding from UK Public Health Rapid Support Team funded by the United Kingdom Department of Health and Social Care (T.J.). Wellcome Trust (206250/Z/17/Z: A.J.K., T.W.R.; 206471/Z/17/Z: O.J.B.; 208812/Z/17/Z: S.C., S.F.; 210758/Z/18/Z: S.F., S.A., J.H.). No funding (A.K.D., A.M.F., C.J.V.-A., D.C.T., S.H., Y.-W.D.C.). The UK Public Health Rapid Support Team is funded by UK aid from the Department of Health and Social Care and is jointly run by Public Health England and the London School of Hygiene and Tropical Medicine. The University of Oxford and King's College London are academic partners.</p>
+            </sec>
+            <sec id="s10">
+              <title>Disclaimer</title>
+              <p>The views expressed in this publication are those of the author(s) and not necessarily those of the NIHR or the UK Department of Health and Social Care (K.v.Z.).</p>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="RSTB20200266C1">
+                <label>1<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Lai</surname><given-names>S</given-names></string-name><etal>et al</etal></person-group>. <year>2020</year><comment>Effect of non-pharmaceutical interventions for containing the COVID-19 outbreak in China. <italic toggle="yes">medRxiv</italic></comment>. (<pub-id pub-id-type="doi">10.1101/2020.03.03.20029843</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C2">
+                <label>2<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Courtemanche</surname><given-names>C</given-names></string-name>, <string-name><surname>Garuccio</surname><given-names>J</given-names></string-name>, <string-name><surname>Le</surname><given-names>A</given-names></string-name>, <string-name><surname>Pinkston</surname><given-names>J</given-names></string-name>, <string-name><surname>Yelowitz</surname><given-names>A</given-names></string-name></person-group>. <year>2020</year><article-title>Strong social distancing measures in the United States reduced the COVID-19 growth rate: study evaluates the impact of social distancing measures on the growth rate of confirmed COVID-19 cases across the United States</article-title>. <source>Health Aff.</source><volume><bold>10</bold></volume>, <fpage>1377</fpage>. (<pub-id pub-id-type="doi">10.4324/9781003141402-20</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C3">
+                <label>3<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Davies</surname><given-names>NG</given-names></string-name><etal>et al</etal></person-group>. <year>2020</year><article-title>Effects of non-pharmaceutical interventions on COVID-19 cases, deaths, and demand for hospital services in the UK: a modelling study</article-title>. <source>Lancet Public Health</source><volume><bold>5</bold></volume>, <fpage>e375</fpage>-<lpage>e385</lpage>. (<pub-id pub-id-type="doi">10.1016/S2468-2667(20)30133-X</pub-id>)<pub-id pub-id-type="pmid">32502389</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C4">
+                <label>4<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Long</surname><given-names>Q-X</given-names></string-name><etal>et al</etal></person-group>. <year>2020</year><article-title>Clinical and immunological assessment of asymptomatic SARS-CoV-2 infections</article-title>. <source>Nat. Med.</source><volume><bold>26</bold></volume>, <fpage>1200</fpage>-<lpage>1204</lpage>. (<pub-id pub-id-type="doi">10.1038/s41591-020-0965-6</pub-id>)<pub-id pub-id-type="pmid">32555424</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C5">
+                <label>5<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grifoni</surname><given-names>A</given-names></string-name><etal>et al</etal></person-group>. <year>2020</year><article-title>Targets of T cell responses to SARS-CoV-2 coronavirus in humans with COVID-19 disease and unexposed individuals</article-title>. <source>Cell</source><volume><bold>181</bold></volume>, <fpage>1489</fpage>-<lpage>1501</lpage>. (<pub-id pub-id-type="doi">10.1016/j.cell.2020.05.015</pub-id>)<pub-id pub-id-type="pmid">32473127</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C6">
+                <label>6<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Baum</surname><given-names>A</given-names></string-name><etal>et al</etal></person-group><italic toggle="yes">.</italic><year>2020</year><article-title>Antibody cocktail to SARS-CoV-2 spike protein prevents rapid mutational escape seen with individual antibodies</article-title>. <source>Science</source><bold>369</bold>, <fpage>1014</fpage>-<lpage>1018</lpage>. (<pub-id pub-id-type="doi">10.1126/science.abd0831</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C7">
+                <label>7<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><comment>Home - Office for National Statistics. 2021 See <uri xlink:href="https://www.ons.gov.uk/">https://www.ons.gov.uk/</uri></comment>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C8">
+                <label>8<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><collab>Department of Health and Social Care</collab>. <year>2020</year><comment>Leicester lockdown: what you can and cannot do. See <uri xlink:href="https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do">https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do</uri></comment>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C9">
+                <label>9<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Salmon</surname><given-names>M</given-names></string-name>, <string-name><surname>Schumacher</surname><given-names>D</given-names></string-name>, <string-name><surname>Höhle</surname><given-names>M</given-names></string-name></person-group>. <year>2016</year><article-title>Monitoring count time series in R: aberration detection in Public Health Surveillance</article-title>. <source>J. Stat. Softw.</source><volume><bold>70</bold></volume>, <comment>1–35</comment>. (<pub-id pub-id-type="doi">10.18637/jss.v070.i10</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C10">
+                <label>10<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yuan</surname><given-names>M</given-names></string-name>, <string-name><surname>Boston-Fisher</surname><given-names>N</given-names></string-name>, <string-name><surname>Luo</surname><given-names>Y</given-names></string-name>, <string-name><surname>Verma</surname><given-names>A</given-names></string-name>, <string-name><surname>Buckeridge</surname><given-names>DL</given-names></string-name></person-group>. <year>2019</year><article-title>A systematic review of aberration detection algorithms used in public health surveillance</article-title>. <source>J. Biomed. Inform.</source><volume><bold>94</bold></volume>, <fpage>103181</fpage>. (<pub-id pub-id-type="doi">10.1016/j.jbi.2019.103181</pub-id>)<pub-id pub-id-type="pmid">31014979</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C11">
+                <label>11<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Morbey</surname><given-names>R</given-names></string-name><etal>et al</etal></person-group><italic toggle="yes">.</italic><year>2018</year><article-title>Comparison of statistical algorithms for syndromic surveillance aberration detection</article-title>. <source>Online J. Public Health Inform.</source><volume><bold>10</bold></volume>, <fpage>e4</fpage>. (<pub-id pub-id-type="doi">10.5210/ojphi.v10i1.8302</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C12">
+                <label>12<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sonesson</surname><given-names>C</given-names></string-name>, <string-name><surname>Bock</surname><given-names>D</given-names></string-name></person-group>. <year>2003</year><article-title>A review and discussion of prospective statistical surveillance in public health</article-title>. <source>J. R. Stat. Soc.</source><volume><bold>166</bold></volume>, <fpage>5</fpage>-<lpage>21</lpage>. (<pub-id pub-id-type="doi">10.1111/1467-985X</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C13">
+                <label>13<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Farrington</surname><given-names>CP</given-names></string-name>, <string-name><surname>Andrews</surname><given-names>NJ</given-names></string-name>, <string-name><surname>Beale</surname><given-names>AD</given-names></string-name>, <string-name><surname>Catchpole</surname><given-names>MA</given-names></string-name></person-group>. <year>1996</year><article-title>A statistical algorithm for the early detection of outbreaks of infectious disease</article-title>. <source>J. R. Stat. Soc. Ser. A Stat. Soc.</source><volume><bold>159</bold></volume>, <fpage>547</fpage>-<lpage>563</lpage>. (<pub-id pub-id-type="doi">10.2307/2983331</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C14">
+                <label>14<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Noufaily</surname><given-names>A</given-names></string-name><etal>et al</etal></person-group>. <year>2013</year><article-title>An improved algorithm for outbreak detection in multiple surveillance systems</article-title>. <source>Stat. Med.</source><volume><bold>32</bold></volume>, <fpage>1206</fpage>-<lpage>1222</lpage>. (<pub-id pub-id-type="doi">10.1002/sim.5595</pub-id>)<pub-id pub-id-type="pmid">22941770</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C15">
+                <label>15<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Salmon</surname><given-names>M</given-names></string-name><etal>et al</etal></person-group><italic toggle="yes">.</italic><year>2016</year><article-title>A system for automated outbreak detection of communicable diseases in Germany</article-title>. <source>Euro Surveill.</source><volume><bold>21</bold></volume>, <fpage>30180</fpage>. (<pub-id pub-id-type="doi">10.2807/1560-7917.ES.2016.21.13.30180</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C16">
+                <label>16<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Akaike</surname><given-names>H</given-names></string-name></person-group>. <year>1974</year><article-title>A new look at the statistical model identification</article-title>. <source>IEEE Trans. Automat. Contr.</source><volume><bold>19</bold></volume>, <fpage>716</fpage>-<lpage>723</lpage>. (<pub-id pub-id-type="doi">10.1109/TAC.1974.1100705</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C17">
+                <label>17<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schwarz</surname><given-names>G</given-names></string-name></person-group>. <year>1978</year><article-title>Estimating the dimension of a model</article-title>. <source>Ann. Stat.</source><volume><bold>6</bold></volume>, <fpage>461</fpage>-<lpage>464</lpage>. (<pub-id pub-id-type="doi">10.1214/aos/1176344136</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C18">
+                <label>18<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kullback</surname><given-names>S</given-names></string-name>, <string-name><surname>Leibler</surname><given-names>RA</given-names></string-name></person-group>. <year>1951</year><article-title>On information and sufficiency</article-title>. <source>Ann. Math. Stat.</source><volume><bold>22</bold></volume>, <fpage>79</fpage>-<lpage>86</lpage>. (<pub-id pub-id-type="doi">10.1214/aoms/1177729694</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C19">
+                <label>19<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>McCullagh</surname><given-names>P</given-names></string-name>, <string-name><surname>Nelder</surname><given-names>JA</given-names></string-name></person-group>. <year>1989</year><source>Generalized linear models</source>, <edition>2nd edn</edition>. <publisher-loc>Boca Raton, FL</publisher-loc>: <publisher-name>CRC Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C20">
+                <label>20<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>He</surname><given-names>X</given-names></string-name>, <string-name><surname>Zhao</surname><given-names>K</given-names></string-name>, <string-name><surname>Chu</surname><given-names>X.</given-names></string-name></person-group><year>2021</year><article-title>AutoML: A survey of the state-of-the-art</article-title>. <comment><italic toggle="yes">Knowledge-Based Systems</italic><bold>212</bold>, 10662.</comment> (<pub-id pub-id-type="doi">10.1016/j.knosys.2020.106622</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C21">
+                <label>21<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kotthoff</surname><given-names>L</given-names></string-name>, <string-name><surname>Thornton</surname><given-names>C</given-names></string-name>, <string-name><surname>Hoos</surname><given-names>HH</given-names></string-name>, <string-name><surname>Hutter</surname><given-names>F</given-names></string-name>, <string-name><surname>Leyton-Brown</surname><given-names>K</given-names></string-name></person-group>. <year>2017</year><article-title>Auto-WEKA 2.0: automatic model selection and hyperparameter optimization in WEKA</article-title>. <source>J. Mach. Learn. Res.</source><volume><bold>18</bold></volume>, <fpage>826</fpage>-<lpage>830</lpage>. (<pub-id pub-id-type="doi">10.1007/978-3-030-05318-5_4</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C22">
+                <label>22<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cawley</surname><given-names>GC</given-names></string-name>, <string-name><surname>Talbot</surname><given-names>NLC</given-names></string-name></person-group>. <year>2010</year><article-title>On over-fitting in model selection and subsequent selection bias in performance evaluation</article-title>. <source>J. Mach. Learn. Res.</source><volume><bold>11</bold></volume>, <fpage>2079</fpage>-<lpage>2107</lpage>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C23">
+                <label>23<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rodriguez</surname><given-names>JD</given-names></string-name>, <string-name><surname>Perez</surname><given-names>A</given-names></string-name>, <string-name><surname>Lozano</surname><given-names>JA</given-names></string-name></person-group>. <year>2010</year><article-title>Sensitivity analysis of k-fold cross validation in prediction error estimation</article-title>. <source>IEEE Trans. Pattern Anal. Mach. Intell.</source><volume><bold>32</bold></volume>, <fpage>569</fpage>-<lpage>575</lpage>. (<pub-id pub-id-type="doi">10.1109/TPAMI.2009.187</pub-id>)<pub-id pub-id-type="pmid">20075479</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C24">
+                <label>24<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nightingale</surname><given-names>ES</given-names></string-name><etal>et al</etal></person-group><italic toggle="yes">.</italic><year>2020</year><article-title>A spatio-temporal approach to short-term prediction of visceral leishmaniasis diagnoses in India</article-title>. <source>PLoS Negl. Trop. Dis.</source><volume><bold>14</bold></volume>, <fpage>e0008422</fpage>. (<pub-id pub-id-type="doi">10.1371/journal.pntd.0008422</pub-id>)<pub-id pub-id-type="pmid">32644989</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C25">
+                <label>25<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Jombart</surname><given-names>T</given-names></string-name><etal>et al</etal></person-group>. <year>2020</year><comment>Projection of future incidence. R package version 0.5.1</comment>. (<pub-id pub-id-type="doi">10.5281/zenodo.3923626</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C26">
+                <label>26<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jombart</surname><given-names>T</given-names></string-name><etal>et al</etal></person-group>. <year>2020</year><article-title>The cost of insecurity: from flare-up to control of a major Ebola virus disease hotspot during the outbreak in the Democratic Republic of the Congo, 2019</article-title>. <source>Eurosurveillance</source><volume><bold>25</bold></volume>, <fpage>1900735</fpage>. (<pub-id pub-id-type="doi">10.2807/1560-7917.ES.2020.25.2.1900735</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C27">
+                <label>27<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nishiura</surname><given-names>H</given-names></string-name>, <string-name><surname>Linton</surname><given-names>NM</given-names></string-name>, <string-name><surname>Akhmetzhanov</surname><given-names>AR</given-names></string-name></person-group>. <year>2020</year><article-title>Serial interval of novel coronavirus (COVID-19) infections</article-title>. <source>Int. J. Infect. Dis.</source><volume><bold>93</bold></volume>, <fpage>284</fpage>-<lpage>286</lpage>. (<pub-id pub-id-type="doi">10.1016/j.ijid.2020.02.060</pub-id>)<pub-id pub-id-type="pmid">32145466</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C28">
+                <label>28<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hauser</surname><given-names>A</given-names></string-name><etal>et al</etal></person-group><italic toggle="yes">.</italic> 2020 <article-title>Estimation of SARS-CoV-2 mortality during the early stages of an epidemic: a modeling study in Hubei, China, and six regions in Europe</article-title>. <source>PLoS Med.</source>
+<volume><bold>17</bold></volume>, <fpage>e1003189</fpage>. (<pub-id pub-id-type="doi">10.1371/journal.pmed.1003189</pub-id>)<pub-id pub-id-type="pmid">32722715</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C29">
+                <label>29<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><collab>NHS Pathways coronavirus triage</collab>. <comment>2021 See <uri xlink:href="https://digital.nhs.uk/dashboards/nhs-pathways">https://digital.nhs.uk/dashboards/nhs-pathways</uri></comment>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C30">
+                <label>30<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><comment>NHS 111 online. See <uri xlink:href="https://111.nhs.uk/">https://111.nhs.uk/</uri></comment>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C31">
+                <label>31<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Leclerc</surname><given-names>QJ</given-names></string-name><etal>et al.</etal></person-group><year>2020</year><article-title>Analysis of temporal trends in potential COVID-19 cases reported through NHS Pathways England</article-title>. <comment><italic toggle="yes">Sci. Rep.</italic><bold>11</bold>, 7106</comment>. (<pub-id pub-id-type="doi">10.1038/s41598-021-86266-3</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C32">
+                <label>32<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="book"><collab>R Core Team</collab>. <year>2020</year><source>R: a language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C33">
+                <label>33<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Polonsky</surname><given-names>JA</given-names></string-name><etal>et al</etal></person-group><italic toggle="yes">.</italic><year>2019</year><article-title>Outbreak analytics: a developing data science for informing the response to emerging pathogens</article-title>. <source>Phil. Trans. R. Soc. B</source><volume><bold>374</bold></volume>, <fpage>20180276</fpage>. (<pub-id pub-id-type="doi">10.1098/rstb.2018.0276</pub-id>)<pub-id pub-id-type="pmid">31104603</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C34">
+                <label>34<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gelman</surname><given-names>A</given-names></string-name>, <string-name><surname>Lee</surname><given-names>D</given-names></string-name>, <string-name><surname>Guo</surname><given-names>J</given-names></string-name></person-group>. <year>2015</year><article-title>Stan: a probabilistic programming language for Bayesian inference and optimization</article-title>. <source>J. Educ. Behav. Stat.</source><volume><bold>40</bold></volume>, <fpage>530</fpage>-<lpage>543</lpage>. (<pub-id pub-id-type="doi">10.3102/1076998615606113</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C35">
+                <label>35<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bürkner</surname><given-names>P-C</given-names></string-name></person-group>. <year>2017</year><article-title>brms: an R package for bayesian generalized linear mixed models using Stan</article-title>. <source>J. Stat. Softw</source>. <bold>80</bold> (1). (<pub-id pub-id-type="doi">10.18637/jss.v080.i01</pub-id>)</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C36">
+                <label>36<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Xie</surname><given-names>Y</given-names></string-name>, <string-name><surname>Hill</surname><given-names>AP</given-names></string-name>, <string-name><surname>Thomas</surname><given-names>A</given-names></string-name></person-group>. <year>2017</year><source>Blogdown: creating websites with R markdown</source>. <publisher-loc>Boca Raton, FL</publisher-loc>: <publisher-name>CRC Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C37">
+                <label>37<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><collab>WHO Ebola Response Team</collab>. <year>2014</year><article-title>Ebola virus disease in West Africa—the first 9 months of the epidemic and forward projections</article-title>. <source>N. Engl. J. Med.</source><volume><bold>371</bold></volume>, <fpage>1481</fpage>-<lpage>1495</lpage>. (<pub-id pub-id-type="doi">10.1056/NEJMoa1411100</pub-id>)<pub-id pub-id-type="pmid">25244186</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C38">
+                <label>38<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><collab>WHO Ebola Response Team</collab>. <year>2015</year><article-title>West African Ebola epidemic after one year—slowing but not yet under control</article-title>. <source>N. Engl. J. Med.</source><volume><bold>372</bold></volume>, <fpage>584</fpage>-<lpage>587</lpage>. (<pub-id pub-id-type="doi">10.1056/NEJMc1414992</pub-id>)<pub-id pub-id-type="pmid">25539446</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C39">
+                <label>39<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kalenga</surname><given-names>OI</given-names></string-name>, <string-name><surname>Sparrow</surname><given-names>A</given-names></string-name>, <string-name><surname>Nguyen</surname><given-names>V-K</given-names></string-name>, <string-name><surname>Lucey</surname><given-names>D</given-names></string-name>, <string-name><surname>Ghebreyesus</surname><given-names>TA</given-names></string-name></person-group>. <year>2019</year><article-title>The ongoing Ebola epidemic in the Democratic Republic of Congo, 2018–2019</article-title>. <source>N. Engl. J. Med</source>. <volume><bold>381</bold></volume>, <fpage>373</fpage>-<lpage>383</lpage>.<pub-id pub-id-type="pmid">31141654</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C40">
+                <label>40<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="other"><collab>Norovirus Reporting</collab>. <comment><uri xlink:href="https://hnors.phe.gov.uk/">https://hnors.phe.gov.uk/</uri></comment>.</mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C41">
+                <label>41<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Elliott</surname><given-names>P</given-names></string-name>, <string-name><surname>Wartenberg</surname><given-names>D</given-names></string-name></person-group>. <year>2004</year><article-title>Spatial epidemiology: current approaches and future challenges</article-title>. <source>Environ. Health Perspect.</source><volume><bold>112</bold></volume>, <fpage>998</fpage>-<lpage>1006</lpage>. (<pub-id pub-id-type="doi">10.1289/ehp.6735</pub-id>)<pub-id pub-id-type="pmid">15198920</pub-id></mixed-citation>
+              </ref>
+              <ref id="RSTB20200266C42">
+                <label>42<x xml:space="preserve">. </x></label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kulldorff</surname><given-names>M</given-names></string-name>, <string-name><surname>Heffernan</surname><given-names>R</given-names></string-name>, <string-name><surname>Hartman</surname><given-names>J</given-names></string-name>, <string-name><surname>Assunção</surname><given-names>R</given-names></string-name>, <string-name><surname>Mostashari</surname><given-names>F</given-names></string-name></person-group>. <year>2005</year><article-title>A space–time permutation scan statistic for disease outbreak detection</article-title>. <source>PLoS Med.</source><volume><bold>2</bold></volume>, <fpage>e59</fpage>. (<pub-id pub-id-type="doi">10.1371/journal.pmed.0020059</pub-id>)<pub-id pub-id-type="pmid">15719066</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

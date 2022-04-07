@@ -1,0 +1,2615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T01:03:06Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6376337" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6376337</identifier>
+        <datestamp>2019-03-08</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J. Med. Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6376337</article-id>
+              <article-id pub-id-type="pmcid">PMC6376337</article-id>
+              <article-id pub-id-type="pmc-uid">6376337</article-id>
+              <article-id pub-id-type="pmid">30707099</article-id>
+              <article-id pub-id-type="publisher-id">v21i2e12341</article-id>
+              <article-id pub-id-type="pmid">30707099</article-id>
+              <article-id pub-id-type="doi">10.2196/12341</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>An Integrated Influenza Surveillance Framework Based on National Influenza-Like Illness Incidence and Multiple Hospital Electronic Medical Records for Early Prediction of Influenza Epidemics: Design and Evaluation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Eysenbach</surname>
+                    <given-names>Gunther</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Tseng</surname>
+                    <given-names>Yi-Ju</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Yang</surname>
+                    <given-names>Cheng-Yi</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7407-0074</contrib-id>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Ray-Jade</given-names>
+                  </name>
+                  <degrees>MSc, MD</degrees>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4666-6364</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Chou</surname>
+                    <given-names>Wan-Lin</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9454-6343</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Yuarn-Jang</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1077-0300</contrib-id>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author" corresp="yes" equal-contrib="no">
+                  <name>
+                    <surname>Lo</surname>
+                    <given-names>Yu-Sheng</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6915-509X</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <address>
+                    <institution>Graduate Institute of Biomedical Informatics</institution>
+                    <institution>Taipei Medical University</institution>
+                    <addr-line>250 Wuxing Street</addr-line>
+                    <addr-line>Taipei, 11031</addr-line>
+                    <country>Taiwan</country>
+                    <phone>886 939588576</phone>
+                    <email>Loyusen@tmu.edu.tw</email>
+                  </address>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>Graduate Institute of Biomedical Informatics</institution>
+                <institution>Taipei Medical University</institution>
+                <addr-line>Taipei</addr-line>
+                <country>Taiwan</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Department of Surgery</institution>
+                <institution>School of Medicine</institution>
+                <institution>College of Medicine, Taipei Medical University</institution>
+                <addr-line>Taipei</addr-line>
+                <country>Taiwan</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>Taipei Medical University Hospital</institution>
+                <addr-line>Taipei</addr-line>
+                <country>Taiwan</country>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <institution>Division of Infectious Disease</institution>
+                <institution>Department of Internal Medicine</institution>
+                <institution>Taipei Medical University Hospital</institution>
+                <addr-line>Taipei</addr-line>
+                <country>Taiwan</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Yu-Sheng Lo
+<email>Loyusen@tmu.edu.tw</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>01</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>2</issue>
+              <elocation-id>e12341</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>9</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>25</day>
+                  <month>10</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>18</day>
+                  <month>12</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>1</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Cheng-Yi Yang, Ray-Jade Chen, Wan-Lin Chou, Yuarn-Jang Lee, Yu-Sheng Lo. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 01.02.2019.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p><!--CREATIVE COMMONS-->This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/">http://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="http://www.jmir.org/2019/2/e12341/"/>
+              <related-article related-article-type="correction-forward" id="d35e258" vol="21" page="e13699" xlink:href="30860974" ext-link-type="pubmed"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Influenza is a leading cause of death worldwide and contributes to heavy economic losses to individuals and communities. Therefore, the early prediction of and interventions against influenza epidemics are crucial to reduce mortality and morbidity because of this disease. Similar to other countries, the Taiwan Centers for Disease Control and Prevention (TWCDC) has implemented influenza surveillance and reporting systems, which primarily rely on influenza-like illness (ILI) data reported by health care providers, for the early prediction of influenza epidemics. However, these surveillance and reporting systems show at least a 2-week delay in prediction, indicating the need for improvement.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>We aimed to integrate the TWCDC ILI data with electronic medical records (EMRs) of multiple hospitals in Taiwan. Our ultimate goal was to develop a national influenza trend prediction and reporting tool more accurate and efficient than the current influenza surveillance and reporting systems.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>First, the influenza expertise team at Taipei Medical University Health Care System (TMUHcS) identified surveillance variables relevant to the prediction of influenza epidemics. Second, we developed a framework for integrating the EMRs of multiple hospitals with the ILI data from the TWCDC website to proactively provide results of influenza epidemic monitoring to hospital infection control practitioners. Third, using the TWCDC ILI data as the gold standard for influenza reporting, we calculated Pearson correlation coefficients to measure the strength of the linear relationship between TMUHcS EMRs and regional and national TWCDC ILI data for 2 weekly time series datasets. Finally, we used the Moving Epidemic Method analyses to evaluate each surveillance variable for its predictive power for influenza epidemics.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>Using this framework, we collected the EMRs and TWCDC ILI data of the past 3 influenza seasons (October 2014 to September 2017). On the basis of the EMRs of multiple hospitals, 3 surveillance variables, TMUHcS-ILI, TMUHcS-rapid influenza laboratory tests with positive results (RITP), and TMUHcS-influenza medication use (IMU), which reflected patients with ILI, those with positive results from rapid influenza diagnostic tests, and those treated with antiviral drugs, respectively, showed strong correlations with the TWCDC regional and national ILI data (<italic>r</italic>=.86-.98). The 2 surveillance variables—TMUHcS-RITP and TMUHcS-IMU—showed predictive power for influenza epidemics 3 to 4 weeks before the increase noted in the TWCDC ILI reports.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>Our framework periodically integrated and compared surveillance data from multiple hospitals and the TWCDC website to maintain a certain prediction quality and proactively provide monitored results. Our results can be extended to other infectious diseases, mitigating the time and effort required for data collection and analysis. Furthermore, this approach may be developed as a cost-effective electronic surveillance tool for the early and accurate prediction of epidemics of influenza and other infectious diseases in densely populated regions and nations.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>influenza</kwd>
+                <kwd>epidemics</kwd>
+                <kwd>influenza surveillance</kwd>
+                <kwd>electronic disease surveillance</kwd>
+                <kwd>electronic medical records</kwd>
+                <kwd>electronic health records</kwd>
+                <kwd>public health</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <p>Influenza is a contagious respiratory illness caused by influenza viruses, which are easily transmitted from person to person during seasonal epidemics. Infection can result in severe illness, hospitalization, and even death, particularly among the elderly, very young individuals, and individuals with preexisting medical conditions [<xref rid="ref1" ref-type="bibr">1</xref>,<xref rid="ref2" ref-type="bibr">2</xref>]. According to the World Health Organization (WHO), an estimated 3 to 5 million cases of seasonal influenza epidemics develop severe illness, resulting in 250,000 to 500,000 annual deaths worldwide [<xref rid="ref3" ref-type="bibr">3</xref>]. Moreover, influenza contributes to heavy economic losses to individuals and communities [<xref rid="ref4" ref-type="bibr">4</xref>,<xref rid="ref5" ref-type="bibr">5</xref>]. Therefore, early detection and treatment are the top priorities of health care professionals to reduce mortality and morbidity because of influenza.</p>
+              <p>Several surveillance methods for the real-time detection and routine monitoring of influenza activity have been proposed. Traditional influenza surveillance systems primarily rely on influenza-like illness (ILI) and virology data reported by health care providers, including hospitals, clinics, and contract laboratories [<xref rid="ref6" ref-type="bibr">6</xref>,<xref rid="ref7" ref-type="bibr">7</xref>]. The most notable are the official Centers for Disease Control and Prevention (CDC) reports on influenza activity in the United States and other countries, which despite their high detection accuracy, typically have a time lag of 1 to 2 weeks from incidence to report completion [<xref rid="ref8" ref-type="bibr">8</xref>-<xref rid="ref10" ref-type="bibr">10</xref>]. Therefore, simple, accurate, and timely surveillance approaches may be beneficial for the society.</p>
+              <p>Nontraditional influenza surveillance systems have attempted to provide more timely estimates of influenza activity using alternative or novel data sources. Compared with traditional approaches, nontraditional surveillance systems are more often aimed at the real-time detection of influenza epidemics. Some use sentinel-based surveillance systems with alternative data sources, such as flu prescription drug sales and school absenteeism data, to estimate the total number of patients with influenza [<xref rid="ref11" ref-type="bibr">11</xref>-<xref rid="ref13" ref-type="bibr">13</xref>]. These sentinel-based surveillance systems often have limitations, such as participating rates in the official sentinel surveillance, lack of influenza-specific data, and potential overestimation of the number of patients with influenza [<xref rid="ref13" ref-type="bibr">13</xref>-<xref rid="ref15" ref-type="bibr">15</xref>]. Some systems attempt to use novel data sources from the internet, such as Google user search logs and social media stream data, to capture influenza trends in near real time [<xref rid="ref16" ref-type="bibr">16</xref>-<xref rid="ref19" ref-type="bibr">19</xref>]; however, such strategies capture user behaviors, thoughts, and subjective judgments, as reflected through keywords, without physician confirmation. Unfortunately, these surveillance systems remain plagued by limitations in the accuracy, difficulties in recognizing influenza outbreaks at local and regional scales, and lack of support by clinical evidence and are often viewed as an extension of traditional surveillance systems [<xref rid="ref20" ref-type="bibr">20</xref>-<xref rid="ref25" ref-type="bibr">25</xref>]. Other approaches might use hospital-based data—electronic health records, emergency department (ED) patients’ diagnosis codes or chief complaints, or rapid influenza diagnostic tests (RIDTs) results—to conduct near-real-time influenza surveillance and detect local and regional outbreaks. The results of such approaches are considered to be complementary to the regular reports of the national CDC [<xref rid="ref26" ref-type="bibr">26</xref>-<xref rid="ref29" ref-type="bibr">29</xref>]. Therefore, real-time and accurate monitoring, early prediction, and control of influenza epidemics remain major global public health challenges [<xref rid="ref16" ref-type="bibr">16</xref>,<xref rid="ref30" ref-type="bibr">30</xref>,<xref rid="ref31" ref-type="bibr">31</xref>].</p>
+              <p>In Taiwan, seasonal influenza epidemics occur in winter, from late November to March, although smaller epidemics may occur during summer. The influenza surveillance and reporting system of Taiwan CDC (TWCDC) is centrally organized and aided by the regional departments of health, contracted laboratories, and all health care institutes. The Taiwan National Infectious Disease Statistics System [<xref rid="ref32" ref-type="bibr">32</xref>] reports information regarding influenza activity, such as (1) viral surveillance data, including the percentage of positive specimens, viral types, trends, antigenicity, and antiviral resistance; (2) ILI surveillance data, including proportions of outpatient department (OPD) and emergency department visits attributable to ILI; and (3) reports of severe complicated influenza and mortality surveillance data. The TWCDC ILI reports, including national and regional ILI data, are freely available on the website but show a similar delay of at least one week for studies of OPD and ED visits for ILI and 2 weeks for studies of virology [<xref rid="ref32" ref-type="bibr">32</xref>]. This information represents the gold standard for clinical and epidemiological studies of influenza epidemics in Taiwan. Over the past 3 years (October 2014 to September 2017), TWCDC has reported 2 influenza epidemics in Taiwan, 1 from the winter of 2015 until the spring of 2016 and another during the summer of 2017.</p>
+              <p>In 1995, Taiwan introduced a government-administered, insurance-based National Health Insurance (NHI) system. This single-payer NHI system of Taiwan comprehensively covers the population and has good accessibility, short waiting times, and relatively low costs. However, the weaknesses of this type of health care system include the variable quality of care, weak gatekeeper role, and increasing financial pressures [<xref rid="ref33" ref-type="bibr">33</xref>,<xref rid="ref34" ref-type="bibr">34</xref>]. Therefore, patients are free to seek clinical services without referral when they feel uncomfortable. Consequently, the first-line physicians in OPDs or EDs may be in the best position to detect influenza activity early. Most patients with positive RIDT results are treated with antiviral drugs. RIDTs take only 15 to 20 min to obtain results, but they vary in sensitivity and specificity when compared with the other methods, such as viral culture or reverse transcription polymerase chain reaction (RT-PCR). In particular, RIDTs have high specificities (90%-95%), but their sensitivities are approximately 50% to 70% [<xref rid="ref35" ref-type="bibr">35</xref>]. However, because of the long examination time (ie, several hours to days to obtain test results), specific testing equipment requirements, and higher costs of viral cultures or RT-PCR, most health care facilities tend to consider these as second-line diagnostic tools while mainly relying on RIDTs for influenza. Furthermore, because of low sensitivities of RIDTs, administration of antiviral drugs is suggested for individuals with ILI as well as for those presenting with other risk factors, such as underlying diseases, immunosuppression, or family environments with the potential for cluster infections in the absence of positive RIDT results.</p>
+              <p>When a patient is suspected or confirmed to have a diagnosis of influenza, most of the data on clinical history, laboratory results, received medications, and diagnostic codes are electronically documented in the hospital’s electronic medical records (EMRs). Therefore, using EMR systems, patients with ILI, patients with positive RIDTs, and patients prescribed antiviral drugs can be easily identified, thereby allowing timely monitoring of influenza trends. Furthermore, by scaling up EMRs of a single hospital to a regional health care system, influenza epidemics may be predicted more accurately. Therefore, the use of selected surveillance data from hospital-based EMRs may be considered to aid the early prediction of regional and national influenza epidemics [<xref rid="ref36" ref-type="bibr">36</xref>].</p>
+              <p>In this study, we aimed to develop a framework for integrating EMRs of multiple hospitals and the TWCDC ILI data, with the goal of reducing the time and effort involved in data collection and analysis for influenza surveillance. To improve regional and national influenza surveillance and control, we identified surveillance variables on the basis of physician behaviors for the early prediction of influenza epidemics and evaluated the predictive ability of each variable over the study period.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Settings</title>
+                <p>This study was conducted in the Taipei Medical University Health Care System (TMUHcS), which operates 3 hospitals: Taipei Medical University Hospital, Wan Fang Hospital, and Shuang Ho Hospital. All 3 hospitals are located in the Taipei metropolitan area (Taipei City and New Taipei City), within an 11-km driving distance from each other, and are Joint Commission International-certified academic research centers providing tertiary care. The EMRs of the 3 hospitals are hosted on a secure and private network for easy accessibility and interoperability. The total capacity of the 3 hospitals is 2800 beds, and they receive over 300,000 OPD visits each month. On an average, clinical reimbursement of TMUHcS accounts for 3.2% of the total NHI budget.</p>
+              </sec>
+              <sec>
+                <title>Integrated Influenza Surveillance Framework</title>
+                <p>We developed an Integrated Influenza Surveillance Framework that included 5 components (<xref ref-type="fig" rid="figure1">Figure 1</xref>): ILI Open Data Adapter, EMR Adapter, Integrated Surveillance Database, Surveillance Variables Comparison Module, and Surveillance Messenger Push Engine.</p>
+                <sec>
+                  <title>Influenza-Like Illness Open Data Adapter</title>
+                  <p>The ILI Open Data Adapter included a Web crawler that can periodically initiate access requests to the TWCDC ILI open data website [<xref rid="ref32" ref-type="bibr">32</xref>]. The TWCDC ILI data included the year, week number, ILI case counts, and the corresponding areas. Once the ILI Open Data Adapter retrieved the ILI data, these were classified into national (Taiwan)- and regional (Taipei City and New Taipei City)-level data and then deposited into the Integrated Surveillance Database.</p>
+                  <fig id="figure1" position="float">
+                    <label>Figure 1</label>
+                    <caption>
+                      <p>Integrated Influenza Surveillance Framework for influenza epidemic surveillance. ILI: influenza-like illness; EMR: electronic medical record; TWCDC: Taiwan Centers for Disease Control and Prevention; TMUH: Taipei Medical University Hospital; WFH: Wan Fang Hospital; SHH: Shuang Ho Hospital.</p>
+                    </caption>
+                    <graphic xlink:href="jmir_v21i2e12341_fig1"/>
+                  </fig>
+                </sec>
+                <sec>
+                  <title>Electronic Medical Records Adapter</title>
+                  <p>The EMR Adapter created a connection with TMUHcS hospital EMRs and extracted EMRs according to the definition of each surveillance variable. Once the specific surveillance variables were retrieved from the EMRs, these data were stored in the Integrated Surveillance Database.</p>
+                </sec>
+                <sec>
+                  <title>Integrated Surveillance Database</title>
+                  <p>The Integrated Surveillance Database stored national- and regional-level ILI data from TWCDC and specific surveillance variables data from TMUHcS hospital EMRs. These data were then input into the Surveillance Variables Comparison Module for further processing.</p>
+                </sec>
+                <sec>
+                  <title>Surveillance Variables Comparison Module</title>
+                  <p>This module included an automated procedure developed using the Java programming language. It could access surveillance variable data from the Integrated Surveillance Database and conduct Pearson correlation analyses as well as Moving Epidemic Method (MEM) analyses. In this module, the Java programming language invoked the SAS Integrated Object Model [<xref rid="ref37" ref-type="bibr">37</xref>] to conduct Pearson correlation analyses and rJava [<xref rid="ref38" ref-type="bibr">38</xref>] to access the R server to perform MEM analysis.</p>
+                  <p>In the initial stage of Surveillance Variables Comparison Module development, Pearson correlation analysis was performed to assess the association between each TMUHcS surveillance variable from the EMRs and the national and regional TWCDC ILI data. After the initial stage, Pearson correlation analysis was not performed at the time of data collection but rather after accumulating the annual data to ascertain that TMUHcS EMRs and TWCDC ILI data reached a significant correlation. For example, once a surveillance variable from TMUHcS EMR data was identified to have a strong correlation (correlation coefficient &gt;.7 and <italic>P</italic> ≤.05) with TWCDC regional and national ILI data, MEM was used to assess whether the daily number of accumulated cases of the surveillance variable surpassed its influenza epidemic threshold. If the value was over the threshold, the Surveillance Variable Comparison Module was made to activate the Surveillance Messenger Push Engine to conduct subsequent tasks.</p>
+                </sec>
+                <sec>
+                  <title>Surveillance Messenger Push Engine</title>
+                  <p>To provide immediate monitoring results to hospital infection control practitioners, the publish-subscribe pattern was adopted in the Surveillance Messenger Push Engine. The publish-subscribe pattern was developed using Amazon Simple Notification Service [<xref rid="ref39" ref-type="bibr">39</xref>,<xref rid="ref40" ref-type="bibr">40</xref>] to manage the subscribes and push messages, such as influenza epidemic alert information. Subscribers (eg, hospital infection control practitioners) could subscribe to this messaging service using the hospital's mobile app or the computerized physician order entry (CPOE) system. When the Surveillance Messenger Push Engine was activated by the Surveillance Variables Comparison Module, it sent the alert messages to each subscriber; therefore, the subscribers could receive and check the alert messages via their mobile devices or the CPOE system.</p>
+                </sec>
+              </sec>
+              <sec>
+                <title>Variables for Influenza Surveillance</title>
+                <p>A team of infection control specialists, clinicians, and information technology professionals worked together to identify relevant surveillance variables from EMRs. Unstructured data (ie, data in free-text format) were excluded, and only the structured data including diagnosis codes, medications prescribed, and laboratory tests and results were retained. All of the selected surveillance variables can be automatically extracted from TMUHcS EMRs. In this study, we identified 3 relevant surveillance variables: (1) TMUHcS-ILI, which referred to patients whose diagnosis codes were related to ILI symptoms on the basis of the TWCDC ILI case definition [<xref rid="ref32" ref-type="bibr">32</xref>], (2) TMUHcS-RITP, which referred to patients whose RIDTs were positive on the basis of ILI diagnosis codes, and (3) TMUHcS-IMU, which referred to patients who were prescribed antiviral drugs for influenza on the basis of ILI diagnosis codes.</p>
+                <p>Each surveillance variable was independently evaluated for the EMR of each outpatient. For example, if an outpatient’s EMR contained ILI diagnosis codes and a positive RIDT result, both TMUHcS-ILI and TMUHcS-RITP were considered positive. Descriptions of the surveillance variables and their corresponding definitions are summarized in <xref rid="table1" ref-type="table">Table 1</xref>.</p>
+              </sec>
+              <sec>
+                <title>Moving Epidemic Method</title>
+                <p>The MEM can be used to define baseline influenza activity from historical data and establish an absolute threshold, above which the weekly infection rates are considered to represent an epidemic period [<xref rid="ref41" ref-type="bibr">41</xref>-<xref rid="ref43" ref-type="bibr">43</xref>]. The absolute threshold can be used to define the start and end of the epidemic period. We used MEM to evaluate the predictive power of each surveillance variable for influenza epidemics. In addition, MEM was used to determine the absolute threshold for each surveillance variable and to determine the surveillance variables that reached the epidemic peak the soonest. Moreover, we estimated and compared the absolute threshold and epidemic period for each surveillance variable to determine the most useful variables for early prediction of influenza epidemics.</p>
+              </sec>
+              <sec>
+                <title>Data Collection</title>
+                <p>We retrospectively collected data from TMUHcS EMRs and TWCDC ILI data (both regional and national) over a 3-year period from October 2014 to September 2017. For TMUHcS EMRs, all outpatients who visited TMUHcS hospitals between October 1, 2014 and September 30, 2017 were included in this study. However, TMUHcS ED patients were excluded in this study because the case definition of the TWCDC ED ILI was different and had a wider range than that of the TWCDC OPD ILI [<xref rid="ref44" ref-type="bibr">44</xref>]. Moreover, official TWCDC ILI reports to the public were mainly on the basis of the OPD ILI data. Therefore, in this study, we only used TMUHcS OPD EMRs for comparison with TWCDC ILI data. TWCDC ILI data are freely distributed and available from the TWCDC website [<xref rid="ref32" ref-type="bibr">32</xref>]. Generally, TWCDC announces the latest ILI reports to the public with a time lag of approximately 1 week.</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Influenza surveillance variables and the corresponding data definitions.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="300" span="1"/>
+                    <col width="300" span="1"/>
+                    <col width="400" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Surveillance variable (abbreviation)</td>
+                        <td rowspan="1" colspan="1">Description</td>
+                        <td rowspan="1" colspan="1">Definition</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">ILI<sup>a</sup> diagnosis codes [<xref rid="ref32" ref-type="bibr">32</xref>] (TMUHcS<sup>b</sup>-ILI)</td>
+                        <td rowspan="1" colspan="1">Patients who were diagnosed with ILI-related symptoms</td>
+                        <td rowspan="1" colspan="1">ILI diagnosis codes: (1) ICD-9-CM<sup>c</sup> codes: 480.xx~487.xx.; (2) ICD-10-CM codes<sup>d</sup>: J09-~J18-, A22-, A37-, B25-, and B44-</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Rapid influenza laboratory tests with positive results (TMUHcS-RITP<sup>e</sup>)</td>
+                        <td rowspan="1" colspan="1">Patients who had positive results on rapid influenza tests based on ILI diagnosis codes</td>
+                        <td rowspan="1" colspan="1">Rapid Influenza laboratory tests: positive, + And ILI diagnosis codes: (1) ICD-9-CM codes: 480.xx~487.xx (2) ICD-10-CM codes<sup>d</sup>: J09-~J18-, A22-, A37-, B25-, and B44-</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Influenza medication use (TMUHcS-IMU<sup>f</sup>)</td>
+                        <td rowspan="1" colspan="1">Patients who were prescribed with antiviral drugs against influenza based on ILI diagnosis codes</td>
+                        <td rowspan="1" colspan="1">Medications: Tamiflu, Relenza, Rapiacta, and Avigan And ILI diagnosis codes: (1) ICD-9-CM codes: 480.xx-487.xx (2) ICD-10-CM codes<sup>d</sup>: J09- to J18-, A22-, A37-, B25-, and B44-</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table1fn1">
+                      <p><sup>a</sup>ILI: influenza-like illness.</p>
+                    </fn>
+                    <fn id="table1fn2">
+                      <p><sup>b</sup>TMUHcS: Taipei Medical University Health Care System.</p>
+                    </fn>
+                    <fn id="table1fn3">
+                      <p><sup>c</sup>ICD-9-CM: International Classification of Disease, Ninth Revision, Clinical Modification.</p>
+                    </fn>
+                    <fn id="table1fn4">
+                      <p><sup>d</sup>Implemented in Taiwan in January 2016.</p>
+                    </fn>
+                    <fn id="table1fn5">
+                      <p><sup>e</sup>RITP: rapid influenza laboratory tests with positive results.</p>
+                    </fn>
+                    <fn id="table1fn6">
+                      <p><sup>f</sup>IMU: influenza medication use.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Data Analysis</title>
+                <p>Data analysis was performed weekly over a 12-month period to determine the week with the highest influenza incidence, according to different surveillance variables. The entire study duration was categorized into 3 periods: Period 1 (October 2014 to September 2015), Period 2 (October 2015 to September 2016), and Period 3 (October 2016 to September 2017).</p>
+                <p>According to the definitions of each surveillance variable, the number of influenza cases was analyzed to determine the proportion of the corresponding population affected on a weekly basis. To investigate in more detail the comparability of the weekly patterns, we used the locally estimated scatterplot smoothing for weekly data of each surveillance variable [<xref rid="ref45" ref-type="bibr">45</xref>]. Using the statistical software SAS 9.4 (SAS Institute), Pearson correlation coefficients were calculated to assess the association of each surveillance variable from the EMRs with that from the national and regional TWCDC ILI data. A strong correlation was defined as correlation coefficient of &gt;.7 and statistical significance at a <italic>P</italic> ≤.05. We used MEM to estimate the early predictive power of each surveillance variable. Data analysis was performed in R 3.4.2 (CRAN) [<xref rid="ref46" ref-type="bibr">46</xref>] using the MEM library version 2.11 [<xref rid="ref47" ref-type="bibr">47</xref>]. The Joint Institutional Review Board of Taipei Medical University and TMUHcS approved this study.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Study Population</title>
+                <p>From October 1, 2014 to September 30, 2017 we collected a total of 156 weeks of the TWCDC ILI (both regional- and national-level) and TMUHcS EMRs data through the Integrated Influenza Surveillance Framework. Over this 3-year period, the total number of outpatient visits for the national (Taiwan), regional (Taipei Metropolitan), and TMUHcS hospitals were 759,306,494, 214,161,277, and 12,679,529, respectively. Overall, 8,772,125 (1.16%), 1,950,577 (0.91%), 128,378 (1.01%), 3888 (3.03%), and 8463 (6.59%) OPD cases presented with ILI in the national ILI, regional ILI, TMUHcS-ILI, TMUHcS-RITP, and TMUHcS-IMU datasets, respectively. Moreover, of all the TMUHcS-ILI OPD cases, 8094 (6.30%) were advised to undergo RIDTs; of these RIDTs cases, 3888 (48.04%) had positive results. The descriptive statistics for the study population are presented in <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>.</p>
+              </sec>
+              <sec>
+                <title>Time Series Trends for Influenza Surveillance Variables</title>
+                <p>The numbers and proportions of cases occurring over a week varied according to each surveillance variable (ie, national ILI, regional ILI, TMUHcS-ILI, TMUHcS-RITP, and TMUHcS- IMU; <xref ref-type="fig" rid="figure2">Figure 2</xref>). The highest peak for all surveillance variables occurred during the sixth week of 2016, during which the proportions of influenza-related OPD visits were 3.02%, 2.54%, 3.82%, 13.01%, and 23.37% of the national ILI, regional ILI, TMUHcS-ILI, TMUHcS-RITP, and TMUHcS-IMU data, respectively.</p>
+                <p>In 2017, the peak number of cases for all surveillance variables was lower than that in 2016. However, all variables reached the peak between the twenty-fifth and twenty-sixth week of 2017, during which the proportions of influenza-related OPD visits were 2.15%, 2.01%, 1.69%, 7.69%, and 18.92% of the national ILI, regional ILI, TMUHcS-ILI, TMUHcS-RITP, and TMUHcS-IMU data, respectively. However, the epidemic peaks identified using each surveillance variable in 2015 involved fewer cases and differed from those reported in the subsequent 2 years. In 2015, the peaks identified using the national ILI, regional ILI, and TMUHcS-ILI data occurred during the seventh week, with influenza-related case proportions of 1.56%, 1.22%, and 1.42%, respectively. In contrast, the epidemic peaks identified using TMUHcS-RITP and TMUHcS-IMU data occurred during the eleventh week, with influenza-related case proportions of 5.46% and 8.68%, respectively.</p>
+                <fig id="figure2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Timeline of influenza-related case proportions based on national influenza-like illness (ILI) data, regional ILI data, and surveillance variables from the electronic medical records of Taipei Medical University Health Care System (TMUHcS; October 2014 to September 2017). IMU: influenza medication use; RITP: rapid influenza laboratory tests with positive results.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i2e12341_fig2"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Correlation Analysis for Surveillance Variables</title>
+                <p><xref rid="table2" ref-type="table">Tables 2</xref> and <xref rid="table3" ref-type="table">3</xref> show the Pearson correlation coefficients assessing the relationships between each surveillance variable of TMUHcS EMRs data and those of TWCDC regional and national ILI data. Over the entire study period, the correlation coefficient between the national and regional ILI data was .99 (<italic>P</italic>&lt;.05) and remained constant over the 3-year study period.</p>
+                <p>Overall, Pearson correlation coefficients between the regional ILI data and each TMUHcS variable ranged from 0.86 to 0.90 (<xref rid="table2" ref-type="table">Table 2</xref>). All of the surveillance variables showed statistically significant correlation coefficients (<italic>P</italic>&lt;.05) with regional ILI, with TMUHcS-IMU showing the strongest overall correlation (r=.90, <italic>P</italic>&lt;.05). The strongest correlation coefficient of .97 (<italic>P</italic>&lt;.05) was observed between TMUHcS-ILI and regional ILI during period 1 and between TMUHcS-IMU and regional ILI during period 2. Moreover, TMUHcS-RITP was strongly correlated with regional ILI during period 2 (r=.92, <italic>P</italic>&lt;.05).</p>
+                <p>Similarly, over the entire study period, Pearson correlation coefficients between national ILI and each of the TMUHcS surveillance variables ranged from 0.88 to 0.93 (<italic>P</italic>&lt;.05; <xref rid="table3" ref-type="table">Table 3</xref>). All variables showed statistically significant correlation coefficients (<italic>P</italic>&lt;.05), whereas TMUHcS-IMU showed the strongest correlation with national ILI (r=.93, <italic>P</italic>&lt;.05). The strongest correlation coefficient of .98 (<italic>P</italic>&lt;.05) was observed between TMUHcS-ILI and national ILI during period 1. TMUHcS-RITP during period 2 (r=0.95, <italic>P</italic>&lt;.05) and TMUHcS-IMU during period 2 (r=0.97, <italic>P</italic>&lt;.05) were strongly correlated with national ILI.</p>
+              </sec>
+              <sec>
+                <title>Early Prediction of Influenza Epidemics</title>
+                <p>In <xref ref-type="fig" rid="figure3">Figure 3</xref>, the absolute thresholds for the 3-year study period were 1.56% to 1.52% for national ILI, 1.25% to 1.26% for regional ILI, 1.4% to 1.4% for TMUHcS-ILI, 4.6% to 3.25% for TMUHcS-RITP, and 8.69% to 6.39% for TMUHcS-IMU. The influenza epidemic threshold was not reached by any of the surveillance variables during period 1. During period 2, all of the surveillance variables surpassed the influenza epidemic threshold. TMUHcS-IMU (E2) and TMUHcS-RITP (D2) reached peak epidemic activity during the second week of 2016, followed by TMUHcS-ILI (C2) during the third week of 2016, then by national ILI (A2) and regional ILI (B2) during the fifth week of 2016 (1-week lag). Therefore, the peak epidemic activity according to the TMUHcS-RITP and TMUHcS-IMU was reached 3 weeks before that according to the national ILI and regional ILI during period 2.</p>
+                <p>During period 3, the influenza epidemic threshold was surpassed by each surveillance variable. TMUHcS-IMU (E3) and TMUHcS-RITP (D3) reached the peak epidemic activity during the twenty-first week of 2017, followed by regional ILI (B3) during the twenty-fourth week of 2017 (1-week lag) and subsequently by TMUHcS-ILI (C3) during the twenty-fifth week of 2017 and national ILI (A3; 1-week lag). Again, the peak influenza activity according to TMUHcS-RITP and TMUHcS-IMU was observed 3 to 4 weeks before that according to the national ILI and regional ILI during period 3.</p>
+                <p>The TWCDC ILI reports were in complete agreement with our study results (<xref ref-type="fig" rid="figure2">Figure 2</xref>). Moreover, the peak influenza epidemic activity predicted by MEM using TMUHcS-IMU and TMUHcS-RITP occurred 3 to 4 weeks earlier than that using national ILI and regional ILI, both in 2016 and 2017 (<xref ref-type="fig" rid="figure3">Figure 3</xref>).</p>
+                <table-wrap id="table2" position="float">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Pearson correlation coefficients between the Taiwan Center for Disease Control Regional influenza-like illness data and each surveillance variable from the electronic medical records of Taipei Medical University Health Care System (October 2014 to September 2017).</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="480" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="130" span="1"/>
+                    <thead>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">Time period</td>
+                        <td rowspan="1" colspan="1">National ILI<sup>a</sup></td>
+                        <td rowspan="1" colspan="1">TMUHcS<sup>b</sup>-ILI</td>
+                        <td rowspan="1" colspan="1">TMUHcS-RITP<sup>c</sup></td>
+                        <td rowspan="1" colspan="1">TMUHcS-IMU<sup>d</sup></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Regional ILI of the entire period (October 2014 to September 2017)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.87</td>
+                        <td rowspan="1" colspan="1">.86</td>
+                        <td rowspan="1" colspan="1">.90</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Regional ILI of period 1 (October 2014 to September 2015)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.97</td>
+                        <td rowspan="1" colspan="1">.88</td>
+                        <td rowspan="1" colspan="1">.96</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Regional ILI of period 2 (October 2015 to September 2016)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.93</td>
+                        <td rowspan="1" colspan="1">.92</td>
+                        <td rowspan="1" colspan="1">.97</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Regional ILI of period 3 (October 2016 to September 2017)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.96</td>
+                        <td rowspan="1" colspan="1">.82</td>
+                        <td rowspan="1" colspan="1">.91</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table2fn1">
+                      <p><sup>a</sup>ILI: influenza-like illness.</p>
+                    </fn>
+                    <fn id="table2fn2">
+                      <p><sup>b</sup>TMUHcS: Taipei Medical University Health Care System.</p>
+                    </fn>
+                    <fn id="table2fn3">
+                      <p><sup>c</sup>RITP: rapid influenza laboratory tests with positive results.</p>
+                    </fn>
+                    <fn id="table2fn4">
+                      <p><sup>d</sup>IMU: influenza medication use.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="table3" position="float">
+                  <label>Table 3</label>
+                  <caption>
+                    <p>Pearson correlation coefficients between the Taiwan Center for Disease Control National influenza-like illness data and each surveillance variable from the electronic medical records of Taipei Medical University Health Care System (October 2014 to September 2017).</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="480" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="130" span="1"/>
+                    <thead>
+                      <tr valign="bottom">
+                        <td rowspan="1" colspan="1">Time period</td>
+                        <td rowspan="1" colspan="1">Regional ILI<sup>a</sup></td>
+                        <td rowspan="1" colspan="1">TMUHcS<sup>b</sup>-ILI</td>
+                        <td rowspan="1" colspan="1">TMUHcS-RITP<sup>c</sup></td>
+                        <td rowspan="1" colspan="1">TMUHcS-IMU<sup>d</sup></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">National ILI of the entire period (October 2014 to September 2017)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.88</td>
+                        <td rowspan="1" colspan="1">.90</td>
+                        <td rowspan="1" colspan="1">.93</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">National ILI of period 1 (October 2014 to September 2015)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.98</td>
+                        <td rowspan="1" colspan="1">.87</td>
+                        <td rowspan="1" colspan="1">.96</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">National ILI of period 2 (October 2015 to September 2016)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.94</td>
+                        <td rowspan="1" colspan="1">.95</td>
+                        <td rowspan="1" colspan="1">.97</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">National ILI of period 3 (October 2016 to September 2017)</td>
+                        <td rowspan="1" colspan="1">.99</td>
+                        <td rowspan="1" colspan="1">.97</td>
+                        <td rowspan="1" colspan="1">.88</td>
+                        <td rowspan="1" colspan="1">.96</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table3fn1">
+                      <p><sup>a</sup>ILI: influenza-like illness.</p>
+                    </fn>
+                    <fn id="table3fn2">
+                      <p><sup>b</sup>TMUHcS: Taipei Medical University Health Care System.</p>
+                    </fn>
+                    <fn id="table3fn3">
+                      <p><sup>c</sup>RITP: rapid influenza laboratory tests with positive results.</p>
+                    </fn>
+                    <fn id="table3fn4">
+                      <p><sup>d</sup>IMU: influenza medication use.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <fig id="figure3" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Epidemic thresholds for each surveillance variable (October 2014 to September 2017; locally estimated scatterplot smoothing adjusted). TMUHcS: Taipei Medical University Health Care System; ILI: influenza-like illness; IMU: influenza medication use; RITP: rapid influenza laboratory tests with positive results.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v21i2e12341_fig3"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Findings</title>
+                <p>The Integrated Influenza Surveillance Framework described in this study had the scalable ability to periodically integrate the TWCDC ILI open data with EMRs of multiple hospitals. The Surveillance Comparison Module could perform daily comparisons with the value of surveillance variables in this study. When the value of each surveillance variable reached or exceeded the epidemic thresholds, the Surveillance Messenger Push Engine proactively sent the emerging infectious disease surveillance alert to the subscribers (eg, health care facilities or epidemic prevention personnel). As our Surveillance Messenger Push Engine adopted the publish-subscribe pattern, the subscribers could receive the emerging infectious disease surveillance alert immediately through the mobile apps or CPOE systems; this novel approach can provide more efficient and instant infection warning compared with the Web application programming interface call or website of health care facilities or passive checking by the epidemic prevention personnel.</p>
+                <p>In this study, we identified 3 surveillance variables (TMUHcS-ILI, TMUHcS-RITP, and TMUHcS-IMU) from TMUHcS EMRs that showed a predictive value for influenza epidemics in Taiwan. Each TMUHcS surveillance variable was strongly correlated with regional and national ILI data. Compared with the TWCDC national and regional ILI populations, the TMUHcS population showed ILI case proportions of only 1.46% and 6.58%; however, the ILI case proportions for the national ILI, regional ILI, and TMUHcS-ILI were similar at 1.16%, 0.91%, and 1.01%, respectively. On the basis of the strong correlations and similar ILI case proportions between the 2 study datasets, the 10- to 70-fold smaller sample size of TMUHcS EMR data appeared to provide the same power as did the regional and national ILI data in supporting near-real-time influenza surveillance. These findings represent significant savings in the time and effort required for data collection and analysis.</p>
+                <p>There is a growing interest in exploring more timely and cost-effective surveillance approaches to enhance the early prediction of infectious disease epidemics [<xref rid="ref19" ref-type="bibr">19</xref>,<xref rid="ref23" ref-type="bibr">23</xref>,<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref28" ref-type="bibr">28</xref>,<xref rid="ref48" ref-type="bibr">48</xref>,<xref rid="ref49" ref-type="bibr">49</xref>]. Unlike previous studies that used only a single surveillance variable or a combination of algorithms to predict seasonal influenza epidemics, our approach was simple, easy to implement, and logically based on physician behaviors. Most importantly, the predictive power of the selected surveillance variables was evaluated using MEM. Of the 3 selected surveillance variables, TMUHcS-RITP and TMUHcS-IMU showed the best predictive power for influenza epidemics and predicted seasonal influenza epidemics 3 to 4 weeks ahead of the TWCDC ILI reports. Furthermore, the types of influenza vaccines recommended by WHO in 2018 might imperfectly match the circulating strains; they were approximately 30% effective against H3N2 viruses [<xref rid="ref50" ref-type="bibr">50</xref>] but failed to prevent some epidemics. Therefore, the importance of early and accurate predictive ability of our approach is further highlighted for early epidemic control because it provided insights into the mismatches of the influenza virus types for national flu vaccination programs.</p>
+                <p>Taiwan is located in the subtropical regions of Southeast Asia and has several densely populated urban areas with well-established public transportation networks. There are frequent travelers from Taiwan to regions in which influenza pandemics have originated in the past, such as Hong Kong and mainland China [<xref rid="ref51" ref-type="bibr">51</xref>]. Therefore, emerging infectious diseases can easily be transmitted from person to person in Taiwan, resulting in the rapid spread of an epidemic. Efficient and real-time monitoring tools for such diseases have become increasingly important. Our approach can be used for predicting influenza epidemics and can be easily extended to other infectious diseases by simply selecting different surveillance variables from EMRs. Accordingly, our approach can play a key role in public health and hospital preparedness, which is the top priority now more than ever.</p>
+                <p>The peaks of influenza epidemics appear to recur annually, as shown in our study. The influenza season in Taiwan commonly begins around October, peaks after the end of December, and ends in February. We closely examined the different time periods of our study datasets and noticed the following trends. During the 3-year study period, no influenza epidemic was observed during the first year; however, high-intensity influenza activity and an epidemic were observed during the second year, but no obvious influenza activity was noted during the third year (ie, October 2016 to February 2017). However, during the summer of 2017 (June-July), unprecedented levels of influenza activity were observed. Our medical team hypothesized that this delay in the occurrence of influenza epidemic resulted from the unusually warm winter from December 2016 to January 2017. The winter of 2016 to 2017 was the hottest on record, with an average monthly temperature that was 2°C higher than the historical average. This might indicate an association between warm winters and delayed occurrence of influenza epidemics.</p>
+                <p>Accumulating evidence has shown that EMR systems can facilitate better documentation, communication, and integration of health care data [<xref rid="ref52" ref-type="bibr">52</xref>]. Accordingly, our results demonstrated that an integrated approach generated a simple, accurate, and timely electronic surveillance tool for predicting influenza epidemics, particularly in densely populated areas and smaller countries. With increased adoption of EMR systems, more meaningful surveillance variables and their corresponding EMRs can be collected and used to support various forms of emerging infectious disease surveillance in the future.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>In this study, we developed an Integrated Influenza Surveillance Framework that had a scalable ability to periodically integrate TWCDC ILI open data with EMRs of multiple hospitals. The system allowed for the automatic monitoring of influenza activity, supporting the early surveillance of influenza epidemics. Using EMRs of multiple hospitals, we identified 3 selected surveillance variables for the early prediction of influenza epidemics. Each surveillance variable was strongly correlated with TWCDC regional and national ILI data. Most importantly, we observed that the predictive power of the 2 selected surveillance variables was 3 to 4 weeks advanced compared with that of the TWCDC ILI reports. Future research should involve further development of this accurate, timely, and cost-effective electronic influenza surveillance tool for the prediction of influenza epidemics as well as the extension of this approach to other infectious diseases in ways that can be particularly relevant to densely populated regions and nations.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors would like to thank all infection control team members of Taipei Medical University Hospital for their support. This research was supported in part by the Ministry of Science and Technology (MOST) of Taiwan (grant numbers MOST 105-2218-E-038 -004 and MOST 106-2221-E-038 -021).</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <supplementary-material id="app1">
+                <label>Multimedia Appendix 1</label>
+                <p>Descriptive statistics for the outpatient visits associated with influenza-like illness from October 2014 to September 2017.</p>
+                <media xlink:href="jmir_v21i2e12341_app1.docx" xlink:title="DOCX File, 25KB" xlink:type="simple" id="d35e991" position="anchor"/>
+              </supplementary-material>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">CDC</term>
+                  <def>
+                    <p>Centers for Disease Control and Prevention</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">CPOE</term>
+                  <def>
+                    <p>computerized physician order entry</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">ED</term>
+                  <def>
+                    <p>emergency department</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">EMR</term>
+                  <def>
+                    <p>electronic medical record</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">ILI</term>
+                  <def>
+                    <p>influenza-like illness</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">IMU</term>
+                  <def>
+                    <p>influenza medication use</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">MEM</term>
+                  <def>
+                    <p>Moving Epidemic Method</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">NHI</term>
+                  <def>
+                    <p>National Health Insurance</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb9">OPD</term>
+                  <def>
+                    <p>outpatient department</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb10">RIDT</term>
+                  <def>
+                    <p>rapid influenza diagnostic test</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb11">RITP</term>
+                  <def>
+                    <p>rapid influenza laboratory tests with positive results</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb12">RT-PCR</term>
+                  <def>
+                    <p>reverse transcription polymerase chain reaction</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb13">TMUHcS</term>
+                  <def>
+                    <p>Taipei Medical University Health Care System</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb14">TWCDC</term>
+                  <def>
+                    <p>Taiwan Centers for Disease Control and Prevention</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb15">WHO</term>
+                  <def>
+                    <p>World Health Organization</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>Battle against Respiratory Viruses (BRaVe) initiative</source>
+                  <year>2017</year>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.who.int/influenza/patient_care/clinical/brave/en/">http://www.who.int/influenza/patient_care/clinical/brave/en/</ext-link>
+                    <ext-link ext-link-type="webcite" xlink:href="74fvoYBix"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ortiz</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Neuzil</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Shay</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Rue</surname>
+                      <given-names>TC</given-names>
+                    </name>
+                    <name>
+                      <surname>Neradilek</surname>
+                      <given-names>MB</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Seymour</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                    <name>
+                      <surname>Hooper</surname>
+                      <given-names>LG</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Goss</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <name>
+                      <surname>Cooke</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The burden of influenza-associated critical illness hospitalizations</article-title>
+                  <source>Crit Care Med</source>
+                  <year>2014</year>
+                  <month>11</month>
+                  <volume>42</volume>
+                  <issue>11</issue>
+                  <fpage>2325</fpage>
+                  <lpage>32</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/25148596"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1097/CCM.0000000000000545</pub-id>
+                  <pub-id pub-id-type="medline">25148596</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC4620028</pub-id>-->
+                  <pub-id pub-id-type="pmid">25148596</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <source>Influenza (Seasonal)</source>
+                  <year>2018</year>
+                  <date-in-citation>2018-12-15</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.who.int/en/news-room/fact-sheets/detail/influenza-(seasonal)">https://www.who.int/en/news-room/fact-sheets/detail/influenza-(seasonal)</ext-link>
+                    <ext-link ext-link-type="webcite" xlink:href="74fw6Gv3Z"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kochanek</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Arias</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mortality in the United States, 2013</article-title>
+                  <source>NCHS Data Brief</source>
+                  <year>2014</year>
+                  <month>12</month>
+                  <issue>178</issue>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/nchs/data/databriefs/db178.pdf"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">25549183</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Molinari</surname>
+                      <given-names>NA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ortega-Sanchez</surname>
+                      <given-names>IR</given-names>
+                    </name>
+                    <name>
+                      <surname>Messonnier</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Wortley</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Weintraub</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Bridges</surname>
+                      <given-names>CB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The annual impact of seasonal influenza in the US: measuring disease burden and costs</article-title>
+                  <source>Vaccine</source>
+                  <year>2007</year>
+                  <month>6</month>
+                  <day>28</day>
+                  <volume>25</volume>
+                  <issue>27</issue>
+                  <fpage>5086</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.vaccine.2007.03.046</pub-id>
+                  <pub-id pub-id-type="medline">17544181</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0264-410X(07)00385-4</pub-id>-->
+                  <pub-id pub-id-type="pmid">17544181</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marsden-Haug</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Foster</surname>
+                      <given-names>VB</given-names>
+                    </name>
+                    <name>
+                      <surname>Gould</surname>
+                      <given-names>PL</given-names>
+                    </name>
+                    <name>
+                      <surname>Elbert</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Pavlin</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Code-based syndromic surveillance for influenzalike illness by International Classification of Diseases, Ninth Revision</article-title>
+                  <source>Emerg Infect Dis</source>
+                  <year>2007</year>
+                  <month>2</month>
+                  <volume>13</volume>
+                  <issue>2</issue>
+                  <fpage>207</fpage>
+                  <lpage>16</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/eid/content/13/2/207.htm"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.3201/eid1302.060557</pub-id>
+                  <pub-id pub-id-type="medline">17479881</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC2725845</pub-id>-->
+                  <pub-id pub-id-type="pmid">17479881</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brammer</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Budd</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cox</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Seasonal and pandemic influenza surveillance considerations for constructing multicomponent systems</article-title>
+                  <source>Influenza Other Respir Viruses</source>
+                  <year>2009</year>
+                  <volume>3</volume>
+                  <issue>2</issue>
+                  <fpage>51</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1750-2659.2009.00077.x</pub-id>
+                  <pub-id pub-id-type="medline">19496841</pub-id>
+                  <pub-id pub-id-type="pmid">19496841</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>Centers for Disease Control and Prevention (CDC)</collab>
+                  </person-group>
+                  <article-title>Assessment of ESSENCE performance for influenza-like illness surveillance after an influenza outbreak--US Air Force Academy, Colorado, 2009</article-title>
+                  <source>MMWR Morb Mortal Wkly Rep</source>
+                  <year>2011</year>
+                  <month>4</month>
+                  <day>8</day>
+                  <volume>60</volume>
+                  <issue>13</issue>
+                  <fpage>406</fpage>
+                  <lpage>9</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6013a3.htm"/>
+                  </comment>
+                  <pub-id pub-id-type="medline">21471947</pub-id>
+                  <!--<pub-id pub-id-type="pii">mm6013a3</pub-id>-->
+                  <pub-id pub-id-type="pmid">21471947</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Daughton</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <name>
+                      <surname>Velappan</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Abeyta</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Priedhorsky</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Deshpande</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Novel use of flu surveillance data: evaluating potential of sentinel populations for early detection of influenza outbreaks</article-title>
+                  <source>PLoS One</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <issue>7</issue>
+                  <fpage>e0158330</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0158330"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0158330</pub-id>
+                  <pub-id pub-id-type="medline">27391232</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-16-09911</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4938434</pub-id>-->
+                  <pub-id pub-id-type="pmid">27391232</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baltrusaitis</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Brownstein</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Scarpino</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bakota</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Crawley</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Conidi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Gunn</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gray</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zink</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Santillana</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of crowd-sourced, electronic health records based, and traditional health-care based influenza-tracking systems at multiple spatial resolutions in the United States of America</article-title>
+                  <source>BMC Infect Dis</source>
+                  <year>2018</year>
+                  <month>8</month>
+                  <day>15</day>
+                  <volume>18</volume>
+                  <issue>1</issue>
+                  <fpage>403</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-018-3322-3"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/s12879-018-3322-3</pub-id>
+                  <pub-id pub-id-type="medline">30111305</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1186/s12879-018-3322-3</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC6094455</pub-id>-->
+                  <pub-id pub-id-type="pmid">30111305</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nakamura</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Sugawara</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawanohara</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohkusa</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kamei</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Oishi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluation of estimated number of influenza patients from national sentinel surveillance using the national database of electronic medical claims</article-title>
+                  <source>Jpn J Infect Dis</source>
+                  <year>2015</year>
+                  <volume>68</volume>
+                  <issue>1</issue>
+                  <fpage>27</fpage>
+                  <lpage>9</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://japanlinkcenter.org/DN/JST.JSTAGE/yoken/JJID.2014.092?lang=en&amp;from=PubMed"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.7883/yoken.JJID.2014.092</pub-id>
+                  <pub-id pub-id-type="medline">25420664</pub-id>
+                  <!--<pub-id pub-id-type="pii">DN/JST.JSTAGE/yoken/JJID.2014.092</pub-id>-->
+                  <pub-id pub-id-type="pmid">25420664</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patwardhan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bilkovski</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison: Flu prescription sales data from a retail pharmacy in the US with Google Flu trends and US ILINet (CDC) data as flu activity indicator</article-title>
+                  <source>PLoS One</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <issue>8</issue>
+                  <fpage>e43611</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0043611"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0043611</pub-id>
+                  <pub-id pub-id-type="medline">22952719</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-12-17189</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3431370</pub-id>-->
+                  <pub-id pub-id-type="pmid">22952719</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Egger</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoen</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name>
+                      <surname>Brownstein</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckeridge</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Olson</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name>
+                      <surname>Konty</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Usefulness of school absenteeism data for predicting influenza outbreaks, United States</article-title>
+                  <source>Emerg Infect Dis</source>
+                  <year>2012</year>
+                  <month>8</month>
+                  <volume>18</volume>
+                  <issue>8</issue>
+                  <fpage>1375</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.3201/eid1808.111538</pub-id>
+                  <pub-id pub-id-type="doi">10.3201/eid1808.111538</pub-id>
+                  <pub-id pub-id-type="medline">22840354</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3414019</pub-id>-->
+                  <pub-id pub-id-type="pmid">22840354</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sugawara</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohkusa</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Ibuka</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawanohara</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Taniguchi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Okabe</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-time prescription surveillance and its application to monitoring seasonal influenza activity in Japan</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2012</year>
+                  <month>1</month>
+                  <day>16</day>
+                  <volume>14</volume>
+                  <issue>1</issue>
+                  <fpage>e14</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2012/1/e14/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/jmir.1881</pub-id>
+                  <pub-id pub-id-type="medline">22249906</pub-id>
+                  <!--<pub-id pub-id-type="pii">v14i1e14</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3846340</pub-id>-->
+                  <pub-id pub-id-type="pmid">22249906</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patterson-Lomba</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>van Noort</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cowling</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Wallinga</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomes</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipsitch</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldstein</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Utilizing syndromic surveillance data for estimating levels of influenza circulation</article-title>
+                  <source>Am J Epidemiol</source>
+                  <year>2014</year>
+                  <month>6</month>
+                  <day>1</day>
+                  <volume>179</volume>
+                  <issue>11</issue>
+                  <fpage>1394</fpage>
+                  <lpage>401</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/24748609"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwu061</pub-id>
+                  <pub-id pub-id-type="medline">24748609</pub-id>
+                  <!--<pub-id pub-id-type="pii">kwu061</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4036214</pub-id>-->
+                  <pub-id pub-id-type="pmid">24748609</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ginsberg</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Mohebbi</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Brammer</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Smolinski</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Brilliant</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Detecting influenza epidemics using search engine query data</article-title>
+                  <source>Nature</source>
+                  <year>2009</year>
+                  <month>2</month>
+                  <day>19</day>
+                  <volume>457</volume>
+                  <issue>7232</issue>
+                  <fpage>1012</fpage>
+                  <lpage>4</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature07634</pub-id>
+                  <pub-id pub-id-type="medline">19020500</pub-id>
+                  <!--<pub-id pub-id-type="pii">nature07634</pub-id>-->
+                  <pub-id pub-id-type="pmid">19020500</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Simonsen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Gog</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Olson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Viboud</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Infectious disease surveillance in the big data era: towards faster and locally relevant systems</article-title>
+                  <source>J Infect Dis</source>
+                  <year>2016</year>
+                  <month>12</month>
+                  <day>1</day>
+                  <volume>214</volume>
+                  <issue>suppl_4</issue>
+                  <fpage>S380</fpage>
+                  <lpage>5</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/28830112"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1093/infdis/jiw376</pub-id>
+                  <pub-id pub-id-type="medline">28830112</pub-id>
+                  <!--<pub-id pub-id-type="pii">2527913</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5144901</pub-id>-->
+                  <pub-id pub-id-type="pmid">28830112</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sharpe</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Hopkins</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Cook</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Striley</surname>
+                      <given-names>CW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluating Google, Twitter, and Wikipedia as tools for influenza surveillance using Bayesian change point analysis: a comparative analysis</article-title>
+                  <source>JMIR Public Health Surveill</source>
+                  <year>2016</year>
+                  <month>10</month>
+                  <day>20</day>
+                  <volume>2</volume>
+                  <issue>2</issue>
+                  <fpage>e161</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://publichealth.jmir.org/2016/2/e161/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/publichealth.5901</pub-id>
+                  <pub-id pub-id-type="medline">27765731</pub-id>
+                  <!--<pub-id pub-id-type="pii">v2i2e161</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5095368</pub-id>-->
+                  <pub-id pub-id-type="pmid">27765731</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Nsoesie</surname>
+                      <given-names>EO</given-names>
+                    </name>
+                    <name>
+                      <surname>Lv</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Chunara</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Brownstein</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monitoring influenza epidemics in china with search query from baidu</article-title>
+                  <source>PLoS One</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <issue>5</issue>
+                  <fpage>e64323</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0064323"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0064323</pub-id>
+                  <pub-id pub-id-type="medline">23750192</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-13-00331</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3667820</pub-id>-->
+                  <pub-id pub-id-type="pmid">23750192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lazer</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Vespignani</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Big data. The parable of Google Flu: traps in big data analysis</article-title>
+                  <source>Science</source>
+                  <year>2014</year>
+                  <month>3</month>
+                  <day>14</day>
+                  <volume>343</volume>
+                  <issue>6176</issue>
+                  <fpage>1203</fpage>
+                  <lpage>5</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1248506</pub-id>
+                  <pub-id pub-id-type="medline">24626916</pub-id>
+                  <!--<pub-id pub-id-type="pii">343/6176/1203</pub-id>-->
+                  <pub-id pub-id-type="pmid">24626916</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sohn</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                    <name>
+                      <surname>Jo</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>SY</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryoo</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Seo</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correlation between national influenza surveillance data and google trends in South Korea</article-title>
+                  <source>PLoS One</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <issue>12</issue>
+                  <fpage>e81422</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0081422"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0081422</pub-id>
+                  <pub-id pub-id-type="medline">24339927</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-13-24884</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC3855287</pub-id>-->
+                  <pub-id pub-id-type="pmid">24339927</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ortiz</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Shay</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Neuzil</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Fowlkes</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Goss</surname>
+                      <given-names>CH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monitoring influenza activity in the United States: a comparison of traditional surveillance systems with Google Flu Trends</article-title>
+                  <source>PLoS One</source>
+                  <year>2011</year>
+                  <month>4</month>
+                  <day>27</day>
+                  <volume>6</volume>
+                  <issue>4</issue>
+                  <fpage>e18687</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0018687"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0018687</pub-id>
+                  <pub-id pub-id-type="medline">21556151</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3083406</pub-id>-->
+                  <pub-id pub-id-type="pmid">21556151</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santillana</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Dredze</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Paul</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Nsoesie</surname>
+                      <given-names>EO</given-names>
+                    </name>
+                    <name>
+                      <surname>Brownstein</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Combining search, social media, and traditional data sources to improve influenza surveillance</article-title>
+                  <source>PLoS Comput Biol</source>
+                  <year>2015</year>
+                  <month>10</month>
+                  <volume>11</volume>
+                  <issue>10</issue>
+                  <fpage>e1004513</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pcbi.1004513"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1004513</pub-id>
+                  <pub-id pub-id-type="medline">26513245</pub-id>
+                  <!--<pub-id pub-id-type="pii">PCOMPBIOL-D-15-00856</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4626021</pub-id>-->
+                  <pub-id pub-id-type="pmid">26513245</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Yasui</surname>
+                      <given-names>YJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Google Flu Trends in Canada: a comparison of digital disease surveillance data with physician consultations and respiratory virus surveillance data, 2010-2014</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2016</year>
+                  <month>1</month>
+                  <volume>144</volume>
+                  <issue>2</issue>
+                  <fpage>325</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268815001478</pub-id>
+                  <pub-id pub-id-type="medline">26135239</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0950268815001478</pub-id>-->
+                  <pub-id pub-id-type="pmid">26135239</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Milinovich</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                    <name>
+                      <surname>Clements</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Internet-based surveillance systems for monitoring emerging infectious diseases</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2014</year>
+                  <month>2</month>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                  <fpage>160</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(13)70244-5</pub-id>
+                  <pub-id pub-id-type="medline">24290841</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1473-3099(13)70244-5</pub-id>-->
+                  <pub-id pub-id-type="pmid">24290841</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ghosh</surname>
+                      <given-names>TS</given-names>
+                    </name>
+                    <name>
+                      <surname>Vogt</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Active influenza surveillance at the local level: a model for local health agencies</article-title>
+                  <source>Am J Public Health</source>
+                  <year>2008</year>
+                  <month>2</month>
+                  <volume>98</volume>
+                  <issue>2</issue>
+                  <fpage>213</fpage>
+                  <lpage>5</lpage>
+                  <pub-id pub-id-type="doi">10.2105/AJPH.2006.106138</pub-id>
+                  <pub-id pub-id-type="medline">18172149</pub-id>
+                  <!--<pub-id pub-id-type="pii">AJPH.2006.106138</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC2376873</pub-id>-->
+                  <pub-id pub-id-type="pmid">18172149</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shimoni</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodrig</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Dusseldorp</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Niven</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Froom</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Increased emergency department chief complaints of fever identified the influenza (H1N1) pandemic before outpatient symptom surveillance</article-title>
+                  <source>Environ Health Prev Med</source>
+                  <year>2012</year>
+                  <month>1</month>
+                  <volume>17</volume>
+                  <issue>1</issue>
+                  <fpage>69</fpage>
+                  <lpage>72</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/21448581"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1007/s12199-011-0213-2</pub-id>
+                  <pub-id pub-id-type="medline">21448581</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3258318</pub-id>-->
+                  <pub-id pub-id-type="pmid">21448581</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santillana</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Louie</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Zink</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gray</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Sung</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Brownstein</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cloud-based electronic health records for real-time, region-specific influenza surveillance</article-title>
+                  <source>Sci Rep</source>
+                  <year>2016</year>
+                  <month>12</month>
+                  <day>11</day>
+                  <volume>6</volume>
+                  <fpage>25732</fpage>
+                  <pub-id pub-id-type="doi">10.1038/srep25732</pub-id>
+                  <pub-id pub-id-type="doi">10.1038/srep25732</pub-id>
+                  <pub-id pub-id-type="medline">27165494</pub-id>
+                  <!--<pub-id pub-id-type="pii">srep25732</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4863169</pub-id>-->
+                  <pub-id pub-id-type="pmid">27165494</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Escuyer</surname>
+                      <given-names>KL</given-names>
+                    </name>
+                    <name>
+                      <surname>Waters</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gowie</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Maxted</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Farrell</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuschino</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>George</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The assessment of data sources for influenza virologic surveillance in New York State</article-title>
+                  <source>Influenza Other Respir Viruses</source>
+                  <year>2017</year>
+                  <month>12</month>
+                  <volume>11</volume>
+                  <issue>2</issue>
+                  <fpage>138</fpage>
+                  <lpage>47</lpage>
+                  <pub-id pub-id-type="doi">10.1111/irv.12433</pub-id>
+                  <pub-id pub-id-type="doi">10.1111/irv.12433</pub-id>
+                  <pub-id pub-id-type="medline">27718314</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5304574</pub-id>-->
+                  <pub-id pub-id-type="pmid">27718314</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grohskopf</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsen</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Sokolow</surname>
+                      <given-names>LZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bresee</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Cox</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Broder</surname>
+                      <given-names>KR</given-names>
+                    </name>
+                    <name>
+                      <surname>Karron</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Walter</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <collab>Centers for Disease Control and Prevention</collab>
+                  </person-group>
+                  <article-title>Prevention and control of seasonal influenza with vaccines: recommendations of the Advisory Committee on Immunization Practices (ACIP)--United States, 2014-15 influenza season</article-title>
+                  <source>MMWR Morb Mortal Wkly Rep</source>
+                  <year>2014</year>
+                  <month>8</month>
+                  <day>15</day>
+                  <volume>63</volume>
+                  <issue>32</issue>
+                  <fpage>691</fpage>
+                  <lpage>7</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6332a3.htm"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.15585/mmwr.rr6703a1</pub-id>
+                  <pub-id pub-id-type="medline">25121712</pub-id>
+                  <!--<pub-id pub-id-type="pii">mm6332a3</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4584910</pub-id>-->
+                  <pub-id pub-id-type="pmid">25121712</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Caini</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonso</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Balmaseda</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruno</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bustos</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Castillo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>de Lozano</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>de Mora</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Fasce</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>de Almeida</surname>
+                      <given-names>WA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kusznierz</surname>
+                      <given-names>GF</given-names>
+                    </name>
+                    <name>
+                      <surname>Lara</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Matute</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreno</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Henriques</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Rudi</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>El-Guerche Séblain</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Schellevis</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Paget</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <collab>Global Influenza B Study group–Latin America</collab>
+                  </person-group>
+                  <article-title>Characteristics of seasonal influenza A and B in Latin America: influenza surveillance data from ten countries</article-title>
+                  <source>PLoS One</source>
+                  <year>2017</year>
+                  <volume>12</volume>
+                  <issue>3</issue>
+                  <fpage>e0174592</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.plos.org/10.1371/journal.pone.0174592"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0174592</pub-id>
+                  <pub-id pub-id-type="medline">28346498</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-16-41968</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5367818</pub-id>-->
+                  <pub-id pub-id-type="pmid">28346498</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref32">
+                <label>32</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Taiwan Centers for Disease Control</collab>
+                  </person-group>
+                  <source>Taiwan Centers for Disease Control</source>
+                  <year>2018</year>
+                  <comment>Taiwan National Infectious Disease Statistic System
+<ext-link ext-link-type="uri" xlink:href="http://nidss.cdc.gov.tw/en/">http://nidss.cdc.gov.tw/en/</ext-link><ext-link ext-link-type="webcite" xlink:href="74fwDxqmR"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Majeed</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuo</surname>
+                      <given-names>KN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An overview of the healthcare system in Taiwan</article-title>
+                  <source>London J Prim Care (Abingdon)</source>
+                  <year>2010</year>
+                  <month>12</month>
+                  <volume>3</volume>
+                  <issue>2</issue>
+                  <fpage>115</fpage>
+                  <lpage>9</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/25949636"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1080/17571472.2010.11493315</pub-id>
+                  <pub-id pub-id-type="medline">25949636</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC3960712</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>CY</given-names>
+                    </name>
+                    <name>
+                      <surname>Lo</surname>
+                      <given-names>YS</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>CT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A clinical decision support engine based on a national medication repository for the detection of potential duplicate medications: design and evaluation</article-title>
+                  <source>JMIR Med Inform</source>
+                  <year>2018</year>
+                  <month>1</month>
+                  <day>19</day>
+                  <volume>6</volume>
+                  <issue>1</issue>
+                  <fpage>e6</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://medinform.jmir.org/2018/1/e6/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/medinform.9064</pub-id>
+                  <pub-id pub-id-type="medline">29351893</pub-id>
+                  <!--<pub-id pub-id-type="pii">v6i1e6</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5797291</pub-id>-->
+                  <pub-id pub-id-type="pmid">29351893</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref35">
+                <label>35</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Centers for Disease Control and Prevention</collab>
+                  </person-group>
+                  <source>Rapid Diagnostic Testing for Influenza: Information for Clinical Laboratory Directors</source>
+                  <year>2018</year>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/flu/professionals/diagnosis/rapidlab.htm">https://www.cdc.gov/flu/professionals/diagnosis/rapidlab.htm</ext-link>
+                    <ext-link ext-link-type="webcite" xlink:href="74fwNlG5N"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lo</surname>
+                      <given-names>YS</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>WS</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>CT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Utilization of electronic medical records to build a detection model for surveillance of healthcare-associated urinary tract infections</article-title>
+                  <source>J Med Syst</source>
+                  <year>2013</year>
+                  <month>4</month>
+                  <volume>37</volume>
+                  <issue>2</issue>
+                  <fpage>9923</fpage>
+                  <pub-id pub-id-type="doi">10.1007/s10916-012-9923-2</pub-id>
+                  <pub-id pub-id-type="medline">23321977</pub-id>
+                  <pub-id pub-id-type="pmid">23321977</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref37">
+                <label>37</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>SAS Institute</collab>
+                  </person-group>
+                  <source>Developing Java Clients</source>
+                  <year>2018</year>
+                  <date-in-citation>2019-01-28</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://support.sas.com/rnd/itech/doc/dist-obj/javaclnt/index.html,">http://support.sas.com/rnd/itech/doc/dist-obj/javaclnt/index.html,</ext-link>
+                    <ext-link ext-link-type="webcite" xlink:href="74fwVSV6U"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref38">
+                <label>38</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Urbanek</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <source>The Comprehensive R Archive Network</source>
+                  <year>2018</year>
+                  <comment>rJava: Low-Level R to Java Interface
+<ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/rJava/index.html">https://cran.r-project.org/web/packages/rJava/index.html</ext-link><ext-link ext-link-type="webcite" xlink:href="74fwmzWm4"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref39">
+                <label>39</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Amazon</collab>
+                  </person-group>
+                  <source>Amazon CloudWatch User Guide</source>
+                  <year>2017</year>
+                  <date-in-citation>2019-01-29</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.amazon.com/Amazon-CloudWatch-User-Guide-Services-ebook/dp/B007S1I894">https://www.amazon.com/Amazon-CloudWatch-User-Guide-Services-ebook/dp/B007S1I894</ext-link>
+                    <ext-link ext-link-type="webcite" xlink:href="75mwX5TtS"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref40">
+                <label>40</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Amazon</collab>
+                  </person-group>
+                  <source>Amazon Simple Notification Service</source>
+                  <date-in-citation>2018-12-15</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://aws.amazon.com/sns/">https://aws.amazon.com/sns/</ext-link>
+                    <ext-link ext-link-type="webcite" xlink:href="74fx1rSI1"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vega</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lozano</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Meerhoff</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Snacken</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Mott</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>de Lejarazu</surname>
+                      <given-names>RO</given-names>
+                    </name>
+                    <name>
+                      <surname>Nunes</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Influenza surveillance in Europe: establishing epidemic thresholds by the moving epidemic method</article-title>
+                  <source>Influenza Other Respir Viruses</source>
+                  <year>2013</year>
+                  <month>7</month>
+                  <volume>7</volume>
+                  <issue>4</issue>
+                  <fpage>546</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1750-2659.2012.00422.x</pub-id>
+                  <pub-id pub-id-type="doi">10.1111/j.1750-2659.2012.00422.x</pub-id>
+                  <pub-id pub-id-type="medline">22897919</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5855152</pub-id>-->
+                  <pub-id pub-id-type="pmid">22897919</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vega</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lozano</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Meerhoff</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Snacken</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Beauté</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Jorgensen</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>de Lejarazu</surname>
+                      <given-names>RO</given-names>
+                    </name>
+                    <name>
+                      <surname>Domegan</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Mossong</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Nielsen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Born</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Larrauri</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Influenza surveillance in Europe: comparing intensity levels calculated using the moving epidemic method</article-title>
+                  <source>Influenza Other Respir Viruses</source>
+                  <year>2015</year>
+                  <month>9</month>
+                  <volume>9</volume>
+                  <issue>5</issue>
+                  <fpage>234</fpage>
+                  <lpage>46</lpage>
+                  <pub-id pub-id-type="doi">10.1111/irv.12330</pub-id>
+                  <pub-id pub-id-type="doi">10.1111/irv.12330</pub-id>
+                  <pub-id pub-id-type="medline">26031655</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC4548993</pub-id>-->
+                  <pub-id pub-id-type="pmid">26031655</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Drumright</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Frost</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Elliot</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Catchpole</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Pebody</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Atkins</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Parker</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing the use of hospital staff influenza-like absence (ILA) for enhancing hospital preparedness and national surveillance</article-title>
+                  <source>BMC Infect Dis</source>
+                  <year>2015</year>
+                  <month>3</month>
+                  <day>1</day>
+                  <volume>15</volume>
+                  <fpage>110</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-015-0789-z"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/s12879-015-0789-z</pub-id>
+                  <pub-id pub-id-type="medline">25886745</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1186/s12879-015-0789-z</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4381490</pub-id>-->
+                  <pub-id pub-id-type="pmid">25886745</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chapman</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Dowling</surname>
+                      <given-names>JN</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Generating a reliable reference standard set for syndromic case classification</article-title>
+                  <source>J Am Med Inform Assoc</source>
+                  <year>2005</year>
+                  <volume>12</volume>
+                  <issue>6</issue>
+                  <fpage>618</fpage>
+                  <lpage>29</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/16049227"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1197/jamia.M1841</pub-id>
+                  <pub-id pub-id-type="medline">16049227</pub-id>
+                  <!--<pub-id pub-id-type="pii">M1841</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC1294033</pub-id>-->
+                  <pub-id pub-id-type="pmid">16049227</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref45">
+                <label>45</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cleveland</surname>
+                      <given-names>WS</given-names>
+                    </name>
+                    <name>
+                      <surname>Devlin</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Grosse</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regression by local fitting: methods, properties, and computational algorithms</article-title>
+                  <source>J Econom</source>
+                  <year>1988</year>
+                  <month>1</month>
+                  <volume>37</volume>
+                  <issue>1</issue>
+                  <fpage>87</fpage>
+                  <lpage>114</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0304-4076(88)90077-2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref46">
+                <label>46</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>R Foundation</collab>
+                  </person-group>
+                  <source>The R Project for Statistical Computing</source>
+                  <year>2018</year>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link>
+                    <ext-link ext-link-type="webcite" xlink:href="74fxFOWWm"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref47">
+                <label>47</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lozano</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>Zenodo</source>
+                  <date-in-citation>2018-12-15</date-in-citation>
+                  <comment>lozalojo/mem: Second release of the MEM R library (Version v2.0)
+<ext-link ext-link-type="uri" xlink:href="https://zenodo.org/record/165983">https://zenodo.org/record/165983</ext-link><ext-link ext-link-type="webcite" xlink:href="74fxMQ95O"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref48">
+                <label>48</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deiner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lietman</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>McLeod</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Chodosh</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Porco</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Surveillance tools emerging from search engines and social media data for determining eye disease patterns</article-title>
+                  <source>JAMA Ophthalmol</source>
+                  <year>2016</year>
+                  <month>9</month>
+                  <day>1</day>
+                  <volume>134</volume>
+                  <issue>9</issue>
+                  <fpage>1024</fpage>
+                  <lpage>30</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/27416554"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1001/jamaophthalmol.2016.2267</pub-id>
+                  <pub-id pub-id-type="medline">27416554</pub-id>
+                  <!--<pub-id pub-id-type="pii">2532381</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC5227006</pub-id>-->
+                  <pub-id pub-id-type="pmid">27416554</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref49">
+                <label>49</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scarpino</surname>
+                      <given-names>SV</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyers</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Johansson</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Design strategies for efficient arbovirus surveillance</article-title>
+                  <source>Emerg Infect Dis</source>
+                  <year>2017</year>
+                  <month>12</month>
+                  <volume>23</volume>
+                  <issue>4</issue>
+                  <fpage>642</fpage>
+                  <lpage>4</lpage>
+                  <pub-id pub-id-type="doi">10.3201/eid2304.160944</pub-id>
+                  <pub-id pub-id-type="doi">10.3201/eid2304.160944</pub-id>
+                  <pub-id pub-id-type="medline">28322711</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5367434</pub-id>-->
+                  <pub-id pub-id-type="pmid">28322711</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref50">
+                <label>50</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fisher</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                  </person-group>
+                  <source>National Vaccine Information Center</source>
+                  <year>2016</year>
+                  <date-in-citation>2019-01-31</date-in-citation>
+                  <comment>CDC admits flu shots fail half the time
+<ext-link ext-link-type="uri" xlink:href="https://www.nvic.org/nvic-vaccine-news/april-2016/cdc-admits-flu-shots-fail-half-the-time.aspx">https://www.nvic.org/nvic-vaccine-news/april-2016/cdc-admits-flu-shots-fail-half-the-time.aspx</ext-link><ext-link ext-link-type="webcite" xlink:href="75ppfFL6v"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref51">
+                <label>51</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Jong</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Claas</surname>
+                      <given-names>EC</given-names>
+                    </name>
+                    <name>
+                      <surname>Osterhaus</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                    <name>
+                      <surname>Webster</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>WL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A pandemic warning?</article-title>
+                  <source>Nature</source>
+                  <year>1997</year>
+                  <volume>389</volume>
+                  <issue>6651</issue>
+                  <fpage>554</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.nature.com/articles/39218"/>
+                  </comment>
+                  <pub-id pub-id-type="pmid">9335492</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref52">
+                <label>52</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Atreja</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pollock</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Olmsted</surname>
+                      <given-names>RN</given-names>
+                    </name>
+                    <name>
+                      <surname>Brennan</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <collab>Healthcare Infection Control Practices Advisory Committee</collab>
+                  </person-group>
+                  <article-title>Opportunities and challenges in utilizing electronic health records for infection surveillance, prevention, and control</article-title>
+                  <source>Am J Infect Control</source>
+                  <year>2008</year>
+                  <month>4</month>
+                  <volume>36</volume>
+                  <issue>3 Suppl</issue>
+                  <fpage>S37</fpage>
+                  <lpage>46</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ajic.2008.01.002</pub-id>
+                  <pub-id pub-id-type="medline">18374211</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0196-6553(08)00053-9</pub-id>-->
+                  <pub-id pub-id-type="pmid">18374211</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

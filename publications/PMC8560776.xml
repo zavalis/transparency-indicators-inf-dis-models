@@ -1,0 +1,2014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:47:50Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8560776" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8560776</identifier>
+        <datestamp>2021-11-03</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8560776</article-id>
+              <article-id pub-id-type="pmcid">PMC8560776</article-id>
+              <article-id pub-id-type="pmc-uid">8560776</article-id>
+              <article-id pub-id-type="pmid">34725416</article-id>
+              <article-id pub-id-type="publisher-id">948</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-021-00948-6</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Estimating the COVID-19 prevalence and mortality using a novel data-driven hybrid model based on ensemble empirical mode decomposition</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Yongbin</given-names>
+                  </name>
+                  <address>
+                    <email>wybwho@163.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Xu</surname>
+                    <given-names>Chunjie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Yao</surname>
+                    <given-names>Sanqiao</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Lei</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zhao</surname>
+                    <given-names>Yingzheng</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ren</surname>
+                    <given-names>Jingchao</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Yuchun</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.412990.7</institution-id><institution-id institution-id-type="ISNI">0000 0004 1808 322X</institution-id><institution>Department of Epidemiology and Health Statistics, School of Public Health, </institution><institution>Xinxiang Medical University, </institution></institution-wrap>No. 601 Jinsui Road, Hongqi District, Xinxiang City, 453003 Henan Province People’s Republic of China </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.24696.3f</institution-id><institution-id institution-id-type="ISNI">0000 0004 0369 153X</institution-id><institution>Department of Occupational and Environmental Health, School of Public Health, </institution><institution>Capital Medical University, </institution></institution-wrap>Beijing, People’s Republic of China </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.6363.0</institution-id><institution-id institution-id-type="ISNI">0000 0001 2218 4662</institution-id><institution>Center for Musculoskeletal Surgery, </institution><institution>Charité–Universitätsmedizin Berlin, Freie Universität Berlin, Humboldt–Universität zu Berlin and Berlin Institute of Health, </institution></institution-wrap>Berlin, Germany </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>1</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>1</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>21413</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>13</day>
+                  <month>8</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">In this study, we proposed a new data-driven hybrid technique by integrating an ensemble empirical mode decomposition (EEMD), an autoregressive integrated moving average (ARIMA), with a nonlinear autoregressive artificial neural network (NARANN), called the EEMD-ARIMA-NARANN model, to perform time series modeling and forecasting based on the COVID-19 prevalence and mortality data from 28 February 2020 to 27 June 2020 in South Africa and Nigeria. By comparing the accuracy level of forecasting measurements with the basic ARIMA and NARANN models, it was shown that this novel data-driven hybrid model did a better job of capturing the dynamic changing trends of the target data than the others used in this work. Our proposed mixture technique can be deemed as a helpful policy-supportive tool to plan and provide medical supplies effectively. The overall confirmed cases and deaths were estimated to reach around 176,570 [95% uncertainty level (UL) 173,607 to 178,476] and 3454 (95% UL 3384 to 3487), respectively, in South Africa, along with 32,136 (95% UL 31,568 to 32,641) and 788 (95% UL 775 to 804) in Nigeria on 12 July 2020 using this data-driven EEMD-ARIMA-NARANN hybrid technique. The contributions of this study include three aspects. First, the proposed hybrid model can better capture the dynamic dependency characteristics compared with the individual models. Second, this new data-driven hybrid model is constructed in a more reasonable way relative to the traditional mixture model. Third, this proposed model may be generalized to estimate the epidemic patterns of COVID-19 in other regions.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Infectious diseases</kwd>
+                <kwd>Disease prevention</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100011841</institution-id>
+                      <institution>Xinxiang Medical University</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>XYXSKYZ201932</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Yongbin</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">In December 2019, a type of new pneumonia of unknown etiology initially occurred in the city of Wuhan, China, and soon afterward, Wuhan became the epicenter of the outbreak of this disease, later named as coronavirus disease 2019 (COVID-19) caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. Since then, COVID-19 has been bombarding almost every corner of the world for just two months and has become a universal pandemic<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. COVID-19 is highly contagious and has caused a series of massive negative effects on economic progress, people’s lives and health around the globe, and it has been identified as being the foremost global public health crisis since the twentieth century<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>. As of June 27, 2020, the outbreak has resulted in a great tragedy with overall 9,653,048 confirmed cases and 491,128 deaths in more than 200 countries of our planet<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. The current reported cases and deaths may be underestimated in the seriously affected regions to a great extent as there are limited medical and health resources that satisfy the requirement of the epidemiological surveillance and detection<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>, and it is estimated that the present epidemiological trend may still be rising exponentially in the near future<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Such an emergency has raised many significant issues associated with the spreading dynamics, the alleviation, along with the response strategies and measures of this public health emergency of international concern. Unfortunately, because of the new nature of the SARS-CoV-2, there is still an absence of enough knowledge regarding this virus and an absence of clinical treatment determined and vaccines available, leading to greater uncertainty in the decision-making process. In this scenario, an accurate estimate based on mathematical and statistical techniques can provide a basis for the formulation of effective planning to better tackle the societal, economical, cultural, and public health issues related to this pandemic<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup>. Also, it is extremely crucial for directing the intensity and type of interventions required to mitigate this public health emergency<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>.</p>
+              <p id="Par3">Time series analysis is significantly instrumental in understanding the past epidemic patterns of the diseases and in forecasting the upcoming epidemiological trends based on the past and current inherent rules of the target series by adopting different modeling methods<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>. Over the past decades, different time series modeling techniques with high reliability levels have been employed for various forecasting purposes. More recently, a large and growing body of literature has investigated the usefulness of the statistical methods to forecast the transmission of the COVID-19 outbreak in order to serve as a reference for mitigating the outbreak, and some of which have played an important role in containing the spread of the COVID-19 outbreak. For example, many current prevention and control measures (e.g., keeping social distancing, wearing face masks, isolation, and observation of the cases and close contacts, the establishment of mobile cabin hospitals, lockdown of the area or countries, travel restrictions and border control, and human mobility restrictions) are formed based on the resulting results of model forecasting<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR12">12</xref>–<xref ref-type="bibr" rid="CR18">18</xref></sup>. The current common use of the modeling methods includes the autoregressive integrated moving average (ARIMA) model<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR19">19</xref>–<xref ref-type="bibr" rid="CR24">24</xref></sup>, genetic programming<sup><xref ref-type="bibr" rid="CR25">25</xref></sup>, simple model of growth<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>, support vector regression<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>, unbiased hierarchical bayesian estimator approach<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>, susceptible-exposed-infected-recovery (SEIR) model<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>, linear regression models<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>, and stereographic Brownian diffusion epidemiology model (SBDiEM)<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Time series data are often restricted and affected by many potential determinants, leading to showing complicated linear and nonlinear interaction, together with non-stationarity in the data<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. For this reason, the mentioned methods failed to take full advantage of these components simultaneously as they are under the linear or nonlinear assumption, and therefore the results from them are difficult to be generalized. To improve the forecasting reliability level, an alternative approach should be tailored for use with both tendencies (linear component) and randomness (nonlinear component). Motivated by this idea, researchers have developed hybrid models by integrating linear models with nonlinear models (e.g., ARIMA-generalized regression neural network [GRNN], ARIMA– backpropagation neural network [BPNN], and autoregressive [AR]-time delay neural network [TDNN] hybrid models)<sup><xref ref-type="bibr" rid="CR32">32</xref>–<xref ref-type="bibr" rid="CR34">34</xref></sup>, which may generate better forecasting by use of each method’s capability. In such traditional ensemble architectures, the ARIMA or AR model is often used to capture the linear dependency structure in a time series, and then the residuals of a linear pattern is assumed to include the nonlinear component that can be captured by the neural network models (ANN<sub>S</sub>)<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR35">35</xref></sup>. However, such an assumption may lead to an underestimation of the relationship between the linear and nonlinear patterns in a time series because the association between these two patterns may fail to be additive<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Moreover, the residuals from the linear models may not comprise valid non-linear component in a time series<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. Importantly, recent published papers have also demonstrated that the traditional mixture methods do not necessarily provide a performance improvement over the individual methods<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR35">35</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>. For this reason, the challenge for developing a perfect hybrid prediction model is how to identify the underlying linear and nonlinear patterns in a time series.</p>
+              <p id="Par4">Wavelet analysis has attracted much attention as a flexible and useful tool able to diagnose high-frequency traits and to extract worthy information especially when time series is characterized by non-stationarity and non-linearity because this analysis has a powerful potential to discern exceptional events by time-localized frequency analysis<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>. More recently, researchers have developed a novel wavelet decomposition technique-ensemble empirical mode decomposition (EEMD) based on the empirical mode decomposition (EMD) for filtering and handling time series preliminarily, which is capable of overcoming the mode mixing weaknesses of the EMD<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. Unlike the conventional discrete wavelet transform methods that require and predetermine basis functions, causing different decomposition results, EEMD is a self-adaptive, empirical, direct, and intuitive data processing technique, particularly appropriate for handling the non-stationary and non-linear data patterns<sup><xref ref-type="bibr" rid="CR41">41</xref>,<xref ref-type="bibr" rid="CR42">42</xref></sup>. And many hybrid models that adopt a combination of the EEMD and some algorithms have produced satisfactory results in the time series forecasting field. For instance, Zhou et al. built a mixture model by combining the EEMD and a general regression neural network to predict the PM<sub>2.5</sub> concentrations<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. Wang et al. constructed an EEMD decomposition-based ARIMA to improve the prediction reliability level of the annual runoff time series<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. Wang et al. applied the backpropagation network model based on EEMD decomposition to hydrological time series in order to improve the medium and long-term forecasting accuracy level<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. However, the above-referenced models are only a simple ensemble architecture comprising either a basic linear or nonlinear model based on the EEMD technique, which is unable to consider both linear and nonlinear components in a time series simultaneously despite a performance improvement over the basic models by use of these ensemble architectures. Motivated by the “decomposition and ensemble” idea based on the EEMD method, a promising alternative is to develop an ensemble architecture by integrating the linear trait with the nonlinear trait decomposed by the EEMD method using an adequate linear model and nonlinear model<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. By doing so, this new ensemble architecture is capable of capturing both components in a time series simultaneously.</p>
+              <p id="Par5">In time series forecasting, the ARIMA model is the most used method to handle linear information, whereas ANN<sub>S</sub> methods are adept at solving nonlinear problems, and the nonlinear autoregressive artificial neural network (NARANN) model has been demonstrated to have excellent mimic and prediction performances among ANNs models because this model has embedded memory function with the help of the tapped delay lines<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Therefore, the present study developed a novel mixture prediction model by considering the respective superiority of the EEMD, ARIMA, and NARANN in addressing time series forecasting issues to estimate the epidemiological trends of the COVID-19 prevalence and mortality in South Africa and Nigeria, the hardest-hit two countries with the outbreak in Africa<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR46">46</xref></sup>. Specifically, first, applying the EEMD technique to decompose the daily prevalence and mortality series into several Intrinsic Mode Functions (IMFs) subseries together with a residue subseries representing the trend of the data. Second, the IMFs terms were modeled using appropriate NARANN methods, whereas the residue term was modeled with a suitable ARIMA model. Finally, the prediction results from our proposed hybrid model were obtained by a conjunction of those from the basic NARANN and ARIMA models<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. Since the lack of adequate health infrastructure and services in many regions of Africa, such estimates can elucidate the spreading dynamics of the outbreak, which will be a useful aid for government institutions and policymakers to plan the number of additional materials and resources in order to keep the outbreak under control well. Additionally, such estimates may also assist local people to lessen their present socioeconomic and psychosocial pressures and distresses related to the COVID-19 pandemic.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Material and methods</title>
+              <sec id="Sec3">
+                <title>Data source</title>
+                <p id="Par6">This research focused on the daily time series analysis of the COVID-19 prevalence and mortality, the overall diagnosed COVID-19 cases and death tolls between 28 February 2020 and 27 June 2020 were taken from the COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (<ext-link ext-link-type="uri" xlink:href="https://github.com/CSSEGISandData/COVID-19">https://github.com/CSSEGISandData/COVID-19</ext-link>) and the COVID-2019 situation reports by the WHO (<ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases">https://www.who.int/emergencies/diseases</ext-link>). Often, at least 50 observations and preferably 100 observations or more are required in order to construct an adequate and effective model<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. Thus, the datasets used in this study were divided into two parts. The subset from 28 February 2020 through 15 June 2020 was treated as the training horizon (109 observations), the other was deemed as the prediction horizon (12 observations).</p>
+                <p id="Par7">The study protocol was approved by the research institutional review board of the Xinxiang Medical University (No: XYLL-2019072). All relevant guidelines were followed for the study. Ethical approval is not warranted for this research as these data without personal information are publicly available around the globe and the same is approved by the CSSE and WHO.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>ARIMA model</title>
+                <p id="Par8">The ARIMA model has been the most frequently used forecasting tool in the domain of health care in the past because of its simple structure, flexible applicability, and potential to interpret a given time series<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. Supposing that there exists a certain linear pattern between the past observations and the future observations, the ARIMA model can then make use of this pattern to predict the epidemic trends in the near future<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR48">48</xref></sup>. A representative ARIMA (p, d, q) model is composed of three components, where, p, d, and q represent the orders of the autoregressive method (AR), the non-seasonal differenced degrees, and the moving average method (MA), respectively. The ARIMA model is often established through four steps. Initially, an augmented Dickey–Fuller (ADF) test was applied to the original data to investigate its stationarity, if indicating a non-stationary series, a differenced transformation would help to achieve stationarity<sup><xref ref-type="bibr" rid="CR48">48</xref>,<xref ref-type="bibr" rid="CR49">49</xref></sup>. Secondly, the crude values of the key parameters (p, d, and q) were determined by plotting the autocorrelation function (ACF) and partial ACF (PACF) graphs based on the differenced series. Among all the candidate models, the one that produced such goodness of fit measures as a larger value of the log-likelihood, as well as a lower value of the Akaike information criteria (AIC), consistent AIC (CAIC), and Bayesian information criterion (BIC), was considered the preferred<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. Thirdly, using statistical-based diagnostic indices, including Ljung-Box Q test, ACF plot, PACF plot, and t-test, to check the adequacy of the identified model, once the residuals behaved like a white-noise series under the Ljung-Box Q test and the determined parameters were statistically significant under the t-test, meaning that this model is suitable<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. Ultimately, the preferred ARIMA method can be employed to conduct out-of-sample forecasts.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>NARANN model</title>
+                <p id="Par9">ANNs can well enable arbitrarily complex non-stationary series to obtain any desired accuracy thanks to its flexible nonlinear mapping ability<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. The NARANN method with the time-varying state of interconnected neurons is an important dynamic recurrent ANNs model. For this reason, this method has the inherent attributes of ANNs (e.g., powerful nonlinear mapping capacity, self-learning and adaption ability, along with generalization and fault-tolerant ability)<sup><xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR53">53</xref></sup>. Further, the NARANN model also has a long or short-term memory function by retaining the prior inputs, outputs and network structures with the help of the tapped delay line, resulting in a dynamic modeling potential to the time-dependent series<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. An NARANN method can be in the form below<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X_{t} = f(x(t - 1),x(t - 2), \ldots ,x(t - d))$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>x</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>d</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X_{t}$$\end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mi>X</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq1.gif"/></alternatives></inline-formula> signifies the forecasting results from the NARANN method based on the previous given values at lagged period <italic>d</italic>.</p>
+                <p id="Par10">In this study, the modeling procedures consist of three steps. First, the whole data were divided into two blocks including training samples (from 28 February 2020 to 15 June 2020) and testing samples (from 16 June 2020 to 27 June 2020). To develop an effective and accurate NARANN model, the effective training samples were further partitioned into training (80% of the training samples), validation (10%), and testing (10%) subseries by use of the <italic>dividerand</italic> function in MATLAB software. Second, the number of hidden neurons and delays <italic>d</italic> were investigated by trial and error by use of the Levenberg–Marquardt algorithm in an open feedback form<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Whilst the response plot between the estimated outputs and targets, the ACF plot, along with the mean square error (MSE) and correlation coefficient (R) were computed until the best possible specification was determined<sup><xref ref-type="bibr" rid="CR53">53</xref></sup>. Finally, the training open-loop form was closed to make a multi-step-ahead forecast.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>A hybrid model of EEMD-ARIMA-NARANN</title>
+                <sec id="Sec7">
+                  <title>EEMD</title>
+                  <p id="Par11">Although the EMD method has been widely employed to deal with the noisy nonlinear and non-stationary processes in signal analysis, it has been shown that this method suffers from two major shortcomings, including the edge-effects and mode-mixing in applications<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR54">54</xref>,<xref ref-type="bibr" rid="CR55">55</xref></sup>, particularly for the mode-mixing issue, it can not only lead to the mixing of different scale vibration modes but also even result in the loss of the physical meaning of the decomposed IMFs terms<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. To compensate for the weaknesses of the EMD method, an advanced EEMD technique was therefore introduced based on the EMD method<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. This EEMD technique resolved the mode-mixing issue by defining the original each IMFs term as the average of an ensemble of experiments, and each IMFs term consists of the signal and noise of finite-amplitude<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>. The decomposition processes of the EEMD approach can be done as below:</p>
+                  <p id="Par12">Firstly, adding a white noise series <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w(t)$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mi>w</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq2.gif"/></alternatives></inline-formula> to the original series <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x(t)$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq3.gif"/></alternatives></inline-formula>, and then the produced new time series was defined as<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Y(t) = x(t) + w(t)$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mrow><mml:mi>Y</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>w</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par13">Secondly, decomposing this new time series into the IMFs terms by use of the EMD method.</p>
+                  <p id="Par14">Thirdly, repeating the first and second steps using different white noise series, and the obtained results were added to the original time series each time.</p>
+                  <p id="Par15">Finally, averaging the ensemble of the IMFs terms from the EMD method.</p>
+                  <p id="Par16">At the decomposition stage, determining the number of the ensembles and the amplitudes of the added white noise series is very crucial for the resultant results<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. Fortunately, these two parameters can be determined by use of a well-demonstrated statistical rule<sup><xref ref-type="bibr" rid="CR39">39</xref></sup><disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varepsilon_{n} = \frac{\varepsilon }{N}$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:msub><mml:mi>ε</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mi>ε</mml:mi><mml:mi>N</mml:mi></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where N is the number of the ensembles, <inline-formula id="IEq4"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varepsilon$$\end{document}</tex-math><mml:math id="M14"><mml:mi>ε</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq4.gif"/></alternatives></inline-formula> represents the amplitudes of the added white noise series, and <inline-formula id="IEq5"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varepsilon_{n}$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mi>ε</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq5.gif"/></alternatives></inline-formula> refers to the standard error. It has been shown that the EEMD technique can obtain a satisfactory result when the ensemble numbers were 100 and the amplitudes of added white noise series were 0.2 times standard deviation<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR56">56</xref></sup>.</p>
+                  <sec id="Sec8">
+                    <title>EEMD-ARIMA-NARANN mixture model</title>
+                    <p id="Par17">To achieve the goal of making full use of the constituent linear and nonlinear components in the object series, inspired by the “decomposition and ensemble” idea of the EEMD method and its powerful flexible nonlinear mapping capacity of the NARANN method<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>, the EEMD-ARIMA-NARANN mixture method was thus constructed. In this advanced mixture model-developing process, the prevalence and mortality time series of COVID-19 were first decomposed into various IMFs and residue terms. Then, each of IMFs terms was modeled by use of an adequate NARANN method; whereas the residue term was modeled by use of an adequate ARIMA method. Finally, the results from our proposed mixture method could be obtained by combing the forecasts from the ARIMA and NARANN models (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). By doing so, the new data-driven mixture technique can capture both linear and nonlinear patterns simultaneously in the prevalence and mortality series of COVID-19. The specific representation of our proposed EEMD-ARIMA-NARANN mixture method can be expressed as<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{b}_{t} = \sum\limits_{i = 1}^{N} ( f(IMF_{1} (t - 1), \ldots ,IMF_{1} (t - d)) + \cdots + (f(IMF_{N} (t - 1), \ldots ,IMF_{N} (t - d))$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>I</mml:mi><mml:mi>M</mml:mi><mml:msub><mml:mi>F</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>I</mml:mi><mml:mi>M</mml:mi><mml:msub><mml:mi>F</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>d</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mo>⋯</mml:mo><mml:mo>+</mml:mo><mml:mo stretchy="false">(</mml:mo></mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>I</mml:mi><mml:mi>M</mml:mi><mml:msub><mml:mi>F</mml:mi><mml:mi>N</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>I</mml:mi><mml:mi>M</mml:mi><mml:msub><mml:mi>F</mml:mi><mml:mi>N</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>d</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{y} = {\hat{\text{a}}}_{{\text{t}}} + \hat{b}_{t}$$\end{document}</tex-math><mml:math id="M20" display="block"><mml:mrow><mml:mover accent="true"><mml:mi>y</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mover accent="true"><mml:mtext>a</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mtext>t</mml:mtext></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq6"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{y}$$\end{document}</tex-math><mml:math id="M22"><mml:mover accent="true"><mml:mi>y</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq6.gif"/></alternatives></inline-formula> refers to the estimated results from the EEMD-ARIMA-NARANN mixture technique, <inline-formula id="IEq7"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{\text{a}}}_{{\text{t}}}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mover accent="true"><mml:mtext>a</mml:mtext><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mtext>t</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq7.gif"/></alternatives></inline-formula> represents the estimated results from the ARIMA model, <inline-formula id="IEq8"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{b}_{t}$$\end{document}</tex-math><mml:math id="M26"><mml:msub><mml:mover accent="true"><mml:mi>b</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq8.gif"/></alternatives></inline-formula> is the estimated results from the NARANN model.<fig id="Fig1"><label>Figure 1</label><caption><p>Flow chart of the novel data-driven EEMD-ARIMA-NARANN mixture method.</p></caption><graphic xlink:href="41598_2021_948_Fig1_HTML" id="MO1"/></fig></p>
+                  </sec>
+                  <sec id="Sec9">
+                    <title>Assessing model performance</title>
+                    <p id="Par18">In this study, four statistical measures of error, including root mean square percentage error (RMSPE), mean absolute deviation (MAD), mean error rate (MER), and mean absolute percentage error (MAPE), were calculated to evaluate the accuracy of forecasts. The above statistical measures of error had smaller values, indicating a better model.<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{RMSPE}} = \sqrt {\frac{1}{N}\sum\limits_{i = 1}^{N} {\left( ({X_{i} - \overline{X}_{i})/{X_{i}} } \right)^{{2}} } }$$\end{document}</tex-math><mml:math id="M28" display="block"><mml:mrow><mml:mtext>RMSPE</mml:mtext><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:msup><mml:mfenced close=")" open="("><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mover><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">/</mml:mo></mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{MAD}} = \frac{1}{N}\sum\limits_{i = 1}^{N} {\left| {X_{i} - \hat{X}_{i} } \right|}$$\end{document}</tex-math><mml:math id="M30" display="block"><mml:mrow><mml:mtext>MAD</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mfenced close="|" open="|"><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{MER}} = \frac{{\frac{1}{N}\sum\limits_{i = 1}^{N} {\left| {X_{i} - \hat{X}_{i} } \right|} }}{{\overline{X}_{i} }}$$\end{document}</tex-math><mml:math id="M32" display="block"><mml:mrow><mml:mtext>MER</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mfenced close="|" open="|"><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:msub><mml:mover><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{MAPE}} = \frac{1}{N}\sum\limits_{i = 1}^{N} {\frac{{\left| {X_{i} } \right. - \left. {\hat{X}_{i} } \right|}}{{X_{i} }} \times 100}$$\end{document}</tex-math><mml:math id="M34" display="block"><mml:mrow><mml:mtext>MAPE</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mrow><mml:mfrac><mml:mrow><mml:mfenced open="|"><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced><mml:mo>-</mml:mo><mml:mfenced close="|"><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mfenced></mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfrac><mml:mo>×</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2021_948_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>here <inline-formula id="IEq9"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X_{i}$$\end{document}</tex-math><mml:math id="M36"><mml:msub><mml:mi>X</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq9.gif"/></alternatives></inline-formula> signifies the prevalence and mortality data of COVID-19, <inline-formula id="IEq10"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{X}_{i}$$\end{document}</tex-math><mml:math id="M38"><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq10.gif"/></alternatives></inline-formula> is the estimates using the chosen approaches, <inline-formula id="IEq11"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\overline{X}_{i}$$\end{document}</tex-math><mml:math id="M40"><mml:msub><mml:mover><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq11.gif"/></alternatives></inline-formula> refers to the mean of the prevalence and mortality data of COVID-19, and <inline-formula id="IEq12"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$N$$\end{document}</tex-math><mml:math id="M42"><mml:mi>N</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_948_Article_IEq12.gif"/></alternatives></inline-formula> stands for the number of simulations and forecasts.</p>
+                  </sec>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Results</title>
+              <sec id="Sec11">
+                <title>Development of the ARIMA model</title>
+                <p id="Par19">During the study span, the overall confirmed cases totaled 12,459 in South Africa and 23,298 in Nigeria, with a daily mean of 1030 and 193 cases, respectively. Out of them, there were overall 2340 deaths in South Africa and 554 deaths in Nigeria, with a daily mean of 20 and 5 cases, respectively. As shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref>, the prevalence and mortality time series displayed an apparent increasing trend, so the differencing is required to remove the trend effects of these target series. After differencing, an ADF test was employed to the differenced series, and the resulting statistics for the differenced series are illustrated in Table <xref rid="MOESM1" ref-type="media">S1</xref>, indicating a stationary series. Thus, the possible values of the ARIMA models’ key parameters were crudely determined based on these stationary series. As illustrated in Table <xref rid="Tab1" ref-type="table">1</xref>, it appeared that the sparse coefficient ARIMA (2, 2, (1, 3)) (AIC = 1482.590, CAIC = 1483.441, BIC = 1498.642, and Log-likelihood = -736.290) and ARIMA (0, 2,(1, 3, 4)) (AIC = 733.390, CAIC = 733.980, BIC = 746.750, and Log-likelihood = − 362.690) specifications were expected to be considered the best models for simulating the prevalence and mortality data, respectively, in South Africa because the measurement metrics of AIC, CAIC, and BIC provided the lowest values, and log-likelihood gave the greatest value among all the possible models. Furthermore, as illustrated in Tables <xref rid="Tab2" ref-type="table">2</xref> and <xref rid="Tab3" ref-type="table">3</xref>, Fig. <xref rid="Fig3" ref-type="fig">3</xref>, the identified key parameters of the best-fitting ARIMA models showed a statistical significance (<italic>p</italic> &lt; 0.05) and the Box-Ljung Q tests for the error series from these best models suggested no statistical significance at different lags (<italic>p</italic> &gt; 0.05), these results meant that the identified optimal ARIMA models are adequate for modeling the target data. Similarly, the diagnostic checking for the best ARIMA models could be done on the residuals from the prevalence and mortality data in Nigeria (Tables <xref rid="Tab1" ref-type="table">1</xref>, <xref rid="Tab2" ref-type="table">2</xref>, <xref rid="Tab3" ref-type="table">3</xref> and Fig. <xref rid="Fig3" ref-type="fig">3</xref>), it was demonstrated that the ARIMA (1, 2, 2) and sparse coefficient ARIMA (0, 2,(1, 2, 4)) models were also suitable for modeling the prevalence and mortality data, respectively, in Nigeria. Accordingly, these preferred ARIMA models determined can be used to forecast the epidemics in the next days.<fig id="Fig2"><label>Figure 2</label><caption><p>Time series plots showing the prevalence and mortality data of COVID-19 in South Africa and Nigeria (<bold>A</bold>) The overall confirmed cases in these two countries; (<bold>B</bold>) The overall deaths in these two countries.</p></caption><graphic xlink:href="41598_2021_948_Fig2_HTML" id="MO2"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>The possible tested ARIMA models for the prevalence and mortality time series of COVID-19 in South Africa and Nigeria.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Country</th><th align="left">Model</th><th align="left">AIC</th><th align="left">CAIC</th><th align="left">BIC</th><th align="left">Log likelihood</th></tr></thead><tbody><tr><td align="left" rowspan="13">South Africa</td><td align="left" colspan="5">Prevalence data</td></tr><tr><td align="left">ARIMA (2, 2, (1, 3))</td><td char="." align="char">1482.590</td><td char="." align="char">1483.441</td><td char="." align="char">1498.642</td><td char="." align="char">− 736.290</td></tr><tr><td align="left">ARIMA (0, 2, 1)</td><td char="." align="char">1485.030</td><td char="." align="char">1485.140</td><td char="." align="char">1490.370</td><td char="." align="char">− 740.510</td></tr><tr><td align="left">ARIMA (0, 2, 2)</td><td char="." align="char">1486.980</td><td char="." align="char">1487.210</td><td char="." align="char">1495.000</td><td char="." align="char">− 740.490</td></tr><tr><td align="left">ARIMA (0, 2, 3)</td><td char="." align="char">1488.880</td><td char="." align="char">1489.280</td><td char="." align="char">1499.580</td><td char="." align="char">− 740.440</td></tr><tr><td align="left">ARIMA (1, 2, 3)</td><td char="." align="char">1484.830</td><td char="." align="char">1485.420</td><td char="." align="char">1498.190</td><td char="." align="char">− 737.420</td></tr><tr><td align="left">ARIMA (2, 2, 0)</td><td char="." align="char">1487.060</td><td char="." align="char">1487.300</td><td char="." align="char">1495.080</td><td char="." align="char">− 740.530</td></tr><tr><td align="left" colspan="5">Mortality data</td></tr><tr><td align="left">ARIMA (0, 2, (1, 3, 4))</td><td char="." align="char">733.390</td><td char="." align="char">733.980</td><td char="." align="char">746.750</td><td char="." align="char">− 362.690</td></tr><tr><td align="left">ARIMA (0, 2, 1)</td><td char="." align="char">750.650</td><td char="." align="char">750.770</td><td char="." align="char">756.000</td><td char="." align="char">− 373.330</td></tr><tr><td align="left">ARIMA (0, 2, 2)</td><td char="." align="char">752.540</td><td char="." align="char">752.780</td><td char="." align="char">760.560</td><td char="." align="char">− 373.270</td></tr><tr><td align="left">ARIMA (0, 2, 3)</td><td char="." align="char">742.200</td><td char="." align="char">742.590</td><td char="." align="char">752.890</td><td char="." align="char">− 367.100</td></tr><tr><td align="left">ARIMA (1, 2, 1)</td><td char="." align="char">752.610</td><td char="." align="char">752.840</td><td char="." align="char">760.630</td><td char="." align="char">− 373.310</td></tr><tr><td align="left" rowspan="13">Nigeria</td><td align="left" colspan="5">Prevalence data</td></tr><tr><td align="left">ARIMA (1, 2, 2)</td><td char="." align="char">1319.300</td><td char="." align="char">1319.690</td><td char="." align="char">1329.990</td><td char="." align="char">− 655.650</td></tr><tr><td align="left">ARIMA (0, 2, 1)</td><td char="." align="char">1323.680</td><td char="." align="char">1323.790</td><td char="." align="char">1329.020</td><td char="." align="char">− 659.840</td></tr><tr><td align="left">ARIMA (0, 2, 2)</td><td char="." align="char">1322.700</td><td char="." align="char">1322.930</td><td char="." align="char">1330.720</td><td char="." align="char">− 658.350</td></tr><tr><td align="left">ARIMA (1, 2, 0)</td><td char="." align="char">1349.550</td><td char="." align="char">1349.660</td><td char="." align="char">1354.890</td><td char="." align="char">− 672.770</td></tr><tr><td align="left">ARIMA (1, 2, 1)</td><td char="." align="char">1324.100</td><td char="." align="char">1324.330</td><td char="." align="char">1332.120</td><td char="." align="char">− 659.050</td></tr><tr><td align="left">ARIMA (2, 2, 1)</td><td char="." align="char">1322.600</td><td char="." align="char">1323.000</td><td char="." align="char">1333.300</td><td char="." align="char">− 657.300</td></tr><tr><td align="left" colspan="5">Mortality data</td></tr><tr><td align="left">ARIMA (0, 2, (1, 2, 4))</td><td char="." align="char">591.220</td><td char="." align="char">591.810</td><td char="." align="char">604.580</td><td char="." align="char">− 291.610</td></tr><tr><td align="left">ARIMA (0, 2, 1)</td><td char="." align="char">600.390</td><td char="." align="char">600.510</td><td char="." align="char">605.740</td><td char="." align="char">− 298.200</td></tr><tr><td align="left">ARIMA (0, 2, 2)</td><td char="." align="char">601.940</td><td char="." align="char">602.170</td><td char="." align="char">609.960</td><td char="." align="char">− 297.960</td></tr><tr><td align="left">ARIMA (0, 2, 
+3)</td><td char="." align="char">602.470</td><td char="." align="char">602.860</td><td char="." align="char">613.160</td><td char="." align="char">− 297.240</td></tr><tr><td align="left">ARIMA (0, 2, 4)*</td><td char="." align="char">592.980</td><td char="." align="char">593.570</td><td char="." align="char">606.340</td><td char="." align="char">− 291.490</td></tr></tbody></table><table-wrap-foot><p><italic>ARIMA</italic> Autoregressive integrated moving average method, <italic>AIC</italic> Akaike information criteria, <italic>CAIC</italic> consistent AIC, <italic>BIC</italic> Bayesian information criterion.</p><p>*Represents the parameters were no significantly statistical difference.</p></table-wrap-foot></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>The identified parameters of the best-fitting ARIMA models for the prevalence and mortality time series of COVID-19 in South Africa and Nigeria.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Country</th><th align="left">Model</th><th align="left">Parameters</th><th align="left">Estimates</th><th align="left">Standard error</th><th align="left">t</th><th align="left"><italic>p</italic></th></tr></thead><tbody><tr><td align="left" rowspan="9">South Africa</td><td align="left" colspan="6">Prevalence data</td></tr><tr><td align="left" rowspan="4">ARIMA (2, 2, (1, 3))</td><td align="left">AR1</td><td char="." align="char">− 1.390</td><td char="." align="char">0.146</td><td char="." align="char">− 9.521</td><td char="." align="char"> &lt; 0.001</td></tr><tr><td align="left">AR2</td><td char="." align="char">− 0.432</td><td char="." align="char">0.141</td><td char="." align="char">− 3.064</td><td char="." align="char">0.001</td></tr><tr><td align="left">MA1</td><td char="." align="char">1.257</td><td char="." align="char">0.093</td><td char="." align="char">13.516</td><td char="." align="char"> &lt; 0.001</td></tr><tr><td align="left">MA3</td><td char="." align="char">− 0.367</td><td char="." align="char">0.086</td><td char="." align="char">− 4.267</td><td char="." align="char">0.001</td></tr><tr><td align="left" colspan="6">Mortality data</td></tr><tr><td align="left" rowspan="3">ARIMA (0, 2, (1, 3, 4))</td><td align="left">MA1</td><td char="." align="char">− 0.958</td><td char="." align="char">0.084</td><td char="." align="char">− 11.405</td><td char="." align="char"> &lt; 0.001</td></tr><tr><td align="left">MA3</td><td char="." align="char">0.344</td><td char="." align="char">0.134</td><td char="." align="char">2.567</td><td char="." align="char">0.006</td></tr><tr><td align="left">MA4</td><td char="." align="char">0.362</td><td char="." align="char">0.099</td><td char="." align="char">3.657</td><td char="." align="char"> &lt; 0.001</td></tr><tr><td align="left" rowspan="8">Nigeria</td><td align="left" colspan="6">Prevalence data</td></tr><tr><td align="left" rowspan="3">ARIMA (1, 2, 2)</td><td align="left">AR1</td><td char="." align="char">0.632</td><td char="." align="char">0.201</td><td char="." align="char">3.144</td><td char="." align="char">0.001</td></tr><tr><td align="left">MA1</td><td char="." align="char">− 1.646</td><td char="." align="char">0.153</td><td char="." align="char">− 10.758</td><td char="." align="char"> &lt; 0.001</td></tr><tr><td align="left">MA2</td><td char="." align="char">0.755</td><td char="." align="char">0.120</td><td char="." align="char">6.292</td><td char="." align="char"> &lt; 0.001</td></tr><tr><td align="left" colspan="6">Mortality data</td></tr><tr><td align="left" rowspan="3">ARIMA (0, 2, (1, 2, 4))</td><td align="left">MA1</td><td char="." align="char">− 0.928</td><td char="." align="char">0.097</td><td char="." align="char">− 9.567</td><td char="." align="char"> &lt; 0.001</td></tr><tr><td align="left">MA2</td><td char="." align="char">− 0.198</td><td char="." align="char">0.119</td><td char="." align="char">− 1.664</td><td char="." align="char">0.0495</td></tr><tr><td align="left">MA4</td><td char="." align="char">0.437</td><td char="." align="char">0.069</td><td char="." align="char">6.333</td><td char="." align="char"> &lt; 0.001</td></tr></tbody></table><table-wrap-foot><p><italic>ARIMA</italic> Autoregressive integrated moving average method, <italic>AR</italic> autoregressive method, <italic>MA</italic> moving average method.</p></table-wrap-foot></table-wrap><table-wrap id="Tab3"><label>Table 3</label><caption><p>Box-Ljung Q test for the residual series from the best ARIMA and NARANN models.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="3">Lags</th><th align="left" colspan="4">Prevalence data</th><th align="left" colspan="4">Mortality data</th></tr><tr><th align="left" colspan="2">ARIMA</th><th align="left" colspan="2">NARANN</th><th align="left" colspan="2">ARIMA</th><th align="left" colspan="2">NARANN</th></tr><tr><th align="left">Box-Ljung Q</th><th align="left"><italic>p</italic></th><th align="left">Box-Ljung Q</th><th align="left"><italic>p</italic></th><th align="left">Box-Ljung Q</th><th align="left"><italic>p</italic></th><th align="left">Box-Ljung Q</th><th align="left"><italic>p</italic></th></tr></thead><tbody><tr><td align="left">1</td><td char="." align="char">0.019</td><td char="." align="char">0.890</td><td char="." align="char">0.019</td><td char="." align="char">0.890</td><td char="." align="char">0.022</td><td char="." align="char">0.881</td><td char="." align="char">0.004</td><td char="." align="char">0.948</td></tr><tr><td align="left">2</td><td char="." align="char">0.388</td><td char="." align="char">0.824</td><td char="." align="char">0.954</td><td char="." align="char">0.621</td><td char="." align="char">0.677</td><td char="." align="char">0.713</td><td char="." align="char">0.005</td><td char="." align="char">0.998</td></tr><tr><td align="left">3</td><td char="." align="char">0.481</td><td char="." align="char">0.923</td><td char="." align="char">1.038</td><td char="." align="char">0.792</td><td char="." align="char">0.721</td><td char="." align="char">0.868</td><td char="." align="char">0.005</td><td char="." align="char">1.000</td></tr><tr><td align="left">4</td><td char="." align="char">1.473</td><td char="." align="char">0.832</td><td char="." align="char">1.082</td><td char="." align="char">0.897</td><td char="." align="char">0.724</td><td char="." align="char">0.948</td><td char="." align="char">1.010</td><td char="." align="char">0.908</td></tr><tr><td align="left">5</td><td char="." align="char">1.796</td><td char="." align="char">0.877</td><td char="." align="char">1.278</td><td char="." align="char">0.937</td><td char="." align="char">2.229</td><td char="." align="char">0.817</td><td char="." align="char">3.096</td><td char="." align="char">0.685</td></tr><tr><td align="left">6</td><td char="." align="char">1.925</td><td char="." align="char">0.927</td><td char="." align="char">2.061</td><td char="." align="char">0.914</td><td char="." align="char">2.474</td><td char="." align="char">0.871</td><td char="." align="char">3.193</td><td char="." align="char">0.784</td></tr><tr><td align="left">7</td><td char="." align="char">10.181</td><td char="." align="char">0.179</td><td char="." align="char">2.105</td><td char="." align="char">0.954</td><td char="." align="char">2.477</td><td char="." align="char">0.929</td><td char="." align="char">5.348</td><td char="." align="char">0.618</td></tr><tr><td align="left">8</td><td char="." align="char">15.118</td><td char="." align="char">0.057</td><td char="." align="char">2.111</td><td char="." align="char">0.977</td><td char="." align="char">3.659</td><td char="." align="char">0.887</td><td char="." align="char">6.263</td><td char="." align="char">0.618</td></tr><tr><td align="left">9</td><td char="." align="char">15.126</td><td char="." align="char">0.088</td><td char="." align="char">3.228</td><td char="." align="char">0.955</td><td char="." align="char">3.663</td><td char="." align="char">0.932</td><td char="." align="char">7.036</td><td char="." align="char">0.633</td></tr><tr><td align="left">10</td><td char="." align="char">16.616</td><td char="." align="char">0.083</td><td char="." align="char">3.292</td><td char="." align="char">0.974</td><td char="." align="char">6.233</td><td char="." align="char">0.795</td><td char="." align="char">7.296</td><td char="." align="char">0.697</td></tr><tr><td align="left">11</td><td char="." align="char">17.150</td><td char="." align="char">0.104</td><td char="." align="char">3.336</td><td char="." align="char">0.986</td><td char="." align="char">6.513</td><td char="." align="char">0.837</td><td char="." align="char">7.422</td><td char="." align="char">0.764</td></tr><tr><td align="left">12</td><td char="." align="char">17.424</td><td char="." align="char">0.134</td><td char="." align="char">4.141</td><td char="." align="char">0.981</td><td char="." align="char">9.342</td><td char="." align="char">0.674</td><td char="." align="char">7.478</td><td char="." align="char">0.825</td></tr></tbody></table><table-wrap-foot><p><italic>ARIMA</italic> Autoregressive integrated moving average method, <italic>NARANN</italic> nonlinear autoregressive artificial neural network.</p></table-wrap-foot></table-wrap><fig id="Fig3"><label>Figure 3</label><caption><p>Autocorrelogram (ACF) and partial autocorrelogram (PACF) of the residuals generated by the best ARIMA model. (<bold>A</bold>) Sample ACFs and PACFs of the residuals for the prevalence dada in South 
+Africa; (<bold>B</bold>) Sample ACFs and PACFs of the residuals for the mortality dada in South Africa; (<bold>C</bold>) Sample ACFs and PACFs of the residuals for the prevalence dada in Nigeria; (<bold>D</bold>) Sample ACFs and PACFs of the residuals for the mortality dada in Nigeria. As shown, almost all sample ACFs and PACFs fell within the estimated 95% uncertainty levels across different lags except for the sample ACFs at lags 7, 8, and 15, along with the sample PACFs at lags 7 and 8 in (<bold>A),</bold> the sample PACFs at lags 12 and 17 in (<bold>B),</bold> and the sample ACFs and PACFs lag 15 in (<bold>C)</bold> (which are also reasonable because some higher-order correlation coefficients readily exceed the estimated 95% uncertainty levels by chance). These results meant that the residuals from identified ARIMA models for different datasets were without pattern, suggesting that the selected ARIMA models appear to be suitable for capturing the dynamic dependency structure in the object series.</p></caption><graphic xlink:href="41598_2021_948_Fig3_HTML" id="MO3"/></fig></p>
+              </sec>
+              <sec id="Sec12">
+                <title>Construction of the NARANN model</title>
+                <p id="Par20">To obtain the preferred NARANN model, the different number of hidden units ranging from 1 to 20 and feedback delays ranging from 1 to 6 were trained by trial and error. After trying, it was found that the NARANN with 15 hidden units and 6 delays and the NARANN with 14 hidden units and 5 delays tended to be identified as the optimal specifications for mimicking the prevalence and mortality data, respectively, in South Africa as the NARANN (15,6) and NARANN (14,5) specifications showed the lowest MSE values in the training (2648.213 and 9.710, respectively), validation (1595.504 and 12.849, respectively), and testing (8647.196 and 24.024, respectively) subsets, along with the greatest R values in the training (1 and 1, respectively), validation (1 and 1, respectively), and testing (1 and 1, respectively) subsets of the prevalence and mortality data among all the potential models (Tables <xref rid="Tab3" ref-type="table">3</xref> and <xref rid="Tab4" ref-type="table">4</xref>, Figures <xref rid="MOESM1" ref-type="media">S1</xref> and <xref rid="MOESM1" ref-type="media">S2</xref>). Moreover, almost all autocorrelation coefficients of the resulting errors fell into the estimated 95% uncertainty level (UL) at different lags and the response plots between inputs and outputs showed that the resulting residuals presented an acceptable level of fluctuation in their corresponding subsets (Figs. <xref rid="Fig4" ref-type="fig">4</xref>, <xref rid="Fig5" ref-type="fig">5</xref>). The above-mentioned results intimated that the identified two best NARANN specifications offered reliable estimates for the prevalence and mortality series in South Africa. Likewise, we determined the best NARANN (15,6) and NARANN (14,6) specifications for fitting the prevalence and mortality data, respectively, in Nigeria according to the modeling steps, and the statistical checking results exhibited that these identified NARANN specifications were also appropriate (Tables <xref rid="Tab3" ref-type="table">3</xref>, <xref rid="Tab4" ref-type="table">4</xref>, Figs. <xref rid="Fig4" ref-type="fig">4</xref>, <xref rid="Fig5" ref-type="fig">5</xref>, <xref rid="MOESM1" ref-type="media">S3</xref> and <xref rid="MOESM1" ref-type="media">S4</xref>). Therefore, these resulting best NARANN models can be applied to the target series to generate forecasts for the testing samples.<table-wrap id="Tab4"><label>Table 4</label><caption><p>The identified parameters of the best NARANN and EEMD-ARIMA-NARANN hybrid models for different target series.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Country</th><th align="left" rowspan="2">Target series</th><th align="left" rowspan="2">Hidden units</th><th align="left" rowspan="2">Delays</th><th align="left" colspan="3">MSE</th><th align="left" colspan="4">R</th></tr><tr><th align="left">Training subseries</th><th align="left">Validation subseries</th><th align="left">Testing subseries</th><th align="left">Training subseries</th><th align="left">Validation subseries</th><th align="left">Testing subseries</th><th align="left">Overall</th></tr></thead><tbody><tr><td align="left" rowspan="14">South Africa</td><td align="left" colspan="10">Prevalence data</td></tr><tr><td align="left">Original series</td><td char="." align="char">15</td><td char="." align="char">6</td><td char="." align="char">2648.213</td><td char="." align="char">1595.504</td><td char="." align="char">8647.196</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF1</td><td char="." align="char">15</td><td char="." align="char">5</td><td char="." align="char">50,572.372</td><td char="." align="char">84,373.288</td><td char="." align="char">136,600.627</td><td char="." align="char">0.864</td><td char="." align="char">0.742</td><td char="." align="char">0.632</td><td char="." align="char">0.834</td></tr><tr><td align="left">IMF2</td><td char="." align="char">16</td><td char="." align="char">4</td><td char="." align="char">8177.455</td><td char="." align="char">3132.033</td><td char="." align="char">8164.032</td><td char="." align="char">0.959</td><td char="." align="char">0.969</td><td char="." align="char">0.944</td><td char="." align="char">0.960</td></tr><tr><td align="left">IMF3</td><td char="." align="char">15</td><td char="." align="char">5</td><td char="." align="char">80.456</td><td char="." align="char">96.150</td><td char="." align="char">439.063</td><td char="." align="char">1.000</td><td char="." align="char">0.999</td><td char="." align="char">0.998</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF4</td><td char="." align="char">14</td><td char="." align="char">4</td><td char="." align="char">5.420</td><td char="." align="char">1.215</td><td char="." align="char">4.841</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF5</td><td char="." align="char">14</td><td char="." align="char">5</td><td char="." align="char">6.780</td><td char="." align="char">4.005</td><td char="." align="char">3.993</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left" colspan="10">Mortality data</td></tr><tr><td align="left">Original series</td><td char="." align="char">14</td><td char="." align="char">5</td><td char="." align="char">9.710</td><td char="." align="char">12.849</td><td char="." align="char">24.024</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF1</td><td char="." align="char">17</td><td char="." align="char">5</td><td char="." align="char">34.933</td><td char="." align="char">99.083</td><td char="." align="char">32.655</td><td char="." align="char">0.823</td><td char="." align="char">0.626</td><td char="." align="char">0.920</td><td char="." align="char">0.789</td></tr><tr><td align="left">IMF2</td><td char="." align="char">16</td><td char="." align="char">5</td><td char="." align="char">2.428</td><td char="." align="char">7.065</td><td char="." align="char">5.659</td><td char="." align="char">0.976</td><td char="." align="char">0.922</td><td char="." align="char">0.981</td><td char="." align="char">0.971</td></tr><tr><td align="left">IMF3</td><td char="." align="char">14</td><td char="." align="char">5</td><td char="." align="char">4.363</td><td char="." align="char">1.155</td><td char="." align="char">1.411</td><td char="." align="char">0.999</td><td char="." align="char">0.999</td><td char="." align="char">0.999</td><td char="." align="char">0.999</td></tr><tr><td align="left">IMF4</td><td char="." align="char">15</td><td char="." align="char">4</td><td char="." align="char">2.444</td><td char="." align="char">2.518</td><td char="." align="char">6.129</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF5</td><td char="." align="char">15</td><td char="." align="char">4</td><td char="." align="char">1.672</td><td char="." align="char">4.768</td><td char="." align="char">4.259</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left" rowspan="14">Nigeria</td><td align="left" colspan="10">Prevalence data</td></tr><tr><td align="left">Original series</td><td char="." align="char">15</td><td char="." align="char">6</td><td char="." align="char">4417.994</td><td char="." align="char">3853.800</td><td char="." align="char">9902.660</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">0.999</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF1</td><td char="." align="char">17</td><td char="." align="char">5</td><td char="." align="char">5061.116</td><td char="." align="char">8908.892</td><td char="." align="char">15,396.154</td><td char="." align="char">0.816</td><td char="." align="char">0.764</td><td char="." align="char">0.575</td><td char="." align="char">0.763</td></tr><tr><td align="left">IMF2</td><td char="." align="char">16</td><td char="." align="char">5</td><td char="." align="char">774.071</td><td char="." align="char">1073.004</td><td char="." align="char">494.054</td><td char="." align="char">0.933</td><td char="." align="char">0.930</td><td char="." align="char">0.981</td><td char="." align="char">0.938</td></tr><tr><td align="left">IMF3</td><td char="." align="char">15</td><td char="." align="char">5</td><td char="." align="char">9.138</td><td char="." align="char">27.153</td><td char="." align="char">18.503</td><td char="." align="char">0.999</td><td char="." align="char">0.991</td><td char="." align="char">0.990</td><td char="." align="char">0.998</td></tr><tr><td align="left">IMF4</td><td char="." align="char">16</td><td char="." align="char">6</td><td char="." align="char">1.751</td><td char="." align="char">2.290</td><td char="." align="char">7.026</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF5</td><td char="." align="char">15</td><td char="." align="char">5</td><td char="." align="char">1.632</td><td char="." align="char">1.278</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left" colspan="10">Mortality data</td></tr><tr><td align="left">Original series</td><td char="." align="char">14</td><td char="." align="char">6</td><td char="." align="char">4.259</td><td char="." align="char">9.533</td><td char="." align="char">15.204</td><td char="." align="char">1.000</td><td char="." align="char">0.999</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF1</td><td char="." align="char">18</td><td char="." align="char">5</td><td char="." align="char">2.467</td><td char="." align="char">6.268</td><td char="." align="char">7.791</td><td char="." align="char">0.890</td><td char="." align="char">0.779</td><td char="." align="char">0.235</td><td char="." align="char">0.830</td></tr><tr><td align="left">IMF2</td><td char="." align="char">16</td><td char="." align="char">5</td><td char="." align="char">3.259</td><td char="." align="char">4.492</td><td char="." align="char">8.789</td><td char="." align="char">0.978</td><td char="." align="char">0.970</td><td char="." align="char">0.979</td><td char="." align="char">0.976</td></tr><tr><td align="left">IMF3</td><td char="." align="char">15</td><td char="." align="char">5</td><td char="." align="char">3.690</td><td char="." align="char">2.591</td><td char="." align="char">4.244</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">0.997</td><td char="." align="char">0.999</td></tr><tr><td align="left">IMF4</td><td char="." align="char">14</td><td char="." align="char">6</td><td char="." align="char">1.292</td><td char="." align="char">2.924</td><td char="." align="char">2.852</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr><tr><td align="left">IMF5</td><td char="." align="char">15</td><td char="." align="char">5</td><td char="." align="char">2.628</td><td char="." align="char">4.384</td><td char="." align="char">5.654</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td><td char="." align="char">1.000</td></tr></tbody></table><table-wrap-foot><p><italic>MSE</italic> mean square error.</p></table-wrap-foot></table-wrap><fig id="Fig4"><label>Figure 4</label><caption><p>Autocorrelogram (ACF) of the residuals generated by the best NARANN model. (<bold>A</bold>) Sample ACFs of the residuals for the prevalence dada in South Africa; (<bold>B</bold>) Sample ACFs of the residuals for the mortality dada in South Africa; (<bold>C</bold>) Sample ACFs of the residuals for the prevalence dada in Nigeria; (<bold>D</bold>) Sample ACFs of the residuals for the mortality dada in Nigeria.</p></caption><graphic xlink:href="41598_2021_948_Fig4_HTML" id="MO4"/></fig><fig id="Fig5"><label>Figure 5</label><caption><p>Time series displaying the response results between inputs and outputs. (<bold>A</bold>) Response plot between inputs and outputs for the prevalence dada in South Africa; (<bold>B</bold>) Response plot between inputs and outputs for the mortality dada in South Africa; (<bold>C</bold>) Response plot between inputs and outputs for the prevalence dada in Nigeria; (<bold>D</bold>) Response plot between inputs and outputs for the mortality dada in Nigeria. These plots display which samples were treated as the training, validation and testing datasets, and illustrate the corresponding errors between inputs and targets. It could be seen that the vast majority of data points had smaller errors between inputs and targets, indicating that the identified NARANN methods seem to be adequate for estimating the epidemiological trends of COVID-19 in the study regions.</p></caption><graphic xlink:href="41598_2021_948_Fig5_HTML" id="MO5"/></fig></p>
+              </sec>
+              <sec id="Sec13">
+                <title>Establishment of the EEMD-ARIMA-NARANN hybrid model</title>
+                <p id="Par21">Based on the decomposed procedures, the original target series was decomposed into different IMFs and residues (Fig. <xref rid="Fig6" ref-type="fig">6</xref>). Subsequently, the residues representing the trends of the target series were used to establish the ARIMA model, and the obtained best-fitting ARIMA models and their goodness of fit statistics for different target series are listed in Table <xref rid="Tab5" ref-type="table">5</xref>; whereas the IMFs components representing the detailed (nonlinear) information contained in the target series were employed to develop the NARANN models, and the identified best-fitting NARANN models and their diagnostic testing results for various IMFs series are summarized in Table <xref rid="Tab4" ref-type="table">4</xref>. Then each decomposed series is fitted and predicted by adopting the most appropriate target models and the resulting in-sample simulations and out-of-sample forecasts can be summed to obtain the final results from the advanced EEMD-ARIMA-NARANN hybrid model.<fig id="Fig6"><label>Figure 6</label><caption><p>Intrinsic Mode Functions (IMFs) subseries via decomposing the original prevalence and mortality time series. (<bold>A</bold>) The resulting IMFs subseries by decomposing the prevalence series in South Africa; (<bold>B</bold>) The resulting IMFs subseries by decomposing the mortality series in South Africa; (<bold>C</bold>) The resulting IMFs subseries by decomposing the prevalence series in Nigeria; (<bold>D</bold>) The resulting IMFs subseries by decomposing the mortality series in Nigeria.</p></caption><graphic xlink:href="41598_2021_948_Fig6_HTML" id="MO6"/></fig><table-wrap id="Tab5"><label>Table 5</label><caption><p>The identified parameters of the best-fitting ARIMA models for the decomposed residue of the COVID-19 the prevalence and mortality in South Africa and Nigeria.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Country</th><th align="left" rowspan="2">Model</th><th align="left" rowspan="2">Parameters</th><th align="left" rowspan="2">Estimates</th><th align="left" rowspan="2">Standard Error</th><th align="left" rowspan="2">t</th><th align="left" rowspan="2"><italic>p</italic></th><th align="left" rowspan="2">R<sup>2</sup></th><th align="left" rowspan="2">Stationary R<sup>2</sup></th><th align="left" rowspan="2">Normalized BIC</th><th align="left" colspan="2">Box-Ljung Q</th></tr><tr><th align="left">Statistics</th><th align="left"><italic>p</italic></th></tr></thead><tbody><tr><td align="left" rowspan="5">South Africa</td><td align="left" colspan="11">Residue of the prevalence data</td></tr><tr><td align="left" rowspan="2">ARIMA(0, 4, 2)</td><td align="left">MA1</td><td align="left">− 1.019</td><td align="left">0.084</td><td align="left">− 12.164</td><td align="left"> &lt; 0.001</td><td align="left" rowspan="2">1.000</td><td align="left" rowspan="2">0.493</td><td align="left" rowspan="2">− 13.179</td><td align="left" rowspan="2">5.616</td><td align="left" rowspan="2">0.992</td></tr><tr><td align="left">MA2</td><td align="left">− 0.536</td><td align="left">0.084</td><td align="left">− 6.401</td><td align="left"> &lt; 0.001</td></tr><tr><td align="left" colspan="11">Residue of the mortality data</td></tr><tr><td align="left">ARIMA(1, 3, 0)</td><td align="left">AR1</td><td align="left">1.000</td><td align="left">2.14E− 05</td><td align="left">46,715.700</td><td align="left"> &lt; 0.001</td><td align="left">1.000</td><td align="left">–</td><td align="left">− 21.213</td><td align="left">0.004</td><td align="left">1.000</td></tr><tr><td align="left" rowspan="5">Nigeria</td><td align="left" colspan="11">Residue of the prevalence data</td></tr><tr><td align="left" rowspan="2">ARIMA(0, 4, 2)</td><td align="left">MA1</td><td align="left">− 0.803</td><td align="left">0.097</td><td align="left">− 8.293</td><td align="left"> &lt; 0.001</td><td align="left" rowspan="2">1.000</td><td align="left" rowspan="2">0.382</td><td align="left" rowspan="2">− 16.364</td><td align="left" rowspan="2">3.248</td><td align="left" rowspan="2">1.000</td></tr><tr><td align="left">MA2</td><td align="left">− 0.194</td><td align="left">0.097</td><td align="left">− 1.995</td><td align="left">0.049</td></tr><tr><td align="left" colspan="11">Residue of the mortality data</td></tr><tr><td align="left">ARIMA(1, 4, 0)</td><td align="left">AR1</td><td align="left">0.662</td><td align="left">0.073</td><td align="left">9.083</td><td align="left"> &lt; 0.001</td><td align="left">1.000</td><td align="left">0.426</td><td align="left">− 24.307</td><td align="left">8.47</td><td align="left">0.955</td></tr></tbody></table><table-wrap-foot><p><italic>ARIMA</italic> Autoregressive integrated moving average method, <italic>BIC</italic> Bayesian information criterion, <italic>AR</italic> autoregressive method, <italic>MA</italic> moving average method.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec14">
+                <title>Comparisons of forecasting accuracy level between models</title>
+                <p id="Par22">We discovered that the EEMD-ARIMA-NARANN mixture model showed the lowest values of the measurement metrics, including MAD, MAPE, MER, and RMSPE, in addition to the RMSPE value in the prevalence data of Nigeria by comparing the forecasts for the testing samples from the selected best-fitting three models in the study regions (Table <xref rid="Tab6" ref-type="table">6</xref>). Consequently, we can conclude that our proposed mixture model is superior to the basic ARIMA and NARANN models. Further, we re-established our proposed hybrid model to forecast the future 15-day epidemiological trends of the COVID-19 prevalence and mortality based on the overall data, and the resulting best models and the final forecasts are visible in Figs. <xref rid="Fig7" ref-type="fig">7</xref>, <xref rid="MOESM1" ref-type="media">S5</xref> and <xref rid="MOESM1" ref-type="media">S6</xref>, Tables <xref rid="MOESM1" ref-type="media">S1</xref>–<xref rid="MOESM1" ref-type="media">S5</xref>. So the next 15-day forecasts of confirmed cases may be 176,570 (95% UL 173,607 to 178,476) in South Africa and 32,136 (95% UL 31,568 to 32,641) in Nigeria, and the forecasts of total deaths may be 3454 (95% UL 3384 to 3487) in South Africa and 788 (95% UL 775 to 804) in Nigeria (Table <xref rid="MOESM1" ref-type="media">S5</xref>).<table-wrap id="Tab6"><label>Table 6</label><caption><p>Comparisons of the predictive abilities for the testing samples of the prevalence and mortality time series of COVID-19 among these three selected models in South Africa and Nigeria.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Country</th><th align="left" rowspan="2">Model</th><th align="left" colspan="4">Predictive performance for prevalence data</th><th align="left" colspan="4">Predictive performance for mortality data</th></tr><tr><th align="left">MAD</th><th align="left">MAPE</th><th align="left">MER</th><th align="left">RMSPE</th><th align="left">MAD</th><th align="left">MAPE</th><th align="left">MER</th><th align="left">RMSPE</th></tr></thead><tbody><tr><td align="left" rowspan="3">South Africa</td><td align="left">ARIMA</td><td char="." align="char">2064.810</td><td char="." align="char">1.966</td><td char="." align="char">0.021</td><td char="." align="char">0.026</td><td char="." align="char">67.923</td><td char="." align="char">3.213</td><td char="." align="char">0.035</td><td char="." align="char">0.041</td></tr><tr><td align="left">NARANN</td><td char="." align="char">2996.471</td><td char="." align="char">2.908</td><td char="." align="char">0.031</td><td char="." align="char">0.036</td><td char="." align="char">58.052</td><td char="." align="char">3.102</td><td char="." align="char">0.030</td><td char="." align="char">0.037</td></tr><tr><td align="left">Hybrid model</td><td char="." align="char">1261.426</td><td char="." align="char">1.170</td><td char="." align="char">0.013</td><td char="." align="char">0.020</td><td char="." align="char">47.119</td><td char="." align="char">2.435</td><td char="." align="char">0.024</td><td char="." align="char">0.030</td></tr><tr><td align="left" colspan="10">Reduced percentages (%)</td></tr><tr><td align="left" colspan="2"> C vs. A</td><td char="." align="char">38.908</td><td char="." align="char">40.488</td><td char="." align="char">38.095</td><td char="." align="char">23.077</td><td char="." align="char">30.629</td><td char="." align="char">24.214</td><td char="." align="char">31.429</td><td char="." align="char">26.829</td></tr><tr><td align="left" colspan="2"> C vs. B</td><td char="." align="char">57.903</td><td char="." align="char">59.766</td><td char="." align="char">58.065</td><td char="." align="char">44.444</td><td char="." align="char">18.833</td><td char="." align="char">21.502</td><td char="." align="char">20.000</td><td char="." align="char">18.919</td></tr><tr><td align="left" rowspan="3">Nigeria</td><td align="left">ARIMA</td><td char="." align="char">326.775</td><td char="." align="char">1.620</td><td char="." align="char">0.016</td><td char="." align="char">0.017</td><td char="." align="char">27.959</td><td char="." align="char">5.477</td><td char="." align="char">0.056</td><td char="." align="char">0.058</td></tr><tr><td align="left">NARANN</td><td char="." align="char">371.259</td><td char="." align="char">1.792</td><td char="." align="char">0.019</td><td char="." align="char">0.028</td><td char="." align="char">20.913</td><td char="." align="char">4.118</td><td char="." align="char">0.041</td><td char="." align="char">0.057</td></tr><tr><td align="left">Hybrid model</td><td char="." align="char">280.279</td><td char="." align="char">1.388</td><td char="." align="char">0.014</td><td char="." align="char">0.017</td><td char="." align="char">14.490</td><td char="." align="char">2.917</td><td char="." align="char">0.029</td><td char="." align="char">0.032</td></tr><tr><td align="left" colspan="10">Reduced percentages (%)</td></tr><tr><td align="left" colspan="2"> C vs. A</td><td char="." align="char">14.229</td><td char="." align="char">14.321</td><td char="." align="char">12.500</td><td char="." align="char">0.000</td><td char="." align="char">48.174</td><td char="." align="char">46.741</td><td char="." align="char">48.214</td><td char="." align="char">44.828</td></tr><tr><td align="left" colspan="2"> C vs. B</td><td char="." align="char">24.506</td><td char="." align="char">22.545</td><td char="." align="char">26.316</td><td char="." align="char">39.286</td><td char="." align="char">30.713</td><td char="." align="char">29.165</td><td char="." align="char">29.268</td><td char="." align="char">43.860</td></tr></tbody></table><table-wrap-foot><p><italic>ARIMA</italic> Autoregressive integrated moving average method, <italic>NARANN</italic> nonlinear autoregressive artificial neural network, <italic>MAD</italic> Mean absolute deviation, <italic>MAPE</italic> Mean absolute percentage error, <italic>MER</italic> Mean error rate, <italic>RMSPE</italic> Root mean square percentage error, A refers to the ARIMA model, B refers to the NARANN model, C refers to the EEMD-ARIMA-NARANN hybrid model.</p></table-wrap-foot></table-wrap><fig id="Fig7"><label>Figure 7</label><caption><p>The next 15-day forecasts and their 95% uncertainty levels for the prevalence and mortality data using the best-fitting EEMD-ARIMA-NARANN mixture model. (<bold>A</bold>) The next 15-day forecasts for the prevalence data in South Africa; (<bold>B</bold>) The next 15-day forecasts for the mortality data in South Africa; (<bold>C</bold>) The next 15-day forecasts for the prevalence data in Nigeria; (<bold>D</bold>) The next 15-day forecasts for the mortality data in Nigeria.</p></caption><graphic xlink:href="41598_2021_948_Fig7_HTML" id="MO7"/></fig></p>
+              </sec>
+            </sec>
+            <sec id="Sec15">
+              <title>Discussion</title>
+              <p id="Par23">Effective prevention and control plans are needed to curb and harness the rapid transmission of the COVID-19 outbreak. Early nowcasting and forecasting are essential to forming such plans as the allocation of limited health resources, the timely adjustment of the current intervention strategies, the arrangement of production activities, and even the local economic development<sup><xref ref-type="bibr" rid="CR30">30</xref>,<xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR58">58</xref></sup>. For this reason, it is imperative to develop statistical techniques with high forecasting accuracy and reliability. Time series modeling is a useful aid for developing underlying hypotheses to analyze the current epidemic patterns and to predict the spreading dynamics of different diseases in the near future<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR7">7</xref></sup>. As far as we are aware, this is the only study to analyze and forecast the epidemiological trends of the COVID-19 prevalence and mortality time series in South Africa and Nigeria by use of a novel data-driven EEMD-ARIMA-NARANN hybrid technique, and a series of modeling experiments indicated that this new hybrid technique produced lower forecasting errors over the basic ARIMA and NARANN methods by comparing the measurement metrics, such as MAD, MAPE, MER, and RMSPE (Table <xref rid="Tab6" ref-type="table">6</xref>). These results meant our proposed hybrid method has a greater potential to track the dynamic dependence characteristics during the epidemic process of COVID-19 relative to the others used in this study, which may act as a profitable tool-supportive for policymakers to develop appropriate prevention and control strategies and measures in both mitigating the outbreak and reducing the deaths due to COVID-19 pandemic. Whilst this hybrid model is also of great value in assessing the effects of the current public interventions. For example, if this model forecasted a remarkably higher epidemic level than the actual in the coming periods, suggesting that the current measures could take effect in the target population; otherwise, indicating that the current public interventions could be required to be reinforced or additional plans could be needed. In addition, the basic ARIMA and NARANN models also provided a high forecasting accuracy for our target data in light of the above four measurement metrics.</p>
+              <p id="Par24">The most versatile method to fit the time series data is the ARIMA model, which postulates that there is a certain linear association between the future epidemics of a given series and the past and present states of the target series, and thus this model can not only be used to model nonseasonal data but also seasonal data, and such benefit as nonstationary data<sup><xref ref-type="bibr" rid="CR48">48</xref>,<xref ref-type="bibr" rid="CR49">49</xref></sup>. Yet for nonstationary series, it requires to be differenced and/or transformed with logarithm or square root<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. For instance, Yousaf et al. built the ARIMA (0, 2, 1), ARIMA (2, 2, 0), and ARIMA (1, 2, 1) models to study and predict the accumulative confirmed cases, recoveries, and deaths of COVID-19, respectively, for the upcoming month in Pakistan<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. Ceylan established the ARIMA (0, 2, 1), ARIMA (1, 2, 0), and ARIMA (0, 2, 1) models to forecast the total reported cases of COVID-19 in Italy, Spain, and France, respectively<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. Even though these obtained ARIMA models have high forecasting accuracy and reliability, the major disadvantage of the ARIMA model is its linear assumption, which makes it difficult to handle the randomness in the target series<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. Hence, we proposed a novel data-driven EEMD-ARIMA-NARANN hybrid model to overcome the limitation of the basic model. It can be said that this data-driven mixture technique shows a strong capacity to improve the forecasting power for the prevalence and mortality data of COVID-19 in that the principal advantage of such a model facilitates to identify the preferred hybridization by decomposing the target data into various multi-scale levels to consider the underlying trend and random parts simultaneously by use of the different types of models. Given the forecasting superiority of our proposed data-driven hybrid method, it seems that this hybrid model is also useful in nowcasting and forecasting the epidemiological trends of the COVID-19 prevalence and mortality time series in other regions or other infectious diseases<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. Of note, current studies found that some other forecasting tools (e.g., the new innovations state space modeling framework<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>, long short-term memory neural network<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>, advanced error-trend-seasonal (ETS) framework<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>, α-Sutte Indicator<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>, and SBDiEM<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>) performed a highly accurate forecast for the epidemiological trends of COVID-19. As a result, to further our research we are planning to make a comparative study between our proposed EEMD-SARIMA-NARANN hybrid model and the ones above. The contributions of the current work are several-fold. First, at least 14.321% and at most 40.488%, along with at least 22.545% and at most 59.766% of computational accuracies are achieved compared with the ARIMA and NARANN models, respectively, when using the MAPE (which is the most frequently used index to judge the predictive performance) to measure the forecasting accuracy. Second, this work presents a new data-driven integrated system in a more reasonable way compared with the conventional mixture pattern. Third, this new data-driven hybrid model may be generalized to estimate the epidemic patterns in other regions seriously affected by the COVID-19 outbreak.</p>
+              <p id="Par25">Given the outbreak trends of COVID-19 and the situation of the health infrastructure and services in Africa, there is a great concern on whether African regions’ health system capacity is able to duly and effectively meet the requirements of the medical supplies for the increased confirmed cases. For this reason, we used our proposed mixture technique to predict the next 15-day confirmed cases and deaths in South Africa and Nigeria. Particularly in South Africa, the infected individuals show an exponential trend since 18 May 2020 (Figs. <xref rid="Fig2" ref-type="fig">2</xref>, <xref rid="Fig7" ref-type="fig">7</xref>), and even worse, our prediction results display that the epidemiological trends of the outbreak may still be rapidly increasing with an average of around 3465 confirmed cases and 75 deaths per day in the upcoming 15 days in South Africa (Fig. <xref rid="Fig7" ref-type="fig">7</xref>A,B, Table <xref rid="MOESM1" ref-type="media">S5</xref>), and it needs more time to reach the platform in the morbidity. Therefore, more strict or additional precautionary measures are required to reduce the rapid spreading of COVID-19 (e.g., increasing the number of doctors, pharmacists, medical students, and other health workers who can offer their expertise in the frontlines of the pandemic response, strengthening the overnight curfew management to prevent the social interaction, raising public awareness by strengthening advocacy, issuing more stringent lockdown rules, building more mobile cabin hospitals to treat the mild patients, forcing mandated face-covering in public, suspending trans-regional public transportation, suspending or prohibiting tourism across regions, strengthening inspection and quarantine, extending the closure period of public places such as schools, universities and church, supporting the home office work, prohibiting possible social gatherings, accelerating research on the vaccines and clinical treatment programmes, and seeking help from other countries in a position to do so)<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR60">60</xref>,<xref ref-type="bibr" rid="CR63">63</xref></sup>. Nigeria that was hit the second hardest with the COVID-19 outbreak is witnessing a downward trend in the COVID-19 prevalence and mortality with daily 590 estimated confirmed cases and 16 deaths in the next 15 days (Fig. <xref rid="Fig7" ref-type="fig">7</xref>C,D, Table <xref rid="MOESM1" ref-type="media">S5</xref>). However, strict prophylactic measures still need to be implemented in Nigeria to avoid the rebounding of the outbreak.</p>
+              <p id="Par26">The findings in this report are subject to some shortcomings. Firstly, accurate statistics on the prevalence and mortality data in these two study regions are vital for the understanding of the epidemic patterns of COVID-19 by use of our proposed data-driven EEMD-ARIMA-NARANN hybrid technique. However, the limited nuclear acid detection ability may result in under-diagnosis or under-reporting for the prevalence and mortality data during the COVID-19 outbreak. Secondly, in the NARANN method-developing process, there is currently a lack of general guidelines for selecting the number of hidden neurons and delays. In applications, repeated training is required. Thirdly, although this data-driven mixture technique does a good job of estimating the epidemic patterns of COVID-19 in this study, whether this data-driven mixture technique can perform a highly accurate prediction for the epidemiological trends of COVID-19 in other regions or other infectious contagious diseases, more work will need to be done. Fourthly, the forecasting performance under the EEMD-ARIMA-NARANN hybrid technique may be further improved by integrating some related factors (e.g., internet search queries, meteorological parameters, air pollution indicators, and policy intervention), and further studies, which take these factors related to the COVID-19 into account, will be very interesting. However, this failed to be investigated in the current work. Lastly, the forecasting reliability level of this data-driven mixture technique may decrease with the increase of the forecasting periods. Therefore, the new real-time data should be integrated into the model to ensure its forecasting accuracy.</p>
+            </sec>
+            <sec id="Sec16">
+              <title>Conclusions</title>
+              <p id="Par27">Insights from the time series modeling are extremely invaluable for the policymaker to plan effective prevention and control strategies in order to make the outbreak under control well in the future. In this work, we proposed a new data-driven EEMD-ARIMA-NARANN mixture technique, and it is demonstrated that the predicted values from this mixture model show better consistency with the actual observations than the basic ARIMA and NARANN methods, which can function as a helpful policy-supportive tool to plan and prepare medical supplies effectively, and thus favoring to alleviate the outbreak in South Africa and Nigeria over the upcoming days or weeks. It is significant to stress that the estimated values may differ from the observed values looking at the strategic preparedness and the measures taken by the government of these study regions. Also, our proposed hybrid model may be of great help to estimate and forecast the future epidemic trends in other regions severely affected by this crisis.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec17">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2021_948_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Supplementary Information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>These authors contributed equally: Yongbin Wang and Chunjie Xu.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary Information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41598-021-00948-6.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>We appreciated the WHO for sharing the prevalence and mortality time series. This project was supported by the Innovation Project for College Students of Xinxiang Medical University (Code: XYXSKYZ201932).</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>Y.B.W. and C.J.X. conceived, initiated, and performed this work. S.Q.Y., Y.Z.Z. and J.C.R. collected and analyzed, and interpreted the data for this study. L.W. edited and improved this original manuscript. All authors reviewed and approved the manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>All the data can be obtained from the WHO and CSSE websites.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Code availability</title>
+              <p>All codes used to generate the main results in this original manuscript are without restrictions to access and they were provided in Supplementary material.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par28">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evolving epidemiology and transmission dynamics of coronavirus disease 2019 outside Hubei province, China: A descriptive and modelling study</article-title>
+                  <source>Lancet Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <fpage>793</fpage>
+                  <lpage>802</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30230-9</pub-id>
+                  <?supplied-pmid 32247326?>
+                  <pub-id pub-id-type="pmid">32247326</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">World Health Organization (WHO). Coronavirus disease (COVID-2019) situation reports. Available from (accessed 13 October 2021); <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/2020">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/2020</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <volume>395</volume>
+                  <fpage>497</fpage>
+                  <lpage>506</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s0140-6736(20)30183-5</pub-id>
+                  <?supplied-pmid 31986264?>
+                  <pub-id pub-id-type="pmid">31986264</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Parmar</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Makkhan</surname>
+                      <given-names>SJS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development of New hybrid model of discrete wavelet decomposition and autoregressive integrated moving average (ARIMA) models in application to one month forecast the casualties cases of COVID-19</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>135</volume>
+                  <fpage>109866</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109866</pub-id>
+                  <?supplied-pmid 32395038?>
+                  <pub-id pub-id-type="pmid">32395038</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boccaletti</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ditto</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Mindlin</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Atangana</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling and forecasting of epidemic spreading: The case of Covid-19 and beyond</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>135</volume>
+                  <fpage>109794</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109794</pub-id>
+                  <?supplied-pmid 32288357?>
+                  <pub-id pub-id-type="pmid">32288357</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Potential role of Nrf2 activators with dual antiviral and anti-inflammatory properties in the management of viral pneumonia</article-title>
+                  <source>Infect. Drug Resist.</source>
+                  <year>2020</year>
+                  <volume>13</volume>
+                  <fpage>1735</fpage>
+                  <lpage>1741</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S256773</pub-id>
+                  <?supplied-pmid 32606823?>
+                  <pub-id pub-id-type="pmid">32606823</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ceylan</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimation of COVID-19 prevalence in Italy, Spain, and France</article-title>
+                  <source>Sci. Total Environ.</source>
+                  <year>2020</year>
+                  <volume>729</volume>
+                  <fpage>138817</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.138817</pub-id>
+                  <?supplied-pmid 32360907?>
+                  <pub-id pub-id-type="pmid">32360907</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Petropoulos</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Makridakis</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the novel coronavirus COVID-19</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2020</year>
+                  <volume>15</volume>
+                  <fpage>e0231236</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0231236</pub-id>
+                  <?supplied-pmid 32231392?>
+                  <pub-id pub-id-type="pmid">32231392</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A mathematical model for simulating the phase-based transmissibility of a novel coronavirus</article-title>
+                  <source>Infect. Dis. Poverty</source>
+                  <year>2020</year>
+                  <volume>9</volume>
+                  <fpage>24</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s40249-020-00640-3</pub-id>
+                  <?supplied-pmid 32111262?>
+                  <pub-id pub-id-type="pmid">32111262</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Estimation of the reproductive number of novel coronavirus (COVID-19) and the probable outbreak size on the Diamond Princess cruise ship: A data-driven analysis</article-title>
+                  <source>Int. J. Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>93</volume>
+                  <fpage>201</fpage>
+                  <lpage>204</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijid.2020.02.033</pub-id>
+                  <?supplied-pmid 32097725?>
+                  <pub-id pub-id-type="pmid">32097725</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Edwards</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time-series analysis as an important contemporary statistical tool</article-title>
+                  <source>Addiction</source>
+                  <year>2001</year>
+                  <volume>96</volume>
+                  <fpage>941</fpage>
+                  <lpage>942</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1360-0443.2001.9679411.x</pub-id>
+                  <?supplied-pmid 11440602?>
+                  <pub-id pub-id-type="pmid">11440602</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Association of public health interventions with the epidemiology of the COVID-19 outbreak in Wuhan, China</article-title>
+                  <source>JAMA</source>
+                  <year>2020</year>
+                  <volume>323</volume>
+                  <fpage>1915</fpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2020.6130</pub-id>
+                  <pub-id pub-id-type="pmid">32275295</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Leung</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: A modelling study</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <volume>395</volume>
+                  <fpage>689</fpage>
+                  <lpage>697</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s0140-6736(20)30260-9</pub-id>
+                  <?supplied-pmid 32014114?>
+                  <pub-id pub-id-type="pmid">32014114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hellewell</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts</article-title>
+                  <source>Lancet Glob. Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>e488</fpage>
+                  <lpage>e496</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s2214-109x(20)30074-7</pub-id>
+                  <?supplied-pmid 32119825?>
+                  <pub-id pub-id-type="pmid">32119825</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Prem</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: A modelling study</article-title>
+                  <source>Lancet Public Health</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <fpage>e261</fpage>
+                  <lpage>e270</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s2468-2667(20)30073-6</pub-id>
+                  <?supplied-pmid 32220655?>
+                  <pub-id pub-id-type="pmid">32220655</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia</article-title>
+                  <source>N. Engl. J. Med.</source>
+                  <year>2020</year>
+                  <volume>382</volume>
+                  <fpage>1199</fpage>
+                  <lpage>1207</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa2001316</pub-id>
+                  <?supplied-pmid 31995857?>
+                  <pub-id pub-id-type="pmid">31995857</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Managing patients with COVID-19 infections: A first-hand experience from the Wuhan Mobile Cabin Hospital</article-title>
+                  <source>Br. J. Gen. Pract.</source>
+                  <year>2020</year>
+                  <volume>70</volume>
+                  <fpage>229</fpage>
+                  <lpage>230</lpage>
+                  <pub-id pub-id-type="doi">10.3399/bjgp20X709529</pub-id>
+                  <?supplied-pmid 32354809?>
+                  <pub-id pub-id-type="pmid">32354809</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wells</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Impact of international travel and border control measures on the global spread of the novel 2019 coronavirus outbreak</article-title>
+                  <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+                  <year>2020</year>
+                  <volume>117</volume>
+                  <fpage>7504</fpage>
+                  <lpage>7509</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.2002616117</pub-id>
+                  <?supplied-pmid 32170017?>
+                  <pub-id pub-id-type="pmid">32170017</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yousaf</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zahir</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Riaz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Hussain</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Statistical analysis of forecasting COVID-19 for upcoming month in Pakistan</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>138</volume>
+                  <fpage>109926</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109926</pub-id>
+                  <?supplied-pmid 32501377?>
+                  <pub-id pub-id-type="pmid">32501377</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benvenuto</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Giovanetti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Vassallo</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Angeletti</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciccozzi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Application of the ARIMA model on the COVID-2019 epidemic dataset</article-title>
+                  <source>Data Brief</source>
+                  <year>2020</year>
+                  <volume>29</volume>
+                  <fpage>105340</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.dib.2020.105340</pub-id>
+                  <?supplied-pmid 32181302?>
+                  <pub-id pub-id-type="pmid">32181302</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction of the COVID-19 pandemic for the top 15 affected countries: Advanced autoregressive integrated moving average (ARIMA) model</article-title>
+                  <source>JMIR Public Health Surveill</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <fpage>e19115</fpage>
+                  <pub-id pub-id-type="doi">10.2196/19115</pub-id>
+                  <?supplied-pmid 32391801?>
+                  <pub-id pub-id-type="pmid">32391801</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chintalapudi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Battineni</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Amenta</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 virus outbreak forecasting of registered and recovered cases after sixty day lockdown in Italy: A data driven model approach</article-title>
+                  <source>J. Microbiol. Immunol. Infect. Wei Mian yu Gan Ran Za Zhi</source>
+                  <year>2020</year>
+                  <volume>53</volume>
+                  <fpage>396</fpage>
+                  <lpage>403</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jmii.2020.04.004</pub-id>
+                  <?supplied-pmid 32305271?>
+                  <pub-id pub-id-type="pmid">32305271</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chakraborty</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghosh</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-time forecasts and risk assessment of novel coronavirus (COVID-19) cases: A data-driven analysis</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>135</volume>
+                  <fpage>109850</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109850</pub-id>
+                  <?supplied-pmid 32355424?>
+                  <pub-id pub-id-type="pmid">32355424</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Exploring the dynamics of hemorrhagic fever with renal syndrome incidence in east china through seasonal autoregressive integrated moving average models</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2020</year>
+                  <volume>13</volume>
+                  <fpage>2465</fpage>
+                  <lpage>2475</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S250038</pub-id>
+                  <?supplied-pmid 32801786?>
+                  <pub-id pub-id-type="pmid">32801786</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salgotra</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Gandomi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gandomi</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time series analysis and forecast of the COVID-19 pandemic in india using genetic programming</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>138</volume>
+                  <fpage>109945</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109945</pub-id>
+                  <?supplied-pmid 32508399?>
+                  <pub-id pub-id-type="pmid">32508399</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cássaro</surname>
+                      <given-names>FAM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pires</surname>
+                      <given-names>LF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Can we predict the occurrence of COVID-19 cases? Considerations using a simple model of growth</article-title>
+                  <source>Sci. Total Environ.</source>
+                  <year>2020</year>
+                  <volume>728</volume>
+                  <fpage>138834</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.138834</pub-id>
+                  <?supplied-pmid 32334161?>
+                  <pub-id pub-id-type="pmid">32334161</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ribeiro</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>da Silva</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                    <name>
+                      <surname>Mariani</surname>
+                      <given-names>VC</given-names>
+                    </name>
+                    <name>
+                      <surname>Coelho</surname>
+                      <given-names>LDS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short-term forecasting COVID-19 cumulative confirmed cases: Perspectives for Brazil</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>135</volume>
+                  <fpage>109853</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109853</pub-id>
+                  <?supplied-pmid 32501370?>
+                  <pub-id pub-id-type="pmid">32501370</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vaid</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cakan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhandari</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using machine learning to estimate unobserved COVID-19 infections in North America</article-title>
+                  <source>J. Bone Joint Surg.</source>
+                  <year>2020</year>
+                  <volume>102</volume>
+                  <fpage>e70</fpage>
+                  <pub-id pub-id-type="doi">10.2106/JBJS.20.00715</pub-id>
+                  <?supplied-pmid 32618918?>
+                  <pub-id pub-id-type="pmid">32618918</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ayinde</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modeling Nigerian Covid-19 cases: A comparative analysis of models and estimators</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>138</volume>
+                  <fpage>109911</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109911</pub-id>
+                  <?supplied-pmid 32536757?>
+                  <pub-id pub-id-type="pmid">32536757</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bekiros</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kouloumpou</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SBDiEM: A new mathematical model of infectious disease dynamics</article-title>
+                  <source>Chaos, Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>136</volume>
+                  <fpage>109828</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109828</pub-id>
+                  <pub-id pub-id-type="pmid">32327901</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmar</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Del Val</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SutteARIMA: Short-term forecasting method, a case: Covid-19 and stock market in Spain</article-title>
+                  <source>Sci. Total Environ.</source>
+                  <year>2020</year>
+                  <volume>729</volume>
+                  <fpage>138883</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.138883</pub-id>
+                  <?supplied-pmid 32361446?>
+                  <pub-id pub-id-type="pmid">32361446</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taskaya-Temizel</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Casey</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A comparative study of autoregressive neural network hybrids</article-title>
+                  <source>Neural Netw.</source>
+                  <year>2005</year>
+                  <volume>18</volume>
+                  <fpage>781</fpage>
+                  <lpage>789</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neunet.2005.06.003</pub-id>
+                  <?supplied-pmid 16085389?>
+                  <pub-id pub-id-type="pmid">16085389</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Comparison of two hybrid models for forecasting the incidence of hemorrhagic fever with renal syndrome in Jiangsu Province, China</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <fpage>e0135492</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0135492</pub-id>
+                  <?supplied-pmid 26270814?>
+                  <pub-id pub-id-type="pmid">26270814</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>GP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time series forecasting using a hybrid ARIMA and neural network model</article-title>
+                  <source>Neurocomputing</source>
+                  <year>2003</year>
+                  <volume>50</volume>
+                  <fpage>159</fpage>
+                  <lpage>175</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0925-2312(01)00702-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>YW</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>ZZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of autoregressive integrated moving average model and generalised regression neural network model for prediction of haemorrhagic fever with renal syndrome in China: A time-series study</article-title>
+                  <source>BMJ Open</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>e025773</fpage>
+                  <pub-id pub-id-type="doi">10.1136/bmjopen-2018-025773</pub-id>
+                  <?supplied-pmid 31209084?>
+                  <pub-id pub-id-type="pmid">31209084</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A new hybrid model using an autoregressive integrated moving average and a generalized regression neural network for the incidence of tuberculosis in Heng County, China</article-title>
+                  <source>Am. J. Trop. Med. Hyg.</source>
+                  <year>2017</year>
+                  <volume>97</volume>
+                  <fpage>799</fpage>
+                  <lpage>805</lpage>
+                  <pub-id pub-id-type="doi">10.4269/ajtmh.16-0648</pub-id>
+                  <?supplied-pmid 28820678?>
+                  <pub-id pub-id-type="pmid">28820678</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Abbaspour</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A wavelet-neural network hybrid modelling approach for estimating and predicting river monthly flows</article-title>
+                  <source>Int. Assoc. Sci. Hydrol. Bull.</source>
+                  <year>2013</year>
+                  <volume>58</volume>
+                  <fpage>374</fpage>
+                  <lpage>389</lpage>
+                  <pub-id pub-id-type="doi">10.1080/02626667.2012.754102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving prediction accuracy of river discharge time series using a Wavelet-NAR artificial neural network</article-title>
+                  <source>J. Hydroinf.</source>
+                  <year>2012</year>
+                  <volume>14</volume>
+                  <fpage>974</fpage>
+                  <lpage>991</lpage>
+                  <pub-id pub-id-type="doi">10.2166/hydro.2012.143</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>NE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ensemble empirical mode decomposition: A noise-assisted data analysis method</article-title>
+                  <source>Adv. Adapt. Data Anal.</source>
+                  <year>2009</year>
+                  <volume>01</volume>
+                  <fpage>1</fpage>
+                  <lpage>41</lpage>
+                  <pub-id pub-id-type="doi">10.1142/s1793536909000047</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A novel hybrid data-driven model for daily land surface temperature forecasting using long short-term memory neural network based on ensemble empirical mode decomposition</article-title>
+                  <source>Int. J. Environ. Res. Public Health</source>
+                  <year>2018</year>
+                  <volume>15</volume>
+                  <fpage>1032</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph15051032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                    <name>
+                      <surname>Chau</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                    <name>
+                      <surname>Qiu</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>YB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving forecasting accuracy of medium and long-term runoff using artificial neural network based on EEMD decomposition</article-title>
+                  <source>Environ. Res.</source>
+                  <year>2015</year>
+                  <volume>139</volume>
+                  <fpage>46</fpage>
+                  <lpage>54</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.envres.2015.02.002</pub-id>
+                  <?supplied-pmid 25684671?>
+                  <pub-id pub-id-type="pmid">25684671</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A hybrid forecasting approach applied to wind speed time series</article-title>
+                  <source>Renew. Energy</source>
+                  <year>2013</year>
+                  <volume>60</volume>
+                  <fpage>185</fpage>
+                  <lpage>194</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.renene.2013.05.012</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A hybrid model for PM2.5 forecasting based on ensemble empirical mode decomposition and a general regression neural network</article-title>
+                  <source>Sci. Total Environ.</source>
+                  <year>2014</year>
+                  <volume>496</volume>
+                  <fpage>264</fpage>
+                  <lpage>274</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scitotenv.2014.07.051</pub-id>
+                  <?supplied-pmid 25089688?>
+                  <pub-id pub-id-type="pmid">25089688</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Forecasting the tuberculosis incidence using a novel ensemble empirical mode decomposition-based data-driven hybrid model in Tibet, China</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2021</year>
+                  <volume>14</volume>
+                  <fpage>1941</fpage>
+                  <lpage>1955</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S299704</pub-id>
+                  <?supplied-pmid 34079304?>
+                  <pub-id pub-id-type="pmid">34079304</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saba</surname>
+                      <given-names>AI</given-names>
+                    </name>
+                    <name>
+                      <surname>Elsheikh</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the prevalence of COVID-19 outbreak in Egypt using nonlinear autoregressive artificial neural networks</article-title>
+                  <source>Process. Saf. Environ. Prot.</source>
+                  <year>2020</year>
+                  <volume>141</volume>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.psep.2020.05.029</pub-id>
+                  <?supplied-pmid 32501368?>
+                  <pub-id pub-id-type="pmid">32501368</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anorue</surname>
+                      <given-names>LI</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Communicating COVID-19 vaccine safety: Knowledge and attitude among residents of south East, Nigeria</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2021</year>
+                  <volume>14</volume>
+                  <fpage>3785</fpage>
+                  <lpage>3794</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S329183</pub-id>
+                  <?supplied-pmid 34557003?>
+                  <pub-id pub-id-type="pmid">34557003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bartholomew</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Box</surname>
+                      <given-names>GEP</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenkins</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                  </person-group>
+                  <source>Time Series Analysis: Forecasting and Control</source>
+                  <year>2015</year>
+                  <edition>5</edition>
+                  <publisher-name>Wiley</publisher-name>
+                  <fpage>14</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Forecasting the seasonality and trend of pulmonary tuberculosis in Jiangsu Province of China using advanced statistical time-series analyses</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2019</year>
+                  <volume>12</volume>
+                  <fpage>2311</fpage>
+                  <lpage>2322</lpage>
+                  <pub-id pub-id-type="doi">10.2147/idr.s207809</pub-id>
+                  <?supplied-pmid 31440067?>
+                  <pub-id pub-id-type="pmid">31440067</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Application of a hybrid model in predicting the incidence of tuberculosis in a Chinese population</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2019</year>
+                  <volume>12</volume>
+                  <fpage>1011</fpage>
+                  <lpage>1020</lpage>
+                  <pub-id pub-id-type="doi">10.2147/idr.s190418</pub-id>
+                  <?supplied-pmid 31118707?>
+                  <pub-id pub-id-type="pmid">31118707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Secular seasonality and trend forecasting of tuberculosis incidence rate in china using the advanced error-trend-seasonal framework</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2020</year>
+                  <volume>13</volume>
+                  <fpage>733</fpage>
+                  <lpage>747</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S238225</pub-id>
+                  <?supplied-pmid 32184635?>
+                  <pub-id pub-id-type="pmid">32184635</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An advanced data-driven hybrid model of SARIMA-NNNAR for tuberculosis incidence time series forecasting in Qinghai Province, China</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2020</year>
+                  <volume>13</volume>
+                  <fpage>867</fpage>
+                  <lpage>880</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S232854</pub-id>
+                  <?supplied-pmid 32273731?>
+                  <pub-id pub-id-type="pmid">32273731</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A hybrid model for predicting the prevalence of schistosomiasis in humans of Qianjiang City, China</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <fpage>e104875</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0104875</pub-id>
+                  <pub-id pub-id-type="pmid">25119882</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Hybrid methodology for tuberculosis incidence time-series forecasting based on ARIMA and a NAR neural network</article-title>
+                  <source>Epidemiol. Infect.</source>
+                  <year>2017</year>
+                  <volume>145</volume>
+                  <fpage>1118</fpage>
+                  <lpage>1129</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268816003216</pub-id>
+                  <?supplied-pmid 28115032?>
+                  <pub-id pub-id-type="pmid">28115032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Nie</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Gui</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A hybrid model for annual runoff time series forecasting using elman neural network with ensemble empirical mode decomposition</article-title>
+                  <source>Water</source>
+                  <year>2018</year>
+                  <volume>10</volume>
+                  <fpage>416</fpage>
+                  <pub-id pub-id-type="doi">10.3390/w10040416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qiu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Ren</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Suganthan</surname>
+                      <given-names>PN</given-names>
+                    </name>
+                    <name>
+                      <surname>Amaratunga</surname>
+                      <given-names>GAJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Empirical Mode Decomposition based ensemble deep learning for load demand time series forecasting</article-title>
+                  <source>Appl. Soft Comput.</source>
+                  <year>2017</year>
+                  <volume>54</volume>
+                  <fpage>246</fpage>
+                  <lpage>255</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asoc.2017.01.015</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jian</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>RX</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Performance enhancement of ensemble empirical mode decomposition</article-title>
+                  <source>Mech. Syst. Signal Process.</source>
+                  <year>2010</year>
+                  <volume>24</volume>
+                  <fpage>2104</fpage>
+                  <lpage>2123</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ymssp.2010.03.003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Chau</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving forecasting accuracy of annual runoff time series using ARIMA based on EEMD decomposition</article-title>
+                  <source>Water Resour. Manage</source>
+                  <year>2015</year>
+                  <volume>29</volume>
+                  <fpage>2655</fpage>
+                  <lpage>2675</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11269-015-0962-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Quan</surname>
+                      <given-names>YH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trend and forecasting of the COVID-19 outbreak in China</article-title>
+                  <source>J. Infect.</source>
+                  <year>2020</year>
+                  <volume>80</volume>
+                  <fpage>469</fpage>
+                  <lpage>496</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jinf.2020.02.014</pub-id>
+                  <?supplied-pmid 32113991?>
+                  <pub-id pub-id-type="pmid">32113991</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Livera</surname>
+                      <given-names>AMD</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyndman</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting time series with complex seasonal patterns using exponential smoothing</article-title>
+                  <source>J. Am. Stat. Assoc.</source>
+                  <year>2011</year>
+                  <volume>106</volume>
+                  <fpage>1513</fpage>
+                  <lpage>1527</lpage>
+                  <pub-id pub-id-type="doi">10.1198/jasa.2011.tm09771</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chimmula</surname>
+                      <given-names>VKR</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time Series Forecasting of COVID-19 transmission in Canada Using LSTM Networks</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2020</year>
+                  <volume>135</volume>
+                  <fpage>109864</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2020.109864</pub-id>
+                  <?supplied-pmid 32390691?>
+                  <pub-id pub-id-type="pmid">32390691</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Estimating the prevalence and mortality of coronavirus disease 2019 (COVID-19) in the USA, the UK, Russia, and India</article-title>
+                  <source>Infect. Drug Resist</source>
+                  <year>2020</year>
+                  <volume>13</volume>
+                  <fpage>3335</fpage>
+                  <lpage>3350</lpage>
+                  <pub-id pub-id-type="doi">10.2147/idr.s265292</pub-id>
+                  <?supplied-pmid 33061481?>
+                  <pub-id pub-id-type="pmid">33061481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Forecasting the epidemiological trends of COVID-19 prevalence and mortality using the advanced alpha-Sutte Indicator</article-title>
+                  <source>Epidemiol. Infect.</source>
+                  <year>2020</year>
+                  <volume>148</volume>
+                  <fpage>e236</fpage>
+                  <pub-id pub-id-type="doi">10.1017/S095026882000237X</pub-id>
+                  <?supplied-pmid 33012300?>
+                  <pub-id pub-id-type="pmid">33012300</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Molina</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identifying airborne transmission as the dominant route for the spread of COVID-19</article-title>
+                  <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+                  <year>2020</year>
+                  <volume>117</volume>
+                  <fpage>14857</fpage>
+                  <lpage>14863</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.2009637117</pub-id>
+                  <?supplied-pmid 32527856?>
+                  <pub-id pub-id-type="pmid">32527856</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

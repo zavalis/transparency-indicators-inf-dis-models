@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:46:29Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8639785" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8639785</identifier>
+        <datestamp>2021-12-06</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8639785</article-id>
+              <article-id pub-id-type="pmcid">PMC8639785</article-id>
+              <article-id pub-id-type="pmc-uid">8639785</article-id>
+              <article-id pub-id-type="pmid">34857840</article-id>
+              <article-id pub-id-type="publisher-id">2760</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-021-02760-8</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>On the use of aggregated human mobility data to estimate the reproduction number</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Vanni</surname>
+                    <given-names>Fabio</given-names>
+                  </name>
+                  <address>
+                    <email>fabiofxvanni@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lambert</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Palatella</surname>
+                    <given-names>Luigi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Grigolini</surname>
+                    <given-names>Paolo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.460782.f</institution-id><institution-id institution-id-type="ISNI">0000 0004 4910 6551</institution-id><institution>CNRS, GREDEG, </institution><institution>Université Côte d’Azur, </institution></institution-wrap>Nice, France </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.451239.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 2153 2557</institution-id><institution>Sciences Po, OFCE, </institution></institution-wrap>Campus de Sophia Antipolis, Nice, France </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.266869.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 1008 957X</institution-id><institution>Center for Nonlinear Science, </institution><institution>University of North Texas, </institution></institution-wrap>Denton, TX USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.266869.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 1008 957X</institution-id><institution>Department of Mathematics, </institution><institution>University of North Texas, </institution></institution-wrap>Denton, TX USA </aff>
+                <aff id="Aff5"><label>5</label>Liceo Scientifico Statale “C. De Giorgi”, Lecce, Italy </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>2</day>
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>2</day>
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>23286</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>13</day>
+                  <month>5</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>19</day>
+                  <month>11</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The reproduction number of an infectious disease, such as CoViD-19, can be described through a modified version of the susceptible-infected-recovered (SIR) model with time-dependent contact rate, where mobility data are used as proxy of average movement trends and interpersonal distances. We introduce a theoretical framework to explain and predict changes in the reproduction number of SARS-CoV-2 in terms of aggregated individual mobility and interpersonal proximity (alongside other epidemiological and environmental variables) during and after the lockdown period. We use an infection-age structured model described by a renewal equation. The model predicts the evolution of the reproduction number up to a week ahead of well-established estimates used in the literature. We show how lockdown policies, via reduction of proximity and mobility, reduce the impact of CoViD-19 and mitigate the risk of disease resurgence. We validate our theoretical framework using data from Google, Voxel51, Unacast, The CoViD-19 Mobility Data Network, and Analisi Distribuzione Aiuti.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Statistical physics</kwd>
+                <kwd>Thermodynamics</kwd>
+                <kwd>Viral infection</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100007601</institution-id>
+                      <institution>Horizon 2020 Framework Programme</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>No.822781</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Vanni</surname>
+                      <given-names>Fabio</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000183</institution-id>
+                      <institution>Army Research Office</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>W911NF1910104</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Grigolini</surname>
+                      <given-names>Paolo</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">Understanding the effectiveness of public service announcements and large-scale physical distancing interventions is critical for managing the short and long-term phases of spread of the epidemic, as in the case of the CoViD-19 epidemic. Many countries have reacted via intervention strategies based on mobility and physical lockdowns together with regional and international border restrictions<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR4">4</xref></sup>. Many of these intervention policies are based on assessing the risk of an outbreak through compartmental disease models<sup><xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR9">9</xref></sup>. We intend our model to be complementary to other well-assessed estimates of the reproduction number. These estimates are based on phenomenological models which provide a starting point for estimation of key transmission parameters, such as the reproduction number, and forecasts of epidemic impact<sup><xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR14">14</xref></sup>.</p>
+              <p id="Par3">From a practical point of view, it is fundamental to understand which approach best permits one to forecast epidemic dynamics in the presence of incomplete data. This is especially true when a country’s healthcare system is overwhelmed and data collection becomes sporadic. It is also important during the early phases of disease spread, when testing is incomplete or non-existent. For CoViD-19 there is the additional problem of undocumented cases<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+              <p id="Par4">In our analysis, we focus our attention on the contribution of asymptomatic or undiagnosed (and thus undocumented) individuals to the propagation of the contagion, assuming that these hidden infectious agents have the ability to spread the disease in an environment where susceptible agents are present and all the individuals have uniform mobility and physical proximity parameters. Consequently, we evaluate the impact of physical distancing policies in response to the CoViD-19 epidemic in Italy, the US, and selected European locations. Our model is a renewal SIR model with a time-dependent contact rate. We provide an expression for the contact rate using real-world mobility and social distancing data from Google and other providers. Our approach is complementary to typical (fixed contact-rate, non-renewal) compartmental SIR models, with two essential differences: the time dependence of <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta $$\end{document}</tex-math><mml:math id="M2"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq1.gif"/></alternatives></inline-formula> (contact rate in the SIR model) and the fact that we split <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta $$\end{document}</tex-math><mml:math id="M4"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq2.gif"/></alternatives></inline-formula> into several factors.</p>
+              <p id="Par5">In our model we formulate a specific factorization of the time-dependent contact rate into variables directly related to mobility and social distancing behaviors from real world data, together with other epidemiological and clinical variables.</p>
+              <p id="Par6">In particular, we believe that the advantage of our model is that it is parsimonious in capturing the aggregated reproduction trends, splitting the contributions of different factors of a disease diffusion framework. Our model posits that undiagnosed individuals, captured by the variable <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M6"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq3.gif"/></alternatives></inline-formula>, drive and sustain the infection process through a contact web disentangled into two aspects: mobility as movement trends and proximity as proxy for interpersonal distance. This framework takes into account a natural delay between time of contacts and the triggering of new infection chains, making the model a forward estimate for the values of <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M8"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq4.gif"/></alternatives></inline-formula> to come. This perspective can provide useful insight for policy makers and regulators planning mobility restrictions or other strategies for mitigating the diffusion of an epidemic like CoViD-19.</p>
+              <p id="Par7">We interpret this approach in terms of a macroscopic collision theory of infected individuals in a region with a given susceptible population, taking into account the mobility of individuals as well as their radii of interaction as reliable proxies of physical distancing measures (as explained in the “<xref rid="Sec4" ref-type="sec">Methods</xref>” section):<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} R_{t}= {R}_0 {\tilde{S}}_t\tilde{\mathscr {B}}_t. \end{aligned}$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:msub><mml:mover accent="true"><mml:mi>S</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub><mml:msub><mml:mover accent="true"><mml:mi mathvariant="script">B</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>Here, the tildes indicate that the variable is to be evaluated with a delay of <inline-formula id="IEq5"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau _g$$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq5.gif"/></alternatives></inline-formula>, a variable that accounts for the typical time it takes to observe newly generated positive tests (see<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup> and the “Calibration” section). <inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{R}}_0$$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mover accent="true"><mml:mi>R</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq6.gif"/></alternatives></inline-formula> represents the reproduction number calculated in a given period of time which also embodies the constant contribution over that time. Next, <inline-formula id="IEq7"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S_t$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mi>S</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq7.gif"/></alternatives></inline-formula> is the fraction of individuals that are susceptible. Finally, <inline-formula id="IEq8"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathscr {B}}_{t}$$\end{document}</tex-math><mml:math id="M18"><mml:msub><mml:mi mathvariant="script">B</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq8.gif"/></alternatives></inline-formula> is the transmission rate function, which depends on average contact frequency, the virus’s infectiousness, and the infectious age of individuals in the contagion process. In this way, it is a generalization of the interaction variable in compartmental models.</p>
+              <p id="Par8">The model of Eq. (<xref rid="Equ1" ref-type="">1</xref>) is distinguished from other estimates in literature by its forward rather than backward-looking estimation procedure. We name the model proposed in this paper as the social distancing based model, aka SDM. Imagine that some infectious individuals have not been detected and isolated. We wish to evaluate a measure of risk of exposure for a given susceptible individual. We take a kinetic approach to the evaluation of this risk.</p>
+              <p id="Par9">We imagine unobserved spreaders are free to infect other individuals and that the contagion acts within a certain radius <italic>r</italic> of an infected individual. We imagine an environment in which two types of individuals are present at a calendar time <italic>t</italic>. <inline-formula id="IEq9"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_s$$\end{document}</tex-math><mml:math id="M20"><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq9.gif"/></alternatives></inline-formula> is the density of susceptible individuals in a region, while <italic>j</italic> is the density of actual new infected individuals where diagnosed and undocumented cases are both taken into consideration, as discussed in the “<xref rid="Sec4" ref-type="sec">Methods</xref>” section. We consider the regional mobility, <inline-formula id="IEq10"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\nu $$\end{document}</tex-math><mml:math id="M22"><mml:mi>ν</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq10.gif"/></alternatives></inline-formula>, to be the average distance explored by each individual during the time interval, <inline-formula id="IEq11"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta t$$\end{document}</tex-math><mml:math id="M24"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq11.gif"/></alternatives></inline-formula>, (usually daily). We define the distance, <italic>r</italic>, to be the maximum distance that an infected person can be from a susceptible person (in the model) and still cause them to become infected. This distance depends, for example, on the virus’ infectiousness as a function of distance and on the use of personal protective equipment, which can create a physical barrier so increasing effective distances. Physical distancing regulations, personal protection devices (such as mask wearing), and hygienic norms will result in a decrease in <italic>r</italic>, as also assessed in<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>. The interpersonal proximity <inline-formula id="IEq12"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho $$\end{document}</tex-math><mml:math id="M26"><mml:mi>ρ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq12.gif"/></alternatives></inline-formula> has an inverse effect on infectivity to that of the interaction radius and it is defined to be the inverse of the square root of the average density of individuals in a region as discussed in the S.I. in more detail.</p>
+              <p id="Par10">As specified in Table <xref rid="Tab1" ref-type="table">1</xref>, <inline-formula id="IEq13"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M28"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq13.gif"/></alternatives></inline-formula> represents the efficiency of detecting real cases of infection, and takes on values between 0 and 1. In particular, <inline-formula id="IEq14"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M30"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq14.gif"/></alternatives></inline-formula> would have a value equal to 1 if testing and contact tracing technologies were maximally efficient, and its value approaches 0 if very few in a large infected population are detected, as shown by<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR21">21</xref></sup>. The value of <inline-formula id="IEq15"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M32"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq15.gif"/></alternatives></inline-formula> changes with infection age as well as <italic>t</italic> during the disease outbreak. These changes might depend, for example, on the ability to detect and isolate individuals, or the efficiency of contact tracing during the epidemic. Contact tracing efficiency varies with the characteristics of the infection and the speed and coverage of the tracing process.</p>
+              <p id="Par11">Centralized manual testing and tracing may become an impractical strategy and a lockdown may become a more efficient and effective means of controlling an epidemic. However, lockdowns are not sustainable in the long term because of their social, economic, physical, and psychological effects. Lockdown policies have reduced the spread of CoViD-19, but as restrictions are relaxed transmission often goes up again.</p>
+              <p id="Par12">Finally, the number of people at risk (susceptible individuals) is<disp-formula id="Equ5"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} n_s = n-\sum _{i=\tau _g}^\infty j(t-i) =n - \sum _{i=\tau _g}^\infty \frac{j_o(t-i) }{ \lambda (t-i)}, \end{aligned}$$\end{document}</tex-math><mml:math id="M34" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>n</mml:mi><mml:mo>-</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:mrow><mml:mi>∞</mml:mi></mml:munderover><mml:mi>j</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>n</mml:mi><mml:mo>-</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:mrow><mml:mi>∞</mml:mi></mml:munderover><mml:mfrac><mml:mrow><mml:msub><mml:mi>j</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>λ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where <italic>n</italic> is initial fraction of susceptible population respect to the total population, and <inline-formula id="IEq16"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j_0$$\end{document}</tex-math><mml:math id="M36"><mml:msub><mml:mi>j</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq16.gif"/></alternatives></inline-formula> is the density of only the new diagnosed cases (official data) which is only a fraction of the total actual cases of new infections, note that <inline-formula id="IEq17"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j_o(t)=j(t)=0$$\end{document}</tex-math><mml:math id="M38"><mml:mrow><mml:msub><mml:mi>j</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>j</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq17.gif"/></alternatives></inline-formula> for <inline-formula id="IEq18"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t&lt;0$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:mi>t</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq18.gif"/></alternatives></inline-formula>. There are various factors which contribute to the transmission of a disease. The biological and environmental properties are accounted for in the transmissivity variable <inline-formula id="IEq19"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta $$\end{document}</tex-math><mml:math id="M42"><mml:mi>η</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq19.gif"/></alternatives></inline-formula>, as explained in the “<xref rid="Sec4" ref-type="sec">Methods</xref>” section. Physical proximity, viral load, and environmental conditions determine the infectious dose necessary to trigger the infection in a new host. For example, enclosed environments such as workplaces and schools correspond to higher <inline-formula id="IEq20"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta $$\end{document}</tex-math><mml:math id="M44"><mml:mi>η</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq20.gif"/></alternatives></inline-formula> values in the model as compared to an outdoor space. A summary of all the variables in the model appears in Table <xref rid="Tab1" ref-type="table">1</xref>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Parameters of kinetic approach to infectious contacts.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Collision variable</th><th align="left">Description</th></tr></thead><tbody><tr><td align="left">Mobility <inline-formula id="IEq21"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\nu $$\end{document}</tex-math><mml:math id="M46"><mml:mi>ν</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq21.gif"/></alternatives></inline-formula></td><td align="left">Movement trends over time</td></tr><tr><td align="left">Social movements</td><td align="left">Average speed of individual movements, can include distanced traveled per day and mobility trends</td></tr><tr><td align="left">Contact zone <italic>r</italic></td><td align="left">The radius within which contact with an infectious individual can trigger a secondary infection in airborne diseases (infectious cross section)</td></tr><tr><td align="left">Physical proximity <inline-formula id="IEq22"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho $$\end{document}</tex-math><mml:math id="M48"><mml:mi>ρ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq22.gif"/></alternatives></inline-formula></td><td align="left">The average effective distance between individuals for an airborne disease, a function of physical distance, protection devices, and hygienic procedures</td></tr><tr><td align="left">Transmissibility <inline-formula id="IEq23"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta $$\end{document}</tex-math><mml:math id="M50"><mml:mi>η</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq23.gif"/></alternatives></inline-formula></td><td align="left">The chance that a contact will result in an infection</td></tr><tr><td align="left">Virus-host-environment interaction</td><td align="left">Infectiousness due to environmental conditions as well as the virus’s ability to be more or less contagious. (Virus strain mutations, viral load, shedding, and immune system response are involved. Air flow, UV exposure, climate factors such as temperature and humidity that influence infectiousness )</td></tr><tr><td align="left">Test and trace <inline-formula id="IEq24"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M52"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq24.gif"/></alternatives></inline-formula></td><td align="left">Ability to detect and isolate contagious individuals</td></tr><tr><td align="left">Testing efficacy and contact tracing</td><td align="left">Analyzing samples to assess the current or past presence of SARS-CoV-2 viral (molecular and antigen) tests and antibody test. Identification of persons who may have come into contact with an infected person</td></tr></tbody></table></table-wrap></p>
+              <p id="Par13">Now let us recall the actual (or effective) reproduction number which represents the average number of secondary infections generated by each new infectious case (assuming <inline-formula id="IEq25"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_s$$\end{document}</tex-math><mml:math id="M54"><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq25.gif"/></alternatives></inline-formula> and other environmental variables retain their current values forever). The actual reproduction number can be used as a predictive tool to track the epidemic’s evolution. It is also a measure of epidemic risk, in the sense that if it is significantly above one for long enough, then an outbreak will occur. Thus, by linking a dynamical model with time-series data, one obtains a measure of epidemic risk. This risk is derived (see “<xref rid="Sec4" ref-type="sec">Methods</xref>” section) leading to the effective reproduction number:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {R(t)}\sim R(t_0) \dfrac{n_s(t-\tau _g)}{n_s(t_0-\tau _g)} \dfrac{\rho (t_0-\tau _g)}{\rho (t-\tau _g)} \dfrac{\nu (t-\tau _g)}{\nu (t_0-\tau _g)} , \end{aligned}$$\end{document}</tex-math><mml:math id="M56" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>∼</mml:mo><mml:mi>R</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mstyle><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi>ρ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>ρ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi>ν</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>ν</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq26"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t_0$$\end{document}</tex-math><mml:math id="M58"><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq26.gif"/></alternatives></inline-formula> is an initial (or calibration) time, and we have taken the testing efficiency <inline-formula id="IEq27"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M60"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq27.gif"/></alternatives></inline-formula> and the transmissibility <inline-formula id="IEq28"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta $$\end{document}</tex-math><mml:math id="M62"><mml:mi>η</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq28.gif"/></alternatives></inline-formula> constant during the lockdown periods, as discussed in the “<xref rid="Sec4" ref-type="sec">Methods</xref>” section. We call the reproduction number as expressed in the previous equation <inline-formula id="IEq29"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M64"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq29.gif"/></alternatives></inline-formula> SDM.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Results</title>
+              <p id="Par14">The above equation represents the change in the average number of secondary cases caused by a single primary case throughout the course of infection at calendar time <italic>t</italic> calibrated at an initial value (for example, before the lockdown). In the present section, we apply Eq. (<xref rid="Equ2" ref-type="">2</xref>) to data from various sources in order to validate our modeling framework.</p>
+              <p id="Par15">We assume the spatial homogeneity of every variable. In particular, <inline-formula id="IEq30"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho $$\end{document}</tex-math><mml:math id="M66"><mml:mi>ρ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq30.gif"/></alternatives></inline-formula> to be the average proximity between individuals, and <inline-formula id="IEq31"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\nu (t)$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:mi>ν</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq31.gif"/></alternatives></inline-formula> to be their average mobility. Moreover we consider the fraction of missed cases, <inline-formula id="IEq32"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M70"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq32.gif"/></alternatives></inline-formula>, to be constant with respect to infection age. Additionally, we define a typical time interval, the generative time <inline-formula id="IEq33"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau _g$$\end{document}</tex-math><mml:math id="M72"><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq33.gif"/></alternatives></inline-formula> as the average infection age at which positive test result is generated.<fig id="Fig1"><label>Figure 1</label><caption><p>Reproduction number estimates for two US states. Comparison between the reproduction number calculated from symptom onset data as in literature<sup><xref ref-type="bibr" rid="CR22">22</xref></sup> (dashed red line) and the reproduction number computed according our kinetic SDM approach, using data from<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> for mobility<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>, for social proximity and<sup><xref ref-type="bibr" rid="CR25">25</xref></sup> for epidemic data. Ribbons are the <inline-formula id="IEq34"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$90\%$$\end{document}</tex-math><mml:math id="M74"><mml:mrow><mml:mn>90</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq34.gif"/></alternatives></inline-formula> credible interval obtained via bootstrapping. Insets represent the single components of the reproduction number as in Eq. (<xref rid="Equ1" ref-type="">1</xref>), specifically solid black and gray line is <italic>R</italic>(<italic>t</italic>) using only mobility and interpersonal proximity variables respectively, and dashed black line is <italic>R</italic>(<italic>t</italic>) due to the depletion of susceptibles only. The scale of the insets are the same the main plot. Calibration coefficients in the two examples are <inline-formula id="IEq35"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c=1.21$$\end{document}</tex-math><mml:math id="M76"><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1.21</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq35.gif"/></alternatives></inline-formula> and <inline-formula id="IEq36"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c=1.05$$\end{document}</tex-math><mml:math id="M78"><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1.05</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq36.gif"/></alternatives></inline-formula> respectively (see “Calibration” subsection of Methods).</p></caption><graphic xlink:href="41598_2021_2760_Fig1_HTML" id="MO4"/></fig></p>
+              <p id="Par16">The changing trends of the reproduction number may be due to several interrelated reasons apart from physical distancing policies. These reasons can be collected into two groups. The first has to do with the virus itself and its capacity to spread. Favorable environmental conditions or the emergence of less dangerous strains can decrease the effective infectiousness of the contagion. The other group of reasons is connected to the decrease in the susceptible population. On the other hand, physical distancing (also known as social distancing) is a practice recommended by public health officials to stop or slow down the spread of contagious diseases. It requires maintaining physical space between individuals who may spread certain infectious diseases. The data repositories used to obtain our results are listed in the <xref rid="MOESM1" ref-type="media">Supplementary Information</xref>.</p>
+              <p id="Par17">As proxies for mobility we consider both the changes in movement fluxes and percent change in average distance traveled, as released respectively in Google’s mobility report<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> and Unacast’s scoreboard<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. We take the mobility to represent the average relative speed of the individuals with respect to each other. The fact that we use <italic>relative</italic> velocity is important, as it properly accounts for situations in which people move rapidly in a coordinated way.</p>
+              <p id="Par18">We infer a measure of proximity from the active population density, i.e., the number of people per unit area moving about in selected locations, as variously reported by Voxel51’s proximity index<sup><xref ref-type="bibr" rid="CR24">24</xref></sup> and Unacast’s human encounters<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>.<fig id="Fig2"><label>Figure 2</label><caption><p>Effective reproduction number for Italy during the lockdown period (March 9th to May 18th). We compare the <inline-formula id="IEq37"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M80"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq37.gif"/></alternatives></inline-formula> (dashed red) estimate by well established approaches with <inline-formula id="IEq38"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M82"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq38.gif"/></alternatives></inline-formula> SDM (blue) from the method we propose using human mobility data. Includes depletion of the susceptible population, individual mobility and physical proximity. The left inset compares the <inline-formula id="IEq39"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M84"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq39.gif"/></alternatives></inline-formula> (dashed) with the <inline-formula id="IEq40"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M86"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq40.gif"/></alternatives></inline-formula> SDM (solid) by using mobility data only and the right inset compares the <inline-formula id="IEq41"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M88"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq41.gif"/></alternatives></inline-formula> (dashed) with the <inline-formula id="IEq42"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M90"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq42.gif"/></alternatives></inline-formula> SDM (solid) by using physical proximity data only. The scale of the insets are the same as the main plot. Calibration coefficient <inline-formula id="IEq43"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c=1.14$$\end{document}</tex-math><mml:math id="M92"><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1.14</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq43.gif"/></alternatives></inline-formula> (see “Calibration” subsection of Methods).</p></caption><graphic xlink:href="41598_2021_2760_Fig2_HTML" id="MO5"/></fig></p>
+              <p id="Par19">In the general analysis of epidemic data we refer to reported infected persons by their dates of diagnosis via laboratory test. However, some countries also report infections by the date of first symptoms reported by patients. In particular, we have used the latter type of data when possible (Italy) and inferred it in the case of the USA and the UK via an analysis of the effective reproduction number assessed by<sup><xref ref-type="bibr" rid="CR22">22</xref>,<xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR28">28</xref></sup>.</p>
+              <p id="Par20">We use epidemiological data at the level of states and mobility data at the level of cities for US locations and at the level of state for EU countries. We have studied and analyzed these regions during the period in which lockdown policies were in action as reported in<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. Finally, for US states, we use<sup><xref ref-type="bibr" rid="CR22">22</xref></sup> as estimation of the reproduction number as well as the estimation of susceptible population considered. When analyzing other countries, we use various sources, averaging Epiforecast<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> and Covid19 projections<sup><xref ref-type="bibr" rid="CR28">28</xref></sup> so as to have an ensemble calculation of the actual reproduction number <italic>R</italic>(<italic>t</italic>).</p>
+              <p id="Par21">In Fig. <xref rid="Fig1" ref-type="fig">1</xref>, we show the hardest hit states in the US as of June 2020: New York and Florida. Note the good agreement between the theory of this paper using mobility and proximity and independent estimates of the reproduction number. Note that for New York state an important cause for the reduction in <italic>R</italic>(<italic>t</italic>) is due to the depletion of the susceptible population, while physical distancing has a smaller impact. Meanwhile, in Florida, the behavior of <italic>R</italic>(<italic>t</italic>) is mainly due to physical distancing restrictions taken up at the end of the shelter-at-home policy.<fig id="Fig3"><label>Figure 3</label><caption><p>Effective reproduction number for New York (<bold>a</bold>) and Florida (<bold>b</bold>) state in USA for a more extended period of the epidemic, by using data from Google<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> mobility trend.</p></caption><graphic xlink:href="41598_2021_2760_Fig3_HTML" id="MO6"/></fig></p>
+              <p id="Par22">The use of appropriate face coverings should reduce the transmission of CoViD-19 by individuals who do not have symptoms and may reinforce physical distancing. Public health officials also caution that face coverings may increase risk if users reduce their use of other efficacious measures such as physical distancing and frequent hand washing. In the singular case of Italy as report in Fig. <xref rid="Fig2" ref-type="fig">2</xref>, we take the number of face masks distributed to the population as a proxy for physical proximity (i.e., we assume the number distributed is effectively equivalent to a certain interpersonal distance), since at the beginning of the outbreak Italy has reported the number of distributed face mask in the country<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>.</p>
+              <p id="Par23">In Fig. <xref rid="Fig3" ref-type="fig">3</xref>, we show the two derivations of the effective reproduction number <italic>R</italic>(<italic>t</italic>). The first is found using RtLive<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. We use this to study the diffusion of the second wave of CoViD-19 in USA. We have sourced mobility and proximity data from the Data for Good program<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> (see also the SI section B for further discussions and results). The analysis covers the period from March to November 2020 in two US states (New York and Florida). Our analysis closely matches the epidemic risk trend by using mobility data and new cases yielding an <italic>R</italic>(<italic>t</italic>) value 6 days sooner than typical <italic>R</italic>(<italic>t</italic>) estimations in literature.<fig id="Fig4"><label>Figure 4</label><caption><p>National Effective reproduction number for Italy during the period from March 2020 to May 2021. Here, <inline-formula id="IEq44"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t literature$$\end{document}</tex-math><mml:math id="M94"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>u</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq44.gif"/></alternatives></inline-formula> is calculated using the method of<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. After the vertical dash line this estimate is not based on completed data. Calibration coefficients are <inline-formula id="IEq45"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c=1.15$$\end{document}</tex-math><mml:math id="M96"><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1.15</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq45.gif"/></alternatives></inline-formula> for the <inline-formula id="IEq46"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t SDM$$\end{document}</tex-math><mml:math id="M98"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq46.gif"/></alternatives></inline-formula> estimate based on Google data and <inline-formula id="IEq47"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c=1.17$$\end{document}</tex-math><mml:math id="M100"><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1.17</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq47.gif"/></alternatives></inline-formula> for the <inline-formula id="IEq48"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t SDM$$\end{document}</tex-math><mml:math id="M102"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq48.gif"/></alternatives></inline-formula> estimate based on Facebook data, and <inline-formula id="IEq49"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau _g=12$$\end{document}</tex-math><mml:math id="M104"><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>12</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq49.gif"/></alternatives></inline-formula> (see “Calibration” subsection of Methods).</p></caption><graphic xlink:href="41598_2021_2760_Fig4_HTML" id="MO7"/></fig></p>
+              <p id="Par24">Alternatively we perform a further analysis comparing our <inline-formula id="IEq50"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M106"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq50.gif"/></alternatives></inline-formula> SDM with the reproduction number computed by a direct renewal equation where we use the number of cases by the onset of symptoms, as in Fig. <xref rid="Fig4" ref-type="fig">4</xref>, data from<sup><xref ref-type="bibr" rid="CR33">33</xref></sup> for Italy. In this figure we have used the renewal estimate of the reproduction number as in<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> and the social distancing based estimation using two dataset for human mobility trend from Google<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> and<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. We notice that the anomalous peak observed in the epidemiological estimate in October is not present in the social estimate. This effect is largely due to an abrupt increase of number of performed tests in that period.</p>
+              <p id="Par25">Finally, we call attention to the fact that mobility alone is not sufficient to explain the dynamics of epidemics, as discussed in<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. We see that physical proximity is crucial in resolving why a relatively stable <italic>R</italic>(<italic>t</italic>) below 1 has persisted, despite an increase in mobility after the end of the lockdown period. On the other hand, one should subtract from the susceptible population the number of asymptomatic or undocumented infected individuals, which are not counted in official reports. We provide an estimate for this number in the “<xref rid="Sec4" ref-type="sec">Methods</xref>” section.</p>
+              <p id="Par26">The effects of vaccination on <inline-formula id="IEq51"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M108"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq51.gif"/></alternatives></inline-formula> are difficult to estimate. In Fig. <xref rid="Fig4" ref-type="fig">4</xref> we present a preliminary analysis of these effects. Taking into account vaccination is necessary to accurately estimate the SDM reproduction number once a significant fraction of the population has been vaccinated. We assume that vaccination reduces the fraction of the population that is susceptible by a factor of <inline-formula id="IEq52"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1-\nu (t)$$\end{document}</tex-math><mml:math id="M110"><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>ν</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq52.gif"/></alternatives></inline-formula>, where <inline-formula id="IEq53"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\nu (t)$$\end{document}</tex-math><mml:math id="M112"><mml:mrow><mml:mi>ν</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq53.gif"/></alternatives></inline-formula> is the fraction of the population that has received the vaccine at time <italic>t</italic>.</p>
+              <p id="Par27">It is outside the scope of this paper to explore the effects of vaccination; however, we stress the importance of using this information to properly assess the reproduction number via mobility data. In a follow-up paper, the authors intend to analyze the effects of different types of vaccines on <inline-formula id="IEq54"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M114"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq54.gif"/></alternatives></inline-formula> at the regional (and higher) level.</p>
+            </sec>
+            <sec id="Sec3">
+              <title>Discussion</title>
+              <p id="Par28">The outbreak of the CoViD-19 pandemic has pushed many countries towards a response that relies on the policy of social distancing, the implementation of which has important social and economic impacts on the organization of production and on the work process. In response to the CoViD-19 pandemic, countries have introduced various levels of ‘lockdown’ to reduce the number of new infections.</p>
+              <p id="Par29">From Eq. (<xref rid="Equ2" ref-type="">2</xref>) it is evident that as the epidemic evolves the force of infection is reduced for various reasons, primarily due to physical distancing policies adopted by most countries in the form of a lockdown of human mobility. Since it is not practical to reduce physical distancing beyond a certain socially and economically acceptable level, the only foreseeable reasons for the end of an epidemic are the depletion of susceptible population (immunization), a change in the intrinsic infectiousness of the virus, a sustained change in public hygiene habits (mask wearing, physical distancing, etc.), or innovation in contact tracing, testing, and isolation, see<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> for a discussion.</p>
+              <p id="Par30">Mechanistic models of disease transmission are often used to forecast disease trajectories and likely disease burden, but are hampered by substantial uncertainty in disease epidemiology in the presence of significant social feedback. Models of disease transmission dynamics are hindered by uncertainty in the role of asymptomatic transmission, the length of the incubation period, the generation interval, and the contribution of different modes of transmission.</p>
+              <p id="Par31">Infectiousness depends on the frequency of contacts and on the level of infection within each individual. In airborne infections, the former can be decomposed as a product of mobility and physical proximity, interpreted broadly as an effective distance measure which also includes the amount and type of physical protection used. The latter involves an internal micro-scale competition between the virus and the immune system which depends on environmental factors like pollution levels and repeated viral exposure, which can modify the viral load shed by infectious individuals.</p>
+              <p id="Par32">We have mainly focused our study on the spread of a contagion in a homogeneous population, using a renewal collisional equation which has proven to be a powerful tool for analyzing and modeling epidemic data along side other well established measurements of the reproduction number. We have found it to be both practically and conceptually useful. This analysis has focused on the lockdown, but the same theoretical tools along with additional technology and data resources show promise for the analysis of the post-lockdown response and further mitigation of this disease.</p>
+              <p id="Par33">At this stage, we do not investigate the dynamics of the severity of the disease. In order to examine these dynamics, we would need to focus our attention on the microscale corresponding to viral particles and immune cells. Since these agents induce the dynamics of the varying intensities of the disease observed at the macroscopic scale of the human population.</p>
+              <p id="Par34">Furthermore, to assess the severity of an epidemic in a population, one should take into account both the reproduction number <italic>R</italic>(<italic>t</italic>) and the absolute number of cases. A high <italic>R</italic>(<italic>t</italic>) is manageable in the very short run as long as there are not many people sick to begin with. An important aspect of <italic>R</italic>(<italic>t</italic>) is that it represents only an average across a region. This average can miss regional clusters of infection. Another subtlety not captured by <italic>R</italic>(<italic>t</italic>) is that many people never infect others, but a few ’superspreaders’ pass on the disease many more times than average, perhaps because they mingle in crowded, indoor events where the virus spreads more easily. This means that bans on certain crowded indoor activities could have more benefit than blanket restrictions introduced whenever the <italic>R</italic>(<italic>t</italic>) value hits one. In conclusion, in addition to <italic>R</italic>(<italic>t</italic>) one should look at trends in numbers of new infections, deaths, hospital admissions, and cohort surveys to see how many people in a population currently have the disease, or have already had it.</p>
+              <p id="Par35">Fatality rates and intensive care hospitalization rates are related to disease severity. In our collisional kinetic framework we have considered contacts among individuals to be random. In addition to these erratic contacts , one can consider structured contacts occurring at home, in hospitals, workplaces, and schools, just to mention a few of the possibilities. For structured contacts, we should consider the use of a different approach than collision theory. One example of a situation in which interactions are more structured is in the theory of random growth of surfaces. In the model considered by<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>, the growing surface is represented as a set of columns, which can be thought of as the individuals of a society that interact. These individuals influence each other and self-organize in the presence of noise so that anomalous scaling and long-range correlations are produced, which are a manifestation of the cooperation among individuals. Since people interact in correlated ways<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, an extension of the collisional model of the present paper to include correlations among the movements of individuals would be more realistic (and likely important for small population sizes or parameter values near <inline-formula id="IEq55"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R=1$$\end{document}</tex-math><mml:math id="M116"><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq55.gif"/></alternatives></inline-formula> or <inline-formula id="IEq56"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R=0$$\end{document}</tex-math><mml:math id="M118"><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq56.gif"/></alternatives></inline-formula>). For a simulation of the interplay between the social and epidemiological effects in a two-layer network, see<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>.</p>
+              <p id="Par36">We stress some advantages of using <inline-formula id="IEq57"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M120"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq57.gif"/></alternatives></inline-formula> SDM alongside the well-established estimations in literature. First, the social estimate is available a couple of weeks earlier then the epidemiological estimate. Second, if a deviation is observed between these two estimates, it may be a sign of a change in the transmissibility of the virus. Furthermore, the approach we have presented allow us to disentangle the effects of population mobility, physical proximity, and depletion of susceptibles on the progression of the epidemic. Knowing the effects of each of these components of the response of the government and society to the CoViD-19 epidemic should allow for less costly and more effective strategies for defeating and mitigating epidemics. In particular, this collision model approach to estimation of infection spread should help policy makers and governments to better assess the continuing threat of CoViD-19 to the public welfare.</p>
+            </sec>
+            <sec id="Sec4">
+              <title>Methods</title>
+              <p id="Par37">The renewal equation was introduced in the context of population dynamics studies. Later it was reinterpreted along the lines of stochastic processes, as in<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>, where transmission occurred via a Poisson infection process. This process is such that the probability that, between time <italic>t</italic> and <inline-formula id="IEq58"><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t+\delta t$$\end{document}</tex-math><mml:math id="M122"><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mi>δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq58.gif"/></alternatives></inline-formula>, someone infected a time <inline-formula id="IEq59"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau $$\end{document}</tex-math><mml:math id="M124"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq59.gif"/></alternatives></inline-formula> ago successfully infects someone else is <inline-formula id="IEq60"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A(t, \tau )\delta t$$\end{document}</tex-math><mml:math id="M126"><mml:mrow><mml:mi>A</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq60.gif"/></alternatives></inline-formula> , where <inline-formula id="IEq61"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\delta t$$\end{document}</tex-math><mml:math id="M128"><mml:mrow><mml:mi>δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq61.gif"/></alternatives></inline-formula> is a very small time interval. As a consequence, the predicted mean infectious incidence at time <italic>t</italic> follows the so-called renewal equation:<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} j(t)=-\frac{d}{dt}n_s(t)=\int _{0}^{\infty }A(t,\tau )j(t-\tau )d\tau +i(t) \end{aligned}$$\end{document}</tex-math><mml:math id="M130" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>j</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mi>d</mml:mi><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∫</mml:mo><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>∞</mml:mi></mml:msubsup><mml:mi>A</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>j</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>τ</mml:mi><mml:mo>+</mml:mo><mml:mi>i</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq62"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau $$\end{document}</tex-math><mml:math id="M132"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq62.gif"/></alternatives></inline-formula> is known as the infection age and <italic>j</italic>(<italic>t</italic>) is the rate of production of infectious individuals. The kernel <inline-formula id="IEq63"><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A(t,\tau )$$\end{document}</tex-math><mml:math id="M134"><mml:mrow><mml:mi>A</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq63.gif"/></alternatives></inline-formula> is the average rate at which an individual infected <inline-formula id="IEq64"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau $$\end{document}</tex-math><mml:math id="M136"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq64.gif"/></alternatives></inline-formula> time units earlier generates secondary cases. In other words, <inline-formula id="IEq65"><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A(t,\tau )$$\end{document}</tex-math><mml:math id="M138"><mml:mrow><mml:mi>A</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq65.gif"/></alternatives></inline-formula> is the expected infectivity of an individual with infection-age <inline-formula id="IEq66"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau $$\end{document}</tex-math><mml:math id="M140"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq66.gif"/></alternatives></inline-formula>, it can be interpreted as the reproduction function for new infections at time <italic>t</italic>. A practical issue concerns the extrinsic dynamics (e.g., public health interventions) of time inhomogeneities in the number of cases highlighting the depletion of susceptible individuals when contact tracing, quarantine, and isolation are implemented during the course of an epidemic. Finally, <italic>i</italic>(<italic>t</italic>) is a function that describes the effects of an external source of infected persons. For the special case <inline-formula id="IEq67"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i(t) = A\delta (t)$$\end{document}</tex-math><mml:math id="M142"><mml:mrow><mml:mi>i</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:mi>δ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq67.gif"/></alternatives></inline-formula>, it encodes the initial number of imported infected individuals. Let us notice that one could completely disregard the external source of infectious individuals, by modelling an infinitely old epidemic where <inline-formula id="IEq68"><alternatives><tex-math id="M143">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau \in [0,\infty )$$\end{document}</tex-math><mml:math id="M144"><mml:mrow><mml:mi>τ</mml:mi><mml:mo>∈</mml:mo><mml:mo stretchy="false">[</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>∞</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq68.gif"/></alternatives></inline-formula> in the renewal integral so disregarding the imported cases.</p>
+              <p id="Par38">The kernel <italic>A</italic> can be factorized as<disp-formula id="Equ6"><alternatives><tex-math id="M145">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} A(t,\tau )=n_s(t)\beta (t,\tau )\Gamma (t,\tau ), \end{aligned}$$\end{document}</tex-math><mml:math id="M146" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>β</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">Γ</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq69"><alternatives><tex-math id="M147">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta (t,\tau )$$\end{document}</tex-math><mml:math id="M148"><mml:mrow><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq69.gif"/></alternatives></inline-formula> is the product of the contact rate and the risk of infection (i.e., the effective contact rate), and <inline-formula id="IEq70"><alternatives><tex-math id="M149">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Gamma (t,\tau )$$\end{document}</tex-math><mml:math id="M150"><mml:mrow><mml:mi mathvariant="normal">Γ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq70.gif"/></alternatives></inline-formula> is the probability of being infectious at infection age <inline-formula id="IEq71"><alternatives><tex-math id="M151">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau $$\end{document}</tex-math><mml:math id="M152"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq71.gif"/></alternatives></inline-formula>. So, reduction in contact frequency with calendar time <italic>t</italic> affects <inline-formula id="IEq72"><alternatives><tex-math id="M153">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta (t, \tau )$$\end{document}</tex-math><mml:math id="M154"><mml:mrow><mml:mi>β</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq72.gif"/></alternatives></inline-formula> while early removal of infectious individuals at calendar time <italic>t</italic> changes the form of <inline-formula id="IEq73"><alternatives><tex-math id="M155">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Gamma (t, \tau )$$\end{document}</tex-math><mml:math id="M156"><mml:mrow><mml:mi mathvariant="normal">Γ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq73.gif"/></alternatives></inline-formula>. An earlier average infection age at first transmission of the disease will result from contact tracing and isolation. However, the classic approach to renewal equations for epidemics assumes, as in<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR40">40</xref>–<xref ref-type="bibr" rid="CR42">42</xref></sup>, that the non-linearity of an epidemic is characterized by the depletion of susceptible individuals alone, so that<disp-formula id="Equ7"><alternatives><tex-math id="M157">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} A(t,\tau )=n_s(t)\beta (\tau )\Gamma (\tau ). \end{aligned}$$\end{document}</tex-math><mml:math id="M158" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>A</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>β</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">Γ</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula>Finally, the proportion of persons who have the ability to infect at a given calendar time is given by the number of infected individuals which is called prevalence,<disp-formula id="Equ8"><alternatives><tex-math id="M159">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} p(t)=\int _{0}^{\infty } \Gamma (\tau ) j(t-\tau ) d\tau . \end{aligned}$$\end{document}</tex-math><mml:math id="M160" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∫</mml:mo><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>∞</mml:mi></mml:msubsup><mml:mi mathvariant="normal">Γ</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>j</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>τ</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula>Notice that <italic>p</italic>(<italic>t</italic>) is not the number of active infected individuals generally reported in epidemic data published by different national health services. This is because the officially detected cases are actively confined (in hospitals or at home) and so their contribution to the spread of the epidemic is not so relevant. On the contrary <italic>p</italic>(<italic>t</italic>) represents the infected people that are still conducting their lives as usual, possibly infecting other people.</p>
+              <p id="Par39">The most important assumptions in our use of phenomenological models are (1) Short time scale of the epidemic (much shorter than the characteristic birth and death time scales of the population) (2) Well mixed population (force of infection homogeneously the same for all ages, sexes, etc.) (3) closed population (no immigration or emigration) (4) initial small shock (the initial infected group extremely small with respect to the size of the susceptible population).</p>
+              <p id="Par40">Using the collision theory for chemical reactions in solution with two types of molecules, we can write down the rate of contacts between the two types in a given volume, per unit time <inline-formula id="IEq74"><alternatives><tex-math id="M161">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$z= n_s j_{\text {x}} 2\pi r \nu $$\end{document}</tex-math><mml:math id="M162"><mml:mrow><mml:mi>z</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:msub><mml:mi>j</mml:mi><mml:mtext>x</mml:mtext></mml:msub><mml:mn>2</mml:mn><mml:mi>π</mml:mi><mml:mi>r</mml:mi><mml:mi>ν</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq74.gif"/></alternatives></inline-formula>. Where we have assumed that all agents are ideal point particles that do not interact directly, and travel through space in straight lines. We further investigate the assumption of such collision model in<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. However, not all contacts will result in secondary infectious, rather only those contacts that have sufficient viral load so as to surmount a certain threshold for triggering the infection. Such transmission efficacy should depend inversely on the physical distance between individuals. Moreover, the collision rate, in reality, depends on time and, in general, on the epidemic’s evolution. This is because the total number of agents changes over time. As an approximation, we embed all of these complexities in the choice of the radius <italic>r</italic>, so to maintain the simplest form of crossection <italic>z</italic>.</p>
+              <p id="Par41">Suppose that during an outbreak only a certain fraction of infectious persons are observed through direct testing, other infectious individuals are not observed, e.g., because of lack of symptoms or the mildness of their illness. In particular, asymptomatic secondary transmissions, caused by those who have been infected and have not developed symptoms yet, and also by those who have been infected and will not become symptomatic throughout the course of infection, must be considered. At a given calendar time, <italic>t</italic>, we imagine that the important new cases are not the observed newly infected (which are quarantined or self-isolate), but rather the fraction of newly infected that are not observed. Some of these unobserved infected spread the disease. The observed cases are a fraction <inline-formula id="IEq75"><alternatives><tex-math id="M163">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda _t$$\end{document}</tex-math><mml:math id="M164"><mml:msub><mml:mi>λ</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq75.gif"/></alternatives></inline-formula> of all cases, i.e.,<disp-formula id="Equ9"><alternatives><tex-math id="M165">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} j_o(t)=\lambda _t \,j(t), \end{aligned}$$\end{document}</tex-math><mml:math id="M166" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>j</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>λ</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mspace width="0.166667em"/><mml:mi>j</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq76"><alternatives><tex-math id="M167">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda _t$$\end{document}</tex-math><mml:math id="M168"><mml:msub><mml:mi>λ</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq76.gif"/></alternatives></inline-formula> is the rate of detection which can change over time depending on the details of and degree of adherence to testing protocols and medical screenings. Moreover, the observed cases together with the undocumented cases constitute all cases so that<disp-formula id="Equ10"><alternatives><tex-math id="M169">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} j(t)=j_o(t)+j_{\text {x}}(t). \end{aligned}$$\end{document}</tex-math><mml:math id="M170" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>j</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>j</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>j</mml:mi><mml:mtext>x</mml:mtext></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula>Thus, the relation between undocumented infected and documented infected individuals is<disp-formula id="Equ11"><alternatives><tex-math id="M171">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} j_{\text {x}}(t)= j_o(t)\frac{1-\lambda _t}{\lambda _t}. \end{aligned}$$\end{document}</tex-math><mml:math id="M172" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>j</mml:mi><mml:mtext>x</mml:mtext></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>j</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mi>λ</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:msub><mml:mi>λ</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula>If the population screening procedure is effective, we have <inline-formula id="IEq77"><alternatives><tex-math id="M173">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda =1$$\end{document}</tex-math><mml:math id="M174"><mml:mrow><mml:mi>λ</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq77.gif"/></alternatives></inline-formula>. This could happen, for example, if the infected group is made up of only symptomatic persons which are infectious only after the onset of symptoms. As a first approximation, we have considered <inline-formula id="IEq78"><alternatives><tex-math id="M175">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta $$\end{document}</tex-math><mml:math id="M176"><mml:mi>η</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq78.gif"/></alternatives></inline-formula> to be constant over the time periods we considered, and <inline-formula id="IEq79"><alternatives><tex-math id="M177">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M178"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq79.gif"/></alternatives></inline-formula> to be a slowly changing function (over a time scale of <inline-formula id="IEq80"><alternatives><tex-math id="M179">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau _A$$\end{document}</tex-math><mml:math id="M180"><mml:msub><mml:mi>τ</mml:mi><mml:mi>A</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq80.gif"/></alternatives></inline-formula> with respect to the calendar time <italic>t</italic>) so that <inline-formula id="IEq81"><alternatives><tex-math id="M181">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda (t-\tau )\approx \lambda (t) $$\end{document}</tex-math><mml:math id="M182"><mml:mrow><mml:mi>λ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>≈</mml:mo><mml:mi>λ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq81.gif"/></alternatives></inline-formula>.</p>
+              <p id="Par42">Finally, the actual (or effective) reproduction number can be written as the incidence-prevalence ratio<disp-formula id="Equ12"><alternatives><tex-math id="M183">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} R(t)= D \frac{j(t)}{p(t)}, \end{aligned}$$\end{document}</tex-math><mml:math id="M184" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>R</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>D</mml:mi><mml:mfrac><mml:mrow><mml:mi>j</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula>where prevalence is the proportion of persons who have the ability to infect at a given calendar time. This ratio indicates the propensity of currently infected individuals to infect susceptibles and<disp-formula id="Equ13"><alternatives><tex-math id="M185">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} D:=\int _{0}^{\infty }\Gamma (\tau )d\tau \end{aligned}$$\end{document}</tex-math><mml:math id="M186" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>D</mml:mi><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∫</mml:mo><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>∞</mml:mi></mml:msubsup><mml:mi mathvariant="normal">Γ</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>τ</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula>is the average infectious period (or mean generation time). Therefore the actual reproduction number written as incidence persistence ratio is:<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M187">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {R(t+\tau _g)}\sim R(t_0+\tau _g) \dfrac{n_s(t)}{n_s(t_0)}\dfrac{\eta (t)}{\eta (t_0)}\dfrac{\rho (t_0)}{\rho (t)} \dfrac{\nu (t)}{\nu (t_0)} \dfrac{ 1-\lambda (t)}{ 1-\lambda (t_0)} \equiv {R}_0 {\tilde{S}}_t\tilde{\mathscr {B}}_t, \end{aligned}$$\end{document}</tex-math><mml:math id="M188" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>∼</mml:mo><mml:mi>R</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mstyle><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi>η</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>η</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi>ρ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>ρ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mi>ν</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>ν</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mstyle displaystyle="true" scriptlevel="0"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>λ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>λ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>≡</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:msub><mml:mover accent="true"><mml:mi>S</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub><mml:msub><mml:mover accent="true"><mml:mi mathvariant="script">B</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2021_2760_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>where we have also considered some practical issues in the calculation of the reproduction number as given in<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>.</p>
+              <p id="Par43">Note that, <italic>R</italic>(<italic>t</italic>) does not depend explicitly on <inline-formula id="IEq82"><alternatives><tex-math id="M189">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Gamma (\tau )$$\end{document}</tex-math><mml:math id="M190"><mml:mrow><mml:mi mathvariant="normal">Γ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq82.gif"/></alternatives></inline-formula>, except through its integral over all possible values of <inline-formula id="IEq83"><alternatives><tex-math id="M191">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau $$\end{document}</tex-math><mml:math id="M192"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq83.gif"/></alternatives></inline-formula>. Thus, to a an adequate degree of approximation, it only depends on the typical time between infection and detection. Indeed, one can replace the <inline-formula id="IEq84"><alternatives><tex-math id="M193">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Gamma $$\end{document}</tex-math><mml:math id="M194"><mml:mi mathvariant="normal">Γ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq84.gif"/></alternatives></inline-formula> distribution with any distribution with the same mean recovery time (i.e., time to become non-infectious). As a consequence, the most changing <inline-formula id="IEq85"><alternatives><tex-math id="M195">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Gamma $$\end{document}</tex-math><mml:math id="M196"><mml:mi mathvariant="normal">Γ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq85.gif"/></alternatives></inline-formula> (as a function of <inline-formula id="IEq86"><alternatives><tex-math id="M197">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau $$\end{document}</tex-math><mml:math id="M198"><mml:mi>τ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq86.gif"/></alternatives></inline-formula>) can do is change <italic>R</italic>(<italic>t</italic>) by a re-scaling. However, effectively, the infectious age distribution depends on <italic>t</italic>. Since contact tracing, testing, and isolation (as well as treatments) will tend to reduce the active infectious period (and their use depends on <italic>t</italic>). On the other hand, the absolute scale of <italic>R</italic>(<italic>t</italic>) is also important, since one would like to maintain a value of <italic>R</italic> below 1.</p>
+              <sec id="Sec6">
+                <title>Calibration</title>
+                <p id="Par44">We discuss some important points for the calibration of the social distancing estimate of <inline-formula id="IEq87"><alternatives><tex-math id="M199">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_t$$\end{document}</tex-math><mml:math id="M200"><mml:msub><mml:mi>R</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq87.gif"/></alternatives></inline-formula>. First, calibration is required since we need to align the SDM reproduction number we compute with the reproduction number derived using the epidemiological data obtained by estimation methods in literature. Regressing the two variables, we find a constant <italic>c</italic> which is then embedded in the the <inline-formula id="IEq88"><alternatives><tex-math id="M201">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\hat{R}}_0$$\end{document}</tex-math><mml:math id="M202"><mml:msub><mml:mover accent="true"><mml:mi>R</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq88.gif"/></alternatives></inline-formula>. The second point is essentially due to possible misalignment between the two different estimation procedures because of intrinsic discrepancies in data we use. For this purpose, we evaluate the multiplicative scaling factor in the reproduction number Eq. (<xref rid="Equ4" ref-type="">4</xref>), using a zero-intercept linear regression between the two time series of the reproduction number.</p>
+                <p id="Par45">Additionally, we have set the generative time <inline-formula id="IEq89"><alternatives><tex-math id="M203">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau _g=6$$\end{document}</tex-math><mml:math id="M204"><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq89.gif"/></alternatives></inline-formula>, which takes into account the typical time to generate positive test results. This time scale is interpreted as detection period which is the time between exposure (contact) and detection (isolation)<sup><xref ref-type="bibr" rid="CR44">44</xref>–<xref ref-type="bibr" rid="CR46">46</xref></sup>. The generative time has been estimated through the synchronization between the signals in the calibration steps. This is equivalent to the delay estimate used by RtLive and Epiforecast and other reconstruction infection estimates as<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR47">47</xref>,<xref ref-type="bibr" rid="CR48">48</xref></sup> as in Fig. <xref rid="Fig3" ref-type="fig">3</xref>. Note that for Fig. <xref rid="Fig4" ref-type="fig">4</xref> we used the method of Ref.<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> to estimate <italic>R</italic>(<italic>t</italic>). Since this estimate was not adjusted for the delay in reporting symptoms, it was necessary to add an additional 6 days to the value of <inline-formula id="IEq90"><alternatives><tex-math id="M205">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau _g$$\end{document}</tex-math><mml:math id="M206"><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq90.gif"/></alternatives></inline-formula> for a value of <inline-formula id="IEq91"><alternatives><tex-math id="M207">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau _g=12$$\end{document}</tex-math><mml:math id="M208"><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>12</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq91.gif"/></alternatives></inline-formula>. The values chosen produce a good alignment between the features of <italic>R</italic>(<italic>t</italic>) derived as in the literature and corresponding features of <italic>R</italic>(<italic>t</italic>) as given by Eq. (<xref rid="Equ4" ref-type="">4</xref>).</p>
+                <p id="Par46">A last step in the calibration consists in the estimation of the fraction of the population that is infected, which is particularly important for a longer-term analysis has. This is accomplished by studying the dependence of the reproductive number <italic>R</italic>(<italic>t</italic>) on the ratio, <italic>c</italic>(<italic>t</italic>), between the official number of people infected and the total population of the region (Italy) or state (US)<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. The value <inline-formula id="IEq92"><alternatives><tex-math id="M209">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda $$\end{document}</tex-math><mml:math id="M210"><mml:mi>λ</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq92.gif"/></alternatives></inline-formula> has changed over time throughout the epidemic and after the end of the spring 2020 lockdowns it increased, possibly due to the increased number of tests performed. Finally, when plotting the reproduction number, to visualize the trend, we use non-parametric regression analysis with LoWeSS (Locally Weighted Scatterplot Smoothing) surrounded by a <inline-formula id="IEq93"><alternatives><tex-math id="M211">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$90\%$$\end{document}</tex-math><mml:math id="M212"><mml:mrow><mml:mn>90</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_2760_Article_IEq93.gif"/></alternatives></inline-formula> confidence interval obtained through bootstrapping.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec5">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2021_2760_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Information 1.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary Information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41598-021-02760-8.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Fabio Vanni acknowledges support from the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No.822781 GROWINPRO - Growth Welfare Innovation Productivity. Paolo Grigolini thanks U.S. Army Research Office Grant Number W911NF1910104 for the support of his research work.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>F.V. and D.L. conceived the theory, F.V. and L.P. collected data, F.V. D.L. and L.P. analyzed the results. All authors reviewed the manuscript.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p>The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Kishore, N. <italic>et al.</italic> Measuring mobility to monitor travel and physical distancing interventions: A common framework for mobile phone data analysis. <italic>Lancet Digit. Health</italic> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Flaxman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Estimating the effects of non-pharmaceutical interventions on covid-19 in Europe</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>584</volume>
+                  <fpage>257</fpage>
+                  <lpage>261</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2405-7</pub-id>
+                  <pub-id pub-id-type="pmid">32512579</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nouvellet</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Reduction in mobility and covid-19 transmission</article-title>
+                  <source>Nat. Commun.</source>
+                  <year>2021</year>
+                  <volume>12</volume>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-021-21358-2</pub-id>
+                  <pub-id pub-id-type="pmid">33397941</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gatalo</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Tseng</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Klein</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Associations between phone mobility data and covid-19 cases</article-title>
+                  <source>Lancet Infect. Dis.</source>
+                  <year>2021</year>
+                  <volume>21</volume>
+                  <fpage>e111</fpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30725-8</pub-id>
+                  <pub-id pub-id-type="pmid">32946835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Badr</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Association between mobility patterns and covid-19 transmission in the USA: A mathematical modelling study</article-title>
+                  <source>Lancet Infect. Dis.</source>
+                  <year>2020</year>
+                  <volume>20</volume>
+                  <fpage>1247</fpage>
+                  <lpage>1254</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30553-3</pub-id>
+                  <pub-id pub-id-type="pmid">32621869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arenas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modeling the spatiotemporal epidemic spreading of covid-19 and the impact of mobility and social distancing interventions</article-title>
+                  <source>Phys. Rev. X</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>041055</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oka</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of human mobility restrictions on the covid-19 transmission network in China</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2021</year>
+                  <volume>16</volume>
+                  <fpage>e0254403</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0254403</pub-id>
+                  <pub-id pub-id-type="pmid">34280197</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aleta</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modelling the impact of testing, contact tracing and household quarantine on second waves of covid-19</article-title>
+                  <source>Nat. Hum. Behav.</source>
+                  <year>2020</year>
+                  <volume>4</volume>
+                  <fpage>964</fpage>
+                  <lpage>971</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41562-020-0931-9</pub-id>
+                  <pub-id pub-id-type="pmid">32759985</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mobility network models of covid-19 explain inequities and inform reopening</article-title>
+                  <source>Nature</source>
+                  <year>2021</year>
+                  <volume>589</volume>
+                  <fpage>82</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2923-3</pub-id>
+                  <pub-id pub-id-type="pmid">33171481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Yan, P. &amp; Chowell, G. <italic>Quantitative Methods for Investigating Infectious Disease Outbreaks</italic>, vol. 70 (Springer, 2019).</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <mixed-citation publication-type="other">Chowell, G., Hyman, J. M., Bettencourt, L. M. &amp; Castillo-Chavez, C. <italic>Mathematical and Statistical Estimation Approaches in Epidemiology</italic> (Springer, 2009).</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Breda</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Diekmann</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>De Graaf</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Pugliese</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Vermiglio</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On the formulation of epidemic models (an appraisal of kermack and mckendrick)</article-title>
+                  <source>J. Biol. Dyn.</source>
+                  <year>2012</year>
+                  <volume>6</volume>
+                  <fpage>103</fpage>
+                  <lpage>117</lpage>
+                  <pub-id pub-id-type="doi">10.1080/17513758.2012.716454</pub-id>
+                  <pub-id pub-id-type="pmid">22897721</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nishiura</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Correcting the actual reproduction number: A simple method to estimate r0 from early epidemic growth data</article-title>
+                  <source>Int. J. Environ. Res. Public Health</source>
+                  <year>2010</year>
+                  <volume>7</volume>
+                  <fpage>291</fpage>
+                  <lpage>302</lpage>
+                  <pub-id pub-id-type="doi">10.3390/ijerph7010291</pub-id>
+                  <pub-id pub-id-type="pmid">20195446</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Metz</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The epidemic in a closed population with all susceptibles equally vulnerable; some results for large susceptible populations and small initial infections</article-title>
+                  <source>Acta Biotheor.</source>
+                  <year>1978</year>
+                  <volume>27</volume>
+                  <fpage>75</fpage>
+                  <lpage>123</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF00048405</pub-id>
+                  <pub-id pub-id-type="pmid">97888</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (sars-cov-2)</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <volume>368</volume>
+                  <fpage>489</fpage>
+                  <lpage>493</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.abb3221</pub-id>
+                  <pub-id pub-id-type="pmid">32179701</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Palatella, L., Vanni, F. &amp; Lambert, D. A phenomenological estimate of the true scale of covid-19 from primary data. <italic>Chaos Solitons Fract.</italic> 110854 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Abbott, S. <italic>et al.</italic> Estimating the time-varying reproduction number of sars-cov-2 using national and subnational case counts [version 1; peer review: awaiting peer review]. <italic>Wellcome Open Research</italic><bold>5</bold> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gostic</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Practical considerations for measuring the effective reproductive number, r t</article-title>
+                  <source>PLoS Comput. Biol.</source>
+                  <year>2020</year>
+                  <volume>16</volume>
+                  <fpage>e1008409</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1008409</pub-id>
+                  <pub-id pub-id-type="pmid">33301457</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Zhang, R., Li, Y., Zhang, A. L., Wang, Y. &amp; Molina, M. J. Identifying airborne transmission as the dominant route for the spread of covid-19. <italic>Proc. Natl. Acad. Sci.</italic> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">MacIntyre, C. R. &amp; Wang, Q. Physical distancing, face masks, and eye protection for prevention of covid-19. <italic>Lancet</italic> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Ferretti, L. <italic>et al.</italic> Quantifying sars-cov-2 transmission suggests epidemic control with digital contact tracing. <italic>Science</italic><bold>368</bold> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Systrom, K., Vladek, T. &amp; Krieger, M. Project title. <ext-link ext-link-type="uri" xlink:href="https://github.com/rtcovidlive/covid-model">https://github.com/rtcovidlive/covid-model</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <mixed-citation publication-type="other">Google, L. Google covid-19 community mobility reports (2020). Data retrieved from, <ext-link ext-link-type="uri" xlink:href="https://www.google.com/covid19/mobility">https://www.google.com/covid19/mobility</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Voxel51. Measuring the social impact of the coronavirus pandemic (2020). <ext-link ext-link-type="uri" xlink:href="https://pdi.voxel51.com">https://pdi.voxel51.com</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <mixed-citation publication-type="other">CovidTracking. The covid tracking project (2020). <ext-link ext-link-type="uri" xlink:href="https://covidtracking.com/">https://covidtracking.com/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Unacast. Unacast social distancing dataset (5/27/2020). <ext-link ext-link-type="uri" xlink:href="https://www.unacast.com/data-for-good">https://www.unacast.com/data-for-good</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <mixed-citation publication-type="other">Epiforecast. Covid working group, cmmid (2020). <ext-link ext-link-type="uri" xlink:href="https://epiforecasts.io/covid/">https://epiforecasts.io/covid/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <mixed-citation publication-type="other">Covid19Projections. Covid-19 projections using machine learning (2020). <ext-link ext-link-type="uri" xlink:href="https://covid19-projections.com/">https://covid19-projections.com/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">ACAPS. Government measures dataset (2020). <ext-link ext-link-type="uri" xlink:href="https://www.acaps.org/covid19-government-measures-dataset">https://www.acaps.org/covid19-government-measures-dataset</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">DPC. Analisi distribuzione aiuti (ada) (2020). Sito del Dipartimento della Protezione Civile - Presidenza del Consiglio dei Ministri, <ext-link ext-link-type="uri" xlink:href="http://www.protezionecivile.gov.it/attivita-rischi/rischio-sanitario/emergenze/coronavirus/materiali-distribuiti-alle-regioni">http://www.protezionecivile.gov.it/attivita-rischi/rischio-sanitario/emergenze/coronavirus/materiali-distribuiti-alle-regioni</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <mixed-citation publication-type="other">Facebook. The covid-19 mobility data network (12/20/2020). <ext-link ext-link-type="uri" xlink:href="https://research.fb.com/blog/2020/06/protecting-privacy-in-facebook-mobility-data-during-the-covid-19-response/">https://research.fb.com/blog/2020/06/protecting-privacy-in-facebook-mobility-data-during-the-covid-19-response/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cori</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferguson</surname>
+                      <given-names>NM</given-names>
+                    </name>
+                    <name>
+                      <surname>Fraser</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Cauchemez</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new framework and software to estimate time-varying reproduction numbers during epidemics</article-title>
+                  <source>Am. J. Epidemiol.</source>
+                  <year>2013</year>
+                  <volume>178</volume>
+                  <fpage>1505</fpage>
+                  <lpage>1512</lpage>
+                  <pub-id pub-id-type="doi">10.1093/aje/kwt133</pub-id>
+                  <pub-id pub-id-type="pmid">24043437</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">ISS. Integrated surveillance of covid-19 in Italy (2020). Scientific coordination by Centro Nazionale per la Prevenzione delle malattie e la Promozione della Salute, CNAPPS - ISS. <ext-link ext-link-type="uri" xlink:href="https://www.epicentro.iss.it/en/coronavirus/">https://www.epicentro.iss.it/en/coronavirus/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <mixed-citation publication-type="other">Cintia, P. <italic>et al.</italic> The relationship between human mobility and viral transmissibility during the covid-19 epidemics in Italy. arXiv preprint <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2006.03141">arXiv:2006.03141</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nepomuceno</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Besides population age structure, health and other demographic factors can contribute to understanding the covid-19 burden</article-title>
+                  <source>Proc. Natl. Acad. Sci.</source>
+                  <year>2020</year>
+                  <volume>117</volume>
+                  <fpage>13881</fpage>
+                  <lpage>13883</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.2008760117</pub-id>
+                  <pub-id pub-id-type="pmid">32576710</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Failla, R., Grigolini, P., Ignaccolo, M. &amp; Schwettmann, A. Random growth of interfaces as a subordinated process. <italic>Phys. Rev. E</italic><bold>70</bold>, 010101 (2004).</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Koren</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Barabási</surname>
+                      <given-names>A-L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling the scaling properties of human mobility</article-title>
+                  <source>Nat. Phys.</source>
+                  <year>2010</year>
+                  <volume>6</volume>
+                  <fpage>818</fpage>
+                  <lpage>823</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nphys1760</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <mixed-citation publication-type="other">Grigolini, P., Lambert, D., Mahmoodi, K. &amp; Piccinini, N. <italic>From social to epidemic criticality and back</italic><bold>2103</bold>, 13288 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <mixed-citation publication-type="other">Fraser, C. Estimating individual and household reproduction numbers in an emerging epidemic. <italic>PLoS ONE</italic><bold>2</bold> (2007).</mixed-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nishiura</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Time variations in the generation time of an infectious disease: Implications for sampling to appropriately quantify transmission potential</article-title>
+                  <source>Math. Biosci. Eng.</source>
+                  <year>2010</year>
+                  <volume>7</volume>
+                  <fpage>851</fpage>
+                  <lpage>869</lpage>
+                  <pub-id pub-id-type="doi">10.3934/mbe.2010.7.851</pub-id>
+                  <pub-id pub-id-type="pmid">21077712</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Champredon</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Dushoff</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Earn</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Equivalence of the erlang-distributed seir epidemic model and the renewal equation</article-title>
+                  <source>SIAM J. Appl. Math.</source>
+                  <year>2018</year>
+                  <volume>78</volume>
+                  <fpage>3258</fpage>
+                  <lpage>3278</lpage>
+                  <pub-id pub-id-type="doi">10.1137/18M1186411</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">Nishiura, H. &amp; Chowell, G. The effective reproduction number as a prelude to statistical estimation of time-dependent epidemic trends. In <italic>Mathematical and Statistical Estimation Approaches in Epidemiology</italic>, 103–121 (Springer, 2009).</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Vanni, F. &amp; Lambert, D. On the regularity of human mobility patterns at times of a pandemic. arXiv preprint <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2104.08975">arXiv:2104.08975</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lehtinen</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ashcroft</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonhoeffer</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On the relationship between serial interval, infectiousness profile and generation time</article-title>
+                  <source>J. R. Soc. Interface</source>
+                  <year>2021</year>
+                  <volume>18</volume>
+                  <fpage>20200756</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2020.0756</pub-id>
+                  <pub-id pub-id-type="pmid">33402022</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scarabel</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Pellis</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ogden</surname>
+                      <given-names>NH</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A renewal equation model to assess roles and limitations of contact tracing for disease outbreak control</article-title>
+                  <source>R. Soc. Open Sci.</source>
+                  <year>2021</year>
+                  <volume>8</volume>
+                  <fpage>202091</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsos.202091</pub-id>
+                  <pub-id pub-id-type="pmid">33868698</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alene</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Serial interval and incubation period of covid-19: A systematic review and meta-analysis</article-title>
+                  <source>BMC Infect. Dis.</source>
+                  <year>2021</year>
+                  <volume>21</volume>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s12879-021-05950-x</pub-id>
+                  <pub-id pub-id-type="pmid">33390160</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Estimating the generation interval and inferring the latent period of covid-19 from the contact tracing data</article-title>
+                  <source>Epidemics</source>
+                  <year>2021</year>
+                  <volume>36</volume>
+                  <fpage>100482</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.epidem.2021.100482</pub-id>
+                  <pub-id pub-id-type="pmid">34175549</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <mixed-citation publication-type="other">Steinegger, B. <italic>et al.</italic> Retrospective study of the first wave of covid-19 in Spain: Analysis of counterfactual scenarios. <italic>medRxiv</italic> (2021).</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

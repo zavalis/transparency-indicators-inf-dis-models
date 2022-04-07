@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T01:02:22Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6484025" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6484025</identifier>
+        <datestamp>2019-04-26</datestamp>
+        <setSpec>sdata</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Data</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Data</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Data</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2052-4463</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6484025</article-id>
+              <article-id pub-id-type="pmcid">PMC6484025</article-id>
+              <article-id pub-id-type="pmc-uid">6484025</article-id>
+              <article-id pub-id-type="pmid">31024009</article-id>
+              <article-id pub-id-type="publisher-id">42</article-id>
+              <article-id pub-id-type="doi">10.1038/s41597-019-0042-5</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>MIReAD, a minimum information standard for reporting arthropod abundance data</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1701-7787</contrib-id>
+                  <name>
+                    <surname>Rund</surname>
+                    <given-names>Samuel S. C.</given-names>
+                  </name>
+                  <address>
+                    <email>srund@nd.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Braak</surname>
+                    <given-names>Kyle</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cator</surname>
+                    <given-names>Lauren</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6590-599X</contrib-id>
+                  <name>
+                    <surname>Copas</surname>
+                    <given-names>Kyle</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Emrich</surname>
+                    <given-names>Scott J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Giraldo-Calderón</surname>
+                    <given-names>Gloria I.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Johansson</surname>
+                    <given-names>Michael A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Heydari</surname>
+                    <given-names>Naveed</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6492-4016</contrib-id>
+                  <name>
+                    <surname>Hobern</surname>
+                    <given-names>Donald</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kelly</surname>
+                    <given-names>Sarah A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7765-983X</contrib-id>
+                  <name>
+                    <surname>Lawson</surname>
+                    <given-names>Daniel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lord</surname>
+                    <given-names>Cynthia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5070-4493</contrib-id>
+                  <name>
+                    <surname>MacCallum</surname>
+                    <given-names>Robert M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Roche</surname>
+                    <given-names>Dominique G.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff11">11</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4308-6321</contrib-id>
+                  <name>
+                    <surname>Ryan</surname>
+                    <given-names>Sadie J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff12">12</xref>
+                  <xref ref-type="aff" rid="Aff13">13</xref>
+                  <xref ref-type="aff" rid="Aff14">14</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2919-1168</contrib-id>
+                  <name>
+                    <surname>Schigel</surname>
+                    <given-names>Dmitry</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vandegrift</surname>
+                    <given-names>Kurt</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff15">15</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0364-9406</contrib-id>
+                  <name>
+                    <surname>Watts</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zaspel</surname>
+                    <given-names>Jennifer M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff16">16</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8375-5684</contrib-id>
+                  <name>
+                    <surname>Pawar</surname>
+                    <given-names>Samraat</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2168 0066</institution-id><institution-id institution-id-type="GRID">grid.131063.6</institution-id><institution>VectorBase, Department of Biological Sciences, </institution><institution>University of Notre Dame, </institution></institution-wrap>Notre Dame, IN USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9702 069X</institution-id><institution-id institution-id-type="GRID">grid.440787.8</institution-id><institution>Universidad Icesi, Facultad de Ciencias Naturales, </institution></institution-wrap>Calle 18 No. 122-135, Cali, Colombia </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.434488.7</institution-id><institution>Global Biodiversity Information Facility (GBIF) Secretariat, </institution></institution-wrap>Copenhagen, Denmark </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2113 8111</institution-id><institution-id institution-id-type="GRID">grid.7445.2</institution-id><institution>Department of Life Sciences, </institution><institution>Imperial College London, Silwood Park Campus, </institution></institution-wrap>Buckhurst Road, Ascot, Berkshire, United Kingdom </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2315 1184</institution-id><institution-id institution-id-type="GRID">grid.411461.7</institution-id><institution>Department of Electrical Engineering and Computer Science, </institution><institution>University of Tennessee, </institution></institution-wrap>Knoxville, TN USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.470962.e</institution-id><institution>Division of Vector-Borne Diseases, </institution><institution>Centers for Disease Control and Prevention, </institution></institution-wrap>1324 Calle Cañada, San Juan, PR USA </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">000000041936754X</institution-id><institution-id institution-id-type="GRID">grid.38142.3c</institution-id><institution>Department of Epidemiology, </institution><institution>Harvard School of Public Health, </institution></institution-wrap>677 Huntington Ave, Boston, MA USA </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9159 4457</institution-id><institution-id institution-id-type="GRID">grid.411023.5</institution-id><institution>Center for Global Health and Translational Science, </institution><institution>State University of New York Upstate Medical University, </institution></institution-wrap>Syracuse, NY USA </aff>
+                <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2113 8111</institution-id><institution-id institution-id-type="GRID">grid.7445.2</institution-id><institution>VectorBase and Vector Immunogenomics and Infection Laboratory, Department of Life Sciences, </institution><institution>Imperial College London, </institution></institution-wrap>London, United Kingdom </aff>
+                <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 8091</institution-id><institution-id institution-id-type="GRID">grid.15276.37</institution-id><institution>Florida Medical Entomology Lab, </institution><institution>University of Florida-IFAS, </institution></institution-wrap>Vero Beach, FL USA </aff>
+                <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2297 7718</institution-id><institution-id institution-id-type="GRID">grid.10711.36</institution-id><institution>Institute of Biology, </institution><institution>University of Neuchâtel, </institution></institution-wrap>2000 Neuchâtel, Switzerland </aff>
+                <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 8091</institution-id><institution-id institution-id-type="GRID">grid.15276.37</institution-id><institution>Quantitative Disease Ecology and Conservation Lab, Department of Geography, </institution><institution>University of Florida, </institution></institution-wrap>Gainesville, FL USA </aff>
+                <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 8091</institution-id><institution-id institution-id-type="GRID">grid.15276.37</institution-id><institution>Emerging Pathogens Institute, </institution><institution>University of Florida, </institution></institution-wrap>Gainesville, FL USA </aff>
+                <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 0723 4123</institution-id><institution-id institution-id-type="GRID">grid.16463.36</institution-id><institution>College of Life Sciences, </institution><institution>University of Kwa-Zulu Natal, </institution></institution-wrap>Durban, South Africa </aff>
+                <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2097 4281</institution-id><institution-id institution-id-type="GRID">grid.29857.31</institution-id><institution>Center for Infectious Disease Dynamics, Department of Biology, </institution><institution>The Pennsylvania State University, </institution></institution-wrap>University Park, PA USA </aff>
+                <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 0941 8356</institution-id><institution-id institution-id-type="GRID">grid.295546.9</institution-id><institution>Department of Zoology, </institution><institution>Milwaukee Public Museum, </institution></institution-wrap>Milwaukee, WI USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>25</day>
+                <month>4</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>25</day>
+                <month>4</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <volume>6</volume>
+              <elocation-id>40</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>10</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>3</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2019</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Arthropods play a dominant role in natural and human-modified terrestrial ecosystem dynamics. Spatially-explicit arthropod population time-series data are crucial for statistical or mathematical models of these dynamics and assessment of their veterinary, medical, agricultural, and ecological impacts. Such data have been collected world-wide for over a century, but remain scattered and largely inaccessible. In particular, with the ever-present and growing threat of arthropod pests and vectors of infectious diseases, there are numerous historical and ongoing surveillance efforts, but the data are not reported in consistent formats and typically lack sufficient metadata to make reuse and re-analysis possible. Here, we present the first-ever minimum information standard for arthropod abundance, Minimum Information for Reusable Arthropod Abundance Data (MIReAD). Developed with broad stakeholder collaboration, it balances sufficiency for reuse with the practicality of preparing the data for submission. It is designed to optimize data (re)usability from the “FAIR,” (Findable, Accessible, Interoperable, and Reusable) principles of public data archiving (PDA). This standard will facilitate data unification across research initiatives and communities dedicated to surveillance for detection and control of vector-borne diseases and pests.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Population dynamics</kwd>
+                <kwd>Ecological epidemiology</kwd>
+                <kwd>Research data</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100000268</institution-id>
+                      <institution>RCUK | Biotechnology and Biological Sciences Research Council (BBSRC)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <award-id>BB/N013573/1</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Rund</surname>
+                      <given-names>Samuel S. C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cator</surname>
+                      <given-names>Lauren</given-names>
+                    </name>
+                    <name>
+                      <surname>Johansson</surname>
+                      <given-names>Michael A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heydari</surname>
+                      <given-names>Naveed</given-names>
+                    </name>
+                    <name>
+                      <surname>Lord</surname>
+                      <given-names>Cynthia</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>Sadie J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vandegrift</surname>
+                      <given-names>Kurt</given-names>
+                    </name>
+                    <name>
+                      <surname>Watts</surname>
+                      <given-names>Matthew</given-names>
+                    </name>
+                    <name>
+                      <surname>Pawar</surname>
+                      <given-names>Samraat</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000002</institution-id>
+                      <institution>U.S. Department of Health &amp;amp; Human Services | National Institutes of Health (NIH)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI136035-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <award-id>1R01AI122284-01</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Rund</surname>
+                      <given-names>Samuel S. C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cator</surname>
+                      <given-names>Lauren</given-names>
+                    </name>
+                    <name>
+                      <surname>Johansson</surname>
+                      <given-names>Michael A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heydari</surname>
+                      <given-names>Naveed</given-names>
+                    </name>
+                    <name>
+                      <surname>Lord</surname>
+                      <given-names>Cynthia</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>Sadie J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vandegrift</surname>
+                      <given-names>Kurt</given-names>
+                    </name>
+                    <name>
+                      <surname>Watts</surname>
+                      <given-names>Matthew</given-names>
+                    </name>
+                    <name>
+                      <surname>Pawar</surname>
+                      <given-names>Samraat</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100000288</institution-id>
+                      <institution>Royal Society</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>NF140517</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Rund</surname>
+                      <given-names>Samuel S. C.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000060</institution-id>
+                      <institution>U.S. Department of Health &amp;amp; Human Services | NIH | National Institute of Allergy and Infectious Diseases (NIAID)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>HHSN272201400029C</award-id>
+                  <award-id>HHSN272201400029C</award-id>
+                  <award-id>HHSN272201400029C</award-id>
+                  <award-id>HHSN272201400029C</award-id>
+                  <award-id>HHSN272201400029C</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Rund</surname>
+                      <given-names>Samuel S. C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Emrich</surname>
+                      <given-names>Scott J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kelly</surname>
+                      <given-names>Sarah A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawson</surname>
+                      <given-names>Daniel</given-names>
+                    </name>
+                    <name>
+                      <surname>MacCallum</surname>
+                      <given-names>Robert M.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000155</institution-id>
+                      <institution>NSF | BIO | Division of Environmental Biology (DEB)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1518681</award-id>
+                  <award-id>1518681</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Heydari</surname>
+                      <given-names>Naveed</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>Sadie J.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000030</institution-id>
+                      <institution>U.S. Department of Health &amp;amp; Human Services | Centers for Disease Control and Prevention (CDC)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1U01CK000510-01</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>Sadie J.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000001</institution-id>
+                      <institution>National Science Foundation (NSF)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1619072</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Vandegrift</surname>
+                      <given-names>Kurt</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000153</institution-id>
+                      <institution>NSF | BIO | Division of Biological Infrastructure (DBI)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>1561448</award-id>
+                  <award-id>1601957</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Zaspel</surname>
+                      <given-names>Jennifer M.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2019</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Arthropods play a dominant role in the dynamics of practically all natural and human-modified terrestrial ecosystems<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR3">3</xref></sup> and have significant economic and health effects. For example, certain insects provide significant economic benefits (<italic>e</italic>.<italic>g</italic>. pollination) exceeding $57 billion a year to the United States alone<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. Invasive insects, however, cost an estimated $70 billion dollars per year globally<sup><xref ref-type="bibr" rid="CR5">5</xref></sup> and insect pests may reduce agricultural harvests by up to 16%, with an equal amount of further losses of harvested goods<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. Particularly noteworthy is a subset of arthropods that are disease vectors, transmitting pathogens to and between animals as well as plants. Vector borne diseases cause billions of dollars in crop and livestock losses, every year<sup><xref ref-type="bibr" rid="CR7">7</xref>–<xref ref-type="bibr" rid="CR9">9</xref></sup>. In humans, vector borne diseases account for more than 17% of all infectious diseases (<italic>e</italic>.<italic>g</italic>. malaria, Chagas, dengue, and leishmaniasis, Zika, West Nile, Lyme disease, and sleeping sickness), with hundreds of thousands of deaths, hundreds of millions of cases, and billions of people at risk, annually<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>.</p>
+              <p id="Par3">The current economic and health burden of arthropod pests, exacerbated by invasive species, and uncertain effects of climate change<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>, has driven significant research programs and data collection efforts. These include crop pest, mosquito, and tick survey and reporting initiatives<sup><xref ref-type="bibr" rid="CR14">14</xref>–<xref ref-type="bibr" rid="CR18">18</xref></sup>, citizen science projects<sup><xref ref-type="bibr" rid="CR19">19</xref>–<xref ref-type="bibr" rid="CR21">21</xref></sup>, and digitization of museum specimen data<sup><xref ref-type="bibr" rid="CR22">22</xref>,<xref ref-type="bibr" rid="CR23">23</xref></sup>, all yielding a rich and growing trove of field-based data spanning multiple spatial and temporal scales. The monitoring of arthropod abundance (<italic>e</italic>.<italic>g</italic>. Fig. <xref rid="Fig1" ref-type="fig">1</xref>) in different disciplines (<italic>e</italic>.<italic>g</italic>., biodiversity research, pest-control assessment, vector borne disease monitoring, and pollination research) has similar objectives — to quantify abundance, phenology and geographical ranges of target arthropod species — and entails similar techniques. However, the data produced by these various efforts are often not reusable, or comparable to similar data, as they are typically not recorded in a standard format (<italic>e</italic>.<italic>g</italic>. Darwin Core), or do not provide adequate metadata. In contrast, the advent of journal-mandated deposition of data from high-throughput technologies (<italic>e</italic>.<italic>g</italic>. NCBI and GenBank), data and code sharing, and other practices to improve transparency and reusability of research results are increasing rapidly across the sciences<sup><xref ref-type="bibr" rid="CR24">24</xref>–<xref ref-type="bibr" rid="CR29">29</xref></sup>. Furthering these advances through standardization and public archiving of arthropod abundance data can bring significant benefits, including (1) supporting empirical parameterization and validation of mathematical models (<italic>e</italic>.<italic>g</italic>. of pest or disease emergence and spread), (2) validation of model predictions, (3) reduction in the duplication of expensive empirical research, and (4) revealing new patterns and questions through meta-analyses<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR30">30</xref>–<xref ref-type="bibr" rid="CR33">33</xref></sup>. This will also lead to substantial public benefit through improved human, animal, plant, and ecosystem health, and reduced economic costs.<fig id="Fig1"><label>Fig. 1</label><caption><p>Population abundance time-series example. From New Jersey light trap mosquito surveillance performed by the Iowa State University Medical Entomology Laboratory from 1977-2017<sup><xref ref-type="bibr" rid="CR61">61</xref>,<xref ref-type="bibr" rid="CR62">62</xref></sup>. Data available for download on VectorBase<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>.</p></caption><graphic xlink:href="41597_2019_42_Fig1_HTML" id="d29e789"/></fig></p>
+              <p id="Par4">One of the key impediments to the re-use of these data is the lack of adequate metadata or data descriptors (<italic>i</italic>.<italic>e</italic>. data about the data)<sup><xref ref-type="bibr" rid="CR34">34</xref>–<xref ref-type="bibr" rid="CR37">37</xref></sup>. In general, for data to be most valuable to the scientific community, they should meet the FAIR Principles – they should be Findable, Accessible, Interoperable and Reusable – and delineate the key components of good data management and stewardship practices<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>. Data are Findable and Accessible when they are archived and freely downloadable from an online public data repository that is indexed and easily searchable. Interoperability and reusability describe the ease with which humans or computer programs can understand the data (<italic>e</italic>.<italic>g</italic>. via metadata) and explore/re-use them across a variety of non-proprietary platforms. Even when data are available, metadata for arthropod abundance data are often absent or not readily interpretable, limiting their reusability at a fundamental level.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>A minimum information standard for arthropod abundance data</title>
+                <p id="Par5">Here, we present a Minimum Information for Reusable Arthropod Abundance Data (MIReAD) standard for reporting primarily longitudinal (repeated, temporally explicit) field-based collections of arthropods. ‘MIReAD’ also evokes ‘Myriad,’ a countless or extremely great number. Abundance is measured and reported in different ways, and MIReAD fields have been designed to allow researchers to capture this complexity. Examples 1–4 (which can be found in Figshare<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>), provide examples for how to report such different types of abundances. However, we do not encourage the reporting of relative population abundances since these are not raw data as such, but derived values. One might argue that this could lead to (and it probably will) loss of information, but we argue that the reporting of raw abundance or occurrence data is non-negotiable if these data are to be reused. For example, incorrect statistical methods to aggregate data, such as taking the arithmetic mean for skewed abundance data across samples or replicates are not uncommon, and we wish to discourage such practices. In the same manner as has been developed in other biological disciplines<sup><xref ref-type="bibr" rid="CR41">41</xref>–<xref ref-type="bibr" rid="CR46">46</xref></sup>, this standard is “minimum” because it defines the necessary minimal information required to understand and reuse a dataset without consulting any further persons, text, materials, or methods<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. MIReAD is designed to facilitate data archiving efforts of publishers and field researchers. It is not a data model [the explicit definition of data field names, data formats (<italic>e</italic>.<italic>g</italic>., for dates and GPS locations)] and therefore does not define controlled vocabularies, or specific field titles, but should be easy to understand and interpret by the wider scientific community<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>.</p>
+                <p id="Par6">MIReAD is separated into two components, metadata and data. For each component, we provide a description of the information that should be included, recommendations for how to make that information as useful as possible, and examples. The metadata component (Online-only Table <xref rid="Tab3" ref-type="table">1</xref>) includes information for the origin of the data set (<italic>e</italic>.<italic>g</italic>. study information and licensing for usage). The second component (Online-only Table <xref rid="Tab4" ref-type="table">2</xref>) lists and describes specific data fields that should be included in data collection sheets. We also provide recommendations and examples to demonstrate how these recommendations can be implemented. MIReAD was designed to match the data that are generally collected by academic researchers and surveillance initiatives, and can serve as a checklist for important information that needs to be recorded but is often unintentionally omitted (<italic>e</italic>.<italic>g</italic>. Fig. <xref rid="Fig2" ref-type="fig">2a</xref>). By adhering to MIReAD standards, omissions and ambiguity can be avoided even if the data are shared in different formats (Fig. <xref rid="Fig2" ref-type="fig">2b,c</xref>). Finally, we identify common problems likely to be encountered across all the MIReAD metadata and data fields, and data quality standards that can be employed to avoid confusion (Box <xref rid="Sec4" ref-type="sec">1</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><p>MIReAD reduces data ambiguity. (<bold>a</bold>) Seemingly clean data can still lack key information or have ambiguous metadata, hindering data reuse. (<bold>b</bold>) MIReAD compliant data includes the metadata necessary for data reuse and removes ambiguity. (<bold>c</bold>) Note data can be formatted differently, but still be MIReAD compliant such as by presenting data in a wide format.</p></caption><graphic xlink:href="41597_2019_42_Fig2_HTML" id="d29e900"/></fig></p>
+              </sec>
+              <sec id="Sec4">
+                <boxed-text>
+                  <label>Box 1 Data quality standards</label>
+                  <p id="Par7"><bold>No abbreviations</bold>. Abbreviations (including in columns names) are ambiguous, with the exception of measurement units (<italic>e</italic>.<italic>g</italic>. centigrade and meters).</p>
+                  <p id="Par8"><bold>No external legend/key files</bold>. While repetitive, all data should be explicitly given within the data table. Separate files mapping ID numbers to GPS locations, full species names, <italic>etc.</italic> should be avoided. In addition, rich metadata are essential for good data discovery and reuse.</p>
+                  <p id="Par9"><bold>Unambiguous dates</bold>. Because of country-level differences in date formats, data should be reported unambiguously with four-digit years, and months provided alphabetically and not numerically (<italic>e</italic>.<italic>g</italic>. 4-Jun-2017 or Nov 12, 2015,) or by using ISO 8601 date format (YYYY-MM-DD, <italic>e</italic>.<italic>g</italic>. 2019-01-27)</p>
+                  <p id="Par10"><bold>Machine-readable file formats</bold>. Data should be provided in non-proprietary machine-readable formats such as comma-separated text files. PDFs and multiple spreadsheets in the same document should be avoided.</p>
+                  <p id="Par11"><bold>No font styling or subsection headings</bold>. Formatting (color, bold, italics, subscripts, sheet tab names, <italic>etc</italic>.) should not be required for understanding the data. Subsection headings should not be required to understand data; every line of data should be interpretable in isolation from any other line of data.</p>
+                  <p id="Par12"><bold>Highest precision possible</bold>. Data should be provided at the highest temporal, spatial, numerical, and taxonomic resolution available. If location (<italic>e</italic>.<italic>g</italic>., geographical coordinate) data need to be presented at a lower resolution than available for privacy reasons, this should be made clear in the submission in Study Information (Resource Metadata; Online-only Table <xref rid="Tab3" ref-type="table">1</xref>).</p>
+                  <p id="Par13"><bold>Language</bold>. Once data are ready to be deposited/submitted, all fields and data should be preferably written in English. This will allow researchers and data curators worldwide to understand and reuse the data. Use of other languages is better than not publishing data. Please avoid introducing data reuse barriers through incomplete translation. For example, avoid non-English field names in an English-language submission.</p>
+                </boxed-text>
+              </sec>
+              <sec id="Sec5">
+                <title>Examples</title>
+                <p id="Par14">Below we provide three examples to illustrate MIReAD-compliant data (linked to examples 1–4 in Figshare<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>, respectively). Researchers can use these data sheets as a basis for formatting their own data. In these examples, note that all data meet the data quality standards of Box <xref rid="Sec4" ref-type="sec">1</xref>; are adequately described, have columns labeled, <italic>etc</italic>. to eliminate ambiguity (even if the data appear repetitive; for example, the sex and life stage are repeated in every row). Examples 1 and 2 should be sufficient for most data generators. Examples 3–4 demonstrate more complex data collection scenarios.</p>
+                <sec id="Sec6">
+                  <title>Long-format trapping data</title>
+                  <p id="Par15">Each row captures count data for a single species’ occurrence in a given sampling event. This illustrates an example of the most common mosquito collection protocol (MIReAD_example_1.csv<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>). Also see Fig. <xref rid="Fig2" ref-type="fig">2b</xref>.</p>
+                </sec>
+                <sec id="Sec7">
+                  <title>Wide format trapping data</title>
+                  <p id="Par16">Each row captures count data from a given sampling event. Each identified taxonomic group is identified in a separate column. An ‘additional sample information’ field, ‘sub-location,’ has been added to describe the various locations around the village where collections were made (MIReAD_example_2.csv<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>). This illustrates an example of adult mosquito populations that have been tracked over time and in specific locations. Also see Fig. <xref rid="Fig2" ref-type="fig">2c</xref>.</p>
+                </sec>
+                <sec id="Sec8">
+                  <title>Complex trapping data scenarios</title>
+                  <p id="Par17">Tick surveillance performed using tick drags and flags and collections of ectoparasites on trapped mice. The tick drags/flags report three life stages independently (adult, larvae, and nymph) (MIReAD_example_3.csv<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>). Larvae are only identified to the genus, while adults and nymphs are identified to the species. Observations of different life stages and sexes are preferably documented in separate records. A Sample Name is used to help link these records (but would not be necessary.) The mouse survey uses an additional sample information field to record the sex of the trapped mouse from which the parasites were collected (MIReAD_example_4.csv<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>).</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec9" sec-type="discussion">
+              <title>Discussion</title>
+              <sec id="Sec10">
+                <title>MIReAD as the path to FAIR data principles</title>
+                <p id="Par18">We designed MIReAD to achieve a balance between standards that are too onerous for data generators with guidelines that are sufficient to ensure at least minimal reusability<sup><xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>. It balances a perfectly formatted and reusable dataset with all necessary metadata in a consistent format (but comes with a high burden on the dataset generator) versus a dataset that is unusable or re-usable due to missing or incomplete metadata. MIReAD allows for a relatively easy standardization, as it ensures all necessary collection metadata is present in an unambiguous manner. By not mandating any particular field name, field order, or controlled vocabulary terms, we will in fact gain traction from other more rigorous (and thus more onerous) data models, for which lack of minimum standards in data are often a first and major hurdle. In striking this balance, we note that MIReAD focuses on capturing information on ‘what’ was done, rather than ‘why’. We acknowledge that for some use cases, this may hinder reusability<sup><xref ref-type="bibr" rid="CR48">48</xref></sup> but for the majority of cases, where the results of the original data can be interpreted without understanding the rationale, providing data in MIReAD format will be sufficient for data reuse.</p>
+                <p id="Par19">Like all minimum standards, MIReAD only aims at ensuring data ‘Reusability’. However, ultimately this will promote the implementation of data models, and controlled vocabularies (<italic>e</italic>.<italic>g</italic>., the Darwin Core<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>). Data models enable ‘Interoperability’, and in turn facilitate structured databases, public repositories, and development of data analysis tools<sup><xref ref-type="bibr" rid="CR47">47</xref>,<xref ref-type="bibr" rid="CR50">50</xref></sup>. Deposition in open databases make data ‘Findable’ and ‘Accessible’<sup><xref ref-type="bibr" rid="CR51">51</xref>–<xref ref-type="bibr" rid="CR53">53</xref></sup>. MIReAD compliant data contain sufficient information for established aggregators/databases such as VectorBase and SCAN (Symbiota Collections of Arthropods Network<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>) to process and store the data in a standardized data model [<italic>e</italic>.<italic>g</italic>., Darwin Core, a widely used universal data standard that supports opportunistic observation and collection data (occurrence core) as well as presence/absence and abundance data collected using strict and documented methodology (event core)<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>], and ultimately facilitate data transfer to even more comprehensive biodiversity databases. For example, GBIF contains over one billion species occurrence records, from thousands of environmental, ecological, and natural resource investigations, including research on Arthropoda in numerous ecological and monitoring projects, allowing for study of changes and trends in populations<sup><xref ref-type="bibr" rid="CR53">53</xref></sup>. Indeed, in Tables <xref rid="Tab1" ref-type="table">1</xref>, <xref rid="Tab2" ref-type="table">2</xref>, we provide an example of the mapping of data fields from MIReAD to DarwinCore and GBIF. In this way, MIReAD opens the door to FAIR data and more sophisticated methods to integrate data across many scales.<table-wrap id="Tab1"><label>Table 1</label><caption><p>The MIReAD data fields and their mapping to the GBIF metadata profile.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>MIReAD Field</th><th>Corresponding GBIF metadata fields</th></tr></thead><tbody><tr><td>Contact details</td><td>contact</td></tr><tr><td>General description of the experiment/collection set</td><td>designDescription; sampling</td></tr><tr><td>Citations</td><td>citation</td></tr><tr><td>Species Identification Method</td><td>designDescription</td></tr><tr><td>Not present vs zero information</td><td>samplingDescription</td></tr><tr><td>GPS obfuscation information</td><td>geographicDescription geodeticDatum</td></tr><tr><td>Data usage information</td><td>intellectualRights</td></tr></tbody></table><table-wrap-foot><p>See GBIF<sup><xref ref-type="bibr" rid="CR63">63</xref></sup> for more information.</p></table-wrap-foot></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>The MIReAD data fields and their mapping to the Darwin Core data standard.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>MIReAD Field</th><th>Corresponding DarwinCore fields</th></tr></thead><tbody><tr><td>Start Time (for collection)</td><td>eventTime</td></tr><tr><td>End Time (for collection)</td><td>eventTime</td></tr><tr><td>Location</td><td>A number of fields under Location See: <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/#location">http://rs.tdwg.org/dwc/terms/#location</ext-link></td></tr><tr><td>Collection method</td><td>samplingProtocol</td></tr><tr><td>Collection attractants</td><td>samplingProtocol</td></tr><tr><td>Collection area</td><td>samplingEffort</td></tr><tr><td>Taxonomy</td><td>A number of fields under Taxon See <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/#taxon">http://rs.tdwg.org/dwc/terms/#taxon</ext-link></td></tr><tr><td>Unit(s) of measurement and observation</td><td>sampleSizeUnite</td></tr><tr><td>Value</td><td>sampleSizeValue</td></tr><tr><td rowspan="2">Additional sample information</td><td>fieldNotes</td></tr><tr><td>eventRemarks</td></tr><tr><td>SampleID</td><td>eventID</td></tr><tr><td>Sample Name</td><td><italic>e</italic>.<italic>g</italic>. fieldNumber for individual observations; see also SampleID above for the field names for the complex samples</td></tr></tbody></table><table-wrap-foot><p>See Wieczorek <italic>et al</italic>.<sup><xref ref-type="bibr" rid="CR64">64</xref></sup> for more information.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec11">
+                <title>Benefits to field researchers</title>
+                <p id="Par20">It is essential that the benefits of a minimal data standard extend not just to data re-users, but also to the researchers who collect and generate data in the first place. MIReAD provides a framework for data preparation that can help scientists achieve recognized professional merit for sharing data such as increased citation rates, academic recognition, opportunities for co-authorship, and new collaborations [sensu Roche <italic>et al</italic>.<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>]. Large, deposited data sets can now themselves be standalone, citable “data papers” (<italic>e</italic>.<italic>g</italic>.<sup><xref ref-type="bibr" rid="CR55">55</xref>–<xref ref-type="bibr" rid="CR57">57</xref></sup>) or even depositions without any traditional manuscript (but as an authored ‘digital product,’ with persistent identifiers, such as a DOI number), if desired. Data sets are increasingly recognized as valuable research outputs that count towards academic recognition and professional advancement (<italic>e</italic>.<italic>g</italic>. grants, interviews, and tenure). For example, several funders (<italic>e</italic>.<italic>g</italic>. United States National Science Foundation and Swiss National Science Foundation) have adopted or are in the process of adopting the Declaration on Research Assessments (DORA)<sup><xref ref-type="bibr" rid="CR58">58</xref></sup>, offering further opportunities for data generators to gain recognition and publication credit for their work<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>. Also, an increasing number of funders are mandating public data access, and detailed data management plans are often required even at the grant proposal stage. Therefore, reporting data according to MIReAD will provide a basis for stipulating archival formats. We also note that by storing data in MIReAD format, data generators can assure that their data contains all the necessary metadata for their own internal use. As time passes, research staff, sampling protocols, and sampling locations change, and thus the recording of minimal information ensures long-term reusability of data.</p>
+                <p id="Par21">Furthermore, many data generators are also data users. Developing analyses that rely on standardized fields can facilitate the development of generalized analytical tools that can be easily extended to datasets beyond those that were collected by a single individual or lab. In this way, they can enable extensions of work that would otherwise not happen, such as comparisons of population dynamics in different locations or assessments of interspecies interactions. Adopting MIReAD can, therefore, both help data generators reap the benefits of sharing data they have collected and enable them to more readily leverage data collected by others.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Further MIReAD applications and extensions</title>
+                <p id="Par22">The creation of minimum information standards for these types of databases facilitates analyses of data at scales that cannot be attained by a single individual or lab group. Linking records to additional information also extends the utility of these data to address population level questions. For example, a well-populated database presents opportunities to investigate interactions between populations of different species of arthropod that overlap in geography but may be of interest individually to different realms of research. As a case in point, in the northeastern USA, <italic>Agrilus plannipennis</italic>, the Emerald Ash Borer, is a highly destructive invasive insect, monitored closely by both state and federal agencies for management<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>. Interestingly, Emerald Ash Borers are creating new habitats for carpenter bees, a species interaction that can be tracked and anticipated using large scale arthropod data.</p>
+                <p id="Par23">Another example of the utility of linked data is for disease vectors. Data on insecticide resistance linked with time and place would be valuable for coordinating control strategies within and between nations and communities. Presence/absence data on infection levels would be helpful for tracking and investigating disease outbreaks and dynamics. Standardization of these data would be particularly useful for pathogens that infect multiple vectors and hosts and would facilitate a “One Health” approach. Other important vector phenotypes that contribute to control and transmission such as pathogen susceptibility, biting preferences, and breeding behaviours could be measured over time and space.</p>
+                <p id="Par24">Indeed, MIReAD would be useable for any arthropod abundance data collection effort, not just medical, veterinary, and agricultural pests or  invasive arthropods. We note this standard is applicable not only to abundance measurements, but could be easily extended to any other kind of routinely sampled time-series field data. For example, in addition to aphid abundance, plant pathogen (such as mosaic virus) infection and insecticide resistance statuses of the aphids could be reported in MIReAD format. Note that MIReAD can also be used for cross-sectional data (<italic>i</italic>.<italic>e</italic>. <italic>a</italic> non-continuous, one-time sampling effort) by simply reporting data from the single collection period by utilizing a single Start Time and End Time (Online-only Table <xref rid="Tab4" ref-type="table">2</xref>).</p>
+              </sec>
+              <sec id="Sec13">
+                <title>Disseminating MIReAD</title>
+                <p id="Par25">Many data generators are already storing or sharing data in a manner that would be consistent with MIReAD (<italic>e</italic>.<italic>g</italic>. on MosquitoNet or NEON), but we call on data generators, authors, reviewers, editors, journals, research infrastructures (<italic>e</italic>.<italic>g</italic>. data repositories) and funders to embrace MIReAD as a standard to facilitate FAIR data use and compliance for arthropod abundance data. We propose that workshops, outreach at conferences and meetings, and interfacing with data repositories, societies and organizations (<italic>e</italic>.<italic>g</italic>. SpeciesLink, the American Mosquito Control Association, MosquitoNet, Symbiota, VectorNet, and VectorBiTE), and journal editors will be the best way to spread the adoption of this standard.</p>
+              </sec>
+            </sec>
+            <sec id="Sec14" sec-type="conclusion">
+              <title>Conclusion</title>
+              <p id="Par26">We present MIReAD as a minimum information standard for representing arthropod abundance data. MIReAD will facilitate collation and analyses of data at scales that cannot be attained by a single individual or lab in order to address key questions across temporal and spatial scales, such as within and across-year phenology of abundance of target arthropod taxa over large geographical areas. This is particularly important given the pressing need to understand and predict the population dynamics of harmful (<italic>e</italic>.<italic>g</italic>., disease vectors and pests) as well as beneficial (<italic>e</italic>.<italic>g</italic>., pollinators, bio-control agents) arthropods in natural and human modified landscapes. This is the first step for achieving the broad benefits of FAIR data for arthropod abundance.</p>
+            </sec>
+          </body>
+          <back>
+            <app-group>
+              <app id="App1">
+                <sec id="Sec15">
+                  <title>Online-only Table</title>
+                  <p id="Par28">
+                    <table-wrap id="Tab3">
+                      <label>Online-only Table 1</label>
+                      <caption>
+                        <p>The MIReAD Study Information (Resource metadata) fields. The information in this table should be included with every data submission, for example by including data in the file header as demonstrated in the examples<sup><xref ref-type="bibr" rid="CR40">40</xref></sup></p>
+                      </caption>
+                      <table frame="hsides" rules="groups">
+                        <thead>
+                          <tr>
+                            <th>Field</th>
+                            <th>Details</th>
+                            <th>Recommendations</th>
+                            <th>Examples</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Contact details</td>
+                            <td>A name, person, authority, <italic>etc</italic>. that may be contacted with enquiries about the data.</td>
+                            <td>Include investigator ORCID(s), email address, website (if institutional) if possible.</td>
+                            <td>Kurt Vandegrift<break/>orcid.org/0000-0002-5690-3300<break/>kurtvandegrift@gmail.com<break/>State University<break/>Agricultural Extension<break/>John Smith (jsmith@StateU.edu)<break/>
+<ext-link ext-link-type="uri" xlink:href="http://www.StateU.edu/AgriculturalExtension/">www.StateU.edu/AgriculturalExtension/</ext-link>
+</td>
+                          </tr>
+                          <tr>
+                            <td>General description of the experiment/ collection set</td>
+                            <td>A short description of the study objectives, sampling design, and hypotheses.<break/>Used to aid in browsing multiple studies.<break/>A short title and long form name might be helpful.</td>
+                            <td>Useful things to indicate are:<break/>Random sampling or continuous monitoring in fixed locations<break/>General time frames and location.<break/>General description of where data is from.<break/>Subsampling details, if relevant.<break/>Rationale for trap placement, experimental design, <italic>etc.</italic> may be provided, if relevant.</td>
+                            <td>“Monitoring of major pests on cucumber, sweet pepper and tomato under net-house conditions in Punjab, India”<break/>“Pennsylvania <italic>Ixodes scapularis</italic> weekly abundance”<break/>Continuous (weekly) monitoring of tick numbers attached to white-footed mice in fixed locations in Pennsylvania, USA (12 sites). 2003-present.”<break/>“Long term aphid emergence monitoring using continuous suction traps”</td>
+                          </tr>
+                          <tr>
+                            <td>Citations</td>
+                            <td>Reference to related publications, digital if possible (<italic>e.g.</italic> DOI(s) or PMID(s)).</td>
+                            <td/>
+                            <td>“A web-based relational database for monitoring and analyzing mosquito population dynamics<break/>Sucaet Y, Van Hemert J, Tucker B, Bartholomay L.”<break/>“PMID: 18714883”<break/>“Horiuchi, Kaho, Kosei Hashimoto, and Fumio Hayashi. Cantharidin world in air: Spatiotemporal distributions of flying canthariphilous insects in the forest interior. Entomological Science (2018).”</td>
+                          </tr>
+                          <tr>
+                            <td>Species Identification Method</td>
+                            <td>A description of method of species identification. Particularly important for cryptic species complexes.</td>
+                            <td>Providing information on the veracity of the identification is encouraged, such as a reference to the exact identification key or method.</td>
+                            <td>“Morphological”<break/>“Genotyped, using method of Smith <italic>et al</italic>. 2014, PMID: 18714883”<break/>“Morphological: used keys of Doe (1958)”<break/>“High confidence morphological ID by Jane Doe”</td>
+                          </tr>
+                          <tr>
+                            <td>Not present vs zero information</td>
+                            <td>Indication of what gaps, zeros, NA, <italic>etc.</italic> mean.</td>
+                            <td>It is imperative, especially for population surveys, to understand the difference between a species was not found when the collection method would be expected to find the given species (confirmed absence), or a species was not looked for (<italic>e</italic>.<italic>g</italic>. a trap failure)<break/>Preferably, a zero indicates a species was looked for and not found, and a NA represents a species was not looked for/trap failure/ etc.<break/>Blank values are highly discouraged<break/>Authors might also assert a definition of absence.</td>
+                            <td>“Zero indicates a species was looked for and not found. NA represents a trap failure”<break/>“When a species is indicated as absent, it was expected due to extensive sampling and found in other places during the study but not found here.”</td>
+                          </tr>
+                          <tr>
+                            <td>GPS information</td>
+                            <td>If raw GPS data is obfuscated in any way, a statement on the manner by which this occurred should be given.<break/>The ellipsoid, geodetic datum, or spatial reference system (SRS), if known, can also be identified.<break/>GPS unit accuracy could also be provided.</td>
+                            <td>The highest resolution data (<italic>e</italic>.<italic>g</italic>. trap-level, specific GPS location) are the most useful. It is hoped that no data obfuscation occurs.<break/>Some common GPS point obsfucations, if utilized, that should be noted:<break/>aggregation (making the areal unit larger, <italic>e</italic>.<italic>g</italic>. increasing pixel size in a raster (and generating new centroid coordinates)<break/>reducing precision of location (reducing GPS decimal points)<break/>dithering (‘moving’ GPS points via adding a degree of ‘error’ – distance – to the X,Y)</td>
+                            <td>“Raw GPS points have been provided. GPS unit accuracy + /− 8 m”<break/>“GPS locations have had precision reduced by truncating to 3 decimals”<break/>“Points were dithered by displacing points randomly by X distance”<break/>“WGS84 datum used and data was aggregated to 1 km pixels”</td>
+                          </tr>
+                          <tr>
+                            <td>Data usage information</td>
+                            <td>The data reuse policy for your data.<break/>Please provide a creative commons license identification.<break/>See <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org">https://creativecommons.org</ext-link> for more information.</td>
+                            <td>For data to be F.A.I.R., it must be Reusable. We therefore recommend data be provided as “CC0” or “CC BY 4.0”.<break/>“CC0”, under which data are made available for any use without restriction or particular requirements on the part of users<break/>“CC BY 4.0”, under which data are made available for any use provided that attribution is appropriately given for the sources of data used, in the manner specified by the owner (<italic>e</italic>.<italic>g</italic>. citation).</td>
+                            <td>“CC 0”<break/>or<break/>“CC BY 4.0”</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </table-wrap>
+                  </p>
+                  <p id="Par29">
+                    <table-wrap id="Tab4">
+                      <label>Online-only Table 2</label>
+                      <caption>
+                        <p>The MIReAD data fields</p>
+                      </caption>
+                      <table frame="hsides" rules="groups">
+                        <thead>
+                          <tr>
+                            <th>Field(s)</th>
+                            <th>Details</th>
+                            <th>Recommendations</th>
+                            <th>Examples</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <bold>Start Time (for collection)</bold>
+                            </td>
+                            <td>Start time of the data sample collection.<break/><italic>e</italic>.<italic>g</italic>. The trap was set…</td>
+                            <td>Be as specific as <italic>practically</italic> possible.<break/>Any unambiguous format is acceptable. However, do not use two-digit year abbreviations.<break/>If relevant, provide time zone in field or in header; a 24 hour clock is preferred but should be made unambiguous as to which time format is being used.</td>
+                            <td>“2012-04-27”<break/>“July 26, 2017”<break/>“2017-Jul-26”<break/>“2017-July-26 Morning”<break/>“2017-Jul-26 20:00 GMT”</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <bold>End Time (for collection)</bold>
+                            </td>
+                            <td>End time of the data sample collection.<break/><italic>e</italic>.<italic>g</italic>. The trap was collected…</td>
+                            <td>See above.<break/>If instantaneous data collection (<italic>e</italic>.<italic>g</italic>. a tick drag), End Time may be the same as Start Time.</td>
+                            <td>See above.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <bold>Location</bold>
+                            </td>
+                            <td>The geographical location of sample collection.</td>
+                            <td>As detailed as possible. Latitude and longitude if possible with specified accuracy<break/>Providing <italic>both</italic> a GPS point (decimalized GPS points are preferred) field and a geographical name field is preferred.<break/>Note only providing location <italic>names</italic> is highly discouraged as they change over time and can be ambiguous.<break/>Both Place / Trap names and GPS fields can be provided.<break/>If obfuscation was used, it should be indicated in the Metadata (Online-only Table <xref rid="Tab3" ref-type="table">1</xref>).<break/>Splitting latitude and longitude further into two columns further reduces ambiguity.</td>
+                            <td>“Kukar Maikiya, Jigawa State, Nigeria” and “40.697” and “ −74.015”<break/>“40.697” and “ −74.015”</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <bold>Collection method</bold>
+                            </td>
+                            <td>Sampling apparatus (<italic>e</italic>.<italic>g</italic>. trap type, observation method)</td>
+                            <td/>
+                            <td>“CDC light trap”<break/>“Tick drag”<break/>“Quadrat count”<break/>“BG Sentinel Trap”<break/>“Pitfall trap”<break/>“Sticky trap”<break/>“Larval dip”<break/>“Johnson suction trap”<break/>“Lindgren Funnel Trap”</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <bold>Collection attractants</bold>
+                            </td>
+                            <td>The attractant/ lures used to attract insects to a trap or collection</td>
+                            <td>Please be as specific as possible. For example, a cow used as bait should be referred to as a ‘cow’ and not ‘animal’, or specify the attractant used, such as ‘CO<sub>2</sub>’<break/>Company names, in particular for chemical attractants, are helpful.<break/>Please explicitly state if no attractant was used.</td>
+                            <td>“None”<break/>“Carbon dioxide”<break/>“UV light”<break/>“Biogents Sweetscent Mosquito Lure”<break/>“Human”<break/>"Russel IPM: CAT-QLURE-CB"</td>
+                          </tr>
+                          <tr>
+                            <td>Collection area</td>
+                            <td>The spatial extent (area or volume) of the sample.</td>
+                            <td>If relevant (<italic>e</italic>.<italic>g</italic>., when collection method is transect or quadrat), in units of area or volume, the spatial coverage of the sampling unit.<break/>Note this field would not typically be used for passive collections from fixed traps.</td>
+                            <td>“100 m^2”<break/>“1 liter”<break/>“1 ha”<break/>“10 m^3”</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <bold>Taxonomy</bold>
+                            </td>
+                            <td>Classification of sample collected.</td>
+                            <td>Scientific genus and species preferred.<break/>Avoid abbreviation.</td>
+                            <td>“<italic>Chortoicetes terminifera</italic>”<break/>“<italic>Aedes aegypti</italic>”<break/>“<italic>Anopheles gambiae sensu stricto</italic>”<break/>“<italic>Chrysodeixis argentifera</italic>“</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <bold>Unit(s) of measurement and observation</bold>
+                            </td>
+                            <td>Description of exactly what was observed, the unit for the field “Value,” below.<break/>For counts, should indicate life stage, sex, etc.<break/>Unit measures can be encoded into value field header. Consider multiple unit fields (<italic>e.g.</italic> separate fields for sex and stage.) See Fig. <xref rid="Fig2" ref-type="fig">2</xref>.</td>
+                            <td>Do not abbreviate.<break/>Coded data key should be provided in field name (<italic>e</italic>.<italic>g</italic>. “1 = species present 0 = species absent”)</td>
+                            <td>“Number of individuals per m^2”<break/>“Adult Females”<break/>“Males and Females” and “Nymphs”</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <bold>Value</bold>
+                            </td>
+                            <td>The numerical amount or result from the sample collection.<break/>Often this will be a quantity of observed individuals.<break/>Unit measures can be encoded into value field header. See Fig. <xref rid="Fig2" ref-type="fig">2</xref>.</td>
+                            <td>Units should be provided in a separate field or in the header.</td>
+                            <td>“0”<break/>“23”<break/>“Yes”<break/>“Not present”</td>
+                          </tr>
+                          <tr>
+                            <td>Additional sample information field(s)</td>
+                            <td>This could be more than one field and should be used when more information is required to understand the experiment, for example experimental variables, sub-locations, plant host cultivar/species, etc.<break/>Some users may report wind speeds, temperatures, elevations etc.<break/>This could also include data on disposition of any voucher specimen.</td>
+                            <td>Do not abbreviate.<break/>For voucher specimens, it should be made known that a specimen is in fact a voucher and second, if different pieces of the voucher are stored separately (<italic>e</italic>.<italic>g</italic>., insect on pin, leg in freezer) or at different institutions.</td>
+                            <td>“Forest”<break/>vs<break/>“Field”<break/>“Winter”<break/>vs<break/>“Summer”<break/>“Inside”<break/>vs<break/>“Outside”<break/>“200 meters above sea level”<break/>“Cowrie” vs “Leichhardt” vs “Surf” (Soybean cultivars)</td>
+                          </tr>
+                          <tr>
+                            <td>Sample Name</td>
+                            <td>A human readable sample name.<break/>May exist solely for the benefit of the depositor in organizing their data, use their own internal naming conventions etc.<break/>May also be used to tie related observations together.<break/>This field may be useful for updating records once deposited in a repository.</td>
+                            <td>Naming convention is not restricted, but any encoded metadata should be revealed in the other data fields. For example, you may name a sample named ‘Aphid1_StickyTrap_Jan4,’ but you will still have “Sticky Trap” listed in a Collection Method field, and “Jan 4, 2017” in the date field.</td>
+                            <td>“Trap1_Night1”<break/>“Armyworm_2”<break/>“00004”<break/>“Jan08_animal_4,”<break/>“ABC_123_4b”</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table-wrap-foot>
+                        <p>Figure <xref rid="Fig2" ref-type="fig">2b</xref> provides an annotated example. Field names in bold should be considered required. Remaining fields are optional or depend on the complexity of the experimental design.</p>
+                      </table-wrap-foot>
+                    </table-wrap>
+                  </p>
+                </sec>
+              </app>
+            </app-group>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The seeds of this effort were planted in 2016 at a meeting of VectorBiTE, which is a cross-disciplinary research coordination network (RCN) for disease vectors. Samuel S.C. Rund, Matthew Watts, Kurt Vandegrift, Naveed Heydari, Cynthia Lord, Michael Johansson, Samraat Pawar, and Sadie J. Ryan, received travel funding from NIH grant 1R01AI122284-01 and BBSRC grant BB/N013573/1 as part of the joint [NIH-NSF-USDA-BBSRC] Ecology and Evolution of Infectious Diseases program. Samuel S.C. Rund was funded by the Royal Society (NF140517). Rund, Daniel Lawson, Robert M. MacCallum, Sarah A. Kelly, Gloria I. Giraldo-Calderón and Scott J. Emrich were supported by the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services, under Contract No. HHSN272201400029C (VectorBase Bioinformatics Resource Center). Kurt Vandegrift was funded by the National Science Foundation Ecology and Evolution of Infectious Diseases program (1619072). Naveed Heydari and Sadie J. Ryan were funded by National Science Foundation (NSF DEB EEID 1518681). Sadie J. Ryan was additionally funded by NIH 1R01AI136035-01, and CDC grant 1U01CK000510-01: Southeastern Regional Center of Excellence in Vector-Borne Diseases: the Gateway Program. This publication was supported by the Cooperative Agreement Number above from the Centers for Disease Control and Prevention. Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the Centers for Disease Control and Prevention. Jennifer M. Zaspel was funded by the National Science Foundation Division of Biological Infrastructure (NSF 1561448, NSF 1601957).</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author Contributions</title>
+              <p>The project was conceptualized by Samuel S.C. Rund, Lauren Cator and Samraat Pawar. The original draft was prepared by Samuel S.C. Rund, Michael A. Johansson, Naveed Heydari, Kurt Vandegrift, Matthew Watts, and Samraat Pawar. All the authors contributed to reviewing and editing the manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability</title>
+              <p>No novel data were generated for this report. We encourage readers to view the datasets that inspired and informed our work at <ext-link ext-link-type="uri" xlink:href="http://www.vectorbase.org">www.vectorbase.org</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org">www.gbif.org</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://www.vectorbyte.org">www.vectorbyte.org</ext-link>, and in our other publication<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar1">
+                <title>Competing Interests</title>
+                <p>The authors declare no competing interests.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seastedt</surname>
+                      <given-names>TR</given-names>
+                    </name>
+                    <name>
+                      <surname>Crossley</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The influence of arthropods on ecosystems</article-title>
+                  <source>Bioscience</source>
+                  <year>1984</year>
+                  <volume>34</volume>
+                  <fpage>157</fpage>
+                  <lpage>161</lpage>
+                  <pub-id pub-id-type="doi">10.2307/1309750</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Walter</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <name>
+                      <surname>Hunt</surname>
+                      <given-names>HW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Arthropod regulation of micro- and mesobiota in below-ground detrital food webs</article-title>
+                  <source>Annu. Rev. Entomol.</source>
+                  <year>1988</year>
+                  <volume>33</volume>
+                  <fpage>419</fpage>
+                  <lpage>439</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.en.33.010188.002223</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Whiles</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Charlton</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The ecological significance of tallgrass prairie arthropods</article-title>
+                  <source>Annu. Rev. Entomol.</source>
+                  <year>2006</year>
+                  <volume>51</volume>
+                  <fpage>387</fpage>
+                  <lpage>412</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.ento.51.110104.151136</pub-id>
+                  <?supplied-pmid 16332217?>
+                  <pub-id pub-id-type="pmid">16332217</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Losey</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaughan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The economic value of ecological services provided by insects</article-title>
+                  <source>Bioscience</source>
+                  <year>2006</year>
+                  <volume>56</volume>
+                  <fpage>311</fpage>
+                  <lpage>323</lpage>
+                  <pub-id pub-id-type="doi">10.1641/0006-3568(2006)56[311:TEVOES]2.0.CO;2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bradshaw</surname>
+                      <given-names>CJA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Massive yet grossly underestimated global costs of invasive insects</article-title>
+                  <source>Nat. Commun.</source>
+                  <year>2016</year>
+                  <volume>7</volume>
+                  <fpage>12986</fpage>
+                  <pub-id pub-id-type="doi">10.1038/ncomms12986</pub-id>
+                  <?supplied-pmid 27698460?>
+                  <pub-id pub-id-type="pmid">27698460</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bebber</surname>
+                      <given-names>DP</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramotowski</surname>
+                      <given-names>MAT</given-names>
+                    </name>
+                    <name>
+                      <surname>Gurr</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crop pests and pathogens move polewards in a warming world</article-title>
+                  <source>Nat. Clim. Chang</source>
+                  <year>2013</year>
+                  <volume>3</volume>
+                  <fpage>985</fpage>
+                  <lpage>988</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nclimate1990</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Sparling, P. F., Hamburg, M. A., Relman, D. A., Choffnes, E. R. &amp; Mack, A. <italic>Vector-Borne Diseases: Understanding the Environmental</italic>, <italic>Human Health</italic>, <italic>and Ecological Connections</italic>, <italic>Workshop Summary</italic>. <italic>Forum on Microbial Threats: Board on Global Health</italic>. p. 1–40, (National Academies Press, 2008).</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Minjauw, B. &amp; McLeod, A. <italic>Tick-borne diseases and poverty: the impact of ticks and tick-borne diseases on the livelihoods of small-scale and marginal livestock owners in India and eastern and southern Africa</italic>. 8, (Centre for Tropical Veterinary Medicine, 2003).</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van den Bossche</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>de La Rocque</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Hendrickx</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Bouyer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A changing environment and the epidemiology of tsetse-transmitted livestock trypanosomiasis</article-title>
+                  <source>Trends Parasitol.</source>
+                  <year>2010</year>
+                  <volume>26</volume>
+                  <fpage>236</fpage>
+                  <lpage>243</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pt.2010.02.010</pub-id>
+                  <?supplied-pmid 20304707?>
+                  <pub-id pub-id-type="pmid">20304707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">World Health Organization. <italic>Vector-borne diseases</italic>, <ext-link ext-link-type="uri" xlink:href="http://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases">http://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases</ext-link> (2017).</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Golding</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Integrating vector control across diseases</article-title>
+                  <source>BMC Med.</source>
+                  <year>2015</year>
+                  <volume>13</volume>
+                  <fpage>249</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12916-015-0491-4</pub-id>
+                  <?supplied-pmid 26423147?>
+                  <pub-id pub-id-type="pmid">26423147</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Elbers</surname>
+                      <given-names>ARW</given-names>
+                    </name>
+                    <name>
+                      <surname>Koenraadt</surname>
+                      <given-names>CJM</given-names>
+                    </name>
+                    <name>
+                      <surname>Meiswinkel</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mosquitoes and Culicoides biting midges: vector range and the influence of climate change</article-title>
+                  <source>Rev. Sci. Tech.</source>
+                  <year>2015</year>
+                  <volume>34</volume>
+                  <fpage>123</fpage>
+                  <lpage>137</lpage>
+                  <pub-id pub-id-type="doi">10.20506/rst.34.1.2349</pub-id>
+                  <?supplied-pmid 26470453?>
+                  <pub-id pub-id-type="pmid">26470453</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sakai</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The population biology of invasive species</article-title>
+                  <source>Annu. Rev. Ecol. Syst.</source>
+                  <year>2001</year>
+                  <volume>32</volume>
+                  <fpage>305</fpage>
+                  <lpage>332</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.ecolsys.32.081501.114037</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rund</surname>
+                      <given-names>SSC</given-names>
+                    </name>
+                    <name>
+                      <surname>Moise</surname>
+                      <given-names>IK</given-names>
+                    </name>
+                    <name>
+                      <surname>Beier</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rescuing troves of data to tackle emerging mosquito-borne diseases</article-title>
+                  <source>J. Am. Mosq. Control Assoc.</source>
+                  <year>2019</year>
+                  <volume>35</volume>
+                  <fpage>75</fpage>
+                  <lpage>83</lpage>
+                  <pub-id pub-id-type="doi">10.2987/18-6781.1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">Foley, D. H., Maloney, F. A. Jr., Harrison, F. J., Wilkerson, R. C. &amp; Rueda, L. M. Online spatial database of US Army Public Health Command Region-West mosquito surveillance records: 1947–2009. <italic>US Army Med</italic>. <italic>Dep</italic>. <italic>J</italic>. <bold>Jul–Sep</bold>, 29–36 (2011).</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hutchinson</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Strohecker</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Simmons</surname>
+                      <given-names>TW</given-names>
+                    </name>
+                    <name>
+                      <surname>Kyle</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                    <name>
+                      <surname>Helwig</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prevalence rates of <italic>Borrelia burgdorferi</italic> (Spirochaetales: Spirochaetaceae), Anaplasma phagocytophilum (Rickettsiales: Anaplasmataceae), and <italic>Babesia microti</italic> (Piroplasmida: Babesiidae) in host-seeking <italic>Ixodes scapularis</italic> (Acari: Ixodidae) from Pennsylvania</article-title>
+                  <source>J. Med. Entomol.</source>
+                  <year>2015</year>
+                  <volume>52</volume>
+                  <fpage>693</fpage>
+                  <lpage>698</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jme/tjv037</pub-id>
+                  <?supplied-pmid 26335476?>
+                  <pub-id pub-id-type="pmid">26335476</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Magarey</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Risk maps for targeting exotic plant pest detection programs in the United States: US risk maps for exotic plant pest detection</article-title>
+                  <source>EPPO Bulletin</source>
+                  <year>2011</year>
+                  <volume>41</volume>
+                  <fpage>46</fpage>
+                  <lpage>56</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-2338.2011.02437.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>BE</given-names>
+                    </name>
+                    <name>
+                      <surname>Beuzelin</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>VanWeelden</surname>
+                      <given-names>MT</given-names>
+                    </name>
+                    <name>
+                      <surname>Reagan</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name>
+                      <surname>Way</surname>
+                      <given-names>MO</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monitoring Mexican rice borer (Lepidoptera: Crambidae) populations in sugarcane and rice with conventional and electronic pheromone traps</article-title>
+                  <source>J. Econ. Entomol.</source>
+                  <year>2017</year>
+                  <volume>110</volume>
+                  <fpage>150</fpage>
+                  <lpage>156</lpage>
+                  <?supplied-pmid 28053210?>
+                  <pub-id pub-id-type="pmid">28053210</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chandler</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Contribution of citizen science towards international biodiversity monitoring</article-title>
+                  <source>Biol. Conserv.</source>
+                  <year>2017</year>
+                  <volume>213</volume>
+                  <fpage>280</fpage>
+                  <lpage>294</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biocon.2016.09.004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kampen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Approaches to passive mosquito surveillance in the EU</article-title>
+                  <source>Parasit. Vectors</source>
+                  <year>2015</year>
+                  <volume>8</volume>
+                  <fpage>9</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13071-014-0604-5</pub-id>
+                  <?supplied-pmid 25567671?>
+                  <pub-id pub-id-type="pmid">25567671</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Suprayitno, N., Narakusumo, R. P., von Rintelen, T., Hendrich, L. &amp; Balke, M. Taxonomy and biogeography without frontiers - WhatsApp, Facebook and smartphone digital photography let citizen scientists in more remote localities step out of the dark. <italic>Biodivers</italic>. <italic>Data J</italic>. e19938 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seltmann</surname>
+                      <given-names>KC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>LepNet: The Lepidoptera of North America Network</article-title>
+                  <source>Zootaxa</source>
+                  <year>2017</year>
+                  <volume>4247</volume>
+                  <fpage>73</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.11646/zootaxa.4247.1.10</pub-id>
+                  <?supplied-pmid 28610091?>
+                  <pub-id pub-id-type="pmid">28610091</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Short</surname>
+                      <given-names>AEZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Dikow</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreau</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Entomological collections in the age of Big Data</article-title>
+                  <source>Annu. Rev. Entomol.</source>
+                  <year>2018</year>
+                  <volume>63</volume>
+                  <fpage>513</fpage>
+                  <lpage>530</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev-ento-031616-035536</pub-id>
+                  <?supplied-pmid 29058981?>
+                  <pub-id pub-id-type="pmid">29058981</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Horton</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>(Comment) Offline: What is medicine’s 5 sigma?</article-title>
+                  <source>The Lancet</source>
+                  <year>2015</year>
+                  <volume>235</volume>
+                  <fpage>1380</fpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(15)60696-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nakagawa</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Parker</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Replicating research in ecology and evolution: feasibility, incentives, and the cost-benefit conundrum</article-title>
+                  <source>BMC Biol.</source>
+                  <year>2015</year>
+                  <volume>13</volume>
+                  <fpage>88</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12915-015-0196-3</pub-id>
+                  <?supplied-pmid 26510635?>
+                  <pub-id pub-id-type="pmid">26510635</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nosek</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Promoting an open research culture</article-title>
+                  <source>Science</source>
+                  <year>2015</year>
+                  <volume>348</volume>
+                  <fpage>1422</fpage>
+                  <lpage>1425</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.aab2374</pub-id>
+                  <?supplied-pmid 26113702?>
+                  <pub-id pub-id-type="pmid">26113702</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parker</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transparency in ecology and evolution: Real problems, real solutions</article-title>
+                  <source>Trends Ecol. Evol.</source>
+                  <year>2016</year>
+                  <volume>31</volume>
+                  <fpage>711</fpage>
+                  <lpage>719</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tree.2016.07.002</pub-id>
+                  <?supplied-pmid 27461041?>
+                  <pub-id pub-id-type="pmid">27461041</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Smaldino</surname>
+                      <given-names>PE</given-names>
+                    </name>
+                    <name>
+                      <surname>McElreath</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The natural selection of bad science</article-title>
+                  <source>R. Soc. Open Sci</source>
+                  <year>2016</year>
+                  <volume>3</volume>
+                  <fpage>160384</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsos.160384</pub-id>
+                  <?supplied-pmid 27703703?>
+                  <pub-id pub-id-type="pmid">27703703</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ihle</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Winney</surname>
+                      <given-names>IS</given-names>
+                    </name>
+                    <name>
+                      <surname>Krystalli</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Croucher</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Striving for transparent and credible research: Practical guidelines for behavioral ecologists</article-title>
+                  <source>Behav. Ecol</source>
+                  <year>2017</year>
+                  <volume>28</volume>
+                  <fpage>348</fpage>
+                  <lpage>354</lpage>
+                  <pub-id pub-id-type="doi">10.1093/beheco/arx003</pub-id>
+                  <?supplied-pmid 29622916?>
+                  <pub-id pub-id-type="pmid">29622916</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poisot</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Mounce</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Gravel</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Moving toward a sustainable ecological science: don’t let data go to waste!</article-title>
+                  <source>Ideas in Ecology and Evolution</source>
+                  <year>2013</year>
+                  <volume>6</volume>
+                  <fpage>11</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.4033/iee.2013.6b.14.f</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roche</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Troubleshooting public data archiving: Suggestions to increase participation</article-title>
+                  <source>PLoS Biol.</source>
+                  <year>2014</year>
+                  <volume>12</volume>
+                  <fpage>e1001779</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pbio.1001779</pub-id>
+                  <?supplied-pmid 24492920?>
+                  <pub-id pub-id-type="pmid">24492920</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Culley</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The frontier of data discoverability: Why we need to share our data</article-title>
+                  <source>Appl. Plant. Sci.</source>
+                  <year>2017</year>
+                  <volume>5</volume>
+                  <fpage>1700111</fpage>
+                  <pub-id pub-id-type="doi">10.3732/apps.1700111</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gerstner</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Will your paper be used in a meta‐analysis? Make the reach of your research broader and longer lasting</article-title>
+                  <source>Methods Ecol. Evol</source>
+                  <year>2017</year>
+                  <volume>8</volume>
+                  <fpage>777</fpage>
+                  <lpage>784</lpage>
+                  <pub-id pub-id-type="doi">10.1111/2041-210X.12758</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ioannidis</surname>
+                      <given-names>JPA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Repeatability of published microarray gene expression analyses</article-title>
+                  <source>Nat. Genet.</source>
+                  <year>2009</year>
+                  <volume>41</volume>
+                  <fpage>149</fpage>
+                  <lpage>155</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ng.295</pub-id>
+                  <pub-id pub-id-type="pmid">19174838</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gilbert</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Recommendations for utilizing and reporting population genetic analyses: the reproducibility of genetic clustering using the program STRUCTURE</article-title>
+                  <source>Mol. Ecol.</source>
+                  <year>2012</year>
+                  <volume>21</volume>
+                  <fpage>4925</fpage>
+                  <lpage>4930</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1365-294X.2012.05754.x</pub-id>
+                  <pub-id pub-id-type="pmid">22998190</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roche</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruuk</surname>
+                      <given-names>LEB</given-names>
+                    </name>
+                    <name>
+                      <surname>Lanfear</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Binning</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Public data archiving in ecology and evolution: How well are we doing?</article-title>
+                  <source>PLoS Biol.</source>
+                  <year>2015</year>
+                  <volume>13</volume>
+                  <fpage>e1002295</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pbio.1002295</pub-id>
+                  <?supplied-pmid 4640582?>
+                  <pub-id pub-id-type="pmid">26556502</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Renaut</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Budden</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Gravel</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Poisot</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Peres-Neto</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Management, archiving, and sharing for biologists and the role of research institutions in the technology-oriented age</article-title>
+                  <source>Bioscience</source>
+                  <year>2018</year>
+                  <volume>68</volume>
+                  <fpage>400</fpage>
+                  <lpage>411</lpage>
+                  <pub-id pub-id-type="doi">10.1093/biosci/biy038</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilkinson</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The FAIR Guiding Principles for scientific data management and stewardship. <italic>Sci</italic></article-title>
+                  <source>Data</source>
+                  <year>2016</year>
+                  <volume>3</volume>
+                  <fpage>160018</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilkinson</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A design framework and exemplar metrics for FAIRness</article-title>
+                  <source>Sci. Data</source>
+                  <year>2018</year>
+                  <volume>5</volume>
+                  <fpage>180118</fpage>
+                  <pub-id pub-id-type="doi">10.1038/sdata.2018.118</pub-id>
+                  <?supplied-pmid 6018520?>
+                  <pub-id pub-id-type="pmid">29944145</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <mixed-citation publication-type="other">Rund, S. S. C. <italic>et al</italic>. Example Minimum Information for Reusable Arthropod Abundance Data (MIReAD) files. <italic>figshare</italic>, 10.6084/m9.figshare.c.4248320 (2019).</mixed-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>CF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The minimum information about a proteomics experiment (MIAPE)</article-title>
+                  <source>Nat. Biotechnol.</source>
+                  <year>2007</year>
+                  <volume>25</volume>
+                  <fpage>887</fpage>
+                  <lpage>893</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nbt1329</pub-id>
+                  <?supplied-pmid 17687369?>
+                  <pub-id pub-id-type="pmid">17687369</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yilmaz</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications</article-title>
+                  <source>Nat. Biotechnol.</source>
+                  <year>2011</year>
+                  <volume>29</volume>
+                  <fpage>415</fpage>
+                  <lpage>420</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nbt.1823</pub-id>
+                  <?supplied-pmid 21552244?>
+                  <pub-id pub-id-type="pmid">21552244</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lourenço</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Minimum information about a biofilm experiment (MIABiE): standards for reporting experiments and data on sessile microbial communities living at interfaces</article-title>
+                  <source>Pathog. Dis</source>
+                  <year>2014</year>
+                  <volume>70</volume>
+                  <fpage>250</fpage>
+                  <lpage>256</lpage>
+                  <pub-id pub-id-type="doi">10.1111/2049-632X.12146</pub-id>
+                  <?supplied-pmid 24478124?>
+                  <pub-id pub-id-type="pmid">24478124</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brazma</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Minimum information about a microarray experiment (MIAME)—toward standards for microarray data</article-title>
+                  <source>Nat. Genet.</source>
+                  <year>2001</year>
+                  <volume>29</volume>
+                  <fpage>365</fpage>
+                  <lpage>371</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ng1201-365</pub-id>
+                  <pub-id pub-id-type="pmid">11726920</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bustin</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The MIQE guidelines: minimum information for publication of quantitative real-time PCR experiments</article-title>
+                  <source>Clin. Chem.</source>
+                  <year>2009</year>
+                  <volume>55</volume>
+                  <fpage>611</fpage>
+                  <lpage>622</lpage>
+                  <pub-id pub-id-type="doi">10.1373/clinchem.2008.112797</pub-id>
+                  <pub-id pub-id-type="pmid">19246619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>York</surname>
+                      <given-names>WS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>MIRAGE: the minimum information required for a glycomics experiment</article-title>
+                  <source>Glycobiology</source>
+                  <year>2014</year>
+                  <volume>24</volume>
+                  <fpage>402</fpage>
+                  <lpage>406</lpage>
+                  <pub-id pub-id-type="doi">10.1093/glycob/cwu018</pub-id>
+                  <?supplied-pmid 24653214?>
+                  <pub-id pub-id-type="pmid">24653214</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>CF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Promoting coherent minimum reporting guidelines for biological and biomedical investigations: the MIBBI project</article-title>
+                  <source>Nat. Biotechnol.</source>
+                  <year>2008</year>
+                  <volume>26</volume>
+                  <fpage>889</fpage>
+                  <lpage>896</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nbt.1411</pub-id>
+                  <?supplied-pmid 18688244?>
+                  <pub-id pub-id-type="pmid">18688244</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kelly-Hope</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>McKenzie</surname>
+                      <given-names>FE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The multiplicity of malaria transmission: a review of entomological inoculation rate measurements and methods across sub-Saharan</article-title>
+                  <source>Africa. Malaria J</source>
+                  <year>2009</year>
+                  <volume>8</volume>
+                  <fpage>19</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1475-2875-8-19</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wieczorek</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Darwin Core: an evolving community-developed biodiversity data standard</article-title>
+                  <source>PLoS One</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <fpage>e29715</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+                  <?supplied-pmid 22238640?>
+                  <pub-id pub-id-type="pmid">22238640</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Giraldo-Calderón</surname>
+                      <given-names>GI</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases</article-title>
+                  <source>Nucleic Acids Res</source>
+                  <year>2015</year>
+                  <volume>43</volume>
+                  <fpage>D707</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gku1117</pub-id>
+                  <?supplied-pmid 25510499?>
+                  <pub-id pub-id-type="pmid">25510499</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benson</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>GenBank</article-title>
+                  <source>Nucleic Acids Res</source>
+                  <year>2013</year>
+                  <volume>41</volume>
+                  <fpage>D36</fpage>
+                  <lpage>42</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gks1195</pub-id>
+                  <?supplied-pmid 23193287?>
+                  <pub-id pub-id-type="pmid">23193287</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berman</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Henrick</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Nakamura</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Announcing the worldwide Protein Data Bank</article-title>
+                  <source>Nat. Struct. Biol</source>
+                  <year>2003</year>
+                  <volume>10</volume>
+                  <fpage>980</fpage>
+                  <pub-id pub-id-type="doi">10.1038/nsb1203-980</pub-id>
+                  <?supplied-pmid 14634627?>
+                  <pub-id pub-id-type="pmid">14634627</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <mixed-citation publication-type="other">GBIF: The Global Biodiversity Information Facility. <italic>What is GBIF?</italic>, <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/what-is-gbif">https://www.gbif.org/what-is-gbif</ext-link> (2018).</mixed-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <mixed-citation publication-type="other">Heinrich, P. L., Gilbert, E., Cobb, N. S. &amp; Franz, N. Symbiota collections of arthropods network (SCAN): <italic>A data portal built to visualize</italic>, <italic>manipulate</italic>, <italic>and export species occurrences</italic>, <ext-link ext-link-type="uri" xlink:href="http://openknowledge.nau.edu/2258/">http://openknowledge.nau.edu/2258/</ext-link> (2015).</mixed-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Perryman</surname>
+                      <given-names>SAM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The electronic Rothamsted Archive (e-RA), an online resource for data from the Rothamsted long-term experiments</article-title>
+                  <source>Sci. Data</source>
+                  <year>2018</year>
+                  <volume>5</volume>
+                  <fpage>180072</fpage>
+                  <pub-id pub-id-type="doi">10.1038/sdata.2018.72</pub-id>
+                  <?supplied-pmid 29762552?>
+                  <pub-id pub-id-type="pmid">29762552</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gossner</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A summary of eight traits of Coleoptera, Hemiptera, Orthoptera and Araneae, occurring in grasslands in Germany</article-title>
+                  <source>Sci. Data</source>
+                  <year>2015</year>
+                  <volume>2</volume>
+                  <fpage>150013</fpage>
+                  <pub-id pub-id-type="doi">10.1038/sdata.2015.13</pub-id>
+                  <?supplied-pmid 25977817?>
+                  <pub-id pub-id-type="pmid">25977817</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hedefalk</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Svensson</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrie</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatiotemporal historical datasets at micro-level for geocoded individuals in five Swedish parishes, 1813-1914</article-title>
+                  <source>Sci. Data</source>
+                  <year>2017</year>
+                  <volume>4</volume>
+                  <fpage>170046</fpage>
+                  <pub-id pub-id-type="doi">10.1038/sdata.2017.46</pub-id>
+                  <?supplied-pmid 28398288?>
+                  <pub-id pub-id-type="pmid">28398288</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <mixed-citation publication-type="other">The American Society for Cell Biology. San Francisco Declaration on Research Assessment, <ext-link ext-link-type="uri" xlink:href="http://www.ascb.org/wp-content/uploads/2017/07/sfdora.pdf">http://www.ascb.org/wp-content/uploads/2017/07/sfdora.pdf</ext-link> (2012).</mixed-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chavan</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Penev</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The data paper: a mechanism to incentivize data publishing in biodiversity science</article-title>
+                  <source>BMC Bioinformatics</source>
+                  <year>2011</year>
+                  <volume>12</volume>
+                  <issue>Suppl 15</issue>
+                  <fpage>S2</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-12-S15-S2</pub-id>
+                  <?supplied-pmid 22373175?>
+                  <pub-id pub-id-type="pmid">22373175</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abell</surname>
+                      <given-names>KJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>LS</given-names>
+                    </name>
+                    <name>
+                      <surname>Duan</surname>
+                      <given-names>JJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Driesche</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Long-term monitoring of the introduced emerald ash borer (Coleoptera: Buprestidae) egg parasitoid, <italic>Oobius agrili</italic> (Hymenoptera: Encyrtidae), in Michigan, USA and evaluation of a newly developed monitoring technique</article-title>
+                  <source>Biol. Control</source>
+                  <year>2014</year>
+                  <volume>79</volume>
+                  <fpage>36</fpage>
+                  <lpage>42</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biocontrol.2014.08.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <mixed-citation publication-type="other">Dunphy, B. M., Rowley, W. A. &amp; Bartholomay, L.C. A taxonomic checklist of the mosquitoes of Iowa. <italic>J. Am. Mosq. Control Assoc</italic>. <bold>30</bold>, 119–121 (2014).</mixed-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <mixed-citation publication-type="other">Sucaet, Y., Van Hemert, J., Tucker, B. &amp; Bartholomay, L. A web-based relational database for monitoring and analyzing mosquito population dynamics. <italic>J. Med. Entomol.</italic><bold>45</bold>, 775–784 (2008).</mixed-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <mixed-citation publication-type="other">Ó Tuama, E., Braak, K. &amp; Remsen, D. <italic>GBIF Metadata Profile – How-to Guide</italic>, <ext-link ext-link-type="uri" xlink:href="https://github.com/gbif/ipt/wiki/GMPHowToGuide">https://github.com/gbif/ipt/wiki/GMPHowToGuide</ext-link> (2011).</mixed-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <mixed-citation publication-type="other">Wieczorek, J., Döring, M., De Giovanni, R., Robertson, T. &amp; Vieglais, D. <italic>Darwin Core Terms: A quick reference guide</italic>, <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/index.htm">http://rs.tdwg.org/dwc/terms/index.htm</ext-link> (2018).</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

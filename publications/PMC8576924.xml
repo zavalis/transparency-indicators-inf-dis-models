@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:47:37Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8576924" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8576924</identifier>
+        <datestamp>2021-11-10</datestamp>
+        <setSpec>bmcbioi</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Bioinformatics</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Bioinformatics</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Bioinformatics</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2105</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8576924</article-id>
+              <article-id pub-id-type="pmcid">PMC8576924</article-id>
+              <article-id pub-id-type="pmc-uid">8576924</article-id>
+              <article-id pub-id-type="pmid">34749630</article-id>
+              <article-id pub-id-type="publisher-id">4059</article-id>
+              <article-id pub-id-type="doi">10.1186/s12859-021-04059-x</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Epidemic prediction of dengue fever based on vector compartment model and Markov chain Monte Carlo method</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Chien-Hung</given-names>
+                  </name>
+                  <address>
+                    <email>cnhung@kmu.edu.tw</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chang</surname>
+                    <given-names>Ko</given-names>
+                  </name>
+                  <address>
+                    <email>johnsonckk@yahoo.com.tw</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Yao-Mei</given-names>
+                  </name>
+                  <address>
+                    <email>ymchen@kmu.edu.tw</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tsai</surname>
+                    <given-names>Jinn-Tsong</given-names>
+                  </name>
+                  <address>
+                    <email>jttsai@mail.nptu.edu.tw</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3072-0917</contrib-id>
+                  <name>
+                    <surname>Chen</surname>
+                    <given-names>Yenming J.</given-names>
+                  </name>
+                  <address>
+                    <email>yjjchen@nkust.edu.tw</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Ho</surname>
+                    <given-names>Wen-Hsien</given-names>
+                  </name>
+                  <address>
+                    <email>whho@kmu.edu.tw</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.412019.f</institution-id><institution-id institution-id-type="ISNI">0000 0000 9476 5696</institution-id><institution>Department of Public Health, College of Health Sciences, </institution><institution>Kaohsiung Medical University, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.412019.f</institution-id><institution-id institution-id-type="ISNI">0000 0000 9476 5696</institution-id><institution>Research Center for Environmental Medicine, </institution><institution>Kaohsiung Medical University, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.412019.f</institution-id><institution-id institution-id-type="ISNI">0000 0000 9476 5696</institution-id><institution>Department of Medical Research, Kaohsiung Medical University Hospital, </institution><institution>Kaohsiung Medical University, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.412019.f</institution-id><institution-id institution-id-type="ISNI">0000 0000 9476 5696</institution-id><institution>Office of Institutional Research and Planning Section, </institution><institution>Kaohsiung Medical University, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.412019.f</institution-id><institution-id institution-id-type="ISNI">0000 0000 9476 5696</institution-id><institution>Department of Internal Medicine, Kaohsiung Municipal Hsiao-Kang Hospital, </institution><institution>Kaohsiung Medical University, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.412019.f</institution-id><institution-id institution-id-type="ISNI">0000 0000 9476 5696</institution-id><institution>School of Nursing, </institution><institution>Kaohsiung Medical University, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.412027.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 0620 9374</institution-id><institution>Superintendent Office, </institution><institution>Kaohsiung Medical University Hospital, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.445052.2</institution-id><institution-id institution-id-type="ISNI">0000 0004 0639 3773</institution-id><institution>Department of Computer Science, </institution><institution>National Pingtung University, </institution></institution-wrap>Pingtung, Taiwan </aff>
+                <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.412019.f</institution-id><institution-id institution-id-type="ISNI">0000 0000 9476 5696</institution-id><institution>Department of Healthcare Administration and Medical Informatics, </institution><institution>Kaohsiung Medical University, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+                <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.412071.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0639 0070</institution-id><institution>Management School, </institution><institution>National Kaohsiung University of Science and Technology, </institution></institution-wrap>Kaohsiung, Taiwan </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>8</day>
+                <month>11</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>22</volume>
+              <issue>Suppl 5</issue>
+              <issue-sponsor>Publication of this supplement has not been supported by sponsorship. Information about the source of funding for publication charges can be found in the individual articles. The articles have undergone the journal's standard peer review process for supplements. The Supplement Editors declare that they have no competing interests.</issue-sponsor>
+              <elocation-id>118</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>21</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>2</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <sec>
+                  <title>Background</title>
+                  <p id="Par1">Dengue epidemics is affected by vector-human interactive dynamics. Infectious disease prevention and control emphasize the timing intervention at the right diffusion phase. In such a way, control measures can be cost-effective, and epidemic incidents can be controlled before devastated consequence occurs. However, timing relations between a measurable signal and the onset of the pandemic are complex to be discovered, and the typical lag period regression is difficult to capture in these complex relations. This study investigates the dynamic diffusion pattern of the disease in terms of a probability distribution. We estimate the parameters of an epidemic compartment model with the cross-infection of patients and mosquitoes in various infection cycles. We comprehensively study the incorporated meteorological and mosquito factors that may affect the epidemic of dengue fever to predict dengue fever epidemics.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p id="Par2">We develop a dual-parameter estimation algorithm for a composite model of the partial differential equations for vector-susceptible-infectious-recovered with exogeneity compartment model, Markov chain Montel Carlo method, and boundary element method to evaluate the epidemic periodicity under the effect of environmental factors of dengue fever, given the time series data of 2000–2016 from three cities with a population of 4.7 million. The established computer model of “energy accumulation-delayed diffusion-epidemics” is proven to be effective to predict the future trend of reported and unreported infected incidents. Our artificial intelligent algorithm can inform the authority to cease the larvae at the highest vector infection time. We find that the estimated dengue report rate is about 20%, which is close to the number of official announcements, and the percentage of infected vectors increases exponentially yearly. We suggest that the executive authorities should seriously consider the accumulated effect among infected populations. This established epidemic prediction model of dengue fever can be used to simulate and evaluate the best time to prevent and control dengue fever.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p id="Par3">Given our developed model, government epidemic prevention teams can apply this platform before they physically carry out the prevention work. The optimal suggestions from these models can be promptly accommodated when real-time data have been continuously corrected from clinics and related agents.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Dengue transmission</kwd>
+                <kwd>Vector-susceptible-infectious-recovered with exogeneity (VSIRX)</kwd>
+                <kwd>Epidemic prevention timing</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004737</institution-id>
+                      <institution>National Health Research Institutes</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>106A1‐MRCO‐1017172</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Chien-Hung</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004663</institution-id>
+                      <institution>Ministry of Science and Technology, Taiwan</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>107-2410-H-992-014-MY2</award-id>
+                  <award-id>109-2221-E-153-005-MY3</award-id>
+                  <award-id>109-2221-E-037-005</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Tsai</surname>
+                      <given-names>Jinn-Tsong</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Yenming J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>Wen-Hsien</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Research Center for Environmental Medicine, Kaohsiung Medical University </institution>
+                  </funding-source>
+                  <award-id>KMU-TC109A01-1</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Ho</surname>
+                      <given-names>Wen-Hsien</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <conference xlink:href="https://imeti.org/ICBEI2019/">
+                <conf-name>International Conference on Biomedical Engineering Innovation 2019</conf-name>
+                <conf-acronym>ICBEI 2019</conf-acronym>
+                <conf-loc>Kaohsiung, Taiwan</conf-loc>
+                <conf-date>15-19 November 2019</conf-date>
+              </conference>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Background</title>
+              <p id="Par8">Weather and environmental factors affect dengue transmission patterns through the interactive dynamics between mosquito ecology and vector–human transmission. Due to dengue fever is prevalent in southern Taiwan, and government agencies were frequently using of anti-mosquito drugs for epidemic prevention which not only costs high but also increases the evolutionary pressure of vector mosquitoes, forcing young mosquitoes or larva to develop resistance and improve their survival ability. The solution for infectious disease prevention and control is the identification of the best intervention timing to disrupt the growth cycle by applying insecticides at the right phase of disease diffusion. In such a way, the cost of control can be effective, and epidemic incidents can be controlled before sensible damages occur. This study aims to develop a forecasting method for intelligent epidemic prevention.</p>
+              <p id="Par9">The growth process of arthropod-borne infectious diseases should be understood to formulate effective epidemic prevention strategies. A diffusion model of the differential equation commonly used in mathematical epidemiology is adopted in this study to predict the transmission pattern of dengue fever in the next few years based on the recorded dengue fever data in Kaohsiung from 2006 to 2016 [<xref ref-type="bibr" rid="CR1">1</xref>, <xref ref-type="bibr" rid="CR2">2</xref>]. In the 10-year data from the Health Bureau of Kaohsiung Municipal Government, 896 zones of Kaohsiung are included in several years. However, few cases are reported in only 251 zones, and only district data are available in most of the years. The number of reported cases is not equivalent to the number of infected patients. In this study, this issue is addressed using a negative binomial distribution. The data obtained include not only the number of cases but also the area, population, temperature, humidity, rainfall, the population of schools, and Breteau index of adult mosquitoes in each locality. Qianzhen District, with the most dengue cases, is selected as an example. Although temperature variations in these several years are similar, the number of people infected per thousand was lower in 2014 with a high mosquito index than that in the next year with a higher mosquito index.</p>
+              <p id="Par10">Regardless of the trend in diffusion time-sequence change, the year with the most dengue fever cases is used to conduct static spatial thermal zone analysis. Hausdorff distance verification shows that the area where dengue fever appears with the highest probability includes most areas in Qianzhen District, and the area with the second-highest possibility is No. 3 resident region. Spatial verification result is similar to general cognition. Therefore, the basis of this study is appropriate. On the basis of the spatial analysis result, we estimate and calibrate the diffusion model of dengue fever infection in the densest areas and the population of Kaohsiung as a whole to predict the trend of dengue fever occurred in the coming year.</p>
+              <p id="Par11">The issue of intelligent epidemic prevention is extremely challenging. Assuming that only one short time of mosquito eradication can be conducted for an infinite generation of mosquitoes, we find that if mosquito eradication is carried out at the early stage of the host’s onset, the mosquitoes produced later still bite an infectious host. Since then, a mosquito vector has remained infectious for generations. However, if the timing of mosquito eradication is too late, the host population is infected. As such, epidemic prevention fails. Theoretically, if hosts are fully infected and healed, the best time point should be at the time when hosts are just healed. Therefore, the choice of this time point depends on the prevalence of hosts but not on the growth conditions of mosquitoes. The use of environmental temperature to regress the prevalence of infectious diseases is inappropriate. Infected hosts and vectors are dynamically diffusive in time and asymmetrically mobile in space. The best time point must be known through special analytical methods and lengthy and complicated operations.</p>
+              <p id="Par12">Studies have been widely performed on general epidemic prevention and surveillance, as well as epidemic control, but such studies remain incomplete. Shen et al. [<xref ref-type="bibr" rid="CR3">3</xref>] analyzed the data of a small number of clinical case reports by using the Bayes probability algorithm and proposed a time prediction model for future outbreaks of infectious diseases throughout the city. Difficulties in dengue fever epidemic prevention include the poorly described trend and dynamics of vector mosquitoes. Therefore, no complete solution has been proposed.</p>
+              <p id="Par13">Andraud et al. [<xref ref-type="bibr" rid="CR4">4</xref>] reviewed 42 dynamic models of dengue fever transmission in the time dimension and completely classified them to describe the dynamic transmission models of these vector-borne infections and their corresponding control methods. Nuraini et al. [<xref ref-type="bibr" rid="CR5">5</xref>] discussed the transmission dynamics of dengue hemorrhagic fever caused by the cross-infection of different dengue viruses and proposed a control method to eliminate the stable balance by equilibrium solutions of two or more serotype infections.</p>
+              <p id="Par14">Nishiura et al. [<xref ref-type="bibr" rid="CR6">6</xref>] estimated the basic transmission value R<sub>0</sub> and found that dengue fever is a periodic epidemic disease. This periodicity affects the transmission ability of mosquito vectors or R<sub>0</sub> but does not influence environmental factors. R<sub>0</sub> is also a variable related to specific environmental factors so that it can predict prevalence in the coming year. Therefore, the regression model analysis is inappropriate without considering the transmission capacity of mosquito vectors. Amaku et al. [<xref ref-type="bibr" rid="CR7">7</xref>] and Polwiang [<xref ref-type="bibr" rid="CR8">8</xref>] compared two kinds of vector-borne infectious models and emphasized the advantages and disadvantages of both models as the foundation of future model improvements.</p>
+              <p id="Par15">Zamiri et al. [<xref ref-type="bibr" rid="CR9">9</xref>] investigated the epidemic outbreaks in temporal and spatial patterns by an SIR nonlinear dynamic model without considering the influence of vectors. Similar to our study, they also suggest that numerical studies can help the early prediction of the epidemic in terms of peak and duration. Chang et al. [<xref ref-type="bibr" rid="CR10">10</xref>] re-emphasized the importance of understanding the transmission dynamics and suggested the prediction of dengue epidemic can be an early warning tool. Kilicman [<xref ref-type="bibr" rid="CR11">11</xref>] contended that dengue transmission possesses memory by analyzing the SIR epidemic model. Cahyono et al. [<xref ref-type="bibr" rid="CR12">12</xref>] analyzed the range of parameters that lead to the stability of the dengue fever SIR model. Although the epidemic research of dengue fever applies the SIR model extensively, however, few studies can estimate parameters from the case records of real clinic reports. The insufficiency is partly due to the computational difficulty. Our study thus overcame the difficulty and obtained the parameters through an advanced Bayesian technique.</p>
+              <p id="Par16">Finally, few studies have assessed dengue epidemic control. Gersovitz and Hammer [<xref ref-type="bibr" rid="CR13">13</xref>] analyzed the economic effects of investment on epidemic prevention and assessed the cost-effectiveness of policies. Chanprasopchai et al. [<xref ref-type="bibr" rid="CR14">14</xref>] investigated the effect of dengue vaccination through the SIR model, leaving aside the safety dispute, and suggested a significant reduction of hospitalization time. In Rio de Janeiro, 43 different insecticidal strategies were applied to adult mosquitoes and larvae for 5 years. Studies on the insecticide resistance of vector mosquitoes have shown that frequent insecticide applications are costly and may lead to the development of insecticide resistance in larvae [<xref ref-type="bibr" rid="CR15">15</xref>].</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Results</title>
+              <p id="Par17">The accuracy of the parameter estimation algorithm by using the vector-susceptible-infectious-recovered with exogeneity (VSIRX) model containing vector interaction trains with 3-year test data; the parameter estimation results satisfy our expectations.</p>
+              <p id="Par18">In Fig. <xref rid="Fig1" ref-type="fig">1</xref>, when VSIRX model trains with 4-year data in 2010–2013, the 4-year cyclic result obtained completely meets our expectations. We then re-describe the interpretation in Fig. <xref rid="Fig1" ref-type="fig">1</xref>. The right figure shows the number of reported cases in 1456 days, namely, 52 weeks per year. Although factors such as temperature and vector are not included in the model, the number of infected people “H” appears periodically because of the oscillation caused by the cyclical effect. The number of reported cases predicted, the number of susceptible hosts “S”, the number of infectious hosts “I”, the number of hosts recovered “R”, and the number of accumulative infections per week “H” is shown on the left from top to bottom. The number of reported cases is a part of the cumulative number of infections per week (ρ = 0.2144). The next column includes the total population under the equivalent effect, the total vectors under equivalent effect, the number of infectious vectors, and the number of infected vectors. No overfitting phenomenon is observed in the random trajectory of the number of reported cases. A negative binomial perturbation is found in the estimated number of infected people, which is in line with the expectation of statistical estimates.<fig id="Fig1"><label>Fig. 1</label><caption><p>VSIRX model training with 4-year data in 2010–2013</p></caption><graphic xlink:href="12859_2021_4059_Fig1_HTML" id="MO1"/></fig></p>
+              <p id="Par19">The estimated report rate is about 2%. The report rate can be correctly estimated because we can estimate a report rate with the highest possibility from the increasing trend of reports, considering that the basis for the cumulative epidemic is the actual number of infected people.</p>
+              <p id="Par20">In Fig. <xref rid="Fig1" ref-type="fig">1</xref>, the infections of vector mosquitoes (Iv) fluctuate and increase yearly. Although the low temperature in winter reduces the growth rate of vectors, the survival of infected vectors raises the basis of dengue fever epidemic in the coming year.</p>
+              <p id="Par21">In Fig. <xref rid="Fig2" ref-type="fig">2</xref>, when the VSIRX model was used to verify and analyze the data in 2014 and 2015, the results obtained are consistent with the reported data. Here, to avoid the negative binomial distribution added by overfitting, we use simulation results that are not precisely the same as the data provided, and the expected statistical errors occur.<fig id="Fig2"><label>Fig. 2</label><caption><p>The verification results of the VSIRX model for additional testing data in 2014 and 2015</p></caption><graphic xlink:href="12859_2021_4059_Fig2_HTML" id="MO2"/></fig></p>
+            </sec>
+            <sec id="Sec3">
+              <title>Discussion</title>
+              <p id="Par22">Followed by the previous 4-year prediction, the 6-year prediction shows the trend of verification in the last 2 years. This study shows that the proportion of vectors infected with dengue fever fluctuates because of the temperature cycle and seasonal activity. However, the survival of infected vectors accumulates the number of infected vectors in the next year so that the proportion of infected insect vectors shows an exponential growth trend every year. In Iv drawing of Fig. <xref rid="Fig2" ref-type="fig">2</xref>, the up-and-down increasing trend yearly can reflect the exponential growth trend. The low temperature in winter slightly affects the exponential growth of vectors, resulting in outbreaks in 2014 and 2015. From the predicted results, we can fully predict the number of reported cases and the cumulative number of unreported cases per week in the next 2 years. This parameter is critical for epidemic prevention. The possibility of increasing or decreasing according to temperature can be determined, and epidemic prevention units can be informed about the exact number of infections per day in the future and the number of hidden cases. This study suggests that the yearly cumulative effect should also be taken into account, giving exogenous causal variables. According to artificial intelligence estimation, the best time point for severe vector infection and timely medication for blocking the growth of vector mosquitoes can be determined.</p>
+              <p id="Par23">Mosquito eradication can only be temporary. The temporary chance must fall at two-time points: first, many mosquitoes are infected, and second, numerous residents are infected. When an epidemic situation is not difficult, the two incidents occur one after another. After an outbreak, all people and mosquitoes are infected. As such, any compensate job will become too late. Previous epidemic prevention efforts lacked estimates of infected mosquitoes.</p>
+              <p id="Par24">Nonetheless, knowing the infected residents shows a high incidence, the infected mosquitoes are infected after a sufficiently long time. Therefore, instead of choosing a time point, killing the mosquitoes seems like the only option to stop dengue fever infection. However, many years of efforts in Taiwan and other countries have shown that mosquitoes show an increased resistance, and the time difference from dosing to mosquito reproduction is becoming short. As a result of increasing evolutionary pressure, resistant mosquitoes have emerged. This study hopes to estimate when a significant population of mosquitoes is infected before a major outbreak occurs. This study also assumes that mosquitoes killed by drugs are indeed infected mosquitoes, so proliferating mosquitoes are not infected, and infected residents have passed the infection period of the virus.</p>
+              <p id="Par25">Current high‐intensity insecticide strategies not only require a large amount of budget for biological control but also apply an intense evolution pressure to mosquito strains, thereby forcing their larvae to develop resistance to the insecticide for survivals. Infectious disease prevention and control aim to find the best intervention timing and places to break the growth cycle by applying insecticides at the right phase of disease diffusion. In such a way, control measures without knowing the vector growth pattern can be cost-effective, and epidemic prevalence can be controlled before sensible damages occur.</p>
+              <p id="Par26">The impact of dynamic infection among vector mosquitoes is incorporated in this study, so the estimated strategy obtained by VSIRX model is accurate. Epidemic prevention must be sensible. The instinct of living things for survival should also be noted while eliminating the source of infection. If the intensity of mosquito eradication is not properly controlled, the surviving mosquito population becomes resistant and difficult to eradicate. We elucidate the status of vector-borne infections. At the best time, we can eliminate precisely and effectively mosquitoes, thereby more effectively preventing the epidemic. Accurately grasping the dynamics of vector mosquitoes by using the differential equation is similar to a special drug. In this way, the epidemic situation can quickly recede, and the goal of intelligent epidemic prevention is achieved.</p>
+            </sec>
+            <sec id="Sec4">
+              <title>Conclusions</title>
+              <p id="Par27">In this study, the problems originally proposed to be solved have been addressed, and the original goals have been achieved. A model has been established based on problem context and novel methodology development, considering energy accumulation-delayed spread-epidemic prevalence. According to different time points, the growth curve in spread gestation is continuously updated with the latest information, and the epidemic prediction model of dengue fever is established to simulate and evaluate the best chance for dengue fever prevention and control. Substantial industrial benefits can be used for policy recommendations.</p>
+              <p id="Par28">This study aims to establish a basic model of the correlation between vector factors and dengue fever clustering in South Taiwan and provide a reference for establishing a time–space flow prediction model. Effect evaluation and control opportunity are simulated, and the time–space flow prediction model of dengue fever epidemic is developed to evaluate the timing of epidemic prevention and provide a reference for creating a dengue fever prevention policy.</p>
+              <p id="Par29">Difficulties in preventing dengue fever epidemic include understanding the trend and dynamics of vector mosquitoes. As such, no complete solution has been established. An extensive parallel operation has also been created using high-speed computers based on mathematical dynamics (MCMC VSIRX) and a high-speed high-efficient algorithm to learn the most probable parameters in dynamic models within hours by using limited epidemic case reports, including various values, such as the incidence of disease and bite rate, which are difficult to measure directly. On the basis of the actual number of reported cases and the logic among various numbers, we can estimate the situation of vector-borne infections in each region that cannot be observed through the sampling method. The benefits of high-speed computing go beyond that.</p>
+              <p id="Par30">Among the estimated parameters, an important one is the “disease report rate”. Because of the intervention of authorities, potential patients may resist receiving medical screening in order not to be isolated. The surrounding community may yield social stigma to the source person of infected. This effect of afraid-to-be-examined also appears in recently epidemic diseases. The actual report rate is key to the battle of public health, but no one can easily get his number. This study found a report rate that closed to the historical record. Therefore, the estimation can be useful information for the future work of governmental authorities.</p>
+              <p id="Par31">We can also filter more than tens of billions of possible schemes and follow-up effects in just a few days based on the ability of high-speed computers and unique, efficient algorithms and determine the best time point with statistical significance for epidemic prevention units. In this manner, we can make epidemic prevention decisions.</p>
+            </sec>
+            <sec id="Sec5">
+              <title>Methods</title>
+              <p id="Par32">The statistical model for epidemiological analysis of dengue fever dissemination is based on the primitive model of Kermark and McKendrick [<xref ref-type="bibr" rid="CR16">16</xref>], which has been widely applied for mathematical epidemiologists [<xref ref-type="bibr" rid="CR4">4</xref>]. The population and vector mosquitoes are divided into multiple groups (compartment) with different infection status by using an SIR clustering model. In a given environment, the mathematical model of dengue fever can express the interactive growth and transmission of dengue virus between human hosts and vector mosquito hosts. The transfer parameters of the environment determine that the model can flexibly state the effect of the interactive infection and growth of human–vector mosquito population.</p>
+              <p id="Par33">To ease the explanation of our VSIRX model [Eq. (<xref rid="Equ1" ref-type="">1</xref>)] [<xref ref-type="bibr" rid="CR17">17</xref>], a real figure was drawn from 2014 and 2015, as shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>, where the solid line represents the number of cases; the dash line represents the temperature, and the dotted line represents Breteau index. In Fig. <xref rid="Fig3" ref-type="fig">3</xref>, we can observe that the temperature variations in the two years were similar and the mosquito index at the first year was higher than that of the second year, but, inversely, the number of people infected per 10 thousand was lower in 2014 than the next year. Our differential equation model in Eq. (<xref rid="Equ1" ref-type="">1</xref>) can easily explain this accumulation phenomenon. The variables capturing the population size in each infection status are denoted by the letters <italic>S</italic><sub><italic>H</italic></sub><italic>, I</italic><sub><italic>H</italic></sub>, and <italic>R</italic><sub><italic>H</italic></sub>, where “<italic>S</italic><sub><italic>H</italic></sub>” is the number of people susceptible, i.e., who can be infected, “<italic>I</italic><sub><italic>H</italic></sub>” is the number of people infected, and “<italic>R</italic><sub><italic>H</italic></sub>” is the number of people recovered. The model also includes the vector activities, and (<italic>S</italic><sub><italic>v</italic></sub>, <italic>I</italic><sub><italic>v</italic></sub>) is the number of Infectious and infected vectors, respectively. The number of recovered vectors is not included because the life cycle of mosquitoes is not long enough to be modelled. The total number of people (<italic>S</italic><sub><italic>H</italic></sub> + <italic>I</italic><sub><italic>H</italic></sub> + <italic>R</italic><sub><italic>H</italic></sub>) likely remains unchanged in the system because of the low mortality rate caused by dengue fever. Each individual has also assumed has an equal chance of being bitten by vector mosquitoes in a closed system. The definition and initial values of parameters in Eq. (<xref rid="Equ1" ref-type="">1</xref>) can be found in Table <xref rid="Tab1" ref-type="table">1</xref>.<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ {\begin{array}{*{20}l} {\frac{{dS_{H} }}{dt} = - rb_{H} I_{M} S_{H} - \mu_{H} S_{H} + \sigma_{H} R_{H} + \Lambda_{H} ,} \hfill \\ {\frac{{dI_{H} }}{dt} = rb_{H} I_{M} S_{H} - \left( {\mu_{H} + \gamma_{H} } \right)I_{H} ,} \hfill \\ {\frac{{dR_{H} }}{dt} = \gamma_{H} I_{H} - \left( {\mu_{H} + \sigma_{H} } \right)R_{H} ,} \hfill \\ {\frac{{dS_{v} }}{dt} = - rc_{v} I_{H} S_{v} - \mu_{v} S_{v} + \Lambda_{v} ,} \hfill \\ {\frac{{dI_{v} }}{dt} = rc_{v} I_{H} S_{v} - \mu_{v} I_{v} .} \hfill \\ \end{array} } \right.$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mi>r</mml:mi><mml:msub><mml:mi>b</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:msub><mml:mi>I</mml:mi><mml:mi>M</mml:mi></mml:msub><mml:msub><mml:mi>S</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:msub><mml:mi>S</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>σ</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:msub><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="normal">Λ</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>I</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>r</mml:mi><mml:msub><mml:mi>b</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:msub><mml:mi>I</mml:mi><mml:mi>M</mml:mi></mml:msub><mml:msub><mml:mi>S</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:msub><mml:mi>I</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:msub><mml:mi>I</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>σ</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:msub><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mi>r</mml:mi><mml:msub><mml:mi>c</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:msub><mml:mi>I</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:msub><mml:mi>S</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:msub><mml:mi>S</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="normal">Λ</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>I</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="italic">dt</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>r</mml:mi><mml:msub><mml:mi>c</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:msub><mml:mi>I</mml:mi><mml:mi>H</mml:mi></mml:msub><mml:msub><mml:mi>S</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:msub><mml:mi>I</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="12859_2021_4059_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula><fig id="Fig3"><label>Fig. 3</label><caption><p>The dengue cases per 10 thousand capita, temperature, mosquito index, in black, red, and green lines, respectively</p></caption><graphic xlink:href="12859_2021_4059_Fig3_HTML" id="MO3"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>Initial values of parameter estimated</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Parameters</th><th align="left">Description</th><th align="left">Initial value</th><th align="left">Assumption</th></tr></thead><tbody><tr><td align="left"/><td align="left">Unit of simulation time scale</td><td align="left">1</td><td align="left">Day</td></tr><tr><td align="left"/><td align="left">Unit of parameter timebase</td><td align="left"/><td align="left">Year</td></tr><tr><td align="left"><inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{a}}$$\end{document}</tex-math><mml:math id="M4"><mml:mi>a</mml:mi></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq1.gif"/></alternatives></inline-formula></td><td align="left">Rate host on vector bite</td><td align="left">0.5</td><td align="left">Bites per day</td></tr><tr><td align="left"><inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{b}}}_{{{H}}}$$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mi>b</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq2.gif"/></alternatives></inline-formula></td><td align="left">Rate host on infectious bite</td><td align="left">0.5</td><td align="left">Positive per bite</td></tr><tr><td align="left"><inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mu}}}_{{{H}}}$$\end{document}</tex-math><mml:math id="M8"><mml:msub><mml:mi>μ</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq3.gif"/></alternatives></inline-formula></td><td align="left">Rate host nature mortality</td><td align="left">5.5 × 10<sup>–5</sup></td><td align="left">Dead ratio per day/50-year life</td></tr><tr><td align="left"><inline-formula id="IEq4"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\gamma}}}_{{{H}}}$$\end{document}</tex-math><mml:math id="M10"><mml:msub><mml:mi>γ</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq4.gif"/></alternatives></inline-formula></td><td align="left">Rate host recovery</td><td align="left">1 × 10<sup>–2</sup></td><td align="left">Recovered ratio per day/3 month</td></tr><tr><td align="left"><inline-formula id="IEq5"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\eta}}}_{{{H}}}$$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mi>η</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq5.gif"/></alternatives></inline-formula></td><td align="left">Rate host to vector infection</td><td align="left">0.375</td><td align="left">Probability of infection</td></tr><tr><td align="left"><inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\sigma}}}_{{{H}}}$$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mi>σ</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq6.gif"/></alternatives></inline-formula></td><td align="left">Rate host immunity loss</td><td align="left">1 × 10<sup>–3</sup></td><td align="left">Loss ratio per day</td></tr><tr><td align="left"><inline-formula id="IEq7"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\Lambda}}}_{{{H}}}$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mi mathvariant="normal">Λ</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq7.gif"/></alternatives></inline-formula></td><td align="left">Rate host growth</td><td align="left">10</td><td align="left">Numbers per day</td></tr><tr><td align="left"><inline-formula id="IEq8"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{c}}}_{{{M}}}$$\end{document}</tex-math><mml:math id="M18"><mml:msub><mml:mi>c</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq8.gif"/></alternatives></inline-formula></td><td align="left">Rate vector on infectious host bite</td><td align="left">0.8</td><td align="left">Bites per day</td></tr><tr><td align="left"><inline-formula id="IEq9"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mu}}}_{{{M}}}$$\end{document}</tex-math><mml:math id="M20"><mml:msub><mml:mi>μ</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq9.gif"/></alternatives></inline-formula></td><td align="left">Rate vector nature mortality</td><td align="left">0.143</td><td align="left">Dead ratio per day/1-week life span</td></tr><tr><td align="left"><inline-formula id="IEq10"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\eta}}}_{{{M}}}$$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mi>η</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq10.gif"/></alternatives></inline-formula></td><td align="left">Rate vector to host infection</td><td align="left">0.75</td><td align="left">Probability of infection</td></tr><tr><td align="left"><inline-formula id="IEq11"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\Lambda}}}_{{{M}}}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mi mathvariant="normal">Λ</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq11.gif"/></alternatives></inline-formula></td><td align="left">Rate vector growth</td><td align="left">1000</td><td align="left">Numbers increase per day/hatch rate should be time-variant</td></tr><tr><td align="left"><inline-formula id="IEq12"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{r}}$$\end{document}</tex-math><mml:math id="M26"><mml:mi>r</mml:mi></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq12.gif"/></alternatives></inline-formula></td><td align="left"><inline-formula id="IEq13"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$a/{N}_{H}$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:mi>a</mml:mi><mml:mo stretchy="false">/</mml:mo><mml:msub><mml:mi>N</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq13.gif"/></alternatives></inline-formula> rate bite per mosquito per human</td><td align="left"/><td align="left"/></tr><tr><td align="left"><inline-formula id="IEq14"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{N}}}_{{{H}}}$$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mi>N</mml:mi><mml:mi>H</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4059_Article_IEq14.gif"/></alternatives></inline-formula></td><td align="left">Host population size</td><td align="left">1020</td><td align="left"/></tr></tbody></table></table-wrap></p>
+              <p id="Par34">The numbers between the infected and official recorded may not be consistent. Our model must capture the inconsistency. The counting process <italic>C(t</italic><sub><italic>1</italic></sub><italic>, t</italic><sub><italic>2</italic></sub><italic>)</italic> is the number of officially reported cases between times <italic>t</italic><sub><italic>1</italic></sub> and <italic>t</italic><sub><italic>2</italic></sub>. The number of people actually infected between times <italic>t</italic><sub><italic>1</italic></sub> and <italic>t</italic><sub><italic>2</italic></sub> is <italic>ΔN</italic><sub>SI</sub><italic>(t1, t2</italic>). We, therefore, associate the two numbers with relations of proportion and uncertainty in [Eq. (<xref rid="Equ2" ref-type="">2</xref>)].<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$C\left( {t_{1} , \, t_{2} } \right) \, \sim \, NegBin \, (\rho \Delta N_{SI} \left( {t1, \, t2} \right),\theta )$$\end{document}</tex-math><mml:math id="M32" display="block"><mml:mrow><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mspace width="0.166667em"/><mml:msub><mml:mi>t</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mspace width="0.166667em"/><mml:mo>∼</mml:mo><mml:mspace width="0.166667em"/><mml:mi>N</mml:mi><mml:mi>e</mml:mi><mml:mi>g</mml:mi><mml:mi>B</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.166667em"/><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>ρ</mml:mi><mml:mi mathvariant="normal">Δ</mml:mi><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi mathvariant="italic">SI</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi>t</mml:mi><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mspace width="0.166667em"/><mml:mi>t</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:mfenced><mml:mo>,</mml:mo><mml:mi>θ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="12859_2021_4059_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p id="Par35">The proportion of infected to be reported to authorities is denoted as the report rate <italic>ρ.</italic> The distribution <italic>NegBin</italic> (number = n, prob = <italic>θ</italic>) is a discrete negative binomial probability distribution of the number of successes (with probability <italic>θ</italic>) in a sequence of independent and identically distributed Bernoulli trials before a specified number of failures (n) occurs.</p>
+              <p id="Par36">Obtaining data about viruses in insects is limited by various factors. However, we still have the track of human disease. We can still reversely infer the most-possible infection trajectory of insect vectors from the result. On the basis of the actual number of cases reported and the logic among various numbers, we estimate the situation of vector-borne infections in each region that cannot be observed by sampling observing method. On the basis of dengue fever case data, we can estimate a set of the most-possible parameters in a half-day of computation using the most advanced parameter estimation algorithm and a 32-core high-speed computer. We can easily verify the results of the analysis with the worst outbreak starting from Kaohsiung in 2014 and 2015. Our primary analysis result shows that the estimated parameters are sufficient to represent the current pattern of dengue epidemic spread [<xref ref-type="bibr" rid="CR18">18</xref>]. After repeated calibration by performing Markov chain Montel Carlo (MCMC), and the estimation are carried out, the set of parameters is obtained in accordance with the trajectory of the reported cases.</p>
+            </sec>
+          </body>
+          <back>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term>SIR</term>
+                  <def>
+                    <p id="Par4">Susceptible-infectious-recovered</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>VSIRX</term>
+                  <def>
+                    <p id="Par5">Vector-susceptible-infectious-recovered with exogeneity</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>MCMC</term>
+                  <def>
+                    <p id="Par6">Markov chain Montel Carlo</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term>BEM</term>
+                  <def>
+                    <p id="Par7">Boundary element method</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>Not applicable.</p>
+              <sec id="d32e1548">
+                <title>About this supplement</title>
+                <p id="Par37">This article has been published as part of BMC Bioinformatics Volume 22 Supplement 5 2021: Proceedings of the International Conference on Biomedical Engineering Innovation (ICBEI) 2019-2020. The full contents of the supplement are available at <ext-link ext-link-type="uri" xlink:href="https://bmcbioinformatics.biomedcentral.com/articles/supplements/volume-22-supplement-5">https://bmcbioinformatics.biomedcentral.com/articles/supplements/volume-22-supplement-5</ext-link>.</p>
+              </sec>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Authors' contributions</title>
+              <p>CHL, KC, YJC designed the study. YJC, YMC, JTT implemented the analysis. YJC, WHH wrote the manuscript. All authors read and approved the final manuscript.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>This research was funded by the National Health Research Institutes Grand Number NHRI‐106A1‐MRCO‐1017172, the Ministry of Science and Technology in Taiwan Grant Numbers MOST 107-2410-H-992-014-MY2, 109-2221-E-153-005-MY3, 109-2221-E-037-005, and partially supported by the Research Center for Environmental Medicine, Kaohsiung Medical University (KMU-TC109A01-1) and the “Intelligent Manufacturing Research Center” (iMRC) from the Featured Areas Research Center Program within the framework of the Higher Education Sprout Project by the Taiwan Ministry of Education.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Availability of data and materials</title>
+              <p>The dengue fever case data were provided from Taiwan Center for Disease Control. The dataset can be downloaded in csv or xls formats. <ext-link ext-link-type="uri" xlink:href="https://nidss.cdc.gov.tw/en/nndss/disease?id=061">https://nidss.cdc.gov.tw/en/nndss/disease?id=061</ext-link></p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1">
+                <title>Ethics approval and consent to participate</title>
+                <p id="Par38">Not applicable.</p>
+              </notes>
+              <notes id="FPar2">
+                <title>Consent for publication</title>
+                <p id="Par39">Not applicable.</p>
+              </notes>
+              <notes id="FPar3" notes-type="COI-statement">
+                <title>Competing interests</title>
+                <p id="Par40">The authors declare that they have no competing interests.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Kaohsiung-D.C.B. Dengue information. Disease Control Bureau, the Department of Health, Kaohsiung City Government, Kaohsiung; 2000–2016.</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">Taiwan-CDC. Centers for disease control: Taiwan national infectious disease statistics system, 2000–2019. Taiwan Ministry of Health and Welfare. <ext-link ext-link-type="uri" xlink:href="http://nidss.cdc.gov.tw/en/SingleDisease.aspx?dc=1&amp;dt=2&amp;disease=055">http://nidss.cdc.gov.tw/en/SingleDisease.aspx?dc=1&amp;dt=2&amp;disease=055</ext-link>. Accessed 11 Aug 2019.</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Christina</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>John</surname>
+                      <given-names>ND</given-names>
+                    </name>
+                    <name>
+                      <surname>Gregory</surname>
+                      <given-names>FC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating the joint disease outbreak-detection time when an automated biosurveillance system is augmenting traditional clinical case finding</article-title>
+                  <source>J Biomed Inform</source>
+                  <year>2008</year>
+                  <volume>41</volume>
+                  <issue>2</issue>
+                  <fpage>224</fpage>
+                  <lpage>231</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbi.2007.11.002</pub-id>
+                  <pub-id pub-id-type="pmid">18194876</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andraud</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Niel</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Christiaan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Philippe</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamic epidemiological models for dengue transmission: a systematic review of structural approaches</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <issue>11</issue>
+                  <fpage>e49085</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0049085</pub-id>
+                  <pub-id pub-id-type="pmid">23139836</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nuraini</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Soewono</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Sidarto</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical model of dengue disease transmission with severe DHF compartment</article-title>
+                  <source>Bull Malays Math Sci Soc</source>
+                  <year>2007</year>
+                  <volume>30</volume>
+                  <issue>2</issue>
+                  <fpage>143</fpage>
+                  <lpage>157</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nishiura</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mathematical and statistical analyses of the spread of dengue</article-title>
+                  <source>Dengue Bull</source>
+                  <year>2006</year>
+                  <volume>30</volume>
+                  <fpage>51</fpage>
+                  <lpage>67</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amaku</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Azevedo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Burattini</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Coutinho</surname>
+                      <given-names>FAB</given-names>
+                    </name>
+                    <name>
+                      <surname>Lopez</surname>
+                      <given-names>LF</given-names>
+                    </name>
+                    <name>
+                      <surname>Massad</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interpretations and pitfalls in modelling vector-transmitted infections</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2015</year>
+                  <volume>143</volume>
+                  <issue>09</issue>
+                  <fpage>1803</fpage>
+                  <lpage>1815</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0950268814002660</pub-id>
+                  <pub-id pub-id-type="pmid">25417817</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Polwiang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The seasonal reproduction number of dengue fever: impacts of climate on transmission</article-title>
+                  <source>PeerJ</source>
+                  <year>2015</year>
+                  <volume>3</volume>
+                  <fpage>e1069</fpage>
+                  <pub-id pub-id-type="doi">10.7717/peerj.1069</pub-id>
+                  <pub-id pub-id-type="pmid">26213648</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zamiri</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yazdi</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <name>
+                      <surname>Goli</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Temporal and spatial monitoring and prediction of epidemic outbreaks</article-title>
+                  <source>IEEE J Biomed Health Inform</source>
+                  <year>2015</year>
+                  <volume>19</volume>
+                  <issue>2</issue>
+                  <fpage>735</fpage>
+                  <lpage>744</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JBHI.2014.2338213</pub-id>
+                  <pub-id pub-id-type="pmid">25122846</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>FS</given-names>
+                    </name>
+                    <name>
+                      <surname>Tseng</surname>
+                      <given-names>YT</given-names>
+                    </name>
+                    <name>
+                      <surname>Hsu</surname>
+                      <given-names>PS</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>CD</given-names>
+                    </name>
+                    <name>
+                      <surname>Lian Ie</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Chao</surname>
+                      <given-names>DY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Re-assess vector indices threshold as an early warning tool for predicting dengue epidemic in a dengue non-endemic country</article-title>
+                  <source>PLoS Negl Trop Dis</source>
+                  <year>2015</year>
+                  <volume>9</volume>
+                  <issue>9</issue>
+                  <fpage>e0004043</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pntd.0004043</pub-id>
+                  <pub-id pub-id-type="pmid">26366874</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kilicman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A fractional order SIR epidemic model for dengue transmission</article-title>
+                  <source>Chaos Solitons Fractals</source>
+                  <year>2018</year>
+                  <volume>114</volume>
+                  <fpage>55</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.chaos.2018.06.031</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <mixed-citation publication-type="other">Cahyono ES, Alfensi F, Bambang S. Analysis of dengue fever disease transmission using suspected-infected-recovered (SIR) model. In: Journal of physics: conference series, vol 1282. no 1. IOP Publishing; 2019.</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gersovitz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeffrey</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The economical control of infectious diseases</article-title>
+                  <source>Econ J</source>
+                  <year>2004</year>
+                  <volume>114</volume>
+                  <issue>492</issue>
+                  <fpage>1</fpage>
+                  <lpage>27</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.0013-0133.2003.0174.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chanprasopchai</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pongsumpun</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SIR model for dengue disease with effect of dengue vaccination</article-title>
+                  <source>Comput Math Methods Med</source>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.1155/2018/9861572</pub-id>
+                  <?supplied-pmid 30228830?>
+                  <pub-id pub-id-type="pmid">30228830</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Luz</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Vanni</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Medlock</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Paltiel</surname>
+                      <given-names>AD</given-names>
+                    </name>
+                    <name>
+                      <surname>Galvani</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dengue vector control strategies in an urban setting: an economic modelling assessment</article-title>
+                  <source>Lancet</source>
+                  <year>2011</year>
+                  <volume>377</volume>
+                  <issue>9778</issue>
+                  <fpage>1673</fpage>
+                  <lpage>1680</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(11)60246-8</pub-id>
+                  <pub-id pub-id-type="pmid">21546076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kermack</surname>
+                      <given-names>WO</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>GM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A contribution to the mathematical theory of epidemics</article-title>
+                  <source>Proc R Soc Lond A Math Phys Eng Sci R Soc</source>
+                  <year>1927</year>
+                  <volume>115</volume>
+                  <fpage>700</fpage>
+                  <lpage>721</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roche</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Guégan</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Bousquet</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multi-agent systems in epidemiology: a first step for computational biology in the study of vector-borne disease transmission</article-title>
+                  <source>BMC Bioinform</source>
+                  <year>2008</year>
+                  <volume>9</volume>
+                  <issue>1</issue>
+                  <fpage>435</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-9-435</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siriyasatien</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Phumee</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ongruk</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Jampachaisri</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Kesorn</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of significant factors for dengue fever incidence prediction</article-title>
+                  <source>BMC Bioinform</source>
+                  <year>2016</year>
+                  <volume>17</volume>
+                  <issue>1</issue>
+                  <fpage>166</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12859-016-1034-5</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

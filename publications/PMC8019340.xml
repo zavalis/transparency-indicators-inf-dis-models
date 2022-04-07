@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:55:32Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8019340" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8019340</identifier>
+        <datestamp>2021-04-06</datestamp>
+        <setSpec>phenaturepg</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Evol Intell</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Evol Intell</journal-id>
+              <journal-title-group>
+                <journal-title>Evolutionary Intelligence</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1864-5909</issn>
+              <issn pub-type="epub">1864-5917</issn>
+              <publisher>
+                <publisher-name>Springer Berlin Heidelberg</publisher-name>
+                <publisher-loc>Berlin/Heidelberg</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8019340</article-id>
+              <article-id pub-id-type="pmcid">PMC8019340</article-id>
+              <article-id pub-id-type="pmc-uid">8019340</article-id>
+              <article-id pub-id-type="pmid">33841583</article-id>
+              <article-id pub-id-type="publisher-id">600</article-id>
+              <article-id pub-id-type="doi">10.1007/s12065-021-00600-2</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A statistical and deep learning-based daily infected count prediction system for the coronavirus pandemic</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shah</surname>
+                    <given-names>Vruddhi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shelke</surname>
+                    <given-names>Ankita</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Parab</surname>
+                    <given-names>Mamata</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shah</surname>
+                    <given-names>Jainam</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Mehendale</surname>
+                    <given-names>Ninad</given-names>
+                  </name>
+                  <address>
+                    <email>ninad@somaiya.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <aff id="Aff1"><institution-wrap><institution-id institution-id-type="GRID">grid.44871.3e</institution-id><institution-id institution-id-type="ISNI">0000 0001 0668 0201</institution-id><institution>K. J. Somaiya College of Engineering, </institution></institution-wrap>Mumbai, 400077 Maharashtra India </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>3</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <fpage>1</fpage>
+              <lpage>11</lpage>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>8</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>23</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>25</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2021</copyright-statement>
+                <license>
+                  <license-p>This article is made available via the PMC Open Access Subset for unrestricted research re-use and secondary analysis in any form or by any means with acknowledgement of the original source. These permissions are granted for the duration of the World Health Organization (WHO) declaration of COVID-19 as a global pandemic.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">We present new data analytics-based predictions results that can help governments to plan their future actions and also help medical services to be better prepared for the future. Our system can predict new corona cases with 99.82% accuracy using susceptible infected recovered (SIR) model. We have predicted the results of new COVID cases per day for dense and highly populated country i.e. India. We found that traditional statistical methods will not work efficiently as they do not consider the limited population in a particular country. Using the data analytics-based curve we predicted four most likely possibilities for the number of new cases in India. Hence, we expect that the results mentioned in the manuscript help people to better understand the progress of this disease.</p>
+                <sec>
+                  <title>Supplementary Information</title>
+                  <p>The online version contains supplementary material available at 10.1007/s12065-021-00600-2.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Covid-19 simulations</kwd>
+                <kwd>Coronavirus</kwd>
+                <kwd>Daily count</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">The Chinese authorities alerted the world in December 2019, that a virus outspread had occurred in their community. Eventually, it spread to the other countries in the coming months, with cases multiplying within a span of a few days. This virus was Severe Acute Respiratory Syndrome related Coronavirus that causes COVID-19. A virus is a small collection of genetic material bordered by a protein coat. It cannot replicate on its own. Also how long, a virus can remain on the surfaces is not certain. Coronavirus mostly spreads through contact with different surfaces. It mainly spreads by the droplets, when infected people sneeze or cough.</p>
+              <p id="Par3">There are two possibilities for a pandemic like a corona: rapid and slow. A rapid pandemic costs many lives which would be devastating. The worst-case for a rapid pandemic begins with a very high rate of infection as there are no countermeasures taken to slow it down beforehand. In a rapid pandemic a large number of people would get sick and all at the same time. And if these numbers become too large, then the healthcare facilities would be unable to grip it. Not enough resources, like medical staff or medical equipment like ventilators, would be left to help those in need of them. People will die untreated in such a case. If the health care workers get sick themselves, the capacity of the health care systems to operate properly will fall drastically. And if so happens, then decisions will have to be made about who gets to live and who doesn’t as seen in Italy and New York. The number of deaths will tend to rise significantly in such a scenario.</p>
+              <p id="Par4">This entire manuscript provides the information about likely next day count and when the end of phase 1 (EOP1), end of phase 2 (EOP2) and end of phase 3 (EOP3) (shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>) will arrive in India using 4 different possibilities so that people can find out in how many days India will be free from this pandemic crisis. Also, the maximum number of people getting infected during phase 2, and the end of cycle one has been predicted with the help of the data analysis-based curve generated from the analysis of different multiple countries. Our prediction can help decision-makers like government and medical supervisors to do the right thing. We expect more and more lives are saved and though this curve is unavoidable we can reduce its peak and slopes.<fig id="Fig1"><label>Fig. 1</label><caption><p>The normalized curve of COVID-19 infected new patient’s daily count versus normalized timeline. The curve consists of a cycle having 3 phases followed by a rest phase. Phase 1 is the exponential rise where the cases keep on increasing up to a point End of Phase 1 (EOP1). After EOP1, the number of cases increases at a constant level, and a flat curve can be seen indicating the phase 2. After End of phase 2 (EOP2), the cases start to decline gradually following a skewed curve and the phase 3 begins up to a point End of phase 3 (EOP3). These 3 phases together constitute a cycle for the coronavirus cases. After EOP3 a rest phase begins</p></caption><graphic xlink:href="12065_2021_600_Fig1_HTML" id="MO1"/></fig></p>
+              <p id="Par5">The COVID-19 outbreak has significantly impacted various sectors of the economy. The proposed work uses data analytics-based prediction as well as statistical analysis model (Figs. <xref rid="Fig2" ref-type="fig">2</xref>, <xref rid="Fig3" ref-type="fig">3</xref>). The data analytics-based prediction (Fig. <xref rid="Fig4" ref-type="fig">4</xref>) provides comparatively better results in comparison to the prediction carried out by using statistical models. This prediction will be useful to the public and health care sector for better decision-making. As compared to existing literature, the accuracy of our predictions was 99.82%. The introduction section explains coronavirus, its impacts on the world, why it is necessary to predict the cases and its significance. The working of coronavirus is explained in the next section post the introduction. Other methodologies reported recently are covered in the literature review. The methodology section explains all the different statistical and deep learning models used for the prediction in detail. This section ends with data analysis (Figs. <xref rid="Fig5" ref-type="fig">5</xref>, <xref rid="Fig6" ref-type="fig">6</xref>, <xref rid="Fig7" ref-type="fig">7</xref>) and its importance in forecasting (Fig. <xref rid="Fig8" ref-type="fig">8</xref>). The results and discussion section explains the RMSE values obtained from the different algorithms used and also covers general observations found from the analysis of the data and compares different methods used. The conclusion summarizes the entire work and gives a future path for more development.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Working of corona virus</title>
+              <p id="Par6">The virus begins to spread very deep into the person’s body via the nasal cavity. The targets of the virus are the lungs, the spleen, or the intestines, out of which, the most noticeable effect of this virus can be seen in the lungs. A large number of epithelial cells are present at the border of the lungs. These epithelial cells, also line the organs of our body and mucosa. Coronavirus injects its genetic material inside the epithelial cell by connecting to a particular receptor on the membrane of the victim’s cell. The cell executes the new commands that are given by this genetic material, which are to replicate and reconstruct new coronaviruses. This adds up further by generating more and more duplicates of the original virus till a critical point is reached where the cell receives a final call which is to self-destruct. And now the newly released coronaviruses starts attacking the other cells. An exponential increase in the number of infected cells is seen and within 14 days. A huge number of cells, about millions, are infected and the lungs would be housing more than a billion of these viruses. This virus has so far not caused any damage to the body, but will now show a tremendous impact on the immune system. We all know that the immune system is meant for our protection, but it requires dense regulation as immune cells can also be harmful. Corona infects some of the immune cells and creates a disturbance by confusing them when these cells are poured into the lungs to fight the virus. These immune cells communicate through tiny proteins carrying information called as the cytokines. These cytokines are responsible for carrying out important immune reactions. Coronavirus causes the infected immune cells to exaggerate; it puts the immune system into a state of confusion and sends more antibodies than it should and thereby wasting a lot of its resources and causes great damage. Two types of cells in general create the disturbance. The first type of cells are Neutrophils, which are capable of killing the outside material, are sometimes even capable of killing host body cells. They arrive in large numbers and kill as many friends as enemies. The other being, the killer T-cells that ask the infected cells to commit a controlled suicide. And in this situation of conflict, they tend to ask the healthy cells to destroy themselves too. And as a huge number of these cells arrive, more damage is caused to the healthy lung tissues as well. This leads to lifelong disabilities and causes permanent irreversible damage. But in the majority of the cases, the immune system slowly regains power. The recovery begins and they start killing the infected cells and also recognize the viruses that try to infect the other new cells. In most of the cases, the patients can be mildly symptomatic. But some cases tend to become critical, and in this case, millions of epithelial cells die, the lungs lining are also damage, and the alveoli gets infected with the virus damaging the respiration. Such patients face difficulties in breathing and need ventilators to survive. For weeks, the immune system has fought with the virus to its full capacity and made antiviral weapons to fight the coronavirus. But if the virus rapidly multiplies and enters the bloodstream, then death is more likely.<fig id="Fig2"><label>Fig. 2</label><caption><p>Different statistical models fitting on actual data to train and forecasting the count. The black line indicates the actual count. <bold>a</bold> AR, MA, and ARIMA model for the fitting. They are far away from actual values most of the time. <bold>b</bold> Result of SIR model for fitting. The SIR model gives a good fit for the actual data. <bold>c</bold> Result of the RNN model for fitting on the actual data <bold>d</bold> 3 different Holts algorithm for fitting the data</p></caption><graphic xlink:href="12065_2021_600_Fig2_HTML" id="MO2"/></fig><fig id="Fig3"><label>Fig. 3</label><caption><p><bold>a</bold> A graphic user interface (GUI) for the prediction of the cases. 6 different algorithms were implemented to predict the cases likely to arise in the coming days. The input given was a .csv file which consists of two rows. One row consists of the date and the second consists of the corresponding count on that date. The Run button generates the predicted next day count and the RMSE values for each algorithm (E-SIR, RNN, Holts, AR, MA, ARIMA). <bold>b</bold> The output of the GUI application which gives the prediction for the next 10 days in the form of graphs by just clicking the generate graphs button</p></caption><graphic xlink:href="12065_2021_600_Fig3_HTML" id="MO3"/></fig></p>
+            </sec>
+            <sec id="Sec3">
+              <title>Literature review</title>
+              <p id="Par7">Certain infectious diseases or events may or may not occur in a cyclic or rhythmic pattern. By studying and understanding their pattern we can determine when a future outbreak may occur. Due to this, it is possible to take preventative steps to minimize its impact. In year 2014, Kane et al. [<xref ref-type="bibr" rid="CR1">1</xref>] worked in same field. He predicted the outbreak of avian influenza H5N1 in the nearest future. Kane et al. used ARIMA and Random Forest time series models for predicting this outbreak. In the study, Kane et al. found that Random Forest time-series predictive analysis provided better results over the ARIMA model. Mean Square Error (MSE) for the ARIMA model found to be 28.7412 whereas it was 24.8101 for the Random Forest model. In the current situation, studying and analyzing the spread of the Coronavirus is an essential task. Multiple factors lead to an increase in the count of the patient. In most of the cases, it is found that people already having some respiratory disease are at the verge of having COVID-19 disease. There is a direct relationship between the increased count of Coronavirus-infected people and pre-existing respiratory problems like pneumonia. Ji et al. [<xref ref-type="bibr" rid="CR2">2</xref>] worked on same topic. He used Multivariate Cox regression to identify risk factors associated with the progression of the disease. Ji et al. obtained 0.91 value for Receiver Operating Characteristics. As Ji et al. and Qasim et al. has also studied the trend of the Corona pandemic. As mentioned in, Qasim et al. [<xref ref-type="bibr" rid="CR3">3</xref>], qasim<italic>et al.</italic> has been determine the trend of corona spread based on Successive Approximation Method. In this work, he calculated worldwide expected lower bound value for confirmed cases 247007 cases with a maximum limit of 1667719 cases and minimum deaths count 8660 with an upper limit of 117397 deaths in the next 30 days. The mean ratio of expected cases was found to be 0.485 whereas the mean ratio of deaths was found to be 0.49. It is an essential task to prevent the spread of Coronavirus further. To stop or reduce the spread of Coronavirus, across the world various steps have been taken like announcing the lockdown, isolation, etc. Arti <italic>et al.</italic> [<xref ref-type="bibr" rid="CR4">4</xref>], used a mathematical model to determine the effect of prevention technique on the spread of Corona. Arti et al. used a tree-based model to predict the spread of the coronavirus. Dhanwant et al. [<xref ref-type="bibr" rid="CR5">5</xref>] worked in the same field for predicting the spread of Coronavirus in different countries by considering various features of Coronavirus growth. They found that the parameter <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta$$\end{document}</tex-math><mml:math id="M2"><mml:mi>η</mml:mi></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq1.gif"/></alternatives></inline-formula> governed by various factors like the social-contact structure. The dependency of this parameter <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {e}\underline{\hbox {t}}\hbox {a}$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mtext>e</mml:mtext><mml:munder><mml:mtext>t</mml:mtext><mml:mo>_</mml:mo></mml:munder><mml:mtext>a</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq2.gif"/></alternatives></inline-formula> on the transmission level in society gives a sense of the effectiveness of the measures taken for social distancing. An algorithm is developed in python using Scipy that understands and learns the social-contact structure. This algorithm gives a suitable value for <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta$$\end{document}</tex-math><mml:math id="M6"><mml:mi>η</mml:mi></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq3.gif"/></alternatives></inline-formula>. In a study by Tandon et al. [<xref ref-type="bibr" rid="CR6">6</xref>] has compared multiple models and then employed them for forecasting future COVID-19 cases in India. They tried various models and found the ARIMA( Auto-Regressive Integrated Moving Average) model to be the most accurate based on error. Chen group [<xref ref-type="bibr" rid="CR7">7</xref>] conducted the mathematical and numerical analysis for COVID-19 and proposed a time-dependent susceptible-infected-recovered (SIR) model that tracks 2 time series namely the transmission rate at time t and the recovering rate at time t. In a study by Jun Zhang [<xref ref-type="bibr" rid="CR8">8</xref>], a method was proposed to reconstruct a phase space based on the chaotic time series using RNN. This method was simple, practical, and effective in chaotic time series prediction. In a study by Chris Chatfield [<xref ref-type="bibr" rid="CR9">9</xref>], the Holts-Winters forecasting procedure was tested for practical purposes and an important distinction between automatic and non-automatic forecasting approach was done to implement the Holts-Winters algorithm.<fig id="Fig4"><label>Fig. 4</label><caption><p>Proposed system flow diagram. The input consisted of the actual count taken from the open-source dataset. The data was initially filtered, and the different time series prediction models were applied to the processed data. Six statistical models, viz. Holts forecasting, ETS, AR, MA and ARIMA, SIR, E-SIR, and neural networks forecasting and a data analytics based prediction model was used for predicting the output. The obtained results from each model were compared to find the best-suited model for the prediction</p></caption><graphic xlink:href="12065_2021_600_Fig4_HTML" id="MO4"/></fig></p>
+            </sec>
+            <sec id="Sec4">
+              <title>Methodology</title>
+              <p id="Par8">The statistics on the coronavirus pandemic for a number of countries in the world has been presented as an open source dataset for further analysis. Using this dataset [<xref ref-type="bibr" rid="CR10">10</xref>], we carried out the prediction and the results obtained were tested using the data mentioned in the dataset. A basic flow of the methodology used has been shown in Fig. <xref rid="Fig4" ref-type="fig">4</xref>. We have used six time series prediction codes and a data-analysis based prediction model has been presented. A comparison of the results obtained with each prediction algorithm was done to find a suitable model for prediction. A description on the algorithms used for prediction of next COVID-19 count daily rise value are presented in the following sub-sections. For people’s benefit we are giving away all the codes with this manuscript in supplementary section.<fig id="Fig5"><label>Fig. 5</label><caption><p>Data analysis of the countries namely the UK, Italy, Germany, Ireland, New Zealand, Canada, and France where the spread of coronavirus has stopped has been done. Their normalized graphs have been plotted. A curve has been fitted on the normalized graphs of these countries shown by the blue dotted line, indicating the 3 phase nature of the simulation curve</p></caption><graphic xlink:href="12065_2021_600_Fig5_HTML" id="MO5"/></fig></p>
+              <sec id="Sec5">
+                <title>Holts forecasting model</title>
+                <p id="Par9">The simple exponential smoothing to allow the forecasting of the data with no trends was extended by Holt [<xref ref-type="bibr" rid="CR11">11</xref>]. A forecast equation and two smoothing equations are involved in Holt’s method [<xref ref-type="bibr" rid="CR12">12</xref>](one for the level and one for the trend) where the level smoothing parameter is 0 <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\le$$\end{document}</tex-math><mml:math id="M8"><mml:mo>≤</mml:mo></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq4.gif"/></alternatives></inline-formula>
+<inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha$$\end{document}</tex-math><mml:math id="M10"><mml:mi>α</mml:mi></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq5.gif"/></alternatives></inline-formula>
+<inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\le$$\end{document}</tex-math><mml:math id="M12"><mml:mo>≤</mml:mo></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq6.gif"/></alternatives></inline-formula> 1 is, and the trend smoothing parameter is 0<inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\le$$\end{document}</tex-math><mml:math id="M14"><mml:mo>≤</mml:mo></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq7.gif"/></alternatives></inline-formula>
+<inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M16"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq8.gif"/></alternatives></inline-formula>
+<inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\le$$\end{document}</tex-math><mml:math id="M18"><mml:mo>≤</mml:mo></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq9.gif"/></alternatives></inline-formula>1 . For the long-term forecast, the forecasting with Holt’s method will increase or decrease indefinitely and can extend into the future. In that case, we use the Damped trend method having a damping parameter 0<inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\le$$\end{document}</tex-math><mml:math id="M20"><mml:mo>≤</mml:mo></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq10.gif"/></alternatives></inline-formula>
+<inline-formula id="IEq11"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\phi$$\end{document}</tex-math><mml:math id="M22"><mml:mi>ϕ</mml:mi></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq11.gif"/></alternatives></inline-formula>
+<inline-formula id="IEq12"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\le$$\end{document}</tex-math><mml:math id="M24"><mml:mo>≤</mml:mo></mml:math><inline-graphic xlink:href="12065_2021_600_Article_IEq12.gif"/></alternatives></inline-formula>1 to prevent the forecast from giving extremely large value.</p>
+                <p id="Par10">Three different approaches were used here:<list list-type="bullet"><list-item><p id="Par11">Holt’s linear trend</p></list-item><list-item><p id="Par12">Exponential trend</p></list-item><list-item><p id="Par13">Additive damped trend</p></list-item></list></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Error trend seasonality (ETS) model</title>
+                <p id="Par14">ETS stands for error trend seasonality [<xref ref-type="bibr" rid="CR13">13</xref>], based on the nature of data, we can choose the model to forecast values. Other parameters such as trend, damped, seasonal, seasonal periods, box-cox transform, remove bias are adjusted and RMS values are calculated for all to get the top three best working models for our data.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>AR, MA, and ARIMA Model</title>
+                <p id="Par15">Auto-Regressive (AR) is used to describe certain time-varying processes and is a representation of a type of random process in statistics, econometrics, and signal processing [<xref ref-type="bibr" rid="CR14">14</xref>]. The moving average (MA) model is used in time-series analysis and is a common approach for modeling univariate time series [<xref ref-type="bibr" rid="CR14">14</xref>]. A class of models that explains a given time series based on its own past values is ’Auto-Regressive Integrated Moving Average’ (ARIMA) [<xref ref-type="bibr" rid="CR15">15</xref>]. It uses its own lags and the lagged forecast errors, so that equation can be used to forecast future values.<fig id="Fig6"><label>Fig. 6</label><caption><p><bold>a</bold> Trace 0 indicates the regular cycle of the coronavirus if the lockdown gets implemented throughout the pandemic. Trace 1 indicates a second cycle after the rest phase which may occur in case the entire population does not infected. Trace 2 occurs when the government policies change. Trace 3 shows the actual effect of the changes made in the government policies which can be seen after 14 days of the policy changes.The red dotted line indicates the beginning of the second cycle after the rest phase was completed.The purple dotted line indicates that even though the first cycle was not completed, a second cycle was overlaid on the first cycle indicating a higher peak than the first peak. <bold>b</bold> The normalized graph of the world indicates a second cycle that has been overlaid to the first cycle during the phase 2 of the first cycle. The number of cases rise exponentially and the peak is higher than first one</p></caption><graphic xlink:href="12065_2021_600_Fig6_HTML" id="MO6"/></fig></p>
+              </sec>
+              <sec id="Sec8">
+                <title>Extend susceptible infected recovered (SIR) model</title>
+                <p id="Par16">SIR model [<xref ref-type="bibr" rid="CR16">16</xref>] is used to simulate disease and hence help us find trends as well as possible future predictions for the spread of disease. In the Extended model we can include more parameters like Exposed, that is, people who have been exposed but not yet showing symptoms. Further, we add cases that have been isolated and deaths, to get closer to the real world. Also, parameters like incubation period for the virus, mortality rate, number of people an infected infects per day, etc. are taken from real-world data as well as manual fitting of data.<fig id="Fig7"><label>Fig. 7</label><caption><p>A simulation curve for the count of COVID-19 for different countries. <bold>a</bold> India and <bold>b</bold> Brazil have still not reached EOP1 and he numbers of cases are rising exponentially. <bold>c</bold> Russia is currently in phase 2 showing a flat curve indicating the number of cases increased at the same rate. <bold>d</bold> In the case of Bangladesh, Phase 2 has just begun. <bold>e</bold> Germany and <bold>f</bold> Italy show similar normalized nature of the curves and are in the rest phase. <bold>g</bold> USA shows an overlaid cycle after the phase 3 because of the relaxation of the lockdown, whereas <bold>h</bold> Australia shows a second cycle after the rest phase</p></caption><graphic xlink:href="12065_2021_600_Fig7_HTML" id="MO7"/></fig><fig id="Fig8"><label>Fig. 8</label><caption><p>From the deep learning curve fitted on the normalized graphs of different countries, the curve for India has been fitted in all possible ways to the general trend observed. 4 different possibilties were found. The gray slab in all the figures indicates the current status of India from 15 March to 12 July,2020. <bold>a</bold> indicates the worst case scenario with count going up to 238,743. <bold>b</bold> and <bold>c</bold> indicate moderate scenarios with count reaching up to 102,138 and 41,000 respectively. <bold>d</bold> shows the best case scenario with the maximum cases reaching up to 31,900</p></caption><graphic xlink:href="12065_2021_600_Fig8_HTML" id="MO8"/></fig></p>
+              </sec>
+              <sec id="Sec9">
+                <title>Extended—SIR MODEL 2 (Curve Fitting)</title>
+                <p id="Par17">Similar to previous, but we use limit module for python for best-fit curve fitting and also add more parameters like age group, critical conditions, number of beds leading to triage, etc.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Forecasting with neural networks</title>
+                <p id="Par18">An artificial recurrent neural network used in deep learning is Long short-term memory (LSTM) having feedback connections. It processes single data points and also entire sequences of data. It overcomes the vanishing gradient problem and is a recurrent neural network trained in back-propagation through time [<xref ref-type="bibr" rid="CR17">17</xref>].</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Data analysis-based prediction model</title>
+                <p id="Par19">As it is not possible to predict the count of the cases using the time-series prediction algorithm, we used a data analysis-based prediction model. As seen in Fig. <xref rid="Fig5" ref-type="fig">5</xref>, the normalized graphs of the countries namely, UK, Italy, Germany, Ireland, New Zealand, Canada, and France where the spread of coronavirus has stopped have been plotted. After analyzing the data for those countries, we fitted a curve shown by the blue colored dotted line with the help of the deep learning model on the normalized graphs indicating the 3 phase nature of the curve for people testing positive for COVID-19. An exponential rising phase followed by a flat curve and finally a decay in the curve constituting a cycle for the normalized curve of the COVID-19 infected new patient’s daily count versus normalized timeline can be seen. This proves the 3-phase nature of the curve followed by a rest phase shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>.</p>
+                <p id="Par20">As seen in Fig. <xref rid="Fig1" ref-type="fig">1</xref>, we can observe a cycle in the normalized curve. This cycle consists of 3 phases. Phase 1 is the exponential rise where the cases keep on increasing up to a point End of Phase 1 (EOP1). After EOP1, the number of cases increases at a constant level, and a flat curve can be seen indicating the phase 2. After End of phase 2 (EOP2), the cases start to decline gradually following a skewed curve and the phase 3 begins up to a point End of phase 3 (EOP3). These 3 phases together constitute a cycle for the coronavirus cases. After EOP3 a rest phase begins. A second cycle may begin after the rest phase in some cases or a second cycle may overlay on the first cycle itself, depending on the relaxation of lockdown and the government policies.</p>
+                <p id="Par21">From the general trend obtained from the data analysis, we tried to fit the curve of India from 15 March to 12 July 2020 in all the possible ways to the general trend. The coronavirus is spreading very quickly in India and the number of cases is increasing drastically. We could get only 4 different possibilities for fitting the curve obtained by the deep learning model as shown in Fig. <xref rid="Fig8" ref-type="fig">8</xref> and the values of EOP1, EOP2, EOP3, the maximum count during the phase 2 were calculated for all the 4 possibilities.</p>
+              </sec>
+            </sec>
+            <sec id="Sec12">
+              <title>Results</title>
+              <p id="Par22">All the predictions in the mentioned curve are with the assumption, that there will not be any vaccine or medicine developed during the normalized timeline period. In the case of a vaccine gets developed and distributed the nature of the curve will be affected. As seen in Fig. <xref rid="Fig2" ref-type="fig">2</xref>a AR, MA, and ARIMA models do not give a good fit on the data. Whereas in Fig. <xref rid="Fig2" ref-type="fig">2</xref>b SIR model shows a close fit according to the actual data. Fig. <xref rid="Fig2" ref-type="fig">2</xref>c uses the RNN model for the fitting which also does not give a good fit as required. Figure <xref rid="Fig2" ref-type="fig">2</xref>d uses the Holts algorithm for the fitting of the data. Holts 1 and Holts 2 give a better fit on the data as compared to the Holts 3 algorithm. But it is practically not feasible to determine the count for an infinite number of days using the above-mentioned models. A front end was developed for the prediction software as shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>a. The input given was a .csv file which consists of two rows. One row consists of the date and the second consists of the corresponding count on that date. The Run button generates the predicted next day count and the RMSE values for each algorithm (E-SIR, RNN, Holts, AR, MA, ARIMA). The 6 algorithms that we used for the prediction were merged into a single application which would generate the prediction graph as shown in Fig. <xref rid="Fig3" ref-type="fig">3</xref>b for the next 10 days by just clicking on the “Generate Graph” button.</p>
+              <p id="Par23">Table <xref rid="Tab1" ref-type="table">1</xref> indicates the Actual count, predicted count of COVID-19 patients, the RMSE values, and the accuracy for different time series models. The actual count patient was given as 28,637 to model. Among all the models the nearest count predicted by the SIR model which was 28,486. The Root Mean Square Error (RMSE) fount to be for this model was 50. The most inefficient model found among all models was MA. MA estimated a count of 31,197. The RMSE value found in this model was 888 and the accuracy was 88.94 %. Holts models 1, 2, and 3 respectively detected estimated count as 28,018, 28,455, 27,377 with RMSE values of 342.2, 451.8, and 1097.9. The models named ETS 1 and ETS 2 estimated count of patients 27,648 and 26,982 with an RMSE value of 1062 and 1073 respectively. According to the table, we found that the SIR model was nearly able to predict the count of COVID-19 patients correctly with an accuracy of 99.82 %. Table <xref rid="Tab2" ref-type="table">2</xref> gives the values of the EOP1, EOP2, EOP3, and the maximum cases predicted for India. Figure <xref rid="Fig8" ref-type="fig">8</xref>a shows the worst-case scenario with maximum cases reaching 238,743. The pandemic is likely to end on 04-04-2022. Figure <xref rid="Fig8" ref-type="fig">8</xref>b and c indicate a moderate case scenario with maximum cases reaching up to 102138 and 41000 respectively. Figure <xref rid="Fig8" ref-type="fig">8</xref>d indicates the best case scenario with cases reaching up to a maximum of 31,900 and the pandemic would end in 24-03-2021.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Comparison of different COVID-19 count prediction methods</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><bold>Method</bold></th><th align="left"><bold>Actual value</bold></th><th align="left"><bold>Predicted value</bold></th><th align="left"><bold>RMSE</bold></th><th align="left"><bold>Accuracy</bold></th></tr></thead><tbody><tr><td align="left">HOLT1</td><td align="left">28637</td><td align="left">28018</td><td align="left">342.2</td><td align="left">98.80504243</td></tr><tr><td align="left">HOLT2</td><td align="left">28637</td><td align="left">28455</td><td align="left">451.8</td><td align="left">98.42232077</td></tr><tr><td align="left">HOLT3</td><td align="left">28637</td><td align="left">27377</td><td align="left">1097.9</td><td align="left">96.16614869</td></tr><tr><td align="left">ETS1</td><td align="left">28637</td><td align="left">27648</td><td align="left">1062.3</td><td align="left">96.29046339</td></tr><tr><td align="left">ETS2</td><td align="left">28637</td><td align="left">26982</td><td align="left">1073.1</td><td align="left">96.25274994</td></tr><tr><td align="left">AR</td><td align="left">28637</td><td align="left">30112</td><td align="left">917.7</td><td align="left">92.05399841</td></tr><tr><td align="left">MA</td><td align="left">28637</td><td align="left">31197</td><td align="left">888</td><td align="left">88.94765522</td></tr><tr><td align="left">ARIMA</td><td align="left">28637</td><td align="left">30112</td><td align="left">917.1</td><td align="left">92.05599097</td></tr><tr><td align="left">RNN</td><td align="left">28637</td><td align="left">28532</td><td align="left">224.7</td><td align="left">99.21535077</td></tr><tr><td align="left">SIR</td><td align="left">28637</td><td align="left">28486</td><td align="left">50.5</td><td align="left">99.82365471</td></tr><tr><td align="left">Data analysis-based</td><td align="left">28637</td><td align="left">28693</td><td align="left">56</td><td align="left">99.60966089</td></tr></tbody></table></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>Different possible outcomes for newly reported daily cases in India</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left"><bold>EOP1</bold></th><th align="left"><bold>EOP2</bold></th><th align="left"><bold>EOP3</bold></th><th align="left"><bold>Maximum cases in a day</bold></th></tr></thead><tbody><tr><td align="left">Figure <xref rid="Fig8" ref-type="fig">8</xref>a</td><td align="left">16-10-2020</td><td align="left">02-04-2021</td><td align="left">04-04-2022</td><td align="left">238743</td></tr><tr><td align="left">Figure <xref rid="Fig8" ref-type="fig">8</xref>b</td><td align="left">31-08-2020</td><td align="left">05-11-2020</td><td align="left">25-06-2021</td><td align="left">102138</td></tr><tr><td align="left">Figure <xref rid="Fig8" ref-type="fig">8</xref>c</td><td align="left">24-07-2020</td><td align="left">20-09-2020</td><td align="left">24-04-2021</td><td align="left">41000</td></tr><tr><td align="left">Figure <xref rid="Fig8" ref-type="fig">8</xref>d</td><td align="left">13-07-2020</td><td align="left">15-09-2020</td><td align="left">24-03-2021</td><td align="left">31900</td></tr></tbody></table></table-wrap></p>
+              <sec id="Sec13">
+                <title>Comparison with existing literature</title>
+                <p id="Par24">A comparison of our proposed models with the one’s reported in the literature has been shown in Table <xref rid="Tab3" ref-type="table">3</xref>. Wong [<xref ref-type="bibr" rid="CR18">18</xref>] did a comparison of different pandemic search models in the time domain and found out that the highest reported accuracy can go up to 99 %, Roda [<xref ref-type="bibr" rid="CR26">26</xref>] on the other end generated genetic programming for predictions on India and achieved 95 % accuracy with fractals. Roosa [<xref ref-type="bibr" rid="CR20">20</xref>] used the forecasting model in China and could reach only 98 % accuracy. Compared to the above-mentioned works, our accuracy with SIR and data analysis based prediction is much higher i.e, 99.82 % and 99.6 %. The highest accuracy to date was achieved by Salgotra [<xref ref-type="bibr" rid="CR19">19</xref>] reported 99.99 % but only for a region of Delhi and their accuracy in other regions has gone down below 98.8 %. We predicted the curve to be a combination of an exponential curve (phase 1) then a flat curve (phase 2), and finally linear decay (phase 3), unlike the bell-shaped curve as predicted by most researchers [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR21">21</xref>–<xref ref-type="bibr" rid="CR23">23</xref>] and simulations [<xref ref-type="bibr" rid="CR24">24</xref>, <xref ref-type="bibr" rid="CR25">25</xref>].<table-wrap id="Tab3"><label>Table 3</label><caption><p>Comparison with different methods reported in literature</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><bold>Method</bold></th><th align="left"><bold>Prediction accuracy (%)</bold></th></tr></thead><tbody><tr><td align="left">Wong et al. [<xref ref-type="bibr" rid="CR18">18</xref>]</td><td align="left">99</td></tr><tr><td align="left">Roda et al. [<xref ref-type="bibr" rid="CR19">19</xref>]</td><td align="left">95</td></tr><tr><td align="left">Roosa et al. [<xref ref-type="bibr" rid="CR20">20</xref>]</td><td align="left">98</td></tr><tr><td align="left">Salgotra et al. [<xref ref-type="bibr" rid="CR19">19</xref>]</td><td align="left">99.99</td></tr><tr><td align="left">Proposed Method (SIR)</td><td align="left">99.82</td></tr><tr><td align="left">Proposed Method (Data analysis-based)</td><td align="left">99.60</td></tr></tbody></table></table-wrap></p>
+              </sec>
+              <sec id="Sec14">
+                <title>Discussions</title>
+                <p id="Par25">As shown in Fig. <xref rid="Fig6" ref-type="fig">6</xref>a Trace 0 indicates the regular cycle of the coronavirus if the lockdown gets implemented throughout the pandemic. Trace 1 indicates a second cycle after the rest phase which may occur in case the entire population does not infect. Trace 2 occurs when government policies change. Trace 3 shows the actual effect of the changes made in the government policies which can be seen after 14 days of the policy changes. The red dotted line indicates the beginning of the second cycle after the rest phase was completed. The purple dotted line indicates that even though the first cycle was not completed, a second cycle was overlaid on the first cycle indicating a higher peak than the first peak. Figure <xref rid="Fig6" ref-type="fig">6</xref>b indicates the normalized curve of the world. In the case of the world, a second cycle was overlaid on the first one during phase 2 and a rising curve peak can be seen. As seen in Fig. <xref rid="Fig7" ref-type="fig">7</xref>a India and Fig. <xref rid="Fig7" ref-type="fig">7</xref>b Brazil are still in the exponential rising phase and have not yet reached EOP1. From Fig. <xref rid="Fig7" ref-type="fig">7</xref>c, Russia is in Phase 2 of the cycle where the cases are increasing at a constant level. As seen in Fig. <xref rid="Fig7" ref-type="fig">7</xref>d Bangladesh has also reached EOP1 and is in phase 2 of the cycle. Germany and Italy as shown in Fig. <xref rid="Fig7" ref-type="fig">7</xref>e and f respectively, are in the rest phase. Both the countries show similar normalized nature of the curve, the reason being they both lie in the southern hemispheres. Their nature of curves is similar and not the number of cases. In the case of the USA as seen in Fig. <xref rid="Fig7" ref-type="fig">7</xref>g, a second cycle has been overlaid onto the first cycle during phase 2, which resulted in a rise in the curve. In the case of Australia, as seen in Fig. <xref rid="Fig7" ref-type="fig">7</xref>h, a second cycle has started after the completion of the first cycle when Australia was in the rest phase.</p>
+              </sec>
+            </sec>
+            <sec id="Sec15">
+              <title>Conclusions</title>
+              <p id="Par26">We have found that the coronavirus trend is a cycle having 3 phases. The majority of the countries worldwide follow the 3-phase curve and there are many countries like India which are still in the rising phase. The effect of lockdown and government policies may affect the nature of the graph which may then consist of an overlaid cycle or a second cycle altogether. Data analysis-based prediction model helped in analyzing the general trend of the simulation curve and predict valuable information for India. With this manuscript, we would like to alert the population about the trend that we have analyzed with multiple models. And also, would like to give away the codes we developed for future researchers to develop further.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Electronic supplementary material</title>
+              <sec id="Sec16">
+                <p>Below is the link to the electronic supplementary material.<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="12065_2021_600_MOESM1_ESM.docx"><caption><p>Supplementary file 1 (DOCX 34.3 kb)</p></caption></media></supplementary-material></p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes notes-type="funding-information">
+              <title>Funding statement</title>
+              <p>None.</p>
+            </notes>
+            <notes>
+              <title>Declarations</title>
+              <notes id="FPar1" notes-type="COI-statement">
+                <title>Conflicts of interest</title>
+                <p id="Par29">Authors N. Mehendale, V. Shah, J. Shah, M. Parab and A. Shelke declares that they have no conflict of interest.</p>
+              </notes>
+              <notes id="FPar2">
+                <title>Involvement of human participant and animals</title>
+                <p id="Par30">This article does not contain any studies with humans and animals performed by any of the authors. All the necessary permissions were obtained from Institute Ethical committee and concerned authorities.</p>
+              </notes>
+              <notes id="FPar3">
+                <title>Information about informed consent</title>
+                <p id="Par31">Informed consent was not required as there were no human participants.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kane</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Scotch</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabinowitz</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of arima and random forest time series models for prediction of avian influenza h5n1 outbreaks</article-title>
+                  <source>BMC Bioinform</source>
+                  <year>2014</year>
+                  <volume>15</volume>
+                  <issue>1</issue>
+                  <fpage>276</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2105-15-276</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ji</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction for progression risk in patients withCOVID-19 pneumonia: the CALL score</article-title>
+                  <source>Clin Infect Dis</source>
+                  <year>2020</year>
+                  <volume>71</volume>
+                  <issue>6</issue>
+                  <fpage>1393</fpage>
+                  <lpage>1399</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cid/ciaa414</pub-id>
+                  <pub-id pub-id-type="pmid">32271369</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Qasim M, Ahmad W, Yoshida M, Gould M, Yasir M (2020) Analysis of the worldwide corona virus (covid-19) pandemic trend: a modelling study to predict its spread, medRxiv</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <mixed-citation publication-type="other">Arti M, Bhatnagar K Modeling and predictions for covid 19 spread in India, ResearchGate. 10.13140/RG.2.2.11427.81444</mixed-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Dhanwant, JN, Ramanathan V (2020) Forecasting covid 19 growth in India using susceptible-infected-recovered (sir) model, arXiv preprint <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2004.00696">arXiv:2004.00696</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">Tandon H, Ranjan P, Chakraborty T, Suhag V (2020) Coronavirus (covid-19): arima based time-series analysis to forecast near future. arXiv preprint <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2004.07859">arXiv:2004.07859</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Chen YC, Lu PE, Chang CS, Liu TH (2020) A time-dependent sir model for covid-19 with undetectable infected persons. arXiv preprint <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/2003.00122">arXiv:2003.00122</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Zhang J, Man K (1998) In: SMC’98 conference proceedings. 1998 IEEE international conference on systems, man, and cybernetics (Cat. No. 98CH36218), vol. 2, pp. 1868–1873</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chatfield</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Holt-winters forecasting: some practical issues</article-title>
+                  <source>J Royal Stat Soc: Series D (The Statistician)</source>
+                  <year>1988</year>
+                  <volume>37</volume>
+                  <issue>2</issue>
+                  <fpage>129</fpage>
+                  <lpage>140</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Roser Max, Ritchie Hannah, Ortiz-Ospina Esteban, Hasell Joe (2020) Coronavirus pandemic (COVID-19), our world in data. <ext-link ext-link-type="uri" xlink:href="https://ourworldindata.org/coronavirus">https://ourworldindata.org/coronavirus</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <mixed-citation publication-type="other">Kalekar PS (2004) Time series forecasting using holt-winters exponential smoothing. Kanwal Rekhi School Inform Technol 4329008(13)</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Exponential smoothing with a damped multiplicative trend</article-title>
+                  <source>Int J Forecast</source>
+                  <year>2003</year>
+                  <volume>19</volume>
+                  <issue>4</issue>
+                  <fpage>715</fpage>
+                  <pub-id pub-id-type="doi">10.1016/S0169-2070(03)00003-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Jain G, Mallick B (2017) A study of time series models arima and ets. Available at SSRN 2898968</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Valipour</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Banihabib</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Behbahani</surname>
+                      <given-names>SMR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of the arma, arima, and the autoregressive artificial neural network models in forecasting the monthly inflow of dez dam reservoir</article-title>
+                  <source>J Hydrol</source>
+                  <year>2013</year>
+                  <volume>476</volume>
+                  <fpage>433</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jhydrol.2012.11.017</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harvey</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A unified view of statistical forecasting procedures</article-title>
+                  <source>J Forecast</source>
+                  <year>1984</year>
+                  <volume>3</volume>
+                  <issue>3</issue>
+                  <fpage>245</fpage>
+                  <pub-id pub-id-type="doi">10.1002/for.3980030302</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Empirical analysis and forecasting for SARS epidemic situation</article-title>
+                  <source>Beijing da xue xue bao Yi xue ban= J Peking Univ Health Sci</source>
+                  <year>2003</year>
+                  <volume>35</volume>
+                  <fpage>72</fpage>
+                  <lpage>74</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vermaak</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Botha</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recurrent neural networks for short-term load forecasting</article-title>
+                  <source>IEEE Trans Power Sys</source>
+                  <year>1998</year>
+                  <volume>13</volume>
+                  <issue>1</issue>
+                  <fpage>126</fpage>
+                  <pub-id pub-id-type="doi">10.1109/59.651623</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wong </surname>
+                      <given-names>JB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pandemic surge models in the time of severe acute respiratory syndrome coronavirus-2: Wrong or useful?</article-title>
+                  <source>Ann Int Med</source>
+                  <year>2020</year>
+                  <volume>173</volume>
+                  <issue>5</issue>
+                  <fpage>396</fpage>
+                  <lpage>398</lpage>
+                  <pub-id pub-id-type="doi">10.7326/M20-1956</pub-id>
+                  <pub-id pub-id-type="pmid">32298421</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salgotra</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Gandomi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gandomi</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                  </person-group>
+                  <source>Time series analysis and forecast of the covid-19 pandemic in india using genetic programming</source>
+                  <year>2020</year>
+                  <publisher-loc>Solitons &amp; Fractals p</publisher-loc>
+                  <publisher-name>Chaos</publisher-name>
+                  <fpage>109945</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roosa</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Kirpich</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Rothenberg</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Chowell</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-time forecasts of the covid-19 epidemic in china from February 5th to February 24th, 2020</article-title>
+                  <source>Infect Dis Modell</source>
+                  <year>2020</year>
+                  <volume>5</volume>
+                  <fpage>256</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.idm.2020.02.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Kolozsvari LR, Berczes T, Hajdu A, Gesztelyi R, TIba A, Varga I, Szollosi GJ, Harsanyi S, Garboczy S, Zsuga J (2020) Predicting the epidemic curve of the coronavirus (sars-cov-2) disease (covid-19) using artificial intelligence, medRxiv</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Fuller J (2020) Models V. Evidence, Boston Review. Serial on the Internet</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Utsunomiya</surname>
+                      <given-names>YT</given-names>
+                    </name>
+                    <name>
+                      <surname>Utsunomiya</surname>
+                      <given-names>ATH</given-names>
+                    </name>
+                    <name>
+                      <surname>Torrecilha</surname>
+                      <given-names>RBP</given-names>
+                    </name>
+                    <name>
+                      <surname>Paulan</surname>
+                      <given-names>SDC</given-names>
+                    </name>
+                    <name>
+                      <surname>Milanesi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growth rate and acceleration analysis of the covid-19 pandemic reveals the effect of public health measures in real time</article-title>
+                  <source>Front Med</source>
+                  <year>2020</year>
+                  <volume>7</volume>
+                  <fpage>247</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fmed.2020.00247</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Tian L, Li X, Qi F, Tang QY, Tang V, Liu J, Cheng X, Li X, Shi Y, Liu H, et al., (2020) Quantifying the infected population for calibrated intervention and containment of the covid-19 pandemic. <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/2003.07353v3.pdf%20">https://arxiv.org/pdf/2003.07353v3.pdf</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schüttler</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlickeiser</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlickeiser</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Kröger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Covid-19 predictions using a gauss model, based on data from April 2</article-title>
+                  <source>Physics</source>
+                  <year>2020</year>
+                  <volume>2</volume>
+                  <issue>2</issue>
+                  <fpage>197</fpage>
+                  <pub-id pub-id-type="doi">10.3390/physics2020013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Roda WC, Varughese MB, Han D, Li MY (2020) Why is it difficult to accurately predict the covid-19 epidemic? Infect Dis Modell</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:56:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8045774" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8045774</identifier>
+        <datestamp>2021-04-22</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8045774</article-id>
+              <article-id pub-id-type="pmcid">PMC8045774</article-id>
+              <article-id pub-id-type="pmc-uid">8045774</article-id>
+              <article-id pub-id-type="pmid">33784239</article-id>
+              <article-id pub-id-type="publisher-id">v23i4e27045</article-id>
+              <article-id pub-id-type="pmid">33784239</article-id>
+              <article-id pub-id-type="doi">10.2196/27045</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Spatial-Temporal Relationship Between Population Mobility and COVID-19 Outbreaks in South Carolina: Time Series Forecasting Analysis</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Basch</surname>
+                    <given-names>Corey</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Gore</surname>
+                    <given-names>Ross</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Jordan</surname>
+                    <given-names>Lisa</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Zeng</surname>
+                    <given-names>Chengbo</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-3512-1115</contrib-id>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <address>
+                    <institution>South Carolina SmartState Center for Healthcare Quality</institution>
+                    <institution>Arnold School of Public Health</institution>
+                    <institution>University of South Carolina</institution>
+                    <addr-line>915 Greene Street</addr-line>
+                    <addr-line>Columbia, SC, 29208</addr-line>
+                    <country>United States</country>
+                    <phone>1 8034775298</phone>
+                    <email>czeng@email.sc.edu</email>
+                  </address>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author">
+                  <name>
+                    <surname>Zhang</surname>
+                    <given-names>Jiajia</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4566-0822</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Zhenlong</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8938-5466</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Sun</surname>
+                    <given-names>Xiaowen</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-1102-350X</contrib-id>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Olatosi</surname>
+                    <given-names>Bankole</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8295-8735</contrib-id>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Weissman</surname>
+                    <given-names>Sharon</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="aff" rid="aff7">7</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-2854-5745</contrib-id>
+                </contrib>
+                <contrib id="contrib7" contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Xiaoming</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-5555-9034</contrib-id>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>South Carolina SmartState Center for Healthcare Quality</institution>
+                <institution>Arnold School of Public Health</institution>
+                <institution>University of South Carolina</institution>
+                <addr-line>Columbia, SC</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <institution>Department of Health Promotion, Education, and Behavior</institution>
+                <institution>Arnold School of Public Health</institution>
+                <institution>University of South Carolina</institution>
+                <addr-line>Columbia, SC</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff3">
+                <label>3</label>
+                <institution>Big Data Health Science Center</institution>
+                <institution>University of South Carolina</institution>
+                <addr-line>Columbia, SC</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff4">
+                <label>4</label>
+                <institution>Department of Epidemiology and Biostatistics</institution>
+                <institution>Arnold School of Public Health</institution>
+                <institution>University of South Carolina</institution>
+                <addr-line>Columbia, SC</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff5">
+                <label>5</label>
+                <institution>Geoinformation and Big Data Research Lab</institution>
+                <institution>Department of Geography, College of Arts and Sciences</institution>
+                <institution>University of South Carolina</institution>
+                <addr-line>Columbia, SC</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff6">
+                <label>6</label>
+                <institution>Department of Health Services, Policy, and Management</institution>
+                <institution>Arnold School of Public Health</institution>
+                <institution>University of South Carolina</institution>
+                <addr-line>Columbia, SC</addr-line>
+                <country>United States</country>
+              </aff>
+              <aff id="aff7">
+                <label>7</label>
+                <institution>School of Medicine</institution>
+                <institution>University of South Carolina</institution>
+                <addr-line>Columbia, SC</addr-line>
+                <country>United States</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Chengbo Zeng <email>czeng@email.sc.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>13</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>23</volume>
+              <issue>4</issue>
+              <elocation-id>e27045</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>8</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>9</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>8</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Chengbo Zeng, Jiajia Zhang, Zhenlong Li, Xiaowen Sun, Bankole Olatosi, Sharon Weissman, Xiaoming Li. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 13.04.2021.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="pmc" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link xlink:href="http://www.jmir.org/" ext-link-type="uri">http://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:type="simple" xlink:href="https://www.jmir.org/2021/4/e27045"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>Population mobility is closely associated with COVID-19 transmission, and it could be used as a proximal indicator to predict future outbreaks, which could inform proactive nonpharmaceutical interventions for disease control. South Carolina is one of the US states that reopened early, following which it experienced a sharp increase in COVID-19 cases.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>The aims of this study are to examine the spatial-temporal relationship between population mobility and COVID-19 outbreaks and use population mobility data to predict daily new cases at both the state and county level in South Carolina.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>This longitudinal study used disease surveillance data and Twitter-based population mobility data from March 6 to November 11, 2020, in South Carolina and its five counties with the largest number of cumulative confirmed COVID-19 cases. Population mobility was assessed based on the number of Twitter users with a travel distance greater than 0.5 miles. A Poisson count time series model was employed for COVID-19 forecasting.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>Population mobility was positively associated with state-level daily COVID-19 incidence as well as incidence in the top five counties (ie, Charleston, Greenville, Horry, Spartanburg, and Richland). At the state level, the final model with a time window within the last 7 days had the smallest prediction error, and the prediction accuracy was as high as 98.7%, 90.9%, and 81.6% for the next 3, 7, and 14 days, respectively. Among Charleston, Greenville, Horry, Spartanburg, and Richland counties, the best predictive models were established based on their observations in the last 9, 14, 28, 20, and 9 days, respectively. The 14-day prediction accuracy ranged from 60.3%-74.5%.</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>Using Twitter-based population mobility data could provide acceptable predictions of COVID-19 daily new cases at both the state and county level in South Carolina. Population mobility measured via social media data could inform proactive measures and resource relocations to curb disease outbreaks and their negative influences.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>COVID-19</kwd>
+                <kwd>mobility</kwd>
+                <kwd>incidence</kwd>
+                <kwd>South Carolina</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <p>Since the first confirmed case of COVID-19 in the United States on January 21, 2020, countrywide COVID-19 outbreaks have surged. As of March 5, 2021, there were 28,580,198 cumulative confirmed cases and 517,224 COVID-19–related deaths in the United States [<xref rid="ref1" ref-type="bibr">1</xref>]. South Carolina, a state located in the southeastern United States, had its first confirmed cases on March 6, 2020. From March to May 2020, the trend of daily new cases was flat, with an average daily increase in cases of less than 500. However, the daily new cases in South Carolina have risen sharply since June 2020. On July 14, 2020, COVID-19 cases in South Carolina surpassed 60,000, with more than 2200 daily new cases, the second highest increase in one day in the United States [<xref rid="ref2" ref-type="bibr">2</xref>]. Between August and October 2020, the transmission rate slowed down with the further implementation of nonpharmaceutical interventions (NPIs), such as dine-in service restrictions and face-covering requirements, but increased steadily after October. By March 5, 2021, there were 448,275 reported cases and 7697 deaths in South Carolina [<xref rid="ref3" ref-type="bibr">3</xref>].</p>
+              <p>Given the rapid transmission of COVID-19 and limited options in terms of medical interventions, forecasting is of critical importance as it could predict the spread of disease, estimate the impacts of NPIs, and inform further decision making regarding public health interventions [<xref rid="ref4" ref-type="bibr">4</xref>]. During the COVID-19 pandemic, decision makers in the United States need to balance the net losses arising from social interruptions, economic damage, and indirect effects on health caused by NPIs with the direct health benefits of disease control [<xref rid="ref5" ref-type="bibr">5</xref>]. Accurate and reasonable forecasting of COVID-19 could minimize the disease burden in health care settings and the loss of health and life in different phases of reopening plans [<xref rid="ref5" ref-type="bibr">5</xref>,<xref rid="ref6" ref-type="bibr">6</xref>].</p>
+              <p>Existing literature has suggested that population mobility may reflect the influences (both positive and negative) of NPIs, reopening actions, and public holidays [<xref rid="ref7" ref-type="bibr">7</xref>-<xref rid="ref9" ref-type="bibr">9</xref>]. For instance, in the early stages of the COVID-19 pandemic, the governor of South Carolina issued a series of NPIs, such as shelter-in-place and the closure of schools and nonessential businesses, to reduce social interaction. These NPIs showed positive effects in suppressing the statewide spread of COVID-19. Later, in May 2020, reopening policies and public holidays diluted the implementation of NPIs, leading to increased social interactions and statewide COVID-19 spread [<xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref11" ref-type="bibr">11</xref>]. At present, it may be difficult to directly measure the real-time impact of reopening policies, public holidays, and NPI implementation fidelity. Therefore, population mobility may be a proximal indicator allowing for real-time COVID-19 transmission forecasting.</p>
+              <p>Social media platforms, such as Twitter, collect geospatial information and closely monitor changes in population mobility [<xref rid="ref12" ref-type="bibr">12</xref>,<xref rid="ref13" ref-type="bibr">13</xref>]. Indeed, the tremendous volume of user-generated geoinformation from social media enables the real-time or near real-time surveillance of population mobility and provides timely data on how population mobility changes in response to different phases of the COVID-19 outbreak, policy reactions, and public holidays [<xref rid="ref14" ref-type="bibr">14</xref>-<xref rid="ref16" ref-type="bibr">16</xref>]. Several studies have leveraged mobility data from social media (eg, Google, Facebook, Twitter) to investigate the relationship between population mobility and COVID-19 transmission [<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref11" ref-type="bibr">11</xref>,<xref rid="ref17" ref-type="bibr">17</xref>-<xref rid="ref19" ref-type="bibr">19</xref>]. These studies identified a consistently positive relationship between population mobility and COVID-19 incidence. However, few studies used population mobility as a predictor to forecast further outbreaks and to evaluate prediction accuracy in addition to performing correlation analysis. A study by Wang and Yamamoto [<xref rid="ref19" ref-type="bibr">19</xref>] predicted COVID-19 daily new cases in Arizona using disease surveillance data, the Google Community Mobility report, and partial differential equations. They found an acceptable prediction accuracy for the next 3 days, but the time window of prediction did not cover the duration of viral incubation (ie, 14 days). Furthermore, this study only split Arizona into three regions (ie, central, northern, and southern) rather than examining prediction accuracy at both the state and county level. In fact, there may be geospatial differences in population mobility due to the plausible differential implementation fidelity of NPIs and reactions to reopening policies by county [<xref rid="ref20" ref-type="bibr">20</xref>,<xref rid="ref21" ref-type="bibr">21</xref>]. Additionally, there may be geospatial differences in the estimation of population mobility on social media as the number of users and their demographic characteristics may differ by county. All these differences may result in variations in prediction accuracy at the county level, and further studies are needed in this regard.</p>
+              <p>Prior research has predicted COVID-19 incidence using disease surveillance data and several different time series methods. Most of the studies successfully incorporated the association of the current incidence with the previous incidence using time series methods such as autoregressive, moving average, autoregressive integrated moving average (ARIMA), and Holt-Winters [<xref rid="ref22" ref-type="bibr">22</xref>]. Some studies used generalized linear regression with continuous outcomes (eg, rate and count), without including time series [<xref rid="ref23" ref-type="bibr">23</xref>]. However, there were few studies that simultaneously considered time-varying population mobility. Recently, Liboschik and colleagues [<xref rid="ref24" ref-type="bibr">24</xref>] suggested that count time series following generalized linear models could overcome the limitations of classic time series methods. Based on the generalized linear model methodology, a suitable distribution for count data and appropriate link function could be specified, and the effect of the time-varying covariate could be tested and integrated into forecasting. In this study, we adopted the Poisson count time series model and time-varying population mobility data extracted from Twitter, which may increase the accuracy of COVID-19 prediction.</p>
+              <p>To address these knowledge gaps, by leveraging disease surveillance data and Twitter-based population mobility, this study aimed to construct Poisson count time series models of COVID-19 daily new cases, investigate the relationship between them, and evaluate the prediction accuracy of daily new cases for the next two-week window at both the state and county level in South Carolina.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>COVID-19 Incidence Data</title>
+                <p>Cumulative confirmed cases of COVID-19 through November 11, 2020, at both the state and county level in South Carolina were collected from The New York Times data set, which was deposited in GitHub [<xref rid="ref25" ref-type="bibr">25</xref>]. The data set was compiled using data from state and local governments and health departments, ensuring its accuracy. Within the study period (March 6, 2020 [date of first COVID diagnosis in South Carolina] to November 11, 2020 [251st day]), daily new cases were calculated by subtracting the cumulative confirmed cases of the previous day from the total cases for the entire state and its five counties with the largest numbers of cumulative confirmed cases (ie, Charleston, Greenville, Horry, Spartanburg, and Richland). The study protocol was approved by the Institutional Review Board at the University of South Carolina.</p>
+              </sec>
+              <sec>
+                <title>Population Mobility</title>
+                <p>Population mobility was determined using the number of people (Twitter users) with a moving distance greater than 0.5 miles per day in South Carolina and the selected counties. The methodology of extracting daily population movement (origin-destination flows) from geotagged tweets is discussed elsewhere [<xref rid="ref26" ref-type="bibr">26</xref>,<xref rid="ref27" ref-type="bibr">27</xref>]. Briefly, geotagged tweets during the study periods were collected and used for calculation. Only users who posted at least twice per day or posted tweets on at least two consecutive days were included in the calculation. Daily travel distance was calculated for each user based on the derived origin-destination flows and used to generate a variable of how many people moved each day (with a travel distance greater than 0.5 miles). This method of capturing population mobility using Twitter has been previously validated [<xref rid="ref16" ref-type="bibr">16</xref>,<xref rid="ref26" ref-type="bibr">26</xref>].</p>
+              </sec>
+              <sec>
+                <title>Statistical Analysis</title>
+                <p>First, daily new cases of COVID-19 and population mobility at both the state and county level were described using line charts in R (version 3.6.3; R Foundation for Statistical Computing; “ggplot” package). Daily new cases and mobility were also described using five quantiles (ie, minimum, 25th percentile, 50th percentile, 75th percentile, and maximum) for each month.</p>
+                <p>Second, a Poisson count time series model was used to model the impact of population mobility on the daily new cases of COVID-19 at the state level. Time series models were built at various time windows. For the first-round selection, a total of 17 time windows (by 7-day increments) were considered, including 1-7 days, 1-14 days,…, and 1-119 days. The daily new cases from the first to the 234th day were used as the training data set, and those from the next 3 days (days 235-237) were used as a testing data set for the purpose of model evaluation. With the smallest prediction error (equation 1) and good interpretation, the predictive model with the best time window was selected. After the best time window in the first round selection was determined, second- and third-round selections were conducted to narrow down the time window and obtain the final model with the smallest prediction error. The final model was used to predict the COVID-19 daily new cases for the next 3, 7, and 14 days (days 238-251). The cumulative difference (equation 2) between observed and predicted cases and mean absolute percentage accuracy (equation 3) for each time frame were reported [<xref rid="ref19" ref-type="bibr">19</xref>]. The equations used are as follows:</p>
+                <disp-formula>
+                  <graphic xlink:href="jmir_v23i4e27045_fig3.jpg" mimetype="image" position="float"/>
+                </disp-formula>
+                <p>In equations 1-3, <italic>d</italic> represents the day; <italic>n</italic> is the next 3, 7, or 14 days; <italic>o</italic> is the observed value, <italic>p</italic> is the predicted value, and <italic>x</italic> represents the daily new cases.</p>
+                <p>Finally, a similar analytic procedure was performed to construct the final model at the county level for each of the top five counties (ie, Charleston, Greenville, Horry, Spartanburg, and Richland) in South Carolina. A Poisson count time series model was conducted using an R package (“tscount”). Table S1 in <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> provides a detailed description of the data acquisition process, scripts for analysis and figures, and a link to data resources.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Descriptive Statistics</title>
+                <p><xref rid="figure1" ref-type="fig">Figure 1</xref> shows the changes in COVID-19 daily new cases at both the state and county level. By October 31, 2020, there were 176,612 cumulative confirmed COVID-19 cases in South Carolina. The cumulative confirmed cases in Charleston, Greenville, Horry, Spartanburg, and Richland were 17,384, 18,021, 12,591, 9290, and 17,531, respectively. At the state level, the daily new cases from March to the end of May were less than 500. From June to the middle of July, the number of daily new cases rose, with 2217 new patients with confirmed COVID-19 on July 14. After that, the transmission rate decreased, with most daily new case counts staying under 1500. However, since October 2020, the daily new cases have steadily increased.</p>
+                <fig id="figure1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Daily COVID-19 new cases at both state and county level in South Carolina. SC: South Carolina.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i4e27045_fig1"/>
+                </fig>
+                <p>At the county level, the top five counties showed a similar trend of COVID-19 outbreaks and accounted for more than 40% of the total cases in South Carolina. The daily new cases increased earlier in Greenville than in the other four counties (ie, Charleston, Horry, Spartanburg, and Richland).</p>
+                <p>Trends for population mobility at both the state and county level were similar. The number of people in South Carolina (Twitter users in our data) with a moving distance of more than 0.5 miles decreased from 1400 to 550 between March 6 and April 9, 2020. Although there were slight increases from the middle of April to that of June, the numbers were consistently around 1000 after this timeframe. At the county level, each of the five counties had less than 200 people with a moving distance greater than 0.5 miles after the middle of March. <xref rid="figure2" ref-type="fig">Figure 2</xref> shows the changes in population mobility at both the state and county level. Table S2 in <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> presents the descriptive statistics of population mobility and COVID-19 new cases at both the state and county level.</p>
+                <fig id="figure2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Daily population mobility at both state and county level in South Carolina.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i4e27045_fig2"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Model Selection of Time Series Analyses</title>
+                <p>Following the model selection procedure, a Poisson count time series model of COVID-19 incidence at the state level was constructed using daily new cases and population mobility. Population mobility was positively associated with state-level COVID-19 daily new cases (<italic>β</italic>=.818, 95% CI .761-.876), and the model using the past 7 days (1-7 days) as the time window had the smallest prediction error (<xref rid="table1" ref-type="table">Table 1</xref>). The prediction error of new cases in the next 3 days (days 235-237) was 0.294.</p>
+                <p>At the county level, a similar modelling procedure was employed. Population mobility was consistently and positively associated with new cases of COVID-19 across the top five counties. The best time windows for Charleston, Greenville, Horry, Spartanburg, and Richland were 9, 14, 28, 20, and 9 days, respectively. <xref rid="table1" ref-type="table">Table 1</xref> displays the detailed results of the final model, the correlation analysis, and the 3-day prediction error at both the state and county level.</p>
+                <table-wrap id="table1" position="float">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>The impacts of population mobility on COVID-19 outbreaks in South Carolina.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="20" span="1"/>
+                    <col width="220" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="130" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="120" span="1"/>
+                    <col width="0" span="1"/>
+                    <col width="120" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td colspan="3" rowspan="1">Parameters</td>
+                        <td colspan="2" rowspan="1">State level</td>
+                        <td colspan="9" rowspan="1">County level</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="3" rowspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">
+                          <break/>
+                        </td>
+                        <td colspan="2" rowspan="1">Charleston</td>
+                        <td colspan="2" rowspan="1">Greenville</td>
+                        <td colspan="2" rowspan="1">Horry</td>
+                        <td colspan="2" rowspan="1">Spartanburg</td>
+                        <td rowspan="1" colspan="1">Richland</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td colspan="14" rowspan="1">
+                          <bold>Model training</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Time windows (days)</td>
+                        <td colspan="2" rowspan="1">1-7</td>
+                        <td colspan="2" rowspan="1">1-9</td>
+                        <td colspan="2" rowspan="1">1-14</td>
+                        <td colspan="2" rowspan="1">1-28</td>
+                        <td colspan="2" rowspan="1">1-20</td>
+                        <td colspan="2" rowspan="1">1-9</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Coefficient of population mobility (95% CI)</td>
+                        <td colspan="2" rowspan="1">0.818 (0.761-0.876)</td>
+                        <td colspan="2" rowspan="1">0.486 (0.338-0.634)</td>
+                        <td colspan="2" rowspan="1">0.278 (0.165-0.390)</td>
+                        <td colspan="2" rowspan="1">0.395 (0.275-0.515)</td>
+                        <td colspan="2" rowspan="1">0.270 (0.118-0.422)</td>
+                        <td colspan="2" rowspan="1">0.157 (0.067-0.246)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Model evaluation (3-day prediction error)</td>
+                        <td colspan="2" rowspan="1">0.294</td>
+                        <td colspan="2" rowspan="1">2.032</td>
+                        <td colspan="2" rowspan="1">0.214</td>
+                        <td colspan="2" rowspan="1">3.146</td>
+                        <td colspan="2" rowspan="1">0.427</td>
+                        <td colspan="2" rowspan="1">0.396</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="14" rowspan="1">
+                          <bold>3-day forecasting</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Cumulative difference</td>
+                        <td colspan="2" rowspan="1">42</td>
+                        <td colspan="2" rowspan="1">30</td>
+                        <td colspan="2" rowspan="1">28</td>
+                        <td colspan="2" rowspan="1">40</td>
+                        <td colspan="2" rowspan="1">66</td>
+                        <td colspan="2" rowspan="1">81</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Accuracy (%)</td>
+                        <td colspan="2" rowspan="1">98.7</td>
+                        <td colspan="2" rowspan="1">85.1</td>
+                        <td colspan="2" rowspan="1">93.3</td>
+                        <td colspan="2" rowspan="1">69.0</td>
+                        <td colspan="2" rowspan="1">76</td>
+                        <td colspan="2" rowspan="1">72.2</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="14" rowspan="1">
+                          <bold>7-day forecasting</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Cumulative difference</td>
+                        <td colspan="2" rowspan="1">670</td>
+                        <td colspan="2" rowspan="1">110</td>
+                        <td colspan="2" rowspan="1">147</td>
+                        <td colspan="2" rowspan="1">45</td>
+                        <td colspan="2" rowspan="1">175</td>
+                        <td colspan="2" rowspan="1">144</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Accuracy (%)</td>
+                        <td colspan="2" rowspan="1">90.9</td>
+                        <td colspan="2" rowspan="1">76.7</td>
+                        <td colspan="2" rowspan="1">85.2</td>
+                        <td colspan="2" rowspan="1">85.9</td>
+                        <td colspan="2" rowspan="1">68.3</td>
+                        <td colspan="2" rowspan="1">76.8</td>
+                      </tr>
+                      <tr valign="top">
+                        <td colspan="14" rowspan="1">
+                          <bold>14-day forecasting</bold>
+                        </td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Cumulative difference</td>
+                        <td colspan="2" rowspan="1">2858</td>
+                        <td colspan="2" rowspan="1">272</td>
+                        <td colspan="2" rowspan="1">541</td>
+                        <td colspan="2" rowspan="1">217</td>
+                        <td colspan="2" rowspan="1">452</td>
+                        <td colspan="2" rowspan="1">329</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">
+                          <break/>
+                        </td>
+                        <td rowspan="1" colspan="1">Accuracy (%)</td>
+                        <td colspan="2" rowspan="1">81.6</td>
+                        <td colspan="2" rowspan="1">72.1</td>
+                        <td colspan="2" rowspan="1">74.5</td>
+                        <td colspan="2" rowspan="1">72.6</td>
+                        <td colspan="2" rowspan="1">60.3</td>
+                        <td colspan="2" rowspan="1">73.6</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>COVID-19 Daily New Cases Forecasting</title>
+                <p><xref rid="table1" ref-type="table">Table 1</xref> also presents the results of forecasting and prediction accuracy. Using the final models with the selected time windows, COVID-19 daily new cases were forecasted for the next 14 days at both the state and county level. At the state level, the 3-day cumulative difference and prediction accuracies were 42 and 98.7%, respectively. As compared to the 3-day prediction accuracy, the 7- and 14-day accuracies reduced to 90.9% and 81.6%, respectively. At the county level, among the top five counties, the 3-day prediction accuracy ranged from 69.0%-93.3%. The prediction accuracy deceased in Charleston, Greenville, and Spartanburg with increased time span. In contrast, the prediction accuracy in Horry and Richland increased in the 7-day prediction but decreased in the 14-day prediction. The 14-day prediction accuracies for Horry and Richland were closer to their values in the 3-day prediction. Table S2 in <xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref> presents the predicted and observed cases of COVID-19 in the final models.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Principal Findings</title>
+                <p>This study leveraged disease surveillance data and Twitter-based population mobility data to test the relationship between mobility and COVID-19 daily new cases and forecast transmission during the next 14 days at both the state and county level in South Carolina. Results revealed that population mobility was significantly and positively associated with new daily COVID-19 cases. Using the selected models to forecast COVID-19 transmission, we found that although the prediction accuracy at the state level and most of the selected counties decreased as the time span increased, the prediction accuracy remained acceptable. To the best of our knowledge, this is the first study that combined correlation analysis and forecasting together to investigate the impacts of population mobility on COVID-19 transmission at both the state and county level.</p>
+                <p>Population mobility could reflect the impacts of NPIs, reopening policies, and public holidays, and estimate social movement during the current COVID-19 pandemic. It is closely related to COVID-19 outbreaks, which is in accordance with the findings of prior research [<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref11" ref-type="bibr">11</xref>,<xref rid="ref17" ref-type="bibr">17</xref>-<xref rid="ref19" ref-type="bibr">19</xref>]. This study adds value to previous studies by examining the impacts of population mobility on COVID-19 incidence at both the state and county level in South Carolina. The results revealed a positive association of population mobility with daily new COVID-19 cases. However, it should be noted that the population mobility data used in our study only reflected the mobility of people who used Twitter, although such mobility data have been validated to be a good proxy of actual human movement during the pandemic [<xref rid="ref16" ref-type="bibr">16</xref>,<xref rid="ref26" ref-type="bibr">26</xref>,<xref rid="ref27" ref-type="bibr">27</xref>]. Additionally, those Twitter users tended to be young, which might influence how much and what they tweet. The sociodemographic characteristics of Twitter users may be potential confounders, which were not controlled for in our study. Thus, caution is needed when interpreting our findings. Future studies are needed to consider and control for the sociodemographic characteristics of Twitter users.</p>
+                <p>Using Twitter-based mobility data to predict daily new COVID-19 cases could yield acceptable accuracy, which could also justify the prediction efficacy of this indicator. The high prediction accuracy at the state level was consistent with Wang’s finding in Arizona [<xref rid="ref19" ref-type="bibr">19</xref>]. However, such a high prediction accuracy was not found at the county level. One possible explanation for this finding is that we did not capture or account for the influences of contextual factors (ie, population density) and the roles of mitigating factors (eg, wearing a face mask, practicing social distancing) [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref>,<xref rid="ref28" ref-type="bibr">28</xref>]. Additionally, the Twitter-based mobility data did not differentiate between social movement at different locations, such as parks, workplaces, and retail locations, which have different impacts on COVID-19 incidence [<xref rid="ref9" ref-type="bibr">9</xref>]. Finally, in this study, we only captured population mobility at the state and county level, while population mobility at the zip code level might provide a more accurate prediction. Nevertheless, the findings generated from our study confirmed the spatial-temporal relationship between Twitter-based mobility and COVID-19 outbreaks in South Carolina and the acceptable prediction efficacy of population mobility.</p>
+                <p>Our findings provide empirical evidence to support the application of Poisson count time series and time-varying population mobility data in improving the accuracy of COVID-19 forecasting. Compared with the existing literature, our models yielded acceptable prediction accuracy for two-week forecasting at both the state and county level. Time-varying population mobility could be incorporated into other forecasting models, such as classic time series methods and machine learning [<xref rid="ref22" ref-type="bibr">22</xref>,<xref rid="ref24" ref-type="bibr">24</xref>]. Since we are particularly interested in count data, we preferred the Poisson count time series model. When modelling rate, ARIMA and Holt-Winters are more appropriate than the Poisson count time series model. Regarding machine learning, most models are applied to the prediction of binary or categorical variables, and future studies are needed to apply them to predicting the count outcome with time-varying population mobility.</p>
+                <p>The use of population mobility data has potential implications for future research and practices to curb COVID-19 outbreaks. From a research perspective, research on mobility and COVID-19 could be studied at the state, county, and/or zip code level. In addition, mobility around different locations could provide detailed information regarding COVID-19 transmission, identify the most relevant mobility associated with daily new cases, and inform tailored interventions on social distancing by location to control disease outbreaks. Furthermore, the geospatial difference in the prediction accuracy of population mobility for daily new cases by county suggested that contextual factors—such as demographic characteristics and the implementation fidelity of NPIs at the county level—should be accounted for in future research. Finally, since the incubation and transmission of COVID-19 are closely associated with time-varying factors, such as temperature and weather, such impacts should be accounted for in forecasting studies [<xref rid="ref29" ref-type="bibr">29</xref>]. Regarding the practice of disease control and prevention, leveraging social media platforms to monitor daily population mobility could improve predictions of further COVID-19 transmission, inform proactive NPIs, and guide the allocation of health care resources to reduce disease morbidity and mortality [<xref rid="ref30" ref-type="bibr">30</xref>,<xref rid="ref31" ref-type="bibr">31</xref>].</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>Population mobility was positively associated with COVID-19 transmission at both the state and county level in South Carolina. Using Twitter-based mobility data could enable acceptable predictions of COVID-19 daily new cases. The use of social media data to monitor population mobility and predict COVID-19 spread could inform proactive measures to curb disease outbreaks and plan coordinated responses.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>This study was supported by the National Institute of Health (NIH) Research Grant R01AI127203-04S1 by National Institute of Allergy and Infectious Diseases and National Science Foundation (NSF) grant number 2028791.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: None declared.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app>
+                <title>Appendix</title>
+                <supplementary-material content-type="local-data" id="app1">
+                  <label>Multimedia Appendix 1</label>
+                  <p>Supplementary data.</p>
+                  <media xlink:href="jmir_v23i4e27045_app1.docx" xlink:title="DOCX File , 38 KB" xlink:type="simple" id="d39e961" position="anchor"/>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">ARIMA</term>
+                  <def>
+                    <p>autoregressive integrated moving average</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">NPI</term>
+                  <def>
+                    <p>nonpharmaceutical intervention</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>Centers for Disease Control and Prevention</collab>
+                  </person-group>
+                  <source>Coronavirus Disease 2019 (COVID-19): Cases &amp; Deaths in the US</source>
+                  <year>2021</year>
+                  <date-in-citation>2021-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">https://www.cdc.gov/coronavirus/2019-ncov/index.html</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bohatch</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SC sees more than 2,200 coronavirus cases, second highest increase in one day</article-title>
+                  <source>The State</source>
+                  <year>2020</year>
+                  <month>7</month>
+                  <day>14</day>
+                  <date-in-citation>2021-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.thestate.com/news/coronavirus/article244215817.html">https://www.thestate.com/news/coronavirus/article244215817.html</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>South Carolina Department of Health and Environmental Control</collab>
+                  </person-group>
+                  <source>SC Demographic Data (COVID-19)</source>
+                  <year>2021</year>
+                  <date-in-citation>2021-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://scdhec.gov/covid19#coviddata">https://scdhec.gov/covid19#coviddata</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>National Center for Immunization and Respiratory Diseases (NCIRD), Division of Viral Diseases</collab>
+                  </person-group>
+                  <source>COVID-19 Forecasting: Background Information</source>
+                  <year>2020</year>
+                  <month>10</month>
+                  <day>06</day>
+                  <date-in-citation>2021-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/forecasting.html">https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/forecasting.html</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>IHME COVID-19 Forecasting Team</collab>
+                  </person-group>
+                  <article-title>Modeling COVID-19 scenarios for the United States</article-title>
+                  <source>Nat Med</source>
+                  <year>2021</year>
+                  <month>1</month>
+                  <day>23</day>
+                  <volume>27</volume>
+                  <issue>1</issue>
+                  <fpage>94</fpage>
+                  <lpage>105</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/33097835"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1038/s41591-020-1132-9</pub-id>
+                  <pub-id pub-id-type="medline">33097835</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1038/s41591-020-1132-9</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7806509</pub-id>-->
+                  <pub-id pub-id-type="pmid">33097835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>National Center for Immunization and Respiratory Diseases (NCIRD), Division of Viral Diseases</collab>
+                  </person-group>
+                  <source>Estimated Disease Burden of COVID-19</source>
+                  <year>2021</year>
+                  <month>1</month>
+                  <day>19</day>
+                  <date-in-citation>2021-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/burden.html">https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/burden.html</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Drake</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Docherty</surname>
+                      <given-names>AB</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiser</surname>
+                      <given-names>TG</given-names>
+                    </name>
+                    <name>
+                      <surname>Yule</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheikh</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of physical distancing on population mobility during the COVID-19 pandemic in the UK</article-title>
+                  <source>The Lancet Digital Health</source>
+                  <year>2020</year>
+                  <month>8</month>
+                  <volume>2</volume>
+                  <issue>8</issue>
+                  <fpage>e385</fpage>
+                  <lpage>e387</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s2589-7500(20)30134-5</pub-id>
+                  <pub-id pub-id-type="pmid">32835195</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Examining the Change of Human Mobility Adherent to Social Restriction Policies and Its Effect on COVID-19 Cases in Australia</article-title>
+                  <source>Int J Environ Res Public Health</source>
+                  <year>2020</year>
+                  <month>10</month>
+                  <day>29</day>
+                  <volume>17</volume>
+                  <issue>21</issue>
+                  <fpage>7930</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.mdpi.com/resolver?pii=ijerph17217930"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.3390/ijerph17217930</pub-id>
+                  <pub-id pub-id-type="medline">33137958</pub-id>
+                  <!--<pub-id pub-id-type="pii">ijerph17217930</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7662641</pub-id>-->
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sulyok</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Community movement and COVID-19: a global study using Google's Community Mobility Reports</article-title>
+                  <source>Epidemiol Infect</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>13</day>
+                  <volume>148</volume>
+                  <fpage>e284</fpage>
+                  <pub-id pub-id-type="doi">10.1017/s0950268820002757</pub-id>
+                  <pub-id pub-id-type="pmid">33183366</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gibbs</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearson</surname>
+                      <given-names>CAB</given-names>
+                    </name>
+                    <name>
+                      <surname>Jarvis</surname>
+                      <given-names>CI</given-names>
+                    </name>
+                    <name>
+                      <surname>Grundy</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Quilty</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Diamond</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <collab>LSHTM CMMID COVID-19 working group</collab>
+                    <name>
+                      <surname>Eggo</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changing travel patterns in China during the early stages of the COVID-19 pandemic</article-title>
+                  <source>Nat Commun</source>
+                  <year>2020</year>
+                  <month>10</month>
+                  <day>06</day>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>5012</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18783-0</pub-id>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18783-0</pub-id>
+                  <pub-id pub-id-type="medline">33024096</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1038/s41467-020-18783-0</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7538915</pub-id>-->
+                  <pub-id pub-id-type="pmid">33024096</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xiong</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mobile device data reveal the dynamics in a positive relationship between human mobility and COVID-19 infections</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>03</day>
+                  <volume>117</volume>
+                  <issue>44</issue>
+                  <fpage>27087</fpage>
+                  <lpage>27089</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/lookup/pmidlookup?view=long&amp;pmid=33060300"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1073/pnas.2010836117</pub-id>
+                  <pub-id pub-id-type="medline">33060300</pub-id>
+                  <!--<pub-id pub-id-type="pii">2010836117</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7959523</pub-id>-->
+                  <pub-id pub-id-type="pmid">33060300</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hawelka</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Sitko</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Beinat</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Sobolevsky</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kazakopoulos</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ratti</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Geo-located Twitter as proxy for global mobility patterns</article-title>
+                  <source>Cartogr Geogr Inf Sci</source>
+                  <year>2014</year>
+                  <month>5</month>
+                  <day>27</day>
+                  <volume>41</volume>
+                  <issue>3</issue>
+                  <fpage>260</fpage>
+                  <lpage>271</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/27019645"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1080/15230406.2014.890072</pub-id>
+                  <pub-id pub-id-type="medline">27019645</pub-id>
+                  <!--<pub-id pub-id-type="pii">890072</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC4786829</pub-id>-->
+                  <pub-id pub-id-type="pmid">27019645</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Ge</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Towards real-time population estimates: introducing Twitter daily estimates of residents and non-residents at the county level</article-title>
+                  <source>arXiv.</source>
+                  <comment>Preprint posted online on November 26, 2020.
+<ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2011.13482"/></comment>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sha</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lan</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Richardson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhong</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Tian</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Beaini</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Carte</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Flynn</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Pfoser</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ding</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Taking the pulse of COVID-19: a spatiotemporal perspective</article-title>
+                  <source>International Journal of Digital Earth</source>
+                  <year>2020</year>
+                  <month>8</month>
+                  <day>25</day>
+                  <volume>13</volume>
+                  <issue>10</issue>
+                  <fpage>1186</fpage>
+                  <lpage>1211</lpage>
+                  <pub-id pub-id-type="doi">10.1080/17538947.2020.1809723</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Porter</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Olatosi</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Weissman</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Monitoring the Spatial Spread of COVID-19 and Effectiveness of Control Measures Through Human Movement Data: Proposal for a Predictive Model Using Big Data Analytics</article-title>
+                  <source>JMIR Res Protoc</source>
+                  <year>2020</year>
+                  <month>12</month>
+                  <day>18</day>
+                  <volume>9</volume>
+                  <issue>12</issue>
+                  <fpage>e24432</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.researchprotocols.org/2020/12/e24432/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/24432</pub-id>
+                  <pub-id pub-id-type="medline">33301418</pub-id>
+                  <!--<pub-id pub-id-type="pii">v9i12e24432</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7752182</pub-id>-->
+                  <pub-id pub-id-type="pmid">33301418</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Deng</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The characteristics of multi-source mobility datasets and how they reveal the luxury nature of social distancing in the U.S. during the COVID-19 pandemic</article-title>
+                  <source>International Journal of Digital Earth</source>
+                  <year>2021</year>
+                  <month>2</month>
+                  <day>17</day>
+                  <fpage>1</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.1080/17538947.2021.1886358</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bisanzio</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Kraemer</surname>
+                      <given-names>MU</given-names>
+                    </name>
+                    <name>
+                      <surname>Bogoch</surname>
+                      <given-names>II</given-names>
+                    </name>
+                    <name>
+                      <surname>Brewer</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Brownstein</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Reithinger</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Use of Twitter social media activity as a proxy for human mobility to predict the spatiotemporal spread of COVID-19 at global scale</article-title>
+                  <source>Geospat Health</source>
+                  <year>2020</year>
+                  <month>6</month>
+                  <day>15</day>
+                  <volume>15</volume>
+                  <issue>1</issue>
+                  <fpage>2020</fpage>
+                  <pub-id pub-id-type="doi">10.4081/gh.2020.882</pub-id>
+                  <pub-id pub-id-type="doi">10.4081/gh.2020.882</pub-id>
+                  <pub-id pub-id-type="medline">32575957</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gatalo</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Tseng</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Klein</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <collab>CDC MInD-Healthcare Program</collab>
+                  </person-group>
+                  <article-title>Associations between phone mobility data and COVID-19 cases</article-title>
+                  <source>Lancet Infect Dis</source>
+                  <year>2020</year>
+                  <month>9</month>
+                  <day>15</day>
+                  <fpage>1</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/32946835"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/S1473-3099(20)30725-8</pub-id>
+                  <pub-id pub-id-type="medline">32946835</pub-id>
+                  <!--<pub-id pub-id-type="pii">S1473-3099(20)30725-8</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7492011</pub-id>-->
+                  <pub-id pub-id-type="pmid">31876483</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamamoto</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using a partial differential equation with Google Mobility data to predict COVID-19 in Arizona</article-title>
+                  <source>Math Biosci Eng</source>
+                  <year>2020</year>
+                  <month>7</month>
+                  <day>13</day>
+                  <volume>17</volume>
+                  <issue>5</issue>
+                  <fpage>4891</fpage>
+                  <lpage>4904</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.aimspress.com/article/10.3934/mbe.2020266"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.3934/mbe.2020266</pub-id>
+                  <pub-id pub-id-type="medline">33120533</pub-id>
+                  <pub-id pub-id-type="pmid">33120533</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kishore</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiang</surname>
+                      <given-names>MV</given-names>
+                    </name>
+                    <name>
+                      <surname>Engø-Monsen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Vembar</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Schroeder</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Balsari</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckee</surname>
+                      <given-names>CO</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measuring mobility to monitor travel and physical distancing interventions: a common framework for mobile phone data analysis</article-title>
+                  <source>The Lancet Digital Health</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <volume>2</volume>
+                  <issue>11</issue>
+                  <fpage>e622</fpage>
+                  <lpage>e628</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s2589-7500(20)30193-x</pub-id>
+                  <pub-id pub-id-type="pmid">32905027</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chow</surname>
+                      <given-names>TE</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Mills</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Yue</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Geographic pattern of human mobility and COVID-19 before and after Hubei lockdown</article-title>
+                  <source>Annals of GIS</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>11</day>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1080/19475683.2020.1841828</pub-id>
+                  <pub-id pub-id-type="pmid">32547679</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lynch</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gore</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Short-Range Forecasting of COVID-19 During Early Onset at County, Health District, and State Geographic Levels Using Seven Methods: Comparative Forecasting Study</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2021</year>
+                  <month>3</month>
+                  <day>23</day>
+                  <volume>23</volume>
+                  <issue>3</issue>
+                  <fpage>e24925</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.jmir.org/2021/3/e24925/"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/24925</pub-id>
+                  <pub-id pub-id-type="medline">33621186</pub-id>
+                  <!--<pub-id pub-id-type="pii">v23i3e24925</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7990039</pub-id>-->
+                  <pub-id pub-id-type="pmid">33621186</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Chu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Nadarajah</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Count regression models for COVID-19</article-title>
+                  <source>Physica A</source>
+                  <year>2021</year>
+                  <month>2</month>
+                  <day>01</day>
+                  <volume>563</volume>
+                  <fpage>125460</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/33162665"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.physa.2020.125460</pub-id>
+                  <pub-id pub-id-type="medline">33162665</pub-id>
+                  <!--<pub-id pub-id-type="pii">S0378-4371(20)30774-3</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7604061</pub-id>-->
+                  <pub-id pub-id-type="pmid">33162665</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liboschik</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Fokianos</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Fried</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>tscount: An R Package for Analysis of Count Time Series Following Generalized Linear Models</article-title>
+                  <source>J Stat Soft</source>
+                  <year>2017</year>
+                  <volume>82</volume>
+                  <issue>5</issue>
+                  <fpage>a</fpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v082.i05</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref25">
+                <label>25</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <collab>The New York Times</collab>
+                  </person-group>
+                  <source>Coronavirus (Covid-19) Data in the United States</source>
+                  <year>2020</year>
+                  <date-in-citation>2021-04-06</date-in-citation>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/nytimes/covid-19-data">https://github.com/nytimes/covid-19-data</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Porter</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Twitter reveals human mobility dynamics during the COVID-19 pandemic</article-title>
+                  <source>PLoS One</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>10</day>
+                  <volume>15</volume>
+                  <issue>11</issue>
+                  <fpage>e0241957</fpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://dx.plos.org/10.1371/journal.pone.0241957"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0241957</pub-id>
+                  <pub-id pub-id-type="medline">33170889</pub-id>
+                  <!--<pub-id pub-id-type="pii">PONE-D-20-19528</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7654838</pub-id>-->
+                  <pub-id pub-id-type="pmid">33170889</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ODT Flow Explorer: Extract, Query, and Visualize Human Mobility</article-title>
+                  <source>arXiv.</source>
+                  <comment>Preprint posted online on November 26, 2020</comment>
+                </element-citation>
+              </ref>
+              <ref id="ref28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Badr</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Marshall</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Dong</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Squire</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardner</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Association between mobility patterns and COVID-19 transmission in the USA: a mathematical modelling study</article-title>
+                  <source>The Lancet Infectious Diseases</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <volume>20</volume>
+                  <issue>11</issue>
+                  <fpage>1247</fpage>
+                  <lpage>1254</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s1473-3099(20)30553-3</pub-id>
+                  <pub-id pub-id-type="pmid">32621869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carlson</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomez</surname>
+                      <given-names>ACR</given-names>
+                    </name>
+                    <name>
+                      <surname>Bansal</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Misconceptions about weather and seasonality must not misguide COVID-19 response</article-title>
+                  <source>Nat Commun</source>
+                  <year>2020</year>
+                  <month>8</month>
+                  <day>27</day>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>4312</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18150-z</pub-id>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18150-z</pub-id>
+                  <pub-id pub-id-type="medline">32855406</pub-id>
+                  <!--<pub-id pub-id-type="pii">10.1038/s41467-020-18150-z</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7452887</pub-id>-->
+                  <pub-id pub-id-type="pmid">32855406</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kurian</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhatti</surname>
+                      <given-names>AUR</given-names>
+                    </name>
+                    <name>
+                      <surname>Ting</surname>
+                      <given-names>HH</given-names>
+                    </name>
+                    <name>
+                      <surname>Storlie</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Bydon</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Utilization of Mobility Data in the Fight Against COVID-19</article-title>
+                  <source>Mayo Clin Proc Innov Qual Outcomes</source>
+                  <year>2020</year>
+                  <month>12</month>
+                  <volume>4</volume>
+                  <issue>6</issue>
+                  <fpage>733</fpage>
+                  <lpage>735</lpage>
+                  <comment>
+                    <ext-link ext-link-type="uri" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S2542-4548(20)30203-4"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.mayocpiqo.2020.10.003</pub-id>
+                  <pub-id pub-id-type="medline">33134851</pub-id>
+                  <!--<pub-id pub-id-type="pii">S2542-4548(20)30203-4</pub-id>-->
+                  <!--<pub-id pub-id-type="pmcid">PMC7590816</pub-id>-->
+                  <pub-id pub-id-type="pmid">33134851</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buckee</surname>
+                      <given-names>CO</given-names>
+                    </name>
+                    <name>
+                      <surname>Balsari</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Crosas</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Dominici</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Gasser</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Grad</surname>
+                      <given-names>YH</given-names>
+                    </name>
+                    <name>
+                      <surname>Grenfell</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Halloran</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Kraemer</surname>
+                      <given-names>MUG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipsitch</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Metcalf</surname>
+                      <given-names>CJE</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyers</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Perkins</surname>
+                      <given-names>TA</given-names>
+                    </name>
+                    <name>
+                      <surname>Santillana</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Scarpino</surname>
+                      <given-names>SV</given-names>
+                    </name>
+                    <name>
+                      <surname>Viboud</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Wesolowski</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Schroeder</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Aggregated mobility data could help fight COVID-19</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <month>4</month>
+                  <day>10</day>
+                  <volume>368</volume>
+                  <issue>6487</issue>
+                  <fpage>145</fpage>
+                  <lpage>146</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.abb8021</pub-id>
+                  <pub-id pub-id-type="medline">32205458</pub-id>
+                  <!--<pub-id pub-id-type="pii">science.abb8021</pub-id>-->
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

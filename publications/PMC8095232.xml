@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:54:28Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8095232" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8095232</identifier>
+        <datestamp>2021-05-05</datestamp>
+        <setSpec>medrxiv</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">medRxiv</journal-id>
+              <journal-id journal-id-type="publisher-id">MEDRXIV</journal-id>
+              <journal-title-group>
+                <journal-title>medRxiv</journal-title>
+              </journal-title-group>
+              <publisher>
+                <publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8095232</article-id>
+              <article-id pub-id-type="pmcid">PMC8095232</article-id>
+              <article-id pub-id-type="pmc-uid">8095232</article-id>
+              <article-id pub-id-type="pmid">33948613</article-id>
+              <article-id pub-id-type="pmid">33948613</article-id>
+              <article-id pub-id-type="doi">10.1101/2021.04.19.21255737</article-id>
+              <article-version-alternatives>
+                <article-version article-version-type="status">preprint</article-version>
+                <article-version article-version-type="number">1</article-version>
+              </article-version-alternatives>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>When can we stop wearing masks? Agent-based modeling to identify when vaccine coverage makes nonpharmaceutical interventions for reducing SARS-CoV-2 infections redundant in indoor gatherings</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Farthing</surname>
+                    <given-names>Trevor S.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lanzas</surname>
+                    <given-names>Cristina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="A1">1</xref>
+                  <xref rid="CR1" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="A1"><label>1</label>North Carolina State University, Raleigh, North Carolina, USA</aff>
+              <author-notes>
+                <fn fn-type="con" id="FN1">
+                  <p id="P1">Author Contributions</p>
+                  <p id="P2">Trevor Farthing led the model creation, data analysis, and manuscript writing, but both authors conceived the ideas presented herein, contributed to model development and writing efforts, and gave final approval for publication. Cristina Lanzas secured the funding.</p>
+                </fn>
+                <corresp id="CR1"><label>*</label>Correspondence to Cristina Lanzas (Mailing Address: 1051 William Moore Dr., RB410, Raleigh, NC 27606 | <email>clanzas@ncsu.edu</email> | Phone: 919-513-6202)</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>27</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <elocation-id>2021.04.19.21255737</elocation-id>
+              <permissions>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This work is licensed under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ext-link>, which allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf">nihpp-2021.04.19.21255737.pdf</self-uri>
+              <abstract id="ABS1">
+                <p id="P3">As vaccination efforts to combat the COVID-19 pandemic are ramping up worldwide, there are rising concerns that individuals will begin to eschew nonpharmaceutical interventions for preventing SARS-CoV-2 transmission and attempt to return to pre-pandemic normalcy before vaccine coverage levels effectively mitigate transmission risk. In the U.S.A., some governing bodies have already weakened or repealed guidelines for nonpharmaceutical intervention use, despite a recent spike in national COVID-19 cases and majority population of unvaccinated individuals. Recent modeling suggests that repealing nonpharmaceutical intervention guidelines too early into vaccine rollouts will lead to localized increases in COVID-19 cases, but the magnitude of nonpharmaceutical intervention effects on individual-level SARS-CoV-2 infection risk in fully- and partially-vaccinated populations is unclear. We use a previously-published agent-based model to simulate SARS-CoV-2 transmission in indoor gatherings of varying durations, population densities, and vaccination coverage levels. By simulating nonpharmaceutical interventions in some gatherings but not others, we were able to quantify the difference in SARS-CoV-2 infection risk when nonpharmaceutical interventions were used, relative to scenarios with no nonpharmaceutical interventions. We found that nonpharmaceutical interventions will often reduce secondary attack rates, especially during brief interactions, and therefore there is no definitive vaccination coverage level that makes nonpharmaceutical interventions completely redundant. However, the reduction effect on absolute SARS-CoV-2 infection risk conferred by nonpharmaceutical interventions is likely proportional to COVID-19 prevalence. Therefore, if COVID-19 prevalence decreases in the future, nonpharmaceutical interventions will likely still confer protective effects but potential benefits may be small enough to remain within “effectively negligible” risk thresholds.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>agent-based model</kwd>
+                <kwd>COVID-19</kwd>
+                <kwd>indoor transmission</kwd>
+                <kwd>nonpharmaceutical interventions</kwd>
+                <kwd>SARS-CoV-2</kwd>
+                <kwd>vaccine</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="S1">
+              <title>Introduction</title>
+              <p id="P4">Global vaccine rollout to combat the Coronavirus Disease 2019 (COVID-19) pandemic is well underway, with at least different seven vaccines approved for distribution by different countries (<xref rid="R36" ref-type="bibr">WHO 2021</xref>). In the U.S.A., where three vaccines have been approved for distribution (<xref rid="R30" ref-type="bibr">CDC 2021a</xref>), 24.8% of the population has been fully vaccinated against COVID-19 as of April 17<sup>th</sup> 2021 (<xref rid="R31" ref-type="bibr">CDC 2021b</xref>). Despite ongoing vaccine rollouts, as of April 17<sup>th</sup> 2021, there is an indication that COVID-19 cases are surging in some U.S. states (<xref rid="R28" ref-type="bibr">NY Times 2021</xref>). In spite of rising case numbers, several U.S. states have recently rescinded, or allowed to expire, policies mandating use of nonpharmaceutical intervention in public spaces, with seemingly no intention of reinstating them in the near future (<xref rid="R25" ref-type="bibr">State of Iowa 2021</xref>; <xref rid="R26" ref-type="bibr">State of Mississippi 2021</xref>; <xref rid="R27" ref-type="bibr">State of Texas 2021</xref>). Population-level epidemiological models of vaccine rollout effects on COVID-19 transmission suggest that discontinuing nonpharmaceutical intervention use early into the vaccination effort leads to a subsequent surge in COVID-19 cases and related hospitalizations and deaths (<xref rid="R12" ref-type="bibr">Gozzi et al. 2021</xref>; <xref rid="R19" ref-type="bibr">Moore et al. 2021</xref>).</p>
+              <p id="P5">The magnitude of nonpharmaceutical intervention effects on individual-level SARS-CoV-2 infection risk in fully- and partially-vaccinated populations is unclear. This information is crucial for identifying vaccination levels at which it would be appropriate to scale-back guidelines for nonpharmaceutical interventions, as it would allow governing bodies to base policies on concrete risk estimates. The United States Centers for Disease Control and Prevention (CDC) has updated guidelines on safe gathering protocols, recommending that groups of fully-vaccinated people can now safely interact amongst themselves, or with small groups of unvaccinated people at low risk for developing severe COVID-19, without utilizing any nonpharmaceutical Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) transmission interventions (e.g., face coverings, 2-m social distancing, etc.) (<xref rid="R32" ref-type="bibr">CDC 2021c</xref>). However, the guidelines also recommend to continue avoiding medium to large gatherings, and the use of nonpharmaceutical interventions in public and when gathering with unvaccinated individuals. This caution stems from the incomplete knowledge of vaccine effectiveness across different populations, their effects on transmission, and the potential change on vaccine effectiveness caused by the emergence of new SARS-Cov-2 variants.</p>
+              <p id="P6">The problem with citing vaccination efforts as a justification for discontinuing nonpharmaceutical interventions is twofold. First and foremost, the majority of the U.S. population is not yet fully vaccinated (<xref rid="R31" ref-type="bibr">CDC 2021b</xref>), and therefore presumably has little-to-no immunity from SARS-CoV-2 infections. Secondly, while there is growing evidence that these vaccines reduce SARS-CoV-2 infection risk in addition to COVID-19 incidence, vaccines may not confer complete immunity or block transmission (<xref rid="R13" ref-type="bibr">Hall et al. 2021</xref>; <xref rid="R17" ref-type="bibr">Lipsitch &amp; Kahn 2021</xref>; <xref rid="R37" ref-type="bibr">Yellen et al. 2021</xref>). Data suggest that the BNT162b2 mRNA vaccine (i.e., the vaccine developed by Pfizer-BioNtech) may be ≈ 72% effective at preventing laboratory-confirmed SARS-CoV-2 infections after a single dose, and ≈ 86–92% two weeks following the second dose (<xref rid="R13" ref-type="bibr">Hall et al. 2021</xref>; <xref rid="R37" ref-type="bibr">Yellen et al. 2021</xref>). Furthermore, this vaccine may reduce viral loads, a potential proxy for infectiousness, in infected individuals by 3–4 times (<xref rid="R16" ref-type="bibr">Levine-Tiefenbrun et al. 2021</xref>). Less information is available on the ability of the other two vaccines approved for U.S. distribution to reduce SARS-CoV-2 infections, but <xref rid="R17" ref-type="bibr">Lipsitch &amp; Kahn (2021)</xref> do estimate that mRNA-1273 (i.e., the vaccine developed by Moderna and NIAID) can reduce individual-level infection risk by at least 61% following the first dose. Despite potentially-high infection-reduction efficacies, without vaccines that confer complete immunity from infection or prevent transmission from infectious individuals, it will be difficult to halt SARS-CoV-2 circulation in the population through vaccination efforts alone (<xref rid="R12" ref-type="bibr">Gozzi et al. 2021</xref>; <xref rid="R19" ref-type="bibr">Moore et al. 2021</xref>). Considering that most people also have yet to be fully vaccinated, guidelines that advocate phasing out nonpharmaceutical interventions during interpersonal interactions may be premature at this time.</p>
+              <p id="P7">In <xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas (2021)</xref>, we described an agent-based model (ABM) for simulating indoor respiratory pathogen transmission. We previously used this model to quantify effects of nonpharmaceutical interventions on reducing SARS-CoV-2 transmission risk during an indoor superspreading event (<xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas 2021</xref>). Here, we use it to simulate SARS-CoV-2 transmission in indoor gatherings of varying durations, population densities, and proportional vaccination coverage. By simulating nonpharmaceutical interventions in some gatherings but not others, we were able to quantify the difference in SARS-CoV-2 infection risk when nonpharmaceutical interventions were used in conjunction with vaccination efforts, relative to scenarios with no nonpharmaceutical interventions. Using these data, we demonstrate how interested parties can easily estimate the potential reduction in SARS-CoV-2 infection risk attributable to nonpharmaceutical interventions, and try to answer the question: “at what point during vaccine rollout are gatherings without non-pharmaceutical measures safe?”</p>
+            </sec>
+            <sec id="S2">
+              <title>Methods</title>
+              <p id="P8">We used the ABM we first described in <xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas (2021)</xref> to simulate the effect of increasing vaccination coverage and nonpharmaceutical interventions on SARS-CoV-2 transmission risk during indoor gatherings. The simulation input levels and parameter values we used are given in <xref rid="T1" ref-type="table">Table 1</xref>. We made the assumptions that any infectious individuals at gatherings would be asymptomatic because symptomatic people would consciously decide to stay away, and that no one with partial immunity exists within the group of attendees. Vaccinated people had a fixed probability of becoming completely immune to SARS-CoV-2 infection (<xref rid="T1" ref-type="table">Table 1</xref>), and those that did not become immune remained susceptible to infection (i.e, ‘all-or-nothing’ vaccine). Finally, we only simulated use of cloth face coverings, rather than notably more-effective masks like N95s, because we make the assumption that the majority of Americans have ready access to, and are more-likely to use cloth masks.</p>
+              <p id="P9">All simulations were carried out within the open-source modeling software, NetLogo (Ver. 6. 1. 1 – <xref rid="R34" ref-type="bibr">Wilensky 1999</xref>). We executed a factorial simulation run in the NetLogo BehaviorSpace using our specified input levels, and ran 200 simulations replicates of each parameter set combination when the nonpharmaceutical interventions were included and when they were not. We ran these factorial combination sets separately in order to save computation time as there were two inputs (i.e., mask efficacy, attempted social distance) that only changed when nonpharmaceutical interventions were simulated. We ultimately produced 1,612,800 simulations without nonpharmaceutical interventions, and 9,676,800 including them (i.e., 11,289,600 total simulations). We recorded the number of susceptible individuals infected in each simulation, and aggregated this information into a single data set prior to analysis.</p>
+              <p id="P10">We reported the mean probability of observing ≥ 1 successful infection event(s) and mean secondary attack rates in indoor gatherings when an asymptomatic person was also in attendance across factorial combinations of “between-group comparison” variables (<xref rid="T1" ref-type="table">Table 1</xref>). Secondary attack rates here were calculated by dividing the number of people that were infected at the gathering by the number of “healthy” people at the start of the gathering, and can also be considered to be the individual-level probability of a previously healthy attendee being infected at the gathering. To assess the difference between protection conferred by the simultaneous deployment of pharmaceutical and nonpharmaceutical interventions, versus use of only nonpharmaceutical interventions, we first smoothed the observed mean secondary attack rates (<italic>μ</italic>) by fitting them to a beta regression model with a fixed unknown precision parameter, <italic>ϕ</italic> using a logit link function to map (0,1) values (<xref rid="R10" ref-type="bibr">Ferrari &amp; Cribari-Neto 2004</xref>). The specific model is given by:
+<disp-formula id="FD1"><label>(1)</label><mml:math id="M1"><mml:mrow><mml:mtext mathvariant="italic">ln</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mfrac><mml:mi>μ</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>μ</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>ϕ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>ϕ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext mathvariant="italic">Gathering duration</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext mathvariant="italic">Intervention level</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext mathvariant="italic">Vaccine coverage</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext mathvariant="italic">Vaccine efficacy</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext mathvariant="italic">Vaccine coverage</mml:mtext><mml:mo>*</mml:mo><mml:mtext mathvariant="italic">Vaccine efficacy</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>
+where “Intervention level” is a categorical variable containing the following mutually-exclusive levels: “cloth face masks &amp; vaccination,” “cloth face masks &amp; 2-m social distancing &amp; vaccination,” and “vaccination only.” Additionally, “Vaccine efficacy” here refers to the ability of vaccines to induce complete immunity to infection. “Vaccine coverage” and “Vaccine efficacy” are given in terms of decimal percent, not percentage points (e.g., 0.1, not 10%). Because beta regression models assume all dependent variable values fall between 0 and 1, we used the data transformation procedure described by (<xref rid="R6" ref-type="bibr">Cribari-Neto &amp; Zeiles, 2010</xref>) to reconstruct our proportion data without these extremities prior to model fitting. We used the pseudo-R<sup>2</sup> calculation procedure given by <xref rid="R10" ref-type="bibr">Ferrari &amp; Cribari-Neto (2004)</xref> to assess the goodness of fit for our regression model.</p>
+              <p id="P11">After fitting our data, we used the regression model to predict the mean secondary attack rates during a 60-minute gathering with a single asymptomatic person in attendance across the complete factorial combination of covariate inputs described in <xref rid="T2" ref-type="table">Table 2</xref>. We report the difference between predicted values when all interventions (i.e., cloth face masks &amp; 2-m social distancing &amp; vaccination) are utilized, and predicted values assuming vaccinations are the only interventions. All analyses and plotting were carried out using functions from the “betareg” (<xref rid="R10" ref-type="bibr">Ferrari &amp; Cribari-Neto 2004</xref>) and “ggplot2” (v. 3.3.2, <xref rid="R33" ref-type="bibr">Wickham 2016</xref>) R packages, respectively, in RStudio (v. 1.1.463, RStudio Team, Boston, MA) (<xref rid="R24" ref-type="bibr">RStudio Team 2018</xref>) running R (v. 3.6.2, R Foundation for Statistical Computing, Vienna, Austria) (<xref rid="R23" ref-type="bibr">R Core Team 2020</xref>).</p>
+            </sec>
+            <sec id="S3">
+              <title>Results &amp; Discussion</title>
+              <p id="P12">We found that the probability of ≥ 1 successful transmission event generally increased with population density (<xref rid="F1" ref-type="fig">Fig. 1</xref>). This is unsurprising, as SARS-CoV-2 transmission in this ABM is highly sensitive to within-room population density (<xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas 2021</xref>). We observed that at low population densities and/or short-duration gatherings, the use of nonpharmaceutical interventions can significantly reduce the probability of successful transmission. Furthermore, it is clear that at low population densities, 2-m social distancing confers additional protective effects when used in conjunction with cloth face coverings, even during relatively-long duration gatherings. This is consistent with what we observed when we used the same ABM to directly compare the effectiveness of varied nonpharmaceutical interventions to prevent SARS-CoV-2 transmission during a superspreading event (<xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas 2021</xref>). We found that cloth face masks alone conferred few protective effects in long-duration gatherings.</p>
+              <p id="P13">The probability of transmission events occurring was unlikely to reach ≈ 0% outside of scenarios with low population density and multiple nonpharmaceutical interventions, or ≥ 95% vaccine coverage and vaccines that were 100% effective at preventing infections. Given that 1) current estimates place SARS-CoV-2 vaccine efficacies against infection between 60–90% (<xref rid="R13" ref-type="bibr">Hall et al. 2021</xref>; <xref rid="R17" ref-type="bibr">Lipsitch &amp; Kahn 2021</xref>; <xref rid="R37" ref-type="bibr">Yellen et al. 2021</xref>), 2) historical precedence suggesting adult populations will fall well short of these high vaccination levels (<xref rid="R2" ref-type="bibr">Applewhite et al. 2020</xref>; <xref rid="R29" ref-type="bibr">CDC 2020</xref>), and 3) the difficulty government institutions have had enforcing nonpharmaceutical intervention policies (<xref rid="R14" ref-type="bibr">Jacobs &amp; Ohinmaa 2020</xref>; <xref rid="R22" ref-type="bibr">Pedersen &amp; Favero 2020</xref>), it is unlikely that these scenarios will be representative of average real-world gatherings. Moreover, in 60-min gathering scenarios, the probability of ≥ 1 successful transmission event occurring is relatively high even when gathering attendees utilize nonpharmaceutical interventions and most are vaccinated.</p>
+              <p id="P14">The probability that ≥1 SARS-CoV-2-positive individual is in attendance at a gathering can be calculated as
+<disp-formula id="FD2"><label>(2)</label><mml:math id="M2"><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>n</mml:mi></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>
+where <italic>p</italic> is the local COVID-19 prevalence, and <italic>n</italic> is the number of people at the gathering (<xref rid="R5" ref-type="bibr">Chande et al. 2020</xref>). The prevalence of infectious cases (<italic>p</italic>) can be highly uncertain because of the variable testing effort across time and space, but it can be estimated by assuming that any SARS-CoV-2-positive individuals are infectious at time of testing and will remain infectious for a given period of time. Additionally, ascertainment bias can be factored in. The probability that a given individual will be infected at a gathering is then
+<disp-formula id="FD3"><label>(3)</label><mml:math id="M3"><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>n</mml:mi></mml:msup></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>
+where <italic>q</italic><sub><italic>i</italic></sub> is the probability that individual <italic>i</italic> will be infected given exposure to an asymptomatic individual at the gathering. Effectively, what we report in <xref rid="F2" ref-type="fig">Fig. 2</xref> are estimates of <italic>q</italic><sub><italic>i</italic></sub> under different circumstances. Our findings suggest that cloth-based mask use, with or without 2-m social distancing, often does not confer significant protective effects during long-duration gatherings (<xref rid="F2" ref-type="fig">Fig. 2</xref>), we have also shown that implementing these nonpharmaceutical interventions can reduce overall transmission probability (<xref rid="F1" ref-type="fig">Fig. 1</xref>) and secondary attack rates (<xref rid="F2" ref-type="fig">Fig. 2</xref>, <xref rid="T3" ref-type="table">Table 3</xref>) during brief interactions or gatherings with relatively-few people (e.g., fewer than 10 people, the limit for indoor and/or outdoor social gatherings enforced by some U.S. states (<xref rid="R20" ref-type="bibr">MultiState 2021</xref>)). This effectively means that strict guidelines for continued nonpharmaceutical intervention use will likely help to mitigate SARS-CoV-2 spread, and therefore COVID-19 incidence, for as long as these policies are in effect.</p>
+              <p id="P15">As vaccine coverage increases, the question now becomes “how much elevated risk is acceptable in the absence of nonpharmaceutical interventions?” If we let <inline-formula><mml:math id="M4"><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mi>i</mml:mi><mml:mo>′</mml:mo></mml:msubsup></mml:mrow></mml:math></inline-formula> denote the probability that individual <italic>i</italic> will be infected given exposure to an asymptomatic individual at a gathering where no nonpharmaceutical interventions were in place, and <inline-formula><mml:math id="M5"><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mi>i</mml:mi><mml:mo>*</mml:mo></mml:msubsup></mml:mrow></mml:math></inline-formula> denote the probability that individual <italic>i</italic> will be infected given exposure to an asymptomatic individual at a gathering where some level of nonpharmaceutical interventions were in place, then the relative effect of nonpharmaceutical interventions on reducing infection risk is equal to
+<disp-formula id="FD4"><label>(4)</label><mml:math id="M6"><mml:mrow><mml:mfrac><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mi>i</mml:mi><mml:mo>*</mml:mo></mml:msubsup></mml:mrow><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mi>i</mml:mi><mml:mo>′</mml:mo></mml:msubsup></mml:mrow></mml:mfrac><mml:mo>*</mml:mo><mml:mn>100</mml:mn><mml:mi>%</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula></p>
+              <p id="P98">By quantifying covariate effects in our beta-regression model, we provide interested parties with a formula that can be used to quickly determine generalized <inline-formula><mml:math id="M7"><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mi>i</mml:mi><mml:mo>′</mml:mo></mml:msubsup></mml:mrow></mml:math></inline-formula> or <inline-formula><mml:math id="M8"><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mi>i</mml:mi><mml:mo>*</mml:mo></mml:msubsup></mml:mrow></mml:math></inline-formula> values, without the need for running a large number of simulations. Due to the logit link function we used, the mean secondary attack rates in our ABM simulations (<italic>μ</italic>) can be predicted using the equation
+<disp-formula id="FD5"><label>(5)</label><mml:math id="M9"><mml:mrow><mml:mi>μ</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Gathering duration</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Intervention level</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Vaccine coverage</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Vaccine efficacy</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Vaccine coverage</mml:mtext><mml:mo>*</mml:mo><mml:mtext>Vaccine efficacy</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Gathering duration</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Intervention level</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Vaccine coverage</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Vaccine efficacy</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mtext>Vaccine coverage</mml:mtext><mml:mo>*</mml:mo><mml:mtext>Vaccine efficacy</mml:mtext><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+(<xref rid="R10" ref-type="bibr">Ferrari &amp; Cribari-Neto 2004</xref>). Our regression model had a pseudo-R<sup>2</sup> of 0.37. Given the number of stochastic processes in our ABM and the variability purposely introduced into simulations (<xref rid="T1" ref-type="table">Table 1</xref>), we believe the explanatory power of the model is acceptable for our purposes here. Assuming mean population-level vaccine efficacies of 60% and 80%, which we believe are conservative estimates for U.S.-approved vaccine efficacies, our regression model consistently predicts that secondary attack rates decrease by 55–58% when attendees utilize cloth masks and 2-m social distancing, regardless of gathering duration (<xref rid="F3" ref-type="fig">Fig. 3</xref>). However, it is important to reiterate that here we estimate the probability or infection given contact with an infectious individual at a gathering (<italic>q</italic><sub><italic>i</italic></sub>) and comment on the relative risk difference attributable to intervention use. This should not be confused with the absolute risk of becoming infected at a gathering (<italic>see</italic>
+<xref rid="FD3" ref-type="disp-formula">Equation 3</xref>). We demonstrate the difference in <xref rid="F4" ref-type="fig">Figure 4</xref>, which is a simplistic example intended to show that even at relatively high COVID-19 prevalence levels, 20 people gathering indoors for 60 minutes have a substantially-lower individual-level risk of SARS-CoV-2 infections than is suggested by <italic>q</italic><sub><italic>i</italic></sub> alone. Though predicting intervention effects on community-level COVID-19 prevalence and infection-related events (e.g., symptom-onset, mortality, or hospitalization) is outside the scope of our model, our simulations do suggest that secondary attack rates are negatively correlated with vaccine coverage. Given that we expect local COVID-19 prevalence to eventually follow similar trends (<xref rid="R12" ref-type="bibr">Gozzi et al. 2021</xref>), the relative impact of nonpharmaceutical interventions on infection risk reduction will likely decrease over time as vaccine rollouts continue.</p>
+              <p id="P16">In addition to being unable to comment on community-level infection metrics, there are a few other limitations associated with our results that we must acknowledge. Aside from the ABM design limitations outlined in <xref rid="R9" ref-type="bibr">Farthing et al. (2021)</xref>, we make a number of assumptions in our simulations. Most of these assumptions are directly tied to our parameter space detailed in <xref rid="T1" ref-type="table">Table 1</xref>, and include such things as: in simulated gatherings only one asymptomatic individual was in attendance, no individuals wear masks with exposure-reduction efficacies &gt; 50% and therefore we are not simulating the use of N95 or similar masks, and there is no simulated forced-air ventilation or infectious individuals that produce superspreader-level of contaminated aerosols (e.g., 970 quanta (<xref rid="R18" ref-type="bibr">Miller et al. 2020</xref>)). Additionally, we do not simulate activity-specific behaviors and individuals in our simulations were unmoving. Finally, we based the infectiousness of asymptomatic individuals on the estimate given by <xref rid="R3" ref-type="bibr">Buonanno et al. (2020)</xref> (i.e., 142 quanta/hr), and to relate this estimate to ABM parameters we used the linear model described in <xref rid="R9" ref-type="bibr">Farthing et al. (2021)</xref>. However, this parameterization procedure may have over-inflated virion transmissibility in certain scenarios because quanta-estimates are room-size specific, and the <xref rid="R9" ref-type="bibr">Farthing et al. (2021)</xref> linear model was based on simulations of gatherings within a relatively large room. In short, our results must be viewed through the lens of simulated world parameters and behaviors, and likely will not wholly reflect all variability that may exist in real-world transmission events. This is very common for ABM-based studies however, and we feel that our model is sufficiently accurate to highlight general trends in indoor SARS-CoV-2 transmission and infection risk.</p>
+            </sec>
+            <sec id="S4">
+              <title>Conclusions</title>
+              <p id="P17">We found that nonpharmaceutical interventions will often reduce secondary attack rates, especially during brief interactions, and therefore there is no definitive vaccination coverage level that makes nonpharmaceutical interventions completely redundant. However, the beneficial effect on absolute SARS-CoV-2 infection risk reduction conferred by nonpharmaceutical interventions used during indoor gatherings is likely proportional to COVID-19 prevalence. Therefore, if U.S. COVID-19 prevalence decreases in the future, nonpharmaceutical interventions will likely still confer protective effects, but any potential benefits may be small enough to remain within “effectively negligible” risk thresholds.</p>
+            </sec>
+          </body>
+          <back>
+            <ack id="S5">
+              <title>Acknowledgments</title>
+              <p id="P18">This work was partially supported by CDC U01CK000587-01M001 and R35GM134934.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement" id="FN3">
+                <p id="P19"><bold>Declarations of Interest:</bold> None</p>
+              </fn>
+              <fn id="FN4">
+                <p id="P20">Data availability</p>
+                <p id="P21">We first made our ABM publicly available for download in <xref rid="R9" ref-type="bibr">Farthing et al. (2021)</xref>. The current iteration can be downloaded from the Lanzas lab’s github repository at <ext-link ext-link-type="uri" xlink:href="https://github.com/lanzaslab/droplet-ABM">https://github.com/lanzaslab/droplet-ABM</ext-link>.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="R1">
+                <label>1.</label>
+                <mixed-citation publication-type="book"><name><surname>Adams</surname><given-names>WC</given-names></name>. <source>Measurement of breathing rate and volume in routinely performed daily activities</source>. <year>1993</year>. <comment>Final Report, Contract No. A033–205.</comment><publisher-name>California Air Resources Board</publisher-name>, <publisher-loc>Sacramento, CA, USA</publisher-loc>. <comment><ext-link ext-link-type="uri" xlink:href="https://ww2.arb.ca.gov/sites/default/files/classic//research/apr/past/a033-205.pdf">https://ww2.arb.ca.gov/sites/default/files/classic//research/apr/past/a033-205.pdf</ext-link>.</comment></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2.</label>
+                <mixed-citation publication-type="journal"><name><surname>Applewhite</surname><given-names>A</given-names></name>, <name><surname>Stancampiano</surname><given-names>FF</given-names></name>, <name><surname>Harris</surname><given-names>DM</given-names></name>, <name><surname>Manaois</surname><given-names>A</given-names></name>, <name><surname>Dimuna</surname><given-names>J</given-names></name>, <name><surname>Glenn</surname><given-names>J</given-names></name>, <name><surname>Heckman</surname><given-names>MG</given-names></name>, <name><surname>Brushaber</surname><given-names>DE</given-names></name>, <name><surname>Sher</surname><given-names>T</given-names></name>, &amp; <name><surname>Valery</surname><given-names>JR</given-names></name>. (<year>2020</year>). <article-title>A retrospective analysis of gender-based difference in adherence to influenza vaccination during the 2018–2019 season</article-title>. <source>J Prim Care &amp; Commun Heal</source>
+<volume>11</volume>:<fpage>1</fpage>–<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1177/2150132720958532</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3.</label>
+                <mixed-citation publication-type="journal"><name><surname>Buonanno</surname><given-names>G</given-names></name>, <name><surname>Stabile</surname><given-names>L</given-names></name>, &amp; <name><surname>Morawska</surname><given-names>L</given-names></name>. (<year>2020</year>). <article-title>Estimation of airborne viral emission: quanta emission rate of SARS-CoV-2 for infection risk assessment</article-title>. <source>Environ Internat</source>
+<volume>141</volume>:<fpage>105794</fpage>. <pub-id pub-id-type="doi">10.1016/j.envint.2020.105794</pub-id></mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4.</label>
+                <mixed-citation publication-type="journal"><name><surname>Castillo</surname><given-names>JE</given-names></name>, &amp; <name><surname>Weibel</surname><given-names>JA</given-names></name>. (<year>2018</year>). <article-title>A point sink superposition method for predicting droplet interaction effects during vapor-diffusion-driven dropwise condensation in humid air</article-title>. <source>Int J Heat Mass Trans</source>
+<volume>118</volume>:<fpage>708</fpage>–<lpage>719</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijheatmasstransfer.2017.11.045</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5.</label>
+                <mixed-citation publication-type="journal"><name><surname>Chande</surname><given-names>A</given-names></name>, <name><surname>Lee</surname><given-names>S</given-names></name>, <name><surname>Harris</surname><given-names>M</given-names></name>, <name><surname>Nguyen</surname><given-names>Q</given-names></name>, <name><surname>Beckett</surname><given-names>SJ</given-names></name>, <name><surname>Hilley</surname><given-names>T</given-names></name>, <name><surname>Andris</surname><given-names>C</given-names></name>, &amp; <name><surname>Weitz</surname><given-names>JS</given-names></name>. (<year>2020</year>). <article-title>Real-time, interactive website for US-county-level COVID-19 event risk assessment</article-title>. <source>Nat Hum Behav</source>. <volume>4</volume>:<fpage>1313</fpage>–<lpage>1319</lpage>. <pub-id pub-id-type="doi">10.1038/s41562-020-01000-9</pub-id><pub-id pub-id-type="pmid">33168955</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6.</label>
+                <mixed-citation publication-type="journal"><name><surname>Cribari-Neto</surname><given-names>F</given-names></name>, <name><surname>Zeileis</surname><given-names>A</given-names></name>. (<year>2010</year>). <article-title>Beta regression in R</article-title>. <source>J Stat Soft</source>. <volume>34</volume>(<issue>2</issue>):<fpage>1</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v034.i02</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7.</label>
+                <mixed-citation publication-type="journal"><name><surname>Das</surname><given-names>SK</given-names></name>, <name><surname>Alam</surname><given-names>J</given-names></name>, <name><surname>Plumari</surname><given-names>S</given-names></name>, <name><surname>Greco</surname><given-names>V</given-names></name>. (<year>2020</year>) <article-title>Transmission of airborne virus through sneezed and coughed droplets</article-title>. <source>Phys Fluids</source>. <volume>32</volume>:<fpage>097102</fpage>. <pub-id pub-id-type="doi">10.1063/5.0022859</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8.</label>
+                <mixed-citation publication-type="journal"><name><surname>van Doremalen</surname><given-names>N</given-names></name>, <name><surname>Bushmaker</surname><given-names>T</given-names></name>, <name><surname>Morris</surname><given-names>DH</given-names></name>, <name><surname>Holbrook</surname><given-names>MG</given-names></name>, <name><surname>Gamble</surname><given-names>A</given-names></name>, <name><surname>Williamson</surname><given-names>BN</given-names></name>, <name><surname>Tamin</surname><given-names>A</given-names></name>, <name><surname>Harcourt</surname><given-names>JL</given-names></name>, <name><surname>Thornburg</surname><given-names>NJ</given-names></name>, <name><surname>Gerber</surname><given-names>SI</given-names></name>, <name><surname>Lloyd-Smith</surname><given-names>JP</given-names></name>, <name><surname>de Wit</surname><given-names>E</given-names></name>, &amp; <name><surname>Munster</surname><given-names>VJ</given-names></name>. (<year>2020</year>). <article-title>Aerosol and surface stability of SARS-CoV-2 as compared with SARS-CoV-1</article-title>. <source>N Engl J Med</source>
+<volume>2020</volume>(<issue>382</issue>):<fpage>1564</fpage>–<lpage>1567</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMc2004973</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9.</label>
+                <mixed-citation publication-type="web"><name><surname>Farthing</surname><given-names>TS</given-names></name>, &amp; <name><surname>Lanzas</surname><given-names>C</given-names></name>. (<year>2021</year>). <source>Assessing the efficacy of interventions to control indoor SARS-Cov-2 transmission: an agent-based modeling approach</source>. <comment>Preprint available at: </comment><pub-id pub-id-type="doi">10.1101/2021.01.21.21250240</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10.</label>
+                <mixed-citation publication-type="journal"><name><surname>Ferrari</surname><given-names>SLP</given-names></name>, <name><surname>Cribari-Neto</surname><given-names>F</given-names></name>. (<year>2004</year>). <article-title>Beta regression for modelling rates and proportions</article-title>. <source>J Appl Stat</source>. <volume>31</volume>(<issue>7</issue>): <fpage>799</fpage>–<lpage>815</lpage>. <pub-id pub-id-type="doi">10.1080/0266476042000214501</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11.</label>
+                <mixed-citation publication-type="book"><name><surname>Fryar</surname><given-names>CD</given-names></name>, <name><surname>Kruszon-Moran</surname><given-names>D</given-names></name>, <name><surname>Gu</surname><given-names>Q</given-names></name>, &amp; <name><surname>Ogden</surname><given-names>CL</given-names></name>. (<year>2018</year>). <source>Mean body weight, height, waist circumference, and body mass index among adults: United States, 1999–2000 through 2015–2016</source>. <comment>National Health Statistics Reports, No. 122.</comment>
+<publisher-name>United States National Center for Health Statistics</publisher-name>, <publisher-loc>Hyattsville, MD, USA</publisher-loc>. <comment><ext-link ext-link-type="uri" xlink:href="https://stacks.cdc.gov/view/cdc/61430">https://stacks.cdc.gov/view/cdc/61430</ext-link>.</comment></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12.</label>
+                <mixed-citation publication-type="web"><name><surname>Gozzi</surname><given-names>N</given-names></name>, <name><surname>Bajardi</surname><given-names>P</given-names></name>, &amp; <name><surname>Perra</surname><given-names>N</given-names></name>. (<year>2021</year>). <source>The importance of non-pharmaceutical interventions during the COVID-19 vaccine rollout</source>. <comment>Preprint available at: </comment><pub-id pub-id-type="doi">10.1101/2021.01.09.21249480</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13.</label>
+                <mixed-citation publication-type="web"><name><surname>Hall</surname><given-names>VJ</given-names></name>, <name><surname>Foulkes</surname><given-names>S</given-names></name>, <name><surname>Saei</surname><given-names>A</given-names></name>, <name><surname>Andrews</surname><given-names>N</given-names></name>, <name><surname>Oguti</surname><given-names>B</given-names></name>, <name><surname>Charlett</surname><given-names>A</given-names></name>, <name><surname>Wellington</surname><given-names>E</given-names></name>, <name><surname>Stowe</surname><given-names>J</given-names></name>, <name><surname>Gillson</surname><given-names>N</given-names></name>, <name><surname>Atti</surname><given-names>A</given-names></name>, <name><surname>Islam</surname><given-names>J</given-names></name>, <name><surname>Karagiannis</surname><given-names>I</given-names></name>, <name><surname>Munro</surname><given-names>K</given-names></name>, <name><surname>Khawam</surname><given-names>J</given-names></name>, <collab>The Siren Study Group</collab>, <name><surname>Chand</surname><given-names>MA</given-names></name>, <name><surname>Brown</surname><given-names>C</given-names></name>, <name><surname>Ramsey</surname><given-names>ME</given-names></name>, <name><surname>Bernal</surname><given-names>JL</given-names></name>, &amp; <name><surname>Hopkins</surname><given-names>S</given-names></name>. (<year>2021</year>). <source>Effectiveness of BNT162b2 mRNA vaccine against infection and COVID-19 vaccine coverage in healthcare workers in England, multicentre prospective cohort study (the SIREN Study)</source>. <comment>Preprint available at: </comment><pub-id pub-id-type="doi">10.2139/ssrn.3790399</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14.</label>
+                <mixed-citation publication-type="journal"><name><surname>Jacobs</surname><given-names>P</given-names></name>, &amp; <name><surname>Ohinmaa</surname><given-names>AP</given-names></name>. (<year>2020</year>). <article-title>The enforcement of statewide mask wearing mandates to prevent COVID-19 in the US: an overview</article-title>. <source>F1000Res</source>
+<volume>9</volume>:<fpage>1100</fpage>. <comment><ext-link ext-link-type="uri" xlink:href="https://dx.doi.org/10.12688%2Ff1000research.25907.1">https://dx.doi.org/10.12688%2Ff1000research.25907.1</ext-link></comment>.<pub-id pub-id-type="pmid">33520192</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15.</label>
+                <mixed-citation publication-type="journal"><name><surname>Kwon</surname><given-names>S-B</given-names></name>, <name><surname>Park</surname><given-names>J</given-names></name>, <name><surname>Jang</surname><given-names>J</given-names></name>, <name><surname>Cho</surname><given-names>Y</given-names></name>, <name><surname>Park</surname><given-names>D-S</given-names></name>, <name><surname>Kim</surname><given-names>C</given-names></name>, <name><surname>Bae</surname><given-names>G-N</given-names></name>, &amp; <name><surname>Jang</surname><given-names>A</given-names></name>. (<year>2012</year>). <article-title>Study on the initial velocity distribution of exhaled air from coughing and speaking</article-title>. <source>Chemosphere</source>
+<volume>87</volume>(<issue>11</issue>):<fpage>1260</fpage>–<lpage>1264</lpage>. <pub-id pub-id-type="doi">10.1016/j.chemosphere.2012.01.032</pub-id><pub-id pub-id-type="pmid">22342283</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16.</label>
+                <mixed-citation publication-type="web"><name><surname>Levine-Tiefenbrun</surname><given-names>M</given-names></name>, <name><surname>Yelin</surname><given-names>I</given-names></name>, <name><surname>Katz</surname><given-names>R</given-names></name>, <name><surname>Herzel</surname><given-names>E</given-names></name>, <name><surname>Golan</surname><given-names>Z</given-names></name>, <name><surname>Scheiber</surname><given-names>L</given-names></name>, <name><surname>Wolf</surname><given-names>T</given-names></name>, <name><surname>Nadler</surname><given-names>V</given-names></name>, <name><surname>Ben-Tov</surname><given-names>A</given-names></name>, <name><surname>Kuint</surname><given-names>J</given-names></name>, <name><surname>Gazit</surname><given-names>S</given-names></name>, <name><surname>Patalon</surname><given-names>T</given-names></name>, <name><surname>Chodick</surname><given-names>G</given-names></name>, &amp; <name><surname>Kishony</surname><given-names>R</given-names></name>. (<year>2021</year>). <source>Decreased SARS-CoV-2 viral load following vaccination</source>. <comment>Preprint available at: </comment><pub-id pub-id-type="doi">10.1101/2021.02.06.21251283</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17.</label>
+                <mixed-citation publication-type="web"><name><surname>Lipsitch</surname><given-names>M</given-names></name>, &amp; <name><surname>Kahn</surname><given-names>R</given-names></name>. (<year>2021</year>). <source>Interpreting vaccine efficacy trial results for infection and transmission</source>. <comment>Preprint available at: </comment><pub-id pub-id-type="doi">10.1101/2021.02.25.21252415</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18.</label>
+                <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>SL</given-names></name>, <name><surname>Nazaroff</surname><given-names>WW</given-names></name>, <name><surname>Jimenez</surname><given-names>JL</given-names></name>, <name><surname>Boerstra</surname><given-names>A</given-names></name>, <name><surname>Buonanno</surname><given-names>G</given-names></name>, <name><surname>Dancer</surname><given-names>SJ</given-names></name>, <name><surname>Kurnitski</surname><given-names>J</given-names></name>, <name><surname>Marr</surname><given-names>LC</given-names></name>, <name><surname>Morawska</surname><given-names>L</given-names></name>, &amp; <name><surname>Noakes</surname><given-names>C</given-names></name>. (<year>2020</year>). <article-title>Transmission of SARS-CoV-2 by inhalation of respiratory aerosol in the Skagit Valley Chorale superspreading event</article-title>. <source>Indoor Air</source>
+<volume>00</volume>:<fpage>1</fpage>–<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1111/ina.12751</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19.</label>
+                <mixed-citation publication-type="web"><name><surname>Moore</surname><given-names>S</given-names></name>, <name><surname>Hill</surname><given-names>EM</given-names></name>, <name><surname>Tildesley</surname><given-names>MJ</given-names></name>, <name><surname>Dyson</surname><given-names>L</given-names></name>, &amp; <name><surname>Keeling</surname><given-names>M</given-names></name>. (<year>2021</year>). <source>Vaccination and non-pharmaceutical interventions: when can the UK relax about COVID-19</source>. <comment>Preprint available at: </comment><pub-id pub-id-type="doi">10.1101/2020.12.27.20248896</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20.</label>
+                <mixed-citation publication-type="web"><collab>MultiState</collab>. (<year>2021</year>). <source>COVID-19 State and Local Policy Dashboard</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.multistate.us/research/covid/public">https://www.multistate.us/research/covid/public</ext-link>. [cited</comment><date-in-citation>2021 Apr 14</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21.</label>
+                <mixed-citation publication-type="journal"><name><surname>O’kelly</surname><given-names>E</given-names></name>, <name><surname>Pirog</surname><given-names>S</given-names></name>, <name><surname>Ward</surname><given-names>J</given-names></name>, <name><surname>Clarkson</surname><given-names>PJ</given-names></name>. (<year>2020</year>). <article-title>Ability of fabric face mask materials to filter ultrafine particles at coughing velocity</article-title>. <source>BMJ Open</source><volume>10</volume>(<issue>9</issue>):<fpage>e039424</fpage>. <pub-id pub-id-type="doi">10.1136/bmjopen-2020-039424</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22.</label>
+                <mixed-citation publication-type="journal"><name><surname>Pedersen</surname><given-names>MJ</given-names></name>, &amp; <name><surname>Favero</surname><given-names>N</given-names></name>. (<year>2020</year>). <article-title>Social distancing during the COVID-19 pandemic: who are the present and future noncompliers</article-title>. <source>Public Admin Rev</source>
+<volume>80</volume>(<issue>5</issue>):<fpage>805</fpage>–<lpage>814</lpage>. <pub-id pub-id-type="doi">10.1111/puar.13240</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23.</label>
+                <mixed-citation publication-type="book"><collab>R Core Team</collab>. (<year>2020</year>). <source>R: A language and environment for statistical computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>, <publisher-loc>Vienna, Austria</publisher-loc>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.R_project.org">https://www.R_project.org</ext-link>. [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24.</label>
+                <mixed-citation publication-type="book"><collab>RStudio Team</collab>. (<year>2018</year>). <source>RStudio: integrated development Environment for r</source>. <publisher-name>RStudio Team</publisher-name>, <publisher-loc>Boston, Massachusetts, USA</publisher-loc>. <comment><ext-link ext-link-type="uri" xlink:href="http://www.rstudio.com">http://www.rstudio.com</ext-link>. [cited</comment><date-in-citation>2021 Mar 2</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25.</label>
+                <mixed-citation publication-type="web"><collab>State of Iowa</collab>. (<year>2021</year>). <source>Public health proclamation – 2021.02.05</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://governor.iowa.gov/sites/default/files/documents/Public%20Health%20Proclamation%20-%202021.02.05.pdf">https://governor.iowa.gov/sites/default/files/documents/Public%20Health%20Proclamation%20-%202021.02.05.pdf</ext-link>. [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26.</label>
+                <mixed-citation publication-type="web"><collab>State of Mississippi</collab>. (<year>2021</year>). <source>Executive order No. 1549</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.sos.ms.gov/content/executiveorders/ExecutiveOrders/1549.pdf">https://www.sos.ms.gov/content/executiveorders/ExecutiveOrders/1549.pdf</ext-link> [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27.</label>
+                <mixed-citation publication-type="web"><collab>State of Texas</collab>. (<year>2021</year>). <source>Executive order GA 34</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://open.texas.gov/uploads/files/organization/opentexas/EO-GA-34-opening-Texas-response-to-COVID-disaster-IMAGE-03-02-2021.pdf">https://open.texas.gov/uploads/files/organization/opentexas/EO-GA-34-opening-Texas-response-to-COVID-disaster-IMAGE-03-02-2021.pdf</ext-link> [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28.</label>
+                <mixed-citation publication-type="web"><collab>The New York Times [NY Times]</collab>. (<year>2021</year>). <source>Coronavirus in the U.S.: latest map and case count</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#states">https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#states</ext-link>. [cited</comment><date-in-citation>2021 Apr 17</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29.</label>
+                <mixed-citation publication-type="web"><collab>United States Centers for Disease Control and Prevention [CDC]</collab>. (<year>2020</year>). <source>Flu vaccination coverage, United States, 2019–20 influenza season</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/flu/fluvaxview/coverage-1920estimates.htm">https://www.cdc.gov/flu/fluvaxview/coverage-1920estimates.htm</ext-link>. [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30.</label>
+                <mixed-citation publication-type="web"><collab>United States Centers for Disease Control and Prevention [CDC]</collab>. (<year>2021a</year>). <source>Different vaccines</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html">https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html</ext-link>. [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31.</label>
+                <mixed-citation publication-type="web"><collab>United States Centers for Disease Control and Prevention [CDC]</collab>. (<year>2021b</year>). <source>COVID data tracker</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://covid.cdc.gov/covid-data-tracker/#vaccinations">https://covid.cdc.gov/covid-data-tracker/#vaccinations</ext-link>. [cited</comment><date-in-citation>2021 Apr 17</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32.</label>
+                <mixed-citation publication-type="web"><collab>United States Centers for Disease Control and Prevention [CDC]</collab>. (<year>2021c</year>). <source>CDC issues first set of guidelines on how fully vaccinated people can visit safely with others</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/media/releases/2021/p0308-vaccinated-guidelines.html">https://www.cdc.gov/media/releases/2021/p0308-vaccinated-guidelines.html</ext-link>. [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33.</label>
+                <mixed-citation publication-type="book"><name><surname>Wickham</surname><given-names>H.</given-names></name> (<year>2016</year>). <source>ggplot2: elegant graphics for data analysis</source>. <publisher-name>Springer-Verlag</publisher-name>, <publisher-loc>New York, USA</publisher-loc>. <comment><ext-link ext-link-type="uri" xlink:href="https://ggplot2-book.org/">https://ggplot2-book.org/</ext-link>. [cited</comment>
+<date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34.</label>
+                <mixed-citation publication-type="book"><name><surname>Wilensky</surname><given-names>U.</given-names></name><comment>NetLogo.</comment> (<year>1999</year>). <source>Center for Connected Learning and Computer-Based Modeling</source>, <publisher-name>Northwestern University</publisher-name>, <publisher-loc>Evanston, IL</publisher-loc>. <comment><ext-link ext-link-type="uri" xlink:href="http://ccl.northwestern.edu/netlogo/">http://ccl.northwestern.edu/netlogo/</ext-link>. [cited</comment>
+<date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35.</label>
+                <mixed-citation publication-type="journal"><name><surname>Wölfel</surname><given-names>R</given-names></name>, <name><surname>Corman</surname><given-names>VM</given-names></name>, <name><surname>Guggemos</surname><given-names>W</given-names></name>, <name><surname>Sailmaier</surname><given-names>M</given-names></name>, <name><surname>Zange</surname><given-names>S</given-names></name>, <name><surname>Müller</surname><given-names>MA</given-names></name>, <name><surname>Niemeyer</surname><given-names>D</given-names></name>, <name><surname>Jones</surname><given-names>TC</given-names></name>, <name><surname>Vollmar</surname><given-names>P</given-names></name>, <name><surname>Rothe</surname><given-names>C</given-names></name>, <name><surname>Hoelscher</surname><given-names>M</given-names></name>, <name><surname>Bleicker</surname><given-names>T</given-names></name>, <name><surname>Brünink</surname><given-names>S</given-names></name>, <name><surname>Schneider</surname><given-names>J</given-names></name>, <name><surname>Ehmann</surname><given-names>R</given-names></name>, <name><surname>Zwirglmaier</surname><given-names>K</given-names></name>, <name><surname>Drosten</surname><given-names>C</given-names></name>, &amp; <name><surname>Wendtner</surname><given-names>C</given-names></name>. (<year>2020</year>). <article-title>Virological assessment hospitalized patients with COVID-2019</article-title>. <source>Nature</source>
+<volume>581</volume>:<fpage>465</fpage>–<lpage>469</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-020-2196-x</pub-id><pub-id pub-id-type="pmid">32235945</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36.</label>
+                <mixed-citation publication-type="web"><collab>World Health Organization [WHO]</collab>. (<year>2021</year>). <source>COVID-19 vaccines</source>. <comment><ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines</ext-link>. [cited</comment><date-in-citation>2021 Mar 26</date-in-citation><comment>]</comment>.</mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37.</label>
+                <mixed-citation publication-type="web"><name><surname>Yelin</surname><given-names>I</given-names></name>, <name><surname>Katz</surname><given-names>R</given-names></name>, <name><surname>Herzel</surname><given-names>E</given-names></name>, <name><surname>Berman-Zilberstein</surname><given-names>T</given-names></name>, <name><surname>Ben-Tov</surname><given-names>A</given-names></name>, <name><surname>Kuint</surname><given-names>J</given-names></name>, <name><surname>Gazit</surname><given-names>S</given-names></name>, <name><surname>Patalon</surname><given-names>T</given-names></name>, <name><surname>Chodick</surname><given-names>G</given-names></name>, &amp; <name><surname>Kishony</surname><given-names>R</given-names></name>. (<year>2021</year>). <source>Associations of the BNT162b2 COVID-19 vaccine effectiveness with patient age and comorbidities</source>. <comment>Preprint available at: </comment><pub-id pub-id-type="doi">10.1101/2021.03.16.21253686</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="F1" orientation="portrait" position="float">
+              <label>Figure 1.</label>
+              <caption>
+                <p id="P22">At low population densities and gathering duration limits, nonpharmaceutical interventions to prevent infection and elevated vaccination rates consistently decrease the probability of observing ≥ 1 successful SARS-CoV-2 transmission events in simulations.</p>
+              </caption>
+              <graphic xlink:href="nihpp-2021.04.19.21255737-f0001"/>
+            </fig>
+            <fig id="F2" orientation="portrait" position="float">
+              <label>Figure 2.</label>
+              <caption>
+                <p id="P23">Mean secondary attack rates in simulations indicate substantial variability in risk.</p>
+              </caption>
+              <graphic xlink:href="nihpp-2021.04.19.21255737-f0002"/>
+            </fig>
+            <fig id="F3" orientation="portrait" position="float">
+              <label>Figure 3.</label>
+              <caption>
+                <p id="P24">Predicted secondary attack rates suggest that the combination of cloth face masks and 2-m social distancing during indoor gatherings of varying durations consistently reduces secondary attack rates by 55–58%. This effect was only modeled for vaccine efficacies of 60% and 80%.</p>
+              </caption>
+              <graphic xlink:href="nihpp-2021.04.19.21255737-f0003"/>
+            </fig>
+            <fig id="F4" orientation="portrait" position="float">
+              <label>Figure 4.</label>
+              <caption>
+                <p id="P25">Estimated absolute risk of being infected with SARS-CoV-2 during 60-minute gatherings of varied sizes. Estimates were obtained by plugging <xref rid="F3" ref-type="fig">Figure 3</xref> predictions into <xref rid="FD3" ref-type="disp-formula">Equation 3</xref> with fixed COVID-19 prevalence and n values. a) Absolute risk of SARS-CoV-2 transmission given that 10 people attend the gathering. b) Absolute risk of SARS-CoV-2 transmission given that 20 people attend the gathering.</p>
+              </caption>
+              <graphic xlink:href="nihpp-2021.04.19.21255737-f0004"/>
+            </fig>
+            <table-wrap id="T1" orientation="portrait" position="float">
+              <label>Table 1.</label>
+              <caption>
+                <p id="P26">Model parameter and scenario-specific input descriptions for transmission simulations.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="center" valign="bottom" rowspan="1" colspan="1">Parameter/Model Input</th>
+                    <th align="center" valign="bottom" rowspan="1" colspan="1">Purpose<sup><xref rid="TFN2" ref-type="table-fn">¶</xref></sup></th>
+                    <th align="center" valign="bottom" rowspan="1" colspan="1">Value(s)</th>
+                    <th align="center" valign="bottom" rowspan="1" colspan="1">Reference(s)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4" align="left" valign="middle" rowspan="1">
+                      <bold>
+                        <italic>Infectiousness parameters</italic>
+                      </bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Droplet count (droplets/expectoration)</bold>
+                      <sup>
+                        <xref rid="TFN3" ref-type="table-fn">†</xref>
+                      </sup>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1.42e<sup>5</sup></td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1"><xref rid="R3" ref-type="bibr">Buonanno et al. 2020</xref>, <xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas 2021</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Droplet spread angle – not coughing (°)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">63.5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R15" ref-type="bibr">Kwon et al. 2012</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Droplet travel distance - not coughing (m)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.55 (0.068)<sup><xref rid="TFN9" ref-type="table-fn">‡</xref><xref rid="TFN4" ref-type="table-fn">§</xref></sup></td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R7" ref-type="bibr">Das et al. 2020</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Vaccine-induced infectiousness reduction (%)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Within-group variation</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0, 25, 50, 75</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Vaccination may reduce infectiousness of asymptomatic individuals by as much as 75%, but effects are unclear (<xref rid="R16" ref-type="bibr">Levine-Tiefenbrun et al. 2021</xref>).</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" align="left" valign="middle" rowspan="1">
+                      <bold>
+                        <italic>Scenario environment and individual behavior inputs</italic>
+                      </bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Area (m2)</bold>
+                      <xref rid="TFN1" ref-type="table-fn">*</xref>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Within-group variation</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">36, 81, 225</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Expectoration height (m)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1.7</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R11" ref-type="bibr">Fryar et al. 2018</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Inhalation rate (m</bold>
+                      <sup>
+                        <bold>3</bold>
+                      </sup>
+                      <bold>air/min)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.023</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R1" ref-type="bibr">Adams 1993</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Maximum people in a single 1-m</bold>
+                      <sup>
+                        <bold>2</bold>
+                      </sup>
+                      <bold>patch (people)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Number of asymptomatic infectious individuals (people)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>
+                        <italic>Scenario virion behavior inputs</italic>
+                      </bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                    <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Virion count (virions/mL fluid)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2.35e<sup>9</sup></td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R35" ref-type="bibr">Wölfel et al. 2020</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Virion decay rate (%/min)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1.05</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R8" ref-type="bibr">van Doremalen et al. 2020</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Virion infection risk (%/inhaled virion)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">6.24</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas 2021</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" align="left" valign="middle" rowspan="1">
+                      <bold>
+                        <italic>Scenario airflow inputs</italic>
+                      </bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Diffusion rate (m</bold>
+                      <sup>
+                        <bold>3</bold>
+                      </sup>
+                      <bold>/min)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1.5e<sup>−3</sup></td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <xref rid="R4" ref-type="bibr">Castillo &amp; Weibel 2018</xref>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Forced airflow</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fixed value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">off</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" align="left" valign="middle" rowspan="1">
+                      <bold>
+                        <italic>Scenario intervention inputs</italic>
+                      </bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Nonpharmaceutical intervention scenarios</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Between-group comparison: intervention combinations Within-group variation: mask efficacy</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <list list-type="bullet" id="L2">
+                        <list-item>
+                          <p id="P27">Mask use (10% exposure-reduction efficacy), 2m attempted social distancing</p>
+                        </list-item>
+                        <list-item>
+                          <p id="P28">Mask use (25% exposure-reduction efficacy), 2m attempted social distancing</p>
+                        </list-item>
+                        <list-item>
+                          <p id="P29">Mask use (50% exposure-reduction efficacy), 2m attempted social distancing</p>
+                        </list-item>
+                        <list-item>
+                          <p id="P30">Mask use (10% exposure-reduction efficacy), no attempted social distancing</p>
+                        </list-item>
+                        <list-item>
+                          <p id="P31">Mask use (25% exposure-reduction efficacy), no attempted social distancing</p>
+                        </list-item>
+                        <list-item>
+                          <p id="P32">Mask use (50% exposure-reduction efficacy), no attempted social distancing</p>
+                        </list-item>
+                        <list-item>
+                          <p id="P33">No nonpharmaceutical interventions</p>
+                        </list-item>
+                      </list>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Mask use is intended to represent use <italic>of cloth</italic> masks to prevent exposure to infectious media. Cloth mask efficacy is highly variable (<xref rid="R21" ref-type="bibr">O’kelly et al. 2020</xref>).</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Gathering duration (min)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Between-group comparison</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">10, 60</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Vaccine efficacy for preventing infection (%)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Between-group comparison</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">50, 65, 80, 100</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Vaccine coverage (%)</bold>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Between-group comparison</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0:100 by 5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <bold>Population density (people/m2)</bold>
+                      <xref rid="TFN5" ref-type="table-fn">**</xref>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Between-group comparison</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.17, 0.33, 0.67, 1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">-</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="TFN1">
+                  <label>*</label>
+                  <p id="P34">All simulated worlds were square-shaped.</p>
+                </fn>
+                <fn id="TFN2">
+                  <label>¶</label>
+                  <p id="P35">The Purpose column describes why the parameter or input was included as it relates to analyses. Specifically, “Fixed value” indicates that values are unchanged across all simulations, and are thus irrelevant for analyses. “Between-group comparison” indicates that levels were used in factorial combinations for data aggregation and reporting. “Within-group variation” indicates that different levels were included to increase the variation in simulation results, and by doing so increase model realism.</p>
+                </fn>
+                <fn id="TFN3">
+                  <label>†</label>
+                  <p id="P36">Based on linear modeling described in Appendix S2 of <xref rid="R9" ref-type="bibr">Farthing &amp; Lanzas (2021)</xref>, this value equates to 142 quanta/hr, the average quanta emission rate for asymptomatic people calculated by <xref rid="R3" ref-type="bibr">Buonanno et al. (2020)</xref>.</p>
+                </fn>
+                <fn id="TFN9">
+                  <label>‡</label>
+                  <p id="P37">Standard deviation is given in parentheses.</p>
+                </fn>
+                <fn id="TFN4">
+                  <label>§</label>
+                  <p id="P38"><xref rid="R7" ref-type="bibr">Das et al. (2020)</xref> estimated the average travel distance of a 100-micrometer droplet expelled from a height of 1.7 m at a velocity of 0.5 m/s to be 0.55 m. They also found that the majority of 100-μm droplets will fall 0.55–2.35 m away from the expelling individual, depending on initial velocity, but droplets may settle up to 3.2 m away very rarely. A random draw of 10,000,000 samples from a log-normal distribution parameterized using 1.7-m and 0.2095-m droplet spread distance mean and standard deviation values, respectively, generated a distribution in line with this finding. The standard deviation we use in simulations for non-coughing expectoration is proportionate to the one used in this random draw.</p>
+                </fn>
+                <fn id="TFN5">
+                  <label>**</label>
+                  <p id="P39">Instead of specifying a fixed number of individuals in simulations, we scaled the simulated population with world size.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <table-wrap id="T2" orientation="portrait" position="float">
+              <label>Table 2.</label>
+              <caption>
+                <p id="P40">Covariate values used for prediction in our example.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="center" valign="bottom" rowspan="1" colspan="1">Covariate</th>
+                    <th align="center" valign="bottom" rowspan="1" colspan="1">Value(s)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">
+                      <bold>Gathering duration</bold>
+                    </td>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">60 min</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">
+                      <bold>Intervention level</bold>
+                    </td>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">
+                      <list list-type="bullet" id="L4">
+                        <list-item>
+                          <p id="P41">cloth face masks &amp; 2-m social distancing &amp; vaccination</p>
+                        </list-item>
+                        <list-item>
+                          <p id="P42">vaccination only</p>
+                        </list-item>
+                      </list>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">
+                      <bold>Vaccine coverage</bold>
+                    </td>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">0:1 by 0.1</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">
+                      <bold>Vaccine efficacy</bold>
+                    </td>
+                    <td align="center" valign="bottom" rowspan="1" colspan="1">0.6, 0.8</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="T3" orientation="portrait" position="float">
+              <label>Table 3.</label>
+              <caption>
+                <p id="P43">Logit scale estimates associated with 1-unit increases in covariate values given by our beta-regression model. Wald 95% confidence intervals are given in parentheses.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="center" valign="top" rowspan="1" colspan="1">Coefficient</th>
+                    <th align="center" valign="top" rowspan="1" colspan="1">Estimate</th>
+                    <th align="center" valign="top" rowspan="1" colspan="1">
+                      <italic>p</italic>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>Intercept</bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">−3.786 (−3.857, −3.716)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>
+                        <italic>ϕ</italic>
+                      </bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">28.899 (28.336, 29.462)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>Gathering duration (min)</bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">0.012 (0.011, 0.012)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>Intervention level</bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1"/>
+                    <td align="center" valign="top" rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1"> <bold><italic>Cloth face masks &amp; 2-m social distancing &amp; vaccination</italic></bold><xref rid="TFN6" ref-type="table-fn">*</xref></td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">0 (0, 0)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">-</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1"> <bold><italic>Cloth face masks &amp; vaccination</italic></bold></td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">0.761 (0.737, 0.785)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>
+                        <italic>Vaccination only</italic>
+                      </bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">0.889 (0.866, 0.913)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>Vaccine coverage</bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">0.783 (0.660, 0.905)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>Vaccine efficacy</bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">0.385 (0.297, 0.472)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <bold>Vaccine coverage X Vaccine efficacy</bold>
+                    </td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">−2.652 (−2.816, −2.487)</td>
+                    <td align="center" valign="top" rowspan="1" colspan="1">&lt; 0.001</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="TFN6">
+                  <label>*</label>
+                  <p id="P44">This is the reference level used to establish a baseline for binary dummy variables.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

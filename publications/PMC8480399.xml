@@ -1,0 +1,2700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:50:07Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8480399" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8480399</identifier>
+        <datestamp>2021-11-24</datestamp>
+        <setSpec>jmir</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Med Internet Res</journal-id>
+              <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+              <journal-title-group>
+                <journal-title>Journal of Medical Internet Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1439-4456</issn>
+              <issn pub-type="epub">1438-8871</issn>
+              <publisher>
+                <publisher-name>JMIR Publications</publisher-name>
+                <publisher-loc>Toronto, Canada</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8480399</article-id>
+              <article-id pub-id-type="pmcid">PMC8480399</article-id>
+              <article-id pub-id-type="pmc-uid">8480399</article-id>
+              <article-id pub-id-type="pmid">34449401</article-id>
+              <article-id pub-id-type="publisher-id">v23i9e30157</article-id>
+              <article-id pub-id-type="pmid">34449401</article-id>
+              <article-id pub-id-type="doi">10.2196/30157</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+                <subj-group subj-group-type="article-type">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>COVID-19 Mortality Prediction From Deep Learning in a Large Multistate Electronic Health Record and Laboratory Information System Data Set: Algorithm Development and Validation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Basch</surname>
+                    <given-names>Corey</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>Hyung-Jun</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="reviewer">
+                  <name>
+                    <surname>Lalmuanawma</surname>
+                    <given-names>Samuel</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib id="contrib1" contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Sankaranarayanan</surname>
+                    <given-names>Saranya</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7656-4094</contrib-id>
+                </contrib>
+                <contrib id="contrib2" contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Balan</surname>
+                    <given-names>Jagadheshwar</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8291-4054</contrib-id>
+                </contrib>
+                <contrib id="contrib3" contrib-type="author">
+                  <name>
+                    <surname>Walsh</surname>
+                    <given-names>Jesse R</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6048-1166</contrib-id>
+                </contrib>
+                <contrib id="contrib4" contrib-type="author">
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>Yanhong</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7930-2201</contrib-id>
+                </contrib>
+                <contrib id="contrib5" contrib-type="author">
+                  <name>
+                    <surname>Minnich</surname>
+                    <given-names>Sara</given-names>
+                  </name>
+                  <degrees>BA</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2971-0113</contrib-id>
+                </contrib>
+                <contrib id="contrib6" contrib-type="author">
+                  <name>
+                    <surname>Piazza</surname>
+                    <given-names>Amy</given-names>
+                  </name>
+                  <degrees>MLS</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1100-0255</contrib-id>
+                </contrib>
+                <contrib id="contrib7" contrib-type="author">
+                  <name>
+                    <surname>Osborne</surname>
+                    <given-names>Collin</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5165-6729</contrib-id>
+                </contrib>
+                <contrib id="contrib8" contrib-type="author">
+                  <name>
+                    <surname>Oliver</surname>
+                    <given-names>Gavin R</given-names>
+                  </name>
+                  <degrees>MS</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9948-3799</contrib-id>
+                </contrib>
+                <contrib id="contrib9" contrib-type="author">
+                  <name>
+                    <surname>Lesko</surname>
+                    <given-names>Jessica</given-names>
+                  </name>
+                  <degrees>MA</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-5999-989X</contrib-id>
+                </contrib>
+                <contrib id="contrib10" contrib-type="author">
+                  <name>
+                    <surname>Bates</surname>
+                    <given-names>Kathy L</given-names>
+                  </name>
+                  <degrees>MBA</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-8646-2120</contrib-id>
+                </contrib>
+                <contrib id="contrib11" contrib-type="author">
+                  <name>
+                    <surname>Khezeli</surname>
+                    <given-names>Kia</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1982-9391</contrib-id>
+                </contrib>
+                <contrib id="contrib12" contrib-type="author">
+                  <name>
+                    <surname>Block</surname>
+                    <given-names>Darci R</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-2130-3372</contrib-id>
+                </contrib>
+                <contrib id="contrib13" contrib-type="author">
+                  <name>
+                    <surname>DiGuardo</surname>
+                    <given-names>Margaret</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-0900-377X</contrib-id>
+                </contrib>
+                <contrib id="contrib14" contrib-type="author">
+                  <name>
+                    <surname>Kreuter</surname>
+                    <given-names>Justin</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7842-8208</contrib-id>
+                </contrib>
+                <contrib id="contrib15" contrib-type="author">
+                  <name>
+                    <surname>O’Horo</surname>
+                    <given-names>John C</given-names>
+                  </name>
+                  <degrees>MPH, MD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-0880-4498</contrib-id>
+                </contrib>
+                <contrib id="contrib16" contrib-type="author">
+                  <name>
+                    <surname>Kalantari</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4229-162X</contrib-id>
+                </contrib>
+                <contrib id="contrib17" contrib-type="author">
+                  <name>
+                    <surname>Klee</surname>
+                    <given-names>Eric W</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2946-5795</contrib-id>
+                </contrib>
+                <contrib id="contrib18" contrib-type="author">
+                  <name>
+                    <surname>Salama</surname>
+                    <given-names>Mohamed E</given-names>
+                  </name>
+                  <degrees>MD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6696-0061</contrib-id>
+                </contrib>
+                <contrib id="contrib19" contrib-type="author">
+                  <name>
+                    <surname>Kipp</surname>
+                    <given-names>Benjamin</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9477-0118</contrib-id>
+                </contrib>
+                <contrib id="contrib20" contrib-type="author">
+                  <name>
+                    <surname>Morice</surname>
+                    <given-names>William G</given-names>
+                  </name>
+                  <degrees>MD, PhD</degrees>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-5801-2501</contrib-id>
+                </contrib>
+                <contrib id="contrib21" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Jenkinson</surname>
+                    <given-names>Garrett</given-names>
+                  </name>
+                  <degrees>PhD</degrees>
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2548-098X</contrib-id>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <address>
+                    <institution>Mayo Clinic</institution>
+                    <addr-line>200 1st St SW</addr-line>
+                    <addr-line>Rochester, MN, 55905</addr-line>
+                    <country>United States</country>
+                    <phone>1 507 293 9457</phone>
+                    <email>Jenkinson.William@mayo.edu</email>
+                  </address>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <institution>Mayo Clinic</institution>
+                <addr-line>Rochester, MN</addr-line>
+                <country>United States</country>
+              </aff>
+              <author-notes>
+                <corresp>Corresponding Author: Garrett Jenkinson <email>Jenkinson.William@mayo.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>28</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.-->
+              <volume>23</volume>
+              <issue>9</issue>
+              <elocation-id>e30157</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>5</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-request">
+                  <day>28</day>
+                  <month>6</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>18</day>
+                  <month>7</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>8</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©Saranya Sankaranarayanan, Jagadheshwar Balan, Jesse R Walsh, Yanhong Wu, Sara Minnich, Amy Piazza, Collin Osborne, Gavin R Oliver, Jessica Lesko, Kathy L Bates, Kia Khezeli, Darci R Block, Margaret DiGuardo, Justin Kreuter, John C O’Horo, John Kalantari, Eric W Klee, Mohamed E Salama, Benjamin Kipp, William G Morice, Garrett Jenkinson. Originally published in the Journal of Medical Internet Research (https://www.jmir.org), 28.09.2021.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link xlink:href="https://www.jmir.org/" ext-link-type="uri">https://www.jmir.org/</ext-link>, as well as this copyright and license information must be included.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="https://www.jmir.org/2021/9/e30157"/>
+              <abstract>
+                <sec sec-type="background">
+                  <title>Background</title>
+                  <p>COVID-19 is caused by the SARS-CoV-2 virus and has strikingly heterogeneous clinical manifestations, with most individuals contracting mild disease but a substantial minority experiencing fulminant cardiopulmonary symptoms or death. The clinical covariates and the laboratory tests performed on a patient provide robust statistics to guide clinical treatment. Deep learning approaches on a data set of this nature enable patient stratification and provide methods to guide clinical treatment.</p>
+                </sec>
+                <sec sec-type="objective">
+                  <title>Objective</title>
+                  <p>Here, we report on the development and prospective validation of a state-of-the-art machine learning model to provide mortality prediction shortly after confirmation of SARS-CoV-2 infection in the Mayo Clinic patient population.</p>
+                </sec>
+                <sec sec-type="methods">
+                  <title>Methods</title>
+                  <p>We retrospectively constructed one of the largest reported and most geographically diverse laboratory information system and electronic health record of COVID-19 data sets in the published literature, which included 11,807 patients residing in 41 states of the United States of America and treated at medical sites across 5 states in 3 time zones. Traditional machine learning models were evaluated independently as well as in a stacked learner approach by using AutoGluon, and various recurrent neural network architectures were considered. The traditional machine learning models were implemented using the AutoGluon-Tabular framework, whereas the recurrent neural networks utilized the TensorFlow Keras framework. We trained these models to operate solely using routine laboratory measurements and clinical covariates available within 72 hours of a patient’s first positive COVID-19 nucleic acid test result.</p>
+                </sec>
+                <sec sec-type="results">
+                  <title>Results</title>
+                  <p>The GRU-D recurrent neural network achieved peak cross-validation performance with 0.938 (SE 0.004) as the area under the receiver operating characteristic (AUROC) curve. This model retained strong performance by reducing the follow-up time to 12 hours (0.916 [SE 0.005] AUROC), and the leave-one-out feature importance analysis indicated that the most independently valuable features were age, Charlson comorbidity index, minimum oxygen saturation, fibrinogen level, and serum iron level. In the prospective testing cohort, this model provided an AUROC of 0.901 and a statistically significant difference in survival (<italic>P</italic>&lt;.001, hazard ratio for those predicted to survive, 95% CI 0.043-0.106).</p>
+                </sec>
+                <sec sec-type="conclusions">
+                  <title>Conclusions</title>
+                  <p>Our deep learning approach using GRU-D provides an alert system to flag mortality for COVID-19–positive patients by using clinical covariates and laboratory values within a 72-hour window after the first positive nucleic acid test result.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>COVID-19</kwd>
+                <kwd>mortality</kwd>
+                <kwd>prediction</kwd>
+                <kwd>recurrent neural networks</kwd>
+                <kwd>missing data</kwd>
+                <kwd>time series</kwd>
+                <kwd>deep learning</kwd>
+                <kwd>machine learning</kwd>
+                <kwd>neural network</kwd>
+                <kwd>electronic health record</kwd>
+                <kwd>EHR</kwd>
+                <kwd>algorithm</kwd>
+                <kwd>development</kwd>
+                <kwd>validation</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction">
+              <title>Introduction</title>
+              <p>COVID-19 is caused by the SARS-CoV-2 virus and is suspected to be of zoonotic origin, with spillover from bats or pangolins into humans in Wuhan, China [<xref rid="ref1" ref-type="bibr">1</xref>,<xref rid="ref2" ref-type="bibr">2</xref>]. COVID-19 has become one of the largest public health emergencies of the past century with over 203 million confirmed cases and 4.3 million deaths as of August 2021 according to the World Health Organization [<xref rid="ref3" ref-type="bibr">3</xref>]. The COVID-19 pandemic has overwhelmed global medical supply chains, hospitals, and economies, which has led governments to respond with varying policies, including mask mandates and travel restrictions [<xref rid="ref4" ref-type="bibr">4</xref>,<xref rid="ref5" ref-type="bibr">5</xref>]. At times, hospitals and health care workers have become so overburdened with patients with COVID-19 that they have been forced to ration care, raising logistical and ethical concerns [<xref rid="ref6" ref-type="bibr">6</xref>].</p>
+              <p>The clinical course of COVID-19 is diverse with most individuals experiencing mild or asymptomatic disease, but many patients develop life-threatening diseases, including features such as cytokine storms, thrombotic complications, or severe acute respiratory syndrome requiring mechanical ventilation or extracorporeal membrane oxygenation [<xref rid="ref7" ref-type="bibr">7</xref>]. A major medical challenge is therefore to reliably triage patients according to their risk for severe disease. Age is consistently observed to be a predominant risk factor for severe disease [<xref rid="ref7" ref-type="bibr">7</xref>], but deaths are not limited to older adults and the majority of older patients survive COVID-19 [<xref rid="ref7" ref-type="bibr">7</xref>]. Other comorbidities and laboratory test values are expected to be capable of further individualizing and enhancing mortality prediction. Recent studies investigating statistical and machine learning (ML) models for mortality prediction have confirmed that detailed evaluation of medical records can facilitate further stratification of patients [<xref rid="ref8" ref-type="bibr">8</xref>-<xref rid="ref12" ref-type="bibr">12</xref>].</p>
+              <p>A systematic review of 147 published or preprint prediction models found consistent problems with inherent biases in the data sets investigated or created in all such studies, ultimately concluding that “we do not recommend any of these reported prediction models for use in current practice” [<xref rid="ref12" ref-type="bibr">12</xref>]. Clinical practices differ in the nature of their observational electronic health record (EHR) data set, patient population, clinical practices, and electronic record or laboratory ordering practices. Correspondingly, the literature review conducted at the outset of this study indicated that the existing prediction models were likely unsuited to our clinical setting without essentially starting afresh by retraining, validating, and testing predictions.</p>
+              <p>We describe Mayo Clinic’s experience assembling, what is to our knowledge, the largest reported COVID-19 database for mortality prediction and using this database to create a system for COVID-19 mortality prediction, tailored to a unique patient population. Despite the biases inherent to it, because this large and growing database represents a health care system spanning 5 states and 3 time zones over a study window greater than 11 months, our model is expected to be the least confounded and the most generalized COVID-19 mortality predictor published to date. We report the successful development and validation of a state-of-the-art ML model to provide mortality prediction shortly after confirmation of SARS-CoV-2 infection in this Mayo Clinic patient population and discuss in detail the various logistical and scientific challenges involved in the early deployment of such a system in a rapidly changing pandemic environment.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Study Design</title>
+                <p>This work required the development of a data set and the subsequent modeling of the resultant cohort. After data collection and cleaning, 2 broad classes of algorithms were considered to model this data. The first approach ignores the time series nature of the underlying data and applies traditional ML classifiers. The second approach explicitly models the time series data while dealing with the missing-not-at-random (MNAR) values by using specialized recurrent neural networks (RNNs). Both types of modeling methods were run independently and compared using cross-validation, and a single winning model was selected for prospective performance validation.</p>
+              </sec>
+              <sec>
+                <title>EHR and Laboratory Information System Observational Cohort Data Collection</title>
+                <p>This study adheres to a research protocol approved by the Mayo Clinic Institutional Review Board. Data were retrospectively collected after March 1, 2020 on COVID-19–positive individuals presenting to a Mayo Clinic site or health system, while excluding patients without research consent or from European Union countries covered by the general data protection regulation law. We restricted our focus to 11,807 patients with a positive COVID-19 nucleic acid test result on or before January 27, 2021 and at least one non-COVID test result. Although the data collection system is deployed and ongoing, the January cutoff was selected for this study to provide sufficient cohort size while allowing a minimum of 3 weeks of follow-up to accurately establish survival status. Mayo Clinic’s EHR and laboratory information system (LIS) contain data from each of its 3 campuses (Rochester, Minnesota; Jacksonville, Florida; Scottsdale, Arizona) as well as the surrounding health system sites spanning 5 states (MN, IA, WI, FL, and AZ). Although the EHR contains clinically reportable laboratory results, many of these can only be reported within defined ranges, which can result in qualitative text values rather than the raw numeric measurements. Because many ML algorithms typically work better with quantitative rather than qualitative results, we used the LIS to gather such laboratory testing measurements and the EHR to gather the remaining variables. The EHR data were queried from an underlying Db2 database (IBM Corp), and the LIS data were queried from an SQL database (Microsoft).</p>
+              </sec>
+              <sec>
+                <title>Multivariate Time-Series Data With Missingness</title>
+                <p>The clinical covariates collected were age, sex, height, weight, Charlson comorbidity score, temperature, blood pressure, respiratory rate, oxygen saturation (SpO<sub>2</sub>) levels, and diagnoses of chronic kidney disease or diabetes mellitus. Furthermore, we included laboratory test values from a basic metabolic panel, complete blood counts, and some less routine test results of relevance to COVID-19, as determined by scientific literature and physician collaborators. <xref rid="table1" ref-type="table">Table 1</xref> details the features collated into our database. In <xref rid="app1" ref-type="supplementary-material">Multimedia Appendix 1</xref>, we provide a detailed breakdown of these clinical covariates and laboratory values in our cohort (Table S1 of <xref rid="app1" ref-type="supplementary-material">Multimedia Appendix 1</xref>) as well as the cohort’s geographic distribution (Figure S1 of <xref rid="app1" ref-type="supplementary-material">Multimedia Appendix 1</xref>). Differentiating between missing data and absence of a condition is not possible from EHR diagnostic codes, particularly for patients treated in an outpatient setting. Therefore, we focused mainly on the Charlson comorbidity index [<xref rid="ref13" ref-type="bibr">13</xref>], which is populated in our EHR when there is a recorded medical history during a “patient encounter” in the EHR. Thus, this variable is available and can be assigned a value corresponding to no comorbidities, which is distinct from missingness in the case of no recorded medical history in the EHR. However, owing to their emphasis within the literature, we also included chronic kidney disease [<xref rid="ref9" ref-type="bibr">9</xref>] and diabetes mellitus [<xref rid="ref14" ref-type="bibr">14</xref>] as independent comorbidity variables using their ICD-10 (International Classification of Diseases) codes while acknowledging that these variables conflate missingness with lack of a condition.</p>
+                <p>Clinical covariates such as pre-existing conditions, height, and weight were sampled infrequently, whereas heart rate and SpO<sub>2</sub> were recorded every 15 minutes for inpatients in our EHR, and other laboratory tests were intermediate in terms of frequency. Therefore, to deal with these multiscale time series measurements, we used the laboratory measurements as the starting point to define our sampling time points. For the variables of sex, age, weight, height, diabetes mellitus, chronic kidney disease, and Charlson comorbidity index, we encoded these variables to exist at the first time point only; in our top performing RNN models, we observed no difference in performance using this strategy when compared to repeating the observations at each time point. For the frequently observed variables of blood pressure systole, blood pressure diastole, temperature, pulse, respiratory rate, and SpO<sub>2</sub>, we computed the minimum and maximum measurements for each calendar day and appended these to each laboratory time point during those dates; if no laboratory time point existed on a given day, we created a new one at noon using these minimum and maximum values. We considered time points within ±72 hours of each patient’s first positive polymerase chain reaction (PCR) result and performed a sensitivity analysis on the length of the patient follow-up after this positive test result.</p>
+                <table-wrap position="float" id="table1">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Feature measurements collected.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="500" span="1"/>
+                    <col width="500" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Abbreviation</td>
+                        <td rowspan="1" colspan="1">Description (units or levels)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">sex</td>
+                        <td rowspan="1" colspan="1">Sex (male or female)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">age</td>
+                        <td rowspan="1" colspan="1">Age at time of polymerase chain reaction–positive test result (years)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">weight</td>
+                        <td rowspan="1" colspan="1">Weight (kg)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">height</td>
+                        <td rowspan="1" colspan="1">Height (cm)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">PCR</td>
+                        <td rowspan="1" colspan="1">SARS-CoV-2 nucleic acid test (+ or –)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">SERO</td>
+                        <td rowspan="1" colspan="1">SARS-CoV-2 serology antibody test (+ or –)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BASAA</td>
+                        <td rowspan="1" colspan="1">Basophil count test (10<sup>9</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">EOSAA</td>
+                        <td rowspan="1" colspan="1">Eosinophil count test (10<sup>9</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">HCT</td>
+                        <td rowspan="1" colspan="1">Hematocrit test (%)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">HGB</td>
+                        <td rowspan="1" colspan="1">Hemoglobin test (g/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">LYMAA</td>
+                        <td rowspan="1" colspan="1">Lymphocyte count test (10<sup>9</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">MCV</td>
+                        <td rowspan="1" colspan="1">Mean corpuscular volume test (fL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">MONAA</td>
+                        <td rowspan="1" colspan="1">Monocyte count test (10<sup>9</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">NEUAA</td>
+                        <td rowspan="1" colspan="1">Neutrophil count test (10<sup>9</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">PLTC</td>
+                        <td rowspan="1" colspan="1">Platelet count test (10<sup>9</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">RBC</td>
+                        <td rowspan="1" colspan="1">Red blood cell count test (10<sup>12</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">RDW</td>
+                        <td rowspan="1" colspan="1">Red cell distribution width test (%)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">WBC</td>
+                        <td rowspan="1" colspan="1">White blood cell count test (10<sup>9</sup>/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CRP</td>
+                        <td rowspan="1" colspan="1">C-reactive protein test (mg/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">D-DIMER</td>
+                        <td rowspan="1" colspan="1">D-dimer test (ng/mL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">FERR</td>
+                        <td rowspan="1" colspan="1">Ferritin test (mg/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">IL6</td>
+                        <td rowspan="1" colspan="1">Interleukin-6 test (pg/mL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">TRPS</td>
+                        <td rowspan="1" colspan="1">Troponin T test (ng/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">FIBTP</td>
+                        <td rowspan="1" colspan="1">Fibrinogen test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">LD</td>
+                        <td rowspan="1" colspan="1">Lactate dehydrogenase test (U/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">IRON</td>
+                        <td rowspan="1" colspan="1">Serum iron test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">TIBC</td>
+                        <td rowspan="1" colspan="1">Total iron binding capacity test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">SAT</td>
+                        <td rowspan="1" colspan="1">Percent iron saturation test (%)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">TRSFC</td>
+                        <td rowspan="1" colspan="1">Transferrin test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BUN</td>
+                        <td rowspan="1" colspan="1">Blood urea nitrogen test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CHL</td>
+                        <td rowspan="1" colspan="1">Chloride test (mmol/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">GLU</td>
+                        <td rowspan="1" colspan="1">Glucose test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CALC</td>
+                        <td rowspan="1" colspan="1">Calcium test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CREA</td>
+                        <td rowspan="1" colspan="1">Creatinine test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">POTA</td>
+                        <td rowspan="1" colspan="1">Potassium test (mmol/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">ALB</td>
+                        <td rowspan="1" colspan="1">Albumin test (g/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BICA</td>
+                        <td rowspan="1" colspan="1">Bicarbonate test (mmol/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">SODI</td>
+                        <td rowspan="1" colspan="1">Sodium test (mmol/L)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BILI</td>
+                        <td rowspan="1" colspan="1">Bilirubin test (mg/dL)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BPsystole</td>
+                        <td rowspan="1" colspan="1">Blood pressure systole (mm Hg)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">BPdiastole</td>
+                        <td rowspan="1" colspan="1">Blood pressure diastole (mm Hg)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Temp</td>
+                        <td rowspan="1" colspan="1">Temperature (°C)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Pulse</td>
+                        <td rowspan="1" colspan="1">Heart rate (1/min)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Resp</td>
+                        <td rowspan="1" colspan="1">Respiratory rate (1/min)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">SpO<sub>2</sub></td>
+                        <td rowspan="1" colspan="1">Oxygen saturation (%)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Charlson</td>
+                        <td rowspan="1" colspan="1">Charlson comorbidity index (10-year survival probability)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CKD</td>
+                        <td rowspan="1" colspan="1">Chronic kidney disease (+ or –)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">DM</td>
+                        <td rowspan="1" colspan="1">Diabetes mellitus (+ or –)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Time-Flattened ML Models</title>
+                <p>Time series data were flattened/encoded to a fixed length list of features by carry forward imputation (ie, selection of the most recently observed covariate values), ensuring compatibility with traditional ML models. Specifically, after the data are flattened in this fashion, it forms a tabular prediction task suitable for any canonical supervised classification algorithm. The recently published [<xref rid="ref15" ref-type="bibr">15</xref>] Python-based automated ML tool AutoGluon-Tabular (v0.2.0) was utilized to enable standardized and reproducible ensemble stacking of many model classes (eg, deep neural networks, LightGBM boosted trees, CatBoost boosted trees, Random Forests, Extremely Randomized Trees, XGBoost, and k-Nearest Neighbors).</p>
+                <p>AutoGluon-Tabular models were fit to our tabular data frames using the “AutoGluon.TabularPrediction.fit” function using all the default parameters except eval_metric='roc_auc'. After running the fit function, access to each individual model created by AutoGluon was achieved by the “get_model_names” method on the resulting prediction object. This then allowed us to pass the specified model to the “predict_proba” method’s optional “model” argument for each of the following model types: KNeighborsUnif, KNeighborsDist, NeuralNetFastAI, LightGBMLarge, NeuralNetMXNet, RandomForestGini, ExtraTreesGini, RandomForestEntr, ExtraTreesEntr, LightGBM, XGBoost, LightGBMXT, CatBoost, WeightedEnsemble_L2. Hereon, we refer to WeightedEnsemble_L2 as the “AutoGluon” model since this was the output of the “predict_proba” method when no single model type was specified.</p>
+                <p>For relatively static features such as height, weight, or Charlson comorbidity index, we would expect the time-flattened models to be at no disadvantage, whereas the more frequently measured data such as laboratory values or blood pressure will lose information, particularly about trends in the covariates. For instance, 2 individuals with a fever of 39°C recorded in the most recent observation would be treated the same even if one had a sustained high fever and the other had a brief downward trending spike. Of course, there are many potential degrees of freedom to capture more information in the flattened data; one could define a fixed number of the most recent observations or fit a line through the observations over time and pass the slope and intercept as features to the classifier. However, ultimately, the choice to flatten the time series is a choice of convenience and one that attempts to leverage the extensive research efforts devoted to tabular prediction, and therefore, we study here only the last observation carried forward modeling, since proper modeling efforts should account for the time series structure in the EHR data. We next look at models of this form.</p>
+              </sec>
+              <sec>
+                <title>RNN Time Series Models</title>
+                <p>As the second approach, we implemented the modified gated recurrent unit (GRU) binary classification models proposed by Che et al [<xref rid="ref16" ref-type="bibr">16</xref>] that are capable of accounting for the MNAR patterns within EHR data, and we adopt their notation. For a given patient, we have <italic>D</italic> = 54 variables and a given time series of <italic>T</italic> time points can be represented as a <italic>T</italic> × <italic>D</italic> matrix <italic>X</italic> whose rows <italic>x<sub>t</sub></italic> ∈ <inline-graphic xlink:href="jmir_v23i9e30157_fig15.jpg"/><italic>D</italic>, <italic>t</italic>= 1, . . . , <italic>T</italic> represent the <italic>t</italic>-th observation with <italic>D</italic> variables <inline-graphic xlink:href="jmir_v23i9e30157_fig5.jpg"/>, <italic>d</italic> = 1, . . . , <italic>D</italic>. Accompanying each observation <italic>x<sub>t</sub></italic> is a time stamp <italic>s<sub>t</sub></italic> ∈ <inline-graphic xlink:href="jmir_v23i9e30157_fig15.jpg"/>, which starts at time 0, <italic>s<sub>1</sub></italic> = 0 and a binary masking vector <italic>m<sub>t</sub></italic> ∈ {0, 1}<italic><sup>D</sup></italic> with <inline-graphic xlink:href="jmir_v23i9e30157_fig6.jpg"/> taking value 1 when <inline-graphic xlink:href="jmir_v23i9e30157_fig5.jpg"/> is observed and 0 otherwise. From these values, we can compute the time intervals.</p>
+                <p>
+                  <graphic xlink:href="jmir_v23i9e30157_fig7.jpg" position="float"/>
+                </p>
+                <p>With these definitions, we can look at various modifications to the standard GRU architecture whose <italic>j</italic>-th hidden unit has a reset gate <inline-graphic xlink:href="jmir_v23i9e30157_fig8.jpg"/> and update gate <inline-graphic xlink:href="jmir_v23i9e30157_fig8.jpg"/> with hidden state <inline-graphic xlink:href="jmir_v23i9e30157_fig9.jpg"/> at time <italic>t</italic> and update the equations.</p>
+                <p>
+                  <graphic xlink:href="jmir_v23i9e30157_fig10.jpg" position="float"/>
+                </p>
+                <p>With matrices <italic>W<sub>z</sub></italic>, <italic>W<sub>r</sub></italic>, <italic>W</italic>, <italic>U<sub>z</sub></italic>, <italic>U<sub>r</sub>,</italic>
+<italic>U</italic> and vectors <italic>b<sub>z</sub>, b<sub>r</sub>, b</italic> composed of model parameters, ⊙ is the Hadamard product, and <italic>σ</italic>(·) is the elementwise sigmoid function. Before modifying the architecture, there are 3 methods to use the GRU above to handle missing data: in “GRU-Mean,” missing values are imputed by their means in the training data; in “GRU-Forward,” missing values are imputed by their last observed value; and in “GRU-Simple,” we simply concatenate the <italic>x<sub>t</sub></italic>, <italic>m<sub>t</sub></italic>, and <italic>δ<sub>t</sub></italic> variables into a single observation vector <italic>x ‘t</italic> and pass this through the GRU equations above. The GRU-D method uses trainable decay weights.</p>
+                <p>
+                  <graphic xlink:href="jmir_v23i9e30157_fig11.jpg" position="float"/>
+                </p>
+                <p>With <italic>W<sub>γ</sub></italic> and <italic>b<sub>γ</sub></italic> being trainable model parameters. The observations are then replaced by the update.</p>
+                <p>
+                  <graphic xlink:href="jmir_v23i9e30157_fig12.jpg" position="float"/>
+                </p>
+                <p>where <inline-graphic xlink:href="jmir_v23i9e30157_fig5.jpg"/> is the last observed value of the <italic>d</italic>-th variable and <inline-graphic xlink:href="jmir_v23i9e30157_fig13.jpg"/> is the empirical mean of the <italic>d</italic>-th variable in the training data. The modified GRU update equations for GRU-D become the following.</p>
+                <p>
+                  <graphic xlink:href="jmir_v23i9e30157_fig14.jpg" position="float"/>
+                </p>
+                <p>where <italic>V<sub>z</sub>, V<sub>r</sub>, V</italic> are new model parameters to directly handle the masking vector <italic>m<sub>t</sub></italic> in the model.</p>
+                <p>Our implementation of the above equations in Python is a slightly modified version of the code available on the GRU-D paper’s [<xref rid="ref16" ref-type="bibr">16</xref>] GitHub repository. For the core RNN algorithms, we only edited the original GRU-D code, where required, to be compatible with the more recent versions of tensorflow.keras (version 2.1.0) and numpy (version 1.19.2) used in our high-performance computing cluster environment. We selected the specific RNN algorithm by setting the “--model“ argument to be “GRUforward,” “GRU0,” “GRUsimple,” and “GRUD” for GRU-forward, GRU-mean, GRU-simple, and GRU-D, respectively. We utilized the default hyperparameters of the algorithm; however, in our testing, we found that increasing the batch size from 32 to 256 facilitated faster training of the algorithms. Therefore, a batch size of 256 is the only nondefault hyperparameter selection made in our implementation of the RNN algorithms.</p>
+              </sec>
+              <sec>
+                <title>Temporal Cohort Split</title>
+                <p>As depicted in the CONSORT (Consolidated Standards of Reporting Trials) diagram of <xref rid="figure1" ref-type="fig">Figure 1</xref>, patients who first tested positive for COVID-19 from March 1, 2020 through December 15, 2020 (9435/11,807, 79.9%) were assigned to a model selection cohort, whereas patients who first tested positive for COVID-19 from December 16, 2020 through January 27, 2021 (2372/11,807, 20.1%) were used as a prospective testing cohort for the final algorithm. All experiments in the model selection cohort were performed using an identical 10-fold stratified cross-validation using binary classification with the positive class defined as death within 21 days of the first positive PCR test result. Only the single best performing model was evaluated on the prospective cohort after being fit against the entire model selection cohort.</p>
+                <fig position="float" id="figure1">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>CONSORT (Consolidated Standards of Reporting Trials) diagram demonstrating the temporal split of our cohort for model selection and prospective validation.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i9e30157_fig1" position="float"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <sec>
+                <title>Model Selection</title>
+                <p>In <xref rid="figure2" ref-type="fig">Figure 2</xref> and <xref rid="table2" ref-type="table">Table 2</xref>, we compared the results of our various models by using cross-validation area under the receiver operator characteristic (AUROC) curve in the training cohort. Although not in a statistically significant way, we recapitulated the findings of Che et al [<xref rid="ref16" ref-type="bibr">16</xref>], discovering that the GRU-D model has the highest average cross-validation AUROC curve among all other standard variants of GRU modeling in time series with missing values. In addition, GRU-Simple has higher average cross-validation AUROC curve than the GRU-Forward and GRU-Mean, and the most notable difference underlying these categories is the inclusion of missingness indicators as features to GRU-Simple, which could indicate the value of MNAR patterns in the classification task. GRU-D’s biologically inspired architecture attempts to make even more efficient use of this information and exceeds the performance of all the tested RNN methods. AutoGluon, which only had access to the last measurement of each variable, showed strong performance despite this limitation. In <xref rid="table2" ref-type="table">Table 2</xref>, each individual AutoGluon model was also benchmarked (those with suffix “-AutoGluon”), along with the final ensemble estimate (labeled simply as “AutoGluon”). Although GRU-D ultimately outranked AutoGluon, each method’s performance fell within the other’s standard error intervals. AutoGluon’s automated hyperparameter tuning and model stacking may indicate that GRU-D could benefit from the addition of hyperparameter search. However, this process may risk overfitting this cross-validation data set, and thus, we selected GRU-D with the default settings rather than attempting to further improve the cross-validation AUROC curve via hyperparameter optimization.</p>
+                <fig position="float" id="figure2">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Receiver operating characteristic curves for the 18 models evaluated. AUROC: area under the receiver operating characteristic.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i9e30157_fig2" position="float"/>
+                </fig>
+                <table-wrap position="float" id="table2">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Modeling results sorted by performance.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="530" span="1"/>
+                    <col width="470" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Model</td>
+                        <td rowspan="1" colspan="1">Area under the receiver operator characteristic curve (SE)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">KNeighborsUnif-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.648 (0.011)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">KNeighborsDist-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.649 (0.011)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">NeuralNetFastAI-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.858 (0.013)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">LightGBMLarge-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.867 (0.014)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">NeuralNetMXNet-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.907 (0.008)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">RandomForestGini-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.911 (0.007)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">ExtraTreesGini-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.911 (0.009)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">RandomForestEntr-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.917 (0.008)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">ExtraTreesEntr-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.918 (0.007)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">LightGBM-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.929 (0.007)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">XGBoost-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.931 (0.006)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">LightGBMXT-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.931 (0.005)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">GRU-Mean</td>
+                        <td rowspan="1" colspan="1">0.932 (0.005)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">GRU-Forward</td>
+                        <td rowspan="1" colspan="1">0.933 (0.006)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">CatBoost-AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.933 (0.005)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">AutoGluon</td>
+                        <td rowspan="1" colspan="1">0.934 (0.005)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">GRU-Simple</td>
+                        <td rowspan="1" colspan="1">0.935 (0.004)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">GRU-D</td>
+                        <td rowspan="1" colspan="1">0.938 (0.004)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>Length of Time Series</title>
+                <p>Clearly, we would expect availability of more time series data to result in improved model performance. To determine if predictions could be made utilizing data prior to 72 hours of a patient’s first positive PCR test result, we assessed the performance of GRU-D when we restricted the time series to 12, 24, 48, and 72 hours of follow-up after the first positive PCR test result. The results in <xref rid="table3" ref-type="table">Table 3</xref> demonstrate that although we lose performance when predicting earlier in the patient’s disease, we are still able to provide accurate predictions even using data within the same day (12 hours of follow-up) that a patient tests positive for COVID.</p>
+                <table-wrap position="float" id="table3">
+                  <label>Table 3</label>
+                  <caption>
+                    <p>GRU-D performance versus length of time series.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="510" span="1"/>
+                    <col width="490" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Follow-up after positive finding for polymerase chain reaction</td>
+                        <td rowspan="1" colspan="1">Area under the receiver operator characteristic curve (SE)</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">12 h</td>
+                        <td rowspan="1" colspan="1">0.916 (0.005)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">24 h</td>
+                        <td rowspan="1" colspan="1">0.919 (0.006)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">48 h</td>
+                        <td rowspan="1" colspan="1">0.925 (0.005)</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">72 h</td>
+                        <td rowspan="1" colspan="1">0.938 (0.004)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec>
+                <title>MNAR as an Asset and Feature Importance</title>
+                <p>To demonstrate the fact that MNAR data can improve model predictions by GRU-D, we generated a synthetic data set with laboratory test values replaced by Bernoulli coin flips. Therefore, the only valuable information contained within this data set’s laboratory values is the missing data patterns that can be viewed as encoding clinical suspicion or concern. For instance, the D-dimer laboratory value is ordered less frequently than other tests, and therefore, its presence alone can be informative of clinical concern for thrombotic events. Our results found that randomizing the laboratory values resulted in an AUROC curve of 0.904 (0.006), which indicates that the laboratory values in aggregate contributed 0.034 to the AUROC score (since this is the drop in performance compared to the model with actual laboratory values). We ran a further experiment omitting the laboratory values entirely, which produced a lower AUROC of 0.890 (0.006). Therefore, the missing patterns alone contributed 0.014 to the AUROC. To contextualize this finding, we dropped each feature individually from the model, assessed the decrease in the AUROC score, and summarized the top 10 features in the decreasing order of the difference in the AUROC score (<xref rid="figure3" ref-type="fig">Figure 3</xref>). We note here that the drop due to missing patterns exceeds the drop due to removing any single variable from the analysis, making the MNAR pattern one of the most valuable pieces of information available to GRU-D. In <xref rid="app1" ref-type="supplementary-material">Multimedia Appendix 1</xref>, we show a detailed error analysis of our model using these top 10 features. The fact that age and Charlson comorbidity index are the most significant contributors to mortality prediction is consistent with the well-known risk factors for COVID mortality. The findings of the fibrinogen test, serum iron test, and ferritin test were the 3 most important laboratory values in our models. The presence of chronic kidney disease, weight, serology test, and SpO<sub>2</sub> were the clinical covariates that also ranked in the top 10 variables by importance. Interestingly, height had low importance, indicating that BMI may not be as effective as weight itself in mortality prediction. However, a limitation of this drop-one-feature variable importance is that a low-ranking feature such as height cannot be said to be irrelevant, just that any information it carries is redundant within other features.</p>
+                <fig position="float" id="figure3">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>Feature importance in the GRU-D recurrent neural network model as defined by the average drop in the area under the receiver operator characteristic curve (with 95% CI) when each feature is individually removed from the analysis. The top 5 features are seen to be age, Charlson comorbidity index, minimum oxygen saturation, fibrinogen levels, and serum iron levels. AUROC: area under the receiver operator characteristic.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i9e30157_fig3" position="float"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Prospective Validation and Survival Analysis</title>
+                <p>To demonstrate the efficacy of our proposed mortality prediction, we performed a Kaplan-Meier analysis using the survival R library [<xref rid="ref17" ref-type="bibr">17</xref>]. Specifically, we chose a decision boundary on the GRU-D model’s ROC curve, which provided a specific delineation of high-risk and low-risk groups of patients. In our cross-validation cohort, binary classification provides accuracy of 89% (95% CI 88%-90%), recall of 80% (95% CI 74%-85%), precision of 17% (95% CI 15%-19%), and a negative predictive value of 99% (95% CI 99%-100%). Furthermore, although the precision is somewhat low with numerous false positives, we see among the survivors over twice the rate of mechanical ventilation or extracorporeal membrane oxygenation when they are predicted to die by GRU-D (Fisher exact test <italic>P</italic>&lt;.001, odds ratio 2.1, 95% CI 1.8-2.5). We validated this performance in our prospective testing cohort, finding an AUROC of 0.901, accuracy of 78% (95% CI 76%-79%), recall of 85% (95% CI 77%-91%), precision of 14% (95% CI 12%-17%), and a negative predictive value of 99% (95% CI 99%-100%).</p>
+                <p>Our Kaplan-Meier analysis results in <xref rid="figure4" ref-type="fig">Figure 4</xref> demonstrate the statistically significant stratification provided by our ML model in both the cross-validation and prospective testing experiments. Building a Cox Proportional Hazards model for our prediction in the cross-validation cohort provides a statistically significant difference in survival between the 2 groups (<italic>P</italic>&lt;.001 for the likelihood ratio, logrank, and Wald tests), with a prediction of survival having a substantially improved hazard ratio of 0.053 (95% CI 0.043-0.066). We validated this finding in the prospective testing cohort with a statistically significant difference in survival between the 2 groups (<italic>P</italic>&lt;.001 for the likelihood ratio, logrank, and Wald tests), with a prediction of survival having a substantially improved hazard ratio of 0.067 (95% CI 0.043-0.106).</p>
+                <fig position="float" id="figure4">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Kaplan-Meier survival curves for the GRU-D stratified populations in the cross-validation cohort (main figure) and the prospective test cohort (inset), where teal is the prediction of low risk of death and red is the prediction of high risk. Both figures have 95% CIs visualized for the teal and red curves, although the teal confidence bands are tight due to our large sample sizes.</p>
+                  </caption>
+                  <graphic xlink:href="jmir_v23i9e30157_fig4" position="float"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <sec>
+                <title>Study Overview</title>
+                <p>In this study, we collected and processed over 50 laboratory and clinical covariates in a population of nearly 12,000 Mayo Clinic patients who tested positive for SARS-CoV-2 by PCR. In this large and geographically diverse data set, we found that the GRU-D RNN could provide state-of-the-art mortality prediction. This performance remained strong even in a held-out test set that mimics how a deployed system would be trained retrospectively and then prospectively utilized in a clinically evolving pandemic setting.</p>
+              </sec>
+              <sec>
+                <title>Principal Results</title>
+                <p>Our cross-validation experiments summarized in <xref rid="table2" ref-type="table">Table 2</xref> indicated that the top performing model to predict mortality in our cohort was the GRU-D RNN. We thus selected the GRU-D method to predict the mortality of patients with COVID-19 and prospectively found an AUROC of 0.901, accuracy of 78% (95% CI 76%-79%), recall of 85% (95% CI 77%-91%), precision of 14% (95% CI 12%-17%), negative predictive value of 99% (95% CI 99%-100%), and a statistically significant difference in survival (<italic>P</italic>&lt;.001, hazard ratio for those predicted to survive, 95% CI 0.043-0.106). As can be expected in prospective validation, we observed a modest drop in AUROC although most of the performance characteristics were close to their original cross-validation estimates, that is, the negative predictive value was largely unchanged, while precision and accuracy showed minor decreases with the recall showing modest improvements.</p>
+                <p>We chose a prospective/retrospective split in time since this is the most realistic way to assess the potential performance of a system if launched clinically, because it would be trained on data up until its go-live date and then run prospectively in a potentially evolving pandemic environment. Notably, the cutoff date for the 80/20 split creating the prospective test set was December 15, 2020, which is the day after the first COVID vaccine received the United States Food and Drug Administration approval, meaning that our prospective cohort represented a distinctly different clinical environment compared to the period in which the model was trained. The relatively minor loss of performance in prospective validation shows the robustness of the modeling herein, but the observed loss of performance also demonstrates the need for continued retraining/validation of such a model during a constantly evolving pandemic.</p>
+              </sec>
+              <sec>
+                <title>Limitations</title>
+                <p>The application and deployment of ML methods in clinical practice require concerted care and diligence. One may be inclined to interpret the high negative predictive value of our prediction algorithm as an indication that the best use of the algorithm in practice is as a screening mechanism to discharge patients who are not at risk in order to conserve resources for higher-risk individuals. However, such a conclusion illustrates a pitfall of using a correlative prediction algorithm to make causal conclusions. The algorithm is highly confident that under the current standards of care at Mayo Clinic, these individuals are not likely to succumb to their illness; this is quite distinct from asserting that it is safe to reduce the care for these patients. Arriving at this latter conclusion would likely require a randomized controlled trial, and given the much lower survival rate published in the New York City data set [<xref rid="ref11" ref-type="bibr">11</xref>] where medical systems were overcapacity, it seems unlikely that reducing care from those who survived in our cohort would have been a safe measure. Because the Mayo Clinic health systems have not been overcapacity, our mortality predictions should be viewed as representing patient stratification when full clinical support is available.</p>
+                <p>Therefore, we conclude that the algorithm is better deployed as an alert system that flags only those patients it deems as high risk to provide the treating physician with an additional data point that aims to summarize the many covariates and the laboratory values routinely available. In this context, the algorithm has had abundant experience in the provider’s system, effectively “seeing” all patients with COVID-19 that have attended Mayo Clinic and conveying these lessons to physicians who could not have gained such experience personally.</p>
+                <p>A web interface to this model may allow for widespread usage but given the complexity and error-prone nature of users providing the high dimensional time-series measurements with correct units, the system is better suited for integration within the EHR/LIS infrastructure. We are now exploring the details of deployment of such a GRU-D alert system, which involves discussions with physicians to assess numerous implementation details, for example, deciding whether the alerts would be passive EHR/chart-based flags or a direct page to the frontline clinical provider. Passive chart alerts are less intrusive to existing workflows (ie, a direct page interrupts a physician while tending to other patients) but also provide less-immediate feedback. Additionally, active alerts could also be sent to a triage group to consider if evaluation is needed (for example, from the registered respiratory therapist) rather than interrupting bedside clinicians. Furthermore, for either type of alert, there is the question of prescribing a bedside assessment or leaving it to provider discretion, which is again a matter of balancing disruption of the workflow with the likelihood of missing a critical event. There will not be a universally appropriate implementation for all hospital systems owing to staffing and procedural differences. However, since our algorithm predicts overall COVID-19 mortality and is not tailored to flag imminent events such as cardiopulmonary arrest, it may be appropriate to consider less intrusive chart alerts without prescribed bedside follow-ups.</p>
+                <p>We have also seen nuances in the challenges and opportunities presented by MNAR data. In the context of traditional statistical inference and imputation, MNAR data is a worst-case scenario so challenging that many practical applications effectively ignore the reality and proceed with algorithms designed for the missing completely at random or missing at random settings. A diligent statistician making this decision may perform a sensitivity analysis under a very limited set of assumed MNAR mechanisms to provide some assurances regarding the robustness of the chosen imputation or analytical strategy [<xref rid="ref18" ref-type="bibr">18</xref>]. However, here we have demonstrated that classification problems can be quite distinct in this regard. Specifically, if the missing data mechanism is tightly coupled to the ultimate prediction task, it is entirely possible for MNAR data to be an asset rather than an impediment. One can construct a context where the class label is so tightly linked to the missing data mechanism that the patterns of missingness provide more discriminative power than the underlying values themselves (see <xref rid="app2" ref-type="supplementary-material">Multimedia Appendix 2</xref>) [<xref rid="ref19" ref-type="bibr">19</xref>]. In LIS systems, the number of potential laboratory tests that could be ordered at any time is astronomical, and it is unlikely that a practicing physician will ever order a “complete observation” of every test available on a single patient at every point in time. Instead, tests are ordered based on reasonable clinical suspicion that a test might return an abnormal result. From a prognostication point of view, this clinical suspicion is an enormously valuable piece of information that will almost never be captured in a structured data field in the EHR. If an algorithm cannot build off of this clinical suspicion as a starting point, it is also likely that its conclusions may appear to be a “step behind” the ordering clinician. Instead, an algorithm should learn what it can from the MNAR data patterns (here partly encoding clinical suspicion) in addition to the final value returned by the laboratory test.</p>
+                <p>We also note some of the real-world challenges that are faced when attempting to deploy such an alert system into clinical practice. First, in the retrospective experimental design followed here and by other papers in the literature, the time series data are constructed using the time of sample collection since this is the most biologically accurate way to represent the data and build predictive models. However, in practice, if there can be delays in the turnaround for certain tests, this will either result in delayed predictions (so that the deployed testing data match its retrospective training counterpart) or result in biased predictions when delayed laboratory test results are treated as missing. Therefore, although 72 hours is early in the course of illness, it is crucial that we have demonstrated reasonable performance even when only considering data collected on the same day as the first positive PCR result, because a real-world delay of 48 hours on certain laboratory test values may occur during a global pandemic, and thus, it is critical that the system can still provide accurate and timely predictions even when laboratory test results are delayed. Additionally, with vaccines now being delivered, the models presented herein should be considered as mortality predictions for an unvaccinated individual, and in practice, a vaccinated individual will be expected to be at low risk for mortality based on the clinical trials data.</p>
+                <p>Another challenge in dealing with LIS data comes from nonstandardization of test coding prior to reporting to the EHR. In a multisite system, the same laboratory test may have multiple test codes to account for the different ordering facilities or variability in local billing regulations. This creates the potential for discrepancies in the values stored within the underlying database such as differing units of measure. Substantial effort is therefore devoted to linking the LIS results to the EHR to ensure consistency across test codes and complete coverage of results in the EHR. The COVID-19 pandemic has created added complexity due to the rapidly evolving and continuously updating availability of COVID-19 nucleic acid and antibody tests. Therefore, effective data collection and deployment of ML methodologies necessitates extensive team-based laboratory and medical expertise to ensure that data aggregation and modeling efforts can be rapidly modified to suit the changing nature of the underlying data set. Scalability also presents practical challenges. This is illustrated by a scenario in which internal workflows began to fail due to limitations in the number of query results being returned by Tableau, necessitating that SQL queries take place on a high-performance computing cluster using a Python/Pandas toolchain. Although these logistical challenges may be of limited academic interest, they are important to document, as such barriers have been a greater impediment to rapid real world deployment than more traditional topics in the ML literature such as the identification of appropriate classification algorithms.</p>
+              </sec>
+              <sec>
+                <title>Comparison With Prior Work</title>
+                <p>For context, in <xref rid="table4" ref-type="table">Table 4</xref>, we summarize some of the largest published COVID-19 mortality studies and specifically, the cohorts analyzed and the most relevant features identified. When smaller cohorts see insufficient numbers of deaths for direct mortality prediction, studies tend to focus on the prediction of severe outcomes. For instance, in a cohort of 123 patients with COVID-19 in Vulcan Hill Hospital, China, in the study of Pan et al [<xref rid="ref20" ref-type="bibr">20</xref>], the mortality classifier based on XGBoost yielded an AUC of 0.86-0.92. Likewise, in a cohort of 372 Chinese cases (99.7% cohort survival rate), Gong et al [<xref rid="ref9" ref-type="bibr">9</xref>] found that the following variables provided an AUROC of 0.85. Similarly, in a study of 375 patients with COVID-19 conducted by Ko et al [<xref rid="ref21" ref-type="bibr">21</xref>], the mortality prediction model based on XGBoost had 92% accuracy. In a study of 398 COVID-19–positive patients by Abdulaal et al [<xref rid="ref22" ref-type="bibr">22</xref>], 86% accuracy was achieved (95% CI 75%-93%). In a large study of 2160 cases over 54 days from 3 hospitals in Wuhan, China with sufficient cases to assess mortality (88% cohort survival rate), Gao et al [<xref rid="ref8" ref-type="bibr">8</xref>] reported 0.92-0.98 as the AUROC using an ensemble classifier. Furthermore, Vaid et al [<xref rid="ref11" ref-type="bibr">11</xref>] used 4098 inpatient cases over 68 days in New York City (83% cohort survival rate) to achieve an AUROC of 0.84-0.88 in mortality prediction. Kim et al [<xref rid="ref23" ref-type="bibr">23</xref>] studied 4787 patients and their XGBoost-based classifier demonstrated an AUC of 0.88-0.89 (95% CI 0.85-0.91) in predicting the need for intensive care, which is distinct from mortality prediction. Bolourani et al [<xref rid="ref24" ref-type="bibr">24</xref>] studied 11,525 patients to achieve an AUROC of 0.77 in predicting respiratory failure within 48 hours of admission, which is also distinct from mortality prediction, based on data from the emergency department by using an XGBoost model.</p>
+                <p>The dramatically different cohort mortality rates and the associated predictive accuracies may be in part due to the differing straining of the local health care systems at the time of study (both Wuhan and New York City experienced waves of patients that at different times overwhelmed the health care infrastructure), and the relatively geographically narrow nature of each of these data sets underscores why it is unlikely that these mortality predictions would extend directly to our patient population in a health care system spanning 3 time zones and multiple locales unrepresented in the literature.</p>
+                <table-wrap position="float" id="table4">
+                  <label>Table 4</label>
+                  <caption>
+                    <p>Summary of the related studies.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                    <col width="120" span="1"/>
+                    <col width="90" span="1"/>
+                    <col width="170" span="1"/>
+                    <col width="80" span="1"/>
+                    <col width="100" span="1"/>
+                    <col width="150" span="1"/>
+                    <col width="290" span="1"/>
+                    <thead>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Study</td>
+                        <td rowspan="1" colspan="1">Patients (n)</td>
+                        <td rowspan="1" colspan="1">Model/algorithm</td>
+                        <td rowspan="1" colspan="1">Cohort <break/>
+survival</td>
+                        <td rowspan="1" colspan="1">Prediction</td>
+                        <td rowspan="1" colspan="1">Area under the receiver operating characteristic curve</td>
+                        <td rowspan="1" colspan="1">Feature importance</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Pan et al [<xref rid="ref20" ref-type="bibr">20</xref>]</td>
+                        <td rowspan="1" colspan="1">123</td>
+                        <td rowspan="1" colspan="1">XGBoost</td>
+                        <td rowspan="1" colspan="1">52.8%</td>
+                        <td rowspan="1" colspan="1">Mortality</td>
+                        <td rowspan="1" colspan="1">0.86-0.92</td>
+                        <td rowspan="1" colspan="1">Lymphocyte percentage, prothrombin time, lactate dehydrogenase, total bilirubin, eosinophil percentage, creatinine, neutrophil percentage, and albumin level</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Gong et al [<xref rid="ref9" ref-type="bibr">9</xref>]</td>
+                        <td rowspan="1" colspan="1">372</td>
+                        <td rowspan="1" colspan="1">Nomogram</td>
+                        <td rowspan="1" colspan="1">99.7%</td>
+                        <td rowspan="1" colspan="1">Severity</td>
+                        <td rowspan="1" colspan="1">0.85 (95% CI 0.790-0.916)</td>
+                        <td rowspan="1" colspan="1">Higher lactate dehydrogenase, C-reactive protein, red blood cell distribution width, direct bilirubin, blood urea nitrogen, and lower <break/>
+albumin</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Ko et al [<xref rid="ref21" ref-type="bibr">21</xref>]</td>
+                        <td rowspan="1" colspan="1">375</td>
+                        <td rowspan="1" colspan="1">XGBoost</td>
+                        <td rowspan="1" colspan="1">98.1%</td>
+                        <td rowspan="1" colspan="1">Mortality</td>
+                        <td rowspan="1" colspan="1">—,<sup>a</sup> accuracy of 92%</td>
+                        <td rowspan="1" colspan="1">Not assessed</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Abdulaal et al [<xref rid="ref22" ref-type="bibr">22</xref>]</td>
+                        <td rowspan="1" colspan="1">398</td>
+                        <td rowspan="1" colspan="1">Artificial neural <break/>
+network</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">Mortality</td>
+                        <td rowspan="1" colspan="1">—, accuracy of 86% (95% CI 75%-93%)</td>
+                        <td rowspan="1" colspan="1">Altered mentation, dyspnea, age, collapse, gender, and cough</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Shi et al [<xref rid="ref10" ref-type="bibr">10</xref>]</td>
+                        <td rowspan="1" colspan="1">487</td>
+                        <td rowspan="1" colspan="1">Custom risk score <break/>
+calculation</td>
+                        <td rowspan="1" colspan="1">100%</td>
+                        <td rowspan="1" colspan="1">Severity</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">Advanced age, presence of hypertension, and being male</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Gao et al [<xref rid="ref8" ref-type="bibr">8</xref>]</td>
+                        <td rowspan="1" colspan="1">2160</td>
+                        <td rowspan="1" colspan="1">Ensemble model based on logistic regression, gradient-boosted decision tree, neural network, and support <break/>
+vector machine</td>
+                        <td rowspan="1" colspan="1">88%</td>
+                        <td rowspan="1" colspan="1">Mortality</td>
+                        <td rowspan="1" colspan="1">0.92-0.98</td>
+                        <td rowspan="1" colspan="1">Consciousness, chronic kidney disease, lymphocyte counts, sex, sputum, blood urea nitrogen, respiratory rate, oxygen saturation, D-dimer, number of comorbidities, albumin, age, fever, and platelet count</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Vaid et al [<xref rid="ref11" ref-type="bibr">11</xref>]</td>
+                        <td rowspan="1" colspan="1">4098</td>
+                        <td rowspan="1" colspan="1">XGBoost</td>
+                        <td rowspan="1" colspan="1">83%</td>
+                        <td rowspan="1" colspan="1">Mortality</td>
+                        <td rowspan="1" colspan="1">0.84-0.88</td>
+                        <td rowspan="1" colspan="1">Age, anion gap, C-reactive protein, lactate dehydrogenase, oxygen saturation, blood urea nitrogen, ferritin, red cell distribution width, and <break/>
+diastolic blood pressure.</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Kim et al [<xref rid="ref23" ref-type="bibr">23</xref>]</td>
+                        <td rowspan="1" colspan="1">4787</td>
+                        <td rowspan="1" colspan="1">XGBoost</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">Need for <break/>
+intensive care</td>
+                        <td rowspan="1" colspan="1">0.88-0.89</td>
+                        <td rowspan="1" colspan="1">Activities of daily living, age, dyspnea, body temperature, sex, and <break/>
+underlying comorbidities</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">Bolourani et al [<xref rid="ref24" ref-type="bibr">24</xref>]</td>
+                        <td rowspan="1" colspan="1">11,525</td>
+                        <td rowspan="1" colspan="1">XGBoost</td>
+                        <td rowspan="1" colspan="1">—</td>
+                        <td rowspan="1" colspan="1">Predicting <break/>
+respiratory failure</td>
+                        <td rowspan="1" colspan="1">0.77</td>
+                        <td rowspan="1" colspan="1">Invasive mode of oxygen delivery being a nonrebreather mask, emergency severity index values of 1 and 3, maximum respiratory rate, maximum, oxygen saturation, Black race, age on admission, eosinophil percentage, serum sodium level, and serum lactate level.</td>
+                      </tr>
+                      <tr valign="top">
+                        <td rowspan="1" colspan="1">This study</td>
+                        <td rowspan="1" colspan="1">11,807</td>
+                        <td rowspan="1" colspan="1">GRU-D</td>
+                        <td rowspan="1" colspan="1">95.4%</td>
+                        <td rowspan="1" colspan="1">Mortality</td>
+                        <td rowspan="1" colspan="1">0.938 cross-validation; 0.901 prospectively</td>
+                        <td rowspan="1" colspan="1"><xref rid="figure2" ref-type="fig">Figure 2</xref>, top 5: age, Charlson comorbidity index, minimum oxygen saturation, fibrinogen level, and serum iron level</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="table4fn1">
+                      <p><sup>a</sup>Not available.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>As indicated in <xref rid="table4" ref-type="table">Table 4</xref>, this study represents the largest cohort collected for mortality prediction in COVID-19, and the GRU-D algorithm shows state-of-the-art performance. Notably, many papers selected models based on XGBoost, which also showed strong cross-validation performance in our data. However, <xref rid="table2" ref-type="table">Table 2</xref> demonstrates that XGBoost was not even in the top 5 algorithms that we assessed. Additionally, in agreement with Gao et al [<xref rid="ref8" ref-type="bibr">8</xref>], we find that ensemble algorithms such as AutoGluon can provide stronger performance, although as noted previously, the GRU-D algorithm ended up ranked most highly in our cross-validation experiments.</p>
+              </sec>
+              <sec>
+                <title>Conclusions</title>
+                <p>We have aggregated and analyzed one of the largest multistate COVID-19 EHR databases for mortality prediction. Using this database, we have trained and prospectively validated a highly effective ML algorithm using the GRU-D neural network architecture to predict the mortality of patients with COVID-19 shortly after their first positive PCR test result.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank the Advanced Diagnostics Laboratory, Department of Laboratory Medicine and Pathology, and the Center for Individualized Medicine at Mayo Clinic for funding this research. We thank Dr Nicholas Chia for his insightful discussions and feedback on this manuscript. We are grateful to the thorough and constructive comments of the anonymous reviewers whose feedback greatly improved our paper.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>Conflicts of Interest: JCO has equity in Doximity, Inc, and has received small grants from Nference, Inc, and personal fees from Bates College. None of these are related to the current paper.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <supplementary-material id="app1" position="float" content-type="local-data">
+                <label>Multimedia Appendix 1</label>
+                <p>Error analysis.</p>
+                <media xlink:href="jmir_v23i9e30157_app1.docx" xlink:title="DOCX File , 496 KB" id="d95e1428" position="anchor"/>
+              </supplementary-material>
+              <supplementary-material id="app2" position="float" content-type="local-data">
+                <label>Multimedia Appendix 2</label>
+                <p>Monte Carlo missing-not-at-random simulation.</p>
+                <media xlink:href="jmir_v23i9e30157_app2.docx" xlink:title="DOCX File , 592 KB" id="d95e1432" position="anchor"/>
+              </supplementary-material>
+            </app-group>
+            <glossary>
+              <title>Abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="abb1">AUROC</term>
+                  <def>
+                    <p>area under the receiver operator characteristic</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb2">EHR</term>
+                  <def>
+                    <p>electronic health record</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb3">GRU</term>
+                  <def>
+                    <p>gated recurrent unit</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb4">LIS</term>
+                  <def>
+                    <p>laboratory information system</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb5">ML</term>
+                  <def>
+                    <p>machine learning</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb6">MNAR</term>
+                  <def>
+                    <p>missing-not-at-random</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb7">PCR</term>
+                  <def>
+                    <p>polymerase chain reaction</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="abb8">RNN</term>
+                  <def>
+                    <p>recurrent neural network</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+            <ref-list>
+              <ref id="ref1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andersen</surname>
+                      <given-names>KG</given-names>
+                    </name>
+                    <name>
+                      <surname>Rambaut</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipkin</surname>
+                      <given-names>WI</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>EC</given-names>
+                    </name>
+                    <name>
+                      <surname>Garry</surname>
+                      <given-names>RF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The proximal origin of SARS-CoV-2</article-title>
+                  <source>Nat Med</source>
+                  <year>2020</year>
+                  <month>04</month>
+                  <volume>26</volume>
+                  <issue>4</issue>
+                  <fpage>450</fpage>
+                  <lpage>452</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/32284615" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1038/s41591-020-0820-9</pub-id>
+                  <pub-id pub-id-type="medline">32284615</pub-id>
+                  <pub-id pub-id-type="pii">10.1038/s41591-020-0820-9</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7095063</pub-id>-->
+                  <pub-id pub-id-type="pmid">32284615</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Si</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Deng</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhan</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A pneumonia outbreak associated with a new coronavirus of probable bat origin</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <month>03</month>
+                  <volume>579</volume>
+                  <issue>7798</issue>
+                  <fpage>270</fpage>
+                  <lpage>273</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/32015507" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2012-7</pub-id>
+                  <pub-id pub-id-type="medline">32015507</pub-id>
+                  <pub-id pub-id-type="pii">10.1038/s41586-020-2012-7</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7095418</pub-id>-->
+                  <pub-id pub-id-type="pmid">32015507</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref3">
+                <label>3</label>
+                <element-citation publication-type="webpage">
+                  <article-title>WHO Coronavirus disease (COVID-19) dashboard</article-title>
+                  <source>World Health Organization</source>
+                  <date-in-citation content-type="access-date">2021-08-11</date-in-citation>
+                  <comment>
+                    <ext-link xlink:href="https://covid19.who.int/" ext-link-type="uri">https://covid19.who.int/</ext-link>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chinazzi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Ajelli</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gioannini</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Litvinova</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Merler</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Pastore Y Piontti</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Mu</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Rossi</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Viboud</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiong</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Halloran</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Longini</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                    <name>
+                      <surname>Vespignani</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak</article-title>
+                  <source>Science</source>
+                  <year>2020</year>
+                  <month>04</month>
+                  <day>24</day>
+                  <volume>368</volume>
+                  <issue>6489</issue>
+                  <fpage>395</fpage>
+                  <lpage>400</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/32144116" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1126/science.aba9757</pub-id>
+                  <pub-id pub-id-type="medline">32144116</pub-id>
+                  <pub-id pub-id-type="pii">science.aba9757</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7164386</pub-id>-->
+                  <pub-id pub-id-type="pmid">32144116</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Remuzzi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Remuzzi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 and Italy: what next?</article-title>
+                  <source>Lancet</source>
+                  <year>2020</year>
+                  <month>04</month>
+                  <day>11</day>
+                  <volume>395</volume>
+                  <issue>10231</issue>
+                  <fpage>1225</fpage>
+                  <lpage>1228</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/32178769" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/S0140-6736(20)30627-9</pub-id>
+                  <pub-id pub-id-type="medline">32178769</pub-id>
+                  <pub-id pub-id-type="pii">S0140-6736(20)30627-9</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7102589</pub-id>-->
+                  <pub-id pub-id-type="pmid">32178769</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosenbaum</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Facing Covid-19 in Italy - Ethics, Logistics, and Therapeutics on the Epidemic's Front Line</article-title>
+                  <source>N Engl J Med</source>
+                  <year>2020</year>
+                  <month>05</month>
+                  <day>14</day>
+                  <volume>382</volume>
+                  <issue>20</issue>
+                  <fpage>1873</fpage>
+                  <lpage>1875</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMp2005492</pub-id>
+                  <pub-id pub-id-type="medline">32187459</pub-id>
+                  <pub-id pub-id-type="pmid">32187459</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wiersinga</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhodes</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Peacock</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Prescott</surname>
+                      <given-names>HC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pathophysiology, Transmission, Diagnosis, and Treatment of Coronavirus Disease 2019 (COVID-19): A Review</article-title>
+                  <source>JAMA</source>
+                  <year>2020</year>
+                  <month>08</month>
+                  <day>25</day>
+                  <volume>324</volume>
+                  <issue>8</issue>
+                  <fpage>782</fpage>
+                  <lpage>793</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2020.12839</pub-id>
+                  <pub-id pub-id-type="medline">32648899</pub-id>
+                  <pub-id pub-id-type="pii">2768391</pub-id>
+                  <pub-id pub-id-type="pmid">32648899</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Cai</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cui</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiao</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Chi</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Jin</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Gong</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Tian</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Xing</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning based early warning system enables accurate mortality risk prediction for COVID-19</article-title>
+                  <source>Nat Commun</source>
+                  <year>2020</year>
+                  <month>10</month>
+                  <day>06</day>
+                  <volume>11</volume>
+                  <issue>1</issue>
+                  <fpage>5033</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18684-2</pub-id>
+                  <pub-id pub-id-type="doi">10.1038/s41467-020-18684-2</pub-id>
+                  <pub-id pub-id-type="medline">33024092</pub-id>
+                  <pub-id pub-id-type="pii">10.1038/s41467-020-18684-2</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7538910</pub-id>-->
+                  <pub-id pub-id-type="pmid">33024092</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gong</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ou</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Qiu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Jie</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Tan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Tool for Early Prediction of Severe Coronavirus Disease 2019 (COVID-19): A Multicenter Study Using the Risk Nomogram in Wuhan and Guangdong, China</article-title>
+                  <source>Clin Infect Dis</source>
+                  <year>2020</year>
+                  <month>07</month>
+                  <day>28</day>
+                  <volume>71</volume>
+                  <issue>15</issue>
+                  <fpage>833</fpage>
+                  <lpage>840</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/32296824" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1093/cid/ciaa443</pub-id>
+                  <pub-id pub-id-type="medline">32296824</pub-id>
+                  <pub-id pub-id-type="pii">5820684</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7184338</pub-id>-->
+                  <pub-id pub-id-type="pmid">32296824</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheng</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Host susceptibility to severe COVID-19 and establishment of a host risk score: findings of 487 cases outside Wuhan</article-title>
+                  <source>Crit Care</source>
+                  <year>2020</year>
+                  <month>03</month>
+                  <day>18</day>
+                  <volume>24</volume>
+                  <issue>1</issue>
+                  <fpage>108</fpage>
+                  <comment>
+                    <ext-link xlink:href="https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-2833-7" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1186/s13054-020-2833-7</pub-id>
+                  <pub-id pub-id-type="medline">32188484</pub-id>
+                  <pub-id pub-id-type="pii">10.1186/s13054-020-2833-7</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7081524</pub-id>-->
+                  <pub-id pub-id-type="pmid">32188484</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vaid</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Somani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Russak</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>De Freitas</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Chaudhry</surname>
+                      <given-names>FF</given-names>
+                    </name>
+                    <name>
+                      <surname>Paranjpe</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Miotto</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Richter</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Beckmann</surname>
+                      <given-names>ND</given-names>
+                    </name>
+                    <name>
+                      <surname>Naik</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kia</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Timsina</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Lala</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Paranjpe</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Golden</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Danieletto</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyer</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>O'Reilly</surname>
+                      <given-names>PF</given-names>
+                    </name>
+                    <name>
+                      <surname>Huckins</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Kovatch</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Finkelstein</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Freeman</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Argulian</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Kasarskis</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Percha</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Aberg</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bagiella</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Horowitz</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Nestler</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Schadt</surname>
+                      <given-names>EE</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Cordon-Cardo</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuster</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Charney</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Reich</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Bottinger</surname>
+                      <given-names>EP</given-names>
+                    </name>
+                    <name>
+                      <surname>Levin</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Narula</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Fayad</surname>
+                      <given-names>ZA</given-names>
+                    </name>
+                    <name>
+                      <surname>Just</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Charney</surname>
+                      <given-names>AW</given-names>
+                    </name>
+                    <name>
+                      <surname>Nadkarni</surname>
+                      <given-names>GN</given-names>
+                    </name>
+                    <name>
+                      <surname>Glicksberg</surname>
+                      <given-names>BS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine Learning to Predict Mortality and Critical Events in a Cohort of Patients With COVID-19 in New York City: Model Development and Validation</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>06</day>
+                  <volume>22</volume>
+                  <issue>11</issue>
+                  <fpage>e24018</fpage>
+                  <comment>
+                    <ext-link xlink:href="https://www.jmir.org/2020/11/e24018/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/24018</pub-id>
+                  <pub-id pub-id-type="medline">33027032</pub-id>
+                  <pub-id pub-id-type="pii">v22i11e24018</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7652593</pub-id>-->
+                  <pub-id pub-id-type="pmid">33027032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wynants</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Calster</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Collins</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Heinze</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Schuit</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonten</surname>
+                      <given-names>MMJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Dahly</surname>
+                      <given-names>Darren L</given-names>
+                    </name>
+                    <name>
+                      <surname>Damen</surname>
+                      <given-names>Johanna A A</given-names>
+                    </name>
+                    <name>
+                      <surname>Debray</surname>
+                      <given-names>Thomas P A</given-names>
+                    </name>
+                    <name>
+                      <surname>de Jong</surname>
+                      <given-names>Valentijn M T</given-names>
+                    </name>
+                    <name>
+                      <surname>De Vos</surname>
+                      <given-names>Maarten</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhiman</surname>
+                      <given-names>Paul</given-names>
+                    </name>
+                    <name>
+                      <surname>Haller</surname>
+                      <given-names>Maria C</given-names>
+                    </name>
+                    <name>
+                      <surname>Harhay</surname>
+                      <given-names>Michael O</given-names>
+                    </name>
+                    <name>
+                      <surname>Henckaerts</surname>
+                      <given-names>Liesbet</given-names>
+                    </name>
+                    <name>
+                      <surname>Heus</surname>
+                      <given-names>Pauline</given-names>
+                    </name>
+                    <name>
+                      <surname>Kammer</surname>
+                      <given-names>Michael</given-names>
+                    </name>
+                    <name>
+                      <surname>Kreuzberger</surname>
+                      <given-names>Nina</given-names>
+                    </name>
+                    <name>
+                      <surname>Lohmann</surname>
+                      <given-names>Anna</given-names>
+                    </name>
+                    <name>
+                      <surname>Luijken</surname>
+                      <given-names>Kim</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Jie</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>Glen P</given-names>
+                    </name>
+                    <name>
+                      <surname>McLernon</surname>
+                      <given-names>David J</given-names>
+                    </name>
+                    <name>
+                      <surname>Andaur Navarro</surname>
+                      <given-names>Constanza L</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitsma</surname>
+                      <given-names>Johannes B</given-names>
+                    </name>
+                    <name>
+                      <surname>Sergeant</surname>
+                      <given-names>Jamie C</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>Chunhu</given-names>
+                    </name>
+                    <name>
+                      <surname>Skoetz</surname>
+                      <given-names>Nicole</given-names>
+                    </name>
+                    <name>
+                      <surname>Smits</surname>
+                      <given-names>Luc J M</given-names>
+                    </name>
+                    <name>
+                      <surname>Snell</surname>
+                      <given-names>Kym I E</given-names>
+                    </name>
+                    <name>
+                      <surname>Sperrin</surname>
+                      <given-names>Matthew</given-names>
+                    </name>
+                    <name>
+                      <surname>Spijker</surname>
+                      <given-names>René</given-names>
+                    </name>
+                    <name>
+                      <surname>Steyerberg</surname>
+                      <given-names>Ewout W</given-names>
+                    </name>
+                    <name>
+                      <surname>Takada</surname>
+                      <given-names>Toshihiko</given-names>
+                    </name>
+                    <name>
+                      <surname>Tzoulaki</surname>
+                      <given-names>Ioanna</given-names>
+                    </name>
+                    <name>
+                      <surname>van Kuijk</surname>
+                      <given-names>Sander M J</given-names>
+                    </name>
+                    <name>
+                      <surname>van Bussel</surname>
+                      <given-names>Bas</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Horst</surname>
+                      <given-names>Iwan C C</given-names>
+                    </name>
+                    <name>
+                      <surname>van Royen</surname>
+                      <given-names>Florien S</given-names>
+                    </name>
+                    <name>
+                      <surname>Verbakel</surname>
+                      <given-names>Jan Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wallisch</surname>
+                      <given-names>Christine</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilkinson</surname>
+                      <given-names>Jack</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolff</surname>
+                      <given-names>Robert</given-names>
+                    </name>
+                    <name>
+                      <surname>Hooft</surname>
+                      <given-names>Lotty</given-names>
+                    </name>
+                    <name>
+                      <surname>Moons</surname>
+                      <given-names>Karel G M</given-names>
+                    </name>
+                    <name>
+                      <surname>van Smeden</surname>
+                      <given-names>Maarten</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal</article-title>
+                  <source>BMJ</source>
+                  <year>2020</year>
+                  <month>04</month>
+                  <day>07</day>
+                  <volume>369</volume>
+                  <fpage>m1328</fpage>
+                  <comment>
+                    <ext-link xlink:href="http://www.bmj.com/lookup/pmidlookup?view=long&amp;pmid=32265220" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1136/bmj.m1328</pub-id>
+                  <pub-id pub-id-type="medline">32265220</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7222643</pub-id>-->
+                  <pub-id pub-id-type="pmid">32265220</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Charlson</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Pompei</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ales</surname>
+                      <given-names>KL</given-names>
+                    </name>
+                    <name>
+                      <surname>MacKenzie</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new method of classifying prognostic comorbidity in longitudinal studies: development and validation</article-title>
+                  <source>J Chronic Dis</source>
+                  <year>1987</year>
+                  <volume>40</volume>
+                  <issue>5</issue>
+                  <fpage>373</fpage>
+                  <lpage>83</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0021-9681(87)90171-8</pub-id>
+                  <pub-id pub-id-type="medline">3558716</pub-id>
+                  <pub-id pub-id-type="pmid">3558716</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Arora</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Anikhindi</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bansal</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Singla</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Khare</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Srivastava</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Is diabetes mellitus associated with mortality and severity of COVID-19? A meta-analysis</article-title>
+                  <source>Diabetes Metab Syndr</source>
+                  <year>2020</year>
+                  <volume>14</volume>
+                  <issue>4</issue>
+                  <fpage>535</fpage>
+                  <lpage>545</lpage>
+                  <comment>
+                    <ext-link xlink:href="http://europepmc.org/abstract/MED/32408118" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.1016/j.dsx.2020.04.044</pub-id>
+                  <pub-id pub-id-type="medline">32408118</pub-id>
+                  <pub-id pub-id-type="pii">S1871-4021(20)30109-0</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7200339</pub-id>-->
+                  <pub-id pub-id-type="pmid">32408118</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref15">
+                <label>15</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Erickson</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Mueller</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirkov</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Larroy</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Smola</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>AutoGluon-Tabular: robust and accurate AutoML for structured data</article-title>
+                  <year>2020</year>
+                  <conf-name>7th ICML Workshop on Automated Machine Learning</conf-name>
+                  <conf-date>July 12-18</conf-date>
+                  <conf-loc>Virtual Location</conf-loc>
+                  <comment>
+                    <ext-link xlink:href="https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_7.pdf" ext-link-type="uri"/>
+                  </comment>
+                </element-citation>
+              </ref>
+              <ref id="ref16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Che</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Purushotham</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Sontag</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recurrent Neural Networks for Multivariate Time Series with Missing Values</article-title>
+                  <source>Sci Rep</source>
+                  <year>2018</year>
+                  <month>04</month>
+                  <day>17</day>
+                  <volume>8</volume>
+                  <issue>1</issue>
+                  <fpage>6085</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-018-24271-9</pub-id>
+                  <pub-id pub-id-type="doi">10.1038/s41598-018-24271-9</pub-id>
+                  <pub-id pub-id-type="medline">29666385</pub-id>
+                  <pub-id pub-id-type="pii">10.1038/s41598-018-24271-9</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC5904216</pub-id>-->
+                  <pub-id pub-id-type="pmid">29666385</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref17">
+                <label>17</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Therneau</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Grambsch</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <source>Modeling Survival Data: Extending the Cox Model</source>
+                  <year>2000</year>
+                  <publisher-loc>New York, USA</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                  <fpage>7</fpage>
+                  <lpage>13</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cro</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>TP</given-names>
+                    </name>
+                    <name>
+                      <surname>Kenward</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Carpenter</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sensitivity analysis for clinical trials with missing continuous outcome data using controlled multiple imputation: A practical guide</article-title>
+                  <source>Stat Med</source>
+                  <year>2020</year>
+                  <month>09</month>
+                  <day>20</day>
+                  <volume>39</volume>
+                  <issue>21</issue>
+                  <fpage>2815</fpage>
+                  <lpage>2842</lpage>
+                  <pub-id pub-id-type="doi">10.1002/sim.8569</pub-id>
+                  <pub-id pub-id-type="medline">32419182</pub-id>
+                  <pub-id pub-id-type="pmid">32419182</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buuren</surname>
+                      <given-names>SV</given-names>
+                    </name>
+                    <name>
+                      <surname>Groothuis-Oudshoorn</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>mice: Multivariate Imputation by Chained Equations in R</article-title>
+                  <source>J Stat Soft</source>
+                  <year>2011</year>
+                  <volume>45</volume>
+                  <issue>3</issue>
+                  <fpage>1</fpage>
+                  <lpage>67</lpage>
+                  <pub-id pub-id-type="doi">10.18637/jss.v045.i03</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prognostic Assessment of COVID-19 in the Intensive Care Unit by Machine Learning Methods: Model Development and Validation</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>11</day>
+                  <volume>22</volume>
+                  <issue>11</issue>
+                  <fpage>e23128</fpage>
+                  <comment>
+                    <ext-link xlink:href="https://www.jmir.org/2020/11/e23128/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/23128</pub-id>
+                  <pub-id pub-id-type="medline">33035175</pub-id>
+                  <pub-id pub-id-type="pii">v22i11e23128</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7661105</pub-id>-->
+                  <pub-id pub-id-type="pmid">33035175</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ko</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Chung</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Kang</surname>
+                      <given-names>WS</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>DW</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Chung</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Ko</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Seo</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaimes</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An Artificial Intelligence Model to Predict the Mortality of COVID-19 Patients at Hospital Admission Time Using Routine Blood Samples: Development and Validation of an Ensemble Model</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2020</year>
+                  <month>12</month>
+                  <day>23</day>
+                  <volume>22</volume>
+                  <issue>12</issue>
+                  <fpage>e25442</fpage>
+                  <comment>
+                    <ext-link xlink:href="https://www.jmir.org/2020/12/e25442/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/25442</pub-id>
+                  <pub-id pub-id-type="medline">33301414</pub-id>
+                  <pub-id pub-id-type="pii">v22i12e25442</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7759509</pub-id>-->
+                  <pub-id pub-id-type="pmid">33301414</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abdulaal</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Charani</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Denny</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Mughal</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prognostic Modeling of COVID-19 Using Artificial Intelligence in the United Kingdom: Model Development and Validation</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2020</year>
+                  <month>08</month>
+                  <day>25</day>
+                  <volume>22</volume>
+                  <issue>8</issue>
+                  <fpage>e20259</fpage>
+                  <comment>
+                    <ext-link xlink:href="https://www.jmir.org/2020/8/e20259/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/20259</pub-id>
+                  <pub-id pub-id-type="medline">32735549</pub-id>
+                  <pub-id pub-id-type="pii">v22i8e20259</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7451108</pub-id>-->
+                  <pub-id pub-id-type="pmid">32735549</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ha</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Seog</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>SO</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Heo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An Easy-to-Use Machine Learning Model to Predict the Prognosis of Patients With COVID-19: Retrospective Cohort Study</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2020</year>
+                  <month>11</month>
+                  <day>09</day>
+                  <volume>22</volume>
+                  <issue>11</issue>
+                  <fpage>e24225</fpage>
+                  <comment>
+                    <ext-link xlink:href="https://www.jmir.org/2020/11/e24225/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/24225</pub-id>
+                  <pub-id pub-id-type="medline">33108316</pub-id>
+                  <pub-id pub-id-type="pii">v22i11e24225</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7655730</pub-id>-->
+                  <pub-id pub-id-type="pmid">33108316</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bolourani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Brenner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>McGinn</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hirsch</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Barnaby</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zanos</surname>
+                      <given-names>TP</given-names>
+                    </name>
+                    <collab>Northwell COVID-19 Research Consortium</collab>
+                  </person-group>
+                  <article-title>A Machine Learning Prediction Model of Respiratory Failure Within 48 Hours of Patient Admission for COVID-19: Model Development and Validation</article-title>
+                  <source>J Med Internet Res</source>
+                  <year>2021</year>
+                  <month>02</month>
+                  <day>10</day>
+                  <volume>23</volume>
+                  <issue>2</issue>
+                  <fpage>e24246</fpage>
+                  <comment>
+                    <ext-link xlink:href="https://www.jmir.org/2021/2/e24246/" ext-link-type="uri"/>
+                  </comment>
+                  <pub-id pub-id-type="doi">10.2196/24246</pub-id>
+                  <pub-id pub-id-type="medline">33476281</pub-id>
+                  <pub-id pub-id-type="pii">v23i2e24246</pub-id>
+                  <!--<pub-id pub-id-type="pmcid">PMC7879728</pub-id>-->
+                  <pub-id pub-id-type="pmid">33476281</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,2461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-03-11T00:50:33Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8356626" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8356626</identifier>
+        <datestamp>2021-08-12</datestamp>
+        <setSpec>afrhealthsci</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Afr Health Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Afr Health Sci</journal-id>
+              <journal-title-group>
+                <journal-title>African Health Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1680-6905</issn>
+              <issn pub-type="epub">1729-0503</issn>
+              <publisher>
+                <publisher-name>Makerere Medical School</publisher-name>
+                <publisher-loc>Kampala, Uganda</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8356626</article-id>
+              <article-id pub-id-type="pmcid">PMC8356626</article-id>
+              <article-id pub-id-type="pmc-uid">8356626</article-id>
+              <article-id pub-id-type="pmid">34394298</article-id>
+              <article-id pub-id-type="publisher-id">jAFHS.v21.i1.pg194</article-id>
+              <article-id pub-id-type="doi">10.4314/ahs.v21i1.26</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Articles</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>COVID-19 mortality rate prediction for India using statistical neural networks and gaussian process regression model</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Dhamodharavadhani</surname>
+                    <given-names>S</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rathipriya</surname>
+                    <given-names>R</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <aff>Department of Computer Science, Periyar University, Salem-India</aff>
+              <author-notes>
+                <corresp>Corresponding author: Rathipriya R, Department of Computer Science, Periyar University, Salem-India. <email>rathi_priyar@periyaruniversity.ac.in</email></corresp>
+              </author-notes>
+              <pub-date pub-type="ppub">
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>1</issue>
+              <fpage>194</fpage>
+              <lpage>206</lpage>
+              <permissions>
+                <copyright-statement>© 2021 Dhamodharavadhani S et al.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Licensee African Health Sciences. This is an Open Access article distributed under the terms of the Creative commons Attribution License (<uri xlink:type="simple" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/BY/4.0</uri>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <abstract abstract-type="executive-summary">
+                <p>The primary purpose of this research is to identify the best COVID-19 mortality model for India using regression models and is to estimate the future COVID-19 mortality rate for India. Specifically, Statistical Neural Networks (Radial Basis Function Neural Network (RBFNN), Generalized Regression Neural Network (GRNN)), and Gaussian Process Regression (GPR) are applied to develop the COVID-19 Mortality Rate Prediction (MRP) model for India. For that purpose, there are two types of dataset used in this study: One is COVID-19 Death cases, a Time Series Data and the other is COVID-19 Confirmed Case and Death Cases where Death case is dependent variable and the Confirmed case is an independent variable. Hyperparameter optimization or tuning is used in these regression models, which is the process of identifying a set of optimal hyperparameters for any learning process with minimal error. Here, sigma (σ) is a hyperparameter whose value is used to constrain the learning process of the above models with minimum Root Mean Squared Error (RMSE). The performance of the models is evaluated using the RMSE and 'R2 values, which shows that the GRP model performs better than the GRNN and RBFNN.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>Covid-19</kwd>
+                <kwd>India</kwd>
+                <kwd>mortality rate</kwd>
+                <kwd>mortality prediction</kwd>
+                <kwd>regression model</kwd>
+                <kwd>hyperparameter tuning</kwd>
+                <kwd>GPR</kwd>
+                <kwd>GRNN</kwd>
+                <kwd>RBFNN</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro">
+              <title>Introduction</title>
+              <p>At the end of December 2019 in Wuhan, China, it was first reported that a human infection was caused by a novel coronavirus (nCov) or Wuhan virus or 2019-nCov<xref rid="R1" ref-type="bibr">1</xref>. One of the biggest challenges of this epidemic is a human-to-human transition of nCov. The coronavirus (COVID-19) infected cases increase at an exponential rate worldwide. On 30 January 2020, the World Health Organization (WHO) issued a worldwide health emergency warning notice <xref rid="R2" ref-type="bibr">2</xref>, describing that 2019-nCoV is of critical global concern. The morbidity and mortality rates for the COVID -19 are uncertain at the early stage <xref rid="R3" ref-type="bibr">3</xref> especially for young ones and aged people. WHO has estimated the reproduction factor (R0) of nCov is 2.7. To monitor the massive and rapid spread of the nCov, public health sectors took reliable preventative measures. They imposed curfew or lockdown infested cities in China, the United States, India, and other countries also. This is to limit the social distance between people and to avoid the spread of this novel virus via humans to humans.</p>
+              <p>For the last decade, machine learning techniques have gain momentum and play a vital role in many domains of research fields. Notably, it has a tremendous impact on data analytics and data science. It enables a better understanding of the data and its methods, allows for future assumptions based on past data / empirical data, and automatically classifies the type of data (known as classification). Machine Learning (ML) techniques also can be used to develop standard mortality models.</p>
+              <p>Generally, ML tools used for prediction of the mortality rate of epidemic diseases in advance which helps the public healthcare authorities to develop and design an effective and efficient plan to reduce deaths. Authors Deprez et al. <xref rid="R4" ref-type="bibr">4</xref>, used machine learning algorithms to fit and assess the mortality model by detecting the weaknesses of different mortality models. Artificial Neural Networks (ANNs)<xref rid="R5" ref-type="bibr">5</xref> used to identify and forecast latent mortality variables with higher predictive accuracy. In <xref rid="R6" ref-type="bibr">6</xref>, the authors used neural networks to expand the Lee-Carter model to several predictions of populations. Gaussian process models have typically been used extensively in engineering-based optimization applications (Razavi et al. <xref rid="R7" ref-type="bibr">7</xref>). A combination of GPR and adaptive neuro-fuzzy inference system (ANFIS) <xref rid="R8" ref-type="bibr">8</xref> used in groundwater level forecasting. In <xref rid="R9" ref-type="bibr">9</xref>, an extensive comparative study was carried out between several surrogate models, comprising GPR, using simulation-optimization methodology with uncertainty parameters. In the end, they had concluded that the GPR models and their ensemble were efficient methods concerning prediction accuracy. GRNN model was built in <xref rid="R10" ref-type="bibr">10</xref> as a new computational method for the field of incidence prediction of infectious diseases. Han, et al. <xref rid="R11" ref-type="bibr">11</xref> developed a GRNN network with a one-dimensional input and output layer to predict blood, and sexually transmitted infections are occurring. In <xref rid="R12" ref-type="bibr">12</xref>, ―authors implemented a comparison analysis on Back Propagation Neural Network (BPNN), Generalized Regression Neural Network (GRNN), and Radial Basis Function Neural Network (RBFNN) network for prediction of the evaporation‖. The results showed that the GPR is a successful technique compared with artificial neural network approaches.</p>
+              <p>In<xref rid="R13" ref-type="bibr">13</xref>, ―a large-scale comparison analysis was presented for major machine learning models such as multilayer perceptron, Bayesian neural networks, radial base functions, generalized neural regression networks (also kernel regression), K-nearest neighbor regression, CART regression trees, support vector regression, and Gaussian time series prediction processes‖. The authors observed that the performance of these models was solely dependent on the data set, having different impacts.</p>
+              <p>The RBF and GRNN <xref rid="R14" ref-type="bibr">14</xref> were applied to data of patients with heart disease for the medication outcome. The results showed that RBF performed well for prescribing medicine for the patient. In <xref rid="R15" ref-type="bibr">15</xref>, the authors claimed that the Gaussian process approach performed better than the standard generalized linear model (GLM) for the Phenomenological forecasting of dengue disease incidence. Gholam Ali Montazer et. al <xref rid="R16" ref-type="bibr">16</xref> reviewed various learning methods for defining network parameters such as widths, centers, and synaptic weights of the RBF neural network. In <xref rid="R17" ref-type="bibr">17</xref>, extensive neural regression networks were proposed as an automated technique for forecasting time series. This technique is intended to achieve an efficient and fast tool for automatically predicting a vast amount of time series. From these works, one could clearly understand the applications of GPR, GRNN, and RDFNN in various research domains.</p>
+              <p>In this work, the GPR model with optimized hyperparameter (Co-variance, mean), GRNN with optimized hyperparameter (spread), and RBFNN with optimized hyperparameter (spread) are applied to develop COVID -19 mortality models for two types of dataset. Moreover, to evaluate the performance of these models, RMSE, a quantifiable measure will be used, and the MRP model with low RMSE will be selected as the best model for predicting the COVID-19 mortality rate for India. The purpose of this study is to predict mortality rates against multiple COVID-19 confirmed cases using machine learning techniques that capture patterns that cannot be identified by a standard statistical mortality model.</p>
+              <p>The rest of the paper is organized as follows. Section 2 details the methods and materials for Covid-19 mortality rate forecasting for India. The outcomes and analysis of this study are given in Section 3. This work is summarized in Section 4 with potential future research.</p>
+            </sec>
+            <sec sec-type="methods|materials">
+              <title>Methods and materials</title>
+              <sec>
+                <label>A</label>
+                <title>Hyperparameter Optimization</title>
+                <p>The goal of hyperparameter optimization in regression models is to find the parameters of a given regression technique, which returns the best output on a validation set while training and testing the model<xref rid="R15" ref-type="bibr">15</xref>. This is as shown in equation (1)
+<disp-formula id="FD1"><label>(1)</label><mml:math id="M1"><mml:mrow><mml:mrow><mml:mtext>H</mml:mtext><mml:mo>*</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mtext>arg min</mml:mtext></mml:mrow><mml:mrow><mml:mtext>o</mml:mtext><mml:mo>∈</mml:mo><mml:mtext>O</mml:mtext></mml:mrow></mml:msub><mml:mtext>f(o)</mml:mtext></mml:mrow></mml:mrow></mml:math></disp-formula>
+Where f(O) is an objective score to minimize RMSE calculated on the validation dataset; H * is the set of hyperparameters that gives the lowest RMSE score, and o is any value in the problem domain O.</p>
+                <p>Even though hyperparameter optimization is costly in terms of computational time, it yields good prediction accuracy than traditional regression models.</p>
+              </sec>
+              <sec>
+                <label>B</label>
+                <title>Gaussian Process Regression</title>
+                <p>Gaussiaprocessss is a machine learning technique used to make uncertain predictions. It is defined as a finite set of random variables distributed jointly by the Gaussians <xref rid="R15" ref-type="bibr">15</xref>. These random variables represent the value for a function f(x) at input x in regression problems. It is represented as {f(x) : x X} defined by the mean function μ(x) and the covariance function k(x, x′) so it can be represented as</p>
+                <disp-formula id="FD2">
+                  <label>(2)</label>
+                  <mml:math id="M2">
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mtext>f(</mml:mtext>
+                        <mml:mo>⋅</mml:mo>
+                        <mml:mtext>)~GP(μ(</mml:mtext>
+                        <mml:mo>⋅</mml:mo>
+                        <mml:mtext>),k(</mml:mtext>
+                        <mml:mo>⋅</mml:mo>
+                        <mml:mo>,</mml:mo>
+                        <mml:mo>⋅</mml:mo>
+                        <mml:mtext>))</mml:mtext>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:math>
+                </disp-formula>
+                <p>Usually, a zero-mean Gaussian process before equation (2) is the prior distribution over functions f (•) Same detailed explanation found in 16. This model is named, in literature, a substitute for the objective function. The substitute can be configured more easily than the intent feature. A GP method determines the next set of hyperparameters to test by choosing the best hyperparameters acting on this surrogate function on the actual objective function.</p>
+                <p>A covariance function as defined in equation (3) is used to represents the covariance between pairs of random variables in GPR.</p>
+                <disp-formula id="FD3">
+                  <label>(3)</label>
+                  <mml:math id="M3">
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mi>K</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>i</mml:mi>
+                            <mml:mi>j</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi>k</mml:mi>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:msub>
+                          <mml:mi>x</mml:mi>
+                          <mml:mi>i</mml:mi>
+                        </mml:msub>
+                        <mml:mo>,</mml:mo>
+                        <mml:msub>
+                          <mml:mi>x</mml:mi>
+                          <mml:mi>j</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi>α</mml:mi>
+                        <mml:mi>exp</mml:mi>
+                        <mml:mo>⁡</mml:mo>
+                        <mml:mo>{</mml:mo>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mo>|</mml:mo>
+                            <mml:mo>|</mml:mo>
+                            <mml:msub>
+                              <mml:mi>x</mml:mi>
+                              <mml:mi>i</mml:mi>
+                            </mml:msub>
+                            <mml:mo>−</mml:mo>
+                            <mml:msub>
+                              <mml:mi>x</mml:mi>
+                              <mml:mi>j</mml:mi>
+                            </mml:msub>
+                            <mml:mo>|</mml:mo>
+                            <mml:msup>
+                              <mml:mo>|</mml:mo>
+                              <mml:mn>2</mml:mn>
+                            </mml:msup>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mn>2</mml:mn>
+                            <mml:msubsup>
+                              <mml:mi>σ</mml:mi>
+                              <mml:mn>1</mml:mn>
+                              <mml:mn>2</mml:mn>
+                            </mml:msubsup>
+                          </mml:mrow>
+                        </mml:mfrac>
+                        <mml:mo>}</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:math>
+                </disp-formula>
+                <p>Here, hyperparameters are</p>
+                <p><italic>σ</italic><sub>1</sub> = <italic>Characteristic lengthscale</italic></p>
+                <p>
+                  <italic>α = Signal variance</italic>
+                </p>
+                <boxed-text position="float">
+                  <p>
+                    <bold>GPR model-based hyperparameter optimization</bold>
+                  </p>
+                  <p>
+                    <italic>1. Initialize hyperparameters for GPR model</italic>
+                  </p>
+                  <p>
+                    <italic>2. Define an objective function of GPR model</italic>
+                  </p>
+                  <p>
+                    <italic>3. Specify the selection criteria (ie. Minimal RMSE) for evaluating hyperparameters which have to choose next from the surrogate model</italic>
+                  </p>
+                  <p>
+                    <italic>4. Update the surrogate model by (score, hyperparameter) pair</italic>
+                  </p>
+                  <p>
+                    <italic>5. Repeat steps 2-4 until maximum iterations or time is reached.</italic>
+                  </p>
+                </boxed-text>
+              </sec>
+              <sec>
+                <label>C</label>
+                <title>GRNN</title>
+                <p>A special case of Radial Basis Networks (RBN) is the Generalized Regression Neural Network (GRNN) 28. The structure of a GRNN with two layers is comparatively simple and fixed. The first is the sequence, and the second is a summation. When the input is passed through each unit in the pattern layer, the input-response relationship will be “memorized” and stored within the unit. As a result, the number of units in the pattern layer equals the number of individual values in the training set. In each pattern unit, a Gaussian PDF is applied to the network input, so that it is defined as equation (4)</p>
+                <disp-formula id="FD4">
+                  <label>(4)</label>
+                  <mml:math id="M4">
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mi>Theta</mml:mi>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi>EXP</mml:mi>
+                        <mml:mo stretchy="false">[</mml:mo>
+                        <mml:mo>−</mml:mo>
+                        <mml:mn>0.5</mml:mn>
+                        <mml:mo>∗</mml:mo>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>A</mml:mi>
+                        <mml:mo>−</mml:mo>
+                        <mml:mi>t</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo>`</mml:mo>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>A</mml:mi>
+                        <mml:mo>−</mml:mo>
+                        <mml:mi>t</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo>/</mml:mo>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>Sigma</mml:mi>
+                        <mml:mo>^</mml:mo>
+                        <mml:mn>2</mml:mn>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo stretchy="false">]</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:math>
+                </disp-formula>
+                <p>where Theta is the output of the Pattern Unit, A is the origin, t is the vector of training stored in the unit, and Sigma is a positive variable known as the “distance” or “smooth parameter” or ―smoothing factor‖. If Theta is determined, the calculation is transferred to the summation layer P = SUM(P*Theta)/SUM(Theta) where P is the conditional prediction of P and Q is the solution in the sample of training.</p>
+              </sec>
+              <sec>
+                <label>D</label>
+                <title>RBFNN</title>
+                <p>RBFNN 30 is an artificial neural network that uses radial functions as the activation functions shown in equation (5). RBFNN is a three-layer neural network of feed-forwards. The first layer is linear, transmitting only the input signal, while the next layer is nonlinear, using Gaussian functions. The third layer integrates a linear representation of the Gaussian outputs. Only the tap weights between the hidden layer and the output layer shift during preparation.</p>
+                <disp-formula id="FD5">
+                  <label>(5)</label>
+                  <mml:math id="M5">
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mi>f</mml:mi>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>x</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo>=</mml:mo>
+                        <mml:mfrac>
+                          <mml:mn>1</mml:mn>
+                          <mml:mrow>
+                            <mml:mroot>
+                              <mml:mrow>
+                                <mml:mn>2</mml:mn>
+                                <mml:mi>π</mml:mi>
+                              </mml:mrow>
+                              <mml:mi>σ</mml:mi>
+                            </mml:mroot>
+                          </mml:mrow>
+                        </mml:mfrac>
+                        <mml:msup>
+                          <mml:mi>e</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>−</mml:mo>
+                            <mml:mfrac>
+                              <mml:mrow>
+                                <mml:msup>
+                                  <mml:mrow>
+                                    <mml:mo stretchy="false">(</mml:mo>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mo>−</mml:mo>
+                                    <mml:mi>μ</mml:mi>
+                                    <mml:mo stretchy="false">)</mml:mo>
+                                  </mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:msup>
+                              </mml:mrow>
+                              <mml:mrow>
+                                <mml:mn>2</mml:mn>
+                                <mml:msup>
+                                  <mml:mi>σ</mml:mi>
+                                  <mml:mn>2</mml:mn>
+                                </mml:msup>
+                              </mml:mrow>
+                            </mml:mfrac>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:math>
+                </disp-formula>
+              </sec>
+              <sec>
+                <label>E</label>
+                <title>Nonlinear Autoregressive Neural Network</title>
+                <p>The Nonlinear autoregressive neural network is a type of ANN that is suitable for estimating future input variable values. The NAR Network helps to forecast future values of the time. It supported the use of a re-feeding mechanism through its historical precedent, in which a predicted value would serve as feedback for new predictions at more advanced points in time. In equation (6) represents as predict series y(t) given d past values of y(t).</p>
+                <disp-formula id="FD6">
+                  <label>(6)</label>
+                  <mml:math id="M6">
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mi>y</mml:mi>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>t</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi>f</mml:mi>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>y</mml:mi>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>t</mml:mi>
+                        <mml:mo>−</mml:mo>
+                        <mml:mn>1</mml:mn>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo>,</mml:mo>
+                        <mml:mn>...</mml:mn>
+                        <mml:mo>,</mml:mo>
+                        <mml:mi>y</mml:mi>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mi>t</mml:mi>
+                        <mml:mo>−</mml:mo>
+                        <mml:mi>d</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:math>
+                </disp-formula>
+              </sec>
+              <sec>
+                <label>F</label>
+                <title>Root Mean Squared Error (RMSE)</title>
+                <p>RMSE is the square root of the square differences measured between predicted and actual COVID-19 Death cases 8. It represents as in equation (7)</p>
+                <disp-formula id="FD7">
+                  <label>(7)</label>
+                  <mml:math id="M7">
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mi>RMSE</mml:mi>
+                        <mml:mo>=</mml:mo>
+                        <mml:msqrt>
+                          <mml:mrow>
+                            <mml:mfrac>
+                              <mml:mn>1</mml:mn>
+                              <mml:mi>n</mml:mi>
+                            </mml:mfrac>
+                            <mml:mstyle displaystyle="true">
+                              <mml:msubsup>
+                                <mml:mo>∑</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi>i</mml:mi>
+                                  <mml:mo>=</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mi>n</mml:mi>
+                              </mml:msubsup>
+                              <mml:mrow>
+                                <mml:mo stretchy="false">(</mml:mo>
+                                <mml:mi>Predicted</mml:mi>
+                                <mml:mtext> </mml:mtext>
+                                <mml:mi>Death</mml:mi>
+                                <mml:mtext> </mml:mtext>
+                                <mml:mi>Cas</mml:mi>
+                                <mml:msub>
+                                  <mml:mi>e</mml:mi>
+                                  <mml:mi>i</mml:mi>
+                                </mml:msub>
+                              </mml:mrow>
+                            </mml:mstyle>
+                            <mml:mo>−</mml:mo>
+                            <mml:mi>Actual</mml:mi>
+                            <mml:mtext> </mml:mtext>
+                            <mml:mi>Death</mml:mi>
+                            <mml:mtext> </mml:mtext>
+                            <mml:mi>Cas</mml:mi>
+                            <mml:msub>
+                              <mml:mi>e</mml:mi>
+                              <mml:mi>i</mml:mi>
+                            </mml:msub>
+                            <mml:msup>
+                              <mml:mtext>)</mml:mtext>
+                              <mml:mtext>2</mml:mtext>
+                            </mml:msup>
+                          </mml:mrow>
+                        </mml:msqrt>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:math>
+                </disp-formula>
+                <p>Where, n= number of samples, Pi=ith Predicted value, Ai= ith Actual value</p>
+              </sec>
+              <sec>
+                <label>G</label>
+                <title>Correlation coefficient (R2)</title>
+                <p>It measures a linear relationship between the predicted and actual COVID-19 death cases 8. It represents as in equation (8)</p>
+                <disp-formula id="FD8">
+                  <label>(8)</label>
+                  <mml:math id="M8">
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mi>R</mml:mi>
+                        <mml:mo>=</mml:mo>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mstyle displaystyle="true">
+                              <mml:msubsup>
+                                <mml:mo>∑</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi>i</mml:mi>
+                                  <mml:mo>=</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mi>n</mml:mi>
+                              </mml:msubsup>
+                              <mml:mrow>
+                                <mml:mo stretchy="false">(</mml:mo>
+                                <mml:msub>
+                                  <mml:mi>a</mml:mi>
+                                  <mml:mi>i</mml:mi>
+                                </mml:msub>
+                                <mml:mo>−</mml:mo>
+                                <mml:mover accent="true">
+                                  <mml:mrow>
+                                    <mml:msub>
+                                      <mml:mi>a</mml:mi>
+                                      <mml:mi>i</mml:mi>
+                                    </mml:msub>
+                                  </mml:mrow>
+                                  <mml:mo stretchy="true">¯</mml:mo>
+                                </mml:mover>
+                                <mml:mo stretchy="false">)</mml:mo>
+                                <mml:mo stretchy="false">(</mml:mo>
+                                <mml:msub>
+                                  <mml:mi>b</mml:mi>
+                                  <mml:mi>i</mml:mi>
+                                </mml:msub>
+                                <mml:mo>−</mml:mo>
+                                <mml:mover accent="true">
+                                  <mml:mrow>
+                                    <mml:msub>
+                                      <mml:mi>b</mml:mi>
+                                      <mml:mi>i</mml:mi>
+                                    </mml:msub>
+                                  </mml:mrow>
+                                  <mml:mo stretchy="true">¯</mml:mo>
+                                </mml:mover>
+                                <mml:mo stretchy="false">)</mml:mo>
+                              </mml:mrow>
+                            </mml:mstyle>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mstyle displaystyle="true">
+                              <mml:msubsup>
+                                <mml:mo>∑</mml:mo>
+                                <mml:mrow>
+                                  <mml:mi>i</mml:mi>
+                                  <mml:mo>=</mml:mo>
+                                  <mml:mn>1</mml:mn>
+                                </mml:mrow>
+                                <mml:mi>n</mml:mi>
+                              </mml:msubsup>
+                              <mml:mrow>
+                                <mml:msup>
+                                  <mml:mrow>
+                                    <mml:mo stretchy="false">(</mml:mo>
+                                    <mml:msub>
+                                      <mml:mi>a</mml:mi>
+                                      <mml:mi>i</mml:mi>
+                                    </mml:msub>
+                                    <mml:mo>−</mml:mo>
+                                    <mml:mover accent="true">
+                                      <mml:mrow>
+                                        <mml:msub>
+                                          <mml:mi>a</mml:mi>
+                                          <mml:mi>i</mml:mi>
+                                        </mml:msub>
+                                      </mml:mrow>
+                                      <mml:mo stretchy="true">¯</mml:mo>
+                                    </mml:mover>
+                                    <mml:mo stretchy="false">)</mml:mo>
+                                  </mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:msup>
+                                  <mml:mrow>
+                                    <mml:mstyle displaystyle="true">
+                                      <mml:msubsup>
+                                        <mml:mo>∑</mml:mo>
+                                        <mml:mrow>
+                                          <mml:mi>i</mml:mi>
+                                          <mml:mo>=</mml:mo>
+                                          <mml:mn>1</mml:mn>
+                                        </mml:mrow>
+                                        <mml:mi>n</mml:mi>
+                                      </mml:msubsup>
+                                      <mml:mrow>
+                                        <mml:mo stretchy="false">(</mml:mo>
+                                        <mml:msub>
+                                          <mml:mi>b</mml:mi>
+                                          <mml:mi>i</mml:mi>
+                                        </mml:msub>
+                                        <mml:mo>−</mml:mo>
+                                        <mml:mover accent="true">
+                                          <mml:mrow>
+                                            <mml:msub>
+                                              <mml:mi>b</mml:mi>
+                                              <mml:mi>i</mml:mi>
+                                            </mml:msub>
+                                          </mml:mrow>
+                                          <mml:mo stretchy="true">¯</mml:mo>
+                                        </mml:mover>
+                                        <mml:mo stretchy="false">)</mml:mo>
+                                      </mml:mrow>
+                                    </mml:mstyle>
+                                  </mml:mrow>
+                                  <mml:mn>2</mml:mn>
+                                </mml:msup>
+                              </mml:mrow>
+                            </mml:mstyle>
+                          </mml:mrow>
+                        </mml:mfrac>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:math>
+                </disp-formula>
+                <p>Where is the actual COVID-19 death case value, is the predicted COVID-19 death case value; - is the mean of real COVID-19 death case value - is the predicted mean COVID-19 death cases value, and is the total number of data points.</p>
+              </sec>
+              <sec>
+                <title>Proposed methodology</title>
+                <sec>
+                  <title>Dataset Description</title>
+                  <p>A dataset has been downloaded from the Kaggle website (<ext-link ext-link-type="uri" xlink:href="www.kaggle.com">www.kaggle.com</ext-link>) for predicting the COVID-19 death cases for India. This dataset contains India's COVID-19 Confirmed cases and Death cases from January 20, 2020, to April 30, 2020, which is used for training and testing models.</p>
+                  <p>First, these data are pre-processed to eliminate missing values and inappropriate values. These data can be used to create two types of datasets. They are:
+<list list-type="bullet"><list-item><p>Dataset 1 contains two attributes, such as COVID-19 confirmed cases and death cases. Here, ‘death case’ is a predictive attribute and ‘confirmed case’ is a response attribute.</p></list-item><list-item><p>Dataset 2 contains a time series of COVID-19 death cases.</p></list-item></list></p>
+                  <p>In this paper, three models (such as GPR, GRNN, and RBFNN) are constructed with the appropriate model parameter values and used in these two datasets to validate the predicted results concerning given the available datasets.</p>
+                  <p><xref rid="F1" ref-type="fig">Figure 1</xref> illustrates the proposed methodology. In general, residues or errors are an inevitable part of any predictive or regression models. Similarly, there are errors in the GPR, GRNN, and RBFNN models. To provide a predictive model with high accuracy, this study explores a hybrid approach, including regression methods and the non-linear auto-regression (NAR) neural network (NAR-NN) time series forecasting model. Therefore, trends in residues or errors are detected and predicted by the NAR-NN model. Combining the predicted residual values of each model with the predicted value of each model will provide greater predictive accuracy. The following steps are used to develop the hybrid model:</p>
+                  <p><bold>Step 1:</bold> Download data from the website and pre-process the dataset. Create Dataset 1(D1) and Dataset2(D2).</p>
+                  <p><bold>Step 2:</bold> Initialize Model Parameters and define hyperparameters for GPR, GRNN, and RBFNN.</p>
+                  <p><bold>Step 3:</bold> Input datasets D1 and D2 into the GPR model, GRNN model, and RBFNN model respectively, and predict COVID-19 death cases (Prednew) for ‘n’ period ahead or for given set of confirmed cases.</p>
+                  <p><bold>Step 4:</bold> The residuals produced by these models are extracted and converted into time-series data.</p>
+                  <p><bold>Step 5:</bold> Input these residuals into the NAR-NN time series forecasting model and predict the residual values (Ferr) for three models separately. It is shown graphically in <xref rid="F3" ref-type="fig">figure 3</xref>.</p>
+                  <p><bold>Step 6:</bold> Ferr is added with PredNew to generate an optimized prediction value.</p>
+                  <p><bold>Step 7:</bold> Return optimized predicted values as output</p>
+                  <fig id="F1" fig-type="illustration" position="float">
+                    <label>Figure 1</label>
+                    <caption>
+                      <p>Proposed Methodology for COVID-19 MRP Model</p>
+                    </caption>
+                    <graphic xlink:href="AFHS2101-0194Fig1"/>
+                  </fig>
+                  <fig id="F3" fig-type="illustration" position="float">
+                    <label>Figure 3</label>
+                    <caption>
+                      <p>Workflow of NAR-NN Time Series Forecasting</p>
+                    </caption>
+                    <graphic xlink:href="AFHS2101-0194Fig3"/>
+                  </fig>
+                  <p><xref rid="T1" ref-type="table">Table 1</xref> shows the parameter setup for all three models. <xref rid="F2" ref-type="fig">Figure 2</xref> illustrates the operating principles of the hyperparameter tuning used with the GPR model, the GRNN model, and the RBFNN model to achieve the minimum RMSE value for these models, respectively. Similarly, <xref rid="F3" ref-type="fig">figure 3</xref> describes the working principle of the NAR-NN model for error forecasting for these models.</p>
+                  <table-wrap id="T1" position="float">
+                    <label>Table 1</label>
+                    <caption>
+                      <p>Model Parameters Setup</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                      <thead valign="top">
+                        <tr>
+                          <td rowspan="1" colspan="1">Model Parameters</td>
+                          <td align="center" rowspan="1" colspan="1">GPR Model</td>
+                          <td align="center" rowspan="1" colspan="1">GRNN Model</td>
+                          <td align="center" rowspan="1" colspan="1">RBFNN Model</td>
+                          <td align="center" rowspan="1" colspan="1">NAR-NN<break/>
+Model</td>
+                        </tr>
+                      </thead>
+                      <tbody valign="top">
+                        <tr>
+                          <td rowspan="1" colspan="1">
+                            <bold>Hidden Layer (HL)</bold>
+                          </td>
+                          <td align="center" rowspan="1" colspan="1">N/A</td>
+                          <td align="center" rowspan="1" colspan="1">Fixed Architecture</td>
+                          <td align="center" rowspan="1" colspan="1">Fixed Architecture</td>
+                          <td align="center" rowspan="1" colspan="1">Fixed Architecture</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">
+                            <bold>Number of Neurons in</bold>
+                            <break/>
+                            <bold>HL</bold>
+                          </td>
+                          <td align="center" rowspan="1" colspan="1">N/A</td>
+                          <td align="center" rowspan="1" colspan="1">10</td>
+                          <td align="center" rowspan="1" colspan="1">10</td>
+                          <td align="center" rowspan="1" colspan="1">15</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">
+                            <bold>Training Algorithm</bold>
+                          </td>
+                          <td align="center" rowspan="1" colspan="1">N/A</td>
+                          <td align="center" rowspan="1" colspan="1">Bayesian<break/>
+Regularization</td>
+                          <td align="center" rowspan="1" colspan="1">Bayesian<break/>
+Regularization</td>
+                          <td align="center" rowspan="1" colspan="1">Bayesian<break/>
+Regularization</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">
+                            <bold>Kernel Functions</bold>
+                          </td>
+                          <td align="center" rowspan="1" colspan="1">Exponential</td>
+                          <td align="center" rowspan="1" colspan="1">N/A</td>
+                          <td align="center" rowspan="1" colspan="1">N/A</td>
+                          <td align="center" rowspan="1" colspan="1">N/A</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">
+                            <bold>Hyperparameter</bold>
+                          </td>
+                          <td align="center" rowspan="1" colspan="1">Covariance (σ)<break/>
+Mean (µ)</td>
+                          <td align="center" rowspan="1" colspan="1">Spread/<break/>
+Smoothing factor (σ)</td>
+                          <td align="center" rowspan="1" colspan="1">Spread/<break/>
+Smoothing factor (σ)</td>
+                          <td align="center" rowspan="1" colspan="1">N/A</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">
+                            <bold>Performance</bold>
+                          </td>
+                          <td align="center" rowspan="1" colspan="1">RMSE</td>
+                          <td align="center" rowspan="1" colspan="1">RMSE</td>
+                          <td align="center" rowspan="1" colspan="1">RMSE</td>
+                          <td align="center" rowspan="1" colspan="1">MSE</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                  <fig id="F2" fig-type="illustration" position="float">
+                    <label>Figure 2</label>
+                    <caption>
+                      <p>Workflow of Model with Hyperparameter Tuning</p>
+                    </caption>
+                    <graphic xlink:href="AFHS2101-0194Fig2"/>
+                  </fig>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Outcomes and Discussions</title>
+              <p>This section contains results of Gaussian Process Regression, and two different statistical neural networks (SNNs): GRNN and RBFNN models for dataset1 and dataset<xref rid="R2" ref-type="bibr">2</xref> are presented and discussed. The performance of these models was compared.</p>
+              <p>The benchmark performance metrics such as Root Mean Squared Error (RMSE), an error measure, and Correlation coefficient accuracy measure (R) are used to estimate the COVID-19 death cases prediction accuracy. By using Hyperparameter tuning, the predictive efficiency of these three models can be improved. The goal of hyperparameter tuning is to optimize the value of hyperparameters of each model to minimize the RMSE value of these models. Based on RMSE value, the best model is selected for COVID-19 death cases prediction and mortality rate prediction.</p>
+              <p><xref rid="T2" ref-type="table">Table 2</xref> shows the values of the performance metrics such as RMSE and R2 for three models. While comparing these models, it is seen that the GPR model has low RMSE value and high R2 value for both datasets. It signifies that the GPR model performs better than two statistical neural networks for the COVID-19 dataset. The spread value (σ) of GRNN and RBFNN is 4 and 1.76, respectively. <xref rid="T3" ref-type="table">Table 3</xref> and <xref rid="T4" ref-type="table">Table 4</xref> display the values of hyperparameters for statistical neural networks and Gaussian Process Regression models.</p>
+              <table-wrap id="T2" position="float">
+                <label>Table 2</label>
+                <caption>
+                  <p>Performance Metrics for Datasets</p>
+                </caption>
+                <table frame="above" rules="groups">
+                  <thead valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">Model</td>
+                      <td align="right" rowspan="1" colspan="1">RMSE_D1</td>
+                      <td align="right" rowspan="1" colspan="1">RMSE_D2</td>
+                      <td align="right" rowspan="1" colspan="1">R<sup>2</sup> _D1</td>
+                      <td align="right" rowspan="1" colspan="1">R<sup>2</sup> _D2</td>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>GRNN</bold>
+                      </td>
+                      <td align="right" rowspan="1" colspan="1">2.44605585</td>
+                      <td align="right" rowspan="1" colspan="1">3.249880129</td>
+                      <td align="right" rowspan="1" colspan="1">0.999938</td>
+                      <td align="right" rowspan="1" colspan="1">0.9999646</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>RBFNN</bold>
+                      </td>
+                      <td align="right" rowspan="1" colspan="1">2.959403436</td>
+                      <td align="right" rowspan="1" colspan="1">3.264847469</td>
+                      <td align="right" rowspan="1" colspan="1">0.999937</td>
+                      <td align="right" rowspan="1" colspan="1">0.999954</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>GPR</bold>
+                      </td>
+                      <td align="right" rowspan="1" colspan="1">0.177218356</td>
+                      <td align="right" rowspan="1" colspan="1">0.16828063</td>
+                      <td align="right" rowspan="1" colspan="1">1</td>
+                      <td align="right" rowspan="1" colspan="1">0.9999998</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <table-wrap id="T3" position="float">
+                <label>Table 3</label>
+                <caption>
+                  <p>Hyperparameter Value for GRNN and RBFNN (Spread)</p>
+                </caption>
+                <table frame="above" rules="groups">
+                  <thead valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">Dataset</td>
+                      <td rowspan="1" colspan="1">GRNN</td>
+                      <td rowspan="1" colspan="1">RBNN</td>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>D1</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">2</td>
+                      <td rowspan="1" colspan="1">1.28</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>D2</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">4</td>
+                      <td rowspan="1" colspan="1">1.76</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <table-wrap id="T4" position="float">
+                <label>Table 4</label>
+                <caption>
+                  <p>Hyperparameter Value for GPR</p>
+                </caption>
+                <table frame="above" rules="groups">
+                  <thead valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">Dataset</td>
+                      <td rowspan="1" colspan="1">Sigma M</td>
+                      <td rowspan="1" colspan="1">Sigma F</td>
+                      <td rowspan="1" colspan="1">Sigma</td>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>D1</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">6863.8</td>
+                      <td rowspan="1" colspan="1">255</td>
+                      <td rowspan="1" colspan="1">6.8</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>D2</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1008.5</td>
+                      <td rowspan="1" colspan="1">79.1</td>
+                      <td rowspan="1" colspan="1">2.6</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <p><xref rid="T5" ref-type="table">Tables 5</xref> and <xref rid="T6" ref-type="table">6</xref> show the predicted number of COVID-19 death cases for all three standard and hybrid models using the time series dataset (i.e. D2). A hybrid model is the combination of standard models and NAR-NN based error forecasting models. There is no difference in the predicted values for the standard and hybrid GPR model since their RMSE value is about 0.2 approximately. <xref rid="F4" ref-type="fig">Figure 4</xref> shows the number of predicted death cases versus days from May 1, 2020, to May 20, 2020. From this point of view, the two SNNs have nearly equal efficiency, but their RMSE values are higher than that of the GPR models.</p>
+              <table-wrap id="T5" position="float">
+                <label>Table 5</label>
+                <caption>
+                  <p>Predicted Value Y<sub>pred</sub> for Dataset (D2) using Standard Models</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">Date</td>
+                      <td rowspan="1" colspan="1">GPR</td>
+                      <td rowspan="1" colspan="1">GRNN</td>
+                      <td rowspan="1" colspan="1">RBFNN</td>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>01-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1152</td>
+                      <td rowspan="1" colspan="1">1234</td>
+                      <td rowspan="1" colspan="1">1234</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>02-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1152</td>
+                      <td rowspan="1" colspan="1">1317</td>
+                      <td rowspan="1" colspan="1">1317</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>03-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1151</td>
+                      <td rowspan="1" colspan="1">1403</td>
+                      <td rowspan="1" colspan="1">1402</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>04-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1151</td>
+                      <td rowspan="1" colspan="1">1490</td>
+                      <td rowspan="1" colspan="1">1489</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>05-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1150</td>
+                      <td rowspan="1" colspan="1">1579</td>
+                      <td rowspan="1" colspan="1">1576</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>06-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1150</td>
+                      <td rowspan="1" colspan="1">1667</td>
+                      <td rowspan="1" colspan="1">1664</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>07-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1149</td>
+                      <td rowspan="1" colspan="1">1754</td>
+                      <td rowspan="1" colspan="1">1750</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>08-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1149</td>
+                      <td rowspan="1" colspan="1">1840</td>
+                      <td rowspan="1" colspan="1">1835</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>09-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1148</td>
+                      <td rowspan="1" colspan="1">1922</td>
+                      <td rowspan="1" colspan="1">1918</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>10-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1148</td>
+                      <td rowspan="1" colspan="1">2002</td>
+                      <td rowspan="1" colspan="1">1997</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>11-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1147</td>
+                      <td rowspan="1" colspan="1">2078</td>
+                      <td rowspan="1" colspan="1">2074</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>12-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1147</td>
+                      <td rowspan="1" colspan="1">2150</td>
+                      <td rowspan="1" colspan="1">2147</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>13-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1146</td>
+                      <td rowspan="1" colspan="1">2218</td>
+                      <td rowspan="1" colspan="1">2216</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>14-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1145</td>
+                      <td rowspan="1" colspan="1">2281</td>
+                      <td rowspan="1" colspan="1">2281</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>15-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1145</td>
+                      <td rowspan="1" colspan="1">2340</td>
+                      <td rowspan="1" colspan="1">2341</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>16-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1144</td>
+                      <td rowspan="1" colspan="1">2395</td>
+                      <td rowspan="1" colspan="1">2398</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>17-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1144</td>
+                      <td rowspan="1" colspan="1">2445</td>
+                      <td rowspan="1" colspan="1">2450</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>18-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1143</td>
+                      <td rowspan="1" colspan="1">2491</td>
+                      <td rowspan="1" colspan="1">2498</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>19-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1143</td>
+                      <td rowspan="1" colspan="1">2533</td>
+                      <td rowspan="1" colspan="1">2543</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>20-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1142</td>
+                      <td rowspan="1" colspan="1">2571</td>
+                      <td rowspan="1" colspan="1">2583</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <table-wrap id="T6" position="float">
+                <label>Table 6</label>
+                <caption>
+                  <p>Predicted Value Y<sub>pred</sub> for Dataset (D2) using Hybrid Models</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">Date</td>
+                      <td rowspan="1" colspan="1">GPR</td>
+                      <td rowspan="1" colspan="1">GRNN</td>
+                      <td rowspan="1" colspan="1">RBFNN</td>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>01-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1152</td>
+                      <td rowspan="1" colspan="1">1233</td>
+                      <td rowspan="1" colspan="1">1233</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>02-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1152</td>
+                      <td rowspan="1" colspan="1">1317</td>
+                      <td rowspan="1" colspan="1">1317</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>03-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1151</td>
+                      <td rowspan="1" colspan="1">1404</td>
+                      <td rowspan="1" colspan="1">1404</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>04-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1151</td>
+                      <td rowspan="1" colspan="1">1490</td>
+                      <td rowspan="1" colspan="1">1488</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>05-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1150</td>
+                      <td rowspan="1" colspan="1">1577</td>
+                      <td rowspan="1" colspan="1">1574</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>06-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1150</td>
+                      <td rowspan="1" colspan="1">1667</td>
+                      <td rowspan="1" colspan="1">1664</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>07-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1149</td>
+                      <td rowspan="1" colspan="1">1757</td>
+                      <td rowspan="1" colspan="1">1751</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>08-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1149</td>
+                      <td rowspan="1" colspan="1">1839</td>
+                      <td rowspan="1" colspan="1">1834</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>09-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1148</td>
+                      <td rowspan="1" colspan="1">1920</td>
+                      <td rowspan="1" colspan="1">1916</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>10-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1148</td>
+                      <td rowspan="1" colspan="1">2003</td>
+                      <td rowspan="1" colspan="1">1999</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>11-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1147</td>
+                      <td rowspan="1" colspan="1">2084</td>
+                      <td rowspan="1" colspan="1">2076</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>12-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1147</td>
+                      <td rowspan="1" colspan="1">2148</td>
+                      <td rowspan="1" colspan="1">2145</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>13-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1146</td>
+                      <td rowspan="1" colspan="1">2220</td>
+                      <td rowspan="1" colspan="1">2213</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>14-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1146</td>
+                      <td rowspan="1" colspan="1">2286</td>
+                      <td rowspan="1" colspan="1">2282</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>15-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1145</td>
+                      <td rowspan="1" colspan="1">2338</td>
+                      <td rowspan="1" colspan="1">2340</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>16-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1144</td>
+                      <td rowspan="1" colspan="1">2395</td>
+                      <td rowspan="1" colspan="1">2396</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>17-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1144</td>
+                      <td rowspan="1" colspan="1">2451</td>
+                      <td rowspan="1" colspan="1">2452</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>18-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1143</td>
+                      <td rowspan="1" colspan="1">2492</td>
+                      <td rowspan="1" colspan="1">2500</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>19-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1143</td>
+                      <td rowspan="1" colspan="1">2534</td>
+                      <td rowspan="1" colspan="1">2540</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>20-May-20</bold>
+                      </td>
+                      <td rowspan="1" colspan="1">1142</td>
+                      <td rowspan="1" colspan="1">2570</td>
+                      <td rowspan="1" colspan="1">2580</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <fig id="F4" fig-type="illustration" position="float">
+                <label>Figure 4</label>
+                <caption>
+                  <p>Comparison of Standard and Hybrid Models for D1</p>
+                </caption>
+                <graphic xlink:href="AFHS2101-0194Fig4"/>
+              </fig>
+              <p><xref rid="T7" ref-type="table">Table 7</xref> shows the predicted number of COVID-19 death cases using the dataset (D1) for three standard and hybrid models. The spread value (σ) of GRNN and RBFNN is 2 and 1.28, respectively.</p>
+              <table-wrap id="T7" position="float">
+                <label>Table 7</label>
+                <caption>
+                  <p>Predicted Death Cases for Dataset (D1)</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead valign="top">
+                    <tr>
+                      <td rowspan="2" align="center" colspan="1">Confirmed<break/>
+cases</td>
+                      <td colspan="3" align="center" rowspan="1">Standard Models</td>
+                      <td colspan="3" align="center" rowspan="1">Hybrid Models</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">GPR</td>
+                      <td align="center" rowspan="1" colspan="1">GRNN</td>
+                      <td align="center" rowspan="1" colspan="1">RBFNN</td>
+                      <td align="center" rowspan="1" colspan="1">GPR</td>
+                      <td align="center" rowspan="1" colspan="1">GRNN</td>
+                      <td align="center" rowspan="1" colspan="1">RBFNN</td>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>40000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1149</td>
+                      <td align="center" rowspan="1" colspan="1">1334</td>
+                      <td align="center" rowspan="1" colspan="1">1449</td>
+                      <td align="center" rowspan="1" colspan="1">1149</td>
+                      <td align="center" rowspan="1" colspan="1">1333</td>
+                      <td align="center" rowspan="1" colspan="1">1449</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>45000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1145</td>
+                      <td align="center" rowspan="1" colspan="1">1458</td>
+                      <td align="center" rowspan="1" colspan="1">1659</td>
+                      <td align="center" rowspan="1" colspan="1">1148</td>
+                      <td align="center" rowspan="1" colspan="1">1458</td>
+                      <td align="center" rowspan="1" colspan="1">1665</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>50000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1142</td>
+                      <td align="center" rowspan="1" colspan="1">1536</td>
+                      <td align="center" rowspan="1" colspan="1">1787</td>
+                      <td align="center" rowspan="1" colspan="1">1141</td>
+                      <td align="center" rowspan="1" colspan="1">1534</td>
+                      <td align="center" rowspan="1" colspan="1">1787</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>55000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1138</td>
+                      <td align="center" rowspan="1" colspan="1">1582</td>
+                      <td align="center" rowspan="1" colspan="1">1860</td>
+                      <td align="center" rowspan="1" colspan="1">1133</td>
+                      <td align="center" rowspan="1" colspan="1">1583</td>
+                      <td align="center" rowspan="1" colspan="1">1860</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>60000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1134</td>
+                      <td align="center" rowspan="1" colspan="1">1610</td>
+                      <td align="center" rowspan="1" colspan="1">1898</td>
+                      <td align="center" rowspan="1" colspan="1">1133</td>
+                      <td align="center" rowspan="1" colspan="1">1609</td>
+                      <td align="center" rowspan="1" colspan="1">1898</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>65000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1130</td>
+                      <td align="center" rowspan="1" colspan="1">1628</td>
+                      <td align="center" rowspan="1" colspan="1">1919</td>
+                      <td align="center" rowspan="1" colspan="1">1130</td>
+                      <td align="center" rowspan="1" colspan="1">1628</td>
+                      <td align="center" rowspan="1" colspan="1">1918</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>70000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1126</td>
+                      <td align="center" rowspan="1" colspan="1">1639</td>
+                      <td align="center" rowspan="1" colspan="1">1929</td>
+                      <td align="center" rowspan="1" colspan="1">1125</td>
+                      <td align="center" rowspan="1" colspan="1">1638</td>
+                      <td align="center" rowspan="1" colspan="1">1929</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>75000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1122</td>
+                      <td align="center" rowspan="1" colspan="1">1647</td>
+                      <td align="center" rowspan="1" colspan="1">1935</td>
+                      <td align="center" rowspan="1" colspan="1">1122</td>
+                      <td align="center" rowspan="1" colspan="1">1647</td>
+                      <td align="center" rowspan="1" colspan="1">1935</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>80000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1118</td>
+                      <td align="center" rowspan="1" colspan="1">1654</td>
+                      <td align="center" rowspan="1" colspan="1">1938</td>
+                      <td align="center" rowspan="1" colspan="1">1116</td>
+                      <td align="center" rowspan="1" colspan="1">1653</td>
+                      <td align="center" rowspan="1" colspan="1">1937</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>85000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1115</td>
+                      <td align="center" rowspan="1" colspan="1">1660</td>
+                      <td align="center" rowspan="1" colspan="1">1939</td>
+                      <td align="center" rowspan="1" colspan="1">1114</td>
+                      <td align="center" rowspan="1" colspan="1">1659</td>
+                      <td align="center" rowspan="1" colspan="1">1939</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>90000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1111</td>
+                      <td align="center" rowspan="1" colspan="1">1665</td>
+                      <td align="center" rowspan="1" colspan="1">1940</td>
+                      <td align="center" rowspan="1" colspan="1">1109</td>
+                      <td align="center" rowspan="1" colspan="1">1663</td>
+                      <td align="center" rowspan="1" colspan="1">1940</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>100000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1103</td>
+                      <td align="center" rowspan="1" colspan="1">1674</td>
+                      <td align="center" rowspan="1" colspan="1">1940</td>
+                      <td align="center" rowspan="1" colspan="1">1101</td>
+                      <td align="center" rowspan="1" colspan="1">1673</td>
+                      <td align="center" rowspan="1" colspan="1">1940</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <p>From the presented <xref rid="T7" ref-type="table">table 7</xref>, it is evident that there is no difference in the predicted values for standard and hybrid GPR models using the dataset (D1) since their RMSE value is about 0.18 approximately. <xref rid="F5" ref-type="fig">Figure 5</xref> shows the number of death cases predicted against the number of COVID-19 confirmed cases. From this perspective, there is no significant difference between the standard and hybrid models for the dataset (D1), as their RMSE values are negligible. However, in this case, the GPR models perform better than the SNNs. <xref rid="T8" ref-type="table">Table 8</xref> shows the calculated Mortality Rate Prediction (MRP) for COVID- 19 predicted death cases using the dataset (D1). MRP is defined as equation (9)</p>
+              <disp-formula id="FD9">
+                <label>(9)</label>
+                <mml:math id="M9">
+                  <mml:mrow>
+                    <mml:mrow>
+                      <mml:mtext>MRP</mml:mtext>
+                      <mml:mo>=</mml:mo>
+                      <mml:mfrac>
+                        <mml:mrow>
+                          <mml:mi>Number</mml:mi>
+                          <mml:mtext> </mml:mtext>
+                          <mml:mi>of</mml:mi>
+                          <mml:mtext> </mml:mtext>
+                          <mml:mi>Predicted</mml:mi>
+                          <mml:mtext> </mml:mtext>
+                          <mml:mi>Death</mml:mi>
+                          <mml:mtext> </mml:mtext>
+                          <mml:mi>Cases</mml:mi>
+                        </mml:mrow>
+                        <mml:mrow>
+                          <mml:mi>Number</mml:mi>
+                          <mml:mtext> </mml:mtext>
+                          <mml:mi>of</mml:mi>
+                          <mml:mtext> </mml:mtext>
+                          <mml:mi>Confirmed</mml:mi>
+                          <mml:mtext> </mml:mtext>
+                          <mml:mi>Cases</mml:mi>
+                        </mml:mrow>
+                      </mml:mfrac>
+                      <mml:mo>∗</mml:mo>
+                      <mml:mn>100</mml:mn>
+                    </mml:mrow>
+                  </mml:mrow>
+                </mml:math>
+              </disp-formula>
+              <fig id="F5" fig-type="illustration" position="float">
+                <label>Figure 5</label>
+                <caption>
+                  <p>Comparison of Standard and Hybrid Models for D1</p>
+                </caption>
+                <graphic xlink:href="AFHS2101-0194Fig5"/>
+              </fig>
+              <table-wrap id="T8" position="float">
+                <label>Table 8</label>
+                <caption>
+                  <p>Mortality Rate Prediction for Dataset (D1)</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <thead valign="top">
+                    <tr>
+                      <td rowspan="2" align="center" colspan="1">Confirmed<break/>
+cases</td>
+                      <td colspan="3" align="center" rowspan="1">Standard Models</td>
+                      <td colspan="3" align="center" rowspan="1">Hybrid Models</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">GPR</td>
+                      <td align="center" rowspan="1" colspan="1">GRNN</td>
+                      <td align="center" rowspan="1" colspan="1">RBFNN</td>
+                      <td align="center" rowspan="1" colspan="1">GPR</td>
+                      <td align="center" rowspan="1" colspan="1">GRNN</td>
+                      <td align="center" rowspan="1" colspan="1">RBFNN</td>
+                    </tr>
+                  </thead>
+                  <tbody valign="top">
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>40000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">2.87</td>
+                      <td align="center" rowspan="1" colspan="1">3.34</td>
+                      <td align="center" rowspan="1" colspan="1">3.62</td>
+                      <td align="center" rowspan="1" colspan="1">2.87</td>
+                      <td align="center" rowspan="1" colspan="1">3.33</td>
+                      <td align="center" rowspan="1" colspan="1">3.62</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>45000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">2.54</td>
+                      <td align="center" rowspan="1" colspan="1">3.24</td>
+                      <td align="center" rowspan="1" colspan="1">3.69</td>
+                      <td align="center" rowspan="1" colspan="1">2.55</td>
+                      <td align="center" rowspan="1" colspan="1">3.24</td>
+                      <td align="center" rowspan="1" colspan="1">3.70</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>50000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">2.28</td>
+                      <td align="center" rowspan="1" colspan="1">3.07</td>
+                      <td align="center" rowspan="1" colspan="1">3.57</td>
+                      <td align="center" rowspan="1" colspan="1">2.28</td>
+                      <td align="center" rowspan="1" colspan="1">3.07</td>
+                      <td align="center" rowspan="1" colspan="1">3.57</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>55000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">2.07</td>
+                      <td align="center" rowspan="1" colspan="1">2.88</td>
+                      <td align="center" rowspan="1" colspan="1">3.38</td>
+                      <td align="center" rowspan="1" colspan="1">2.06</td>
+                      <td align="center" rowspan="1" colspan="1">2.88</td>
+                      <td align="center" rowspan="1" colspan="1">3.38</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>60000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.89</td>
+                      <td align="center" rowspan="1" colspan="1">2.68</td>
+                      <td align="center" rowspan="1" colspan="1">3.16</td>
+                      <td align="center" rowspan="1" colspan="1">1.89</td>
+                      <td align="center" rowspan="1" colspan="1">2.68</td>
+                      <td align="center" rowspan="1" colspan="1">3.16</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>65000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.74</td>
+                      <td align="center" rowspan="1" colspan="1">2.50</td>
+                      <td align="center" rowspan="1" colspan="1">2.95</td>
+                      <td align="center" rowspan="1" colspan="1">1.74</td>
+                      <td align="center" rowspan="1" colspan="1">2.50</td>
+                      <td align="center" rowspan="1" colspan="1">2.95</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>70000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.61</td>
+                      <td align="center" rowspan="1" colspan="1">2.34</td>
+                      <td align="center" rowspan="1" colspan="1">2.76</td>
+                      <td align="center" rowspan="1" colspan="1">1.61</td>
+                      <td align="center" rowspan="1" colspan="1">2.34</td>
+                      <td align="center" rowspan="1" colspan="1">2.76</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>75000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.50</td>
+                      <td align="center" rowspan="1" colspan="1">2.20</td>
+                      <td align="center" rowspan="1" colspan="1">2.58</td>
+                      <td align="center" rowspan="1" colspan="1">1.50</td>
+                      <td align="center" rowspan="1" colspan="1">2.20</td>
+                      <td align="center" rowspan="1" colspan="1">2.58</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>80000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.40</td>
+                      <td align="center" rowspan="1" colspan="1">2.07</td>
+                      <td align="center" rowspan="1" colspan="1">2.42</td>
+                      <td align="center" rowspan="1" colspan="1">1.40</td>
+                      <td align="center" rowspan="1" colspan="1">2.07</td>
+                      <td align="center" rowspan="1" colspan="1">2.42</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>85000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.31</td>
+                      <td align="center" rowspan="1" colspan="1">1.95</td>
+                      <td align="center" rowspan="1" colspan="1">2.28</td>
+                      <td align="center" rowspan="1" colspan="1">1.31</td>
+                      <td align="center" rowspan="1" colspan="1">1.95</td>
+                      <td align="center" rowspan="1" colspan="1">2.28</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>90000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.23</td>
+                      <td align="center" rowspan="1" colspan="1">1.85</td>
+                      <td align="center" rowspan="1" colspan="1">2.16</td>
+                      <td align="center" rowspan="1" colspan="1">1.23</td>
+                      <td align="center" rowspan="1" colspan="1">1.85</td>
+                      <td align="center" rowspan="1" colspan="1">2.16</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>95000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.17</td>
+                      <td align="center" rowspan="1" colspan="1">1.76</td>
+                      <td align="center" rowspan="1" colspan="1">2.04</td>
+                      <td align="center" rowspan="1" colspan="1">1.16</td>
+                      <td align="center" rowspan="1" colspan="1">1.76</td>
+                      <td align="center" rowspan="1" colspan="1">2.04</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">
+                        <bold>100000</bold>
+                      </td>
+                      <td align="center" rowspan="1" colspan="1">1.10</td>
+                      <td align="center" rowspan="1" colspan="1">1.67</td>
+                      <td align="center" rowspan="1" colspan="1">1.94</td>
+                      <td align="center" rowspan="1" colspan="1">1.10</td>
+                      <td align="center" rowspan="1" colspan="1">1.67</td>
+                      <td align="center" rowspan="1" colspan="1">1.94</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <p><xref rid="F6" ref-type="fig">Figure 6</xref> illustrates the predicted curve for COVID-19 death cases versus the number of confirmed cases for India. Here, the X-axis indicates the number of confirmed cases, and Y-axis shows the number of death cases predicted. The GPR model shows a gradual decrease in the number of death cases, while the SNN models show an increasing pattern.</p>
+              <fig id="F6" fig-type="illustration" position="float">
+                <label>Figure 6</label>
+                <caption>
+                  <p>Predicted Curve for Dataset (D1) using GPR, GRNN, and RBFNN</p>
+                </caption>
+                <graphic xlink:href="AFHS2101-0194Fig6"/>
+              </fig>
+              <p><xref rid="F7" ref-type="fig">Figure 7</xref> displays the predicted curve for COVID-19 death cases versus the number of days since the first COVID-19 case for India.</p>
+              <fig id="F7" fig-type="illustration" position="float">
+                <label>Figure 7</label>
+                <caption>
+                  <p>Predicted Curve for Dataset (D2) using GPR, GRNN, and RBFNN</p>
+                </caption>
+                <graphic xlink:href="AFHS2101-0194Fig7"/>
+              </fig>
+              <p>Here, the X-axis indicates the number of days, and Y-axis shows the number of death cases predicted. For the dataset (D2) also, the GPR model shows a gradual decrease in the number of death cases, while the SNN models show an increasing pattern.</p>
+              <p>The performance of these models is compared based on RMSE value, as shown in <xref rid="F8" ref-type="fig">figure 8</xref>. From the results, it can be found that GPR performs better than statistical neural networks for two types of COVID-19 dataset.</p>
+              <fig id="F8" fig-type="illustration" position="float">
+                <label>Figure 8</label>
+                <caption>
+                  <p>Comparison of RMSE values with a different model</p>
+                </caption>
+                <graphic xlink:href="AFHS2101-0194Fig8"/>
+              </fig>
+            </sec>
+            <sec sec-type="conclusions">
+              <title>Conclusion</title>
+              <p>This article proposed a methodology that hybridized the regression model (GPR) and the SSN(GRNN and RBFNN) models with the NAR-NN time series forecasting model to achieve higher predictive accuracy in the prediction of COVID-19 death cases. The NARNN time series forecasting model was used to predict errors that should be included in the expected value. The Gaussian Process Regression (GPR) model for the two datasets has yielded a relatively good result in terms of optimized predicted values for death cases in the COVID-19 epidemiological data.</p>
+              <p>The proposed method is capable of providing a predictive tool for assessing its current state of infection, severity, and help government and health care workers for better decision making to reduce the mortality rate in India.</p>
+              <p>The first author acknowledges the ―UGC- Special Assistance Programme (SAP) for the financial support to her research under the ―UGC-SAP at the level of DRS-II (Ref.No.F.5-6/2018/DRS-II (SAP-II)), 26 July 2018 in the Department of Computer Science, Periyar University.</p>
+            </sec>
+          </body>
+          <back>
+            <sec>
+              <title>Conflict of interest</title>
+              <p>The authors have no conflict of interest.</p>
+            </sec>
+            <ref-list>
+              <ref id="R1">
+                <label>1</label>
+                <element-citation publication-type="book">
+                  <collab collab-type="author">WHO | Novel Coronavirus – China. WHO</collab>
+                  <source>Archived from the original on 23 January 2020</source>
+                  <comment>Retrieved 1 February 2020</comment>
+                </element-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <element-citation publication-type="book">
+                  <source>Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV)</source>
+                  <year>2020</year>
+                  <month>1</month>
+                  <day>30</day>
+                  <publisher-name>World Health Organization (WHO)</publisher-name>
+                  <comment>Archived from the original on 31 January 2020. Retrieved 30 January 2020</comment>
+                </element-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Annie</surname>
+                      <given-names>Sparrow</given-names>
+                    </name>
+                  </person-group>
+                  <source>How China's Coronavirus Is Spreading and How to Stop It, Foreign Policy</source>
+                  <comment>Archived from the original on 31 January 2020. Retrieved 2 February 2020</comment>
+                </element-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Novel COVID-19 Mortality Rate Prediction (MRP) Model for India Using Regression Model With Optimized Hyperparameter</article-title>
+                  <source>Journal of Cases on Information Technology</source>
+                  <year>2021</year>
+                  <volume>23</volume>
+                  <issue>4</issue>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Devipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Selvi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SEIR model FOR COVID-19 Epidemic using DELAY differential equation</article-title>
+                  <source>Journal of Physics: Conference Series</source>
+                  <year>2021</year>
+                  <volume>1767</volume>
+                  <issue>1</issue>
+                  <fpage>012005</fpage>
+                </element-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>COVID-19 Mortality Rate Prediction for India Using Statistical Neural Network Models</article-title>
+                  <source>Frontiers in Public Health</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                </element-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Philippe</surname>
+                      <given-names>Deprez</given-names>
+                    </name>
+                    <name>
+                      <surname>Shevchenko</surname>
+                      <given-names>Pavel V</given-names>
+                    </name>
+                    <name>
+                      <surname>Wüthrich</surname>
+                      <given-names>Mario V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Machine learning techniques for mortality modeling</article-title>
+                  <source>European Actuarial Journal</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>337</fpage>
+                  <lpage>352</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Donatien</surname>
+                      <given-names>Hainaut</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A neural-network analyzer for mortality forecast</article-title>
+                  <source>Astin Bulletin</source>
+                  <year>2018</year>
+                  <volume>48</volume>
+                  <fpage>481</fpage>
+                  <lpage>508</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Richman</surname>
+                      <given-names>Ronald</given-names>
+                    </name>
+                    <name>
+                      <surname>Wüthrich</surname>
+                      <given-names>Mario V</given-names>
+                    </name>
+                  </person-group>
+                  <source>A Neural Network Extension of the Lee-Carter Model to Multiple Populations</source>
+                  <year>2018</year>
+                  <publisher-loc>Rochester</publisher-loc>
+                  <publisher-name>SSRN</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Razavi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Tolson</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>Burn</surname>
+                      <given-names>DH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Review of surrogate modelling in water resources</article-title>
+                  <source>Water Resources Research</source>
+                  <year>2012</year>
+                  <volume>48</volume>
+                  <issue>7</issue>
+                  <pub-id pub-id-type="doi">10.1029/2011wr011527</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Raghavendra</surname>
+                      <given-names>NS</given-names>
+                    </name>
+                    <name>
+                      <surname>Deka</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                  </person-group>
+                  <source>Multistep ahead groundwater level time-series forecasting using Gaussian Process Regression and ANFIS, Advanced Computing and Systems for Security, Advances in Intelligent Systems and Computing</source>
+                  <year>2016</year>
+                  <volume>396</volume>
+                  <publisher-loc>New Delhi, India</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sivabalan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Arbitrary walk with minimum length based route identification scheme in graph structure for opportunistic wireless sensor network</article-title>
+                  <source>Swarm Intelligence for Resource Management in Internet of Things</source>
+                  <year>2020</year>
+                  <fpage>47</fpage>
+                  <lpage>63</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roy</surname>
+                      <given-names>DK</given-names>
+                    </name>
+                    <name>
+                      <surname>Datta</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trained meta-models and evolutionary algorithm based multi-objective management of coastal aquifers under parameter uncertainty</article-title>
+                  <source>Journal of Hydroinformatics</source>
+                  <year>2018</year>
+                </element-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ebden</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <source>Gaussian Processes for Regression: A Quick Introduction</source>
+                  <year>2008</year>
+                  <month>8</month>
+                </element-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Application of Gaussian process regression for bearing degradation assessment, Information Science and Service Science and Data Mining (ISSDM)</article-title>
+                  <source>2012 Sixth International Conference on New Trends in</source>
+                  <year>2012</year>
+                </element-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sivabalan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Opportunistic Forward Routing Using Bee Colony Optimization</article-title>
+                  <source>International Journal of Computer Sciences and Engineering</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <issue>5</issue>
+                  <fpage>1820</fpage>
+                  <lpage>1827</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rasmussen</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gaussian processes in machine learning</article-title>
+                  <source>Adv Lect Mach Learn</source>
+                  <year>2004</year>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                </element-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ažman</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Kocijan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamical systems identification using Gaussian process models with incorporated local models</article-title>
+                  <source>Eng. Appl. Artif. Intell</source>
+                  <year>2011</year>
+                  <volume>24</volume>
+                  <issue>2</issue>
+                </element-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recursive Gaussian process: on-line regression and learning</article-title>
+                  <source>Pattern Recognit. Lett</source>
+                  <year>2014</year>
+                </element-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rasmussen</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>CKI</given-names>
+                    </name>
+                  </person-group>
+                  <source>Gaussian Processes for Machine Learning</source>
+                  <year>2006</year>
+                  <publisher-loc>Cambridge</publisher-loc>
+                  <publisher-name>MIT Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saha</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Saha</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Saxen</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Goebel</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <source>Distributed prognostic health management with gaussian process regression</source>
+                  <year>2010</year>
+                  <month>3</month>
+                  <conf-name>2010 IEEE Aerosp Conf</conf-name>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ažman</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Kocijan</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamical systems identification using Gaussian process models with incorporated local models</article-title>
+                  <source>Eng. Appl. Artif. Intell</source>
+                  <year>2011</year>
+                  <volume>24</volume>
+                  <issue>2</issue>
+                </element-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaleeswaran</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Comparative Study of Activation Functions and Training Algorithm of NAR Neural Network for Crop Prediction</article-title>
+                  <source>4th International Conference on Electronics, Communication and Aerospace Technology (ICECA), 2020</source>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaleeswaran</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multi-crop Selection Model Using Binary Particle Swarm Optimization</article-title>
+                  <source>Innovative Data Communication Technologies and Application</source>
+                  <year>2021</year>
+                  <fpage>57</fpage>
+                  <lpage>68</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recursive Gaussian process: on-line regression and learning</article-title>
+                  <source>Pattern Recognit. Lett</source>
+                  <year>2014</year>
+                </element-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A pilot study on climate data analysis tools and software</article-title>
+                  <source>Online International Conference on Green Engineering and Technologies (IC-GET)</source>
+                  <year>2016</year>
+                </element-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rasmussen</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>CKI</given-names>
+                    </name>
+                  </person-group>
+                  <source>Gaussian Processes for Machine Learning</source>
+                  <year>2006</year>
+                  <publisher-loc>Cambridge</publisher-loc>
+                  <publisher-name>MIT Press</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recursive Gaussian process regression</article-title>
+                  <source>IEEE Int. Conf. Acoust. Speech Signal Process</source>
+                  <year>2013</year>
+                </element-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Fleet</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hertzmann</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gaussian process dynamical models for the human motion, IEEE Trans</article-title>
+                  <source>Pattern Anal. Mach. Intell</source>
+                  <year>2008</year>
+                  <volume>30</volume>
+                  <issue>2</issue>
+                </element-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seyedzadeh</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rahman</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Glesk</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <source>Machine learning for estimation of building energy consumption and performance: a review, Vis. in Eng</source>
+                  <year>2018</year>
+                </element-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>AL-Mahasneh</surname>
+                      <given-names>Ahmad Jobran</given-names>
+                    </name>
+                    <name>
+                      <surname>Anavatti</surname>
+                      <given-names>Sreenatha G</given-names>
+                    </name>
+                    <name>
+                      <surname>Garratt</surname>
+                      <given-names>Matthew A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Review of Applications of Generalized Regression Neural Networks in Identification and Control of Dynamic Systems</article-title>
+                  <source>Neural and Evolutionary Computing</source>
+                  <year>2018</year>
+                </element-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Region-Wise Rainfall Prediction Using MapReduce-Based Exponential Smoothing Techniques</article-title>
+                  <source>Advances in Intelligent Systems and Computing</source>
+                  <year>2018</year>
+                  <fpage>229</fpage>
+                  <lpage>239</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>OM</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Usage of Probabilistic and General Regression Neural Network for Early Detection and Prevention of Oral Cancer</article-title>
+                  <source>The Scientific World Journal</source>
+                  <year>2015</year>
+                </element-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Shan</surname>
+                      <given-names>XW</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>WW</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>ZW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prediction on the incidence of blood and sexually transmitted diseases with models of ARIMA and GRNN</article-title>
+                  <source>Modern Preventive Medicine</source>
+                  <year>2012</year>
+                  <volume>6</volume>
+                  <fpage>1337</fpage>
+                  <lpage>1340</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Asante-Okyere</surname>
+                      <given-names>Solomon</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>Chuanbo</given-names>
+                    </name>
+                    <name>
+                      <surname>Ziggah</surname>
+                      <given-names>Yao Yevenyo</given-names>
+                    </name>
+                    <name>
+                      <surname>Rulegeya</surname>
+                      <given-names>Mercy Moses</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>Xiangfeng</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Investigating the Predictive Performance of Gaussian Process Regression in Evaluating Reservoir Porosity and Permeability</article-title>
+                  <source>Energies</source>
+                  <year>2018</year>
+                  <volume>11</volume>
+                  <issue>12</issue>
+                  <fpage>3261</fpage>
+                  <pub-id pub-id-type="doi">10.3390/en11123261</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmed Nesreen</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Atiya Amir</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Gayar Neamat</surname>
+                      <given-names>El</given-names>
+                    </name>
+                    <name>
+                      <surname>Hisham</surname>
+                      <given-names>El-Shishiny</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An Empirical Comparison of Ma- chine Learning Models for Time Series Forecasting</article-title>
+                  <source>Econometric Reviews</source>
+                  <year>2010</year>
+                  <volume>29</volume>
+                  <issue>5</issue>
+                  <fpage>594</fpage>
+                  <lpage>621</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shaikh</surname>
+                      <given-names>Abdul</given-names>
+                    </name>
+                    <name>
+                      <surname>Hannan</surname>
+                      <given-names>Abdul</given-names>
+                    </name>
+                    <name>
+                      <surname>Manza</surname>
+                      <given-names>Ramesh</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramteke</surname>
+                      <given-names>Rakesh</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Generalized Regression Neural Network and Radial Basis Function for Heart Disease Diagnosis</article-title>
+                  <source>International Journal of Computer Applications</source>
+                  <year>2010</year>
+                  <volume>13</volume>
+                  <issue>13</issue>
+                </element-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Variable Selection Method for Regression Models Using Computational Intelligence Techniques</article-title>
+                  <source>Research Anthology on Multi-Industry Uses of Genetic Programming and Algorithms</source>
+                  <year>2021</year>
+                  <fpage>742</fpage>
+                  <lpage>761</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>LR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Phenomenological forecasting of disease incidence using heteroskedastic Gaussian processes: A dengue case study</article-title>
+                  <year>2017</year>
+                  <comment>arXiv:1702.00261</comment>
+                </element-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Montazer</surname>
+                      <given-names>Gholam Ali</given-names>
+                    </name>
+                    <name>
+                      <surname>Giveki</surname>
+                      <given-names>Davar</given-names>
+                    </name>
+                    <name>
+                      <surname>Karami</surname>
+                      <given-names>Maryam</given-names>
+                    </name>
+                    <name>
+                      <surname>Rastegar</surname>
+                      <given-names>Homayon</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Radial Basis Function Neural Networks: A Review</article-title>
+                  <source>Computer Reviews Journal</source>
+                  <year>2018</year>
+                  <volume>1</volume>
+                  <issue>1</issue>
+                  <comment>Advanced Computing</comment>
+                </element-citation>
+              </ref>
+              <ref id="R41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dhamodharavadhani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathipriya</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enhanced Logistic Regression (ELR) Model for Big Data</article-title>
+                  <source>Handbook of Research on Big Data Clustering and Machine Learning</source>
+                  <year>2020</year>
+                  <fpage>152</fpage>
+                  <lpage>176</lpage>
+                </element-citation>
+              </ref>
+              <ref id="R42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martínez</surname>
+                      <given-names>Francisco</given-names>
+                    </name>
+                    <name>
+                      <surname>Charte</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Rivas</surname>
+                      <given-names>Antonio Jesús Rivera</given-names>
+                    </name>
+                    <name>
+                      <surname>Frías</surname>
+                      <given-names>María P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Automatic Time Series Forecasting with GRNN: A Comparison with Other Models</article-title>
+                  <source>Advances in Computational Intelligence</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1007/978-3-030-20521-8_17</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
